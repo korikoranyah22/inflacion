@@ -3940,6 +3940,112 @@ footer{margin:18px 0 0;padding:14px 16px;color:#7c6a89;font-size:12px;line-heigh
 .table-card{padding:18px}
 @media(max-width:980px){.grid{grid-template-columns:1fr}.mascot{display:none}.hero{padding-left:10px;padding-right:10px}}
 @media(max-width:760px){.footnotes{grid-template-columns:1fr}}
+
+/* ===== Responsive mobile fixes ===== */
+html, body { overflow-x: hidden; }
+img, svg { max-width: 100%; }
+
+@media (max-width: 980px) {
+  .wrap { padding: 18px 14px 34px; }
+  .grid { grid-template-columns: 1fr; gap: 14px; }
+  .side { padding: 16px; }
+  .card-head { padding: 16px 16px 4px; }
+  .card-title { font-size: 19px; line-height: 1.25; }
+  .kicker { font-size: 12px; white-space: normal; text-align: center; max-width: 160px; }
+  .tabs { gap: 8px; margin: 14px 0; }
+  .tab-btn, .subbtn { padding: 9px 12px; font-size: 14px; }
+}
+
+@media (max-width: 720px) {
+  .wrap { padding: 14px 10px 28px; }
+
+  .hero { padding: 10px 4px 4px; }
+  .hero h1 { font-size: 34px; line-height: 1.02; }
+  .hero .sub {
+    display: block; width: 100%; padding: 10px 13px;
+    font-size: 15px; line-height: 1.35; border-radius: 24px;
+  }
+  .badge { font-size: 13px; line-height: 1.3; margin-top: 10px; }
+
+  .tabs {
+    display: grid; grid-template-columns: 1fr 1fr;
+    width: 100%; gap: 8px;
+  }
+  .tab-btn {
+    width: 100%; min-width: 0; white-space: normal;
+    line-height: 1.2; font-size: 13px;
+  }
+  .tab-btn:nth-child(3) {
+    grid-column: 1 / -1; width: min(78%, 330px); justify-self: center;
+  }
+
+  .controls { gap: 7px; margin: 12px 0; }
+  .subbtn { font-size: 13px; }
+
+  .card { border-radius: 20px; }
+  .card-head { align-items: flex-start; padding: 15px 14px 2px; }
+  .card-title { font-size: 20px; max-width: 68%; }
+  .kicker {
+    max-width: 118px; flex: 0 0 auto;
+    padding: 6px 8px; font-size: 11px;
+  }
+
+  #powerChart { height: 540px; }
+  #nominalChart { height: 500px; }
+  #realChart { height: 540px; }
+  #presChart { height: 440px; }
+
+  .side table { font-size: 12px; }
+  .metric { font-size: 24px; }
+
+  /* Presidential table: stack cells as mobile cards */
+  #tab-pres .table-card { padding: 12px; }
+  #tab-pres table {
+    display: block; width: 100%; border: 0;
+    background: transparent; overflow: visible;
+  }
+  #tab-pres thead { display: none; }
+  #tab-pres tbody { display: grid; gap: 10px; }
+  #tab-pres tr {
+    display: grid; grid-template-columns: 1fr; gap: 0;
+    border: 1px solid #eddcf3; border-radius: 16px;
+    overflow: hidden; background: #fff;
+    box-shadow: 0 5px 14px rgba(113,76,145,.06);
+  }
+  #tab-pres td {
+    display: grid;
+    grid-template-columns: minmax(118px, 42%) 1fr;
+    align-items: baseline; gap: 10px; width: 100%;
+    padding: 9px 11px; border-bottom: 1px solid #f2e8f6;
+    text-align: right; font-size: 14px; line-height: 1.3;
+  }
+  #tab-pres td:last-child { border-bottom: 0; }
+  #tab-pres td::before {
+    text-align: left; color: #8a6d98; font-size: 11px;
+    font-weight: 800; text-transform: uppercase; letter-spacing: .02em;
+  }
+  #tab-pres td:nth-child(1)::before { content: "Presidente"; }
+  #tab-pres td:nth-child(2)::before { content: "Período"; }
+  #tab-pres td:nth-child(3)::before { content: "Inflación acumulada"; }
+  #tab-pres td:nth-child(4)::before { content: "Mensual equivalente"; }
+
+  .footnotes { grid-template-columns: 1fr; }
+  footer { padding: 12px 13px; font-size: 11px; }
+  .credit { text-align: center; margin-top: 14px; }
+}
+
+@media (max-width: 420px) {
+  .hero h1 { font-size: 31px; }
+  .hero .sub { font-size: 14px; }
+  .tab-btn { font-size: 12px; padding: 9px 7px; }
+  .card-title { font-size: 18px; }
+  .kicker { max-width: 104px; font-size: 10px; }
+  #powerChart { height: 510px; }
+  #nominalChart { height: 485px; }
+  #realChart { height: 525px; }
+  #presChart { height: 420px; }
+}
+
 </style>
 </head>
 <body>
@@ -4104,6 +4210,11 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.classList.add('active');
     document.getElementById(btn.dataset.tab).classList.add('active');
     window.dispatchEvent(new Event('resize'));
+    setTimeout(() => {
+      responsiveRelayout();
+      document.querySelectorAll('.tab-panel.active .js-plotly-plot')
+        .forEach(el => Plotly.Plots.resize(el));
+    }, 100);
   });
 });
 
@@ -4165,7 +4276,7 @@ const powerLayout = {
   annotations:[{x:'2023-11-01',y:1.015,yref:'paper',text:'nov-2023',showarrow:false,font:{color:'#d67852',size:11}}]
 };
 
-Plotly.newPlot('powerChart', powerTraces('nov'), powerLayout, {responsive:true,displaylogo:false});
+Plotly.newPlot('powerChart', powerTraces('nov'), powerLayout, {responsive:true,displaylogo:false,displayModeBar:false});
 
 function switchPowerBase(base) {
   const ys = powerData.series.map(s => base === 'nov' ? s.yNov : s.yJan);
@@ -4201,7 +4312,7 @@ Plotly.newPlot('nominalChart', nominalTraces, {
   xaxis:{...common.xaxis,title:'Año',dtick:2},
   yaxis:{...common.yaxis,title:'Porcentaje anual / del período'},
   annotations:[{xref:'x',yref:'paper',x:2019,y:1.01,text:'Fintech comparable desde 2019',showarrow:false,font:{color:'#d25c86',size:11}}]
-}, {responsive:true,displaylogo:false});
+}, {responsive:true,displaylogo:false,displayModeBar:false});
 
 const xM = modern.map(d=>d.date);
 const realTraces = [
@@ -4216,7 +4327,7 @@ Plotly.newPlot('realChart', realTraces, {
   yaxis:{...common.yaxis,title:'Porcentaje / puntos porcentuales mensuales'},
   shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:0,y1:0,line:{color:'#f1b72c',width:1.6,dash:'dash'}}],
   annotations:[{xref:'paper',x:0.01,yref:'y',y:0,text:'0 = iguala la inflación',showarrow:false,yshift:15,font:{color:'#c38a13',size:11}}]
-}, {responsive:true,displaylogo:false});
+}, {responsive:true,displaylogo:false,displayModeBar:false});
 
 // ---------------- Tab 3: Presidentes ----------------
 const P = presidents;
@@ -4243,13 +4354,96 @@ function drawPres(mode){
     ...presLayoutBase,
     yaxis:{...presLayoutBase.yaxis,title:title},
     annotations:[{xref:'paper',x:0,yref:'paper',y:1.08,text:title+' ♡',showarrow:false,font:{size:20,color:'#633a78'}}]
-  }, {responsive:true,displaylogo:false});
+  }, {responsive:true,displaylogo:false,displayModeBar:false});
   document.getElementById('presMonthly').classList.toggle('active', monthlyMode);
   document.getElementById('presAccum').classList.toggle('active', !monthlyMode);
 }
 document.getElementById('presMonthly').onclick = ()=>drawPres('monthly');
 document.getElementById('presAccum').onclick = ()=>drawPres('acc');
 drawPres('monthly');
+
+// -------- Responsive Plotly layouts --------
+function responsiveRelayout() {
+  const mobile = window.innerWidth <= 720;
+
+  const mobileLegend = {
+    'legend.orientation': mobile ? 'v' : 'h',
+    'legend.x': 0,
+    'legend.xanchor': 'left',
+    'legend.y': mobile ? 1.03 : 1.14,
+    'legend.yanchor': 'bottom',
+    'legend.font.size': mobile ? 11 : 13,
+    'legend.bgcolor': 'rgba(255,255,255,.84)'
+  };
+
+  const settings = [
+    ['powerChart', {
+      ...mobileLegend,
+      'margin.l': mobile ? 54 : 72,
+      'margin.r': mobile ? 10 : 30,
+      'margin.t': mobile ? 168 : 118,
+      'margin.b': mobile ? 72 : 72,
+      'xaxis.dtick': mobile ? 'M24' : 'M12',
+      'xaxis.tickangle': mobile ? -35 : 0,
+      'xaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.title.font.size': mobile ? 11 : 14
+    }],
+    ['nominalChart', {
+      ...mobileLegend,
+      'margin.l': mobile ? 52 : 72,
+      'margin.r': mobile ? 8 : 30,
+      'margin.t': mobile ? 176 : 118,
+      'margin.b': mobile ? 72 : 72,
+      'xaxis.dtick': mobile ? 4 : 2,
+      'xaxis.tickangle': mobile ? -35 : 0,
+      'xaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.title.font.size': mobile ? 11 : 14
+    }],
+    ['realChart', {
+      ...mobileLegend,
+      'margin.l': mobile ? 52 : 72,
+      'margin.r': mobile ? 8 : 30,
+      'margin.t': mobile ? 178 : 118,
+      'margin.b': mobile ? 72 : 72,
+      'xaxis.dtick': mobile ? 'M24' : 'M12',
+      'xaxis.tickangle': mobile ? -35 : 0,
+      'xaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.title.font.size': mobile ? 11 : 14
+    }],
+    ['presChart', {
+      'margin.l': mobile ? 52 : 72,
+      'margin.r': mobile ? 8 : 28,
+      'margin.t': mobile ? 66 : 76,
+      'margin.b': mobile ? 118 : 115,
+      'xaxis.tickangle': mobile ? -42 : -22,
+      'xaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.title.font.size': mobile ? 11 : 14
+    }]
+  ];
+
+  settings.forEach(([id, update]) => {
+    const el = document.getElementById(id);
+    if (el && el.data) {
+      Plotly.relayout(id, update);
+      Plotly.Plots.resize(el);
+    }
+  });
+}
+
+let responsiveTimer = null;
+window.addEventListener('resize', () => {
+  clearTimeout(responsiveTimer);
+  responsiveTimer = setTimeout(responsiveRelayout, 120);
+});
+window.addEventListener('orientationchange', () => {
+  setTimeout(responsiveRelayout, 250);
+});
+setTimeout(responsiveRelayout, 80);
+
 </script>
 </body>
 </html>
