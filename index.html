@@ -4046,6 +4046,117 @@ img, svg { max-width: 100%; }
   #presChart { height: 420px; }
 }
 
+
+/* ===== Mobile chart stability ===== */
+.tab-panel, .grid, .card, .two, main, aside { min-width: 0; }
+#powerChart, #nominalChart, #realChart, #presChart {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden;
+}
+.js-plotly-plot, .plot-container, .svg-container {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.js-plotly-plot {
+  touch-action: pan-y pinch-zoom !important;
+}
+@media (max-width: 720px) {
+  .card { width: 100%; max-width: 100%; }
+  .grid, .two { width: 100%; }
+  #nominalChart { height: 520px; }
+  #realChart { height: 560px; }
+}
+
+
+/* ===== Mobile: navegar gráficos sin perder ejes ===== */
+.tab-panel, .grid, .card, .two, main, aside { min-width: 0; }
+
+.mobile-scroll-hint { display: none; }
+
+@media (max-width: 720px) {
+  .mobile-scroll-hint {
+    display: block;
+    margin: 7px 14px 10px;
+    padding: 8px 11px;
+    border-radius: 999px;
+    background: #fff7fb;
+    border: 1px solid #efcfe0;
+    color: #805e8d;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 750;
+  }
+
+  /* El gráfico ocupa el ancho del celu: el eje Y nunca se va fuera de pantalla. */
+  #powerChart, #nominalChart, #realChart, #presChart,
+  .js-plotly-plot, .plot-container, .svg-container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* El gesto vertical sigue scrolleando la página. */
+  .js-plotly-plot {
+    touch-action: pan-y pinch-zoom !important;
+  }
+
+  /* Estética del selector temporal de Plotly */
+  .rangeslider-bg {
+    fill: #fff3f8 !important;
+    stroke: #efcfe0 !important;
+    stroke-width: 1px !important;
+  }
+  .rangeslider-mask-min,
+  .rangeslider-mask-max {
+    fill: rgba(181,140,255,.15) !important;
+  }
+}
+
+
+/* ===== Native mobile timeline controls (stable on Android) ===== */
+.mobile-range-control {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .mobile-range-control {
+    display: block;
+    margin: 2px 16px 16px;
+    padding: 10px 12px 11px;
+    border: 1px solid #efcfe0;
+    border-radius: 16px;
+    background: linear-gradient(180deg,#fff8fc,#fff2f8);
+  }
+
+  .mobile-range-control .range-labels {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 6px;
+    color: #765486;
+    font-size: 11px;
+    font-weight: 800;
+  }
+
+  .mobile-range-control input[type="range"] {
+    width: 100%;
+    margin: 0;
+    accent-color: #ef85ad;
+    touch-action: pan-y;
+  }
+
+  .mobile-range-control .range-caption {
+    margin-top: 5px;
+    text-align: center;
+    color: #8c748f;
+    font-size: 11px;
+    line-height: 1.3;
+  }
+
+  /* No Plotly mini-chart/rangeslider on mobile. */
+  .rangeslider-container { display: none !important; }
+}
+
 </style>
 </head>
 <body>
@@ -4076,6 +4187,12 @@ img, svg { max-width: 100%; }
           <div class="kicker">2017–2026 · 100 = mes base</div>
         </div>
         <div id="powerChart"></div>
+
+<div class="mobile-range-control" id="powerRangeControl">
+  <div class="range-labels"><span id="powerRangeFrom">2022</span><span id="powerRangeTo">2026</span></div>
+  <input id="powerRange" type="range" min="0" max="0" value="0" step="1" aria-label="Mover período visible del gráfico de poder adquisitivo">
+  <div class="range-caption">↔ Deslizá para recorrer el tiempo · el eje Y queda siempre visible ♡</div>
+</div>
       </main>
       <aside class="card side">
         <h2>Cómo leerlo</h2>
@@ -4105,6 +4222,12 @@ img, svg { max-width: 100%; }
             <div class="kicker">2002–2026 · 2026 parcial</div>
           </div>
           <div id="nominalChart"></div>
+
+<div class="mobile-range-control" id="nominalRangeControl">
+  <div class="range-labels"><span id="nominalRangeFrom">2018</span><span id="nominalRangeTo">2026</span></div>
+  <input id="nominalRange" type="range" min="0" max="18" value="18" step="1" aria-label="Mover período visible del gráfico de tasas nominales">
+  <div class="range-caption">↔ Deslizá para recorrer los años · las escalas quedan adentro del gráfico ♡</div>
+</div>
         </section>
         <section class="card">
           <div class="card-head">
@@ -4112,6 +4235,12 @@ img, svg { max-width: 100%; }
             <div class="kicker">serie mensual · 2019–2026</div>
           </div>
           <div id="realChart"></div>
+
+<div class="mobile-range-control" id="realRangeControl">
+  <div class="range-labels"><span id="realRangeFrom">2022</span><span id="realRangeTo">2026</span></div>
+  <input id="realRange" type="range" min="0" max="0" value="0" step="1" aria-label="Mover período visible del gráfico de tasas reales">
+  <div class="range-caption">↔ Deslizá para recorrer el tiempo · el eje Y queda siempre visible ♡</div>
+</div>
         </section>
       </main>
       <aside class="card side">
@@ -4211,10 +4340,28 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     document.getElementById(btn.dataset.tab).classList.add('active');
     window.dispatchEvent(new Event('resize'));
     setTimeout(() => {
+      const target = btn.dataset.tab;
+
+      if (target === 'tab-rates') {
+        renderRatesVisible();
+        setTimeout(setupNativeRanges, 120);
+      } else if (target === 'tab-pres') {
+        const monthlyActive = document.getElementById('presMonthly').classList.contains('active');
+        drawPres(monthlyActive ? 'monthly' : 'acc');
+        requestAnimationFrame(() => Plotly.Plots.resize(document.getElementById('presChart')));
+      } else if (target === 'tab-power') {
+        Plotly.relayout('powerChart', {
+          'xaxis.fixedrange': true,
+          'yaxis.fixedrange': true,
+          'dragmode': false,
+          'xaxis.rangeslider.visible': false
+        });
+        setTimeout(() => { setupNativeRanges(); applyPowerRange(); }, 80);
+        requestAnimationFrame(() => Plotly.Plots.resize(document.getElementById('powerChart')));
+      }
+
       responsiveRelayout();
-      document.querySelectorAll('.tab-panel.active .js-plotly-plot')
-        .forEach(el => Plotly.Plots.resize(el));
-    }, 100);
+    }, 140);
   });
 });
 
@@ -4267,8 +4414,9 @@ function powerTraces(base) {
 
 const powerLayout = {
   ...common,
-  xaxis:{...common.xaxis,title:'Mes',tickformat:'%b\n%Y',dtick:'M12'},
-  yaxis:{...common.yaxis,title:'Índice real relativo',range:[50,235]},
+  dragmode:false,
+  xaxis:{...common.xaxis,title:'Mes',tickformat:'%b\n%Y',dtick:'M12',range:['2017-01-01','2026-08-01'],fixedrange:true},
+  yaxis:{...common.yaxis,title:'Índice real relativo',range:[50,235],fixedrange:true},
   shapes:[
     {type:'line',xref:'paper',x0:0,x1:1,y0:100,y1:100,line:{color:'#f3b91f',width:1.6,dash:'dash'}},
     {type:'line',x0:'2023-11-01',x1:'2023-11-01',yref:'paper',y0:0,y1:1,line:{color:'#ff9d6b',width:1.2,dash:'dot'}}
@@ -4276,7 +4424,7 @@ const powerLayout = {
   annotations:[{x:'2023-11-01',y:1.015,yref:'paper',text:'nov-2023',showarrow:false,font:{color:'#d67852',size:11}}]
 };
 
-Plotly.newPlot('powerChart', powerTraces('nov'), powerLayout, {responsive:true,displaylogo:false,displayModeBar:false});
+Plotly.newPlot('powerChart', powerTraces('nov'), powerLayout, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
 function switchPowerBase(base) {
   const ys = powerData.series.map(s => base === 'nov' ? s.yNov : s.yJan);
@@ -4312,7 +4460,7 @@ Plotly.newPlot('nominalChart', nominalTraces, {
   xaxis:{...common.xaxis,title:'Año',dtick:2},
   yaxis:{...common.yaxis,title:'Porcentaje anual / del período'},
   annotations:[{xref:'x',yref:'paper',x:2019,y:1.01,text:'Fintech comparable desde 2019',showarrow:false,font:{color:'#d25c86',size:11}}]
-}, {responsive:true,displaylogo:false,displayModeBar:false});
+}, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
 const xM = modern.map(d=>d.date);
 const realTraces = [
@@ -4327,7 +4475,87 @@ Plotly.newPlot('realChart', realTraces, {
   yaxis:{...common.yaxis,title:'Porcentaje / puntos porcentuales mensuales'},
   shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:0,y1:0,line:{color:'#f1b72c',width:1.6,dash:'dash'}}],
   annotations:[{xref:'paper',x:0.01,yref:'y',y:0,text:'0 = iguala la inflación',showarrow:false,yshift:15,font:{color:'#c38a13',size:11}}]
-}, {responsive:true,displaylogo:false,displayModeBar:false});
+}, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+
+
+function renderRatesVisible() {
+  const mobile = window.innerWidth <= 720;
+
+  const nominalLayoutVisible = {
+    ...common,
+    dragmode:false,
+    xaxis:{
+      ...common.xaxis,
+      title:'Año',
+      dtick: mobile ? 1 : 2,
+      range: mobile ? [2018,2026.5] : [2001.5,2026.5],
+      fixedrange:true,
+      rangeslider:{visible:false}
+    },
+    yaxis:{
+      ...common.yaxis,
+      title:'Porcentaje anual / del período',
+      range:[0,230],
+      fixedrange:true
+    },
+    annotations:[{
+      xref:'x',yref:'paper',x:2019,y:1.01,
+      text:'Fintech comparable desde 2019',
+      showarrow:false,font:{color:'#d25c86',size:11}
+    }]
+  };
+
+  const realLayoutVisible = {
+    ...common,
+    dragmode:false,
+    xaxis:{
+      ...common.xaxis,
+      title:'Mes',
+      tickformat:'%b\n%Y',
+      dtick:'M12',
+      range: mobile ? ['2022-07-01','2026-08-01'] : ['2019-01-01','2026-08-01'],
+      fixedrange:true,
+      rangeslider:{visible:false}
+    },
+    yaxis:{
+      ...common.yaxis,
+      title:'Porcentaje / puntos porcentuales mensuales',
+      range:[-14,12],
+      fixedrange:true
+    },
+    shapes:[{
+      type:'line',xref:'paper',x0:0,x1:1,y0:0,y1:0,
+      line:{color:'#f1b72c',width:1.6,dash:'dash'}
+    }],
+    annotations:[{
+      xref:'paper',x:0.01,yref:'y',y:0,
+      text:'0 = iguala la inflación',
+      showarrow:false,yshift:15,
+      font:{color:'#c38a13',size:11}
+    }]
+  };
+
+  const config = {
+    responsive:true,
+    displaylogo:false,
+    displayModeBar:false,
+    scrollZoom:false,
+    doubleClick:false
+  };
+
+  Plotly.react('nominalChart', nominalTraces, nominalLayoutVisible, config);
+  Plotly.react('realChart', realTraces, realLayoutVisible, config);
+
+  requestAnimationFrame(() => {
+    setupNativeRanges();
+    applyNominalRange();
+    applyRealRange();
+    Plotly.Plots.resize(document.getElementById('nominalChart'));
+    Plotly.Plots.resize(document.getElementById('realChart'));
+    responsiveRelayout();
+  });
+}
+
 
 // ---------------- Tab 3: Presidentes ----------------
 const P = presidents;
@@ -4354,9 +4582,12 @@ function drawPres(mode){
     ...presLayoutBase,
     yaxis:{...presLayoutBase.yaxis,title:title},
     annotations:[{xref:'paper',x:0,yref:'paper',y:1.08,text:title+' ♡',showarrow:false,font:{size:20,color:'#633a78'}}]
-  }, {responsive:true,displaylogo:false,displayModeBar:false});
+  }, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   document.getElementById('presMonthly').classList.toggle('active', monthlyMode);
   document.getElementById('presAccum').classList.toggle('active', !monthlyMode);
+  if (window.innerWidth <= 720) {
+    setTimeout(responsiveRelayout, 25);
+  }
 }
 document.getElementById('presMonthly').onclick = ()=>drawPres('monthly');
 document.getElementById('presAccum').onclick = ()=>drawPres('acc');
@@ -4379,49 +4610,51 @@ function responsiveRelayout() {
   const settings = [
     ['powerChart', {
       ...mobileLegend,
-      'margin.l': mobile ? 54 : 72,
+      'margin.l': mobile ? 56 : 72,
       'margin.r': mobile ? 10 : 30,
-      'margin.t': mobile ? 168 : 118,
+      'margin.t': mobile ? 165 : 118,
       'margin.b': mobile ? 72 : 72,
-      'xaxis.dtick': mobile ? 'M24' : 'M12',
       'xaxis.tickangle': mobile ? -35 : 0,
       'xaxis.tickfont.size': mobile ? 10 : 12,
+      'xaxis.dtick': mobile ? 'M12' : 'M12',
+      'xaxis.rangeslider.visible': false,
+      'xaxis.fixedrange': true,
+      'yaxis.fixedrange': true,
       'yaxis.tickfont.size': mobile ? 10 : 12,
-      'yaxis.title.font.size': mobile ? 11 : 14
+      'yaxis.title.font.size': mobile ? 11 : 14,
+      'dragmode': false
     }],
     ['nominalChart', {
       ...mobileLegend,
-      'margin.l': mobile ? 52 : 72,
+      'margin.l': mobile ? 55 : 72,
       'margin.r': mobile ? 8 : 30,
-      'margin.t': mobile ? 176 : 118,
+      'margin.t': mobile ? 172 : 118,
       'margin.b': mobile ? 72 : 72,
-      'xaxis.dtick': mobile ? 4 : 2,
       'xaxis.tickangle': mobile ? -35 : 0,
       'xaxis.tickfont.size': mobile ? 10 : 12,
+      'xaxis.dtick': mobile ? 1 : 2,
+      'xaxis.rangeslider.visible': false,
+      'xaxis.fixedrange': true,
+      'yaxis.fixedrange': true,
       'yaxis.tickfont.size': mobile ? 10 : 12,
-      'yaxis.title.font.size': mobile ? 11 : 14
+      'yaxis.title.font.size': mobile ? 11 : 14,
+      'dragmode': false
     }],
     ['realChart', {
       ...mobileLegend,
-      'margin.l': mobile ? 52 : 72,
+      'margin.l': mobile ? 55 : 72,
       'margin.r': mobile ? 8 : 30,
-      'margin.t': mobile ? 178 : 118,
+      'margin.t': mobile ? 176 : 118,
       'margin.b': mobile ? 72 : 72,
-      'xaxis.dtick': mobile ? 'M24' : 'M12',
       'xaxis.tickangle': mobile ? -35 : 0,
       'xaxis.tickfont.size': mobile ? 10 : 12,
+      'xaxis.dtick': mobile ? 'M12' : 'M12',
+      'xaxis.rangeslider.visible': false,
+      'xaxis.fixedrange': true,
+      'yaxis.fixedrange': true,
       'yaxis.tickfont.size': mobile ? 10 : 12,
-      'yaxis.title.font.size': mobile ? 11 : 14
-    }],
-    ['presChart', {
-      'margin.l': mobile ? 52 : 72,
-      'margin.r': mobile ? 8 : 28,
-      'margin.t': mobile ? 66 : 76,
-      'margin.b': mobile ? 118 : 115,
-      'xaxis.tickangle': mobile ? -42 : -22,
-      'xaxis.tickfont.size': mobile ? 10 : 12,
-      'yaxis.tickfont.size': mobile ? 10 : 12,
-      'yaxis.title.font.size': mobile ? 11 : 14
+      'yaxis.title.font.size': mobile ? 11 : 14,
+      'dragmode': false
     }]
   ];
 
@@ -4432,6 +4665,42 @@ function responsiveRelayout() {
       Plotly.Plots.resize(el);
     }
   });
+
+  if (mobile) {
+    applyPowerRange();
+    applyNominalRange();
+    applyRealRange();
+  }
+
+  /* En celular el gráfico presidencial pasa a barras horizontales. */
+  const pres = document.getElementById('presChart');
+  if (mobile && pres && pres.data) {
+    const monthlyActive = document.getElementById('presMonthly').classList.contains('active');
+    const vals = P.map(d => monthlyActive ? d.monthly_num : d.acc_num);
+    const title = monthlyActive ? 'Mensual equivalente aproximada' : 'Inflación acumulada aproximada';
+    const suffix = monthlyActive ? '%/mes' : '%';
+
+    Plotly.react('presChart', [{
+      x: vals,
+      y: names,
+      type:'bar',
+      orientation:'h',
+      marker:{color: monthlyActive ? '#ff8fb7' : '#a98bf6'},
+      hovertemplate:'<b>%{y}</b><br>'+title+': <b>%{x:.2f}'+suffix+'</b><extra></extra>'
+    }], {
+      ...presLayoutBase,
+      margin:{l:118,r:14,t:50,b:48},
+      xaxis:{...presLayoutBase.xaxis,title:title,tickangle:0,fixedrange:true},
+      yaxis:{...presLayoutBase.yaxis,title:'',autorange:'reversed',fixedrange:true},
+      annotations:[]
+    }, {
+      responsive:true,
+      displaylogo:false,
+      displayModeBar:false,
+      scrollZoom:false,
+      doubleClick:false
+    });
+  }
 }
 
 let responsiveTimer = null;
@@ -4443,6 +4712,226 @@ window.addEventListener('orientationchange', () => {
   setTimeout(responsiveRelayout, 250);
 });
 setTimeout(responsiveRelayout, 80);
+
+
+
+// -------- Mobile: cerrar tooltip al tocar fuera --------
+//
+// Plotly mantiene el hover "pegado" en touch. La estrategia:
+// 1) detectamos si ya había tooltip al empezar el toque;
+// 2) si el toque cae físicamente dentro del tooltip, no hacemos nada;
+// 3) si cae afuera y NO seleccionó otro punto, limpiamos el hover;
+// 4) repetimos un par de veces porque Plotly puede volver a pintar
+//    el hover unos milisegundos después del touchend.
+
+const plotIds = ['powerChart', 'nominalChart', 'realChart', 'presChart'];
+
+let touchStartedWithHover = false;
+let touchStartedInsideTooltip = false;
+let selectedAnotherPoint = false;
+
+function tooltipBoxes() {
+  return Array.from(document.querySelectorAll(
+    '.hoverlayer .hovertext, .hoverlayer .axistext, .hoverlayer .legendtext'
+  )).map(el => {
+    try { return el.getBoundingClientRect(); }
+    catch (_) { return null; }
+  }).filter(Boolean);
+}
+
+function pointInsideTooltip(x, y) {
+  return tooltipBoxes().some(r =>
+    x >= r.left && x <= r.right && y >= r.top && y <= r.bottom
+  );
+}
+
+function plotlyHoverIsOpen() {
+  return tooltipBoxes().length > 0 ||
+    !!document.querySelector('.hoverlayer .hoverline');
+}
+
+function reallyClosePlotlyHover() {
+  plotIds.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el || !el.data) return;
+
+    try { Plotly.Fx.unhover(el); } catch (_) {}
+
+    // Plotly guarda parte del estado internamente; limpiarlo evita
+    // que reaparezca inmediatamente en algunos navegadores Android.
+    try { el._hoverdata = undefined; } catch (_) {}
+  });
+}
+
+function closeHoverRepeatedly() {
+  reallyClosePlotlyHover();
+  setTimeout(reallyClosePlotlyHover, 40);
+  setTimeout(reallyClosePlotlyHover, 120);
+  setTimeout(reallyClosePlotlyHover, 240);
+}
+
+// Si el usuario toca otro punto, queremos mostrar ESE nuevo tooltip,
+// no cerrar todo.
+function bindPlotlyClickTracking() {
+  plotIds.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el || typeof el.on !== 'function' || el.dataset.dismissBound === '1') return;
+
+    el.dataset.dismissBound = '1';
+    el.on('plotly_click', () => {
+      selectedAnotherPoint = true;
+    });
+  });
+}
+
+document.addEventListener('pointerdown', (event) => {
+  bindPlotlyClickTracking();
+
+  touchStartedWithHover = plotlyHoverIsOpen();
+  touchStartedInsideTooltip = touchStartedWithHover &&
+    pointInsideTooltip(event.clientX, event.clientY);
+
+  selectedAnotherPoint = false;
+}, true);
+
+document.addEventListener('pointerup', (event) => {
+  if (!touchStartedWithHover) return;
+
+  const endedInsideTooltip = pointInsideTooltip(event.clientX, event.clientY);
+
+  if (touchStartedInsideTooltip || endedInsideTooltip) {
+    touchStartedWithHover = false;
+    return;
+  }
+
+  // Esperamos a saber si Plotly interpretó el toque como selección
+  // de otro punto. Si no, era un toque "afuera": cerramos.
+  setTimeout(() => {
+    if (!selectedAnotherPoint) closeHoverRepeatedly();
+
+    touchStartedWithHover = false;
+    touchStartedInsideTooltip = false;
+    selectedAnotherPoint = false;
+  }, 90);
+}, true);
+
+// También cierra al tocar fuera de cualquier gráfico.
+document.addEventListener('click', (event) => {
+  const insidePlot = plotIds.some(id => document.getElementById(id)?.contains(event.target));
+  if (!insidePlot && plotlyHoverIsOpen()) closeHoverRepeatedly();
+}, true);
+
+// Escape en desktop.
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') closeHoverRepeatedly();
+});
+
+// Las tabs se renderizan dinámicamente: volvemos a enlazar después.
+setTimeout(bindPlotlyClickTracking, 250);
+window.addEventListener('resize', () => setTimeout(bindPlotlyClickTracking, 120));
+
+
+// -------- Navegación temporal mobile con slider HTML nativo --------
+// Evita los bugs del rangeslider de Plotly en Android.
+
+function addMonthsISO(iso, months) {
+  const d = new Date(iso + 'T00:00:00');
+  d.setMonth(d.getMonth() + months);
+  return d.toISOString().slice(0,10);
+}
+
+function formatYear(iso) {
+  return String(new Date(iso + 'T00:00:00').getFullYear());
+}
+
+function setupNativeRanges() {
+  // Poder adquisitivo: ventana de 48 meses.
+  const power = document.getElementById('powerRange');
+  if (power) {
+    const maxStart = Math.max(0, powerData.dates.length - 49);
+    power.max = String(maxStart);
+    if (!power.dataset.ready) {
+      power.value = String(maxStart);
+      power.dataset.ready = '1';
+      power.addEventListener('input', applyPowerRange);
+    }
+  }
+
+  // Tasas nominales: ventana de 9 años.
+  const nominal = document.getElementById('nominalRange');
+  if (nominal && !nominal.dataset.ready) {
+    nominal.min = '2002';
+    nominal.max = '2018';
+    nominal.value = '2018';
+    nominal.step = '1';
+    nominal.dataset.ready = '1';
+    nominal.addEventListener('input', applyNominalRange);
+  }
+
+  // Tasas reales: ventana de 48 meses.
+  const real = document.getElementById('realRange');
+  if (real) {
+    const maxStart = Math.max(0, modern.length - 49);
+    real.max = String(maxStart);
+    if (!real.dataset.ready) {
+      real.value = String(maxStart);
+      real.dataset.ready = '1';
+      real.addEventListener('input', applyRealRange);
+    }
+  }
+}
+
+function applyPowerRange() {
+  if (window.innerWidth > 720) return;
+  const slider = document.getElementById('powerRange');
+  const chart = document.getElementById('powerChart');
+  if (!slider || !chart || !chart.data) return;
+
+  const startIndex = Number(slider.value || 0);
+  const endIndex = Math.min(startIndex + 48, powerData.dates.length - 1);
+  const from = powerData.dates[startIndex];
+  const to = powerData.dates[endIndex];
+
+  Plotly.relayout('powerChart', {'xaxis.range':[from,to]});
+  document.getElementById('powerRangeFrom').textContent = formatYear(from);
+  document.getElementById('powerRangeTo').textContent = formatYear(to);
+}
+
+function applyNominalRange() {
+  if (window.innerWidth > 720) return;
+  const slider = document.getElementById('nominalRange');
+  const chart = document.getElementById('nominalChart');
+  if (!slider || !chart || !chart.data) return;
+
+  const from = Number(slider.value || 2018);
+  const to = Math.min(from + 8, 2026);
+  Plotly.relayout('nominalChart', {'xaxis.range':[from - 0.35,to + 0.35]});
+  document.getElementById('nominalRangeFrom').textContent = String(from);
+  document.getElementById('nominalRangeTo').textContent = String(to);
+}
+
+function applyRealRange() {
+  if (window.innerWidth > 720) return;
+  const slider = document.getElementById('realRange');
+  const chart = document.getElementById('realChart');
+  if (!slider || !chart || !chart.data || !modern.length) return;
+
+  const startIndex = Number(slider.value || 0);
+  const endIndex = Math.min(startIndex + 48, modern.length - 1);
+  const from = modern[startIndex].date;
+  const to = modern[endIndex].date;
+
+  Plotly.relayout('realChart', {'xaxis.range':[from,to]});
+  document.getElementById('realRangeFrom').textContent = formatYear(from);
+  document.getElementById('realRangeTo').textContent = formatYear(to);
+}
+
+setTimeout(() => {
+  setupNativeRanges();
+  applyPowerRange();
+  applyNominalRange();
+  applyRealRange();
+}, 150);
 
 </script>
 </body>
