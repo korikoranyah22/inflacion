@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gráficos kawaii</title>
+<title>Gráficos kawaii — Myuvra</title>
 <script>/**
 * plotly.js v3.3.1
 * Copyright 2012-2025, Plotly, Inc.
@@ -4157,6 +4157,365 @@ img, svg { max-width: 100%; }
   .rangeslider-container { display: none !important; }
 }
 
+
+/* ===== Tab pobreza ===== */
+#povertyChart { height: 600px; }
+
+.poverty-apb {
+  margin: 16px 0;
+  padding: 18px;
+  border: 2px solid #efcfe0;
+  border-radius: 22px;
+  background: linear-gradient(135deg,#fff7fb,#f7f0ff);
+}
+.poverty-apb h2 {
+  margin: 0 0 6px;
+  color: #633a78;
+  font-size: 24px;
+}
+.poverty-apb .big-sequence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 14px 0 8px;
+  font-size: clamp(27px,4vw,46px);
+  font-weight: 950;
+  color: #5d3973;
+}
+.poverty-apb .big-sequence .bad {
+  color: #e65c78;
+}
+.poverty-apb .big-sequence .good {
+  color: #3c9c78;
+}
+.poverty-apb .arrow {
+  color: #b78acf;
+}
+.poverty-stats {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin-top: 14px;
+}
+.poverty-stat {
+  border: 1px solid #ecd8f3;
+  border-radius: 16px;
+  padding: 12px;
+  background: #fff;
+  text-align: center;
+}
+.poverty-stat b {
+  display: block;
+  font-size: 25px;
+  color: #613777;
+}
+.poverty-stat span {
+  color: #887291;
+  font-size: 12px;
+}
+.mandate-cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 12px;
+  margin-top: 14px;
+}
+.mandate-card {
+  background: #fff;
+  border: 1px solid #ead9f3;
+  border-radius: 18px;
+  padding: 14px;
+  box-shadow: 0 5px 14px rgba(113,76,145,.06);
+}
+.mandate-name {
+  font-size: 18px;
+  font-weight: 900;
+  color: #603875;
+  margin-bottom: 9px;
+}
+.mandate-mini {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px 0;
+  color: #806f94;
+}
+.mandate-mini b { color:#543665; }
+.mandate-delta {
+  margin-top: 8px;
+  padding: 6px 9px;
+  border-radius: 999px;
+  text-align: center;
+  font-weight: 900;
+}
+.mandate-delta.down { background:#edfdf6; color:#27845f; }
+.mandate-delta.up { background:#fff0f4; color:#c54f6e; }
+.mandate-caveat {
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 1.35;
+  color: #917e9d;
+}
+.poverty-source {
+  margin-top: 10px;
+  color: #8b7795;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+@media (max-width: 720px) {
+  .tabs .tab-btn:nth-child(3) {
+    grid-column: auto;
+    width: 100%;
+  }
+  .tabs .tab-btn:nth-child(4) {
+    width: 100%;
+  }
+  #povertyChart { height: 540px; }
+  .poverty-stats { grid-template-columns: 1fr; }
+  .mandate-cards { grid-template-columns: 1fr; }
+  .poverty-apb .big-sequence {
+    gap: 7px;
+    font-size: 29px;
+  }
+}
+
+
+/* ===== Fuentes y descargas ===== */
+.sources-box {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid #ead9f3;
+  border-radius: 18px;
+  background: linear-gradient(180deg,#fffafd,#fff7fb);
+}
+.sources-box h3 {
+  margin: 0 0 10px;
+  color: #633a78;
+  font-size: 18px;
+}
+.sources-box h3::before {
+  content: "🔎 ";
+}
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.source-link,
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 11px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.source-link {
+  color: #654579;
+  background: #fff;
+  border: 1px solid #decbea;
+}
+.download-link {
+  color: #8b3e65;
+  background: #fff0f6;
+  border: 1px solid #efbfd2;
+}
+.source-link:hover,
+.download-link:hover {
+  transform: translateY(-1px);
+}
+.sources-note {
+  margin-top: 9px;
+  color: #8b7795;
+  font-size: 11px;
+  line-height: 1.4;
+}
+@media(max-width:720px) {
+  .source-links {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .source-link,.download-link {
+    justify-content: center;
+    text-align: center;
+    border-radius: 14px;
+    padding: 10px 12px;
+  }
+}
+
+
+/* ===== Fórmulas y cálculos visibles ===== */
+.formulas-box {
+  margin-top: 12px;
+  padding: 16px;
+  border: 1px solid #ead9f3;
+  border-radius: 18px;
+  background: linear-gradient(180deg,#fff,#fff8fc);
+}
+.formulas-box h3 {
+  margin: 0 0 8px;
+  color: #633a78;
+  font-size: 18px;
+}
+.formulas-box h3::before { content: "🧮 "; }
+
+.formulas-intro {
+  color: #876f92;
+  font-size: 12px;
+  line-height: 1.45;
+  margin-bottom: 11px;
+}
+
+.formula-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 10px;
+}
+.formula-card {
+  border: 1px solid #eddcf3;
+  border-radius: 15px;
+  padding: 12px 13px;
+  background: #fffafd;
+  min-width: 0;
+}
+.formula-card.critical {
+  border-left: 5px solid #ef7c9f;
+  background: #fff7fa;
+}
+.formula-card.favorable {
+  border-left: 5px solid #70c9a5;
+  background: #f7fffb;
+}
+.formula-title {
+  color: #5f3973;
+  font-weight: 900;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+.formula {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #593e69;
+  font-size: 12px;
+  line-height: 1.55;
+  background: #f8f2fb;
+  border: 1px dashed #decbe9;
+  padding: 8px 9px;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+}
+.formula-result {
+  margin-top: 7px;
+  font-weight: 900;
+  color: #773f65;
+}
+.formula-card.favorable .formula-result { color: #2d8061; }
+.formula-caveat {
+  margin-top: 7px;
+  color: #8d7995;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+@media(max-width:720px) {
+  .formula-grid { grid-template-columns: 1fr; }
+  .formula-card { padding: 11px; }
+  .formula { font-size: 11px; }
+}
+
+
+/* ===== Cambio de pobreza por mandato ===== */
+.mandate-change {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  line-height: 1.35;
+  font-weight: 850;
+  text-align: center;
+}
+.mandate-change.down {
+  background: #edfdf6;
+  color: #27845f;
+  border: 1px solid #ccebdd;
+}
+.mandate-change.up {
+  background: #fff0f4;
+  color: #c54f6e;
+  border: 1px solid #f1ccd7;
+}
+.mandate-change .pct {
+  display: block;
+  margin-top: 2px;
+  font-size: 11px;
+  font-weight: 750;
+  opacity: .85;
+}
+
+
+/* ===== Cambio de pobreza por mandato: gráfico comparativo ===== */
+#povertyMandateChart {
+  height: 520px;
+}
+.poverty-mandate-summary {
+  margin-top: 18px;
+}
+.poverty-mandate-explain {
+  padding: 0 18px 14px;
+  color: #846f91;
+  font-size: 12px;
+  line-height: 1.45;
+}
+@media (max-width:720px) {
+  #povertyMandateChart {
+    height: 500px;
+  }
+  .poverty-mandate-explain {
+    padding: 0 14px 12px;
+    font-size: 11px;
+  }
+}
+
+
+/* ===== Firma de co-creación ===== */
+.cocreation-signature {
+  margin: 14px auto 4px;
+  width: fit-content;
+  max-width: 100%;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 1px solid #e8d4f1;
+  background: linear-gradient(90deg,#fff4f9,#f5efff);
+  color: #704c80;
+  font-size: 13px;
+  font-weight: 850;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(113,76,145,.08);
+}
+.cocreation-signature .naira {
+  color: #a25bb7;
+}
+.cocreation-signature::before {
+  content: "✦ ";
+  color: #ef83aa;
+}
+.cocreation-signature::after {
+  content: " ♡";
+  color: #ef83aa;
+}
+@media(max-width:720px){
+  .cocreation-signature {
+    font-size: 12px;
+    line-height: 1.35;
+    border-radius: 16px;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -4165,13 +4524,15 @@ img, svg { max-width: 100%; }
     <div class="mascot left">☁️</div>
     <div class="mascot right">🐱💗</div>
     <h1>Gráficos exactos kawaii ✨</h1>
-    <div class="sub">Argentina · poder adquisitivo, tasas y tabla presidencial · todo en un solo HTML</div><br>
+    <div class="sub">Argentina · poder adquisitivo, tasas, inflación y pobreza · todo en un solo HTML</div><br>
+    <span class="badge">♡ sin deformación generativa · con tabs ♡</span>
   </div>
 
   <div class="tabs">
     <button class="tab-btn active" data-tab="tab-power">Poder adquisitivo</button>
     <button class="tab-btn" data-tab="tab-rates">Tasas e inflación</button>
     <button class="tab-btn" data-tab="tab-pres">Inflación por presidencia</button>
+    <button class="tab-btn" data-tab="tab-poverty">Pobreza: nivel absoluto</button>
   </div>
 
   <section id="tab-power" class="tab-panel active">
@@ -4206,7 +4567,53 @@ img, svg { max-width: 100%; }
         <p class="small">El hover calcula automáticamente cuánto mejor o peor está cada punto respecto de la base elegida.</p>
       </aside>
     </div>
-    <footer>
+    
+    <div class="sources-box">
+      <h3>Fuentes y descargas</h3>
+      <div class="source-links">
+        <button class="download-link" onclick="downloadEmbeddedCsv('power')">⬇ CSV usado en este gráfico</button>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/uploads/informesdeprensa/salarios_07_2651AD962B45.pdf">📄 INDEC · Índice de salarios (may-2026)</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31">📊 INDEC · IPC</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte">📄 RIPTE · Seguridad Social</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.anses.gob.ar/aumentos-por-movilidad-para-jubilaciones-pensiones-y-asignaciones">📄 ANSES · Jubilación mínima</a>
+      </div>
+      <div class="sources-note">El CSV descarga exactamente la serie usada por esta página; los demás botones abren las fuentes públicas originales.</div>
+    </div>
+
+
+    <div class="formulas-box">
+      <h3>Cálculos clave del tab</h3>
+      <div class="formulas-intro">
+        La base es noviembre de 2023 = 100. Por eso la distancia respecto de 100 se lee directamente como pérdida o ganancia porcentual de poder adquisitivo frente a esa base.
+      </div>
+      <div class="formula-grid">
+        <div class="formula-card critical">
+          <div class="formula-title">Registrados totales · mayo 2026</div>
+          <div class="formula">(94,26 / 100 − 1) × 100 = −5,74%</div>
+          <div class="formula-result">≈ 5,74% menos poder adquisitivo que en nov-2023</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">Sector público · mayo 2026</div>
+          <div class="formula">(84,93 / 100 − 1) × 100 = −15,07%</div>
+          <div class="formula-result">≈ 15,07% menos que la base</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">Privado registrado · mayo 2026</div>
+          <div class="formula">(99,56 / 100 − 1) × 100 = −0,44%</div>
+          <div class="formula-result">Prácticamente volvió a la base, pero no la superó</div>
+        </div>
+
+        <div class="formula-card">
+          <div class="formula-title">Cómo se construye cada índice real</div>
+          <div class="formula">Índice real = (serie nominal / IPC núcleo) / valor real en mes base × 100</div>
+          <div class="formula-caveat">La serie no registrada tiene un rezago metodológico aproximado de cinco meses y no debe interpretarse igual que una serie registral.</div>
+        </div>
+      </div>
+    </div>
+
+<footer>
       Cálculo: poder adquisitivo relativo = (serie nominal / IPC núcleo nacional) / valor real en el mes base × 100.
       Para mayo de 2026, los índices salariales se extendieron desde abril usando las variaciones publicadas por INDEC.
     </footer>
@@ -4251,7 +4658,55 @@ img, svg { max-width: 100%; }
         <div class="note" style="margin-top:12px"><b>Importante:</b> la línea fintech comparable comienza en 2019 y llega hasta el último informe PNFC disponible. Las tasas son TNA/promedios; no son CFT.</div>
       </aside>
     </div>
-    <footer>
+    
+    <div class="sources-box">
+      <h3>Fuentes y descargas</h3>
+      <div class="source-links">
+        <button class="download-link" onclick="downloadEmbeddedCsv('ratesAnnual')">⬇ CSV anual 2002–2026</button>
+        <button class="download-link" onclick="downloadEmbeddedCsv('ratesMonthly')">⬇ CSV mensual 2017–2026</button>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/tasas-de-interes/">🏦 BCRA · Tasas de interés</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/publicaciones/informe-de-proveedores-no-financieros-de-credito-junio-de-2026/">📱 BCRA · PNFC / Fintech</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31">📊 INDEC · IPC</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://argendata.fund.ar/topico/inflacion/">📚 Argendata · Inflación histórica</a>
+      </div>
+      <div class="sources-note">Las tasas reales mostradas son cálculos derivados de estas series, no CFT de productos individuales.</div>
+    </div>
+
+
+    <div class="formulas-box">
+      <h3>Cálculos clave del tab</h3>
+      <div class="formulas-intro">
+        Para hacer comparables tasas financieras e inflación usamos una tasa mensual equivalente aproximada: TNA/12. No es CFT y un préstamo concreto puede costar más.
+      </div>
+      <div class="formula-grid">
+        <div class="formula-card critical">
+          <div class="formula-title">Préstamo bancario real · jul-2026</div>
+          <div class="formula">[(1 + 65,20%/12) / (1 + 2,11%) − 1] × 100 ≈ +3,25%</div>
+          <div class="formula-result">El crédito exige ≈ 3,25% extra de poder adquisitivo en un mes</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">Plazo fijo real · jul-2026</div>
+          <div class="formula">[(1 + 21,26%/12) / (1 + 2,11%) − 1] × 100 ≈ −0,34%</div>
+          <div class="formula-result">El ahorro promedio queda ≈ 0,34% debajo de la inflación</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">Fintech real · feb-2026</div>
+          <div class="formula">[(1 + 144,24%/12) / (1 + 2,90%) − 1] × 100 ≈ +8,87%</div>
+          <div class="formula-result">Costo real mensual aproximado ≈ +8,87%</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">“Pinza” banco vs. plazo fijo · jul-2026</div>
+          <div class="formula">+3,25% − (−0,34%) = 3,59 pp reales</div>
+          <div class="formula-result">≈ 3,59 puntos reales entre pedir prestado y ahorrar</div>
+          <div class="formula-caveat">Esto mide una asimetría de tasas promedio; no demuestra por sí sola causalidad sobre consumo o pobreza.</div>
+        </div>
+      </div>
+    </div>
+
+<footer>
       Fuentes: BCRA (préstamos personales y plazo fijo), INDEC (IPC), BCRA/PNFC (fintech). La comparación real mensual usa una tasa mensual equivalente aproximada y la fórmula (1+tasa nominal mensual)/(1+inflación mensual)-1.
     </footer>
   </section>
@@ -4313,12 +4768,243 @@ img, svg { max-width: 100%; }
       <div class="note"><b>** 2007–2015:</b> el acumulado depende del empalme/reconstrucción de inflación histórica usado para evitar tratar como plenamente confiable la serie oficial intervenida.</div>
     </div>
 
-    <footer>
+    
+    <div class="sources-box">
+      <h3>Fuentes y descargas</h3>
+      <div class="source-links">
+        <button class="download-link" onclick="downloadEmbeddedCsv('presidents')">⬇ CSV de la tabla presidencial</button>
+        <a class="source-link" target="_blank" rel="noopener" href="https://argendata.fund.ar/topico/inflacion/">📚 Argendata · Inflación histórica</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31">📊 INDEC · IPC</a>
+      </div>
+      <div class="sources-note">La columna “mensual equivalente” es una transformación matemática de la inflación acumulada del período.</div>
+    </div>
+
+
+    <div class="formulas-box">
+      <h3>Cálculos clave del tab</h3>
+      <div class="formulas-intro">
+        La “mensual equivalente” no es un promedio aritmético: es la tasa mensual compuesta que reproduce la inflación acumulada del período.
+      </div>
+      <div class="formula-grid">
+        <div class="formula-card critical">
+          <div class="formula-title">Milei · mensual equivalente del período</div>
+          <div class="formula">[(1 + 329/100)^(1/32) − 1] × 100 ≈ 4,66%/mes</div>
+          <div class="formula-result">≈ 4,65–4,66% mensual equivalente</div>
+          <div class="formula-caveat">El período llega sólo hasta jul-2026; no es un mandato completo.</div>
+        </div>
+
+        <div class="formula-card">
+          <div class="formula-title">Alberto Fernández · mensual equivalente</div>
+          <div class="formula">[(1 + 930/100)^(1/48) − 1] × 100 ≈ 4,98%/mes</div>
+          <div class="formula-result">≈ 4,98% mensual equivalente</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">Diferencia Milei vs. Alberto</div>
+          <div class="formula">4,66% − 4,98% = −0,32 pp/mes</div>
+          <div class="formula-result">La tasa mensual equivalente del período es sólo ≈ 0,32 pp menor</div>
+          <div class="formula-caveat">Esto no niega que la inflación mensual al final del período haya bajado mucho; responde otra pregunta: cuánto fue la tasa compuesta equivalente de todo el período.</div>
+        </div>
+
+        <div class="formula-card">
+          <div class="formula-title">Por qué conviene mostrar ambas métricas</div>
+          <div class="formula">Acumulada = (1 + mensual_equiv)^meses − 1</div>
+          <div class="formula-caveat">La acumulada castiga más a períodos largos; la mensual equivalente permite comparar velocidad, aunque tampoco reemplaza el contexto económico de cada mandato.</div>
+        </div>
+      </div>
+    </div>
+
+<footer>
       La “mensual equivalente” es la tasa mensual compuesta que, aplicada durante el período, reproduce aproximadamente la inflación acumulada indicada. El gráfico permite alternar entre mensual y acumulado para no confundir duración con velocidad inflacionaria.
     </footer>
   </section>
 
+
+  <section id="tab-poverty" class="tab-panel">
+    <div class="poverty-apb">
+      <h2>Pobreza: qué pasó realmente ♡</h2>
+      <div class="small">Sin convertir el pico particular de cada gobierno en “100”. Acá se ve el porcentaje real de personas pobres.</div>
+
+      <div class="big-sequence">
+        <span>41,7%</span>
+        <span class="arrow">→</span>
+        <span class="bad">52,9%</span>
+        <span class="arrow">→</span>
+        <span class="good">28,2%</span>
+      </div>
+      <div class="small" style="text-align:center"><b>2S2023 heredado → 1S2024 pico bajo Milei → 2S2025 último oficial</b></div>
+
+      <div class="poverty-stats">
+        <div class="poverty-stat"><b>+11,2 pp</b><span>empeoramiento inicial</span></div>
+        <div class="poverty-stat"><b>−24,7 pp</b><span>caída desde el pico</span></div>
+        <div class="poverty-stat"><b>−13,5 pp</b><span>mejora neta vs. lo heredado</span></div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <main class="card">
+        <div class="card-head">
+          <div class="card-title">Pobreza de personas: nivel absoluto <span>♡</span></div>
+          <div class="kicker">2002–2025 · % de personas</div>
+        </div>
+        <div id="povertyChart"></div>
+      </main>
+
+      <aside class="card side">
+        <h2>La lectura APB</h2>
+        <div class="note warn">
+          <b>El shock inicial existió:</b> la pobreza pasó de 41,7% a 52,9% durante los primeros meses de Milei.
+        </div>
+        <div class="note good" style="margin-top:12px">
+          <b>La recuperación también:</b> después cayó a 28,2%, claramente por debajo del nivel heredado.
+        </div>
+        <div class="note" style="margin-top:12px">
+          <b>Lo que no prueba:</b> empezar la comparación en 52,9% —un pico ocurrido bajo el propio Milei— no demuestra por sí solo “la mejor gestión histórica”. Cambiar la base cambia la historia visual.
+        </div>
+        <p class="small">
+          En otras palabras: <b>hubo primero un deterioro muy fuerte y después una mejora todavía mayor</b>. Las dos cosas son ciertas.
+        </p>
+      </aside>
+    </div>
+
+    <section class="card table-card" style="margin-top:18px">
+      <div class="card-head" style="padding-top:0">
+        <div class="card-title">Mandatos: inicio, pico y final / último <span>♡</span></div>
+        <div class="kicker">sin normalizar picos</div>
+      </div>
+      <div class="mandate-cards">
+        <div class="mandate-card">
+      <div class="mandate-name">Eduardo Duhalde</div>
+      <div class="mandate-mini"><span>Inicio</span><b>60,1%</b></div>
+      <div class="mandate-mini"><span>Pico</span><b>65,5%</b></div>
+      <div class="mandate-mini"><span>Final / último</span><b>62,0%</b></div>
+      <div class="mandate-change up">Subió 1,9 pp<span class="pct">+3,2% respecto del inicio</span></div>
+      <div class="mandate-caveat">Contexto histórico; no empalme perfecto.</div>
+    </div>
+<div class="mandate-card">
+      <div class="mandate-name">Néstor Kirchner</div>
+      <div class="mandate-mini"><span>Inicio</span><b>62,0%</b></div>
+      <div class="mandate-mini"><span>Pico</span><b>62,0%</b></div>
+      <div class="mandate-mini"><span>Final / último</span><b>37,2%</b></div>
+      <div class="mandate-change down">Bajó 24,8 pp<span class="pct">−40,0% respecto del inicio</span></div>
+      <div class="mandate-caveat">Inicio histórico; cierre 2S2007.</div>
+    </div>
+<div class="mandate-card">
+      <div class="mandate-name">Cristina Fernández</div>
+      <div class="mandate-mini"><span>Inicio</span><b>37,2%</b></div>
+      <div class="mandate-mini"><span>Pico</span><b>37,2%</b></div>
+      <div class="mandate-mini"><span>Final / último</span><b>30,1%</b></div>
+      <div class="mandate-change down">Bajó 7,1 pp<span class="pct">−19,1% respecto del inicio</span></div>
+      <div class="mandate-caveat">Último comparable: 1S2015.</div>
+    </div>
+<div class="mandate-card">
+      <div class="mandate-name">Mauricio Macri</div>
+      <div class="mandate-mini"><span>Inicio</span><b>31,4%</b></div>
+      <div class="mandate-mini"><span>Pico</span><b>35,5%</b></div>
+      <div class="mandate-mini"><span>Final / último</span><b>35,5%</b></div>
+      <div class="mandate-change up">Subió 4,1 pp<span class="pct">+13,1% respecto del inicio</span></div>
+      <div class="mandate-caveat">1S2016 como referencia inicial.</div>
+    </div>
+<div class="mandate-card">
+      <div class="mandate-name">Alberto Fernández</div>
+      <div class="mandate-mini"><span>Inicio</span><b>35,5%</b></div>
+      <div class="mandate-mini"><span>Pico</span><b>42,0%</b></div>
+      <div class="mandate-mini"><span>Final / último</span><b>41,7%</b></div>
+      <div class="mandate-change up">Subió 6,2 pp<span class="pct">+17,5% respecto del inicio</span></div>
+      <div class="mandate-caveat">Incluye pandemia 2020.</div>
+    </div>
+<div class="mandate-card">
+      <div class="mandate-name">Javier Milei</div>
+      <div class="mandate-mini"><span>Inicio</span><b>41,7%</b></div>
+      <div class="mandate-mini"><span>Pico</span><b>52,9%</b></div>
+      <div class="mandate-mini"><span>Final / último</span><b>28,2%</b></div>
+      <div class="mandate-change down">Bajó 13,5 pp<span class="pct">−32,4% respecto del inicio</span></div>
+      <div class="mandate-caveat">Último oficial: 2S2025.</div>
+    </div>
+      </div>
+      <div class="poverty-source">
+        Fuentes: CEDLAS/Tornarolli para la reconstrucción comparable histórica y contexto Duhalde; INDEC para la serie oficial moderna.
+        Caveats importantes: Duhalde usa mediciones históricas de otra etapa metodológica; no hay 2S2015 comparable en la reconstrucción usada;
+        el último dato oficial disponible al 18/08/2026 es 2S2025.
+      </div>
+    </section>
+
+    <section class="card poverty-mandate-summary">
+      <div class="card-head">
+        <div class="card-title">Cuánto bajó o subió la pobreza en cada mandato <span>♡</span></div>
+        <div class="kicker">cambio inicio → final / último</div>
+      </div>
+
+      <div class="poverty-mandate-explain">
+        <b>Debajo de 0</b> = la pobreza bajó durante el período comparable.
+        <b>Arriba de 0</b> = la pobreza subió.
+        La unidad son <b>puntos porcentuales</b>, no porcentaje relativo.
+      </div>
+
+      <div id="povertyMandateChart"></div>
+    </section>
+
+
+    
+    <div class="sources-box">
+      <h3>Fuentes y descargas</h3>
+      <div class="source-links">
+        <button class="download-link" onclick="downloadEmbeddedCsv('poverty')">⬇ CSV de pobreza usado en este tab</button>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.cedlas.econo.unlp.edu.ar/wp/wp-content/uploads/doc_cedlas226.pdf">📄 CEDLAS · Serie comparable histórica (PDF)</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-46-152">📊 INDEC · Pobreza e indigencia</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://chequeado.com/el-explicador/como-evoluciono-la-pobreza-con-cada-presidente/">🧭 Contexto histórico Duhalde / CEDLAS</a>
+      </div>
+      <div class="sources-note">La línea principal no convierte picos en base 100: conserva los porcentajes absolutos de pobreza.</div>
+    </div>
+
+
+    <div class="formulas-box">
+      <h3>Cálculos clave del tab</h3>
+      <div class="formulas-intro">
+        Acá conviene mostrar tanto el costo inicial como la mejora posterior. Ocultar cualquiera de los dos cambia la interpretación.
+      </div>
+      <div class="formula-grid">
+        <div class="formula-card critical">
+          <div class="formula-title">Deterioro inicial con Milei</div>
+          <div class="formula">52,9% − 41,7% = +11,2 pp</div>
+          <div class="formula-result">La pobreza subió 11,2 puntos entre 2S2023 y 1S2024</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">Deterioro inicial relativo</div>
+          <div class="formula">(52,9 / 41,7 − 1) × 100 ≈ +26,9%</div>
+          <div class="formula-result">≈ 26,9% más pobreza relativa al nivel heredado</div>
+        </div>
+
+        <div class="formula-card favorable">
+          <div class="formula-title">Mejora desde el pico</div>
+          <div class="formula">(28,2 / 52,9 − 1) × 100 ≈ −46,7%</div>
+          <div class="formula-result">La caída desde el pico fue enorme: ≈ 46,7%</div>
+        </div>
+
+        <div class="formula-card favorable">
+          <div class="formula-title">Mejora neta vs. lo heredado</div>
+          <div class="formula">28,2% − 41,7% = −13,5 pp</div>
+          <div class="formula-result">El último dato queda 13,5 pp debajo del nivel heredado</div>
+        </div>
+
+        <div class="formula-card critical">
+          <div class="formula-title">Qué oculta “pico = 100”</div>
+          <div class="formula">Si 52,9% se redefine como 100, el tramo 41,7% → 52,9% desaparece del índice visual</div>
+          <div class="formula-result">La normalización puede mostrar muy bien la recuperación y esconder el costo inicial</div>
+          <div class="formula-caveat">Por eso este tab conserva porcentajes absolutos en vez de asignar 100 a un pico elegido.</div>
+        </div>
+      </div>
+    </div>
+
+<footer>
+      Este panel responde “¿qué porcentaje de personas era pobre en cada momento?”, no “¿cuánto cayó desde el pico que elegí como base?”.
+      Para evaluar Milei de forma completa hay que conservar visibles los tres puntos: <b>41,7% heredado → 52,9% pico propio → 28,2% último oficial</b>.
+    </footer>
+  </section>
+
   <div class="credit">hecho por @MiyuRory uwu</div>
+  <div class="cocreation-signature">Miyu Rory × <span class="naira">Naira</span> · co-creado con datos, código y demasiadas pestañitas kawaii</div>
 </div>
 
 <script>
@@ -4329,6 +5015,28 @@ const powerData = {
 const annual = [{"year": 2002, "inflacion": 40.952869, "banco": 40.529167, "pf": 39.250833, "fintech": null}, {"year": 2003, "inflacion": 3.65632, "banco": 44.903333, "pf": 10.448095, "fintech": null}, {"year": 2004, "inflacion": 6.100982, "banco": 29.968333, "pf": 2.792227, "fintech": null}, {"year": 2005, "inflacion": 12.326504, "banco": 26.363333, "pf": 4.02482, "fintech": null}, {"year": 2006, "inflacion": 9.838188, "banco": 24.530833, "pf": 6.78236, "fintech": null}, {"year": 2007, "inflacion": 21.520578, "banco": 25.600833, "pf": 8.195457, "fintech": null}, {"year": 2008, "inflacion": 20.598501, "banco": 30.924167, "pf": 11.631334, "fintech": null}, {"year": 2009, "inflacion": 18.473659, "banco": 34.2775, "pf": 11.92871, "fintech": null}, {"year": 2010, "inflacion": 27.028861, "banco": 30.347185, "pf": 9.523797, "fintech": null}, {"year": 2011, "inflacion": 23.275524, "banco": 30.571284, "pf": 11.072102, "fintech": null}, {"year": 2012, "inflacion": 23.006037, "banco": 34.764202, "pf": 12.399153, "fintech": null}, {"year": 2013, "inflacion": 31.943825, "banco": 35.791646, "pf": 15.170942, "fintech": null}, {"year": 2014, "inflacion": 39.008241, "banco": 40.657484, "pf": 21.295358, "fintech": null}, {"year": 2015, "inflacion": 31.568906, "banco": 37.372108, "pf": 22.040857, "fintech": null}, {"year": 2016, "inflacion": 31.42846, "banco": 42.077254, "pf": 24.501112, "fintech": null}, {"year": 2017, "inflacion": 25.0392, "banco": 38.760717, "pf": 19.118479, "fintech": null}, {"year": 2018, "inflacion": 47.104348, "banco": 49.37593, "pf": 32.139144, "fintech": null}, {"year": 2019, "inflacion": 53.832402, "banco": 68.101842, "pf": 47.484279, "fintech": 143.145843}, {"year": 2020, "inflacion": 36.140588, "banco": 54.901286, "pf": 29.375959, "fintech": 141.534417}, {"year": 2021, "inflacion": 50.941634, "banco": 54.100151, "pf": 33.571176, "fintech": 134.186932}, {"year": 2022, "inflacion": 94.793182, "banco": 67.136978, "pf": 52.32399, "fintech": 135.068412}, {"year": 2023, "inflacion": 211.407644, "banco": 102.335492, "pf": 94.668249, "fintech": 176.673619}, {"year": 2024, "inflacion": 117.8, "banco": 85.914832, "pf": 54.10793, "fintech": 156.769018}, {"year": 2025, "inflacion": 31.5, "banco": 73.456894, "pf": 34.908498, "fintech": 139.419295}, {"year": 2026, "inflacion": 19.3, "banco": 67.383872, "pf": 24.95803, "fintech": 145.55487}];
 const modern = [{"date": "2019-01-01", "bancoReal": 2.369664, "pfReal": 0.798125, "fintechReal": null, "spreadBancoPf": 1.571539}, {"date": "2019-02-01", "bancoReal": 1.361163, "pfReal": -0.611442, "fintechReal": null, "spreadBancoPf": 1.972605}, {"date": "2019-03-01", "bancoReal": 0.36672, "pfReal": -1.309012, "fintechReal": null, "spreadBancoPf": 1.675732}, {"date": "2019-04-01", "bancoReal": 1.820048, "pfReal": 0.463998, "fintechReal": 7.687215, "spreadBancoPf": 1.35605}, {"date": "2019-05-01", "bancoReal": 2.406612, "pfReal": 1.08183, "fintechReal": 8.111816, "spreadBancoPf": 1.324782}, {"date": "2019-06-01", "bancoReal": 2.791086, "pfReal": 1.423599, "fintechReal": 8.625508, "spreadBancoPf": 1.367487}, {"date": "2019-07-01", "bancoReal": 3.214849, "pfReal": 1.737587, "fintechReal": 9.059807, "spreadBancoPf": 1.477262}, {"date": "2019-08-01", "bancoReal": 1.765722, "pfReal": 0.477521, "fintechReal": 7.865553, "spreadBancoPf": 1.2882}, {"date": "2019-09-01", "bancoReal": 0.4431, "pfReal": -0.984685, "fintechReal": 6.563422, "spreadBancoPf": 1.427784}, {"date": "2019-10-01", "bancoReal": 2.901195, "pfReal": 1.204236, "fintechReal": 9.203531, "spreadBancoPf": 1.696959}, {"date": "2019-11-01", "bancoReal": 1.849452, "pfReal": -0.455212, "fintechReal": 6.191028, "spreadBancoPf": 2.304664}, {"date": "2019-12-01", "bancoReal": 2.139359, "pfReal": -0.280409, "fintechReal": 8.954881, "spreadBancoPf": 2.419768}, {"date": "2020-01-01", "bancoReal": 3.42387, "pfReal": 0.674349, "fintechReal": 10.902066, "spreadBancoPf": 2.749521}, {"date": "2020-02-01", "bancoReal": 3.25336, "pfReal": 0.692946, "fintechReal": 10.271297, "spreadBancoPf": 2.560414}, {"date": "2020-03-01", "bancoReal": 1.493653, "pfReal": -0.933261, "fintechReal": 8.170478, "spreadBancoPf": 2.426914}, {"date": "2020-04-01", "bancoReal": 2.884714, "pfReal": 0.268986, "fintechReal": 10.278351, "spreadBancoPf": 2.615728}, {"date": "2020-05-01", "bancoReal": 2.697491, "pfReal": 0.412081, "fintechReal": 10.768346, "spreadBancoPf": 2.28541}, {"date": "2020-06-01", "bancoReal": 1.906699, "pfReal": 0.121594, "fintechReal": 10.008375, "spreadBancoPf": 1.785106}, {"date": "2020-07-01", "bancoReal": 2.237527, "pfReal": 0.420657, "fintechReal": 9.462285, "spreadBancoPf": 1.81687}, {"date": "2020-08-01", "bancoReal": 1.521191, "pfReal": -0.249974, "fintechReal": 8.507048, "spreadBancoPf": 1.771165}, {"date": "2020-09-01", "bancoReal": 1.424098, "pfReal": -0.37839, "fintechReal": 7.90035, "spreadBancoPf": 1.802488}, {"date": "2020-10-01", "bancoReal": 0.448473, "pfReal": -1.20623, "fintechReal": 6.893223, "spreadBancoPf": 1.654703}, {"date": "2020-11-01", "bancoReal": 1.209448, "pfReal": -0.456683, "fintechReal": 7.516277, "spreadBancoPf": 1.666131}, {"date": "2020-12-01", "bancoReal": 0.588321, "pfReal": -1.173918, "fintechReal": 6.887925, "spreadBancoPf": 1.762239}, {"date": "2021-01-01", "bancoReal": 0.62712, "pfReal": -1.203259, "fintechReal": 7.099222, "spreadBancoPf": 1.830379}, {"date": "2021-02-01", "bancoReal": 1.051932, "pfReal": -0.754403, "fintechReal": 8.11194, "spreadBancoPf": 1.806335}, {"date": "2021-03-01", "bancoReal": -0.133983, "pfReal": -1.922486, "fintechReal": 6.010342, "spreadBancoPf": 1.788503}, {"date": "2021-04-01", "bancoReal": 0.511783, "pfReal": -1.233995, "fintechReal": 6.991772, "spreadBancoPf": 1.745778}, {"date": "2021-05-01", "bancoReal": 1.189215, "pfReal": -0.52547, "fintechReal": 7.903708, "spreadBancoPf": 1.714685}, {"date": "2021-06-01", "bancoReal": 1.174131, "pfReal": -0.355673, "fintechReal": 7.633889, "spreadBancoPf": 1.529804}, {"date": "2021-07-01", "bancoReal": 1.446211, "pfReal": -0.186558, "fintechReal": 7.874343, "spreadBancoPf": 1.632768}, {"date": "2021-08-01", "bancoReal": 1.913214, "pfReal": 0.320151, "fintechReal": 8.50216, "spreadBancoPf": 1.593064}, {"date": "2021-09-01", "bancoReal": 0.891114, "pfReal": -0.717358, "fintechReal": 7.441496, "spreadBancoPf": 1.608471}, {"date": "2021-10-01", "bancoReal": 0.854935, "pfReal": -0.686404, "fintechReal": 7.146554, "spreadBancoPf": 1.54134}, {"date": "2021-11-01", "bancoReal": 1.743498, "pfReal": 0.256285, "fintechReal": 7.929892, "spreadBancoPf": 1.487213}, {"date": "2021-12-01", "bancoReal": 0.54903, "pfReal": -1.003368, "fintechReal": 6.560859, "spreadBancoPf": 1.552398}, {"date": "2022-01-01", "bancoReal": 0.677581, "pfReal": -0.836184, "fintechReal": 6.479303, "spreadBancoPf": 1.513765}, {"date": "2022-02-01", "bancoReal": -0.038019, "pfReal": -1.515469, "fintechReal": 5.402702, "spreadBancoPf": 1.477449}, {"date": "2022-03-01", "bancoReal": -1.933758, "pfReal": -3.226632, "fintechReal": 3.172207, "spreadBancoPf": 1.292873}, {"date": "2022-04-01", "bancoReal": -1.152038, "pfReal": -2.378629, "fintechReal": 3.993725, "spreadBancoPf": 1.226591}, {"date": "2022-05-01", "bancoReal": -0.132455, "pfReal": -1.283802, "fintechReal": 5.010002, "spreadBancoPf": 1.151346}, {"date": "2022-06-01", "bancoReal": -0.26051, "pfReal": -1.305259, "fintechReal": 4.897526, "spreadBancoPf": 1.044749}, {"date": "2022-07-01", "bancoReal": -1.800802, "pfReal": -3.00546, "fintechReal": 3.100009, "spreadBancoPf": 1.204658}, {"date": "2022-08-01", "bancoReal": -0.652222, "pfReal": -1.862099, "fintechReal": 4.132191, "spreadBancoPf": 1.209877}, {"date": "2022-09-01", "bancoReal": 0.327353, "pfReal": -0.65303, "fintechReal": 5.672236, "spreadBancoPf": 0.980383}, {"date": "2022-10-01", "bancoReal": 0.513066, "pfReal": -0.599421, "fintechReal": 6.042755, "spreadBancoPf": 1.112487}, {"date": "2022-11-01", "bancoReal": 1.583922, "pfReal": 0.747535, "fintechReal": 7.474444, "spreadBancoPf": 0.836387}, {"date": "2022-12-01", "bancoReal": 1.547783, "pfReal": 0.583185, "fintechReal": 7.590165, "spreadBancoPf": 0.964598}, {"date": "2023-01-01", "bancoReal": 0.625484, "pfReal": -0.268976, "fintechReal": 6.698601, "spreadBancoPf": 0.894459}, {"date": "2023-02-01", "bancoReal": 0.076296, "pfReal": -0.823862, "fintechReal": 6.034137, "spreadBancoPf": 0.900158}, {"date": "2023-03-01", "bancoReal": -0.883174, "pfReal": -1.701561, "fintechReal": 4.681284, "spreadBancoPf": 0.818387}, {"date": "2023-04-01", "bancoReal": -1.466971, "pfReal": -2.101839, "fintechReal": 3.871221, "spreadBancoPf": 0.634868}, {"date": "2023-05-01", "bancoReal": 0.135583, "pfReal": -0.365102, "fintechReal": 5.136193, "spreadBancoPf": 0.500685}, {"date": "2023-06-01", "bancoReal": 2.578477, "pfReal": 1.572602, "fintechReal": 7.768977, "spreadBancoPf": 1.005875}, {"date": "2023-07-01", "bancoReal": 2.071718, "pfReal": 1.203317, "fintechReal": 7.471847, "spreadBancoPf": 0.8684}, {"date": "2023-08-01", "bancoReal": -2.882379, "pfReal": -3.439461, "fintechReal": 2.122869, "spreadBancoPf": 0.557082}, {"date": "2023-09-01", "bancoReal": -3.719844, "pfReal": -2.99932, "fintechReal": 3.395384, "spreadBancoPf": -0.720524}, {"date": "2023-10-01", "bancoReal": 1.290425, "pfReal": 1.598508, "fintechReal": 7.841884, "spreadBancoPf": -0.308083}, {"date": "2023-11-01", "bancoReal": -1.400302, "pfReal": -1.932232, "fintechReal": 4.218862, "spreadBancoPf": 0.531931}, {"date": "2023-12-01", "bancoReal": -11.081328, "pfReal": -12.340942, "fintechReal": -6.257893, "spreadBancoPf": 1.259615}, {"date": "2024-01-01", "bancoReal": -7.669441, "pfReal": -9.711032, "fintechReal": -2.649319, "spreadBancoPf": 2.041591}, {"date": "2024-02-01", "bancoReal": -2.374829, "pfReal": -3.87976, "fintechReal": 2.861939, "spreadBancoPf": 1.504931}, {"date": "2024-03-01", "bancoReal": -0.51312, "pfReal": -3.598329, "fintechReal": 4.41546, "spreadBancoPf": 3.085209}, {"date": "2024-04-01", "bancoReal": -0.462337, "pfReal": -3.38476, "fintechReal": 5.207448, "spreadBancoPf": 2.922423}, {"date": "2024-05-01", "bancoReal": 1.531477, "pfReal": -1.194281, "fintechReal": 8.550636, "spreadBancoPf": 2.725758}, {"date": "2024-06-01", "bancoReal": 0.690223, "pfReal": -1.774423, "fintechReal": 7.257735, "spreadBancoPf": 2.464646}, {"date": "2024-07-01", "bancoReal": 1.177474, "pfReal": -0.981265, "fintechReal": 7.388758, "spreadBancoPf": 2.158739}, {"date": "2024-08-01", "bancoReal": 1.406724, "pfReal": -0.947919, "fintechReal": 7.159088, "spreadBancoPf": 2.354643}, {"date": "2024-09-01", "bancoReal": 2.144414, "pfReal": -0.209452, "fintechReal": 7.839509, "spreadBancoPf": 2.353865}, {"date": "2024-10-01", "bancoReal": 3.080163, "pfReal": 0.640112, "fintechReal": 7.95365, "spreadBancoPf": 2.44005}, {"date": "2024-11-01", "bancoReal": 3.366962, "pfReal": 0.565215, "fintechReal": 7.96314, "spreadBancoPf": 2.801747}, {"date": "2024-12-01", "bancoReal": 3.061658, "pfReal": 0.035323, "fintechReal": 7.918164, "spreadBancoPf": 3.026336}, {"date": "2025-01-01", "bancoReal": 3.622679, "pfReal": 0.384947, "fintechReal": 8.430322, "spreadBancoPf": 3.237731}, {"date": "2025-02-01", "bancoReal": 3.269518, "pfReal": -0.049917, "fintechReal": 8.198608, "spreadBancoPf": 3.319435}, {"date": "2025-03-01", "bancoReal": 1.909633, "pfReal": -1.257961, "fintechReal": 6.817079, "spreadBancoPf": 3.167595}, {"date": "2025-04-01", "bancoReal": 3.044715, "pfReal": -0.029971, "fintechReal": 7.811304, "spreadBancoPf": 3.074686}, {"date": "2025-05-01", "bancoReal": 4.449516, "pfReal": 1.217774, "fintechReal": 9.35869, "spreadBancoPf": 3.231742}, {"date": "2025-06-01", "bancoReal": 4.396004, "pfReal": 1.051033, "fintechReal": 9.182257, "spreadBancoPf": 3.34497}, {"date": "2025-07-01", "bancoReal": 3.843892, "pfReal": 0.796323, "fintechReal": 8.799152, "spreadBancoPf": 3.047568}, {"date": "2025-08-01", "bancoReal": 4.226305, "pfReal": 1.996654, "fintechReal": 9.374433, "spreadBancoPf": 2.229651}, {"date": "2025-09-01", "bancoReal": 4.634422, "pfReal": 1.902672, "fintechReal": 10.696675, "spreadBancoPf": 2.73175}, {"date": "2025-10-01", "bancoReal": 4.488729, "pfReal": 1.482425, "fintechReal": 10.512804, "spreadBancoPf": 3.006304}, {"date": "2025-11-01", "bancoReal": 3.883017, "pfReal": 0.190508, "fintechReal": 10.478866, "spreadBancoPf": 3.692509}, {"date": "2025-12-01", "bancoReal": 2.945994, "pfReal": -0.640601, "fintechReal": 9.517396, "spreadBancoPf": 3.586595}, {"date": "2026-01-01", "bancoReal": 2.732073, "pfReal": -0.312747, "fintechReal": 9.095219, "spreadBancoPf": 3.04482}, {"date": "2026-02-01", "bancoReal": 2.790498, "pfReal": -0.358887, "fintechReal": 8.867079, "spreadBancoPf": 3.149385}, {"date": "2026-03-01", "bancoReal": 2.28484, "pfReal": -1.053904, "fintechReal": null, "spreadBancoPf": 3.338744}, {"date": "2026-04-01", "bancoReal": 2.939622, "pfReal": -0.68629, "fintechReal": null, "spreadBancoPf": 3.625913}, {"date": "2026-05-01", "bancoReal": 3.338041, "pfReal": -0.358756, "fintechReal": null, "spreadBancoPf": 3.696797}, {"date": "2026-06-01", "bancoReal": 3.557394, "pfReal": -0.138392, "fintechReal": null, "spreadBancoPf": 3.695786}, {"date": "2026-07-01", "bancoReal": 3.251079, "pfReal": -0.33534, "fintechReal": null, "spreadBancoPf": 3.586419}];
 const presidents = [{"name": "Eduardo Duhalde", "period": "ene-2002 → may-2003", "acc": "~45%*", "monthly": "~2,2%/mes", "monthly_num": 2.2, "acc_num": 45}, {"name": "Néstor Kirchner", "period": "may-2003 → dic-2007", "acc": "~66%", "monthly": "~0,93%/mes", "monthly_num": 0.93, "acc_num": 66}, {"name": "Cristina Fernández", "period": "dic-2007 → dic-2015", "acc": "~489,5%**", "monthly": "~1,87%/mes", "monthly_num": 1.87, "acc_num": 489.5}, {"name": "Mauricio Macri", "period": "dic-2015 → dic-2019", "acc": "~295%", "monthly": "~2,90%/mes", "monthly_num": 2.9, "acc_num": 295}, {"name": "Alberto Fernández", "period": "dic-2019 → dic-2023", "acc": "~930%", "monthly": "~4,98%/mes", "monthly_num": 4.98, "acc_num": 930}, {"name": "Javier Milei", "period": "dic-2023 → jul-2026", "acc": "~329%", "monthly": "~4,65%/mes", "monthly_num": 4.65, "acc_num": 329}];
+
+
+const povertyData = {
+  dates: ["2003-10-01", "2004-04-01", "2004-10-01", "2005-04-01", "2005-10-01", "2006-04-01", "2006-10-01", "2007-04-01", "2007-10-01", "2008-04-01", "2008-10-01", "2009-04-01", "2009-10-01", "2010-04-01", "2010-10-01", "2011-04-01", "2011-10-01", "2012-04-01", "2012-10-01", "2013-04-01", "2013-10-01", "2014-04-01", "2014-10-01", "2015-04-01", "2015-10-01", "2016-04-01", "2016-10-01", "2017-04-01", "2017-10-01", "2018-04-01", "2018-10-01", "2019-04-01", "2019-10-01", "2020-04-01", "2020-10-01", "2021-04-01", "2021-10-01", "2022-04-01", "2022-10-01", "2023-04-01", "2023-10-01", "2024-04-01", "2024-10-01", "2025-04-01", "2025-10-01"],
+  values: [58.2, 56.8, 52.3, 50.9, 46.5, 43.4, 39.5, 37.6, 37.2, 35.7, 35.4, 34.4, 33.0, 32.6, 31.9, 29.4, 28.0, 28.0, 27.6, 27.5, 27.4, 30.1, 32.4, 30.1, null, 31.4, 30.3, 28.6, 25.7, 27.3, 32.0, 35.4, 35.5, 40.9, 42.0, 40.6, 37.3, 36.5, 39.2, 40.1, 41.7, 52.9, 38.1, 31.6, 28.2],
+  periods: ["2003-II", "2004-I", "2004-II", "2005-I", "2005-II", "2006-I", "2006-II", "2007-I", "2007-II", "2008-I", "2008-II", "2009-I", "2009-II", "2010-I", "2010-II", "2011-I", "2011-II", "2012-I", "2012-II", "2013-I", "2013-II", "2014-I", "2014-II", "2015-I", "2015-II · sin dato comparable", "2016-I", "2016-II", "2017-I", "2017-II", "2018-I", "2018-II", "2019-I", "2019-II", "2020-I", "2020-II", "2021-I", "2021-II", "2022-I", "2022-II", "2023-I", "2023-II", "2024-I", "2024-II", "2025-I", "2025-II"]
+};
+const duhaldePoverty = {
+  dates: ["2002-05-01", "2002-10-01", "2003-05-01"],
+  values: [60.1, 65.5, 62.0],
+  periods: ["May-2002", "Oct-2002", "May-2003"]
+};
+
+const povertyMandateChanges = [
+  {presidente:'Eduardo Duhalde', cambio: 1.9, relativo: 3.2, inicio:60.1, final:62.0},
+  {presidente:'Néstor Kirchner', cambio:-24.8, relativo:-40.0, inicio:62.0, final:37.2},
+  {presidente:'Cristina Fernández', cambio:-7.1, relativo:-19.1, inicio:37.2, final:30.1},
+  {presidente:'Mauricio Macri', cambio: 4.1, relativo:13.1, inicio:31.4, final:35.5},
+  {presidente:'Alberto Fernández', cambio: 6.2, relativo:17.5, inicio:35.5, final:41.7},
+  {presidente:'Javier Milei', cambio:-13.5, relativo:-32.4, inicio:41.7, final:28.2}
+];
+
 
 // ---------------- Tabs ----------------
 document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -4348,6 +5056,9 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
         const monthlyActive = document.getElementById('presMonthly').classList.contains('active');
         drawPres(monthlyActive ? 'monthly' : 'acc');
         requestAnimationFrame(() => Plotly.Plots.resize(document.getElementById('presChart')));
+      } else if (target === 'tab-poverty') {
+        renderPoverty();
+        requestAnimationFrame(() => Plotly.Plots.resize(document.getElementById('povertyChart')));
       } else if (target === 'tab-power') {
         Plotly.relayout('powerChart', {
           'xaxis.fixedrange': true,
@@ -4556,6 +5267,97 @@ function renderRatesVisible() {
 }
 
 
+
+// ---------------- Tab 4: Pobreza absoluta ----------------
+let povertyRendered = false;
+
+function renderPoverty() {
+  const mobile = window.innerWidth <= 720;
+
+  const mainTrace = {
+    x: povertyData.dates,
+    y: povertyData.values,
+    customdata: povertyData.periods,
+    name: 'Pobreza comparable / oficial',
+    mode: 'lines+markers',
+    connectgaps: false,
+    line: {color:'#7b61d1',width:3},
+    marker: {size:7},
+    hovertemplate:'<b>%{customdata}</b><br>Pobreza: <b>%{y:.1f}%</b><extra></extra>'
+  };
+
+  const duhaldeTrace = {
+    x: duhaldePoverty.dates,
+    y: duhaldePoverty.values,
+    customdata: duhaldePoverty.periods,
+    name: 'Duhalde · contexto histórico',
+    mode: 'lines+markers',
+    line: {color:'#ef8c73',width:2,dash:'dot'},
+    marker: {size:8},
+    hovertemplate:'<b>%{customdata}</b><br>Pobreza: <b>%{y:.1f}%</b><br><i>Contexto histórico</i><extra></extra>'
+  };
+
+  const shapes = [
+    {type:'rect',xref:'x',yref:'paper',x0:'2003-05-25',x1:'2007-12-10',y0:0,y1:1,fillcolor:'rgba(105,190,145,.06)',line:{width:0},layer:'below'},
+    {type:'rect',xref:'x',yref:'paper',x0:'2007-12-10',x1:'2015-12-10',y0:0,y1:1,fillcolor:'rgba(181,140,255,.06)',line:{width:0},layer:'below'},
+    {type:'rect',xref:'x',yref:'paper',x0:'2015-12-10',x1:'2019-12-10',y0:0,y1:1,fillcolor:'rgba(255,193,97,.06)',line:{width:0},layer:'below'},
+    {type:'rect',xref:'x',yref:'paper',x0:'2019-12-10',x1:'2023-12-10',y0:0,y1:1,fillcolor:'rgba(117,191,255,.07)',line:{width:0},layer:'below'},
+    {type:'rect',xref:'x',yref:'paper',x0:'2023-12-10',x1:'2025-12-31',y0:0,y1:1,fillcolor:'rgba(255,120,168,.07)',line:{width:0},layer:'below'},
+    {type:'line',x0:'2023-12-10',x1:'2023-12-10',yref:'paper',y0:0,y1:1,line:{color:'#e889aa',width:1.4,dash:'dot'}}
+  ];
+
+  const annotations = [
+    {x:'2023-10-01',y:41.7,text:'Heredado<br><b>41,7%</b>',showarrow:true,arrowhead:2,ax:-38,ay:-50,bgcolor:'#fff',bordercolor:'#dbcbea',font:{color:'#634b71',size:11}},
+    {x:'2024-04-01',y:52.9,text:'Pico propio<br><b>52,9%</b>',showarrow:true,arrowhead:2,ax:35,ay:-45,bgcolor:'#fff1f5',bordercolor:'#efb8c9',font:{color:'#ad4966',size:11}},
+    {x:'2025-10-01',y:28.2,text:'Último oficial<br><b>28,2%</b>',showarrow:true,arrowhead:2,ax:-35,ay:-45,bgcolor:'#effcf7',bordercolor:'#bce7d5',font:{color:'#2d7f62',size:11}},
+    {xref:'paper',x:0.5,yref:'paper',y:1.03,text:'Franjas suaves = mandatos · no cambian la escala',showarrow:false,font:{color:'#8a7198',size:10}}
+  ];
+
+  Plotly.react('povertyChart', [duhaldeTrace, mainTrace], {
+    ...common,
+    dragmode:false,
+    margin:{l:mobile?55:72,r:mobile?12:30,t:mobile?150:118,b:mobile?72:72},
+    xaxis:{
+      ...common.xaxis,
+      title:'Año',
+      type:'date',
+      tickformat:'%Y',
+      dtick: mobile ? 'M48' : 'M24',
+      range:['2002-01-01','2025-12-31'],
+      fixedrange:true
+    },
+    yaxis:{
+      ...common.yaxis,
+      title:'Personas bajo la línea de pobreza (%)',
+      range:[20,70],
+      fixedrange:true,
+      ticksuffix:'%'
+    },
+    legend:{
+      orientation:mobile?'v':'h',
+      x:0,y:mobile?1.03:1.14,
+      yanchor:'bottom',
+      font:{size:mobile?11:13,color:'#624d70'},
+      bgcolor:'rgba(255,255,255,.82)',
+      bordercolor:'#efd8f4',
+      borderwidth:1
+    },
+    shapes:shapes,
+    annotations:annotations
+  }, {
+    responsive:true,
+    displaylogo:false,
+    displayModeBar:false,
+    scrollZoom:false,
+    doubleClick:false
+  });
+
+  povertyRendered = true;
+  renderPovertyMandateChart();
+  setTimeout(bindPlotlyClickTracking, 80);
+}
+
+
 // ---------------- Tab 3: Presidentes ----------------
 const P = presidents;
 const names = P.map(d=>d.name);
@@ -4671,6 +5473,31 @@ function responsiveRelayout() {
     applyRealRange();
   }
 
+  const mandatePoverty = document.getElementById('povertyMandateChart');
+  if (mandatePoverty && mandatePoverty.data) {
+    Plotly.relayout('povertyMandateChart', {
+      'margin.l': mobile ? 118 : 150,
+      'margin.r': mobile ? 55 : 85,
+      'xaxis.tickfont.size': mobile ? 10 : 12,
+      'yaxis.tickfont.size': mobile ? 11 : 13
+    });
+    Plotly.Plots.resize(mandatePoverty);
+  }
+
+  const poverty = document.getElementById('povertyChart');
+  if (poverty && poverty.data) {
+    Plotly.relayout('povertyChart', {
+      'margin.l': mobile ? 55 : 72,
+      'margin.r': mobile ? 12 : 30,
+      'margin.t': mobile ? 150 : 118,
+      'xaxis.dtick': mobile ? 'M48' : 'M24',
+      'legend.orientation': mobile ? 'v' : 'h',
+      'legend.y': mobile ? 1.03 : 1.14,
+      'legend.font.size': mobile ? 11 : 13
+    });
+    Plotly.Plots.resize(poverty);
+  }
+
   /* En celular el gráfico presidencial pasa a barras horizontales. */
   const pres = document.getElementById('presChart');
   if (mobile && pres && pres.data) {
@@ -4723,7 +5550,7 @@ setTimeout(responsiveRelayout, 80);
 // 4) repetimos un par de veces porque Plotly puede volver a pintar
 //    el hover unos milisegundos después del touchend.
 
-const plotIds = ['powerChart', 'nominalChart', 'realChart', 'presChart'];
+const plotIds = ['powerChart', 'nominalChart', 'realChart', 'presChart', 'povertyChart', 'povertyMandateChart'];
 
 let touchStartedWithHover = false;
 let touchStartedInsideTooltip = false;
@@ -4931,6 +5758,141 @@ setTimeout(() => {
   applyNominalRange();
   applyRealRange();
 }, 150);
+
+
+// -------- Descargas CSV embebidas --------
+const embeddedCsvDownloads = {
+  power: {
+    filename: 'poder_adquisitivo_2017_2026.csv',
+    content: "fecha,Salarios registrados (total),Privado registrado,Público registrado,\"Privado no registrado (EPH, rezago ~5 meses)\",RIPTE,Jubilación mínima (sin bonos)\n2017-01,131.226097,130.111625,133.182048,205.986196,137.416319,188.929154\n2017-02,130.273303,129.584682,131.490109,208.419262,137.935968,185.805184\n2017-03,130.853951,128.980513,134.202341,214.481494,140.374620,205.908136\n2017-04,132.447412,130.556366,135.802594,218.690411,139.723930,201.650512\n2017-05,132.554316,130.987293,135.361414,217.340994,139.749208,198.363928\n2017-06,133.582052,131.561699,137.170398,215.310302,140.542323,195.749793\n2017-07,136.538206,135.422733,138.520895,219.767202,144.102320,192.355147\n2017-08,137.098632,135.413489,140.080541,226.211146,143.293415,189.639499\n2017-09,136.839475,134.787224,140.493043,225.469386,143.477598,211.443877\n2017-10,137.425717,135.392319,141.064815,223.937081,145.599117,208.699454\n2017-11,137.418367,135.561651,140.700909,227.032371,145.612021,206.051992\n2017-12,136.029568,134.328501,139.062634,229.664608,143.895303,202.665886\n2018-01,135.672064,134.607675,137.555227,227.707019,145.157538,199.673088\n2018-02,133.884178,132.899772,135.650677,225.689318,144.879578,195.583771\n2018-03,133.054193,131.413864,135.976069,224.017026,144.494155,201.558563\n2018-04,133.907382,133.187861,135.182681,224.489342,145.440518,197.354738\n2018-05,133.235915,132.926740,133.783496,216.754662,144.039159,192.250512\n2018-06,129.763608,129.491512,130.242901,205.774632,139.624119,195.235800\n2018-07,128.978054,128.457515,129.881950,205.162504,138.438426,189.194647\n2018-08,128.393782,127.822209,129.403828,203.597558,137.021758,183.058028\n2018-09,122.575833,121.536085,124.421963,195.766701,129.533517,181.423232\n2018-10,122.099532,120.707655,124.578934,190.438745,130.318227,173.544782\n2018-11,120.976301,119.848218,122.989622,194.126750,128.361915,168.002956\n2018-12,120.043377,118.584434,122.626537,197.741195,127.177932,176.238440\n2019-01,120.268182,119.210916,122.137588,197.037013,127.147254,171.100619\n2019-02,118.898987,117.932216,120.622919,194.605619,127.175158,164.748734\n2019-03,118.554071,116.800805,121.668013,191.070943,128.726279,176.170906\n2019-04,117.078350,115.675632,119.570885,186.364737,126.521520,169.775359\n2019-05,117.522145,116.859193,118.702006,180.233168,126.499227,164.546833\n2019-06,117.180708,116.758489,117.937647,175.757385,125.161613,177.373970\n2019-07,120.443212,119.201787,122.652516,178.177820,127.559119,173.638562\n2019-08,117.876083,117.090140,119.280567,174.661803,124.163292,165.942385\n2019-09,114.039044,112.908639,116.055426,166.331711,120.337253,174.963398\n2019-10,113.699678,112.873298,115.168959,163.585844,121.913674,168.550607\n2019-11,111.963678,111.559159,112.681364,160.898306,119.105557,162.101984\n2019-12,110.173532,109.232001,111.845108,163.469316,117.198769,170.009402\n2020-01,114.445757,115.737761,112.141936,166.155919,122.473879,165.958464\n2020-02,116.250189,118.270889,112.658924,167.491985,127.099831,162.097683\n2020-03,116.059500,117.325922,113.813880,168.042172,124.316774,177.574157\n2020-04,114.159395,115.081038,112.517391,166.337667,122.397652,174.578809\n2020-05,112.391775,112.992867,111.319149,162.891234,120.679703,171.819934\n2020-06,110.276078,110.583329,109.732534,161.609657,120.644678,178.203795\n2020-07,108.883256,109.268070,108.202994,164.320837,121.854610,173.800941\n2020-08,107.359942,108.229551,105.818354,165.433102,118.906511,168.684284\n2020-09,107.594547,108.076203,106.739128,165.455264,118.399345,177.229350\n2020-10,108.732164,110.046663,106.397937,163.381880,119.701503,171.302951\n2020-11,107.057750,108.670648,104.186715,168.865784,116.617031,164.813154\n2020-12,104.007394,105.282201,101.739627,163.026244,113.401867,165.015887\n2021-01,103.559529,105.397892,100.288800,160.739602,111.137216,158.797568\n2021-02,104.166541,106.483903,100.049392,158.824186,113.365790,152.587679\n2021-03,104.837915,105.907733,102.939038,158.411330,113.731383,157.761144\n2021-04,103.893086,106.092561,99.981483,153.714574,115.505881,150.882485\n2021-05,103.702014,106.121403,99.398891,149.888019,112.956354,145.808705\n2021-06,102.625833,104.222521,99.788474,146.350883,113.101518,157.785228\n2021-07,104.946248,106.272272,102.585409,145.312036,114.544735,152.991245\n2021-08,105.129171,106.496834,102.691917,144.483270,113.665448,148.344808\n2021-09,106.560195,106.847795,106.044252,141.087317,114.726257,161.455181\n2021-10,107.068533,107.379313,106.519788,144.442584,115.159640,156.447284\n2021-11,107.691122,108.648983,105.985628,145.972376,115.020915,151.518777\n2021-12,105.073004,105.553065,104.217770,147.952286,112.338528,162.677051\n2022-01,105.801867,106.913093,103.830546,146.875634,113.802273,157.477006\n2022-02,104.678397,106.321071,101.759146,143.652694,114.083588,150.766727\n2022-03,106.020915,105.345622,107.223841,142.610961,115.625140,159.099933\n2022-04,103.854620,104.247238,103.155186,143.081606,114.778841,149.097050\n2022-05,105.482130,105.998775,104.565403,140.393299,113.512788,141.724751\n2022-06,105.294778,105.977851,104.078897,139.739526,114.242474,155.097104\n2022-07,104.062070,104.057029,104.072417,134.065943,112.108685,144.506510\n2022-08,104.002726,105.365987,101.578748,132.320356,109.765307,135.303705\n2022-09,104.962434,105.669304,103.705311,135.394999,110.588411,148.153018\n2022-10,104.954648,105.419838,104.128320,132.287206,110.484800,140.363998\n2022-11,106.964306,108.026405,105.077906,134.409550,111.378048,133.991535\n2022-12,107.909230,107.296399,108.997740,128.393180,111.545693,147.191851\n2023-01,106.871549,106.520716,107.496803,130.077843,109.916748,139.714149\n2023-02,104.991603,105.740644,103.660108,129.349905,110.656857,129.737086\n2023-03,108.580172,106.398006,112.459631,127.980132,113.292927,141.632401\n2023-04,105.998251,104.888067,107.971951,123.785762,114.794656,130.656436\n2023-05,106.417189,105.186135,108.603814,118.449915,113.048354,121.155663\n2023-06,105.743411,104.407429,108.118814,119.565230,114.784286,137.569623\n2023-07,110.924302,108.607712,115.041322,120.141301,115.772992,129.176352\n2023-08,104.766709,103.407412,107.181806,114.601369,107.712732,113.525019\n2023-09,103.805933,103.223946,104.841391,108.565186,103.941452,123.395647\n2023-10,103.873504,103.147827,105.163190,104.670060,106.713988,113.403616\n2023-11,100.000000,100.000000,100.000000,100.000000,100.000000,100.000000\n2023-12,85.018053,86.573522,82.252517,83.917944,84.458074,94.239523\n2024-01,82.908477,86.407722,76.686899,77.650271,80.550391,78.391512\n2024-02,84.476662,87.776266,78.610770,73.105609,79.968338,69.811572\n2024-03,85.188883,88.237508,79.769251,73.328918,83.341061,81.148611\n2024-04,88.528375,92.941419,80.682924,74.345439,91.029113,97.257260\n2024-05,92.054746,96.473399,84.198983,80.130933,94.174632,104.078286\n2024-06,93.951894,99.303553,84.436907,84.430893,96.404599,109.278496\n2024-07,96.334173,101.683457,86.823860,93.616479,99.010063,109.693783\n2024-08,97.067665,102.579509,87.268333,99.421193,98.698921,110.178105\n2024-09,97.588351,103.080531,87.823997,106.249864,99.537258,110.997320\n2024-10,98.687419,104.115515,89.036932,111.145029,103.131733,112.347806\n2024-11,99.056722,104.688302,89.044352,117.021936,103.247886,113.173793\n2024-12,98.335166,104.278072,87.769596,121.148177,102.086004,112.617471\n2025-01,97.817455,104.179073,86.507406,128.457932,102.325357,112.653006\n2025-02,97.888968,103.559616,87.807552,134.708657,105.517644,112.411816\n2025-03,97.253659,102.525904,87.880281,137.205498,106.400646,111.341224\n2025-04,96.528822,101.846371,87.075091,143.146717,106.042533,110.462362\n2025-05,96.718586,101.625951,87.993999,147.861270,105.690078,112.119056\n2025-06,96.596744,101.645216,87.621168,158.300177,106.780402,113.294399\n2025-07,97.290115,102.339518,88.313149,161.571197,108.273265,113.317679\n2025-08,97.650541,102.538658,88.960089,167.891184,107.481330,112.845842\n2025-09,97.075933,102.012537,88.299507,174.204456,106.965873,112.850408\n2025-10,96.886475,101.875516,88.016655,177.653179,107.425492,112.478660\n2025-11,96.102395,101.368684,86.739888,176.001967,105.898871,111.866074\n2025-12,95.164497,100.873332,85.015184,171.054995,104.164036,111.112702\n2026-01,94.606588,100.383703,84.335802,173.946960,102.289487,110.939080\n2026-02,93.440840,98.905558,83.725438,176.561798,104.542743,110.696510\n2026-03,93.290307,97.821961,85.233641,179.173745,103.724893,110.365088\n2026-04,94.352284,99.461025,85.269878,183.378996,104.943890,111.027071\n2026-05,94.256474,99.555234,84.932259,186.251996,103.662773,112.635789\n2026-06,,,,,105.710790,113.756294\n2026-07,,,,,,114.167393\n"
+  },
+  ratesAnnual: {
+    filename: 'tasas_credito_ahorro_inflacion_anual_2002_2026.csv',
+    content: "anio,periodo_inflacion,inflacion_periodo_pct,inflacion_mensual_equivalente_pct,prestamo_bancario_tna_promedio_pct,meses_banco,plazo_fijo_total_tna_promedio_pct,meses_plazo_fijo,plazo_fijo_personas_tna_promedio_pct,meses_plazo_fijo_personas,fintech_personales_tna_promedio_pct,meses_fintech,prestamo_bancario_real_mensual_aprox_pct,plazo_fijo_total_real_mensual_aprox_pct,spread_real_banco_vs_pf_total_aprox_pp,nota\n2002,ene-dic,40.952869,2.901766,40.529167,12,39.250833,12,,0,,0,0.462251,0.358728,0.103524,Plazo fijo 2002: serie histórica con régimen/plazos no idénticos a los años posteriores.\n2003,ene-dic,3.65632,0.299703,44.903333,12,10.448095,12,,0,,0,3.431955,0.569265,2.86269,\n2004,ene-dic,6.100982,0.494729,29.968333,12,2.792227,12,,0,,0,1.992773,-0.260753,2.253527,\n2005,ene-dic,12.326504,0.973371,26.363333,12,4.02482,12,,0,,0,1.211779,-0.631819,1.843598,\n2006,ene-dic,9.838188,0.785049,24.530833,12,6.78236,12,,0,,0,1.249378,-0.21814,1.467519,\n2007,ene-dic,21.520578,1.637542,25.600833,12,8.195457,12,,0,,0,0.487872,-0.939207,1.427079,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2008,ene-dic,20.598501,1.57305,30.924167,12,11.631334,12,,0,,0,0.988416,-0.594421,1.582837,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2009,ene-dic,18.473659,1.422696,34.2775,12,11.92871,12,,0,,0,1.413651,-0.422624,1.836275,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2010,ene-dic,27.028861,2.013708,30.347185,12,9.523797,12,9.57728,12,,0,0.505054,-1.195975,1.701029,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2011,ene-dic,23.275524,1.759056,30.571284,12,11.072102,12,10.895656,12,,0,0.774919,-0.821923,1.596842,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2012,ene-dic,23.006037,1.7405,34.764202,12,12.399153,12,12.902296,12,,0,1.136732,-0.695139,1.83187,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2013,ene-dic,31.943825,2.336939,35.791646,12,15.170942,12,15.216541,12,,0,0.630953,-1.048198,1.679151,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2014,ene-dic,39.008241,2.782706,40.657484,12,21.295358,12,21.650938,12,,0,0.589027,-0.9808,1.569827,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2015,ene-dic,31.568906,2.312675,37.372108,12,22.040857,12,23.954286,12,,0,0.783547,-0.465179,1.248725,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2016,ene-dic,31.42846,2.303569,42.077254,12,24.501112,12,23.893553,12,,0,1.175784,-0.255914,1.431698,Inflación: serie histórica reconstruida/empalmada de Argendata-Fundar; no se usa ciegamente el IPC INDEC intervenido.\n2017,ene-dic,25.0392,1.879589,38.760717,12,19.118479,12,18.37966,12,,0,1.325556,-0.281098,1.606655,\n2018,ene-dic,47.104348,3.26872,49.37593,12,32.139144,12,31.245316,12,,0,0.819165,-0.571768,1.390933,\n2019,ene-dic,53.832402,3.654299,68.101842,12,47.484279,12,46.348678,12,143.145843,9,1.94961,0.292052,1.657558,Fintech disponible desde abr-2019.\n2020,ene-dic,36.140588,2.604317,54.901286,12,29.375959,12,30.935039,12,141.534417,12,1.920767,-0.152353,2.07312,\n2021,ene-dic,50.941634,3.490564,54.100151,12,33.571176,12,35.412737,12,134.186932,12,0.983454,-0.669593,1.653047,\n2022,ene-dic,94.793182,5.713669,67.136978,12,52.32399,12,55.970674,12,135.068412,12,-0.112493,-1.280191,1.167697,\n2023,ene-dic,211.407644,9.928619,102.335492,12,94.668249,12,99.492194,12,176.673619,12,-1.274155,-1.855384,0.581229,\n2024,ene-dic,117.8,6.701737,85.914832,12,54.10793,12,53.082446,12,156.769018,12,0.429077,-2.055021,2.484097,\n2025,ene-dic,31.5,2.308208,73.456894,12,34.908498,12,32.225346,12,139.419295,12,3.727169,0.587277,3.139891,\n2026,ene-jul,19.3,2.553063,67.383872,7,24.95803,7,22.347059,7,145.55487,2,2.986025,-0.461446,3.447471,2026 incompleto: inflación y banco/plazo fijo ene-jul; Fintech sólo ene-feb por último informe PNFC disponible.\n"
+  },
+  ratesMonthly: {
+    filename: 'tasas_credito_ahorro_inflacion_mensual_2017_2026.csv',
+    content: "fecha,inflacion_mensual_pct,prestamo_bancario_tna_pct,prestamo_bancario_equiv_mensual_pct,prestamo_bancario_real_mensual_pct,plazo_fijo_total_tna_pct,plazo_fijo_total_equiv_mensual_pct,plazo_fijo_total_real_mensual_pct,plazo_fijo_personas_tna_pct,plazo_fijo_personas_equiv_mensual_pct,plazo_fijo_personas_real_mensual_pct,fintech_personales_tna_pct,fintech_equiv_mensual_pct,fintech_real_mensual_pct,spread_real_banco_vs_pf_total_pp,spread_real_fintech_vs_pf_total_pp\n2017-01,1.5859,39.749091,3.312424,1.699571,18.634995,1.552916,-0.032469,17.712245,1.47602,-0.108164,,,,1.73204,\n2017-02,2.067216,39.076111,3.256343,1.165043,18.642322,1.553527,-0.503285,17.520475,1.46004,-0.594879,,,,1.668328,\n2017-03,2.37419,38.943636,3.245303,0.850911,18.223463,1.518622,-0.835726,17.374489,1.447874,-0.904833,,,,1.686637,\n2017-04,2.65583,38.320556,3.19338,0.523642,17.912703,1.492725,-1.133014,17.167752,1.430646,-1.193487,,,,1.656656,\n2017-05,1.43475,38.296667,3.191389,1.731792,18.142526,1.511877,0.076036,17.421599,1.4518,0.016808,,,,1.655756,\n2017-06,1.192073,37.597143,3.133095,1.918156,18.294615,1.524551,0.328561,17.583136,1.465261,0.26997,,,,1.589595,\n2017-07,1.732266,38.311429,3.192619,1.435486,18.451519,1.537627,-0.191325,17.724342,1.477029,-0.250892,,,,1.626812,\n2017-08,1.403258,38.430455,3.202538,1.774381,18.939853,1.578321,0.17264,18.254617,1.521218,0.116328,,,,1.60174,\n2017-09,1.898045,38.785714,3.232143,1.309248,19.371898,1.614325,-0.278435,18.671045,1.55592,-0.335751,,,,1.587683,\n2017-10,1.514733,38.373333,3.197778,1.657932,19.848194,1.654016,0.137205,19.145775,1.595481,0.079544,,,,1.520727,\n2017-11,1.375083,39.295,3.274583,1.873735,21.042264,1.753522,0.373306,20.50382,1.708652,0.329044,,,,1.500429,\n2017-12,3.141974,39.949474,3.329123,0.181448,21.917395,1.82645,-1.27545,21.476619,1.789718,-1.311062,,,,1.456898,\n2018-01,1.757354,40.678182,3.389848,1.604302,21.959189,1.829932,0.071325,21.459025,1.788252,0.030365,,,,1.532976,\n2018-02,2.419034,40.523889,3.376991,0.935331,21.608513,1.800709,-0.60372,21.35273,1.779394,-0.624532,,,,1.539051,\n2018-03,2.341063,40.128,3.344,0.979995,21.486779,1.790565,-0.537905,21.367903,1.780659,-0.547585,,,,1.5179,\n2018-04,2.739032,40.318421,3.359868,0.604284,21.41083,1.784236,-0.929342,21.417939,1.784828,-0.928765,,,,1.533626,\n2018-05,2.075375,42.309524,3.525794,1.420929,25.371865,2.114322,0.038155,24.964047,2.080337,0.004862,,,,1.382774,\n2018-06,3.736676,44.4495,3.704125,-0.031379,27.677284,2.30644,-1.378718,27.286579,2.273882,-1.410104,,,,1.347339,\n2018-07,3.101613,46.875714,3.90631,0.780489,32.194446,2.68287,-0.406145,31.212144,2.601012,-0.485541,,,,1.186634,\n2018-08,3.889439,48.656364,4.054697,0.159071,32.705235,2.725436,-1.120424,32.101508,2.675126,-1.168851,,,,1.279496,\n2018-09,6.534286,56.8945,4.741208,-1.683099,38.747308,3.228942,-3.10261,38.348983,3.195749,-3.133768,,,,1.419511,\n2018-10,5.391607,63.357273,5.279773,-0.106113,47.31984,3.94332,-1.374196,44.774206,3.731184,-1.57548,,,,1.268083,\n2018-11,3.153365,64.453684,5.37114,2.149979,48.569189,4.047432,0.866736,45.980996,3.83175,0.657647,,,,1.283243,\n2018-12,2.569823,63.866111,5.322176,2.683394,46.619249,3.884937,1.282165,44.677736,3.723145,1.124425,,,,1.401229,\n2019-01,2.906241,64.137273,5.344773,2.369664,44.730733,3.727561,0.798125,43.169202,3.597433,0.671672,,,,1.571539,\n2019-02,3.765622,62.1365,5.178042,1.361163,37.573864,3.131155,-0.611442,36.979606,3.081634,-0.659167,,,,1.972605,\n2019-03,4.67954,60.761053,5.063421,0.36672,39.711274,3.309273,-1.309012,38.412055,3.201005,-1.41244,,,,1.675732,\n2019-04,3.4,63.383158,5.28193,1.820048,46.557285,3.879774,0.463998,44.60575,3.717146,0.306717,136.182964,11.34858,7.687215,1.35605,7.223217\n2019-05,3.10362,67.019091,5.584924,2.406612,50.628309,4.219026,1.08183,48.775486,4.064624,0.932075,137.606352,11.467196,8.111816,1.324782,7.029986\n2019-06,2.718005,67.019444,5.584954,2.791086,50.163576,4.180298,1.423599,48.809733,4.067478,1.313764,138.935468,11.577956,8.625508,1.367487,7.201909\n2019-07,2.197866,65.800476,5.483373,3.214849,47.68371,3.973642,1.737587,46.571175,3.880931,1.64687,137.481542,11.456795,9.059807,1.477262,7.32222\n2019-08,3.953986,69.474286,5.789524,1.765722,53.404658,4.450388,0.477521,51.721438,4.31012,0.342588,145.566499,12.130542,7.865553,1.2882,7.388032\n2019-09,5.885662,76.258095,6.354841,0.4431,58.116269,4.843022,-0.984685,56.986551,4.748879,-1.073595,154.024621,12.835385,6.563422,1.427784,7.548107\n2019-10,3.293482,75.482727,6.290227,2.901195,54.448555,4.53738,1.204236,54.167152,4.513929,1.181534,153.601558,12.80013,9.203531,1.696959,7.999295\n2019-11,4.254537,74.192105,6.182675,1.849452,45.359501,3.779958,-0.455212,45.197321,3.766443,-0.468175,128.507584,10.708965,6.191028,2.304664,6.64624\n2019-12,3.743707,71.557895,5.963158,2.139359,41.43361,3.452801,-0.280409,40.788664,3.399055,-0.332215,156.405996,13.033833,8.954881,2.419768,9.23529\n2020-01,2.252895,69.046818,5.753902,3.42387,35.309235,2.942436,0.674349,35.108293,2.925691,0.657973,160.806879,13.400573,10.902066,2.749521,10.227717\n2020-02,2.013629,63.99,5.3325,3.25336,32.646347,2.720529,0.692946,32.18378,2.681982,0.65516,149.901032,12.491753,10.271297,2.560414,9.578351\n2020-03,3.343469,58.644737,4.887061,1.493653,28.548051,2.379004,-0.933261,28.289647,2.357471,-0.954098,141.445489,11.787124,8.170478,2.426914,9.103739\n2020-04,1.496573,53.0935,4.424458,2.884714,21.23501,1.769584,0.268986,23.834704,1.986225,0.482433,143.144955,11.928746,10.278351,2.615728,10.009365\n2020-05,1.542736,51.382105,4.281842,2.697491,23.534094,1.961175,0.412081,26.25704,2.188087,0.635546,149.726508,12.477209,10.768346,2.28541,10.356265\n2020-06,2.243539,50.31619,4.193016,1.906699,28.414329,2.367861,0.121594,29.906383,2.492199,0.243203,149.717476,12.476456,10.008375,1.785106,9.886782\n2020-07,1.934195,50.58,4.215,2.237527,28.355861,2.362988,0.420657,29.909815,2.492485,0.547696,138.95399,11.579499,9.462285,1.81687,9.041628\n2020-08,2.70011,51.1485,4.262375,1.521191,29.320638,2.443387,-0.249974,31.706708,2.642226,-0.056363,137.242296,11.436858,8.507048,1.771165,8.757022\n2020-09,2.835522,51.6,4.3,1.424098,29.356822,2.446402,-0.37839,31.666419,2.638868,-0.191231,131.518656,10.959888,7.90035,1.802488,8.278741\n2020-10,3.76097,50.715714,4.22631,0.448473,30.112487,2.509374,-1.20623,32.339009,2.694917,-1.027412,130.961335,10.913445,6.893223,1.654703,8.099453\n2020-11,3.159705,52.888421,4.407368,1.209448,32.26311,2.688592,-0.456683,34.47805,2.873171,-0.277758,130.961687,10.913474,7.516277,1.666131,7.972959\n2020-12,4.005567,55.409444,4.617454,0.588321,33.415524,2.784627,-1.173918,35.540627,2.961719,-1.003647,134.032708,11.169392,6.887925,1.762239,8.061843\n2021-01,4.049029,56.4185,4.701542,0.62712,33.564598,2.79705,-1.203259,35.539233,2.961603,-1.04511,137.228417,11.435701,7.099222,1.830379,8.302482\n2021-02,3.574632,55.97,4.664167,1.051932,33.519144,2.793262,-0.754403,35.492891,2.957741,-0.5956,143.718526,11.976544,8.11194,1.806335,8.866343\n2021-03,4.810807,56.044545,4.670379,-0.133983,33.550018,2.795835,-1.922486,35.48349,2.956958,-1.768758,133.323545,11.110295,6.010342,1.788503,7.932828\n2021-04,4.080294,55.3555,4.612958,0.511783,33.55137,2.795947,-1.233995,35.466405,2.955534,-1.080665,136.288201,11.35735,6.991772,1.745778,8.225767\n2021-05,3.322978,54.620526,4.551711,1.189215,33.360562,2.780047,-0.52547,35.433214,2.952768,-0.358304,137.87189,11.489324,7.903708,1.714685,8.429178\n2021-06,3.174548,52.631429,4.385952,1.174131,33.691004,2.807584,-0.355673,35.424731,2.952061,-0.215641,132.609337,11.050778,7.633889,1.529804,7.989562\n2021-07,2.997033,53.839048,4.486587,1.446211,33.658613,2.804884,-0.186558,35.402194,2.950183,-0.045487,133.288471,11.107373,7.874343,1.632768,8.0609\n2021-08,2.468487,53.147143,4.428929,1.913214,33.558482,2.79654,0.320151,35.380261,2.948355,0.468308,134.166261,11.180522,8.50216,1.593064,8.18201\n2021-09,3.546788,53.634091,4.469508,0.891114,33.647846,2.803987,-0.717358,35.360762,2.94673,-0.579504,135.026619,11.252218,7.441496,1.608471,8.158854\n2021-10,3.516275,52.815263,4.401272,0.854935,33.668816,2.805735,-0.686404,35.337975,2.944831,-0.552033,130.969451,10.914121,7.146554,1.54134,7.832958\n2021-11,2.529465,51.804762,4.317063,1.743498,33.506783,2.792232,0.256285,35.327148,2.943929,0.404239,127.91929,10.659941,7.929892,1.487213,7.673608\n2021-12,3.83997,52.921,4.410083,0.54903,33.57688,2.798073,-1.003368,35.304539,2.942045,-0.86472,127.833174,10.652765,6.560859,1.552398,7.564227\n2022-01,3.875682,54.954286,4.579524,0.677581,36.08508,3.00709,-0.836184,38.093984,3.174499,-0.675022,127.273227,10.606102,6.479303,1.513765,7.315487\n2022-02,4.694366,55.854737,4.654561,-0.038019,37.293063,3.107755,-1.515469,39.546455,3.295538,-1.336106,124.208287,10.350691,5.402702,1.477449,6.918171\n2022-03,6.728798,55.979048,4.664921,-1.933758,39.420628,3.285052,-3.226632,41.793951,3.482829,-3.041324,121.373472,10.114456,3.172207,1.292873,6.398839\n2022-04,6.047319,57.907368,4.825614,-1.152038,42.298167,3.524847,-2.378629,44.514301,3.709525,-2.204482,123.39069,10.282558,3.993725,1.226591,6.372354\n2022-05,5.050228,58.933,4.911083,-0.132455,44.419096,3.701591,-1.283802,46.787394,3.898949,-1.095932,123.758963,10.313247,5.010002,1.151346,6.293804\n2022-06,5.295221,60.251,5.020917,-0.26051,47.050152,3.920846,-1.305259,49.63656,4.13638,-1.100564,125.424986,10.452082,4.897526,1.044749,6.202785\n2022-07,7.406197,65.664286,5.472024,-1.800802,50.137759,4.178147,-3.00546,52.905416,4.408785,-2.790726,128.829581,10.735798,3.100009,1.204658,6.105469\n2022-08,6.970336,75.271818,6.272652,-0.652222,59.741301,4.978442,-1.862099,65.09486,5.424572,-1.44504,136.686649,11.390554,4.132191,1.209877,5.99429\n2022-09,6.16552,78.156667,6.513056,0.327353,65.666723,5.472227,-0.65303,71.358307,5.946526,-0.206276,146.249747,12.187479,5.672236,0.980383,6.325266\n2022-10,6.34735,82.715789,6.892982,0.513066,68.518587,5.709882,-0.599421,73.979535,6.164961,-0.171503,153.283919,12.77366,6.042755,1.112487,6.642176\n2022-11,4.916147,78.935238,6.577937,1.583922,68.405179,5.700432,0.747535,73.977575,6.164798,1.190142,153.096551,12.758046,7.474444,0.836387,6.72691\n2022-12,5.124608,81.0205,6.751708,1.547783,68.852139,5.737678,0.583185,73.959756,6.163313,0.98807,157.244873,13.103739,7.590165,0.964598,7.006981\n2023-01,6.027874,80.292727,6.691061,0.625484,68.912211,5.742684,-0.268976,73.938253,6.161521,0.126049,157.563095,13.130258,6.698601,0.894459,6.967577\n2023-02,6.627722,80.508889,6.709074,0.076296,68.991077,5.749256,-0.823862,73.926388,6.160532,-0.43815,156.741419,13.061785,6.034137,0.900158,6.857999\n2023-03,7.67524,80.691364,6.72428,-0.883174,70.116966,5.84308,-1.701561,75.230641,6.26922,-1.305797,152.589882,12.715823,4.681284,0.818387,6.382844\n2023-04,8.40269,81.749444,6.812454,-1.466971,73.490881,6.12424,-2.101839,78.425585,6.535465,-1.722489,151.190368,12.599197,3.871221,0.634868,5.97306\n2023-05,7.772753,95.0265,7.918875,0.135583,88.551273,7.379273,-0.365102,93.507069,7.792256,0.018096,159.698028,13.308169,5.136193,0.500685,5.501294\n2023-06,5.950832,104.193,8.68275,2.578477,91.404204,7.617017,1.572602,96.483939,8.040328,1.972138,170.185529,14.182127,7.768977,1.005875,6.196375\n2023-07,6.344851,102.57619,8.548016,2.071718,91.4942,7.624517,1.203317,96.486689,8.040557,1.594536,171.489299,14.290775,7.471847,0.8684,6.268529\n2023-08,12.441638,110.407727,9.200644,-2.882379,102.891024,8.574252,-3.439461,107.899646,8.991637,-3.068259,177.943517,14.828626,2.122869,0.557082,5.56233\n2023-09,12.74975,102.667619,8.555635,-3.719844,112.416293,9.368024,-2.99932,117.375101,9.781258,-2.632814,198.936449,16.578037,3.395384,-0.720524,6.394704\n2023-10,8.301739,116.3915,9.699292,1.290425,120.395412,10.032951,1.598508,125.563241,10.463603,1.996149,201.535628,16.794636,7.841884,-0.308083,6.243376\n2023-11,12.81069,134.772,11.231,-1.400302,127.571105,10.630925,-1.932232,132.298858,11.024905,-1.582993,210.840206,17.570017,4.218862,0.531931,6.151094\n2023-12,25.465675,138.748947,11.562412,-11.081328,119.78434,9.982028,-12.340942,122.770924,10.23091,-12.142576,211.370008,17.614167,-6.257893,1.259615,6.083049\n2024-01,20.614225,136.365455,11.363788,-7.669441,106.816067,8.901339,-9.711032,109.729891,9.144158,-9.509714,209.025235,17.41877,-2.649319,2.041591,7.061713\n2024-02,13.240676,126.616842,10.551404,-2.374829,106.166515,8.84721,-3.87976,109.734947,9.144579,-3.617161,197.778658,16.481555,2.861939,1.504931,6.741699\n2024-03,11.0097,125.281053,10.440088,-0.51312,84.182478,7.015206,-3.598329,85.139935,7.094995,-3.526454,190.935469,15.911289,4.41546,3.085209,8.013789\n2024-04,8.831921,99.945,8.32875,-0.462337,61.778656,5.148221,-3.38476,61.33057,5.110881,-3.41907,173.991442,14.499287,5.207448,2.922423,8.592208\n2024-05,4.176045,69.257727,5.771477,1.531477,35.182679,2.93189,-1.194281,34.232929,2.852744,-1.270254,157.005111,13.083759,8.550636,2.725758,9.744917\n2024-06,4.57735,63.59,5.299167,0.690223,32.660467,2.721706,-1.774423,31.075657,2.589638,-1.90071,146.007567,12.167297,7.257735,2.464646,9.032158\n2024-07,4.030934,63.070455,5.255871,1.177474,36.121374,3.010115,-0.981265,33.114385,2.759532,-1.222138,140.610332,11.717528,7.388758,2.158739,8.370023\n2024-08,4.172273,67.652273,5.637689,1.406724,38.217656,3.184805,-0.947919,35.514719,2.95956,-1.164142,139.560699,11.630058,7.159088,2.354643,8.107007\n2024-09,3.469208,68.25619,5.688016,2.144414,39.02988,3.25249,-0.209452,35.998323,2.99986,-0.453611,138.968231,11.580686,7.839509,2.353865,8.048961\n2024-10,2.691738,70.257727,5.854811,3.080163,40.188965,3.34908,0.640112,37.01382,3.084485,0.382452,130.313754,10.859479,7.95365,2.44005,7.313538\n2024-11,2.426556,70.502632,5.875219,3.366962,36.065842,3.005487,0.565215,33.492885,2.791074,0.355882,126.995117,10.582926,7.96314,2.801747,7.397925\n2024-12,2.704104,70.182632,5.848553,3.061658,32.884581,2.740382,0.035323,30.611287,2.550941,-0.149131,130.036596,10.836383,7.918164,3.026336,7.882841\n2025-01,2.211048,70.965909,5.913826,3.622679,31.254078,2.604507,0.384947,29.203627,2.433636,0.217773,129.933219,10.827768,8.430322,3.237731,8.045375\n2025-02,2.401627,68.996,5.749667,3.269518,28.206137,2.350511,-0.049917,26.136844,2.17807,-0.218314,129.565626,10.797135,8.198608,3.319435,8.248525\n2025-03,3.729335,68.522222,5.710185,1.909633,29.093525,2.42446,-1.257961,27.047058,2.253921,-1.422369,129.607755,10.800646,6.817079,3.167595,8.075041\n2025-04,2.780836,70.922632,5.910219,3.044715,33.000376,2.750031,-0.029971,30.87021,2.572517,-0.202682,129.71231,10.809359,7.811304,3.074686,7.841275\n2025-05,1.501109,72.209,6.017417,4.449516,32.845955,2.737163,1.217774,31.168476,2.597373,1.080052,132.003388,11.000282,9.35869,3.231742,8.140915\n2025-06,1.618925,73.033158,6.086096,4.396004,32.243686,2.686974,1.051033,30.844004,2.570334,0.936252,131.398027,10.949836,9.182257,3.34497,8.131223\n2025-07,1.901684,69.824091,5.818674,3.843892,32.55781,2.713151,0.796323,30.641392,2.553449,0.639602,130.418011,10.868168,8.799152,3.047568,8.002828\n2025-08,1.875794,74.1765,6.181375,4.226305,46.918802,3.9099,1.996654,41.295062,3.441255,1.536637,137.112858,11.426071,9.374433,2.229651,7.377779\n2025-09,2.07596,81.679091,6.806591,4.634422,48.217574,4.018131,1.902672,43.898833,3.658236,1.550096,155.936335,12.994695,10.696675,2.73175,8.794003\n2025-10,2.341943,83.229545,6.935795,4.488729,46.309028,3.859086,1.482425,40.748495,3.395708,1.029651,157.211412,13.100951,10.512804,3.006304,9.030379\n2025-11,2.47292,77.423529,6.451961,3.883017,32.017672,2.668139,0.190508,30.181334,2.515111,0.041173,158.531034,13.210919,10.478866,3.692509,10.288357\n2025-12,2.845272,70.501053,5.875088,2.945994,26.237332,2.186444,-0.640601,24.668812,2.055734,-0.767695,151.601562,12.633464,9.517396,3.586595,10.157997\n2026-01,2.881619,68.309048,5.692421,2.732073,30.718324,2.55986,-0.312747,26.033332,2.169444,-0.692228,146.867137,12.238928,9.095219,3.04482,9.407966\n2026-02,2.896319,69.211667,5.767639,2.790498,30.324448,2.527037,-0.358887,26.700109,2.225009,-0.652414,144.242604,12.020217,8.867079,3.149385,9.225966\n2026-03,3.382622,68.937,5.74475,2.28484,27.516829,2.293069,-1.053904,25.526265,2.127189,-1.214356,,,,3.338744,\n2026-04,2.58218,67.1725,5.597708,2.939622,22.538017,1.878168,-0.68629,21.146895,1.762241,-0.799299,,,,3.625913,\n2026-05,2.149972,66.717368,5.559781,3.338041,21.402044,1.783504,-0.358756,18.998876,1.58324,-0.554805,,,,3.696797,\n2026-06,1.886871,66.136667,5.511389,3.557394,20.950423,1.745869,-0.138392,18.88266,1.573555,-0.307514,,,,3.695786,\n2026-07,2.113772,65.202857,5.433571,3.251079,21.256125,1.771344,-0.33534,19.141279,1.595107,-0.507929,,,,3.586419,\n"
+  },
+  presidents: {
+    filename: 'inflacion_por_presidencia.csv',
+    content: "Presidente,Período considerado,Inflación acumulada aprox.,Mensual equivalente\r\nEduardo Duhalde,ene-2002 → may-2003,~45%*,\"~2,2%/mes\"\r\nNéstor Kirchner,may-2003 → dic-2007,~66%,\"~0,93%/mes\"\r\nCristina Fernández,dic-2007 → dic-2015,\"~489,5%**\",\"~1,87%/mes\"\r\nMauricio Macri,dic-2015 → dic-2019,~295%,\"~2,90%/mes\"\r\nAlberto Fernández,dic-2019 → dic-2023,~930%,\"~4,98%/mes\"\r\nJavier Milei,dic-2023 → jul-2026,~329%,\"~4,65%/mes\"\r\n"
+  },
+  poverty: {
+    filename: 'pobreza_argentina_2002_2025.csv',
+    content: "Período,Fecha,Pobreza personas %,Fuente\r\n2003-II,2003-10-01,58.2,CEDLAS comparable\r\n2004-I,2004-04-01,56.8,CEDLAS comparable\r\n2004-II,2004-10-01,52.3,CEDLAS comparable\r\n2005-I,2005-04-01,50.9,CEDLAS comparable\r\n2005-II,2005-10-01,46.5,CEDLAS comparable\r\n2006-I,2006-04-01,43.4,CEDLAS comparable\r\n2006-II,2006-10-01,39.5,CEDLAS comparable\r\n2007-I,2007-04-01,37.6,CEDLAS comparable\r\n2007-II,2007-10-01,37.2,CEDLAS comparable\r\n2008-I,2008-04-01,35.7,CEDLAS comparable\r\n2008-II,2008-10-01,35.4,CEDLAS comparable\r\n2009-I,2009-04-01,34.4,CEDLAS comparable\r\n2009-II,2009-10-01,33.0,CEDLAS comparable\r\n2010-I,2010-04-01,32.6,CEDLAS comparable\r\n2010-II,2010-10-01,31.9,CEDLAS comparable\r\n2011-I,2011-04-01,29.4,CEDLAS comparable\r\n2011-II,2011-10-01,28.0,CEDLAS comparable\r\n2012-I,2012-04-01,28.0,CEDLAS comparable\r\n2012-II,2012-10-01,27.6,CEDLAS comparable\r\n2013-I,2013-04-01,27.5,CEDLAS comparable\r\n2013-II,2013-10-01,27.4,CEDLAS comparable\r\n2014-I,2014-04-01,30.1,CEDLAS comparable\r\n2014-II,2014-10-01,32.4,CEDLAS comparable\r\n2015-I,2015-04-01,30.1,CEDLAS comparable\r\n2015-II · sin dato comparable,2015-10-01,,CEDLAS comparable\r\n2016-I,2016-04-01,31.4,CEDLAS comparable\r\n2016-II,2016-10-01,30.3,CEDLAS comparable\r\n2017-I,2017-04-01,28.6,CEDLAS comparable\r\n2017-II,2017-10-01,25.7,INDEC oficial\r\n2018-I,2018-04-01,27.3,INDEC oficial\r\n2018-II,2018-10-01,32.0,INDEC oficial\r\n2019-I,2019-04-01,35.4,INDEC oficial\r\n2019-II,2019-10-01,35.5,INDEC oficial\r\n2020-I,2020-04-01,40.9,INDEC oficial\r\n2020-II,2020-10-01,42.0,INDEC oficial\r\n2021-I,2021-04-01,40.6,INDEC oficial\r\n2021-II,2021-10-01,37.3,INDEC oficial\r\n2022-I,2022-04-01,36.5,INDEC oficial\r\n2022-II,2022-10-01,39.2,INDEC oficial\r\n2023-I,2023-04-01,40.1,INDEC oficial\r\n2023-II,2023-10-01,41.7,INDEC oficial\r\n2024-I,2024-04-01,52.9,INDEC oficial\r\n2024-II,2024-10-01,38.1,INDEC oficial\r\n2025-I,2025-04-01,31.6,INDEC oficial\r\n2025-II,2025-10-01,28.2,INDEC oficial\r\nMay-2002,2002-05-01,60.1,CEDLAS/Contexto Duhalde\r\nOct-2002,2002-10-01,65.5,CEDLAS/Contexto Duhalde\r\nMay-2003,2003-05-01,62.0,CEDLAS/Contexto Duhalde\r\n"
+  }
+};
+
+function downloadEmbeddedCsv(key) {
+  const item = embeddedCsvDownloads[key];
+  if (!item) return;
+  const bom = '\uFEFF';
+  const blob = new Blob([bom + item.content], {type:'text/csv;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = item.filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+
+function renderPovertyMandateChart() {
+  const mobile = window.innerWidth <= 720;
+
+  const y = povertyMandateChanges.map(d => d.presidente);
+  const x = povertyMandateChanges.map(d => d.cambio);
+  const custom = povertyMandateChanges.map(d => [
+    d.inicio,
+    d.final,
+    d.relativo,
+    d.cambio < 0 ? 'Bajó' : 'Subió'
+  ]);
+
+  Plotly.react('povertyMandateChart', [{
+    type:'bar',
+    orientation:'h',
+    y:y,
+    x:x,
+    customdata:custom,
+    marker:{
+      color:x.map(v => v < 0 ? '#68c7a1' : '#ef809e')
+    },
+    text:x.map(v => (v < 0 ? '↓ ' : '↑ ') + Math.abs(v).toFixed(1).replace('.', ',') + ' pp'),
+    textposition:'outside',
+    cliponaxis:false,
+    hovertemplate:
+      '<b>%{y}</b><br>' +
+      '%{customdata[3]}: <b>%{x:.1f} pp</b><br>' +
+      'Inicio: %{customdata[0]:.1f}%<br>' +
+      'Final / último: %{customdata[1]:.1f}%<br>' +
+      'Cambio relativo: %{customdata[2]:.1f}%<extra></extra>'
+  }], {
+    paper_bgcolor:'rgba(255,255,255,0)',
+    plot_bgcolor:'#fffdfd',
+    font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
+    margin:{
+      l: mobile ? 118 : 150,
+      r: mobile ? 55 : 85,
+      t: 24,
+      b: 58
+    },
+    xaxis:{
+      title:'Cambio de pobreza (puntos porcentuales)',
+      range:[-30,10],
+      zeroline:true,
+      zerolinecolor:'#b899c7',
+      zerolinewidth:2,
+      gridcolor:'#efe4f4',
+      linecolor:'#d9c2e5',
+      tickfont:{color:'#7b6688',size:mobile?10:12},
+      fixedrange:true
+    },
+    yaxis:{
+      autorange:'reversed',
+      gridcolor:'rgba(0,0,0,0)',
+      tickfont:{color:'#654c73',size:mobile?11:13},
+      fixedrange:true
+    },
+    showlegend:false,
+    hoverlabel:{
+      bgcolor:'#fff7fb',
+      bordercolor:'#efb7d0',
+      font:{color:'#4d365c',size:14}
+    },
+    shapes:[{
+      type:'line',
+      x0:0,x1:0,
+      yref:'paper',y0:0,y1:1,
+      line:{color:'#a987b9',width:1.7,dash:'dash'}
+    }],
+    annotations:[
+      {
+        x:-15,y:1.08,yref:'paper',
+        text:'← bajó la pobreza',
+        showarrow:false,
+        font:{color:'#2d8061',size:11}
+      },
+      {
+        x:5,y:1.08,yref:'paper',
+        text:'subió la pobreza →',
+        showarrow:false,
+        font:{color:'#b54d6b',size:11}
+      }
+    ]
+  }, {
+    responsive:true,
+    displaylogo:false,
+    displayModeBar:false,
+    scrollZoom:false,
+    doubleClick:false
+  });
+
+  setTimeout(bindPlotlyClickTracking, 50);
+}
 
 </script>
 </body>
