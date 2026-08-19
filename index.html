@@ -6871,6 +6871,79 @@ function powerTraces(base) {
   ];
 }
 
+const pandemicRange = {
+  startDate:'2020-03-20',
+  endDate:'2021-12-31'
+};
+
+function pandemicDateShapes(){
+  return [
+    {
+      type:'rect', xref:'x', yref:'paper',
+      x0:pandemicRange.startDate, x1:pandemicRange.endDate, y0:0, y1:1,
+      fillcolor:'rgba(109,202,196,.08)', line:{width:0}, layer:'below'
+    },
+    {
+      type:'line', xref:'x', yref:'paper',
+      x0:pandemicRange.startDate, x1:pandemicRange.startDate, y0:0, y1:1,
+      line:{color:'rgba(78,164,160,.75)', width:1.2, dash:'dash'}, layer:'above'
+    },
+    {
+      type:'line', xref:'x', yref:'paper',
+      x0:pandemicRange.endDate, x1:pandemicRange.endDate, y0:0, y1:1,
+      line:{color:'rgba(78,164,160,.75)', width:1.2, dash:'dash'}, layer:'above'
+    }
+  ];
+}
+
+function pandemicDateAnnotations(mobile){
+  return [{
+    x:'2021-01-15', y:mobile?0.905:0.965, xref:'x', yref:'paper',
+    text: mobile ? 'pandemia\n2020–2021' : 'pandemia 2020–2021',
+    showarrow:false,
+    font:{size:mobile?8:9,color:'#2c7e78'},
+    bgcolor:'rgba(244,255,253,.95)',
+    bordercolor:'rgba(127,213,206,.85)',
+    borderwidth:1,
+    borderpad:4
+  }];
+}
+
+function pandemicYearShapes(){
+  const x0 = decimalYearFromIso(pandemicRange.startDate);
+  const x1 = decimalYearFromIso(pandemicRange.endDate);
+  return [
+    {
+      type:'rect', xref:'x', yref:'paper',
+      x0:x0, x1:x1, y0:0, y1:1,
+      fillcolor:'rgba(109,202,196,.08)', line:{width:0}, layer:'below'
+    },
+    {
+      type:'line', xref:'x', yref:'paper',
+      x0:x0, x1:x0, y0:0, y1:1,
+      line:{color:'rgba(78,164,160,.75)', width:1.2, dash:'dash'}, layer:'above'
+    },
+    {
+      type:'line', xref:'x', yref:'paper',
+      x0:x1, x1:x1, y0:0, y1:1,
+      line:{color:'rgba(78,164,160,.75)', width:1.2, dash:'dash'}, layer:'above'
+    }
+  ];
+}
+
+function pandemicYearAnnotations(mobile){
+  return [{
+    x:decimalYearFromIso('2021-01-15'), y:mobile?0.905:0.965, xref:'x', yref:'paper',
+    text: mobile ? 'pandemia\n2020–2021' : 'pandemia 2020–2021',
+    showarrow:false,
+    font:{size:mobile?8:9,color:'#2c7e78'},
+    bgcolor:'rgba(244,255,253,.95)',
+    bordercolor:'rgba(127,213,206,.85)',
+    borderwidth:1,
+    borderpad:4
+  }];
+}
+
 function powerMandateDecorations(mobile, base) {
   const labels = [
     {x:'2002-08-01', text: mobile ? 'Duhalde' : 'Eduardo Duhalde', color:'#8f6c3b', bg:'rgba(255,249,240,.92)', border:'rgba(220,170,116,.42)'},
@@ -6885,6 +6958,7 @@ function powerMandateDecorations(mobile, base) {
     ? (base === 'nov' ? 'base nov-23' : 'base ene-17')
     : (base === 'nov' ? 'nov-2023 · base = 100' : 'ene-2017 · base = 100');
   const annotations = [
+    ...pandemicDateAnnotations(mobile),
     ...labels.map(d => ({
       x:d.x,y:mobile?0.965:1.075,yref:'paper',text:d.text,showarrow:false,
       font:{color:d.color,size:mobile?9:10},bgcolor:d.bg,bordercolor:d.border,borderwidth:1,borderpad:mobile?3:4
@@ -6898,6 +6972,7 @@ function powerMandateDecorations(mobile, base) {
   }
   return {
     shapes:[
+      ...pandemicDateShapes(),
       {type:'rect',xref:'x',yref:'paper',x0:'2002-01-02',x1:'2003-05-25',y0:0,y1:1,fillcolor:'rgba(255,194,120,.055)',line:{width:0},layer:'below'},
       {type:'rect',xref:'x',yref:'paper',x0:'2003-05-25',x1:'2007-12-10',y0:0,y1:1,fillcolor:'rgba(105,190,145,.055)',line:{width:0},layer:'below'},
       {type:'rect',xref:'x',yref:'paper',x0:'2007-12-10',x1:'2015-12-10',y0:0,y1:1,fillcolor:'rgba(181,140,255,.055)',line:{width:0},layer:'below'},
@@ -7102,6 +7177,7 @@ function annualMandateDecorations(mobile) {
     font:{color:'#7d4560',size:mobile?9:10},
     align:'left'
   });
+  annotations.push(...pandemicYearAnnotations(mobile));
   if (!mobile) annotations.push({
     xref:'paper',x:0.5,yref:'paper',y:1.03,
     text:'Franjas = mandatos · cada punto anual se ubica al cierre del período',
@@ -7109,6 +7185,7 @@ function annualMandateDecorations(mobile) {
   });
   return {
     shapes:[
+      ...pandemicYearShapes(),
       {type:'rect',xref:'x',yref:'paper',x0:annualMandateX.duhaldeStart,x1:annualMandateX.nestorStart,y0:0,y1:1,fillcolor:'rgba(255,194,120,.055)',line:{width:0},layer:'below'},
       {type:'rect',xref:'x',yref:'paper',x0:annualMandateX.nestorStart,x1:annualMandateX.cfkStart,y0:0,y1:1,fillcolor:'rgba(105,190,145,.06)',line:{width:0},layer:'below'},
       {type:'rect',xref:'x',yref:'paper',x0:annualMandateX.cfkStart,x1:annualMandateX.macriStart,y0:0,y1:1,fillcolor:'rgba(181,140,255,.06)',line:{width:0},layer:'below'},
@@ -7145,8 +7222,8 @@ Plotly.newPlot('realChart', realTraces, {
   ...common,
   xaxis:{...common.xaxis,title:'Mes',tickformat:'%b\n%Y',dtick:'M12'},
   yaxis:{...common.yaxis,title:'Porcentaje / puntos porcentuales mensuales'},
-  shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:0,y1:0,line:{color:'#f1b72c',width:1.6,dash:'dash'}}],
-  annotations:[{xref:'paper',x:0.01,yref:'y',y:0,text:'0 = iguala la inflación',showarrow:false,yshift:15,font:{color:'#c38a13',size:11}}]
+  shapes:[...pandemicDateShapes(),{type:'line',xref:'paper',x0:0,x1:1,y0:0,y1:0,line:{color:'#f1b72c',width:1.6,dash:'dash'}}],
+  annotations:[...pandemicDateAnnotations(window.innerWidth <= 720),{xref:'paper',x:0.01,yref:'y',y:0,text:'0 = iguala la inflación',showarrow:false,yshift:15,font:{color:'#c38a13',size:11}}]
 }, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
 
@@ -7246,6 +7323,7 @@ function renderSocial() {
 
 
   const mandateShapes = [
+    ...pandemicYearShapes(),
     {type:'rect',xref:'x',yref:'paper',x0:annualMandateX.duhaldeStart,x1:annualMandateX.nestorStart,y0:0,y1:1,fillcolor:'rgba(244,170,120,.06)',line:{width:0},layer:'below'},
     {type:'rect',xref:'x',yref:'paper',x0:annualMandateX.nestorStart,x1:annualMandateX.cfkStart,y0:0,y1:1,fillcolor:'rgba(105,190,145,.06)',line:{width:0},layer:'below'},
     {type:'rect',xref:'x',yref:'paper',x0:annualMandateX.cfkStart,x1:annualMandateX.macriStart,y0:0,y1:1,fillcolor:'rgba(181,140,255,.06)',line:{width:0},layer:'below'},
@@ -7290,6 +7368,7 @@ function renderSocial() {
     },
     shapes:mandateShapes,
     annotations:[
+      ...pandemicYearAnnotations(mobile),
       {x:2002,y:1.075,yref:'paper',text:mobile?'Duhalde':'Eduardo Duhalde',showarrow:false,font:{size:mobile?9:10,color:'#8f6c3b'},bgcolor:'rgba(255,249,240,.92)',bordercolor:'rgba(220,170,116,.42)',borderwidth:1,borderpad:4},
       {x:2005,y:1.075,yref:'paper',text:mobile?'Néstor':'Néstor Kirchner',showarrow:false,font:{size:mobile?9:10,color:'#46745f'},bgcolor:'rgba(247,255,251,.92)',bordercolor:'rgba(126,201,166,.42)',borderwidth:1,borderpad:4},
       {x:2011.5,y:1.075,yref:'paper',text:mobile?'CFK':'Cristina Fernández',showarrow:false,font:{size:mobile?9:10,color:'#7253a8'},bgcolor:'rgba(251,248,255,.92)',bordercolor:'rgba(184,151,244,.45)',borderwidth:1,borderpad:4},
@@ -7336,7 +7415,9 @@ function renderSocial() {
       fixedrange:true,
       tickfont:{color:'#7b6688',size:mobile?10:12}
     },
+    shapes:pandemicYearShapes(),
     annotations:[
+      ...pandemicYearAnnotations(mobile),
       {x:2004.5,y:1.075,yref:'paper',text:mobile?'Néstor':'Néstor Kirchner',showarrow:false,font:{size:mobile?9:10,color:'#46745f'},bgcolor:'rgba(247,255,251,.92)',bordercolor:'rgba(126,201,166,.42)',borderwidth:1,borderpad:4},
       {x:2011.5,y:1.075,yref:'paper',text:mobile?'CFK':'Cristina Fernández',showarrow:false,font:{size:mobile?9:10,color:'#7253a8'},bgcolor:'rgba(251,248,255,.92)',bordercolor:'rgba(184,151,244,.45)',borderwidth:1,borderpad:4},
       {x:2017.5,y:1.075,yref:'paper',text:mobile?'Macri':'Mauricio Macri',showarrow:false,font:{size:mobile?9:10,color:'#9b6a1f'},bgcolor:'rgba(255,252,245,.92)',bordercolor:'rgba(238,198,118,.45)',borderwidth:1,borderpad:4},
@@ -7423,6 +7504,7 @@ function renderPoverty() {
   };
 
   const shapes = [
+    ...pandemicDateShapes(),
     {type:'rect',xref:'x',yref:'paper',x0:'2002-01-02',x1:'2003-05-25',y0:0,y1:1,fillcolor:'rgba(255,194,120,.055)',line:{width:0},layer:'below'},
     {type:'rect',xref:'x',yref:'paper',x0:'2003-05-25',x1:'2007-12-10',y0:0,y1:1,fillcolor:'rgba(105,190,145,.06)',line:{width:0},layer:'below'},
     {type:'rect',xref:'x',yref:'paper',x0:'2007-12-10',x1:'2015-12-10',y0:0,y1:1,fillcolor:'rgba(181,140,255,.06)',line:{width:0},layer:'below'},
@@ -7441,6 +7523,7 @@ function renderPoverty() {
     {type:'line',xref:'x',yref:'paper',x0:'2016-09-15',x1:'2016-09-15',y0:0,y1:1,layer:'above',line:{color:'#8e79b5',width:1.2,dash:'dash'}}
   ];
   const annotations = [
+    ...pandemicDateAnnotations(mobile),
     {x:'2002-09-01',y:1.075,yref:'paper',text:mobile?'Duhalde':'Eduardo Duhalde',showarrow:false,font:{size:mobile?9:10,color:'#8f6c3b'},bgcolor:'rgba(255,249,240,.92)',bordercolor:'rgba(220,170,116,.42)',borderwidth:1,borderpad:4},
     {x:'2005-08-01',y:1.075,yref:'paper',text:mobile?'Néstor':'Néstor Kirchner',showarrow:false,font:{size:mobile?9:10,color:'#46745f'},bgcolor:'rgba(247,255,251,.92)',bordercolor:'rgba(126,201,166,.42)',borderwidth:1,borderpad:4},
     {x:'2011-08-01',y:1.075,yref:'paper',text:mobile?'CFK':'Cristina Fernández',showarrow:false,font:{size:mobile?9:10,color:'#7253a8'},bgcolor:'rgba(251,248,255,.92)',bordercolor:'rgba(184,151,244,.45)',borderwidth:1,borderpad:4},
@@ -7562,6 +7645,7 @@ function renderGini() {
   const mobile = window.innerWidth <= 720;
 
   const shapes = [
+    ...pandemicDateShapes(),
     // Franjas presidenciales, sólo como referencia temporal.
     {type:'rect',xref:'x',yref:'paper',x0:'2002-01-02',x1:'2003-05-25',y0:0,y1:1,fillcolor:'rgba(255,194,120,.055)',line:{width:0},layer:'below'},
     {type:'rect',xref:'x',yref:'paper',x0:'2003-05-25',x1:'2007-12-10',y0:0,y1:1,fillcolor:'rgba(116,201,165,.055)',line:{width:0},layer:'below'},
@@ -7627,6 +7711,7 @@ function renderGini() {
     yaxis:{title:'Coeficiente de Gini',range:[0.40,0.56],tickformat:'.3f',gridcolor:'#efe4f4',fixedrange:true},
     shapes:shapes,
     annotations:[
+      ...pandemicDateAnnotations(mobile),
       {x:'2002-08-01',y:1.075,yref:'paper',text:mobile?'Duhalde':'Eduardo Duhalde',showarrow:false,font:{size:mobile?9:10,color:'#8f6c3b',family:'Inter,system-ui,sans-serif'},bgcolor:'rgba(255,249,240,.92)',bordercolor:'rgba(220,170,116,.42)',borderwidth:1,borderpad:4},
       {x:'2005-08-01',y:1.075,yref:'paper',text:mobile?'Néstor':'Néstor Kirchner',showarrow:false,font:{size:mobile?9:10,color:'#46745f'},bgcolor:'rgba(247,255,251,.92)',bordercolor:'rgba(126,201,166,.42)',borderwidth:1,borderpad:4},
       {x:'2011-08-01',y:1.075,yref:'paper',text:mobile?'CFK':'Cristina Fernández',showarrow:false,font:{size:mobile?9:10,color:'#9a5577'},bgcolor:'rgba(255,247,251,.92)',bordercolor:'rgba(236,167,197,.45)',borderwidth:1,borderpad:4},
@@ -7714,6 +7799,7 @@ function renderStructure() {
     hovermode:'x unified',
     hoverlabel:{bgcolor:'#fff7fb',bordercolor:'#efb7d0',font:{color:'#4d365c',size:13}},
     shapes:[
+      ...pandemicDateShapes(),
       {type:'rect',xref:'x',yref:'paper',x0:'2011-12-10',x1:'2015-12-10',y0:0,y1:1,fillcolor:'rgba(255,151,196,.035)',line:{width:0},layer:'below'},
       {type:'rect',xref:'x',yref:'paper',x0:'2015-12-10',x1:'2019-12-10',y0:0,y1:1,fillcolor:'rgba(181,140,255,.035)',line:{width:0},layer:'below'},
       {type:'rect',xref:'x',yref:'paper',x0:'2019-12-10',x1:'2023-12-10',y0:0,y1:1,fillcolor:'rgba(117,191,255,.035)',line:{width:0},layer:'below'},
@@ -7723,6 +7809,7 @@ function renderStructure() {
       {type:'line',xref:'x',yref:'paper',x0:'2023-12-10',x1:'2023-12-10',y0:0,y1:1,layer:'above',line:{color:'#86abd0',width:2,dash:'dot'}}
     ],
     annotations:[
+      ...pandemicDateAnnotations(mobile),
       {x:'2015-07-01',y:1.04,yref:'paper',text:'CFK',showarrow:false,font:{size:9,color:'#9a5577'}},
       {x:'2017-12-01',y:1.04,yref:'paper',text:'Macri',showarrow:false,font:{size:9,color:'#7253a8'}},
       {x:'2021-12-01',y:1.04,yref:'paper',text:'Alberto',showarrow:false,font:{size:9,color:'#557a99'}},
@@ -8524,11 +8611,12 @@ function mandateShapesDate(end='2026-12-31'){
     ['2003-05-25','#b69aae',2],['2007-12-10','#a994c9',2],['2015-12-10','#c5a16f',2],
     ['2019-12-10','#8faec8',2],['2023-12-10','#c98ca4',2.4]
   ].map(d=>({type:'line',xref:'x',yref:'paper',x0:d[0],x1:d[0],y0:0,y1:1,layer:'above',line:{color:d[1],width:d[2],dash:'dot'}}));
-  return bands.concat(separators);
+  return bands.concat(pandemicDateShapes()).concat(separators);
 }
 function mandateAnnotationsDate(mobile){
   const a=[['2002-08-01',mobile?'Duhalde':'Eduardo Duhalde'],['2005-08-01',mobile?'Néstor':'Néstor Kirchner'],['2011-08-01',mobile?'CFK':'Cristina Fernández'],['2017-10-01',mobile?'Macri':'Mauricio Macri'],['2021-11-01',mobile?'Alberto':'Alberto Fernández'],['2025-01-01',mobile?'Milei':'Javier Milei']];
-  return a.map(x=>({x:x[0],y:1.055,yref:'paper',text:x[1],showarrow:false,font:{size:mobile?9:10,color:'#6d557b'},bgcolor:'rgba(255,255,255,.82)',bordercolor:'#ead9f3',borderwidth:1,borderpad:3}));
+  const labels = a.map(x=>({x:x[0],y:1.055,yref:'paper',text:x[1],showarrow:false,font:{size:mobile?9:10,color:'#6d557b'},bgcolor:'rgba(255,255,255,.82)',bordercolor:'#ead9f3',borderwidth:1,borderpad:3}));
+  return labels.concat(pandemicDateAnnotations(mobile));
 }
 
 function wholesaleShockShapesDate(end='2026-12-31'){
