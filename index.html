@@ -7897,16 +7897,19 @@ img, svg { max-width: 100%; }
 @media(max-width:390px){.rates-who-method{margin-left:9px;margin-right:9px}}
 </style>
 
-<style id="rates-timeline-checkbox-v132">
-/* v132 · foco cronológico opcional, inspirado en el control de Mayoristas */
+<style id="timeline-checkbox-v133">
+/* v133 · foco cronológico desde 2015, inspirado en el control de Mayoristas */
 .rates-timeline-toggle{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 14px;padding:12px 15px;border:1px solid #ddcfe8;border-radius:17px;background:linear-gradient(135deg,#fff9fc,#f8fbff);box-sizing:border-box;color:#67556e}
 .rates-timeline-toggle label{display:flex;align-items:center;gap:10px;cursor:pointer;font-size:11px;line-height:1.4;font-weight:900;color:#5e436b}
 .rates-timeline-toggle input{width:18px;height:18px;flex:0 0 auto;accent-color:#a764b3;cursor:pointer}
 .rates-timeline-toggle .copy{display:flex;flex-direction:column;gap:2px}
 .rates-timeline-toggle .copy small{font-size:9.5px;font-weight:650;color:#7d6c81}
 .rates-timeline-status{flex:0 0 auto;padding:6px 9px;border:1px solid #d5c8e2;border-radius:999px;background:#fff;font-size:9px;font-weight:900;color:#755c82;white-space:nowrap}
+.card>.rates-timeline-toggle{margin-left:20px;margin-right:20px}
 .mobile-range-control.rates-focus-disabled{opacity:.42;pointer-events:none;filter:grayscale(.35)}
-@media(max-width:720px){.rates-timeline-toggle{align-items:flex-start;flex-direction:column;margin-left:0;margin-right:0}.rates-timeline-status{white-space:normal}}
+@media(max-width:720px){.rates-timeline-toggle{align-items:flex-start;flex-direction:column}.card>.rates-timeline-toggle{margin-left:14px;margin-right:14px}.rates-timeline-status{white-space:normal}}
+@media(max-width:430px){.card>.rates-timeline-toggle{margin-left:11px;margin-right:11px}}
+@media(max-width:390px){.card>.rates-timeline-toggle{margin-left:9px;margin-right:9px}}
 </style>
 </head>
 <body>
@@ -7959,6 +7962,16 @@ img, svg { max-width: 100%; }
         <div class="card-head">
           <div class="card-title">Poder adquisitivo ajustado por IPC nacional <span>♡</span></div>
           <div class="kicker">2002–2026 · mensual · empalmes y deflactores explícitos</div>
+        </div>
+        <div class="rates-timeline-toggle" id="powerTimelineToggleBox">
+          <label for="powerFrom2015Only">
+            <input id="powerFrom2015Only" type="checkbox">
+            <span class="copy">
+              Ocultar el tramo anterior a 2015 en este gráfico
+              <small>Al activarlo, enfoca 2015 → jul-2026. La pérdida acumulada y las tarjetas siguen calculándose con la serie completa.</small>
+            </span>
+          </label>
+          <span class="rates-timeline-status" id="powerTimelineStatus">Vista completa</span>
         </div>
         <div id="powerChart"></div>
 
@@ -8245,22 +8258,22 @@ img, svg { max-width: 100%; }
         <div class="delta"><b>Diferencial: post-shock − espejo</b>Positivo significa que mejoró; negativo, que empeoró. Un saldo puede seguir bajo cero aunque haya mejorado.</div>
       </div>
     </div>
-    <div class="rates-timeline-toggle" id="ratesTimelineToggleBox">
-      <label for="ratesPostShockOnly">
-        <input id="ratesPostShockOnly" type="checkbox">
-        <span class="copy">
-          Ocultar el tramo previo al shock en los gráficos ① y ②
-          <small>Al activarlo, ambos gráficos enfocan dic-2023 → jul-2026. Sólo cambia lo visible: no modifica datos, saldos ni cálculos.</small>
-        </span>
-      </label>
-      <span class="rates-timeline-status" id="ratesTimelineStatus">Vista completa</span>
-    </div>
     <div class="grid">
       <main class="two">
         <section class="card">
           <div class="card-head">
             <div class="card-title">① Contexto nominal anual <span>♡</span></div>
             <div class="kicker">inflación + TNA + balance conjunto · diferencial post-shock vs espejo jerarquizado · 2002–2026</div>
+          </div>
+          <div class="rates-timeline-toggle" id="ratesTimelineToggleBox">
+            <label for="ratesFrom2015Only">
+              <input id="ratesFrom2015Only" type="checkbox">
+              <span class="copy">
+                Ocultar el tramo anterior a 2015 en los gráficos ① y ②
+                <small>Al activarlo, enfoca 2015 → jul-2026. La serie real del gráfico ② comienza en 2019. Sólo cambia lo visible: no modifica datos, saldos ni cálculos.</small>
+              </span>
+            </label>
+            <span class="rates-timeline-status" id="ratesTimelineStatus">Vista completa</span>
           </div>
           <div id="nominalChart"></div>
 <div class="rates-usury-callout" id="ratesUsuryNominalCallout">
@@ -17340,14 +17353,14 @@ function formatYear(iso) {
 
 
 function bindRatesTimelineFocus(){
-  const toggle=document.getElementById('ratesPostShockOnly');
+  const toggle=document.getElementById('ratesFrom2015Only');
   if(!toggle||toggle.dataset.bound)return;
   toggle.dataset.bound='1';
   toggle.addEventListener('change',applyRatesTimelineFocus);
 }
 
 function applyRatesTimelineFocus(){
-  const toggle=document.getElementById('ratesPostShockOnly');
+  const toggle=document.getElementById('ratesFrom2015Only');
   if(!toggle)return;
   const focused=toggle.checked;
   const status=document.getElementById('ratesTimelineStatus');
@@ -17356,7 +17369,7 @@ function applyRatesTimelineFocus(){
   const nominalControl=document.getElementById('nominalRangeControl');
   const realControl=document.getElementById('realRangeControl');
 
-  if(status)status.textContent=focused?'Foco pos-shock · dic-2023 → jul-2026':'Vista completa / control manual';
+  if(status)status.textContent=focused?'Foco reciente · 2015 → jul-2026':'Vista completa / control manual';
   if(nominalSlider)nominalSlider.disabled=focused;
   if(realSlider)realSlider.disabled=focused;
   if(nominalControl)nominalControl.classList.toggle('rates-focus-disabled',focused);
@@ -17367,18 +17380,51 @@ function applyRatesTimelineFocus(){
   if(typeof Plotly==='undefined'||!nominalChart?.data||!realChart?.data)return;
 
   if(focused){
-    Plotly.relayout('nominalChart',{'xaxis.autorange':false,'xaxis.range':[2022.55,2026.5]});
-    Plotly.relayout('realChart',{'xaxis.autorange':false,'xaxis.range':['2023-12-01','2026-08-01']});
+    Plotly.relayout('nominalChart',{'xaxis.autorange':false,'xaxis.range':[2014.55,2026.5]});
+    Plotly.relayout('realChart',{'xaxis.autorange':false,'xaxis.range':['2019-01-01','2026-08-01']});
     const nf=document.getElementById('nominalRangeFrom'),nt=document.getElementById('nominalRangeTo');
     const rf=document.getElementById('realRangeFrom'),rt=document.getElementById('realRangeTo');
-    if(nf)nf.textContent='dic-2023'; if(nt)nt.textContent='2026';
-    if(rf)rf.textContent='dic-2023'; if(rt)rt.textContent='2026';
+    if(nf)nf.textContent='2015'; if(nt)nt.textContent='2026';
+    if(rf)rf.textContent='2019'; if(rt)rt.textContent='2026';
   }else if(window.innerWidth<=720){
     applyNominalRange();
     applyRealRange();
   }else{
     Plotly.relayout('nominalChart',{'xaxis.autorange':false,'xaxis.range':[2001.5,2026.5]});
     Plotly.relayout('realChart',{'xaxis.autorange':false,'xaxis.range':['2019-01-01','2026-08-01']});
+  }
+}
+
+function bindPowerTimelineFocus(){
+  const toggle=document.getElementById('powerFrom2015Only');
+  if(!toggle||toggle.dataset.bound)return;
+  toggle.dataset.bound='1';
+  toggle.addEventListener('change',applyPowerTimelineFocus);
+}
+
+function applyPowerTimelineFocus(){
+  const toggle=document.getElementById('powerFrom2015Only');
+  if(!toggle)return;
+  const focused=toggle.checked;
+  const status=document.getElementById('powerTimelineStatus');
+  const slider=document.getElementById('powerRange');
+  const control=document.getElementById('powerRangeControl');
+  const chart=document.getElementById('powerChart');
+
+  if(status)status.textContent=focused?'Foco reciente · 2015 → jul-2026':'Vista completa / control manual';
+  if(slider)slider.disabled=focused;
+  if(control)control.classList.toggle('rates-focus-disabled',focused);
+  if(typeof Plotly==='undefined'||!chart?.data)return;
+
+  if(focused){
+    Plotly.relayout('powerChart',{'xaxis.autorange':false,'xaxis.range':['2015-01-01','2026-08-01']});
+    const from=document.getElementById('powerRangeFrom'),to=document.getElementById('powerRangeTo');
+    if(from)from.textContent='2015';
+    if(to)to.textContent='2026';
+  }else if(window.innerWidth<=720){
+    applyPowerRange();
+  }else{
+    Plotly.relayout('powerChart',{'xaxis.autorange':false,'xaxis.range':['2002-01-01','2026-08-01']});
   }
 }
 
@@ -17469,6 +17515,8 @@ setTimeout(() => {
   applyPowerRange();
   applyNominalRange();
   applyRealRange();
+  bindPowerTimelineFocus();
+  applyPowerTimelineFocus();
   bindRatesTimelineFocus();
   applyRatesTimelineFocus();
 }, 150);
