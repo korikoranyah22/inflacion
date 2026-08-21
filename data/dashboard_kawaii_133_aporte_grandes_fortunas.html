@@ -7470,6 +7470,12 @@ img, svg { max-width: 100%; }
 }
 #tab-milei-cost .milei-cost-formula .step{font-size:9px;font-weight:900;text-transform:uppercase;color:#927b9d}
 #tab-milei-cost .milei-cost-formula .formula{margin-top:5px;font-size:11px;line-height:1.5;color:#664f70;font-weight:750}
+#tab-milei-cost .milei-cost-formula>div.inputs{grid-column:1/-1;background:#fffafd}
+#tab-milei-cost .milei-input-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:9px}
+#tab-milei-cost .milei-input-grid>div{min-width:0;padding:9px 10px;border:1px solid #eadfec;border-radius:12px;background:#fff}
+#tab-milei-cost .milei-input-grid span{display:block;font-size:8px;font-weight:900;text-transform:uppercase;color:#927b9d}
+#tab-milei-cost .milei-input-grid b{display:block;margin-top:4px;font-size:15px;color:#654276;overflow-wrap:anywhere}
+#tab-milei-cost .milei-input-note{margin-top:9px;font-size:10px;line-height:1.5;color:#745f7b}
 #tab-milei-cost .milei-cost-table-wrap{
   margin-top:13px;overflow-x:auto;border:1px solid #e5dbe9;border-radius:16px;background:#fff
 }
@@ -7503,9 +7509,11 @@ img, svg { max-width: 100%; }
   #tab-milei-cost .milei-cost-grid{grid-template-columns:1fr;gap:12px}
   #tab-milei-cost .milei-cost-audit{padding:15px 14px}
   #tab-milei-cost .milei-cost-table{min-width:820px}
+  #tab-milei-cost .milei-input-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(max-width:440px){
   #tab-milei-cost .milei-cost-kpis,#tab-milei-cost .milei-cost-formula{grid-template-columns:1fr}
+  #tab-milei-cost .milei-input-grid{grid-template-columns:1fr}
   #tab-milei-cost .milei-cost-amount{font-size:32px}
 }
 
@@ -8442,9 +8450,9 @@ img, svg { max-width: 100%; }
 
         <div class="formula-card critical">
           <div class="formula-title">“Pinza” banco vs. plazo fijo · jul-2026</div>
-          <div class="formula">+3,29% − (−0,37%) = 3,67 pp reales</div>
+          <div class="formula">+3,292% − (−0,375%) = 3,667 pp reales</div>
           <div class="formula-result">≈ 3,67 puntos reales entre préstamo personal bancario y plazo fijo a 30 días</div>
-          <div class="formula-caveat">Esto mide una asimetría de tasas promedio; no demuestra por sí sola causalidad sobre consumo o pobreza.</div>
+          <div class="formula-caveat">La cuenta usa los valores completos; las tarjetas superiores los redondean a dos decimales. Esto mide una asimetría de tasas promedio; no demuestra por sí sola causalidad sobre consumo o pobreza.</div>
         </div>
       </div>
     </div>
@@ -8460,7 +8468,7 @@ img, svg { max-width: 100%; }
         <div class="card-title">Tabla de inflación por presidencia <span>♡</span></div>
         <div class="kicker">acumulada y mensual equivalente</div>
       </div>
-      <div class="method-legend" style="margin:0 0 12px"><strong>Convención de corte:</strong><span class="method-badge official">mes de asunción atribuido al entrante cuando puede identificarse</span><span class="method-badge reconstructed">histórico armonizado cuando INDEC no es confiable/comparable</span><span>Para diciembre de 2023, la cifra principal lo atribuye a Javier Milei: asumió el 10/12 y el shock cambiario principal del mes ocurrió bajo su gestión. El IPC es mensual y no permite separar los primeros 9 días; por eso mostramos también, como sensibilidad, qué cambia si se excluye ese diciembre.</span></div>
+      <div class="method-legend" style="margin:0 0 12px"><strong>Convención de corte:</strong><span class="method-badge official">mes de asunción atribuido al entrante cuando puede identificarse</span><span class="method-badge reconstructed">histórico armonizado cuando INDEC no es confiable/comparable</span><span>Diciembre de 2019 se atribuye a Alberto Fernández porque el IPC nacional mensual permite aislarlo. Para diciembre de 2023, la cifra principal lo atribuye a Javier Milei: asumió el 10/12 y el shock cambiario principal del mes ocurrió bajo su gestión. Como el IPC es mensual, no permite separar los días previos y posteriores a cada asunción.</span></div>
       <table>
         <thead><tr><th>Presidente</th><th>Período considerado</th><th>Inflación acumulada</th><th>Mensual equivalente</th></tr></thead>
         <tbody>
@@ -8472,7 +8480,7 @@ img, svg { max-width: 100%; }
     </tr>
 <tr>
       <td><span class="heart">♡</span> <b>Néstor Kirchner</b><div class="method-badge-row" style="margin-top:6px"><span class="method-badge reconstructed">reconstrucción histórica</span></div></td>
-      <td>may-2003 base → dic-2007*<br><small>≈55 meses</small></td>
+      <td>may-2003 base → dic-2007*<br><small>56 meses calendario · 55 variaciones desde la base</small></td>
       <td>≈61,4%</td>
       <td>≈0,87%/mes</td>
     </tr>
@@ -8490,9 +8498,9 @@ img, svg { max-width: 100%; }
     </tr>
 <tr>
       <td><span class="heart">♡</span> <b>Alberto Fernández</b><div class="method-badge-row" style="margin-top:6px"><span class="method-badge official">IPC INDEC nacional</span></div></td>
-      <td>ene-2020 → nov-2023<br><small>47 meses completos</small></td>
-      <td>≈893,5%</td>
-      <td>≈5,01%/mes</td>
+      <td>dic-2019 → nov-2023<br><small>48 meses · diciembre de asunción incluido</small></td>
+      <td>≈930,7%</td>
+      <td>≈4,98%/mes</td>
     </tr>
 <tr>
       <td><span class="heart">♡</span> <b>Javier Milei</b><div class="method-badge-row" style="margin-top:6px"><span class="method-badge official">IPC INDEC nacional</span><span class="method-badge partial">mandato en curso</span></div></td>
@@ -8510,9 +8518,9 @@ img, svg { max-width: 100%; }
 
     <div class="footnotes">
       <div class="note"><b>Diciembre de 2023:</b> la tabla principal lo atribuye a <b>Javier Milei</b>. El IPC de ese mes fue 25,5%; Milei asumió el 10/12 y la fuerte corrección del tipo de cambio oficial ocurrió bajo su gobierno. El IPC es mensual, así que no podemos separar estadísticamente los primeros nueve días del resto del mes.</div>
-      <div class="note good" style="margin-top:8px"><b>Sensibilidad · ¿qué pasa si NO contamos diciembre de 2023?</b> El acumulado ene-2024 → jul-2026 sería ≈241,7% y la mensual equivalente ≈4,04%. Esta queda como cifra alternativa para quien prefiera contar sólo meses completos.</div>
+      <div class="note good" style="margin-top:8px"><b>Sensibilidad · ¿qué pasa si NO contamos diciembre de 2023?</b> El acumulado ene-2024 → jul-2026 sería ≈241,8% y la mensual equivalente ≈4,04%. Esta queda como cifra alternativa para quien prefiera contar sólo meses completos.</div>
       <div class="note warn" style="margin-top:8px"><b>* Néstor Kirchner:</b> para 2007 la reconstrucción histórica disponible es anual y no permite aislar el mes de transición con la misma metodología. Se usa el cierre de 2007 como aproximación y se rotula explícitamente.</div>
-      <div class="note" style="margin-top:8px"><b>Transiciones anteriores:</b> no forzamos una falsa simetría cuando la serie histórica armonizada no permite aislar diciembre con la misma precisión. La regla de atribuir el mes de asunción al entrante se aplica como criterio principal donde la granularidad lo permite; las excepciones históricas quedan rotuladas.</div>
+      <div class="note" style="margin-top:8px"><b>Transiciones anteriores:</b> diciembre de 2019 sí puede aislarse con IPC nacional mensual y se atribuye a Alberto Fernández. Diciembre de 2015 permanece fuera de la comparación porque la reconstrucción armonizada usada para ese tramo no permite aislarlo homogéneamente; es una excepción de datos, no una regla política distinta.</div>
       <div class="note" style="margin-top:8px"><b>2007–2016:</b> se privilegia una reconstrucción histórica armonizada (Argendata/Fundar) en lugar de empalmar como plenamente confiables los IPC oficiales intervenidos. Desde 2017 se toma IPC nacional INDEC.</div>
     </div>
     
@@ -8542,15 +8550,16 @@ img, svg { max-width: 100%; }
         </div>
 
         <div class="formula-card">
-          <div class="formula-title">Alberto Fernández · meses completos</div>
-          <div class="formula">[(1 + 893,48/100)^(1/47) − 1] × 100 ≈ 5,01%/mes</div>
-          <div class="formula-result">ene-2020 → nov-2023: ≈ 5,01% mensual equivalente</div>
+          <div class="formula-title">Alberto Fernández · diciembre de asunción incluido</div>
+          <div class="formula">[(1 + 930,67/100)^(1/48) − 1] × 100 ≈ 4,98%/mes</div>
+          <div class="formula-result">dic-2019 → nov-2023: ≈ 4,98% mensual equivalente</div>
+          <div class="formula-caveat">Diciembre de 2019 tuvo 3,7437% de IPC y se atribuye a la gestión entrante con la misma convención usada para diciembre de 2023.</div>
         </div>
 
         <div class="formula-card favorable">
           <div class="formula-title">Sensibilidad · excluir dic-2023</div>
-          <div class="formula">[(1 + 241,68/100)^(1/31) − 1] × 100 ≈ 4,04%/mes</div>
-          <div class="formula-result">Sin diciembre de 2023: ≈241,7% acumulado</div>
+          <div class="formula">[(1 + 241,80/100)^(1/31) − 1] × 100 ≈ 4,04%/mes</div>
+          <div class="formula-result">Sin diciembre de 2023: ≈241,8% acumulado</div>
           <div class="formula-caveat">Esta variante cuenta sólo ene-2024 → jul-2026. Se conserva para mostrar cuánto depende el resultado de la convención de corte, pero no es la cifra principal.</div>
         </div>
 
@@ -8941,9 +8950,9 @@ img, svg { max-width: 100%; }
 
         <div class="social-mandate-card">
           <h4>Mauricio Macri</h4>
-          <div class="line"><span>2016</span><b>32.58 bill.</b></div>
+          <div class="line"><span>2017 · máximo</span><b>34.54 bill.</b></div>
           <div class="line"><span>2019</span><b>31.33 bill.</b></div>
-          <div class="take">La crisis 2018–2019 produjo un recorte real acumulado de ≈ 9.29%.</div>
+          <div class="take">Desde el máximo de 2017, la crisis 2018–2019 produjo un recorte real acumulado de ≈ 9.29%.</div>
         </div>
 
         <div class="social-mandate-card">
@@ -10406,8 +10415,8 @@ img, svg { max-width: 100%; }
       <aside class="card">
         <div class="card-head"><div class="card-title">Última secuencia</div><div class="kicker">2024 → 2025 → 1T-2026</div></div>
         <div class="inv-kpi-grid">
-          <div class="inv-kpi"><div class="tag">2024 · volumen real</div><div class="big">−17,2%</div><div class="mini">Fuerte caída anual de la FBCF.</div></div>
-          <div class="inv-kpi"><div class="tag">2025 · volumen real</div><div class="big">+16,2%</div><div class="mini">Rebote anual. Aun así, el nivel real quedó ≈5,2% debajo de 2023.</div></div>
+          <div class="inv-kpi"><div class="tag">2024 · volumen real</div><div class="big" id="investment2024GrowthKpi">Calculando…</div><div class="mini">Fuerte caída anual de la FBCF.</div></div>
+          <div class="inv-kpi"><div class="tag">2025 · volumen real</div><div class="big" id="investment2025GrowthKpi">Calculando…</div><div class="mini" id="investment2025LevelContext">Comparando el nivel encadenado con 2023…</div></div>
           <div class="inv-kpi"><div class="tag">2025 · inversión / PIB</div><div class="big">16,6%</div><div class="mini">A precios corrientes; 2024 había sido 17,7%.</div></div>
           <div class="inv-kpi"><div class="tag">1T-2026</div><div class="big">−11,6% ia</div><div class="mini">−1,7% trimestral desestacionalizado · inversión/PIB: 14,3%.</div></div>
         </div>
@@ -11347,7 +11356,7 @@ img, svg { max-width: 100%; }
         <button class="wealth-preset" data-preset="custom" type="button">Personalizado</button>
       </div>
       <div class="wealth-control-grid">
-        <div class="wealth-control"><label for="wealthThreshold">Umbral patrimonial</label><select id="wealthThreshold"><option value="1000000000" selected>$1 B</option><option value="2000000000">$2 B</option><option value="3000000000">$3 B</option><option value="5000000000">$5 B</option><option value="6129537999.381159">$6,13 B · mínimo histórico real</option><option value="10000000000">$10 B</option></select><output id="wealthThresholdContext"></output></div>
+        <div class="wealth-control"><label for="wealthThreshold">Umbral patrimonial</label><select id="wealthThreshold"><option value="1000000000" selected>$1 mil M</option><option value="2000000000">$2 mil M</option><option value="3000000000">$3 mil M</option><option value="5000000000">$5 mil M</option><option value="6129537999.381159">$6,13 mil M · mínimo histórico real</option><option value="10000000000">$10 mil M</option></select><output id="wealthThresholdContext"></output></div>
         <div class="wealth-control"><label for="wealthParticipation">Participación voluntaria</label><input id="wealthParticipation" type="range" min="25" max="100" step="25" value="100"><output id="wealthParticipationOut">100%</output></div>
         <div class="wealth-control"><label for="wealthCap">Tope máximo por persona</label><select id="wealthCap"><option value="0.01">1% del patrimonio</option><option value="0.02">2% del patrimonio</option><option value="0.03" selected>3% del patrimonio</option><option value="0.05">5% del patrimonio</option></select><output id="wealthCapOut">3%</output></div>
         <div class="wealth-control"><label for="wealthHorizon">Horizonte del aporte</label><select id="wealthHorizon"><option value="1" selected>Una sola vez</option><option value="3">Anual · durante 3 años</option></select><output id="wealthHorizonOut">Una vez</output></div>
@@ -11490,12 +11499,12 @@ img, svg { max-width: 100%; }
         <div class="meli-kpi"><div class="tag">2024 · TC promedio</div><div class="big">$ 916,32/USD</div><div class="mini">USD 57 M documentados → ≈ $52,23 mil M nominales de 2024.</div></div>
         <div class="meli-kpi"><div class="tag">2025 · TC promedio</div><div class="big">$ 1.243,79/USD</div><div class="mini">USD 64 M documentados → ≈ $79,60 mil M nominales de 2025.</div></div>
         <div class="meli-kpi"><div class="tag">1T-2026 · TC promedio</div><div class="big">$ 1.418,44/USD</div><div class="mini">USD 13 M documentados → ≈ $18,44 mil M nominales del trimestre.</div></div>
-        <div class="meli-kpi hot"><div class="tag">2024→1T26 · equivalente jun-26</div><div class="big">≈ $ 223,08 mil M</div><div class="mini">Cada tramo se convierte con su A3500 promedio y luego se reexpresa con IPC nacional a pesos de junio-2026.</div></div>
+        <div class="meli-kpi hot"><div class="tag">2024→1T26 · equivalente jun-26</div><div class="big" id="meliRecentTotalKpi">Calculando…</div><div class="mini">Cada tramo se convierte con su A3500 promedio y luego se reexpresa con IPC nacional a pesos de junio-2026.</div></div>
       </div>
       <div id="meliArsChart"></div>
       <div id="meliFxRecentTable" class="meli-fx-table-wrap"></div>
       <div class="meli-caveat">
-        <b>Dos cuentas distintas:</b> las barras muestran <b>pesos nominales de cada período</b>: USD documentados × A3500 promedio de ese mismo año/trimestre. No se deben sumar sin más para comparar poder de compra entre años. Para llevar el tramo 2024→1T26 a la tablita del primer tab hacemos una segunda operación identificada: reexpresamos cada subtotal con el <b>IPC nacional</b> hasta junio-2026. El resultado es ≈ <b>$218,95 mil millones a pesos de junio-2026</b>.<br><br>
+        <b>Dos cuentas distintas:</b> las barras muestran <b>pesos nominales de cada período</b>: USD documentados × A3500 promedio de ese mismo año/trimestre. No se deben sumar sin más para comparar poder de compra entre años. Para llevar el tramo 2024→1T26 a la tablita del primer tab hacemos una segunda operación identificada: reexpresamos cada subtotal con el <b>IPC nacional</b> hasta junio-2026. El resultado es ≈ <b id="meliRecentTotalProse">calculando el total a pesos de junio-2026…</b>.<br><br>
         <b>No cambia el caveat contrafactual:</b> sigue siendo un beneficio contable observado; no prueba que el Tesoro habría recaudado exactamente ese monto si el régimen no hubiera existido.
       </div>
     </section>
@@ -11635,17 +11644,17 @@ img, svg { max-width: 100%; }
         </div>
         <div class="casta-kpi warn">
           <div class="tag">Suba nominal vs dic-2023</div>
-          <div class="big">+134.2%</div>
+          <div class="big" id="castaNominalChangeKpi">Calculando…</div>
           <div class="mini">Los cargos Min/Sec/Sub estuvieron congelados durante 2024–2025 y recibieron el catch-up desde 2026.</div>
         </div>
         <div class="casta-kpi hot">
-          <div class="tag">Inflación dic-23 → jul-26</div>
-          <div class="big">+241.5%</div>
-          <div class="mini">Con el mismo IPC nacional usado en Poder adquisitivo.</div>
+          <div class="tag">IPC jul-26 vs dic-23 = 100</div>
+          <div class="big" id="castaInflationChangeKpi">Calculando…</div>
+          <div class="mini">Inflación acumulada ene-2024 → jul-2026, con el mismo IPC nacional usado en Poder adquisitivo.</div>
         </div>
         <div class="casta-kpi good">
           <div class="tag">Resultado real Min/Sec/Sub</div>
-          <div class="big">-31.4%</div>
+          <div class="big" id="castaRealChangeKpi">Calculando…</div>
           <div class="mini">A pesar de la suba nominal, el sueldo político comparable sigue abajo de dic-2023 en poder de compra.</div>
         </div>
       </div>
@@ -11936,10 +11945,10 @@ const annual = [{"year":2002,"inflacion":40.952869,"banco":40.529167,"pf":39.250
 const modern = [{"date":"2019-01-01","bancoReal":2.369662,"pfReal":0.748504,"fintechReal":null,"spreadBancoPf":1.621158},{"date":"2019-02-01","bancoReal":1.361162,"pfReal":-0.652778,"fintechReal":null,"spreadBancoPf":2.01394},{"date":"2019-03-01","bancoReal":0.366719,"pfReal":-1.352317,"fintechReal":null,"spreadBancoPf":1.719037},{"date":"2019-04-01","bancoReal":1.820047,"pfReal":0.412598,"fintechReal":7.687215,"spreadBancoPf":1.407449},{"date":"2019-05-01","bancoReal":2.406611,"pfReal":1.025775,"fintechReal":8.111816,"spreadBancoPf":1.380836},{"date":"2019-06-01","bancoReal":2.791086,"pfReal":1.36785,"fintechReal":8.625509,"spreadBancoPf":1.423235},{"date":"2019-07-01","bancoReal":3.214848,"pfReal":1.684324,"fintechReal":9.059807,"spreadBancoPf":1.530524},{"date":"2019-08-01","bancoReal":1.76572,"pfReal":0.418876,"fintechReal":7.865553,"spreadBancoPf":1.346845},{"date":"2019-09-01","bancoReal":0.443099,"pfReal":-1.047339,"fintechReal":6.563422,"spreadBancoPf":1.490438},{"date":"2019-10-01","bancoReal":2.901194,"pfReal":1.144062,"fintechReal":9.203531,"spreadBancoPf":1.757131},{"date":"2019-11-01","bancoReal":1.849451,"pfReal":-0.504879,"fintechReal":6.191029,"spreadBancoPf":2.35433},{"date":"2019-12-01","bancoReal":2.139358,"pfReal":-0.326,"fintechReal":8.954881,"spreadBancoPf":2.465359},{"date":"2020-01-01","bancoReal":3.423869,"pfReal":0.63493,"fintechReal":10.902066,"spreadBancoPf":2.788939},{"date":"2020-02-01","bancoReal":3.253359,"pfReal":0.656415,"fintechReal":10.271298,"spreadBancoPf":2.596945},{"date":"2020-03-01","bancoReal":1.493652,"pfReal":-0.964796,"fintechReal":8.170478,"spreadBancoPf":2.458448},{"date":"2020-04-01","bancoReal":2.884713,"pfReal":0.245102,"fintechReal":10.27835,"spreadBancoPf":2.63961},{"date":"2020-05-01","bancoReal":2.69749,"pfReal":0.385624,"fintechReal":10.768346,"spreadBancoPf":2.311866},{"date":"2020-06-01","bancoReal":1.906698,"pfReal":0.089869,"fintechReal":10.008376,"spreadBancoPf":1.816829},{"date":"2020-07-01","bancoReal":2.237526,"pfReal":0.388902,"fintechReal":9.462285,"spreadBancoPf":1.848624},{"date":"2020-08-01","bancoReal":1.52119,"pfReal":-0.282565,"fintechReal":8.507048,"spreadBancoPf":1.803755},{"date":"2020-09-01","bancoReal":1.424096,"pfReal":-0.410979,"fintechReal":7.90035,"spreadBancoPf":1.835076},{"date":"2020-10-01","bancoReal":0.448472,"pfReal":-1.239359,"fintechReal":6.893223,"spreadBancoPf":1.687831},{"date":"2020-11-01","bancoReal":1.209447,"pfReal":-0.492385,"fintechReal":7.516277,"spreadBancoPf":1.701832},{"date":"2020-12-01","bancoReal":0.58832,"pfReal":-1.210594,"fintechReal":6.887925,"spreadBancoPf":1.798915},{"date":"2021-01-01","bancoReal":0.627119,"pfReal":-1.240084,"fintechReal":7.099223,"spreadBancoPf":1.867203},{"date":"2021-02-01","bancoReal":1.051931,"pfReal":-0.791346,"fintechReal":8.11194,"spreadBancoPf":1.843277},{"date":"2021-03-01","bancoReal":-0.133984,"pfReal":-1.959026,"fintechReal":6.010342,"spreadBancoPf":1.825043},{"date":"2021-04-01","bancoReal":0.511781,"pfReal":-1.270795,"fintechReal":6.991771,"spreadBancoPf":1.782576},{"date":"2021-05-01","bancoReal":1.189214,"pfReal":-0.562328,"fintechReal":7.903708,"spreadBancoPf":1.751542},{"date":"2021-06-01","bancoReal":1.17413,"pfReal":-0.39295,"fintechReal":7.633889,"spreadBancoPf":1.56708},{"date":"2021-07-01","bancoReal":1.44621,"pfReal":-0.223862,"fintechReal":7.874343,"spreadBancoPf":1.670072},{"date":"2021-08-01","bancoReal":1.913213,"pfReal":0.282764,"fintechReal":8.50216,"spreadBancoPf":1.630449},{"date":"2021-09-01","bancoReal":0.891113,"pfReal":-0.754453,"fintechReal":7.441496,"spreadBancoPf":1.645566},{"date":"2021-10-01","bancoReal":0.854934,"pfReal":-0.723534,"fintechReal":7.146553,"spreadBancoPf":1.578468},{"date":"2021-11-01","bancoReal":1.743496,"pfReal":0.218978,"fintechReal":7.929892,"spreadBancoPf":1.524518},{"date":"2021-12-01","bancoReal":0.54903,"pfReal":-1.04028,"fintechReal":6.560859,"spreadBancoPf":1.58931},{"date":"2022-01-01","bancoReal":0.67758,"pfReal":-0.87584,"fintechReal":6.479303,"spreadBancoPf":1.55342},{"date":"2022-02-01","bancoReal":-0.038021,"pfReal":-1.556132,"fintechReal":5.402702,"spreadBancoPf":1.518111},{"date":"2022-03-01","bancoReal":-1.93376,"pfReal":-3.268796,"fintechReal":3.172207,"spreadBancoPf":1.335036},{"date":"2022-04-01","bancoReal":-1.152039,"pfReal":-2.424161,"fintechReal":3.993725,"spreadBancoPf":1.272122},{"date":"2022-05-01","bancoReal":-0.132456,"pfReal":-1.332071,"fintechReal":5.010002,"spreadBancoPf":1.199614},{"date":"2022-06-01","bancoReal":-0.260511,"pfReal":-1.356268,"fintechReal":4.897526,"spreadBancoPf":1.095757},{"date":"2022-07-01","bancoReal":-1.800803,"pfReal":-3.058748,"fintechReal":3.100009,"spreadBancoPf":1.257945},{"date":"2022-08-01","bancoReal":-0.652224,"pfReal":-1.925854,"fintechReal":4.132191,"spreadBancoPf":1.27363},{"date":"2022-09-01","bancoReal":0.327351,"pfReal":-0.723639,"fintechReal":5.672236,"spreadBancoPf":1.05099},{"date":"2022-10-01","bancoReal":0.513065,"pfReal":-0.67297,"fintechReal":6.042755,"spreadBancoPf":1.186034},{"date":"2022-11-01","bancoReal":1.58392,"pfReal":0.673106,"fintechReal":7.474444,"spreadBancoPf":0.910815},{"date":"2022-12-01","bancoReal":1.547781,"pfReal":0.508418,"fintechReal":7.590165,"spreadBancoPf":1.039364},{"date":"2023-01-01","bancoReal":0.625482,"pfReal":-0.343171,"fintechReal":6.698601,"spreadBancoPf":0.968653},{"date":"2023-02-01","bancoReal":0.076294,"pfReal":-0.897724,"fintechReal":6.034137,"spreadBancoPf":0.974018},{"date":"2023-03-01","bancoReal":-0.883175,"pfReal":-1.775897,"fintechReal":4.681284,"spreadBancoPf":0.892722},{"date":"2023-04-01","bancoReal":-1.466973,"pfReal":-2.17923,"fintechReal":3.871221,"spreadBancoPf":0.712257},{"date":"2023-05-01","bancoReal":0.135582,"pfReal":-0.458897,"fintechReal":5.136192,"spreadBancoPf":0.594479},{"date":"2023-06-01","bancoReal":2.578475,"pfReal":1.47412,"fintechReal":7.768977,"spreadBancoPf":1.104355},{"date":"2023-07-01","bancoReal":2.071716,"pfReal":1.105103,"fintechReal":7.471846,"spreadBancoPf":0.966613},{"date":"2023-08-01","bancoReal":-2.882381,"pfReal":-3.54392,"fintechReal":2.122869,"spreadBancoPf":0.661539},{"date":"2023-09-01","bancoReal":-3.719846,"pfReal":-3.113137,"fintechReal":3.395384,"spreadBancoPf":-0.606708},{"date":"2023-10-01","bancoReal":1.290423,"pfReal":1.471605,"fintechReal":7.841884,"spreadBancoPf":-0.181182},{"date":"2023-11-01","bancoReal":-1.400304,"pfReal":-2.061324,"fintechReal":4.218862,"spreadBancoPf":0.66102},{"date":"2023-12-01","bancoReal":-11.08133,"pfReal":-12.449928,"fintechReal":-6.257893,"spreadBancoPf":1.368599},{"date":"2024-01-01","bancoReal":-7.669443,"pfReal":-9.812128,"fintechReal":-2.649319,"spreadBancoPf":2.142685},{"date":"2024-02-01","bancoReal":-2.374831,"pfReal":-3.986784,"fintechReal":2.861939,"spreadBancoPf":1.611953},{"date":"2024-03-01","bancoReal":-0.513121,"pfReal":-3.684896,"fintechReal":4.41546,"spreadBancoPf":3.171775},{"date":"2024-04-01","bancoReal":-0.462339,"pfReal":-3.449561,"fintechReal":5.207448,"spreadBancoPf":2.987221},{"date":"2024-05-01","bancoReal":1.531476,"pfReal":-1.232834,"fintechReal":8.550636,"spreadBancoPf":2.76431},{"date":"2024-06-01","bancoReal":0.690222,"pfReal":-1.810075,"fintechReal":7.257735,"spreadBancoPf":2.500296},{"date":"2024-07-01","bancoReal":1.177473,"pfReal":-1.020902,"fintechReal":7.388758,"spreadBancoPf":2.198375},{"date":"2024-08-01","bancoReal":1.406723,"pfReal":-0.989799,"fintechReal":7.159089,"spreadBancoPf":2.396522},{"date":"2024-09-01","bancoReal":2.144412,"pfReal":-0.252512,"fintechReal":7.839509,"spreadBancoPf":2.396925},{"date":"2024-10-01","bancoReal":3.080161,"pfReal":0.595437,"fintechReal":7.95365,"spreadBancoPf":2.484724},{"date":"2024-11-01","bancoReal":3.366961,"pfReal":0.52502,"fintechReal":7.96314,"spreadBancoPf":2.841941},{"date":"2024-12-01","bancoReal":3.061657,"pfReal":-0.001229,"fintechReal":7.918164,"spreadBancoPf":3.062886},{"date":"2025-01-01","bancoReal":3.622677,"pfReal":0.350041,"fintechReal":8.430322,"spreadBancoPf":3.272637},{"date":"2025-02-01","bancoReal":3.269517,"pfReal":-0.08136,"fintechReal":8.198609,"spreadBancoPf":3.350877},{"date":"2025-03-01","bancoReal":1.909632,"pfReal":-1.289979,"fintechReal":6.81708,"spreadBancoPf":3.199611},{"date":"2025-04-01","bancoReal":3.044714,"pfReal":-0.066624,"fintechReal":7.811304,"spreadBancoPf":3.111337},{"date":"2025-05-01","bancoReal":4.449514,"pfReal":1.180833,"fintechReal":9.358689,"spreadBancoPf":3.268681},{"date":"2025-06-01","bancoReal":4.396002,"pfReal":1.014812,"fintechReal":9.182257,"spreadBancoPf":3.38119},{"date":"2025-07-01","bancoReal":3.84389,"pfReal":0.75985,"fintechReal":8.799152,"spreadBancoPf":3.08404},{"date":"2025-08-01","bancoReal":4.226303,"pfReal":1.944079,"fintechReal":9.374432,"spreadBancoPf":2.282224},{"date":"2025-09-01","bancoReal":4.634421,"pfReal":1.848749,"fintechReal":10.696676,"spreadBancoPf":2.785672},{"date":"2025-10-01","bancoReal":4.488727,"pfReal":1.430771,"fintechReal":10.512804,"spreadBancoPf":3.057957},{"date":"2025-11-01","bancoReal":3.883015,"pfReal":0.15484,"fintechReal":10.478866,"spreadBancoPf":3.728175},{"date":"2025-12-01","bancoReal":2.945993,"pfReal":-0.669724,"fintechReal":9.517396,"spreadBancoPf":3.615716},{"date":"2026-01-01","bancoReal":2.760499,"pfReal":-0.374658,"fintechReal":9.09522,"spreadBancoPf":3.135158},{"date":"2026-02-01","bancoReal":2.828426,"pfReal":-0.408062,"fintechReal":8.867079,"spreadBancoPf":3.236488},{"date":"2026-03-01","bancoReal":2.322966,"pfReal":-1.100731,"fintechReal":null,"spreadBancoPf":3.423697},{"date":"2026-04-01","bancoReal":2.997907,"pfReal":-0.702399,"fintechReal":null,"spreadBancoPf":3.700306},{"date":"2026-05-01","bancoReal":3.381492,"pfReal":-0.391688,"fintechReal":null,"spreadBancoPf":3.77318},{"date":"2026-06-01","bancoReal":3.601833,"pfReal":-0.173192,"fintechReal":null,"spreadBancoPf":3.775025},{"date":"2026-07-01","bancoReal":3.292465,"pfReal":-0.374889,"fintechReal":null,"spreadBancoPf":3.667354}];
 const presidents = [
   {name:'Eduardo Duhalde',period:'ene-2002 → abr-2003',months:16,method:'IPC-GBA histórico · meses completos',acc:'≈44,5%',monthly:'≈2,33%/mes',monthly_num:2.33,acc_num:44.5},
-  {name:'Néstor Kirchner',period:'may-2003 base → dic-2007*',months:55,method:'reconstrucción histórica · endpoint aproximado',acc:'≈61,4%',monthly:'≈0,87%/mes',monthly_num:0.87,acc_num:61.4},
+  {name:'Néstor Kirchner',period:'may-2003 base → dic-2007*',months:55,count_label:'56 meses calendario · 55 variaciones',method:'reconstrucción histórica · endpoint aproximado',acc:'≈61,4%',monthly:'≈0,87%/mes',monthly_num:0.87,acc_num:61.4},
   {name:'Cristina Fernández',period:'ene-2008 → nov-2015',months:95,method:'Argendata armonizado · meses completos',acc:'≈539,2%',monthly:'≈1,97%/mes',monthly_num:1.97,acc_num:539.2},
   {name:'Mauricio Macri',period:'ene-2016 → nov-2019',months:47,method:'serie armonizada + IPC nacional · meses completos',acc:'≈258,6%',monthly:'≈2,75%/mes',monthly_num:2.75,acc_num:258.6},
-  {name:'Alberto Fernández',period:'ene-2020 → nov-2023',months:47,method:'IPC INDEC nacional · meses completos',acc:'≈893,5%',monthly:'≈5,01%/mes',monthly_num:5.01,acc_num:893.5},
+  {name:'Alberto Fernández',period:'dic-2019 → nov-2023',months:48,method:'IPC INDEC nacional · dic-2019 atribuido a gestión entrante',acc:'≈930,7%',monthly:'≈4,98%/mes',monthly_num:4.98,acc_num:930.7},
   {name:'Javier Milei',period:'dic-2023 → jul-2026',months:32,method:'IPC INDEC nacional · dic-2023 atribuido a gestión entrante · mandato en curso',acc:'≈328,8%',monthly:'≈4,65%/mes',monthly_num:4.65,acc_num:328.8}
 ];
 
@@ -12096,8 +12105,8 @@ const wealthPresets={
   historical:{threshold:wealthContributionData.historicalThresholdReal,participation:1,cap:.05}
 };
 function gfWeight(w){return w<3e9?1:w<10e9?1.5:w<50e9?2:w<250e9?3:4}
-function gfBand(w){return w<1e9?'< $1 B':w<3e9?'$1–3 B':w<10e9?'$3–10 B':w<50e9?'$10–50 B':w<250e9?'$50–250 B':'> $250 B'}
-const gfBandOrder=['< $1 B','$1–3 B','$3–10 B','$10–50 B','$50–250 B','> $250 B'];
+function gfBand(w){return w<1e9?'< $1 mil M':w<3e9?'$1–3 mil M':w<10e9?'$3–10 mil M':w<50e9?'$10–50 mil M':w<250e9?'$50–250 mil M':'> $250 mil M'}
+const gfBandOrder=['< $1 mil M','$1–3 mil M','$3–10 mil M','$10–50 mil M','$50–250 mil M','> $250 mil M'];
 function gfWeightedMedian(rows,key){const a=rows.filter(r=>r.n>0).slice().sort((x,y)=>x[key]-y[key]);const total=a.reduce((s,r)=>s+r.n,0);let c=0;for(const r of a){c+=r.n;if(c>=total/2)return r[key]}return a.length?a.at(-1)[key]:0}
 function gfSolve(threshold,participation,cap,underdeclared=false,target=wealthContributionData.target){
   const factor=underdeclared?1.2:1;
@@ -12144,7 +12153,7 @@ function renderWealthCharts(s){
   let cumulative=0;const totals=s.bands.map(b=>b.contribution*years);const cumulativePct=totals.map(v=>(cumulative+=v)/Math.max(1,s.revenue*years)*100);
   Plotly.react('wealthFinanceChart',[{type:'bar',x:labels,y:totals.map(v=>v/1e12),name:'Aporte del tramo',marker:{color:'#c8668b'},hovertemplate:'<b>%{x}</b><br>$ %{y:.3f} billones<extra></extra>'},{type:'scatter',mode:'lines+markers',x:labels,y:cumulativePct,name:'Acumulado',yaxis:'y2',line:{color:'#3f9274',width:3},hovertemplate:'Acumulado: %{y:.1f}%<extra></extra>'}],{...layout,yaxis:{title:'$ billones',gridcolor:'#eee4f1',rangemode:'tozero'},yaxis2:{title:'% acumulado',overlaying:'y',side:'right',range:[0,105]},xaxis:{tickangle:mobile?-38:0}},{responsive:true,displaylogo:false,displayModeBar:false});
   const participations=[.25,.5,.75,1],caps=[.01,.02,.03,.05],colors=['#e088a8','#bc78c5','#7866bd','#3f9274'];
-  const traces=caps.map((c,i)=>{const points=participations.map(p=>gfSolve(s.threshold,p,c,s.underdeclared,s.target));return {type:'scatter',mode:'lines+markers',x:participations.map(p=>p*100),y:points.map(r=>r.feasible?r.medianRate*100*years:null),name:'Tope '+gfPct(c,0)+(years>1?'/año':''),connectgaps:false,line:{color:colors[i],width:c===s.cap?4:2},marker:{size:c===s.cap?8:6},customdata:points.map(r=>[r.feasible,r.maximum*years/1e12]),hovertemplate:'Participación %{x:.0f}%<br>Tasa mediana del horizonte %{y:.2f}%<br>Máximo $ %{customdata[1]:.2f} B<extra></extra>'}});
+  const traces=caps.map((c,i)=>{const points=participations.map(p=>gfSolve(s.threshold,p,c,s.underdeclared,s.target));return {type:'scatter',mode:'lines+markers',x:participations.map(p=>p*100),y:points.map(r=>r.feasible?r.medianRate*100*years:null),name:'Tope '+gfPct(c,0)+(years>1?'/año':''),connectgaps:false,line:{color:colors[i],width:c===s.cap?4:2},marker:{size:c===s.cap?8:6},customdata:points.map(r=>[r.feasible,r.maximum*years/1e12]),hovertemplate:'Participación %{x:.0f}%<br>Tasa mediana del horizonte %{y:.2f}%<br>Máximo $ %{customdata[1]:.2f} billones<extra></extra>'}});
   Plotly.react('wealthParticipationChart',traces,{...layout,xaxis:{title:'Participación voluntaria (%)',tickvals:[25,50,75,100],range:[20,105]},yaxis:{title:'Tasa efectiva mediana requerida (%)',gridcolor:'#eee4f1',rangemode:'tozero'}},{responsive:true,displaylogo:false,displayModeBar:false});
 }
 function renderWealthTable(s){const y=s.horizonYears||1;document.getElementById('wealthTable').innerHTML=`<table class="wealth-table"><thead><tr><th>Tramo patrimonial</th><th class="num">Aportantes</th><th class="num">Patrimonio del tramo</th><th class="num">Aporte total</th><th class="num">Aporte medio</th><th class="num">Tasa efectiva</th><th>En criollo</th></tr></thead><tbody>${s.bands.map(b=>`<tr><td>${b.label}</td><td class="num">${gfCount(b.count)}</td><td class="num">${gfMoney(b.wealth)}</td><td class="num">${gfMoney(b.contribution*y)}</td><td class="num">${gfMoney(b.average*y)}</td><td class="num">${gfPct(b.rate*y)}</td><td>Conserva en promedio ${gfPct(Math.max(0,1-b.rate*y),1)} de su patrimonio tras el horizonte.</td></tr>`).join('')}</tbody></table>`}
@@ -12170,6 +12179,7 @@ function renderMileiCost(){
   const p=powerRescueParams;
   const meli=meliRecentConversion();
   if(!loss||!gap||!meli)return;
+  const penRealText=castaPct(castaSummary().realPct);
   const meliArs=meli.jun26Bn*1e9;
   const months=gap.mirrorMonths;
   const perMonth=loss.perWorkerCurrent/months;
@@ -12318,7 +12328,7 @@ function renderMileiCost(){
     card('warn','Senado · no PEN','Salto de dietas aprobado en 2024','≥ '+mileiCostMoney(p.senateNetAnnualFloor)+'/año',
       'Piso derivado con 72 bancas a partir del salto publicado de ~1,7 M a >4 M netos y 13 dietas. El aumento ocurrió durante Milei, pero fue una decisión del Senado: atribuírselo al Poder Ejecutivo sería falso.',
       `Si se corrigiera ese piso anual, descontaría ${mileiCostMoney(p.senateNetAnnualFloor)}: ≈ ${mileiCostPct(p.senateNetAnnualFloor,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre.`, 'tab-casta','castaMandateChart')+
-    card('good','Acá no','Autoridades superiores del PEN','−31,4% real',
+    card('good','Acá no','Autoridades superiores del PEN',`${penRealText} real`,
       `Ministros, Secretarios y Subsecretarios recibieron catch-up nominal desde 2026, pero a julio siguen debajo de dic-2023 contra IPC. El extra anualizado vs mantener la escala nominal congelada es ${mileiCostMoney(p.penCatchupAnnualized)}, pero no prueba que “se enriquecieron” en términos reales.`,
       `Si se revirtiera sólo el extra nominal anualizado, descontaría ${mileiCostMoney(p.penCatchupAnnualized)}: ≈ ${mileiCostPct(p.penCatchupAnnualized,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre.`, 'tab-casta','castaInflationChart');
 
@@ -12326,7 +12336,19 @@ function renderMileiCost(){
     <div><div class="step">1 · Sólo las caídas</div><div class="formula">Σ meses debajo de nov-2023=100 = <b>−${gap.grossLoss.toLocaleString('es-AR',{minimumFractionDigits:4,maximumFractionDigits:4})} sueldos-base</b>.</div></div>
     <div><div class="step">2 · Cuenta madre</div><div class="formula">Caídas × masa salarial-base × IPC = <b>${powerMoneyBillions(grossShock)}</b>.</div></div>
     <div><div class="step">3 · Recuperación observada</div><div class="formula">Los meses posteriores arriba de 100 recuperaron <b>${powerMoneyBillions(salaryRecovered)}</b>; saldo salarial: <b>${powerMoneyBillions(salaryRemaining)}</b>.</div></div>
-    <div><div class="step">4 · Alivios a favor del hogar</div><div class="formula"><b class="household-plus">+${powerMoneyBillions(financialRelief)}</b> volverían por bancos + Fintech y <b class="household-plus">+${powerMoneyBillions(broad)}</b> por otras partidas. Al restarlos del agujero, quedarían <b>${powerMoneyBillions(finalRemaining)}</b>.</div></div>`;
+    <div><div class="step">4 · Alivios a favor del hogar</div><div class="formula"><b class="household-plus">+${powerMoneyBillions(financialRelief)}</b> volverían por bancos + Fintech y <b class="household-plus">+${powerMoneyBillions(broad)}</b> por otras partidas. Al restarlos del agujero, quedarían <b>${powerMoneyBillions(finalRemaining)}</b>.</div></div>
+    <div class="inputs">
+      <div class="step">Insumos auditables de la escala de 13,8 millones</div>
+      <div class="milei-input-grid">
+        <div><span>Asalariados registrados</span><b>${(powerAggregateLossParams.salariedRegistered/1e6).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})} M</b></div>
+        <div><span>Asalariados no registrados</span><b>${(powerAggregateLossParams.salariedUnregistered/1e6).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})} M</b></div>
+        <div><span>Ingreso medio ponderado · 3T-2023</span><b>$ ${Math.round(loss.avgQ3).toLocaleString('es-AR')}</b></div>
+        <div><span>Salario-base inferido · nov-2023</span><b>$ ${Math.round(loss.wageBaseNov).toLocaleString('es-AR')}</b></div>
+        <div><span>Masa salarial-base mensual</span><b>${powerMoneyBillions(loss.baseMonthlyMass)}</b></div>
+        <div><span>Misma masa a pesos de jun-2026</span><b>${powerMoneyBillions(massJun26)}</b></div>
+      </div>
+      <div class="milei-input-note"><b>Cómo se infiere:</b> la EPH total urbano 3T-2023 aporta cantidades e ingresos medios; el Total índice de salarios lleva ese promedio hasta noviembre y el IPC lo reexpresa a junio de 2026. Es un supuesto de escala, no una nómina observada. La relación es lineal: si el salario-base supuesto cambiara 10%, la cuenta de ${powerMoneyBillions(grossShock)} cambiaría también 10%.</div>
+    </div>`;
 
   attribution.innerHTML=`<table class="milei-cost-table"><thead><tr><th>Componente</th><th>Monto visible</th><th>Cómo entra en los ${powerMoneyBillions(grossShock)}</th><th>Saldo después de aplicarlo</th></tr></thead><tbody>
     <tr><td>Agujero salarial bruto</td><td><b>${powerMoneyBillions(grossShock)}</b></td><td class="attr-partial">Es la cuenta madre: 100% del punto de partida.</td><td>${powerMoneyBillions(grossShock)}</td></tr>
@@ -12336,7 +12358,7 @@ function renderMileiCost(){
     <tr><td>Si se recuperara la envolvente auditada</td><td class="household-plus">+${powerMoneyBillions(broad)} al hogar</td><td class="attr-partial">Agrupa privilegios fiscales, Mercado Libre, SIDE, PEN y Senado.</td><td><b>${powerMoneyBillions(finalRemaining)}</b></td></tr>
     <tr><td>Aporte voluntario de grandes fortunas</td><td class="household-plus">+${gfMoney(wealthScenarioTotal)} para compensar</td><td class="attr-no">No integra los ${powerMoneyBillions(grossShock)} de daño: es una vía hipotética y separada para financiar una meta específica de ${gfMoney(wealthContributionData.target)}.</td><td><b>${gfPct(wealthScenarioCoverage,1)} cubierto</b> · resta ${gfMoney(wealthScenarioRemaining)}</td></tr>
     <tr><td>Fintech · cambio vs espejo</td><td>${mileiCostMoney(fintechWindowChange)}</td><td class="attr-partial">Es la variación entre ventanas, no el monto usado como devolución. Se conserva para responder si mejoró o empeoró.</td><td>${mileiCostPct(fintechWindowChange,grossShock).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})}% del total</td></tr>
-    <tr><td>Autoridades superiores del PEN</td><td>−31,4% real</td><td class="attr-no">Funciona como control del relato; no agrega un monto ARS a la cuenta.</td><td>Sin modificación monetaria</td></tr>
+    <tr><td>Autoridades superiores del PEN</td><td>${penRealText} real</td><td class="attr-no">Funciona como control del relato; no agrega un monto ARS a la cuenta.</td><td>Sin modificación monetaria</td></tr>
   </tbody></table>`;
 
   const scaleRows=[
@@ -12556,6 +12578,14 @@ function renderMeliArs(){
   if(!el || typeof bcraData==='undefined')return;
   const mobile=window.innerWidth<=720;
   const rows=meliArsRows();
+  const recent=meliRecentConversion();
+  if(Number.isFinite(recent.jun26Bn)){
+    const total=recent.jun26Bn.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2});
+    const kpi=document.getElementById('meliRecentTotalKpi');
+    const prose=document.getElementById('meliRecentTotalProse');
+    if(kpi)kpi.textContent=`≈ $ ${total} mil M`;
+    if(prose)prose.textContent=`$${total} mil millones a pesos de junio-2026`;
+  }
   Plotly.react(el,[
     {type:'bar',x:rows.map(r=>r.label),y:rows.map(r=>r.arsBn),name:'Beneficio convertido · ARS mil M',marker:{color:'#9a6ac0'},customdata:rows.map(r=>[r.usd,r.fx]),hovertemplate:'<b>%{x}</b><br>Beneficio documentado: <b>USD %{customdata[0]:.1f} M</b><br>A3500 promedio: <b>$ %{customdata[1]:,.2f}/USD</b><br>Equivalente nominal: <b>$ %{y:,.2f} mil M</b><extra></extra>'},
     {type:'scatter',x:rows.map(r=>r.label),y:rows.map(r=>r.fx),name:'A3500 promedio del período',mode:'lines+markers',yaxis:'y2',line:{color:'#4f9480',width:2.6},marker:{size:mobile?4:5,color:'#4f9480'},hovertemplate:'<b>%{x}</b><br>A3500 promedio: <b>$ %{y:,.2f}/USD</b><extra></extra>'}
@@ -12572,7 +12602,6 @@ function renderMeliArs(){
 
   const table=document.getElementById('meliFxRecentTable');
   if(table){
-    const recent=meliRecentConversion();
     table.innerHTML=`<table class="meli-fx-table"><thead><tr><th>Período</th><th>Piso USD</th><th>A3500 prom.</th><th>ARS nominales</th><th>ARS a jun-26*</th></tr></thead><tbody>${recent.rows.map(r=>`<tr><td class="strong">${r.label}</td><td>USD ${r.usd.toLocaleString('es-AR',{maximumFractionDigits:1})} M</td><td>$ ${r.fx.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})}</td><td>$ ${r.arsBn.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} mil M</td><td class="strong">$ ${r.jun26Bn.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} mil M</td></tr>`).join('')}<tr><td class="strong">Total</td><td class="strong">USD 134 M</td><td>—</td><td class="strong">$ ${recent.nominalBn.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} mil M</td><td class="strong">$ ${recent.jun26Bn.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} mil M</td></tr></tbody></table>`;
   }
 }
@@ -12688,10 +12717,23 @@ const castaSalaryLevels={
 };
 const castaInflationVsSalary={
   labels:['dic-2023','dic-2024','dic-2025','jun-2026','jul-2026'],
-  cpi:[100,217.6844,286.2045,334.4838,341.5079],
+  cpi:[100,217.7636,286.4654,334.7231,341.7984],
   authorities:[100,100,100,223.7961,234.2089],
   president:[100,100,100,100,100]
 };
+function castaSummary(){
+  const cpi=castaInflationVsSalary.cpi.at(-1);
+  const authorities=castaInflationVsSalary.authorities.at(-1);
+  return {
+    nominalPct:authorities-100,
+    inflationPct:cpi-100,
+    realPct:authorities/cpi*100-100
+  };
+}
+function castaPct(value,digits=1){
+  const sign=value>0?'+':value<0?'−':'';
+  return sign+Math.abs(value).toLocaleString('es-AR',{minimumFractionDigits:digits,maximumFractionDigits:digits})+'%';
+}
 const castaSideData={
   labels:['2024 devengado','2026 inicial','2026 vigente post-DNU'],
   values:[47.5955,97.135,146.397],
@@ -12706,8 +12748,8 @@ const castaMandateData={
     'Milei · Min/Sec/Sub',
     'Milei · Senado · may-24'
   ],
-  values:[-8.6957,-23.8095,6.25,35.2941,-31.4,125.8101],
-  text:['−8,7%','−23,8%','+6,3%','+35,3%','−31,4%','≈ ≥ +126%'],
+  values:[-8.6957,-23.8095,6.25,35.2941,castaSummary().realPct,125.8101],
+  text:['−8,7%','−23,8%','+6,3%','+35,3%',castaPct(castaSummary().realPct),'≈ ≥ +126%'],
   detail:[
     'Inteligencia: participación del gasto APN 0,23% → 0,21% entre 2011 y 2015. Sin ajuste IPC; es cambio relativo de participación.',
     'Inteligencia: participación del gasto APN 0,21% → 0,16% entre 2015 y 2019. Sin ajuste IPC; ejecución anual homogénea ONP.',
@@ -12720,6 +12762,13 @@ const castaMandateData={
 };
 function renderCasta(){
   const mobile=window.innerWidth<=720;
+  const summary=castaSummary();
+  const nominalKpi=document.getElementById('castaNominalChangeKpi');
+  const inflationKpi=document.getElementById('castaInflationChangeKpi');
+  const realKpi=document.getElementById('castaRealChangeKpi');
+  if(nominalKpi)nominalKpi.textContent=castaPct(summary.nominalPct);
+  if(inflationKpi)inflationKpi.textContent=castaPct(summary.inflationPct);
+  if(realKpi)realKpi.textContent=castaPct(summary.realPct);
 
   const level=document.getElementById('castaSalaryLevelChart');
   if(level)Plotly.react(level,[{
@@ -13430,6 +13479,23 @@ const investmentAnnual=[{"year":2002,"total":12.0,"gov":null,"rest":null,"method
 const investmentReal=[{"year":2002,"growth":-36.45,"level":28.944,"method":"histórico base 1993 · enlace"},{"year":2003,"growth":38.17,"level":39.992,"method":"histórico base 1993 · enlace"},{"year":2004,"growth":34.43,"level":53.761,"method":"histórico base 1993 · enlace"},{"year":2005,"growth":14.37,"level":61.487,"method":"base 2004 / revisión vigente"},{"year":2006,"growth":14.08,"level":70.144,"method":"base 2004 / revisión vigente"},{"year":2007,"growth":19.93,"level":84.124,"method":"base 2004 / revisión vigente"},{"year":2008,"growth":8.39,"level":91.182,"method":"base 2004 / revisión vigente"},{"year":2009,"growth":-22.83,"level":70.365,"method":"base 2004 / revisión vigente"},{"year":2010,"growth":27.04,"level":89.392,"method":"base 2004 / revisión vigente"},{"year":2011,"growth":17.59,"level":105.116,"method":"base 2004 / revisión vigente"},{"year":2012,"growth":-7.81,"level":96.907,"method":"base 2004 / revisión vigente"},{"year":2013,"growth":3.91,"level":100.696,"method":"base 2004 / revisión vigente"},{"year":2014,"growth":-7.6,"level":93.043,"method":"base 2004 / revisión vigente"},{"year":2015,"growth":5.54,"level":98.197,"method":"base 2004 / revisión vigente"},{"year":2016,"growth":-8.2,"level":90.145,"method":"base 2004 / revisión vigente"},{"year":2017,"growth":11.0,"level":100.061,"method":"base 2004 / revisión vigente"},{"year":2018,"growth":-5.7,"level":94.358,"method":"base 2004 / revisión vigente"},{"year":2019,"growth":-15.9,"level":79.355,"method":"base 2004 / revisión vigente"},{"year":2020,"growth":-13.0,"level":69.039,"method":"base 2004 / revisión vigente"},{"year":2021,"growth":32.9,"level":91.752,"method":"base 2004 / revisión vigente"},{"year":2022,"growth":11.1,"level":101.937,"method":"base 2004 / revisión vigente"},{"year":2023,"growth":-1.9,"level":100.0,"method":"base 2004 / revisión vigente"},{"year":2024,"growth":-17.2,"level":82.8,"method":"base 2004 / revisión vigente"},{"year":2025,"growth":16.2,"level":96.214,"method":"base 2004 / revisión vigente"}];
 let investmentMetric='rate';
 function invFmt(v,d=1){return Number(v).toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d})}
+function invSignedPct(value,digits=1){
+  const sign=value>0?'+':value<0?'−':'';
+  return sign+invFmt(Math.abs(value),digits)+'%';
+}
+function renderInvestmentSummary(){
+  const y2024=investmentReal.find(r=>r.year===2024);
+  const y2025=investmentReal.find(r=>r.year===2025);
+  const base2023=investmentReal.find(r=>r.year===2023);
+  if(!y2024||!y2025||!base2023)return;
+  const kpi2024=document.getElementById('investment2024GrowthKpi');
+  const kpi2025=document.getElementById('investment2025GrowthKpi');
+  const context=document.getElementById('investment2025LevelContext');
+  const levelChange=y2025.level/base2023.level*100-100;
+  if(kpi2024)kpi2024.textContent=invSignedPct(y2024.growth);
+  if(kpi2025)kpi2025.textContent=invSignedPct(y2025.growth);
+  if(context)context.textContent=`Rebote anual. Aun así, el nivel real quedó ≈${invFmt(Math.abs(levelChange),1)}% ${levelChange<0?'debajo':'encima'} de 2023.`;
+}
 function setInvestmentMetric(m){
   investmentMetric=m;
   document.getElementById('invMetricRate')?.classList.toggle('active',m==='rate');
@@ -13456,6 +13522,7 @@ function renderInvestmentMandateCards(){
   }).join('');
 }
 function renderInvestment(){
+  renderInvestmentSummary();
   const el=document.getElementById('investmentChart');if(!el)return;
   const mobile=window.innerWidth<=720;
   let traces=[],layout={...common,margin:{l:mobile?54:70,r:mobile?14:30,t:mobile?150:116,b:62},showlegend:true};
@@ -16467,9 +16534,9 @@ function drawPres(mode){
   const title = monthlyMode ? 'Mensual equivalente aproximada' : 'Inflación acumulada aproximada';
   Plotly.react('presChart', [{
     x:names,y:ys,type:'bar',
-    customdata:P.map(d=>[d.period,d.months,d.method]),
+    customdata:P.map(d=>[d.period,d.count_label||`${d.months} meses`,d.method]),
     marker:{color: monthlyMode ? '#ff8fb7' : '#a98bf6'},
-    hovertemplate:'<b>%{x}</b><br>'+title+': <b>%{y:.2f}'+suffix+'</b><br>%{customdata[0]} · %{customdata[1]} meses<br>%{customdata[2]}<extra></extra>'
+    hovertemplate:'<b>%{x}</b><br>'+title+': <b>%{y:.2f}'+suffix+'</b><br>%{customdata[0]} · %{customdata[1]}<br>%{customdata[2]}<extra></extra>'
   }], {
     ...presLayoutBase,
     yaxis:{...presLayoutBase.yaxis,title:title},
@@ -18534,7 +18601,7 @@ const embeddedCsvDownloads = {
   },
   presidents: {
     filename: 'inflacion_por_presidencia_auditada.csv',
-    content: "Presidente,Período considerado,Meses,Inflación acumulada pct,Mensual equivalente pct,Metodología\r\nEduardo Duhalde,ene-2002 → abr-2003,16,44.5,2.33,IPC-GBA histórico; meses completos\r\nNéstor Kirchner,may-2003 base → dic-2007*,55,61.4,0.87,Reconstrucción histórica; endpoint 2007 aproximado\r\nCristina Fernández,ene-2008 → nov-2015,95,539.2,1.97,Argendata armonizado; meses completos; datos históricos con cautela\r\nMauricio Macri,ene-2016 → nov-2019,47,258.6,2.75,Serie armonizada + IPC nacional; meses completos\r\nAlberto Fernández,ene-2020 → nov-2023,47,893.5,5.01,IPC INDEC nacional; meses completos\r\nJavier Milei,dic-2023 → jul-2026,32,328.8,4.65,IPC INDEC nacional; mandato en curso; dic-2023 atribuido a la gestión entrante\r\n"
+    content: "Presidente,Período considerado,Meses / intervalos,Inflación acumulada pct,Mensual equivalente pct,Metodología\r\nEduardo Duhalde,ene-2002 → abr-2003,16,44.5,2.33,IPC-GBA histórico; meses completos\r\nNéstor Kirchner,may-2003 base → dic-2007*,56 calendario / 55 variaciones,61.4,0.87,Reconstrucción histórica; endpoint 2007 aproximado\r\nCristina Fernández,ene-2008 → nov-2015,95,539.2,1.97,Argendata armonizado; meses completos; datos históricos con cautela\r\nMauricio Macri,ene-2016 → nov-2019,47,258.6,2.75,Serie armonizada + IPC nacional; meses completos\r\nAlberto Fernández,dic-2019 → nov-2023,48,930.7,4.98,IPC INDEC nacional; dic-2019 atribuido a la gestión entrante\r\nJavier Milei,dic-2023 → jul-2026,32,328.8,4.65,IPC INDEC nacional; mandato en curso; dic-2023 atribuido a la gestión entrante\r\n"
   },
   poverty: {
     filename: 'pobreza_argentina_auditada_2002_2025.csv',

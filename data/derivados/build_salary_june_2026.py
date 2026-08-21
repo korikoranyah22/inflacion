@@ -366,6 +366,10 @@ def main() -> None:
     html = html.replace("IPC a may-26", "IPC a jun-26")
     html = html.replace("may26", "jun26")
     html = replace_once(html, "≈ $ 218,95 mil M", "≈ $ 223,08 mil M")
+    html = html.replace(
+        "$218,95 mil millones a pesos de junio-2026",
+        "$223,08 mil millones a pesos de junio-2026",
+    )
 
     OUTPUT_HTML.write_text(html, encoding="utf-8", newline="\n")
     ROOT_OUTPUT_HTML.write_text(html, encoding="utf-8", newline="\n")

@@ -164,19 +164,19 @@ def weighted_quantile(pairs, quantile=0.5):
 
 def band_label(wealth: float) -> str:
     if wealth < 1e9:
-        return "< $1 B"
+        return "< $1 mil M"
     if wealth < 3e9:
-        return "$1–3 B"
+        return "$1–3 mil M"
     if wealth < 10e9:
-        return "$3–10 B"
+        return "$3–10 mil M"
     if wealth < 50e9:
-        return "$10–50 B"
+        return "$10–50 mil M"
     if wealth < 250e9:
-        return "$50–250 B"
-    return "> $250 B"
+        return "$50–250 mil M"
+    return "> $250 mil M"
 
 
-BAND_ORDER = ["< $1 B", "$1–3 B", "$3–10 B", "$10–50 B", "$50–250 B", "> $250 B"]
+BAND_ORDER = ["< $1 mil M", "$1–3 mil M", "$3–10 mil M", "$10–50 mil M", "$50–250 mil M", "> $250 mil M"]
 
 
 def solve(nodes, threshold: float, participation: float, cap: float, target: float = TARGET):
@@ -384,8 +384,8 @@ Fecha de construcción: 2026-08-20. Unidad común: pesos de junio de 2026.
 6. **Cola abierta.** El tramo oficial >$5.000 millones de 2022 tiene 181 casos. Se usa Pareto α={alpha:.4f}, calibrada por mínimo y media, preservando casos y patrimonio. Es una estimación, no microdato.
 7. **Fórmula.** aporteᵢ = min[λ × peso(patrimonioᵢ) × max(patrimonioᵢ−umbral,0), tope × patrimonioᵢ]. λ se resuelve por bisección para alcanzar la meta dada la participación.
 8. **Participación.** 25/50/75/100% es participación esperada homogénea dentro de cada nodo. No modela selección estratégica; se muestra como escenario, no pronóstico conductual.
-9. **Escenario inicial (tope 3%).** Umbral $1 B, 100% de participación, tope 3%: recaudación {default['revenue']/1e12:.6f} billones; {default['contributors']:.1f} aportantes esperados; tasa efectiva mediana {default['median_rate']*100:.4f}%.
-10. **Comparación histórica.** El Aporte Solidario fue obligatorio, extraordinario y por única vez. AFIP informó $248.006 M en 2021; a precios de jun-2026 (aproximación dic-2021) son ${hist_real/1e12:.3f} billones. El mínimo legal de $200 M de dic-2020 equivale a ${threshold_real/1e9:.3f} B. No se lo llama antecedente legal del esquema voluntario.
+9. **Escenario inicial (tope 3%).** Umbral $1 mil M, 100% de participación, tope 3%: recaudación {default['revenue']/1e12:.6f} billones; {default['contributors']:.1f} aportantes esperados; tasa efectiva mediana {default['median_rate']*100:.4f}%.
+10. **Comparación histórica.** El Aporte Solidario fue obligatorio, extraordinario y por única vez. AFIP informó $248.006 M en 2021; a precios de jun-2026 (aproximación dic-2021) son ${hist_real/1e12:.3f} billones. El mínimo legal de $200 M de dic-2020 equivale a ${threshold_real/1e9:.3f} mil M. No se lo llama antecedente legal del esquema voluntario.
 11. **Subdeclaración.** El escenario base no corrige evasión, valuaciones ni activos omitidos. La sensibilidad +20% es mecánica y visible; WID se usa sólo para recordar que la riqueza neta nacional y la base fiscal declarada son universos diferentes.
 12. **No doble conteo.** La contribución es una compensación hipotética separada. No aumenta el daño del tab “Lo que te robó Milei” ni se suma a pérdidas, privilegios, SIDE, Mercado Libre o la pinza financiera.
 
@@ -647,7 +647,7 @@ WEALTH_HTML = r"""
         <button class="wealth-preset" data-preset="custom" type="button">Personalizado</button>
       </div>
       <div class="wealth-control-grid">
-        <div class="wealth-control"><label for="wealthThreshold">Umbral patrimonial</label><select id="wealthThreshold"><option value="1000000000" selected>$1 B</option><option value="2000000000">$2 B</option><option value="3000000000">$3 B</option><option value="5000000000">$5 B</option><option value="__HISTORICAL_THRESHOLD__">$6,13 B · mínimo histórico real</option><option value="10000000000">$10 B</option></select><output id="wealthThresholdContext"></output></div>
+        <div class="wealth-control"><label for="wealthThreshold">Umbral patrimonial</label><select id="wealthThreshold"><option value="1000000000" selected>$1 mil M</option><option value="2000000000">$2 mil M</option><option value="3000000000">$3 mil M</option><option value="5000000000">$5 mil M</option><option value="__HISTORICAL_THRESHOLD__">$6,13 mil M · mínimo histórico real</option><option value="10000000000">$10 mil M</option></select><output id="wealthThresholdContext"></output></div>
         <div class="wealth-control"><label for="wealthParticipation">Participación voluntaria</label><input id="wealthParticipation" type="range" min="25" max="100" step="25" value="100"><output id="wealthParticipationOut">100%</output></div>
         <div class="wealth-control"><label for="wealthCap">Tope máximo por persona</label><select id="wealthCap"><option value="0.01">1% del patrimonio</option><option value="0.02">2% del patrimonio</option><option value="0.03" selected>3% del patrimonio</option><option value="0.05">5% del patrimonio</option></select><output id="wealthCapOut">3%</output></div>
         <div class="wealth-control"><label for="wealthHorizon">Horizonte del aporte</label><select id="wealthHorizon"><option value="1" selected>Una sola vez</option><option value="3">Anual · durante 3 años</option></select><output id="wealthHorizonOut">Una vez</output></div>
@@ -690,8 +690,8 @@ const wealthPresets={
   historical:{threshold:wealthContributionData.historicalThresholdReal,participation:1,cap:.05}
 };
 function gfWeight(w){return w<3e9?1:w<10e9?1.5:w<50e9?2:w<250e9?3:4}
-function gfBand(w){return w<1e9?'< $1 B':w<3e9?'$1–3 B':w<10e9?'$3–10 B':w<50e9?'$10–50 B':w<250e9?'$50–250 B':'> $250 B'}
-const gfBandOrder=['< $1 B','$1–3 B','$3–10 B','$10–50 B','$50–250 B','> $250 B'];
+function gfBand(w){return w<1e9?'< $1 mil M':w<3e9?'$1–3 mil M':w<10e9?'$3–10 mil M':w<50e9?'$10–50 mil M':w<250e9?'$50–250 mil M':'> $250 mil M'}
+const gfBandOrder=['< $1 mil M','$1–3 mil M','$3–10 mil M','$10–50 mil M','$50–250 mil M','> $250 mil M'];
 function gfWeightedMedian(rows,key){const a=rows.filter(r=>r.n>0).slice().sort((x,y)=>x[key]-y[key]);const total=a.reduce((s,r)=>s+r.n,0);let c=0;for(const r of a){c+=r.n;if(c>=total/2)return r[key]}return a.length?a.at(-1)[key]:0}
 function gfSolve(threshold,participation,cap,underdeclared=false,target=wealthContributionData.target){
   const factor=underdeclared?1.2:1;
@@ -738,7 +738,7 @@ function renderWealthCharts(s){
   let cumulative=0;const totals=s.bands.map(b=>b.contribution*years);const cumulativePct=totals.map(v=>(cumulative+=v)/Math.max(1,s.revenue*years)*100);
   Plotly.react('wealthFinanceChart',[{type:'bar',x:labels,y:totals.map(v=>v/1e12),name:'Aporte del tramo',marker:{color:'#c8668b'},hovertemplate:'<b>%{x}</b><br>$ %{y:.3f} billones<extra></extra>'},{type:'scatter',mode:'lines+markers',x:labels,y:cumulativePct,name:'Acumulado',yaxis:'y2',line:{color:'#3f9274',width:3},hovertemplate:'Acumulado: %{y:.1f}%<extra></extra>'}],{...layout,yaxis:{title:'$ billones',gridcolor:'#eee4f1',rangemode:'tozero'},yaxis2:{title:'% acumulado',overlaying:'y',side:'right',range:[0,105]},xaxis:{tickangle:mobile?-38:0}},{responsive:true,displaylogo:false,displayModeBar:false});
   const participations=[.25,.5,.75,1],caps=[.01,.02,.03,.05],colors=['#e088a8','#bc78c5','#7866bd','#3f9274'];
-  const traces=caps.map((c,i)=>{const points=participations.map(p=>gfSolve(s.threshold,p,c,s.underdeclared,s.target));return {type:'scatter',mode:'lines+markers',x:participations.map(p=>p*100),y:points.map(r=>r.feasible?r.medianRate*100*years:null),name:'Tope '+gfPct(c,0)+(years>1?'/año':''),connectgaps:false,line:{color:colors[i],width:c===s.cap?4:2},marker:{size:c===s.cap?8:6},customdata:points.map(r=>[r.feasible,r.maximum*years/1e12]),hovertemplate:'Participación %{x:.0f}%<br>Tasa mediana del horizonte %{y:.2f}%<br>Máximo $ %{customdata[1]:.2f} B<extra></extra>'}});
+  const traces=caps.map((c,i)=>{const points=participations.map(p=>gfSolve(s.threshold,p,c,s.underdeclared,s.target));return {type:'scatter',mode:'lines+markers',x:participations.map(p=>p*100),y:points.map(r=>r.feasible?r.medianRate*100*years:null),name:'Tope '+gfPct(c,0)+(years>1?'/año':''),connectgaps:false,line:{color:colors[i],width:c===s.cap?4:2},marker:{size:c===s.cap?8:6},customdata:points.map(r=>[r.feasible,r.maximum*years/1e12]),hovertemplate:'Participación %{x:.0f}%<br>Tasa mediana del horizonte %{y:.2f}%<br>Máximo $ %{customdata[1]:.2f} billones<extra></extra>'}});
   Plotly.react('wealthParticipationChart',traces,{...layout,xaxis:{title:'Participación voluntaria (%)',tickvals:[25,50,75,100],range:[20,105]},yaxis:{title:'Tasa efectiva mediana requerida (%)',gridcolor:'#eee4f1',rangemode:'tozero'}},{responsive:true,displaylogo:false,displayModeBar:false});
 }
 function renderWealthTable(s){const y=s.horizonYears||1;document.getElementById('wealthTable').innerHTML=`<table class="wealth-table"><thead><tr><th>Tramo patrimonial</th><th class="num">Aportantes</th><th class="num">Patrimonio del tramo</th><th class="num">Aporte total</th><th class="num">Aporte medio</th><th class="num">Tasa efectiva</th><th>En criollo</th></tr></thead><tbody>${s.bands.map(b=>`<tr><td>${b.label}</td><td class="num">${gfCount(b.count)}</td><td class="num">${gfMoney(b.wealth)}</td><td class="num">${gfMoney(b.contribution*y)}</td><td class="num">${gfMoney(b.average*y)}</td><td class="num">${gfPct(b.rate*y)}</td><td>Conserva en promedio ${gfPct(Math.max(0,1-b.rate*y),1)} de su patrimonio tras el horizonte.</td></tr>`).join('')}</tbody></table>`}

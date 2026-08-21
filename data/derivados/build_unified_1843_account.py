@@ -270,7 +270,7 @@ def main() -> None:
     <tr><td>Mercado Libre ${mileiCostMoney(meliArs)}</td><td>Beneficios documentados durante 2024–1T26 homogeneizados a jun-26.</td><td class="attr-partial">Ocurren durante Milei, pero el régimen antecede a su gobierno.</td><td>No es una transferencia personal a Galperín ni una política creada por Milei.</td><td>No: período y naturaleza distintos.</td></tr>
     <tr><td>SIDE +${mileiCostMoney(p.sideExtraCredit)}</td><td>Refuerzo de crédito presupuestario.</td><td class="attr-yes">Decisión presupuestaria del PEN.</td><td>Crédito no significa ejecución efectiva.</td><td>No: es crédito puntual.</td></tr>
     <tr><td>Senado ≥${mileiCostMoney(p.senateNetAnnualFloor)}/año</td><td>Piso del aumento de dietas.</td><td class="attr-no">Decisión del Senado, no del PEN.</td><td>No puede presentarse como “Milei se subió el sueldo”.</td><td>No: flujo anual y poder distinto.</td></tr>
-    <tr><td>Min/Sec/Sub −31,4% real</td><td>La escala política comparable sigue perdiendo contra IPC.</td><td class="attr-yes">Escala del PEN durante Milei.</td><td>No sostiene la tesis de enriquecimiento real de esos cargos.</td><td>No; funciona como control negativo.</td></tr>
+    <tr><td>Min/Sec/Sub −31,5% real</td><td>La escala política comparable sigue perdiendo contra IPC.</td><td class="attr-yes">Escala del PEN durante Milei.</td><td>No sostiene la tesis de enriquecimiento real de esos cargos.</td><td>No; funciona como control negativo.</td></tr>
   </tbody></table>`;"""
     new_attribution = """  attribution.innerHTML=`<table class="milei-cost-table"><thead><tr><th>Componente</th><th>Monto visible</th><th>Cómo entra en los ${powerMoneyBillions(grossShock)}</th><th>Saldo después de aplicarlo</th></tr></thead><tbody>
     <tr><td>Agujero salarial bruto</td><td><b>${powerMoneyBillions(grossShock)}</b></td><td class="attr-partial">Es la cuenta madre: 100% del punto de partida.</td><td>${powerMoneyBillions(grossShock)}</td></tr>
@@ -278,7 +278,7 @@ def main() -> None:
     <tr><td>Pinza banco/PF si se soluciona</td><td>−${powerMoneyBillions(financialRelief)}</td><td class="attr-yes">Se descuenta como alivio potencial del problema financiero.</td><td><b>${powerMoneyBillions(remainingAfterPinza)}</b></td></tr>
     <tr><td>Envolvente auditada</td><td>−${powerMoneyBillions(broad)}</td><td class="attr-partial">Superpone privilegios fiscales, Mercado Libre, SIDE, PEN y Senado como capacidad potencial.</td><td><b>${powerMoneyBillions(finalRemaining)}</b></td></tr>
     <tr><td>Fintech · exposición visible</td><td>${mileiCostMoney(fintechExposure)}</td><td class="attr-partial">Queda dentro de la misma escala financiera para mostrar su tamaño frente a la cuenta madre.</td><td>${mileiCostPct(fintechExposure,grossShock).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})}% del total</td></tr>
-    <tr><td>Autoridades superiores del PEN</td><td>−31,4% real</td><td class="attr-no">Funciona como control del relato; no agrega un monto ARS a la cuenta.</td><td>Sin modificación monetaria</td></tr>
+    <tr><td>Autoridades superiores del PEN</td><td>−31,5% real</td><td class="attr-no">Funciona como control del relato; no agrega un monto ARS a la cuenta.</td><td>Sin modificación monetaria</td></tr>
   </tbody></table>`;"""
     html = replace_once(html, old_attribution, new_attribution)
 

@@ -10,8 +10,8 @@ Fecha de construcción: 2026-08-20. Unidad común: pesos de junio de 2026.
 6. **Cola abierta.** El tramo oficial >$5.000 millones de 2022 tiene 181 casos. Se usa Pareto α=1.8924, calibrada por mínimo y media, preservando casos y patrimonio. Es una estimación, no microdato.
 7. **Fórmula.** aporteᵢ = min[λ × peso(patrimonioᵢ) × max(patrimonioᵢ−umbral,0), tope × patrimonioᵢ]. λ se resuelve por bisección para alcanzar la meta dada la participación.
 8. **Participación.** 25/50/75/100% es participación esperada homogénea dentro de cada nodo. No modela selección estratégica; se muestra como escenario, no pronóstico conductual.
-9. **Escenario inicial (tope 3%).** Umbral $1 B, 100% de participación, tope 3%: recaudación 4.748105 billones; 44966.6 aportantes esperados; tasa efectiva mediana 3.0000%.
-10. **Comparación histórica.** El Aporte Solidario fue obligatorio, extraordinario y por única vez. AFIP informó $248.006 M en 2021; a precios de jun-2026 (aproximación dic-2021) son $5.036 billones. El mínimo legal de $200 M de dic-2020 equivale a $6.130 B. No se lo llama antecedente legal del esquema voluntario.
+9. **Escenario inicial (tope 3%).** Umbral $1 mil M, 100% de participación, tope 3%: recaudación 4.748105 billones; 44966.6 aportantes esperados; tasa efectiva mediana 3.0000%.
+10. **Comparación histórica.** El Aporte Solidario fue obligatorio, extraordinario y por única vez. AFIP informó $248.006 M en 2021; a precios de jun-2026 (aproximación dic-2021) son $5.036 billones. El mínimo legal de $200 M de dic-2020 equivale a $6.130 mil M. No se lo llama antecedente legal del esquema voluntario.
 11. **Subdeclaración.** El escenario base no corrige evasión, valuaciones ni activos omitidos. La sensibilidad +20% es mecánica y visible; WID se usa sólo para recordar que la riqueza neta nacional y la base fiscal declarada son universos diferentes.
 12. **No doble conteo.** La contribución es una compensación hipotética separada. No aumenta el daño del tab “Lo que te robó Milei” ni se suma a pérdidas, privilegios, SIDE, Mercado Libre o la pinza financiera.
 
