@@ -16560,6 +16560,14 @@ function renderPoverty() {
     line:{color:'#ef8c73',width:2,dash:'dot'},marker:{size:8},
     hovertemplate:'<b>%{customdata}</b><br>Pobreza: <b>%{y:.1f}%</b><br>Fuente: CEDLAS · otra reconstrucción histórica<br><i>No se empalma para calcular cambios con DT226.</i><extra></extra>'
   };
+  const povertyComparableValues = povertyData.values.filter(Number.isFinite);
+  const povertyAverage = povertyComparableValues.reduce((sum,value)=>sum+value,0) / povertyComparableValues.length;
+  const averageTrace = {
+    x:['2003-10-01','2025-10-01'],y:[povertyAverage,povertyAverage],
+    name:'Promedio serie principal · '+povertyAverage.toFixed(1).replace('.',',')+'%',mode:'lines',
+    line:{color:'#3f8b73',width:2.2,dash:'dash'},
+    hovertemplate:'Promedio simple de '+povertyComparableValues.length+' observaciones comparables: <b>%{y:.1f}%</b><br><i>Excluye Duhalde (contexto separado) y 2S2015 sin dato.</i><extra></extra>'
+  };
 
   const shapes = [
     ...pandemicDateShapes(),
@@ -16594,7 +16602,7 @@ function renderPoverty() {
     {x:'2016-09-15',y:1.025,yref:'paper',text:'desde 2S2016 · INDEC oficial',showarrow:false,textangle:-90,font:{color:'#715e91',size:9}},
     {xref:'paper',x:0.5,yref:'paper',y:mobile?1.13:1.03,text:mobile?'fondo = mandato · línea = fuente':'Franjas = mandatos · color de línea = fuente/metodología',showarrow:false,font:{color:'#8a7198',size:10}}
   ];
-  Plotly.react('povertyChart',[duhaldeTrace,historicalTrace,officialTrace],{
+  Plotly.react('povertyChart',[duhaldeTrace,historicalTrace,officialTrace,averageTrace],{
     ...common,dragmode:false,
     margin:{l:mobile?55:72,r:mobile?12:30,t:mobile?218:146,b:72},
     xaxis:{...common.xaxis,title:'Año',type:'date',tickformat:'%Y',dtick:mobile?'M48':'M24',range:['2002-01-01','2025-12-31'],fixedrange:true},
