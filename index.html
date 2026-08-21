@@ -7244,7 +7244,7 @@ img, svg { max-width: 100%; }
   align-self:stretch;
 }
 
-/* La brecha acumulada, rescates y privilegios ya no quedan atrapados en la columna del gráfico. */
+/* La brecha salarial queda como único resumen político debajo del gráfico. */
 #tab-power > .power-followup-card{
   margin-top:16px;
   padding:10px 0 2px;
@@ -7255,7 +7255,7 @@ img, svg { max-width: 100%; }
   min-width:0;
 }
 
-/* Estas dos tarjetas son de lectura paralela: el 340px global las hacía artificialmente desparejas. */
+/* Estas dos tarjetas son de lectura paralela. */
 #tab-power > .power-info-grid{
   grid-template-columns:minmax(0,1fr) minmax(0,1fr);
   align-items:stretch;
@@ -7317,19 +7317,14 @@ img, svg { max-width: 100%; }
 }
 #tab-power > .power-followup-card > #powerAccumulatedBox{
   display:grid;
-  gap:16px;
+  gap:0;
 }
-#tab-power > .power-followup-card > #powerAccumulatedBox > #powerAccumulatedGrid,
-#tab-power > .power-followup-card > #powerAccumulatedBox > .power-accum-note,
-#tab-power > .power-followup-card > #powerAccumulatedBox > #powerAggregateLossBox,
-#tab-power > .power-followup-card > #powerAccumulatedBox > #powerRescueBox,
-#tab-power > .power-followup-card > #powerAccumulatedBox > .power-meli-loss{
+#tab-power > .power-followup-card > #powerAccumulatedBox > #powerAggregateLossBox{
   margin:0 !important;
   width:100%;
 }
 @media(max-width:720px){
   #tab-power > .power-followup-card{padding:14px;}
-  #tab-power > .power-followup-card > #powerAccumulatedBox{gap:14px;}
 }
 @media(max-width:390px){
   #tab-power > .power-followup-card{padding:12px;}
@@ -7342,16 +7337,31 @@ img, svg { max-width: 100%; }
   grid-template-columns:minmax(0,1fr) minmax(0,1fr);
   gap:18px;
   margin-top:16px;
+  align-items:stretch;
 }
 #tab-power > .power-info-grid > .card{
-  overflow:visible;
+  overflow:hidden;
   min-width:0;
+  height:100%;
+  display:flex;
+  flex-direction:column;
 }
 #tab-power > .power-info-grid .card-head{
   padding-top:0;
+  flex:0 0 auto;
+}
+#tab-power > .power-info-grid .card-title,
+#tab-power > .power-info-grid .note{
+  max-width:100%;
+  overflow-wrap:anywhere;
 }
 @media(max-width:1180px){
-  #tab-power > .power-info-grid{gap:14px;}
+  #tab-power > .power-info-grid{
+    grid-template-columns:1fr;
+    align-items:start;
+    gap:14px;
+  }
+  #tab-power > .power-info-grid > .card{height:auto;}
 }
 @media(max-width:980px){
   #tab-power > .power-info-grid{grid-template-columns:1fr;}
@@ -8006,79 +8016,8 @@ img, svg { max-width: 100%; }
 
     <section class="card power-followup-card">
       <div id="powerAccumulatedBox">
-          <div id="powerAccumulatedGrid" class="power-accum-grid"></div>
-          <div class="power-accum-note">
-            <b>Qué estamos acumulando:</b> cada mes medimos la distancia del <b>Total salarios</b> respecto de nov-2023=100.
-            Un mes con índice 90 aporta <b>−0,10 meses de salario-base</b>; uno con 105 aporta <b>+0,05</b>.
-            Después del shock, los meses arriba de 100 <b>compensan</b> parte de la pérdida previa: por eso mostramos pérdida bruta, recuperación y saldo neto por separado.
-            A la izquierda usamos una <b>ventana espejo de igual duración</b> para que la comparación no quede sesgada por cantidad de meses.
-          </div>
-          <div id="powerAggregateLossBox" class="power-aggregate-loss"></div>
-          <div id="powerRescueBox" class="power-rescue-box"></div>
+        <div id="powerAggregateLossBox" class="power-aggregate-loss"></div>
 
-          <div class="power-meli-loss">
-            <div class="eyebrow">Beneficios fiscales documentados · mismo período político</div>
-            <div class="headline">Y mientras tanto: “subsidios a Galperín” desde el shock*</div>
-            <div class="amount">≥ USD 134 millones</div>
-            <div class="subamount">
-              piso documentado desde el <b>primer año completo pos-shock (2024)</b> hasta <b>1T-2026</b>.<br>
-              No imputamos diciembre de 2023 porque los filings anuales no permiten separarlo limpiamente del resto de ese año.
-            </div>
-
-            <div class="power-meli-breakdown">
-              <div><div class="tag">2024</div><div class="val">USD 57 M</div><div class="mini">USD 33 M Ganancias + USD 24 M beneficio previsional/laboral.</div></div>
-              <div><div class="tag">2025</div><div class="val">≥ USD 64 M</div><div class="mini">Ganancias cuantificadas. El beneficio sobre contribuciones sigue existiendo, pero no queda desagregado como línea anual.</div></div>
-              <div><div class="tag">1T-2026</div><div class="val">≥ USD 13 M</div><div class="mini">Beneficio de Ganancias informado en el filing trimestral.</div></div>
-            </div>
-
-            <div class="caveat">
-              <b>*Nombre coloquial:</b> el beneficiario jurídico es <b>MercadoLibre S.R.L. / subsidiarias argentinas</b>, no Marcos Galperín personalmente.
-              Es un <b>piso</b> de beneficios fiscales cuantificados en filings de la empresa; no equivale necesariamente peso por peso a recaudación que el Estado habría cobrado en un contrafactual.
-              El régimen además <b>es anterior a Milei</b>; acá sólo acumulamos lo documentado durante su período.
-            </div>
-
-            <div class="jump">
-              <button class="subbtn" type="button" onclick="activateTab('tab-meli-benefits')">Ver “Privilegios fiscales” →</button>
-            </div>
-          </div>
-
-          <div class="power-meli-loss" style="border-color:#dccce8;background:linear-gradient(180deg,#fbf8ff,#fff)">
-            <div class="eyebrow" style="color:#7a6191">Recorte conservador · gasto tributario 2026</div>
-            <div class="headline" style="color:#664a78">Privilegios fiscales de baja incidencia directa sobre hogares</div>
-            <div class="amount" style="color:#7656a8">$ 1,23 billones / año</div>
-            <div class="subamount">
-              No metemos regímenes que puedan pegar de lleno en empleo, producción, crédito o precios.
-              Dejamos sólo un subconjunto deliberadamente prudente.
-            </div>
-
-            <div class="power-meli-breakdown">
-              <div>
-                <div class="tag">Jueces / Poder Judicial</div>
-                <div class="val">$ 0,882 billones</div>
-                <div class="mini">Exención de Ganancias a magistrados y funcionarios judiciales.</div>
-              </div>
-              <div>
-                <div class="tag">Intereses de ON · personas físicas</div>
-                <div class="val">$ 0,350 billones</div>
-                <div class="mini">Exención de Ganancias sobre intereses de obligaciones negociables.</div>
-              </div>
-              <div>
-                <div class="tag">Deliberadamente afuera</div>
-                <div class="val">≈ $ 3,67 billones</div>
-                <div class="mini">Tierra del Fuego, minería, Economía del Conocimiento, SGR, autopartes y promoción industrial.</div>
-              </div>
-            </div>
-
-            <div class="caveat">
-              <b>Por qué esta cuenta es más chica:</b> queremos evitar el mismo vicio que criticamos.
-              Si un beneficio fiscal puede traducirse en empleo, inversión, crédito PyME o precios, <b>no lo contamos como “plata fácil de sacar”</b>.
-              Este $1,23 billones es el recorte más conservador que dejamos visible.
-            </div>
-
-            <div class="jump">
-              <button class="subbtn" type="button" onclick="activateTab('tab-meli-benefits')">Ver detalle y fuentes →</button>
-            </div>
-          </div>
         </div>
 
     </section>
@@ -8118,10 +8057,6 @@ img, svg { max-width: 100%; }
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-4-31-61">📊 INDEC · Índice de salarios</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv">📥 INDEC · serie oficial · índices por sector y Total índice de salarios (CSV)</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/uploads/informesdeprensa/eph_total_urbano_ingresos_02_24918E35EE9D.pdf">👥 INDEC · EPH total urbano 3T-2023 · asalariados e ingreso medio</a>
-        <a class="source-link" target="_blank" rel="noopener" href="https://www.sec.gov/Archives/edgar/data/1099590/000109959025000007/meli-20241231.htm">📄 SEC · MercadoLibre 10-K 2024 · USD 33 M + USD 24 M</a>
-        <a class="source-link" target="_blank" rel="noopener" href="https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm">📄 SEC · MercadoLibre 10-K 2025 · USD 64 M Ganancias</a>
-        <a class="source-link" target="_blank" rel="noopener" href="https://www.sec.gov/Archives/edgar/data/1099590/000109959026000017/meli-20260331.htm">📄 SEC · MercadoLibre 1T-2026 · USD 13 M Ganancias</a>
-        <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/sites/default/files/proyecto_de_ley_de_presupuesto_general_de_gastos_y_calculo_de_recursos_de_la_administracio_nacional_2026_-_mensaje_articulado_y_planillas_del_proyecto_de_ley.pdf">📘 Presupuesto 2026 · gasto tributario / exenciones</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://sitioanterior.indec.gob.ar/nivel4_default.asp?id_tema_1=4&id_tema_2=31&id_tema_3=61">🗃️ INDEC archivo · salarios desde oct-2001</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Institucional-Indec-InformacionDeArchivo-1">🗃️ INDEC archivo · IPC-GBA histórico</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://centrocifra.org.ar/estadisticas/ipc-provincias/">📊 CIFRA · IPC Provincias 2007–2018</a>
@@ -8158,36 +8093,6 @@ img, svg { max-width: 100%; }
           <div class="formula">[(1 + 2,89%) / (1 + 1,89%)] − 1 = +0,98%</div>
           <div class="formula-result">Cuarto mes consecutivo con salarios por encima del IPC</div>
           <div class="formula-caveat">En el primer semestre el índice salarial acumuló <b>+18,48%</b> y el IPC <b>+16,85%</b>. La comparación mensual real usa los niveles oficiales, no sólo las variaciones redondeadas del comunicado.</div>
-        </div>
-        <div class="formula-card">
-          <div class="formula-title">Privilegios fiscales · recorte conservador 2026</div>
-          <div class="formula">$0,882 billones + $0,350 billones = $1,232 billones</div>
-          <div class="formula-result">≈ <b>$1,23 billones anuales</b></div>
-          <div class="formula-caveat">Incluye sólo Ganancias de jueces/funcionarios judiciales + exención sobre intereses de ON para personas físicas. Dejamos afuera regímenes con efectos plausibles sobre empleo, inversión, crédito o precios.</div>
-        </div>
-        <div class="formula-card">
-          <div class="formula-title">Beneficios fiscales de Mercado Libre · período Milei</div>
-          <div class="formula">2024: 33 + 24 = 57 · 2025: ≥64 · 1T26: ≥13</div>
-          <div class="formula-result">57 + 64 + 13 = <b>≥ USD 134 M</b></div>
-          <div class="formula-caveat">No se suma diciembre de 2023 porque el filing anual no separa ese mes. 2025 y 1T26 son pisos: los filings recientes no desagregan siempre el bono sobre contribuciones patronales.</div>
-        </div>
-        <div class="formula-card critical">
-          <div class="formula-title">Brecha salarial agregada · “monto total”</div>
-          <div class="formula">0,8956 × $237.872 × 13,8 M = ≈ $2,94 billones de nov-2023</div>
-          <div class="formula-result">× 4,19963 de IPC = ≈ $12,35 billones a precios de jun-2026</div>
-          <div class="formula-caveat">El salario-base de $237.872 se estima desde la EPH total urbano 3T-2023: 8,7 M asalariados con descuento a $229.521 y 5,1 M sin descuento a $103.755; luego se lleva al nivel de nov-2023 con el Total índice de salarios de INDEC. Usamos <b>asalariados, no PEA completa</b>, porque la métrica de origen es salarial.</div>
-        </div>
-        <div class="formula-card critical">
-          <div class="formula-title">Poder adquisitivo acumulado · pos-shock</div>
-          <div class="formula">gapₜ = (índiceₜ − 100) / 100 · saldo = Σ gapₜ</div>
-          <div class="formula-result">Dic-2023 → jun-2026: pérdida bruta ≈ 1,34 · recuperación ≈ 0,44 · saldo neto ≈ −0,90 sueldos-base</div>
-          <div class="formula-caveat">“1 sueldo-base” significa un mes del poder adquisitivo que tenía el Total salarios en nov-2023. Es un área acumulada del índice, <b>no pesos perdidos por una persona concreta ni masa salarial nacional</b>.</div>
-        </div>
-        <div class="formula-card favorable">
-          <div class="formula-title">Ejercicio inverso · ventana espejo</div>
-          <div class="formula">Σ [(índiceₜ − 100) / 100] durante los 31 meses previos</div>
-          <div class="formula-result">Abr-2021 → oct-2023: ≈ +2,10 sueldos-base por encima del nivel de nov-2023</div>
-          <div class="formula-caveat">Usamos exactamente la misma cantidad de meses disponibles después del shock para evitar que el lado izquierdo gane sólo por tener más historia.</div>
         </div>
         <div class="formula-card">
           <div class="formula-title">Qué entra en el Total índice de salarios</div>
@@ -8241,9 +8146,7 @@ img, svg { max-width: 100%; }
       Para <b>Total salarios</b> usamos el <b>Total índice de salarios oficial de INDEC</b>; no una media manual de las ramas.
       La <b>brecha acumulada</b> suma mensualmente (índice real − 100)/100 y se expresa en <b>meses de salario-base equivalentes</b>; los meses posteriores arriba de 100 compensan parte del déficit previo.
       La estimación agregada escala ese saldo a <b>13,8 M de asalariados urbanos</b> y a un salario-base nov-2023 inferido desde EPH 3T-2023 + Total índice de salarios; no usa toda la PEA.
-      El bloque de Mercado Libre suma sólo beneficios cuantificados en filings desde 2024 hasta 1T-2026: <b>≥ USD 134 M</b>.
-      Debajo se muestra un recorte deliberadamente conservador de <b>$1,23 billones anuales</b> de privilegios tributarios 2026 con baja incidencia directa sobre hogares.
-      <b>Fuentes:</b> INDEC · Índice de salarios/CSV oficial + IPC nivel general + EPH total urbano; Seguridad Social/ANSES; SEC / filings de Mercado Libre; Presupuesto 2026 para gasto tributario.
+      <b>Fuentes:</b> INDEC · Índice de salarios/CSV oficial + IPC nivel general + EPH total urbano; Seguridad Social/ANSES; IPC-GBA histórico e IPC Provincias-CIFRA.
       No se completan meses faltantes ni se extienden series nominales con supuestos propios.
     </footer>
   </section>
@@ -12243,10 +12146,10 @@ function renderMileiCost(){
       'Es el saldo intermedio de la cuenta madre: al agujero bruto se le resta la recuperación salarial ya observada.',
       `Representa ≈ ${mileiCostPct(loss.netCurrent,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de los ${powerMoneyBillions(grossShock)} iniciales.`, 'tab-power','powerAggregateLossBox')+
     card('warn','Política tributaria','Privilegios fiscales · recorte prudente',powerMoneyBillions(p.taxPrivilegesAnnual)+'/año',
-      'Incluye sólo Ganancias de jueces/funcionarios judiciales e intereses de ON para personas físicas. Se dejan afuera regímenes con impacto plausible sobre empleo, inversión, crédito o precios.',
+      'Cuenta trasladada acá: $0,882 billones por Ganancias de jueces/funcionarios judiciales + $0,350 billones por intereses de ON para personas físicas. Quedan deliberadamente afuera ≈ $3,67 billones de regímenes con impacto plausible sobre empleo, inversión, crédito o precios.',
       `Si se corrigieran o reasignaran, descontarían ${powerMoneyBillions(p.taxPrivilegesAnnual)}: ≈ ${mileiCostPct(p.taxPrivilegesAnnual,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de la cuenta madre.`, 'tab-meli-benefits','meliOtherBenefitsChart')+
     card('warn','Régimen previo · beneficio durante el mandato','Mercado Libre · beneficios documentados',mileiCostMoney(meliArs),
-      `Piso de USD 134 M entre 2024 y 1T26, convertido con A3500 promedio de cada período y luego llevado a pesos de jun-2026. El régimen es anterior a Milei: acá medimos lo devengado/documentado durante su gobierno, no una creación suya.`,
+      `Piso de USD 134 M: 2024 USD 57 M (33 M de Ganancias + 24 M previsionales/laborales), 2025 ≥64 M y 1T26 ≥13 M. Se convierte con A3500 promedio por período y luego a pesos de jun-2026. El régimen es anterior a Milei: medimos lo documentado durante su gobierno, no una creación suya.`,
       `Si se reorientara, descontaría ${mileiCostMoney(meliArs)}: ≈ ${mileiCostPct(meliArs,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre.`, 'tab-meli-benefits','meliArsChart')+
     card('warn','PEN · presupuesto','SIDE · refuerzo de crédito 2026','+ '+mileiCostMoney(p.sideExtraCredit),
       'Es el aumento de crédito presupuestario del DNU de julio de 2026. Crédito vigente no equivale a gasto ya ejecutado. En paralelo, Inteligencia pasó de 0,17% del gasto APN en 2023 a 0,23% en 2025.',
@@ -15288,8 +15191,7 @@ function powerAccumShortDate(iso){
 }
 function renderPowerAccumulatedSummary(base='nov'){
   const box=document.getElementById('powerAccumulatedBox');
-  const grid=document.getElementById('powerAccumulatedGrid');
-  if(!box||!grid)return;
+  if(!box)return;
   const shell=box.closest('.power-followup-card');
   if(base!=='nov'){
     box.style.display='none';
@@ -15298,31 +15200,7 @@ function renderPowerAccumulatedSummary(base='nov'){
   }
   box.style.display='';
   if(shell)shell.style.display='';
-  const a=powerAccumulatedGap();
-  if(!a)return;
-  grid.innerHTML=`
-    <div class="power-accum-card loss">
-      <div class="tag">Pérdida bruta pos-shock</div>
-      <div class="big">−${powerAccumFmt(a.grossLoss)} sueldos-base</div>
-      <div class="mini">Suma sólo los meses con Total salarios &lt; 100.</div>
-    </div>
-    <div class="power-accum-card gain">
-      <div class="tag">Recuperado después</div>
-      <div class="big">+${powerAccumFmt(a.recovered)} sueldos-base</div>
-      <div class="mini">Meses posteriores por encima de 100 que compensan parte del agujero.</div>
-    </div>
-    <div class="power-accum-card loss">
-      <div class="tag">Saldo neto aún perdido</div>
-      <div class="big">−${powerAccumFmt(a.net)} sueldos-base</div>
-      <div class="mini">Dic-2023 → ${powerAccumShortDate(a.latestDate)}. El peor punto fue ${powerAccumShortDate(a.worstDate)}: −${powerAccumFmt(a.worst)}.</div>
-    </div>
-    <div class="power-accum-card gain">
-      <div class="tag">Espejo previo · ${a.mirrorMonths} meses</div>
-      <div class="big">+${powerAccumFmt(a.mirror)} sueldos-base</div>
-      <div class="mini">${powerAccumShortDate(a.leftStart)} → oct-2023, medido contra el mismo nov-2023=100.</div>
-    </div>`;
   renderPowerAggregateLoss(base);
-  renderPowerRescue(base);
 }
 
 function powerTotalAllTrace(base){
