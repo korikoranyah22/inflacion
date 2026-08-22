@@ -78,7 +78,7 @@ Ya tenían fuentes y auditorías completas, pero con componentes visuales propio
 
 ### 7. La historia del dashboard
 
-El nuevo tab es un relato editorial en primera persona: no introduce una serie estadística adicional. Su ficha distingue esa condición y remite al repositorio, al handover consolidado y a las auditorías globales de fuentes y escalas. Los importes destacados funcionan como accesos narrativos a cálculos ya documentados en los paneles temáticos; no sustituyen sus fuentes ni forman por sí solos una identidad contable nueva.
+El nuevo tab es un relato editorial en primera persona: no introduce una serie estadística adicional. Su ficha distingue esa condición y remite al repositorio y a las auditorías globales de fuentes y escalas. Los documentos internos del proceso de rediseño no se presentan como fuentes. Los importes destacados funcionan como accesos narrativos a cálculos ya documentados en los paneles temáticos; no sustituyen sus fuentes ni forman por sí solos una identidad contable nueva.
 
 ## Inventario final por pestaña
 
@@ -86,7 +86,7 @@ La columna “referencias” cuenta enlaces temáticos dentro de la ficha princi
 
 | Pestaña | Referencias | Estado |
 |---|---:|---|
-| La historia del dashboard | 4 | Completa · relato editorial con rutas a auditorías |
+| La historia del dashboard | 3 | Completa · relato editorial con rutas a auditorías |
 | Poder adquisitivo | 18 | Completa |
 | Tasas e inflación | 8 | Completa |
 | Inflación por presidencia | 3 | Completa |

@@ -79,3 +79,16 @@ También se hicieron estos ajustes:
 - Dashboard publicado/local: `index.html`
 - Snapshot: `data/dashboard_kawaii_148_escalas_log_y_jerarquia_visual.html`
 
+## Adenda v175 · etiquetas de Tasas e inflación en ancho reducido
+
+- La vista Log conserva las ocho series, pero las llamadas de noviembre/diciembre de 2023 y el corte del 10/12 se redistribuyen en móvil.
+- El rótulo del corte se abrevia a `10/12` porque la franja superior ya identifica a Milei.
+- `ene–nov 148,1%` se desplaza hacia la izquierda y abajo; `dic-23 +25,5%`, hacia la derecha y arriba.
+- Se conserva la posición correcta de los valores sobre el eje Log y no se altera la versión de escritorio.
+- Verificación geométrica a 390 y 320 px: cero intersecciones entre anotaciones y cero textos fuera del lienzo, tanto en Log como en Lineal.
+
+## Adenda v176 · referencia de tasa real cero
+
+- El rótulo `0 = iguala la inflación` del gráfico real mensual se eleva respecto de la línea de cero.
+- Usa texto marrón oscuro sobre fondo crema semitransparente y borde ámbar, en lugar del naranja de bajo contraste.
+- Conserva 28 px de separación visual respecto de la línea y permanece contenido tanto a 390 px como en escritorio.

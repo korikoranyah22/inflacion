@@ -10113,7 +10113,7 @@ html,body{overflow-x:clip}
         <div class="card-title">Argentina urbana: estar arriba de la línea no siempre alcanza <span>♡</span></div>
         <div class="kicker structure-panel-kicker">UCA · 2025 · pobreza monetaria vs. estrés económico por NSE del hogar</div>
       </div>
-      <div class="method-shield" style="margin:10px 14px 10px">
+      <div class="method-shield" style="margin:0 14px 10px">
         <span class="label">Qué compara</span>
         <strong>Pobreza</strong> = ingreso bajo la línea monetaria. <strong>Estrés económico</strong> = el hogar declara que sus ingresos no alcanzan para cubrir necesidades básicas.
         <br><br><strong>¿Qué significa “medio alto / medio bajo / bajo / muy bajo”?</strong> Son <b>niveles socioeconómicos del hogar (NSE UCA)</b>, construidos con un índice que combina educación, inserción ocupacional, tasa de actividad, bienes durables y condición residencial.
@@ -14532,7 +14532,7 @@ function renderConsumptionCategories(){
       legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.5:10.5},x:0},
       hovermode:mobile?'closest':'x unified',
       annotations:[
-        {xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}
+        {xref:'paper',yref:'paper',x:.5,y:.985,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}
       ]
     },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   }
@@ -14735,7 +14735,7 @@ function resizeConsumptionCategoryCharts(mobile){
           'margin.t':mobile?120:90,'margin.b':mobile?40:48,
           'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,
           'legend.font.size':mobile?8.5:10.5,
-          'annotations':[{xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
+          'annotations':[{xref:'paper',yref:'paper',x:.5,y:.985,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
         });
       }
       if(id==='beefTradeoffChart'){
@@ -16826,10 +16826,10 @@ function renderHealthEducation() {
   Plotly.react('healthEducationExecutionChart',levelTraces,{
     paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
     barmode:'stack',barnorm:'percent',
-    margin:{l:mobile?105:245,r:mobile?14:28,t:mobile?90:72,b:52},
+    margin:{l:mobile?105:245,r:mobile?14:28,t:mobile?100:80,b:62},
     xaxis:{title:'% de la función ejecutado por cada nivel',range:[0,100],ticksuffix:'%',gridcolor:'#efe4f4',fixedrange:true},
     yaxis:{autorange:'reversed',fixedrange:true,tickfont:{size:mobile?10:12},tickmode:'array',tickvals:heExecutionCategories,ticktext:mobile?heExecutionCategoriesMobile:heExecutionCategories},
-    legend:{orientation:'h',x:0,y:1.08,font:{size:mobile?10:12}},
+    legend:{orientation:'h',x:0,y:1.12,font:{size:mobile?10:12}},
     hovermode:'closest',hoverlabel:common.hoverlabel
   },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
@@ -16885,10 +16885,10 @@ function resizeHealthEducationCharts(mobile) {
   const exec=document.getElementById('healthEducationExecutionChart');
   if(exec && exec.data) {
     Plotly.relayout(exec,{
-      'margin.l':mobile?105:245,'margin.r':mobile?14:28,'margin.t':mobile?90:72,'margin.b':52,
+      'margin.l':mobile?105:245,'margin.r':mobile?14:28,'margin.t':mobile?100:80,
       'yaxis.tickfont.size':mobile?10:12,
       'yaxis.tickmode':'array','yaxis.tickvals':heExecutionCategories,'yaxis.ticktext':mobile?heExecutionCategoriesMobile:heExecutionCategories,
-      'legend.y':1.08,'legend.font.size':mobile?10:12
+      'legend.font.size':mobile?10:12
     }); Plotly.Plots.resize(exec);
   }
   const bridge=document.getElementById('healthEducationBridgeChart');
@@ -18650,11 +18650,7 @@ function renderGini() {
       pattern:{shape:sameQuarter.map(d=>d.status==='solid'?'':d.status==='reserve'?'/':d.status==='whole'?'x':'.'),solidity:sameQuarter.map(d=>d.status==='whole'?.16:.22)}
     },
     text:sameQuarter.map(d=>(d.delta>0?'+':'')+d.delta.toFixed(3).replace('.',',')),
-    textposition:sameQuarter.map(d=>d.delta<=-.02?'inside':'outside'),
-    insidetextanchor:'middle',
-    insidetextfont:{color:'#3f3150',size:mobile?10:11},
-    outsidetextfont:{color:'#4f3b61',size:mobile?10:11},
-    cliponaxis:false,
+    textposition:'outside',cliponaxis:false,
     hovertemplate:'<b>%{customdata[0]}</b><br>%{customdata[1]}<br>%{customdata[2]}<br>Δ Gini: <b>%{x:+.3f}</b><extra></extra>'
   }], {
     paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',
@@ -18705,7 +18701,7 @@ function structureCabaAnnotations(mode){
   return [
     ...pandemicDateAnnotations(mobile),
     ...labels.map((d,index)=>({
-      x:d.x,y:index%2?1.078:1.018,yref:'paper',
+      x:d.x,y:mobile?(index%2?1.075:1.018):(compact?1.045:1.07),yref:'paper',
       text:compact?d.short:d.full,showarrow:false,xanchor:d.xanchor||'center',
       font:{size:mobile?8:(compact?9:10),color:d.color,family:'Inter,system-ui,sans-serif'},
       bgcolor:d.bg,bordercolor:d.border,borderwidth:1,borderpad:compact?2:4
@@ -18797,10 +18793,10 @@ function renderStructure() {
   ], {
     barmode:'group',paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',
     font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
-    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?68:54,b:mobile?94:70},
+    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?75:60,b:mobile?105:80},
     xaxis:{tickmode:'array',tickvals:structureFederalData.regions,ticktext:mobile?['GBA','Cuyo','NEA','NOA','Pamp.','Patag.']:structureFederalData.regions,tickangle:0,fixedrange:true,automargin:true},
     yaxis:{title:'Porcentaje de personas',range:[0,38],ticksuffix:'%',gridcolor:'#efe4f4',fixedrange:true},
-    legend:{orientation:'h',x:0,y:1.09,xanchor:'left',yanchor:'bottom',font:{size:mobile?10:12}},
+    legend:{orientation:'h',x:0,y:1.12,xanchor:'left',yanchor:'bottom',font:{size:mobile?10:12}},
     hoverlabel:{bgcolor:'#fff7fb',bordercolor:'#efb7d0',font:{color:'#4d365c',size:13}}
   }, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
@@ -18821,7 +18817,7 @@ function renderStructure() {
   ], {
     barmode:'group',paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',
     font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
-    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?75:60,b:mobile?64:68},
+    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?75:60,b:75},
     xaxis:{title:'Nivel socioeconómico del hogar (UCA)',fixedrange:true},
     yaxis:{title:'Porcentaje de población',range:[0,84],ticksuffix:'%',gridcolor:'#efe4f4',fixedrange:true},
     legend:{orientation:'h',x:0,y:1.12,xanchor:'left',yanchor:'bottom',font:{size:mobile?10:12}},
@@ -19226,21 +19222,17 @@ function responsiveRelayout() {
     Plotly.relayout('structureRegionChart', {
       'margin.l': mobile ? 52 : 68,
       'margin.r': mobile ? 10 : 25,
-      'margin.t': mobile ? 68 : 54,
-      'margin.b': mobile ? 94 : 70,
       'xaxis.tickmode':'array',
       'xaxis.tickvals':structureFederalData.regions,
       'xaxis.ticktext':mobile?['GBA','Cuyo','NEA','NOA','Pamp.','Patag.']:structureFederalData.regions,
-      'xaxis.tickangle':0,
-      'legend.y':1.09
+      'xaxis.tickangle':0
     });
     Plotly.Plots.resize(structureRegion);
   }
   if (structureNse && structureNse.data) {
     Plotly.relayout('structureNseChart', {
       'margin.l': mobile ? 52 : 68,
-      'margin.r': mobile ? 10 : 25,
-      'margin.b': mobile ? 64 : 68
+      'margin.r': mobile ? 10 : 25
     });
     Plotly.Plots.resize(structureNse);
   }

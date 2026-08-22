@@ -7610,7 +7610,7 @@ img, svg { max-width: 100%; }
 #tab-milei-cost .milei-input-grid b{display:block;margin-top:4px;font-size:15px;color:#654276;overflow-wrap:anywhere}
 #tab-milei-cost .milei-input-note{margin-top:9px;font-size:10px;line-height:1.5;color:#745f7b}
 #tab-milei-cost .milei-cost-table-wrap{
-  margin-top:13px;overflow-x:auto;overscroll-behavior-inline:contain;scrollbar-gutter:stable;border:1px solid #e5dbe9;border-radius:16px;background:#fff
+  margin-top:13px;overflow-x:auto;border:1px solid #e5dbe9;border-radius:16px;background:#fff
 }
 #tab-milei-cost .milei-cost-table{width:100%;border-collapse:collapse;min-width:920px;font-size:10.5px}
 #tab-milei-cost .milei-cost-table th{
@@ -8136,7 +8136,6 @@ img, svg { max-width: 100%; }
 @media(max-width:760px){.pend-card{padding:15px;border-radius:20px}.pend-head{display:block}.pend-head h2{font-size:23px}.pend-controls{grid-template-columns:1fr}.pend-contrast-grid{grid-template-columns:1fr}.pend-chart{min-width:760px;height:470px}.pend-chart.medium{height:410px}.pend-chart.compact{height:370px}.pend-quote{font-size:13px}.pend-btn{padding:8px 10px}.pend-kpi strong{font-size:22px}.pend-everyday-head,.pend-political-head{align-items:flex-start;flex-direction:column}.pend-hundred-flow{grid-template-columns:1fr;gap:23px}.pend-hundred-piece:not(:last-child)::after{content:'⬇';right:auto;left:50%;top:auto;bottom:-22px;transform:translateX(-50%);font-size:16px}}
 @media(max-width:430px){.pend-card{padding:12px}.pend-kpis{grid-template-columns:1fr}.pend-chart{min-width:720px}.pend-sub,.pend-reading{font-size:10.5px}.pend-verdict>div{padding:12px}.pend-everyday{padding:13px}.pend-hundred-piece strong{font-size:21px}.pend-plain-card{padding-right:10px}}
 @media(max-width:390px){.pend-card{padding:10px}.pend-control{padding:10px}.pend-chart{min-width:700px}.pend-kicker{white-space:normal}}
-@media(max-width:720px){#pendMainChartScroll{overflow-x:hidden;padding-bottom:0}#pendMainChart{width:100%;min-width:0;height:470px}#pendRangeControl{margin:4px 0 14px}}
 </style>
 
 
@@ -8591,42 +8590,6 @@ code,pre,.formula,.pend-formula{font-family:var(--font-mono)!important}
 @media(max-width:430px){
  #tab-story .story-stat-grid{grid-template-columns:1fr}
  #tab-story .story-stat:last-child{grid-column:auto}
-}
-</style>
-
-<style id="pendulo-mobile-secondary-gutter-v181">
-/* v181 · evita que el tramo secundario del Péndulo pierda el margen exterior al mover gráficos anchos */
-html,body{overflow-x:clip}
-#tab-pendulo .pend-chart-scroll{overscroll-behavior-inline:contain}
-@media(max-width:720px){
-  #tab-pendulo,
-  #tab-pendulo .pend-shell,
-  #tab-pendulo .pend-layer-panel,
-  #tab-pendulo .pend-layer-stack{
-    min-width:0;
-    width:100%;
-    max-width:100%;
-  }
-  #tab-pendulo{overflow-x:clip}
-  #tab-pendulo [data-pend-layer-panel="production"] .pend-layer-stack>.pend-card:nth-child(n+3){
-    width:calc(100% - 8px);
-    max-width:calc(100% - 8px);
-    margin-inline:4px;
-  }
-}
-</style>
-
-<style id="milei-cost-mobile-tail-gutter-v184">
-/* v184 · desde la tabla de atribución, el cierre del tab conserva el retiro lateral móvil */
-@media(max-width:720px){
-  #tab-milei-cost>.milei-cost-inset-start,
-  #tab-milei-cost>.milei-cost-inset-start~*{
-    width:calc(100% - 8px);
-    max-width:calc(100% - 8px);
-    margin-left:4px;
-    margin-right:4px;
-    box-sizing:border-box;
-  }
 }
 </style>
 
@@ -10113,7 +10076,7 @@ html,body{overflow-x:clip}
         <div class="card-title">Argentina urbana: estar arriba de la línea no siempre alcanza <span>♡</span></div>
         <div class="kicker structure-panel-kicker">UCA · 2025 · pobreza monetaria vs. estrés económico por NSE del hogar</div>
       </div>
-      <div class="method-shield" style="margin:10px 14px 10px">
+      <div class="method-shield" style="margin:0 14px 10px">
         <span class="label">Qué compara</span>
         <strong>Pobreza</strong> = ingreso bajo la línea monetaria. <strong>Estrés económico</strong> = el hogar declara que sus ingresos no alcanzan para cubrir necesidades básicas.
         <br><br><strong>¿Qué significa “medio alto / medio bajo / bajo / muy bajo”?</strong> Son <b>niveles socioeconómicos del hogar (NSE UCA)</b>, construidos con un índice que combina educación, inserción ocupacional, tasa de actividad, bienes durables y condición residencial.
@@ -11706,12 +11669,7 @@ html,body{overflow-x:clip}
 
           <label class="pend-control pend-control-toggle" role="group" aria-label="Guías del gráfico"><span>Guías</span><span class="pend-toggle-action"><input id="pendAverageToggle" type="checkbox" checked><b>Promedio por gobierno</b></span><span class="pend-toggle-note">Sólo dentro de cada tramo comparable</span></label>
         </div>
-<div class="pend-chart-scroll" id="pendMainChartScroll"><div id="pendMainChart" class="pend-chart"></div></div>
-        <div class="mobile-range-control" id="pendRangeControl">
-          <div class="range-labels"><span id="pendRangeFrom">2015</span><span id="pendRangeTo">2026</span></div>
-          <input id="pendRange" type="range" min="0" max="22" value="22" step="1" aria-label="Mover período visible del gráfico principal del péndulo">
-          <div class="range-caption">↔ Deslizá para recorrer 1993–2026 · el eje Y queda siempre visible ♡</div>
-        </div>
+<div class="pend-chart-scroll"><div id="pendMainChart" class="pend-chart"></div></div>
         <div class="pend-legend-note"><b>Corte visible:</b> 1993–2007 es una serie histórica anual; 2016–2026-T1 es trimestral y usa otra metodología. No se interpolan 2008–2015 ni se conectan ambos segmentos. En la serie histórica, otros impuestos a la producción están incluidos en IMB/EEB y no pueden separarse.</div>
         <div class="pend-plain-grid"><div class="pend-plain-card up"><span class="icon">↗️</span><b>Cuando la línea sube</b>Sueldos + trabajo por cuenta propia ocupan una porción mayor de la torta relativa.</div><div class="pend-plain-card down"><span class="icon">↘️</span><b>Cuando la línea baja</b>El excedente bruto de explotación ocupa una porción mayor de esa torta.</div><div class="pend-plain-card warn"><span class="icon">🧭</span><b id="pendPlainMovementTitle">Qué pasó últimamente</b><span id="pendPlainMovement">Calculando desde la serie…</span></div></div>
         <div class="pend-political"><div class="pend-political-head"><div><span class="pend-sticker">🏛️ Política en números</span><h4>Últimas tres gestiones · mismo tramo metodológico</h4><p>Promedio = posición habitual durante la ventana observada. Cambio = diferencia entre el primer y el último trimestre de esa gestión.</p></div><span class="pend-chart-sticker warn">resultado observado ≠ causalidad probada</span></div><div id="pendPoliticalNumbers" class="pend-political-grid"></div><div id="pendPoliticalSummary" class="pend-political-summary">Calculando comparación política…</div></div>
@@ -12661,7 +12619,7 @@ html,body{overflow-x:clip}
       </div>
     </section>
 
-    <section class="milei-cost-audit milei-cost-inset-start">
+    <section class="milei-cost-audit">
       <h3>Cómo entra cada componente en la cuenta madre</h3>
       <div id="mileiCostAttribution" class="milei-cost-table-wrap"></div>
     </section>
@@ -14006,7 +13964,7 @@ function moveHorizontalMenuWithWheel(menu,event){
   menu._horizontalWheelSnapTimer=setTimeout(()=>menu.style.removeProperty('scroll-snap-type'),170);
   return true;
 }
-const HORIZONTAL_WHEEL_MENU_SELECTOR='.dash-topic-buttons, .tabs, .story-nav, .pend-layer-nav, .pend-controls-near-chart .pend-control, .milei-cost-table-wrap';
+const HORIZONTAL_WHEEL_MENU_SELECTOR='.dash-topic-buttons, .tabs, .story-nav, .pend-layer-nav, .pend-controls-near-chart .pend-control';
 function bindHorizontalWheelMenus(){
   const root=document.documentElement;
   if(root.dataset.horizontalWheelMenusBound)return;
@@ -14532,7 +14490,7 @@ function renderConsumptionCategories(){
       legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.5:10.5},x:0},
       hovermode:mobile?'closest':'x unified',
       annotations:[
-        {xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}
+        {xref:'paper',yref:'paper',x:.5,y:.985,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}
       ]
     },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   }
@@ -14735,7 +14693,7 @@ function resizeConsumptionCategoryCharts(mobile){
           'margin.t':mobile?120:90,'margin.b':mobile?40:48,
           'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,
           'legend.font.size':mobile?8.5:10.5,
-          'annotations':[{xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
+          'annotations':[{xref:'paper',yref:'paper',x:.5,y:.985,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
         });
       }
       if(id==='beefTradeoffChart'){
@@ -15487,7 +15445,7 @@ function renderDebtPublic(){
  else {traces.push({x:debtPublicData.dates.slice(0,3),y:y.slice(0,3),mode:'lines+markers',name:'2002–03 · histórico ONP',line:{color:'#d99b45',width:2.5,dash:'dot'},marker:{size:mobile?5:6},customdata:debtPublicData.labels.slice(0,3),hovertemplate:'<b>%{customdata}</b><br>Deuda bruta: <b>USD %{y:,.0f} M</b><extra></extra>'});traces.push({x:debtPublicData.dates.slice(2),y:y.slice(2),mode:'lines+markers',name:'2004→2026 · Finanzas',line:{color:'#7b61d8',width:3},marker:{size:mobile?5:6},customdata:debtPublicData.labels.slice(2),hovertemplate:'<b>%{customdata}</b><br>Deuda bruta: <b>USD %{y:,.0f} M</b><extra></extra>'})}
  const avg=dpAvg(y.slice(2));const shapes=dpShapes();const ann=dpAnnotations(mobile);if(Number.isFinite(avg)){shapes.push({type:'line',xref:'paper',x0:0,x1:1,y0:avg,y1:avg,line:{color:'#c99743',width:1.5,dash:'dash'}});ann.push({xref:'paper',x:.995,yref:'y',y:avg,text:`Promedio 2004→${isGdp?'2025':'1T-2026'} · ${isGdp?dpFmt(avg)+'%':'USD '+Math.round(avg).toLocaleString('es-AR')+' M'}`,showarrow:false,xanchor:'right',yanchor:'bottom',font:{size:mobile?8:10,color:'#9a6b28'},bgcolor:'rgba(255,250,238,.9)',borderpad:3})}
  Plotly.react(el,traces,{...common,margin:{l:mobile?58:82,r:mobile?10:28,t:mobile?175:130,b:mobile?76:72},xaxis:{...common.xaxis,type:'date',range:['2001-10-01','2026-07-01'],dtick:mobile?'M36':'M24',tickformat:'%Y',tickangle:mobile?-35:0,fixedrange:true},yaxis:{...common.yaxis,title:unit,ticksuffix:isGdp?'%':'',tickformat:isGdp?'.0f':',.0f',fixedrange:true},legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.07:1.15,font:{size:mobile?9:11},x:0},hovermode:mobile?'closest':'x unified',shapes,annotations:ann},{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
- const c=debtPublicData.creditor;Plotly.react('debtCreditorChart',c.labels.map((name,j)=>({type:'bar',name,x:['2025','1T-2026'],y:[c.y2025[j],c.y2026[j]],customdata:[c.usd2025[j],c.usd2026[j]],hovertemplate:`<b>${name}</b><br>%{x}<br><b>%{y:.1f}% del stock</b><br>USD %{customdata:,.0f} M<extra></extra>`})),{...common,barmode:'stack',margin:{l:mobile?52:62,r:12,t:mobile?122:92,b:58},xaxis:{...common.xaxis,fixedrange:true},yaxis:{...common.yaxis,title:'% del stock bruto',ticksuffix:'%',range:[0,100],fixedrange:true},legend:{orientation:'h',x:0,xanchor:'left',y:1.02,yanchor:'bottom',font:{size:mobile?9:10}},hovermode:'closest'},{responsive:true,displaylogo:false,displayModeBar:false});
+ const c=debtPublicData.creditor;Plotly.react('debtCreditorChart',c.labels.map((name,j)=>({type:'bar',name,x:['2025','1T-2026'],y:[c.y2025[j],c.y2026[j]],customdata:[c.usd2025[j],c.usd2026[j]],hovertemplate:`<b>${name}</b><br>%{x}<br><b>%{y:.1f}% del stock</b><br>USD %{customdata:,.0f} M<extra></extra>`})),{...common,barmode:'stack',margin:{l:mobile?52:62,r:12,t:mobile?110:80,b:58},xaxis:{...common.xaxis,fixedrange:true},yaxis:{...common.yaxis,title:'% del stock bruto',ticksuffix:'%',range:[0,100],fixedrange:true},legend:{orientation:mobile?'v':'h',x:0,y:mobile?1.08:1.13,font:{size:mobile?9:10}},hovermode:'closest'},{responsive:true,displaylogo:false,displayModeBar:false});
  const fx=debtPublicData.foreignCurrency.slice(2),fxDates=debtPublicData.dates.slice(2);Plotly.react('debtCurrencyChart',[{x:fxDates,y:fx,mode:'lines+markers',name:'Moneda extranjera',line:{color:'#d86e94',width:3},marker:{size:mobile?4:5},hovertemplate:'<b>%{x|%Y}</b><br>Moneda extranjera: <b>%{y:.1f}%</b><extra></extra>'},{x:fxDates,y:fx.map(v=>100-v),mode:'lines+markers',name:'Moneda nacional',line:{color:'#4aa79d',width:2.5},marker:{size:mobile?4:5},hovertemplate:'<b>%{x|%Y}</b><br>Moneda nacional: <b>%{y:.1f}%</b><extra></extra>'}],{...common,margin:{l:mobile?52:62,r:12,t:mobile?110:80,b:58},xaxis:{...common.xaxis,type:'date',dtick:mobile?'M48':'M36',tickformat:'%Y',tickangle:mobile?-35:0,fixedrange:true},yaxis:{...common.yaxis,title:'% del stock bruto',ticksuffix:'%',range:[0,100],fixedrange:true},legend:{orientation:'h',x:0,y:1.12,font:{size:mobile?9:10}},hovermode:mobile?'closest':'x unified'},{responsive:true,displaylogo:false,displayModeBar:false});
  renderDebtPublicMandateCards();renderDebtPublicYearGrid();debtPublicRendered=true;setTimeout(bindPlotlyClickTracking,50);
 }
@@ -16826,10 +16784,10 @@ function renderHealthEducation() {
   Plotly.react('healthEducationExecutionChart',levelTraces,{
     paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
     barmode:'stack',barnorm:'percent',
-    margin:{l:mobile?105:245,r:mobile?14:28,t:mobile?90:72,b:52},
+    margin:{l:mobile?105:245,r:mobile?14:28,t:mobile?100:80,b:62},
     xaxis:{title:'% de la función ejecutado por cada nivel',range:[0,100],ticksuffix:'%',gridcolor:'#efe4f4',fixedrange:true},
     yaxis:{autorange:'reversed',fixedrange:true,tickfont:{size:mobile?10:12},tickmode:'array',tickvals:heExecutionCategories,ticktext:mobile?heExecutionCategoriesMobile:heExecutionCategories},
-    legend:{orientation:'h',x:0,y:1.08,font:{size:mobile?10:12}},
+    legend:{orientation:'h',x:0,y:1.12,font:{size:mobile?10:12}},
     hovermode:'closest',hoverlabel:common.hoverlabel
   },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
@@ -16885,10 +16843,10 @@ function resizeHealthEducationCharts(mobile) {
   const exec=document.getElementById('healthEducationExecutionChart');
   if(exec && exec.data) {
     Plotly.relayout(exec,{
-      'margin.l':mobile?105:245,'margin.r':mobile?14:28,'margin.t':mobile?90:72,'margin.b':52,
+      'margin.l':mobile?105:245,'margin.r':mobile?14:28,'margin.t':mobile?100:80,
       'yaxis.tickfont.size':mobile?10:12,
       'yaxis.tickmode':'array','yaxis.tickvals':heExecutionCategories,'yaxis.ticktext':mobile?heExecutionCategoriesMobile:heExecutionCategories,
-      'legend.y':1.08,'legend.font.size':mobile?10:12
+      'legend.font.size':mobile?10:12
     }); Plotly.Plots.resize(exec);
   }
   const bridge=document.getElementById('healthEducationBridgeChart');
@@ -18271,7 +18229,7 @@ function renderSocial() {
     margin:{l:mobile?58:76,r:mobile?12:26,t:mobile?115:86,b:mobile?110:80},
     xaxis:{tickmode:'array',tickvals:socialRecent.labels,ticktext:mobile?['AUH','PNC*','Otros','Volver/Pot.','Aliment.','Progresar']:socialRecent.labels,tickangle:mobile?-45:0,tickfont:{size:mobile?8.5:11},fixedrange:true,gridcolor:'#efe4f4',automargin:true},
     yaxis:{title:'Variación real interanual (%)',range:[-50,28],zeroline:true,zerolinecolor:'#9c86aa',zerolinewidth:1.4,gridcolor:'#efe4f4',fixedrange:true},
-    legend:{orientation:'h',x:0,y:mobile?1.09:1.10,xanchor:'left',yanchor:'bottom',font:{size:mobile?9:11}},
+    legend:{orientation:'h',x:0,y:1.12,xanchor:'left',yanchor:'bottom',font:{size:mobile?9:11}},
     hoverlabel:{bgcolor:'#fff7fb',bordercolor:'#efb7d0',font:{color:'#4d365c',size:13}}
   }, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
@@ -18467,42 +18425,17 @@ function giniChartAnnotations(mode){
     {x:'2021-08-01',short:'Alberto',full:'Alberto Fernández',color:'#557a99',bg:'rgba(247,252,255,.94)',border:'rgba(160,201,235,.48)'},
     {x:'2025-10-01',short:'Milei',full:'Javier Milei',color:'#a04d73',bg:'rgba(255,247,250,.94)',border:'rgba(244,163,193,.5)',xanchor:'right'}
   ];
-  const pandemic=pandemicDateAnnotations(mobile).map(a=>compact?{
-    ...a,
-    y:mobile?.80:.86,
-    text:mobile?'<b>pandemia</b>':'pandemia 2020–2021',
-    font:{...a.font,size:mobile?7:8},
-    borderpad:mobile?2:3
-  }:a);
-  const methodLabels=compact?[
-    {x:'2003-08-01',y:.035,yref:'paper',text:'2003 · EPH continua',xanchor:'left'},
-    {x:'2015-09-01',y:.035,yref:'paper',text:'reinicio 2016',xanchor:'right'},
-    {x:'2019-03-01',y:.105,yref:'paper',text:'cobertura 2019',xanchor:'left'}
-  ].map(d=>({
-    ...d,showarrow:false,
-    font:{size:mobile?7:8,color:'#755f7f',family:'Inter,system-ui,sans-serif'},
-    bgcolor:'rgba(255,253,255,.88)',bordercolor:'rgba(219,203,231,.68)',borderwidth:1,borderpad:1
-  })):[
-    {x:'2003-04-01',y:.405,text:'EPH puntual → continua',showarrow:false,textangle:-90,font:{size:9,color:'#8d728f'}},
-    {x:'2015-12-31',y:.405,text:'hiato / restitución',showarrow:false,textangle:-90,font:{size:9,color:'#8d728f'}},
-    {x:'2019-01-01',y:.405,text:'cambio cobertura',showarrow:false,textangle:-90,font:{size:9,color:'#866b94'}}
-  ];
   return [
-    ...pandemic,
+    ...pandemicDateAnnotations(mobile),
     ...labels.map((d,index)=>({
-      x:d.x,
-      y:mobile?(index%2?1.065:1.145):(compact?(index%2?1.055:1.125):(index%2?1.045:1.105)),
-      yref:'paper',text:compact?d.short:d.full,
+      x:d.x,y:mobile?(index%2?1.105:1.035):(compact?1.05:(index%2?1.045:1.105)),yref:'paper',text:compact?d.short:d.full,
       showarrow:false,xanchor:d.xanchor||'center',font:{size:mobile?8:(compact?9:10),color:d.color,family:'Inter,system-ui,sans-serif'},
       bgcolor:d.bg,bordercolor:d.border,borderwidth:1,borderpad:compact?2:4
     })),
-    {
-      x:'2011-06-01',y:compact?.94:.557,yref:compact?'paper':'y',
-      text:mobile?'⚠ 2007–15 · con reservas':(compact?'⚠ 2T07–2015 · leer con reservas':'⚠ 2T2007–2015 · datos publicados con reservas'),
-      showarrow:false,font:{size:mobile?7:(compact?9:10),color:'#7b5d1d'},
-      bgcolor:'rgba(255,250,225,.94)',bordercolor:'rgba(217,179,78,.65)',borderpad:compact?2:4
-    },
-    ...methodLabels
+    {x:'2011-06-01',y:compact?.92:.557,yref:compact?'paper':'y',text:compact?'⚠ 2T07–2015 · leer con reservas':'⚠ 2T2007–2015 · datos publicados con reservas',showarrow:false,font:{size:mobile?8:(compact?9:10),color:'#8a6b28'},bgcolor:'rgba(255,250,225,.88)',bordercolor:'rgba(217,179,78,.55)',borderpad:compact?2:4},
+    {x:'2003-04-01',y:.405,text:compact?'EPH puntual':'EPH puntual → continua',showarrow:false,textangle:-90,font:{size:compact?8:9,color:'#8d728f'}},
+    {x:'2015-12-31',y:.405,text:compact?'hiato':'hiato / restitución',showarrow:false,textangle:-90,font:{size:compact?8:9,color:'#8d728f'}},
+    {x:'2019-01-01',y:.405,text:compact?'cobertura':'cambio cobertura',showarrow:false,textangle:-90,font:{size:compact?8:9,color:'#866b94'}}
   ];
 }
 
@@ -18570,15 +18503,15 @@ function renderGini() {
     {type:'rect',xref:'x',yref:'paper',x0:'2019-12-10',x1:'2023-12-10',y0:0,y1:1,fillcolor:'rgba(117,191,255,.05)',line:{width:0},layer:'below'},
     {type:'rect',xref:'x',yref:'paper',x0:'2023-12-10',x1:'2026-03-31',y0:0,y1:1,fillcolor:'rgba(255,120,168,.05)',line:{width:0},layer:'below'},
     // Separadores de mandato: exactamente en el día de asunción del entrante.
-    {type:'line',xref:'x',yref:'paper',x0:'2003-05-25',x1:'2003-05-25',y0:0,y1:.985,layer:'above',line:{color:'#b69aae',width:2,dash:'dot'}},
-    {type:'line',xref:'x',yref:'paper',x0:'2007-12-10',x1:'2007-12-10',y0:0,y1:.985,layer:'above',line:{color:'#a994c9',width:2,dash:'dot'}},
-    {type:'line',xref:'x',yref:'paper',x0:'2015-12-10',x1:'2015-12-10',y0:0,y1:.985,layer:'above',line:{color:'#c5a16f',width:2,dash:'dot'}},
-    {type:'line',xref:'x',yref:'paper',x0:'2019-12-10',x1:'2019-12-10',y0:0,y1:.985,layer:'above',line:{color:'#8faec8',width:2,dash:'dot'}},
-    {type:'line',xref:'x',yref:'paper',x0:'2023-12-10',x1:'2023-12-10',y0:0,y1:.985,layer:'above',line:{color:'#c98ca4',width:2.4,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'2003-05-25',x1:'2003-05-25',y0:0,y1:1,layer:'above',line:{color:'#b69aae',width:2,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'2007-12-10',x1:'2007-12-10',y0:0,y1:1,layer:'above',line:{color:'#a994c9',width:2,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'2015-12-10',x1:'2015-12-10',y0:0,y1:1,layer:'above',line:{color:'#c5a16f',width:2,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'2019-12-10',x1:'2019-12-10',y0:0,y1:1,layer:'above',line:{color:'#8faec8',width:2,dash:'dot'}},
+    {type:'line',xref:'x',yref:'paper',x0:'2023-12-10',x1:'2023-12-10',y0:0,y1:1,layer:'above',line:{color:'#c98ca4',width:2.4,dash:'dot'}},
     // Advertencia institucional: posterior a 1T2007 hasta 4T2015.
     {type:'rect',xref:'x',yref:'paper',x0:'2007-04-01',x1:'2015-12-31',y0:0,y1:1,fillcolor:'rgba(245,196,73,.105)',line:{color:'rgba(207,157,31,.45)',width:1,dash:'dot'},layer:'below'},
     // Cambio de cobertura EPH desde 1T2019.
-    {type:'line',xref:'x',yref:'paper',x0:'2019-01-01',x1:'2019-01-01',y0:.13,y1:.91,line:{color:'#b492c5',width:1.4,dash:'dot'}}
+    {type:'line',xref:'x',yref:'paper',x0:'2019-01-01',x1:'2019-01-01',y0:0,y1:1,line:{color:'#b492c5',width:1.4,dash:'dot'}}
   ];
 
   const giniPunctualHover = buildGiniHoverText(giniPunctualData.dates, giniPunctualData.labels, 'EPH puntual', giniPunctualData.values);
@@ -18622,12 +18555,12 @@ function renderGini() {
   Plotly.newPlot('giniChart', traces, {
     paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',
     font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
-    margin:{l:mobile?55:72,r:mobile?18:30,t:mobile?132:(compact?126:128),b:mobile?58:72},
+    margin:{l:mobile?55:72,r:mobile?18:30,t:mobile?112:(compact?120:128),b:72},
     xaxis:{title:'Período',type:'date',dtick:mobile?'M48':'M24',tickformat:'%Y',gridcolor:'#efe4f4',fixedrange:true,range:['2001-10-01','2026-08-01']},
     yaxis:{title:'Coeficiente de Gini',range:[0.40,0.56],tickformat:'.3f',gridcolor:'#efe4f4',fixedrange:true},
     shapes:shapes,
     annotations:giniChartAnnotations(giniMode),
-    legend:{orientation:'h',x:0,y:mobile?1.31:(compact?1.23:1.14),xanchor:'left',yanchor:'bottom',font:{size:mobile?8:(compact?9:12),color:'#624d70'},bgcolor:'rgba(255,255,255,.82)',bordercolor:'#efd8f4',borderwidth:1},
+    legend:{orientation:'h',x:0,y:mobile?1.24:(compact?1.20:1.14),xanchor:'left',yanchor:'bottom',font:{size:mobile?8:(compact?9:12),color:'#624d70'},bgcolor:'rgba(255,255,255,.82)',bordercolor:'#efd8f4',borderwidth:1},
     hoverlabel:{bgcolor:'#fff7fb',bordercolor:'#efb7d0',font:{color:'#4d365c',size:14}},
     hovermode:'closest'
   }, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
@@ -18650,11 +18583,7 @@ function renderGini() {
       pattern:{shape:sameQuarter.map(d=>d.status==='solid'?'':d.status==='reserve'?'/':d.status==='whole'?'x':'.'),solidity:sameQuarter.map(d=>d.status==='whole'?.16:.22)}
     },
     text:sameQuarter.map(d=>(d.delta>0?'+':'')+d.delta.toFixed(3).replace('.',',')),
-    textposition:sameQuarter.map(d=>d.delta<=-.02?'inside':'outside'),
-    insidetextanchor:'middle',
-    insidetextfont:{color:'#3f3150',size:mobile?10:11},
-    outsidetextfont:{color:'#4f3b61',size:mobile?10:11},
-    cliponaxis:false,
+    textposition:'outside',cliponaxis:false,
     hovertemplate:'<b>%{customdata[0]}</b><br>%{customdata[1]}<br>%{customdata[2]}<br>Δ Gini: <b>%{x:+.3f}</b><extra></extra>'
   }], {
     paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',
@@ -18705,7 +18634,7 @@ function structureCabaAnnotations(mode){
   return [
     ...pandemicDateAnnotations(mobile),
     ...labels.map((d,index)=>({
-      x:d.x,y:index%2?1.078:1.018,yref:'paper',
+      x:d.x,y:mobile?(index%2?1.075:1.018):(compact?1.045:1.07),yref:'paper',
       text:compact?d.short:d.full,showarrow:false,xanchor:d.xanchor||'center',
       font:{size:mobile?8:(compact?9:10),color:d.color,family:'Inter,system-ui,sans-serif'},
       bgcolor:d.bg,bordercolor:d.border,borderwidth:1,borderpad:compact?2:4
@@ -18797,10 +18726,10 @@ function renderStructure() {
   ], {
     barmode:'group',paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',
     font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
-    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?68:54,b:mobile?94:70},
+    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?75:60,b:mobile?105:80},
     xaxis:{tickmode:'array',tickvals:structureFederalData.regions,ticktext:mobile?['GBA','Cuyo','NEA','NOA','Pamp.','Patag.']:structureFederalData.regions,tickangle:0,fixedrange:true,automargin:true},
     yaxis:{title:'Porcentaje de personas',range:[0,38],ticksuffix:'%',gridcolor:'#efe4f4',fixedrange:true},
-    legend:{orientation:'h',x:0,y:1.09,xanchor:'left',yanchor:'bottom',font:{size:mobile?10:12}},
+    legend:{orientation:'h',x:0,y:1.12,xanchor:'left',yanchor:'bottom',font:{size:mobile?10:12}},
     hoverlabel:{bgcolor:'#fff7fb',bordercolor:'#efb7d0',font:{color:'#4d365c',size:13}}
   }, {responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
@@ -18821,7 +18750,7 @@ function renderStructure() {
   ], {
     barmode:'group',paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',
     font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
-    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?75:60,b:mobile?64:68},
+    margin:{l:mobile?52:68,r:mobile?10:25,t:mobile?75:60,b:75},
     xaxis:{title:'Nivel socioeconómico del hogar (UCA)',fixedrange:true},
     yaxis:{title:'Porcentaje de población',range:[0,84],ticksuffix:'%',gridcolor:'#efe4f4',fixedrange:true},
     legend:{orientation:'h',x:0,y:1.12,xanchor:'left',yanchor:'bottom',font:{size:mobile?10:12}},
@@ -19117,7 +19046,6 @@ function responsiveRelayout() {
       'xaxis.ticktext':mobile?['AUH','PNC*','Otros','Volver/Pot.','Aliment.','Progresar']:socialRecent.labels,
       'xaxis.tickangle':mobile?-45:0,
       'xaxis.tickfont.size':mobile?8.5:11,
-      'legend.y':mobile?1.09:1.10,
       'legend.font.size': mobile ? 9 : 11
     });
     Plotly.Plots.resize(socialRecentEl);
@@ -19165,13 +19093,12 @@ function responsiveRelayout() {
     Plotly.relayout('giniChart', {
       'margin.l': mobile ? 55 : 72,
       'margin.r': mobile ? 18 : 30,
-      'margin.t': mobile ? 132 : (compactGini ? 126 : 128),
-      'margin.b': mobile ? 58 : 72,
+      'margin.t': mobile ? 112 : (compactGini ? 120 : 128),
       'xaxis.dtick': mobile ? 'M48' : 'M24',
       'xaxis.tickfont.size': mobile ? 10 : 12,
       'yaxis.tickfont.size': mobile ? 10 : 12,
       'legend.orientation':'h',
-      'legend.y':mobile?1.31:(compactGini?1.23:1.14),
+      'legend.y':mobile?1.24:(compactGini?1.20:1.14),
       'legend.font.size':mobile?8:(compactGini?9:12),
       'annotations':giniChartAnnotations(giniModeNow)
     });
@@ -19226,21 +19153,17 @@ function responsiveRelayout() {
     Plotly.relayout('structureRegionChart', {
       'margin.l': mobile ? 52 : 68,
       'margin.r': mobile ? 10 : 25,
-      'margin.t': mobile ? 68 : 54,
-      'margin.b': mobile ? 94 : 70,
       'xaxis.tickmode':'array',
       'xaxis.tickvals':structureFederalData.regions,
       'xaxis.ticktext':mobile?['GBA','Cuyo','NEA','NOA','Pamp.','Patag.']:structureFederalData.regions,
-      'xaxis.tickangle':0,
-      'legend.y':1.09
+      'xaxis.tickangle':0
     });
     Plotly.Plots.resize(structureRegion);
   }
   if (structureNse && structureNse.data) {
     Plotly.relayout('structureNseChart', {
       'margin.l': mobile ? 52 : 68,
-      'margin.r': mobile ? 10 : 25,
-      'margin.b': mobile ? 64 : 68
+      'margin.r': mobile ? 10 : 25
     });
     Plotly.Plots.resize(structureNse);
   }
@@ -20943,9 +20866,6 @@ const PEND_BANDS=[
 ];
 function pendRows(){return PEND_DATA.filter(r=>r.universe===pendUniverse).sort((a,b)=>a.date.localeCompare(b.date))}
 function pendStats(){return PEND_MANDATES.filter(r=>r.universe===pendUniverse)}
-function pendMobileRange(){const slider=document.getElementById('pendRange'),offset=slider?Number(slider.value):22,from=1993+offset,to=Math.min(2026,from+11);return [`${from}-01-01`,to>=2026?'2026-07-01':`${to}-12-31`]}
-function updatePendRangeLabels(){const range=pendMobileRange(),from=document.getElementById('pendRangeFrom'),to=document.getElementById('pendRangeTo');if(from)from.textContent=range[0].slice(0,4);if(to)to.textContent=range[1].slice(0,4)}
-function applyPendRange(){updatePendRangeLabels();const chart=document.getElementById('pendMainChart');if(!chart?.data||!window.Plotly)return;Plotly.relayout(chart,{'xaxis.range':window.innerWidth<=720?pendMobileRange():['1992-06-01','2026-07-01']})}
 function pendFmt(v,d=1){return v==null||!Number.isFinite(Number(v))?'n.d.':Number(v).toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d})}
 function pendSigned(v,d=1){return v==null||!Number.isFinite(Number(v))?'n.d.':`${v>=0?'+':'−'}${pendFmt(Math.abs(v),d)}`}
 function pendMoney(v){if(v==null||!Number.isFinite(Number(v)))return 'no separable';return Number(v).toLocaleString('es-AR',{maximumFractionDigits:1})}
@@ -20971,7 +20891,7 @@ function renderPendMain(){
   layout=pendLayout('Cambio desde el primer dato observado de cada mandato','puntos del índice',{yaxis:{title:'cambio dentro del mandato',gridcolor:'#eadff0',zeroline:true,zerolinecolor:'#765b81'}});
  }
  const avgToggle=document.getElementById('pendAverageToggle');if(avgToggle){avgToggle.disabled=pendPerspective!=='index';avgToggle.closest('label').style.opacity=pendPerspective==='index'?'1':'.55'}
- Plotly.react('pendMainChart',traces,layout,PEND_CONFIG).then(applyPendRange)
+ Plotly.react('pendMainChart',traces,layout,PEND_CONFIG)
 }
 function renderPendShares(){const rows=pendRows(),x=[],rta=[],imb=[],eeb=[],custom=[];let lastSegment='';rows.forEach(r=>{if(lastSegment&&lastSegment!==r.segment){x.push('2011-12-31');rta.push(null);imb.push(null);eeb.push(null);custom.push(null)}lastSegment=r.segment;x.push(r.date);rta.push(r.share_rta);imb.push(r.share_imb);eeb.push(r.share_capital);custom.push(pendCustom(r))});const hover='<b>%{customdata[0]}</b> · %{customdata[1]}<br>%{fullData.name}: <b>%{y:.1f}%</b><extra></extra>';const traces=[{x,y:rta,customdata:custom,name:'Trabajo asalariado · RTA',stackgroup:'one',line:{color:'#6a59c2',width:2},hovertemplate:hover},{x,y:imb,customdata:custom,name:'Ingreso mixto · IMB',stackgroup:'one',line:{color:'#47a984',width:2},hovertemplate:hover},{x,y:eeb,customdata:custom,name:'Excedente bruto · EEB',stackgroup:'one',line:{color:'#d6537f',width:2},hovertemplate:hover}];Plotly.react('pendSharesChart',traces,pendLayout('Componentes del ingreso normalizado','% del total',{yaxis:{title:'porcentaje normalizado',range:[0,100],dtick:10,gridcolor:'#eadff0'},hovermode:'x unified'}),PEND_CONFIG)}
 function renderPendMandates(){const stats=pendStats(),labels=stats.map(s=>s.mandate.replace('Cristina Fernández','CFK').replace('Fernando de la Rúa','De la Rúa').replace('Mauricio ','').replace('Alberto Fernández','Alberto').replace('Javier ','').replace('Carlos ',''));const avg={x:labels,y:stats.map(s=>s.average),name:'Promedio del índice',type:'bar',marker:{color:'#9d79be'},text:stats.map(s=>s.average==null?'':pendSigned(s.average)),textposition:'outside',cliponaxis:false,hovertemplate:'%{x}<br>promedio: <b>%{y:.1f}</b><extra></extra>'};const change={x:labels,y:stats.map(s=>s.change),name:'Cambio inicio → fin',type:'bar',marker:{color:stats.map(s=>s.change==null?'#d8d0dc':s.change>=0?'#45a27e':'#ca537c')},text:stats.map(s=>s.change==null?'':pendSigned(s.change)),textposition:'outside',cliponaxis:false,hovertemplate:'%{x}<br>cambio: <b>%{y:+.1f}</b><extra></extra>'};Plotly.react('pendMandateChart',[avg,change],{title:{text:'Promedio y movimiento observado por gestión',font:{size:13,color:'#5d4169'}},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(255,255,255,.72)',font:{family:'Nunito, Arial, sans-serif',color:'#654f6c',size:9},margin:{l:55,r:18,t:65,b:85},barmode:'group',xaxis:{tickangle:-30,automargin:true,gridcolor:'#eee5f2'},yaxis:{title:'puntos del índice',gridcolor:'#eadff0',zeroline:true,zerolinecolor:'#765b81'},legend:{orientation:'h',y:1.13,x:0,font:{size:9}},hoverlabel:{bgcolor:'#fff8fc',font:{size:10}}},PEND_CONFIG);document.getElementById('pendMandateTable').innerHTML='<table><thead><tr><th>Gobierno</th><th>Período observado</th><th>Inicio</th><th>Final</th><th>Cambio</th><th>Promedio</th><th>Lectura</th></tr></thead><tbody>'+stats.map(s=>{if(!s.observations)return `<tr><td><b>${s.mandate}</b></td><td colspan="6" class="pend-no-data">Sin serie CGI comparable para 2008–2015.</td></tr>`;const cls=s.change>0?'pend-move-work':s.change<0?'pend-move-capital':'pend-no-data';const reading=s.observations===1?'Un solo dato: no permite inferir movimiento.':s.change>0?'→ hacia trabajo/hogares':s.change<0?'← hacia excedente societario':'sin cambio entre extremos';return `<tr><td><b>${s.mandate}</b><br><small>${s.coverage_note}</small></td><td>${s.start_period} → ${s.end_period}<br><small>${s.observations} observaciones</small></td><td class="num">${pendSigned(s.start)}</td><td class="num">${pendSigned(s.end)}</td><td class="num ${cls}">${pendSigned(s.change)}</td><td class="num">${pendSigned(s.average)}</td><td class="${cls}">${reading}</td></tr>`}).join('')+'</tbody></table>'}
@@ -20996,10 +20916,8 @@ document.getElementById('pendAuditLink')?.setAttribute('href',pendProjectAsset('
 document.getElementById('pendPerspectiveButtons')?.addEventListener('click',e=>{const b=e.target.closest('button[data-value]');if(!b)return;pendPerspective=b.dataset.value;document.querySelectorAll('#pendPerspectiveButtons .pend-btn').forEach(x=>x.classList.toggle('active',x===b));renderPendMain()});
 document.getElementById('pendUniverseButtons')?.addEventListener('click',e=>{const b=e.target.closest('button[data-value]');if(!b)return;pendUniverse=b.dataset.value;document.querySelectorAll('#pendUniverseButtons .pend-btn').forEach(x=>x.classList.toggle('active',x===b));renderPend()});
 document.getElementById('pendAverageToggle')?.addEventListener('change',e=>{pendShowAverages=e.target.checked;renderPendMain()});
-document.getElementById('pendRange')?.addEventListener('input',applyPendRange);
-updatePendRangeLabels();
 document.querySelector('[data-tab="tab-pendulo"]')?.addEventListener('click',()=>requestAnimationFrame(renderPend));
-window.addEventListener('resize',()=>{if(!pendRendered)return;['pendMainChart','pendSharesChart','pendMandateChart'].forEach(id=>{const el=document.getElementById(id);if(el&&window.Plotly)Plotly.Plots.resize(el)});requestAnimationFrame(applyPendRange)});
+window.addEventListener('resize',()=>{if(!pendRendered)return;['pendMainChart','pendSharesChart','pendMandateChart'].forEach(id=>{const el=document.getElementById(id);if(el&&window.Plotly)Plotly.Plots.resize(el)})});
 </script>
 
 

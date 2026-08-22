@@ -14532,7 +14532,7 @@ function renderConsumptionCategories(){
       legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.5:10.5},x:0},
       hovermode:mobile?'closest':'x unified',
       annotations:[
-        {xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}
+        {xref:'paper',yref:'paper',x:.5,y:.985,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}
       ]
     },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   }
@@ -14735,7 +14735,7 @@ function resizeConsumptionCategoryCharts(mobile){
           'margin.t':mobile?120:90,'margin.b':mobile?40:48,
           'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,
           'legend.font.size':mobile?8.5:10.5,
-          'annotations':[{xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
+          'annotations':[{xref:'paper',yref:'paper',x:.5,y:.985,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
         });
       }
       if(id==='beefTradeoffChart'){
@@ -16826,10 +16826,10 @@ function renderHealthEducation() {
   Plotly.react('healthEducationExecutionChart',levelTraces,{
     paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},
     barmode:'stack',barnorm:'percent',
-    margin:{l:mobile?105:245,r:mobile?14:28,t:mobile?90:72,b:52},
+    margin:{l:mobile?105:245,r:mobile?14:28,t:mobile?100:80,b:62},
     xaxis:{title:'% de la función ejecutado por cada nivel',range:[0,100],ticksuffix:'%',gridcolor:'#efe4f4',fixedrange:true},
     yaxis:{autorange:'reversed',fixedrange:true,tickfont:{size:mobile?10:12},tickmode:'array',tickvals:heExecutionCategories,ticktext:mobile?heExecutionCategoriesMobile:heExecutionCategories},
-    legend:{orientation:'h',x:0,y:1.08,font:{size:mobile?10:12}},
+    legend:{orientation:'h',x:0,y:1.12,font:{size:mobile?10:12}},
     hovermode:'closest',hoverlabel:common.hoverlabel
   },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
 
@@ -16885,10 +16885,10 @@ function resizeHealthEducationCharts(mobile) {
   const exec=document.getElementById('healthEducationExecutionChart');
   if(exec && exec.data) {
     Plotly.relayout(exec,{
-      'margin.l':mobile?105:245,'margin.r':mobile?14:28,'margin.t':mobile?90:72,'margin.b':52,
+      'margin.l':mobile?105:245,'margin.r':mobile?14:28,'margin.t':mobile?100:80,
       'yaxis.tickfont.size':mobile?10:12,
       'yaxis.tickmode':'array','yaxis.tickvals':heExecutionCategories,'yaxis.ticktext':mobile?heExecutionCategoriesMobile:heExecutionCategories,
-      'legend.y':1.08,'legend.font.size':mobile?10:12
+      'legend.font.size':mobile?10:12
     }); Plotly.Plots.resize(exec);
   }
   const bridge=document.getElementById('healthEducationBridgeChart');

@@ -1,15 +1,15 @@
-# Handover consolidado para el rediseño · v149 a v170
+# Handover consolidado para el rediseño · v149 a v180
 
 Fecha de corte: 22 de agosto de 2026.  
 Dashboard fuente: `index.html`.  
-Snapshot vigente: `data/dashboard_kawaii_170_storytelling.html`.  
+Snapshot vigente: `data/dashboard_kawaii_180_slider_pendulo_mobile.html`.  
 Documento base anterior: `data/derivados/AUDITORIA_ESCALAS_LOG_Y_JERARQUIA_VISUAL_V148.md`.
 
 ## Cómo usar este documento
 
-Tomá este archivo como prompt incremental completo para portar al dashboard rediseñado todo lo realizado desde **v149 hasta v170 inclusive**. El estado funcional final está en `index.html`; el snapshot v170 es una copia byte a byte de ese archivo al corte.
+Tomá este archivo como prompt incremental completo para portar al dashboard rediseñado todo lo realizado desde **v149 hasta v180 inclusive**. El estado funcional final está en `index.html`; el snapshot v180 es una copia byte a byte de ese archivo al corte.
 
-No reemplaza los handovers anteriores del Péndulo, feedback de Claude, EMAE, morosidad, rutas o turismo. Documenta el delta posterior a v148. En caso de conflicto con la auditoría v148 o con una nota intermedia de este mismo historial, **manda siempre el estado final descrito aquí y reproducido por v170**.
+No reemplaza los handovers anteriores del Péndulo, feedback de Claude, EMAE, morosidad, rutas o turismo. Documenta el delta posterior a v148. En caso de conflicto con la auditoría v148 o con una nota intermedia de este mismo historial, **manda siempre el estado final descrito aquí y reproducido por v176**.
 
 ## Resumen ejecutivo para la instancia de rediseño
 
@@ -952,9 +952,10 @@ Se incorpora una pestaña editorial llamada **La historia del dashboard**. No es
 El panel de fuentes del tab declara que se trata de un relato editorial y enlaza:
 
 - el repositorio público;
-- este handover consolidado;
 - la auditoría global de cobertura de fuentes;
 - la auditoría de escalas Log y jerarquía visual.
+
+El handover permanece como documentación interna del proceso de rediseño y no debe mostrarse como fuente dentro del dashboard público.
 
 La normalización de fuentes debe contabilizar **33 pestañas**, con 33 fichas válidas y cero faltantes. Los números del relato conservan como fuente efectiva los tabs temáticos y sus auditorías.
 
@@ -975,3 +976,307 @@ Estado final de v170:
 - Trece bloques JavaScript internos presentes y compilables.
 - Auditoría responsive del nuevo tab: 390 × 844 y 1280 × 900 sin desborde horizontal.
 - Registro de fuentes: 33 fichas, cero faltantes; la ficha de Storytelling queda en estado `ok`.
+
+## 33. Storytelling como pestaña inicial · v171
+
+- `tab-story` pasa a ser el único botón y panel con clase `active` en el HTML inicial.
+- `tab-power` deja de estar activo al cargar, pero conserva intactos sus datos, controles y acceso desde el menú o desde el relato.
+- La navegación temática continúa iniciando en `Destacados`, grupo que contiene a Storytelling.
+- Una carga limpia abre efectivamente `tab-story`; no se depende de un clic simulado, estado persistido ni redirección posterior.
+
+Estado final de v171:
+
+- `index.html`: 7.714.301 bytes.
+- Snapshot: `data/dashboard_kawaii_171_storytelling_inicio.html`.
+- SHA-256 de ambos: `e3f01a7ad268474a28b91469317a51cde296352e513a51d081eacdc3496720fb`.
+- Trece bloques JavaScript internos presentes y compilables.
+- Prueba de carga limpia: botón activo `tab-story`, panel activo `tab-story`, grupo activo `featured` y `tab-power` oculto hasta seleccionarlo.
+
+## 34. Rueda vertical → desplazamiento horizontal en los menús · v172
+
+La barra de tabs y el selector temático ya mostraban scrollbar horizontal, pero el gesto de rueda podía quedar neutralizado por el `scroll-snap` o no llegar al listener del contenedor.
+
+- El listener pasa a captura global sobre `document` y sólo actúa si el origen del gesto está dentro de `.tabs` o `.dash-topic-buttons`.
+- Se normalizan `deltaX`, `deltaY`, `wheelDelta`, `detail` y `deltaMode` para mouse tradicional, trackpad y navegadores con eventos heredados.
+- Los movimientos demasiado pequeños reciben un paso mínimo de 28 px.
+- `scroll-snap-type` se suspende mientras gira la rueda y se restaura 170 ms después, evitando que el carrusel vuelva al mismo botón.
+- En los extremos, la rueda vuelve a desplazarse verticalmente por la página: no se captura un gesto que ya no puede mover el menú.
+- Ctrl/⌘ + rueda se conserva para zoom y no se intercepta.
+
+Estado final de v172:
+
+- `index.html`: 7.715.130 bytes.
+- Snapshot: `data/dashboard_kawaii_172_scroll_rueda_tabs.html`.
+- SHA-256 de ambos: `a9556291c193e11576ac1f22e877fd8551f9e3bff1305b612e23d0e321174829`.
+- Trece bloques JavaScript internos presentes y compilables.
+
+## 35. Barrido de botoneras horizontales · v173
+
+Se recorrieron las 33 pestañas a 390 × 844 y se inventariaron todos los elementos con `overflow-x` efectivo. Además de los dos menús superiores, se encontraron tres botoneras que necesitaban el mismo comportamiento:
+
+- navegación por capítulos de Storytelling: `.story-nav`;
+- selector de capas del Péndulo: `.pend-layer-nav`;
+- selector interno de vista del Péndulo: `.pend-controls-near-chart .pend-control`.
+
+Todas quedan centralizadas en `HORIZONTAL_WHEEL_MENU_SELECTOR` y usan el mismo conversor de rueda vertical a movimiento horizontal. El barrido también encontró tablas y lienzos de gráficos con desplazamiento lateral; no se incorporan al selector porque no son botoneras y capturar su rueda impediría el desplazamiento vertical normal de la página.
+
+Estado final de v173:
+
+- `index.html`: 7.715.271 bytes.
+- Snapshot: `data/dashboard_kawaii_173_scroll_rueda_botoneras.html`.
+- SHA-256 de ambos: `bf498420f74d2f655a2e7de33da165395be333ce281f64019e17ec450bd0b629`.
+- Trece bloques JavaScript internos presentes y compilables.
+- Cobertura móvil confirmada: navegación temática, tabs principales, Storytelling y las dos familias de controles del Péndulo quedan registradas con `data-horizontal-wheel-bound="1"`.
+
+## 36. Fuentes públicas de Storytelling · v174
+
+- Se elimina del registro visible de Storytelling el enlace al handover consolidado.
+- El handover continúa existiendo como documentación interna para la instancia de rediseño, pero no se presenta como evidencia ni fuente pública.
+- La ficha editorial conserva tres referencias temáticas: repositorio público, auditoría global de fuentes y auditoría visual/metodológica.
+- La auditoría de cobertura se actualiza para declarar explícitamente esta separación.
+
+Estado final de v174:
+
+- `index.html`: 7.715.118 bytes.
+- Snapshot: `data/dashboard_kawaii_174_fuentes_publicas_storytelling.html`.
+- SHA-256 de ambos: `0bc2fc67075c2026ee8760b2af169eb8425c1d3f081f0480e3ed79cfb23f4c99`.
+- Trece bloques JavaScript internos presentes y compilables.
+- Storytelling conserva `data-source-coverage="ok"` y no contiene enlaces ni rótulos visibles con la palabra `handover`.
+
+## 37. Etiquetas móviles de Tasas e inflación · Log y Lineal · v175
+
+- El corte del 10/12 se muestra en móvil como una caja compacta sin flecha; la franja superior ya identifica a Milei.
+- La llamada `ene–nov 148,1%` se desplaza a la izquierda y abajo.
+- La llamada `dic-23 +25,5%` se desplaza a la derecha y arriba.
+- Las posiciones conservan el sistema de coordenadas correcto para el eje Log; las anotaciones siguen ancladas a sus valores.
+- Escritorio mantiene los textos completos y la composición anterior.
+
+Estado final de v175:
+
+- `index.html`: 7.715.082 bytes.
+- Snapshot: `data/dashboard_kawaii_175_tasas_log_etiquetas_mobile.html`.
+- SHA-256 de ambos: `2c08ccc18c1c64365db9e25ea56c2981a5987b3c399d4fc852d92e1221354c6e`.
+- Trece bloques JavaScript internos presentes y compilables.
+- Pruebas geométricas a 390 y 320 px: cero intersecciones y cero anotaciones fuera del gráfico en las vistas Log y Lineal.
+
+## 38. Referencia cero del gráfico de tasas reales · v176
+
+- `0 = iguala la inflación` sube 34 px en móvil y 28 px en escritorio.
+- El texto cambia a marrón oscuro `#704300`.
+- Se incorpora fondo crema semitransparente, borde ámbar y anclaje izquierdo para separarlo de las series.
+- La línea de cero conserva su posición y significado.
+
+Estado final de v176:
+
+- `index.html`: 7.715.210 bytes.
+- Snapshot: `data/dashboard_kawaii_176_tasas_cero_legible.html`.
+- SHA-256 de ambos: `344852421c140104b6f80335fb25ec91bc0b634fbdcecb5b71cce046730895b8`.
+- Trece bloques JavaScript internos presentes y compilables.
+- Verificación a 390 px y 1280 px: 28 px libres entre el rótulo y la línea, sin salir del lienzo.
+
+## 39. Pobreza absoluta · compactación vertical móvil · v177
+
+- Se reduce el alto móvil de `#povertyChart` de 540 a 440 px.
+- El margen superior móvil baja de 245 a 185 px y el inferior de 72 a 38 px.
+- La reducción conserva prácticamente intacta la altura útil del área de datos: se elimina espacio vacío, no información.
+- La leyenda queda a 34 px del título en 390 px y a 32 px en 320 px.
+- El bloque completo de la tarjeta se acorta 100 px respecto de v176; la guía metodológica queda a 8 px del contenedor del gráfico.
+- Se actualiza también la rama de `Plotly.relayout` para que un cambio de ancho no restaure los márgenes anteriores.
+
+Estado final de v177:
+
+- `index.html`: 7.715.257 bytes.
+- Snapshot: `data/dashboard_kawaii_177_pobreza_espaciado_mobile.html`.
+- SHA-256 de ambos: `39b38a6c9a6b720f9a60d31d2f07529f27b2bddce984cc32173ecb4513d6c9ff`.
+- Trece bloques JavaScript internos presentes y compilables.
+- Verificación a 390 y 320 px: ninguna anotación sale del gráfico; mandatos, llamadas de pobreza y leyenda permanecen separados.
+
+## 40. EMAE · separación del resumen de cicatriz · v178
+
+- Se agrega un margen superior de 14 px únicamente cuando una `.emae-grid-3` sigue directamente a `.emae-head`.
+- El ajuste separa la descripción de “Cicatriz acumulada desde nov-2023” de la primera tarjeta sin alterar el espaciado de la grilla situada debajo del gráfico espejo.
+- En móvil las tres tarjetas continúan apiladas y mantienen la separación uniforme existente entre sí.
+
+Estado final de v178:
+
+- `index.html`: 7.715.308 bytes.
+- Snapshot: `data/dashboard_kawaii_178_emae_espaciado_cicatriz.html`.
+- SHA-256 de ambos: `5d2001d90cb0980604d74122a28dc165d64ce745c44efb4d065cbbceb36bcd1c`.
+- Verificación visual a 390 px: 14 px entre encabezado y primera tarjeta, sin desbordes ni cambios en el gráfico.
+
+## 41. EMAE · fuentes y descargas normalizadas · v179
+
+- El panel heredado de “Descargas, método y trazabilidad” adopta el componente transversal `.sources-box`.
+- Las cinco descargas CSV usan el tratamiento rosado `.download-link` y conservan sus funciones embebidas.
+- Las cinco fuentes temáticas y el manifiesto general se presentan como fichas `.source-link`, sin viñetas ni enlaces azules sueltos.
+- Se agrega una nota de cobertura que distingue las publicaciones INDEC, el complemento histórico de población del Banco Mundial y los cálculos documentados por la auditoría EMAE.
+- El registro automático informa seis referencias visibles y mantiene `data-source-coverage="ok"`.
+- Los botones de navegación hacia Crecimiento, Trabajo y Consumo permanecen separados de las fuentes.
+
+Estado final de v179:
+
+- `index.html`: 7.715.822 bytes.
+- Snapshot: `data/dashboard_kawaii_179_fuentes_emae_normalizadas.html`.
+- SHA-256 de ambos: `2e41cfd72f560f3eda08ab8b0834a94e45fdaecfa0a493d1fc718eec9165662c`.
+- Verificación a 390 y 1280 px: cero fichas fuera del panel; cinco descargas y seis fuentes visibles.
+
+## 42. Péndulo principal · slider temporal móvil · v180
+
+- El gráfico principal deja de depender del scrollbar horizontal nativo en pantallas de hasta 720 px.
+- Se incorpora un slider visible que recorre ventanas de once años entre 1993 y 2026.
+- La apertura móvil prioriza 2015–2026 para mostrar el tramo moderno; el extremo izquierdo permite leer 1993–2004 y las posiciones intermedias dejan visible el hueco metodológico 2008–2015.
+- El slider controla `xaxis.range` de Plotly, no el desplazamiento del lienzo: el eje Y permanece siempre visible.
+- La ventana elegida se conserva al alternar Índice del péndulo, Participación % y Cambio desde inicio del mandato, y también al cambiar el universo de la serie.
+- En escritorio el slider se oculta y se restaura automáticamente la historia completa 1993–2026.
+
+Estado final de v180:
+
+- `index.html`: 7.717.345 bytes.
+- Snapshot: `data/dashboard_kawaii_180_slider_pendulo_mobile.html`.
+- SHA-256 de ambos: `bbedff64ecbf79d0480fa9797cc4e564a3bf1cfa12a6f2a899e05700c83a2014`.
+- Verificación a 390 px: gráfico y contenedor miden 333 px, sin overflow horizontal; slider operativo en ambos extremos y tras rerender.
+- Verificación a 1280 px: slider oculto, ocho marcas temporales desde 1996 hasta 2024 y serie completa visible.
+
+## 43. Péndulo · margen exterior estable desde el reparto del ingreso · v181
+
+- En móvil, las tarjetas secundarias de Producción —desde “¿Quién se queda con el ingreso generado?”— recuperan un retiro lateral propio de 4 px dentro de la columna.
+- La regla se aplica a esa tarjeta y a todas las que siguen en el mismo panel, sin estrechar el encabezado ni el gráfico principal.
+- El documento usa `overflow-x: clip` para impedir que un desplazamiento horizontal residual desplace toda la página y esconda el margen izquierdo.
+- Los contenedores internos del Péndulo quedan limitados explícitamente al ancho disponible.
+- Los gráficos anchos conservan su scroll horizontal interno y agregan contención de sobrepaso para que ese gesto no se propague al documento.
+
+Estado final de v181:
+
+- `index.html`: 7.718.021 bytes.
+- Snapshot: `data/dashboard_kawaii_181_gutter_pendulo_mobile.html`.
+- SHA-256 de ambos: `982c7ee8c816e3246e71789f9466f881e48ca02700318184e2387d8898bb2b0a`.
+- Verificación a 480 px: tarjetas 1–2 mantienen 10 px de retiro exterior; tarjetas 3–8 quedan a 14 px por lado; ancho del documento = ancho útil y `scrollX = 0`.
+
+## 44. Deuda pública · leyenda de acreedores separada del gráfico · v182
+
+- La leyenda de “¿A quién le debemos?” deja de crecer hacia el área apilada del 100%.
+- Se fija una disposición horizontal que puede ocupar dos filas en móvil.
+- La leyenda queda anclada por su borde inferior, de modo que las filas adicionales se expanden hacia arriba.
+- El margen superior reserva 122 px en móvil y 92 px en escritorio; el gráfico conserva su altura útil y el texto deja de cruzarse con la barra.
+
+Estado final de v182:
+
+- `index.html`: 7.718.029 bytes.
+- Snapshot: `data/dashboard_kawaii_182_glosario_deuda_sin_superponer.html`.
+- SHA-256 de ambos: `95830ef9e4fca8218105afad5cd3c8a5b2df360783f35a59374941211ab31e40`.
+- Verificación geométrica: la leyenda termina 5,4 px antes del área de datos en la tarjeta comparativa; no existe intersección.
+
+## 45. Cuenta madre · rueda convertida en scroll horizontal · v183
+
+- La tabla “Cómo entra cada componente en la cuenta madre” se incorpora al manejador horizontal compartido por las botoneras.
+- Con el cursor sobre la tabla, la rueda vertical desplaza las columnas lateralmente cuando existe overflow.
+- Al alcanzar el inicio o el final, el evento deja de capturarse y la página vuelve a desplazarse normalmente.
+- El scroll táctil y la barra horizontal continúan disponibles.
+- Se agrega contención de sobrepaso y reserva estable para la barra, evitando que el gesto se propague accidentalmente al documento.
+
+Estado final de v183:
+
+- `index.html`: 7.718.109 bytes.
+- Snapshot: `data/dashboard_kawaii_183_scroll_rueda_tabla_cuenta_madre.html`.
+- SHA-256 de ambos: `3461d9dee53c3fe1e6e5b91d19d550c4c4795a5246f56c8786f594167c704c16`.
+- Verificación de enlace: `.milei-cost-table-wrap` queda detectado y marcado por el manejador al cargar la página.
+
+## 46. Cuenta madre · retiro lateral estable desde la tabla · v184
+
+- La tarjeta “Cómo entra cada componente en la cuenta madre” se marca como inicio del tramo secundario final.
+- En pantallas de hasta 720 px, esa tarjeta y todos sus hermanos posteriores reciben 4 px de retiro adicional por lado.
+- El ajuste alcanza el cuadro de escalas, el mapa de fuentes y el pie editorial final.
+- Las tarjetas anteriores conservan su ancho original.
+- La regla limita explícitamente ancho y caja para impedir que tablas o enlaces vuelvan a empujar el borde fuera de la ventana.
+
+Estado final de v184:
+
+- `index.html`: 7.718.532 bytes.
+- Snapshot: `data/dashboard_kawaii_184_gutter_cierre_cuenta_madre.html`.
+- SHA-256 de ambos: `5fcd921ea5e55624d4a4389257da03362260bd63644a3e644b02434d02c5244c`.
+- Verificación estructural: el corte selecciona exactamente la tabla, un cuadro de auditoría posterior, el panel de fuentes y el footer; el documento no presenta overflow horizontal.
+
+## 47. Seguimiento social 2025–2026 · microajuste de leyenda · v185
+
+- Se reduce sólo la separación entre la leyenda y el área de datos de “¿Qué pasó después de 2024?”.
+- La posición relativa pasa de `1.12` a `1.09` en móvil y `1.10` en escritorio.
+- El cambio también se replica en el relayout responsive para que un redimensionamiento no restaure el hueco anterior.
+- La leyenda continúa anclada por abajo y no invade las barras.
+
+Estado final de v185:
+
+- `index.html`: 7.718.577 bytes.
+- Snapshot: `data/dashboard_kawaii_185_social_reciente_gap_minimo.html`.
+- SHA-256 de ambos: `a9bcaa1c8908f3790e359315a12ec52e1c3349cd9d7f14aff69698e67ce731cc`.
+- Verificación geométrica: reducción aproximada de 7 px en escritorio y 10 px en móvil, sin superposición.
+
+## 48. Gini histórico · etiquetas en carriles responsive · v186
+
+- Se separan las seis etiquetas presidenciales en dos carriles alternados cuando el ancho es reducido.
+- La advertencia `2007–2015 · con reservas` deja de competir con los nombres de los mandatos: queda en un carril propio, dentro del área del gráfico y con texto abreviado en móvil.
+- El rótulo de pandemia se compacta y desciende dentro del gráfico para no cruzarse con las etiquetas presidenciales.
+- Los tres cambios metodológicos de la base dejan de mostrarse como textos verticales sobre los años en móvil y tablet. Pasan a pequeñas etiquetas horizontales internas: `2003 · EPH continua`, `reinicio 2016` y `cobertura 2019`.
+- Se incrementa de manera controlada el margen superior del gráfico móvil, se reduce el inferior y se reposiciona la leyenda para reservar espacio real a los dos carriles de mandatos.
+- Las reglas verticales de cambio presidencial terminan antes del borde superior del área de datos; la regla de cobertura 2019 también evita los carriles metodológicos inferior y superior.
+- El relayout responsive replica márgenes, posición de leyenda y anotaciones, evitando que el arreglo se pierda tras redimensionar.
+
+Estado final de v186:
+
+- `index.html`: 7.719.381 bytes.
+- Snapshot: `data/dashboard_kawaii_186_gini_etiquetas_carriles_mobile.html`.
+- SHA-256 de ambos: `28e40658f32f0e9aaeb8857582f73d05156faa94018c3ee12f36d8b37693ea4c`.
+- Verificación funcional: Plotly carga el gráfico con 11 anotaciones; en escritorio no hay cruces geométricos entre las etiquetas presidenciales, la advertencia institucional y la pandemia. La lógica móvil usa carriles verticales y textos metodológicos horizontales compactos.
+
+## 49. Cambio de Gini por mandato · valores sin invadir rótulos · v187
+
+- En el gráfico horizontal “Cómo cambió el Gini dentro de cada mandato”, los valores negativos grandes ya no se dibujan por fuera del extremo izquierdo.
+- Los dos resultados de `−0,040` se centran dentro de sus respectivas barras, con tipografía oscura legible tanto sobre relleno sólido como sobre el patrón rayado.
+- Los cambios pequeños conservan la etiqueta exterior, donde cuentan con espacio y ayudan a leer la dirección respecto de cero.
+- Se definen por separado tipografía interior y exterior para que el comportamiento se mantenga estable en móvil y escritorio.
+
+Estado final de v187:
+
+- `index.html`: 7.719.570 bytes.
+- Snapshot: `data/dashboard_kawaii_187_gini_valores_dentro_barras.html`.
+- SHA-256 de ambos: `18284243119239aa1fda44f107314d73741caf570568c33d6fa355438545ce40`.
+- Verificación visual: ambos `−0,040` quedan dentro del área de sus barras y no intersectan los nombres ni los períodos de los mandatos.
+
+## 50. Estratos de ingresos en CABA · mandatos alternados · v188
+
+- Las etiquetas presidenciales del gráfico apilado dejan de compartir una única línea.
+- Cristina Fernández y Alberto Fernández ocupan el carril inferior; Mauricio Macri y Javier Milei, el superior.
+- La alternancia se aplica siempre, no sólo cuando el navegador reconoce explícitamente el modo móvil. Esto también protege la composición cuando hay zoom alto, panel angosto o cambio de tamaño tardío.
+- La leyenda general permanece arriba y la etiqueta de pandemia continúa dentro del área de datos, sin competir con los nombres presidenciales.
+
+Estado final de v188:
+
+- `index.html`: 7.719.540 bytes.
+- Snapshot: `data/dashboard_kawaii_188_estratos_mandatos_dos_carriles.html`.
+- SHA-256 de ambos: `2b506fe0a5ed072f68c84ab5f521e03867e883f5b1aee87458a2105b159df533`.
+- Verificación visual: los cuatro mandatos quedan distribuidos en dos alturas y no presentan intersecciones entre cajas.
+
+## 51. Pobreza e indigencia por región · microcompactación · v189
+
+- Se reduce suavemente la reserva superior del lienzo entre la leyenda y las barras.
+- La leyenda baja de `1.12` a `1.09`, conservando distancia suficiente respecto del área de datos.
+- El margen inferior se recorta para acercar los nombres regionales a la lectura explicativa sin cortar etiquetas.
+- Los nuevos márgenes se aplican tanto al render inicial como al relayout responsive.
+
+Estado final de v189:
+
+- `index.html`: 7.719.632 bytes.
+- Snapshot: `data/dashboard_kawaii_189_regiones_espaciado_compacto.html`.
+- SHA-256 de ambos: `20f72c4495f8ff285381987ce2f16f5a39f0e95e9b57d4e60d724e8b0a748fb7`.
+- Verificación visual: leyenda, barras, rótulos regionales y pie editorial permanecen legibles y más próximos entre sí.
+
+## 52. NSE UCA · separación entre encabezado y método · v190
+
+- Se agregan 10 px de separación vertical entre el encabezado “Argentina urbana: estar arriba de la línea no siempre alcanza” y el bloque explicativo “Qué compara”.
+- El ajuste es local a esta tarjeta y no modifica los márgenes internos del gráfico ni las distancias compactadas en otros paneles.
+
+Estado final de v190:
+
+- `index.html`: 7.719.633 bytes.
+- Snapshot: `data/dashboard_kawaii_190_nse_separacion_titulo_contenido.html`.
+- SHA-256 de ambos: `cf123168185485c5a35e6d44a97692b75051c37cfdada628b8f462a38243594c`.
+- Verificación geométrica: separación efectiva medida entre encabezado y contenido = 10 px.
