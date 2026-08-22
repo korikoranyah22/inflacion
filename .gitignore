@@ -2,3 +2,6 @@
 /data/fuentes/tasas/bcra/tas1_ser.txt
 /data/fuentes/tasas/bcra/tas2_ser.txt
 
+# Laboratorio local de responsive.
+/responsive-lab/node_modules/
+/responsive-lab/dist/

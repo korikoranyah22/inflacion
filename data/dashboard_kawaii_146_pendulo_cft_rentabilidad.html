@@ -253,7 +253,7 @@ float cookTorranceSpecular(
   float G1 = (2.0 * NdotH * VdotN) / VdotH;
   float G2 = (2.0 * NdotH * LdotN) / LdotH;
   float G = min(1.0, min(G1, G2));
-
+  
   //Distribution term
   float D = beckmannDistribution(NdotH, roughness);
 
@@ -531,7 +531,7 @@ float cookTorranceSpecular(
   float G1 = (2.0 * NdotH * VdotN) / VdotH;
   float G2 = (2.0 * NdotH * LdotN) / LdotH;
   float G = min(1.0, min(G1, G2));
-
+  
   //Distribution term
   float D = beckmannDistribution(NdotH, roughness);
 
@@ -1693,7 +1693,7 @@ float cookTorranceSpecular(
   float G1 = (2.0 * NdotH * VdotN) / VdotH;
   float G2 = (2.0 * NdotH * LdotN) / LdotH;
   float G = min(1.0, min(G1, G2));
-
+  
   //Distribution term
   float D = beckmannDistribution(NdotH, roughness);
 
@@ -7442,55 +7442,6 @@ img, svg { max-width: 100%; }
 }
 </style>
 
-<style id="power-info-responsive-polish-v148">
-/* v148 · aire interior y lectura responsive para “Qué mide cada serie”. */
-#tab-power > .power-info-grid > .card{
-  box-sizing:border-box;
-  padding:18px;
-}
-#tab-power > .power-info-grid .card-head{
-  padding:0 2px 10px;
-}
-#tab-power > .power-info-grid .card-title{
-  font-size:20px;
-  line-height:1.25;
-}
-#tab-power > .power-info-grid .note{
-  box-sizing:border-box;
-  font-size:14px;
-  line-height:1.55;
-  overflow-wrap:break-word;
-  word-break:normal;
-  hyphens:none;
-}
-@media(max-width:720px){
-  #tab-power > .power-info-grid > .card{
-    padding:14px;
-    border-radius:20px;
-  }
-  #tab-power > .power-info-grid .card-head{
-    padding:0 1px 9px;
-  }
-  #tab-power > .power-info-grid .card-title{
-    font-size:18px;
-  }
-  #tab-power > .power-info-grid .note{
-    padding:11px 12px;
-    font-size:13.25px;
-    line-height:1.5;
-  }
-}
-@media(max-width:390px){
-  #tab-power > .power-info-grid > .card{
-    padding:12px;
-  }
-  #tab-power > .power-info-grid .note{
-    padding:10px 11px;
-    font-size:13px;
-  }
-}
-</style>
-
 <style id="milei-cost-v117">
 /* v117 · panel auditado “Lo que te robó Milei” */
 #tab-milei-cost .milei-cost-hero{
@@ -8203,36 +8154,6 @@ img, svg { max-width: 100%; }
 @media(max-width:430px){.pend-fin-evidence-summary,.pend-roa-summary,.pend-fin-evidence-caveats{grid-template-columns:1fr}.pend-fin-evidence-kpi.wide,.pend-roa-card:last-child{grid-column:auto}.pend-fin-evidence-kpi strong,.pend-roa-card strong{font-size:19px}.pend-roa-chart{min-width:640px}.pend-fin-separation{grid-template-columns:1fr}}
 </style>
 
-
-<style id="pendulo-poder-horizontal-controls-v147-style">
-/* v147 · botoneras horizontales próximas al gráfico que modifican */
-#tab-pendulo .pend-layer-nav-wrap{position:sticky;top:0;z-index:18;padding:7px 0;background:linear-gradient(180deg,rgba(255,248,253,.98) 70%,rgba(255,248,253,0));backdrop-filter:blur(7px)}
-#tab-pendulo .pend-layer-nav{display:flex;flex-wrap:nowrap;gap:7px;max-width:100%;overflow-x:auto;overflow-y:hidden;padding:3px 2px 8px;scrollbar-width:thin;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
-#tab-pendulo .pend-layer-btn{flex:0 0 auto;scroll-snap-align:center;white-space:nowrap}
-#tab-pendulo .pend-controls-context{display:flex;align-items:center;gap:7px;margin:12px 0 6px;color:#7a657f;font-size:8.8px;font-weight:800;line-height:1.35}
-#tab-pendulo .pend-controls-context::before{content:'↳';display:inline-grid;place-items:center;width:19px;height:19px;border-radius:999px;background:#f2e8f7;color:#714b84;font-size:12px;font-weight:950}
-#tab-pendulo .pend-controls.pend-controls-near-chart{display:flex;align-items:center;gap:8px;max-width:100%;margin:0 0 9px;padding:8px;border:1px solid #ddcfe6;border-radius:16px;background:linear-gradient(90deg,#fbf7ff,#fff);overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;box-sizing:border-box}
-#tab-pendulo .pend-controls-near-chart .pend-control{display:flex;align-items:center;gap:8px;flex:0 0 auto;padding:5px 8px;border:0;border-right:1px solid #e4d9e9;border-radius:0;background:transparent;scroll-snap-align:start}
-#tab-pendulo .pend-controls-near-chart .pend-control:last-child{border-right:0}
-#tab-pendulo .pend-controls-near-chart .pend-control>span{flex:0 0 auto;margin:0;color:#846a8e;white-space:nowrap}
-#tab-pendulo .pend-controls-near-chart .pend-buttons{display:flex;flex-wrap:nowrap;gap:6px}
-#tab-pendulo .pend-controls-near-chart .pend-btn{flex:0 0 auto;padding:7px 10px;white-space:nowrap}
-#tab-pendulo .pend-controls-near-chart .pend-control-toggle{cursor:pointer}
-#tab-pendulo .pend-controls-near-chart .pend-toggle-action{display:flex;align-items:center;gap:6px;color:#5d3c69;font-size:9px;font-weight:950;text-transform:none;letter-spacing:0}
-#tab-pendulo .pend-controls-near-chart .pend-toggle-action input{width:16px;height:16px;margin:0;accent-color:#80539a}
-#tab-pendulo .pend-controls-near-chart .pend-toggle-note{color:#8b758f;font-size:7.8px;font-weight:700;letter-spacing:0;text-transform:none}
-@media(max-width:760px){
- #tab-pendulo .pend-layer-nav-wrap{top:0;margin-left:-2px;margin-right:-2px}
- #tab-pendulo .pend-controls.pend-controls-near-chart{display:grid;grid-template-columns:minmax(0,1fr);gap:3px;margin-left:-2px;margin-right:-2px;overflow:visible}
- #tab-pendulo .pend-controls-near-chart .pend-control{display:flex;width:100%;min-width:0;max-width:100%;padding:5px 7px;border-right:0;border-bottom:1px solid #e4d9e9;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;box-sizing:border-box}
- #tab-pendulo .pend-controls-near-chart .pend-control:last-child{border-bottom:0}
- #tab-pendulo .pend-controls-near-chart .pend-control>span{position:sticky;left:0;z-index:2;padding:5px 7px 5px 1px;background:#fbf8fd}
- #tab-pendulo .pend-controls-near-chart .pend-control-toggle{overflow-x:hidden}
- #tab-pendulo .pend-controls-near-chart .pend-toggle-note{display:none}
- #tab-pendulo .pend-controls-near-chart .pend-btn{padding:7px 9px}
-}
-</style>
-
 </head>
 <body>
 <div class="wrap">
@@ -8606,7 +8527,7 @@ img, svg { max-width: 100%; }
         <div class="note" style="margin-top:12px"><b>Comparabilidad:</b> bancos y Fintech son préstamos personales, pero no están ponderados de la misma manera: la serie bancaria es un promedio del sistema financiero y la Fintech PNFC se publica como promedio del grupo ponderado por saldos. Se comparan como indicadores de nivel, no como cotizaciones equivalentes de un mismo producto. Ninguna es CFT.</div>
       </aside>
     </div>
-
+    
     <div class="method-legend"><strong>Actualización y método:</strong><span class="method-badge official">BCRA banco/PF · jul-2026</span><span class="method-badge partial">Fintech PNFC · feb-2026</span><span class="method-badge official">IPC · jul-2026</span><span class="method-badge reconstructed">Inflación 2007–2016 · reconstrucción histórica</span><span>El gráfico anual es contexto nominal: inflación acumulada del año calendario y TNAs promedio no se restan entre sí. En años de transición presidencial —especialmente 2023— el punto anual mezcla meses de dos gestiones. La comparación real está en el gráfico mensual 2019–2026, que usa IPC INDEC oficial.</span></div>
 
     <section class="card" id="ratesAccumSection" style="margin-top:16px">
@@ -8810,7 +8731,7 @@ img, svg { max-width: 100%; }
       <div class="note" style="margin-top:8px"><b>Transiciones anteriores:</b> diciembre de 2019 sí puede aislarse con IPC nacional mensual y se atribuye a Alberto Fernández. Diciembre de 2015 permanece fuera de la comparación porque la reconstrucción armonizada usada para ese tramo no permite aislarlo homogéneamente; es una excepción de datos, no una regla política distinta.</div>
       <div class="note" style="margin-top:8px"><b>2007–2016:</b> se privilegia una reconstrucción histórica armonizada (Argendata/Fundar) en lugar de empalmar como plenamente confiables los IPC oficiales intervenidos. Desde 2017 se toma IPC nacional INDEC.</div>
     </div>
-
+    
     <div class="sources-box">
       <h3>Fuentes y descargas</h3>
       <div class="source-links">
@@ -9006,7 +8927,7 @@ img, svg { max-width: 100%; }
     </section>
 
 
-
+    
     <div class="sources-box">
       <h3>Fuentes y descargas</h3>
       <div class="source-links">
@@ -9066,7 +8987,7 @@ img, svg { max-width: 100%; }
   </section>
 
 
-
+  
   <section id="tab-social" class="tab-panel">
     <div class="social-compare-head">
       <h2>Inversión social no contributiva nacional: serie + seguimiento ♡</h2>
@@ -10531,7 +10452,7 @@ img, svg { max-width: 100%; }
 
 
 
-
+  
 
   <section id="tab-work" class="tab-panel">
     <div class="method-shield">
@@ -11108,7 +11029,11 @@ img, svg { max-width: 100%; }
 <section class="pend-card pend-hero">
         <div class="pend-head"><div><span class="pend-kicker">INDEC · Cuenta de Generación del Ingreso · 1993–2007 y 2016–2026-T1</span><h2>A · Péndulo de producción / distribución primaria ♡</h2><p class="pend-sub"><b>Pregunta:</b> ¿quién capturó el ingreso cuando se produjo? La Cuenta de Generación del Ingreso se conserva exactamente como estaba auditada; esta capa no incorpora intereses, alquileres, impuestos ni activos.</p><div class="pend-meta-line"><span class="pend-meta ratio">RATIO · trimestral</span><span class="pend-meta evidence-a">fuente A · CGI oficial</span><span class="pend-meta">transformación: derivado</span><span class="pend-meta">actores: trabajo + IMB ↔ EEB</span></div></div></div>
         <blockquote class="pend-quote">“El péndulo argentino es entre la gente que no quiere dejarse cagar por las corpos y la gente que no entiende que la están cagando.”<small>La frase es la hipótesis provocadora. Los datos no pueden probar intenciones de empresas ni de votantes.</small></blockquote>
-<div class="pend-kpis">
+        <div class="pend-controls">
+          <div class="pend-control"><span>Ver como</span><div class="pend-buttons" id="pendPerspectiveButtons"><button class="pend-btn active" data-value="index">Índice del péndulo</button><button class="pend-btn" data-value="shares">Participación %</button><button class="pend-btn" data-value="change">Cambio desde inicio del mandato</button></div></div>
+          <div class="pend-control"><span>Serie</span><div class="pend-buttons" id="pendUniverseButtons"><button class="pend-btn active" data-value="private">Sector privado</button><button class="pend-btn" data-value="total">Total economía</button></div></div>
+        </div>
+        <div class="pend-kpis">
           <div class="pend-kpi index"><small>Último péndulo</small><strong id="pendKpiIndex">—</strong><span id="pendKpiPeriod">—</span></div>
           <div class="pend-kpi work"><small>Trabajo / hogares</small><strong id="pendKpiHouseholds">—</strong><span>RTA + IMB · total normalizado</span></div>
           <div class="pend-kpi capital"><small>Excedente societario</small><strong id="pendKpiCapital">—</strong><span>EEB · total normalizado</span></div>
@@ -11129,14 +11054,8 @@ img, svg { max-width: 100%; }
       <section class="pend-card">
         <div class="pend-head"><div><h3>El péndulo distributivo argentino</h3><p class="pend-note">+100 = todo hacia trabajo/hogares · 0 = empate distributivo · −100 = todo hacia excedente societario. Los umbrales descriptivos ±10 no son una clasificación científica.</p></div></div>
         <div class="pend-chart-stickers"><span class="pend-chart-sticker up">⬆️ sube = trabajo/hogares gana participación</span><span class="pend-chart-sticker down">⬇️ baja = EEB gana participación</span><span class="pend-chart-sticker warn">⚠️ participación ≠ plata en el bolsillo</span><span class="pend-chart-sticker">━ promedio observado de cada gobierno</span></div>
-        <div class="pend-controls-context">Todos estos controles actualizan el gráfico de abajo.</div>
-        <div class="pend-controls pend-controls-near-chart" aria-label="Controles del gráfico principal" data-controls-for="pendMainChart">
-          <div class="pend-control" role="group" aria-label="Ver gráfico como"><span>Ver como</span><div class="pend-buttons" id="pendPerspectiveButtons"><button class="pend-btn active" data-value="index">Índice del péndulo</button><button class="pend-btn" data-value="shares">Participación %</button><button class="pend-btn" data-value="change">Cambio desde inicio del mandato</button></div></div>
-          <div class="pend-control" role="group" aria-label="Elegir universo de la serie"><span>Serie</span><div class="pend-buttons" id="pendUniverseButtons"><button class="pend-btn active" data-value="private">Sector privado</button><button class="pend-btn" data-value="total">Total economía</button></div></div>
-
-          <label class="pend-control pend-control-toggle" role="group" aria-label="Guías del gráfico"><span>Guías</span><span class="pend-toggle-action"><input id="pendAverageToggle" type="checkbox" checked><b>Promedio por gobierno</b></span><span class="pend-toggle-note">Sólo dentro de cada tramo comparable</span></label>
-        </div>
-<div class="pend-chart-scroll"><div id="pendMainChart" class="pend-chart"></div></div>
+        <label class="pend-average-control"><input id="pendAverageToggle" type="checkbox" checked><b>Mostrar líneas de promedio por gobierno</b><span>Se calculan sólo dentro de cada tramo metodológico; una gestión con un único dato no recibe línea.</span></label>
+        <div class="pend-chart-scroll"><div id="pendMainChart" class="pend-chart"></div></div>
         <div class="pend-legend-note"><b>Corte visible:</b> 1993–2007 es una serie histórica anual; 2016–2026-T1 es trimestral y usa otra metodología. No se interpolan 2008–2015 ni se conectan ambos segmentos. En la serie histórica, otros impuestos a la producción están incluidos en IMB/EEB y no pueden separarse.</div>
         <div class="pend-plain-grid"><div class="pend-plain-card up"><span class="icon">↗️</span><b>Cuando la línea sube</b>Sueldos + trabajo por cuenta propia ocupan una porción mayor de la torta relativa.</div><div class="pend-plain-card down"><span class="icon">↘️</span><b>Cuando la línea baja</b>El excedente bruto de explotación ocupa una porción mayor de esa torta.</div><div class="pend-plain-card warn"><span class="icon">🧭</span><b id="pendPlainMovementTitle">Qué pasó últimamente</b><span id="pendPlainMovement">Calculando desde la serie…</span></div></div>
         <div class="pend-political"><div class="pend-political-head"><div><span class="pend-sticker">🏛️ Política en números</span><h4>Últimas tres gestiones · mismo tramo metodológico</h4><p>Promedio = posición habitual durante la ventana observada. Cambio = diferencia entre el primer y el último trimestre de esa gestión.</p></div><span class="pend-chart-sticker warn">resultado observado ≠ causalidad probada</span></div><div id="pendPoliticalNumbers" class="pend-political-grid"></div><div id="pendPoliticalSummary" class="pend-political-summary">Calculando comparación política…</div></div>
@@ -11729,7 +11648,7 @@ img, svg { max-width: 100%; }
 
 
 
-
+    
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">Simulador del país <span>♡</span></div>
@@ -20029,7 +19948,7 @@ document.querySelector('[data-tab="tab-tourism"]')?.addEventListener('click',()=
 window.addEventListener('resize',()=>{if(!tourRendered)return;['tourFlowChart','tourSpendChart','tourSummerChart','tourFxChart','tourOriginChart','tourDestinationChart'].forEach(id=>{const el=document.getElementById(id);if(el&&window.Plotly)Plotly.Plots.resize(el)})});
 </script>
 
-<!-- PENDULO_POWER_HORIZONTAL_CONTROLS_VERSION:147 -->
+<!-- PENDULO_POWER_FINANCE_EVIDENCE_VERSION:146 -->
 <script id="pendulo-poder-finance-evidence-v146">
 const PEND_POWER_CFT_SNAPSHOT=[{"period":"2023-06","provider_group":"Entidades financieras","provider_code":"EEFF","sample_n":15,"measure":"promedio del CFT máximo ofrecido","cft_pct":321.0,"source_grade":"A"},{"period":"2023-06","provider_group":"Proveedores no financieros de crédito","provider_code":"PNFC","sample_n":15,"measure":"promedio del CFT máximo ofrecido","cft_pct":588.0,"source_grade":"A"}];
 const PEND_POWER_ROA_SNAPSHOT=[{"group":"Sistema financiero","roa_3m_may2026":2.199156528105397,"roa_12m_may2025":1.7405594052089917,"roa_12m_may2026":1.065897701506298,"unit":"% del activo anualizado","source_grade":"A"},{"group":"Bancos privados nacionales","roa_3m_may2026":2.077840557757675,"roa_12m_may2025":1.8862649477387867,"roa_12m_may2026":0.21572061940102324,"unit":"% del activo anualizado","source_grade":"A"},{"group":"Bancos privados extranjeros","roa_3m_may2026":1.904194800353862,"roa_12m_may2025":1.594805256335791,"roa_12m_may2026":1.539858194394041,"unit":"% del activo anualizado","source_grade":"A"},{"group":"Bancos públicos","roa_3m_may2026":2.3533109663849405,"roa_12m_may2025":1.6508579486956558,"roa_12m_may2026":1.3556338928447476,"unit":"% del activo anualizado","source_grade":"A"},{"group":"EFNB","roa_3m_may2026":5.117937721083372,"roa_12m_may2025":3.4836030655360672,"roa_12m_may2026":3.9358595323861665,"unit":"% del activo anualizado","source_grade":"A"}];
