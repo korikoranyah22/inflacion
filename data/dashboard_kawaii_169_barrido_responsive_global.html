@@ -8509,88 +8509,6 @@ code,pre,.formula,.pend-formula{font-family:var(--font-mono)!important}
 }
 </style>
 
-<style id="storytelling-v170-style">
-/* v170 · relato editorial navegable sobre el origen y los hallazgos del dashboard */
-#tab-story{padding:18px}
-#tab-story .story-shell{display:grid;gap:16px;max-width:1180px;margin:0 auto;color:#553e62}
-#tab-story .story-hero{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,.6fr);gap:24px;padding:34px;border:1px solid #dfcce8;border-radius:28px;background:linear-gradient(135deg,rgba(255,246,251,.98),rgba(244,241,255,.96) 55%,rgba(240,255,248,.94));box-shadow:0 14px 35px rgba(101,67,126,.10)}
-#tab-story .story-hero::before,#tab-story .story-hero::after{content:"";position:absolute;border-radius:999px;pointer-events:none}
-#tab-story .story-hero::before{width:230px;height:230px;right:-70px;top:-105px;background:rgba(242,155,196,.15)}
-#tab-story .story-hero::after{width:180px;height:180px;left:-85px;bottom:-105px;background:rgba(109,190,153,.13)}
-#tab-story .story-hero-copy,#tab-story .story-author-card{position:relative;z-index:1}
-#tab-story .story-eyebrow{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;border:1px solid #d8c4e2;border-radius:10px;background:rgba(255,255,255,.8);color:#765282;font-size:10px;font-weight:950;letter-spacing:.06em;text-transform:uppercase}
-#tab-story .story-hero h1{max-width:760px;margin:13px 0 12px;color:#5c326f}
-#tab-story .story-deck{max-width:760px;margin:0;color:#705879;font-size:16px!important;line-height:1.6!important}
-#tab-story .story-author-card{align-self:stretch;display:flex;flex-direction:column;justify-content:center;padding:20px;border:1px solid #e4d6ea;border-radius:20px;background:rgba(255,255,255,.77)}
-#tab-story .story-author-card strong{display:block;margin:8px 0 4px;color:#5f3870;font-size:21px;line-height:1.15}
-#tab-story .story-author-card p{margin:0;color:#765f80}
-#tab-story .story-author-card .story-sign{font-size:28px;line-height:1}
-#tab-story .story-opening{margin:0;padding:18px 22px;border-left:5px solid #ad79c5;border-radius:16px;background:#fbf6ff;color:#60426e;font-size:18px;font-weight:800;line-height:1.5}
-#tab-story .story-nav{position:sticky;top:8px;z-index:22;display:flex;gap:7px;overflow-x:auto;overflow-y:hidden;padding:9px;border:1px solid #ddcfe5;border-radius:16px;background:rgba(255,252,254,.94);backdrop-filter:blur(9px);scrollbar-width:thin;scroll-snap-type:x proximity}
-#tab-story .story-nav a{flex:0 0 auto;padding:7px 10px;border:1px solid #dac9e3;border-radius:999px;background:#fff;color:#664373;font-size:11px;font-weight:850;text-decoration:none;scroll-snap-align:start}
-#tab-story .story-nav a:hover,#tab-story .story-nav a:focus-visible{border-color:#b586c9;background:#f7ebfc;outline:none}
-#tab-story .story-stat-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
-#tab-story .story-stat{min-width:0;padding:15px;border:1px solid #e1d4e7;border-radius:17px;background:rgba(255,255,255,.9)}
-#tab-story .story-stat small{display:block;color:#8b6f91;font-weight:900;text-transform:uppercase;letter-spacing:.04em}
-#tab-story .story-stat b{display:block;margin:6px 0 4px;color:#633a72;font-size:24px;line-height:1.05}
-#tab-story .story-stat span{display:block;color:#796580;font-size:11px;line-height:1.4}
-#tab-story .story-stat.good{border-color:#bfe0d1;background:#f5fff9}
-#tab-story .story-stat.good b{color:#2f8263}
-#tab-story .story-stat.warn{border-color:#efc2d1;background:#fff7fa}
-#tab-story .story-stat.warn b{color:#ad4668}
-#tab-story .story-timeline{position:relative;display:grid;gap:14px;padding-left:48px}
-#tab-story .story-timeline::before{content:"";position:absolute;left:19px;top:14px;bottom:14px;width:2px;background:linear-gradient(#d19bba,#9b79c1,#62ad8b,#d19b62)}
-#tab-story .story-chapter{position:relative;padding:24px 26px;border:1px solid #e2d5e8;border-radius:21px;background:rgba(255,255,255,.92);box-shadow:0 7px 18px rgba(95,64,111,.055)}
-#tab-story .story-chapter::before{content:attr(data-step);position:absolute;left:-47px;top:22px;display:grid;place-items:center;width:34px;height:34px;border:3px solid #fff;border-radius:999px;background:#9264aa;color:#fff;font-size:12px;font-weight:950;box-shadow:0 0 0 1px #d7c3e1}
-#tab-story .story-chapter:nth-child(3n+2)::before{background:#3f9a76}
-#tab-story .story-chapter:nth-child(3n)::before{background:#c37445}
-#tab-story .story-chapter h2{margin:0 0 11px;color:#623671}
-#tab-story .story-chapter p{max-width:920px;margin:0 0 12px;color:#664e70}
-#tab-story .story-chapter p:last-of-type{margin-bottom:0}
-#tab-story .story-chapter .story-question{margin:17px 0 4px;padding:13px 15px;border-left:4px solid #d1779c;border-radius:12px;background:#fff6fa;color:#813b59;font-weight:850}
-#tab-story .story-turn{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);gap:16px;margin:18px 0 4px}
-#tab-story .story-turn>div{padding:16px;border:1px solid #e0d3e7;border-radius:16px;background:#faf7fc}
-#tab-story .story-turn .answer{border-color:#bfe1d2;background:#f3fff9}
-#tab-story .story-turn small{display:block;margin-bottom:6px;color:#896d91;font-weight:900;text-transform:uppercase}
-#tab-story .story-turn b{color:#5d3b69}
-#tab-story .story-quote{margin:16px 0 4px;padding:19px 22px;border:1px solid #d8c1e4;border-radius:18px;background:linear-gradient(90deg,#f8efff,#fff7fa);color:#5a3867;font-size:17px;font-weight:850;line-height:1.5;text-align:center}
-#tab-story .story-quote.final{padding:26px;background:linear-gradient(120deg,#f5edff,#effcf6);font-size:20px}
-#tab-story .story-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}
-#tab-story .story-link{padding:8px 11px;border:1px solid #cdb7d8;border-radius:999px;background:#fff;color:#633c72;cursor:pointer;font-weight:850}
-#tab-story .story-link:hover,#tab-story .story-link:focus-visible{border-color:#a978bd;background:#f7eefb;outline:2px solid rgba(169,120,189,.18);outline-offset:1px}
-#tab-story .story-principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:16px}
-#tab-story .story-principle{padding:15px;border:1px solid #d9cce3;border-radius:15px;background:#fcf9ff}
-#tab-story .story-principle b{display:block;margin-bottom:5px;color:#684275}
-#tab-story .story-source-note{margin-top:0!important}
-@media(max-width:900px){
- #tab-story .story-hero{grid-template-columns:1fr;padding:26px}
- #tab-story .story-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
- #tab-story .story-stat:last-child{grid-column:1/-1}
- #tab-story .story-turn{grid-template-columns:1fr}
- #tab-story .story-principles{grid-template-columns:1fr}
-}
-@media(max-width:720px){
- #tab-story{padding:9px}
- #tab-story .story-shell{gap:12px}
- #tab-story .story-hero{gap:15px;padding:20px 17px;border-radius:20px}
- #tab-story .story-deck{font-size:14px!important}
- #tab-story .story-opening{padding:15px 16px;font-size:15px}
- #tab-story .story-nav{top:5px;margin:0 -2px;padding:7px}
- #tab-story .story-stat-grid{grid-template-columns:1fr 1fr;gap:8px}
- #tab-story .story-stat{padding:12px}
- #tab-story .story-stat b{font-size:21px}
- #tab-story .story-timeline{padding-left:29px}
- #tab-story .story-timeline::before{left:10px}
- #tab-story .story-chapter{padding:19px 16px;border-radius:17px}
- #tab-story .story-chapter::before{left:-31px;top:20px;width:27px;height:27px;border-width:2px;font-size:10px}
- #tab-story .story-quote.final{padding:20px 16px;font-size:17px}
-}
-@media(max-width:430px){
- #tab-story .story-stat-grid{grid-template-columns:1fr}
- #tab-story .story-stat:last-child{grid-column:auto}
-}
-</style>
-
 </head>
 <body>
 <div class="wrap">
@@ -8619,7 +8537,6 @@ code,pre,.formula,.pend-formula{font-family:var(--font-mono)!important}
   </nav>
 
   <div class="tabs" aria-label="Pestañas del dashboard">
-    <button class="tab-btn" data-tab="tab-story">La historia del dashboard</button>
     <button class="tab-btn active" data-tab="tab-power">Poder adquisitivo</button>
     <button class="tab-btn" data-tab="tab-rates">Tasas e inflación</button>
     <button class="tab-btn" data-tab="tab-pres">Inflación por presidencia</button>
@@ -8653,142 +8570,6 @@ code,pre,.formula,.pend-formula{font-family:var(--font-mono)!important}
     <button class="tab-btn" data-tab="tab-meli-benefits">Privilegios fiscales</button>
     <button class="tab-btn" data-tab="tab-casta">La casta</button>
   </div>
-
-  <section id="tab-story" class="tab-panel">
-    <div class="story-shell">
-      <header class="story-hero">
-        <div class="story-hero-copy">
-          <span class="story-eyebrow">♡ Storytelling · por qué existe este dashboard</span>
-          <h1>La historia detrás de estos gráficos</h1>
-          <p class="story-deck">Este dashboard no nació como un proyecto político ni como un intento de demostrar una conclusión previamente establecida. Nació, bastante literalmente, de una discusión en internet y de una pregunta muy simple: <b>si para llegar al punto actual primero hubo una caída enorme, ¿no deberíamos contar también esa pérdida?</b></p>
-        </div>
-        <aside class="story-author-card">
-          <span class="story-sign">👩🏻‍💻✨</span>
-          <small>Relato en primera persona</small>
-          <strong>Miyu Rory</strong>
-          <p>Desarrolladora de software y una persona con bastante más curiosidad de la que probablemente sea saludable.</p>
-        </aside>
-      </header>
-
-      <blockquote class="story-opening">“Era algo que había que hacer.” Esa respuesta no terminó la discusión: fue lo que puso en marcha todo el proyecto.</blockquote>
-
-      <nav class="story-nav" aria-label="Capítulos de la historia">
-        <a href="#story-origin">El origen</a>
-        <a href="#story-first-chart">El primer gráfico</a>
-        <a href="#story-rates">Las tasas</a>
-        <a href="#story-poverty">La contradicción</a>
-        <a href="#story-pendulum">El péndulo</a>
-        <a href="#story-shock">El costo</a>
-        <a href="#story-growth">Cómo creció</a>
-        <a href="#story-alternatives">Las alternativas</a>
-        <a href="#story-conclusion">La conclusión</a>
-      </nav>
-
-      <section class="story-stat-grid" aria-label="Números centrales de la historia">
-        <article class="story-stat warn"><small>Pérdida salarial bruta</small><b>$18,43 B</b><span>Caídas acumuladas frente a nov-2023 = 100.</span></article>
-        <article class="story-stat good"><small>Recuperado después</small><b>$6,08 B</b><span>Meses posteriores por encima de la referencia.</span></article>
-        <article class="story-stat warn"><small>Saldo acumulado</small><b>$12,35 B</b><span>Ingreso contrafactual todavía no recuperado.</span></article>
-        <article class="story-stat"><small>Entorno financiero</small><b>$3,92 B</b><span>Diferencial estimado post-shock contra espejo.</span></article>
-        <article class="story-stat"><small>Resto del ejercicio</small><b>$4,98 B</b><span>Brecha aproximada luego de los rubros auditados.</span></article>
-      </section>
-
-      <div class="story-timeline">
-        <article id="story-origin" class="story-chapter" data-step="01">
-          <h2>Todo empezó con una discusión</h2>
-          <p>A mediados de agosto de 2026 me crucé con un gráfico sobre la evolución del poder adquisitivo. Mostraba con claridad el fuerte deterioro inicial ocurrido al comienzo del gobierno de Javier Milei y la recuperación posterior. Sin embargo, era presentado como evidencia de un logro.</p>
-          <p>Mi pregunta fue sencilla: si para llegar al punto actual primero hubo una caída tan grande, ¿no deberíamos contar también esa pérdida? La respuesta fue: <b>“Era algo que había que hacer.”</b></p>
-          <div class="story-question">La pregunta que abrió el dashboard: ¿alcanza con mirar el punto de partida y el punto de llegada?</div>
-        </article>
-
-        <article id="story-first-chart" class="story-chapter" data-step="02">
-          <h2>El primer gráfico y la primera corrección</h2>
-          <p>Tomé aquella serie y la amplié hacia atrás, hasta el gobierno de Eduardo Duhalde. Normalicé los datos con una base 100, ajusté las series por inflación e intenté observar cuánto poder adquisitivo había ganado o perdido la población a través del tiempo.</p>
-          <p>La primera versión estaba incompleta: había dejado afuera los salarios no registrados porque modificaban considerablemente el resultado agregado. Después de discutirlo entendí que, si quería un análisis intelectualmente honesto, no podía elegir qué sectores incluir según el resultado que produjeran. Así que los incorporé.</p>
-          <p>Después sumé trabajadores registrados, no registrados, sector público, RIPTE, jubilaciones y otras medidas de ingresos. El resultado cambió, pero la historia general permaneció: el shock inicial seguía siendo muy grande y la recuperación posterior no borraba automáticamente la pérdida anterior.</p>
-          <div class="story-quote">No alcanza con comparar el punto de partida y el punto de llegada. También importa todo lo que ocurrió en el medio, porque el tiempo tiene valor.</div>
-          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-power')">Ver Poder adquisitivo →</button></div>
-        </article>
-
-        <article id="story-rates" class="story-chapter" data-step="03">
-          <h2>Después aparecieron las tasas</h2>
-          <p>Mientras trabajaba en esto empezó a tomar relevancia la morosidad y la dificultad de muchas familias para pagar sus deudas. El tema me resultaba cercano: durante estos años yo misma había terminado dentro de una bola de nieve financiera, aun gastando esencialmente los mismos ingresos que antes destinaba a vivir.</p>
-          <p>Construí series de inflación, tasas nominales y reales, préstamos y plazos fijos. Luego comparé una ventana anterior al shock con el período posterior para observar cuánto había cambiado el entorno financiero de los hogares frente a una referencia histórica comparable.</p>
-          <div class="story-turn">
-            <div><small>El número derivado</small><b>≈ $3,92 billones</b><p>Diferencia entre la ventana post-shock y su espejo, en pesos constantes.</p></div>
-            <div class="answer"><small>Qué significa</small><p>Mide cuánto cambió el entorno financiero enfrentado por los hogares. <b>No afirma que los bancos “ganaron” esa suma</b>: para eso harían falta fondeo, incobrabilidad, encajes, impuestos, comisiones y balances. Fintech se conserva identificada como una pata separada por sus datos y metodología.</p></div>
-          </div>
-          <p>Ese resultado hizo aparecer otra pregunta: si existían sectores capaces de absorber o trasladar semejantes cantidades, ¿era inevitable que una parte tan grande del ajuste recayera sobre los ingresos de los hogares?</p>
-          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-rates')">Ver Tasas e inflación →</button><button class="story-link" type="button" onclick="activateTab('tab-morosidad')">Ver Morosidad →</button></div>
-        </article>
-
-        <article id="story-poverty" class="story-chapter" data-step="04">
-          <h2>El dato que contradijo mis expectativas</h2>
-          <p>La caída inicial del poder adquisitivo era difícil de reconciliar con el hecho de que el impacto social no hubiera producido el desenlace que muchas personas pronosticaron. Empecé a agregar gráficos y apareció un dato que realmente contradecía mis expectativas: <b>la pobreza había bajado con mucha fuerza después del pico inicial.</b></p>
-          <p>Había que reconocerlo. Fue uno de esos momentos en los que pensé: “bueno, quizá estoy entendiendo esto completamente al revés”. Pero seguí agregando información.</p>
-          <div class="story-quote">Si un dato favorecía al Gobierno, tenía que aparecer. Si contradecía mi hipótesis, también.</div>
-          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-poverty')">Ver Pobreza →</button><button class="story-link" type="button" onclick="activateTab('tab-social')">Ver Asistencia social →</button></div>
-        </article>
-
-        <article id="story-pendulum" class="story-chapter" data-step="05">
-          <h2>El péndulo hacia los hogares</h2>
-          <p>Al observar cómo había cambiado la distribución primaria y secundaria del ingreso encontré una posible explicación. Mientras una parte importante de los ingresos laborales absorbía el shock, <b>otras transferencias y mecanismos redistributivos desplazaban recursos hacia los hogares</b>, especialmente hacia los sectores más vulnerables.</p>
-          <p>Eso ayudaba a reconciliar dos historias que, vistas por separado, parecían incompatibles: podía existir una gran pérdida acumulada de poder adquisitivo y, al mismo tiempo, una reducción importante de la pobreza.</p>
-          <div class="story-turn"><div><small>La primera película</small><b>El golpe existió.</b><p>La caída de ingresos y el costo acumulado no desaparecen por recuperar el nivel.</p></div><div class="answer"><small>La segunda película</small><b>Una parte fue amortiguada.</b><p>Transferencias y cambios distributivos ayudaron a proteger a sectores vulnerables.</p></div></div>
-          <p>Ese hallazgo cambió mi propia interpretación del período. Si un dashboard solamente muestra los datos que confirman lo que su autora ya pensaba, entonces no es una herramienta para investigar nada. <b>Es decoración.</b></p>
-          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-pendulo')">Ver Péndulo del poder económico →</button><button class="story-link" type="button" onclick="activateTab('tab-gini')">Ver Gini →</button></div>
-        </article>
-
-        <article id="story-shock" class="story-chapter" data-step="06">
-          <h2>¿Cuánto costó el shock?</h2>
-          <p>Después intenté responder una pregunta distinta. En lugar de preguntar cuánto habían caído los salarios en un mes, pregunté qué ocurría al acumular esa pérdida a través del tiempo.</p>
-          <p>El cálculo actual estima un deterioro salarial bruto acumulado equivalente a <b>$18,43 billones</b>, expresado en pesos constantes. Con la recuperación posterior, aproximadamente <b>$6,08 billones</b> fueron recuperados. Queda un saldo acumulado estimado de <b>$12,35 billones</b>.</p>
-          <p>Eso no significa que exista una bóveda con dinero que “pertenece” literalmente a los trabajadores. Significa que, bajo la metodología y el contrafactual utilizados, ésa es la magnitud aproximada del ingreso que los hogares dejaron de percibir durante el recorrido.</p>
-          <div class="story-question">Y nuevamente apareció la misma pregunta: ¿era inevitable?</div>
-          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-milei-cost')">Abrir la auditoría “Lo que te robó Milei” →</button></div>
-        </article>
-
-        <article id="story-growth" class="story-chapter" data-step="07">
-          <h2>Y el dashboard empezó a crecer</h2>
-          <p>A partir de ahí la investigación se volvió difícil de detener. Aparecieron educación y salud, obra pública, rutas presupuestadas pero no ejecutadas, reservas y deuda, actividad económica, inversión, empleo, consumo, morosidad, distribución del ingreso, gasto público, privilegios empresariales y salarios de la alta administración del Estado.</p>
-          <p>Cada gráfico agregaba una pieza y, en algunos casos, obligaba a corregir conclusiones anteriores. El pequeño gráfico con el que había empezado terminó convirtiéndose en este dashboard.</p>
-          <div class="story-principles">
-            <div class="story-principle"><b>Mostrar la contradicción</b>No borrar el dato que complica la propia interpretación.</div>
-            <div class="story-principle"><b>Separar magnitudes</b>No sumar flujos, stocks, ratios y contrafactuales como si fueran lo mismo.</div>
-            <div class="story-principle"><b>Dejar huecos visibles</b>No inventar continuidad cuando las fuentes no permiten empalmar.</div>
-          </div>
-        </article>
-
-        <article id="story-alternatives" class="story-chapter" data-step="08">
-          <h2>La pregunta por “la casta” y por las alternativas</h2>
-          <p>Si el argumento era que el ajuste resultaba inevitable porque el Estado necesitaba cerrar sus cuentas, ¿qué ocurría si buscábamos recursos en otros lugares? Calculé incrementos destinados a capas mejor remuneradas del Estado, beneficios y tratamientos favorables a grandes empresas —incluido Mercado Libre— y otros rubros donde era razonable preguntar: <b>¿era necesario gastar esto acá?</b></p>
-          <p>Después hice un ejercicio deliberadamente contrafactual: partí de los <b>$18,43 billones</b> de pérdida salarial bruta e imaginé distintas formas de compensarla con recursos provenientes de sectores relativamente favorecidos. Después de los rubros analizados todavía quedaba una diferencia aproximada de <b>$4,98 billones</b>.</p>
-          <p>Según las estimaciones usadas en el dashboard, alrededor de <b>45.000 argentinos</b> concentran fortunas por aproximadamente <b>$158,27 billones</b>. Los $4,98 billones restantes equivaldrían a poco más del <b>3% de ese patrimonio agregado</b>.</p>
-          <p>Eso no vuelve sencillo ni gratuito un impuesto, ni permite tratar un stock patrimonial como si fuera un flujo fiscal permanente. Pero sí permite poner las magnitudes en perspectiva y discutir la idea de que “no había alternativa”.</p>
-          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-casta')">Ver La casta →</button><button class="story-link" type="button" onclick="activateTab('tab-meli-benefits')">Ver Privilegios fiscales →</button><button class="story-link" type="button" onclick="activateTab('tab-wealth-contribution')">Ver Grandes fortunas →</button></div>
-        </article>
-
-        <article id="story-conclusion" class="story-chapter" data-step="09">
-          <h2>Ordenar las cuentas y decidir quién paga son preguntas distintas</h2>
-          <p>Los datos no demuestran que ordenar las cuentas públicas fuera innecesario. Tampoco demuestran que cualquier alternativa hubiera sido gratuita, sencilla o políticamente viable.</p>
-          <p>Pero sí muestran algo más interesante: la política fiscal no consiste solamente en decidir cuánto recaudar y cuánto gastar. También consiste en decidir <b>de quién obtener los recursos, qué gastos preservar, cuáles reducir y sobre qué sectores distribuir el costo de una crisis.</b></p>
-          <p>Mi conclusión ya no es que “no había que hacer nada”. Había que ordenar muchas cosas. Lo que no estaba escrito en ninguna ley económica era que hubiera que ordenarlas exactamente de esta manera.</p>
-          <p>Tal vez existían otras combinaciones. Tal vez podían reducirse otros gastos. Tal vez podía exigirse un esfuerzo mayor a quienes tenían más capacidad para absorberlo. Tal vez una parte del shock sobre el trabajador común podía haberse evitado.</p>
-          <div class="story-quote final">Este dashboard pone los números sobre la mesa para que “era algo que había que hacer” deje de ser el final de la discusión y se convierta en el comienzo.</div>
-        </article>
-      </div>
-
-      <section class="sources-box story-source-note" data-source-panel>
-        <h3>Fuentes, metodología y código de este relato</h3>
-        <div class="source-links">
-          <a class="source-link" href="https://github.com/korikoranyah22/inflacion" target="_blank" rel="noopener">💻 Repositorio público · código, datos y auditorías</a>
-          <a class="source-link" href="#" data-source-path="data/derivados/HANDOVER_REDISENO_V149_A_V170.md">🧭 Handover consolidado del dashboard</a>
-          <a class="source-link" href="#" data-source-path="data/derivados/AUDITORIA_COBERTURA_FUENTES_V149.md">🧾 Auditoría global de fuentes</a>
-          <a class="source-link" href="#" data-source-path="data/derivados/AUDITORIA_ESCALAS_LOG_Y_JERARQUIA_VISUAL_V148.md">📐 Auditoría visual y metodológica</a>
-        </div>
-        <div class="sources-note"><b>Cómo leer esta pestaña:</b> es un relato editorial en primera persona. Los números citados no nacen aquí: enlazan con los tabs temáticos, sus fuentes y sus auditorías. Las expresiones políticas se presentan como preguntas e interpretación de la autora, no como nuevas series estadísticas.</div>
-      </section>
-    </div>
-  </section>
 
   <section id="tab-power" class="tab-panel active">
     <div class="controls">
@@ -13910,7 +13691,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 
 // ---------------- Navegación temática + escalas Y auditadas ----------------
 const DASH_TAB_GROUPS={
-  featured:['tab-story','tab-power','tab-rates','tab-poverty','tab-emae','tab-morosidad','tab-pendulo','tab-debt-public','tab-milei-cost'],
+  featured:['tab-power','tab-rates','tab-poverty','tab-emae','tab-morosidad','tab-pendulo','tab-debt-public','tab-milei-cost'],
   households:['tab-power','tab-poverty','tab-social','tab-gini','tab-structure','tab-family','tab-health-education','tab-consumption','tab-work','tab-housing','tab-morosidad'],
   prices:['tab-rates','tab-pres','tab-risk','tab-bigmac','tab-wholesale','tab-bcra'],
   activity:['tab-consumption','tab-work','tab-investment','tab-housing','tab-growth','tab-emae','tab-roads','tab-tourism','tab-trade'],
