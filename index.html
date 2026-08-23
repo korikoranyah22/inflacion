@@ -8658,6 +8658,16 @@ html,body{overflow-x:clip}
 @media(max-width:720px){.bank-adjust-jump{margin-left:14px;margin-right:14px;align-items:flex-start;flex-direction:column}.bank-adjust-section{padding:16px 13px;border-radius:20px}.bank-adjust-title{font-size:22px}.bank-adjust-kpis{grid-template-columns:1fr}.bank-adjust-kpi .val{font-size:23px}.bank-adjust-formulas{grid-template-columns:1fr}.bank-adjust-chart{height:310px}.bank-adjust-chart-head{display:block}.bank-adjust-chart-head span{display:block;text-align:left;margin-top:3px}.bank-adjust-actions{gap:6px}}
 </style>
 
+
+<style id="milei-cost-new-logic-v151">
+#tab-milei-cost .milei-cost-kpi .mini b{color:#5d3f6b}
+#tab-milei-cost .milei-return-card .return-amount{overflow-wrap:anywhere}
+#tab-milei-cost .milei-shock-scenario+ .milei-shock-scenario{margin-top:8px}
+#tab-milei-cost .milei-return-card.bank .return-amount{color:#2f8264}
+#tab-milei-cost .milei-return-card.fintech .return-amount{color:#9a5674}
+#tab-milei-cost .milei-return-total .amount{white-space:normal}
+@media(max-width:720px){#tab-milei-cost .milei-cost-kpis{grid-template-columns:1fr}#tab-milei-cost .milei-bridge-grid{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -8756,7 +8766,7 @@ html,body{overflow-x:clip}
         <article class="story-stat good"><small>Recuperado después</small><b>$6,08 B</b><span>Meses posteriores por encima de la referencia.</span></article>
         <article class="story-stat warn"><small>Saldo acumulado</small><b>$12,35 B</b><span>Ingreso contrafactual todavía no recuperado.</span></article>
         <article class="story-stat"><small>Entorno financiero</small><b>$3,92 B</b><span>Diferencial estimado post-shock contra espejo.</span></article>
-        <article class="story-stat"><small>Resto del ejercicio</small><b>$4,98 B</b><span>Brecha aproximada luego de los rubros auditados.</span></article>
+        <article class="story-stat"><small>Sensibilidad extrema</small><b>$4,98 B</b><span>Resto sólo si se reembolsa íntegramente la pinza y además se reasigna la envolvente auditada; no es el saldo central.</span></article>
       </section>
 
       <div class="story-timeline">
@@ -8832,9 +8842,11 @@ html,body{overflow-x:clip}
         <article id="story-alternatives" class="story-chapter" data-step="08">
           <h2>La pregunta por “la casta” y por las alternativas</h2>
           <p>Si el argumento era que el ajuste resultaba inevitable porque el Estado necesitaba cerrar sus cuentas, ¿qué ocurría si buscábamos recursos en otros lugares? Calculé incrementos destinados a capas mejor remuneradas del Estado, beneficios y tratamientos favorables a grandes empresas —incluido Mercado Libre— y otros rubros donde era razonable preguntar: <b>¿era necesario gastar esto acá?</b></p>
-          <p>Después hice un ejercicio deliberadamente contrafactual: partí de los <b>$18,43 billones</b> de pérdida salarial bruta e imaginé distintas formas de compensarla con recursos provenientes de sectores relativamente favorecidos. Después de los rubros analizados todavía quedaba una diferencia aproximada de <b>$4,98 billones</b>.</p>
-          <p>Según las estimaciones usadas en el dashboard, alrededor de <b>45.000 argentinos</b> concentran fortunas por aproximadamente <b>$158,27 billones</b>. Los $4,98 billones restantes equivaldrían a poco más del <b>3% de ese patrimonio agregado</b>.</p>
-          <p>Eso no vuelve sencillo ni gratuito un impuesto, ni permite tratar un stock patrimonial como si fuera un flujo fiscal permanente. Pero sí permite poner las magnitudes en perspectiva y discutir la idea de que “no había alternativa”.</p>
+          <p>La primera versión de este ejercicio trataba la pinza financiera de <b>$5,85 billones</b> como si pudiera restarse automáticamente del agujero salarial. La investigación posterior obligó a separar magnitudes: ese monto mide <b>costo financiero diferencial del lado de los hogares</b>, no ganancia neta demostrada de bancos y Fintech.</p>
+          <p>Con la nueva lógica, el saldo observado sigue siendo <b>$12,35 billones</b> después de la recuperación salarial. La envolvente de otras partidas auditadas ronda <b>$1,52 billones</b>; si se reasignara uno-a-uno como sensibilidad, el saldo bajaría a aproximadamente <b>$10,83 billones</b>. El viejo resultado de <b>$4,98 billones</b> queda sólo como una sensibilidad extrema: además de esa reasignación, habría que reembolsar íntegramente los $5,85 billones de la pinza.</p>
+          <p>Para bancos ahora usamos otra pregunta y otro denominador: las cuentas de INDEC permiten estimar que, bajo contrafactuales conservadores, el sector podía absorber aproximadamente <b>21–38% del giro fiscal primario de 2024</b> sin terminar con una capacidad de ahorro inferior a la de 2023. Fintech queda fuera de ese porcentaje hasta contar con resultados consolidados comparables.</p>
+          <p>Según las estimaciones patrimoniales usadas en el dashboard, alrededor de <b>45.000 argentinos</b> concentran fortunas por aproximadamente <b>$158,27 billones</b>. El simulador de grandes fortunas conserva la meta de $4,98 billones como <b>escenario de sensibilidad</b>, no como “lo que todavía falta” en la cuenta central.</p>
+          <p>Eso no vuelve sencillo ni gratuito un impuesto, ni permite tratar un stock patrimonial como si fuera un flujo fiscal permanente. Pero sí permite poner las magnitudes en perspectiva y discutir la idea de que el reparto concreto del ajuste fuera la única alternativa posible.</p>
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-casta')">Ver La casta →</button><button class="story-link" type="button" onclick="activateTab('tab-meli-benefits')">Ver Privilegios fiscales →</button><button class="story-link" type="button" onclick="activateTab('tab-wealth-contribution')">Ver Grandes fortunas →</button></div>
         </article>
 
@@ -9371,6 +9383,8 @@ html,body{overflow-x:clip}
             <div class="bank-adjust-formula"><b>Tributario</b><code>(1,6 − 0,6) / 4,7 × 100</code></div>
             <div class="bank-adjust-formula"><b>Ahorro 2023</b><code>(4,0 − 2,2) / 4,7 × 100</code></div>
             <div class="bank-adjust-formula"><b>Histórico</b><code>(4,0 − promedio 2016–22) / 4,7 × 100</code></div>
+            <div class="bank-adjust-formula"><b>Pinza / agujero bruto</b><code>5,85 / 18,43 × 100 ≈ 31,8%</code></div>
+            <div class="bank-adjust-formula"><b>Pinza / saldo no recuperado</b><code>5,85 / (18,43 − 6,08) × 100 ≈ 47,4%</code></div>
           </div>
         </article>
         <article class="bank-adjust-note fintech">
@@ -12719,17 +12733,18 @@ html,body{overflow-x:clip}
   <section id="tab-wealth-contribution" class="tab-panel">
     <div class="method-shield">
       <span class="label">Grandes fortunas · simulador patrimonial auditable</span>
-      <strong>¿Cuánto tendría que aportar voluntariamente la parte más rica para reunir $4,98 billones sin perder una porción material de su patrimonio?</strong>
+      <strong>¿Cuánto tendría que aportar voluntariamente la parte más rica para reunir $4,98 billones en la sensibilidad de compensación integral, sin perder una porción material de su patrimonio?</strong>
       <span class="method-badge official">ARCA · Bienes Personales 2022</span>
       <span class="method-badge official">INDEC · IPC nacional</span>
       <span class="method-badge derived">estimación por tramos</span>
     </div>
 
     <section class="wealth-hero" id="wealthHero">
-      <div class="wealth-eyebrow">Una compensación hipotética · no agranda la cuenta del daño</div>
+      <div class="wealth-eyebrow">Sensibilidad patrimonial separada · no es el saldo central del daño</div>
       <h1>Grandes fortunas y aporte voluntario progresivo</h1>
       <p class="lead">La base son 895.111 declaraciones con bienes de ARCA. El aporte se calcula sólo sobre el excedente del umbral elegido, aumenta con el patrimonio y nunca supera el tope individual. Patrimonio no es ingreso: acá medimos stock de riqueza declarada.</p>
-      <div class="wealth-target"><strong>$ 4,98 billones</strong><span>meta única, expresada en pesos de junio de 2026</span></div>
+      <div class="wealth-target"><strong>$ 4,98 billones</strong><span>meta de la sensibilidad de compensación integral · pesos de junio de 2026</span></div>
+      <div class="family-mini-note"><b>Importante:</b> esta meta ya no representa “el resto del ajuste”. Es el resultado residual de un escenario extremo que supone reembolso integral de la pinza financiera más reasignación de las otras partidas auditadas. Se conserva para explorar escala patrimonial y comparabilidad con la versión anterior.</div>
     </section>
 
     <section class="wealth-controls" id="wealthControls">
@@ -12799,7 +12814,7 @@ html,body{overflow-x:clip}
 
 
     <section class="milei-cost-audit milei-financial-audit" id="mileiFinancialAuditCard">
-      <h3>Pinza financiera · cuánto descontaría si se soluciona</h3>
+      <h3>Pinza financiera · costo para hogares vs capacidad de absorción</h3>
       <div id="mileiFinancialAuditContent"></div>
       <div class="jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('tab-rates','ratesMoneySection')">Ver tasas, flujos y fuentes →</button></div>
     </section>
@@ -12835,6 +12850,13 @@ html,body{overflow-x:clip}
         <a class="source-link" href="https://www.indec.gob.ar/uploads/informesdeprensa/eph_total_urbano_ingresos_02_24918E35EE9D.pdf" target="_blank" rel="noopener">👥 Escala urbana · EPH 3T-2023</a>
         <a class="source-link" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31" target="_blank" rel="noopener">📈 Deflactor · IPC INDEC</a>
         <a class="source-link" href="https://www.bcra.gob.ar/tasas-de-interes/" target="_blank" rel="noopener">🏦 Pinza financiera · BCRA</a>
+        <a class="source-link" href="https://www.indec.gob.ar/uploads/informesdeprensa/cuentas_sociedades_financieras_12_254091CDBBA3.pdf" target="_blank" rel="noopener">📊 Capacidad bancaria · INDEC sociedades financieras 2024</a>
+        <a class="source-link" href="https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-diciembre-de-2023/" target="_blank" rel="noopener">🏦 Solvencia/rentabilidad · BCRA dic-2023</a>
+        <a class="source-link" href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc1224.pdf" target="_blank" rel="noopener">🏦 Solvencia/rentabilidad · BCRA dic-2024</a>
+        <a class="source-link" href="https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-junio-de-2026/" target="_blank" rel="noopener">🏦 Solvencia/rentabilidad · BCRA jun-2026</a>
+        <a class="source-link" href="https://www.argentina.gob.ar/node/414285" target="_blank" rel="noopener">🏛️ Giro fiscal · MECON 2023</a>
+        <a class="source-link" href="https://www.argentina.gob.ar/node/455054" target="_blank" rel="noopener">🏛️ Giro fiscal · MECON 2024</a>
+        <a class="source-link" href="https://www.imf.org/-/media/Files/Publications/CR/2024/English/1ARGEA2024002.ashx" target="_blank" rel="noopener">🌐 Denominador alternativo · FMI ~5 pp</a>
         <a class="source-link" href="https://www.sec.gov/Archives/edgar/data/1099590/000109959026000006/meli-20251231.htm" target="_blank" rel="noopener">📄 Mercado Libre · SEC 10-K 2025</a>
         <a class="source-link" href="https://www.boletinoficial.gob.ar/detalleAviso/primera/344407/20260716?anexos=1" target="_blank" rel="noopener">📘 SIDE · DNU 594/2026</a>
         <a class="source-link" href="https://www.senado.gob.ar/bundles/senadoportal/webNueva/pdf/dietas/DR8_24.pdf" target="_blank" rel="noopener">🏛️ Senado · DR 8/24</a>
@@ -12842,11 +12864,11 @@ html,body{overflow-x:clip}
         <a class="source-link" href="#" data-source-path="data/derivados/AUDITORIA_PINZA_FINANCIERA.md">🧮 Auditoría · pinza financiera</a>
         <a class="source-link" href="#" data-source-path="data/fuentes/FUENTES.csv">🗂️ Manifiesto general · archivos y hashes</a>
       </div>
-      <div class="sources-note"><b>Trazabilidad:</b> la cuenta salarial central usa INDEC salarios + IPC + EPH. Los demás importes no se presentan como una sola contabilidad: cada tarjeta conserva su fuente, actor, período y estatus, y remite al tab especializado cuando necesita el cálculo completo.</div>
+      <div class="sources-note"><b>Trazabilidad:</b> la cuenta salarial central usa INDEC salarios + IPC + EPH. La pinza usa tasas y stocks del BCRA y se conserva como costo del lado hogar. La capacidad bancaria usa Cuentas Nacionales de INDEC + resultado fiscal MECON/FMI. <b>No se suman entre sí porque tienen denominadores distintos.</b> Los demás importes conservan fuente, actor, período y estatus.</div>
     </section>
 
     <footer>
-      <b>Regla editorial:</b> el tab busca que una frase fuerte pueda ser auditada de punta a punta. Cuando la atribución pertenece al Senado, a un régimen previo o a un crédito todavía no ejecutado, se dice explícitamente. Los botones llevan al panel original con fuentes, fórmulas y caveats.
+      <b>Regla editorial:</b> el tab busca que una frase fuerte pueda ser auditada de punta a punta. <b>Costo para hogares, ganancia contable y capacidad de absorción son categorías distintas.</b> Cuando la atribución pertenece al Senado, a un régimen previo o a un crédito todavía no ejecutado, se dice explícitamente. Los botones llevan al panel original con fuentes, fórmulas y caveats.
     </footer>
   </section>
 
@@ -13747,7 +13769,7 @@ function renderWealthTable(s){const y=s.horizonYears||1;document.getElementById(
 function renderWealthHistory(s){const d=wealthContributionData;document.getElementById('wealthHistoryContent').innerHTML=`<div class="wealth-history-grid"><div><span>Recaudación 2021</span><b>$ 248.006 M</b></div><div><span>A pesos jun-2026</span><b>${gfMoney(d.historicalReal)}</b></div><div><span>Aportantes</span><b>≈ ${gfCount(d.historicalContributors)}</b></div><div><span>Pago medio real</span><b>${gfMoney(d.historicalReal/d.historicalContributors)}</b></div></div><div class="wealth-history-callout"><b>La escala histórica casi coincide con la meta:</b> equivale a ${gfPct(d.historicalReal/d.target,1)} de los ${gfMoney(d.target)}. Pero el Aporte Solidario fue obligatorio, extraordinario y por única vez; tuvo mínimo legal de $200 M de dic-2020 (≈ ${gfMoney(d.historicalThresholdReal)} de jun-2026) y alícuotas nominales de 2%–3,5%, con incremento para bienes del exterior. La tasa efectiva promedio observada no está publicada en los agregados oficiales revisados, así que no la inventamos.</div>`}
 function renderWealthCompensationInMilei(){
   const box=document.getElementById('mileiWealthCompensation');if(!box)return;const fallbackYears=wealthScenarioState.horizonYears||1;const s=wealthScenarioState.result||gfSolve(wealthScenarioState.threshold,wealthScenarioState.participation,wealthScenarioState.cap,wealthScenarioState.underdeclared,wealthContributionData.target/fallbackYears);const years=s.horizonYears||fallbackYears,totalContribution=s.revenue*years,coverage=Math.min(1,totalContribution/wealthContributionData.target),remaining=Math.max(0,wealthContributionData.target-totalContribution),surplus=Math.max(0,totalContribution-wealthContributionData.target);
-  box.innerHTML=`<div class="eyebrow">Compensación hipotética separada · no se suma al daño</div><h2>Si las grandes fortunas aportaran voluntariamente</h2><p>Este bloque responde otra pregunta: cuánto de la meta específica de ${gfMoney(wealthContributionData.target)} podría financiarse. No agranda los $18,43 billones ni duplica salarios, bancos, Fintech, SIDE o Mercado Libre.</p><div class="milei-wealth-grid"><div><span>Costo / meta a compensar</span><b>${gfMoney(wealthContributionData.target)}</b></div><div><span>Aporte del escenario</span><b>+ ${gfMoney(totalContribution)}</b></div><div><span>Cobertura</span><b>${gfPct(coverage,1)}</b></div><div><span>Resta por cubrir</span><b>${gfMoney(remaining)}</b></div></div><div class="milei-wealth-track" aria-label="Cobertura de la meta"><span style="width:${coverage*100}%"></span></div>${surplus>0?`<p><b>Excedente separado:</b> ${gfMoney(surplus)}. No se muestra como cobertura superior al 100%.</p>`:''}<p><b>Escenario:</b> umbral ${gfMoney(s.threshold)}, participación ${gfPct(s.participation,0)}, tope ${gfPct(s.cap,0)} ${years===1?'una vez':'por año durante 3 años'}${s.underdeclared?' y sensibilidad patrimonial +20%':''}. ${s.feasible?'La meta es contablemente alcanzable.':'Con estos límites no alcanza.'}</p><div class="wealth-jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('tab-wealth-contribution','wealthControls')">Abrir simulador y auditoría →</button></div>`;
+  box.innerHTML=`<div class="eyebrow">Sensibilidad patrimonial separada · no se suma al daño</div><h2>Si las grandes fortunas aportaran voluntariamente</h2><p>Este bloque conserva la meta de ${gfMoney(wealthContributionData.target)} porque corresponde a la <b>sensibilidad de compensación integral</b> de la versión anterior. Ya no se presenta como el saldo central del daño ni como una deuda que deba cubrirse necesariamente.</p><div class="milei-wealth-grid"><div><span>Meta de sensibilidad</span><b>${gfMoney(wealthContributionData.target)}</b></div><div><span>Aporte del escenario</span><b>+ ${gfMoney(totalContribution)}</b></div><div><span>Cobertura de esa meta</span><b>${gfPct(coverage,1)}</b></div><div><span>Resta de esa meta</span><b>${gfMoney(remaining)}</b></div></div><div class="milei-wealth-track" aria-label="Cobertura de la meta de sensibilidad"><span style="width:${coverage*100}%"></span></div>${surplus>0?`<p><b>Excedente separado:</b> ${gfMoney(surplus)}. No se muestra como cobertura superior al 100%.</p>`:''}<p><b>Escenario:</b> umbral ${gfMoney(s.threshold)}, participación ${gfPct(s.participation,0)}, tope ${gfPct(s.cap,0)} ${years===1?'una vez':'por año durante 3 años'}${s.underdeclared?' y sensibilidad patrimonial +20%':''}. ${s.feasible?'La meta de sensibilidad es contablemente alcanzable.':'Con estos límites no alcanza esa meta.'}</p><div class="wealth-jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('tab-wealth-contribution','wealthControls')">Abrir simulador y auditoría →</button></div>`;
 }
 
 function mileiCostPct(v,total){return total>0?v/total*100:0}
@@ -13766,164 +13788,177 @@ function renderMileiCost(){
   const p=powerRescueParams;
   const meli=meliRecentConversion();
   if(!loss||!gap||!meli)return;
+
   const penRealText=castaPct(castaSummary().realPct);
   const meliArs=meli.jun26Bn*1e9;
   const months=gap.mirrorMonths;
-  const perMonth=loss.perWorkerCurrent/months;
   const lostMonths=Math.abs(gap.net);
   const massJun26=loss.baseMonthlyMass*powerAggregateLossParams.cpiJun2026VsNov2023;
-  const broad=p.taxPrivilegesAnnual+p.sideExtraCredit+p.penCatchupAnnualized+p.senateNetAnnualFloor+meliArs;
+  const auditedEnvelope=p.taxPrivilegesAnnual+p.sideExtraCredit+p.penCatchupAnnualized+p.senateNetAnnualFloor+meliArs;
   const grossShock=loss.grossCurrent;
   const salaryRecovered=loss.recoveredCurrent;
   const salaryRemaining=loss.netCurrent;
-  const bankCreditReturn=Math.max(0,-ratesMoneySummary.post.impacto_hogar_banco);
-  const bankPfReturn=Math.max(0,-ratesMoneySummary.post.impacto_hogar_pf);
-  const bankReturn=bankCreditReturn+bankPfReturn;
-  const fintechReturn=Math.max(0,-ratesMoneySummary.post.impacto_hogar_fintech);
-  const financialRelief=bankReturn+fintechReturn;
+
+  // La pinza se conserva como costo medido del lado hogar. NO se resta automáticamente de la cuenta central.
+  const bankCreditHouseholdCost=Math.max(0,-ratesMoneySummary.post.impacto_hogar_banco);
+  const bankPfHouseholdCost=Math.max(0,-ratesMoneySummary.post.impacto_hogar_pf);
+  const bankHouseholdCost=bankCreditHouseholdCost+bankPfHouseholdCost;
+  const fintechHouseholdCost=Math.max(0,-ratesMoneySummary.post.impacto_hogar_fintech);
+  const financialHouseholdCost=bankHouseholdCost+fintechHouseholdCost;
+  const financialGrossPct=mileiCostPct(financialHouseholdCost,grossShock);
+  const financialRemainingPct=mileiCostPct(financialHouseholdCost,salaryRemaining);
   const fintechWindowChange=Math.abs(ratesMoneySummary.diferencial.impacto_hogar_fintech);
-  const remainingAfterBank=Math.max(0,salaryRemaining-bankReturn);
-  const remainingAfterFintech=Math.max(0,remainingAfterBank-fintechReturn);
-  const remainingAfterPinza=remainingAfterFintech;
-  const remainingAfterTax=Math.max(0,remainingAfterFintech-p.taxPrivilegesAnnual);
-  const remainingAfterMeli=Math.max(0,remainingAfterTax-meliArs);
-  const remainingAfterSide=Math.max(0,remainingAfterMeli-p.sideExtraCredit);
-  const remainingAfterPen=Math.max(0,remainingAfterSide-p.penCatchupAnnualized);
-  const finalRemaining=Math.max(0,remainingAfterPen-p.senateNetAnnualFloor);
+
+  // Escenarios que sí pertenecen a la cuenta salarial en pesos, siempre rotulados como sensibilidades.
+  const remainingAfterEnvelope=Math.max(0,salaryRemaining-auditedEnvelope);
+  const fullCompensationRemaining=Math.max(0,remainingAfterEnvelope-financialHouseholdCost);
+
+  // Capacidad bancaria: otro denominador (giro fiscal en puntos del PBI), jamás se resta de $18,43 B.
+  const bankModel=typeof bankAdjustModel==='function'?bankAdjustModel():null;
+  const bankTaxPct=bankModel?.taxPct;
+  const bankSavingPct=bankModel?.savingPct;
+  const bankHistoricalPct=bankModel?.historicalPct;
+  const bankRange=Number.isFinite(bankTaxPct)&&Number.isFinite(bankSavingPct)
+    ?`≈ ${bankTaxPct.toLocaleString('es-AR',{maximumFractionDigits:0})}–${bankSavingPct.toLocaleString('es-AR',{maximumFractionDigits:0})}%`
+    :'≈ 21–38%';
+  const bankHistorical=Number.isFinite(bankHistoricalPct)
+    ?`≈ ${bankHistoricalPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%`
+    :'≈ 60,5%';
+
   const salaryRecoveredPct=mileiCostPct(salaryRecovered,grossShock);
-  const financialReliefPct=mileiCostPct(financialRelief,grossShock);
-  const editorialPct=mileiCostPct(broad,grossShock);
-  const finalRemainingPct=mileiCostPct(finalRemaining,grossShock);
+  const salaryRemainingPct=mileiCostPct(salaryRemaining,grossShock);
+  const envelopePct=mileiCostPct(auditedEnvelope,grossShock);
+  const envelopeRemainingPct=mileiCostPct(remainingAfterEnvelope,grossShock);
+
   const wealthScenarioForTable=wealthScenarioState.result||gfSolve(wealthScenarioState.threshold,wealthScenarioState.participation,wealthScenarioState.cap,wealthScenarioState.underdeclared,wealthContributionData.target/(wealthScenarioState.horizonYears||1));
   const wealthScenarioYears=wealthScenarioForTable.horizonYears||wealthScenarioState.horizonYears||1;
   const wealthScenarioTotal=wealthScenarioForTable.revenue*wealthScenarioYears;
   const wealthScenarioCoverage=Math.min(1,wealthScenarioTotal/wealthContributionData.target);
   const wealthScenarioRemaining=Math.max(0,wealthContributionData.target-wealthScenarioTotal);
   renderWealthCompensationInMilei();
-  const latestRealLevel=powerTotalAllOfficial.yNov.at(-1);
-  const monthlyBaseSurplus=Math.max(0,latestRealLevel/100-1);
-  const monthsAtJuneLevel=monthlyBaseSurplus>0?lostMonths/monthlyBaseSurplus:null;
 
   hero.innerHTML=`
-    <div class="milei-cost-eyebrow">Cuenta unificada · asalariados urbanos · dic-2023 → ${powerAccumShortDate(loss.latestDate)}</div>
-    <div class="milei-cost-title">Agujero bruto generado: la cuenta madre desde la que descontamos cada recuperación o solución</div>
+    <div class="milei-cost-eyebrow">Cuenta salarial + alternativas · asalariados urbanos · dic-2023 → ${powerAccumShortDate(loss.latestDate)}</div>
+    <div class="milei-cost-title">Primero medimos el daño. Después, por separado, preguntamos quién tenía capacidad para absorber más ajuste.</div>
     <div class="milei-cost-amount">${powerMoneyBillions(grossShock)}</div>
     <div class="milei-cost-sub">
-      Este es el total de las caídas salariales mensuales antes de restar la recuperación posterior. Desde acá descontamos siempre contra la misma base: recuperación salarial observada, pinza financiera si se corrigiera y envolvente de recursos ya auditada.
+      El agujero bruto salarial sigue siendo la cuenta madre. La recuperación observada sí se descuenta. La pinza financiera de ${powerMoneyBillions(financialHouseholdCost)} queda como <b>costo equivalente soportado por hogares</b>, no como una devolución demostrada. La capacidad bancaria se mide aparte contra el giro fiscal de 2024.
     </div>
     <div class="milei-cost-kpis">
-      <div class="milei-cost-kpi"><div class="tag">Ya volvió por salarios</div><div class="val household-relief">+ ${powerMoneyBillions(salaryRecovered)}</div><div class="mini">A favor de los hogares · recuperación observada.</div></div>
-      <div class="milei-cost-kpi"><div class="tag">Saldo salarial</div><div class="val">${powerMoneyBillions(salaryRemaining)}</div><div class="mini">Lo que queda después de la recuperación.</div></div>
-      <div class="milei-cost-kpi"><div class="tag">Si bancos + Fintech devolvieran / compensaran</div><div class="val household-relief">+ ${powerMoneyBillions(financialRelief)}</div><div class="mini">Volvería al hogar; por eso baja el agujero.</div></div>
-      <div class="milei-cost-kpi"><div class="tag">Si se recuperara la envolvente</div><div class="val household-relief">+ ${powerMoneyBillions(broad)}</div><div class="mini">Volvería o se reasignaría a favor del hogar.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">Recuperación observada</div><div class="val household-relief">+ ${powerMoneyBillions(salaryRecovered)}</div><div class="mini">Volvió vía salarios; éste sí es un descuento observado.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">Saldo salarial observado</div><div class="val">${powerMoneyBillions(salaryRemaining)}</div><div class="mini">Lo que sigue sin recuperarse en el contrafactual salarial.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">Pinza financiera · costo hogar</div><div class="val">${powerMoneyBillions(financialHouseholdCost)}</div><div class="mini">${financialGrossPct.toLocaleString('es-AR',{maximumFractionDigits:1})}% del agujero bruto · ${financialRemainingPct.toLocaleString('es-AR',{maximumFractionDigits:1})}% del saldo. No se resta automáticamente.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">Capacidad bancaria · ajuste 2024</div><div class="val">${bankRange}</div><div class="mini">Del giro fiscal primario de 4,7 pp bajo los dos escenarios conservadores. Otro denominador.</div></div>
     </div>`;
 
   bridge.innerHTML=`
-    <div class="eyebrow">Cuenta unificada · todo parte de ${powerMoneyBillions(grossShock)}</div>
-    <h2>¿Cuánto quedaría si bancos, Fintech y partidas auditadas devolvieran “lo robado” o compensaran estos montos?</h2>
-    <p class="lead">Cada monto verde es positivo para el hogar. En la fórmula se resta del agujero porque representa dinero que volvería, una compensación o recursos que se reasignarían.</p>
+    <div class="eyebrow">Nueva lógica · observado ≠ costo equivalente ≠ capacidad de pago</div>
+    <h2>La cuenta ya no trata los $5,85 billones como si fueran ganancia o devolución bancaria.</h2>
+    <p class="lead">Hay tres preguntas distintas: cuánto ingreso salarial quedó sin recuperar; cuánto costó el entorno financiero a los hogares; y cuánto del ajuste fiscal podía absorber el sector bancario. Sólo la primera vive dentro de la cuenta salarial central.</p>
     <div class="milei-bridge-grid">
-      <div class="milei-bridge-card"><div class="tag">1 · Agujero bruto</div><div class="val">${powerMoneyBillions(grossShock)}</div></div>
-      <div class="milei-bridge-card recovered"><div class="tag">2 · Volvió por salarios</div><div class="val household-relief">+ ${powerMoneyBillions(salaryRecovered)}</div></div>
-      <div class="milei-bridge-card financial"><div class="tag">3 · Devolverían bancos + Fintech</div><div class="val household-relief">+ ${powerMoneyBillions(financialRelief)}</div></div>
-      <div class="milei-bridge-card editorial"><div class="tag">4 · Volvería por otras partidas</div><div class="val household-relief">+ ${powerMoneyBillions(broad)}</div></div>
-      <div class="milei-bridge-card remaining"><div class="tag">5 · Todavía falta</div><div class="val">${powerMoneyBillions(finalRemaining)}</div></div>
+      <div class="milei-bridge-card"><div class="tag">1 · Agujero salarial bruto</div><div class="val">${powerMoneyBillions(grossShock)}</div></div>
+      <div class="milei-bridge-card recovered"><div class="tag">2 · Recuperación salarial observada</div><div class="val household-relief">+ ${powerMoneyBillions(salaryRecovered)}</div></div>
+      <div class="milei-bridge-card remaining"><div class="tag">3 · Saldo observado</div><div class="val">${powerMoneyBillions(salaryRemaining)}</div></div>
+      <div class="milei-bridge-card editorial"><div class="tag">4 · Envolvente auditada · sensibilidad</div><div class="val">${powerMoneyBillions(auditedEnvelope)}</div></div>
+      <div class="milei-bridge-card financial"><div class="tag">5 · Pinza · métrica separada</div><div class="val">${powerMoneyBillions(financialHouseholdCost)}</div></div>
     </div>
-    <div class="milei-shock-track" aria-label="Cuenta unificada para amortiguar el shock">
+    <div class="milei-shock-track" aria-label="Cuenta salarial observada">
       <span class="salary" style="width:${salaryRecoveredPct}%"></span>
-      <span class="financial" style="width:${financialReliefPct}%"></span>
-      <span class="editorial" style="width:${editorialPct}%"></span>
-      <span class="remaining" style="width:${finalRemainingPct}%"></span>
+      <span class="remaining" style="width:${salaryRemainingPct}%"></span>
     </div>
     <div class="milei-shock-legend">
-      <span><i style="background:#69b498"></i>Recuperación salarial: ${salaryRecoveredPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span>
-      <span><i style="background:#6670bb"></i>Pinza si se soluciona: ${financialReliefPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span>
-      <span><i style="background:#dba348"></i>Envolvente auditada: ${editorialPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span>
-      <span><i style="background:#c45579"></i>Remanente: ${finalRemainingPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span>
+      <span><i style="background:#69b498"></i>Recuperación salarial observada: ${salaryRecoveredPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span>
+      <span><i style="background:#c45579"></i>Saldo todavía no recuperado: ${salaryRemainingPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span>
     </div>
-    <div class="milei-shock-formula">${powerMoneyBillions(grossShock)} − ${powerMoneyBillions(salaryRecovered)} − ${powerMoneyBillions(financialRelief)} − ${powerMoneyBillions(broad)} = <strong>${powerMoneyBillions(finalRemaining)}</strong> todavía por amortiguar</div>
+    <div class="milei-shock-formula">Cuenta observada: ${powerMoneyBillions(grossShock)} − ${powerMoneyBillions(salaryRecovered)} = <strong>${powerMoneyBillions(salaryRemaining)}</strong> todavía sin recuperar</div>
+    <div class="milei-shock-scenario"><b>Sensibilidad de reasignación:</b> si la envolvente auditada de ${powerMoneyBillions(auditedEnvelope)} pudiera redirigirse uno-a-uno a esta cuenta, el saldo sería <b>${powerMoneyBillions(remainingAfterEnvelope)}</b>. Es una simulación de uso alternativo de recursos, no dinero que efectivamente volvió al hogar.</div>
+    <div class="milei-shock-scenario"><b>Sensibilidad extrema heredada:</b> sólo si además se reembolsara íntegramente la pinza de ${powerMoneyBillions(financialHouseholdCost)}, el saldo bajaría a <b>${powerMoneyBillions(fullCompensationRemaining)}</b>. Éste es el viejo “$4,98 B”: queda conservado para comparar escenarios, <b>no como resultado central</b>.</div>
     <div class="milei-unified-components" aria-label="Desglose de la envolvente auditada">
-      <div><span>Privilegios fiscales</span><b class="household-plus">+ ${powerMoneyBillions(p.taxPrivilegesAnnual)} al hogar</b></div>
-      <div><span>Mercado Libre</span><b class="household-plus">+ ${mileiCostMoney(meliArs)} al hogar</b></div>
-      <div><span>SIDE</span><b class="household-plus">+ ${mileiCostMoney(p.sideExtraCredit)} al hogar</b></div>
-      <div><span>Cúpula PEN</span><b class="household-plus">+ ${mileiCostMoney(p.penCatchupAnnualized)} al hogar</b></div>
-      <div><span>Dietas del Senado</span><b class="household-plus">+ ${mileiCostMoney(p.senateNetAnnualFloor)} al hogar</b></div>
-    </div>
-    <div class="milei-shock-scenario"><b>Lectura corta:</b> después de la recuperación salarial quedaban <b>${powerMoneyBillions(salaryRemaining)}</b>. Si bancos y Fintech compensaran el saldo negativo pos-shock, volverían <b class="household-plus">+${powerMoneyBillions(financialRelief)} al hogar</b> y el agujero bajaría a <b>${powerMoneyBillions(remainingAfterPinza)}</b>. La cuenta incluye banco <b>${powerMoneyBillions(bankReturn)}</b> y Fintech <b>${powerMoneyBillions(fintechReturn)}</b>, sin doble conteo.</div>`;
-
+      <div><span>Privilegios fiscales</span><b>${powerMoneyBillions(p.taxPrivilegesAnnual)}</b></div>
+      <div><span>Mercado Libre</span><b>${mileiCostMoney(meliArs)}</b></div>
+      <div><span>SIDE</span><b>${mileiCostMoney(p.sideExtraCredit)}</b></div>
+      <div><span>Cúpula PEN</span><b>${mileiCostMoney(p.penCatchupAnnualized)}</b></div>
+      <div><span>Dietas del Senado</span><b>${mileiCostMoney(p.senateNetAnnualFloor)}</b></div>
+    </div>`;
 
   returns.innerHTML=`
-    <div class="milei-return-eyebrow">“Si devolvieran lo robado” · ejercicio contrafactual por actor</div>
-    <h2>“Si devolvieran lo cobrado o reasignaran estos recursos”, ¿cuánto del agujero se amortiguaría?</h2>
-    <p class="lead">Partimos del saldo salarial que todavía falta recuperar. Después aplicamos cada devolución o compensación una sola vez y mostramos, paso a paso, cuánto agujero queda.</p>
-    <div class="milei-return-sign-rule"><span class="plus">+$</span><span><b>En este bloque, verde siempre significa dinero o alivio a favor del hogar.</b> La cuenta resta ese alivio del agujero: no es un “menos para la gente”, sino un “menos deuda por amortiguar”.</span></div>
+    <div class="milei-return-eyebrow">Finanzas · tres magnitudes que no deben mezclarse</div>
+    <h2>Lo que pagó el hogar no es lo mismo que lo que ganó el banco, ni que lo que el banco podía absorber.</h2>
+    <p class="lead">La pinza financiera sigue siendo útil, pero ahora ocupa su lugar correcto: mide una carga extraordinaria estimada del lado del hogar. La capacidad de absorción bancaria se calcula con cuentas macroeconómicas y tiene como denominador el ajuste fiscal de 2024.</p>
     <div class="milei-return-main">
       <article class="milei-return-card start">
-        <div class="step">Punto de partida</div><h3>Saldo después de la recuperación salarial</h3>
-        <div class="return-amount">${powerMoneyBillions(salaryRemaining)}</div>
-        <div class="breakdown">Este es el agujero que todavía queda; no es dinero a favor del hogar.</div>
+        <div class="step">Costo del lado hogar</div><h3>Pinza bancaria + Fintech</h3>
+        <div class="return-amount">${powerMoneyBillions(financialHouseholdCost)}</div>
+        <div class="breakdown">Banco + PF: ${powerMoneyBillions(bankHouseholdCost)} · Fintech: ${powerMoneyBillions(fintechHouseholdCost)}.</div>
+        <div class="after">Equivale a <b>${financialGrossPct.toLocaleString('es-AR',{maximumFractionDigits:1})}%</b> del agujero bruto y <b>${financialRemainingPct.toLocaleString('es-AR',{maximumFractionDigits:1})}%</b> del saldo salarial.</div>
       </article>
       <article class="milei-return-card bank">
-        <div class="step">Si los bancos devolvieran “lo robado” / compensaran</div><h3>Crédito bancario + plazo fijo</h3>
-        <div class="return-amount">+ ${powerMoneyBillions(bankReturn)}</div>
-        <div class="breakdown">Crédito: ${powerMoneyBillions(bankCreditReturn)} · ahorro en PF: ${powerMoneyBillions(bankPfReturn)}.</div>
-        <div class="after">El agujero bajaría a <b>${powerMoneyBillions(remainingAfterBank)}</b>.</div>
+        <div class="step">Capacidad contrafactual · bancos</div><h3>Escenarios conservadores</h3>
+        <div class="return-amount">${bankRange}</div>
+        <div class="breakdown">Porción del giro fiscal primario 2023→2024 que representan mantener la carga tributaria relativa de 2023 o mantener el ahorro/PBI de 2023.</div>
+        <div class="after">Escenario histórico más exigente: <b>${bankHistorical}</b>. No se suma ni se resta de los $18,43 B.</div>
       </article>
       <article class="milei-return-card fintech">
-        <div class="step">Si las Fintech devolvieran “lo robado” / compensaran</div><h3>Pata Fintech separada</h3>
-        <div class="return-amount">+ ${powerMoneyBillions(fintechReturn)}</div>
-        <div class="breakdown">Saldo pos-shock contra su norma histórica. No está duplicado dentro de bancos.</div>
-        <div class="after">El agujero bajaría a <b>${powerMoneyBillions(remainingAfterFintech)}</b>.</div>
+        <div class="step">Capacidad contrafactual · Fintech</div><h3>Todavía no estimable</h3>
+        <div class="return-amount">N/D</div>
+        <div class="breakdown">La pinza Fintech sí mide costo para usuarios, pero falta un P&amp;L consolidado comparable para descontar fondeo, mora, previsiones, gastos e impuestos.</div>
+        <div class="after">Por eso Fintech <b>no entra</b> en el ${bankRange} bancario.</div>
       </article>
       <article class="milei-return-card end">
-        <div class="step">Después de toda la pinza</div><h3>Lo que todavía faltaría amortiguar</h3>
-        <div class="return-amount">${powerMoneyBillions(remainingAfterFintech)}</div>
-        <div class="breakdown">Bancos + Fintech devolverían/compensarían ${powerMoneyBillions(financialRelief)} en este contrafactual.</div>
+        <div class="step">Sólo como sensibilidad extrema</div><h3>Reembolso integral de la pinza</h3>
+        <div class="return-amount">${powerMoneyBillions(fullCompensationRemaining)}</div>
+        <div class="breakdown">Saldo que quedaría si se reasignara toda la envolvente auditada y además se reembolsara el 100% del costo financiero estimado.</div>
+        <div class="after">Se conserva para comparar con la versión anterior; <b>no es la estimación central</b>.</div>
       </article>
     </div>
-    <div class="milei-return-others-title">Y si también volvieran o se reasignaran las otras partidas auditadas:</div>
+    <div class="milei-return-others-title">Otras partidas auditadas: escenarios de reasignación, no “devoluciones” automáticas</div>
     <div class="milei-return-others">
-      <article class="milei-return-other"><div class="actor">Privilegios fiscales prudentes</div><div class="amount">+ ${powerMoneyBillions(p.taxPrivilegesAnnual)}</div><div class="action">Si se recuperaran o reasignaran.</div><div class="after">Quedaría ${powerMoneyBillions(remainingAfterTax)}.</div></article>
-      <article class="milei-return-other"><div class="actor">Mercado Libre</div><div class="amount">+ ${mileiCostMoney(meliArs)}</div><div class="action">Si no hubiera recibido esos beneficios/subsidios fiscales, o se recuperara un equivalente.</div><div class="after">Quedaría ${powerMoneyBillions(remainingAfterMeli)}.</div></article>
-      <article class="milei-return-other"><div class="actor">SIDE</div><div class="amount">+ ${mileiCostMoney(p.sideExtraCredit)}</div><div class="action">Si devolviera o no utilizara el refuerzo de crédito.</div><div class="after">Quedaría ${powerMoneyBillions(remainingAfterSide)}.</div></article>
-      <article class="milei-return-other"><div class="actor">Cúpula del PEN</div><div class="amount">+ ${mileiCostMoney(p.penCatchupAnnualized)}</div><div class="action">Si se revirtiera el extra nominal anualizado.</div><div class="after">Quedaría ${powerMoneyBillions(remainingAfterPen)}.</div></article>
-      <article class="milei-return-other"><div class="actor">Dietas del Senado</div><div class="amount">+ ${mileiCostMoney(p.senateNetAnnualFloor)}</div><div class="action">Si se revirtiera el piso anual relevado.</div><div class="after">Quedaría ${powerMoneyBillions(finalRemaining)}.</div></article>
+      <article class="milei-return-other"><div class="actor">Privilegios fiscales prudentes</div><div class="amount">${powerMoneyBillions(p.taxPrivilegesAnnual)}</div><div class="action">Recaudación potencial bajo otra regla.</div><div class="after">No es caja ya cobrada.</div></article>
+      <article class="milei-return-other"><div class="actor">Mercado Libre</div><div class="amount">${mileiCostMoney(meliArs)}</div><div class="action">Beneficios documentados durante el período.</div><div class="after">No equivale uno-a-uno a recaudación recuperable.</div></article>
+      <article class="milei-return-other"><div class="actor">SIDE</div><div class="amount">${mileiCostMoney(p.sideExtraCredit)}</div><div class="action">Crédito presupuestario adicional.</div><div class="after">Crédito autorizado ≠ gasto ejecutado.</div></article>
+      <article class="milei-return-other"><div class="actor">Cúpula del PEN</div><div class="amount">${mileiCostMoney(p.penCatchupAnnualized)}</div><div class="action">Extra nominal anualizado frente a congelar la escala.</div><div class="after">No demuestra enriquecimiento real.</div></article>
+      <article class="milei-return-other"><div class="actor">Dietas del Senado</div><div class="amount">${mileiCostMoney(p.senateNetAnnualFloor)}</div><div class="action">Piso anual derivado del salto relevado.</div><div class="after">Decisión del Senado, no del PEN.</div></article>
     </div>
     <div class="milei-return-total">
-      <p><b>Resultado del ejercicio completo:</b> primero volvieron ${powerMoneyBillions(salaryRecovered)} por recuperación salarial; después sumamos ${powerMoneyBillions(financialRelief)} de bancos + Fintech y ${powerMoneyBillions(broad)} de las otras partidas. Todo es alivio a favor del hogar.</p>
-      <div class="amount">Faltaría ${powerMoneyBillions(finalRemaining)}</div>
+      <p><b>Resultado central:</b> ${powerMoneyBillions(salaryRemaining)} siguen sin recuperarse en la cuenta salarial. <b>Sensibilidad fiscal:</b> ${powerMoneyBillions(remainingAfterEnvelope)} si la envolvente auditada se reasignara uno-a-uno. <b>Sensibilidad extrema:</b> ${powerMoneyBillions(fullCompensationRemaining)} si, además, se reembolsara íntegramente la pinza financiera.</p>
+      <div class="amount">Central: ${powerMoneyBillions(salaryRemaining)}</div>
     </div>
-    <div class="milei-return-caveat"><b>Lectura editorial contrafactual:</b> “devolver” agrupa mecanismos distintos —compensación financiera, reasignación presupuestaria o recuperación de beneficios— y no afirma una deuda judicial determinada. Las tarjetas de auditoría conservan la naturaleza y el período de cada dato.</div>`;
+    <div class="milei-return-caveat"><b>Regla nueva:</b> costo para hogares, ganancia contable y capacidad para absorber ajuste se mantienen separados. Ninguna cifra de tasas se convierte automáticamente en una deuda del prestamista con el hogar.</div>`;
 
   const card=(cls,pill,title,money,body,scaleText,tab,id)=>`<article class="milei-cost-card ${cls}">
     <span class="pill">${pill}</span><h3>${title}</h3><div class="money">${money}</div><p>${body}</p>
     <div class="scale">${scaleText}</div><div class="jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('${tab}','${id}')">Ver cálculo y fuentes →</button></div>
   </article>`;
   cards.innerHTML=
-    card('hot','Pérdida de ingresos','Saldo salarial después de la recuperación',powerMoneyBillions(loss.netCurrent),
-      'Es el saldo intermedio de la cuenta madre: al agujero bruto se le resta la recuperación salarial ya observada.',
-      `Representa ≈ ${mileiCostPct(loss.netCurrent,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de los ${powerMoneyBillions(grossShock)} iniciales.`, 'tab-power','powerAggregateLossBox')+
+    card('hot','Pérdida de ingresos','Saldo salarial después de la recuperación',powerMoneyBillions(salaryRemaining),
+      'Es el saldo observado dentro del contrafactual salarial: agujero bruto menos recuperación posterior.',
+      `Representa ≈ ${mileiCostPct(salaryRemaining,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de los ${powerMoneyBillions(grossShock)} iniciales.`, 'tab-power','powerAggregateLossBox')+
+    card('good','Capacidad de absorción · bancos','Bancos frente al ajuste fiscal',bankRange,
+      `No es una suma en pesos de la cuenta salarial. Compara el margen macroeconómico bancario con el giro fiscal primario de 2024. El escenario histórico más exigente da ${bankHistorical}.`,
+      'Fintech queda afuera de este porcentaje hasta contar con resultados consolidados comparables.', 'tab-rates','ratesBankCapacitySection')+
     card('warn','Política tributaria','Privilegios fiscales · recorte prudente',powerMoneyBillions(p.taxPrivilegesAnnual)+'/año',
-      'Cuenta trasladada acá: $0,882 billones por Ganancias de jueces/funcionarios judiciales + $0,350 billones por intereses de ON para personas físicas. Quedan deliberadamente afuera ≈ $3,67 billones de regímenes con impacto plausible sobre empleo, inversión, crédito o precios.',
-      `Si se corrigieran o reasignaran, descontarían ${powerMoneyBillions(p.taxPrivilegesAnnual)}: ≈ ${mileiCostPct(p.taxPrivilegesAnnual,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de la cuenta madre.`, 'tab-meli-benefits','meliOtherBenefitsChart')+
+      'Cuenta trasladada acá: $0,882 billones por Ganancias de jueces/funcionarios judiciales + $0,350 billones por intereses de ON para personas físicas. Quedan deliberadamente afuera regímenes con impacto plausible sobre empleo, inversión, crédito o precios.',
+      `Como sensibilidad de reasignación representan ≈ ${mileiCostPct(p.taxPrivilegesAnnual,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de la cuenta madre.`, 'tab-meli-benefits','meliOtherBenefitsChart')+
     card('warn','Régimen previo · beneficio durante el mandato','Mercado Libre · beneficios documentados',mileiCostMoney(meliArs),
-      `Piso de USD 134 M: 2024 USD 57 M (33 M de Ganancias + 24 M previsionales/laborales), 2025 ≥64 M y 1T26 ≥13 M. Se convierte con A3500 promedio por período y luego a pesos de jun-2026. El régimen es anterior a Milei: medimos lo documentado durante su gobierno, no una creación suya.`,
-      `Si se reorientara, descontaría ${mileiCostMoney(meliArs)}: ≈ ${mileiCostPct(meliArs,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre.`, 'tab-meli-benefits','meliArsChart')+
+      `Piso de USD 134 M documentado para 2024–1T26 y convertido a pesos de jun-2026. El régimen es anterior a Milei: medimos beneficios durante su gobierno, no una creación suya ni recaudación recuperable uno-a-uno.`,
+      `Equivale a ≈ ${mileiCostPct(meliArs,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre como referencia de escala.`, 'tab-meli-benefits','meliArsChart')+
     card('warn','PEN · presupuesto','SIDE · refuerzo de crédito 2026','+ '+mileiCostMoney(p.sideExtraCredit),
-      'Es el aumento de crédito presupuestario del DNU de julio de 2026. Crédito vigente no equivale a gasto ya ejecutado. En paralelo, Inteligencia pasó de 0,17% del gasto APN en 2023 a 0,23% en 2025.',
-      `Si ese refuerzo se reasignara, descontaría ${mileiCostMoney(p.sideExtraCredit)}: ≈ ${mileiCostPct(p.sideExtraCredit,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre.`, 'tab-casta','castaSideChart')+
+      'Es el aumento de crédito presupuestario del DNU de julio de 2026. Crédito vigente no equivale a gasto ya ejecutado.',
+      `Equivale a ≈ ${mileiCostPct(p.sideExtraCredit,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre como referencia de escala.`, 'tab-casta','castaSideChart')+
     card('warn','Senado · no PEN','Salto de dietas aprobado en 2024','≥ '+mileiCostMoney(p.senateNetAnnualFloor)+'/año',
-      'Piso derivado con 72 bancas a partir del salto publicado de ~1,7 M a >4 M netos y 13 dietas. El aumento ocurrió durante Milei, pero fue una decisión del Senado: atribuírselo al Poder Ejecutivo sería falso.',
-      `Si se corrigiera ese piso anual, descontaría ${mileiCostMoney(p.senateNetAnnualFloor)}: ≈ ${mileiCostPct(p.senateNetAnnualFloor,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre.`, 'tab-casta','castaMandateChart')+
+      'Piso derivado con 72 bancas. El aumento ocurrió durante Milei, pero fue una decisión del Senado: atribuírselo al Poder Ejecutivo sería falso.',
+      `Equivale a ≈ ${mileiCostPct(p.senateNetAnnualFloor,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre como referencia de escala.`, 'tab-casta','castaMandateChart')+
     card('good','Acá no','Autoridades superiores del PEN',`${penRealText} real`,
-      `Ministros, Secretarios y Subsecretarios recibieron catch-up nominal desde 2026, pero a julio siguen debajo de dic-2023 contra IPC. El extra anualizado vs mantener la escala nominal congelada es ${mileiCostMoney(p.penCatchupAnnualized)}, pero no prueba que “se enriquecieron” en términos reales.`,
-      `Si se revirtiera sólo el extra nominal anualizado, descontaría ${mileiCostMoney(p.penCatchupAnnualized)}: ≈ ${mileiCostPct(p.penCatchupAnnualized,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre.`, 'tab-casta','castaInflationChart');
+      `Ministros, Secretarios y Subsecretarios recibieron catch-up nominal desde 2026, pero a julio siguen debajo de dic-2023 contra IPC. El extra anualizado vs mantener la escala nominal congelada es ${mileiCostMoney(p.penCatchupAnnualized)}, pero no prueba enriquecimiento real.`,
+      `El monto sólo entra en la envolvente como sensibilidad nominal; no como daño observado.`, 'tab-casta','castaInflationChart');
 
   formula.innerHTML=`
     <div><div class="step">1 · Sólo las caídas</div><div class="formula">Σ meses debajo de nov-2023=100 = <b>−${gap.grossLoss.toLocaleString('es-AR',{minimumFractionDigits:4,maximumFractionDigits:4})} sueldos-base</b>.</div></div>
     <div><div class="step">2 · Cuenta madre</div><div class="formula">Caídas × masa salarial-base × IPC = <b>${powerMoneyBillions(grossShock)}</b>.</div></div>
-    <div><div class="step">3 · Recuperación observada</div><div class="formula">Los meses posteriores arriba de 100 recuperaron <b>${powerMoneyBillions(salaryRecovered)}</b>; saldo salarial: <b>${powerMoneyBillions(salaryRemaining)}</b>.</div></div>
-    <div><div class="step">4 · Alivios a favor del hogar</div><div class="formula"><b class="household-plus">+${powerMoneyBillions(financialRelief)}</b> volverían por bancos + Fintech y <b class="household-plus">+${powerMoneyBillions(broad)}</b> por otras partidas. Al restarlos del agujero, quedarían <b>${powerMoneyBillions(finalRemaining)}</b>.</div></div>
+    <div><div class="step">3 · Recuperación observada</div><div class="formula">Los meses posteriores arriba de 100 recuperaron <b>${powerMoneyBillions(salaryRecovered)}</b>; saldo salarial observado: <b>${powerMoneyBillions(salaryRemaining)}</b>.</div></div>
+    <div><div class="step">4 · Sensibilidad de reasignación fiscal</div><div class="formula">Si la envolvente auditada de <b>${powerMoneyBillions(auditedEnvelope)}</b> pudiera redirigirse uno-a-uno, el saldo sería <b>${powerMoneyBillions(remainingAfterEnvelope)}</b>. Esto es contrafactual, no recuperación observada.</div></div>
+    <div><div class="step">5 · La pinza queda separada</div><div class="formula">${powerMoneyBillions(financialHouseholdCost)} / ${powerMoneyBillions(grossShock)} = <b>${financialGrossPct.toLocaleString('es-AR',{maximumFractionDigits:1})}%</b>; ${powerMoneyBillions(financialHouseholdCost)} / ${powerMoneyBillions(salaryRemaining)} = <b>${financialRemainingPct.toLocaleString('es-AR',{maximumFractionDigits:1})}%</b>. Es costo equivalente del hogar, <b>no descuento central</b>.</div></div>
+    <div><div class="step">6 · Capacidad bancaria · otro denominador</div><div class="formula">Carga tributaria relativa de 2023 → <b>≈${Number.isFinite(bankTaxPct)?bankTaxPct.toLocaleString('es-AR',{maximumFractionDigits:1}):'21,3'}%</b> del giro fiscal; ahorro/PBI 2023 → <b>≈${Number.isFinite(bankSavingPct)?bankSavingPct.toLocaleString('es-AR',{maximumFractionDigits:1}):'38,3'}%</b>. No se suman a la cuenta salarial.</div></div>
     <div class="inputs">
       <div class="step">Insumos auditables de la escala de 13,8 millones</div>
       <div class="milei-input-grid">
@@ -13937,30 +13972,32 @@ function renderMileiCost(){
       <div class="milei-input-note"><b>Cómo se infiere:</b> la EPH total urbano 3T-2023 aporta cantidades e ingresos medios; el Total índice de salarios lleva ese promedio hasta noviembre y el IPC lo reexpresa a junio de 2026. Es un supuesto de escala, no una nómina observada. La relación es lineal: si el salario-base supuesto cambiara 10%, la cuenta de ${powerMoneyBillions(grossShock)} cambiaría también 10%.</div>
     </div>`;
 
-  attribution.innerHTML=`<table class="milei-cost-table"><thead><tr><th>Componente</th><th>Monto visible</th><th>Cómo entra en los ${powerMoneyBillions(grossShock)}</th><th>Saldo después de aplicarlo</th></tr></thead><tbody>
-    <tr><td>Agujero salarial bruto</td><td><b>${powerMoneyBillions(grossShock)}</b></td><td class="attr-partial">Es la cuenta madre: 100% del punto de partida.</td><td>${powerMoneyBillions(grossShock)}</td></tr>
-    <tr><td>Recuperación salarial observada</td><td class="household-plus">+${powerMoneyBillions(salaryRecovered)} al hogar</td><td class="attr-yes">Como vuelve al hogar, se resta del agujero.</td><td><b>${powerMoneyBillions(salaryRemaining)}</b></td></tr>
-    <tr><td>Si bancos compensaran · crédito + PF</td><td class="household-plus">+${powerMoneyBillions(bankReturn)} al hogar</td><td class="attr-yes">Crédito ${powerMoneyBillions(bankCreditReturn)} + plazo fijo ${powerMoneyBillions(bankPfReturn)}.</td><td><b>${powerMoneyBillions(remainingAfterBank)}</b></td></tr>
-    <tr><td>Si Fintech compensaran</td><td class="household-plus">+${powerMoneyBillions(fintechReturn)} al hogar</td><td class="attr-yes">Pata Fintech pos-shock separada, sin doble conteo.</td><td><b>${powerMoneyBillions(remainingAfterFintech)}</b></td></tr>
-    <tr><td>Si se recuperara la envolvente auditada</td><td class="household-plus">+${powerMoneyBillions(broad)} al hogar</td><td class="attr-partial">Agrupa privilegios fiscales, Mercado Libre, SIDE, PEN y Senado.</td><td><b>${powerMoneyBillions(finalRemaining)}</b></td></tr>
-    <tr><td>Aporte voluntario de grandes fortunas</td><td class="household-plus">+${gfMoney(wealthScenarioTotal)} para compensar</td><td class="attr-no">No integra los ${powerMoneyBillions(grossShock)} de daño: es una vía hipotética y separada para financiar una meta específica de ${gfMoney(wealthContributionData.target)}.</td><td><b>${gfPct(wealthScenarioCoverage,1)} cubierto</b> · resta ${gfMoney(wealthScenarioRemaining)}</td></tr>
-    <tr><td>Fintech · cambio vs espejo</td><td>${mileiCostMoney(fintechWindowChange)}</td><td class="attr-partial">Es la variación entre ventanas, no el monto usado como devolución. Se conserva para responder si mejoró o empeoró.</td><td>${mileiCostPct(fintechWindowChange,grossShock).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})}% del total</td></tr>
-    <tr><td>Autoridades superiores del PEN</td><td>${penRealText} real</td><td class="attr-no">Funciona como control del relato; no agrega un monto ARS a la cuenta.</td><td>Sin modificación monetaria</td></tr>
+  attribution.innerHTML=`<table class="milei-cost-table"><thead><tr><th>Componente</th><th>Monto / métrica</th><th>Cómo se usa ahora</th><th>Resultado / lectura</th></tr></thead><tbody>
+    <tr><td>Agujero salarial bruto</td><td><b>${powerMoneyBillions(grossShock)}</b></td><td class="attr-partial">Cuenta madre salarial.</td><td>${powerMoneyBillions(grossShock)}</td></tr>
+    <tr><td>Recuperación salarial observada</td><td class="household-plus">+${powerMoneyBillions(salaryRecovered)} al hogar</td><td class="attr-yes">Es recuperación observada: sí se descuenta.</td><td><b>${powerMoneyBillions(salaryRemaining)}</b> sin recuperar</td></tr>
+    <tr><td>Pinza financiera · bancos + PF + Fintech</td><td>${powerMoneyBillions(financialHouseholdCost)}</td><td class="attr-partial">Costo equivalente del lado hogar. Se muestra como escala, <b>no como ganancia ni devolución</b>.</td><td>${financialGrossPct.toLocaleString('es-AR',{maximumFractionDigits:1})}% del bruto · ${financialRemainingPct.toLocaleString('es-AR',{maximumFractionDigits:1})}% del saldo</td></tr>
+    <tr><td>Capacidad contrafactual bancaria</td><td><b>${bankRange}</b> del giro fiscal</td><td class="attr-no">Otro denominador: consolidación fiscal 2024, no agujero salarial.</td><td>Escenario histórico exigente: ${bankHistorical}</td></tr>
+    <tr><td>Capacidad contrafactual Fintech</td><td><b>No estimada</b></td><td class="attr-no">Falta P&amp;L consolidado comparable.</td><td>No se suma al ${bankRange} bancario</td></tr>
+    <tr><td>Envolvente auditada</td><td>${powerMoneyBillions(auditedEnvelope)}</td><td class="attr-partial">Sólo como sensibilidad de reasignación uno-a-uno.</td><td>Quedaría <b>${powerMoneyBillions(remainingAfterEnvelope)}</b></td></tr>
+    <tr><td>Compensación integral de la pinza</td><td>${powerMoneyBillions(financialHouseholdCost)}</td><td class="attr-no">Sensibilidad extrema, no estimación central.</td><td>Con envolvente + pinza quedaría <b>${powerMoneyBillions(fullCompensationRemaining)}</b></td></tr>
+    <tr><td>Aporte voluntario de grandes fortunas</td><td class="household-plus">+${gfMoney(wealthScenarioTotal)}</td><td class="attr-no">Financia la meta heredada de sensibilidad de ${gfMoney(wealthContributionData.target)}; no el saldo central.</td><td><b>${gfPct(wealthScenarioCoverage,1)} de esa meta</b> · resta ${gfMoney(wealthScenarioRemaining)}</td></tr>
+    <tr><td>Fintech · cambio vs espejo</td><td>${mileiCostMoney(fintechWindowChange)}</td><td class="attr-partial">Variación entre ventanas; sirve para responder si empeoró o mejoró.</td><td>${mileiCostPct(fintechWindowChange,grossShock).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})}% del bruto sólo como escala</td></tr>
+    <tr><td>Autoridades superiores del PEN</td><td>${penRealText} real</td><td class="attr-no">Control del relato; no agrega daño monetario observado.</td><td>Sin modificación de la cuenta central</td></tr>
   </tbody></table>`;
 
   const scaleRows=[
     ['Recuperación salarial observada',salaryRecovered],
-    ['Balance financiero ampliado si se soluciona',financialRelief],
-    ['Envolvente auditada total',broad],
+    ['Pinza financiera · costo hogar (no se resta)',financialHouseholdCost],
+    ['Envolvente auditada · sensibilidad',auditedEnvelope],
     ['Privilegios fiscales · anual',p.taxPrivilegesAnnual],
     ['Mercado Libre · 2024–1T26 a jun-26',meliArs],
     ['SIDE · crédito adicional 2026',p.sideExtraCredit],
-    ['Fintech · saldo pos-shock si compensara',fintechReturn],
+    ['Fintech · costo hogar pos-shock',fintechHouseholdCost],
     ['Cúspide PEN · anualización nominal',p.penCatchupAnnualized],
     ['Senado · piso anual neto',p.senateNetAnnualFloor]
   ];
   scale.innerHTML=scaleRows.map(([name,v])=>{const pct=mileiCostPct(v,grossShock);return `<div class="milei-scale-row"><div class="milei-scale-head"><span>${name}</span><b>${pct.toLocaleString('es-AR',{minimumFractionDigits:pct<1?2:1,maximumFractionDigits:pct<1?2:1})}%</b></div><div class="milei-scale-track"><div class="milei-scale-fill" style="width:${Math.min(100,pct)}%"></div></div></div>`}).join('')+
-    `<div class="milei-cost-disclaimer"><b>Signo hogar:</b> salarios <span class="household-plus">+${powerMoneyBillions(salaryRecovered)}</span>, bancos + Fintech <span class="household-plus">+${powerMoneyBillions(financialRelief)}</span> y otras partidas <span class="household-plus">+${powerMoneyBillions(broad)}</span> son alivios. Se restan del agujero de ${powerMoneyBillions(grossShock)} y quedan <b>${powerMoneyBillions(finalRemaining)}</b> por amortiguar.</div>`;
+    `<div class="milei-cost-disclaimer"><b>Cómo leer esta escala:</b> todas las barras se expresan contra ${powerMoneyBillions(grossShock)} sólo para comparar tamaños. <b>No todas se restan.</b> El saldo observado es ${powerMoneyBillions(salaryRemaining)}; la reasignación de la envolvente dejaría ${powerMoneyBillions(remainingAfterEnvelope)} como sensibilidad; el viejo ${powerMoneyBillions(fullCompensationRemaining)} requiere además reembolsar íntegramente la pinza y queda marcado como escenario extremo.</div>`;
 }
 
 // ---------------- Tabs ----------------
@@ -18091,22 +18128,26 @@ function renderRatesMoney(){
   const fintech=s.fintech;
   document.getElementById('ratesFintechAmount').textContent=ratesMoneyArs(d.impacto_hogar_fintech,2,true);
   document.getElementById('ratesFintechNote').innerHTML=`<b>Diferencial Fintech post-shock vs espejo</b>. Saldo espejo ${ratesMoneyArs(m.impacto_hogar_fintech,2,true)} · post-shock ${ratesMoneyArs(p.impacto_hogar_fintech,2,true)}. La estimación usa TNA ponderada por saldos y stock real interpolado; marzo–julio 2026 conserva el último dato oficial. Es una proxy de carga financiera extraordinaria, <b>no de ganancia neta efectivamente cobrada</b>.`;
-  const financialRelief=Math.max(0,-p.impacto_hogar_total_ampliado);
+  const financialHouseholdCost=Math.max(0,-p.impacto_hogar_total_ampliado);
   const milei=document.getElementById('mileiFinancialAuditContent');
-  if(milei)milei.innerHTML=`
+  if(milei){
+    const bm=typeof bankAdjustModel==='function'?bankAdjustModel():null;
+    const bankRange=bm?`≈ ${bm.taxPct.toLocaleString('es-AR',{maximumFractionDigits:0})}–${bm.savingPct.toLocaleString('es-AR',{maximumFractionDigits:0})}%`:'≈ 21–38%';
+    milei.innerHTML=`
     <div class="milei-financial-grid">
       <div class="milei-financial-item">
-        <div class="audit-tag">Si los bancos compensaran · crédito + plazo fijo</div>
-        <div class="audit-amount household-plus">+${ratesMoneyArs(Math.max(0,-p.impacto_hogar_banco-p.impacto_hogar_pf))} al hogar</div>
-        <p>Crédito bancario: <b>${ratesMoneyArs(Math.max(0,-p.impacto_hogar_banco))}</b> · plazo fijo: <b>${ratesMoneyArs(Math.max(0,-p.impacto_hogar_pf))}</b>. Son saldos pos-shock contra sus normas históricas.</p>
+        <div class="audit-tag">Costo estimado del lado hogar · banco + plazo fijo</div>
+        <div class="audit-amount">${ratesMoneyArs(Math.max(0,-p.impacto_hogar_banco-p.impacto_hogar_pf))}</div>
+        <p>Crédito bancario: <b>${ratesMoneyArs(Math.max(0,-p.impacto_hogar_banco))}</b> · plazo fijo: <b>${ratesMoneyArs(Math.max(0,-p.impacto_hogar_pf))}</b>. Son saldos pos-shock contra sus normas históricas; <b>no utilidad neta bancaria</b>.</p>
       </div>
       <div class="milei-financial-item fintech">
-        <div class="audit-tag">Si las Fintech compensaran · pata separada</div>
-        <div class="audit-amount household-plus">+${ratesMoneyArs(Math.max(0,-p.impacto_hogar_fintech))} al hogar</div>
-        <p>No está duplicada dentro de bancos. Incluye ${p.fintech_meses_tna_observada} meses con TNA oficial y ${p.fintech_meses_tna_conservada} meses estimados.</p>
+        <div class="audit-tag">Costo estimado del lado hogar · Fintech</div>
+        <div class="audit-amount">${ratesMoneyArs(Math.max(0,-p.impacto_hogar_fintech))}</div>
+        <p>No está duplicada dentro de bancos. Incluye ${p.fintech_meses_tna_observada} meses con TNA oficial y ${p.fintech_meses_tna_conservada} meses estimados. <b>Capacidad de pago Fintech todavía no estimada</b>.</p>
       </div>
     </div>
-    <p class="milei-financial-summary"><b>Cómo entra en la cuenta de $18,43 billones:</b> bancos + Fintech compensarían <b class="household-plus">+${ratesMoneyArs(financialRelief)} a favor del hogar</b>; por eso el mismo monto se resta del agujero. Para responder si mejoró o empeoró, usamos otro dato: diferencial post − espejo <b>${ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true)}</b>.</p>`;
+    <p class="milei-financial-summary"><b>Nueva lógica para “Lo que te robó Milei”:</b> los ${ratesMoneyArs(financialHouseholdCost)} se conservan como <b>costo financiero equivalente soportado por hogares</b> y <b>ya no se restan automáticamente</b> de los $18,43 billones. La capacidad bancaria se estima por otra vía y otro denominador: <b>${bankRange} del giro fiscal primario de 2024</b> bajo los escenarios conservadores. El diferencial post − espejo sigue siendo <b>${ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true)}</b>.</p>`;
+  }
   renderRatesMoneyCharts();
 }
 function renderRatesMoneyCharts(){
@@ -21393,6 +21434,7 @@ document.querySelector('[data-tab="tab-tourism"]')?.addEventListener('click',()=
 window.addEventListener('resize',()=>{if(!tourRendered)return;['tourFlowChart','tourSpendChart','tourSummerChart','tourFxChart','tourOriginChart','tourDestinationChart'].forEach(id=>{const el=document.getElementById(id);if(el&&window.Plotly)Plotly.Plots.resize(el)})});
 </script>
 
+<!-- MILEI_COST_LOGIC_VERSION:151 -->
 <!-- PENDULO_POWER_HORIZONTAL_CONTROLS_VERSION:147 -->
 <script id="pendulo-poder-finance-evidence-v146">
 const PEND_POWER_CFT_SNAPSHOT=[{"period":"2023-06","provider_group":"Entidades financieras","provider_code":"EEFF","sample_n":15,"measure":"promedio del CFT máximo ofrecido","cft_pct":321.0,"source_grade":"A"},{"period":"2023-06","provider_group":"Proveedores no financieros de crédito","provider_code":"PNFC","sample_n":15,"measure":"promedio del CFT máximo ofrecido","cft_pct":588.0,"source_grade":"A"}];
