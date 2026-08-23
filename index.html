@@ -11651,7 +11651,7 @@ html,body{overflow-x:clip}
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">La historia larga: propiedad y alquiler desde Duhalde <span>♡</span></div>
-        <div class="kicker">hitos de fuentes distintas · no se empalman como una sola serie</div>
+        <div class="kicker">hitos de fuentes distintas · franjas por presidencia · no se empalman como una sola serie</div>
       </div>
       <div class="ho-history-grid">
         <div id="housingHistoryChart"></div>
@@ -15548,6 +15548,47 @@ const housingProgramSnapshots=[
   {period:'2019–ago-2023',indicator:'Viviendas entregadas · gestión nacional',value:125000,source:'Argentina.gob.ar · cifra administrativa'}
 ];
 
+
+// Vivienda · franjas y separadores presidenciales para series históricas.
+// Se agrega De la Rúa porque los gráficos largos comienzan en 2000.
+function housingMandateBandsDate(end='2026-12-31'){
+  return [
+    ['1999-12-10','2001-12-20','rgba(126,126,153,.055)'],
+    ['2002-01-02','2003-05-25','rgba(255,194,120,.060)'],
+    ['2003-05-25','2007-12-10','rgba(105,190,145,.055)'],
+    ['2007-12-10','2015-12-10','rgba(181,140,255,.050)'],
+    ['2015-12-10','2019-12-10','rgba(255,193,97,.055)'],
+    ['2019-12-10','2023-12-10','rgba(117,191,255,.055)'],
+    ['2023-12-10',end,'rgba(255,120,168,.055)']
+  ].map(d=>({type:'rect',xref:'x',yref:'paper',x0:d[0],x1:d[1],y0:0,y1:1,fillcolor:d[2],line:{width:0},layer:'below'}));
+}
+function housingMandateSeparatorsDate(){
+  return [
+    ['2002-01-02','#b69aae',2.0],
+    ['2003-05-25','#b69aae',2.0],
+    ['2007-12-10','#a994c9',2.0],
+    ['2015-12-10','#c5a16f',2.0],
+    ['2019-12-10','#8faec8',2.0],
+    ['2023-12-10','#c98ca4',2.4]
+  ].map(d=>({type:'line',xref:'x',yref:'paper',x0:d[0],x1:d[0],y0:0,y1:1,layer:'above',line:{color:d[1],width:d[2],dash:'dot'}}));
+}
+function housingMandateAnnotationsDate(mobile){
+  const labels=[
+    ['2000-09-01','De la Rúa',0],
+    ['2002-08-01','Duhalde',1],
+    ['2005-08-01','Néstor',0],
+    ['2011-08-01','CFK',1],
+    ['2017-10-01','Macri',0],
+    ['2021-11-01','Alberto',1],
+    ['2025-01-01','Milei',0]
+  ];
+  return labels.map(([x,name,row])=>({
+    x,y:mobile?(row?1.115:1.055):1.065,xref:'x',yref:'paper',text:name,showarrow:false,
+    font:{size:mobile?8.5:9.5,color:'#6d557b'},
+    bgcolor:'rgba(255,255,255,.88)',bordercolor:'rgba(226,210,235,.95)',borderwidth:1,borderpad:2
+  }));
+}
+
 function renderHousing(){
   const mobile=window.innerWidth<=720;
 
@@ -15620,11 +15661,16 @@ function renderHousing(){
       }
     ],{
       ...common,
-      margin:{l:mobile?52:66,r:mobile?12:24,t:mobile?150:100,b:mobile?34:42},
+      margin:{l:mobile?52:66,r:mobile?12:24,t:mobile?205:145,b:mobile?34:42},
       xaxis:{...common.xaxis,type:'date',range:['2000-07-01','2026-01-15'],dtick:mobile?'M60':'M36',tickformat:'%Y',fixedrange:true},
       yaxis:{...common.yaxis,title:'% de hogares',ticksuffix:'%',range:[7,81],fixedrange:true},
-      legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.13:1.10,font:{size:mobile?8:10}},
-      hovermode:'closest'
+      legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.24:1.18,font:{size:mobile?8:10}},
+      hovermode:'closest',
+      shapes:[...housingMandateBandsDate('2026-01-15'),...housingMandateSeparatorsDate()],
+      annotations:[
+        ...housingMandateAnnotationsDate(mobile),
+        {x:.01,y:1.145,xref:'paper',yref:'paper',text:'Franjas = presidencias · líneas punteadas = cambios de gobierno',showarrow:false,xanchor:'left',font:{size:mobile?8:9,color:'#8a748f'}}
+      ]
     },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   }
 
@@ -15635,10 +15681,11 @@ function renderHousing(){
     const y=housingMortgageAnnual.map(r=>r.real_jul2026_trillion);
     const labels=housingMortgageAnnual.map(r=>r.year===2026?'Jun-2026':`Dic-${r.year}`);
     const mortgageShapes=[
-      {type:'rect',xref:'x',yref:'paper',x0:'2001-01-01',x1:'2003-12-31',y0:0,y1:1,fillcolor:'rgba(223,88,140,.08)',line:{width:0},layer:'below'},
-      {type:'rect',xref:'x',yref:'paper',x0:'2016-04-01',x1:'2018-12-31',y0:0,y1:1,fillcolor:'rgba(96,71,191,.06)',line:{width:0},layer:'below'},
-      {type:'line',xref:'x',yref:'paper',x0:'2012-06-01',x1:'2012-06-01',y0:0,y1:1,line:{width:1.3,dash:'dot',color:'#af7c32'}},
-      {type:'line',xref:'x',yref:'paper',x0:'2023-12-10',x1:'2023-12-10',y0:0,y1:1,line:{width:1.3,dash:'dot',color:'#d84f85'}}
+      ...housingMandateBandsDate('2026-06-30'),
+      {type:'rect',xref:'x',yref:'paper',x0:'2001-01-01',x1:'2003-12-31',y0:0,y1:1,fillcolor:'rgba(223,88,140,.085)',line:{width:0},layer:'below'},
+      {type:'rect',xref:'x',yref:'paper',x0:'2016-04-01',x1:'2018-12-31',y0:0,y1:1,fillcolor:'rgba(96,71,191,.065)',line:{width:0},layer:'below'},
+      {type:'line',xref:'x',yref:'paper',x0:'2012-06-01',x1:'2012-06-01',y0:0,y1:1,line:{width:1.3,dash:'dash',color:'#af7c32'}},
+      ...housingMandateSeparatorsDate()
     ];
     Plotly.react(hm,[{
       type:'scatter',mode:'lines+markers',
@@ -15648,17 +15695,19 @@ function renderHousing(){
       hovertemplate:'<b>%{customdata[0]}</b><br>Stock real: <b>$%{y:.2f} billones</b><br><span style="font-size:10px">pesos de jul-2026 · cierre observado</span><extra></extra>'
     }],{
       ...common,
-      margin:{l:mobile?58:72,r:mobile?10:24,t:mobile?88:72,b:50},
+      margin:{l:mobile?58:72,r:mobile?10:24,t:mobile?185:130,b:50},
       xaxis:{...common.xaxis,type:'date',range:['1999-07-01','2026-10-01'],dtick:mobile?'M60':'M36',tickformat:'%Y',fixedrange:true},
       yaxis:{...common.yaxis,title:'$ billones · jul-2026',rangemode:'tozero',fixedrange:true},
       hovermode:'closest',
       showlegend:false,
       shapes:mortgageShapes,
       annotations:[
-        {x:'2002-07-01',y:1,xref:'x',yref:'paper',text:'crisis 2001–02',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#8b6175'}},
-        {x:'2012-06-01',y:1,xref:'x',yref:'paper',text:'PROCREAR',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#8a6d3b'}},
-        {x:'2017-06-01',y:1,xref:'x',yref:'paper',text:'boom UVA',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#6650a6'}},
-        {x:'2024-03-01',y:1,xref:'x',yref:'paper',text:'reactivación',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#9a5274'}}
+        ...housingMandateAnnotationsDate(mobile),
+        {x:.01,y:mobile?1.17:1.15,xref:'paper',yref:'paper',text:'Franjas = presidencias · líneas punteadas = cambios de gobierno',showarrow:false,xanchor:'left',font:{size:mobile?8:9,color:'#8a748f'}},
+        {x:'2002-07-01',y:.90,xref:'x',yref:'paper',text:'crisis 2001–02',showarrow:false,font:{size:mobile?8:9,color:'#8b6175'},bgcolor:'rgba(255,248,251,.86)',borderpad:2},
+        {x:'2012-06-01',y:.90,xref:'x',yref:'paper',text:'PROCREAR',showarrow:false,font:{size:mobile?8:9,color:'#8a6d3b'},bgcolor:'rgba(255,252,245,.86)',borderpad:2},
+        {x:'2017-06-01',y:.90,xref:'x',yref:'paper',text:'boom UVA',showarrow:false,font:{size:mobile?8:9,color:'#6650a6'},bgcolor:'rgba(250,248,255,.86)',borderpad:2},
+        {x:'2024-03-01',y:.90,xref:'x',yref:'paper',text:'reactivación',showarrow:false,font:{size:mobile?8:9,color:'#9a5274'},bgcolor:'rgba(255,247,250,.86)',borderpad:2}
       ]
     },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   }
