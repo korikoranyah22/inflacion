@@ -7178,6 +7178,67 @@ img, svg { max-width: 100%; }
 }
 
 
+/* Vivienda · crédito hipotecario + alquileres post DNU */
+.ho-credit-hero,.ho-rent-kpis,.ho-program-grid,.ho-phase-grid{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:14px 20px 0
+}
+.ho-credit-kpi,.ho-rent-kpi,.ho-program,.ho-phase{
+  min-width:0;padding:13px 14px;border:1px solid #ead8f1;border-radius:18px;
+  background:linear-gradient(180deg,#fff,#fff9fc);overflow-wrap:anywhere
+}
+.ho-credit-kpi .tag,.ho-rent-kpi .tag,.ho-program .tag,.ho-phase .tag{
+  font-size:10.5px;color:#92759e;font-weight:850;text-transform:uppercase;letter-spacing:.02em
+}
+.ho-credit-kpi .big,.ho-rent-kpi .big,.ho-program .big,.ho-phase .big{
+  font-size:23px;line-height:1.1;font-weight:900;color:#684a79;margin:6px 0
+}
+.ho-credit-kpi .mini,.ho-rent-kpi .mini,.ho-program .mini,.ho-phase .mini{
+  font-size:11px;line-height:1.5;color:#806c89
+}
+.ho-credit-grid,.ho-rent-grid{
+  display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr);gap:14px;margin:16px 20px 0;min-width:0
+}
+#housingMortgageRealChart,#housingRentReformChart{min-height:430px}
+.ho-audit-stack,.ho-method-stack{display:grid;gap:10px;align-content:start}
+.ho-audit,.ho-method-box{
+  padding:12px 14px;border-radius:16px;background:#fbf7ff;border:1px solid #e9dcf2;
+  font-size:12px;line-height:1.55;color:#67566f;min-width:0
+}
+.ho-audit strong,.ho-method-box strong{color:#684879}
+.ho-audit.ok{background:#f6fff9;border-color:#caead7}
+.ho-audit.warn{background:#fffaf1;border-color:#ecd9a8}
+.ho-audit.badge{background:#fff7fb;border-color:#efc9d8}
+.ho-formulas{
+  margin:14px 20px 0;padding:13px 15px;border-radius:18px;border:1px dashed #d9c0e4;
+  background:#fcf8ff;color:#6f5b79;font-size:11.5px;line-height:1.65
+}
+.ho-formulas code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:#5b416a}
+.ho-section-lead{margin:0 20px 4px;color:#6f5d77;font-size:12.5px;line-height:1.6}
+.ho-faq{margin:14px 20px 0;display:grid;gap:9px}
+.ho-faq details{border:1px solid #e8daf0;border-radius:15px;background:#fff;padding:10px 13px}
+.ho-faq summary{cursor:pointer;font-weight:850;color:#684879}
+.ho-faq p{font-size:12px;line-height:1.6;color:#695870;margin:9px 0 2px}
+.ho-separator-note{margin:12px 20px 0;font-size:11px;line-height:1.55;color:#846f8d}
+.ho-chip{display:inline-flex;align-items:center;padding:4px 8px;border:1px solid #e2d3e9;border-radius:999px;background:#fff;font-size:10px;font-weight:800;color:#765f82}
+@media(max-width:1100px){
+  .ho-credit-hero,.ho-rent-kpis,.ho-program-grid,.ho-phase-grid{grid-template-columns:1fr 1fr}
+  .ho-credit-grid,.ho-rent-grid{grid-template-columns:1fr}
+}
+@media(max-width:720px){
+  .ho-credit-hero,.ho-rent-kpis,.ho-program-grid,.ho-phase-grid,.ho-credit-grid,.ho-rent-grid,.ho-formulas,.ho-faq,.ho-section-lead,.ho-separator-note{
+    margin-left:14px!important;margin-right:14px!important
+  }
+  .ho-credit-hero,.ho-rent-kpis,.ho-program-grid,.ho-phase-grid{grid-template-columns:1fr}
+  .ho-credit-kpi,.ho-rent-kpi,.ho-program,.ho-phase,.ho-audit,.ho-method-box{padding:11px 12px}
+  #housingMortgageRealChart,#housingRentReformChart{min-height:390px}
+}
+@media(max-width:390px){
+  .ho-credit-hero,.ho-rent-kpis,.ho-program-grid,.ho-phase-grid,.ho-credit-grid,.ho-rent-grid,.ho-formulas,.ho-faq,.ho-section-lead,.ho-separator-note{
+    margin-left:12px!important;margin-right:12px!important
+  }
+}
+
+
 /* v80 · horizonte largo del simulador soberano */
 .sov-chart-scroll{
   width:100%;
@@ -8758,6 +8819,7 @@ html,body{overflow-x:clip}
         <a href="#story-pendulum">El péndulo</a>
         <a href="#story-shock">El costo</a>
         <a href="#story-growth">Cómo creció</a>
+        <a href="#story-housing">La vivienda</a>
         <a href="#story-alternatives">Las alternativas</a>
         <a href="#story-conclusion">La conclusión</a>
       </nav>
@@ -8859,7 +8921,19 @@ html,body{overflow-x:clip}
           </div>
         </article>
 
-        <article id="story-alternatives" class="story-chapter" data-step="09">
+        <article id="story-housing" class="story-chapter" data-step="09">
+          <h2>La casa que desapareció del gráfico</h2>
+          <p>Después apareció otro gráfico que parecía contar una historia completa con apenas dos números: el crédito hipotecario argentino en 2000 contra el de 2023. La conclusión era tentadora: entre un punto y el otro, “el kirchnerismo había destruido el acceso a la vivienda”.</p>
+          <p>Pero entre esos dos puntos estaba <b>2001–2002</b>. Cuando reconstruí la serie oficial del BCRA apareció el quiebre que el recorte escondía: crisis bancaria, devaluación, pesificación, congelamiento de líneas largas y una caída brutal del crédito antes de que Néstor Kirchner asumiera.</p>
+          <p>También apareció otra corrección. La pareja viral de <b>$31 billones contra $0,3 billones</b> no se podía reproducir exactamente sin conocer su universo y deflactor. Usando una definición constante —hipotecarios de personas humanas destinados a vivienda— la cuenta da aproximadamente <b>$25,0 billones en 2000 y $0,77 billones en 2023</b>, a pesos de julio de 2026. Si amplio a todos los hipotecarios de personas humanas, 2000 ronda $33,4 billones, pero 2023 sigue cerca de $0,94 billones.</p>
+          <p>La película resultó mucho más rara que el slogan: recuperación parcial con Néstor; pérdida de profundidad bancaria durante Cristina mientras PROCREAR abría un canal estatal paralelo; boom UVA con Macri y choque posterior a 2018; un nuevo piso con Alberto; y una recuperación muy rápida desde 2024. A junio de 2026 el stock real de hipotecas para vivienda era unas <b>7,5 veces</b> el de diciembre de 2023, pero todavía estaba aproximadamente <b>77% debajo del nivel de 2000</b>.</p>
+          <p>La misma regla sirvió para otra imagen viral sobre alquileres después del DNU 70/23. El salto de oferta publicada en CABA sí aparece con mucha claridad: Zonaprop registra cerca de <b>+195%</b> durante 2024. Los precios pedidos también corrigieron fuerte en términos reales, pero con una serie reproducible la baja es de aproximadamente <b>−24,5% en 2024</b> y <b>−21,7% entre diciembre de 2023 y julio de 2025</b>, no −36%. Y el “−25% de demanda” no tenía una definición pública suficiente como para incorporarlo.</p>
+          <p>Otra vez, el trabajo no consistía en elegir entre “el gráfico era verdad” o “el gráfico era mentira”. Consistía en averiguar <b>qué medía, qué había quedado afuera y qué parte de la conclusión sobrevivía cuando aparecía el camino entero</b>.</p>
+          <div class="story-quote">Dos puntos hacen una línea. No necesariamente hacen una historia.</div>
+          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-housing')">Ver Vivienda y crédito →</button></div>
+        </article>
+
+        <article id="story-alternatives" class="story-chapter" data-step="10">
           <h2>La pregunta por “la casta” y por las alternativas</h2>
           <p>Si el argumento era que el ajuste resultaba inevitable porque el Estado necesitaba cerrar sus cuentas, ¿qué ocurría si buscábamos recursos en otros lugares? Calculé incrementos destinados a capas mejor remuneradas del Estado, beneficios y tratamientos favorables a grandes empresas —incluido Mercado Libre— y otros rubros donde era razonable preguntar: <b>¿era necesario gastar esto acá?</b></p>
           <p>La primera versión de este ejercicio trataba la pinza financiera de <b>$5,85 billones</b> como si pudiera restarse automáticamente del agujero salarial. La investigación posterior obligó a separar magnitudes: ese monto mide <b>costo financiero diferencial del lado de los hogares</b>, no ganancia neta demostrada de bancos y Fintech.</p>
@@ -8870,7 +8944,7 @@ html,body{overflow-x:clip}
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-casta')">Ver La casta →</button><button class="story-link" type="button" onclick="activateTab('tab-meli-benefits')">Ver Privilegios fiscales →</button><button class="story-link" type="button" onclick="activateTab('tab-wealth-contribution')">Ver Grandes fortunas →</button></div>
         </article>
 
-        <article id="story-conclusion" class="story-chapter" data-step="10">
+        <article id="story-conclusion" class="story-chapter" data-step="11">
           <h2>Ordenar las cuentas y decidir quién paga son preguntas distintas</h2>
           <p>Los datos no demuestran que ordenar las cuentas públicas fuera innecesario. Tampoco demuestran que cualquier alternativa hubiera sido gratuita, sencilla o políticamente viable.</p>
           <p>Pero sí muestran algo más interesante: la política fiscal no consiste solamente en decidir cuánto recaudar y cuánto gastar. También consiste en decidir <b>de quién obtener los recursos, qué gastos preservar, cuáles reducir y sobre qué sectores distribuir el costo de una crisis.</b></p>
@@ -10962,6 +11036,19 @@ html,body{overflow-x:clip}
       <div class="family-mini-note" style="padding-top:12px"><b>Real per cápita:</b> lo dejamos fuera por ahora. Para sumarlo bien hay que cerrar una cadena homogénea de deflactor + población y rotularla como cálculo derivado; no iba a meter una transformación silenciosa sólo para completar un selector ♡.</div>
     </section>
 
+
+    <section class="card" style="margin-top:16px">
+      <div class="card-head"><div class="card-title">Preguntas que este tab puede contestar</div><div class="kicker">sin convertir un gráfico en un slogan</div></div>
+      <div class="ho-faq">
+        <details><summary>¿El kirchnerismo destruyó el crédito hipotecario?</summary><p>La comparación 2000→2023 no permite atribuir toda la caída al kirchnerismo: el gran colapso ya ocurre durante 2001–2003. Después, la recuperación bajo Néstor fue parcial y el mortgage bancario volvió a perder profundidad durante los años de Cristina. Desde 2012 PROCREAR agregó un canal público distinto, que no aparece como equivalente al stock hipotecario bancario.</p></details>
+        <details><summary>¿Macri recuperó el crédito hipotecario?</summary><p>Sí, en el sentido de que UVA produjo una recuperación extraordinaria del mortgage: el BCRA informó +148% real sólo en 2017 y 58.500 nuevos deudores ese año. El stock real del gráfico alcanzó un pico en 2018; la crisis 2018–19 revirtió una parte importante del avance y dejó visible el riesgo de indexar la deuda del hogar.</p></details>
+        <details><summary>¿Milei está recuperando el crédito hipotecario?</summary><p>Los datos muestran una reactivación genuina y muy rápida desde mediados de 2024. A junio de 2026 el stock real para vivienda es unas 7,5 veces el de diciembre de 2023. Pero el nivel sigue aproximadamente 77% debajo de 2000, y a fines de 2025 el hipotecario total equivalía apenas a ~0,7% del PBI. Velocidad de crecimiento y profundidad histórica son dos preguntas distintas.</p></details>
+        <details><summary>¿La derogación de la Ley de Alquileres bajó los precios?</summary><p>En CABA, los datos de publicaciones muestran un salto muy fuerte de oferta y una caída real de los precios pedidos durante 2024. Con la serie que podemos reproducir, la corrección real de 2024 ronda 24,5%, no 36%; entre enero y julio de 2025 el precio pedido volvió a subir algo por encima del IPC. La evidencia respalda un cambio importante del mercado, pero no permite convertir toda la variación en un efecto causal puro del DNU.</p></details>
+        <details><summary>¿Más hipotecas significa que comprar una casa es fácil?</summary><p>No necesariamente. Falta cruzar monto prestable con precio de vivienda, ahorro inicial/LTV, salario, tasa, plazo e indexación. El stock de crédito mide profundidad financiera; la accesibilidad de una familia requiere otra cuenta.</p></details>
+      </div>
+      <div class="family-mini-note"><b>Regla del capítulo:</b> dos puntos hacen una comparación. Para explicar una historia hay que reconstruir lo que pasó entre ellos.</div>
+    </section>
+
     <section class="sources-box" style="margin-top:16px">
       <h3>Fuentes y descarga</h3>
       <div class="source-links">
@@ -11529,12 +11616,13 @@ html,body{overflow-x:clip}
 
   <section id="tab-housing" class="tab-panel">
     <div class="method-shield">
-      <span class="label">Vivienda · EPH / INDEC / BCRA / Escribanos CABA</span>
-      <strong>Alquilar, comprar y construir son problemas distintos. Separamos tenencia, crédito, compraventa, costo de construcción y calidad habitacional.</strong>
+      <span class="label">Vivienda · EPH / INDEC / BCRA / CABA / mercado inmobiliario</span>
+      <strong>Alquilar, comprar, financiar y construir son problemas distintos. Separamos tenencia, crédito hipotecario, compraventa, alquileres, costo de construcción y calidad habitacional.</strong>
       <span class="method-badge reconstructed">2001–2002 · Censo / EPH puntual</span>
+      <span class="method-badge official">BCRA hipotecas · 2000 → jun-2026</span>
       <span class="method-badge official">EPH semestral · 2S-2016 → 2S-2025</span>
-      <span class="method-badge official">IPC / ICC · jul–jun 2026</span>
-      <span class="method-badge official">CABA / BCRA · 2026</span>
+      <span class="method-badge official">Alquileres CABA · 2023–2025</span>
+      <span class="method-badge official">IPC / ICC · 2026</span>
     </div>
 
     <div class="grid">
@@ -11579,6 +11667,90 @@ html,body{overflow-x:clip}
       </div>
     </section>
 
+
+    <section class="card" style="margin-top:16px" id="housing-mortgage-history">
+      <div class="card-head">
+        <div class="card-title">Crédito hipotecario: la película completa 2000–2026 <span>♡</span></div>
+        <div class="kicker">personas humanas · destino vivienda · BCRA · pesos de jul-2026</div>
+      </div>
+      <p class="ho-section-lead">
+        Para comparar 26 años usamos una sola definición reproducible: <b>préstamos hipotecarios a personas humanas destinados a vivienda</b>, moneda local + extranjera, saldo a fin de mes. Los pesos corrientes de cada época se llevan a <b>pesos de julio de 2026</b>. El gráfico muestra cierres de diciembre y junio de 2026.
+      </p>
+      <div class="ho-credit-hero">
+        <article class="ho-credit-kpi"><div class="tag">Dic-2000 · vivienda</div><div class="big">≈ $25,0 B</div><div class="mini">Stock real a pesos de jul-2026. Es la referencia anterior a la crisis 2001–02.</div></article>
+        <article class="ho-credit-kpi"><div class="tag">Dic-2023 · piso reciente</div><div class="big">≈ $0,77 B</div><div class="mini">≈96,9% debajo de dic-2000 con la misma definición y deflactor.</div></article>
+        <article class="ho-credit-kpi"><div class="tag">Jun-2026 · recuperación</div><div class="big">≈ $5,77 B</div><div class="mini">≈7,46 veces dic-2023, pero todavía ≈76,9% debajo de dic-2000.</div></article>
+        <article class="ho-credit-kpi"><div class="tag">Profundidad · dic-2025</div><div class="big">≈ 0,7% PBI</div><div class="mini">BCRA: el crédito hipotecario volvió a crecer, aunque seguía debajo de máximos históricos y regionales.</div></article>
+      </div>
+      <div class="ho-credit-grid">
+        <div id="housingMortgageRealChart"></div>
+        <div class="ho-audit-stack">
+          <div class="ho-audit warn"><strong>Auditoría del “$31 B → $0,3 B”.</strong><br>Con la serie oficial no reproducimos exactamente esa pareja. Con <b>destino vivienda</b> obtenemos ≈$25,0 B en 2000 y ≈$0,77 B en 2023. Si ampliamos a <b>todos los hipotecarios de personas humanas</b>, 2000 da ≈$33,4 B y 2023 ≈$0,94 B. Sin fuente, universo y deflactor, el “31 / 0,3” no es auditable.</div>
+          <div class="ho-audit"><strong>El elefante entre los dos puntos.</strong><br>El colapso comienza antes del kirchnerismo. El informe 2002 del BCRA describe caída del crédito, congelamiento de líneas largas, pesificación/CER-CVS y casi ausencia de nueva intermediación. La serie vivienda pasa de ≈$19,6 B reales en 2001 a ≈$8,74 B en 2003.</div>
+          <div class="ho-audit ok"><strong>Recuperar desde casi cero no es volver al año 2000.</strong><br>La expansión desde 2024 es real y muy rápida. A junio de 2026 el stock vivienda es ≈646% mayor que en dic-2023; aun así, permanece ≈77% por debajo de 2000 en términos reales.</div>
+          <div class="ho-audit badge"><strong>Variación no es causalidad.</strong><br>Las tarjetas por período comparan cierres. Crisis, inflación, fondeo de largo plazo, regulación, salario, precio de la vivienda, UVA y programas públicos también importan.</div>
+        </div>
+      </div>
+      <div class="ho-phase-grid">
+        <article class="ho-phase"><div class="tag">Crisis · 2001→2003</div><div class="big">−55%</div><div class="mini">El gran quiebre está en la crisis bancaria, devaluación, pesificación y congelamiento del crédito largo.</div></article>
+        <article class="ho-phase"><div class="tag">Néstor · 2003→2007</div><div class="big">+9%</div><div class="mini">Recuperación real muy parcial desde el subsuelo; el hipotecario quedó rezagado frente a otras líneas.</div></article>
+        <article class="ho-phase"><div class="tag">Cristina · 2007→2015</div><div class="big">−58%</div><div class="mini">El mortgage bancario perdió profundidad; desde 2012 apareció PROCREAR como canal público paralelo.</div></article>
+        <article class="ho-phase"><div class="tag">Macri · 2015→2019</div><div class="big">+86%</div><div class="mini">Boom UVA: el stock tocó un pico en 2018 (+171% vs 2015) y retrocedió con la crisis de 2018–19.</div></article>
+        <article class="ho-phase"><div class="tag">Alberto · 2019→2023</div><div class="big">−90%</div><div class="mini">El crédito hipotecario bancario volvió a un mínimo histórico en términos reales.</div></article>
+        <article class="ho-phase"><div class="tag">Milei · dic-2023→jun-2026</div><div class="big">+646%</div><div class="mini">Reactivación intensa desde el piso; el BCRA informa que la enorme mayoría de las nuevas altas son UVA.</div></article>
+        <article class="ho-phase"><div class="tag">2017 · altas</div><div class="big">58.500</div><div class="mini">Nuevos deudores hipotecarios en 2017 según BCRA; 210 mil deudores al cierre del año.</div></article>
+        <article class="ho-phase"><div class="tag">2025 · profundidad</div><div class="big">0,7% PBI</div><div class="mini">Hipotecarios totales; UVA ≈0,6% del PBI. BCRA todavía los describe debajo de máximos históricos.</div></article>
+      </div>
+      <div class="ho-formulas">
+        <b>Fórmula real:</b> <code>stock real_t = stock nominal_t × IPC(jul-2026) / IPC(t)</code>.<br>
+        <b>Universo central:</b> BCRA · personas humanas · hipotecarios · destino vivienda · moneda nacional + extranjera · saldo fin de mes.<br>
+        Para 2000–2016 el deflactor usa el mismo empalme histórico de IPC documentado por el dashboard; 2017+ usa IPC nacional. Por eso los valores “reales” son una <b>serie derivada</b>, no un dato publicado literalmente por el BCRA.
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:16px" id="housing-public-policy">
+      <div class="card-head"><div class="card-title">Crédito bancario ≠ acceso total a vivienda</div><div class="kicker">programas públicos y mortgage miden universos distintos</div></div>
+      <p class="ho-section-lead">Un gráfico de hipotecas bancarias puede describir muy bien al sistema financiero y, aun así, dejar afuera una parte de la política habitacional. No sumamos estos números al stock bancario: los mostramos como <b>canales paralelos</b>.</p>
+      <div class="ho-program-grid">
+        <article class="ho-program"><div class="tag">PROCREAR · 2012–2015</div><div class="big">196.000</div><div class="mini">Créditos para construcción + desarrollos urbanísticos reportados por el Gobierno. Es un conteo administrativo, no saldo BCRA.</div></article>
+        <article class="ho-program"><div class="tag">PROCREAR · líneas comparables</div><div class="big">110.751</div><div class="mini">Construcción en lote propio + ampliación/refacción entre jun-2012 y dic-2015; fuente administrativa oficial.</div></article>
+        <article class="ho-program"><div class="tag">Casa Propia · 2019–sep-2023</div><div class="big">&gt;70.000</div><div class="mini">Familias que construyeron con créditos Casa Propia según el Ministerio; además reportó &gt;125 mil llaves entregadas.</div></article>
+        <article class="ho-program"><div class="tag">Regla de lectura</div><div class="big">No sumar</div><div class="mini">Crédito BCRA, viviendas entregadas, subsidios y créditos públicos no son categorías homogéneas ni mutuamente excluyentes.</div></article>
+      </div>
+      <div class="family-mini-note"><b>La pregunta correcta cambia según el indicador.</b> “¿Había mortgage bancario?” y “¿había alguna vía para acceder a vivienda?” no son equivalentes. También falta otra dimensión: cuánto costaba la casa respecto del salario y qué ahorro inicial exigía cada mecanismo.</div>
+    </section>
+
+    <section class="card" style="margin-top:16px" id="housing-rent-reform">
+      <div class="card-head">
+        <div class="card-title">Alquileres después del DNU 70/23: qué sí podemos auditar <span>♡</span></div>
+        <div class="kicker">CABA · avisos / precios de oferta · dic-2023 → jul-2025</div>
+      </div>
+      <p class="ho-section-lead">
+        El DNU 70/2023 derogó la Ley 27.551. Para evaluar la imagen viral separamos <b>oferta publicada</b>, <b>precio pedido de nuevos alquileres</b>, <b>IPC</b> y <b>demanda</b>. Son universos distintos y CABA no representa automáticamente a todo el país.
+      </p>
+      <div class="ho-rent-kpis">
+        <article class="ho-rent-kpi"><div class="tag">Oferta publicada · 2024</div><div class="big">+195,4%</div><div class="mini">Índice Zonaprop de cantidad de avisos en CABA. Ene-2024 saltó +62,1% mensual. Oferta de avisos ≠ stock físico de viviendas.</div></article>
+        <article class="ho-rent-kpi"><div class="tag">Precio real · 2024</div><div class="big">≈ −24,5%</div><div class="mini">Precio de oferta +64,4% vs IPC nacional +117,8%. Es una corrección real importante de nuevos avisos/contratos.</div></article>
+        <article class="ho-rent-kpi"><div class="tag">Precio real · ene–jul 2025</div><div class="big">≈ +3,6%</div><div class="mini">Zonaprop +21,5% vs IPC oficial acumulado ≈17,2%. La baja real no continuó linealmente durante 2025.</div></article>
+        <article class="ho-rent-kpi"><div class="tag">“Demanda −25%”</div><div class="big">N/D</div><div class="mini">No encontramos una serie pública y reproducible que defina demanda de alquiler con ese resultado. No se incorpora como dato central.</div></article>
+      </div>
+      <div class="ho-rent-grid">
+        <div id="housingRentReformChart"></div>
+        <div class="ho-method-stack">
+          <div class="ho-method-box"><strong>La imagen dice “precios −36% real”.</strong><br>Con una cadena reproducible y consistente —Zonaprop para precios de oferta + IPC INDEC— obtenemos ≈<b>−24,5%</b> en 2024 y ≈<b>−21,7%</b> entre dic-2023 y jul-2025. Puede existir otra metodología que arroje −36%, pero sin fuente/base exactas no la presentamos como verificada.</div>
+          <div class="ho-method-box"><strong>Oferta +195% sí aparece en la fuente.</strong><br>Zonaprop informa +195,4% anual en 2024 y un salto de +62,1% en enero de 2024. Es <b>cantidad de avisos de alquiler tradicional en CABA</b>, no “oferta nacional de viviendas”.</div>
+          <div class="ho-method-box"><strong>No confundir dos precios.</strong><br>El IPC “Alquiler de vivienda” mide servicios efectivamente pagados por hogares relevados. Zonaprop mide <b>precio pedido en publicaciones</b>. Uno incorpora contratos vigentes; el otro reacciona más rápido a nuevos contratos.</div>
+          <div class="ho-method-box"><strong>Causalidad:</strong><br>la desregulación coincide temporalmente con el salto de publicaciones, pero el precio también depende de inflación, salarios, tipo de cambio, alquiler temporario, expectativas y ciclo inmobiliario. El dashboard muestra el antes/después y evita atribuir todo el cambio a una sola causa.</div>
+        </div>
+      </div>
+      <div class="ho-formulas">
+        <b>Precio real 2024:</b> <code>(1 + 0,644) / (1 + 1,178) − 1 ≈ −24,5%</code>.<br>
+        <b>Ene–jul 2025:</b> <code>(1 + 0,215) / (1 + 0,172) − 1 ≈ +3,6%</code>.<br>
+        <b>Dic-2023→jul-2025:</b> <code>(1,644 × 1,215) / (2,178 × 1,172) − 1 ≈ −21,7%</code>.<br>
+        <b>Oferta:</b> una variación de +195,4% lleva un índice 100 a <code>295,4</code>; no significa que existan 195% más viviendas físicas.
+      </div>
+    </section>
+
     <section class="card" style="margin-top:16px">
       <div class="card-head"><div class="card-title">Comprar una vivienda: mercado y crédito <span>♡</span></div><div class="kicker">CABA para escrituras · sistema financiero para hipotecas</div></div>
       <div class="ho-market-grid">
@@ -11619,8 +11791,10 @@ html,body{overflow-x:clip}
       <div class="card-head"><div class="card-title">Qué significa —y qué no— para un elector</div><div class="kicker">lectura APB</div></div>
       <div class="ho-apb">
         <div><b>“Hay más propietarios” no responde si una persona joven puede comprar hoy.</b> Para eso hacen falta ingreso, precio, ahorro inicial, tasa y plazo.</div>
-        <div><b>“Bajaron los alquileres” puede significar precio, participación de inquilinos u oferta.</b> Son conceptos distintos.</div>
-        <div><b>Escrituras de CABA no representan todo el país.</b> Se muestran como indicador administrativo rápido del mercado porteño.</div>
+        <div><b>“Bajaron los alquileres” puede significar precio real de nuevos avisos, precio de contratos vigentes, participación de inquilinos u oferta.</b> Son conceptos distintos.</div>
+        <div><b>“El crédito creció 600%” puede ser cierto y seguir describiendo una recuperación desde un piso microscópico.</b> El nivel de junio de 2026 todavía está muy lejos del stock real de 2000.</div>
+        <div><b>Escrituras de CABA no representan todo el país.</b> Tampoco los avisos de un portal: se usan como termómetro del mercado porteño, no como censo nacional.</div>
+        <div><b>Crédito bancario no agota la política de vivienda.</b> PROCREAR, Casa Propia, vivienda pública, autoconstrucción y compra al contado son canales diferentes.</div>
         <div><b>Vivienda también es calidad y servicios.</b> Propiedad, alquiler o crédito no dicen por sí solos si hay hacinamiento, agua, cloacas o materiales adecuados.</div>
       </div>
     </section>
@@ -11639,8 +11813,19 @@ html,body{overflow-x:clip}
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/uploads/informesdeprensa/icc_07_266A21F0AB6D.pdf">🏗️ INDEC · ICC junio 2026</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.colegio-escribanos.org.ar/2026/07/23/cantidad-de-escrituras-de-compraventa-realizadas-en-junio-2026/">✍️ Escribanos CABA · junio 2026</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-abril-de-2026/">🏦 BCRA · Informe sobre Bancos abril 2026</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/prestamos-y-otros-activos-de-las-entidades-financieras/">🏦 BCRA · series de préstamos / hipotecarios por destino</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/perser_dest.xls">⬇ BCRA · XLS · hipotecarios y prendarios por destino</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/inf2002.pdf">📕 BCRA · Informe al Congreso 2002 · crisis crediticia</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-diciembre-de-2017/">🏦 BCRA · boom hipotecario 2017</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-politica-monetaria-2025-T4.pdf">📊 BCRA · IPOM dic-2025 · hipotecarios / PBI</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/normativa/nacional/decreto-70-2023-395521/texto">⚖️ DNU 70/2023 · art. 249 · derogación Ley 27.551</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.zonaprop.com.ar/noticias/wp-content/uploads/2025/01/INDEX_CABA_REPORTE_2025-01.pdf">🏙️ Zonaprop Index · CABA · oferta 2024 / ene-2025</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.zonaprop.com.ar/noticias/wp-content/uploads/2025/07/INDEX_CABA_REPORTE_2025-07.pdf">🏙️ Zonaprop Index · CABA · julio 2025</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_08_25B0A3ACE622.pdf">📄 INDEC · IPC julio 2025</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/noticias/se-entregaron-nuevas-llaves-de-vivienda-en-el-marco-del-procrear">🏠 PROCREAR · cifras administrativas 2012–2015</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/noticias/el-gobierno-nacional-actualizara-el-monto-de-los-creditos-para-construccion-de-viviendas">🏠 Casa Propia · cifras administrativas a sep-2023</a>
       </div>
-      <div class="sources-note"><b>Metodología:</b> la serie semestral de tenencia usa EPH para 31 aglomerados desde 2S-2016. Los hitos 2001/2010/2022 son censales y nacionales; octubre de 2002 es una elaboración histórica basada en EPH puntual y sólo permite recuperar “propietarios / no propietarios”. No se empalman esos universos como si fueran homogéneos. Escrituras sólo refieren a CABA; altas hipotecarias son BCRA; ICC cubre CABA y 24 partidos del conurbano.</div>
+      <div class="sources-note"><b>Metodología:</b> la serie semestral de tenencia usa EPH para 31 aglomerados desde 2S-2016. Los hitos 2001/2010/2022 son censales y nacionales; octubre de 2002 es una elaboración histórica basada en EPH puntual y sólo permite recuperar “propietarios / no propietarios”. No se empalman esos universos como si fueran homogéneos. La serie hipotecaria usa BCRA <i>perser_dest</i>, personas humanas, destino vivienda, saldos de fin de mes; los cierres se deflactan a pesos de jul-2026 con el mismo empalme de IPC del dashboard. Escrituras y avisos de alquiler sólo refieren a CABA. La oferta de alquiler es cantidad de publicaciones, no stock físico. PROCREAR/Casa Propia son cifras administrativas y se muestran como canales paralelos, no se suman al stock bancario.</div>
     </section>
   </section>
 
@@ -12026,7 +12211,7 @@ html,body{overflow-x:clip}
           </section>
           <section class="pend-card">
             <div class="pend-head"><div><h3>Lo que la tenencia no responde</h3><p class="pend-note">El nivel observado y la carga mensual son preguntas distintas.</p></div></div>
-            <div class="pend-power-grid"><article class="pend-power-metric"><small>RATIO · faltante visible</small><strong>Alquiler / ingreso</strong><p>No hay todavía una serie contemporánea homogénea incorporada.</p><span class="perspective">No se infiere desde avisos ni desde un precio promedio.</span></article><article class="pend-power-metric"><small>STOCK · faltante</small><strong>Deuda hipotecaria</strong><p>Ser propietario no revela si la vivienda está pagada.</p><span class="perspective">Requiere cantidades y saldos compatibles.</span></article><article class="pend-power-metric"><small>SNAPSHOT · oficial</small><strong>ENGHo 2017–18</strong><p>Puede describir estructura histórica del presupuesto por quintil.</p><span class="perspective">No se presentará como presupuesto 2026.</span></article><article class="pend-power-metric"><small>ESCENARIO · pendiente</small><strong>Hogar tipo</strong><p>Calculadora futura separada de los datos observados.</p><span class="perspective">No duplicará IVA contenido en consumo.</span></article></div>
+            <div class="pend-power-grid"><article class="pend-power-metric"><small>RATIO · faltante visible</small><strong>Alquiler / ingreso</strong><p>No hay todavía una serie contemporánea homogénea incorporada.</p><span class="perspective">No se infiere desde avisos ni desde un precio promedio.</span></article><article class="pend-power-metric"><small>STOCK · integrado</small><strong>Crédito hipotecario</strong><p>BCRA 2000–jun-2026: personas humanas, destino vivienda; la serie real está auditada en Vivienda.</p><span class="perspective">Deuda y tenencia son dimensiones distintas: no se suman.</span></article><article class="pend-power-metric"><small>SNAPSHOT · oficial</small><strong>ENGHo 2017–18</strong><p>Puede describir estructura histórica del presupuesto por quintil.</p><span class="perspective">No se presentará como presupuesto 2026.</span></article><article class="pend-power-metric"><small>ESCENARIO · pendiente</small><strong>Hogar tipo</strong><p>Calculadora futura separada de los datos observados.</p><span class="perspective">No duplicará IVA contenido en consumo.</span></article></div>
             <div class="pend-gate"><span class="icon">🧮</span><div><h4>Waterfall de $100 todavía deshabilitado</h4><p>Se habilitará sólo con alquiler/ingreso o una radiografía ENGHo explícitamente fechada. Alquiler pagado y renta recibida representan el mismo flujo desde dos actores: nunca se suman como dos fenómenos.</p></div></div>
           </section>
         </div>
@@ -14113,7 +14298,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
         requestAnimationFrame(() => { const el=document.getElementById('investmentChart'); if(el?.data) Plotly.Plots.resize(el); });
       } else if (target === 'tab-housing') {
         renderHousing();
-        requestAnimationFrame(() => ['housingTenureChart','housingHistoryChart','housingBuildChart'].forEach(id=>{ const el=document.getElementById(id); if(el?.data) Plotly.Plots.resize(el); }));
+        requestAnimationFrame(() => ['housingTenureChart','housingHistoryChart','housingMortgageRealChart','housingRentReformChart','housingBuildChart'].forEach(id=>{ const el=document.getElementById(id); if(el?.data) Plotly.Plots.resize(el); }));
       } else if (target === 'tab-growth') {
         renderGrowth();
         requestAnimationFrame(() => { const el=document.getElementById('growthChart'); if(el?.data) Plotly.Plots.resize(el); });
@@ -15331,6 +15516,38 @@ const housingBuild=[
   {name:'Mano de obra',value:3.3},{name:'Gastos generales',value:2.8}
 ];
 
+const housingMortgageAnnual=[{"period":"2000-12-31","year":2000,"raw_thousand_pesos":10376459,"real_jul2026_trillion":24.988772},{"period":"2001-12-31","year":2001,"raw_thousand_pesos":8022005,"real_jul2026_trillion":19.612929},{"period":"2002-12-31","year":2002,"raw_thousand_pesos":6478346,"real_jul2026_trillion":11.236983},{"period":"2003-12-31","year":2003,"raw_thousand_pesos":5225951,"real_jul2026_trillion":8.744906},{"period":"2004-12-31","year":2004,"raw_thousand_pesos":5094772,"real_jul2026_trillion":8.035172},{"period":"2005-12-31","year":2005,"raw_thousand_pesos":5197570,"real_jul2026_trillion":7.297742},{"period":"2006-12-31","year":2006,"raw_thousand_pesos":6318760,"real_jul2026_trillion":8.077308},{"period":"2007-12-31","year":2007,"raw_thousand_pesos":9062326,"real_jul2026_trillion":9.532892},{"period":"2008-12-31","year":2008,"raw_thousand_pesos":12422560,"real_jul2026_trillion":10.83563},{"period":"2009-12-31","year":2009,"raw_thousand_pesos":11570810,"real_jul2026_trillion":8.51893},{"period":"2010-12-31","year":2010,"raw_thousand_pesos":12411250,"real_jul2026_trillion":7.193403},{"period":"2011-12-31","year":2011,"raw_thousand_pesos":16489080,"real_jul2026_trillion":7.75244},{"period":"2012-12-31","year":2012,"raw_thousand_pesos":19564100,"real_jul2026_trillion":7.477828},{"period":"2013-12-31","year":2013,"raw_thousand_pesos":21509190,"real_jul2026_trillion":6.230897},{"period":"2014-12-31","year":2014,"raw_thousand_pesos":22928090,"real_jul2026_trillion":4.778085},{"period":"2015-12-31","year":2015,"raw_thousand_pesos":25346570,"real_jul2026_trillion":4.014689},{"period":"2016-12-31","year":2016,"raw_thousand_pesos":30703690,"real_jul2026_trillion":3.700274},{"period":"2017-12-31","year":2017,"raw_thousand_pesos":89496300,"real_jul2026_trillion":8.625855},{"period":"2018-12-31","year":2018,"raw_thousand_pesos":165913300,"real_jul2026_trillion":10.870582},{"period":"2019-12-31","year":2019,"raw_thousand_pesos":174853500,"real_jul2026_trillion":7.447287},{"period":"2020-12-31","year":2020,"raw_thousand_pesos":158899100,"real_jul2026_trillion":4.971158},{"period":"2021-12-31","year":2021,"raw_thousand_pesos":165851400,"real_jul2026_trillion":3.437528},{"period":"2022-12-31","year":2022,"raw_thousand_pesos":163589400,"real_jul2026_trillion":1.740638},{"period":"2023-12-31","year":2023,"raw_thousand_pesos":226262200,"real_jul2026_trillion":0.773101},{"period":"2024-12-31","year":2024,"raw_thousand_pesos":1030042000,"real_jul2026_trillion":1.615925},{"period":"2025-12-31","year":2025,"raw_thousand_pesos":4647301000,"real_jul2026_trillion":5.54423},{"period":"2026-06-30","year":2026,"raw_thousand_pesos":5650203189,"real_jul2026_trillion":5.768857}];
+const housingMortgageAudit={
+  housing2000:24.988772,
+  housing2023:0.773101,
+  housing2026:5.768857,
+  total2000:33.421306,
+  total2023:0.935044,
+  total2026:7.248897,
+  source:'BCRA perser_dest.xls · personas humanas · moneda nacional + extranjera · fin de mes'
+};
+const housingRentReform={
+  periods:['Dic-2023','Dic-2024','Jul-2025'],
+  dates:['2023-12-31','2024-12-31','2025-07-31'],
+  askingNominal:[100,164.4,199.746],
+  cpi:[100,217.8,255.334],
+  askingReal:[100,75.482,78.230],
+  offerAnnual2024:195.4,
+  offerIndex2024:295.4,
+  jan2024OfferMoM:62.1,
+  asking2024:64.4,
+  cpi2024:117.8,
+  asking2025Ytd:21.5,
+  cpi2025Ytd:17.2348,
+  demandClaim:null
+};
+const housingProgramSnapshots=[
+  {period:'2012–2015',indicator:'PROCREAR · créditos construcción + desarrollos',value:196000,source:'Argentina.gob.ar · cifra administrativa'},
+  {period:'2012–2015',indicator:'PROCREAR · lote propio + ampliación/refacción',value:110751,source:'Argentina.gob.ar · comparación administrativa'},
+  {period:'2019–sep-2023',indicator:'Casa Propia · familias que construyeron con crédito',value:70000,source:'Argentina.gob.ar · más de 70.000'},
+  {period:'2019–ago-2023',indicator:'Viviendas entregadas · gestión nacional',value:125000,source:'Argentina.gob.ar · cifra administrativa'}
+];
+
 function renderHousing(){
   const mobile=window.innerWidth<=720;
 
@@ -15411,6 +15628,74 @@ function renderHousing(){
     },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   }
 
+
+  const hm=document.getElementById('housingMortgageRealChart');
+  if(hm){
+    const x=housingMortgageAnnual.map(r=>r.period);
+    const y=housingMortgageAnnual.map(r=>r.real_jul2026_trillion);
+    const labels=housingMortgageAnnual.map(r=>r.year===2026?'Jun-2026':`Dic-${r.year}`);
+    const mortgageShapes=[
+      {type:'rect',xref:'x',yref:'paper',x0:'2001-01-01',x1:'2003-12-31',y0:0,y1:1,fillcolor:'rgba(223,88,140,.08)',line:{width:0},layer:'below'},
+      {type:'rect',xref:'x',yref:'paper',x0:'2016-04-01',x1:'2018-12-31',y0:0,y1:1,fillcolor:'rgba(96,71,191,.06)',line:{width:0},layer:'below'},
+      {type:'line',xref:'x',yref:'paper',x0:'2012-06-01',x1:'2012-06-01',y0:0,y1:1,line:{width:1.3,dash:'dot',color:'#af7c32'}},
+      {type:'line',xref:'x',yref:'paper',x0:'2023-12-10',x1:'2023-12-10',y0:0,y1:1,line:{width:1.3,dash:'dot',color:'#d84f85'}}
+    ];
+    Plotly.react(hm,[{
+      type:'scatter',mode:'lines+markers',
+      x,y,name:'Hipotecarios PH · destino vivienda',
+      line:{width:3},marker:{size:mobile?5:7},
+      customdata:housingMortgageAnnual.map((r,i)=>[labels[i],r.raw_thousand_pesos]),
+      hovertemplate:'<b>%{customdata[0]}</b><br>Stock real: <b>$%{y:.2f} billones</b><br><span style="font-size:10px">pesos de jul-2026 · cierre observado</span><extra></extra>'
+    }],{
+      ...common,
+      margin:{l:mobile?58:72,r:mobile?10:24,t:mobile?88:72,b:50},
+      xaxis:{...common.xaxis,type:'date',range:['1999-07-01','2026-10-01'],dtick:mobile?'M60':'M36',tickformat:'%Y',fixedrange:true},
+      yaxis:{...common.yaxis,title:'$ billones · jul-2026',rangemode:'tozero',fixedrange:true},
+      hovermode:'closest',
+      showlegend:false,
+      shapes:mortgageShapes,
+      annotations:[
+        {x:'2002-07-01',y:1,xref:'x',yref:'paper',text:'crisis 2001–02',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#8b6175'}},
+        {x:'2012-06-01',y:1,xref:'x',yref:'paper',text:'PROCREAR',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#8a6d3b'}},
+        {x:'2017-06-01',y:1,xref:'x',yref:'paper',text:'boom UVA',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#6650a6'}},
+        {x:'2024-03-01',y:1,xref:'x',yref:'paper',text:'reactivación',showarrow:false,yshift:12,font:{size:mobile?9:10,color:'#9a5274'}}
+      ]
+    },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+  }
+
+  const rr=document.getElementById('housingRentReformChart');
+  if(rr){
+    Plotly.react(rr,[
+      {
+        type:'scatter',mode:'lines+markers',
+        x:housingRentReform.dates,y:housingRentReform.askingNominal,
+        name:'Precio pedido nominal',line:{width:2.5},marker:{size:7},
+        hovertemplate:'<b>%{x|%b-%Y}</b><br>Precio pedido nominal: <b>%{y:.1f}</b><extra></extra>'
+      },
+      {
+        type:'scatter',mode:'lines+markers',
+        x:housingRentReform.dates,y:housingRentReform.cpi,
+        name:'IPC nacional',line:{width:2.5,dash:'dash'},marker:{size:7},
+        hovertemplate:'<b>%{x|%b-%Y}</b><br>IPC acumulado: <b>%{y:.1f}</b><extra></extra>'
+      },
+      {
+        type:'scatter',mode:'lines+markers',
+        x:housingRentReform.dates,y:housingRentReform.askingReal,
+        name:'Precio pedido real',line:{width:3},marker:{size:8},
+        hovertemplate:'<b>%{x|%b-%Y}</b><br>Precio pedido real: <b>%{y:.1f}</b><br>Dic-2023 = 100<extra></extra>'
+      }
+    ],{
+      ...common,
+      margin:{l:mobile?52:64,r:mobile?10:20,t:mobile?118:82,b:52},
+      xaxis:{...common.xaxis,type:'date',tickformat:'%b-%Y',fixedrange:true},
+      yaxis:{...common.yaxis,title:'Índice · dic-2023 = 100',rangemode:'tozero',fixedrange:true},
+      legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.14:1.10,font:{size:mobile?9:10}},
+      hovermode:'x unified',
+      shapes:[{type:'line',xref:'x',yref:'paper',x0:'2023-12-29',x1:'2023-12-29',y0:0,y1:1,line:{dash:'dot',width:1.4,color:'#d84f85'}}],
+      annotations:[{x:'2023-12-29',y:1,xref:'x',yref:'paper',text:'DNU 70/23',showarrow:false,yshift:11,font:{size:9,color:'#9a5274'}}]
+    },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+  }
+
   const b=document.getElementById('housingBuildChart');
   if(b) Plotly.react(b,[{
     type:'bar',x:housingBuild.map(r=>r.name),y:housingBuild.map(r=>r.value),
@@ -15446,6 +15731,19 @@ function downloadHousingCsv(){
   rows.push(['mercado','2026-06','Escrituras CABA',5990,'Colegio de Escribanos CABA']);
   rows.push(['mercado','2026-06','Escrituras con hipoteca CABA',765,'Colegio de Escribanos CABA']);
   rows.push(['credito','2026-04','Altas hipotecarias personas humanas',1534,'BCRA']);
+  housingMortgageAnnual.forEach(r=>{
+    rows.push(['credito_hipotecario_real',r.period,'Hipotecarios PH destino vivienda · pesos jul-2026',r.real_jul2026_trillion,'BCRA perser_dest + IPC · $ billones']);
+    rows.push(['credito_hipotecario_raw',r.period,'Hipotecarios PH destino vivienda · saldo nominal',r.raw_thousand_pesos,'BCRA perser_dest · miles de pesos corrientes']);
+  });
+  rows.push(['auditoria_viral','2000-12','Todos los hipotecarios PH · pesos jul-2026',housingMortgageAudit.total2000,'BCRA perser_dest + IPC · $ billones']);
+  rows.push(['auditoria_viral','2023-12','Todos los hipotecarios PH · pesos jul-2026',housingMortgageAudit.total2023,'BCRA perser_dest + IPC · $ billones']);
+  rows.push(['alquiler_post_dnu','2024','Oferta publicada CABA · variación anual',housingRentReform.offerAnnual2024,'Zonaprop Index · %']);
+  rows.push(['alquiler_post_dnu','2024','Precio pedido · variación nominal',housingRentReform.asking2024,'Zonaprop Index · %']);
+  rows.push(['alquiler_post_dnu','2024','IPC nacional',housingRentReform.cpi2024,'INDEC · %']);
+  rows.push(['alquiler_post_dnu','ene-jul-2025','Precio pedido · variación nominal',housingRentReform.asking2025Ytd,'Zonaprop Index · %']);
+  rows.push(['alquiler_post_dnu','ene-jul-2025','IPC nacional acumulado',housingRentReform.cpi2025Ytd,'INDEC · %']);
+  rows.push(['alquiler_post_dnu','dic-2023-jul-2025','Demanda · claim imagen viral','','No auditado: definición/fuente no reproducible']);
+  housingProgramSnapshots.forEach(r=>rows.push(['politica_habitacional',r.period,r.indicator,r.value,r.source]));
   housingBuild.forEach(r=>rows.push(['construccion','2026-06','ICC '+r.name,r.value,'INDEC GBA']));
   const q=v=>String(v).includes(',')?`"${String(v).replaceAll('"','""')}"`:String(v);
   const csv='categoria,periodo,indicador,valor,universo_fuente\n'+rows.map(r=>r.map(q).join(',')).join('\n');
@@ -19602,7 +19900,7 @@ setTimeout(responsiveRelayout, 80);
 // 4) repetimos un par de veces porque Plotly puede volver a pintar
 //    el hover unos milisegundos después del touchend.
 
-const plotIds = ['powerChart', 'nominalChart', 'realChart', 'ratesAccumChart', 'presChart', 'povertyChart', 'povertyMandateChart', 'socialLongChart', 'socialChangeChart', 'socialRecentChart', 'giniChart', 'giniSameQuarterChart', 'structureCabaChart', 'structureMobilityChart', 'structureRegionChart', 'structureNseChart', 'familyRegionChart', 'familyGeoChart', 'familyThresholdChart', 'familyNonOwnerChart', 'housingChart', 'riskChart', 'bigMacChart', 'bigMacFxChart', 'wholesaleChart', 'wholesaleCurrentChart', 'healthEducationChart', 'healthEducationExecutionChart', 'healthEducationBridgeChart', 'growthChart', 'debtPublicChart', 'debtCreditorChart', 'debtCurrencyChart', 'tradeChart', 'bcraReserveChart', 'bcraDebtCompareChart', 'bcraInterventionChart', 'bcraFactorsChart', 'bcraFxChart', 'bcraRatesChart', 'debtSimChart', 'debtClassChart', 'sovereignSustainChart', 'sovereignReserveFlowChart'];
+const plotIds = ['powerChart', 'nominalChart', 'realChart', 'ratesAccumChart', 'presChart', 'povertyChart', 'povertyMandateChart', 'socialLongChart', 'socialChangeChart', 'socialRecentChart', 'giniChart', 'giniSameQuarterChart', 'structureCabaChart', 'structureMobilityChart', 'structureRegionChart', 'structureNseChart', 'familyRegionChart', 'familyGeoChart', 'familyThresholdChart', 'familyNonOwnerChart', 'housingChart', 'housingTenureChart', 'housingHistoryChart', 'housingMortgageRealChart', 'housingRentReformChart', 'housingBuildChart', 'riskChart', 'bigMacChart', 'bigMacFxChart', 'wholesaleChart', 'wholesaleCurrentChart', 'healthEducationChart', 'healthEducationExecutionChart', 'healthEducationBridgeChart', 'growthChart', 'debtPublicChart', 'debtCreditorChart', 'debtCurrencyChart', 'tradeChart', 'bcraReserveChart', 'bcraDebtCompareChart', 'bcraInterventionChart', 'bcraFactorsChart', 'bcraFxChart', 'bcraRatesChart', 'debtSimChart', 'debtClassChart', 'sovereignSustainChart', 'sovereignReserveFlowChart'];
 
 let touchStartedWithHover = false;
 let touchStartedInsideTooltip = false;
