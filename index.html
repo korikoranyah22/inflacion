@@ -8729,6 +8729,41 @@ html,body{overflow-x:clip}
 #tab-milei-cost .milei-return-total .amount{white-space:normal}
 @media(max-width:720px){#tab-milei-cost .milei-cost-kpis{grid-template-columns:1fr}#tab-milei-cost .milei-bridge-grid{grid-template-columns:1fr}}
 </style>
+
+<style id="consumo-supermercados-v1">
+/* Consumo · supermercados: nominal, real e historia territorial */
+.co-super-deep{overflow:hidden}
+.co-super-kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:14px 20px 0}
+.co-super-kpi{min-width:0;padding:14px;border:1px solid #ead8f1;border-radius:18px;background:linear-gradient(180deg,#fff,#fff9fc)}
+.co-super-kpi.warn{background:linear-gradient(180deg,#fff,#fff7f8);border-color:#edcfda}
+.co-super-kpi .tag,.co-super-mini .tag{font-size:10.5px;color:#92759e;font-weight:850;line-height:1.35}
+.co-super-kpi .big{font-size:26px;line-height:1.08;font-weight:950;color:#684a79;margin:7px 0 5px}
+.co-super-kpi.warn .big{color:#bd5576}
+.co-super-kpi .mini{font-size:11px;line-height:1.5;color:#806c89}
+.co-super-story{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 20px 0}
+.co-super-story>div{padding:12px 14px;border-radius:16px;border:1px dashed #dfcfe8;background:#fffafe;color:#6f5b78;font-size:12px;line-height:1.58}
+.co-super-chart-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:14px;margin:14px 20px 0}
+.co-super-chart-panel{min-width:0;border:1px solid #eadcf1;border-radius:18px;background:linear-gradient(180deg,#fff,#fbf8ff);padding:13px 14px 6px}
+.co-super-chart-panel h4{margin:0 0 3px;color:#684879;font-size:14px}
+.co-super-chart-panel p{margin:0;color:#7b6884;font-size:10.8px;line-height:1.5}
+#supermarketPulseChart{min-height:420px}
+#supermarketHistoryDistrictChart{min-height:420px}
+.co-super-mini-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 20px 0}
+.co-super-mini{min-width:0;padding:12px 13px;border:1px solid #ead8f1;border-radius:16px;background:#fffdfd}
+.co-super-mini strong{display:block;font-size:21px;line-height:1.1;color:#684a79;margin:5px 0}
+.co-super-mini small{display:block;color:#806c89;font-size:10.5px;line-height:1.45}
+.co-super-apb{margin-top:12px!important}
+.co-super-actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 20px 18px}
+#tab-consumption .co-super-deep :is(.co-super-kpi,.co-super-story>div,.co-super-chart-panel,.co-super-mini){overflow-wrap:anywhere}
+@media(max-width:1050px){.co-super-kpi-grid,.co-super-mini-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.co-super-chart-grid{grid-template-columns:1fr}}
+@media(max-width:720px){
+ .co-super-kpi-grid,.co-super-story,.co-super-mini-grid{grid-template-columns:1fr}
+ .co-super-kpi-grid,.co-super-story,.co-super-chart-grid,.co-super-mini-grid,.co-super-actions{margin-left:14px;margin-right:14px}
+ .co-super-kpi{padding:12px 13px}.co-super-kpi .big{font-size:23px}
+ #supermarketPulseChart{min-height:390px}#supermarketHistoryDistrictChart{min-height:520px}
+}
+@media(max-width:390px){.co-super-kpi-grid,.co-super-story,.co-super-chart-grid,.co-super-mini-grid,.co-super-actions{margin-left:12px;margin-right:12px}}
+</style>
 </head>
 <body>
 <div class="wrap">
@@ -11133,12 +11168,82 @@ html,body{overflow-x:clip}
       </div>
       <div class="co-recent-grid">
         <div class="co-recent"><span class="tag">Consumo privado · macro</span><div class="big">2025: +7,9%</div><div class="mini"><b>1T-2026: +2,7% ia</b> y <b>+0,8%</b> contra 4T-2025 desestacionalizado. El rombito del gráfico usa el +2,7% ia y queda separado del dato anual.</div></div>
-        <div class="co-recent"><span class="tag">Supermercados · consumo masivo</span><div class="big">2025: +2,0%</div><div class="mini"><b>Ene–may 2026: −2,8%</b>; mayo: −0,7% ia. Son ventas a precios constantes y no equivalen al consumo privado macro.</div></div>
-        <div class="co-recent"><span class="tag">Autoservicios mayoristas</span><div class="big">2025: −6,8%</div><div class="mini"><b>Ene–may 2026: −3,0%</b>; mayo: −2,3% ia. La recuperación macro de 2025 no fue homogénea entre canales de consumo.</div></div>
+        <div class="co-recent"><span class="tag">Supermercados · consumo masivo</span><div class="big">1S-2026: −2,8%</div><div class="mini"><b>Junio: −3,1% ia real</b> y <b>−1,0% mensual desestacionalizado</b>. En pesos corrientes la caja subió 23,7% ia: nominal y real cuentan cosas distintas.</div></div>
+        <div class="co-recent"><span class="tag">Autoservicios mayoristas</span><div class="big">1S-2026: −3,0%</div><div class="mini"><b>Junio: −3,1% ia real</b> y <b>−1,4% mensual desestacionalizado</b>. La debilidad no queda confinada al canal supermercado.</div></div>
       </div>
       <div class="co-apb">
         <div><b>APB · ¿Cómo pueden convivir?</b> Cuentas Nacionales incluye muchísimo más que alimentos de supermercado: vehículos, bienes importados, servicios, salud privada, turismo, alquileres imputados y otras categorías. Un subconjunto puede caer mientras el agregado sube.</div>
         <div><b>APB · distribución:</b> que el consumo total o per cápita aumente no significa que todos los hogares consuman más. El promedio puede ocultar diferencias enormes por ingreso, región y tipo de gasto.</div>
+      </div>
+    </section>
+
+    <section class="card co-super-deep" id="consumptionSupermarketPulse" style="margin-top:16px">
+      <div class="card-head">
+        <div class="card-title">La caja del súper: muchos más pesos, menos ventas reales <span>♡</span></div>
+        <div class="kicker">INDEC · ene–jun 2026 · nominal ≠ real</div>
+      </div>
+
+      <div class="co-super-kpi-grid">
+        <article class="co-super-kpi">
+          <span class="tag">Junio 2026 · facturación nominal</span>
+          <div class="big">$ 2,485 B</div>
+          <div class="mini">$2.484.975,5 millones · <b>+23,7% ia</b> en pesos corrientes.</div>
+        </article>
+        <article class="co-super-kpi">
+          <span class="tag">Primer semestre · suma nominal</span>
+          <div class="big">$ 14,41 B</div>
+          <div class="mini">Suma derivada de las ventas corrientes oficiales de enero a junio de 2026.</div>
+        </article>
+        <article class="co-super-kpi warn">
+          <span class="tag">Junio 2026 · ventas reales</span>
+          <div class="big">−3,1%</div>
+          <div class="mini">Interanual a precios constantes; <b>−1,0%</b> mensual desestacionalizado.</div>
+        </article>
+        <article class="co-super-kpi warn">
+          <span class="tag">1S-2026 · profundidad histórica</span>
+          <div class="big">−9,2%</div>
+          <div class="mini">Contra el promedio de los primeros semestres 2017–2025 · Politikon sobre INDEC.</div>
+        </article>
+      </div>
+
+      <div class="co-super-story">
+        <div><b>La aparente paradoja:</b> en junio la facturación nominal creció <b>23,7%</b>, pero las ventas reales cayeron <b>3,1%</b>. Que entren más pesos a la caja no significa que se hayan vendido más bienes en términos reales.</div>
+        <div><b>El semestre:</b> contra 1S-2025 la caída real fue <b>2,8%</b>; contra el promedio de los primeros semestres de 2017–2025, la brecha llega a <b>9,2%</b>. Son comparadores distintos y no deben mezclarse.</div>
+      </div>
+
+      <div class="co-super-chart-grid">
+        <div class="co-super-chart-panel">
+          <h4>2026 mes a mes: cuánto entra a la caja y qué pasa en términos reales</h4>
+          <p>Barras: facturación a precios corrientes. Línea: variación real interanual. Dos unidades distintas, dos lecturas complementarias.</p>
+          <div id="supermarketPulseChart"></div>
+        </div>
+        <div class="co-super-chart-panel">
+          <h4>¿La debilidad es territorial?</h4>
+          <p>Referencias explícitamente publicadas del informe de Politikon. No completamos provincias faltantes a ojo: el titular agregado sí informa <b>22 de 24</b> distritos por debajo.</p>
+          <div id="supermarketHistoryDistrictChart"></div>
+        </div>
+      </div>
+
+      <div class="co-super-mini-grid">
+        <div class="co-super-mini"><span class="tag">Operaciones · junio</span><strong>65,55 M</strong><small>ticket promedio: <b>$37.910</b></small></div>
+        <div class="co-super-mini"><span class="tag">Tarjeta de crédito</span><strong>42,8%</strong><small>$1,062 B de las ventas de junio</small></div>
+        <div class="co-super-mini"><span class="tag">Empresas / bocas</span><strong>93 / 3.128</strong><small>panel relevado por INDEC en junio</small></div>
+        <div class="co-super-mini"><span class="tag">Empleo del panel</span><strong>95.816</strong><small><b>−4,1% ia</b> asalariados en junio</small></div>
+      </div>
+
+      <div class="co-apb co-super-apb">
+        <div><b>APB · “facturación” puede engañar:</b> a precios corrientes mezcla precio × cantidad/composición. Para comparar consumo a través del tiempo usamos la serie a precios constantes.</div>
+        <div><b>APB · $14,41 B no es consumo real:</b> es la suma nominal enero–junio. Sirve para dimensionar caja; no se compara directamente entre años sin deflactar.</div>
+        <div><b>APB · promedio histórico:</b> el −9,2% compara 1S-2026 con el promedio de los primeros semestres 2017–2025; el −2,8% compara sólo contra 1S-2025.</div>
+        <div><b>APB · provincias:</b> Politikon desagrega Gran Buenos Aires y resto de Buenos Aires. Al unificar la provincia, la lectura publicada queda en 22 de 24 distritos bajo su promedio.</div>
+      </div>
+
+      <div class="co-super-actions">
+        <button class="download-link" type="button" onclick="downloadSupermarketPulseCsv()">⬇ CSV · supermercados 2026</button>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-1-34">🛒 INDEC · Encuesta de supermercados</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/uploads/informesdeprensa/super_06_26AE8B8D5076.pdf">📄 INDEC · abril 2026 · detalle nominal</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.infobae.com/economia/2026/08/21/cayeron-las-ventas-en-supermercados-mayoristas-y-shoppings-en-junio-segun-el-indec/">🧾 Junio 2026 · reproducción de datos INDEC</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.infobae.com/economia/2026/08/24/en-22-de-24-distritos-de-argentina-los-supermercados-estan-facturando-por-debajo-del-promedio-de-los-ultimos-8-anos/">🗺️ Politikon / INDEC · comparación territorial histórica</a>
       </div>
     </section>
 
@@ -11197,7 +11302,7 @@ html,body{overflow-x:clip}
       <div class="co-cat-kpi-grid">
         <div class="co-cat-kpi"><div class="tag">Yerba · 1S-2026</div><div class="big">137,34 M kg</div><div class="mini">Mercado interno ene–jun. Es <b>−0,7% ia</b> contra 1S-2025; exportaciones 1S26: 25,90 M kg.</div></div>
         <div class="co-cat-kpi"><div class="tag">Vino · 1S-2026</div><div class="big">343,75 M L</div><div class="mini"><span class="up">▲ 0,8%</span> ia; junio solo: +5,8% ia. Es volumen, no facturación.</div></div>
-        <div class="co-cat-kpi"><div class="tag">Supermercados · mayo 2026</div><div class="big">−0,7% real</div><div class="mini">Ventas a precios constantes vs mayo 2025; ene–may acumula <b>−2,8%</b>.</div></div>
+        <div class="co-cat-kpi"><div class="tag">Supermercados · junio 2026</div><div class="big">−3,1% real</div><div class="mini">Ventas a precios constantes vs junio 2025; ene–jun acumula <b>−2,8%</b>.</div></div>
         <div class="co-cat-kpi"><div class="tag">“Carnes” en súper · abril 2026</div><div class="big">+37,3% $</div><div class="mini">Sigue como ejemplo <b>nominal</b>: facturación no equivale a kilos consumidos.</div></div>
       </div>
 
@@ -11330,6 +11435,7 @@ html,body{overflow-x:clip}
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/uploads/informesdeprensa/pib_06_26FAE3FD2BFA.pdf">📄 INDEC · PIB 1T-2026 / revisión vigente</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-2-24-84">👥 INDEC · proyecciones nacionales de población 2022–2040</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-1-34">🛒 INDEC · supermercados</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.infobae.com/economia/2026/08/24/en-22-de-24-distritos-de-argentina-los-supermercados-estan-facturando-por-debajo-del-promedio-de-los-ultimos-8-anos/">🗺️ Politikon / INDEC · supermercados vs promedio 2017–2025</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-1-168">📦 INDEC · autoservicios mayoristas</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_sectorial/_archivos/000017_Tablero%20de%20consumo%20de%20carnes/000002_Tablero%20consumo%20per%20capita%20de%20carnes%202025.pdf">🥩 SAGyP · consumo per cápita de carnes 2020–2025</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.magyp.gob.ar/sitio/areas/bovinos/informacion_sectorial/_archivos/000017_Tablero%20de%20consumo%20de%20carnes/000003_Tablero_CONSUMO_PER_CAPITA_CARNES_PROMEDIO_MOVIL.pdf">🥩 SAGyP · carnes · PM12 mayo 2026</a>
@@ -15017,7 +15123,7 @@ const pandemicRange = {
 const consumptionData = {"years":[2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],"totalIndex":[50.18498987229021,54.284586382434426,59.44141465439338,63.83566782886769,70.82965323170217,77.4443237660989,83.05489316279524,78.57187906575307,87.36265057831582,95.54741179674559,96.60825731602071,100.12384335532703,95.7602177478471,99.2613991732205,98.4868918658778,102.58241371658035,100.27869370439224,94.13470770289794,82.67722822178197,90.50361539677529,98.96948882551109,100.0,97.1,104.77089999999998],"perCapIndex":[61.5451344069138,65.95025439064528,71.54212776714456,76.1020897854657,83.61997846950851,90.53292755894553,96.14089817639456,90.0704318436618,99.19727897652835,107.24701464395628,107.21190527347323,109.876811568936,103.93905464368396,106.58407729352076,104.64032690393432,107.86718726009087,104.37909064705892,97.01532635312097,84.38467613568308,91.50160399343771,99.13870768774804,100.0,96.91696185605798,104.38098060706017],"population":[37684088.75491545,38039776.76411487,38397697.75526971,38765440.652659416,39145601.059240706,39533105.294466205,39924083.05717791,40314640.942940734,40700893.58324205,41172915.12811251,41643683.36920259,42112339.154796615,42577902.59292616,43039375.8302629,43496793.79167333,43950261.25175694,44398986.91282434,44842243.339799196,45279353.98812491,45710410.660307676,46135579,46214462,46301743,46387098],"growth":[null,8.168969487842471,9.499617876111532,7.392578390039262,10.956234407360066,9.338843595292534,7.2446489605121345,-5.397651994151687,11.188190504144835,9.368718971149548,1.1102817955255695,3.6390119612718763,-4.358228231405348,3.656196182210669,-0.7802703909010167,4.158443599052708,-2.245726074015897,-6.126910687135512,-12.171365653226808,9.466194432642316,9.354182583337378,1.0412412822559558,-2.9,7.9],"method":["Reconstrucción enlazada: serie INDEC base 1993, anclada en 2004","Reconstrucción enlazada: serie INDEC base 1993, anclada en 2004","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024","Extensión enlazada con variación anual oficial INDEC 2024 revisada (-2,9%; vintage mar-2026)","Extensión enlazada con variación anual oficial INDEC 2025 (+7,9%; informe anual mar-2026)"],"recent":{"annual2024":-2.9,"annual2025":7.9,"q1_2026_yoy":2.7,"q1_2026_qoq_sa":0.8,"supermarkets_jan_may_2026":-2.8,"wholesale_jan_may_2026":-3.0,"population2026":46466688,"supermarkets_2025":2.0,"wholesale_2025":-6.8,"supermarkets_may_2026_yoy":-0.7,"wholesale_may_2026_yoy":-2.3}};
 const consumptionMandates = [{"name":"Eduardo Duhalde","years":[2002]},{"name":"Néstor Kirchner","years":[2004,2005,2006]},{"name":"Cristina Fernández","years":[2008,2009,2010,2011,2012,2013,2014]},{"name":"Mauricio Macri","years":[2016,2017,2018]},{"name":"Alberto Fernández","years":[2020,2021,2022]},{"name":"Javier Milei","years":[2024,2025]}];
 const consumptionCsvAnnual = "anio,indice_consumo_real_2023_100,indice_consumo_real_per_capita_2023_100,poblacion_enlazada,variacion_real_anual_pct,metodo\n2002,50.184990,61.545134,37684089,,\"Reconstrucción enlazada: serie INDEC base 1993, anclada en 2004\"\n2003,54.284586,65.950254,38039777,8.168969,\"Reconstrucción enlazada: serie INDEC base 1993, anclada en 2004\"\n2004,59.441415,71.542128,38397698,9.499618,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2005,63.835668,76.102090,38765441,7.392578,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2006,70.829653,83.619978,39145601,10.956234,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2007,77.444324,90.532928,39533105,9.338844,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2008,83.054893,96.140898,39924083,7.244649,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2009,78.571879,90.070432,40314641,-5.397652,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2010,87.362651,99.197279,40700894,11.188191,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2011,95.547412,107.247015,41172915,9.368719,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2012,96.608257,107.211905,41643683,1.110282,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2013,100.123843,109.876812,42112339,3.639012,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2014,95.760218,103.939055,42577903,-4.358228,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2015,99.261399,106.584077,43039376,3.656196,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2016,98.486892,104.640327,43496794,-0.780270,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2017,102.582414,107.867187,43950261,4.158444,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2018,100.278694,104.379091,44398987,-2.245726,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2019,94.134708,97.015326,44842243,-6.126911,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2020,82.677228,84.384676,45279354,-12.171366,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2021,90.503615,91.501604,45710411,9.466194,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2022,98.969489,99.138708,46135579,9.354183,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2023,100.000000,100.000000,46214462,1.041241,\"INDEC Cuentas Nacionales base 2004; vintage histórico dic-2024\"\n2024,97.100000,96.916962,46301743,-2.900000,\"Extensión enlazada con variación anual oficial INDEC 2024 revisada (-2,9%; vintage mar-2026)\"\n2025,104.770900,104.380981,46387098,7.900000,\"Extensión enlazada con variación anual oficial INDEC 2025 (+7,9%; informe anual mar-2026)\"";
-const consumptionCsvRecent = "periodo,indicador,variacion_pct,comparacion,estado\n2024,Consumo privado real,-2.9,vs 2023,INDEC - revisión anual publicada mar-2026\n2025,Consumo privado real,7.9,vs 2024,INDEC - informe anual mar-2026\n2025,Supermercados a precios constantes,2.0,vs 2024,INDEC - año completo\n2025,Autoservicios mayoristas a precios constantes,-6.8,vs 2024,INDEC - año completo\n1T 2026,Consumo privado real,2.7,interanual,INDEC - preliminar\n1T 2026,Consumo privado real desestacionalizado,0.8,vs 4T 2025,INDEC - preliminar\nene-may 2026,Supermercados a precios constantes,-2.8,vs ene-may 2025,INDEC\nmay 2026,Supermercados a precios constantes,-0.7,vs may 2025,INDEC\nene-may 2026,Autoservicios mayoristas a precios constantes,-3.0,vs ene-may 2025,INDEC\nmay 2026,Autoservicios mayoristas a precios constantes,-2.3,vs may 2025,INDEC";
+const consumptionCsvRecent = "periodo,indicador,variacion_pct,comparacion,estado\n2024,Consumo privado real,-2.9,vs 2023,INDEC - revisión anual publicada mar-2026\n2025,Consumo privado real,7.9,vs 2024,INDEC - informe anual mar-2026\n2025,Supermercados a precios constantes,2.0,vs 2024,INDEC - año completo\n2025,Autoservicios mayoristas a precios constantes,-6.8,vs 2024,INDEC - año completo\n1T 2026,Consumo privado real,2.7,interanual,INDEC - preliminar\n1T 2026,Consumo privado real desestacionalizado,0.8,vs 4T 2025,INDEC - preliminar\nene-jun 2026,Supermercados a precios constantes,-2.8,vs ene-jun 2025,INDEC\njun 2026,Supermercados a precios constantes,-3.1,vs jun 2025,INDEC\njun 2026,Supermercados desestacionalizado,-1.0,vs may 2026,INDEC\nene-jun 2026,Autoservicios mayoristas a precios constantes,-3.0,vs ene-jun 2025,INDEC\njun 2026,Autoservicios mayoristas a precios constantes,-3.1,vs jun 2025,INDEC\njun 2026,Autoservicios mayoristas desestacionalizado,-1.4,vs may 2026,INDEC";
 
 
 const consumptionMoreCategoryData={
@@ -22229,5 +22335,78 @@ function normalizeSourceRegisters(){
 normalizeSourceRegisters();
 </script>
 <!-- SELF_CONTAINED_EDITORIAL_PASS: 2026-08-23 -->
+
+<script id="consumo-supermercados-v1-script">
+// ---------------- Consumo · supermercados 2026 ----------------
+const SUPERMARKET_PULSE_2026={
+  months:['Ene','Feb','Mar','Abr','May','Jun'],
+  nominal_millions:[2339233.3,2214141.6,2464000.0,2399923.1,2502789.7,2484975.5],
+  nominal_yoy:[25.1,23.5,20.5,21.5,25.9,23.7],
+  real_yoy:[-1.2,-3.1,-5.1,-3.7,-0.7,-3.1],
+  real_accum:[-1.2,-2.1,-3.1,-3.3,-2.8,-2.8],
+  june:{sa_mom:-1.0,operations:65548779,ticket:37910,companies:93,stores:3128,workers:95816,workers_yoy:-4.1,credit_share:42.8,credit_millions:1062498.318},
+  historical:{national:-9.2,below:22,total:24,period:'1S-2026 vs promedio 1S 2017–2025'},
+  district_refs:[
+    ['Neuquén',12.8],['Río Negro',5.1],['Santa Fe',-0.4],['Córdoba',-3.2],['CABA',-3.8],['Tierra del Fuego',-4.2],['Resto PBA',-6.3],['La Pampa',-8.8],['San Luis',-12.9],['Chaco',-21.1],['Jujuy',-22.1],['San Juan',-22.1],['La Rioja',-25.0],['Santiago del Estero',-25.1],['Misiones',-29.0],['Corrientes',-32.8],['Tucumán',-33.0],['Formosa',-35.9]
+  ]
+};
+SUPERMARKET_PULSE_2026.h1_nominal_millions=SUPERMARKET_PULSE_2026.nominal_millions.reduce((a,b)=>a+b,0);
+
+function renderSupermarketPulse(){
+  if(!window.Plotly)return;
+  const mobile=window.innerWidth<=720,d=SUPERMARKET_PULSE_2026;
+  const pulse=document.getElementById('supermarketPulseChart');
+  if(pulse){
+    const nominalB=d.nominal_millions.map(v=>v/1e6);
+    Plotly.react(pulse,[
+      {type:'bar',x:d.months,y:nominalB,name:'Facturación nominal',marker:{color:'#9c78c6'},text:nominalB.map(v=>'$ '+v.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})+' B'),textposition:'outside',cliponaxis:false,customdata:d.months.map((m,i)=>[d.nominal_yoy[i],d.real_yoy[i],d.real_accum[i]]),hovertemplate:'<b>%{x} 2026</b><br>Facturación: <b>$ %{y:.3f} billones</b><br>Nominal ia: <b>+%{customdata[0]:.1f}%</b><br>Real ia: <b>%{customdata[1]:.1f}%</b><br>Real acumulado: <b>%{customdata[2]:.1f}%</b><extra></extra>'},
+      {type:'scatter',mode:'lines+markers',x:d.months,y:d.real_yoy,name:'Ventas reales · ia',yaxis:'y2',line:{color:'#c45778',width:3},marker:{size:mobile?7:8,color:'#c45778'},hovertemplate:'<b>%{x} 2026</b><br>Ventas reales: <b>%{y:.1f}% ia</b><extra></extra>'}
+    ],{
+      ...common,
+      margin:{l:mobile?48:62,r:mobile?48:62,t:mobile?72:58,b:44},
+      barmode:'group',
+      xaxis:{...common.xaxis,fixedrange:true},
+      yaxis:{...common.yaxis,title:'$ billones corrientes',rangemode:'tozero',fixedrange:true},
+      yaxis2:{title:'variación real ia',overlaying:'y',side:'right',ticksuffix:'%',range:[-7,2],showgrid:false,zeroline:true,zerolinecolor:'#bfaec8',fixedrange:true},
+      legend:{...common.legend,orientation:'h',y:mobile?1.13:1.10,x:0,font:{size:mobile?8.5:10.5}},
+      annotations:[{xref:'paper',yref:'paper',x:.01,y:-.16,text:'Barras y línea usan escalas distintas · nominal ≠ real',showarrow:false,xanchor:'left',font:{size:mobile?8:9,color:'#806c89'}}]
+    },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+  }
+
+  const district=document.getElementById('supermarketHistoryDistrictChart');
+  if(district){
+    const rows=[...d.district_refs].sort((a,b)=>a[1]-b[1]);
+    Plotly.react(district,[{
+      type:'bar',orientation:'h',y:rows.map(r=>r[0]),x:rows.map(r=>r[1]),
+      marker:{color:rows.map(r=>r[1]>=0?'#5ba27e':'#ce6686')},
+      text:rows.map(r=>(r[1]>=0?'+':'')+r[1].toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})+'%'),textposition:'outside',cliponaxis:false,
+      customdata:rows.map(()=>[d.historical.period]),
+      hovertemplate:'<b>%{y}</b><br>Vs promedio histórico: <b>%{x:.1f}%</b><br><span style="font-size:10px">%{customdata[0]}</span><extra></extra>'
+    }],{
+      ...common,
+      margin:{l:mobile?125:135,r:mobile?34:42,t:32,b:44},
+      xaxis:{title:'% vs promedio del mismo semestre 2017–2025',range:[-40,16],ticksuffix:'%',gridcolor:'#eee5f2',zeroline:true,zerolinecolor:'#9c879f',fixedrange:true},
+      yaxis:{autorange:'reversed',automargin:true,fixedrange:true},
+      showlegend:false,
+      annotations:[{xref:'paper',yref:'paper',x:0,y:-.13,text:'Sólo referencias con valor explícito publicado · no es el ranking completo',showarrow:false,xanchor:'left',font:{size:mobile?7.5:9,color:'#806c89'}}]
+    },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+  }
+}
+
+function downloadSupermarketPulseCsv(){
+  const d=SUPERMARKET_PULSE_2026,lines=['tipo,periodo_o_jurisdiccion,ventas_nominales_millones_ars,variacion_nominal_ia_pct,variacion_real_ia_pct,variacion_real_acum_pct,vs_promedio_historico_pct,nota'];
+  d.months.forEach((m,i)=>lines.push(`mensual,${m}-2026,${d.nominal_millions[i].toFixed(1)},${d.nominal_yoy[i].toFixed(1)},${d.real_yoy[i].toFixed(1)},${d.real_accum[i].toFixed(1)},,"INDEC · precios corrientes y constantes"`));
+  lines.push(`semestre,1S-2026,${d.h1_nominal_millions.toFixed(1)},,,${d.real_accum[5].toFixed(1)},${d.historical.national.toFixed(1)},"Nominal = suma mensual; histórico = Politikon sobre INDEC"`);
+  d.district_refs.forEach(([name,v])=>lines.push(`jurisdiccion,"${name}",,,,,${v.toFixed(1)},"Referencia explícitamente publicada; ranking parcial"`));
+  const blob=new Blob(['\uFEFF'+lines.join('\n')],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
+  a.href=url;a.download='supermercados_2026_nominal_real_historico.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),800);
+}
+
+document.querySelector('.tab-btn[data-tab="tab-consumption"]')?.addEventListener('click',()=>setTimeout(renderSupermarketPulse,160));
+if(document.getElementById('tab-consumption')?.classList.contains('active'))setTimeout(renderSupermarketPulse,120);
+window.addEventListener('resize',()=>{
+  ['supermarketPulseChart','supermarketHistoryDistrictChart'].forEach(id=>{const el=document.getElementById(id);if(el?.data)Plotly.Plots.resize(el)});
+});
+</script>
 </body>
 </html>
