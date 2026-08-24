@@ -8948,6 +8948,8 @@ html,body{overflow-x:clip}
           <h2>Ordenar las cuentas y decidir quién paga son preguntas distintas</h2>
           <p>Los datos no demuestran que ordenar las cuentas públicas fuera innecesario. Tampoco demuestran que cualquier alternativa hubiera sido gratuita, sencilla o políticamente viable.</p>
           <p>Pero sí muestran algo más interesante: la política fiscal no consiste solamente en decidir cuánto recaudar y cuánto gastar. También consiste en decidir <b>de quién obtener los recursos, qué gastos preservar, cuáles reducir y sobre qué sectores distribuir el costo de una crisis.</b></p>
+          <p>Después apareció otra simplificación frecuente: hablar de <b>“bajar impuestos”</b> como si todos los impuestos fueran iguales y sus cambios alcanzaran a las mismas personas. Al desarmar la cuenta apareció algo más útil: mientras PAIS, retenciones o Bienes Personales reducían recursos, combustibles, Ganancias y monotributo los aumentaban; y los sujetos directamente alcanzados no eran necesariamente los mismos.</p>
+          <div class="story-links"><button class="story-link" type="button" onclick="activateTabAndScroll('tab-fiscal','taxMapSection')">Ver mapa tributario →</button></div>
           <p>Mi conclusión ya no es que “no había que hacer nada”. Había que ordenar muchas cosas. Lo que no estaba escrito en ninguna ley económica era que hubiera que ordenarlas exactamente de esta manera.</p>
           <p>Tal vez existían otras combinaciones. Tal vez podían reducirse otros gastos. Tal vez podía exigirse un esfuerzo mayor a quienes tenían más capacidad para absorberlo. Tal vez una parte del shock sobre el trabajador común podía haberse evitado.</p>
           <div class="story-quote final">Este dashboard pone los números sobre la mesa para que “era algo que había que hacer” deje de ser el final de la discusión y se convierta en el comienzo.</div>
@@ -12229,6 +12231,18 @@ html,body{overflow-x:clip}
             <div class="pend-fiscal-plain"><b>En criollo:</b> en 2023 el SPN cerró con déficit de 4,4% del PIB; desde 2024 los datos muestran superávit financiero. Eso dice que el Estado recaudó más de lo que gastó —incluidos intereses— dentro de cada período. <b>No dice por sí solo quién pagó el ajuste ni quién recibió menos o más.</b></div>
             <div class="pend-links"><button class="pend-link" onclick="activateTab('tab-fiscal')">Abrir Resultado fiscal completo →</button><button class="pend-link" onclick="activateTab('tab-social')">Abrir Transferencias →</button><button class="pend-link" onclick="activateTab('tab-debt-public')">Abrir Deuda pública →</button></div>
           </section>
+
+          <section id="pendTaxMapCard" class="pend-card pend-taxmap-card">
+            <div class="pend-head"><div><span class="pend-kicker">D · Mapa tributario</span><h3>¿El Estado cobró menos impuestos… a quiénes?</h3><p class="pend-note">El resultado agregado no alcanza: separamos el efecto contrafactual de las reformas, la presión tributaria efectiva y los sujetos directamente alcanzados.</p></div></div>
+            <div class="pend-taxmap-kpis">
+              <div><small>Reformas · 2024–2026</small><strong>≈ −3,0 pp PIB-año</strong><span>Suma de impactos anuales estimados por Argañaraz; no es un −3% anual en 2026.</span></div>
+              <div><small>Presión efectiva</small><strong>22,6% → 20,8%</strong><span>2023 observado/revisado → 2026 proyectado por IARAF.</span></div>
+              <div><small>Incidencia por hogar</small><strong>N/D</strong><span>La matriz identifica sujetos y exposición; no reemplaza una microsimulación distributiva.</span></div>
+            </div>
+            <div class="pend-fiscal-plain"><b>En criollo:</b> “bajaron los impuestos” no significa que todos pagaron menos ni que todos recibieron el mismo beneficio. PAIS, retenciones, Bienes Personales, combustibles, Ganancias y monotributo alcanzan actores distintos; además, parte del efecto puede trasladarse a precios, salarios o márgenes.</div>
+            <div class="pend-links"><button class="pend-link" onclick="activateTabAndScroll('tab-fiscal','taxMapSection')">Abrir mapa tributario completo →</button><button class="pend-link" onclick="activateTab('tab-meli-benefits')">Tratamientos focalizados →</button></div>
+          </section>
+
           <section class="pend-card">
             <div class="pend-head"><div><span class="pend-kicker">No sumar estas tarjetas</span><h3>Partidas auditadas: cada una es una clase de número distinta</h3><p class="pend-note">Sirven para identificar actores y escala. No forman una cuenta fiscal homogénea ni se agregan al resultado del gráfico.</p></div></div>
             <div id="pendPowerFiscalComponents" class="pend-fiscal-components"></div>
@@ -12306,6 +12320,35 @@ html,body{overflow-x:clip}
     </div>
   </section>
 
+
+<style id="tax-map-fiscal-v1">
+/* Mapa tributario 2024–2027 · alcance directo, no microsimulación distributiva */
+.taxmap-shell{margin-top:16px}
+.taxmap-hero{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(255,250,253,.98),rgba(247,253,255,.98) 52%,rgba(251,248,255,.98));border:1px solid #d7c4e2;border-radius:24px;padding:18px}
+.taxmap-hero::after{content:'impuestos';position:absolute;right:-18px;bottom:-32px;font-size:88px;font-weight:950;color:rgba(102,73,124,.045);transform:rotate(-5deg);pointer-events:none}
+.taxmap-head{position:relative;z-index:1;display:flex;gap:18px;justify-content:space-between;align-items:flex-start}
+.taxmap-head h2,.taxmap-head h3{margin:4px 0 6px;color:#583b67}.taxmap-head p{margin:0;color:#725d78;line-height:1.55;max-width:900px;font-size:12px}
+.taxmap-kicker{display:block;color:#9a6685;font-size:10px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.taxmap-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.taxmap-badge{padding:5px 8px;border:1px solid #dbcfe2;border-radius:999px;background:#fff;color:#765e7d;font-size:9px;font-weight:850}.taxmap-badge.estimate{background:#fff6dd;border-color:#e8ce7d;color:#8b6922}.taxmap-badge.projected{background:#f1edff;border-color:#cfc3ef;color:#6b5590}
+.taxmap-kpis{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:16px}
+.taxmap-kpi{padding:13px;border:1px solid #dfd3e5;border-radius:17px;background:rgba(255,255,255,.92)}.taxmap-kpi small{display:block;color:#907795;font-size:9px;font-weight:900;text-transform:uppercase}.taxmap-kpi strong{display:block;margin:4px 0 2px;color:#5d4169;font-size:24px;line-height:1}.taxmap-kpi p{margin:4px 0 0;font-size:9.5px;line-height:1.4;color:#7c687f}.taxmap-kpi.up strong{color:#3f8f72}.taxmap-kpi.down strong{color:#c45d7c}.taxmap-kpi.projected{border-style:dashed;background:rgba(246,242,255,.86)}
+.taxmap-grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}.taxmap-card{border:1px solid #dfd1e7;border-radius:20px;background:rgba(255,255,255,.94);padding:16px}.taxmap-card h3,.taxmap-card h4{margin:0 0 5px;color:#5e426b}.taxmap-card p{margin:0;color:#78677d;font-size:10.5px;line-height:1.5}
+.taxmap-chart{height:360px}.taxmap-chart.compact{height:315px}
+.taxmap-apb{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.taxmap-apb>div{padding:13px;border:1px solid #e2d5e7;border-radius:15px;background:#fffafd;color:#735f78;font-size:10.5px;line-height:1.5}.taxmap-apb b{color:#5d4169}
+.taxmap-method{margin-top:12px;padding:12px 14px;border:1px solid #ead5a7;border-radius:15px;background:#fffaf0;color:#7b6642;font-size:10.5px;line-height:1.55}
+.taxmap-bridge{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:12px}.taxmap-bridge article{padding:12px;border:1px solid #ddd1e5;border-radius:15px;background:#fff}.taxmap-bridge small{display:block;color:#8d7593;font-size:8.5px;font-weight:900;text-transform:uppercase}.taxmap-bridge strong{display:block;margin:4px 0;font-size:20px;color:#5e456a}.taxmap-bridge p{font-size:9px;line-height:1.35;color:#75647a;margin:0}
+.taxmap-sector-wrap{overflow:auto;margin-top:12px;border:1px solid #e0d4e6;border-radius:17px;background:#fff}.taxmap-sector-table{width:100%;min-width:930px;border-collapse:separate;border-spacing:0;font-size:9.5px}.taxmap-sector-table th{position:sticky;top:0;background:#f8f3fb;color:#654e70;padding:9px;border-bottom:1px solid #ddd0e4;text-align:center;z-index:2}.taxmap-sector-table th:first-child{left:0;z-index:4;text-align:left}.taxmap-sector-table td{padding:8px;border-bottom:1px solid #f0e8f3;text-align:center;color:#75647c}.taxmap-sector-table td:first-child{position:sticky;left:0;background:#fff;text-align:left;font-weight:850;color:#5e4767;z-index:1;min-width:165px}.taxmap-sector-table tr:last-child td{border-bottom:0}
+.taxmap-cell{display:inline-flex;align-items:center;justify-content:center;min-width:30px;height:25px;padding:0 6px;border-radius:999px;font-weight:950;white-space:nowrap}.taxmap-cell.good{background:#e7f7ef;color:#34775f}.taxmap-cell.bad{background:#fde9ef;color:#a64967}.taxmap-cell.mixed{background:#fff2d3;color:#8a6821}.taxmap-cell.exposure{background:#eef1fb;color:#5b638e}.taxmap-cell.na{color:#b8aabb}
+.taxmap-legend{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px;color:#7d6b82;font-size:9px}.taxmap-legend span{padding:5px 7px;border:1px solid #e3d8e8;border-radius:999px;background:#fff}
+.taxmap-measures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.taxmap-measure{padding:13px;border:1px solid #e2d6e7;border-radius:16px;background:#fff}.taxmap-measure-head{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.taxmap-measure h4{margin:0;color:#5d4169;font-size:13px}.taxmap-measure .meta{font-size:8px;padding:4px 6px;border-radius:999px;border:1px solid #ded2e5;background:#faf7fc;color:#7c687f;font-weight:900;white-space:nowrap}.taxmap-measure p{margin:7px 0 0;color:#77657b;font-size:9.5px;line-height:1.45}.taxmap-measure b{color:#624c6b}
+.taxmap-source-note{margin-top:12px;padding:11px;border-radius:14px;background:#f7f3f9;color:#7a697e;font-size:9.5px;line-height:1.45}
+.taxmap-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+#tab-pendulo .pend-taxmap-card{background:linear-gradient(135deg,#fffafd,#f7fbff);border-color:#d7c9e2}#tab-pendulo .pend-taxmap-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:10px 0}#tab-pendulo .pend-taxmap-kpis>div{padding:10px;border:1px solid #e1d6e7;border-radius:14px;background:#fff}#tab-pendulo .pend-taxmap-kpis small{display:block;color:#907995;font-size:8px;font-weight:900;text-transform:uppercase}#tab-pendulo .pend-taxmap-kpis strong{display:block;margin-top:3px;color:#5d4169;font-size:18px}#tab-pendulo .pend-taxmap-kpis span{display:block;margin-top:3px;color:#7b697f;font-size:8.5px;line-height:1.35}
+@media(max-width:900px){.taxmap-kpis{grid-template-columns:1fr 1fr}.taxmap-grid2,.taxmap-apb,.taxmap-measures{grid-template-columns:1fr}.taxmap-bridge{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.taxmap-hero,.taxmap-card{padding:12px;border-radius:18px}.taxmap-head{display:block}.taxmap-kpis{grid-template-columns:1fr 1fr;gap:8px}.taxmap-kpi strong{font-size:20px}.taxmap-chart{height:330px}.taxmap-chart.compact{height:300px}.taxmap-bridge{grid-template-columns:1fr}.taxmap-sector-wrap{margin-left:-2px;margin-right:-2px}.taxmap-actions{display:grid;grid-template-columns:1fr}.taxmap-actions>*{width:100%;box-sizing:border-box;text-align:center}#tab-pendulo .pend-taxmap-kpis{grid-template-columns:1fr}}
+@media(max-width:390px){.taxmap-kpis{grid-template-columns:1fr}.taxmap-hero::after{font-size:64px}.taxmap-card{padding:10px}}
+</style>
+
   <section id="tab-fiscal" class="tab-panel">
     <div class="method-shield">
       <span class="label">Resultado fiscal · SPN base caja</span>
@@ -12349,6 +12392,124 @@ html,body{overflow-x:clip}
         <div><b>Años de traspaso:</b> 2003, 2007, 2015, 2019 y 2023 se marcan <i>mixto</i>. La fila muestra el resultado del año calendario completo y no lo atribuye causalmente a un solo presidente.</div>
       </div>
     </section>
+
+
+    <section id="taxMapSection" class="taxmap-shell">
+      <div class="taxmap-hero">
+        <div class="taxmap-head">
+          <div>
+            <span class="taxmap-kicker">Mapa tributario · 2024 → 2027</span>
+            <h2>¿Cuánto bajaron realmente los impuestos, y a quién alcanzó cada cambio? ♡</h2>
+            <p>Separamos cuatro preguntas que suelen mezclarse: <b>impacto contrafactual de las reformas</b>, <b>presión tributaria efectiva</b>, <b>sujeto/sector directamente alcanzado</b> e <b>incidencia económica final</b>. La última no se inventa: cuando hace falta una microsimulación o evidencia de traslado, queda como N/D.</p>
+            <div class="taxmap-badges">
+              <span class="taxmap-badge">IARAF · presión efectiva</span>
+              <span class="taxmap-badge">Argañaraz · cambios tributarios</span>
+              <span class="taxmap-badge">normativa oficial · actores directos</span>
+              <span class="taxmap-badge estimate">2026 · estimación / proyección según métrica</span>
+              <span class="taxmap-badge projected">2027 · proyección</span>
+            </div>
+          </div>
+        </div>
+        <div class="taxmap-kpis">
+          <article class="taxmap-kpi up"><small>2024 · efecto neto reformas</small><strong>+0,34% PIB</strong><p>Los cambios identificados elevaron recursos netos ese año.</p></article>
+          <article class="taxmap-kpi down"><small>2025 · efecto neto reformas</small><strong>−1,69% PIB</strong><p>Estimación ex post de Argañaraz sobre diez cambios relevantes.</p></article>
+          <article class="taxmap-kpi down"><small>2026 · estimado</small><strong>−1,61% PIB</strong><p>Incluye medidas del año y el FAL desde noviembre dentro del escenario.</p></article>
+          <article class="taxmap-kpi down projected"><small>2027 · proyectado</small><strong>−1,77% PIB</strong><p>No es un agujero anual de 4,7%: el 4,7 surge al sumar impactos anuales.</p></article>
+        </div>
+      </div>
+
+      <div class="taxmap-grid2">
+        <article class="taxmap-card">
+          <h3>Impacto anual de las reformas y suma acumulada</h3>
+          <p>Positivo = más recursos respecto del contrafactual normativo; negativo = menos. La línea acumula <b>puntos de PIB-año</b>, no representa la pérdida anual de 2027.</p>
+          <div id="taxMapImpactChart" class="taxmap-chart"></div>
+        </article>
+        <article class="taxmap-card">
+          <h3>Presión tributaria efectiva: otra pregunta</h3>
+          <p>Recaudación tributaria nacional / PIB. En 2024 mostramos además la variante sin blanqueo, moratoria y adelanto extraordinario de Bienes Personales.</p>
+          <div id="taxMapPressureChart" class="taxmap-chart"></div>
+        </article>
+      </div>
+
+      <div class="taxmap-apb">
+        <div><b>APB · costo fiscal ≠ juicio de valor.</b><br>“Costo fiscal” significa menos recursos para el Estado respecto del escenario de comparación. No significa por sí mismo que bajar ese impuesto sea bueno o malo.</div>
+        <div><b>APB · reforma ≠ presión efectiva.</b><br>El impacto normativo es contrafactual. La presión efectiva también cambia por actividad, bases imponibles, inflación, cumplimiento, comercio, anticipos e ingresos extraordinarios.</div>
+      </div>
+
+      <div class="taxmap-grid2">
+        <article class="taxmap-card">
+          <h3>¿Qué explica las bajas de recursos? · 2024–2026</h3>
+          <p>Participación dentro del universo de cambios que redujeron recursos (≈4,5% del PIB acumulado en la estimación). No equivale a “quién recibió ese dinero”.</p>
+          <div id="taxMapDropsChart" class="taxmap-chart compact"></div>
+        </article>
+        <article class="taxmap-card">
+          <h3>¿Qué explica las subas de recursos? · 2024–2026</h3>
+          <p>Participación dentro del universo de cambios que aumentaron recursos (≈1,5% del PIB acumulado). Son porcentajes de composición, no puntos del PIB.</p>
+          <div id="taxMapRaisesChart" class="taxmap-chart compact"></div>
+        </article>
+      </div>
+
+      <article class="taxmap-card" style="margin-top:14px">
+        <h3>2025, medida por medida: el año en que cambió el signo</h3>
+        <p>Este waterfall usa el desglose publicado para 2025. Los certificados aduaneros son un <b>pago a cuenta / timing financiero</b>, por eso se distinguen de una eliminación permanente de alícuota.</p>
+        <div id="taxMapWaterfall2025" class="taxmap-chart"></div>
+      </article>
+
+      <article class="taxmap-card" style="margin-top:14px">
+        <div class="taxmap-head">
+          <div>
+            <span class="taxmap-kicker">Incidencia directa ≠ incidencia económica final</span>
+            <h3>Mapa de actores y sectores alcanzados</h3>
+            <p>Los símbolos indican sólo la dirección <b>directa o de exposición</b>. No son montos, no se suman y no forman un “score de ganadores”. En retenciones, por ejemplo, el exportador es el sujeto directo; cuánto del beneficio llega al productor depende de la cadena y los precios.</p>
+          </div>
+        </div>
+        <div class="taxmap-legend">
+          <span>🟢 directa favorable</span><span>🔴 directa desfavorable</span><span>🟡 efecto mixto / reasignación</span><span>◌ exposición indirecta</span><span>— no aplica / no generalizable</span>
+        </div>
+        <div class="taxmap-sector-wrap"><table class="taxmap-sector-table" id="taxMapSectorTable"></table></div>
+        <div id="taxMapMeasureCards" class="taxmap-measures"></div>
+      </article>
+
+      <article class="taxmap-card" style="margin-top:14px">
+        <span class="taxmap-kicker">Puente con el superávit</span>
+        <h3>Si se resignaron recursos, ¿cómo siguió habiendo superávit?</h3>
+        <p>La identidad sigue siendo <b>ingresos − gasto primario − intereses = resultado financiero</b>. Una baja tributaria puede coexistir con superávit si cambian otros ingresos, el gasto o los intereses. Como ejemplo independiente, IIEP-UBA estimó para 2025 una baja tributaria de 1,34% del PIB bajo su propia metodología y mostró cómo fue absorbida en gran parte por mayor recaudación del resto y menor gasto. <b>No mezclamos esa cifra con el 1,69% de Argañaraz porque las metodologías no son idénticas.</b></p>
+        <div class="taxmap-bridge">
+          <article><small>IIEP-UBA · lente propia</small><strong>−1,34%</strong><p>Baja de impuestos estimada para 2025.</p></article>
+          <article><small>otros recursos</small><strong>≈ +0,8%</strong><p>Mayor recaudación restante, principalmente Seguridad Social en su lectura.</p></article>
+          <article><small>menor gasto</small><strong>≈ +0,4%</strong><p>Ajuste adicional del gasto del SPN durante 2025.</p></article>
+          <article><small>resultado primario</small><strong>≈ −0,2%</strong><p>Parte de la baja se tradujo en menor superávit primario.</p></article>
+        </div>
+        <div class="taxmap-method"><b>Perímetro federal:</b> el resultado fiscal de este tab corresponde al <b>Sector Público Nacional</b>. Los cambios tributarios se calculan sobre tributos nacionales y algunos son coparticipables o tienen afectaciones específicas. Por eso estos paneles se muestran juntos como contexto, pero <b>no se restan entre sí como una identidad contable Nación–provincias</b>.</div>
+      </article>
+
+      <article class="taxmap-card" style="margin-top:14px">
+        <h3>¿Entonces quién ganó y quién perdió?</h3>
+        <div class="taxmap-apb">
+          <div><b>Lo que sí podemos decir:</b><br>las mayores bajas y las mayores subas no recayeron necesariamente sobre los mismos sujetos. Comercio exterior/exportaciones, patrimonio, combustibles, Ganancias y monotributo tienen actores directos diferentes.</div>
+          <div><b>Lo que todavía no podemos decir:</b><br>cuántos pesos terminó ganando o perdiendo cada decil u hogar. Eso exige incidencia de precios, salarios, márgenes, empleo, transferencias y servicios en una microsimulación consistente.</div>
+        </div>
+        <div class="taxmap-source-note"><b>Regla editorial:</b> si una norma permite identificar al sujeto legal, se muestra. Si sólo podemos identificar exposición económica, se rotula como exposición. Si para saber quién terminó absorbiendo el cambio hay que adivinar, queda N/D.</div>
+        <div class="taxmap-actions">
+          <button class="download-link" type="button" onclick="downloadTaxMapCsv()">⬇ CSV · cambios tributarios y sectores</button>
+          <button class="download-link" type="button" onclick="downloadTaxMapAudit()">🧮 Auditoría · mapa tributario</button>
+          <button class="pend-link" type="button" onclick="activateTabAndScroll('tab-pendulo','pendTaxMapCard')">Abrir capa Fiscal del Péndulo →</button>
+          <button class="pend-link" type="button" onclick="activateTab('tab-meli-benefits')">Ver tratamientos fiscales focalizados →</button>
+        </div>
+        <div class="source-links" style="margin-top:12px">
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.iaraf.org/index.php/informes-economicos/area-fiscal/740-informe-economico-2026-07-26">📊 IARAF · presión tributaria efectiva 2023–2026</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.lanacion.com.ar/economia/menor-recaudacion-los-cambios-impositivos-del-gobierno-de-milei-impactan-en-un-3-del-pbi-nid23082026/">🧾 Argañaraz · cambios tributarios 2024–2027</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.infobae.com/economia/2026/08/23/el-nuevo-mapa-de-los-impuestos-cuales-bajaron-que-puntos-siguen-en-debate-y-hasta-donde-llegara-el-recorte-del-gobierno/">🧾 Desglose 2025 y composición 2024–2026</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.arca.gob.ar/impuesto-pais/operaciones-y-sujetos/cuando-se-abona-el-impuesto.asp">💱 ARCA · operaciones alcanzadas por PAIS</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/sites/default/files/3deg_trimestre_2025_legislacion.pdf">🌾 Hacienda · derechos de exportación 2025</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/normativa/nacional/ley-27743-2024-401268/texto">📘 Ley 27.743 · Bienes Personales / Monotributo / Ganancias</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.boletinoficial.gob.ar/pdf/aviso/primera/322066/20250228">🛃 ARCA RG 5655/2025 · certificados de exclusión</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/normativa/nacional/norma-423680/texto">👷 Ley 27.802 · Fondo de Asistencia Laboral</a>
+          <a class="source-link" target="_blank" rel="noopener" href="https://economicas.uba.ar/iiep/wp-content/uploads/Reporte-Fiscal-Diciembre-2025.pdf">🏛️ IIEP-UBA · cómo se financió la baja 2025</a>
+        </div>
+      </article>
+    </section>
+
 
     <section class="sources-box" style="margin-top:16px">
       <h3>Fuentes y descarga</h3>
@@ -16142,6 +16303,83 @@ function downloadFiscalCsv(){
   const blob=new Blob(['\uFEFF'+rows.join('\n')],{type:'text/csv;charset=utf-8'});
   const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='resultado_fiscal_spn_2002_2026_parcial.csv'; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
+
+
+// TAX_MAP_FISCAL_SCRIPT_VERSION:1
+const TAX_MAP_DATA={"cutoff":"2026-08-24","annualImpact":[{"year":2024,"net":0.34,"status":"ex post","certainty":"observado con estimación de impacto normativo"},{"year":2025,"net":-1.69,"status":"ex post","certainty":"estimación de impacto normativo"},{"year":2026,"net":-1.61,"status":"estimado","certainty":"estimación anual con medidas vigentes/proyectadas"},{"year":2027,"net":-1.77,"status":"proyectado","certainty":"proyección"}],"pressure":[{"year":"2023","value":22.6,"status":"observado/revisado","note":"IARAF jul-2026"},{"year":"2024","value":23.0,"status":"observado","note":"incluye blanqueo, moratoria y adelanto de Bienes Personales"},{"year":"2025","value":21.5,"status":"observado/estimación de cierre","note":"IARAF"},{"year":"2026","value":20.8,"status":"proyectado","note":"IARAF jul-2026"}],"pressureAlt2024":22.5,"drops":[{"name":"Impuesto PAIS","share":43},{"name":"Derechos de exportación","share":19},{"name":"Bienes Personales","share":18},{"name":"IVA / percepciones aduaneras","share":11},{"name":"Otros","share":9}],"raises":[{"name":"Combustibles","share":55},{"name":"Ganancias","share":36},{"name":"Monotributo","share":9}],"waterfall2025":[{"name":"Fin PAIS","value":-1.1,"kind":"relative"},{"name":"Cert. exclusión Aduana","value":-0.42,"kind":"relative"},{"name":"Derechos exportación","value":-0.35,"kind":"relative"},{"name":"Bienes Personales","value":-0.3,"kind":"relative"},{"name":"Impuestos internos","value":-0.07,"kind":"relative"},{"name":"Derechos importación","value":-0.05,"kind":"relative"},{"name":"ITI","value":-0.015,"kind":"relative"},{"name":"Combustibles","value":0.3,"kind":"relative"},{"name":"Ganancias personas humanas","value":0.25,"kind":"relative"},{"name":"Monotributo","value":0.07,"kind":"relative"},{"name":"Neto 2025","value":0,"kind":"total"}],"matrixColumns":[{"id":"pais","label":"PAIS ↓"},{"id":"dex","label":"Retenciones ↓"},{"id":"bp","label":"B. Personales ↓"},{"id":"fuel","label":"Combustibles ↑"},{"id":"gains","label":"Ganancias PH ↑"},{"id":"mono","label":"Monotributo ↑"},{"id":"fal","label":"FAL 2026"}],"matrixRows":[{"actor":"Productores agropecuarios","pais":"na","dex":"exposure-good","bp":"na","fuel":"exposure-bad","gains":"na","mono":"na","fal":"na"},{"actor":"Exportadores agro / industria","pais":"na","dex":"good","bp":"na","fuel":"exposure-bad","gains":"na","mono":"na","fal":"na"},{"actor":"Importadores","pais":"good","dex":"na","bp":"na","fuel":"exposure-bad","gains":"na","mono":"na","fal":"na"},{"actor":"Patrimonios alcanzados","pais":"na","dex":"na","bp":"good","fuel":"exposure-bad","gains":"na","mono":"na","fal":"na"},{"actor":"Asalariados alcanzados por Ganancias","pais":"na","dex":"na","bp":"na","fuel":"exposure-bad","gains":"bad","mono":"na","fal":"na"},{"actor":"Monotributistas","pais":"na","dex":"na","bp":"na","fuel":"exposure-bad","gains":"na","mono":"mixed","fal":"na"},{"actor":"Hogares con consumo de combustible","pais":"na","dex":"na","bp":"na","fuel":"exposure-bad","gains":"na","mono":"na","fal":"na"},{"actor":"Transporte / logística","pais":"exposure-good","dex":"na","bp":"na","fuel":"exposure-bad","gains":"na","mono":"na","fal":"na"},{"actor":"Empleadores privados","pais":"na","dex":"na","bp":"na","fuel":"exposure-bad","gains":"na","mono":"na","fal":"mixed"}],"measures":[{"title":"Impuesto PAIS ↓","meta":"baja / eliminación · evidencia A/B","direct":"Residentes y empresas que realizaban operaciones alcanzadas: divisas, importaciones, servicios/fletes, consumos y viajes al exterior según cada caso.","transfer":"El beneficio final puede repartirse entre importadores, proveedores, consumidores y márgenes. No se asigna automáticamente.","note":"En 2025 el fin de PAIS explica −1,1% del PIB en la estimación publicada.","source":"ARCA + Argañaraz"},{"title":"Derechos de exportación ↓","meta":"baja de obligación · evidencia A/B","direct":"Exportadores de cadenas agroindustriales e industriales alcanzadas; en 2025 hubo reducciones permanentes/temporales y eliminaciones sectoriales.","transfer":"Productores y procesadores pueden capturar parte vía precios de la cadena, pero la proporción no se presume.","note":"La normativa 2025 abarcó soja, maíz, sorgo, girasol, carnes, biodiésel y miles de productos industriales.","source":"Hacienda / decretos"},{"title":"Bienes Personales ↓","meta":"patrimonial · evidencia A","direct":"Personas humanas y sucesiones con patrimonio gravado por encima de mínimos; REIBP y cambios de escalas/alícuotas.","transfer":"La incidencia es más directamente patrimonial que en impuestos de cadena, aunque no equivale a una clasificación automática por decil.","note":"Para período 2024 el mínimo informado fue $292,99 M y casa-habitación $1.025,48 M.","source":"Ley 27.743 / Argentina.gob.ar"},{"title":"Percepciones IVA/Ganancias Aduana ↓","meta":"pago a cuenta / timing · evidencia A/B","direct":"Importadores con certificados de exclusión de los regímenes de percepción.","transfer":"Es principalmente un efecto de capital de trabajo y momento de ingreso fiscal; no se etiqueta como rebaja equivalente de la alícuota final de IVA.","note":"En 2025 el retorno de certificados explica −0,42% del PIB en la estimación publicada.","source":"ARCA RG 5655/2025"},{"title":"Combustibles ↑","meta":"aumento de recursos · evidencia B + norma","direct":"La carga se aplica en la cadena de combustibles. Hogares, transporte, agro e industria quedan económicamente expuestos vía precios.","transfer":"No repartimos el costo entre sectores sin estudio de traslado.","note":"Explica 55% de los aumentos de recursos acumulados 2024–2026 en la estimación.","source":"Argañaraz / normativa combustibles"},{"title":"Ganancias personas humanas ↑","meta":"aumento de obligación · evidencia A/B","direct":"Personas humanas alcanzadas; la cuarta categoría incluye trabajo en relación de dependencia y determinadas jubilaciones/pensiones.","transfer":"El 36% de la composición acumulada de subas corresponde a Ganancias total en la estimación; no se adjudica todo a asalariados.","note":"El desglose 2025 publicado identifica +0,25% del PIB en Ganancias de personas humanas.","source":"Ley 27.743 / Argañaraz"},{"title":"Monotributo ↑ / reforma mixta","meta":"cuota + parámetros · evidencia A/B","direct":"Pequeños contribuyentes del régimen simplificado.","transfer":"Subieron importes, pero también topes, categorías y posibilidades de permanencia/reingreso; el efecto individual depende de facturación y categoría.","note":"No se etiqueta automáticamente como “perjudicado”.","source":"Ley 27.743 / AFIP-ARCA"},{"title":"FAL · desde nov-2026","meta":"reasignación futura · evidencia A/B","direct":"Empleadores privados: aportan 1% grandes empresas o 2,5% MiPyME al FAL y reciben una reducción equivalente de contribuciones patronales a Seguridad Social.","transfer":"Es una reasignación obligatoria desde Seguridad Social hacia una cuenta de afectación específica del empleador; no equivale simplemente a bajar el costo laboral en el mismo porcentaje.","note":"El régimen fue prorrogado al 1/11/2026; Argañaraz le asigna −0,062% del PIB fiscal en 2026.","source":"Ley 27.802 / Decreto 408/2026"}]};
+const TAX_MAP_AUDIT="# Auditoría — Mapa tributario Milei 2024–2027\n\nFecha de corte: 24-08-2026\n\n## Objeto\n\nEsta auditoría documenta la sección “¿Cuánto bajaron realmente los impuestos, y a quién alcanzó cada cambio?” incorporada al tab Resultado fiscal.\n\nLa sección separa deliberadamente:\n1. impacto contrafactual de cambios normativos;\n2. presión tributaria efectiva;\n3. sujeto legal / sector directamente alcanzado;\n4. posible traslado económico;\n5. incidencia distributiva final.\n\nLa quinta dimensión NO se calcula por falta de una microsimulación consistente.\n\n## 1. Impacto anual de cambios tributarios\n\nFuente de reproducción del cálculo de Nadin Argañaraz / IARAF:\n- LA NACION, 23-08-2026: https://www.lanacion.com.ar/economia/menor-recaudacion-los-cambios-impositivos-del-gobierno-de-milei-impactan-en-un-3-del-pbi-nid23082026/\n- Infobae, 23-08-2026: https://www.infobae.com/economia/2026/08/23/el-nuevo-mapa-de-los-impuestos-cuales-bajaron-que-puntos-siguen-en-debate-y-hasta-donde-llegara-el-recorte-del-gobierno/\n\nValores:\n- 2024: +0,34% PIB\n- 2025: −1,69% PIB\n- 2026: −1,61% PIB estimado\n- 2027: −1,77% PIB proyectado\n\nLa suma acumulada es +0,34 −1,69 −1,61 −1,77 = −4,73 puntos de PIB-año (≈−4,7).\nNO se interpreta como un agujero anual de 4,7% del PIB en 2027.\n\n## 2. Presión tributaria efectiva\n\nFuente principal:\nIARAF 26-07-2026:\nhttps://www.iaraf.org/index.php/informes-economicos/area-fiscal/740-informe-economico-2026-07-26\n\n- 2023: 22,6% PIB (serie más reciente/revisada)\n- 2025: 21,5% PIB\n- 2026: 20,8% PIB proyectado\n\nPara 2024 se conserva la publicación contemporánea de IARAF:\nhttps://www.iaraf.org/index.php/informes-economicos/area-fiscal/613-informe-economico-2025-01-02\n\n- 2024: 23,0% PIB incluyendo blanqueo, moratoria y adelanto de Bienes Personales.\n- 2024: 22,5% PIB excluyendo esos ingresos extraordinarios.\n\nNo se fuerza una única serie homogénea cuando las revisiones metodológicas producen pequeñas diferencias de base.\n\n## 3. Composición de subas y bajas 2024–2026\n\nSegún la reproducción del informe de Argañaraz:\n- aumentos acumulados ≈ +1,5% PIB:\n  - combustibles 55%;\n  - Ganancias 36%;\n  - monotributo 9%.\n- bajas acumuladas ≈ −4,5% PIB:\n  - PAIS 43%;\n  - derechos de exportación 19%;\n  - Bienes Personales 18%;\n  - IVA/percepciones 11%;\n  - otros 9%.\n\nEstos porcentajes son composición dentro de cada universo, NO puntos del PIB.\n\n## 4. Waterfall 2025\n\nValores publicados:\n- fin PAIS: −1,10% PIB\n- certificados de exclusión IVA/Ganancias Aduana: −0,42%\n- derechos de exportación: −0,35%\n- Bienes Personales: −0,30%\n- impuestos internos: −0,07%\n- derechos de importación: −0,05%\n- ITI: −0,015%\n- combustibles: +0,30%\n- Ganancias personas humanas: +0,25%\n- monotributo: +0,07%\n\nLa suma por redondeos da aproximadamente −1,695%, consistente con el −1,69% publicado.\n\n## 5. Sujetos y sectores directos\n\n### Impuesto PAIS\nFuente ARCA:\nhttps://www.arca.gob.ar/impuesto-pais/operaciones-y-sujetos/cuando-se-abona-el-impuesto.asp\n\nAlcanzaba, según operación, compra de divisas, servicios del exterior, fletes/transporte internacional, consumos en moneda extranjera, turismo y transporte de pasajeros al exterior.\n\n### Derechos de exportación\nFuente oficial de legislación fiscal 3T-2025:\nhttps://www.argentina.gob.ar/sites/default/files/3deg_trimestre_2025_legislacion.pdf\n\nDecreto 526/2025 redujo alícuotas de diversas cadenas agroindustriales. Otras medidas eliminaron derechos a productos industriales. El sujeto directo es el exportador; la incidencia dentro de la cadena no se presume.\n\n### Bienes Personales / REIBP\nLey 27.743:\nhttps://www.argentina.gob.ar/normativa/nacional/ley-27743-2024-401268/texto\n\nPortal oficial:\nhttps://www.argentina.gob.ar/node/484675\n\nPeríodo 2024: mínimo informado $292.994.964,89; casa-habitación $1.025.482.377,13.\n\n### Monotributo\nLey 27.743 y reglamentación:\nhttps://www.argentina.gob.ar/node/435791\n\nLa reforma aumentó parámetros y cuotas, habilitó reingresos y dispuso actualización semestral. Por eso se clasifica “mixto”.\n\n### Ganancias personas humanas\nTexto actualizado:\nhttps://servicios.infoleg.gob.ar/infolegInternet/anexos/330000-334999/332890/texact.htm\n\nLa cuarta categoría incluye trabajo en relación de dependencia y otras rentas enumeradas por la ley.\n\n### Certificados de exclusión aduaneros\nARCA RG 5655/2025:\nhttps://www.boletinoficial.gob.ar/pdf/aviso/primera/322066/20250228\n\nSe trata de percepciones/pagos a cuenta. El impacto fiscal temporal no debe leerse como una baja idéntica de la alícuota final del impuesto.\n\n### Fondo de Asistencia Laboral\nLey 27.802:\nhttps://www.argentina.gob.ar/normativa/nacional/norma-423680/texto\nDecreto 408/2026:\nhttps://www.argentina.gob.ar/normativa/nacional/decreto-408-2026-426272/texto\n\nEl FAL entra en vigencia el 1-11-2026. El empleador aporta 1% (grandes) o 2,5% (MiPyME) al Fondo y recibe una reducción equivalente de contribuciones patronales con destino a la Seguridad Social. Se clasifica como reasignación, no como reducción pura del desembolso obligatorio.\n\n## 6. Puente con superávit — lente independiente IIEP-UBA\n\nIIEP-UBA / AFISPOP, Reporte de Política Fiscal diciembre 2025:\nhttps://economicas.uba.ar/iiep/wp-content/uploads/Reporte-Fiscal-Diciembre-2025.pdf\n\nSu metodología estima para 2025:\n- baja de impuestos: 1,34% PIB;\n- mayor recaudación del resto: +0,8%;\n- menor gasto: +0,4%;\n- menor superávit primario: −0,2%.\n\nNo se reemplaza el −1,69% de Argañaraz por 1,34%: son metodologías distintas. Se usa la lente IIEP sólo como ejemplo internamente consistente de cómo puede coexistir una baja impositiva con el equilibrio/superávit.\n\n## 7. Perímetro fiscal\n\nEl tab fiscal usa Resultado Financiero del Sector Público Nacional.\nLos cambios tributarios refieren a tributos nacionales, algunos coparticipables o con destinos específicos.\n\nPor lo tanto:\n- no se resta mecánicamente el impacto tributario del resultado SPN;\n- no se atribuye el costo completo a Nación;\n- no se calcula posición neta provincial sin apertura específica.\n\n## 8. Incidencia sectorial\n\nLeyenda usada:\n- directa favorable: el sujeto legal deja de soportar o reduce la carga / mejora su posición directa;\n- directa desfavorable: el sujeto legal soporta una mayor obligación;\n- mixto: la norma combina suba, reasignación o cambios de parámetros;\n- exposición: existe un canal económico plausible pero no se cuantifica traslado;\n- N/A: no se generaliza la relación.\n\nLa matriz NO es monetaria y NO se suma.\n\n## 9. Conclusiones que NO deben extraerse\n\nNo afirmar sin evidencia adicional:\n- “4,7% del PIB fue transferido a empresarios”;\n- “los trabajadores financiaron exactamente las bajas empresarias”;\n- “toda baja de retenciones quedó en el exportador”;\n- “todo aumento de combustibles fue soportado por hogares”;\n- “el FAL reduce automáticamente el costo laboral en 1%/2,5%”;\n- “la posición fiscal neta por hogar puede calcularse sumando estas tarjetas”.\n\n## Estado de evidencia\n\nA: norma / fuente oficial.\nB: cálculo especializado reproducido con metodología identificada.\nC: exposición/inferencia sectorial sin cuantificación de traslado.\nN/D: incidencia final no estimada.\n\n## Limitaciones de esta implementación\n\nSólo se recibió el HTML consolidado. No se recibió el repositorio ni `data/fuentes/FUENTES.csv`; por lo tanto el manifiesto externo de hashes no fue modificado. La auditoría queda disponible como descarga embebida y como archivo compañero.\n";
+let taxMapRendered=false;
+function taxMapFmt(v,d=2){return Number(v).toLocaleString('es-AR',{minimumFractionDigits:d,maximumFractionDigits:d})}
+function taxMapSigned(v,d=2){return `${v>0?'+':v<0?'−':''}${taxMapFmt(Math.abs(v),d)}`}
+function taxMapLayout(title,mobile=false){
+ return {title:{text:title,font:{size:mobile?11:13,color:'#5d4169'}},paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(255,255,255,.72)',font:{family:'Nunito,Arial,sans-serif',color:'#654f6c',size:mobile?8.5:10},margin:{l:mobile?52:66,r:mobile?18:28,t:mobile?70:72,b:mobile?68:62},hoverlabel:{bgcolor:'#fff8fc',bordercolor:'#d8b7ca',font:{size:10}},xaxis:{gridcolor:'#eee5f2',automargin:true,fixedrange:true},yaxis:{gridcolor:'#eadff0',automargin:true,fixedrange:true}};
+}
+function renderTaxMapSector(){
+ const table=document.getElementById('taxMapSectorTable'),cards=document.getElementById('taxMapMeasureCards');if(!table||!cards)return;
+ const marks={good:['🟢','good','directa favorable'],bad:['🔴','bad','directa desfavorable'],mixed:['🟡','mixed','efecto mixto / reasignación'],'exposure-good':['◌ +','exposure','exposición favorable'],'exposure-bad':['◌ −','exposure','exposición desfavorable'],na:['—','na','no aplica / no generalizable']};
+ table.innerHTML=`<thead><tr><th>Actor / sector</th>${TAX_MAP_DATA.matrixColumns.map(c=>`<th>${c.label}</th>`).join('')}</tr></thead><tbody>${TAX_MAP_DATA.matrixRows.map(r=>`<tr><td>${r.actor}</td>${TAX_MAP_DATA.matrixColumns.map(c=>{const m=marks[r[c.id]]||marks.na;return `<td><span class="taxmap-cell ${m[1]}" title="${m[2]}">${m[0]}</span></td>`}).join('')}</tr>`).join('')}</tbody>`;
+ cards.innerHTML=TAX_MAP_DATA.measures.map(m=>`<article class="taxmap-measure"><div class="taxmap-measure-head"><h4>${m.title}</h4><span class="meta">${m.meta}</span></div><p><b>Incidencia directa:</b> ${m.direct}</p><p><b>Posible traslado:</b> ${m.transfer}</p><p><b>Lectura:</b> ${m.note}</p><p><b>Fuente:</b> ${m.source}</p></article>`).join('');
+}
+function renderTaxMap(){
+ const impact=document.getElementById('taxMapImpactChart');if(!impact||!window.Plotly)return;
+ const mobile=window.innerWidth<=620;
+ const annual=TAX_MAP_DATA.annualImpact;
+ let cum=0;const cumulative=annual.map(r=>{cum+=r.net;return Number(cum.toFixed(2))});
+ const barColors=annual.map(r=>r.year===2027?'rgba(112,86,160,.45)':r.net>=0?'#55a788':'#cf6887');
+ const barLines=annual.map(r=>r.year===2027?'#7b64a0':'rgba(255,255,255,.7)');
+ let layout=taxMapLayout('Impacto normativo anual vs suma acumulada',mobile);
+ layout.yaxis={title:'pp del PIB / pp PIB-año acumulados',ticksuffix:'%',gridcolor:'#eadff0',zeroline:true,zerolinecolor:'#8f8098',fixedrange:true};
+ layout.xaxis={type:'category',fixedrange:true};
+ layout.legend={orientation:'h',y:mobile?1.06:1.10,x:0,font:{size:mobile?8:10}};
+ Plotly.react(impact,[
+   {type:'bar',x:annual.map(r=>String(r.year)),y:annual.map(r=>r.net),name:'Impacto anual',marker:{color:barColors,line:{color:barLines,width:1}},customdata:annual.map(r=>[r.status,r.certainty]),hovertemplate:'<b>%{x}</b><br>Impacto anual: <b>%{y:+.2f}% PIB</b><br>%{customdata[0]}<br>%{customdata[1]}<extra></extra>'},
+   {type:'scatter',mode:'lines+markers',x:annual.map(r=>String(r.year)),y:cumulative,name:'Suma desde 2024',line:{color:'#72529b',width:2.5,dash:'dash'},marker:{size:8,symbol:annual.map(r=>r.year===2027?'circle-open':'circle')},customdata:cumulative.map(v=>v),hovertemplate:'<b>%{x}</b><br>Suma 2024→año: <b>%{y:+.2f} pp PIB-año</b><br>No es el impacto anual de ese año.<extra></extra>'}
+ ],layout,{responsive:true,displaylogo:false,displayModeBar:false});
+
+ const pressure=document.getElementById('taxMapPressureChart');
+ layout=taxMapLayout('Presión tributaria efectiva nacional',mobile);
+ layout.yaxis={title:'% del PIB',ticksuffix:'%',range:[19.5,24],gridcolor:'#eadff0',fixedrange:true};
+ layout.xaxis={type:'category',fixedrange:true};
+ layout.legend={orientation:'h',y:mobile?1.06:1.10,x:0,font:{size:mobile?8:10}};
+ const p=TAX_MAP_DATA.pressure;
+ const observed=p.filter(r=>r.year!=='2026'), projected=[p.find(r=>r.year==='2025'),p.find(r=>r.year==='2026')];
+ Plotly.react(pressure,[
+   {type:'scatter',mode:'lines+markers+text',x:observed.map(r=>r.year),y:observed.map(r=>r.value),name:'Observada / cierre IARAF',line:{color:'#8b75b0',width:3},marker:{size:9},customdata:observed.map(r=>[r.status,r.note]),text:observed.map(r=>`${taxMapFmt(r.value,1)}%`),textposition:'top center',hovertemplate:'<b>%{x}</b><br>Presión: <b>%{y:.1f}% PIB</b><br>%{customdata[0]}<br>%{customdata[1]}<extra></extra>'},
+   {type:'scatter',mode:'lines+markers+text',x:projected.map(r=>r.year),y:projected.map(r=>r.value),name:'Proyección 2026',line:{color:'#72529b',width:2.5,dash:'dash'},marker:{size:[8,11],symbol:['circle','circle-open'],line:{width:2}},customdata:projected.map(r=>[r.status,r.note]),text:['',`${taxMapFmt(projected[1].value,1)}%`],textposition:'top center',hovertemplate:'<b>%{x}</b><br>Presión: <b>%{y:.1f}% PIB</b><br>%{customdata[0]}<br>%{customdata[1]}<extra></extra>'},
+   {type:'scatter',mode:'markers+text',x:['2024'],y:[TAX_MAP_DATA.pressureAlt2024],name:'2024 sin extraordinarios',marker:{size:12,symbol:'diamond-open',color:'#c18b3a',line:{width:2}},text:['22,5%'],textposition:'bottom center',hovertemplate:'<b>2024 sin extraordinarios</b><br>22,5% del PIB<br>Excluye blanqueo, moratoria y adelanto de Bienes Personales.<extra></extra>'}
+ ],layout,{responsive:true,displaylogo:false,displayModeBar:false});
+
+ const renderShare=(id,rows,title)=>{
+   const el=document.getElementById(id);if(!el)return;let l=taxMapLayout(title,mobile);l.margin={l:mobile?138:180,r:mobile?25:40,t:55,b:42};l.xaxis={title:'% del universo',range:[0,60],ticksuffix:'%',gridcolor:'#eee5f2',fixedrange:true};l.yaxis={autorange:'reversed',automargin:true,fixedrange:true};
+   Plotly.react(el,[{type:'bar',orientation:'h',y:rows.map(r=>r.name),x:rows.map(r=>r.share),text:rows.map(r=>`${r.share}%`),textposition:'outside',cliponaxis:false,marker:{color:rows.map((_,i)=>['#a77ac1','#c7799b','#d58b83','#dda95f','#9aa6c5'][i%5])},hovertemplate:'<b>%{y}</b><br>%{x:.0f}% del universo<extra></extra>'}],l,{responsive:true,displaylogo:false,displayModeBar:false});
+ };
+ renderShare('taxMapDropsChart',TAX_MAP_DATA.drops,'Composición de las bajas');
+ renderShare('taxMapRaisesChart',TAX_MAP_DATA.raises,'Composición de las subas');
+
+ const wf=document.getElementById('taxMapWaterfall2025');
+ layout=taxMapLayout('Cambios tributarios 2025 · puntos del PIB',mobile);
+ layout.margin={l:mobile?52:68,r:mobile?16:28,t:65,b:mobile?130:100};
+ layout.xaxis={type:'category',tickangle:mobile?-50:-30,automargin:true,fixedrange:true};
+ layout.yaxis={title:'pp del PIB',ticksuffix:'%',gridcolor:'#eadff0',zeroline:true,zerolinecolor:'#8b7d93',fixedrange:true};
+ const wr=TAX_MAP_DATA.waterfall2025;
+ Plotly.react(wf,[{type:'waterfall',x:wr.map(r=>r.name),y:wr.map(r=>r.value),measure:wr.map(r=>r.kind),connector:{line:{color:'rgba(110,90,120,.35)',width:1}},increasing:{marker:{color:'#55a788'}},decreasing:{marker:{color:'#cf6887'}},totals:{marker:{color:'#72529b'}},text:wr.map(r=>r.kind==='total'?'−1,69%':`${taxMapSigned(r.value,r.name==='ITI'?3:2)}%`),textposition:'outside',hovertemplate:'<b>%{x}</b><br>%{y:+.3f} pp PIB<extra></extra>'}],layout,{responsive:true,displaylogo:false,displayModeBar:false});
+ renderTaxMapSector();
+ taxMapRendered=true;
+}
+function taxMapCsvEsc(v){const s=String(v??'');return /[",\n]/.test(s)?`"${s.replaceAll('"','""')}"`:s}
+function downloadTaxMapCsv(){
+ const rows=[['periodo','medida','direccion_recursos','impacto_pbi','unidad','impacto_tipo','observado_estimado_proyectado','tipo_medida','sujeto_legal_sector_directo','posible_traslado','incidencia_final','nivel_evidencia','fuente','nota']];
+ TAX_MAP_DATA.annualImpact.forEach(r=>rows.push([r.year,'efecto neto cambios tributarios',r.net>=0?'aumenta':'reduce',r.net,'pp PIB','contrafactual normativo',r.status,'saldo anual agregado','','','N/D','B','Argañaraz/IARAF reproducido por LA NACION / Infobae',r.certainty]));
+ TAX_MAP_DATA.measures.forEach(m=>rows.push(['2024-2027',m.title,m.title.includes('↑')?'aumenta':m.title.includes('↓')?'reduce':'mixto','','','clasificación cualitativa','según período',m.meta,m.direct,m.transfer,'N/D',m.meta.includes('evidencia A')?'A':'A/B',m.source,m.note]));
+ const csv=rows.map(r=>r.map(taxMapCsvEsc).join(',')).join('\n');const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='mapa_tributario_milei_2024_2027.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),800);
+}
+function downloadTaxMapAudit(){
+ const blob=new Blob([TAX_MAP_AUDIT],{type:'text/markdown;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='AUDITORIA_MAPA_TRIBUTARIO_MILEI.md';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),800);
+}
+document.querySelector('[data-tab="tab-fiscal"]')?.addEventListener('click',()=>requestAnimationFrame(renderTaxMap));
+window.addEventListener('resize',()=>{if(!taxMapRendered)return;['taxMapImpactChart','taxMapPressureChart','taxMapDropsChart','taxMapRaisesChart','taxMapWaterfall2025'].forEach(id=>{const el=document.getElementById(id);if(el&&window.Plotly)Plotly.Plots.resize(el)})});
+// TAX_MAP_FISCAL_SCRIPT_END
+
 
 let tradeMetric='flows';
 let tradeLoadingPromise=null;
