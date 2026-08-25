@@ -6859,6 +6859,33 @@ img, svg { max-width: 100%; }
 @media(max-width:900px){.mor-grid-2,.mor-methods{grid-template-columns:1fr}.mor-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.mor-head{display:block}.mor-chart{height:380px}.mor-chart.tall{height:410px}.mor-plain{grid-template-columns:1fr}}
 @media(max-width:520px){.mor-hero,.mor-panel{padding:14px;border-radius:18px}.mor-head h2{font-size:22px}.mor-kpis{grid-template-columns:1fr 1fr;gap:8px}.mor-kpi{padding:10px}.mor-kpi strong{font-size:19px}.mor-chart{height:360px;min-height:320px}.mor-chart.tall{height:390px}.mor-grid-3{grid-template-columns:1fr}.mor-rates-jump{align-items:flex-start;flex-direction:column}.mor-table-wrap{margin-left:-4px;margin-right:-4px}}
 
+
+/* v120 · orden visual + cuentitas explicadas */
+#ratesMoneySection .rates-position-title{margin:6px 20px 4px}
+#ratesMoneySection .rates-position-lead{margin:0 20px 14px}
+#ratesMoneySection .rates-secondary-title{margin:8px 20px 10px}
+#ratesMoneySection .rates-position-grid{margin:10px 20px 10px}
+#ratesMoneySection .rates-step-equation{margin:0 20px 16px;padding:12px 14px;border:1px solid #dfd3e5;border-radius:16px;background:linear-gradient(180deg,#fffafc,#fff);color:#6f5a77;font-size:11px;line-height:1.55}
+#ratesMoneySection .rates-step-equation b{color:#5e3f6d}
+#ratesMoneySection .rates-step-equation .eq{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin-bottom:6px}
+#ratesMoneySection .rates-step-equation .chip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;border:1px solid #e3d8e8;background:#fff;font-size:10px;font-weight:800;color:#6c5873}
+#ratesMoneySection .rates-step-equation .chip.bad{border-color:#e8bfd0;background:#fff7fa;color:#9f4163}
+#ratesMoneySection .rates-step-equation .chip.good{border-color:#bde0d0;background:#f7fffb;color:#31725d}
+#ratesMoneySection #ratesMoneyGrid{margin-top:0}
+#ratesMoneySection .rates-money-kpi-grid{align-items:stretch}
+#ratesMoneySection .rates-money-kpi{height:100%}
+#ratesMoneySection .rates-money-kpi .calc{margin-top:8px;padding-top:8px;border-top:1px dashed #eadfea;font-size:10px;line-height:1.45;color:#6f5f74}
+#ratesMoneySection .rates-money-kpi.context .calc{border-top-color:#e9bfd1}
+#ratesMoneySection .rates-position-card .calc{margin-top:8px;padding-top:8px;border-top:1px dashed #eadfea;font-size:10px;line-height:1.45;color:#6f5f74}
+#tab-milei-cost .milei-shock-formula{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center}
+#tab-milei-cost .milei-shock-formula .term{padding:7px 10px;border-radius:999px;border:1px solid #e5d8e3;background:#fff;font-weight:850;color:#63456f}
+#tab-milei-cost .milei-shock-formula .term.good{border-color:#b8dccb;background:#f7fffb;color:#31725d}
+#tab-milei-cost .milei-shock-formula .term.bad{border-color:#e5bacc;background:#fff8fb;color:#9f4163}
+#tab-milei-cost .milei-shock-formula .op{font-weight:950;color:#8b728f}
+#tab-milei-cost .milei-cost-formula .formula{line-height:1.58}
+#tab-milei-cost .milei-cost-formula .formula .hl{font-weight:900;color:#5c3e6c}
+#tab-milei-cost .milei-cost-table .calc-line{display:block;margin-top:4px;font-size:10px;color:#755f78}
+@media(max-width:720px){#ratesMoneySection .rates-position-title,#ratesMoneySection .rates-position-lead,#ratesMoneySection .rates-secondary-title,#ratesMoneySection .rates-position-grid,#ratesMoneySection .rates-step-equation{margin-left:14px;margin-right:14px}}
 </style>
 
 <style id="sov-gutter-polish">
@@ -8068,9 +8095,12 @@ img, svg { max-width: 100%; }
 #ratesMoneySection .rates-money-kpi{position:relative;padding-top:42px}
 #ratesMoneySection .rates-money-kpi.primary{padding-top:46px}
 #ratesMoneySection .rates-money-kpi::before{position:absolute;top:12px;left:14px;padding:4px 8px;border-radius:999px;font-size:8px;font-weight:950;letter-spacing:.035em;text-transform:uppercase}
-#ratesMoneySection .rates-money-kpi.favorable::before{content:"+$ · a favor del hogar";color:#267457;background:#ddf5e9;border:1px solid #a9d7c3}
-#ratesMoneySection .rates-money-kpi.desfavorable::before{content:"−$ · en contra del hogar";color:#9f315c;background:#ffe3ed;border:1px solid #e7afc4}
-#ratesMoneySection .rates-money-kpi.neutral::before{content:"$0 · neutro para el hogar";color:#6e6175;background:#f1edf3;border:1px solid #d8cedc}
+#ratesMoneySection .rates-money-kpi.favorable::before{content:"+$ · posición con mejora";color:#267457;background:#ddf5e9;border:1px solid #a9d7c3}
+#ratesMoneySection .rates-money-kpi.desfavorable::before{content:"−$ · posición con deterioro";color:#9f315c;background:#ffe3ed;border:1px solid #e7afc4}
+#ratesMoneySection .rates-money-kpi.neutral::before{content:"$0 · lectura contextual";color:#6e6175;background:#f1edf3;border:1px solid #d8cedc}
+#ratesMoneySection .rates-money-kpi.aggregate{border-color:#d7cde7;background:#fcfaff}
+#ratesMoneySection .rates-money-kpi.aggregate .big{color:#5c54a4}
+#ratesMoneySection .rates-money-kpi.aggregate::before{content:"Σ · neto estadístico";color:#5d4f8f;background:#f0ebfb;border:1px solid #d6ccf0}
 
 #tab-milei-cost .milei-cost-kpi .val.household-relief,
 #tab-milei-cost .milei-bridge-card .val.household-relief{color:#2f8264}
@@ -8779,6 +8809,114 @@ html,body{overflow-x:clip}
 @media(max-width:900px){.rates-position-cards{grid-template-columns:1fr}.rates-compare-head{display:block}.rates-compare-controls{margin-top:9px}.rates-equation{grid-template-columns:1fr}.rates-equation .op{justify-content:center;height:20px}.rates-compare-chart{height:360px}}
 @media(max-width:520px){.rates-correction-banner,.rates-compare-panel{padding:11px;border-radius:15px}.rates-position-card strong{font-size:20px}.rates-compare-btn{flex:1 1 30%;text-align:center}.rates-compare-chart{height:335px}}
 </style>
+<style id="financial-hierarchy-v4">
+/* v4 · jerarquía metodológica: observado > posiciones > sensibilidad > comparadores */
+#ratesMoneySection .rates-position-title{margin:16px 0 8px;font-size:15px;color:#5b3f69}
+#ratesMoneySection .rates-position-lead{margin:-2px 0 10px;color:#766078;font-size:12px;line-height:1.5}
+#ratesMoneySection .rates-position-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:12px 0 16px}
+#ratesMoneySection .rates-position-card{border:1px solid #eadbe7;border-radius:16px;padding:14px;background:linear-gradient(145deg,#fff,#fff9fc);box-shadow:0 8px 24px rgba(104,62,91,.06)}
+#ratesMoneySection .rates-position-card.primary{border-width:2px;background:linear-gradient(145deg,#fff7fb,#fff)}
+#ratesMoneySection .rates-position-card small{display:block;font-size:10px;font-weight:900;letter-spacing:.05em;text-transform:uppercase;color:#8c6b86}
+#ratesMoneySection .rates-position-card strong{display:block;margin:5px 0;font-size:28px;line-height:1.08;color:#51375d}
+#ratesMoneySection .rates-position-card.bad strong{color:#b64d71} #ratesMoneySection .rates-position-card.good strong{color:#39846b}
+#ratesMoneySection .rates-position-card p{margin:0;font-size:11px;line-height:1.45;color:#735f76}
+#ratesMoneySection .rates-secondary-title{margin:18px 0 8px;padding-top:14px;border-top:1px dashed #e8d7e4;color:#644b6d;font-size:14px}
+#ratesMoneySection #ratesMoneyGrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+#ratesMoneySection .rates-compare-chart{min-height:430px}
+#ratesMirrorTextSummary{margin-top:8px;padding:10px 12px;border-radius:12px;background:#faf5f9;border:1px solid #eadce8;font-size:11px;line-height:1.5;color:#69546d}
+#ratesMoneySection .rates-correction-banner .headline{font-size:14px}
+#tab-milei-cost .milei-layer{margin:14px 0;padding:15px;border-radius:18px;border:1px solid #eadce8;background:rgba(255,255,255,.72)}
+#tab-milei-cost .milei-layer h3{margin:0 0 4px;font-size:17px;color:#5b3f68}
+#tab-milei-cost .milei-layer .layer-note{margin:0 0 12px;font-size:11px;line-height:1.45;color:#78617c}
+#tab-milei-cost .milei-layer-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+#tab-milei-cost .milei-layer-card{padding:13px;border-radius:14px;border:1px solid #eadce8;background:#fff}
+#tab-milei-cost .milei-layer-card small{display:block;font-size:9px;font-weight:900;letter-spacing:.05em;text-transform:uppercase;color:#8a7088}
+#tab-milei-cost .milei-layer-card b{display:block;margin:5px 0;font-size:23px;color:#51385c}
+#tab-milei-cost .milei-layer-card p{margin:0;font-size:10.5px;line-height:1.4;color:#725f75}
+#tab-milei-cost .milei-layer-card.debtor b{color:#b54b70} #tab-milei-cost .milei-layer-card.saver b,#tab-milei-cost .milei-layer-card.balance b{color:#3d866d}
+#tab-milei-cost .milei-layer.sensitivity{background:#fbf8f3;border-color:#eadfcf}
+#tab-milei-cost .milei-layer.references{background:#fcfaf7;border-style:dashed}
+#tab-milei-cost .milei-layer.references .milei-layer-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+#tab-milei-cost .milei-layer.references .milei-layer-card b{font-size:17px}
+#tab-milei-cost .milei-layer.capacity{background:#f8fbfa;border-color:#d5e7df}
+#tab-milei-cost .milei-cost-grid.hierarchy-references{grid-template-columns:repeat(5,minmax(0,1fr))}
+#tab-milei-cost .milei-cost-grid.hierarchy-references .milei-cost-card{opacity:.94}
+#pendPowerFinanceKpis .pend-power-metric[data-metric-id="financial_debtor_window_delta"]{border-width:2px;transform:translateY(-1px)}
+#tab-wealth-contribution .wealth-target strong.dynamic-target{font-size:42px}
+@media(max-width:900px){#tab-milei-cost .milei-layer.references .milei-layer-grid,#tab-milei-cost .milei-cost-grid.hierarchy-references{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){#ratesMoneySection .rates-position-grid,#ratesMoneySection #ratesMoneyGrid,#tab-milei-cost .milei-layer-grid,#tab-milei-cost .milei-layer.references .milei-layer-grid,#tab-milei-cost .milei-cost-grid.hierarchy-references{grid-template-columns:1fr}#ratesMoneySection .rates-position-card strong{font-size:25px}#ratesMoneySection .rates-compare-chart{min-height:500px}}
+</style>
+
+<style id="rates-visual-hotfix-v121">
+/* v121 · aire lateral + ecuaciones legibles + labels Plotly sin clipping */
+#ratesMoneySection .rates-correction-banner,
+#ratesMoneySection .rates-position-title,
+#ratesMoneySection .rates-position-lead,
+#ratesMoneySection .rates-position-grid,
+#ratesMoneySection .rates-step-equation,
+#ratesMoneySection .rates-secondary-title,
+#ratesMoneySection #ratesMoneyGrid,
+#ratesMoneySection .rates-who-method,
+#ratesMoneySection .rates-money-normalized,
+#ratesMoneySection .rates-compare-panel,
+#ratesMoneySection .rates-component-explain,
+#ratesMoneySection #ratesMoneyChart,
+#ratesMoneySection .rates-fintech-panel,
+#ratesMoneySection .rates-money-table-wrap,
+#ratesMoneySection .rates-money-audit-grid,
+#ratesMoneySection .rates-money-actions,
+#ratesMoneySection .rates-files-audit{
+  margin-left:20px!important;
+  margin-right:20px!important;
+  max-width:calc(100% - 40px)!important;
+  box-sizing:border-box!important;
+}
+#ratesMoneySection .rates-position-title{margin-top:18px!important;margin-bottom:7px!important}
+#ratesMoneySection .rates-position-lead{margin-top:0!important;margin-bottom:12px!important}
+#ratesMoneySection .rates-secondary-title{margin-top:20px!important;margin-bottom:10px!important;padding-top:15px!important}
+#ratesMoneySection .rates-position-grid{margin-top:10px!important;margin-bottom:12px!important}
+#ratesMoneySection .rates-position-card{min-width:0;overflow:hidden}
+#ratesMoneySection .rates-position-card .calc,
+#ratesMoneySection .rates-money-kpi .calc{
+  font-size:10.5px!important;
+  line-height:1.5!important;
+  font-weight:600!important;
+  overflow-wrap:anywhere;
+}
+#ratesMoneySection .rates-money-kpi.primary .calc,
+#ratesMoneySection .rates-money-kpi.primary .calc b{font-size:11px!important;line-height:1.45!important}
+#ratesMoneySection .mini-equation{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px;padding-top:9px;border-top:1px dashed #e4d7e4}
+#ratesMoneySection .mini-equation .term{display:inline-flex;align-items:center;padding:5px 8px;border-radius:999px;border:1px solid #ded4e1;background:#fff;font-size:10px;font-weight:900;white-space:nowrap}
+#ratesMoneySection .mini-equation .term.bad{border-color:#e4b4c7;background:#fff5f9;color:#9c3f62}
+#ratesMoneySection .mini-equation .term.good{border-color:#acd8c5;background:#f4fff9;color:#2f775f}
+#ratesMoneySection .mini-equation .op{font-weight:950;color:#806b87;font-size:12px}
+#ratesMoneySection .mini-equation .equals{font-weight:950;color:#5d4965;font-size:12px}
+#ratesMoneySection #ratesMoneyChart{width:calc(100% - 40px)!important;min-width:0}
+@media(max-width:720px){
+  #ratesMoneySection .rates-correction-banner,
+  #ratesMoneySection .rates-position-title,
+  #ratesMoneySection .rates-position-lead,
+  #ratesMoneySection .rates-position-grid,
+  #ratesMoneySection .rates-step-equation,
+  #ratesMoneySection .rates-secondary-title,
+  #ratesMoneySection #ratesMoneyGrid,
+  #ratesMoneySection .rates-who-method,
+  #ratesMoneySection .rates-money-normalized,
+  #ratesMoneySection .rates-compare-panel,
+  #ratesMoneySection .rates-component-explain,
+  #ratesMoneySection #ratesMoneyChart,
+  #ratesMoneySection .rates-fintech-panel,
+  #ratesMoneySection .rates-money-table-wrap,
+  #ratesMoneySection .rates-money-audit-grid,
+  #ratesMoneySection .rates-money-actions,
+  #ratesMoneySection .rates-files-audit{
+    margin-left:12px!important;margin-right:12px!important;max-width:calc(100% - 24px)!important
+  }
+  #ratesMoneySection #ratesMoneyChart{width:calc(100% - 24px)!important}
+  #ratesMoneySection .mini-equation .term{white-space:normal}
+}
+</style>
+
 </head>
 <body>
 <div class="wrap">
@@ -8868,6 +9006,7 @@ html,body{overflow-x:clip}
         <a href="#story-first-chart">El primer gráfico</a>
         <a href="#story-rates">Las tasas</a>
         <a href="#story-correction">La corrección</a>
+        <a href="#story-intervention">La intervención</a>
         <a href="#story-poverty">La contradicción</a>
         <a href="#story-pendulum">El péndulo</a>
         <a href="#story-shock">El costo</a>
@@ -8881,9 +9020,9 @@ html,body{overflow-x:clip}
         <article class="story-stat warn"><small>Pérdida salarial bruta</small><b>$18,43 B</b><span>Caídas acumuladas frente a nov-2023 = 100.</span></article>
         <article class="story-stat good"><small>Recuperado después</small><b>$6,08 B</b><span>Meses posteriores por encima de la referencia.</span></article>
         <article class="story-stat warn"><small>Saldo acumulado</small><b>$12,35 B</b><span>Ingreso contrafactual todavía no recuperado.</span></article>
-        <article class="story-stat debtor"><small>Deudores vs espejo</small><b>−$2,89 B</b><span>Banco + Fintech: deterioro incremental frente a 32 meses comparables.</span></article>
+        <article class="story-stat debtor"><small>Deudores vs espejo</small><b id="storyDebtorDiff">−$2,89 B</b><span>Banco + Fintech: deterioro incremental frente a 32 meses comparables.</span></article>
         <article class="story-stat saver"><small>Ahorristas PF vs espejo</small><b>+$4,96 B</b><span>Mejora relativa del plazo fijo frente a la ventana anterior.</span></article>
-        <article class="story-stat balance"><small>Balance ampliado</small><b>+$2,07 B</b><span>Neto banco + Fintech + PF: mejora agregada, no hogar promedio.</span></article>
+        <article class="story-stat balance"><small>Balance ampliado</small><b id="storyBalanceDiff">+$2,07 B</b><span>Neto banco + Fintech + PF: mejora agregada, no hogar promedio.</span></article>
       </section>
 
       <div class="story-timeline">
@@ -8932,7 +9071,23 @@ html,body{overflow-x:clip}
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-rates')">Ver Tasas e inflación →</button><button class="story-link" type="button" onclick="activateTab('tab-milei-cost')">Ver Lo que te robó Milei →</button></div>
         </article>
 
-        <article id="story-poverty" class="story-chapter" data-step="05">
+        <article id="story-intervention" class="story-chapter" data-step="05">
+          <h2>Cuando otro análisis me obligó a hacer una pregunta mejor</h2>
+          <p>Después me crucé con <i>Todo sobre la mora</i>, un análisis construido sobre la Central de Deudores que miraba una parte que nuestro dashboard todavía no podía ver bien: <b>dónde terminaba la mora</b>. Personas, rubros, entidades, edades y montos permitían distinguir algo importante: tener muchos clientes morosos no es lo mismo que concentrar una gran parte del dinero en mora.</p>
+          <p>Ese trabajo aportaba una capa micro valiosa y también mostraba, por ejemplo, que una entidad como Mercado Pago podía tener muchos usuarios sin concentrar la mayor parte de la mora monetaria del sistema. Pero la misma base tenía un límite decisivo para algunas conclusiones más fuertes: <b>no informa tasa, CFT, plazo, monto original ni destino del crédito</b>. Sirve mucho mejor para describir exposición, atraso y composición que para decidir si un crédito fue barato, sostenible o qué necesidad estaba financiando.</p>
+          <div class="story-turn">
+            <div><small>La capa micro</small><b>¿Dónde termina la mora?</b><p>Personas, entidades, rubros, montos, edades y relaciones de deuda. Muy útil para separar difusión del problema y concentración monetaria.</p></div>
+            <div class="answer"><small>La capa temporal</small><b>¿Qué estaba pasando antes?</b><p>Ingresos reales, expansión del crédito, costo financiero y mora sobre el mismo eje de tiempo. Compatible con mecanismos; no prueba causalidad.</p></div>
+          </div>
+          <div class="story-question">La pregunta del match-up pasó a ser: <b>¿qué ocurre cuando cruzamos dónde terminó la mora con lo que estaba pasando antes con ingresos y costo del crédito?</b></div>
+          <p>La intervención tuvo un efecto inesperado: al exigirle al análisis externo que no confundiera <b>riesgo del prestamista</b> con <b>costo para el deudor</b>, tuvimos que aplicarnos exactamente el mismo estándar. Ahí apareció un problema en nuestro propio agregado: estábamos dejando que la mejora de los ahorristas con plazo fijo compensara estadísticamente el deterioro de quienes necesitaban crédito.</p>
+          <p>La ventana espejo hizo visible la diferencia. El balance ampliado mejoró aproximadamente <b>$2,07 billones</b> frente al período anterior, porque el plazo fijo mejoró cerca de <b>$4,96 billones</b>. Pero el lado estrictamente deudor —banco + Fintech— <b>empeoró aproximadamente $2,89 billones</b>. Para estudiar mora, por lo tanto, el agregado no alcanzaba.</p>
+          <div class="story-quote">Cruzar dos trabajos no sirve si el otro sólo confirma lo que ya pensábamos. Sirve cuando también nos obliga a corregirnos.</div>
+          <p>La conclusión fue más incómoda y, por eso mismo, más útil: el análisis externo no alcanza para cerrar la discusión sobre precio o sostenibilidad del crédito; nuestro agregado anterior tampoco alcanzaba para describir la experiencia de los deudores. El match-up mejoró cuando dejamos que <b>ambas limitaciones quedaran visibles</b>.</p>
+          <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-credit-mora')">Ver Del shock a la mora →</button><button class="story-link" type="button" onclick="activateTab('tab-mora-anatomy')">Ver Anatomía de la mora →</button><button class="story-link" type="button" onclick="activateTab('tab-youth-credit')">Ver Jóvenes y crédito →</button></div>
+        </article>
+
+        <article id="story-poverty" class="story-chapter" data-step="06">
           <h2>El dato que contradijo mis expectativas</h2>
           <p>La caída inicial del poder adquisitivo era difícil de reconciliar con el hecho de que el impacto social no hubiera producido el desenlace que muchas personas pronosticaron. Empecé a agregar gráficos y apareció un dato que realmente contradecía mis expectativas: <b>la pobreza había bajado con mucha fuerza después del pico inicial.</b></p>
           <p>Había que reconocerlo. Fue uno de esos momentos en los que pensé: “bueno, quizá estoy entendiendo esto completamente al revés”. Pero seguí agregando información.</p>
@@ -8940,7 +9095,7 @@ html,body{overflow-x:clip}
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-poverty')">Ver Pobreza →</button><button class="story-link" type="button" onclick="activateTab('tab-social')">Ver Asistencia social →</button></div>
         </article>
 
-        <article id="story-pendulum" class="story-chapter" data-step="06">
+        <article id="story-pendulum" class="story-chapter" data-step="07">
           <h2>El péndulo hacia los hogares</h2>
           <p>Al observar cómo había cambiado la distribución primaria y secundaria del ingreso encontré una posible explicación. Mientras una parte importante de los ingresos laborales absorbía el shock, <b>otras transferencias y mecanismos redistributivos desplazaban recursos hacia los hogares</b>, especialmente hacia los sectores más vulnerables.</p>
           <p>Eso ayudaba a reconciliar dos historias que, vistas por separado, parecían incompatibles: podía existir una gran pérdida acumulada de poder adquisitivo y, al mismo tiempo, una reducción importante de la pobreza.</p>
@@ -8949,7 +9104,7 @@ html,body{overflow-x:clip}
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-pendulo')">Ver Péndulo del poder económico →</button><button class="story-link" type="button" onclick="activateTab('tab-gini')">Ver Gini →</button></div>
         </article>
 
-        <article id="story-shock" class="story-chapter" data-step="07">
+        <article id="story-shock" class="story-chapter" data-step="08">
           <h2>¿Cuánto costó el shock?</h2>
           <p>Después intenté responder una pregunta distinta. En lugar de preguntar cuánto habían caído los salarios en un mes, pregunté qué ocurría al acumular esa pérdida a través del tiempo.</p>
           <p>El cálculo actual estima un deterioro salarial bruto acumulado equivalente a <b>$18,43 billones</b>, expresado en pesos constantes. Con la recuperación posterior, aproximadamente <b>$6,08 billones</b> fueron recuperados. Queda un saldo acumulado estimado de <b>$12,35 billones</b>.</p>
@@ -8958,7 +9113,7 @@ html,body{overflow-x:clip}
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-milei-cost')">Abrir la auditoría “Lo que te robó Milei” →</button></div>
         </article>
 
-        <article id="story-growth" class="story-chapter" data-step="08">
+        <article id="story-growth" class="story-chapter" data-step="09">
           <h2>Y el dashboard empezó a crecer</h2>
           <p>A partir de ahí la investigación se volvió difícil de detener. Aparecieron educación y salud, obra pública, rutas presupuestadas pero no ejecutadas, reservas y deuda, actividad económica, inversión, empleo, consumo, morosidad, distribución del ingreso, gasto público, privilegios empresariales y salarios de la alta administración del Estado.</p>
           <p>Cada gráfico agregaba una pieza y, en algunos casos, obligaba a corregir conclusiones anteriores. El pequeño gráfico con el que había empezado terminó convirtiéndose en este dashboard.</p>
@@ -8969,7 +9124,7 @@ html,body{overflow-x:clip}
           </div>
         </article>
 
-        <article id="story-housing" class="story-chapter" data-step="09">
+        <article id="story-housing" class="story-chapter" data-step="10">
           <h2>La casa que desapareció del gráfico</h2>
           <p>Después apareció otro gráfico que parecía contar una historia completa con apenas dos números: el crédito hipotecario argentino en 2000 contra el de 2023. La conclusión era tentadora: entre un punto y el otro, “el kirchnerismo había destruido el acceso a la vivienda”.</p>
           <p>Pero entre esos dos puntos estaba <b>2001–2002</b>. Cuando reconstruí la serie oficial del BCRA apareció el quiebre que el recorte escondía: crisis bancaria, devaluación, pesificación, congelamiento de líneas largas y una caída brutal del crédito antes de que Néstor Kirchner asumiera.</p>
@@ -8981,18 +9136,18 @@ html,body{overflow-x:clip}
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-housing')">Ver Vivienda y crédito →</button></div>
         </article>
 
-        <article id="story-alternatives" class="story-chapter" data-step="10">
+        <article id="story-alternatives" class="story-chapter" data-step="11">
           <h2>La pregunta por “la casta” y por las alternativas</h2>
           <p>Si el argumento era que el ajuste resultaba inevitable porque el Estado necesitaba cerrar sus cuentas, ¿qué ocurría si buscábamos recursos en otros lugares? Calculé incrementos destinados a capas mejor remuneradas del Estado, beneficios y tratamientos favorables a grandes empresas —incluido Mercado Libre— y otros rubros donde era razonable preguntar: <b>¿era necesario gastar esto acá?</b></p>
           <p>La primera versión de este ejercicio trataba los <b>$5,85 billones</b> del saldo financiero post-shock como si fueran deterioro adicional frente al período anterior. La ventana espejo corrigió esa lectura: el balance ampliado total en realidad <b>mejoró ≈ $2,07 billones</b>, mientras el <b>lado deudor banco + Fintech empeoró ≈ $2,89 billones</b>.</p>
           <p>Con la nueva lógica, el saldo salarial observado sigue siendo <b>$12,35 billones</b> después de la recuperación. Ninguna de las magnitudes financieras se resta automáticamente de ese agujero: ingreso perdido, carga crediticia, rendimiento del ahorro y capacidad bancaria contrafactual son categorías diferentes.</p>
           <p>Para bancos ahora usamos otra pregunta y otro denominador: las cuentas de INDEC permiten estimar que, bajo contrafactuales conservadores, el sector podía absorber aproximadamente <b>$11,2–20,1 billones en pesos de jul-2026</b>, equivalentes a alrededor de <b>21–38% del giro fiscal primario de 2024</b>, sin terminar con una capacidad de ahorro inferior a la de 2023. El escenario histórico agresivo ronda <b>$31,7 billones</b>. Fintech queda fuera de esa capacidad: sus <b>~$1,34 billones</b> son costo estimado al usuario / sensibilidad de compensación integral, no capacidad de pago demostrada.</p>
-          <p>Según las estimaciones patrimoniales usadas en el dashboard, alrededor de <b>45.000 argentinos</b> concentran fortunas por aproximadamente <b>$158,27 billones</b>. El simulador de grandes fortunas conserva la meta de $4,98 billones como <b>escenario de sensibilidad</b>, no como “lo que todavía falta” en la cuenta central.</p>
+          <p>Según las estimaciones patrimoniales usadas en el dashboard, alrededor de <b>45.000 argentinos</b> concentran fortunas por aproximadamente <b>$158,27 billones</b>. El simulador de grandes fortunas usa una <b>meta dinámica de sensibilidad extrema</b>: envolvente auditada más una compensación hipotética del deterioro deudor vs espejo. No es “lo que todavía falta” en la cuenta central.</p>
           <p>Eso no vuelve sencillo ni gratuito un impuesto, ni permite tratar un stock patrimonial como si fuera un flujo fiscal permanente. Pero sí permite poner las magnitudes en perspectiva y discutir la idea de que el reparto concreto del ajuste fuera la única alternativa posible.</p>
           <div class="story-links"><button class="story-link" type="button" onclick="activateTab('tab-casta')">Ver La casta →</button><button class="story-link" type="button" onclick="activateTab('tab-meli-benefits')">Ver Privilegios fiscales →</button><button class="story-link" type="button" onclick="activateTab('tab-wealth-contribution')">Ver Grandes fortunas →</button></div>
         </article>
 
-        <article id="story-conclusion" class="story-chapter" data-step="11">
+        <article id="story-conclusion" class="story-chapter" data-step="12">
           <h2>Ordenar las cuentas y decidir quién paga son preguntas distintas</h2>
           <p>Los datos no demuestran que ordenar las cuentas públicas fuera innecesario. Tampoco demuestran que cualquier alternativa hubiera sido gratuita, sencilla o políticamente viable.</p>
           <p>Pero sí muestran algo más interesante: la política fiscal no consiste solamente en decidir cuánto recaudar y cuánto gastar. También consiste en decidir <b>de quién obtener los recursos, qué gastos preservar, cuáles reducir y sobre qué sectores distribuir el costo de una crisis.</b></p>
@@ -9347,7 +9502,7 @@ html,body{overflow-x:clip}
         </section>
       </main>
       <aside class="card side">
-        <h2>Pinza financiera actual</h2>
+        <h2>Foto actual de tasas reales</h2>
         <div class="note good"><b>Jul-2026 · préstamo personal bancario</b><div class="metric">3,29% <small>real mensual estandarizado</small></div></div>
         <div class="note warn" style="margin-top:12px"><b>Jul-2026 · plazo fijo 30–59 días</b><div class="metric">−0,37% <small>real a 30 días</small></div></div>
         <div class="note" style="margin-top:12px"><b>Feb-2026 · Fintech PNFC</b><div class="metric">8,87% <small>real mensual estandarizado</small></div></div>
@@ -9400,14 +9555,19 @@ html,body{overflow-x:clip}
     <span class="method-badge derived">impactos derivados</span>
     <span class="method-badge partial">Fintech = proxy mensual sobre stock · integrada</span>
   </div>
-  <div class="rates-correction-banner"><span class="headline"><b>Corrección metodológica:</b> −$5,85 B no es “cuánto empeoró frente a Alberto”.</span>Ese valor es el <b>saldo post-shock contra normas históricas</b> de banco + Fintech + plazo fijo. La comparación temporal correcta usa <code>post − espejo</code>: el balance ampliado mejora, pero el lado deudor empeora.</div>
+  <div class="rates-correction-banner"><span class="headline"><b>Lectura principal:</b> el lado deudor banco + Fintech empeoró <span id="ratesDebtorHeadline">calculando…</span> frente al espejo; los ahorristas PF mejoraron <span id="ratesSaverHeadline">calculando…</span>.</span>Por eso el balance ampliado termina <span id="ratesBalanceHeadline">calculando…</span>. El viejo <span id="ratesPostBalanceHeadline">−$5,85 B</span> queda como <b>saldo post-shock contra normas históricas</b>, no como deterioro frente a Alberto.</div>
+  <h3 class="rates-position-title">¿A quién le fue mejor y a quién peor?</h3>
+  <p class="rates-position-lead">Tres posiciones distintas. La compensación del plazo fijo es estadística dentro del agregado: no significa que el mismo hogar endeudado haya recibido esa mejora.</p>
+  <div class="rates-position-grid" id="ratesPositionCards"></div>
+  <div id="ratesPositionEquation" class="rates-step-equation"></div>
+  <h3 class="rates-secondary-title">Desglose y contexto · componentes y saldo contra normas</h3>
   <div class="rates-money-kpi-grid" id="ratesMoneyGrid"></div>
   <div class="rates-who-method"><b>“Le conviene” en este bloque significa que esa parte queda relativamente favorecida frente a la norma o frente a la ventana espejo.</b> No convierte automáticamente la cifra en ganancia contable de bancos o Fintech: muestra de qué lado cae el efecto económico medido.</div>
   <div class="rates-money-normalized" id="ratesMoneyNormalized"></div>
   <div class="rates-compare-panel">
     <div class="rates-compare-head"><div><h3>Ventana espejo superpuesta · mes 1 → 32</h3><p>La misma métrica sobre ventanas de igual duración. Para mora, la vista principal es <b>Deudores</b>; PF queda como otro universo.</p></div><div class="rates-compare-controls" aria-label="Posición financiera"><button class="rates-compare-btn active" data-rates-position="debtor" type="button">Deudores</button><button class="rates-compare-btn" data-rates-position="saver" type="button">Ahorristas PF</button><button class="rates-compare-btn" data-rates-position="balance" type="button">Balance ampliado</button></div></div>
     <div id="ratesMirrorCompareChart" class="rates-compare-chart"></div>
-    <div id="ratesMirrorEquation" class="rates-equation-wrap"></div>
+    <div id="ratesMirrorEquation" class="rates-equation-wrap"></div><div id="ratesMirrorTextSummary" aria-live="polite"></div>
   </div>
   <div class="rates-component-explain"><b>Descomposición del diferencial:</b> banco y Fintech pueden empeorar aunque el total mejore si el plazo fijo mejora más. Las barras siguientes muestran justamente esa suma.</div>
   <div id="ratesMoneyChart"></div>
@@ -12176,7 +12336,7 @@ html,body{overflow-x:clip}
           <div class="cm-small-multiple"><h4>D · Mora</h4><div id="cmMoraChart" class="cm-chart"></div></div>
         </div>
         <div class="cm-caution"><b>APB:</b> el stock de personales no dice para qué se usó el crédito. Puede financiar consumo adelantado, emergencia, refinanciación o sustitución de otra deuda. La Central de Deudores tampoco informa destino, tasa, plazo ni monto original por persona.</div>
-        <div class="cm-debtor-apb"><strong>Ahorrista ≠ deudor.</strong> El balance financiero agregado puede mejorar aunque quienes necesitan crédito estén peor. Frente a la ventana espejo, la mejora del plazo fijo compensa estadísticamente el deterioro de banco + Fintech; eso no mejora la capacidad de pago de una persona endeudada.<span class="formula">Para este tab: estrés financiero relevante = lado deudor (banco + Fintech), no balance ampliado.</span></div>
+        <div class="cm-debtor-apb"><strong>Ahorrista ≠ deudor.</strong> El balance financiero agregado puede mejorar aunque quienes necesitan crédito estén peor. Frente a la ventana espejo, la mejora del plazo fijo compensa estadísticamente el deterioro de banco + Fintech; eso no mejora la capacidad de pago de una persona endeudada.<span class="formula">Para este tab: estrés financiero relevante = lado deudor (banco + Fintech), no balance ampliado. <b id="cmDebtorDiffKpi">≈ −$2,89 B vs espejo</b>.</span></div>
       </section>
 
       <section class="cm-card">
@@ -13396,7 +13556,7 @@ html,body{overflow-x:clip}
   <section id="tab-wealth-contribution" class="tab-panel">
     <div class="method-shield">
       <span class="label">Grandes fortunas · simulador patrimonial auditable</span>
-      <strong>¿Cuánto tendría que aportar voluntariamente la parte más rica para reunir $4,98 billones en la sensibilidad de compensación integral, sin perder una porción material de su patrimonio?</strong>
+      <strong>¿Cuánto tendría que aportar voluntariamente la parte más rica para reunir la sensibilidad extrema actual (<span id="wealthShieldTarget">calculando…</span>), sin perder una porción material de su patrimonio?</strong>
       <span class="method-badge official">ARCA · Bienes Personales 2022</span>
       <span class="method-badge official">INDEC · IPC nacional</span>
       <span class="method-badge derived">estimación por tramos</span>
@@ -13406,8 +13566,8 @@ html,body{overflow-x:clip}
       <div class="wealth-eyebrow">Sensibilidad patrimonial separada · no es el saldo central del daño</div>
       <h1>Grandes fortunas y aporte voluntario progresivo</h1>
       <p class="lead">La base son 895.111 declaraciones con bienes de ARCA. El aporte se calcula sólo sobre el excedente del umbral elegido, aumenta con el patrimonio y nunca supera el tope individual. Patrimonio no es ingreso: acá medimos stock de riqueza declarada.</p>
-      <div class="wealth-target"><strong>$ 4,98 billones</strong><span>meta de la sensibilidad de compensación integral · pesos de junio de 2026</span></div>
-      <div class="family-mini-note"><b>Importante:</b> la meta de $4,98 billones corresponde exclusivamente a una <b>sensibilidad extrema</b>: supone reasignar las otras partidas auditadas y, además, compensar íntegramente la pinza financiera estimada. Se usa para explorar la escala patrimonial necesaria bajo ese supuesto; <b>no representa el saldo central del ajuste</b>.</div>
+      <div class="wealth-target"><strong id="wealthTargetKpi" class="dynamic-target">Calculando…</strong><span>meta dinámica · envolvente auditada + deterioro deudor vs espejo · pesos comparables</span></div>
+      <div class="family-mini-note"><b>Importante:</b> esta meta corresponde exclusivamente a una <b>sensibilidad extrema</b>: suma la envolvente de partidas auditadas y, además, una compensación hipotética del <b>deterioro deudor banco + Fintech frente al espejo</b>. Ya no usa el viejo saldo ampliado de $5,85 B como si fuera deterioro incremental. <b>No representa el saldo central del ajuste.</b></div>
     </section>
 
     <section class="wealth-controls" id="wealthControls">
@@ -13477,7 +13637,7 @@ html,body{overflow-x:clip}
 
 
     <section class="milei-cost-audit milei-financial-audit" id="mileiFinancialAuditCard">
-      <h3>Pinza financiera · costo para hogares vs capacidad de absorción</h3>
+      <h3>Finanzas · deterioro deudor vs capacidad de absorción</h3>
       <div id="mileiFinancialAuditContent"></div>
       <div class="jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('tab-rates','ratesMoneySection')">Ver tasas, flujos y fuentes →</button></div>
     </section>
@@ -13512,7 +13672,7 @@ html,body{overflow-x:clip}
         <a class="source-link" href="https://www.indec.gob.ar/ftp/cuadros/sociedad/indice_salarios.csv" target="_blank" rel="noopener">📥 Cuenta salarial · serie oficial CSV</a>
         <a class="source-link" href="https://www.indec.gob.ar/uploads/informesdeprensa/eph_total_urbano_ingresos_02_24918E35EE9D.pdf" target="_blank" rel="noopener">👥 Escala urbana · EPH 3T-2023</a>
         <a class="source-link" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31" target="_blank" rel="noopener">📈 Deflactor · IPC INDEC</a>
-        <a class="source-link" href="https://www.bcra.gob.ar/tasas-de-interes/" target="_blank" rel="noopener">🏦 Pinza financiera · BCRA</a>
+        <a class="source-link" href="https://www.bcra.gob.ar/tasas-de-interes/" target="_blank" rel="noopener">🏦 Tasas y crédito · BCRA</a>
         <a class="source-link" href="https://www.indec.gob.ar/uploads/informesdeprensa/cuentas_sociedades_financieras_12_254091CDBBA3.pdf" target="_blank" rel="noopener">📊 Capacidad bancaria · INDEC sociedades financieras 2024</a>
         <a class="source-link" href="https://www.indec.gob.ar/ftp/cuadros/publicaciones/indecinforma/indec_informa_05_26.pdf" target="_blank" rel="noopener">📊 Conversión a pesos · PIB nominal 2024</a>
         <a class="source-link" href="https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipc_08_26.xls" target="_blank" rel="noopener">📈 Actualización a jul-2026 · IPC nacional</a>
@@ -13526,10 +13686,10 @@ html,body{overflow-x:clip}
         <a class="source-link" href="https://www.boletinoficial.gob.ar/detalleAviso/primera/344407/20260716?anexos=1" target="_blank" rel="noopener">📘 SIDE · DNU 594/2026</a>
         <a class="source-link" href="https://www.senado.gob.ar/bundles/senadoportal/webNueva/pdf/dietas/DR8_24.pdf" target="_blank" rel="noopener">🏛️ Senado · DR 8/24</a>
         <a class="source-link" href="#" data-source-path="data/derivados/AUDITORIA_FEEDBACK_CLAUDE.md">🧮 Auditoría · cuenta $18,43 B</a>
-        <a class="source-link" href="#" data-source-path="data/derivados/AUDITORIA_PINZA_FINANCIERA.md">🧮 Auditoría · pinza financiera</a>
+        <a class="source-link" href="#" data-source-path="data/derivados/AUDITORIA_PINZA_FINANCIERA.md">🧮 Auditoría histórica · tasas/crédito/ahorro</a>
         <a class="source-link" href="#" data-source-path="data/fuentes/FUENTES.csv">🗂️ Manifiesto general · archivos y hashes</a>
       </div>
-      <div class="sources-note"><b>Trazabilidad:</b> la cuenta salarial central usa INDEC salarios + IPC + EPH. La pinza usa tasas y stocks del BCRA y se presenta como costo del lado hogar. La capacidad bancaria usa Cuentas Nacionales de INDEC + resultado fiscal MECON/FMI; para expresarla en pesos se usa el <b>PIB nominal 2024 de $583,91 billones</b> y se actualiza con <b>IPC promedio 2024 → IPC jul-2026 (factor ≈1,9115)</b>. <b>No se suman automáticamente porque tienen denominadores y ventanas distintas.</b></div>
+      <div class="sources-note"><b>Trazabilidad:</b> la cuenta salarial central usa INDEC salarios + IPC + EPH. La capa financiera usa tasas y stocks del BCRA y separa deudores, ahorristas y balance ampliado. La capacidad bancaria usa Cuentas Nacionales de INDEC + resultado fiscal MECON/FMI; para expresarla en pesos se usa el <b>PIB nominal 2024 de $583,91 billones</b> y se actualiza con <b>IPC promedio 2024 → IPC jul-2026 (factor ≈1,9115)</b>. <b>No se suman automáticamente porque tienen denominadores y ventanas distintas.</b></div>
     </section>
 
     <footer>
@@ -14369,7 +14529,7 @@ function activateTabAndScroll(tabId, elementId){
     if(el)el.scrollIntoView({behavior:'smooth',block:'start'});
   },180);
 }
-const wealthContributionData={"nodes":[{"w":3939880.85,"n":53106.88888889},{"w":14187689.73,"n":53106.88888889},{"w":25741641.93,"n":53106.88888889},{"w":38111299.52,"n":53106.88888889},{"w":51090514.57,"n":53106.88888889},{"w":64561944.09,"n":53106.88888889},{"w":78448867.0,"n":53106.88888889},{"w":92696820.77,"n":53106.88888889},{"w":107264956.31,"n":53106.88888889},{"w":115867278.19,"n":11143.11111111},{"w":119301306.64,"n":11143.11111111},{"w":123339225.64,"n":11143.11111111},{"w":127767640.15,"n":11143.11111111},{"w":132494030.99,"n":11143.11111111},{"w":137464730.14,"n":11143.11111111},{"w":142644154.32,"n":11143.11111111},{"w":148006759.84,"n":11143.11111111},{"w":153533208.1,"n":11143.11111111},{"w":158303756.6,"n":17700.88888889},{"w":166677409.16,"n":17700.88888889},{"w":178758191.91,"n":17700.88888889},{"w":193676694.56,"n":17700.88888889},{"w":210995014.06,"n":17700.88888889},{"w":230434452.11,"n":17700.88888889},{"w":251797046.46,"n":17700.88888889},{"w":274932627.1,"n":17700.88888889},{"w":299722134.64,"n":17700.88888889},{"w":316304817.46,"n":6116.88888889},{"w":327797535.42,"n":6116.88888889},{"w":342096936.39,"n":6116.88888889},{"w":358298036.01,"n":6116.88888889},{"w":375991823.17,"n":6116.88888889},{"w":394934915.7,"n":6116.88888889},{"w":414962867.6,"n":6116.88888889},{"w":435955832.26,"n":6116.88888889},{"w":457821922.81,"n":6116.88888889},{"w":473632494.83,"n":3048.66666667},{"w":486567885.51,"n":3048.66666667},{"w":501743555.78,"n":3048.66666667},{"w":518365147.2,"n":3048.66666667},{"w":536088833.94,"n":3048.66666667},{"w":554715374.96,"n":3048.66666667},{"w":574112768.29,"n":3048.66666667},{"w":594186312.67,"n":3048.66666667},{"w":614864348.0,"n":3048.66666667},{"w":630977178.56,"n":1788.44444444},{"w":645185961.8,"n":1788.44444444},{"w":661066521.58,"n":1788.44444444},{"w":677983605.52,"n":1788.44444444},{"w":695671909.15,"n":1788.44444444},{"w":713981006.92,"n":1788.44444444},{"w":732812832.11,"n":1788.44444444},{"w":752097930.4,"n":1788.44444444},{"w":771784308.87,"n":1788.44444444},{"w":788054741.98,"n":1182.22222222},{"w":803097612.55,"n":1182.22222222},{"w":819406846.41,"n":1182.22222222},{"w":836481692.68,"n":1182.22222222},{"w":854117663.21,"n":1182.22222222},{"w":872200384.06,"n":1182.22222222},{"w":890656038.64,"n":1182.22222222},{"w":909432766.39,"n":1182.22222222},{"w":928492004.97,"n":1182.22222222},{"w":944404625.57,"n":840.11111111},{"w":959444064.42,"n":840.11111111},{"w":975751586.96,"n":840.11111111},{"w":992825840.4,"n":840.11111111},{"w":1010462072.16,"n":840.11111111},{"w":1028545754.05,"n":840.11111111},{"w":1047002966.94,"n":840.11111111},{"w":1065781776.54,"n":840.11111111},{"w":1084843564.64,"n":840.11111111},{"w":1101386397.86,"n":630.88888889},{"w":1117095270.62,"n":630.88888889},{"w":1133728513.51,"n":630.88888889},{"w":1150909746.42,"n":630.88888889},{"w":1168487933.73,"n":630.88888889},{"w":1186379487.35,"n":630.88888889},{"w":1204530879.5,"n":630.88888889},{"w":1222904737.61,"n":630.88888889},{"w":1241473416.67,"n":630.88888889},{"w":1257561743.19,"n":495.11111111},{"w":1273086199.57,"n":495.11111111},{"w":1289631335.58,"n":495.11111111},{"w":1306784829.07,"n":495.11111111},{"w":1324380424.3,"n":495.11111111},{"w":1342325842.2,"n":495.11111111},{"w":1360561862.67,"n":495.11111111},{"w":1379047067.96,"n":495.11111111},{"w":1397750776.93,"n":495.11111111},{"w":1413965558.64,"n":394.11111111},{"w":1429543136.97,"n":394.11111111},{"w":1446113778.79,"n":394.11111111},{"w":1463275397.23,"n":394.11111111},{"w":1480866088.28,"n":394.11111111},{"w":1498796063.65,"n":394.11111111},{"w":1517007737.32,"n":394.11111111},{"w":1535460854.3,"n":394.11111111},{"w":1554125607.11,"n":394.11111111},{"w":1571070085.89,"n":330.0},{"w":1587400300.15,"n":330.0},{"w":1604321352.13,"n":330.0},{"w":1621586430.15,"n":330.0},{"w":1639098065.67,"n":330.0},{"w":1656802835.13,"n":330.0},{"w":1674666770.38,"n":330.0},{"w":1692666289.83,"n":330.0},{"w":1710784032.56,"n":330.0},{"w":1727569914.45,"n":281.88888889},{"w":1744040395.86,"n":281.88888889},{"w":1761024493.44,"n":281.88888889},{"w":1778306454.74,"n":281.88888889},{"w":1795801381.3,"n":281.88888889},{"w":1813462839.57,"n":281.88888889},{"w":1831261352.82,"n":281.88888889},{"w":1849176483.44,"n":281.88888889},{"w":1867193201.09,"n":281.88888889},{"w":1884132293.25,"n":233.0},{"w":1900799215.54,"n":233.0},{"w":1917870413.71,"n":233.0},{"w":1935174755.72,"n":233.0},{"w":1952645236.63,"n":233.0},{"w":1970245319.42,"n":233.0},{"w":1987951861.16,"n":233.0},{"w":2005748844.17,"n":233.0},{"w":2023624506.02,"n":233.0},{"w":2039387395.13,"n":197.0},{"w":2054975239.28,"n":197.0},{"w":2071550798.33,"n":197.0},{"w":2088713974.35,"n":197.0},{"w":2106303707.38,"n":197.0},{"w":2124230691.64,"n":197.0},{"w":2142437657.44,"n":197.0},{"w":2160884574.73,"n":197.0},{"w":2179541804.94,"n":197.0},{"w":2196086809.89,"n":166.66666667},{"w":2212028674.23,"n":166.66666667},{"w":2228771473.1,"n":166.66666667},{"w":2245985880.86,"n":166.66666667},{"w":2263540539.37,"n":166.66666667},{"w":2281363015.22,"n":166.66666667},{"w":2299407048.39,"n":166.66666667},{"w":2317640409.92,"n":166.66666667},{"w":2336039302.31,"n":166.66666667},{"w":2352304911.96,"n":144.33333333},{"w":2368110491.77,"n":144.33333333},{"w":2384789445.77,"n":144.33333333},{"w":2401984701.65,"n":144.33333333},{"w":2419553330.89,"n":144.33333333},{"w":2437416352.01,"n":144.33333333},{"w":2455523243.73,"n":144.33333333},{"w":2473838764.12,"n":144.33333333},{"w":2492336863.66,"n":144.33333333},{"w":2510542251.92,"n":133.88888889},{"w":2528091923.76,"n":133.88888889},{"w":2545537277.94,"n":133.88888889},{"w":2562923951.23,"n":133.88888889},{"w":2580269420.14,"n":133.88888889},{"w":2597583088.21,"n":133.88888889},{"w":2614870853.51,"n":133.88888889},{"w":2632136766.33,"n":133.88888889},{"w":2649383781.54,"n":133.88888889},{"w":2666346589.15,"n":118.55555556},{"w":2683421503.16,"n":118.55555556},{"w":2700669145.77,"n":118.55555556},{"w":2718015255.62,"n":118.55555556},{"w":2735431054.46,"n":118.55555556},{"w":2752900946.76,"n":118.55555556},{"w":2770415099.18,"n":118.55555556},{"w":2787966730.63,"n":118.55555556},{"w":2805550876.59,"n":118.55555556},{"w":2825345581.13,"n":110.77777778},{"w":2844506724.77,"n":110.77777778},{"w":2862560804.55,"n":110.77777778},{"w":2880019292.43,"n":110.77777778},{"w":2897070418.17,"n":110.77777778},{"w":2913813081.54,"n":110.77777778},{"w":2930308237.75,"n":110.77777778},{"w":2946597165.21,"n":110.77777778},{"w":2962709629.72,"n":110.77777778},{"w":2980248311.46,"n":87.11111111},{"w":2998327546.39,"n":87.11111111},{"w":3015983688.96,"n":87.11111111},{"w":3033405316.25,"n":87.11111111},{"w":3050663700.16,"n":87.11111111},{"w":3067796888.77,"n":87.11111111},{"w":3084828608.44,"n":87.11111111},{"w":3101775077.15,"n":87.11111111},{"w":3118648081.1,"n":87.11111111},{"w":3146027028.46,"n":241.22222222},{"w":3193886611.0,"n":241.22222222},{"w":3247083520.5,"n":241.22222222},{"w":3303574575.66,"n":241.22222222},{"w":3362509930.5,"n":241.22222222},{"w":3423408917.57,"n":241.22222222},{"w":3485958747.65,"n":241.22222222},{"w":3549938215.31,"n":241.22222222},{"w":3615181929.8,"n":241.22222222},{"w":3663974080.03,"n":169.77777778},{"w":3707761265.4,"n":169.77777778},{"w":3758731105.36,"n":169.77777778},{"w":3814306814.17,"n":169.77777778},{"w":3873379485.78,"n":169.77777778},{"w":3935308789.83,"n":169.77777778},{"w":3999671597.78,"n":169.77777778},{"w":4066164980.28,"n":169.77777778},{"w":4134560111.29,"n":169.77777778},{"w":4190487443.81,"n":121.22222222},{"w":4240749575.1,"n":121.22222222},{"w":4295173059.4,"n":121.22222222},{"w":4352109719.02,"n":121.22222222},{"w":4410887137.17,"n":121.22222222},{"w":4471129434.87,"n":121.22222222},{"w":4532594123.93,"n":121.22222222},{"w":4595110899.68,"n":121.22222222},{"w":4658553163.27,"n":121.22222222},{"w":4715645080.65,"n":82.11111111},{"w":4770003430.24,"n":82.11111111},{"w":4826372690.55,"n":82.11111111},{"w":4883913603.41,"n":82.11111111},{"w":4942294544.45,"n":82.11111111},{"w":5001333683.02,"n":82.11111111},{"w":5060915376.55,"n":82.11111111},{"w":5120959326.24,"n":82.11111111},{"w":5181406405.49,"n":82.11111111},{"w":5231453743.26,"n":69.11111111},{"w":5280154856.47,"n":69.11111111},{"w":5333788651.0,"n":69.11111111},{"w":5390443586.19,"n":69.11111111},{"w":5449329983.0,"n":69.11111111},{"w":5510003052.56,"n":69.11111111},{"w":5572174239.07,"n":69.11111111},{"w":5635639974.28,"n":69.11111111},{"w":5700248365.49,"n":69.11111111},{"w":5764007064.76,"n":60.77777778},{"w":5823676690.4,"n":60.77777778},{"w":5882297721.05,"n":60.77777778},{"w":5940334641.84,"n":60.77777778},{"w":5997963780.07,"n":60.77777778},{"w":6055279516.38,"n":60.77777778},{"w":6112340820.22,"n":60.77777778},{"w":6169188062.39,"n":60.77777778},{"w":6225850619.93,"n":60.77777778},{"w":6277755561.9,"n":46.88888889},{"w":6330713534.83,"n":46.88888889},{"w":6386438070.68,"n":46.88888889},{"w":6443794198.54,"n":46.88888889},{"w":6502328574.73,"n":46.88888889},{"w":6561791004.3,"n":46.88888889},{"w":6622021598.63,"n":46.88888889},{"w":6682908908.81,"n":46.88888889},{"w":6744370607.85,"n":46.88888889},{"w":6802918149.28,"n":39.22222222},{"w":6859658866.0,"n":39.22222222},{"w":6917076168.7,"n":39.22222222},{"w":6974879746.15,"n":39.22222222},{"w":7032956945.75,"n":39.22222222},{"w":7091246670.13,"n":39.22222222},{"w":7149710373.28,"n":39.22222222},{"w":7208321461.35,"n":39.22222222},{"w":7267060457.13,"n":39.22222222},{"w":7321557171.66,"n":32.55555556},{"w":7375943324.1,"n":32.55555556},{"w":7432325169.83,"n":32.55555556},{"w":7489869523.43,"n":32.55555556},{"w":7548247230.34,"n":32.55555556},{"w":7607277837.34,"n":32.55555556},{"w":7666846588.72,"n":32.55555556},{"w":7726873807.6,"n":32.55555556},{"w":7787300828.96,"n":32.55555556},{"w":7843040705.95,"n":28.55555556},{"w":7897721287.07,"n":28.55555556},{"w":7954235897.46,"n":28.55555556},{"w":8011816143.99,"n":28.55555556},{"w":8070159152.8,"n":28.55555556},{"w":8129099104.2,"n":28.55555556},{"w":8188530654.12,"n":28.55555556},{"w":8248380718.85,"n":28.55555556},{"w":8308595523.79,"n":28.55555556},{"w":8365047822.66,"n":24.55555556},{"w":8420511475.45,"n":24.55555556},{"w":8477374624.75,"n":24.55555556},{"w":8535045496.0,"n":24.55555556},{"w":8593292222.45,"n":24.55555556},{"w":8651988316.14,"n":24.55555556},{"w":8711053633.16,"n":24.55555556},{"w":8770432690.47,"n":24.55555556},{"w":8830084736.1,"n":24.55555556},{"w":8894393761.96,"n":25.11111111},{"w":8956643372.38,"n":25.11111111},{"w":9016245870.04,"n":25.11111111},{"w":9074405062.45,"n":25.11111111},{"w":9131569289.75,"n":25.11111111},{"w":9187975802.93,"n":25.11111111},{"w":9243771595.85,"n":25.11111111},{"w":9299056628.39,"n":25.11111111},{"w":9353903233.22,"n":25.11111111},{"w":9405269360.03,"n":19.0},{"w":9458681940.79,"n":19.0},{"w":9514618102.02,"n":19.0},{"w":9572036687.41,"n":19.0},{"w":9630523287.27,"n":19.0},{"w":9689849679.3,"n":19.0},{"w":9749870245.14,"n":19.0},{"w":9810483609.8,"n":19.0},{"w":9871614966.12,"n":19.0},{"w":9936177950.8,"n":19.44444444},{"w":9998002145.97,"n":19.44444444},{"w":10057447985.87,"n":19.44444444},{"w":10115592485.74,"n":19.44444444},{"w":10172838025.21,"n":19.44444444},{"w":10229397933.82,"n":19.44444444},{"w":10285404566.95,"n":19.44444444},{"w":10340948029.03,"n":19.44444444},{"w":10396093581.07,"n":19.44444444},{"w":10521133511.52,"n":56.0},{"w":10736012826.63,"n":56.0},{"w":10960324513.82,"n":56.0},{"w":11190162320.92,"n":56.0},{"w":11423975132.54,"n":56.0},{"w":11660909945.16,"n":56.0},{"w":11900423070.01,"n":56.0},{"w":12142136326.81,"n":56.0},{"w":12385770843.16,"n":56.0},{"w":12546135117.81,"n":18.44444444},{"w":12641808362.23,"n":18.44444444},{"w":12748178120.5,"n":18.44444444},{"w":12861151050.29,"n":18.44444444},{"w":12979024237.6,"n":18.44444444},{"w":13100834415.65,"n":18.44444444},{"w":13225954696.07,"n":18.44444444},{"w":13353941711.86,"n":18.44444444},{"w":13484463948.02,"n":18.44444444},{"w":13592248337.13,"n":17.0},{"w":13692228702.01,"n":17.0},{"w":13800804376.34,"n":17.0},{"w":13914583667.36,"n":17.0},{"w":14032179847.3,"n":17.0},{"w":14152816722.09,"n":17.0},{"w":14275993065.77,"n":17.0},{"w":14401356584.02,"n":17.0},{"w":14528645223.58,"n":17.0},{"w":14645391363.25,"n":24.11111111},{"w":14805566250.68,"n":24.11111111},{"w":15000571541.46,"n":24.11111111},{"w":15218756305.76,"n":24.11111111},{"w":15454938322.06,"n":24.11111111},{"w":15706064040.47,"n":24.11111111},{"w":15970085238.91,"n":24.11111111},{"w":16245517866.91,"n":24.11111111},{"w":16531229626.79,"n":24.11111111},{"w":16738004348.1,"n":16.55555556},{"w":16909610049.92,"n":16.55555556},{"w":17111450426.04,"n":16.55555556},{"w":17332846107.1,"n":16.55555556},{"w":17569166000.84,"n":16.55555556},{"w":17817723386.9,"n":16.55555556},{"w":18076736734.17,"n":16.55555556},{"w":18344927061.2,"n":16.55555556},{"w":18621326017.57,"n":16.55555556},{"w":18830476972.14,"n":13.22222222},{"w":19012392146.28,"n":13.22222222},{"w":19220063808.76,"n":13.22222222},{"w":19443987587.58,"n":13.22222222},{"w":19680131607.83,"n":13.22222222},{"w":19926187985.35,"n":13.22222222},{"w":20180641525.85,"n":13.22222222},{"w":20442413065.29,"n":13.22222222},{"w":20710690948.15,"n":13.22222222},{"w":21114458626.64,"n":36.55555556},{"w":21923103581.37,"n":36.55555556},{"w":22902893818.88,"n":36.55555556},{"w":23996131102.71,"n":36.55555556},{"w":25177241879.54,"n":36.55555556},{"w":26431189775.94,"n":36.55555556},{"w":27747904998.49,"n":36.55555556},{"w":29120100753.99,"n":36.55555556},{"w":30542223324.02,"n":36.55555556},{"w":31440606753.08,"n":14.44444444},{"w":32083249408.91,"n":14.44444444},{"w":32952587988.85,"n":14.44444444},{"w":33986500046.8,"n":14.44444444},{"w":35155133743.15,"n":14.44444444},{"w":36440039384.55,"n":14.44444444},{"w":37828395045.94,"n":14.44444444},{"w":39310643092.88,"n":14.44444444},{"w":40879316137.31,"n":14.44444444},{"w":41943864206.17,"n":10.22222222},{"w":42725542943.17,"n":10.22222222},{"w":43688639113.71,"n":10.22222222},{"w":44773665951.87,"n":10.22222222},{"w":45953930932.93,"n":10.22222222},{"w":47213620793.96,"n":10.22222222},{"w":48542086002.1,"n":10.22222222},{"w":49931585642.98,"n":10.22222222},{"w":51376197747.65,"n":10.22222222},{"w":54876470117.86,"n":2.828125},{"w":55338702737.97,"n":2.828125},{"w":55812379384.54,"n":2.828125},{"w":56297976488.8,"n":2.828125},{"w":56795998624.79,"n":2.828125},{"w":57306980679.26,"n":2.828125},{"w":57831490229.34,"n":2.828125},{"w":58370130151.97,"n":2.828125},{"w":58923541492.06,"n":2.828125},{"w":59492406620.5,"n":2.828125},{"w":60077452717.01,"n":2.828125},{"w":60679455618.18,"n":2.828125},{"w":61299244076.72,"n":2.828125},{"w":61937704484.86,"n":2.828125},{"w":62595786122.86,"n":2.828125},{"w":63274507002.96,"n":2.828125},{"w":63974960390.16,"n":2.828125},{"w":64698322094.47,"n":2.828125},{"w":65445858644.74,"n":2.828125},{"w":66218936472.71,"n":2.828125},{"w":67019032258.11,"n":2.828125},{"w":67847744612.24,"n":2.828125},{"w":68706807309.36,"n":2.828125},{"w":69598104314.08,"n":2.828125},{"w":70523686899.74,"n":2.828125},{"w":71485793210.46,"n":2.828125},{"w":72486870689.43,"n":2.828125},{"w":73529601883.23,"n":2.828125},{"w":74616934238.76,"n":2.828125},{"w":75752114643.54,"n":2.828125},{"w":76938729627.47,"n":2.828125},{"w":78180752355.3,"n":2.828125},{"w":79482597807.31,"n":2.828125},{"w":80849187887.65,"n":2.828125},{"w":82286028640.78,"n":2.828125},{"w":83799302327.72,"n":2.828125},{"w":85395977860.83,"n":2.828125},{"w":87083944081.85,"n":2.828125},{"w":88872171679.99,"n":2.828125},{"w":90770911312.32,"n":2.828125},{"w":92791937888.27,"n":2.828125},{"w":94948854280.63,"n":2.828125},{"w":97257472321.92,"n":2.828125},{"w":99736295432.92,"n":2.828125},{"w":102407136524.6,"n":2.828125},{"w":105295918343.05,"n":2.828125},{"w":108433723467.46,"n":2.828125},{"w":111858191434.41,"n":2.828125},{"w":115615407147.74,"n":2.828125},{"w":119762498474.93,"n":2.828125},{"w":124371280529.26,"n":2.828125},{"w":129533483965.6,"n":2.828125},{"w":135368449958.07,"n":2.828125},{"w":142034794862.77,"n":2.828125},{"w":149748712851.78,"n":2.828125},{"w":158813891616.6,"n":2.828125},{"w":169672876984.94,"n":2.828125},{"w":183000770357.51,"n":2.828125},{"w":199889733254.85,"n":2.828125},{"w":222250527840.3,"n":2.828125},{"w":253815092966.84,"n":2.828125},{"w":303204134504.46,"n":2.828125},{"w":397159994776.05,"n":2.828125},{"w":709721875503.74,"n":2.828125}],"target":4980000000000.0,"factor":10.423533046151134,"alpha":1.8924169214081454,"fxJun2026":1450.2728,"annualWageJun2026":11987664.340695,"historicalNominal":248006000000.0,"historicalReal":5035596095615.217,"historicalContributors":10000,"historicalThresholdReal":6129537999.381159};
+const wealthContributionData={"nodes":[{"w":3939880.85,"n":53106.88888889},{"w":14187689.73,"n":53106.88888889},{"w":25741641.93,"n":53106.88888889},{"w":38111299.52,"n":53106.88888889},{"w":51090514.57,"n":53106.88888889},{"w":64561944.09,"n":53106.88888889},{"w":78448867.0,"n":53106.88888889},{"w":92696820.77,"n":53106.88888889},{"w":107264956.31,"n":53106.88888889},{"w":115867278.19,"n":11143.11111111},{"w":119301306.64,"n":11143.11111111},{"w":123339225.64,"n":11143.11111111},{"w":127767640.15,"n":11143.11111111},{"w":132494030.99,"n":11143.11111111},{"w":137464730.14,"n":11143.11111111},{"w":142644154.32,"n":11143.11111111},{"w":148006759.84,"n":11143.11111111},{"w":153533208.1,"n":11143.11111111},{"w":158303756.6,"n":17700.88888889},{"w":166677409.16,"n":17700.88888889},{"w":178758191.91,"n":17700.88888889},{"w":193676694.56,"n":17700.88888889},{"w":210995014.06,"n":17700.88888889},{"w":230434452.11,"n":17700.88888889},{"w":251797046.46,"n":17700.88888889},{"w":274932627.1,"n":17700.88888889},{"w":299722134.64,"n":17700.88888889},{"w":316304817.46,"n":6116.88888889},{"w":327797535.42,"n":6116.88888889},{"w":342096936.39,"n":6116.88888889},{"w":358298036.01,"n":6116.88888889},{"w":375991823.17,"n":6116.88888889},{"w":394934915.7,"n":6116.88888889},{"w":414962867.6,"n":6116.88888889},{"w":435955832.26,"n":6116.88888889},{"w":457821922.81,"n":6116.88888889},{"w":473632494.83,"n":3048.66666667},{"w":486567885.51,"n":3048.66666667},{"w":501743555.78,"n":3048.66666667},{"w":518365147.2,"n":3048.66666667},{"w":536088833.94,"n":3048.66666667},{"w":554715374.96,"n":3048.66666667},{"w":574112768.29,"n":3048.66666667},{"w":594186312.67,"n":3048.66666667},{"w":614864348.0,"n":3048.66666667},{"w":630977178.56,"n":1788.44444444},{"w":645185961.8,"n":1788.44444444},{"w":661066521.58,"n":1788.44444444},{"w":677983605.52,"n":1788.44444444},{"w":695671909.15,"n":1788.44444444},{"w":713981006.92,"n":1788.44444444},{"w":732812832.11,"n":1788.44444444},{"w":752097930.4,"n":1788.44444444},{"w":771784308.87,"n":1788.44444444},{"w":788054741.98,"n":1182.22222222},{"w":803097612.55,"n":1182.22222222},{"w":819406846.41,"n":1182.22222222},{"w":836481692.68,"n":1182.22222222},{"w":854117663.21,"n":1182.22222222},{"w":872200384.06,"n":1182.22222222},{"w":890656038.64,"n":1182.22222222},{"w":909432766.39,"n":1182.22222222},{"w":928492004.97,"n":1182.22222222},{"w":944404625.57,"n":840.11111111},{"w":959444064.42,"n":840.11111111},{"w":975751586.96,"n":840.11111111},{"w":992825840.4,"n":840.11111111},{"w":1010462072.16,"n":840.11111111},{"w":1028545754.05,"n":840.11111111},{"w":1047002966.94,"n":840.11111111},{"w":1065781776.54,"n":840.11111111},{"w":1084843564.64,"n":840.11111111},{"w":1101386397.86,"n":630.88888889},{"w":1117095270.62,"n":630.88888889},{"w":1133728513.51,"n":630.88888889},{"w":1150909746.42,"n":630.88888889},{"w":1168487933.73,"n":630.88888889},{"w":1186379487.35,"n":630.88888889},{"w":1204530879.5,"n":630.88888889},{"w":1222904737.61,"n":630.88888889},{"w":1241473416.67,"n":630.88888889},{"w":1257561743.19,"n":495.11111111},{"w":1273086199.57,"n":495.11111111},{"w":1289631335.58,"n":495.11111111},{"w":1306784829.07,"n":495.11111111},{"w":1324380424.3,"n":495.11111111},{"w":1342325842.2,"n":495.11111111},{"w":1360561862.67,"n":495.11111111},{"w":1379047067.96,"n":495.11111111},{"w":1397750776.93,"n":495.11111111},{"w":1413965558.64,"n":394.11111111},{"w":1429543136.97,"n":394.11111111},{"w":1446113778.79,"n":394.11111111},{"w":1463275397.23,"n":394.11111111},{"w":1480866088.28,"n":394.11111111},{"w":1498796063.65,"n":394.11111111},{"w":1517007737.32,"n":394.11111111},{"w":1535460854.3,"n":394.11111111},{"w":1554125607.11,"n":394.11111111},{"w":1571070085.89,"n":330.0},{"w":1587400300.15,"n":330.0},{"w":1604321352.13,"n":330.0},{"w":1621586430.15,"n":330.0},{"w":1639098065.67,"n":330.0},{"w":1656802835.13,"n":330.0},{"w":1674666770.38,"n":330.0},{"w":1692666289.83,"n":330.0},{"w":1710784032.56,"n":330.0},{"w":1727569914.45,"n":281.88888889},{"w":1744040395.86,"n":281.88888889},{"w":1761024493.44,"n":281.88888889},{"w":1778306454.74,"n":281.88888889},{"w":1795801381.3,"n":281.88888889},{"w":1813462839.57,"n":281.88888889},{"w":1831261352.82,"n":281.88888889},{"w":1849176483.44,"n":281.88888889},{"w":1867193201.09,"n":281.88888889},{"w":1884132293.25,"n":233.0},{"w":1900799215.54,"n":233.0},{"w":1917870413.71,"n":233.0},{"w":1935174755.72,"n":233.0},{"w":1952645236.63,"n":233.0},{"w":1970245319.42,"n":233.0},{"w":1987951861.16,"n":233.0},{"w":2005748844.17,"n":233.0},{"w":2023624506.02,"n":233.0},{"w":2039387395.13,"n":197.0},{"w":2054975239.28,"n":197.0},{"w":2071550798.33,"n":197.0},{"w":2088713974.35,"n":197.0},{"w":2106303707.38,"n":197.0},{"w":2124230691.64,"n":197.0},{"w":2142437657.44,"n":197.0},{"w":2160884574.73,"n":197.0},{"w":2179541804.94,"n":197.0},{"w":2196086809.89,"n":166.66666667},{"w":2212028674.23,"n":166.66666667},{"w":2228771473.1,"n":166.66666667},{"w":2245985880.86,"n":166.66666667},{"w":2263540539.37,"n":166.66666667},{"w":2281363015.22,"n":166.66666667},{"w":2299407048.39,"n":166.66666667},{"w":2317640409.92,"n":166.66666667},{"w":2336039302.31,"n":166.66666667},{"w":2352304911.96,"n":144.33333333},{"w":2368110491.77,"n":144.33333333},{"w":2384789445.77,"n":144.33333333},{"w":2401984701.65,"n":144.33333333},{"w":2419553330.89,"n":144.33333333},{"w":2437416352.01,"n":144.33333333},{"w":2455523243.73,"n":144.33333333},{"w":2473838764.12,"n":144.33333333},{"w":2492336863.66,"n":144.33333333},{"w":2510542251.92,"n":133.88888889},{"w":2528091923.76,"n":133.88888889},{"w":2545537277.94,"n":133.88888889},{"w":2562923951.23,"n":133.88888889},{"w":2580269420.14,"n":133.88888889},{"w":2597583088.21,"n":133.88888889},{"w":2614870853.51,"n":133.88888889},{"w":2632136766.33,"n":133.88888889},{"w":2649383781.54,"n":133.88888889},{"w":2666346589.15,"n":118.55555556},{"w":2683421503.16,"n":118.55555556},{"w":2700669145.77,"n":118.55555556},{"w":2718015255.62,"n":118.55555556},{"w":2735431054.46,"n":118.55555556},{"w":2752900946.76,"n":118.55555556},{"w":2770415099.18,"n":118.55555556},{"w":2787966730.63,"n":118.55555556},{"w":2805550876.59,"n":118.55555556},{"w":2825345581.13,"n":110.77777778},{"w":2844506724.77,"n":110.77777778},{"w":2862560804.55,"n":110.77777778},{"w":2880019292.43,"n":110.77777778},{"w":2897070418.17,"n":110.77777778},{"w":2913813081.54,"n":110.77777778},{"w":2930308237.75,"n":110.77777778},{"w":2946597165.21,"n":110.77777778},{"w":2962709629.72,"n":110.77777778},{"w":2980248311.46,"n":87.11111111},{"w":2998327546.39,"n":87.11111111},{"w":3015983688.96,"n":87.11111111},{"w":3033405316.25,"n":87.11111111},{"w":3050663700.16,"n":87.11111111},{"w":3067796888.77,"n":87.11111111},{"w":3084828608.44,"n":87.11111111},{"w":3101775077.15,"n":87.11111111},{"w":3118648081.1,"n":87.11111111},{"w":3146027028.46,"n":241.22222222},{"w":3193886611.0,"n":241.22222222},{"w":3247083520.5,"n":241.22222222},{"w":3303574575.66,"n":241.22222222},{"w":3362509930.5,"n":241.22222222},{"w":3423408917.57,"n":241.22222222},{"w":3485958747.65,"n":241.22222222},{"w":3549938215.31,"n":241.22222222},{"w":3615181929.8,"n":241.22222222},{"w":3663974080.03,"n":169.77777778},{"w":3707761265.4,"n":169.77777778},{"w":3758731105.36,"n":169.77777778},{"w":3814306814.17,"n":169.77777778},{"w":3873379485.78,"n":169.77777778},{"w":3935308789.83,"n":169.77777778},{"w":3999671597.78,"n":169.77777778},{"w":4066164980.28,"n":169.77777778},{"w":4134560111.29,"n":169.77777778},{"w":4190487443.81,"n":121.22222222},{"w":4240749575.1,"n":121.22222222},{"w":4295173059.4,"n":121.22222222},{"w":4352109719.02,"n":121.22222222},{"w":4410887137.17,"n":121.22222222},{"w":4471129434.87,"n":121.22222222},{"w":4532594123.93,"n":121.22222222},{"w":4595110899.68,"n":121.22222222},{"w":4658553163.27,"n":121.22222222},{"w":4715645080.65,"n":82.11111111},{"w":4770003430.24,"n":82.11111111},{"w":4826372690.55,"n":82.11111111},{"w":4883913603.41,"n":82.11111111},{"w":4942294544.45,"n":82.11111111},{"w":5001333683.02,"n":82.11111111},{"w":5060915376.55,"n":82.11111111},{"w":5120959326.24,"n":82.11111111},{"w":5181406405.49,"n":82.11111111},{"w":5231453743.26,"n":69.11111111},{"w":5280154856.47,"n":69.11111111},{"w":5333788651.0,"n":69.11111111},{"w":5390443586.19,"n":69.11111111},{"w":5449329983.0,"n":69.11111111},{"w":5510003052.56,"n":69.11111111},{"w":5572174239.07,"n":69.11111111},{"w":5635639974.28,"n":69.11111111},{"w":5700248365.49,"n":69.11111111},{"w":5764007064.76,"n":60.77777778},{"w":5823676690.4,"n":60.77777778},{"w":5882297721.05,"n":60.77777778},{"w":5940334641.84,"n":60.77777778},{"w":5997963780.07,"n":60.77777778},{"w":6055279516.38,"n":60.77777778},{"w":6112340820.22,"n":60.77777778},{"w":6169188062.39,"n":60.77777778},{"w":6225850619.93,"n":60.77777778},{"w":6277755561.9,"n":46.88888889},{"w":6330713534.83,"n":46.88888889},{"w":6386438070.68,"n":46.88888889},{"w":6443794198.54,"n":46.88888889},{"w":6502328574.73,"n":46.88888889},{"w":6561791004.3,"n":46.88888889},{"w":6622021598.63,"n":46.88888889},{"w":6682908908.81,"n":46.88888889},{"w":6744370607.85,"n":46.88888889},{"w":6802918149.28,"n":39.22222222},{"w":6859658866.0,"n":39.22222222},{"w":6917076168.7,"n":39.22222222},{"w":6974879746.15,"n":39.22222222},{"w":7032956945.75,"n":39.22222222},{"w":7091246670.13,"n":39.22222222},{"w":7149710373.28,"n":39.22222222},{"w":7208321461.35,"n":39.22222222},{"w":7267060457.13,"n":39.22222222},{"w":7321557171.66,"n":32.55555556},{"w":7375943324.1,"n":32.55555556},{"w":7432325169.83,"n":32.55555556},{"w":7489869523.43,"n":32.55555556},{"w":7548247230.34,"n":32.55555556},{"w":7607277837.34,"n":32.55555556},{"w":7666846588.72,"n":32.55555556},{"w":7726873807.6,"n":32.55555556},{"w":7787300828.96,"n":32.55555556},{"w":7843040705.95,"n":28.55555556},{"w":7897721287.07,"n":28.55555556},{"w":7954235897.46,"n":28.55555556},{"w":8011816143.99,"n":28.55555556},{"w":8070159152.8,"n":28.55555556},{"w":8129099104.2,"n":28.55555556},{"w":8188530654.12,"n":28.55555556},{"w":8248380718.85,"n":28.55555556},{"w":8308595523.79,"n":28.55555556},{"w":8365047822.66,"n":24.55555556},{"w":8420511475.45,"n":24.55555556},{"w":8477374624.75,"n":24.55555556},{"w":8535045496.0,"n":24.55555556},{"w":8593292222.45,"n":24.55555556},{"w":8651988316.14,"n":24.55555556},{"w":8711053633.16,"n":24.55555556},{"w":8770432690.47,"n":24.55555556},{"w":8830084736.1,"n":24.55555556},{"w":8894393761.96,"n":25.11111111},{"w":8956643372.38,"n":25.11111111},{"w":9016245870.04,"n":25.11111111},{"w":9074405062.45,"n":25.11111111},{"w":9131569289.75,"n":25.11111111},{"w":9187975802.93,"n":25.11111111},{"w":9243771595.85,"n":25.11111111},{"w":9299056628.39,"n":25.11111111},{"w":9353903233.22,"n":25.11111111},{"w":9405269360.03,"n":19.0},{"w":9458681940.79,"n":19.0},{"w":9514618102.02,"n":19.0},{"w":9572036687.41,"n":19.0},{"w":9630523287.27,"n":19.0},{"w":9689849679.3,"n":19.0},{"w":9749870245.14,"n":19.0},{"w":9810483609.8,"n":19.0},{"w":9871614966.12,"n":19.0},{"w":9936177950.8,"n":19.44444444},{"w":9998002145.97,"n":19.44444444},{"w":10057447985.87,"n":19.44444444},{"w":10115592485.74,"n":19.44444444},{"w":10172838025.21,"n":19.44444444},{"w":10229397933.82,"n":19.44444444},{"w":10285404566.95,"n":19.44444444},{"w":10340948029.03,"n":19.44444444},{"w":10396093581.07,"n":19.44444444},{"w":10521133511.52,"n":56.0},{"w":10736012826.63,"n":56.0},{"w":10960324513.82,"n":56.0},{"w":11190162320.92,"n":56.0},{"w":11423975132.54,"n":56.0},{"w":11660909945.16,"n":56.0},{"w":11900423070.01,"n":56.0},{"w":12142136326.81,"n":56.0},{"w":12385770843.16,"n":56.0},{"w":12546135117.81,"n":18.44444444},{"w":12641808362.23,"n":18.44444444},{"w":12748178120.5,"n":18.44444444},{"w":12861151050.29,"n":18.44444444},{"w":12979024237.6,"n":18.44444444},{"w":13100834415.65,"n":18.44444444},{"w":13225954696.07,"n":18.44444444},{"w":13353941711.86,"n":18.44444444},{"w":13484463948.02,"n":18.44444444},{"w":13592248337.13,"n":17.0},{"w":13692228702.01,"n":17.0},{"w":13800804376.34,"n":17.0},{"w":13914583667.36,"n":17.0},{"w":14032179847.3,"n":17.0},{"w":14152816722.09,"n":17.0},{"w":14275993065.77,"n":17.0},{"w":14401356584.02,"n":17.0},{"w":14528645223.58,"n":17.0},{"w":14645391363.25,"n":24.11111111},{"w":14805566250.68,"n":24.11111111},{"w":15000571541.46,"n":24.11111111},{"w":15218756305.76,"n":24.11111111},{"w":15454938322.06,"n":24.11111111},{"w":15706064040.47,"n":24.11111111},{"w":15970085238.91,"n":24.11111111},{"w":16245517866.91,"n":24.11111111},{"w":16531229626.79,"n":24.11111111},{"w":16738004348.1,"n":16.55555556},{"w":16909610049.92,"n":16.55555556},{"w":17111450426.04,"n":16.55555556},{"w":17332846107.1,"n":16.55555556},{"w":17569166000.84,"n":16.55555556},{"w":17817723386.9,"n":16.55555556},{"w":18076736734.17,"n":16.55555556},{"w":18344927061.2,"n":16.55555556},{"w":18621326017.57,"n":16.55555556},{"w":18830476972.14,"n":13.22222222},{"w":19012392146.28,"n":13.22222222},{"w":19220063808.76,"n":13.22222222},{"w":19443987587.58,"n":13.22222222},{"w":19680131607.83,"n":13.22222222},{"w":19926187985.35,"n":13.22222222},{"w":20180641525.85,"n":13.22222222},{"w":20442413065.29,"n":13.22222222},{"w":20710690948.15,"n":13.22222222},{"w":21114458626.64,"n":36.55555556},{"w":21923103581.37,"n":36.55555556},{"w":22902893818.88,"n":36.55555556},{"w":23996131102.71,"n":36.55555556},{"w":25177241879.54,"n":36.55555556},{"w":26431189775.94,"n":36.55555556},{"w":27747904998.49,"n":36.55555556},{"w":29120100753.99,"n":36.55555556},{"w":30542223324.02,"n":36.55555556},{"w":31440606753.08,"n":14.44444444},{"w":32083249408.91,"n":14.44444444},{"w":32952587988.85,"n":14.44444444},{"w":33986500046.8,"n":14.44444444},{"w":35155133743.15,"n":14.44444444},{"w":36440039384.55,"n":14.44444444},{"w":37828395045.94,"n":14.44444444},{"w":39310643092.88,"n":14.44444444},{"w":40879316137.31,"n":14.44444444},{"w":41943864206.17,"n":10.22222222},{"w":42725542943.17,"n":10.22222222},{"w":43688639113.71,"n":10.22222222},{"w":44773665951.87,"n":10.22222222},{"w":45953930932.93,"n":10.22222222},{"w":47213620793.96,"n":10.22222222},{"w":48542086002.1,"n":10.22222222},{"w":49931585642.98,"n":10.22222222},{"w":51376197747.65,"n":10.22222222},{"w":54876470117.86,"n":2.828125},{"w":55338702737.97,"n":2.828125},{"w":55812379384.54,"n":2.828125},{"w":56297976488.8,"n":2.828125},{"w":56795998624.79,"n":2.828125},{"w":57306980679.26,"n":2.828125},{"w":57831490229.34,"n":2.828125},{"w":58370130151.97,"n":2.828125},{"w":58923541492.06,"n":2.828125},{"w":59492406620.5,"n":2.828125},{"w":60077452717.01,"n":2.828125},{"w":60679455618.18,"n":2.828125},{"w":61299244076.72,"n":2.828125},{"w":61937704484.86,"n":2.828125},{"w":62595786122.86,"n":2.828125},{"w":63274507002.96,"n":2.828125},{"w":63974960390.16,"n":2.828125},{"w":64698322094.47,"n":2.828125},{"w":65445858644.74,"n":2.828125},{"w":66218936472.71,"n":2.828125},{"w":67019032258.11,"n":2.828125},{"w":67847744612.24,"n":2.828125},{"w":68706807309.36,"n":2.828125},{"w":69598104314.08,"n":2.828125},{"w":70523686899.74,"n":2.828125},{"w":71485793210.46,"n":2.828125},{"w":72486870689.43,"n":2.828125},{"w":73529601883.23,"n":2.828125},{"w":74616934238.76,"n":2.828125},{"w":75752114643.54,"n":2.828125},{"w":76938729627.47,"n":2.828125},{"w":78180752355.3,"n":2.828125},{"w":79482597807.31,"n":2.828125},{"w":80849187887.65,"n":2.828125},{"w":82286028640.78,"n":2.828125},{"w":83799302327.72,"n":2.828125},{"w":85395977860.83,"n":2.828125},{"w":87083944081.85,"n":2.828125},{"w":88872171679.99,"n":2.828125},{"w":90770911312.32,"n":2.828125},{"w":92791937888.27,"n":2.828125},{"w":94948854280.63,"n":2.828125},{"w":97257472321.92,"n":2.828125},{"w":99736295432.92,"n":2.828125},{"w":102407136524.6,"n":2.828125},{"w":105295918343.05,"n":2.828125},{"w":108433723467.46,"n":2.828125},{"w":111858191434.41,"n":2.828125},{"w":115615407147.74,"n":2.828125},{"w":119762498474.93,"n":2.828125},{"w":124371280529.26,"n":2.828125},{"w":129533483965.6,"n":2.828125},{"w":135368449958.07,"n":2.828125},{"w":142034794862.77,"n":2.828125},{"w":149748712851.78,"n":2.828125},{"w":158813891616.6,"n":2.828125},{"w":169672876984.94,"n":2.828125},{"w":183000770357.51,"n":2.828125},{"w":199889733254.85,"n":2.828125},{"w":222250527840.3,"n":2.828125},{"w":253815092966.84,"n":2.828125},{"w":303204134504.46,"n":2.828125},{"w":397159994776.05,"n":2.828125},{"w":709721875503.74,"n":2.828125}],"target":4402568250982.799,"factor":10.423533046151134,"alpha":1.8924169214081454,"fxJun2026":1450.2728,"annualWageJun2026":11987664.340695,"historicalNominal":248006000000.0,"historicalReal":5035596095615.217,"historicalContributors":10000,"historicalThresholdReal":6129537999.381159};
 
 const wealthScenarioState={threshold:1e9,participation:1,cap:.03,horizonYears:1,underdeclared:false,preset:'broad'};
 const wealthPresets={
@@ -14400,6 +14560,7 @@ function gfPct(v,digits=2){return (v*100).toLocaleString('es-AR',{minimumFractio
 function gfCount(v){return Math.round(v).toLocaleString('es-AR')}
 function gfPlotLayout(mobile){return {paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',font:{color:'#654d70',family:'Inter,system-ui,sans-serif',size:mobile?9:11},margin:{l:mobile?48:68,r:mobile?42:64,t:20,b:mobile?80:68},hoverlabel:{bgcolor:'#fff7fb',bordercolor:'#e6bed1',font:{color:'#50375d'}},legend:{orientation:'h',y:1.16,x:0}}}
 function renderWealthContribution(){
+  if(typeof syncWealthTargetWithDebtorCorrection==='function')syncWealthTargetWithDebtorCorrection();
   const root=document.getElementById('tab-wealth-contribution');if(!root)return;
   const threshold=document.getElementById('wealthThreshold'),participation=document.getElementById('wealthParticipation'),cap=document.getElementById('wealthCap'),horizon=document.getElementById('wealthHorizon'),under=document.getElementById('wealthUnderdeclared');
   if(!root.dataset.bound){
@@ -14434,12 +14595,13 @@ function renderWealthTable(s){const y=s.horizonYears||1;document.getElementById(
 function renderWealthHistory(s){const d=wealthContributionData;document.getElementById('wealthHistoryContent').innerHTML=`<div class="wealth-history-grid"><div><span>Recaudación 2021</span><b>$ 248.006 M</b></div><div><span>A pesos jun-2026</span><b>${gfMoney(d.historicalReal)}</b></div><div><span>Aportantes</span><b>≈ ${gfCount(d.historicalContributors)}</b></div><div><span>Pago medio real</span><b>${gfMoney(d.historicalReal/d.historicalContributors)}</b></div></div><div class="wealth-history-callout"><b>La escala histórica casi coincide con la meta:</b> equivale a ${gfPct(d.historicalReal/d.target,1)} de los ${gfMoney(d.target)}. Pero el Aporte Solidario fue obligatorio, extraordinario y por única vez; tuvo mínimo legal de $200 M de dic-2020 (≈ ${gfMoney(d.historicalThresholdReal)} de jun-2026) y alícuotas nominales de 2%–3,5%, con incremento para bienes del exterior. La tasa efectiva promedio observada no está publicada en los agregados oficiales revisados, así que no la inventamos.</div>`}
 function renderWealthCompensationInMilei(){
   const box=document.getElementById('mileiWealthCompensation');if(!box)return;const fallbackYears=wealthScenarioState.horizonYears||1;const s=wealthScenarioState.result||gfSolve(wealthScenarioState.threshold,wealthScenarioState.participation,wealthScenarioState.cap,wealthScenarioState.underdeclared,wealthContributionData.target/fallbackYears);const years=s.horizonYears||fallbackYears,totalContribution=s.revenue*years,coverage=Math.min(1,totalContribution/wealthContributionData.target),remaining=Math.max(0,wealthContributionData.target-totalContribution),surplus=Math.max(0,totalContribution-wealthContributionData.target);
-  box.innerHTML=`<div class="eyebrow">Sensibilidad patrimonial separada · no se suma al daño</div><h2>Si las grandes fortunas aportaran voluntariamente</h2><p>La meta de ${gfMoney(wealthContributionData.target)} corresponde a una <b>sensibilidad de compensación integral</b>: reasignación de partidas auditadas más compensación total de la pinza financiera estimada. <b>No representa el saldo central del daño ni una deuda que deba cubrirse necesariamente.</b></p><div class="milei-wealth-grid"><div><span>Meta de sensibilidad</span><b>${gfMoney(wealthContributionData.target)}</b></div><div><span>Aporte del escenario</span><b>+ ${gfMoney(totalContribution)}</b></div><div><span>Cobertura de esa meta</span><b>${gfPct(coverage,1)}</b></div><div><span>Resta de esa meta</span><b>${gfMoney(remaining)}</b></div></div><div class="milei-wealth-track" aria-label="Cobertura de la meta de sensibilidad"><span style="width:${coverage*100}%"></span></div>${surplus>0?`<p><b>Excedente separado:</b> ${gfMoney(surplus)}. No se muestra como cobertura superior al 100%.</p>`:''}<p><b>Escenario:</b> umbral ${gfMoney(s.threshold)}, participación ${gfPct(s.participation,0)}, tope ${gfPct(s.cap,0)} ${years===1?'una vez':'por año durante 3 años'}${s.underdeclared?' y sensibilidad patrimonial +20%':''}. ${s.feasible?'La meta de sensibilidad es contablemente alcanzable.':'Con estos límites no alcanza esa meta.'}</p><div class="wealth-jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('tab-wealth-contribution','wealthControls')">Abrir simulador y auditoría →</button></div>`;
+  box.innerHTML=`<div class="eyebrow">Sensibilidad patrimonial separada · no se suma al daño</div><h2>Si las grandes fortunas aportaran voluntariamente</h2><p>La meta de ${gfMoney(wealthContributionData.target)} corresponde a una <b>sensibilidad de compensación integral</b>: reasignación de partidas auditadas más compensación hipotética del deterioro deudor banco + Fintech frente al espejo. <b>No representa el saldo central del daño ni una deuda que deba cubrirse necesariamente.</b></p><div class="milei-wealth-grid"><div><span>Meta de sensibilidad</span><b>${gfMoney(wealthContributionData.target)}</b></div><div><span>Aporte del escenario</span><b>+ ${gfMoney(totalContribution)}</b></div><div><span>Cobertura de esa meta</span><b>${gfPct(coverage,1)}</b></div><div><span>Resta de esa meta</span><b>${gfMoney(remaining)}</b></div></div><div class="milei-wealth-track" aria-label="Cobertura de la meta de sensibilidad"><span style="width:${coverage*100}%"></span></div>${surplus>0?`<p><b>Excedente separado:</b> ${gfMoney(surplus)}. No se muestra como cobertura superior al 100%.</p>`:''}<p><b>Escenario:</b> umbral ${gfMoney(s.threshold)}, participación ${gfPct(s.participation,0)}, tope ${gfPct(s.cap,0)} ${years===1?'una vez':'por año durante 3 años'}${s.underdeclared?' y sensibilidad patrimonial +20%':''}. ${s.feasible?'La meta de sensibilidad es contablemente alcanzable.':'Con estos límites no alcanza esa meta.'}</p><div class="wealth-jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('tab-wealth-contribution','wealthControls')">Abrir simulador y auditoría →</button></div>`;
 }
 
 function mileiCostPct(v,total){return total>0?v/total*100:0}
 function mileiCostMoney(v){return powerRescueMoney(v)}
 function renderMileiCost(){
+  if(typeof syncWealthTargetWithDebtorCorrection==='function')syncWealthTargetWithDebtorCorrection();
   const hero=document.getElementById('mileiCostHero');
   const bridge=document.getElementById('mileiShockBridge');
   const returns=document.getElementById('mileiReturnScenarioContent');
@@ -14519,85 +14681,53 @@ function renderMileiCost(){
       El agujero bruto salarial es la cuenta central. La recuperación observada se descuenta de ese agujero. En finanzas separamos posiciones: el <b>lado deudor banco + Fintech empeoró ${powerMoneyBillions(debtorWindowDeterioration)} frente a la ventana espejo</b>; el plazo fijo mejoró ${powerMoneyBillions(saverWindowImprovement)}. El saldo ampliado post-shock contra normas (${powerMoneyBillions(Math.abs(postExpandedBalance))}) no se interpreta como deterioro frente a Alberto.
     </div>
     <div class="milei-cost-kpis">
-      <div class="milei-cost-kpi"><div class="tag">Recuperación observada</div><div class="val household-relief">+ ${powerMoneyBillions(salaryRecovered)}</div><div class="mini">Volvió vía salarios; éste sí es un descuento observado.</div></div>
-      <div class="milei-cost-kpi"><div class="tag">Saldo salarial observado</div><div class="val">${powerMoneyBillions(salaryRemaining)}</div><div class="mini">Lo que sigue sin recuperarse en el contrafactual salarial.</div></div>
-      <div class="milei-cost-kpi"><div class="tag">Deterioro deudor · vs espejo</div><div class="val">${powerMoneyBillions(debtorWindowDeterioration)}</div><div class="mini">Banco + Fintech · ${financialGrossPct.toLocaleString('es-AR',{maximumFractionDigits:1})}% del agujero bruto como referencia de escala. No se resta automáticamente.</div></div>
-      <div class="milei-cost-kpi"><div class="tag">Capacidad bancaria · pesos de jul-2026</div><div class="val">${bankMoneyRange}</div><div class="mini">${bankRange} del giro fiscal primario de 2024. Rango conservador/central; no es ganancia observada.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">1 · Agujero salarial bruto</div><div class="val">${powerMoneyBillions(grossShock)}</div><div class="mini">Cuenta central antes de recuperación.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">2 · Recuperación observada</div><div class="val household-relief">+ ${powerMoneyBillions(salaryRecovered)}</div><div class="mini">Descuento observado vía salarios.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">3 · Saldo salarial</div><div class="val">${powerMoneyBillions(salaryRemaining)}</div><div class="mini">18,43 − 6,08 = saldo del contrafactual salarial.</div></div>
+      <div class="milei-cost-kpi"><div class="tag">Finanzas · deudores vs espejo</div><div class="val">− ${powerMoneyBillions(debtorWindowDeterioration)}</div><div class="mini">Otra cuenta: banco + Fintech. No se resta automáticamente al salario.</div></div>
     </div>`;
 
   bridge.innerHTML=`
-    <div class="eyebrow">Posiciones separadas · ingreso ≠ deuda ≠ ahorro ≠ capacidad bancaria</div>
-    <h2>Los $5,85 B no eran “lo que empeoró con Milei”: eran saldo post-shock contra normas.</h2>
-    <p class="lead">La ventana espejo de 32 meses corrige la comparación: <b>deudores banco + Fintech empeoraron ${powerMoneyBillions(debtorWindowDeterioration)}</b>, ahorristas de plazo fijo mejoraron ${powerMoneyBillions(saverWindowImprovement)} y el balance ampliado terminó ${expandedBalanceImprovement>=0?'mejorando':'empeorando'} ${powerMoneyBillions(Math.abs(expandedBalanceImprovement))}.</p>
-    <div class="milei-bridge-grid">
-      <div class="milei-bridge-card"><div class="tag">1 · Agujero salarial bruto</div><div class="val">${powerMoneyBillions(grossShock)}</div></div>
-      <div class="milei-bridge-card recovered"><div class="tag">2 · Recuperación salarial observada</div><div class="val household-relief">+ ${powerMoneyBillions(salaryRecovered)}</div></div>
-      <div class="milei-bridge-card remaining"><div class="tag">3 · Saldo salarial observado</div><div class="val">${powerMoneyBillions(salaryRemaining)}</div></div>
-      <div class="milei-bridge-card financial"><div class="tag">4 · Deudores · post − espejo</div><div class="val">− ${powerMoneyBillions(debtorWindowDeterioration)}</div></div>
-      <div class="milei-bridge-card editorial"><div class="tag">5 · Balance ampliado · post − espejo</div><div class="val">${expandedBalanceImprovement>=0?'+':'−'} ${powerMoneyBillions(Math.abs(expandedBalanceImprovement))}</div></div>
-    </div>
-    <div class="milei-shock-track" aria-label="Cuenta salarial observada"><span class="salary" style="width:${salaryRecoveredPct}%"></span><span class="remaining" style="width:${salaryRemainingPct}%"></span></div>
-    <div class="milei-shock-legend"><span><i style="background:#69b498"></i>Recuperación salarial observada: ${salaryRecoveredPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span><span><i style="background:#c45579"></i>Saldo todavía no recuperado: ${salaryRemainingPct.toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}%</span></div>
-    <div class="milei-shock-formula">Cuenta observada: ${powerMoneyBillions(grossShock)} − ${powerMoneyBillions(salaryRecovered)} = <strong>${powerMoneyBillions(salaryRemaining)}</strong> todavía sin recuperar</div>
-    <div class="milei-shock-scenario"><b>Sensibilidad de reasignación:</b> si la envolvente auditada de ${powerMoneyBillions(auditedEnvelope)} pudiera redirigirse uno-a-uno a esta cuenta, el saldo sería <b>${powerMoneyBillions(remainingAfterEnvelope)}</b>. No se incorpora automáticamente ninguna cifra financiera.</div>
-    <div class="milei-shock-scenario"><b>Sensibilidad extrema separada:</b> compensar además el deterioro deudor vs espejo (${powerMoneyBillions(debtorWindowDeterioration)}) llevaría el saldo hipotético a <b>${powerMoneyBillions(fullCompensationRemaining)}</b>. Es sólo una simulación; no una deuda demostrada del prestamista.</div>
-    <div class="milei-unified-components" aria-label="Desglose de la envolvente auditada"><div><span>Privilegios fiscales</span><b>${powerMoneyBillions(p.taxPrivilegesAnnual)}</b></div><div><span>Mercado Libre</span><b>${mileiCostMoney(meliArs)}</b></div><div><span>SIDE</span><b>${mileiCostMoney(p.sideExtraCredit)}</b></div><div><span>Cúpula PEN</span><b>${mileiCostMoney(p.penCatchupAnnualized)}</b></div><div><span>Dietas del Senado</span><b>${mileiCostMoney(p.senateNetAnnualFloor)}</b></div></div>`;
+    <div class="eyebrow">Cuenta central primero · finanzas después · sensibilidades y comparadores aparte</div>
+    <h2>La cuenta salarial sigue siendo la principal; en finanzas, deudores y ahorristas cuentan historias distintas.</h2>
+    <section class="milei-layer salary"><h3>A · Cuenta salarial central</h3><p class="layer-note">Observado/derivado dentro del mismo contrafactual salarial. Ninguna métrica financiera entra automáticamente en esta identidad.</p><div class="milei-layer-grid"><article class="milei-layer-card"><small>1 · Agujero bruto</small><b>${powerMoneyBillions(grossShock)}</b><p>Caídas acumuladas frente a nov-2023=100.</p></article><article class="milei-layer-card"><small>2 · Recuperación observada</small><b>+ ${powerMoneyBillions(salaryRecovered)}</b><p>Meses posteriores por encima de la referencia.</p></article><article class="milei-layer-card"><small>3 · Saldo no recuperado</small><b>${powerMoneyBillions(salaryRemaining)}</b><p>Identidad: bruto − recuperación.</p></article></div><div class="milei-shock-track" aria-label="Cuenta salarial observada"><span class="salary" style="width:${salaryRecoveredPct}%"></span><span class="remaining" style="width:${salaryRemainingPct}%"></span></div><div class="milei-shock-formula">${powerMoneyBillions(grossShock)} − ${powerMoneyBillions(salaryRecovered)} = <strong>${powerMoneyBillions(salaryRemaining)}</strong></div></section>
+    <section class="milei-layer finance"><h3>B · Finanzas · las posiciones importan</h3><p class="layer-note">Post − espejo, 32 meses contra 32 meses. La mejora de PF compensa estadísticamente el agregado, no al mismo hogar endeudado.</p><div class="milei-layer-grid"><article class="milei-layer-card debtor"><small>Deudores · banco + Fintech</small><b>− ${powerMoneyBillions(debtorWindowDeterioration)}</b><p>Deterioro frente al espejo; referencia principal para mora.</p></article><article class="milei-layer-card saver"><small>Ahorristas PF</small><b>+ ${powerMoneyBillions(saverWindowImprovement)}</b><p>Mejora frente al espejo.</p></article><article class="milei-layer-card balance"><small>Balance ampliado</small><b>${expandedBalanceImprovement>=0?'+':'−'} ${powerMoneyBillions(Math.abs(expandedBalanceImprovement))}</b><p>Neto de posiciones diferentes; no hogar promedio.</p></article></div><p class="layer-note" style="margin-top:10px"><b>Contexto secundario:</b> ${postExpandedBalance<0?'−':'+'} ${powerMoneyBillions(Math.abs(postExpandedBalance))} es saldo post-shock contra normas históricas; <b>no</b> deterioro vs Alberto.</p></section>
+    <section class="milei-layer sensitivity"><h3>C · Simulaciones y sensibilidades</h3><p class="layer-note">No forman parte de la cuenta observada.</p><div class="milei-layer-grid"><article class="milei-layer-card"><small>Reasignación auditada</small><b>${powerMoneyBillions(auditedEnvelope)}</b><p>Si pudiera redirigirse uno-a-uno, el saldo salarial hipotético sería ${powerMoneyBillions(remainingAfterEnvelope)}.</p></article><article class="milei-layer-card debtor"><small>Sensibilidad extrema</small><b>${powerMoneyBillions(auditedEnvelope+debtorWindowDeterioration)}</b><p>Envolvente + compensación hipotética del deterioro deudor. No es deuda demostrada de prestamistas.</p></article><article class="milei-layer-card"><small>Capacidad bancaria · otro método</small><b>${bankMoneyRange}</b><p>${bankRange} del giro fiscal 2024; no se suma/resta automáticamente al salario.</p></article></div></section>
+    <section class="milei-layer references"><h3>D · Referencias de escala</h3><p class="layer-note">Comparan órdenes de magnitud. No integran una sola ecuación.</p><div class="milei-layer-grid"><article class="milei-layer-card"><small>Privilegios fiscales</small><b>${powerMoneyBillions(p.taxPrivilegesAnnual)}</b><p>Recaudación potencial bajo otra regla.</p></article><article class="milei-layer-card"><small>Mercado Libre</small><b>${mileiCostMoney(meliArs)}</b><p>Beneficios documentados; régimen previo.</p></article><article class="milei-layer-card"><small>SIDE</small><b>${mileiCostMoney(p.sideExtraCredit)}</b><p>Crédito presupuestario, no ejecución.</p></article><article class="milei-layer-card"><small>Cúpula PEN</small><b>${mileiCostMoney(p.penCatchupAnnualized)}</b><p>Sensibilidad nominal.</p></article><article class="milei-layer-card"><small>Dietas Senado</small><b>${mileiCostMoney(p.senateNetAnnualFloor)}</b><p>Decisión del Senado.</p></article></div></section>`;
 
   returns.innerHTML=`
-    <div class="milei-return-eyebrow">Finanzas · la posición importa</div>
-    <h2>Ahorrista ≠ deudor: el agregado puede mejorar mientras el crédito empeora.</h2>
-    <p class="lead">Para mora, la comparación relevante es el lado deudor. El plazo fijo se muestra aparte porque la mejora de quien puede ahorrar no compensa la capacidad de pago de quien necesita crédito.</p>
+    <div class="milei-return-eyebrow">Finanzas · tres posiciones, una resta comparable</div>
+    <h2>¿Cómo puede mejorar el total si empeora el crédito?</h2>
+    <p class="lead">Porque el plazo fijo mejora más de lo que empeoran banco + Fintech. Eso es una compensación estadística entre posiciones distintas.</p>
     <div class="milei-return-main">
-      <article class="milei-return-card start"><div class="step">Lado deudor · post − espejo</div><h3>Banco + Fintech</h3><div class="return-amount">− ${powerMoneyBillions(debtorWindowDeterioration)}</div><div class="breakdown">Banco: − ${powerMoneyBillions(bankDebtorDeterioration)} · Fintech: − ${powerMoneyBillions(fintechDebtorDeterioration)}.</div><div class="after">Carga incremental estimada frente a 32 meses comparables. <b>No es ganancia neta.</b></div></article>
-      <article class="milei-return-card bank"><div class="step">Lado ahorrista · post − espejo</div><h3>Plazo fijo</h3><div class="return-amount">+ ${powerMoneyBillions(saverWindowImprovement)}</div><div class="breakdown">La mejora del PF fue mayor que el deterioro de las dos patas de crédito.</div><div class="after">Por eso el balance ampliado termina en + ${powerMoneyBillions(Math.abs(expandedBalanceImprovement))}.</div></article>
-      <article class="milei-return-card fintech"><div class="step">Saldo post-shock contra normas</div><h3>Balance ampliado</h3><div class="return-amount">${postExpandedBalance<0?'−':'+'} ${powerMoneyBillions(Math.abs(postExpandedBalance))}</div><div class="breakdown">Banco + Fintech + plazo fijo durante dic-2023→jul-2026.</div><div class="after"><b>No mide deterioro frente a Alberto.</b> El espejo fue aún más negativo; por eso post − espejo da mejora.</div></article>
-      <article class="milei-return-card end"><div class="step">Capacidad contrafactual · bancos</div><h3>Otra pregunta, otro método</h3><div class="return-amount">${bankMoneyRange}</div><div class="breakdown">Rango conservador/central de capacidad para absorber ajuste en pesos de jul-2026.</div><div class="after">No se resta automáticamente de los ${powerMoneyBillions(grossShock)} salariales.</div></article>
+      <article class="milei-return-card start"><div class="step">Deudores · post − espejo</div><h3>Banco + Fintech</h3><div class="return-amount">− ${powerMoneyBillions(debtorWindowDeterioration)}</div><div class="breakdown">Banco: − ${powerMoneyBillions(bankDebtorDeterioration)} · Fintech: − ${powerMoneyBillions(fintechDebtorDeterioration)}.</div><div class="after">Carga estimada; no utilidad neta.</div></article>
+      <article class="milei-return-card bank"><div class="step">Ahorristas · post − espejo</div><h3>Plazo fijo</h3><div class="return-amount">+ ${powerMoneyBillions(saverWindowImprovement)}</div><div class="breakdown">Otra posición financiera.</div><div class="after">No compensa individualmente al deudor.</div></article>
+      <article class="milei-return-card end"><div class="step">Balance ampliado · post − espejo</div><h3>Neto estadístico</h3><div class="return-amount">${expandedBalanceImprovement>=0?'+':'−'} ${powerMoneyBillions(Math.abs(expandedBalanceImprovement))}</div><div class="breakdown">Deudores + PF.</div><div class="after"><b>No representa un hogar promedio.</b></div></article>
     </div>
-    <div class="milei-return-others-title">Otras partidas auditadas: escenarios de reasignación, no “devoluciones” automáticas</div>
-    <div class="milei-return-others">
-      <article class="milei-return-other"><div class="actor">Privilegios fiscales prudentes</div><div class="amount">${powerMoneyBillions(p.taxPrivilegesAnnual)}</div><div class="action">Recaudación potencial bajo otra regla.</div><div class="after">No es caja ya cobrada.</div></article>
-      <article class="milei-return-other"><div class="actor">Mercado Libre</div><div class="amount">${mileiCostMoney(meliArs)}</div><div class="action">Beneficios documentados durante el período.</div><div class="after">No equivale uno-a-uno a recaudación recuperable.</div></article>
-      <article class="milei-return-other"><div class="actor">SIDE</div><div class="amount">${mileiCostMoney(p.sideExtraCredit)}</div><div class="action">Crédito presupuestario adicional.</div><div class="after">Crédito autorizado ≠ gasto ejecutado.</div></article>
-      <article class="milei-return-other"><div class="actor">Cúpula del PEN</div><div class="amount">${mileiCostMoney(p.penCatchupAnnualized)}</div><div class="action">Extra nominal anualizado frente a congelar la escala.</div><div class="after">No demuestra enriquecimiento real.</div></article>
-      <article class="milei-return-other"><div class="actor">Dietas del Senado</div><div class="amount">${mileiCostMoney(p.senateNetAnnualFloor)}</div><div class="action">Piso anual derivado del salto relevado.</div><div class="after">Decisión del Senado, no del PEN.</div></article>
-    </div>
-    <div class="milei-return-total"><p><b>Resultado central:</b> ${powerMoneyBillions(salaryRemaining)} siguen sin recuperarse en la cuenta salarial. <b>Finanzas:</b> el deterioro deudor vs espejo es ${powerMoneyBillions(debtorWindowDeterioration)} y permanece como métrica separada.</p><div class="amount">Central: ${powerMoneyBillions(salaryRemaining)}</div></div>
-    <div class="milei-return-caveat"><b>Regla de lectura:</b> ingreso perdido, carga deudora, rendimiento del ahorro, ganancia contable y capacidad de absorber ajuste no son la misma magnitud.</div>`;
+    <div class="milei-return-caveat"><b>Dato secundario:</b> el saldo ampliado post-shock contra normas es ${postExpandedBalance<0?'−':'+'} ${powerMoneyBillions(Math.abs(postExpandedBalance))}. No es la diferencia vs Alberto.</div>`;
 
   const card=(cls,pill,title,money,body,scaleText,tab,id)=>`<article class="milei-cost-card ${cls}">
     <span class="pill">${pill}</span><h3>${title}</h3><div class="money">${money}</div><p>${body}</p>
     <div class="scale">${scaleText}</div><div class="jump"><button class="subbtn" type="button" onclick="activateTabAndScroll('${tab}','${id}')">Ver cálculo y fuentes →</button></div>
   </article>`;
+  cards.classList.add('hierarchy-references');
   cards.innerHTML=
-    card('hot','Pérdida de ingresos','Saldo salarial después de la recuperación',powerMoneyBillions(salaryRemaining),
-      'Es el saldo observado dentro del contrafactual salarial: agujero bruto menos recuperación posterior.',
-      `Representa ≈ ${mileiCostPct(salaryRemaining,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de los ${powerMoneyBillions(grossShock)} iniciales.`, 'tab-power','powerAggregateLossBox')+
-    card('good','Capacidad de absorción · bancos','Bancos frente al ajuste fiscal',bankMoneyRange,
-      `En pesos de jul-2026, el rango conservador/central equivale a ${bankRange} del giro fiscal primario de 2024. No es ganancia observada ni una suma que se descuente automáticamente de la cuenta salarial.`,
-      `Escenario histórico agresivo: ${bankHistoricalMoneyLabel} (${bankHistorical}). Fintech: capacidad no estimada; el deterioro deudor Fintech vs espejo es ${powerMoneyBillions(fintechDebtorDeterioration)}.`, 'tab-rates','ratesBankCapacitySection')+
-    card('warn','Política tributaria','Privilegios fiscales · recorte prudente',powerMoneyBillions(p.taxPrivilegesAnnual)+'/año',
-      'Cuenta trasladada acá: $0,882 billones por Ganancias de jueces/funcionarios judiciales + $0,350 billones por intereses de ON para personas físicas. Quedan deliberadamente afuera regímenes con impacto plausible sobre empleo, inversión, crédito o precios.',
-      `Como sensibilidad de reasignación representan ≈ ${mileiCostPct(p.taxPrivilegesAnnual,grossShock).toLocaleString('es-AR',{maximumFractionDigits:1})}% de la cuenta madre.`, 'tab-meli-benefits','meliOtherBenefitsChart')+
-    card('warn','Régimen previo · beneficio durante el mandato','Mercado Libre · beneficios documentados',mileiCostMoney(meliArs),
-      `Piso de USD 134 M documentado para 2024–1T26 y convertido a pesos de jun-2026. El régimen es anterior a Milei: medimos beneficios durante su gobierno, no una creación suya ni recaudación recuperable uno-a-uno.`,
-      `Equivale a ≈ ${mileiCostPct(meliArs,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre como referencia de escala.`, 'tab-meli-benefits','meliArsChart')+
-    card('warn','PEN · presupuesto','SIDE · refuerzo de crédito 2026','+ '+mileiCostMoney(p.sideExtraCredit),
-      'Es el aumento de crédito presupuestario del DNU de julio de 2026. Crédito vigente no equivale a gasto ya ejecutado.',
-      `Equivale a ≈ ${mileiCostPct(p.sideExtraCredit,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre como referencia de escala.`, 'tab-casta','castaSideChart')+
-    card('warn','Senado · no PEN','Salto de dietas aprobado en 2024','≥ '+mileiCostMoney(p.senateNetAnnualFloor)+'/año',
-      'Piso derivado con 72 bancas. El aumento ocurrió durante Milei, pero fue una decisión del Senado: atribuírselo al Poder Ejecutivo sería falso.',
-      `Equivale a ≈ ${mileiCostPct(p.senateNetAnnualFloor,grossShock).toLocaleString('es-AR',{maximumFractionDigits:2})}% de la cuenta madre como referencia de escala.`, 'tab-casta','castaMandateChart')+
-    card('good','Acá no','Autoridades superiores del PEN',`${penRealText} real`,
-      `Ministros, Secretarios y Subsecretarios recibieron catch-up nominal desde 2026, pero a julio siguen debajo de dic-2023 contra IPC. El extra anualizado vs mantener la escala nominal congelada es ${mileiCostMoney(p.penCatchupAnnualized)}, pero no prueba enriquecimiento real.`,
-      `El monto sólo entra en la envolvente como sensibilidad nominal; no como daño observado.`, 'tab-casta','castaInflationChart');
+    card('good','Método separado','Capacidad bancaria frente al ajuste fiscal',bankMoneyRange,
+      `Rango conservador/central: ${bankRange} del giro fiscal primario 2024. No es ganancia observada ni parte de la identidad salarial.`,
+      `Escenario histórico agresivo: ${bankHistoricalMoneyLabel} (${bankHistorical}).`, 'tab-rates','ratesBankCapacitySection')+
+    card('warn','Referencia de escala','Privilegios fiscales prudentes',powerMoneyBillions(p.taxPrivilegesAnnual)+'/año','Recaudación potencial bajo otra regla; no caja ya cobrada.','Comparador de magnitud; no suma automática.', 'tab-meli-benefits','meliOtherBenefitsChart')+
+    card('warn','Referencia de escala','Mercado Libre · beneficios documentados',mileiCostMoney(meliArs),'Beneficios durante el período; régimen anterior a Milei.','No equivale uno-a-uno a recaudación recuperable.', 'tab-meli-benefits','meliArsChart')+
+    card('warn','Referencia de escala','SIDE · refuerzo 2026','+ '+mileiCostMoney(p.sideExtraCredit),'Crédito presupuestario adicional.','Crédito autorizado ≠ gasto ejecutado.', 'tab-casta','castaSideChart')+
+    card('warn','Referencia de escala','Dietas del Senado','≥ '+mileiCostMoney(p.senateNetAnnualFloor)+'/año','Decisión del Senado, no del PEN.','Comparador, no componente salarial.', 'tab-casta','castaMandateChart');
 
   formula.innerHTML=`
     <div><div class="step">1 · Sólo las caídas</div><div class="formula">Σ meses debajo de nov-2023=100 = <b>−${gap.grossLoss.toLocaleString('es-AR',{minimumFractionDigits:4,maximumFractionDigits:4})} sueldos-base</b>.</div></div>
     <div><div class="step">2 · Cuenta madre</div><div class="formula">Caídas × masa salarial-base × IPC = <b>${powerMoneyBillions(grossShock)}</b>.</div></div>
-    <div><div class="step">3 · Recuperación observada</div><div class="formula">Los meses posteriores arriba de 100 recuperaron <b>${powerMoneyBillions(salaryRecovered)}</b>; saldo salarial observado: <b>${powerMoneyBillions(salaryRemaining)}</b>.</div></div>
-    <div><div class="step">4 · Sensibilidad de reasignación fiscal</div><div class="formula">Si la envolvente auditada de <b>${powerMoneyBillions(auditedEnvelope)}</b> pudiera redirigirse uno-a-uno, el saldo sería <b>${powerMoneyBillions(remainingAfterEnvelope)}</b>. Esto es contrafactual, no recuperación observada.</div></div>
-    <div><div class="step">5 · Lado deudor separado</div><div class="formula">${powerMoneyBillions(debtorWindowDeterioration)} / ${powerMoneyBillions(grossShock)} = <b>${financialGrossPct.toLocaleString('es-AR',{maximumFractionDigits:1})}%</b>; ${powerMoneyBillions(debtorWindowDeterioration)} / ${powerMoneyBillions(salaryRemaining)} = <b>${financialRemainingPct.toLocaleString('es-AR',{maximumFractionDigits:1})}%</b>. Es deterioro banco + Fintech vs espejo, <b>no descuento central ni ganancia neta</b>.</div></div>
-    <div><div class="step">6 · Capacidad bancaria · otro denominador</div><div class="formula">Carga tributaria relativa de 2023 → <b>${Number.isFinite(bankTaxMoney)?powerMoneyBillions(bankTaxMoney):'$11,2 billones'}</b> de jul-2026 (≈${Number.isFinite(bankTaxPct)?bankTaxPct.toLocaleString('es-AR',{maximumFractionDigits:1}):'21,3'}% del giro fiscal); ahorro/PBI 2023 → <b>${Number.isFinite(bankSavingMoney)?powerMoneyBillions(bankSavingMoney):'$20,1 billones'}</b> (≈${Number.isFinite(bankSavingPct)?bankSavingPct.toLocaleString('es-AR',{maximumFractionDigits:1}):'38,3'}%). Se calculan con PIB nominal 2024 y actualización por IPC; no se suman automáticamente a la cuenta salarial.</div></div>
+    <div><div class="step">3 · Descuento observado</div><div class="formula"><span class="hl">${powerMoneyBillions(grossShock)}</span> − <span class="hl">${powerMoneyBillions(salaryRecovered)}</span> = <b>${powerMoneyBillions(salaryRemaining)}</b>. Esta es la cuenta central de “lo que te robó Milei”.</div></div>
+    <div><div class="step">4 · Deudores vs espejo</div><div class="formula"><span class="hl">Banco ${powerMoneyBillions(bankDebtorDeterioration)}</span> + <span class="hl">Fintech ${powerMoneyBillions(fintechDebtorDeterioration)}</span> = <b>${powerMoneyBillions(debtorWindowDeterioration)}</b>. Esta cuenta mide fragilidad financiera del lado deudor y <b>no se resta automáticamente</b> del saldo salarial.</div></div>
+    <div><div class="step">5 · Balance ampliado</div><div class="formula"><span class="hl">Deudores −${powerMoneyBillions(debtorWindowDeterioration)}</span> + <span class="hl">PF +${powerMoneyBillions(saverWindowImprovement)}</span> = <b>${expandedBalanceImprovement>=0?'+ ':'− '}${powerMoneyBillions(Math.abs(expandedBalanceImprovement))}</b>. Por eso el agregado puede mejorar aunque el lado deudor empeore.</div></div>
+    <div><div class="step">6 · Sensibilidad de reasignación fiscal</div><div class="formula">Si la envolvente auditada de <b>${powerMoneyBillions(auditedEnvelope)}</b> pudiera redirigirse uno-a-uno, el saldo sería <b>${powerMoneyBillions(remainingAfterEnvelope)}</b>. Esto es contrafactual, no recuperación observada.</div></div>
+    <div><div class="step">7 · Capacidad bancaria · otro denominador</div><div class="formula">Carga tributaria relativa de 2023 → <b>${Number.isFinite(bankTaxMoney)?powerMoneyBillions(bankTaxMoney):'$11,2 billones'}</b> de jul-2026 (≈${Number.isFinite(bankTaxPct)?bankTaxPct.toLocaleString('es-AR',{maximumFractionDigits:1}):'21,3'}% del giro fiscal); ahorro/PBI 2023 → <b>${Number.isFinite(bankSavingMoney)?powerMoneyBillions(bankSavingMoney):'$20,1 billones'}</b> (≈${Number.isFinite(bankSavingPct)?bankSavingPct.toLocaleString('es-AR',{maximumFractionDigits:1}):'38,3'}%). Se calculan con PIB nominal 2024 y actualización por IPC; no se suman automáticamente a la cuenta salarial.</div></div>
     <div class="inputs">
       <div class="step">Insumos auditables de la escala de 13,8 millones</div>
       <div class="milei-input-grid">
@@ -14610,6 +14740,7 @@ function renderMileiCost(){
       </div>
       <div class="milei-input-note"><b>Cómo se infiere:</b> la EPH total urbano 3T-2023 aporta cantidades e ingresos medios; el Total índice de salarios lleva ese promedio hasta noviembre y el IPC lo reexpresa a junio de 2026. Es un supuesto de escala, no una nómina observada. La relación es lineal: si el salario-base supuesto cambiara 10%, la cuenta de ${powerMoneyBillions(grossShock)} cambiaría también 10%.</div>
     </div>`;
+
 
   attribution.innerHTML=`<table class="milei-cost-table"><thead><tr><th>Componente</th><th>Monto / métrica</th><th>Uso metodológico</th><th>Resultado / lectura</th></tr></thead><tbody>
     <tr><td>Agujero salarial bruto</td><td><b>${powerMoneyBillions(grossShock)}</b></td><td class="attr-partial">Cuenta madre salarial.</td><td>${powerMoneyBillions(grossShock)}</td></tr>
@@ -18970,12 +19101,44 @@ function ratesPositionSummary(mode){
   return {post:p.impacto_hogar_total_ampliado,mirror:m.impacto_hogar_total_ampliado,diff:d.impacto_hogar_total_ampliado,title:'Balance ampliado · universos distintos',note:'No representa a un hogar promedio.'};
 }
 function ratesWindowCumulative(rows,mode){let total=0;const x=[0],y=[0],dates=['inicio'];rows.forEach((r,i)=>{total+=ratesPositionValue(r,mode);x.push(i+1);y.push(total);dates.push(r.fecha)});return {x,y,dates,total};}
+function ratesWindowSeries(mode){
+  const mirror=ratesWindowCumulative(ratesUsuryMirrorRows,mode),post=ratesWindowCumulative(ratesUsuryPostRows,mode);
+  const diff={x:post.x.slice(),y:post.y.map((v,i)=>v-(mirror.y[i]??0)),dates:post.dates.slice(),total:post.total-mirror.total};
+  return {mirror,post,diff};
+}
+function currentDebtorWindowDiff(){const d=ratesMoneySummary.diferencial;return Number(d.impacto_hogar_banco||0)+Number(d.impacto_hogar_fintech||0);}
+function currentExtremeSensitivityTarget(){
+  const meli=typeof meliRecentConversion==='function'?meliRecentConversion():null;
+  const meliArs=meli?Number(meli.jun26Bn||0)*1e9:0;
+  const p=typeof powerRescueParams!=='undefined'?powerRescueParams:null;
+  if(!p)return null;
+  const envelope=Number(p.taxPrivilegesAnnual||0)+Number(p.sideExtraCredit||0)+Number(p.penCatchupAnnualized||0)+Number(p.senateNetAnnualFloor||0)+meliArs;
+  return envelope+Math.max(0,-currentDebtorWindowDiff());
+}
+function syncWealthTargetWithDebtorCorrection(){
+  if(typeof wealthContributionData==='undefined')return null;
+  const target=currentExtremeSensitivityTarget(); if(!Number.isFinite(target)||target<=0)return null;
+  if(Math.abs(Number(wealthContributionData.target||0)-target)>1e6){wealthContributionData.target=target;if(typeof wealthScenarioState!=='undefined')wealthScenarioState.result=null;}
+  const label=typeof gfMoney==='function'?gfMoney(target):ratesMoneyArs(target,2,false);
+  ['wealthShieldTarget','wealthTargetKpi'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=label;});
+  return target;
+}
 function ratesCheckCorrection(){
   const eps=1e6,d=ratesMoneySummary.diferencial,p=ratesMoneySummary.post,m=ratesMoneySummary.mirror;
   const debtor=(p.impacto_hogar_banco+p.impacto_hogar_fintech)-(m.impacto_hogar_banco+m.impacto_hogar_fintech);
   const comp=d.impacto_hogar_banco+d.impacto_hogar_fintech+d.impacto_hogar_pf;
-  const checks=[['post-mirror total',Math.abs((p.impacto_hogar_total_ampliado-m.impacto_hogar_total_ampliado)-d.impacto_hogar_total_ampliado)<eps],['componentes diferencial',Math.abs(comp-d.impacto_hogar_total_ampliado)<eps],['lado deudor',Math.abs(debtor-(d.impacto_hogar_banco+d.impacto_hogar_fintech))<eps]];
-  if(checks.some(([,ok])=>!ok))console.error('Rates correction assertions failed',checks); else console.info('Rates correction assertions OK',checks);
+  const checks=[
+    ['post-mirror total',Math.abs((p.impacto_hogar_total_ampliado-m.impacto_hogar_total_ampliado)-d.impacto_hogar_total_ampliado)<eps],
+    ['componentes diferencial',Math.abs(comp-d.impacto_hogar_total_ampliado)<eps],
+    ['lado deudor',Math.abs(debtor-(d.impacto_hogar_banco+d.impacto_hogar_fintech))<eps]
+  ];
+  ['debtor','saver','balance'].forEach(mode=>{
+    const ss=ratesWindowSeries(mode),summary=ratesPositionSummary(mode);
+    checks.push([`${mode} · 32 meses`,ss.post.x.length===33&&ss.mirror.x.length===33&&ss.diff.x.length===33]);
+    checks.push([`${mode} · identidad mensual`,ss.diff.y.every((v,k)=>Math.abs(v-(ss.post.y[k]-ss.mirror.y[k]))<eps)]);
+    checks.push([`${mode} · endpoint`,Math.abs(ss.diff.y.at(-1)-summary.diff)<eps]);
+  });
+  if(checks.some(([,ok])=>!ok))console.error('Rates correction assertions failed',checks);else console.info('Rates correction assertions OK',checks);
   return checks;
 }
 ratesCheckCorrection();
@@ -18994,94 +19157,71 @@ function ratesMoneyKpiClass(value){const v=Number(value);return v>0?'favorable':
 function ratesMoneyWord(value){const v=Number(value);return v>0?'favorable para el hogar':v<0?'desfavorable para el hogar':'prácticamente neutro';}
 function ratesMoneyChangeWord(value){const v=Number(value);return v>0?'mejoró':v<0?'empeoró':'no cambió';}
 function renderRatesMoney(){
+  syncWealthTargetWithDebtorCorrection();
   const s=ratesMoneySummary,p=s.post,m=s.mirror,d=s.diferencial;
-  const el=document.getElementById('ratesMoneyGrid');
-  if(!el)return;
   const debtor=ratesPositionSummary('debtor');
-  el.innerHTML=`
-    <div class="rates-money-kpi primary ${ratesMoneyKpiClass(debtor.diff)}"><div class="tag">Headline · deterioro lado deudor vs espejo</div><div class="big">${ratesMoneyArs(debtor.diff,2,true)}</div><div class="mini"><b>${ratesMoneyChangeWord(debtor.diff)}</b>. Banco + Fintech; 32 meses vs 32 meses. No incluye plazo fijo.</div><div class="rates-who-note"><span class="rates-who-title">En criollo</span><span class="loser">Quienes necesitaban crédito quedaron peor frente al período comparable.</span><span class="rates-who-detail">Es carga estimada para deudores, no utilidad neta del prestamista.</span></div></div>
-    <div class="rates-money-kpi ${ratesMoneyKpiClass(d.impacto_hogar_banco)}"><div class="tag">Cambio en crédito bancario</div><div class="big">${ratesMoneyArs(d.impacto_hogar_banco,2,true)}</div><div class="mini"><b>${ratesMoneyChangeWord(d.impacto_hogar_banco)}</b> respecto de la ventana espejo.</div><div class="rates-who-note"><span class="rates-who-title">Posición</span><span class="loser">Deudor bancario</span>; el signo negativo indica mayor carga relativa.</div></div>
-    <div class="rates-money-kpi fintech ${ratesMoneyKpiClass(d.impacto_hogar_fintech)}"><div class="tag">Cambio en Fintech</div><div class="big">${ratesMoneyArs(d.impacto_hogar_fintech,2,true)}</div><div class="mini"><b>${ratesMoneyChangeWord(d.impacto_hogar_fintech)}</b>. ${p.fintech_meses_tna_conservada} meses prolongan el último dato oficial.</div><div class="rates-who-note"><span class="rates-who-title">Posición</span><span class="loser">Deudor Fintech</span>. Proxy sobre TNA/stock; no CFT ni ganancia neta.</div></div>
-    <div class="rates-money-kpi ${ratesMoneyKpiClass(d.impacto_hogar_pf)}"><div class="tag">Cambio en plazo fijo</div><div class="big">${ratesMoneyArs(d.impacto_hogar_pf,2,true)}</div><div class="mini"><b>${ratesMoneyChangeWord(d.impacto_hogar_pf)}</b> respecto de la ventana espejo.</div><div class="rates-who-note"><span class="rates-who-title">Posición</span><span class="winner">Ahorrista con plazo fijo</span>. Esta mejora compensa el deterioro del crédito en el agregado.</div></div>
-    <div class="rates-money-kpi ${ratesMoneyKpiClass(d.impacto_hogar_total_ampliado)}"><div class="tag">Balance ampliado · post − espejo</div><div class="big">${ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true)}</div><div class="mini"><b>${ratesMoneyChangeWord(d.impacto_hogar_total_ampliado)}</b>. Banco + Fintech + PF.</div><div class="rates-who-note"><span class="rates-who-title">APB</span>Mejora agregada; <b>no</b> significa que deudores y ahorristas sean el mismo hogar.</div></div>
-    <div class="rates-money-kpi ${ratesMoneyKpiClass(p.impacto_hogar_total_ampliado)}"><div class="tag">Saldo post-shock contra normas históricas</div><div class="big">${ratesMoneyArs(p.impacto_hogar_total_ampliado,2,true)}</div><div class="mini"><b>No es el deterioro vs Alberto.</b> Es el nivel acumulado post-shock contra las normas de cada componente.</div><div class="rates-who-note"><span class="rates-who-title">Comparación correcta</span>Para saber qué cambió, mirar siempre <b>post − espejo</b>.</div></div>`;
-  const beforeTotal=document.getElementById('ratesUsuryBeforeTotal');
-  const afterTotal=document.getElementById('ratesUsuryAfterTotal');
-  const effectTotal=document.getElementById('ratesUsuryEffectTotal');
-  const effectPct=document.getElementById('ratesUsuryEffectPct');
-  if(beforeTotal)beforeTotal.textContent=ratesMoneyCompact(m.impacto_hogar_total_ampliado);
-  if(afterTotal)afterTotal.textContent=ratesMoneyCompact(p.impacto_hogar_total_ampliado);
-  if(effectTotal)effectTotal.textContent=ratesMoneyCompact(d.impacto_hogar_total_ampliado);
-  const improvementPct=d.impacto_hogar_total_ampliado/Math.abs(m.impacto_hogar_total_ampliado)*100;
-  if(effectPct)effectPct.textContent=`${Math.abs(improvementPct).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}% · ${ratesMoneyChangeWord(d.impacto_hogar_total_ampliado)} vs espejo`;
-  const publicAfter=document.getElementById('ratesPublicAfter');
-  const publicBefore=document.getElementById('ratesPublicBefore');
-  const publicEffect=document.getElementById('ratesPublicEffect');
-  const publicEffectPct=document.getElementById('ratesPublicEffectPct');
-  const publicConclusion=document.getElementById('ratesPublicConclusion');
-  if(publicAfter)publicAfter.textContent=ratesMoneyArs(p.impacto_hogar_total_ampliado,2,true);
-  if(publicBefore)publicBefore.textContent=ratesMoneyArs(m.impacto_hogar_total_ampliado,2,true);
-  if(publicEffect)publicEffect.textContent=ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true);
-  if(publicEffectPct)publicEffectPct.textContent=`${Math.abs(improvementPct).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}% · ${ratesMoneyChangeWord(d.impacto_hogar_total_ampliado)} frente a la ventana anterior`;
-  if(publicConclusion)publicConclusion.innerHTML=`<b>Lectura rápida:</b> crédito bancario <b>${ratesMoneyChangeWord(d.impacto_hogar_banco)} ${ratesMoneyArs(d.impacto_hogar_banco,2,true)}</b> y perjudicó a deudores; Fintech <b>${ratesMoneyChangeWord(d.impacto_hogar_fintech)} ${ratesMoneyArs(d.impacto_hogar_fintech,2,true)}</b> y perjudicó a sus usuarios endeudados; plazo fijo <b>${ratesMoneyChangeWord(d.impacto_hogar_pf)} ${ratesMoneyArs(d.impacto_hogar_pf,2,true)}</b> y favoreció a ahorristas. El balance ampliado <b>${ratesMoneyChangeWord(d.impacto_hogar_total_ampliado)} ${ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true)}</b>, aunque el saldo post-shock siguió ${ratesMoneyWord(p.impacto_hogar_total_ampliado)}.`;
-  document.getElementById('ratesMoneyNormalized').innerHTML=`<div class="full"><b>Posiciones separadas:</b> lado deudor banco + Fintech ${ratesMoneyChangeWord(debtor.diff)} ${ratesMoneyArs(debtor.diff,2,true)} · ahorristas PF ${ratesMoneyChangeWord(d.impacto_hogar_pf)} ${ratesMoneyArs(d.impacto_hogar_pf,2,true)} · balance ampliado ${ratesMoneyChangeWord(d.impacto_hogar_total_ampliado)} ${ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true)}.</div><div><b>Saldo post-shock:</b> ${ratesMoneyArs(p.impacto_hogar_total_ampliado,2,true)} contra normas históricas; no es cambio vs espejo.</div><div><b>Fintech:</b> ${p.fintech_meses_tna_observada} meses con TNA oficial y ${p.fintech_meses_tna_conservada} meses estimados hasta jul-2026.</div>`;
-  const table=document.getElementById('ratesMoneyTableBody');
-  table.innerHTML=ratesMoneyRows.map(r=>`<tr><td>${r.fecha}${r.fintech_tasa_observada?'':' *'}</td><td>${ratesMoneyArs(r.monto_personales)}</td><td class="${Number(r.banco_brecha_tecnica_pp)>=0?'technical-pos':'technical-neg'}">${Number(r.banco_brecha_tecnica_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} pp</td><td class="${ratesMoneySignedClass(r.impacto_hogar_banco_constante)}">${ratesMoneyArs(r.impacto_hogar_banco_constante,2,true)}</td><td>${ratesMoneyArs(r.monto_pf)}</td><td class="${Number(r.pf_brecha_pp)>=0?'pos':'neg'}">${Number(r.pf_brecha_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} pp</td><td class="${ratesMoneySignedClass(r.impacto_hogar_pf_constante)}">${ratesMoneyArs(r.impacto_hogar_pf_constante,2,true)}</td><td class="${Number(r.fintech_brecha_tecnica_pp)>=0?'technical-pos':'technical-neg'}">${Number(r.fintech_brecha_tecnica_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} pp</td><td class="${ratesMoneySignedClass(r.impacto_hogar_fintech_constante)}">${ratesMoneyArs(r.impacto_hogar_fintech_constante,2,true)}</td><td class="${ratesMoneySignedClass(r.impacto_hogar_total_ampliado)}">${ratesMoneyArs(r.impacto_hogar_total_ampliado,2,true)}</td></tr>`).join('');
-  const fintech=s.fintech;
-  document.getElementById('ratesFintechAmount').textContent=ratesMoneyArs(d.impacto_hogar_fintech,2,true);
-  document.getElementById('ratesFintechNote').innerHTML=`<b>Diferencial Fintech post-shock vs espejo</b>. Saldo espejo ${ratesMoneyArs(m.impacto_hogar_fintech,2,true)} · post-shock ${ratesMoneyArs(p.impacto_hogar_fintech,2,true)}. La estimación usa TNA ponderada por saldos y stock real interpolado; marzo–julio 2026 conserva el último dato oficial. Es una proxy de carga financiera extraordinaria, <b>no de ganancia neta efectivamente cobrada</b>.`;
-  const debtorPost=p.impacto_hogar_banco+p.impacto_hogar_fintech;
-  const debtorMirror=m.impacto_hogar_banco+m.impacto_hogar_fintech;
-  const debtorDiff=debtorPost-debtorMirror;
-  const milei=document.getElementById('mileiFinancialAuditContent');
-  if(milei){
-    const bm=typeof bankAdjustModel==='function'?bankAdjustModel():null;
-    const bankRange=bm?`≈ ${bm.taxPct.toLocaleString('es-AR',{maximumFractionDigits:0})}–${bm.savingPct.toLocaleString('es-AR',{maximumFractionDigits:0})}%`:'≈ 21–38%';
-    const bankMoneyRange=bm?`≈ $ ${(bm.taxMoneyCurrent/1e12).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})}–${(bm.savingMoneyCurrent/1e12).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})} billones`:'≈ $ 11,2–20,1 billones';
-    milei.innerHTML=`
-    <div class="milei-financial-grid">
-      <div class="milei-financial-item">
-        <div class="audit-tag">Deterioro incremental · lado deudor vs espejo</div>
-        <div class="audit-amount">${ratesMoneyArs(debtorDiff,2,true)}</div>
-        <p>Banco + Fintech, 32 meses contra 32 meses. Es la comparación temporal relevante para capacidad de pago. <b>No es ganancia neta de prestamistas.</b></p>
-      </div>
-      <div class="milei-financial-item fintech">
-        <div class="audit-tag">Saldo ampliado post-shock · contra normas</div>
-        <div class="audit-amount">${ratesMoneyArs(p.impacto_hogar_total_ampliado,2,true)}</div>
-        <p>Banco + Fintech + plazo fijo. <b>No mide deterioro frente a Alberto</b>; el diferencial agregado post − espejo es ${ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true)}.</p>
-      </div>
-    </div>
-    <p class="milei-financial-summary"><b>Lectura corregida para “Lo que te robó Milei”:</b> no se atribuyen ${ratesMoneyArs(Math.max(0,-p.impacto_hogar_total_ampliado))} como costo incremental del período. Para el lado deudor, la comparación espejo da <b>${ratesMoneyArs(debtorDiff,2,true)}</b>. Se mantiene fuera de la resta salarial central porque carga crediticia e ingreso perdido son categorías distintas. La capacidad bancaria se estima por otra vía: <b>${bankMoneyRange}</b>, equivalentes a <b>${bankRange}</b> del giro fiscal primario de 2024.</p>`;
-  }
+  const positions=document.getElementById('ratesPositionCards'),posEq=document.getElementById('ratesPositionEquation'),el=document.getElementById('ratesMoneyGrid');
+  if(!el)return;
+  const bankStr=ratesMoneyArs(d.impacto_hogar_banco,2,true);
+  const fintechStr=ratesMoneyArs(d.impacto_hogar_fintech,2,true);
+  const debtorStr=ratesMoneyArs(debtor.diff,2,true);
+  const saverStr=ratesMoneyArs(d.impacto_hogar_pf,2,true);
+  const balanceStr=ratesMoneyArs(d.impacto_hogar_total_ampliado,2,true);
+  const postBalanceStr=ratesMoneyArs(p.impacto_hogar_total_ampliado,2,true);
+  if(positions)positions.innerHTML=
+    '<article class="rates-position-card primary bad"><small>POST − ESPEJO · DEUDORES</small><strong>'+debtorStr+'</strong><p><b>Banco + Fintech.</b> Deterioro frente a 32 meses comparables. Es la referencia financiera principal para mora; no es utilidad neta del prestamista.</p><div class="calc"><b>Cuentita:</b> deterioro deudor = ('+bankStr+') + ('+fintechStr+') = <b>'+debtorStr+'</b>.</div></article>'+
+    '<article class="rates-position-card good"><small>POST − ESPEJO · AHORRISTAS PF</small><strong>'+saverStr+'</strong><p>Mejora del plazo fijo frente al espejo. Es otra posición financiera y no compensa individualmente al hogar endeudado.</p><div class="calc"><b>Cuentita:</b> esta mejora va por carril separado; recién después se combina en el agregado.</div></article>'+
+    '<article class="rates-position-card balance"><small>POST − ESPEJO · BALANCE AMPLIADO</small><strong>'+balanceStr+'</strong><p><b>Neto estadístico de posiciones distintas.</b> Da positivo porque la mejora de PF supera al deterioro deudor; <b>no representa a un hogar promedio</b>.</p><div class="calc"><b>Cuentita:</b> balance ampliado = ('+debtorStr+') + ('+saverStr+') = <b>'+balanceStr+'</b>.</div></article>';
+  if(posEq)posEq.innerHTML='<div class="eq"><span class="chip bad">Banco ('+bankStr+')</span><span>+</span><span class="chip bad">Fintech ('+fintechStr+')</span><span>=</span><span class="chip bad">Deudores '+debtorStr+'</span><span>+</span><span class="chip good">PF ('+saverStr+')</span><span>=</span><span class="chip good">Balance '+balanceStr+'</span></div><div><b>Lectura justa:</b> primero se responde <i>cómo le fue al lado deudor</i>; después se muestra qué pasa si se suma otra posición financiera distinta (plazo fijo). <b>Por separado</b>, el saldo post-shock contra normas queda en <b>'+postBalanceStr+'</b> y responde otra pregunta.</div>';
+  const set=(id,val)=>{const n=document.getElementById(id);if(n)n.textContent=val;};
+  set('ratesDebtorHeadline',debtorStr);set('ratesSaverHeadline',saverStr);set('ratesBalanceHeadline',balanceStr);set('ratesPostBalanceHeadline',postBalanceStr);
+  set('storyDebtorDiff',ratesMoneyCompact(debtor.diff));set('storySaverDiff',ratesMoneyCompact(d.impacto_hogar_pf));set('storyBalanceDiff',ratesMoneyCompact(d.impacto_hogar_total_ampliado));set('cmDebtorDiffKpi',ratesMoneyCompact(debtor.diff)+' vs espejo');
+  el.innerHTML=
+    '<div class="rates-money-kpi primary aggregate"><div class="tag">Neto estadístico del agregado</div><div class="big">'+balanceStr+'</div><div class="mini">El agregado da positivo, <b>pero eso no significa que el hogar promedio esté mejor</b>: sólo indica que la mejora de PF supera al deterioro deudor al sumar universos distintos.</div><div class="mini-equation"><span class="term bad">Banco ('+bankStr+')</span><span class="op">+</span><span class="term bad">Fintech ('+fintechStr+')</span><span class="equals">=</span><span class="term bad">Deudores '+debtorStr+'</span><span class="op">+</span><span class="term good">PF ('+saverStr+')</span><span class="equals">=</span><span class="term good">Balance '+balanceStr+'</span></div></div>'+
+    '<div class="rates-money-kpi '+ratesMoneyKpiClass(d.impacto_hogar_banco)+'"><div class="tag">1 · Componente · crédito bancario</div><div class="big">'+bankStr+'</div><div class="mini"><b>'+ratesMoneyChangeWord(d.impacto_hogar_banco)+'</b> vs espejo; parte del deterioro deudor.</div><div class="calc">Aporta una parte del lado deudor. No incluye Fintech ni PF.</div></div>'+
+    '<div class="rates-money-kpi fintech '+ratesMoneyKpiClass(d.impacto_hogar_fintech)+'"><div class="tag">2 · Componente · Fintech</div><div class="big">'+fintechStr+'</div><div class="mini"><b>'+ratesMoneyChangeWord(d.impacto_hogar_fintech)+'</b>. Proxy sobre TNA/stock; '+p.fintech_meses_tna_conservada+' meses prolongan último dato oficial.</div><div class="calc">Se suma con banco para obtener <b>deudores = '+debtorStr+'</b>.</div></div>'+
+    '<div class="rates-money-kpi '+ratesMoneyKpiClass(d.impacto_hogar_pf)+'"><div class="tag">3 · Componente · ahorristas PF</div><div class="big">'+saverStr+'</div><div class="mini"><b>'+ratesMoneyChangeWord(d.impacto_hogar_pf)+'</b> frente al espejo; es otra posición financiera.</div><div class="calc">Se agrega recién al final: <b>deudores '+debtorStr+'</b> + <b>PF '+saverStr+'</b> = <b>balance '+balanceStr+'</b>.</div></div>'+
+    '<div class="rates-money-kpi '+ratesMoneyKpiClass(debtor.diff)+'"><div class="tag">4 · Resultado principal · deudores</div><div class="big">'+debtorStr+'</div><div class="mini">Banco + Fintech. Esta es la referencia más pertinente cuando hablamos de estrés y mora.</div><div class="calc"><b>Fórmula:</b> ('+bankStr+') + ('+fintechStr+') = <b>'+debtorStr+'</b>.</div></div>'+
+    '<div class="rates-money-kpi aggregate"><div class="tag">5 · Resultado agregado · balance ampliado</div><div class="big">'+balanceStr+'</div><div class="mini">Neto de posiciones distintas. <b>Puede dar positivo aunque el lado deudor esté peor</b>; no describe bienestar promedio.</div><div class="calc"><b>Fórmula:</b> ('+debtorStr+') + ('+saverStr+') = <b>'+balanceStr+'</b>. Si querés mirar estrés y mora, la referencia principal sigue siendo <b>'+debtorStr+'</b>.</div></div>'+
+    '<div class="rates-money-kpi context '+ratesMoneyKpiClass(p.impacto_hogar_total_ampliado)+'"><div class="tag">6 · Contexto · saldo post-shock contra normas</div><div class="big">'+postBalanceStr+'</div><div class="mini"><b>No es deterioro frente a Alberto.</b> Responde cuánto da el post-shock frente a la norma histórica.</div><div class="calc"><b>Ojo:</b> esta cifra no entra en la comparación post − espejo. Se muestra como contexto separado.</div></div>';
+  const beforeTotal=document.getElementById('ratesUsuryBeforeTotal'),afterTotal=document.getElementById('ratesUsuryAfterTotal'),effectTotal=document.getElementById('ratesUsuryEffectTotal'),effectPct=document.getElementById('ratesUsuryEffectPct');
+  if(beforeTotal)beforeTotal.textContent=ratesMoneyCompact(m.impacto_hogar_total_ampliado);if(afterTotal)afterTotal.textContent=ratesMoneyCompact(p.impacto_hogar_total_ampliado);if(effectTotal)effectTotal.textContent=ratesMoneyCompact(d.impacto_hogar_total_ampliado);
+  const improvementPct=d.impacto_hogar_total_ampliado/Math.abs(m.impacto_hogar_total_ampliado)*100;if(effectPct)effectPct.textContent=Math.abs(improvementPct).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})+'% · '+ratesMoneyChangeWord(d.impacto_hogar_total_ampliado)+' vs espejo';
+  const publicAfter=document.getElementById('ratesPublicAfter'),publicBefore=document.getElementById('ratesPublicBefore'),publicEffect=document.getElementById('ratesPublicEffect'),publicEffectPct=document.getElementById('ratesPublicEffectPct'),publicConclusion=document.getElementById('ratesPublicConclusion');
+  if(publicAfter)publicAfter.textContent=postBalanceStr;if(publicBefore)publicBefore.textContent=ratesMoneyArs(m.impacto_hogar_total_ampliado,2,true);if(publicEffect)publicEffect.textContent=balanceStr;if(publicEffectPct)publicEffectPct.textContent=Math.abs(improvementPct).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})+'% · '+ratesMoneyChangeWord(d.impacto_hogar_total_ampliado)+' frente a la ventana anterior';
+  if(publicConclusion)publicConclusion.innerHTML='<b>Lectura rápida:</b> deudores <b>'+debtorStr+'</b>; PF <b>'+saverStr+'</b>; el neto agregado queda en <b>'+balanceStr+'</b>, pero <b>eso no significa que los hogares estén mejor en promedio</b>. El saldo post-shock <b>'+postBalanceStr+'</b> responde otra pregunta: nivel contra normas.';
+  document.getElementById('ratesMoneyNormalized').innerHTML='<div class="full"><b>Posiciones separadas:</b> deudores '+debtorStr+' · ahorristas PF '+saverStr+' · balance '+balanceStr+'.</div><div><b>Compensación estadística ≠ individual:</b> la mejora de PF puede dominar el agregado sin mejorar la capacidad de pago del mismo hogar que tomó crédito.</div><div><b>Fintech:</b> '+p.fintech_meses_tna_observada+' meses TNA oficial + '+p.fintech_meses_tna_conservada+' meses estimados.</div>';
+  const table=document.getElementById('ratesMoneyTableBody');if(table)table.innerHTML=ratesMoneyRows.map(r=>'<tr><td>'+r.fecha+(r.fintech_tasa_observada?'':' *')+'</td><td>'+ratesMoneyArs(r.monto_personales)+'</td><td class="'+(Number(r.banco_brecha_tecnica_pp)>=0?'technical-pos':'technical-neg')+'">'+Number(r.banco_brecha_tecnica_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})+' pp</td><td class="'+ratesMoneySignedClass(r.impacto_hogar_banco_constante)+'">'+ratesMoneyArs(r.impacto_hogar_banco_constante,2,true)+'</td><td>'+ratesMoneyArs(r.monto_pf)+'</td><td class="'+(Number(r.pf_brecha_pp)>=0?'pos':'neg')+'">'+Number(r.pf_brecha_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})+' pp</td><td class="'+ratesMoneySignedClass(r.impacto_hogar_pf_constante)+'">'+ratesMoneyArs(r.impacto_hogar_pf_constante,2,true)+'</td><td class="'+(Number(r.fintech_brecha_tecnica_pp)>=0?'technical-pos':'technical-neg')+'">'+Number(r.fintech_brecha_tecnica_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})+' pp</td><td class="'+ratesMoneySignedClass(r.impacto_hogar_fintech_constante)+'">'+ratesMoneyArs(r.impacto_hogar_fintech_constante,2,true)+'</td><td class="'+ratesMoneySignedClass(r.impacto_hogar_total_ampliado)+'">'+ratesMoneyArs(r.impacto_hogar_total_ampliado,2,true)+'</td></tr>').join('');
+  document.getElementById('ratesFintechAmount').textContent=fintechStr;document.getElementById('ratesFintechNote').innerHTML='<b>Diferencial Fintech post-shock vs espejo</b>. Espejo '+ratesMoneyArs(m.impacto_hogar_fintech,2,true)+' · post '+ratesMoneyArs(p.impacto_hogar_fintech,2,true)+'. Proxy de carga financiera, <b>no ganancia neta</b>.';
+  const milei=document.getElementById('mileiFinancialAuditContent');if(milei){const bm=typeof bankAdjustModel==='function'?bankAdjustModel():null;const bankRange=bm?'≈ '+bm.taxPct.toLocaleString('es-AR',{maximumFractionDigits:0})+'–'+bm.savingPct.toLocaleString('es-AR',{maximumFractionDigits:0})+'%':'≈ 21–38%';const bankMoneyRange=bm?'≈ $ '+(bm.taxMoneyCurrent/1e12).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})+'–'+(bm.savingMoneyCurrent/1e12).toLocaleString('es-AR',{minimumFractionDigits:1,maximumFractionDigits:1})+' billones':'≈ $ 11,2–20,1 billones';milei.innerHTML='<div class="milei-financial-grid"><div class="milei-financial-item"><div class="audit-tag">Deudores · post − espejo</div><div class="audit-amount">'+debtorStr+'</div><p>Banco + Fintech; comparación pertinente para fragilidad. <span class="calc-line"><b>Cuentita:</b> banco '+bankStr+' + Fintech '+fintechStr+' = '+debtorStr+'.</span></p></div><div class="milei-financial-item"><div class="audit-tag">Ahorristas PF · post − espejo</div><div class="audit-amount">'+saverStr+'</div><p>Mejora de otra posición financiera.</p></div><div class="milei-financial-item"><div class="audit-tag">Balance ampliado · post − espejo</div><div class="audit-amount">'+balanceStr+'</div><p>Neto estadístico; no hogar promedio. <span class="calc-line"><b>Cuentita:</b> deudores '+debtorStr+' + PF '+saverStr+' = '+balanceStr+'.</span></p></div><div class="milei-financial-item fintech"><div class="audit-tag">Saldo post-shock · contra normas</div><div class="audit-amount">'+postBalanceStr+'</div><p>No mide cambio vs Alberto.</p></div></div><p class="milei-financial-summary">La comparación principal del lado deudor es <b>'+debtorStr+'</b>. La capacidad bancaria se estima por otra vía: <b>'+bankMoneyRange+'</b> ('+bankRange+' del giro fiscal primario 2024).</p>';}
   renderRatesMoneyCharts();
 }
 function renderRatesMirrorCompare(){
   if(typeof Plotly==='undefined')return;
   const el=document.getElementById('ratesMirrorCompareChart'),eq=document.getElementById('ratesMirrorEquation');if(!el||!eq)return;
-  const mode=ratesMirrorMode,summary=ratesPositionSummary(mode),mirror=ratesWindowCumulative(ratesUsuryMirrorRows,mode),post=ratesWindowCumulative(ratesUsuryPostRows,mode),mobile=window.innerWidth<=720;
+  const mode=ratesMirrorMode,summary=ratesPositionSummary(mode),series=ratesWindowSeries(mode),mirror=series.mirror,post=series.post,diff=series.diff,mobile=window.innerWidth<=720;
+  const all=[...mirror.y,...post.y,...diff.y].map(v=>v/1e12),lo=Math.min(0,...all),hi=Math.max(0,...all),pad=Math.max(.3,(hi-lo)*.1);
+  const finalLabel=`${ratesMoneyCompact(summary.diff)} · ${mode==='debtor'?'deudores':mode==='saver'?'PF':'balance'}`;
   Plotly.react(el,[
-    {x:mirror.x,y:mirror.y.map(v=>v/1e12),customdata:mirror.dates,name:'Ventana espejo · abr-2021→nov-2023',mode:'lines+markers',line:{color:'#8d73b9',width:2.7,dash:'dot'},marker:{size:3.5},hovertemplate:'Mes relativo %{x}<br>Espejo: <b>$ %{y:.2f} B</b><br>%{customdata}<extra></extra>'},
-    {x:post.x,y:post.y.map(v=>v/1e12),customdata:post.dates,name:'Post-shock · dic-2023→jul-2026',mode:'lines+markers',line:{color:'#cf5c82',width:3},marker:{size:4},hovertemplate:'Mes relativo %{x}<br>Post: <b>$ %{y:.2f} B</b><br>%{customdata}<extra></extra>'}
-  ],{paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'#fff',font:{family:'Inter,system-ui,sans-serif',size:9,color:'#66506f'},margin:{l:mobile?52:66,r:18,t:50,b:52},title:{text:summary.title,font:{size:13,color:'#5b3e69'}},xaxis:{title:'Mes desde el inicio de cada ventana',dtick:mobile?4:2,range:[0,32],gridcolor:'#efe7f1',fixedrange:true},yaxis:{title:'Saldo acumulado · $ B',gridcolor:'#efe7f1',zeroline:true,zerolinecolor:'#8e7f93',fixedrange:true},legend:{orientation:mobile?'v':'h',y:1.13,x:0},hovermode:'closest'},{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
-  eq.innerHTML=`<div class="rates-equation"><div class="term"><small>Post-shock</small><strong>${ratesMoneyArs(summary.post,2,true)}</strong></div><div class="op">−</div><div class="term"><small>Ventana espejo</small><strong>(${ratesMoneyArs(summary.mirror,2,true)})</strong></div><div class="op">=</div><div class="term"><small>Diferencial</small><strong>${ratesMoneyArs(summary.diff,2,true)}</strong></div></div><div class="rates-equation-note"><b>${summary.note}</b> Si el espejo aparece con signo opuesto al explicar la resta, es sólo el término matemático <code>−(espejo)</code>; no cambia el signo observado del período original.</div>`;
+    {x:mirror.x,y:mirror.y.map(v=>v/1e12),customdata:mirror.dates,name:'Ventana espejo',mode:'lines',line:{color:'#aa96bf',width:2,dash:'dot'},hovertemplate:'Mes %{x}/32<br>Espejo: <b>$ %{y:.2f} B</b><extra></extra>'},
+    {x:post.x,y:post.y.map(v=>v/1e12),customdata:post.dates,name:'Post-shock',mode:'lines',line:{color:'#cf7290',width:2.6},hovertemplate:'Mes %{x}/32<br>Post: <b>$ %{y:.2f} B</b><extra></extra>'},
+    {x:diff.x,y:diff.y.map(v=>v/1e12),customdata:diff.dates,name:'Diferencial post − espejo',mode:'lines+markers',line:{color:summary.diff<0?'#b54c70':'#39846b',width:4},marker:{size:diff.x.map(x=>x===32?8:3)},hovertemplate:'Mes %{x}/32<br><b>Post − espejo: $ %{y:.2f} B</b><br>Espejo y post se comparan acumulados al mismo mes relativo<extra></extra>'}
+  ],{paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'#fff',font:{family:'Inter,system-ui,sans-serif',size:9,color:'#66506f'},margin:{l:mobile?54:68,r:mobile?28:95,t:55,b:55},title:{text:summary.title,font:{size:13,color:'#5b3e69'}},xaxis:{title:'Mes relativo · 1 a 32',dtick:mobile?4:2,range:[0,32.8],gridcolor:'#efe7f1',fixedrange:true},yaxis:{title:'Saldo acumulado · $ B',range:[lo-pad,hi+pad],gridcolor:'#efe7f1',zeroline:true,zerolinecolor:'#8e7f93',fixedrange:true},legend:{orientation:mobile?'v':'h',y:1.15,x:0},hovermode:'x unified',annotations:[{x:32,y:summary.diff/1e12,xref:'x',yref:'y',text:`<b>${finalLabel}</b>`,showarrow:true,arrowhead:2,ax:mobile?-35:-70,ay:summary.diff<0?30:-28,bgcolor:'#fff9fc',bordercolor:summary.diff<0?'#d9a2b5':'#a9d2c2',borderwidth:1,borderpad:4,font:{size:mobile?9:11,color:summary.diff<0?'#9f4163':'#31725d'}}]},{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+  eq.innerHTML=`<div class="rates-equation"><div class="term"><small>Post-shock</small><strong>${ratesMoneyArs(summary.post,2,true)}</strong></div><div class="op">−</div><div class="term"><small>Ventana espejo</small><strong>(${ratesMoneyArs(summary.mirror,2,true)})</strong></div><div class="op">=</div><div class="term"><small>Diferencial</small><strong>${ratesMoneyArs(summary.diff,2,true)}</strong></div></div><div class="rates-equation-note"><b>${summary.note}</b> La tercera línea dibuja esta misma resta acumulada <b>mes a mes</b>; el punto 32 debe coincidir con el KPI.</div>`;
+  const txt=document.getElementById('ratesMirrorTextSummary');if(txt)txt.innerHTML=`<b>Lectura accesible:</b> al mes 32, ${mode==='debtor'?'banco + Fintech':mode==='saver'?'plazo fijo':'el balance ampliado'} pasa de ${ratesMoneyArs(summary.mirror,2,true)} en el espejo a ${ratesMoneyArs(summary.post,2,true)} post-shock. El diferencial es <b>${ratesMoneyArs(summary.diff,2,true)}</b> (${ratesMoneyChangeWord(summary.diff)} frente al espejo).`;
   document.querySelectorAll('[data-rates-position]').forEach(b=>b.classList.toggle('active',b.dataset.ratesPosition===mode));
 }
 function setRatesMirrorMode(mode){ratesMirrorMode=mode;renderRatesMirrorCompare();}
 document.querySelectorAll('[data-rates-position]').forEach(b=>b.addEventListener('click',()=>setRatesMirrorMode(b.dataset.ratesPosition)));
 function renderRatesMoneyCharts(){
   if(typeof Plotly==='undefined')return;
-  const s=ratesMoneySummary,d=s.diferencial,mobile=window.innerWidth<=720;
-  const labels=['Cambio · crédito bancario','Cambio · Fintech','Cambio · plazo fijo','Cambio · banco + PF','Diferencial · balance ampliado'];
-  const values=[d.impacto_hogar_banco,d.impacto_hogar_fintech,d.impacto_hogar_pf,d.impacto_hogar_total,d.impacto_hogar_total_ampliado];
-  const axisMax=Math.max(...values.map(v=>Math.abs(v)))*1.18;
-  Plotly.react('ratesMoneyChart',[{type:'bar',orientation:'h',x:values,y:labels,marker:{color:values.map(v=>v>0?'#59ad8a':v<0?'#d56589':'#aaa0ad'),line:{color:'#ffffff',width:1}},text:values.map(v=>ratesMoneyCompact(v)),textposition:'outside',cliponaxis:false,customdata:values.map(v=>ratesMoneyChangeWord(v)),hovertemplate:'<b>%{y}</b><br>Diferencial: <b>%{text}</b><br>%{customdata}<extra></extra>'}],{paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},height:mobile?520:450,margin:{l:mobile?155:205,r:mobile?38:70,t:48,b:68},xaxis:{title:'Cambio entre ventanas · izquierda = empeoró / derecha = mejoró',range:[-axisMax,axisMax],gridcolor:'#efe4f4',zeroline:true,zerolinecolor:'#695d70',zerolinewidth:2,fixedrange:true},yaxis:{automargin:true,fixedrange:true,autorange:'reversed'},showlegend:false,annotations:[{xref:'paper',yref:'paper',x:.02,y:1.08,text:'← empeoró',showarrow:false,font:{size:mobile?9:11,color:'#b0476d'}},{xref:'paper',yref:'paper',x:.98,y:1.08,text:'mejoró →',showarrow:false,xanchor:'right',font:{size:mobile?9:11,color:'#3f876b'}}]},{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+  const s=ratesMoneySummary,d=s.diferencial,mobile=window.innerWidth<=720,debtor=d.impacto_hogar_banco+d.impacto_hogar_fintech;
+  const labels=['Deudores · banco + Fintech','Ahorristas · plazo fijo','Balance ampliado','↳ Banco · componente','↳ Fintech · componente'];
+  const values=[debtor,d.impacto_hogar_pf,d.impacto_hogar_total_ampliado,d.impacto_hogar_banco,d.impacto_hogar_fintech];
+  const axisMax=Math.max(...values.map(v=>Math.abs(v)))*1.55;
+  Plotly.react('ratesMoneyChart',[{type:'bar',orientation:'h',x:values,y:labels,marker:{color:values.map(v=>v>0?'#59ad8a':v<0?'#d56589':'#aaa0ad'),line:{color:'#fff',width:1}},text:values.map(v=>ratesMoneyCompact(v)),textposition:'outside',textfont:{size:10},cliponaxis:false,customdata:values.map(v=>ratesMoneyChangeWord(v)),hovertemplate:'<b>%{y}</b><br>Post − espejo: <b>%{text}</b><br>%{customdata}<extra></extra>'}],{paper_bgcolor:'rgba(255,255,255,0)',plot_bgcolor:'#fffdfd',font:{color:'#5e4670',family:'Inter,system-ui,sans-serif'},height:mobile?500:410,margin:{l:mobile?155:210,r:mobile?85:135,t:50,b:68},xaxis:{title:'Cambio entre ventanas · izquierda = empeoró / derecha = mejoró',range:[-axisMax,axisMax],gridcolor:'#efe4f4',zeroline:true,zerolinecolor:'#695d70',zerolinewidth:2,fixedrange:true},yaxis:{automargin:true,fixedrange:true,autorange:'reversed'},showlegend:false,annotations:[{xref:'paper',yref:'paper',x:.02,y:1.08,text:'← empeoró',showarrow:false,font:{size:mobile?9:11,color:'#b0476d'}},{xref:'paper',yref:'paper',x:.98,y:1.08,text:'mejoró →',showarrow:false,xanchor:'right',font:{size:mobile?9:11,color:'#3f876b'}}]},{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   renderRatesMirrorCompare();
-  const fintechEl=document.getElementById('ratesFintechChart');
-  if(fintechEl)fintechEl.innerHTML=`<div class="rates-fintech-snapshot">
-    <div class="rates-fintech-metric"><div class="metric-tag">STOCK REAL DE CARTERA</div><div class="metric-value">${ratesMoneyArs(s.fintech.saldo_constante_jul_2026)}</div><div class="metric-note">Corte ${s.fintech.fecha}, reexpresado a jul-2026</div></div>
-    <div class="rates-fintech-metric"><div class="metric-tag">BRECHA REAL</div><div class="metric-value">+${Number(s.fintech.brecha_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} pp</div><div class="metric-note">contra promedio histórico Fintech</div></div>
-    <div class="rates-fintech-metric exposure"><div class="metric-tag">IMPACTO HOGAR DEL MES</div><div class="metric-value">${ratesMoneyArs(s.fintech.impacto_hogar_mes_constante,2,true)}</div><div class="metric-note">proxy de carga; no ganancia neta</div></div>
-  </div>`;
+  const fintechEl=document.getElementById('ratesFintechChart');if(fintechEl)fintechEl.innerHTML=`<div class="rates-fintech-snapshot"><div class="rates-fintech-metric"><div class="metric-tag">STOCK REAL DE CARTERA</div><div class="metric-value">${ratesMoneyArs(s.fintech.saldo_constante_jul_2026)}</div><div class="metric-note">Corte ${s.fintech.fecha}, reexpresado a jul-2026</div></div><div class="rates-fintech-metric"><div class="metric-tag">BRECHA REAL</div><div class="metric-value">+${Number(s.fintech.brecha_pp).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})} pp</div><div class="metric-note">contra promedio histórico Fintech</div></div><div class="rates-fintech-metric exposure"><div class="metric-tag">IMPACTO HOGAR DEL MES</div><div class="metric-value">${ratesMoneyArs(s.fintech.impacto_hogar_mes_constante,2,true)}</div><div class="metric-note">proxy de carga; no ganancia neta</div></div></div>`;
 }
 function downloadRatesImpactCsv(){
   const blob=new Blob(['\ufeff'+ratesImpactCsv],{type:'text/csv;charset=utf-8'});
@@ -19134,7 +19274,8 @@ function renderRatesVisible() {
       ...common.xaxis,
       title:'Año / cierre del período',
       dtick: mobile ? 1 : 2,
-      range: mobile ? [2017.5,2026.5] : [2001.5,2026.5],
+      range: mobile ? [2017.5,2026.70] : [2001.5,2026.70], // incluye jul-2026: 2026.5 cortaba el último punto del diferencial
+
       fixedrange:true,
       rangeslider:{visible:false}
     },
@@ -20635,7 +20776,7 @@ function applyRatesTimelineFocus(){
   if(typeof Plotly==='undefined'||!nominalChart?.data||!realChart?.data)return;
 
   if(focused){
-    Plotly.relayout('nominalChart',{'xaxis.autorange':false,'xaxis.range':[2014.55,2026.5]});
+    Plotly.relayout('nominalChart',{'xaxis.autorange':false,'xaxis.range':[2014.55,2026.70]});
     Plotly.relayout('realChart',{'xaxis.autorange':false,'xaxis.range':['2019-01-01','2026-08-01']});
     const nf=document.getElementById('nominalRangeFrom'),nt=document.getElementById('nominalRangeTo');
     const rf=document.getElementById('realRangeFrom'),rt=document.getElementById('realRangeTo');
@@ -20645,7 +20786,7 @@ function applyRatesTimelineFocus(){
     applyNominalRange();
     applyRealRange();
   }else{
-    Plotly.relayout('nominalChart',{'xaxis.autorange':false,'xaxis.range':[2001.5,2026.5]});
+    Plotly.relayout('nominalChart',{'xaxis.autorange':false,'xaxis.range':[2001.5,2026.70]});
     Plotly.relayout('realChart',{'xaxis.autorange':false,'xaxis.range':['2019-01-01','2026-08-01']});
   }
 }
@@ -20744,7 +20885,8 @@ function applyNominalRange() {
 
   const from = Number(slider.value || 2018);
   const to = Math.min(from + 8, 2026);
-  Plotly.relayout('nominalChart', {'xaxis.range':[from - 0.45, to + 0.45]});
+  // +0.75 is intentional: jul-2026 sits around 2026.58 in the decimal-year axis.
+  Plotly.relayout('nominalChart', {'xaxis.range':[from - 0.45, to + 0.75]});
   document.getElementById('nominalRangeFrom').textContent = String(from);
   document.getElementById('nominalRangeTo').textContent = String(to);
 }
@@ -22130,15 +22272,15 @@ function pendPowerAssetChange(value){const delta=value-100,sign=delta>0?'+':delt
 function pendPowerLast(rows,key){for(let i=rows.length-1;i>=0;i--)if(rows[i][key]!=null)return rows[i];return null}
 function renderPendPowerFinance(){
  const root=document.getElementById('pendPowerFinanceKpis');if(!root||typeof ratesMoneySummary==='undefined')return;
- const d=ratesMoneySummary.diferencial;
+ const d=ratesMoneySummary.diferencial,debtor=d.impacto_hogar_banco+d.impacto_hogar_fintech;
  const cards=[
-  ['Lado deudor · banco + Fintech',d.impacto_hogar_banco+d.impacto_hogar_fintech,'Deudores','Empeoró frente al espejo; ésta es la comparación relevante para mora.','financial_debtor_window_delta'],
-  ['Crédito bancario',d.impacto_hogar_banco,'Deudores','Empeoró respecto de la ventana espejo.','financial_bank_window_delta'],
-  ['Fintech / PNFC',d.impacto_hogar_fintech,'Deudores fintech','Empeoró; incluye cinco meses estimados.','financial_fintech_window_delta'],
-  ['Plazo fijo',d.impacto_hogar_pf,'Ahorristas','Mejoró y compensó las dos patas de crédito.','financial_pf_window_delta'],
-  ['Balance ampliado',d.impacto_hogar_total_ampliado,'Universos distintos','Mejoró en conjunto; no todos ganaron.','financial_expanded_balance_delta']
+  ['Lado deudor · banco + Fintech',debtor,'Deudores','Empeoró frente al espejo; comparación principal para mora.','financial_debtor_window_delta','PRINCIPAL'],
+  ['Plazo fijo',d.impacto_hogar_pf,'Ahorristas','Mejoró frente al espejo; otra posición financiera.','financial_pf_window_delta','PRINCIPAL'],
+  ['Balance ampliado',d.impacto_hogar_total_ampliado,'Universos distintos','Mejoró en conjunto porque PF dominó; no hogar promedio.','financial_expanded_balance_delta','PRINCIPAL'],
+  ['Crédito bancario',d.impacto_hogar_banco,'Deudores','Componente del deterioro deudor.','financial_bank_window_delta','COMPONENTE'],
+  ['Fintech / PNFC',d.impacto_hogar_fintech,'Deudores fintech','Componente; incluye cinco meses estimados.','financial_fintech_window_delta','COMPONENTE']
  ];
- root.innerHTML=cards.map(([title,value,who,reading,id])=>`<article class="pend-power-metric ${value>0?'good':value<0?'bad':'neutral'}" data-metric-id="${id}"><small>CONTRAFACTUAL · diferencial</small><strong>${pendPowerMoney(value)}</strong><p><b>${title}:</b> ${reading}</p><span class="perspective">Perspectiva: ${who} · + mejora / − empeora</span></article>`).join('');
+ root.innerHTML=cards.map(([title,value,who,reading,id,tier])=>`<article class="pend-power-metric ${value>0?'good':value<0?'bad':'neutral'}" data-metric-id="${id}"><small>${tier} · POST − ESPEJO</small><strong>${pendPowerMoney(value)}</strong><p><b>${title}:</b> ${reading}</p><span class="perspective">Perspectiva: ${who} · + mejora / − empeora</span></article>`).join('');
 }
 function pendPowerAssetRebased(baseDate){
  const start=Math.max(0,PEND_POWER_ASSETS.findIndex(r=>r.date===baseDate));
