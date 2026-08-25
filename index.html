@@ -8945,6 +8945,30 @@ html,body{overflow-x:clip}
 @media(max-width:720px){.ca-shell{padding:8px 0 28px}.ca-hero,.ca-card{padding:14px;border-radius:18px}.ca-head{display:block}.ca-verdict{margin-top:12px}.ca-head h2{font-size:22px}.ca-kpis,.ca-denoms,.ca-two,.ca-lag-grid,.ca-model-grid,.ca-claims{grid-template-columns:1fr}.ca-timeline,.ca-standards{grid-template-columns:1fr 1fr}.ca-chart{height:360px}.ca-chart.tall{height:430px}}
 @media(max-width:430px){.ca-timeline,.ca-standards{grid-template-columns:1fr}.ca-kpis article{padding:11px}.ca-final blockquote{padding:14px;font-size:11px}}
 </style>
+
+<style id="menu-mobile-regression-fix-v1">
+/* Fix: las reglas responsive antiguas dejaban width:100% en cada .tab-btn.
+   El menú nuevo es horizontal en mobile, así que cada pill debe medir su contenido. */
+@media (max-width:720px){
+  .tabs{
+    display:flex !important;
+    flex-wrap:nowrap !important;
+    grid-template-columns:none !important;
+    overflow-x:auto !important;
+    overflow-y:hidden !important;
+  }
+  .tabs .tab-btn,
+  .tabs .tab-btn:nth-child(n){
+    flex:0 0 auto !important;
+    width:auto !important;
+    min-width:max-content !important;
+    max-width:none !important;
+    grid-column:auto !important;
+    justify-self:auto !important;
+    white-space:nowrap !important;
+  }
+}
+</style>
 </head>
 <body>
 <div class="wrap">
