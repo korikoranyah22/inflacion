@@ -8961,7 +8961,7 @@ html,body{overflow-x:clip}
 </style>
 
 <style id="supermarket-history-v2-styles">
-.super-history-v2 .super-inner-nav{position:sticky;top:8px;z-index:15;display:flex;gap:7px;overflow-x:auto;padding:8px;margin:12px 0 18px;border:1px solid #e1d4e7;border-radius:15px;background:rgba(255,252,254,.95);backdrop-filter:blur(7px)}
+.super-history-v2 .super-inner-nav{position:relative;top:auto;z-index:1;display:flex;gap:7px;overflow-x:auto;overflow-y:hidden;padding:8px;margin:12px 0 18px;border:1px solid #e1d4e7;border-radius:15px;background:rgba(255,252,254,.95);backdrop-filter:blur(7px);scrollbar-width:thin;-webkit-overflow-scrolling:touch}
 .super-history-v2 .super-inner-nav a{flex:0 0 auto;padding:7px 10px;border:1px solid #ddcfe5;border-radius:999px;background:#fff;color:#684675;text-decoration:none;font-size:10px;font-weight:900}
 .super-history-block{scroll-margin-top:78px;margin:18px 0 28px;padding-top:4px}.super-history-block+.super-history-block{border-top:1px dashed #e6d9e9;padding-top:22px}
 .super-history-title{display:flex;gap:10px;align-items:flex-start;margin:0 20px 12px}.super-history-title>span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#f3e8f7;color:#674475;font-weight:950}.super-history-title h3{margin:1px 0 3px;color:#5f3d70;font-size:18px}.super-history-title p{margin:0;color:#806b84;font-size:10.5px;line-height:1.45}
@@ -8972,7 +8972,24 @@ html,body{overflow-x:clip}
 .super-nd-panel{display:flex;flex-direction:column}.super-nd{min-height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;border:1px dashed #d9cce0;border-radius:14px;background:#fbf9fc;color:#77647d}.super-nd b{font-size:24px;color:#6b5574}.super-nd span{max-width:440px;margin-top:8px;font-size:10px;line-height:1.5}
 #supermarketModernHistoryChart{height:430px}#supermarketH1HistoryChart,#supermarketOperationsChart,#supermarketPaymentChart,#supermarketBasketCompositionChart,#supermarketStructureChart{height:380px}
 @media(max-width:900px){.super-era-grid{grid-template-columns:1fr}.super-history-v2 .co-super-chart-grid{grid-template-columns:1fr}}
-@media(max-width:720px){.super-history-title,.super-wide-panel,.super-era-grid,.super-bridge-links{margin-left:12px;margin-right:12px}.super-history-title h3{font-size:16px}#supermarketModernHistoryChart{height:500px}#supermarketH1HistoryChart,#supermarketOperationsChart,#supermarketPaymentChart,#supermarketBasketCompositionChart,#supermarketStructureChart{height:430px}.super-history-v2 .super-inner-nav{top:5px}}
+@media(max-width:720px){.super-history-title,.super-wide-panel,.super-era-grid,.super-bridge-links{margin-left:12px;margin-right:12px}.super-history-title h3{font-size:16px}#supermarketModernHistoryChart{height:500px}#supermarketH1HistoryChart,#supermarketOperationsChart,#supermarketPaymentChart,#supermarketBasketCompositionChart,#supermarketStructureChart{height:430px}.super-history-v2 .super-inner-nav{top:auto}}
+</style>
+
+<style id="dashboard-menu-repair-v1">
+/* Reparación de navegación: el menú principal manda; los índices internos no compiten con él. */
+.dash-topic-nav,.tabs{box-sizing:border-box;max-width:100%;}
+.dash-topic-nav{isolation:isolate;z-index:50;}
+#dash-main-tabs{position:relative;z-index:40;}
+#dash-main-tabs .tab-btn[hidden]{display:none!important;}
+#dash-main-tabs .tab-btn{box-sizing:border-box;}
+.super-history-v2 .super-inner-nav{position:relative!important;top:auto!important;z-index:1!important;}
+@media (max-width:720px){
+  .dash-topic-nav{position:sticky;top:0;z-index:100;}
+  .dash-topic-buttons{position:relative;z-index:101;}
+  #dash-main-tabs{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;overscroll-behavior-x:contain;scroll-snap-type:x proximity;scrollbar-width:thin;-webkit-overflow-scrolling:touch;}
+  #dash-main-tabs .tab-btn,#dash-main-tabs .tab-btn:nth-child(n){flex:0 0 auto!important;width:auto!important;max-width:none!important;min-width:max-content!important;grid-column:auto!important;scroll-snap-align:start;}
+  .super-history-v2 .super-inner-nav{position:relative!important;top:auto!important;}
+}
 </style>
 </head>
 <body>
@@ -8990,55 +9007,55 @@ html,body{overflow-x:clip}
   <nav class="dash-topic-nav" aria-label="Agrupar pestañas por tema">
     <div class="topic-label">Explorar por tema</div>
     <div class="dash-topic-buttons">
-      <button class="dash-topic-btn active" data-dash-group="featured" aria-pressed="true">Destacados</button>
-      <button class="dash-topic-btn" data-dash-group="households" aria-pressed="false">Hogares</button>
-      <button class="dash-topic-btn" data-dash-group="prices" aria-pressed="false">Precios y dólar</button>
-      <button class="dash-topic-btn" data-dash-group="activity" aria-pressed="false">Actividad</button>
-      <button class="dash-topic-btn" data-dash-group="state" aria-pressed="false">Estado y deuda</button>
-      <button class="dash-topic-btn" data-dash-group="power" aria-pressed="false">Poder económico</button>
-      <button class="dash-topic-btn" data-dash-group="all" aria-pressed="false">Ver todo</button>
+      <button class="dash-topic-btn active" type="button" data-dash-group="featured" aria-pressed="true">Destacados</button>
+      <button class="dash-topic-btn" type="button" data-dash-group="households" aria-pressed="false">Hogares</button>
+      <button class="dash-topic-btn" type="button" data-dash-group="prices" aria-pressed="false">Precios y dólar</button>
+      <button class="dash-topic-btn" type="button" data-dash-group="activity" aria-pressed="false">Actividad</button>
+      <button class="dash-topic-btn" type="button" data-dash-group="state" aria-pressed="false">Estado y deuda</button>
+      <button class="dash-topic-btn" type="button" data-dash-group="power" aria-pressed="false">Poder económico</button>
+      <button class="dash-topic-btn" type="button" data-dash-group="all" aria-pressed="false">Ver todo</button>
     </div>
     <div class="dash-topic-caption">Mostramos menos accesos a la vez para que la portada respire. La pestaña que ya abriste queda siempre visible.</div>
   </nav>
 
-  <div class="tabs" aria-label="Pestañas del dashboard">
-    <button class="tab-btn active" data-tab="tab-story">La historia del dashboard</button>
-    <button class="tab-btn" data-tab="tab-power">Poder adquisitivo</button>
-    <button class="tab-btn" data-tab="tab-rates">Tasas e inflación</button>
-    <button class="tab-btn" data-tab="tab-pres">Inflación por presidencia</button>
-    <button class="tab-btn" data-tab="tab-poverty">Pobreza: nivel absoluto</button>
-    <button class="tab-btn" data-tab="tab-social">Asistencia social / transferencias</button>
-    <button class="tab-btn" data-tab="tab-gini">Desigualdad (Gini)</button>
-    <button class="tab-btn" data-tab="tab-structure">Más allá de la pobreza</button>
-    <button class="tab-btn" data-tab="tab-family">¿Cuánto necesita una familia?</button>
-    <button class="tab-btn" data-tab="tab-risk">Riesgo país</button>
-    <button class="tab-btn" data-tab="tab-bigmac">Índice Big Mac</button>
-    <button class="tab-btn" data-tab="tab-wholesale">Precios mayoristas</button>
-    <button class="tab-btn" data-tab="tab-health-education">Salud y educación</button>
-    <button class="tab-btn" data-tab="tab-consumption">Consumo</button>
-    <button class="tab-btn" data-tab="tab-work">Trabajo</button>
-    <button class="tab-btn" data-tab="tab-investment">Inversión</button>
-    <button class="tab-btn" data-tab="tab-housing">Vivienda</button>
-    <button class="tab-btn" data-tab="tab-growth">Crecimiento</button>
-    <button class="tab-btn" data-tab="tab-emae">Actividad real · ¿crecimiento o rebote?</button>
-    <button class="tab-btn" data-tab="tab-morosidad">Morosidad · ¿la gente puede pagar sus deudas?</button>
-    <button class="tab-btn" data-tab="tab-credit-mora">Del shock a la mora</button>
-    <button class="tab-btn" data-tab="tab-mora-causal">¿Qué explica la mora?</button>
-    <button class="tab-btn" data-tab="tab-mora-anatomy">Anatomía de la mora</button>
-    <button class="tab-btn" data-tab="tab-youth-credit">Jóvenes y crédito</button>
-    <button class="tab-btn" data-tab="tab-pendulo">Péndulo del poder económico</button>
-    <button class="tab-btn" data-tab="tab-roads">Rutas · ¿Público o privado?</button>
-    <button class="tab-btn" data-tab="tab-tourism">Vacaciones · Turismo</button>
-    <button class="tab-btn" data-tab="tab-debt-public">Deuda pública</button>
-    <button class="tab-btn" data-tab="tab-fiscal">Resultado fiscal</button>
-    <button class="tab-btn" data-tab="tab-trade">Balanza comercial</button>
-    <button class="tab-btn" data-tab="tab-bcra">BCRA · reservas y dólar</button>
-    <button class="tab-btn" data-tab="tab-debt-spiral">Espiral de deuda</button>
-    <button class="tab-btn" data-tab="tab-program">Programa y escenarios</button>
-    <button class="tab-btn" data-tab="tab-wealth-contribution">Grandes fortunas</button>
-    <button class="tab-btn" data-tab="tab-milei-cost">Lo que te robó Milei</button>
-    <button class="tab-btn" data-tab="tab-meli-benefits">Privilegios fiscales</button>
-    <button class="tab-btn" data-tab="tab-casta">La casta</button>
+  <div class="tabs" id="dash-main-tabs" aria-label="Pestañas del dashboard">
+    <button class="tab-btn active" type="button" data-tab="tab-story">La historia del dashboard</button>
+    <button class="tab-btn" type="button" data-tab="tab-power">Poder adquisitivo</button>
+    <button class="tab-btn" type="button" data-tab="tab-rates">Tasas e inflación</button>
+    <button class="tab-btn" type="button" data-tab="tab-pres">Inflación por presidencia</button>
+    <button class="tab-btn" type="button" data-tab="tab-poverty">Pobreza: nivel absoluto</button>
+    <button class="tab-btn" type="button" data-tab="tab-social">Asistencia social / transferencias</button>
+    <button class="tab-btn" type="button" data-tab="tab-gini">Desigualdad (Gini)</button>
+    <button class="tab-btn" type="button" data-tab="tab-structure">Más allá de la pobreza</button>
+    <button class="tab-btn" type="button" data-tab="tab-family">¿Cuánto necesita una familia?</button>
+    <button class="tab-btn" type="button" data-tab="tab-risk">Riesgo país</button>
+    <button class="tab-btn" type="button" data-tab="tab-bigmac">Índice Big Mac</button>
+    <button class="tab-btn" type="button" data-tab="tab-wholesale">Precios mayoristas</button>
+    <button class="tab-btn" type="button" data-tab="tab-health-education">Salud y educación</button>
+    <button class="tab-btn" type="button" data-tab="tab-consumption">Consumo</button>
+    <button class="tab-btn" type="button" data-tab="tab-work">Trabajo</button>
+    <button class="tab-btn" type="button" data-tab="tab-investment">Inversión</button>
+    <button class="tab-btn" type="button" data-tab="tab-housing">Vivienda</button>
+    <button class="tab-btn" type="button" data-tab="tab-growth">Crecimiento</button>
+    <button class="tab-btn" type="button" data-tab="tab-emae">Actividad real · ¿crecimiento o rebote?</button>
+    <button class="tab-btn" type="button" data-tab="tab-morosidad">Morosidad · ¿la gente puede pagar sus deudas?</button>
+    <button class="tab-btn" type="button" data-tab="tab-credit-mora">Del shock a la mora</button>
+    <button class="tab-btn" type="button" data-tab="tab-mora-causal">¿Qué explica la mora?</button>
+    <button class="tab-btn" type="button" data-tab="tab-mora-anatomy">Anatomía de la mora</button>
+    <button class="tab-btn" type="button" data-tab="tab-youth-credit">Jóvenes y crédito</button>
+    <button class="tab-btn" type="button" data-tab="tab-pendulo">Péndulo del poder económico</button>
+    <button class="tab-btn" type="button" data-tab="tab-roads">Rutas · ¿Público o privado?</button>
+    <button class="tab-btn" type="button" data-tab="tab-tourism">Vacaciones · Turismo</button>
+    <button class="tab-btn" type="button" data-tab="tab-debt-public">Deuda pública</button>
+    <button class="tab-btn" type="button" data-tab="tab-fiscal">Resultado fiscal</button>
+    <button class="tab-btn" type="button" data-tab="tab-trade">Balanza comercial</button>
+    <button class="tab-btn" type="button" data-tab="tab-bcra">BCRA · reservas y dólar</button>
+    <button class="tab-btn" type="button" data-tab="tab-debt-spiral">Espiral de deuda</button>
+    <button class="tab-btn" type="button" data-tab="tab-program">Programa y escenarios</button>
+    <button class="tab-btn" type="button" data-tab="tab-wealth-contribution">Grandes fortunas</button>
+    <button class="tab-btn" type="button" data-tab="tab-milei-cost">Lo que te robó Milei</button>
+    <button class="tab-btn" type="button" data-tab="tab-meli-benefits">Privilegios fiscales</button>
+    <button class="tab-btn" type="button" data-tab="tab-casta">La casta</button>
   </div>
 
   <section id="tab-story" class="tab-panel active">
@@ -14800,8 +14817,11 @@ const structureFederalData = {
 };
 
 function activateTab(tabId){
-  const btn=[...document.querySelectorAll('.tab-btn')].find(b=>b.dataset.tab===tabId);
-  if(btn) btn.click();
+  const btn=[...document.querySelectorAll('#dash-main-tabs .tab-btn, .tabs .tab-btn')].find(b=>b.dataset.tab===tabId);
+  if(!btn)return;
+  btn.hidden=false;
+  btn.click();
+  requestAnimationFrame(()=>{syncDashNavigation();keepActiveDashTabInView();});
 }
 
 function activateTabAndScroll(tabId, elementId){
@@ -15124,6 +15144,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
     btn.classList.add('active');
     syncDashNavigation();
+    requestAnimationFrame(keepActiveDashTabInView);
     document.getElementById(btn.dataset.tab).classList.add('active');
     window.dispatchEvent(new Event('resize'));
     setTimeout(() => {
@@ -15271,24 +15292,39 @@ const DASH_TAB_GROUPS={
   power:['tab-pendulo','tab-rates','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-wealth-contribution','tab-milei-cost','tab-meli-benefits','tab-casta']
 };
 let dashNavGroup='featured';
+function dashVisibleButtons(){return [...document.querySelectorAll('#dash-main-tabs .tab-btn:not([hidden])')];}
 function syncDashNavigation(){
+  const tabs=document.getElementById('dash-main-tabs')||document.querySelector('.tabs');
+  if(!tabs)return;
   const allowed=DASH_TAB_GROUPS[dashNavGroup]||[];
-  document.querySelectorAll('.tabs .tab-btn').forEach(btn=>{
+  const buttons=[...tabs.querySelectorAll('.tab-btn')];
+  buttons.forEach(btn=>{
     const active=btn.classList.contains('active');
     const inGroup=dashNavGroup==='all'||allowed.includes(btn.dataset.tab);
     btn.hidden=!(inGroup||active);
     btn.classList.toggle('outside-group',active&&!inGroup&&dashNavGroup!=='all');
   });
+  // Fallback defensivo: una categoría nunca puede dejar el menú vacío.
+  if(!buttons.some(btn=>!btn.hidden))buttons.forEach(btn=>{btn.hidden=false;btn.classList.remove('outside-group');});
   document.querySelectorAll('.dash-topic-btn').forEach(btn=>{
     const active=btn.dataset.dashGroup===dashNavGroup;
     btn.classList.toggle('active',active);
     btn.setAttribute('aria-pressed',String(active));
   });
 }
+function keepActiveDashTabInView(){
+  const tabs=document.getElementById('dash-main-tabs');
+  const active=tabs?.querySelector('.tab-btn.active:not([hidden])');
+  if(!tabs||!active)return;
+  const left=active.offsetLeft-tabs.offsetLeft;
+  const right=left+active.offsetWidth;
+  if(left<tabs.scrollLeft)tabs.scrollTo({left:Math.max(0,left-12),behavior:'smooth'});
+  else if(right>tabs.scrollLeft+tabs.clientWidth)tabs.scrollTo({left:Math.max(0,right-tabs.clientWidth+12),behavior:'smooth'});
+}
 document.querySelectorAll('.dash-topic-btn').forEach(btn=>btn.addEventListener('click',()=>{
-  dashNavGroup=btn.dataset.dashGroup;
+  dashNavGroup=btn.dataset.dashGroup||'featured';
   syncDashNavigation();
-  document.querySelector('.tabs .tab-btn:not([hidden])')?.scrollIntoView({behavior:'smooth',block:'nearest',inline:'nearest'});
+  keepActiveDashTabInView();
 }));
 
 function moveHorizontalMenuWithWheel(menu,event){
