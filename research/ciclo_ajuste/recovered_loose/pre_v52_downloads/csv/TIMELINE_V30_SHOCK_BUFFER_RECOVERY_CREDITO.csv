@@ -1,0 +1,13 @@
+﻿orden,fecha,evento,canal,interpretacion
+1,2023-12,shock de precios / ingreso,shock,t0
+2,2024-01,AUH +100%,proteccion_social,activación temprana
+3,2024-02,Alimentar ~duplica montos,proteccion_social,activación temprana
+4,2024-03,piso salarial aproximado,labor,comienza fase de recuperación
+5,2024-04,actividad encuentra piso; crédito promedio revierte,macro_credito,segunda fase
+6,2024-05,crédito privado real vuelve a expandirse fuerte,credito,puente/acelerador posterior
+7,2024-1S,"pobreza 52,9%; indigencia 18,1%",social,buffer inicial insuficiente
+8,2024-Q2-Q4,empleo/salarios + desinflación + transferencias + crédito,multi_channel,recovery
+9,2024-2S,"pobreza 38,1%; indigencia 8,2%",social,recovery multidimensional
+10,2024-late,AUH+Alimentar ~100% CBA,proteccion_social,buffer realizado más potente
+11,2025-03,"servicio deuda 18,7% masa salarial formal",deuda,residuo financiero
+12,2025-2026,mora aumenta,deuda,materialización rezagada

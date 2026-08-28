@@ -1,0 +1,5 @@
+﻿episode,bridge,ROA_gap,sum_broad_component_gaps,residual,status,notes
+2014,FY2014_vs_FY2013_EXACT,0.7,0.7,0.0,RECONCILES,Exact broad bridge; margin subcomponents not double-counted.
+2014,Q2_2014_vs_Q2_2013_PARTIAL,0.8,,,PARTIAL_ONLY,"Margin +1.5 exact; services/incobrability exact benchmark not frozen, so no forced reconciliation."
+2018,H1_2018_vs_H1_2017_BROAD,0.4,0.4,-0.0,RECONCILES_WITH_DERIVED_RESIDUAL,"Residual +0.3pp is explicitly derived, not directly read as a component."
+2023,Q4_2023_vs_Q3_2023_EXACT_HOMOGENEOUS,9.0,8.8,0.2,RECONCILES_WITH_ROUNDING,0.2pp residual consistent with rounded published component values.

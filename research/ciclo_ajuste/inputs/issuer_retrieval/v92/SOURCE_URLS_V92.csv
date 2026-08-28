@@ -1,0 +1,5 @@
+﻿entity_or_item,period_or_role,url,status,note
+Nuevo Banco del Chaco,FY2023 separated official publication,https://chaco.gov.ar/uploads/boletines/25-03-24-11076-660183ddcbb40676491772.pdf,used; binary preserved,"official Provincia del Chaco bulletin; separated NBCH Annex Q gives BCRA 27,741,649k / other-FI 518k pass income and no pass-expense line | local=/research/ciclo_ajuste/inputs/issuer_retrieval/v92/binaries/019_25-03-24-11076-660183ddcbb40676491772.pdf; sha256=cdb1f7723693f0129d743dbcd9e92d372b0f14c3e08954a02287106fc5dae5a4"
+Nuevo Banco del Chaco,official 2023 reports category,https://www.nbch.com.ar/documentos/categoria/informes-2023,used_context,NBCH official document index confirms FY2023 reporting set
+HSBC,CNV Sep publicview,https://aif2.cnv.gov.ar/presentations/publicview/d483d33a-5c86-4fbb-ab9c-6528bf43f572,manual target,individual Sep 2023 presentation
+Banco BMA / ex-Itaú,CNV Sep publicview,https://aif2.cnv.gov.ar/presentations/publicview/9d3ded55-6d87-4ca2-9feb-920d961f3acd,manual target,attachment body not recovered; no promotion

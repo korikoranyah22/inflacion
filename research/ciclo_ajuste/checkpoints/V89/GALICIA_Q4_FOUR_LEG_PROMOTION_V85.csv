@@ -1,0 +1,4 @@
+entity,basis,period,income_bcra,expense_bcra,income_otherfi,expense_otherfi,unit,quality,source_logic
+Banco de Galicia y Buenos Aires SAU,INDIVIDUAL,9M-2023,149917156.0,0,9897718.0,3419619.0,thousand_ARS_Sep2023_homogeneous,EXACT_OFFICIAL_ISSUER,"Issuer Note 18: pass expense total equals explicit Other Financial Institutions subline, hence BCRA expense=0."
+Banco de Galicia y Buenos Aires SAU,INDIVIDUAL,FY-2023,458304594.0,0,21322852.0,6664091.0,thousand_ARS_Dec2023_homogeneous,EXACT_OFFICIAL_ISSUER,"Issuer annual interest opening: pass expense total equals explicit Other Financial Institutions subline, hence BCRA expense=0."
+Banco de Galicia y Buenos Aires SAU,INDIVIDUAL,Q4-2023,228495363.41333684,0,6150559.389648143,1422129.1574905645,thousand_ARS_Dec2023_homogeneous,EXACT_FROM_OFFICIAL_9M_AND_FY_HOMOGENEOUS_DIFFERENCING,FY_Dec - 9M_Sep * frozen IPC factor

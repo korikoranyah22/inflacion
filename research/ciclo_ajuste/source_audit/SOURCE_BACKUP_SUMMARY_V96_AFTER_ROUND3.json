@@ -1,0 +1,25 @@
+{
+  "checkpoint": "V96",
+  "date": "2026-08-28",
+  "numeric_state_changed": false,
+  "master_catalog_entries": 189,
+  "master_catalog_local": 181,
+  "local_exists": 181,
+  "local_sha256_match": 181,
+  "round3_requested": 26,
+  "round3_download_ok": 25,
+  "round3_ingested": 25,
+  "round3_failed": 1,
+  "remaining_physical_gaps": 8,
+  "remaining_failed_direct_binary": 1,
+  "remaining_page_snapshot_or_manual": 7,
+  "p0": 0,
+  "p1": 0,
+  "github_safe_files_over_50_mib": 0,
+  "notes": [
+    "Round 3 ingested only DOWNLOAD_OK payload members after size, PDF magic and SHA-256 revalidation.",
+    "bcra_boldat202505_tipo_titular remains unresolved because the legacy www7.bcra.gob.ar host does not resolve.",
+    "The seven remaining page/reference sources were not falsely promoted: no exact physical page snapshot/binary has been preserved.",
+    "Numeric V96 remains frozen and unchanged."
+  ]
+}

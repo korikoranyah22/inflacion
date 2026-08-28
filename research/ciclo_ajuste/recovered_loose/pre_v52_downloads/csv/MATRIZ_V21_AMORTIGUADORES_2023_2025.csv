@@ -1,0 +1,10 @@
+canal,periodo_pre,periodo_shock,periodo_recuperacion,lectura,estado
+uso_ahorros_hogares,"2S23=35.3%","1S24=40.1%","2S24=38.9%;1S25=37.4%","máximo de serie en pozo inicial",EARLY_DISSAVING_BUFFER
+prestamos_bancos_financieras_hogares,"2S23=12.3%","1S24=11.9%","2S24=13.1%;1S25=14.2%","expansión posterior al pozo",LATE_CREDIT_BRIDGE
+planes_subsidios_ayuda_dinero,"2S23=15.3%","1S24=14.1%","2S24=14.0%;1S25=14.6%","cobertura estable; no expansión extensiva",STABLE_EXTENSIVE_MARGIN
+auh_alimentar_cobertura_cba,"dic23=54.8%","2024 subas reales","dic24=100%;ene25=100.7%","fuerte intensidad focalizada",TARGETED_INTENSIVE_BUFFER
+salario_total_registrado,"nov23=100","ene24=84.47","jun26=91.78","no recupera",NO_RECOVERY
+salario_total_amplio,"nov23=100","mar24=83.25","may25=101.17","recupera con fuentes heterogéneas",RECOVERED
+pobreza_personas,"2S23=41.7%","1S24=52.9%","2S24=38.1%","recovery antes del salario total",EARLY_SOCIAL_RECOVERY
+consumo_privado,"2023=100","1S24 caída","3T24 rebote;2025>2023","recupera antes/acompañando crédito fuerte",RECOVERY_WITH_MULTIPLE_BUFFERS
+servicio_deuda,"~9% inicio24","sube durante recuperación","mar25=18.7%","residuo del puente",LAGGED_FINANCIAL_RESIDUAL

@@ -1,0 +1,7 @@
+﻿metric,value,unit,notes
+August daily mean TNA,42.3782,pct,22 business-day observations
+September daily mean TNA,42.6091,pct,22 business-day observations
+September minus August,0.2309,pp,"small positive difference, not a rate collapse"
+Welch t statistic,1.3694,,descriptive QA only
+Welch p-value,0.178163,,descriptive QA only; not a causal test
+BCRA reported Sep monthly mean,42.6,pct,Informe Monetario Sep-2016

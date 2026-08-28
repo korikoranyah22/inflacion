@@ -1,0 +1,18 @@
+﻿fecha_periodo,evento,dimension,estado,valor,lectura
+2023-12,shock / IPC,macro,OBSERVED,"IPC mensual 25,5%",shock inflacionario
+2023-2S,pobreza personas,social,OBSERVED,"41,7%",baseline semestral
+2023-12,AUH+Alimentar/CBA,transfer,OFFICIAL_DERIVED,"54,8%",intensidad para universo beneficiario
+2024-01,AUH,transfer,POLICY_EFFECTIVE,+100%,respuesta nominal temprana
+2024-02,Alimentar,transfer,POLICY_EFFECTIVE,aprox x2 por tramo,respuesta alimentaria temprana
+2024-03,salarios,labor,BCRA_SUMMARY,piso aproximado,recuperación real inicia desde piso
+2024-04,actividad/saldo crédito promedio,macro_credit,BCRA_SUMMARY,revierte contracción,inicio segunda fase
+2024-05,crédito privado pesos,credit,OBSERVED,"+8,5% real mensual",primer fuerte rebote tras 6 meses de caída
+2024-1S,pobreza personas,social,OBSERVED,"52,9%",falsifica neutralización temprana
+2024-1S,indigencia personas,social,OBSERVED,"18,1%",falsifica neutralización temprana
+2024-Q2,empleo/salarios,labor,BCRA_SUMMARY,onset recuperación,canal de recuperación
+2024-2S,pobreza personas,social,OBSERVED,"38,1%",recuperación social fuerte
+2024-2S,indigencia personas,social,OBSERVED,"8,2%",recuperación social fuerte
+2024-late,AUH+Alimentar/CBA,transfer,OFFICIAL_DERIVED,~100%,mayor intensidad real
+2024-12,IPC,macro,OBSERVED,"2,7% mensual",desinflación
+2025-03,servicio deuda/masa salarial registrada,financial_residual,OBSERVED,"18,7%",+6pp 6m; +9pp ia
+2025-2026,mora hogares,financial_residual,OBSERVED,creciente,residuo financiero con rezago

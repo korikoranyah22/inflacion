@@ -1,0 +1,18 @@
+periodo,producto,metrica,valor,unidad,estado
+2023-12,FCD,cuentas_con_saldo,13.8,millones,OBSERVADO_BCRA
+2024-06,FCD,cuentas_con_saldo,18.6,millones,OBSERVADO_BCRA
+2024-06,FCD,cobertura_cuentas_pago,51.7,%,ESTIMADO_BCRA
+2024-12,FCD,cuentas_con_saldo,22.4,millones,OBSERVADO_BCRA
+2024-12,FCD,cobertura_cuentas_pago,53.7,%,ESTIMADO_BCRA
+2025-06,FCD,cuentas_con_saldo,26.0,millones,OBSERVADO_BCRA
+2025-06,FCD,cobertura_cuentas_pago,56.3,%,ESTIMADO_BCRA
+2023-12,plazo_fijo,titulares_PH,4.3,millones,ESTIMADO_BCRA
+2024-06,plazo_fijo,titulares_PH,2.9,millones,ESTIMADO_BCRA
+2024-06,plazo_fijo,cobertura_cuentahabientes,3.7,%,ESTIMADO_BCRA
+2025-06,plazo_fijo,titulares_PH,2.4,millones,ESTIMADO_BCRA
+2025-06,plazo_fijo,cobertura_cuentahabientes,2.8,%,ESTIMADO_BCRA
+2023-06_a_2024-06,plazo_fijo,saldo_promedio_real,-40,%,OBSERVADO_BCRA
+2024-06_a_2025-06,plazo_fijo,saldo_promedio_real,59,%,OBSERVADO_BCRA
+2025-06,plazo_fijo,saldo_promedio_titular,7,millones ARS constantes,OBSERVADO_BCRA
+2025-06,credito_PH,deudores,19.5,millones,OBSERVADO_BCRA
+2025-01_a_2025-06,credito_PH,saldo_promedio_deudor,19,% real,OBSERVADO_BCRA

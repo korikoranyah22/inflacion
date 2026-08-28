@@ -1,0 +1,6 @@
+﻿entity_or_item,period_or_role,url,status,note
+Banco de La Pampa S.E.M.,FY2023 official issuer Memoria/Balance Annex Q,https://www.bancodelapampa.com.ar/files/files/Dise%C3%B1o%20Memoria%20y%20Balance%20General%202023%20web.pdf,used; binary preserved,"Annex Q p.95: BCRA pass income 54,227,326k; other-FI income 0; other-FI pass expense 5,110k; BCRA pass expense 0 | local=/research/ciclo_ajuste/inputs/issuer_retrieval/v93/binaries/008_Diseño Memoria y Balance General 2023 web.pdf; sha256=dd4917c72be07ffb3cfdc06481330233f2e5a62cce0c84dcaf67423ee8d4720d"
+Banco de La Pampa S.E.M.,CNV registry individual Sep filing,https://www.cnv.gov.ar/SitioWeb/RegistrosPublicos/DetallesRegistrosPublicos/30622?tipoEntidadId=2,used_context,30/09/2023 filing #3121031 listed as TIPO BALANCE INDIVIDUAL
+Banco de La Pampa S.E.M.,CNV Sep publicview #3121031,https://aif2.cnv.gov.ar/Presentations/publicview/15298564-F56D-495D-A7C6-0DEDC1A77882,identified,publicview identifies filing; static attachment body not required for promotion
+HSBC,CNV Sep publicview,https://aif2.cnv.gov.ar/presentations/publicview/d483d33a-5c86-4fbb-ab9c-6528bf43f572,manual target,individual Sep 2023 presentation
+Banco BMA / ex-Itaú,CNV Sep publicview,https://aif2.cnv.gov.ar/presentations/publicview/9d3ded55-6d87-4ca2-9feb-920d961f3acd,manual target,attachment body not recovered; no promotion

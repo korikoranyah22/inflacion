@@ -1,0 +1,197 @@
+{
+  "checkpoint": "V87",
+  "created_utc": "2026-08-28T10:41:53.846544+00:00",
+  "parent_checkpoint": "V86",
+  "strict_coverage_pct": 50.24988528604593,
+  "strict_asset_numerator_million_ars": 48590481.063,
+  "promotion_count": 3,
+  "promoted": [
+    "Banco Patagonia S.A.",
+    "CITIBANK N.A.",
+    "Banco Supervielle S.A."
+  ],
+  "milestone": "FIRST_STRICT_MAJORITY_ASSET_COVERAGE",
+  "closed_network_gate": "NO",
+  "files": [
+    {
+      "file": "ANNEX_Q_FREQUENCY_CORRECTION_V86.md",
+      "size_bytes": 860,
+      "sha256": "f6d67713ef9db5a717fad5bcfdb6ff4864ffa5ba1cafb9f5fc9b43fdc0e01318"
+    },
+    {
+      "file": "AUDITORIA_V87.md",
+      "size_bytes": 3044,
+      "sha256": "b7b38e507c98b2e75c6718cdd601ba2bfa70182897054b673523045f4f11b223"
+    },
+    {
+      "file": "BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv",
+      "size_bytes": 672,
+      "sha256": "a2d5fea7c2fab9d6b978f8bc57d4ff66f4ed2b9e1e608557e3432536539184da"
+    },
+    {
+      "file": "BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv",
+      "size_bytes": 1361,
+      "sha256": "18bfd71efbd783a0ca8bdb8a5702d280ff0e6ea84aef27370464c855278bf8f0"
+    },
+    {
+      "file": "BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv",
+      "size_bytes": 970,
+      "sha256": "4a8a22fe770a1ecafbd0ff401b94d4cff0c13147ec9c9d3a75d813f5694576b7"
+    },
+    {
+      "file": "BCRA_63_BANK_RAW_SWEEP_V85.csv",
+      "size_bytes": 13985,
+      "sha256": "58ac95e18318685cd1f4b7036f42c4e5cc25785e74f62a290479708529f643c6"
+    },
+    {
+      "file": "BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "file": "BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "file": "BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "size_bytes": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "file": "BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md",
+      "size_bytes": 1322,
+      "sha256": "ddbe0b670b9caeec300aadfa3b998e9a4b8a836be0616ecb5ef4536ec15ccd41"
+    },
+    {
+      "file": "BNA_521007_HISTORY_V85.csv",
+      "size_bytes": 1176,
+      "sha256": "2825d9dcc099d7a85610104dc7423cadf3566ee1b7b10ff0396589530dd8ea81"
+    },
+    {
+      "file": "BNA_521007_PRESENTATION_AUDIT_V85.md",
+      "size_bytes": 669,
+      "sha256": "507ac83370a8d36d72bd09a478fdefd912eab6d187ac29bf586c287762a06860"
+    },
+    {
+      "file": "BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md",
+      "size_bytes": 803,
+      "sha256": "ef0c99c84c6ddcdbde0786c92b9cd3360d7ac3d9ede18f39d733e5d679eea068"
+    },
+    {
+      "file": "BNA_STATUS_V87.md",
+      "size_bytes": 795,
+      "sha256": "0c5d414d9809a7250e5bf101f0f32e7750961dec1b8363bc1c240a3bc7e4a687"
+    },
+    {
+      "file": "CITI_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "size_bytes": 723,
+      "sha256": "b83659122e69c3fc4ac5c7f9a8213fe3a37063a0c467c7496f896b2d54afbcbb"
+    },
+    {
+      "file": "CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "size_bytes": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "file": "CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "file": "CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "file": "CURRENT_STATE_V87.csv",
+      "size_bytes": 2848,
+      "sha256": "276eb7a6fd0d0cb2225e5a890d596d2d9b51d6984646284055d4d31efd5772f0"
+    },
+    {
+      "file": "FOUR_LEG_PASS_PANEL_V87.csv",
+      "size_bytes": 9652,
+      "sha256": "d5799f3719bfd147e7642b4ee0e6be3838075fa76536e93930b9fffd61a20ed9"
+    },
+    {
+      "file": "GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv",
+      "size_bytes": 874,
+      "sha256": "81094074e0899ae32bafa655bc02318066c9e07a201ea4ec08cafb6c81d972a2"
+    },
+    {
+      "file": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V87_A_V88.md",
+      "size_bytes": 2437,
+      "sha256": "987f6cdcd058b045c75e09b60390da70018a207d8f65a35c1c8f1bcae757ac7b"
+    },
+    {
+      "file": "PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "size_bytes": 745,
+      "sha256": "5a9b7dd48247a4bdba3fdbad83bd2a7eb770a831c16fde883cd25841134b8018"
+    },
+    {
+      "file": "RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv",
+      "size_bytes": 1844,
+      "sha256": "9abf234aad7e7a479fcda54bf423d5645fb18dd4fc3eb9f85d3e5dcf347388c2"
+    },
+    {
+      "file": "README_V87.md",
+      "size_bytes": 656,
+      "sha256": "52b86cdc8e8151b152bd9f13545c508d3f8d3d652efbaeb2ae2ec930850dfd65"
+    },
+    {
+      "file": "RECOVERY_QUEUE_V87.csv",
+      "size_bytes": 898,
+      "sha256": "0dbb764693ea04984060455b0c264c86ad42650de95854502cf1e82d5d12fe50"
+    },
+    {
+      "file": "SANTANDER_SEPARATED_9M_AUDIT_V87.md",
+      "size_bytes": 1051,
+      "sha256": "87987e680eddbca1067b12e78a3154dfd6d49821c52ac23627eb3ee6eb6c36b5"
+    },
+    {
+      "file": "SOURCE_REFERENCES_V87.md",
+      "size_bytes": 3760,
+      "sha256": "990b39082d3412ab32680e1c5116b8a6cec9ff8aeba3f2771e16e0e4a6d837ea"
+    },
+    {
+      "file": "STRICT_Q4_FOUR_LEG_COVERAGE_V87.csv",
+      "size_bytes": 990,
+      "sha256": "f76b1e35a90f9bc9bb42218984ed26394920f23a347e17d986cb04a8229c9388"
+    },
+    {
+      "file": "SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "size_bytes": 797,
+      "sha256": "243c87901a00e7fc2ed8c3de3c9b1cf967589c780d2c060a39f36a693e4da721"
+    },
+    {
+      "file": "USER_FILE_REQUESTS_V87.md",
+      "size_bytes": 330,
+      "sha256": "a2f5e079abe7ec24de545c423d0644e029ec328f88cf96d76ecdf84294fb3ae3"
+    },
+    {
+      "file": "V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "size_bytes": 1519,
+      "sha256": "7a4744a2f00967b161aef928b31f0a5394a19bc0d4e1452cc847b339d9021069"
+    },
+    {
+      "file": "VEREDICTO_V87.md",
+      "size_bytes": 1131,
+      "sha256": "a946f8fc5f4d83b6b36d54f0e9298d639310fdf25891d6dde80cb9e908a26039"
+    },
+    {
+      "file": "qa_v87.py",
+      "size_bytes": 1734,
+      "sha256": "3f5efcd89efc74449c7593102f2525ca4169ae9f870d2c882bbcaab542d5e707"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+periodo,metrica,valor,unidad,estado,nota
+2023-12_a_2024-06,stock_ahorro_inversion_PH,-20.6,% real,OBSERVADO_BCRA,precios constantes jun-2024
+2024-06,stock_ahorro_inversion_PH,37,billones ARS constantes jun-2024,OBSERVADO_BCRA,
+2024-05,stock_ahorro_inversion_PH_mensual,1.0,% real mensual,OBSERVADO_BCRA,inicio mejora fin semestre
+2024-06,stock_ahorro_inversion_PH_mensual,0.3,% real mensual,OBSERVADO_BCRA,
+2023-12_a_2024-06,saldo_plazo_fijo_PH,-34.3,% real,OBSERVADO_BCRA,
+2023-12,titulares_plazo_fijo_PH,4.3,millones,ESTIMADO_BCRA,
+2024-06,titulares_plazo_fijo_PH,2.9,millones,ESTIMADO_BCRA,
+2024-06,cuentahabientes_con_plazo_fijo,3.7,%,ESTIMADO_BCRA,
+2024-06,cuentas_pago_con_FCD,18.6,millones cuentas,OBSERVADO_BCRA,desde 13.8m dic-2023
+2024-06,tenedores_cuenta_pago_con_FCD,51.7,% aproximado,ESTIMADO_BCRA,
+2024-12,stock_ahorro_inversion_PH,59.5,billones ARS constantes,OBSERVADO_BCRA,
+2024-07_a_2024-12,stock_ahorro_inversion_PH,21.7,% real semestral,OBSERVADO_BCRA,
+2024-12,stock_ahorro_inversion_PH,5.5,% real interanual,OBSERVADO_BCRA,regularizacion activos incide en moneda extranjera
+2025-12,stock_ahorro_inversion_PH,10.4,% PIB,OBSERVADO_BCRA,
+2025-12,stock_ahorro_inversion_PH,12.4,% real interanual,OBSERVADO_BCRA,
+2025-12,titulares_plazo_fijo_PH,2.8,millones,ESTIMADO_BCRA,

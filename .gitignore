@@ -1,7 +1,11 @@
-# Fuentes BCRA locales que superan el límite de 100 MB por archivo de GitHub.
+# Copias crudas restaurables de fuentes grandes.
+# Las versiones canónicas trackeables están preservadas como .zip (<50 MiB).
+# Ejecutar RESTORE_LARGE_SOURCES.ps1 para recrear estos originales localmente.
 /data/fuentes/tasas/bcra/tas1_ser.txt
 /data/fuentes/tasas/bcra/tas2_ser.txt
 
 # Laboratorio local de responsive.
 /responsive-lab/node_modules/
 /responsive-lab/dist/
+/data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_din4_ser.txt
+/research/ciclo_ajuste/inputs/issuer_retrieval/v95/binaries/007_118254.pdf

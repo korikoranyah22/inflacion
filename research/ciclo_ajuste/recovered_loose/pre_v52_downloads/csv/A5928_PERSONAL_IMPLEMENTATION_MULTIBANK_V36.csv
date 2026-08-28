@@ -1,0 +1,8 @@
+﻿bank,personal_loan_post_evidence,pricing_post_clean,documentary_rule,evidence_strength,notes
+Banco Columbia,YES_MATCHED_PREPOST,YES,YES,MEDIUM_HIGH,23 pares personales V34; residuo sobre TNA+IVA cae a ~0.
+BBVA Banco Francés,YES_PRIMARY_PDF_POST,YES,IMPLIED_BY_COMPONENTS,HIGH_POST_ONLY,"Sep y Nov 2016: CFTNA 43.62, TNA36, CFTNA sin IVA36; sólo interés+IVA."
+Banco Galicia,YES_DOCUMENTARY,N/D_HISTORICAL,YES,HIGH_DOCUMENTARY,Página oficial: préstamos personales no tienen seguro de vida desde 01/09/2016.
+Santander Río,YES_DOCUMENTARY,N/D_HISTORICAL,YES,HIGH_DOCUMENTARY,Página legal: no cargo post; operaciones anteriores siguen seguro pactado.
+Banco Macro,YES_DOCUMENTARY,N/D_HISTORICAL,YES,MEDIUM_HIGH_DOCUMENTARY,Acuerdo identifica cobro pre-corte; términos posteriores ponen costo en banco.
+Banco Coinag,YES_DOCUMENTARY,N/D,YES,HIGH_DOCUMENTARY,Página oficial distingue operaciones pre/post 01/09/2016.
+Nuevo Banco del Chaco,YES_DOCUMENTARY,N/D,YES,HIGH_DOCUMENTARY,Página oficial aplica A5928 a personales/prendarios desde 01/09/2016.

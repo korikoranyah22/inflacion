@@ -1,0 +1,3 @@
+﻿source_id,class,reason
+santander_cnv_filings_2023,DISCOVERY_INDEX_NO_BINARY_OBJECT,CNV landing is an index; underlying 9M/FY filings are preserved and byte-verified against official CNV downloads.
+todosobrelamora_cruce,SECONDARY_ANALYTICAL_WEB_REFERENCE,Secondary site used as an analytical target/cross-check; not a physical source-backup requirement. Preserve primary cited sources separately.

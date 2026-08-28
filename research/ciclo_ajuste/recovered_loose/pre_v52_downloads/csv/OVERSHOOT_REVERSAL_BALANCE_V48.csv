@@ -1,0 +1,11 @@
+﻿episode,phase,period,metric,value,unit,sign,interpretation
+2014,INITIAL_OVERSHOOT,2014-01,resultado total,10265.0,ARS million nominal,POSITIVE,"Large initial monthly accounting profit, heavily FX/valuation-linked."
+2014,NORMALIZATION_TO_TROUGH,2014-02_to_04,resultado total,8137.0,ARS million nominal cumulative,POSITIVE,"ROA falls sharply, but total accounting result remains positive in aggregate."
+2014,POST_TROUGH_TO_STRICT_RECOVERY,2014-05_to_07,resultado total,10672.0,ARS million nominal cumulative,POSITIVE,"Additional positive result carries cumulative Jan-Jul to 29,074m."
+2018,CUMULATIVE_PRE_OVERSHOOT_WINDOW,2018-01_to_05,cumulative ROA,3.2,%a average net assets nominal,POSITIVE,Cumulative profit remains positive at the initial FX-overshoot phase.
+2018,CUMULATIVE_AT_DRAWDOWN,2018-01_to_11,cumulative ROA,3.8,%a average net assets nominal,POSITIVE,November monthly drawdown does not erase accumulated result.
+2018,FULL_YEAR,2018-01_to_12,annual ROA,3.9,% average net assets nominal,POSITIVE,December rebound and prior gains leave the full year positive.
+2023_24,INITIAL_OVERSHOOT,2023-Q4,quarter-equivalent ROA contribution,3.025,percentage points of assets approx,POSITIVE,Derived from 12.1% annualized quarterly ROA / 4.
+2023_24,POST_OVERSHOOT,2024-Q1,quarter-equivalent ROA contribution,1.4,percentage points of assets approx,POSITIVE,Same homogeneous-currency table vintage.
+2023_24,POST_OVERSHOOT,2024-Q2,quarter-equivalent ROA contribution,1.85,percentage points of assets approx,POSITIVE,Profit rate remains positive though below Q4 overshoot.
+2023_24,DRAWDOWN,2024-Q3,quarter-equivalent ROA contribution,0.475,percentage points of assets approx,POSITIVE,"ROA is only 1.9%a, but quarter contribution remains positive."

@@ -1,0 +1,74 @@
+{
+  "audit_date": "2026-08-28",
+  "repo_checkpoint": "V96",
+  "master_catalog": {
+    "entries": 136,
+    "explicit_local_entries": 67,
+    "explicit_local_existing": 67,
+    "explicit_local_hash_ok": 67,
+    "reference_only_entries": 69,
+    "reference_only_direct_binary_urls": 27,
+    "direct_binary_found_elsewhere_by_filename": 1,
+    "direct_binary_gap_count": 26
+  },
+  "checkpoint_source_docs": {
+    "unique_direct_binary_urls": 90,
+    "local_filename_matches": 12,
+    "no_local_filename_match_heuristic": 78
+  },
+  "late_issuer_registry_v89_v96": {
+    "unique_urls": 41,
+    "not_in_master_catalog": 40,
+    "direct_binary_urls": 27,
+    "local_filename_matches": 4,
+    "direct_binary_gap_count": 23
+  },
+  "source_tree_counts": {
+    "data_fuentes": {
+      "files": 470,
+      "bytes": 509186177,
+      "extensions": {
+        ".csv": 15,
+        ".md": 16,
+        ".xlsx": 11,
+        ".pdf": 17,
+        ".html": 10,
+        ".xls": 383,
+        ".txt": 10,
+        ".json": 2,
+        ".js": 5,
+        ".zip": 1
+      }
+    },
+    "research_inputs": {
+      "files": 29,
+      "bytes": 95923653,
+      "extensions": {
+        ".pdf": 15,
+        ".csv": 8,
+        ".7z": 3,
+        ".xlsx": 3
+      }
+    }
+  },
+  "notes": [
+    "Checkpoint-source-doc absence is filename-based heuristic; renamed binaries can create false positives.",
+    "V89-V96 issuer registries are stronger because preservation/status fields explicitly record whether binaries were recovered."
+  ],
+  "archaeology_batches": [
+    {
+      "batch": 1,
+      "date": "2026-08-28",
+      "carriers": 20,
+      "zip_carriers": 15,
+      "seven_zip_carriers": 5,
+      "historical_source_binary_occurrences": 838,
+      "unique_historical_source_sha256": 415,
+      "historical_binary_occurrences_already_in_current_repo_sha256": 838,
+      "new_unique_source_binary_sha256": 0,
+      "gap_count_before": 49,
+      "gap_count_after": 49,
+      "gaps_closed": 0
+    }
+  ]
+}

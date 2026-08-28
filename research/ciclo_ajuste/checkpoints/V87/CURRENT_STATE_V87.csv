@@ -1,0 +1,14 @@
+entity,target_basis,fy_status,nine_month_status,q4_four_leg_status,strict_panel_status,priority,next_action
+Industrial and Commercial Bank of China (Argentina) S.A.U.,INDIVIDUAL_STANDALONE,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco de Valores S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Macro S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain; V84 raw crosscheck exact on income legs and total pass expense
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE6_EXACT_CROSSWALK,EXACT,ELIGIBLE,CLOSED,retain; V84 raw 511108 exact crosscheck
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE14_15_EXACT,EXACT,ELIGIBLE,CLOSED,retain; V84 raw 511108/521022 exact crosscheck
+Banco Ciudad de Buenos Aires,INDIVIDUAL_ENTITY_REGULATORY,BCRA_RAW_DEC_EXACT,BCRA_RAW_SEP_EXACT,EXACT,ELIGIBLE,CLOSED_V84,retain; raw account bridge independent of issuer consolidated control
+Banco de la Nacion Argentina,SEPARATED_INDIVIDUAL / INDIVIDUAL_REGULATORY_CONTROL,FY_EXACT_SEPARATED; RAW_DEC_CROSSCHECK_DIVERGES_ON_521007,OFFICIAL_9M_CONDENSED_STOCK + RAW_SEP_RESULT_ACCOUNTS; PRESENTATION_CROSSWALK_INCOMPLETE,N/D_STRICT,PENDING,1,seek separated 30/09/2023 interest opening or explicit subaccount-to-presentation mapping; do not classify 521007 by name
+Banco de Galicia y Buenos Aires SAU,INDIVIDUAL,OFFICIAL_ISSUER_EXACT,OFFICIAL_ISSUER_EXACT,EXACT,ELIGIBLE,CLOSED_V85,retain; issuer presentation explicitly verifies BCRA expense zero; do not generalize raw mapping
+Banco Santander Argentina SA,SEPARATED_INDIVIDUAL,FY_EXACT_ANNEX_Q,OFFICIAL_SEPARATED_9M_PASS_TOTAL_EXACT_BUT_COUNTERPARTY_SPLIT_MISSING,N/D_STRICT,PENDING,2,seek explicit 9M BCRA-vs-otherFI presentation below the published total; raw total reconciles but six-digit mapping remains non-universal
+Banco BBVA Argentina S.A.,INDIVIDUAL_ENTITY_REGULATORY,BCRA_RAW_DEC_EXACT_WITH_ENTITY_SPECIFIC_ANNUAL_ISSUER_Q_MAPPING,BCRA_RAW_SEP_EXACT_RECONCILED_TO_SEPARATE_ISSUER_NOTES_26_27,EXACT,ELIGIBLE,CLOSED_V86,retain; preserve sub-thousand negative otherFI-income Q4 rounding residual; do not generalize mapping to other banks
+Banco Patagonia S.A.,SEPARATED_INDIVIDUAL,OFFICIAL_SEPARATED_NOTES_AND_ANNEXQ_EXACT,OFFICIAL_SEPARATED_NOTES_21_22_EXACT_RAW_RECONCILED,EXACT,ELIGIBLE,CLOSED_V87,retain; entity-specific crosswalk validated
+CITIBANK N.A.,INDIVIDUAL_BRANCH_ISSUER,OFFICIAL_NOTE25_AND_ANNEXQ_EXACT,OFFICIAL_NOTE25_EXPLICIT_COUNTERPARTY_SPLIT,EXACT,ELIGIBLE,CLOSED_V87,retain; issuer presentation primary
+Banco Supervielle S.A.,SEPARATED_INDIVIDUAL,OFFICIAL_SEPARATED_ANNEXQ_EXACT_RAW_CROSSWALK,OFFICIAL_SEPARATED_PASS_TOTALS + ENTITY_SPECIFIC_RAW_ACCOUNT_SET,EXACT,ELIGIBLE,CLOSED_V87,retain; prior bound collapsed to point

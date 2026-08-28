@@ -1,0 +1,15 @@
+﻿episode,benchmark_definition,observed_window,metric,observed_result,benchmark_result,abnormal_gap,unit,status,confidence,benchmark_period,source,notes
+2014,Q2 same-quarter YoY,2014-Q2,quarterly ROA annualized,3.4,2.6,0.8,pp,ABNORMAL_POSITIVE,HIGH,Q2-2013,BCRA Jun-2014,BCRA attributes +0.8pp YoY mainly to higher securities gains.
+2014,first 7 months same-window YoY,2014-01_to_07,YTD ROA annualized,4.7,2.8,1.9,pp,ABNORMAL_POSITIVE,HIGH,Jan-Jul 2013,BCRA Jul-2014,Same-window benchmark; robust direction.
+2014,rolling 12m same-date YoY,2013-08_to_2014-07,12m ROA,4.5,2.8,1.7,pp,ABNORMAL_POSITIVE,HIGH,12m to Jul-2013,BCRA Jul-2014,BCRA explicitly reports +1.7pp YoY.
+2014,pre-year level benchmark,2014-01_to_07,YTD ROA annualized,4.7,3.4,1.3,pp,ABNORMAL_POSITIVE_DIAGNOSTIC,MEDIUM,calendar 2013,BCRA Jul-2014,Window mismatch; Dec12=2.9 -> Dec13=3.4 pretrend.
+2018,immediate month-on-month,2018-05,monthly ROA annualized,4.4,3.3,1.1,pp,ABNORMAL_POSITIVE_IMMEDIATE,HIGH,Apr-2018 derived from +1.1pp statement,BCRA May-2018,BCRA attributes most of May increase to FX depreciation.
+2018,H1 same-window YoY,2018-H1,H1 cumulative ROA annualized,3.4,3.0,0.4,pp,ABNORMAL_POSITIVE_WITH_PRETREND,HIGH,H1-2017,BCRA Jun-2018,Q1-2018 was already 2.9 vs Q4-2017 1.8.
+2018,10m same-window YoY,2018-01_to_10,10m cumulative ROA annualized,3.9,3.1,0.8,pp,ABNORMAL_POSITIVE_WITH_PRETREND,HIGH,Jan-Oct 2017,BCRA Oct-2018,Same-vintage same-window comparison.
+2018,11m same-window YoY,2018-01_to_11,11m cumulative ROA annualized,3.8,3.0,0.8,pp,ABNORMAL_POSITIVE_WITH_PRETREND,HIGH,Jan-Nov 2017,BCRA Nov-2018,Same-vintage same-window comparison.
+2018,calendar-year same-vintage,2018,annual ROA,3.9,2.8,1.1,pp,ABNORMAL_POSITIVE_ACCOUNTING_SENSITIVE,HIGH_WITHIN_2018_VINTAGE,2017 comparative in Dec-2018 report,BCRA Dec-2018,2018 report says +1.1pp vs 2017.
+2018,calendar-year original-vintage sensitivity,2018,annual ROA,3.9,3.0,0.9,pp,ABNORMAL_POSITIVE_ACCOUNTING_SENSITIVE,MEDIUM,2017 original publication,BCRA Dec-2017 + Dec-2018,Direction remains positive despite vintage/NIIF issue.
+2023,Q4 vs immediate prior quarter,2023-Q4,quarterly ROA annualized homogeneous currency,12.1,3.1,9.0,pp,ABNORMAL_POSITIVE_Q4_PREPOST_CONTAMINATED,HIGH_ACCOUNTING,Q3-2023,BCRA IEF II-2024,Q4 includes Oct-Nov pre-10Dec and Dec post-shock.
+2023,Q4 same-quarter YoY,2023-Q4,quarterly ROA annualized homogeneous currency,12.1,3.4,8.7,pp,ABNORMAL_POSITIVE_Q4_PREPOST_CONTAMINATED,HIGH_ACCOUNTING,Q4-2022,BCRA IEF I-2023 + IEF II-2024,Strong same-quarter abnormality; not clean post-shock window.
+2023,calendar-year YoY,2023,annual ROA homogeneous currency,5.4,2.0,3.4,pp,ABNORMAL_POSITIVE_WITH_STRONG_PRETREND,HIGH,calendar 2022,BCRA Dec-2023,Annual window is mostly pre-Dec shock.
+2023,rolling 12m pre-shock trend,12m_to_Nov-2023,rolling 12m ROA homogeneous currency,4.5,1.7,2.8,pp,PRE_SHOCK_ABNORMAL_POSITIVE_TREND,HIGH,12m to Nov-2022 derived from +2.8pp YoY,BCRA Nov-2023,Critical falsifier: profitability already climbing before Dec shock.

@@ -1,0 +1,43 @@
+{
+  "audit_date": "2026-08-28",
+  "repo_checkpoint": "V96",
+  "research_state_changed": false,
+  "batch3": {
+    "uploaded_items": 13,
+    "zip_carriers": 11,
+    "unique_zip_carriers": 9,
+    "v52_v59_checkpoint_members_validated": 125,
+    "v52_v59_byte_identical": 125,
+    "v52_v59_nonidentical_or_missing": 0,
+    "recursive_source_binary_occurrences": 4,
+    "unique_source_binary_hashes": 1,
+    "new_binary_hashes_from_supplied_archives": 0,
+    "historical_direct_binary_refs": 30,
+    "historical_direct_refs_already_preserved_after_reconciliation": 8,
+    "round2_actionable_direct_binary_requests": 35
+  },
+  "master_catalog": {
+    "entries": 164,
+    "explicit_local_entries": 120,
+    "explicit_local_existing": 120,
+    "explicit_local_hash_ok": 120,
+    "reference_only_entries": 44
+  },
+  "complete_missing_registry": {
+    "total_unpreserved_items": 68,
+    "direct_binary_actionable": 35,
+    "page_or_reference_only": 33
+  },
+  "frozen_strict_state": {
+    "coverage_pct": "59.777595746322620480650441147276358824911189326119979767253088259998915899707248",
+    "exact_entities": 24,
+    "gate": "NO"
+  },
+  "notes": [
+    "V52-V59 uploaded bundles add no new checkpoint bytes; their non-BASE top-level members are byte-identical to current checkpoints.",
+    "The only unique recursively embedded source binary in those historical chains is Series_estadisticas.xlsx, already preserved by SHA-256.",
+    "Batch 3 reconciled several physically existing BCRA source assets into the master catalog and exposed new direct binary URLs for a second preservation pass.",
+    "No V96 numerical result or promotion changed.",
+    "V54/V55 RAW source manifests added explicit XLS/TXT endpoints to round 2; BAPRO/Credicoop extensionless binary endpoints were also classified as actionable PDFs."
+  ]
+}

@@ -1,0 +1,9 @@
+period,account,raw_description,debit_k,credit_k,bpn_specific_target,source
+202309,100000,ACTIVO,325059293.000,0.000,asset_control_only,BCRA 202309d.7z / Entfin/Tec_Cont/baldet/00097.txt
+202309,141144,DEUDORES FINANCIEROS POR PASES ACTI,108219088.000,0.000,repo_stock_control_only,BCRA 202309d.7z / Entfin/Tec_Cont/baldet/00097.txt
+202309,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,50821306.000,income_bcra,BCRA 202309d.7z / Entfin/Tec_Cont/baldet/00097.txt
+202309,511027 / 521007 / 521022,not present in full nonzero entity file,0,0,other three strict legs = 0 after BPN-specific FY validation,full Sep nonzero entity file inspection; entity-specific issuer FY taxonomy
+202312,100000,ACTIVO,525929502.000,0.000,asset_control / strict-coverage weight,BCRA 202312d.7z / Entfin/Tec_Cont/baldet/00097.txt
+202312,141144,DEUDORES FINANCIEROS POR PASES ACTI,247880779.000,0.000,repo_stock_control_only,BCRA 202312d.7z / Entfin/Tec_Cont/baldet/00097.txt
+202312,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,129240317.000,income_bcra,BCRA 202312d.7z / Entfin/Tec_Cont/baldet/00097.txt
+202312,511027 / 521007 / 521022,not present in full nonzero entity file,0,0,other three strict legs = 0,full Dec nonzero entity file inspection + official BPN FY2023 Annex Q

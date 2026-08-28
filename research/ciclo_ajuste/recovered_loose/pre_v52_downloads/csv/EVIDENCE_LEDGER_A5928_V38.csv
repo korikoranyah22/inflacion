@@ -1,0 +1,18 @@
+﻿claim,status,strength,notes
+A5928_RULE_REMOVES_USER_INSURANCE_CHARGE,SUPPORTED,HIGH,Norma primaria: no comisión/cargo; banco contrata o autoasegura.
+A5928_EFFECTIVE_DATE_NEW_PERSONAL_LOANS,SUPPORTED,HIGH,Nuevos desembolsos desde 01/09/2016.
+A5928_ANNOUNCEMENT_DATE,SUPPORTED,HIGH,Comunicación fechada 21/03/2016.
+A5928_PURE_SURPRISE_RDD,NOT_JUSTIFIED,HIGH_DESIGN,Ventana de anticipación >5 meses.
+A5928_AGGREGATE_DIRECTIONAL_FIRST_STAGE,SUPPORTED,HIGH,BCRA: TNA personal estable y CFT menor por seguro.
+A5928_MULTI_BANK_PERSONAL_MECHANISM,SUPPORTED,HIGH,Columbia+HSBC+BBVA+BCRA+documentación multibanco.
+A5928_STRICT_3_BANK_MATCHED_PREPOST,UNRESOLVED_ARCHIVE_LIMIT,N/D,Sólo Columbia cumple par inmediato; no inferir inexistencia de archivos.
+A5928_HISTORICAL_TRANSPARENCY_SCHEMA,VERIFIED,HIGH,BCRA histórico recogía CFT/TNA de préstamo personal estandarizado.
+A5928_HISTORICAL_TRANSPARENCY_2016_ROWS,NOT_RECOVERED,N/D,Catálogo moderno no resuelve archivo 2016.
+A5928_WAYBACK_CDX_ACCESS,FAILED_RUNTIME_NETWORK,N/D,DNS/egress del runtime; existencia de snapshots desconocida.
+A5928_HOUSEHOLD_COST_COMPONENT_REMOVED,SUPPORTED,HIGH,Capa A.
+A5928_BANK_SERVICE_RESULT_CHANNEL_AFFECTED,SUPPORTED_DIRECTIONAL_DOCUMENTARY,HIGH_DOCUMENTARY,IEF 2S16: resultados por servicios afectados; menciona eliminación del cobro.
+A5928_BANK_GROSS_OWN_REVENUE_MAGNITUDE,N/D,NOT_IDENTIFIED,No separar prima/costo tercero/remuneración propia con evidencia disponible.
+A5928_BANK_NET_PROFIT_EFFECT,N/D,NOT_IDENTIFIED,Capa C; costos y respuestas endógenas no observados.
+A5928_SYSTEMWIDE_DIRECTION,SUPPORTED_DIRECTIONALLY,HIGH,BCRA agregado.
+A5928_SYSTEMWIDE_MAGNITUDE,N/D,N/D,Sin panel/volúmenes CFT compatibles post.
+DELIBERATE_HOUSEHOLD_TO_BANK_COORDINATION,NOT_UPDATED,N/D,No inferible de A5928.

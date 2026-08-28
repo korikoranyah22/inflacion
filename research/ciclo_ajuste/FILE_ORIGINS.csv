@@ -1,5 +1,8 @@
 ﻿path,origin,note
-research/ciclo_ajuste/TRANSPARENCY_README.md,generated transparency index,
+BACKUP_ACTUALIZACION_2026-08-28.md,updated V96 final manual source close,Current backup/source-completeness status
+research/ciclo_ajuste/MANIFEST_SHA256.json,generated SHA-256 manifest,"regenerated after V96 final manual source close; 189 catalog entries, 187 physical verified, 2 nonbinary exemptions, zero required physical gaps"
+research/ciclo_ajuste/TRANSPARENCY_README.md,updated V96 final manual source close,Transparency note for final physical source preservation state
+research/ciclo_ajuste/TREE.txt,generated repository tree,regenerated after V96 final manual source close
 research/ciclo_ajuste/checkpoints/V52/AUDITORIA_CONTRAPARTES_V52.md,legacy BASE_V52: AUDITORIA_CONTRAPARTES_V52.md,
 research/ciclo_ajuste/checkpoints/V52/COMPONENT_COUNTERPARTY_MAP_V52.csv,legacy BASE_V52: COMPONENT_COUNTERPARTY_MAP_V52.csv,
 research/ciclo_ajuste/checkpoints/V52/EVIDENCE_LEDGER_CICLO_AJUSTE_V52.csv,legacy BASE_V52: EVIDENCE_LEDGER_CICLO_AJUSTE_V52.csv,
@@ -597,21 +600,6 @@ research/ciclo_ajuste/checkpoints/V80/SOURCE_REFERENCES_V80.md,V80 lineage archi
 research/ciclo_ajuste/checkpoints/V80/STRICT_Q4_FOUR_LEG_COVERAGE_V80.csv,V80 lineage archive: STRICT_Q4_FOUR_LEG_COVERAGE_V80.csv,
 research/ciclo_ajuste/checkpoints/V80/USER_FILE_REQUESTS_V80.md,V80 lineage archive: USER_FILE_REQUESTS_V80.md,
 research/ciclo_ajuste/checkpoints/V80/VEREDICTO_V80.md,V80 lineage archive: VEREDICTO_V80.md,
-research/ciclo_ajuste/inputs/bcra/2023-09/Glosario.pdf,/mnt/data/Glosario.pdf,User-recovered BCRA September 2023 package
-research/ciclo_ajuste/inputs/bcra/2023-09/InfBanc0923.pdf,/mnt/data/InfBanc0923.pdf,User-recovered BCRA September 2023 package
-research/ciclo_ajuste/inputs/bcra/2023-09/InfBanc_Anexo.xlsx,/mnt/data/InfBanc_Anexo.xlsx,"V81 audit: recovered during Sep-2023 research, but binary is a live BCRA annex whose internal series runs through Jan-2026; keep path for recovery provenance."
-research/ciclo_ajuste/inputs/bcra/2023-09/Infbanc0923(1).xlsx,/mnt/data/Infbanc0923(1).xlsx,Duplicate user download retained transparently
-research/ciclo_ajuste/inputs/bcra/2023-09/Infbanc0923.xlsx,/mnt/data/Infbanc0923.xlsx,User-recovered BCRA September 2023 chart data
-research/ciclo_ajuste/inputs/bcra/2023-09/Normativa0923.pdf,/mnt/data/Normativa0923.pdf,User-recovered BCRA September 2023 package
-research/ciclo_ajuste/inputs/manual_recovery/bapro/BAPRO_EEFF_30-09-2023.pdf,/mnt/data/document.pdf,User-recovered Banco Provincia 9M 2023 separated+consolidated EEFF
-research/ciclo_ajuste/inputs/manual_recovery/bna/BALANCE_CONDENSADO_MAR2023.pdf,/mnt/data/BALANCE_CONDENSADO_MAR2023.pdf,User-recovered BNA March 2023 summary/control
-research/ciclo_ajuste/inputs/manual_recovery/bna_agn/2023-210-Informe CC 2.pdf,/mnt/data/2023-210-Informe CC 2(2).pdf,User-recovered AGN consolidated review report
-research/ciclo_ajuste/inputs/manual_recovery/bna_agn/2023-210-Informe SC 1.pdf,/mnt/data/2023-210-Informe SC 1(2).pdf,User-recovered AGN separated review report
-research/ciclo_ajuste/inputs/manual_recovery/bna_agn/2023-210-Resolucion.pdf,/mnt/data/2023-210-Resolucion(2).pdf,User-recovered AGN Resolution 210/2023
-research/ciclo_ajuste/inputs/manual_recovery/credicoop/balance-30-09-2023.pdf,/mnt/data/balance-30-09-2023.pdf,User-recovered Banco Credicoop 9M 2023 EEFF
-research/ciclo_ajuste/meta/HANDOVER_V80_A_V81.md,previous checkpoint bundle: HANDOVER_V80_A_V81.md,
-research/ciclo_ajuste/meta/ORIGINAL_MANIFEST_SHA256.json,previous checkpoint bundle: MANIFEST_SHA256.json,
-research/ciclo_ajuste/meta/README_CHECKPOINT.md,previous checkpoint bundle: README_CHECKPOINT.md,
 research/ciclo_ajuste/checkpoints/V81/AUDITORIA_V81.md,generated checkpoint V81,
 research/ciclo_ajuste/checkpoints/V81/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V81,
 research/ciclo_ajuste/checkpoints/V81/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V81,
@@ -628,7 +616,6 @@ research/ciclo_ajuste/checkpoints/V81/STRICT_Q4_FOUR_LEG_COVERAGE_V81.csv,genera
 research/ciclo_ajuste/checkpoints/V81/USER_FILE_REQUESTS_V81.md,generated checkpoint V81,
 research/ciclo_ajuste/checkpoints/V81/VEREDICTO_V81.md,generated checkpoint V81,
 research/ciclo_ajuste/checkpoints/V81/qa_v81.py,generated checkpoint V81,
-research/ciclo_ajuste/meta/HANDOVER_V81_A_V82.md,checkpoint V81 handover copy,
 research/ciclo_ajuste/checkpoints/V82/AUDITORIA_V82.md,generated checkpoint V82,
 research/ciclo_ajuste/checkpoints/V82/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V82,
 research/ciclo_ajuste/checkpoints/V82/BCRA_OPEN_DATA_ARCHIVE_AUDIT_V82.md,generated checkpoint V82,
@@ -649,7 +636,6 @@ research/ciclo_ajuste/checkpoints/V82/STRICT_Q4_FOUR_LEG_COVERAGE_V82.csv,genera
 research/ciclo_ajuste/checkpoints/V82/USER_FILE_REQUESTS_V82.md,generated checkpoint V82,
 research/ciclo_ajuste/checkpoints/V82/VEREDICTO_V82.md,generated checkpoint V82,
 research/ciclo_ajuste/checkpoints/V82/qa_v82.py,generated checkpoint V82,
-research/ciclo_ajuste/meta/HANDOVER_V82_A_V83.md,checkpoint V82 handover copy,
 research/ciclo_ajuste/checkpoints/V83/AUDITORIA_V83.md,generated checkpoint V83,
 research/ciclo_ajuste/checkpoints/V83/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V83,
 research/ciclo_ajuste/checkpoints/V83/BCRA_OPEN_DATA_ARCHIVE_AUDIT_V83.md,generated checkpoint V83,
@@ -672,7 +658,6 @@ research/ciclo_ajuste/checkpoints/V83/USER_FILE_REQUESTS_V83.md,generated checkp
 research/ciclo_ajuste/checkpoints/V83/USER_UPLOAD_DUPLICATE_EVENTS_V83.csv,generated checkpoint V83,
 research/ciclo_ajuste/checkpoints/V83/VEREDICTO_V83.md,generated checkpoint V83,
 research/ciclo_ajuste/checkpoints/V83/qa_v83.py,generated checkpoint V83,
-research/ciclo_ajuste/meta/HANDOVER_V83_A_V84.md,checkpoint V83 handover copy,
 research/ciclo_ajuste/checkpoints/V84/AUDITORIA_V84.md,generated checkpoint V84,
 research/ciclo_ajuste/checkpoints/V84/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V84,
 research/ciclo_ajuste/checkpoints/V84/BCRA_OPEN_DATA_RAW_AUDIT_V84.md,generated checkpoint V84,
@@ -695,13 +680,6 @@ research/ciclo_ajuste/checkpoints/V84/STRICT_Q4_FOUR_LEG_COVERAGE_V84.csv,genera
 research/ciclo_ajuste/checkpoints/V84/USER_FILE_REQUESTS_V84.md,generated checkpoint V84,
 research/ciclo_ajuste/checkpoints/V84/VEREDICTO_V84.md,generated checkpoint V84,
 research/ciclo_ajuste/checkpoints/V84/qa_v84.py,generated checkpoint V84,
-research/ciclo_ajuste/meta/HANDOVER_V84_A_V85.md,checkpoint V84 handover copy,
-research/ciclo_ajuste/inputs/bcra/2023-09/informacion_entidades_financieras_open_data/202309d.7z,user manual recovery BCRA open data,
-research/ciclo_ajuste/inputs/bcra/2023-09/informacion_entidades_financieras_open_data/202309e.pdf,user manual recovery BCRA companion publication,
-research/ciclo_ajuste/inputs/bcra/2023-12/informacion_entidades_financieras_open_data/202312d.7z,user manual recovery BCRA open data,
-research/ciclo_ajuste/inputs/bcra/2023-12/informacion_entidades_financieras_open_data/202312e.pdf,user manual recovery BCRA companion publication,
-research/ciclo_ajuste/inputs/bcra/2024-06/informacion_entidades_financieras_open_data/202406d.7z,user manual recovery BCRA open data,
-research/ciclo_ajuste/inputs/bcra/2024-06/informacion_entidades_financieras_open_data/202406e.pdf,user manual recovery BCRA companion publication,
 research/ciclo_ajuste/checkpoints/V85/AUDITORIA_V85.md,generated checkpoint V85,
 research/ciclo_ajuste/checkpoints/V85/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V85,
 research/ciclo_ajuste/checkpoints/V85/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V85,
@@ -728,7 +706,6 @@ research/ciclo_ajuste/checkpoints/V85/STRICT_Q4_FOUR_LEG_COVERAGE_V85.csv,genera
 research/ciclo_ajuste/checkpoints/V85/USER_FILE_REQUESTS_V85.md,generated checkpoint V85,
 research/ciclo_ajuste/checkpoints/V85/VEREDICTO_V85.md,generated checkpoint V85,
 research/ciclo_ajuste/checkpoints/V85/qa_v85.py,generated checkpoint V85,
-research/ciclo_ajuste/meta/HANDOVER_V85_A_V86.md,checkpoint V85 handover copy,
 research/ciclo_ajuste/checkpoints/V86/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V86,
 research/ciclo_ajuste/checkpoints/V86/AUDITORIA_V86.md,generated checkpoint V86,
 research/ciclo_ajuste/checkpoints/V86/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V86,
@@ -760,4 +737,948 @@ research/ciclo_ajuste/checkpoints/V86/STRICT_Q4_FOUR_LEG_COVERAGE_V86.csv,genera
 research/ciclo_ajuste/checkpoints/V86/USER_FILE_REQUESTS_V86.md,generated checkpoint V86,
 research/ciclo_ajuste/checkpoints/V86/VEREDICTO_V86.md,generated checkpoint V86,
 research/ciclo_ajuste/checkpoints/V86/qa_v86.py,generated checkpoint V86,
+research/ciclo_ajuste/checkpoints/V87/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/AUDITORIA_V87.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BNA_521007_HISTORY_V85.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/BNA_STATUS_V87.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/CURRENT_STATE_V87.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/FOUR_LEG_PASS_PANEL_V87.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V87_A_V88.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/MANIFEST_V87.json,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/README_V87.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/RECOVERY_QUEUE_V87.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/SOURCE_REFERENCES_V87.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/STRICT_Q4_FOUR_LEG_COVERAGE_V87.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/USER_FILE_REQUESTS_V87.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/VEREDICTO_V87.md,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V87/qa_v87.py,generated checkpoint V87,
+research/ciclo_ajuste/checkpoints/V88/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/AUDITORIA_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BNA_521007_HISTORY_V85.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/BNA_STATUS_V87.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/CURRENT_STATE_V88.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/FOUR_LEG_PASS_PANEL_V88.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V88_A_V89.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/MANIFEST_V88.json,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/README_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/RECOVERY_QUEUE_V88.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/SOURCE_REFERENCES_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/STRICT_Q4_FOUR_LEG_COVERAGE_V88.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/USER_FILE_REQUESTS_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/VEREDICTO_V88.md,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V88/qa_v88.py,generated checkpoint V88,
+research/ciclo_ajuste/checkpoints/V89/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/AUDITORIA_V89.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BICE_MANUAL_RECOVERY_V89.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BNA_521007_HISTORY_V85.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BNA_STATUS_V87.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/CURRENT_STATE_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/FOUR_LEG_PASS_PANEL_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V89_A_V90.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/MANIFEST_V89.json,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/README_V89.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/RECOVERY_QUEUE_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/SOURCE_REFERENCES_V89.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/STRICT_Q4_FOUR_LEG_COVERAGE_V89.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/USER_FILE_REQUESTS_V89.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/V89_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/VEREDICTO_V89.md,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V89/qa_v89.py,generated checkpoint V89,
+research/ciclo_ajuste/checkpoints/V90/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/AUDITORIA_V90.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BICE_Q4_FOUR_LEG_PROMOTION_V90.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BNA_521007_HISTORY_V85.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BNA_STATUS_V87.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/CURRENT_STATE_V90.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/FOUR_LEG_PASS_PANEL_V90.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V90_A_V91.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/MANIFEST_V90.json,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/README_V90.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/RECOVERY_QUEUE_V90.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/SOURCE_REFERENCES_V90.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/STRICT_Q4_FOUR_LEG_COVERAGE_V90.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/USER_FILE_REQUESTS_V90.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/V90_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/VEREDICTO_V90.md,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V90/qa_v90.py,generated checkpoint V90,
+research/ciclo_ajuste/checkpoints/V91/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/AUDITORIA_V91.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BICE_Q4_FOUR_LEG_PROMOTION_V90.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BMA_CNV_RECOVERY_STATUS_V91.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BNA_521007_HISTORY_V85.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BNA_STATUS_V87.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/CURRENT_STATE_V91.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/FOUR_LEG_PASS_PANEL_V91.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V91_A_V92.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/MANIFEST_V91.json,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/README_V91.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/RECOVERY_QUEUE_V91.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/SOURCE_REFERENCES_V91.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/STRICT_Q4_FOUR_LEG_COVERAGE_V91.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/USER_FILE_REQUESTS_V91.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/V91_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/VEREDICTO_V91.md,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V91/qa_v91.py,generated checkpoint V91,
+research/ciclo_ajuste/checkpoints/V92/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/AUDITORIA_V92.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BICE_Q4_FOUR_LEG_PROMOTION_V90.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BMA_CNV_RECOVERY_STATUS_V91.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BNA_521007_HISTORY_V85.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BNA_STATUS_V87.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/CURRENT_STATE_V92.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/FOUR_LEG_PASS_PANEL_V92.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V92_A_V93.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/MANIFEST_V92.json,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/NBCH_BCRA_RAW_ACCOUNT_AUDIT_V92.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/NBCH_ENTITY_SPECIFIC_CROSSWALK_V92.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/NBCH_OFFICIAL_SOURCE_AUDIT_V92.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/NBCH_Q4_FOUR_LEG_PROMOTION_V92.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/README_V92.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/RECOVERY_QUEUE_V92.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/SOURCE_REFERENCES_V92.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/STRICT_Q4_FOUR_LEG_COVERAGE_V92.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/USER_FILE_REQUESTS_V92.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/V92_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/VEREDICTO_V92.md,generated checkpoint V92,
+research/ciclo_ajuste/checkpoints/V92/qa_v92.py,generated checkpoint V92,
+research/ciclo_ajuste/inputs/bcra/2023-09/Glosario.pdf,/mnt/data/Glosario.pdf,User-recovered BCRA September 2023 package
+research/ciclo_ajuste/inputs/bcra/2023-09/InfBanc0923.pdf,/mnt/data/InfBanc0923.pdf,User-recovered BCRA September 2023 package
+research/ciclo_ajuste/inputs/bcra/2023-09/InfBanc_Anexo.xlsx,/mnt/data/InfBanc_Anexo.xlsx,"V81 audit: recovered during Sep-2023 research, but binary is a live BCRA annex whose internal series runs through Jan-2026; keep path for recovery provenance."
+research/ciclo_ajuste/inputs/bcra/2023-09/Infbanc0923(1).xlsx,/mnt/data/Infbanc0923(1).xlsx,Duplicate user download retained transparently
+research/ciclo_ajuste/inputs/bcra/2023-09/Infbanc0923.xlsx,/mnt/data/Infbanc0923.xlsx,User-recovered BCRA September 2023 chart data
+research/ciclo_ajuste/inputs/bcra/2023-09/Normativa0923.pdf,/mnt/data/Normativa0923.pdf,User-recovered BCRA September 2023 package
+research/ciclo_ajuste/inputs/bcra/2023-09/informacion_entidades_financieras_open_data/202309d.7z,user manual recovery BCRA open data,
+research/ciclo_ajuste/inputs/bcra/2023-09/informacion_entidades_financieras_open_data/202309e.pdf,user manual recovery BCRA companion publication,
+research/ciclo_ajuste/inputs/bcra/2023-12/informacion_entidades_financieras_open_data/202312d.7z,user manual recovery BCRA open data,
+research/ciclo_ajuste/inputs/bcra/2023-12/informacion_entidades_financieras_open_data/202312e.pdf,user manual recovery BCRA companion publication,
+research/ciclo_ajuste/inputs/bcra/2024-06/informacion_entidades_financieras_open_data/202406d.7z,user manual recovery BCRA open data,
+research/ciclo_ajuste/inputs/bcra/2024-06/informacion_entidades_financieras_open_data/202406e.pdf,user manual recovery BCRA companion publication,
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/SOURCE_URLS_V89.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/inputs/issuer_retrieval/v90/SOURCE_URLS_V90.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/inputs/issuer_retrieval/v91/SOURCE_URLS_V91.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/inputs/issuer_retrieval/v92/SOURCE_URLS_V92.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/inputs/manual_recovery/bapro/BAPRO_EEFF_30-09-2023.pdf,/mnt/data/document.pdf,User-recovered Banco Provincia 9M 2023 separated+consolidated EEFF
+research/ciclo_ajuste/inputs/manual_recovery/bice_agn/2023-209-Informe_Anexo_1_SC.pdf,user-rescued AGN Informe 209/2023 upload,preserved manual recovery binary used/control in V90
+research/ciclo_ajuste/inputs/manual_recovery/bice_agn/2023-209-Informe_Anexo_CC.pdf,user-rescued AGN Informe 209/2023 upload,preserved manual recovery binary used/control in V90
+research/ciclo_ajuste/inputs/manual_recovery/bice_agn/2023-209-Resolucion.pdf,user-rescued AGN Informe 209/2023 upload,preserved manual recovery binary used/control in V90
+research/ciclo_ajuste/inputs/manual_recovery/bna/BALANCE_CONDENSADO_MAR2023.pdf,/mnt/data/BALANCE_CONDENSADO_MAR2023.pdf,User-recovered BNA March 2023 summary/control
+research/ciclo_ajuste/inputs/manual_recovery/bna_agn/2023-210-Informe CC 2.pdf,/mnt/data/2023-210-Informe CC 2(2).pdf,User-recovered AGN consolidated review report
+research/ciclo_ajuste/inputs/manual_recovery/bna_agn/2023-210-Informe SC 1.pdf,/mnt/data/2023-210-Informe SC 1(2).pdf,User-recovered AGN separated review report
+research/ciclo_ajuste/inputs/manual_recovery/bna_agn/2023-210-Resolucion.pdf,/mnt/data/2023-210-Resolucion(2).pdf,User-recovered AGN Resolution 210/2023
+research/ciclo_ajuste/inputs/manual_recovery/credicoop/balance-30-09-2023.pdf,/mnt/data/balance-30-09-2023.pdf,User-recovered Banco Credicoop 9M 2023 EEFF
+research/ciclo_ajuste/meta/HANDOVER_V80_A_V81.md,previous checkpoint bundle: HANDOVER_V80_A_V81.md,
+research/ciclo_ajuste/meta/HANDOVER_V81_A_V82.md,checkpoint V81 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V82_A_V83.md,checkpoint V82 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V83_A_V84.md,checkpoint V83 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V84_A_V85.md,checkpoint V84 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V85_A_V86.md,checkpoint V85 handover copy,
 research/ciclo_ajuste/meta/HANDOVER_V86_A_V87.md,checkpoint V86 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V87_A_V88.md,checkpoint V87 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V88_A_V89.md,checkpoint V88 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V89_A_V90.md,checkpoint V89 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V90_A_V91.md,checkpoint V90 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V91_A_V92.md,checkpoint V91 handover copy,
+research/ciclo_ajuste/meta/HANDOVER_V92_A_V93.md,checkpoint V92 handover copy,
+research/ciclo_ajuste/meta/ORIGINAL_MANIFEST_SHA256.json,previous checkpoint bundle: MANIFEST_SHA256.json,
+research/ciclo_ajuste/meta/README_CHECKPOINT.md,previous checkpoint bundle: README_CHECKPOINT.md,
+research/ciclo_ajuste/checkpoints/V93/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/AUDITORIA_V93.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCO_LA_PAMPA_BCRA_RAW_ACCOUNT_AUDIT_V93.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCO_LA_PAMPA_ENTITY_SPECIFIC_CROSSWALK_V93.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCO_LA_PAMPA_OFFICIAL_SOURCE_AUDIT_V93.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BANCO_LA_PAMPA_Q4_FOUR_LEG_PROMOTION_V93.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BICE_Q4_FOUR_LEG_PROMOTION_V90.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BMA_CNV_RECOVERY_STATUS_V91.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BNA_521007_HISTORY_V85.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BNA_STATUS_V87.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/CURRENT_STATE_V93.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/FOUR_LEG_PASS_PANEL_V93.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V93_A_V94.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/MANIFEST_V93.json,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/NBCH_BCRA_RAW_ACCOUNT_AUDIT_V92.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/NBCH_ENTITY_SPECIFIC_CROSSWALK_V92.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/NBCH_OFFICIAL_SOURCE_AUDIT_V92.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/NBCH_Q4_FOUR_LEG_PROMOTION_V92.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/README_V93.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/RECOVERY_QUEUE_V93.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/SOURCE_REFERENCES_V93.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/STRICT_Q4_FOUR_LEG_COVERAGE_V93.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/USER_FILE_REQUESTS_V93.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/V93_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/VEREDICTO_V93.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V93/qa_v93.py,generated checkpoint V93,
+research/ciclo_ajuste/inputs/issuer_retrieval/v93/SOURCE_URLS_V93.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/meta/HANDOVER_V93_A_V94.md,generated checkpoint V93,
+research/ciclo_ajuste/checkpoints/V94/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/AUDITORIA_V94.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCO_LA_PAMPA_BCRA_RAW_ACCOUNT_AUDIT_V93.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCO_LA_PAMPA_ENTITY_SPECIFIC_CROSSWALK_V93.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCO_LA_PAMPA_OFFICIAL_SOURCE_AUDIT_V93.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BANCO_LA_PAMPA_Q4_FOUR_LEG_PROMOTION_V93.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BICE_Q4_FOUR_LEG_PROMOTION_V90.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BMA_CNV_RECOVERY_STATUS_V91.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BNA_521007_HISTORY_V85.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BNA_STATUS_V87.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BPN_BCRA_RAW_ACCOUNT_AUDIT_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BPN_ENTITY_SPECIFIC_CROSSWALK_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BPN_OFFICIAL_SOURCE_AUDIT_V94.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BPN_Q4_FOUR_LEG_PROMOTION_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BSE_BCRA_RAW_ACCOUNT_AUDIT_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/BSE_RECOVERY_STATUS_V94.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/CURRENT_STATE_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/FOUR_LEG_PASS_PANEL_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V94_A_V95.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/MANIFEST_V94.json,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/NBCH_BCRA_RAW_ACCOUNT_AUDIT_V92.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/NBCH_ENTITY_SPECIFIC_CROSSWALK_V92.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/NBCH_OFFICIAL_SOURCE_AUDIT_V92.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/NBCH_Q4_FOUR_LEG_PROMOTION_V92.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/README_V94.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/RECOVERY_QUEUE_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/SOURCE_REFERENCES_V94.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/STRICT_Q4_FOUR_LEG_COVERAGE_V94.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/USER_FILE_REQUESTS_V94.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/V94_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/VEREDICTO_V94.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V94/qa_v94.py,generated checkpoint V94,
+research/ciclo_ajuste/inputs/issuer_retrieval/v94/SOURCE_URLS_V94.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/meta/HANDOVER_V94_A_V95.md,generated checkpoint V94,
+research/ciclo_ajuste/checkpoints/V95/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/AUDITORIA_V95.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_CORRIENTES_BCRA_RAW_ACCOUNT_AUDIT_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_CORRIENTES_RECOVERY_STATUS_V95.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_FORMOSA_BCRA_RAW_ACCOUNT_AUDIT_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_FORMOSA_ENTITY_SPECIFIC_CROSSWALK_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_FORMOSA_OFFICIAL_SOURCE_AUDIT_V95.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_FORMOSA_Q4_FOUR_LEG_PROMOTION_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_LA_PAMPA_BCRA_RAW_ACCOUNT_AUDIT_V93.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_LA_PAMPA_ENTITY_SPECIFIC_CROSSWALK_V93.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_LA_PAMPA_OFFICIAL_SOURCE_AUDIT_V93.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BANCO_LA_PAMPA_Q4_FOUR_LEG_PROMOTION_V93.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BICE_Q4_FOUR_LEG_PROMOTION_V90.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BMA_CNV_RECOVERY_STATUS_V91.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BNA_521007_HISTORY_V85.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BNA_STATUS_V87.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BPN_BCRA_RAW_ACCOUNT_AUDIT_V94.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BPN_ENTITY_SPECIFIC_CROSSWALK_V94.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BPN_OFFICIAL_SOURCE_AUDIT_V94.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BPN_Q4_FOUR_LEG_PROMOTION_V94.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BSE_BCRA_RAW_ACCOUNT_AUDIT_V94.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/BSE_RECOVERY_STATUS_V94.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/CURRENT_STATE_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/FOUR_LEG_PASS_PANEL_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V95_A_V96.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/MANIFEST_V95.json,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/NBCH_BCRA_RAW_ACCOUNT_AUDIT_V92.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/NBCH_ENTITY_SPECIFIC_CROSSWALK_V92.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/NBCH_OFFICIAL_SOURCE_AUDIT_V92.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/NBCH_Q4_FOUR_LEG_PROMOTION_V92.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/README_V95.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/RECOVERY_QUEUE_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/SOURCE_REFERENCES_V95.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/STRICT_Q4_FOUR_LEG_COVERAGE_V95.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/USER_FILE_REQUESTS_V95.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/V95_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/VEREDICTO_V95.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V95/qa_v95.py,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/inputs/issuer_retrieval/v95/SOURCE_URLS_V95.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/meta/HANDOVER_V95_A_V96.md,generated checkpoint V95,Banco de Formosa promotion / Corrientes hold
+research/ciclo_ajuste/checkpoints/V96/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/AUDITORIA_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_CMF_BCRA_RAW_ACCOUNT_AUDIT_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_CMF_OFFICIAL_SOURCE_AUDIT_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_CMF_RECOVERY_STATUS_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_CORRIENTES_BCRA_RAW_ACCOUNT_AUDIT_V95.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_CORRIENTES_RECOVERY_STATUS_V95.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_DEL_CHUBUT_BCRA_RAW_ACCOUNT_AUDIT_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_DEL_CHUBUT_RECOVERY_STATUS_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_FORMOSA_BCRA_RAW_ACCOUNT_AUDIT_V95.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_FORMOSA_ENTITY_SPECIFIC_CROSSWALK_V95.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_FORMOSA_OFFICIAL_SOURCE_AUDIT_V95.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_FORMOSA_Q4_FOUR_LEG_PROMOTION_V95.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_LA_PAMPA_BCRA_RAW_ACCOUNT_AUDIT_V93.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_LA_PAMPA_ENTITY_SPECIFIC_CROSSWALK_V93.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_LA_PAMPA_OFFICIAL_SOURCE_AUDIT_V93.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BANCO_LA_PAMPA_Q4_FOUR_LEG_PROMOTION_V93.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BCRA_63_BANK_RAW_SWEEP_V85.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BCRA_INFBANC_ANEXO_AUDIT_V81.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BICE_Q4_FOUR_LEG_PROMOTION_V90.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BMA_CNV_RECOVERY_STATUS_V91.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BNA_521007_HISTORY_V85.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BNA_521007_PRESENTATION_AUDIT_V85.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BNA_STATUS_V87.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BPN_BCRA_RAW_ACCOUNT_AUDIT_V94.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BPN_ENTITY_SPECIFIC_CROSSWALK_V94.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BPN_OFFICIAL_SOURCE_AUDIT_V94.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BPN_Q4_FOUR_LEG_PROMOTION_V94.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BSE_BCRA_RAW_ACCOUNT_AUDIT_V94.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BSE_RECOVERY_STATUS_V89.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BSE_RECOVERY_STATUS_V94.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BST_BCRA_RAW_ACCOUNT_AUDIT_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BST_ENTITY_SPECIFIC_CROSSWALK_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BST_OFFICIAL_SOURCE_AUDIT_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/BST_Q4_FOUR_LEG_PROMOTION_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/CITI_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/CNV_MONTHLY_ROUTE_AUDIT_V82.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/CURRENT_STATE_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/FOUR_LEG_PASS_PANEL_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V96_A_V97.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/HSBC_CNV_MANUAL_RECOVERY_V88.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/MANIFEST_V96.json,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/NBCH_BCRA_RAW_ACCOUNT_AUDIT_V92.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/NBCH_ENTITY_SPECIFIC_CROSSWALK_V92.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/NBCH_OFFICIAL_SOURCE_AUDIT_V92.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/NBCH_Q4_FOUR_LEG_PROMOTION_V92.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/NBER_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/README_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/RECOVERY_QUEUE_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/SANTANDER_SEPARATED_9M_AUDIT_V87.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/SOURCE_REFERENCES_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/STRICT_Q4_FOUR_LEG_COVERAGE_V96.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/USER_FILE_REQUESTS_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/V96_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/VEREDICTO_V96.md,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/checkpoints/V96/qa_v96.py,generated checkpoint V96,BST promotion / CMF and Chubut holds
+research/ciclo_ajuste/inputs/issuer_retrieval/v96/SOURCE_URLS_V96.csv,updated source registry,local binary preservation path + SHA-256 recorded after V96 backfill
+research/ciclo_ajuste/meta/HANDOVER_V96_A_V97.md,updated repository documentation,post-V96 physical source backfill state recorded
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_AUDIT_V96.md,updated V96 Round2 + archaeology batch4,Current source-preservation audit
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V96.csv,generated source archaeology census,catalog + checkpoint source docs + issuer registries
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_GAPS_V96.csv,generated source recovery queue,deduplicated P0/P1/P2 preservation gaps
+research/ciclo_ajuste/source_audit/MASTER_LOCAL_HASH_VALIDATION_V96.csv,generated local-source hash validation,validates all explicit local paths in data/fuentes/FUENTES.csv
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_SUMMARY_V96.json,generated machine-readable source audit summary,post-V96
+research/ciclo_ajuste/source_audit/ARCHAEOLOGY_BATCH1_CARRIER_FINGERPRINTS.csv,generated archaeology batch 1,post-V96 old-backup source preservation audit
+research/ciclo_ajuste/source_audit/ARCHAEOLOGY_BATCH1_SHA256_BINARY_VALIDATION.csv,generated archaeology batch 1,post-V96 old-backup source preservation audit
+research/ciclo_ajuste/source_audit/ARCHAEOLOGY_BATCH1_ARCHIVE_INVENTORY.csv,generated archaeology batch 1,post-V96 old-backup source preservation audit
+research/ciclo_ajuste/source_audit/ARCHAEOLOGY_BATCH1_GAP_TEXT_CONTEXT.csv,generated archaeology batch 1,post-V96 old-backup source preservation audit
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_GAPS_V96_AFTER_BATCH1.csv,generated archaeology batch 1,post-V96 old-backup source preservation audit
+research/ciclo_ajuste/source_audit/ARCHAEOLOGY_BATCH1_REPORT.md,generated archaeology batch 1,post-V96 old-backup source preservation audit
+research/ciclo_ajuste/inputs/issuer_retrieval/v90/binaries/000_Memoria-y-Balance-2023.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 0 P0; BICE; SHA-256 verified f6f6fb95aec9484c3e42e6acab74b6d9a13c6ea85453bf2c0d74f2f6408eda5f; source https://www.bice.com.ar/wp-content/uploads/2025/03/Memoria-y-Balance-2023.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v96/binaries/001_Anual-2023-Memoria.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 1 P0; Banco CMF S.A.; SHA-256 verified c6a436d3b0ab5d572825fc6941d1bafefd68e77a67103746b99c7b3240446323; source https://www.bancocmf.com.ar/wp-content/uploads/Anual-2023-Memoria.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v91/binaries/002_LEGALIZADOS-BIND---2023---12---EEFF-Separados.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 2 P0; Banco Industrial; SHA-256 verified 1e23da89c47f19f1b6b7a074e6ef62cd60ffb086afac01c38589becd8778e78e; source https://www.garval.sba.com.ar/images/LEGALIZADOS-BIND---2023---12---EEFF-Separados.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v94/binaries/003_06c53b4c8d1a4285ae8685e7d02644a2.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 3 P0; Banco Provincia del Neuquén S.A.; SHA-256 verified ba146a4793bce90ac50c98dc190a48f76910de437e7a2d2fb69ab5bdfa559edf; source https://apiapp.bpn.com.ar/Resources/Files/06c53b4c8d1a4285ae8685e7d02644a2.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v94/binaries/004_3c8ae1e827054171978cb213a56891df.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 4 P0; Banco Provincia del Neuquén S.A.; SHA-256 verified cd17e9e424df8550a61d40f9b6f88757f93f30d3e473457f2ed9da7a6aeec230; source https://apiapp.bpn.com.ar/Resources/Files/3c8ae1e827054171978cb213a56891df.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v95/binaries/005_117571.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 5 P0; Banco de Formosa S.A.; SHA-256 verified 0a660361c63180c6b2c3706877c748fe198b8943a13a5e99b3c72f4df5201e1d; source https://www.bancoformosa.com.ar/Multimedios/pdfs/117571.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v95/binaries/006_117598.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 6 P0; Banco de Formosa S.A.; SHA-256 verified 86f17e539912d2f8c53bf06ef175eb929ec5f78e1c8a5be9e31f6acdb48bdba7; source https://www.bancoformosa.com.ar/Multimedios/pdfs/117598.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v95/binaries/007_118254.pdf.zip,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 7 P0; Banco de Formosa S.A.; SHA-256 verified a3a4f91b8e3e9c668a0f572f865420de743ed09739310df77111f6b5c1b7b84e; source https://www.bancoformosa.com.ar/Multimedios/pdfs/118254.pdf; GitHub-safe ZIP; contains 007_118254.pdf; original SHA-256 a3a4f91b8e3e9c668a0f572f865420de743ed09739310df77111f6b5c1b7b84e; archive SHA-256 191ef91499946d1060ee9bed7437e28bdab1a9930cd4e56a3d643b42da2206e5
+research/ciclo_ajuste/inputs/issuer_retrieval/v93/binaries/008_Diseño Memoria y Balance General 2023 web.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 8 P0; Banco de La Pampa S.E.M.; SHA-256 verified dd4917c72be07ffb3cfdc06481330233f2e5a62cce0c84dcaf67423ee8d4720d; source https://www.bancodelapampa.com.ar/files/files/Dise%C3%B1o%20Memoria%20y%20Balance%20General%202023%20web.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/009_30.09.2023__SEPARADOS_.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 9 P0; Banco de San Juan S.A.; SHA-256 verified 99608f0261fb255dff814078661d6ef6f7ee2944bbe0beb5a19ac99bef0d380e; source https://assets.ctfassets.net/e7eu92ue673r/y9IVnh4fy1BgWES0TUbmZ/468b8e783fed7b6e18bd70a9ee7bebf9/30.09.2023__SEPARADOS_.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/010_(03)_(MARZO)_14-03-2025_ANEXO_BANCO_SAN_JUAN.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 10 P0; Banco de San Juan S.A.; SHA-256 verified 18f89f425a3ce9e4cd6150fa9d87080f3ff1c1211313c9f8f94675c765c700e2; source https://contenido.sanjuan.gob.ar/media/k2/attachments/%2803%29_%28MARZO%29_14-03-2025_ANEXO_BANCO_SAN_JUAN.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/011_122023_-_BSC_-_Estados_Financieros.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 11 P0; Banco de Santa Cruz S.A.; SHA-256 verified 3f0460be1194d66e3c0e2468ecc299b944bd11695996c76651920c36da7f3f06; source https://assets.ctfassets.net/h7wmg0jhythh/4g79KmIvc3oFO0cOoxTWKs/431c9d8d065184e2c23525856a1d55ca/122023_-_BSC_-_Estados_Financieros.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/012_092023_-_BSC_-_Estados_Financieros_NIIF.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 12 P0; Banco de Santa Cruz S.A.; SHA-256 verified e57a3f6449d365eeae9ba7708ad21f12af2445f67bcc4cd2833238159db0bd30; source https://assets.ctfassets.net/h7wmg0jhythh/67xmHobIaNPVJS8GHGQzkg/ef170bd735ee3a4dbe86a1f35d407799/092023_-_BSC_-_Estados_Financieros_NIIF.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v96/binaries/013_EEFF-BST-092023.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 13 P0; Banco de Servicios y Transacciones S.A.; SHA-256 verified 0b42c96209d30f334774672fe091a5f64dd2d7e8c236ece23045a71d4a2cedb4; source https://bst.com.ar/wp-content/uploads/2025/01/EEFF-BST-092023.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v96/binaries/014_EEFF-BST-12-2023-1.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 14 P0; Banco de Servicios y Transacciones S.A.; SHA-256 verified 1eaa7d6fe04b01f9e290a3ff8c6785e80dfb8b312fa28ed2321c9cd81b0937f3; source https://bst.com.ar/wp-content/uploads/2025/01/EEFF-BST-12-2023-1.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/015_NBERSA_12.2023_-_EEFF_sin_pdu.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 15 P0; Nuevo Banco de Entre Ríos S.A.; SHA-256 verified b462146af5e4145156338deea8ac297bdc8aaeac052ab85b691cd5b9b27b8e9e; source https://assets.ctfassets.net/h7wmg0jhythh/2fLFeDK6jUhhYgrHlc1WNH/59c7096b296c83d4d6420a3bc3f28243/NBERSA_12.2023_-_EEFF_sin_pdu.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/016_NBERSA_09.2023_-_EEFF_.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 16 P0; Nuevo Banco de Entre Ríos S.A.; SHA-256 verified f20be4cb8104e8224c6bfadf84a6fa6909988d744756f87ab9ff488ef2c9fb61; source https://assets.ctfassets.net/h7wmg0jhythh/4298svWaPcM3FgQ8pspEtP/e19201d5d304fe5ff78ac1bbefcad978/NBERSA_09.2023_-_EEFF_.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/017_092023_-_NBSF_-_EEFF_Separados.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 17 P0; Nuevo Banco de Santa Fe Sociedad Anonima; SHA-256 verified 7b0ec6c242c06702796830ce1a2ae172fedef8b12fb4f0134cb949a676d2602b; source https://assets.ctfassets.net/h7wmg0jhythh/3KykEMuhRA2DZjWCd12wv/10e5d5dd2278b7501d23c2fe0815962b/092023_-_NBSF_-_EEFF_Separados.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v89/binaries/018_122023_-_NBSF_-_EEFF_Separados.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 18 P0; Nuevo Banco de Santa Fe Sociedad Anonima; SHA-256 verified 231c456998ac00b4e60093951ce76158cef2b4721314c0f71a208662fc38b80f; source https://assets.ctfassets.net/h7wmg0jhythh/n0pbb6IBTuXKan3xDHFJI/0f0fbd42c71be085d2712976d1890ef9/122023_-_NBSF_-_EEFF_Separados.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v92/binaries/019_25-03-24-11076-660183ddcbb40676491772.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 19 P0; Nuevo Banco del Chaco; SHA-256 verified cdb1f7723693f0129d743dbcd9e92d372b0f14c3e08954a02287106fc5dae5a4; source https://chaco.gov.ar/uploads/boletines/25-03-24-11076-660183ddcbb40676491772.pdf
+research/ciclo_ajuste/inputs/issuer_retrieval/v96/binaries/020_Historico-Balance-e-Informes-Anual-1.zip,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 20 P1; Banco CMF S.A.; SHA-256 verified 5cb285ab72d8d50c83cd1760ba9dbb88795d43161e1c7a0096a8e8b1a7ed0145; source https://www.bancocmf.com.ar/wp-content/uploads/Historico-Balance-e-Informes-Anual-1.zip
+research/ciclo_ajuste/inputs/issuer_retrieval/v96/binaries/021_Historico-Trimestral-Balances-e-Informes-1.zip,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 21 P1; Banco CMF S.A.; SHA-256 verified 9b373153d40647c0813315d435ac68a72ba5e674b43656ffac6b3c8dd939d65f; source https://www.bancocmf.com.ar/wp-content/uploads/Historico-Trimestral-Balances-e-Informes-1.zip
+research/ciclo_ajuste/inputs/issuer_retrieval/v94/binaries/022_82d95330e8d6472b90d506e198bd6549.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 22 P1; Banco Provincia del Neuquén S.A.; SHA-256 verified 1e239d382b59d015ac5e41f22692e9c98b7aa909964556be4627d57398d0853c; source https://apiapp.bpn.com.ar/Resources/Files/82d95330e8d6472b90d506e198bd6549.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/bcra_ief_1s2024_ciclo.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 23 P1; bcra_ief_1s2024_ciclo; SHA-256 verified e92721161bd571177a6236699a976197ce7f181b11f409bf4fa88390ac067e1a; source https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/ief0124.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/bcra_ief_2s2024_ciclo.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 24 P1; bcra_ief_2s2024_ciclo; SHA-256 verified 5c6780311123ca5082b8d9ab6411474f6989e44d083cbec7367fc704b1c36aba; source https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/IEF0224.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/bna_balance_condensado_sep2023_control.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 25 P1; bna_balance_condensado_sep2023_control; SHA-256 verified 3b037950f40b32ccbfea6fe696aa3e216e4ae664fa90868921f7529438c2010d; source https://www.bna.com.ar/Downloads/Institucional_MemoriayBalances_BALANCE%20CONDENSADO%20SEPT%202023.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/bna_memoria_fy2023_aq.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 26 P1; bna_memoria_fy2023_aq; SHA-256 verified e48df5a1b31b7a5ebb8fa4e2753addefd21cb5abebc03c3a18fa38cffd264d91; source https://www.bna.com.ar/Downloads/Institucional_MemoriayBalances_Memoria%202023%20Ingles.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/ciudad_eeff_9m2023_consol_control.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 27 P1; ciudad_eeff_9m2023_consol_control; SHA-256 verified 1b8445d43ce16aadd6f3205dfe0fb956e6961198c5f9c6bf2648bce6d589cb19; source https://www.bancociudad.com.ar/cms/recursos/institucional/carpetarecurso/Balances%20Trimestrales/EstadosFinancieros/2023.09_-_EEFF_consolidados.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/icbc_eeff_9m2023_aq.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 28 P1; icbc_eeff_9m2023_aq; SHA-256 verified ccc422947b87a6c5f91ffc12bf1d4880c4d3e9ec83ea2575840a60a4a04dbe2e; source https://www.icbc.com.ar/wcm/connect/4de3ed09-cb4e-4064-b6a5-0aa3f0bca5fd/Estados%2BFinancieros%2BICBC%2B202309_ESPA%C3%91OL%2BLEGALIZADO.pdf?CVID=oNG1sHj&MOD=AJPERES
+data/fuentes/ciclo_ajuste/backfill_v96/icbc_eeff_fy2023_aq.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 29 P1; icbc_eeff_fy2023_aq; SHA-256 verified 236ea1fda3e545c98a081aca59b2f13357067fd39165861f2ddac9a31dd852b6; source https://www.icbc.com.ar/wcm/connect/09254af5-2d9a-4742-bec0-bbd0018305d5/Estados%2BFinancieros%2BICBC%2B202312_ESPA%C3%91OL%2BLEGALIZADO.pdf?CVID=oUU1Wae&MOD=AJPERES
+data/fuentes/ciclo_ajuste/backfill_v96/macro_eeff_9m2023_aq.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 30 P1; macro_eeff_9m2023_aq; SHA-256 verified 829395481a8d0a4da424fbc778d959981de203bd1af6e0f1dbd095387ce6d80e; source https://www.macro.com.ar/relaciones-inversores/documento/1580934703038/banco_macro_sa_eeff_30-09-2023.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/macro_eeff_fy2023_aq.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 31 P1; macro_eeff_fy2023_aq; SHA-256 verified 3ac5e7a8a60645130a6d995a0b3ef20ec5834bcd97359c8c930d39a9689be36a; source https://www.macro.com.ar/relaciones-inversores/documento/1580935557769/eeff_bm_31-12-2023.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/santander_eeff_9m2023_sep_mirror.pdf,V96 final manual source recovery,CNV official download equivalence verification; sha256=dd043602ac6fe0685e3d683e2d26e39650c5411548a0cb062b3ad8ff542f958a; User-downloaded official CNV 9M separated financial statements are byte-for-byte identical to the already preserved mirror binary; no duplicate copy added.
+data/fuentes/ciclo_ajuste/backfill_v96/santander_eeff_fy2023_aq_mirror.pdf,V96 final manual source recovery,CNV official download equivalence verification; sha256=3f324e4c932b6e33f8da9abba5e967ca8c9ffacc8d253637f9e8f3783d73faec; User-downloaded official CNV FY separated financial statements are byte-for-byte identical to the already preserved mirror binary; no duplicate copy added.
+data/fuentes/ciclo_ajuste/backfill_v96/supervielle_eeff_9m2023_sep.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 34 P1; supervielle_eeff_9m2023_sep; SHA-256 verified 6a3973b44fd75de3b57716f989a4a76b7c35a093ee07fe4269078d5298cdff0e; source https://content-us-7.content-cms.com/8ba19f21-9a97-4525-8886-f54d823a5cea/dxdam/02/025e5bb4-d630-480e-a03d-397a022080ff/EECC%20Banco%20Supervielle%2030.09.23.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/supervielle_eeff_fy2023_aq.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 35 P1; supervielle_eeff_fy2023_aq; SHA-256 verified 698c6afe9fcbe13f90f08575651d6b6e673845e14f20e4705028ecaae5db7d77; source https://content-us-7.content-cms.com/8ba19f21-9a97-4525-8886-f54d823a5cea/dxdam/08/08afb7e5-b4c1-4396-925e-b66a2f5c13b1/EECC%20Banco%20Supervielle%2031.12.2023.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/valo_eeff_9m2023_aq_mirror.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 36 P1; valo_eeff_9m2023_aq_mirror; SHA-256 verified ab482f80e582595b217058504a7548d33e10aaf6b1d7d9e493e74af5f8322231; source https://cdn.financialreports.eu/financialreports/media/filings/68513/2023/RNS/68513_rns_2023-11-23_b356ffca-3ad3-4121-b2bc-c9ff8ad7aa0e.pdf
+data/fuentes/ciclo_ajuste/backfill_v96/valo_eeff_fy2023_aq.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 37 P1; valo_eeff_fy2023_aq; SHA-256 verified fbff4a1065165db438e70c37ef76c29704ea2e8a09fc367f4b06b5dfb18786c5; source https://www.valo.ar/wp-content/uploads/BVSA-2023-Estados-Financieros-con-PDU-e-ICF-Consolidado-Legalizado.pdf
+data/fuentes/regulacion_credito/bcra/bcra_com_a5590.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 40 P2; bcra_com_a5590; SHA-256 verified 5d0c3c665020477bc0450d129a25579a88e7e491fc005236968e3808546352a6; source https://www.bcra.gob.ar/Pdfs/comytexord/A5590.pdf
+data/fuentes/regulacion_credito/bcra/bcra_com_a5853.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 41 P2; bcra_com_a5853; SHA-256 verified e04582355eb228d699762a5b130a8679192abfbe431a94f9c8e4c4b9768ab694; source https://www.bcra.gob.ar/Pdfs/comytexord/A5853.pdf
+data/fuentes/regulacion_credito/bcra/bcra_com_a5928.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 42 P2; bcra_com_a5928; SHA-256 verified ae3cd88916f80eb043658876c91ddbb6658ab5ff6a46b5a00aec1feb91dfc20b; source https://www.bcra.gob.ar/Pdfs/comytexord/A5928.pdf
+data/fuentes/originacion/bcra/bcra_ecc_1t2024.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 43 P2; bcra_ecc_1t2024; SHA-256 verified 0716e4eeaf4cd90b5edd1f0983c0fdca92a1a19e38eb6497b7635fe576d52e3f; source https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/0124-ECC_%20Resultados.pdf
+data/fuentes/originacion/bcra/bcra_ecc_2t2024.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 44 P2; bcra_ecc_2t2024; SHA-256 verified 6bcd7101f7e692f48d483be291e23d950e55ed4e3ea4836b776f8b42d2ef30fc; source https://www.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/0624-ECC_%20Resultados.pdf
+data/fuentes/originacion/bcra/bcra_ecc_3t2024.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 45 P2; bcra_ecc_3t2024; SHA-256 verified a31a138dda3aedc869aab60bbc1d400ea77aa4b45360ef3a48102b776da33e1b; source https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/0924-ECC_Resultados.pdf
+data/fuentes/regulacion_credito/bcra/bcra_proteccion_usuarios_2015_resumen.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 46 P2; bcra_proteccion_usuarios_2015_resumen; SHA-256 verified 88e63bd5cec6f3d0190614d2cb38e917ceea87b1233055bf0a7fbad97af88eb9; source https://www.bcra.gob.ar/Pdfs/Informacion_usuario/pta_27_201512.pdf
+data/fuentes/hogares/indec/indec_estrategias_manutencion_2025.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 47 P2; indec_estrategias_manutencion_2025; SHA-256 verified 76d22a3aaca2cbbb4a1e2de81e578926d9791f9b7f322487edd79fbf00475ae6; source https://www.indec.gob.ar/ftp/cuadros/publicaciones/dosier_estrategias_manutencion_2025.pdf
+data/fuentes/supermercados/indec/indec_supermercados_serie.xlsx,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 48 P2; indec_supermercados_serie; SHA-256 verified 3ce50342499ff2ccf31328491fbea016ecb4de09f811e00382b7eb6615cf006a; source https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+data/fuentes/FUENTES.csv,updated V96 final manual source close,Master source catalog; 189 entries; 187 physical + 2 nonbinary exemptions; zero required physical gaps
+research/ciclo_ajuste/source_audit/backfill_v96/REMOTE_BINARY_BACKFILL_STATUS_V96.csv,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_INGEST_REPORT_V96.csv,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_INGEST_REPORT_V96.md,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_GAPS_V96_AFTER_BACKFILL.csv,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V96_AFTER_BACKFILL.csv,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_SUMMARY_V96_AFTER_BACKFILL.json,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/backfill_v96/BACKFILL_EXECUTION_NOTE_V96.md,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_160057/SOURCE_BACKFILL_RESULTS.csv,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_160057/SOURCE_BACKFILL_REQUEST_V96.csv,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_160057/README_RESULT.md,generated/updated during V96 physical source backfill ingest,47/49 physical source backfill; P0/P1 closed; two P2 remain
+research/ciclo_ajuste/source_audit/backfill_v96/tool/REMOTE_BINARY_BACKFILL_STATUS_V96.csv,SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX.zip,working Windows downloader used for the 47/49 run
+research/ciclo_ajuste/source_audit/backfill_v96/tool/README_BACKFILL.md,SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX.zip,working Windows downloader used for the 47/49 run
+research/ciclo_ajuste/source_audit/backfill_v96/tool/Download-SourceBackfill.ps1,SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX.zip,working Windows downloader used for the 47/49 run
+research/ciclo_ajuste/source_audit/backfill_v96/tool/SOURCE_BACKFILL_REQUEST_V96.csv,SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX.zip,working Windows downloader used for the 47/49 run
+research/ciclo_ajuste/source_audit/backfill_v96/tool/RUN_ALL_GAPS.cmd,SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX.zip,working Windows downloader used for the 47/49 run
+research/ciclo_ajuste/source_audit/backfill_v96/tool/RUN_P0_FIRST.cmd,SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX.zip,working Windows downloader used for the 47/49 run
+research/ciclo_ajuste/source_audit/backfill_v96/tool/SOURCE_METADATA_CORRECTIONS_V96.csv,SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX.zip,working Windows downloader used for the 47/49 run
+research/ciclo_ajuste/source_audit/archaeology_batch3_v32_v59/ARCHAEOLOGY_BATCH3_BINARY_INVENTORY.csv,historical source archaeology batch 3,V32/V48/V50/V52-V59 source-preservation archaeology
+research/ciclo_ajuste/source_audit/archaeology_batch3_v32_v59/ARCHAEOLOGY_BATCH3_REPORT.md,updated during archaeology batch 3 refinement,round2=35 actionable; complete missing=68
+research/ciclo_ajuste/source_audit/archaeology_batch3_v32_v59/ARCHAEOLOGY_BATCH3_CHECKPOINT_VALIDATION.csv,historical source archaeology batch 3,V32/V48/V50/V52-V59 source-preservation archaeology
+research/ciclo_ajuste/source_audit/archaeology_batch3_v32_v59/ARCHAEOLOGY_BATCH3_CARRIER_FINGERPRINTS.csv,historical source archaeology batch 3,V32/V48/V50/V52-V59 source-preservation archaeology
+research/ciclo_ajuste/source_audit/archaeology_batch3_v32_v59/SOURCE_BACKFILL_REQUEST_V96_ROUND2.csv,updated during archaeology batch 3 refinement,round2=35 actionable; complete missing=68
+research/ciclo_ajuste/source_audit/archaeology_batch3_v32_v59/ARCHAEOLOGY_BATCH3_DIRECT_BINARY_REFERENCES.csv,historical source archaeology batch 3,V32/V48/V50/V52-V59 source-preservation archaeology
+research/ciclo_ajuste/historical_carriers/PROMPT_CODEX_FRONTERA_CAUSAL_DOCUMENTAL_V32.zip,user-provided historical carrier/source note,preserved in repo during archaeology batch 3
+research/ciclo_ajuste/historical_carriers/FUENTES_V48.md,user-provided historical carrier/source note,preserved in repo during archaeology batch 3
+research/ciclo_ajuste/historical_carriers/FUENTES_V50.md,user-provided historical carrier/source note,preserved in repo during archaeology batch 3
+research/ciclo_ajuste/source_audit/SOURCE_PRESERVATION_MISSING_V96_COMPLETE.csv,Updated after V96 source backfill Round 3,Canonical current source-completeness pointer; post-Round3 state.
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_SUMMARY_V96_AFTER_ARCHAEOLOGY_BATCH3.json,updated during archaeology batch 3 refinement,round2=35 actionable; complete missing=68
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/REMOTE_BINARY_BACKFILL_STATUS_V96.csv,generated round2 downloader tool,23 direct binary historical/source-completeness requests
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/README_BACKFILL.md,generated round2 downloader tool,23 direct binary historical/source-completeness requests
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/Download-SourceBackfill.ps1,generated round2 downloader tool,23 direct binary historical/source-completeness requests
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/SOURCE_BACKFILL_REQUEST_V96.csv,updated during archaeology batch 3 refinement,round2=35 actionable; complete missing=68
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/RUN_ALL_GAPS.cmd,generated round2 downloader tool,23 direct binary historical/source-completeness requests
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/README_ROUND2.md,updated during archaeology batch 3 refinement,round2=35 actionable; complete missing=68
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/RUN_P0_FIRST.cmd,generated round2 downloader tool,23 direct binary historical/source-completeness requests
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/SOURCE_BACKFILL_REQUEST_V96_ROUND2.csv,updated during archaeology batch 3 refinement,round2=35 actionable; complete missing=68
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round2/SOURCE_METADATA_CORRECTIONS_V96.csv,generated round2 downloader tool,23 direct binary historical/source-completeness requests
+research/ciclo_ajuste/source_audit/archaeology_batch3_v32_v59/ARCHAEOLOGY_BATCH3_RAW_MANIFEST_BINARY_REFERENCES.csv,updated during archaeology batch 3 refinement,round2=35 actionable; complete missing=68
+research/ciclo_ajuste/source_audit/FALTANTES_SOURCE_BACKFILL_V96.md,Updated after V96 source backfill Round 3,Canonical current source-completeness pointer; post-Round3 state.
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V96_AFTER_ARCHAEOLOGY_BATCH3.csv,generated after archaeology batch 3,post-batch3 source census / local SHA-256 validation
+research/ciclo_ajuste/source_audit/MASTER_LOCAL_HASH_VALIDATION_V96_AFTER_ARCHAEOLOGY_BATCH3.csv,generated after archaeology batch 3,post-batch3 source census / local SHA-256 validation
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bapro_disciplina_sep2023_control.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bapro_eeff_fy2023_aq.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bcra_bolmetes_prestamos_titular.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bcra_isb_abr2014_ciclo.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bcra_isb_dic2023_ciclo.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bcra_isb_jul2014_ciclo.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bcra_isb_jun2014_ciclo.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bcra_isb_jun2018_ciclo.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/bcra_isb_nov2018_ciclo.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/credicoop_eeff_fy2023_aq.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_baldethis.xls,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_bef_1s2015.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_bef_2s2016.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_depuva_mensual.xls,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_din3_ser.txt,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_din4_ser.txt.zip,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest; GitHub-safe ZIP; contains hist_bcra_din4_ser.txt; original SHA-256 ba88bb6aeb80500ce1a5d8241628444abdb2a808be6974c56d901ebfd3b50bb8; archive SHA-256 5077091065b6ef0e3509f71f5b39b024cd6e1349403e0d8ade098edbbb77c9b4
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_entidades_jun2023.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_finuva_mensual.xls,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_ief_1s2025.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_infbanc_dic2018_series.xls,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_infbanc_dic2023_xlsx.xlsx,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_infbanc_jun2023_xlsx.xlsx,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_informe_bancos_anexo.xlsx,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_informe_congreso_2024.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_perser_priv.xls,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_perser_pub.xls,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_t_cladeu.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_t_prevmi.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_t_so_s12.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_titpubser.xls,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bna_memoria_2023_es.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_indec_ipc_dic2023.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_indec_pib_1t2024.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_indec_pib_1t2026.pdf,V96 Round2 payload 20260828_163814,Validated by payload bytes + magic + SHA-256 before ingest
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_163814_round2/POWERSHELL_RUN_LOG.txt,V96 Round2 execution evidence,Uploaded payload metadata / PowerShell run log / validation
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_163814_round2/SOURCE_BACKFILL_RESULTS.csv,V96 Round2 execution evidence,Uploaded payload metadata / PowerShell run log / validation
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_163814_round2/SOURCE_BACKFILL_REQUEST_V96.csv,V96 Round2 execution evidence,Uploaded payload metadata / PowerShell run log / validation
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_163814_round2/PAYLOAD_MANIFEST_VALIDATION.csv,V96 Round2 execution evidence,Uploaded payload metadata / PowerShell run log / validation
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_163814_round2/README_RESULT.md,V96 Round2 execution evidence,Uploaded payload metadata / PowerShell run log / validation
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/TRANSMISSION_TIMELINE_V45.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/A5928_PERSONAL_IMPLEMENTATION_MULTIBANK_V36.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/A5928_SOURCE_CONFLICTS_V36.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/A5928_SOURCE_RECOVERY_MATRIX_V38.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/A5928_THREE_LAYER_INCIDENCE_V38.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/ABNORMAL_COMPONENT_BRIDGE_V50.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BANK_ABNORMAL_RESULT_V49.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BANK_CUMULATIVE_OUTCOME_V48.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BANK_NET_EXPOSURE_TO_PN_V44.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BANK_OVERSHOOT_DRAWDOWN_V47.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BANK_SERVICE_CHANNEL_CANDIDATES_V40.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BBVA_PERSONAL_POST_A5928_V36.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BCRA_DAILY_PERSONAL_TNA_A5928_V37.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BCRA_TNA_CUTOFF_SUMMARY_V37.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BENCHMARK_SENSITIVITY_V49.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BUFFER_COVERAGE_RATIOS_V43.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BUFFER_FUNCTION_MAP_V43.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/BUFFER_STRESS_USE_V44.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/CHANNEL_ROTATION_V47.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/COMPONENT_IDENTIFICATION_LADDER_V51.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/CORPUS_DOCUMENTAL_INTENCION_INDEX.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/emae_mensual.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EPISODE_ABNORMAL_VERDICTS_V49.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_A5928_V36.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_A5928_V37.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_A5928_V38.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_A5928_V40.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V41.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V44.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V45.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V47.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V48.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V49.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V50.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/EVIDENCE_LEDGER_CICLO_AJUSTE_V51.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_ABNORMAL_V49.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_COMPONENTS_V50.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_COVERAGE_V43.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_CUMULATIVE_V48.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_MECHANISM_V51.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_ROTATION_V47.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_STRESS_USE_V44.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFICADORES_TRANSMISSION_V45.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/FALSIFIERS_MIXED_RUBRICS_V40.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/HSBC_INTERNAL_COUNTERFACTUAL_V37.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/ipc_monthly_V33.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/LEAD_LAG_AUDIT_V45.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MAPA_HIPOTESIS_POST_FALSADORES_V41.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_DISTRIBUCION_PUENTE_INGRESO_PROVEEDOR.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_PUENTE_CONSUMO_DEUDA_2023_2026.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_SIGNO_INCIDENCIA_2002_2026_V41.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_V21_AMORTIGUADORES_2023_2025.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_V22_AMORTIGUADORES_2018_2024.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_V23_STOCK_FINANCIERO_PH.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_V24_COBERTURA_PROFUNDIDAD_AHORRO.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MATRIZ_V30_BUFFER_CAPACIDAD_VS_FLUJO.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/MORA_ONSET_SENSITIVITY_V45.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/morosidad_hogares.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/OVERSHOOT_REVERSAL_BALANCE_V48.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/poder_adquisitivo_ipc_nucleo_actualizado_hasta_2026_07.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/POLITICA_AUH_2024_V33.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/ROA_GAP_RECONCILIATION_V50.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/SHOCK_POLICY_COMPONENT_MAP_V51.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/tasas_impacto_financiero_post_shock.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/csv/TIMELINE_V30_SHOCK_BUFFER_RECOVERY_CREDITO.csv,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/xlsx_unclassified/calculadora_prestamos_frances_TNA_TEA_v2.xlsx,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE_UNCLASSIFIED
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/xlsx_unclassified/calculadora_prestamos_sistema_frances(1).xlsx,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE_UNCLASSIFIED
+data/fuentes/ciclo_ajuste/recovered_loose/Infbanc0624.xlsx,Recovered loose Downloads archaeology batch4,PRESERVED_AS_SOURCE_RECOVERED_LOOSE
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/xlsx_unclassified/plan_fiat_16304-83.xlsx,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE_UNCLASSIFIED
+research/ciclo_ajuste/recovered_loose/pre_v52_downloads/xlsx_unclassified/Planfiatfinal(copia).xlsx,Recovered loose Downloads archaeology batch4,PRESERVED_RECOVERED_LOOSE_UNCLASSIFIED
+research/ciclo_ajuste/source_audit/archaeology_batch4_loose_downloads/carriers/csvs(1).zip,User loose Downloads carrier,Carrier preserved for provenance
+research/ciclo_ajuste/source_audit/archaeology_batch4_loose_downloads/carriers/xlsxs(1).zip,User loose Downloads carrier,Carrier preserved for provenance
+data/fuentes/ciclo_ajuste/agn/agn_bna_informe210_9m2023_attachments.zip,Reconciled V72/manual AGN attachments,Deterministic bundle of three already-preserved official AGN attachments
+research/ciclo_ajuste/source_audit/archaeology_batch4_loose_downloads/LOOSE_FILES_RECOVERY_INVENTORY_V96.csv,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/archaeology_batch4_loose_downloads/ARCHAEOLOGY_BATCH4_REPORT.md,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/MASTER_LOCAL_HASH_VALIDATION_V96_AFTER_ROUND2_LOOSE_RECOVERY.csv,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V96_AFTER_ROUND2_LOOSE_RECOVERY.csv,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_SUMMARY_V96_AFTER_ROUND2_LOOSE_RECOVERY.json,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_GAPS_V96_AFTER_ROUND2_LOOSE_RECOVERY.csv,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_REQUEST_V96_ROUND3.csv,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_REQUEST_V96.csv,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_INGEST_REPORT_V96_ROUND2.csv,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_INGEST_REPORT_V96_ROUND2.md,Generated during V96 Round2/archaeology batch4,Current source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/REMOTE_BINARY_BACKFILL_STATUS_V96.csv,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/README_ROUND3.md,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/README_BACKFILL.md,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/Download-SourceBackfill.ps1,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/SOURCE_BACKFILL_REQUEST_V96.csv,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/RUN_ALL_GAPS.cmd,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/RUN_P0_FIRST.cmd,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/SOURCE_METADATA_CORRECTIONS_V96.csv,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+research/ciclo_ajuste/source_audit/backfill_v96/tool_round3/SOURCE_BACKFILL_REQUEST_V96_ROUND3.csv,V96 Round3 backfill tool,Windows downloader cloned from working Round2 tool with Round3 request
+data/fuentes/tasas/bcra/tas1_ser.txt.zip,V96 GitHub-safe large-source packing,ZIP-preserved exact source; contains tas1_ser.txt; original SHA-256 be3d0b8f57fd3531766c70d293af6734a5517610bfa2f5c994be78afba684410; archive SHA-256 99da09f51179154f21f73b12e9458661d4f83c04289ee34727f2112609b99766
+data/fuentes/tasas/bcra/tas2_ser.txt.zip,V96 GitHub-safe large-source packing,ZIP-preserved exact source; contains tas2_ser.txt; original SHA-256 e71e938a9000c6c6ca78a2c9e58243de11aee1f875d14d78ecb4e9a01e98a181; archive SHA-256 d632562b4d8bf0287c24603e276ae0695d97d11aaa351598e870c2c90e1386d2
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_ief_1s2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=1423308.0; sha256=09e0305bf0cae9d40eb7f6002bc4d0b28f4fc37d951761a882dafafee1de43cc; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/ief0118.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_ief_1s2019_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=902373.0; sha256=de9aca43185b3778dcbdf138bbebf0b85f21ed1b8516198605ec6c4c41532b49; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/ief0119.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_ief_2s2023_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=1144797.0; sha256=8d69b6fb4e37719fe5e707598f6a3704fcf543da5e9500800cd0d3d8106c4f39; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/ief0223.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_iif_1s2024_ahorro_ph.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=2122951.0; sha256=d86e20fd424bdd1790fda2d9b262258846bb9a6d3ba2555cd74d46d8916a7798; source=https://www.bcra.gob.ar/archivos/pdfs/PublicacionesEstadisticas/Informe-inclusion-%20financiera-octubre-24.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_iif_1s2025_mora.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=2404631.0; sha256=07a210eecaa7d45c3afa34042718be4a1489d418598ba6a996da0f64070bc50b; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Informe-inclusion-financiera-octubre-25.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_iif_2s2024_ahorro_ph.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=2319050.0; sha256=1a93f4c386a1be093656ae21a2949224569ef73cc40631a6e71ca85f7eb5e5ad; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Informe-inclusion-financiera-abril-25.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_iif_2s2025_ahorro_ph.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=1877423.0; sha256=791835603eaf4d31bf637cccc72f8d5ee1e18e8545ddf66cd248bb2ddd12d311; source=https://www.bcra.gob.ar/archivos/Pdfs/publicacionesestadisticas/informes/informe-inclusion-financiera-2026-04.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_imm_dic2024_mora.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=2284708.0; sha256=488847eb4333927f21d5c655eb840d0b4d34419d4fb08a828fb2e2001b600824; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informe-monetario-mensual-dic-24.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_imm_jun2014_a5590.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=486976.0; sha256=70bf8ab9521f1a52c3e434d78a892a716d0bd7b5d83b824f7558d103cacd0b0b; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/bol0614.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_abr2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=464279.0; sha256=42a3a46d04209f3f8d3308fa785ba5b7ef84b4fc794fc6101aed6faa0d87f956; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0418.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_dic2013_buffers.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=337144.0; sha256=0e5e2b620756eeaf62e95e0503c187322313fd77b3b14557a545aa2d65ef8d3f; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc1213.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_dic2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=483849.0; sha256=9236c7861d8428a8039fddfaa7928b7d06d28cac7aff8a9c624e83e27ad478cc; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc1218.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_dic2024_mora.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=267538.0; sha256=6648c0f03fa4f8da4c00e7a282fd7d8d65e044cd86b420099cbecdfd874650eb; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc1224.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_ene2014_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=321457.0; sha256=7182bbaf319403ba595c73bfea1a2386cbcace91935e0d1e99711c0a3c2bf9ab; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0114.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_feb2014_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=339417.0; sha256=91f96235481601d1a75dbf09f6c89d4efc70c37ba8b282cc78fc081deaa9a2c9; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0214.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_feb2024_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=286695.0; sha256=f5c9a1544aa7ce997f0af66900b3feacd4dc4b848f34874467d413ab040cf8d0; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0224.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_jul2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=532098.0; sha256=6b86c4ff96fd2bd1d071c21aa73ad84555bbd6faecb2c9d01b040655c0637653; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0718.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_jun2026_mora.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=464020.0; sha256=dc5ddc66aba9f1d5be05a4e48e6b8416df406dcb28accad88a76e41ad085fcd0; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-bancos-2026-06.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_mar2024_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=567293.0; sha256=7a2d930f849a27a806bff6ea8b17c23d644725bcc7232868fe4220aa5bf8ccfa; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0324.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_may2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=495085.0; sha256=36a3f5017e52cf2d67a1c256357eea6560e4ef8c061d17d3333bda7c7e152216; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0518.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_nov2023_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=370652.0; sha256=fe04e9e4e6ee69b8de20e854a142a458a61f4a2b9fbb4b9fa43828507784bdfb; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc1123.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_nov2025_mora.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=336116.0; sha256=6467a819b99d16acb97718caacab2258ca1d94cf9bf789ca142ff86b2e389f00; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/InfBanc1125.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_oct2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=539293.0; sha256=a037e75db4621be5206ca9bafc970884b24391b77b90bb940ade031f2b14b99c; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc1018.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_sep2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=496615.0; sha256=ee5a5188ccf94e93a2079973ba4c4bda8cc886c64c35ec37f0abc988cacf8b38; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0918.pdf
+data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_sep2024_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=473410.0; sha256=f90abc735a9846e8de5ff5a27c87081e96f2d2468f30e0572c7a05731bb8fb67; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0924.pdf
+research/ciclo_ajuste/source_audit/SOURCE_PRESERVATION_MISSING_V96_POST_ROUND3.csv,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_GAPS_V96_AFTER_ROUND3.csv,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/FALTANTES_SOURCE_BACKFILL_V96_POST_ROUND3.md,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/MASTER_LOCAL_HASH_VALIDATION_V96_AFTER_ROUND3.csv,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V96_AFTER_ROUND3.csv,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_SUMMARY_V96_AFTER_ROUND3.json,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/GITHUB_FILE_SIZE_AUDIT_V96_AFTER_ROUND3.csv,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_INGEST_REPORT_V96_ROUND3.csv,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/SOURCE_BACKFILL_INGEST_REPORT_V96_ROUND3.md,Generated during V96 source backfill Round 3,Current post-Round3 source-completeness audit artifact
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_170012_round3/SOURCE_BACKFILL_RESULTS.csv,User-executed V96 source backfill Round 3,Run metadata copied from uploaded payload; binary members ingested separately into canonical data/fuentes paths.
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_170012_round3/SOURCE_BACKFILL_REQUEST_V96.csv,User-executed V96 source backfill Round 3,Run metadata copied from uploaded payload; binary members ingested separately into canonical data/fuentes paths.
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_170012_round3/PAYLOAD_MANIFEST_VALIDATION.csv,User-executed V96 source backfill Round 3,Run metadata copied from uploaded payload; binary members ingested separately into canonical data/fuentes paths.
+research/ciclo_ajuste/source_audit/backfill_v96/runs/20260828_170012_round3/README_RESULT.md,User-executed V96 source backfill Round 3,Run metadata copied from uploaded payload; binary members ingested separately into canonical data/fuentes paths.
+research/ciclo_ajuste/source_audit/CURRENT_SOURCE_COMPLETENESS_V96.json,generated V96 final manual close,Current source preservation state; zero required physical gaps
+data/fuentes/manual_recovery_v96_final/bcra_boldat202505_tipo_titular.pdf,V96 final manual source recovery,PDF oficial · recuperación manual; sha256=0b466df43189cfef6e96083b5fbe47c28570f933fa108aaae7099fb1a1a73b52; Recuperación manual 2026-08-28 del Boletín Estadístico mayo 2025; el host legacy www7 no resolvía durante el backfill automático. Binario validado localmente por firma PDF y SHA-256.
+data/fuentes/manual_recovery_v96_final/bcra_pases_esquema_20231218_web_snapshot.pdf,V96 final manual source recovery,PDF snapshot de publicación web oficial · recuperación manual; sha256=5a5fcb71b6d3ccdb48cbd7b237ddf98320cc9282bc03248eb9d399f4828f116e; La fuente primaria es una publicación web nativa del BCRA; se preserva snapshot PDF manual de la página oficial. No se presupone la existencia de un PDF original separado.
+data/fuentes/manual_recovery_v96_final/bcra_prestamos_activos_sector_mapping.xls,V96 final manual source recovery,"XLS oficial · recuperación manual; sha256=484bd080a2d35c635daed23e7f9c087b01eebeac0bf0ab6a49515f31f6de7a3a; Workbook BCRA recuperado manualmente. Inspección de cadenas BIFF identifica Estadísticas Monetarias del BCRA y series de préstamos/activos por sector. El archivo adjunto con nombre AUH + Tarjeta Alimentar resultó byte-idéntico a este workbook y se registra como alias duplicado, no como segunda fuente."
+data/fuentes/manual_recovery_v96_final/capital_humano_auh_alimentar_cba_2024_web_snapshot.pdf,V96 final manual source recovery,PDF snapshot de publicación web oficial · recuperación manual; sha256=cdc86d5c3b1283ad4705ed3ebd731cfda3493cf1455c632aba79fd828373b4dc; La fuente primaria es una publicación web oficial de Argentina.gob.ar; se preserva snapshot PDF manual de la página. El XLS adjunto con nombre similar no corresponde a Capital Humano: es byte-idéntico al workbook BCRA de préstamos y no se usa para esta fuente.
+data/fuentes/manual_recovery_v96_final/indec_archivo_historico_y_discontinuidades_bundle.zip,V96 final manual source recovery,"ZIP bundle de descargas oficiales · recuperación manual; sha256=08bc2123a58f0562c7eefa88b1731711e35eb04ce8963f3c5ff4c0dcc09a1c0c; Bundle manual asociado a la landing oficial de Archivo histórico/discontinuidades de INDEC. Conserva materiales descargados de archivo (incluye metodologías/series históricas IPC); no reemplaza la serie específica de supermercados, que se preserva por separado. Se usa como preservación de la landing/archivo general consultado para advertencias de discontinuidad."
+data/fuentes/manual_recovery_v96_final/indec_encuesta_supermercados_download_bundle.zip,V96 final manual source recovery,"ZIP bundle de descargas oficiales · recuperación manual; sha256=d221978a04bfd3590901a9568418b41813ca684d1003ae3c4bbbcee8eab29d43; Bundle manual de la página temática oficial Encuesta de supermercados de INDEC; contiene cuestionario, metodologías y series descargables oficiales, incluido serie_supermercados.xlsx."
+data/fuentes/manual_recovery_v96_final/santander_9m2023_comision_fiscalizadora.pdf,V96 final manual source recovery,PDF oficial CNV · adjunto suplementario; sha256=4cfe775561c3733562ec1975925e73f8727780274e4f8e8715e89da1d92b783a; Informe de Comisión Fiscalizadora correspondiente a EECC condensados separados intermedios 30/09/2023. Se preserva como adjunto suplementario; no agrega un nuevo gap del catálogo maestro.
+data/fuentes/FUENTES_POR_TEMA.md,generated from FUENTES.csv,Human source index regenerated after V96 final manual close
+research/ciclo_ajuste/source_audit/FALTANTES_SOURCE_BACKFILL_V96_FINAL.md,generated V96 final manual close,Human-readable final gap state
+research/ciclo_ajuste/source_audit/SOURCE_PRESERVATION_MISSING_V96_FINAL.csv,generated V96 final manual close,Empty required physical gap table
+research/ciclo_ajuste/source_audit/SOURCE_REFERENCE_EXEMPTIONS_V96_FINAL.csv,generated V96 final manual close,Explicit non-binary reference exemptions
+research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V96_AFTER_MANUAL_CLOSE.csv,generated V96 final manual close,Fresh master catalog source census
+research/ciclo_ajuste/source_audit/MASTER_LOCAL_HASH_VALIDATION_V96_AFTER_MANUAL_CLOSE.csv,generated V96 final manual close,All declared local master catalog copies rehashed
+research/ciclo_ajuste/source_audit/GITHUB_FILE_SIZE_AUDIT_V96_FINAL.csv,generated V96 final manual close,GitHub-safe size audit; zero files >50 MiB
+research/ciclo_ajuste/source_audit/HANDOVER_DELTA_V96_FINAL_SOURCE_CLOSE.md,generated V96 final manual close,Delta superseding source-completeness metrics in earlier handover

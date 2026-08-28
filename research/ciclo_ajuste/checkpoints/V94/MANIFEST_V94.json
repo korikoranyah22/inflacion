@@ -1,0 +1,382 @@
+{
+  "checkpoint": "V94",
+  "created_utc": "2026-08-28T14:58:48.962251+00:00",
+  "parent_checkpoint": "V93",
+  "strict_coverage_pct": 59.33277504219323,
+  "exact_entities": 22,
+  "promotion_count": 1,
+  "promoted": [
+    "Banco Provincia del Neuquén S.A."
+  ],
+  "held": [
+    "Banco de la Nacion Argentina",
+    "Banco Santander Argentina SA",
+    "Banco Hipotecario S.A.",
+    "Banco de Santiago del Estero S.A."
+  ],
+  "manual_recovery_active": [
+    "HSBC Bank Argentina S.A.",
+    "Banco BMA / ex Banco Itaú Argentina S.A.",
+    "Banco de Santiago del Estero S.A."
+  ],
+  "next_autonomous": [
+    "Banco de Corrientes S.A."
+  ],
+  "files": [
+    {
+      "path": "ANNEX_Q_FREQUENCY_CORRECTION_V86.md",
+      "size": 860,
+      "sha256": "f6d67713ef9db5a717fad5bcfdb6ff4864ffa5ba1cafb9f5fc9b43fdc0e01318"
+    },
+    {
+      "path": "ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md",
+      "size": 679,
+      "sha256": "9999e0631a63aee21964963deae95be6cba39ca8fb9cc27735147e116d1873d1"
+    },
+    {
+      "path": "AUDITORIA_V94.md",
+      "size": 1685,
+      "sha256": "5c1fc2d1be48888ce9e9152a67bcb022e8d38fb89d50d40dbf55542527fd2953"
+    },
+    {
+      "path": "BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv",
+      "size": 1490,
+      "sha256": "2e71f3131086303b8c68bb8ba0fd84e33c13e47d5e8f036eca078dbead82bf55"
+    },
+    {
+      "path": "BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv",
+      "size": 1023,
+      "sha256": "df5cfda9cb973fff70cb74fe0a3cf53c5affbb6d0514f56c94577455c99d0006"
+    },
+    {
+      "path": "BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv",
+      "size": 1100,
+      "sha256": "3505d05c8c467d7907659e82215368ff7403985a5ff32bdfba4aeb3755170c93"
+    },
+    {
+      "path": "BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv",
+      "size": 1577,
+      "sha256": "43ddfa03572a8239fd59fa8ee10facbfdff9cecffb1622b604633931570509f2"
+    },
+    {
+      "path": "BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv",
+      "size": 1032,
+      "sha256": "4d513b9608e74028bd0814db6614ad20c05b32ca3dfbe2d19dcea458c0fe778e"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_BCRA_RAW_ACCOUNT_AUDIT_V93.csv",
+      "size": 1124,
+      "sha256": "bd116e96ff48822fb3c980c096d9a52c37d04425aebd1cd1294916e94aed0a99"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_ENTITY_SPECIFIC_CROSSWALK_V93.csv",
+      "size": 1450,
+      "sha256": "cd9db246ad2e6694e3581e3c12aaa6b082ea5cfcc8a635eb1b930d06ac862698"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_OFFICIAL_SOURCE_AUDIT_V93.md",
+      "size": 2390,
+      "sha256": "324f34266e1606a74098f7bd470c3a9c18363c91e94a61e85b59d229715a7a96"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_Q4_FOUR_LEG_PROMOTION_V93.csv",
+      "size": 1123,
+      "sha256": "8b2de9cca1557833fdf4d986ebe2fa7ec4f4db43790f122082348bd22d67bfe4"
+    },
+    {
+      "path": "BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv",
+      "size": 672,
+      "sha256": "a2d5fea7c2fab9d6b978f8bc57d4ff66f4ed2b9e1e608557e3432536539184da"
+    },
+    {
+      "path": "BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv",
+      "size": 1361,
+      "sha256": "18bfd71efbd783a0ca8bdb8a5702d280ff0e6ea84aef27370464c855278bf8f0"
+    },
+    {
+      "path": "BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv",
+      "size": 970,
+      "sha256": "4a8a22fe770a1ecafbd0ff401b94d4cff0c13147ec9c9d3a75d813f5694576b7"
+    },
+    {
+      "path": "BCRA_63_BANK_RAW_SWEEP_V85.csv",
+      "size": 13985,
+      "sha256": "58ac95e18318685cd1f4b7036f42c4e5cc25785e74f62a290479708529f643c6"
+    },
+    {
+      "path": "BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "size": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "path": "BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md",
+      "size": 1322,
+      "sha256": "ddbe0b670b9caeec300aadfa3b998e9a4b8a836be0616ecb5ef4536ec15ccd41"
+    },
+    {
+      "path": "BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md",
+      "size": 2584,
+      "sha256": "f8b7e2b9615d68ab4ee645f5a6f0fe5e50ec34ef43f9df0b18d1a0127abef009"
+    },
+    {
+      "path": "BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv",
+      "size": 799,
+      "sha256": "a1e8b4a107466626fa3f255e40e71681f4d36b5876205b5cdfd64cbafdf19e66"
+    },
+    {
+      "path": "BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv",
+      "size": 1503,
+      "sha256": "258dfdbcc605da2e4491d1d99ee3379a7d1ee29d6243efed4dd25716ac190e6e"
+    },
+    {
+      "path": "BICE_Q4_FOUR_LEG_PROMOTION_V90.csv",
+      "size": 1147,
+      "sha256": "46ebb057237ec65033df5e08d1caa26e3bc2e518f1287f34265eb6474e38d6ab"
+    },
+    {
+      "path": "BMA_CNV_RECOVERY_STATUS_V91.md",
+      "size": 628,
+      "sha256": "446315013085a7214c499890266f8435f0b14eff827e3020b629c9b46b6818ea"
+    },
+    {
+      "path": "BNA_521007_HISTORY_V85.csv",
+      "size": 1176,
+      "sha256": "2825d9dcc099d7a85610104dc7423cadf3566ee1b7b10ff0396589530dd8ea81"
+    },
+    {
+      "path": "BNA_521007_PRESENTATION_AUDIT_V85.md",
+      "size": 669,
+      "sha256": "507ac83370a8d36d72bd09a478fdefd912eab6d187ac29bf586c287762a06860"
+    },
+    {
+      "path": "BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md",
+      "size": 803,
+      "sha256": "ef0c99c84c6ddcdbde0786c92b9cd3360d7ac3d9ede18f39d733e5d679eea068"
+    },
+    {
+      "path": "BNA_STATUS_V87.md",
+      "size": 795,
+      "sha256": "0c5d414d9809a7250e5bf101f0f32e7750961dec1b8363bc1c240a3bc7e4a687"
+    },
+    {
+      "path": "BPN_BCRA_RAW_ACCOUNT_AUDIT_V94.csv",
+      "size": 1266,
+      "sha256": "064c89836e31b8997956e18ab921d052e3b89fd8421710a42139ebce65a6b2d8"
+    },
+    {
+      "path": "BPN_ENTITY_SPECIFIC_CROSSWALK_V94.csv",
+      "size": 1099,
+      "sha256": "c1b51e6c39a6075ba2822821853abc04f38e8aef0e4fa18284f882591fce5ddf"
+    },
+    {
+      "path": "BPN_OFFICIAL_SOURCE_AUDIT_V94.md",
+      "size": 2426,
+      "sha256": "ca6d674b07601e42116c4deb8459dad00290696b30099dda3cbd8562f89b4e8b"
+    },
+    {
+      "path": "BPN_Q4_FOUR_LEG_PROMOTION_V94.csv",
+      "size": 1158,
+      "sha256": "9718dafb3009f1c7d13d3f754307e06fc50788e89f1619f2b4d3bdeb0913bff9"
+    },
+    {
+      "path": "BSE_BCRA_RAW_ACCOUNT_AUDIT_V94.csv",
+      "size": 728,
+      "sha256": "bd4e744d4b9b3bf8bca6029335a0662ccf4a1d541fa36ef2eb9a3a3ee7bdf5ef"
+    },
+    {
+      "path": "BSE_RECOVERY_STATUS_V89.md",
+      "size": 541,
+      "sha256": "48a25d02b325108dfc23385e080bb501d3ba63ebeea7edc6547e3404eb4373de"
+    },
+    {
+      "path": "BSE_RECOVERY_STATUS_V94.md",
+      "size": 1656,
+      "sha256": "b2a223276a5afcee04c27b9f17fbd2b36d264f71c18cf17a8d27607bbaa95810"
+    },
+    {
+      "path": "CITI_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "size": 723,
+      "sha256": "b83659122e69c3fc4ac5c7f9a8213fe3a37063a0c467c7496f896b2d54afbcbb"
+    },
+    {
+      "path": "CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "size": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "path": "CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "path": "CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "path": "COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv",
+      "size": 804,
+      "sha256": "d16c494380d6e7ca7e82bfc9b3d3ec03dbfaf5867ab34a885d3eda38fb16f83a"
+    },
+    {
+      "path": "CURRENT_STATE_V94.csv",
+      "size": 7428,
+      "sha256": "da33f7fe4dfcc01021f6433a0d6a131d30108545afb9f1fc52d9d96abc2dc5e1"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V94.csv",
+      "size": 15903,
+      "sha256": "6d9511c7137ed3bf38401c8507168fca96ef6332330836aaf9df39be3c21858b"
+    },
+    {
+      "path": "GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv",
+      "size": 874,
+      "sha256": "81094074e0899ae32bafa655bc02318066c9e07a201ea4ec08cafb6c81d972a2"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V94_A_V95.md",
+      "size": 2682,
+      "sha256": "d985892fedf53bf644d9e678657a5d702549c81c0633e08a8569c0178f5aefe1"
+    },
+    {
+      "path": "HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md",
+      "size": 1237,
+      "sha256": "8bd335eec79edfde2334f14aaa654f6f4551ad55ac823db85c7ba3faaf421956"
+    },
+    {
+      "path": "HSBC_CNV_MANUAL_RECOVERY_V88.md",
+      "size": 871,
+      "sha256": "e7c3008df22fcde55622128eee47cbdbb148ab4b24b04e99d4245fee780788b0"
+    },
+    {
+      "path": "NBCH_BCRA_RAW_ACCOUNT_AUDIT_V92.csv",
+      "size": 840,
+      "sha256": "dfce05d1f4d77f500e2ebb04c0ab07d0234ecf92f3fe550e540299fece845446"
+    },
+    {
+      "path": "NBCH_ENTITY_SPECIFIC_CROSSWALK_V92.csv",
+      "size": 1443,
+      "sha256": "0e8cd1838f7756198e0df4b0909efc42a6465ba8e465b70c868e7841db29b06f"
+    },
+    {
+      "path": "NBCH_OFFICIAL_SOURCE_AUDIT_V92.md",
+      "size": 1831,
+      "sha256": "5a4f109bdf22626f739bceb56e948473b2c9c2418d2462416d970bc970bfc0b2"
+    },
+    {
+      "path": "NBCH_Q4_FOUR_LEG_PROMOTION_V92.csv",
+      "size": 1045,
+      "sha256": "5b9cb8273a3a7803908f5d1fb1f9e230536a212577446cb42bad8f8ad8ebfe6a"
+    },
+    {
+      "path": "NBER_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "size": 1685,
+      "sha256": "58942591b71f833d15b1b54dfdff294cb63ef42fbcd9e828398014fc99f9195f"
+    },
+    {
+      "path": "NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "size": 1752,
+      "sha256": "405867b6927eb90b3bfc3a03bf57d8012ff3b3d2e49a7280a4dee42ff89c0624"
+    },
+    {
+      "path": "PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "size": 745,
+      "sha256": "5a9b7dd48247a4bdba3fdbad83bd2a7eb770a831c16fde883cd25841134b8018"
+    },
+    {
+      "path": "RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv",
+      "size": 1844,
+      "sha256": "9abf234aad7e7a479fcda54bf423d5645fb18dd4fc3eb9f85d3e5dcf347388c2"
+    },
+    {
+      "path": "README_V94.md",
+      "size": 978,
+      "sha256": "a1ea1ae7e5936fcacfc7203b6437773869f9644ba984f22f01763a2202f839cb"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V94.csv",
+      "size": 1950,
+      "sha256": "062761bb57652d83770fb7b0e86986b2a6d2c8323d6eea835eaf7fbd7b5a8866"
+    },
+    {
+      "path": "SANTANDER_SEPARATED_9M_AUDIT_V87.md",
+      "size": 1051,
+      "sha256": "87987e680eddbca1067b12e78a3154dfd6d49821c52ac23627eb3ee6eb6c36b5"
+    },
+    {
+      "path": "SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "size": 1705,
+      "sha256": "d781f710a5de7db047993c7fe1de9169bc75dd46f1ab381c71c30444f96c9deb"
+    },
+    {
+      "path": "SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "size": 1656,
+      "sha256": "576c97c2633e5c1f170be6fe0080c76cbc10b4725635a0d157d4c6d9e71a16ca"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V94.md",
+      "size": 10007,
+      "sha256": "1d8f8092cf4dc7bfce3394ccaf6236cb313d420141f8b843a3f1609322a78674"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V94.csv",
+      "size": 993,
+      "sha256": "e4715e6b4f85f0a4ebe02d36f54d0cf5a3d6b70d5da6e98d10715ad5e62a135b"
+    },
+    {
+      "path": "SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "size": 797,
+      "sha256": "243c87901a00e7fc2ed8c3de3c9b1cf967589c780d2c060a39f36a693e4da721"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V94.md",
+      "size": 666,
+      "sha256": "3393b70abc06a64070ef65f9bf5159229bd5ec837b12f60c8e13bf3126a3115a"
+    },
+    {
+      "path": "V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "size": 1519,
+      "sha256": "7a4744a2f00967b161aef928b31f0a5394a19bc0d4e1452cc847b339d9021069"
+    },
+    {
+      "path": "V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "size": 1275,
+      "sha256": "bf0399c4b0c36f7218af9e4933f0cc44951bce2aee44d222da27a4c23a925324"
+    },
+    {
+      "path": "V94_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "size": 5441,
+      "sha256": "fcbf70921f25111bd397cddfe6b3f406b52c9c1f65bdcfdf4f7720ca04a9a473"
+    },
+    {
+      "path": "VEREDICTO_V94.md",
+      "size": 925,
+      "sha256": "1441672b9b37b2e238993793453f7597d63dd461a697b001c60e6da3c74191e3"
+    },
+    {
+      "path": "qa_v94.py",
+      "size": 1957,
+      "sha256": "320dac81980100150e8446d7001adb68f523d240158d00e56da4157b6a550f5c"
+    }
+  ]
+}

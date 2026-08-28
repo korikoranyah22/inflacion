@@ -1,0 +1,7 @@
+﻿test_id,hypothesis,evidence,result,interpretation
+F1_2018_ADJUSTED_PROVISIONS_BELOW_1X,Provision coverage <100% implies insolvency if provisions alone are sufficient.,Adjusted ~80% pre and ~87% Dec-2018 while system remained solvent.,REJECTS_PROVISIONS_AS_SUFFICIENT_SINGLE_BUFFER,Buffers are a stack.
+F2_2023_HIGH_CAPITAL_NOT_PROFIT_SHIELD,Large excess capital should protect ROA if capital is a profit buffer.,"~52% net-credit ratio pre, 60.2% Dec; V42 still finds later ROA compression.",REJECTS_CAPITAL_AS_ROA_SHIELD,"Capital protects solvency, not ROA."
+F3_UNEMPLOYMENT_NOT_WAGE_RECOVERY,Stronger unemployment coverage should restore aggregate registered wages faster.,Coverage strengthens sharply 2014→2018→2023; V42 rejects wage recovery prediction.,REJECTS_WRONG_OUTCOME_MAPPING,"Protects eligible unemployed income, not wage-setting."
+F4_TRANSFER_CBA,Stronger basic-income need coverage should align with covered social-floor outcomes.,AUH+Alimentar/CBA 54.8%→100% while broad poverty recovers rapidly.,CONSISTENT_NOT_CAUSAL,V33 needed for causal decomposition.
+F5_2008,Buffer asymmetry alone is sufficient for the domestic pattern.,Robust bank capitalization in 2008 without same immediate household wage drawdown.,REJECTS_SUFFICIENT_CAUSE,Shock type matters.
+F6_LIQUIDITY_DEFINITION,Broad liquidity can be ranked mechanically across all episodes.,Composition/reporting shifts materially by 2024.,REJECTS_NAIVE_CROSS_TIME_RANK,Need instrument bridge.

@@ -1,0 +1,2 @@
+correction_id,gap_id,entity_or_id,historical_registry,historical_role_label,corrected_role,impact_on_numbers,impact_on_V89_promotion,reason
+V96-SRCMETA-001,10,Banco de San Juan S.A.,research/ciclo_ajuste/inputs/issuer_retrieval/v89/SOURCE_URLS_V89.csv,FY-2023 / separated/individual or official comparative,official 2024/2023 comparative Annex Q; FY2023 comparator,NONE,NONE,The official 14-03-2025 annex is a 2024 statement with 2023 comparative figures. V89 already used it as official 2024/2023 comparative Annex Q; this correction only fixes source-backup metadata.

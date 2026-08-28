@@ -1,0 +1,9 @@
+period,account,raw_description,debit_k,credit_k,industrial_specific_target,source
+202309,511027,INTERESES POR PASES ACTIVOS CON EL,0.000,63741.000,income_otherfi,/Entfin/Tec_Cont/baldet/00322.txt
+202309,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,91303079.000,income_bcra,/Entfin/Tec_Cont/baldet/00322.txt
+202309,521022,INTERESES POR PASES PASIVOS CON EL,605.000,0.000,expense_otherfi,/Entfin/Tec_Cont/baldet/00322.txt
+202309,BCRA_PASS_EXPENSE_SET,no additional nonzero BCRA pass-expense result account in entity scan,0,0,expense_bcra=0,full Banco Industrial baldet scan
+202312,511027,INTERESES POR PASES ACTIVOS CON EL,0.000,110798.000,income_otherfi,/Entfin/Tec_Cont/baldet/00322.txt
+202312,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,292074698.000,income_bcra,/Entfin/Tec_Cont/baldet/00322.txt
+202312,521022,INTERESES POR PASES PASIVOS CON EL,2892.000,0.000,expense_otherfi,/Entfin/Tec_Cont/baldet/00322.txt
+202312,BCRA_PASS_EXPENSE_SET,annual separated Annex Q presents pass expense only under Other Financial Institutions,0,0,expense_bcra=0,issuer/raw entity-specific crosswalk

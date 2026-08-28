@@ -1,0 +1,7 @@
+period,account,raw_description,debit_k,credit_k,bice_specific_target,source
+202309,511027,INTERESES POR PASES ACTIVOS CON EL,0.000,68496.000,income_otherfi,/Entfin/Tec_Cont/baldet/00300.txt
+202309,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,26984941.000,income_bcra,/Entfin/Tec_Cont/baldet/00300.txt
+202309,PASS_EXPENSE_RESULT_SET,no 52xxxx/525xxx account with PASE description present,0,0,expense_bcra=0;expense_otherfi=0,full BICE baldet scan
+202312,511027,INTERESES POR PASES ACTIVOS CON EL,0.000,104997.000,income_otherfi,/Entfin/Tec_Cont/baldet/00300.txt
+202312,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,76247460.000,income_bcra,/Entfin/Tec_Cont/baldet/00300.txt
+202312,521007,INTERESES POR OTROS PASES PASIVOS,44197.000,0.000,expense_otherfi,/Entfin/Tec_Cont/baldet/00300.txt

@@ -1,0 +1,13 @@
+﻿periodo,universo,estrato,proveedor,metrica,valor,composicion_nota,irregularidad_pct,estado,fuente
+HIST_2016,formal_dependencia,decil_bajo,EEFF,deuda_ingreso,mayor,personales_tarjetas_mayor_peso,,OBSERVADO_HISTORICO,BCRA IEF 2S2016
+AGO_2022,formal_dependencia,decil_2,EEFF,deuda_ingreso_pct,302,,4.2,OBSERVADO,BCRA IEF 2S2022
+AGO_2022,formal_dependencia,decil_10,EEFF,deuda_ingreso_pct,165,,0.8,OBSERVADO,BCRA IEF 2S2022
+AGO_2023,formal_dependencia,total_formales,EEFF,deuda_en_salarios_mensuales,1.7,,1.9,OBSERVADO,BCRA IEF 2S2023
+AGO_2023,sin_ingreso_formal_en_RI,total,EEFF,deuda_relativa_vs_formales,~0.5x,,5.4,OBSERVADO,BCRA IEF 2S2023
+1S_2025,nuevos_deudores,solo_PNFC,PNFC,participacion_altas_pct,51,saldos menores / costos mayores,,OBSERVADO,BCRA Inclusion 1S2025
+1S_2025,nuevos_deudores,solo_EEFF,EEFF,participacion_altas_pct,41,saldos mayores / fondeo menor,,OBSERVADO,BCRA Inclusion 1S2025
+1S_2025,nuevos_deudores,saldo_menor_50k,PNFC,participacion_altas_pct,24,,,OBSERVADO,BCRA Inclusion 1S2025
+1S_2025,nuevos_deudores,saldo_menor_50k,EEFF,participacion_altas_pct,11,,,OBSERVADO,BCRA Inclusion 1S2025
+1S_2025,nuevos_deudores,saldo_mayor_2m,PNFC,participacion_altas_pct,4,,,OBSERVADO,BCRA Inclusion 1S2025
+1S_2025,nuevos_deudores,saldo_mayor_2m,EEFF,participacion_altas_pct,14,,,OBSERVADO,BCRA Inclusion 1S2025
+2024_2026,ingreso,deciles_postshock,TODOS,deuda_ingreso,,,,N/D_POSTSHOCK_POR_INGRESO,no localizado en fuentes publicas equivalentes

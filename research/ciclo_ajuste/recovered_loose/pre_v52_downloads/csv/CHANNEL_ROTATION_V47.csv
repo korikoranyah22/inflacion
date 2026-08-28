@@ -1,0 +1,4 @@
+﻿episode,overshoot_broad_channel,drawdown_broad_channel,broad_rotation,component_rotation,evidence,classification
+2014,VALUATION_MARGIN,OPERATING_COST,YES_AT_TROUGH,YES,FX overshoot reverses immediately with regulation; final trough driven by admin/wage cost while securities support margin.,REJECT_SAME_CHANNEL_AT_TROUGH
+2018,VALUATION_MARGIN,VALUATION_MARGIN,NO_BROAD / YES_COMPONENT,YES,"FX creates overshoot; later lower securities/FX differences compress margin, with an intermediate funding-cost squeeze and rising credit costs.",BROAD_REVERSAL_COMPONENT_ROTATION
+2023,MARGIN_VALUATION_INDEXATION,MARGIN_VALUATION_INDEXATION,NO_BROAD / YES_COMPONENT,YES,The same broad real-margin complex reverses: passes/titles/CER that support extraordinary margin later weaken; monetary-loss relief cushions.,BROAD_REVERSAL_COMPONENT_ROTATION

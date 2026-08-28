@@ -1,0 +1,8 @@
+﻿sector,buffer_or_control,intended_function,observed_protected_dimension,observed_unprotected_dimension,coverage_status,notes
+bank,provisions,expected/recognized credit-loss absorption,irregular-loan loss coverage; solvency resilience,ROA/profitability; loan demand; macro recovery,PARTIALLY_OBSERVED,Adjusted coverage is closest to intended function.
+bank,excess regulatory capital,unexpected-loss absorption / solvency,capital adequacy; continuity,ROA timing; fee income; credit growth,MODERN_RATIO_ONLY,Direct net-credit denominator cleanly available only 2023+ here.
+bank,liquidity,meet withdrawals / funding volatility,payment/funding continuity,profitability; credit quality,BUFFER_OBSERVED_COVERAGE_ND,Need actual compatible outflow/funding stress.
+household,unemployment benefit,replace eligible labor income after job loss,eligible unemployed income,aggregate registered wage; ineligible/informal workers,NORMATIVE_COVERAGE_OBSERVED,Historical realized prior-wage coverage not homogeneous.
+household,AUH + Alimentar,protect food/basic consumption floor,CBA/food-income floor,registered wage; non-eligible households; debt service,NEED_COVERAGE_OBSERVED_CAUSAL_ND,Official 54.8%→100%; causal effect awaits V33.
+household,liquid savings,bridge consumption/debt service,consumption/debt-service continuity,structural wage recovery,N/D,Distributionally valid series not recovered.
+cross,A5928 control,remove debtor cost / shift insurance cost-risk,debtor CFT component,bank net profit,CONTROL_NOT_BUFFER,"Falsification control, not a buffer stock."

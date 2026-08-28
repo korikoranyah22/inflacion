@@ -1,0 +1,9 @@
+﻿entity_or_item,period_or_role,url,status,note
+BICE,AGN page,https://www.agn.gob.ar/informes/Informe-209-2023,recovered,landing page
+BICE,AGN separated review,https://www.agn.gob.ar/sites/default/files/informes/2023-209-Informe%20Anexo%201%20SC.pdf,binary preserved,2-page SC auditor report; no Annex Q table
+BICE,AGN consolidated review,https://www.agn.gob.ar/sites/default/files/informes/2023-209-Informe%20Anexo%20CC.pdf,binary preserved,control-only consolidated auditor report
+BICE,AGN resolution,https://www.agn.gob.ar/sites/default/files/informes/2023-209-Resolucion.pdf,binary preserved,Resolution 209/2023
+BICE,FY2023 issuer,https://www.bice.com.ar/wp-content/uploads/2025/03/Memoria-y-Balance-2023.pdf,used; binary preserved,FY separated Annex Q + entity-specific expense crosswalk | local=/research/ciclo_ajuste/inputs/issuer_retrieval/v90/binaries/000_Memoria-y-Balance-2023.pdf; sha256=f6f6fb95aec9484c3e42e6acab74b6d9a13c6ea85453bf2c0d74f2f6408eda5f
+BICE,CNV registry,https://www.cnv.gov.ar/SitioWeb/RegistrosPublicos/DetallesRegistrosPublicos/30469?tipoEntidadId=2,used,identifies 30/09/2023 individual filing #3120979
+BICE,CNV Sep publicview,https://aif2.cnv.gov.ar/Presentations/publicview/8A7369DC-5515-402B-A67F-D9CDBA8DB6CA,identified,attachment not required for V90 promotion
+HSBC,CNV Sep publicview,https://aif2.cnv.gov.ar/presentations/publicview/d483d33a-5c86-4fbb-ab9c-6528bf43f572,manual target,individual Sep 2023 presentation

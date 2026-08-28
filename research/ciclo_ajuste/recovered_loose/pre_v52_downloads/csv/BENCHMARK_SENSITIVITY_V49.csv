@@ -1,0 +1,17 @@
+﻿episode,benchmark,observed,benchmark_value,gap,direction,priority,comparability_note
+2014,Q2 same-quarter,3.4,2.6,0.8,ABNORMAL_POSITIVE,PRIMARY,same frequency/window
+2014,Jan-Jul same-window,4.7,2.8,1.9,ABNORMAL_POSITIVE,PRIMARY,same frequency/window
+2014,rolling 12m same-date,4.5,2.8,1.7,ABNORMAL_POSITIVE,PRIMARY,same rolling window one year apart
+2014,calendar-2013 level,4.7,3.4,1.3,ABNORMAL_POSITIVE_DIAGNOSTIC,SECONDARY,window mismatch
+2014,pretrend audit,Dec13=3.4,Dec12=2.9,+0.5 prior-year rise,PRETREND_PRESENT,FALSIFIER,profitability not flat pre-shock
+2018,May vs April,4.4,3.3,1.1,ABNORMAL_POSITIVE_IMMEDIATE,PRIMARY,explicit monthly change
+2018,H1 same-window,3.4,3.0,0.4,ABNORMAL_POSITIVE,PRIMARY,same-window YoY
+2018,10m same-window,3.9,3.1,0.8,ABNORMAL_POSITIVE,PRIMARY,same-window YoY
+2018,11m same-window,3.8,3.0,0.8,ABNORMAL_POSITIVE,PRIMARY,same-window YoY
+2018,FY same-vintage,3.9,2.8,1.1,ABNORMAL_POSITIVE,PRIMARY_WITH_BREAK,later comparative
+2018,FY original 2017 vintage,3.9,3.0,0.9,ABNORMAL_POSITIVE,SENSITIVITY,vintage accounting difference
+2018,pretrend audit,Q1-18=2.9,Q4-17=1.8,+1.1 before May,PRETREND_PRESENT,FALSIFIER,profitability improved before household t0
+2023,Q4 vs Q3,12.1,3.1,9.0,ABNORMAL_POSITIVE,PRIMARY_ACCOUNTING,Q4 not clean post-Dec window
+2023,Q4 vs Q4-22,12.1,3.4,8.7,ABNORMAL_POSITIVE,PRIMARY_ACCOUNTING,same-quarter YoY
+2023,FY 2023 vs FY 2022,5.4,2.0,3.4,ABNORMAL_POSITIVE,CONTEXT,mostly pre-shock year
+2023,rolling pretrend Sep22→Mar23→Sep23→Nov23,1.5→2.3→3.2→4.5,,,PRETREND_STRONG,FALSIFIER,profitability trend positive before Dec

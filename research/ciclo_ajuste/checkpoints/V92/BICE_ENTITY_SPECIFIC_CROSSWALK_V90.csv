@@ -1,0 +1,8 @@
+period,raw_account,raw_value_thousand_ars,target,issuer_validation,verdict
+FY-2023,511108,76247460,income_bcra,"Separated FY Annex Q BCRA pass income = 76,247,460 exactly.",EXACT_ENTITY_SPECIFIC
+FY-2023,511027,104997,income_otherfi,"Separated FY Annex Q Other Financial Institutions pass income = 104,997 exactly.",EXACT_ENTITY_SPECIFIC
+FY-2023,521007,44197,expense_otherfi,"Separated FY Annex Q pass expense total = 44,197; separated Note 5 incorporates consolidated Note 5, while consolidated Annex Q explicitly assigns the same 44,197 to Other Financial Institutions and BCRA expense zero.",EXACT_ENTITY_SPECIFIC_WITH_SEPARATED_TOTAL_AND_GROUP_COUNTERPARTY_VALIDATION
+9M-2023,511108,26984941,income_bcra,Same BICE-specific 511108 identity validated one-to-one at FY; Sep raw is target individual/regulatory basis.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,511027,68496,income_otherfi,Same BICE-specific 511027 identity validated one-to-one at FY; Sep raw is target individual/regulatory basis.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,521007,0,expense_otherfi,Account absent in Sep BICE raw; FY crosswalk identifies 521007 as the only nonzero pass-expense result account for BICE in Dec. No pass-expense account is present in Sep.,EXACT_ZERO_FROM_ENTITY_RAW_ACCOUNT_SET
+9M-2023,BCRA_PASS_EXPENSE_SET,0,expense_bcra,No BCRA pass-expense result account is present in Sep BICE raw. FY issuer/group presentation has BCRA pass expense zero.,EXACT_ZERO_ENTITY_SPECIFIC

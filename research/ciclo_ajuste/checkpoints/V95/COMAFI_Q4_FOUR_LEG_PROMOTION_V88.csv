@@ -1,0 +1,4 @@
+entity,basis,period,income_bcra,expense_bcra,income_otherfi,expense_otherfi,unit,quality,source_logic
+Banco Comafi Sociedad Anonima,SEPARATED_INDIVIDUAL,9M-2023,182035514,0,1444371,3049,thousand_ARS_Sep2023_homogeneous,EXACT_OFFICIAL_SEPARATED_INTERIM_ANNEXQ,official separated issuer 9M presentation / validated entity-specific account set
+Banco Comafi Sociedad Anonima,SEPARATED_INDIVIDUAL,FY-2023,415554305,0,3699870,5328,thousand_ARS_Dec2023_homogeneous,EXACT_OFFICIAL_SEPARATED_FY_ANNEXQ,official separated issuer FY presentation / Annex Q
+Banco Comafi Sociedad Anonima,SEPARATED_INDIVIDUAL,Q4-2023,136510581.599939314269112,0,1485781.919302356282468,654.163043949846892,thousand_ARS_Dec2023_homogeneous,EXACT_HOMOGENEOUS_DIFFERENCING_AT_PUBLISHED_PRECISION,Q4 = FY_Dec - 9M_Sep * frozen factor

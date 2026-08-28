@@ -1,0 +1,5 @@
+priority,entity,missing_artifact,why,status
+1,Banco de la Nacion Argentina,Separated 30/09/2023 interest-income / interest-expense opening OR explicit BNA subaccount-to-presentation mapping,Resolve Sep 521007 without backward inference; FY proves raw account label does not safely identify strict pass-expense leg,OPEN
+2,Banco Santander Argentina SA,Explicit 30/09/2023 BCRA-vs-otherFI split below separated pass-income total,"Official 9M pass total and raw total reconcile exactly, but FY demonstrates naive six-digit mapping is unsafe",OPEN
+3,HSBC Bank Argentina S.A.,Entity-specific FY counterparty split plus compatible 9M validation,Raw has direct 511027/521022 but no universal mapping is allowed,OPEN
+4,Next large bank by assets,Entity-specific 9M/FY presentation validation,Scale strict coverage beyond the new 50.2499% majority without mass raw-account inference,OPEN_AFTER_TOP_THREE

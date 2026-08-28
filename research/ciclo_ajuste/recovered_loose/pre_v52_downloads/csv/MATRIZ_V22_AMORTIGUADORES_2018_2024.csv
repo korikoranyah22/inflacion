@@ -1,0 +1,17 @@
+semestre,episodio,estrategia,total_pct,bajo_pct,estado,lectura
+1S,2018,uso_ahorros,27.6,27.9,OBSERVADO_EPH,desahorro moderado
+2S,2018,uso_ahorros,30.2,29.4,OBSERVADO_EPH,desahorro en aumento
+1S,2024,uso_ahorros,40.1,40.2,OBSERVADO_EPH,maximo serie 2016-2025
+2S,2024,uso_ahorros,38.9,39.3,OBSERVADO_EPH,muy alto
+1S,2018,prestamos_bancos_financieras,13.7,14.6,OBSERVADO_EPH,
+2S,2018,prestamos_bancos_financieras,13.2,12.9,OBSERVADO_EPH,
+1S,2024,prestamos_bancos_financieras,11.9,12.2,OBSERVADO_EPH,no superior a 2018
+2S,2024,prestamos_bancos_financieras,13.1,14.2,OBSERVADO_EPH,casi igual a 2018
+1S,2018,cuotas_fiado,54.0,43.1,OBSERVADO_EPH,
+2S,2018,cuotas_fiado,53.1,41.6,OBSERVADO_EPH,
+1S,2024,cuotas_fiado,49.5,39.9,OBSERVADO_EPH,no superior a 2018
+2S,2024,cuotas_fiado,52.3,43.0,OBSERVADO_EPH,similar a 2018
+1S,2018,planes_subsidios_dinero,13.2,28.3,OBSERVADO_EPH,
+2S,2018,planes_subsidios_dinero,13.7,29.6,OBSERVADO_EPH,
+1S,2024,planes_subsidios_dinero,14.1,29.3,OBSERVADO_EPH,cobertura muy similar
+2S,2024,planes_subsidios_dinero,14.0,29.6,OBSERVADO_EPH,cobertura prácticamente idéntica abajo

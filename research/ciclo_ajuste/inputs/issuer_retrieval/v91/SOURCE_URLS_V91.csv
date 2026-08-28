@@ -1,0 +1,6 @@
+﻿entity_or_item,period_or_role,url,status,note
+Banco BMA / ex-Itaú,CNV company registry,https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/30580189411?fdesde=13%2F06%2F18,used,individual NIIF 30/09/2023 filing #3119515
+Banco BMA / ex-Itaú,CNV Sep publicview,https://aif2.cnv.gov.ar/presentations/publicview/9d3ded55-6d87-4ca2-9feb-920d961f3acd,manual target,attachment body not recovered; no promotion
+Banco Industrial,FY2023 separated issuer,https://www.garval.sba.com.ar/images/LEGALIZADOS-BIND---2023---12---EEFF-Separados.pdf,used; binary preserved,FY Annex Q entity-specific crosswalk | local=/research/ciclo_ajuste/inputs/issuer_retrieval/v91/binaries/002_LEGALIZADOS-BIND---2023---12---EEFF-Separados.pdf; sha256=1e23da89c47f19f1b6b7a074e6ef62cd60ffb086afac01c38589becd8778e78e
+Banco Industrial,institutional context,https://www.garval.sba.com.ar/informacion-institucional/politica-de-transparencia/estructura-organizacional,used,BIND/Garval institutional linkage
+HSBC,CNV Sep publicview,https://aif2.cnv.gov.ar/presentations/publicview/d483d33a-5c86-4fbb-ab9c-6528bf43f572,manual target,individual Sep 2023 presentation

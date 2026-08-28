@@ -1,0 +1,20 @@
+﻿gap_id,priority,scope,version,entity_or_id,role,url,extension,reason,batch1_archaeology_status,batch1_note,batch2_archaeology_status,batch2_note,backfill_status,backfill_error
+38,P2,master_catalog,<=V70,bcra_boldat202505_tipo_titular,Boletín Estadístico mayo 2025 · tipo de titular/destino,https://www7.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/BoletinEstadistico/boldat202505.pdf,.pdf,canonical catalog direct binary has no declared local copy and no same-name artifact found,NOT_RECOVERED_FROM_BATCH1,No new binary SHA-256 was present in batch 1; all historical ZIP source binaries were already byte-identical to files in current repo. Direct gap basename search returned no matches.,REFERENCE_ONLY_IN_BATCH2,"Historical text references found, but no exact binary basename recovered. Example: v64/VEREDICTO_V64.md",DOWNLOAD_FAILED,"curl: curl.exe : curl: (6) Could not resolve host: www7.bcra.gob.ar
+En C:\Users\miyur\Downloads\SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX\SOURCE_BACKFILL_TOOL_V96\Download-SourceBackfill.
+ps1: 84 Carácter: 17
++         $meta = & $CurlCommand.Source @args 2> $stderr
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (curl: (6) Could...ww7.bcra.gob.ar:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+curl: (6) Could not resolve host: www7.bcra.gob.ar
+curl: (6) Could not resolve host: www7.bcra.gob.ar
+curl: (6) Could not resolve host: www7.bcra.gob.ar
+curl: (6) Could not resolve host: www7.bcra.gob.ar | IWR: No se puede resolver el nombre remoto: 'www7.bcra.gob.ar'"
+39,P2,master_catalog,<=V70,bcra_bolmetes_prestamos_titular,Notas metodológicas del Boletín Estadístico,https://web2.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/bolmetes.pdf,.pdf,canonical catalog direct binary has no declared local copy and no same-name artifact found,NOT_RECOVERED_FROM_BATCH1,No new binary SHA-256 was present in batch 1; all historical ZIP source binaries were already byte-identical to files in current repo. Direct gap basename search returned no matches.,REFERENCE_ONLY_IN_BATCH2,"Historical text references found, but no exact binary basename recovered. Example: FUENTES_V57.md",DOWNLOAD_FAILED,"curl: curl.exe : curl: (22) The requested URL returned error: 401
+En C:\Users\miyur\Downloads\SOURCE_BACKFILL_TOOL_V96_TLS_HOSTNAME_FIX\SOURCE_BACKFILL_TOOL_V96\Download-SourceBackfill.
+ps1: 84 Carácter: 17
++         $meta = & $CurlCommand.Source @args 2> $stderr
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (curl: (22) The ...rned error: 401:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError | IWR: Error en el servidor remoto: (401) No autorizado."

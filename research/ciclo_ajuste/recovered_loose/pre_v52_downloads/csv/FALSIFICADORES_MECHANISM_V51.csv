@@ -1,0 +1,8 @@
+﻿test_id,hypothesis,evidence,result,interpretation
+F1_MECHANICAL_COMPONENT_EQUALS_NET_BENEFIT,Un canal mecánico fuerte identifica el beneficio neto total.,"Q4-23 FX +11.3pp convive con monetario -9.2, impuestos/fondeo/gastos negativos.",REJECTED,Identificación de componente ≠ net profit.
+F2_2014_DEVALUATION_EXPLAINS_ANNUAL_ABNORMAL,La devaluación de enero explica la persistencia anormal 2014.,"FX lidera el pico, pero annual gap FX -0.1 y títulos +1.4.",REJECTED,Pico y persistencia tienen mecanismos distintos.
+F3_2018_HOUSEHOLD_CREDIT_IS_EARLY_PROFIT_CHANNEL,La pérdida del hogar produce el abnormal profit vía crédito.,Incobrabilidad H1 aporta -0.3pp; mayo +ROA es atribuido por BCRA a FX.,REJECTED,"Crédito es offset, no fuente del exceso."
+F4_Q4_2023_FX_GAP_EQUALS_DEC_DEVALUATION_EFFECT,Los +11.3pp de FX Q4 son el efecto causal del salto del 13/12.,Q4 contiene Oct-Nov y la rentabilidad tenía pretrend.,REJECTED_AS_MAGNITUDE,Dirección mecánica sí; monto post-13/12 no identificado.
+F5_INFLATION_HAS_SINGLE_SIGN_FOR_BANKS,Inflación beneficia o perjudica unívocamente al banco.,CER/indexados y resultado monetario responden con signos distintos según exposiciones.,REJECTED,Necesario mapear posiciones.
+F6_PASS_PREMIUM_IS_HOUSEHOLD_TRANSFER,Primas por pases son dinero transferido desde hogares.,"Contraparte institucional es BCRA/gestión de liquidez, no una identidad hogar→banco.",REJECTED_AS_TRANSFER,"Puede tener incidencia macro/fiscal, pero requiere otra contabilidad."
+F7_TITLES_GAIN_IS_DIRECT_POLICY_CAUSAL_AMOUNT,Todo gap de títulos es causado por la política identificada.,"Precios de mercado, cartera y timing también importan.",REJECTED_AS_EXACT_CAUSAL_SHARE,"Mantener institutional/timing, no treatment amount."

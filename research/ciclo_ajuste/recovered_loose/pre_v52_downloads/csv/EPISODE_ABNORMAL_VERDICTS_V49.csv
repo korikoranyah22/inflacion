@@ -1,0 +1,4 @@
+﻿episode,episode_status,primary_gap_range,main_caveat,interpretation,causal_status
+2014,ABNORMAL_POSITIVE_ROBUST,0.8 to 1.9 pp across primary comparable benchmarks,PRETREND_PRESENT_BUT_SMALLER_THAN_POST_GAPS,"Direction survives Q2, YTD and rolling-12m benchmarks.",NOT_CAUSAL
+2018,ABNORMAL_POSITIVE_ROBUST_DIRECTION,0.4 to 1.1 pp; FY 0.9-1.1 depending vintage,STRONG_PRETREND_AND_NIIF_BREAK,"Direction robust, magnitude accounting-sensitive; profitability improving before May.",NOT_CAUSAL
+2023,ABNORMAL_POSITIVE_Q4_ROBUST_ACCOUNTING,8.7 to 9.0 pp Q4 gap,VERY_STRONG_PRETREND_AND_Q4_WINDOW_CONTAMINATION,"Q4 extraordinary, but Oct-Nov pre-shock and 12m ROA already 4.5 by Nov.",POST_DEC_SHOCK_ATTRIBUTION_NOT_IDENTIFIED

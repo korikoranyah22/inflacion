@@ -1,0 +1,7 @@
+﻿level,definition,examples,limit
+MECHANICAL_HIGH,"Identidad contable/económica directa entre shock, exposición y componente; dirección fuertemente identificada.",FX × posición neta; CER × exposición; mora→previsiones.,No identifica por sí sola el efecto neto total ni el contrafactual.
+INSTITUTIONAL_HIGH,"Una decisión cambia directamente tasa, límite, instrumento o exposición y el componente correspondiente.",tasa/saldo de pases; encajes→fondeo; límite PGN.,Magnitud de profit effect puede depender de respuesta endógena.
+INSTITUTIONAL_HIGH_TIMING_CONSISTENT,Regla/política cambia cartera o incentivos y BCRA documenta componente compatible.,LEBAC/títulos 2014; títulos 2023.,No separa tratamiento de valuación/mercado/selección de cartera.
+MECHANICAL_HIGH_LAGGED,Canal mecánico con rezago endógeno.,mora→incobrabilidad.,El onset puede preceder o seguir el household shock.
+DESCRIPTIVE_ONLY,Coincidencia de timing/componente sin bridge institucional suficiente.,cualquier correlación simple.,No usar lenguaje causal.
+NOT_IDENTIFIED,No hay exposición/convención/contrafactual suficiente.,beneficio neto total del shock.,Mantener N/D.

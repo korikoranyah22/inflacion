@@ -1,0 +1,2 @@
+﻿input_alias,canonical_input,sha256,bytes,decision,reason
+AUH + Tarjeta Alimentar cubren 100% de la CBA.xls,Préstamos y otros activos de las entidades financieras.xls,484bd080a2d35c635daed23e7f9c087b01eebeac0bf0ab6a49515f31f6de7a3a,21095936,DO_NOT_DUPLICATE,Byte-identical to BCRA préstamos/activos workbook; filename alias is misleading for Capital Humano.
