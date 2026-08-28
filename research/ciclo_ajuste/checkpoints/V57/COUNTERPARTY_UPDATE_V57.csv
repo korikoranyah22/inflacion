@@ -1,0 +1,5 @@
+﻿bucket,pp,share_gross_positive_pct,v57_status,new_evidence,direct_household
+PASSES_DIRECT_BCRA,7.7,26.83,STRONG_SUPPORT_UNCHANGED,Dec-2023 BCRA report explicitly identifies passive repos as main absorption instrument; post-2020 P24 broad bridge does not alter identity,NO
+UNRESOLVED_COUNTERPARTY,21.0,73.17,UNRESOLVED_UNCHANGED,"Broad homogeneous-currency flow bridge does not provide issuer/sector/counterparty split for securities, FX, interest or other",N/D
+DIRECT_HOUSEHOLD_POINT_ESTIMATE,,,N/D_UNCHANGED,Post-2020 R8 proves loan-interest flow concept exists but does not expose borrower-sector accrued-flow split,N/D
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,,,NOT_IDENTIFIED,No one-to-one accounting bridge from household flow to abnormal aggregate bank result,NOT_IDENTIFIED

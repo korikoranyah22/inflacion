@@ -1,0 +1,19 @@
+claim,v67,v68,reason
+SYSTEM_PANEL_BASIS,UNCHANGED,INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING,Santander recovery stays on separated individual basis; no relaxation.
+STRICT_Q4_FOUR_LEG_EXACT_ASSET_COVERAGE,11.260968%,11.260968%,No new entity closes all four Q4 legs in V68.
+SANTANDER_PRIMARY_PAIR,OFFICIAL_BINARIES_LOCATED_PARSER_BLOCKED,PRIMARY_INDIVIDUAL_9M_AND_FY_RECOVERED,Parser obstacle removed through regulator-derived primary filing mirrors/CNV metadata.
+SANTANDER_9M_ANNEX_Q,UNKNOWN_PARSER_BLOCKED,NOT_PRESENT_IN_RECOVERED_INTERIM_FILING,"9M individual contents list Annex O, P, then R; no Annex Q."
+SANTANDER_FY_ANNEX_Q,NOT_PARSED,EXACT_RECOVERED,"FY individual Annex Q gives pass income 354,485,360; BCRA 354,462,410; otherFI 22,950; pass expense 1,631,890 all otherFI (thousand Dec-2023 ARS)."
+SANTANDER_Q4_TOTAL_PASS_INCOME,N/D_TARGET_BASIS,200412599.134366_THOUSAND_ARS_DEC2023,FY total less 9M Note 26.1 total reexpressed by frozen IPC factor.
+SANTANDER_Q4_BCRA_PASS_INCOME_SHARE,N/D_TARGET_BASIS,>=99.988548624%_CONDITIONAL_BOUND,Conditional on nonnegative subcomponent flows; entity-level bound only.
+SANTANDER_Q4_OTHERFI_PASS_INCOME_SHARE,N/D_TARGET_BASIS,<=0.011451376%_CONDITIONAL_BOUND,Conditional on nonnegative subcomponent flows; entity-level bound only.
+SANTANDER_Q4_FOUR_LEG,N/D,NOT_IDENTIFIED_EXPENSE_9M_SPLIT_MISSING,Do not infer pass expense counterparty from stock or broad financial-intermediation expense.
+Q4_INDIVIDUAL_PASS_INCOME_BOUND_ASSET_FOOTPRINT,22.276097%_WITHOUT_SANTANDER,31.146102%_INCLUDING_SANTANDER,Retrieval footprint only; not net-flow or system coverage.
+BBVA_INDIVIDUAL_PRIMARY_PAIR,PENDING,NOT_LOCATED_ON_CNV_PARENT_BANK_ROUTE,Retrieved CNV entries are consolidated for parent bank; individual labels belong to controlled/related companies.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_COVERAGE_TOO_LOW,NOT_IDENTIFIED_COVERAGE_TOO_LOW,Strict exact four-leg coverage remains 11.261%; network open.
+SYSTEM_BCRA_NET_PASS_FLOW,N/D,N/D,Santander adds income bound but no compatible Q4 expense split.
+SYSTEM_INTERBANK_NET_PASS_FLOW,N/D,N/D,Cannot net an income-only bound; open subset remains non-systemic.
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,System-compatible numerator/denominator bridge remains missing.
+HOUSEHOLD_ANNEX_Q_ACCRUED_INTEREST_FLOW_BRIDGE,NOT_IDENTIFIED,NOT_IDENTIFIED,No new PH/PJ accrued-interest sector allocation.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,No contractual/system transfer identity established.
+HTML_MODIFICATION,FORBIDDEN,FORBIDDEN,Frozen gate retained.

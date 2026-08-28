@@ -1,0 +1,6 @@
+﻿target,target_gap_pp,series_code,subaccount,sector_counterparty,result_value,status,implication
+Q4_2023_vs_Q3_2023 interest-income gap,2.1,1151,Earned interest total,MIXED,N/D,VALUES_MISSING,Aggregate target cannot bound household contribution
+Q4_2023_vs_Q3_2023 interest-income gap,2.1,1153,Earned interest on loans incl. capital indexation,HOUSEHOLDS+COMPANIES+PUBLIC+OTHER,N/D,SCHEMA_IDENTIFIED_VALUES_MISSING,"Even if recovered, still not a sector split; requires borrower-sector result accounts or a validated attribution model"
+Q4_2023_vs_Q3_2023 interest-income gap,2.1,1154,Earned premiums on active passes,INSTRUMENT_COUNTERPARTY_DEPENDENT,N/D,SCHEMA_IDENTIFIED_VALUES_MISSING,Can isolate pass-premium accounting source if value series remains valid
+Q4_2023_vs_Q3_2023 interest-income gap,2.1,1155,Earned premiums on FX forward sales,MARKET/CLIENT_MIXED,N/D,SCHEMA_IDENTIFIED_VALUES_MISSING,"Separates forward premium from ordinary loan interest, not household sector"
+Q4_2023_vs_Q3_2023 interest-income gap,2.1,1156,Other intermediation financing income,MIXED,N/D,SCHEMA_IDENTIFIED_VALUES_MISSING,Residual accounting source only

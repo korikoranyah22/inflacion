@@ -1,0 +1,6 @@
+﻿q4_bucket,accounting_mode_axis,status,series_support
+Primas por pases,accrued pass premium,IDENTIFIED_FAMILY,1159 legacy result schema + V52/V54 institutional bridge
+Diferencias de cotización,remeasurement + spot sale/trading + derivative-linked effects,MIXED,1192 plus 1155/1160 demonstrates multiple FX modes/accounts
+Resultado por títulos valores,rent/accrual + FX differences + adjustments/update + sale + impairment,MIXED,1185 exact methodology
+Ingresos por intereses,accrued loan interest + indexation + pass/forward premiums + other financing,MIXED_AT_TOTAL,1151-1156
+CER,indexation embedded across loan/deposit/public-security result families,CROSS_ACCOUNT_MIXED,"1153,1158,1185"

@@ -1,0 +1,4 @@
+﻿component,q3_pct_a_an,q4_pct_a_an,gap_pp,counterparty_status,accounting_mode_status,v58_update,note
+FX differences,6.9,18.2,11.3,N/D_OR_MIXED,MIXED_REMEASUREMENT_AND_FX_TRADING,NO_NEW_COUNTERPARTY_SHARE,BCRA glossary explicitly mixes monthly FX remeasurement and purchase/sale FX result.
+CER/CVS adjustments,8.1,7.9,-0.2,MIXED,INDEXATION_ACROSS_ASSETS_AND_LIABILITIES,NO_NEW_COUNTERPARTY_SHARE,"No isolated P24 line; household, corporate, deposit, public-security positions can coexist."
+Repo premiums,8.8,16.5,7.7,BCRA_COUNTERPARTY_STRONG_SUPPORT,INTEREST_PREMIUM_ON_REPO,UNCHANGED,Dec-2023 BCRA states passive repos became main monetary absorption instrument.

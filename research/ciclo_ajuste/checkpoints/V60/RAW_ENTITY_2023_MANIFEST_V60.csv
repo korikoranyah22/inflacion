@@ -1,0 +1,6 @@
+﻿source_id,entity,period,source,raw_bytes_materialized,verified_web_text
+MACRO_9M,Banco Macro SA,2023-09,official financial statements Annex Q,FALSE,TRUE
+MACRO_FY,Banco Macro SA,2023-12,official financial statements Annex Q,FALSE,TRUE
+CIUDAD_9M,Banco Ciudad de Buenos Aires,2023-09,official financial statements Annex Q,FALSE,TRUE
+CIUDAD_FY,Banco Ciudad de Buenos Aires,2023-12,official financial statements Annex Q,FALSE,TRUE
+INDEC_IPC,INDEC,2023-09_to_2023-12,official IPC index,FALSE,TRUE

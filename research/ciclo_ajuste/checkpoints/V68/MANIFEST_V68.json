@@ -1,0 +1,152 @@
+{
+  "version": "V68",
+  "created": "2026-08-27",
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "files": [
+    {
+      "name": "AUDITORIA_V68.md",
+      "sha256": "dd6e3fa6bb0cc0206dea6166431c8f305ee6a7fee4112a8390b65164cd2ca795",
+      "bytes": 3054
+    },
+    {
+      "name": "BANCO_VALORES_Q4_AQ_BRIDGE_V68.csv",
+      "sha256": "c397c6045843a54b1d98dfb6adad4ed5767bd49acdbce72464377b7cb6e53142",
+      "bytes": 1136
+    },
+    {
+      "name": "BAPRO_FY_AQ_CONTROL_V68.csv",
+      "sha256": "ccb830d9497da3f51113b40f3c6dd04b7394404a3a7b8d0c88d359be76607f9b",
+      "bytes": 597
+    },
+    {
+      "name": "BASE_V67.zip",
+      "sha256": "8f09122139f8f4ac7c6a198a3f8be2c088145af95810df2a05dd0af926477ccf",
+      "bytes": 1663160
+    },
+    {
+      "name": "BASIS_HARMONIZATION_V68.csv",
+      "sha256": "8ff3d5a79c5796af92babf90fce52e1efc86d158ff8b955b27c0f41743c603a8",
+      "bytes": 1550
+    },
+    {
+      "name": "BCRA_BANK_SYSTEM_COVERAGE_V68.csv",
+      "sha256": "b48368d9416fe0d2a67349857ee9ae1444d94b82ff3fabd0c51c047fbd95f396",
+      "bytes": 2447
+    },
+    {
+      "name": "CLOSED_NETWORK_COVERAGE_V68.csv",
+      "sha256": "408d006cb74f97137188f30f2ecfefdf986e85e5857e41b321b4099465133155",
+      "bytes": 2685
+    },
+    {
+      "name": "CLOSED_NETWORK_NETTING_TEST_V68.csv",
+      "sha256": "1d158c8a8eff78e2127dfe975a5f6caf2e3d3a14ea484b92b8f16bf727f0ce50",
+      "bytes": 1533
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V68.csv",
+      "sha256": "1c39dbe03d39c5bff9f9a4f52866ca79e15af435463a1bf3a463278c30deb193",
+      "bytes": 2568
+    },
+    {
+      "name": "CREDICOOP_FY_AQ_CONTROL_V68.csv",
+      "sha256": "01e911d38a7c36704143b0575238db8441112967634a8dd1dbbdc6c41bc11bb9",
+      "bytes": 644
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V68.csv",
+      "sha256": "6d454499d75b50ccc65ba520b6a3f2c65fea76fa3f141d26d3366856ee822d4d",
+      "bytes": 7182
+    },
+    {
+      "name": "FOUR_LEG_PASS_PANEL_V68.csv",
+      "sha256": "f90af3ebf21e01c4ec3c5eda2be5a078b6b3b277eea46164361d71e9b488a2cb",
+      "bytes": 3881
+    },
+    {
+      "name": "FUENTES_V68.md",
+      "sha256": "1379ecb42e37ccb1227e4c97376304794c56358787dbd39ac2d8d43d64ee49dc",
+      "bytes": 2359
+    },
+    {
+      "name": "HANDOVER_CODEX_CICLO_AJUSTE_V68_A_V69.md",
+      "sha256": "32a3369e4a753630c20dbfc19f72dade827569753c7685274c1380a494bd9242",
+      "bytes": 2546
+    },
+    {
+      "name": "HOUSEHOLD_PRODUCT_PANEL_V68.csv",
+      "sha256": "38ba5c313cc1da5a62dafda5f67d4d467a875d0c1a928ee5992d66af427f0945",
+      "bytes": 2265
+    },
+    {
+      "name": "HOUSEHOLD_SECTOR_MAPPING_V68.csv",
+      "sha256": "0a809143c2981af02896c62c4a60e024bf293a1d95ae6604ad8821dea9cdd852",
+      "bytes": 2015
+    },
+    {
+      "name": "IEF_PASS_RECONCILIATION_V68.csv",
+      "sha256": "00011d4419722cbcc7a020f87044befae564dc92abe4314d0f231e987b8fab0b",
+      "bytes": 1191
+    },
+    {
+      "name": "INDIVIDUAL_AQ_RETRIEVAL_V68.csv",
+      "sha256": "f0ef66140e87c192ccd22f6a76fd01a52c30046521c4a336d42a8dc2d76b248a",
+      "bytes": 2872
+    },
+    {
+      "name": "MACRO_Q4_AQ_BRIDGE_V68.csv",
+      "sha256": "89142f3f0a68f106d28f46bd4f5db45e12a6accd7b8c6b81c3703d8ad5b0f78a",
+      "bytes": 1068
+    },
+    {
+      "name": "PASS_COUNTERPARTY_BOUNDS_V68.csv",
+      "sha256": "8da9d2f3bf5f6bd915410fd7ec4dc03b3d57cba4f84ab94da0fab5c465272976",
+      "bytes": 2993
+    },
+    {
+      "name": "PROMPT_CODEX_V69_ALTERNATE_INTERIM_AQ_SOURCE_AND_PUBLIC_BANK_SCALEUP.md",
+      "sha256": "60c60b304af61f9562bda3e4989098697784042a958d4081fbcd62c92db96d61",
+      "bytes": 2121
+    },
+    {
+      "name": "QA_RESULT_V68.txt",
+      "sha256": "d7ccca5d661fe021acb834e86c62fad8749f02fe62cc24ba31bd583847fcd3df",
+      "bytes": 8
+    },
+    {
+      "name": "README_V68.md",
+      "sha256": "e0ea08f1fd8c607cf6eec69ba57f696cc296be9c21c05250b478d88889ae27ff",
+      "bytes": 713
+    },
+    {
+      "name": "SANTANDER_FY_AQ_CONTROL_V68.csv",
+      "sha256": "63427c6442e2c09972917bbb5f4dda834838df13718985731ba87840c3108757",
+      "bytes": 915
+    },
+    {
+      "name": "SANTANDER_INTERIM_ANNEX_AUDIT_V68.md",
+      "sha256": "cf2f95f6e09071e6e78f375303595c8ebe8ca6a57345d0e632069a917a157efc",
+      "bytes": 1885
+    },
+    {
+      "name": "SANTANDER_PRIMARY_RECOVERY_V68.csv",
+      "sha256": "7334e50a4f3bba898d8c74a38396d895ee2b89c60335108831fe4fb60a694119",
+      "bytes": 1660
+    },
+    {
+      "name": "SUPERVIELLE_Q4_PASS_BOUND_V68.csv",
+      "sha256": "a5294e7c281ac620f71f8783eacd0d82c8fd2ba30a21dcf213b5d68cbe567047",
+      "bytes": 1415
+    },
+    {
+      "name": "VEREDICTO_V68.md",
+      "sha256": "7ce85093782c29a368a93347a0d401c7df2c75291eec6b258332bfa54e9ba715",
+      "bytes": 2152
+    },
+    {
+      "name": "qa_v68.py",
+      "sha256": "28f79065e9539ed5baccf3a71c00a1a53b3695b99d35ff6f7e8d85050efaad5d",
+      "bytes": 4278
+    }
+  ]
+}

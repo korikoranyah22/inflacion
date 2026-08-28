@@ -1,0 +1,5 @@
+﻿leg,value_million_ars,status,evidence_note
+income_bcra,0.0,CONTROL_ONLY_CONSOLIDATED,No BCRA pass-income row disclosed in consolidated Annex Q; disclosed pass income is entirely under Otras Entidades Financieras.
+expense_bcra,0.0,CONTROL_ONLY_CONSOLIDATED,No BCRA pass-expense row disclosed in consolidated Annex Q; disclosed pass expense is entirely under Otras Entidades Financieras.
+income_otherfi,64710.954,CONTROL_ONLY_CONSOLIDATED,"Annex Q accumulated 9M pass income: 64,710,954 thousand ARS = 64,710.954 million ARS, Otras Entidades Financieras."
+expense_otherfi,302.748,CONTROL_ONLY_CONSOLIDATED,"Annex Q accumulated 9M pass expense: 302,748 thousand ARS = 302.748 million ARS, Otras Entidades Financieras."

@@ -1,0 +1,6 @@
+﻿target,frozen_pp,needed_series,numeric_reconciliation,counterparty_status,note
+Q4_2023_SECURITIES_ABNORMAL_GAP,7.3,"1184,1185 (+ modern compatible subaccounts)",NOT_RUN_VALUES_MISSING,MIXED_ND,Series 1185 family continuity supported; issuer/mode split not obtained.
+Q4_2023_INTEREST_INCOME_ABNORMAL_GAP,2.1,1151-1156,NOT_RUN_VALUES_MISSING,MIXED_ND,"Published source decomposition survives, but 1153 remains borrower-sector mixed and includes indexation."
+Q4_2023_CER_ABNORMAL_GAP,-0.2,"1153,1158,1185 + modern indexed-position accounts",NOT_RUN_VALUES_MISSING,MIXED_ND,"CER crosses assets, liabilities and securities; no direct household identity."
+Q4_2023_FX_ABNORMAL_GAP,11.3,"1155,1160,1192 + modern FX accounts",NOT_RUN_VALUES_MISSING,MIXED_ND,1192 confirms mixed remeasurement/trading/derivative modes at metadata level.
+Q4_2023_PASSES_ABNORMAL_GAP,7.7,1154/1159 + instrument identity,FROZEN_FROM_V54_V55_NOT_NEWLY_RECONCILED,BCRA_COUNTERPARTY_STRONG_SUPPORT,Direct BCRA counterparty identity remains; no taxpayer identity.

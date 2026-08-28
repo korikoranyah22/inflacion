@@ -1,0 +1,6 @@
+﻿entity,period,bcra_pass_income,bcra_pass_expense,otherfi_pass_income,otherfi_pass_expense,net_bcra_pass_flow,net_otherfi_pass_flow,status
+Banco Macro SA,Q4-2023 reconstructed,83520202.8273678,0_or_ND,647816.0410429954,N/D,N/D_except_if_zero_expense_verified,N/D,ENTITY_LEVEL
+Banco Ciudad de Buenos Aires,Q4-2023 reconstructed,0.0,0_or_ND,370794209.0769231,N/D,N/D_except_if_zero_expense_verified,N/D,ENTITY_LEVEL
+Banco de Galicia y Buenos Aires SAU,Q4-2023 reconstructed,228495363.41333684,0_or_ND,6150559.389648143,1422129.1574905645,N/D_except_if_zero_expense_verified,4728430.232157579,ENTITY_LEVEL
+Banco de la Nación Argentina,FY-2023,766170918,0,3980009,0,766170918,3980009,ANNUAL_ONLY
+SYSTEM,Q4-2023 IEF,N/D,N/D,N/D,N/D,N/D,N/D,NOT_RECONCILED_TO_IEF_7.7PP

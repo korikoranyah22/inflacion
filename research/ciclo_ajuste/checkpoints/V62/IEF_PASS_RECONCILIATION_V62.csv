@@ -1,0 +1,4 @@
+﻿target,candidate_bridge,coverage,denominator_status,status,reason
+IEF Q4 pass 16.5%a / Q3 8.8%a / gap +7.7pp,sum entity pass flows by counterparty,"6 Q4 entities, detail heterogeneous",NOT_RECONCILED,NOT_RUN,incomplete numerator and compatible denominator
+BCRA share of +7.7pp,system BCRA net pass flow,exact/partial/bounds only,N/D,N/D,no strict floor or point estimate
+Other-FI share of +7.7pp,system interbank net pass flow,other-FI income lower bound >= 573982683.803 thousand ARS; expense legs sparse,N/D,N/D,cannot test cancellation

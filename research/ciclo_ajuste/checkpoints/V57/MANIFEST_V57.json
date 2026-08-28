@@ -1,0 +1,102 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "version": "V57",
+  "title": "Post-2020 homogeneous-result flow bridge",
+  "created_utc": "2026-08-27T19:13:01.609404+00:00",
+  "frozen_direct_bcra_pp": 7.7,
+  "frozen_direct_bcra_share_pct": 26.83,
+  "unresolved_pp": 21.0,
+  "unresolved_share_pct": 73.17,
+  "files": [
+    {
+      "name": "ACCOUNT_MAPPING_NIIF_V57.csv",
+      "bytes": 6675,
+      "sha256": "9b9a10ddb199628b55ac653f9b00acd6eb4c3b4365c5e0600e1c701114d47818"
+    },
+    {
+      "name": "AUDITORIA_V57.md",
+      "bytes": 3300,
+      "sha256": "1af28c5e00566190996ec2f0c43f392ee40d14e5379a40b14915631051b5c717"
+    },
+    {
+      "name": "BASE_V56.zip",
+      "bytes": 1405429,
+      "sha256": "ba68983008fc64b643cade8a9f53729a02e4c8b63ed8d00ccc5da52297e2197e"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V57.csv",
+      "bytes": 782,
+      "sha256": "af4218c28732e753002e3e0025aec4bfb9ccc15b83863129fa49a5f9d97b7e3c"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V57.csv",
+      "bytes": 41708,
+      "sha256": "00ffbeb0c84df84811e8fae2409a8e76d6cb68c7d6597c154d767a40c1c32654"
+    },
+    {
+      "name": "FUENTES_V57.md",
+      "bytes": 2126,
+      "sha256": "41ba22f9bbbab897fe392243272161eb77978fb1934c1eb1606408b387d7dfd1"
+    },
+    {
+      "name": "IPC_RESTATEMENT_COEFFICIENTS_V57.csv",
+      "bytes": 735,
+      "sha256": "b0c082d6090690fa6504fb50d9623152efbe3d63115d3fa22ae336746f88fa9b"
+    },
+    {
+      "name": "MONTHLY_SUBACCOUNT_VALUES_2023_V57.csv",
+      "bytes": 25977,
+      "sha256": "2bfa030c185c6fe8abf13ce24566fc302d6244262635b0e0513313823558ee09"
+    },
+    {
+      "name": "NOMINAL_RECONCILIATION_V57.csv",
+      "bytes": 5092,
+      "sha256": "af98e2f115c42f87c419a4c376c628c6f742ce14c6bc3b61ec1f3d7b27aafce5"
+    },
+    {
+      "name": "POST2020_ACCUMULATED_RESULTS_V57.csv",
+      "bytes": 5395,
+      "sha256": "9c0cdf4da19dc7f1bc9cb6e8627cdff8d6efb27bc7e313ad282ee264041aa62f"
+    },
+    {
+      "name": "PP_TARGET_RECONCILIATION_V57.csv",
+      "bytes": 1495,
+      "sha256": "e11ca33126ae1ae7457b0bf9fbb6421ea3baf1fae88b59a20af184cefb4f4613"
+    },
+    {
+      "name": "PROMPT_CODEX_V58_MODERN_XLSX_SUBACCOUNT_BRIDGE.md",
+      "bytes": 2340,
+      "sha256": "c5cc81c12fb1e95d70cf5def4aa3614821a297d4952342219cb643efc17d08fc"
+    },
+    {
+      "name": "PUBLICATION_REGIME_CORRECTION_V57.csv",
+      "bytes": 1047,
+      "sha256": "3583f2d6850fc2a853ff6c87298eaae4ea1b04f13bf57ede1922c757d6168b18"
+    },
+    {
+      "name": "QA_RESULT_V57.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "RAW_API_MANIFEST_V57.csv",
+      "bytes": 2703,
+      "sha256": "eda5532ac4347a7a1bcf8cba142e7c624f9beb1fab3028f0f50553830caa5d7e"
+    },
+    {
+      "name": "README_V57.md",
+      "bytes": 704,
+      "sha256": "07b72ab0486a5300cdbd57289072286f8353a6e0f1ace00ac832ff3b55b2bd92"
+    },
+    {
+      "name": "VEREDICTO_V57.md",
+      "bytes": 1172,
+      "sha256": "ec1ebceb630a9d738835fc037a67b4f6d18db6c4954bb4274c89d2bbff860a1b"
+    },
+    {
+      "name": "qa_v57.py",
+      "bytes": 1568,
+      "sha256": "773aa66d167fa49f7e568cf09a7683da9e9f4c91f090ae4bc0f8d2ba9bb58e08"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+file,period,issuer,pages,bytes,sha256,basis_recovered,separated_section_start_pdf_page,separated_notes_start_pdf_page,note6_income_pdf_page,note6_expense_pdf_page,annex_q_present_9m,annex_q_frequency_context
+balance-30-09-2023.pdf,30/09/2023,Banco Credicoop Cooperativo Limitado,160,6753946,d0ad8cbd61bd65792d6f400045b0065d0ce0d4524ca938711a8d5b00a50bb769,SEPARATED_INDIVIDUAL_AND_CONSOLIDATED_IN_SINGLE_PDF,80,89,131,132,NO,ANNUAL_UNDER_BCRA_A7809

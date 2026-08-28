@@ -1,0 +1,4 @@
+artifact,period,basis,what_is_present,what_is_missing,strict_usable,status
+BNA official 9M Sep-2023 summary,9M-2023,SUMMARY_UNSPECIFIED_CONTROL,"Pass stock 536,910,181k; aggregate interest income 4,831,618,275k; aggregate interest expense 3,386,375,419k",No pass-interest counterparty four-leg decomposition,NO,CONTROL_ONLY
+AGN Informe 210/2023 review reports,9M-2023,SEPARATED_AND_CONSOLIDATED_EXISTENCE_EVIDENCE,Auditor explicitly reviewed attached separated and consolidated interim financial statements at 30-09-2023,Public AGN page does not expose the full attached statement package / Annex-Q-like four-leg rows,NO,ROUTE_EXHAUSTED_PUBLIC_ATTACHMENTS
+BNA quarterly web archive pattern,CURRENT_ARCHIVE_PATTERN,ISSUER_PRIMARY,Current 2025 full quarterly packages live under /Downloads/Institucional_BalancesTrimestrales_...,No indexed/recoverable exact 2023 full-package filename yet,NO,PATH_FAMILY_CONFIRMED_FILENAME_UNRESOLVED

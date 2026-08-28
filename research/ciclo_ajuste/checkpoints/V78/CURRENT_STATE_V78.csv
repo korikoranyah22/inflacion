@@ -1,0 +1,8 @@
+entity,target_basis,fy_status,nine_month_status,q4_four_leg_status,strict_panel_status,priority,next_action
+Industrial and Commercial Bank of China (Argentina) S.A.U.,INDIVIDUAL_STANDALONE,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco de Valores S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Macro S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE6_EXACT_CROSSWALK,EXACT,ELIGIBLE,CLOSED,retain; alternate-note template
+Banco de la Nacion Argentina,SEPARATED_INDIVIDUAL,FY_EXACT,OFFICIAL_SUMMARY_CONTROL; FULL_PTA_CANDIDATE_ROUTE_IDENTIFIED_NOT_VERIFIED,N/D,PENDING,1,continue issuer/BCRA TRIMANUA recovery; no more AGN attachment search
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE14_15_EXACT,EXACT,ELIGIBLE,CLOSED,retain; alternate-note four-leg template; annual Annex Q crosswalk
+Banco Ciudad de Buenos Aires,INDIVIDUAL,CONSOLIDATED_CONTROL_AVAILABLE,CONSOLIDATED_CONTROL_ONLY; FULL_PTA_CANDIDATE_ROUTE_IDENTIFIED_NOT_VERIFIED,N/D,PENDING,2,recover individual/separated 30-09-2023 pass-income/pass-expense disclosure; consolidated remains control only

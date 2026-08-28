@@ -1,0 +1,7 @@
+entity,target,primary_source_status,alternate_source_status,annex_q_extracted,q4_bridge,strict_panel_effect,next_action
+Banco de la Nacion Argentina,actual 9M separated financial statements + Annex Q,AGN_AUDIT_SCOPE_CONFIRMED;_EXACT_REVIEW_FILENAMES_IDENTIFIED_502,"issuer condensed + Pillar3 controls recovered, neither is target Annex Q",NO,N/D,NONE,search BNA/BCRA regulatory archive or mirror for the actual separated 30/09/2023 financial statements; do not assume AGN review-report PDF contains annexes
+Banco de la Provincia de Buenos Aires,9M separated Annex Q,FY_EXACT;_SEP2023_PRIMARY_DISCLOSURE_RECOVERED,2022 official ESF_sep naming architecture confirmed; exact 2023 binary not surfaced,NO,N/D,NONE,enumerate official 2023 repository/archival indexes without asserting guessed filename
+Banco Credicoop Cooperativo Limitado,9M separated Annex Q,FY_EXACT;_OFFICIAL_ISSUER_INDEX_LISTS_30_09_2023,dynamic download ID not exposed to crawler,NO,N/D,NONE,recover dynamic link target via issuer HTML/API cache/regulator/mirror; never infer ID from adjacent downloads
+Banco Ciudad de Buenos Aires,9M/FY separated Annex Q,OFFICIAL_9M_CONSOLIDATED_CONTROL_RECOVERED,separated 2023 binary not surfaced,NO_INDIVIDUAL,N/D_STRICT,NONE,locate separated/individual counterpart
+BBVA Argentina,individual 9M/FY Annex Q,NO_NEW_TARGET_BASIS_PAIR,V68/V69 consolidated path remains control only,NO,N/D,NONE,deprioritized
+Banco Santander Argentina SA,alternate 9M counterparty expense source,NO_NEW_SOURCE,V68 individual income bound retained,NO_NEW,INCOME_BOUND_ONLY,NONE,deprioritized

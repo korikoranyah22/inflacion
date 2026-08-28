@@ -1,0 +1,4 @@
+﻿target,numerator_bridge,coverage,closed_network_requirement,denominator_requirement,status
+IEF Q4-2023 pass component gap +7.7 pp,four-leg pass income/expense by entity,"partial; exact four-leg Q4 now Ciudad (consolidated) + ICBC (individual standalone), but bases cannot be pooled",NOT_MET,NOT_MET_SYSTEM_WIDE,NOT_RECONCILED
+BCRA share of +7.7 pp,four-leg net BCRA flow available for additional entity ICBC; system high-coverage numerator still missing,partial + bounds,not relevant for BCRA bilateral leg but high coverage still required,not met,N/D
+Other-FI share of +7.7 pp,sum otherFI income - sum otherFI expense,open subsets and mixed bases; exact entity positions do not form a closed network,REQUIRED,not met,N/D

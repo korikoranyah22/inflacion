@@ -1,0 +1,5 @@
+﻿bucket,pp,share_gross_positive_pct,status,v56_update,direct_household
+PASSES_DIRECT_BCRA,7.7,26.83,STRONG_SUPPORT_UNCHANGED,published detailed series IDs survive in modern catalog; values still missing,NO
+UNRESOLVED_COUNTERPARTY,21.0,73.17,UNRESOLVED_UNCHANGED,no numeric sector/issuer share unlocked,N/D
+DIRECT_HOUSEHOLD_POINT_ESTIMATE,,,N/D_UNCHANGED,series continuity does not supply borrower-sector interest flow,N/D
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,,,NOT_IDENTIFIED,no compatible one-to-one accounting bridge recovered,NOT_IDENTIFIED

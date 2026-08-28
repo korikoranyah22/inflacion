@@ -1,0 +1,5 @@
+route,status,evidence,use
+BNA full separated 30-09-2023,NOT_RECOVERED,AGN 210/2023 audit report proves the full separated package existed,Direct target if recovered
+BNA full separated 30-09-2024,EXISTENCE_CONFIRMED_NOT_RECOVERED,AGN Resolution/Report 187/2024 identifies separated and consolidated statements at 30-09-2024,Potential comparator backfill for 30-09-2023 flow-note figures
+BNA Sep-2024 public one-page summary,RECOVERED_CONTROL_ONLY,Issuer summary exists but does not expose four pass-interest legs,Not eligible
+Comparator-backfill principle,PENDING_BINARY,Interim P&L notes commonly present same-period prior-year comparatives; must verify in actual 2024 separated package,Could recover 2023 9M without relying on 2023 binary if exact four lines are printed

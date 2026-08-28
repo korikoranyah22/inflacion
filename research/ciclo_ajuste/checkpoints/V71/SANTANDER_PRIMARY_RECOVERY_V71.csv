@@ -1,0 +1,9 @@
+stage,basis,period,metric,value,unit,quality,note
+9M_PRIMARY,SEPARATED_INDIVIDUAL,9M-2023,annex_Q_presence,ABSENT_FROM_RECOVERED_INTERIM_FILING,status,DIRECT_TOC_AND_FULL_FILING_AUDIT,"Recovered interim filing lists Annex O, P, then R; no Annex Q."
+9M_PRIMARY,SEPARATED_INDIVIDUAL,9M-2023,pass_interest_income_total,100510106.0,thousand_ARS_Sep2023_homogeneous,EXACT_NOTE_26_1,Note 26.1 reports Por operaciones de pase; no counterparty split.
+FY_PRIMARY,SEPARATED_INDIVIDUAL,FY-2023,pass_interest_income_total,354485360.0,thousand_ARS_Dec2023_homogeneous,EXACT_ANNEX_Q,Annual Annex Q.
+Q4_BRIDGE,SEPARATED_INDIVIDUAL,Q4-2023,pass_interest_income_total,200412599.13436595,thousand_ARS_Dec2023_constant,EXACT_TOTAL_FROM_HOMOGENEOUS_DIFFERENCING,FY - 9M*1.532908152197.
+Q4_BOUND,SEPARATED_INDIVIDUAL,Q4-2023,pass_income_BCRA,200389649.134366_to_200412599.134366,thousand_ARS_Dec2023_constant,BOUND_NONNEGATIVE_COMPONENT_FLOW_ASSUMPTION,Uses FY otherFI cumulative total as maximum possible Q4 otherFI income; no stock-to-flow inference.
+Q4_BOUND,SEPARATED_INDIVIDUAL,Q4-2023,pass_income_otherFI,0.000000_to_22950.000000,thousand_ARS_Dec2023_constant,BOUND_NONNEGATIVE_COMPONENT_FLOW_ASSUMPTION,Counterparty split not observed at 9M; bound only.
+Q4_BOUND,SEPARATED_INDIVIDUAL,Q4-2023,BCRA_pass_income_share,99.988548624_to_100,percent_of_entity_Q4_pass_income,BOUND_NONNEGATIVE_COMPONENT_FLOW_ASSUMPTION,Entity-level income bound only; not a system share.
+Q4_BOUND,SEPARATED_INDIVIDUAL,Q4-2023,otherFI_pass_income_share,0_to_0.011451376,percent_of_entity_Q4_pass_income,BOUND_NONNEGATIVE_COMPONENT_FLOW_ASSUMPTION,Entity-level income bound only; not a system share.

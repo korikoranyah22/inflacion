@@ -1,0 +1,84 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "version": "V52_COUNTERPARTIES_AND_INCIDENCE",
+  "generated_at_utc": "2026-08-27T17:08:29.695212+00:00",
+  "frozen_inputs": {
+    "SHOCK_POLICY_COMPONENT_MAP_V51.csv": {
+      "sha256": "f7f1087f1e1aafe6a5f51b555b04c8a60c2d0b2d63aec4e86a584d40df1758eb",
+      "bytes": 5397
+    },
+    "ABNORMAL_COMPONENT_BRIDGE_V50.csv": {
+      "sha256": "c5d74e6b6019ac63b0cb12d16a76c0c8ec29de9ed1a68b0ae3ea73560356f9ec",
+      "bytes": 11011
+    },
+    "EVIDENCE_LEDGER_CICLO_AJUSTE_V51.csv": {
+      "sha256": "e559353dc8df3b9152f01fee68d208762388405bc57c469c1fb5c1847e09584f",
+      "bytes": 26687
+    },
+    "VEREDICTO_MECANISMOS_COMPONENTES_V51.md": {
+      "sha256": "7375d04f958267426ad6735f4da807cd610fc9d267130f67d1928cfb7aaa6cf9",
+      "bytes": 1581
+    },
+    "AUDITORIA_MECANISMOS_COMPONENTES_V51.md": {
+      "sha256": "dc33fd9feb342163b6c9d94dcd8d9df9453dc0e0b6624a572817e5ef3f2f6413",
+      "bytes": 6953
+    }
+  },
+  "outputs": {
+    "AUDITORIA_CONTRAPARTES_V52.md": {
+      "sha256": "8a0ab0c6b24b79a65f0744dc0ccaa495e8a6963f69e26fae25ec87f06e8540a3",
+      "bytes": 10790
+    },
+    "COMPONENT_COUNTERPARTY_MAP_V52.csv": {
+      "sha256": "d07110a2cc6dcb3ae59de65718aab4b770171deb54115f3bc93657cc40769cff",
+      "bytes": 10923
+    },
+    "EVIDENCE_LEDGER_CICLO_AJUSTE_V52.csv": {
+      "sha256": "b04be05f5ae6af64fe2bcca31068e9d2fb9f6b8b04043ca6162cd165bc91f0d8",
+      "bytes": 29452
+    },
+    "FALSIFICADORES_INCIDENCE_V52.csv": {
+      "sha256": "64ffe32022842015343fa267ce75fae931fc3508b9a282914e1df66ef2f620aa",
+      "bytes": 1704
+    },
+    "HOUSEHOLD_LINK_CLASSIFICATION_V52.csv": {
+      "sha256": "3be00f0bf08da6ac15596bd92dfba13bcc75623d6ec64cd2da480ca713227a5a",
+      "bytes": 2318
+    },
+    "INCIDENCE_CHAIN_V52.csv": {
+      "sha256": "0c00a91fb334ec0cfdb47e5158e047550742ea1ce35b7af722e9c0365564ae5f",
+      "bytes": 4179
+    },
+    "PROMPT_CODEX_V53_COUNTERPARTY_QUANTIFICATION.md": {
+      "sha256": "ff631d06c88841d4fc1ef0c09e73f6c921c1761c8f4555cbe06ab5e20a54831e",
+      "bytes": 2245
+    },
+    "README_V52.md": {
+      "sha256": "de7f62b9768fe68949a5a5cc7879713017a5f58284d1b4931033f50838098c8e",
+      "bytes": 1435
+    },
+    "VEREDICTO_CONTRAPARTES_V52.md": {
+      "sha256": "f0fa14b7570e3f4ea3eeabaf376140922b4826c9cf1217f27be4635c65c45468",
+      "bytes": 2555
+    },
+    "qa_v52.py": {
+      "sha256": "85a5385e1135be92fbaec968eab4832a43bd08268b573d0188040050c4b330b3",
+      "bytes": 1481
+    }
+  },
+  "diagnostic_q4_2023": {
+    "gross_positive_margin_subcomponent_gaps_pp": 28.7,
+    "known_bcra_passes_pp": 7.7,
+    "known_bcra_floor_pct_of_gross_positive": 26.83,
+    "fx_valuation_pp": 11.3,
+    "securities_mixed_pp": 7.3,
+    "interest_income_mixed_pp": 2.1,
+    "direct_household_share_identified_pct": null
+  },
+  "frozen_verdicts": {
+    "DIRECT_HOUSEHOLD_TO_BANK_TRANSFER": "NOT_IDENTIFIED_AT_ABNORMAL_GAP_LEVEL",
+    "BCRA_COUNTERPARTY_PASSES": "STRONG_SUPPORT",
+    "TAXPAYER_IDENTITY_FOR_PASSES": "REJECTED",
+    "NEXT": "V53_COUNTERPARTY_QUANTIFICATION"
+  }
+}

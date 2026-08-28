@@ -1,0 +1,11 @@
+﻿entity,priority_rank,sep_2023_aq,fy_2023_aq,q4_reconstructable,pass_counterparty_split,household_product_split,basis,status,note
+Banco de la Nación Argentina,1,NOT_PARSED,EXACT_OFFICIAL,NO,ANNUAL_ONLY,ANNUAL_ONLY,CONSOLIDATED,PARTIAL,Official 2023 A-Q parsed; Sep granular A-Q not recovered in V61.
+Banco de Galicia y Buenos Aires SAU,2,EXACT_OFFICIAL,EXACT_OFFICIAL,YES,YES_GROSS_AND_OTHERFI_EXPENSE,YES,INDIVIDUAL,FULL_V61,Original Sep-23 and FY-23 official statements.
+Santander Argentina,3,DOCUMENT_DISCOVERED,DOCUMENT_DISCOVERED,NOT_PARSED,N/D,N/D,N/D,SOURCE_DISCOVERED,Official Q3/FY PDFs located but binary/detail extraction not completed.
+BBVA Argentina,4,REPORT_DISCOVERED,REPORT_DISCOVERED,NOT_PARSED,N/D,N/D,N/D,SOURCE_DISCOVERED,Quarterly/annual reporting located; A-Q detail not reconciled.
+Banco Macro SA,5,EXACT_FROM_V60,EXACT_FROM_V60,YES,YES_GROSS,YES,CONSOLIDATED,FULL_V61,Inherited V60 exact bridge.
+Banco Provincia de Buenos Aires,6,OFFICIAL_PAGE_DISCOVERED,OFFICIAL_PAGE_DISCOVERED,NOT_PARSED,N/D,N/D,N/D,SOURCE_DISCOVERED,Official financial-statement archive confirmed; A-Q values not extracted.
+Banco Credicoop,7,N/D,N/D,NO,N/D,N/D,N/D,PENDING,
+ICBC Argentina,8,N/D,N/D,NO,N/D,N/D,N/D,PENDING,
+Banco Supervielle,9,N/D,N/D,NO,N/D,N/D,N/D,PENDING,
+Banco Ciudad de Buenos Aires,10,EXACT_FROM_V60,EXACT_FROM_V60,YES,YES_GROSS,YES,CONSOLIDATED,FULL_V61,Inherited V60 exact bridge.

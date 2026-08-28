@@ -1,0 +1,6 @@
+coverage_unchanged: PASS
+panel_unchanged: PASS
+bna_candidate_marked_unverified: PASS
+user_request_contains_bna: PASS
+user_request_contains_bapro: PASS
+user_request_contains_ciudad: PASS

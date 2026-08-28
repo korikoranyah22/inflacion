@@ -1,0 +1,3 @@
+# PROMPT CODEX V80 — BCRA 7Z ENDPOINT + BNA/CIUDAD TRIMANUA
+
+Continue from V79. Preserve the frozen Q4 bridge and every strict exact row. First resolve the BCRA Información sobre entidades financieras historical open-data download mechanism for September 2023. The official catalog confirms the target month is in scope and the page states that the open data are a `.7z` with TXT files. Extract BNA and Banco Ciudad rows for 0301060100, 0301060200, 0302030100, and 0302030200 if available. In parallel, search the BNA issuer archive family for the full separated 30-09-2023 package. Never mix consolidated and separated bases; V79 proves they differ materially for BNA. Ask the user for rescue only after finding a concrete file/link that automated retrieval cannot fetch.

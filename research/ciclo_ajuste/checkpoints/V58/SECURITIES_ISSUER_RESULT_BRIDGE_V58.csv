@@ -1,0 +1,7 @@
+﻿dimension,value,status,counterparty,note
+IEF_TARGET,Q3 28.1; Q4 35.4; gap +7.3 pp,EXACT,MIXED/N-D,Result for securities including ORI.
+ACCOUNTING_SCOPE,public securities; temporary investments; negotiable obligations; subordinated obligations; options; other intermediation credits,SUPPORTED_BY_BCRA_GLOSSARY,MIXED,Bucket is not exclusively Treasury/BCRA.
+PUBLIC_SECURITY_RESULT_MODES,accrued income; quotation differences; TIR accretion; sales; valuation-risk provisions,SUPPORTED_BY_BCRA_GLOSSARY,COUNTERPARTY_AND_MODE_MUST_BE_SEPARATED,Issuer stock cannot determine result share.
+P24_ISOLATED_RESULT_LINE,,NOT_AVAILABLE,N/D,P24 broad Other financial income cannot isolate securities.
+TREASURY_DIRECT_FLOW_SHARE,,NOT_IDENTIFIED,TREASURY_COUNTERPARTY_NOT_QUANTIFIED,Requires instrument issuer + compatible accrued/cash-flow result.
+BCRA_INSTRUMENT_RESULT_SHARE,,NOT_IDENTIFIED,BCRA_COUNTERPARTY_NOT_QUANTIFIED_FOR_SECURITIES,Do not infer from stock of BCRA instruments.

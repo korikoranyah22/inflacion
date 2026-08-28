@@ -1,0 +1,2 @@
+route,format,frequency,catalog_coverage,target_month,target_in_scope,target_items,endpoint_status,strict_value
+BCRA Información sobre entidades financieras - open data,7z containing TXT + content-description PDF,monthly,07/2021-06/2025,2023-09,YES,0301060100;0301060200;0302030100;0302030200,DYNAMIC_UI_ENDPOINT_NOT_RESOLVED,Potential direct regulatory bypass for BNA and Banco Ciudad without issuer PDFs

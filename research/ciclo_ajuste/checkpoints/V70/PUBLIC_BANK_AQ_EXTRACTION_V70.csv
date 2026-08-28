@@ -1,0 +1,7 @@
+entity,target,primary_source_status,alternate_source_status,annex_q_extracted,q4_bridge,strict_panel_effect,next_action
+Banco de la Nacion Argentina,9M separated Annex Q,OFFICIAL_AGN_TARGET_IDENTIFIED_BINARY_502,BNA_CONDENSED_PRIMARY_RECOVERED_CONTROL_ONLY,NO,N/D,NONE,recover AGN/BNA/BCRA regulatory separated attachment or mirror
+Banco de la Provincia de Buenos Aires,9M separated Annex Q,FY_EXACT;_SEP2023_MARKET_DISCIPLINE_PRIMARY_RECOVERED,financial-statement repository referenced but target Annex Q not recovered,NO,N/D,NONE,enumerate Sep-2023 institutional EEFF/Anexo-Q historical endpoints or regulatory mirror
+Banco Credicoop Cooperativo Limitado,9M separated Annex Q,FY_EXACT;_9M_PRIMARY_BINARY_NOT_RECOVERED,secondary rating confirms 30/09/2023 EEFF existed,NO,N/D,NONE,recover issuer/regulatory primary 30/09/2023 filing
+Banco Ciudad de Buenos Aires,9M/FY separated Annex Q,OFFICIAL_9M_CONSOLIDATED_BINARY_RECOVERED,separated historical target not recovered,NO_INDIVIDUAL,N/D_STRICT,NONE,locate separated/individual counterpart; do not use consolidated control
+BBVA Argentina,individual 9M/FY Annex Q,NO_NEW_TARGET_BASIS_PAIR,V68/V69 CNV consolidated path remains control only,NO,N/D,NONE,BCRA/issuer alternate individual route
+Banco Santander Argentina SA,alternate 9M counterparty expense source,NO_NEW_SOURCE_V70,V68 individual income bound retained,NO_NEW,INCOME_BOUND_ONLY,NONE,deprioritized until genuinely new regulatory attachment appears

@@ -1,0 +1,6 @@
+item,status,evidence,implication
+Current BCRA entity-information page,CONFIRMED,Official page states total-entity open data are distributed as a .7z containing TXT files plus a PDF description,Archive family exists
+Catalog temporal coverage,CONFIRMED,Official BCRA data catalog states 07/2021-06/2025,2023-09 is in scope
+Legacy date endpoint pattern,CORROBORATED,"Independent public-sector/academic sources cite BCRA Entidades_financieras.asp?fecha=YYYYMM, including fecha=202012 and fecha=202406","202309 dated page is a deterministic historical-page candidate, not a guessed filename"
+Exact 202309 .7z href,UNRESOLVED,Current BCRA page renders selector through client-side behavior and indexed HTML does not expose the href,Manual browser rescue useful if dated page still renders download UI
+Target records,FROZEN,0301060100;0301060200;0302030100;0302030200,Do not substitute pass stocks or aggregate interest totals

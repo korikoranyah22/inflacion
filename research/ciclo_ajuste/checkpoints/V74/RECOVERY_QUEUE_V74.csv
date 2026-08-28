@@ -1,0 +1,6 @@
+﻿rank,entity,missing_artifact,known_route,why_it_matters,user_help_useful,status
+1,Banco Credicoop Cooperativo Limitado,Official 30-09-2023 issuer binary,Issuer Memoria y Balance dynamic link,The official index confirms the filing exists; issuer binary may expose 9M pass counterparties directly.,YES,PENDING
+2,BCRA historical open-data archive,September-2023 .7z TXT package / historical dynamic endpoint,BCRA monthly publication states a .7z TXT open-data package exists,Machine-readable account-level data may expose more detail or resolve filing paths.,NO_UNLESS_EASY_TO_DOWNLOAD,ENDPOINT_UNRESOLVED
+3,Banco de la Nacion Argentina,Full separated 30-09-2023 statements or four-leg regulatory disclosure,AGN review attachments + BCRA 202309 entity control,Largest potential strict-coverage increment.,YES_IF_MANUAL_SOURCE_FOUND,PENDING
+4,Banco de la Provincia de Buenos Aires,Separated/individual 30-09-2023 filing,Issuer/regulatory archive + BCRA 202309 entity control,Large potential strict-coverage increment.,YES_IF_MANUAL_SOURCE_FOUND,PENDING
+5,Banco Ciudad de Buenos Aires,Separated/individual 30-09-2023 filing,Issuer quarterly archive; consolidated Annex Q already recovered,Consolidated exact pass split cannot be promoted to individual strict panel.,YES_IF_EASY,PENDING

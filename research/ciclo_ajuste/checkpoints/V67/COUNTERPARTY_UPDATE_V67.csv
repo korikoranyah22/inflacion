@@ -1,0 +1,16 @@
+﻿claim,v66,v67,reason
+SYSTEM_PANEL_BASIS,INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING,UNCHANGED,"Macro evidence is exact separated/individual, so no basis relaxation required."
+FULL_FOUR_LEG_Q4_ENTITY_COUNT_STRICT_SYSTEM_BASIS,2_EXACT_ELIGIBLE_ICBC_PLUS_BANCO_VALORES,3_EXACT_ELIGIBLE_ICBC_PLUS_BANCO_VALORES_PLUS_MACRO,Official Banco Macro separated 9M/FY Annex Q closes all four pass legs after homogeneous differencing.
+STRICT_Q4_FOUR_LEG_EXACT_ASSET_COVERAGE,5.2096%,11.260968%,"Macro adds 5,851,533.4 million ARS of Dec-2023 BCRA assets."
+Q4_POINT_COUNTERPARTY_DETAIL_ASSET_FOOTPRINT,14.178874%,20.230242%,Macro adds exact BCRA/otherFI point flow on target basis.
+OPEN_EXACT_SUBSET_OTHERFI_SIGN,NEGATIVE_FOR_ICBC_PLUS_VALORES,POSITIVE_AFTER_ADDING_MACRO,"Exact subset net otherFI changes from about -1.059bn to +2.168bn thousand-ARS units, reinforcing open-network sign instability."
+SANTANDER_INDIVIDUAL_PAIR,FILING_EXISTENCE_LOCATED_NOT_BRIDGED,OFFICIAL_3Q_AND_4Q_CONSOLIDATED_AND_SEPARATED_BINARIES_LOCATED_NOT_PARSED,"Official shareholder page links exact primary PDFs, but current parser returns Unicode decoding error; values not elevated."
+BAPRO_Q4_FOUR_LEG,N/D_9M_NOT_RETRIEVED,N/D_9M_NOT_RETRIEVED,FY exact control retained; no compatible 9M Annex Q extraction.
+CREDICOOP_Q4_FOUR_LEG,N/D_9M_COMPATIBLE_PDF_NOT_RETRIEVED,N/D_9M_COMPATIBLE_PDF_NOT_RETRIEVED,No compatible Annex Q bytes extracted.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_COVERAGE_TOO_LOW,NOT_IDENTIFIED_COVERAGE_TOO_LOW,"Strict exact coverage rises to 11.261%, still an open network far from near-full."
+SYSTEM_BCRA_NET_PASS_FLOW,N/D,N/D,Three exact entities are not a high-coverage system numerator.
+SYSTEM_INTERBANK_NET_PASS_FLOW,N/D,N/D,Open subset cannot test system cancellation.
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,Compatible high-coverage numerator/denominator bridge remains missing.
+HOUSEHOLD_ANNEX_Q_ACCRUED_INTEREST_FLOW_BRIDGE,NOT_IDENTIFIED,NOT_IDENTIFIED,V67 coverage branch adds no direct PH/PJ accrued-interest allocation.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,No new contractual/system accounting identity.
+HTML_MODIFICATION,FORBIDDEN,FORBIDDEN,Frozen gate retained.

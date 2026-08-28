@@ -1,0 +1,5 @@
+base_snapshot_exists: PASS
+coverage_unchanged: PASS
+taxonomy_four_rows: PASS
+bna_not_eligible: PASS
+html_forbidden: PASS

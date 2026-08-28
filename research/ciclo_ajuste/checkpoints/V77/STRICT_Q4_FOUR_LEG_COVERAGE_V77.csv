@@ -1,0 +1,2 @@
+coverage_set,basis,period,asset_numerator_million_ars,system_assets_million_ars,asset_coverage_pct,increment_vs_v75_pp,quality,closed_network_gate,v76_change
+ICBC Argentina + Banco de Valores S.A. + Banco Macro S.A. + Banco Credicoop Cooperativo Limitado,INDIVIDUAL_ENTITY_REGULATORY,Q4-2023,14083172.9,96697695.5,14.564124643487498,0,ALL_FOUR_LEGS_EXACT_FOUR_ENTITIES,NO_COVERAGE_STILL_LOW,METHODOLOGY_AND_SOURCE_PATH_ONLY_NO_NEW_STRICT_ENTITY

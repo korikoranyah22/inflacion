@@ -1,0 +1,7 @@
+﻿entity,counterparty,q3_direct_thousand_ars,q3_share_broad_pct,q4_reconstructed_dec23_thousand_ars,q4_share_broad_pct,implication
+Banco Macro SA,BCRA,37563220,9.110646670194566,83520202.8273678,15.121256056705215,pass counterparty is heterogeneous at entity level
+Banco Macro SA,OTHER_FINANCIAL_INSTITUTIONS,16678,0.004045110221261781,647816.0410429954,0.11728649958501196,pass counterparty is heterogeneous at entity level
+Banco Ciudad de Buenos Aires,BCRA,0,0.0,0.0,0.0,pass counterparty is heterogeneous at entity level
+Banco Ciudad de Buenos Aires,OTHER_FINANCIAL_INSTITUTIONS,35942514,10.366926942842762,370794209.0769231,59.7241391042998,pass counterparty is heterogeneous at entity level
+SYSTEM_IEF_Q4_GAP,BCRA,,,,,FULL_IEF_7_7PP_PASS_GAP_IS_BCRA = NOT_ESTABLISHED
+SYSTEM_IEF_Q4_GAP,ALL,,,,,7_7PP_AS_STRICT_BCRA_FLOOR = REVOKED

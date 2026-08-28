@@ -1,0 +1,10 @@
+﻿claim,v62,v63,reason
+FOUR_LEG_PASS_PUBLIC_DISCLOSURE_SCHEMA,INFERRED_PARTIAL,STRONG_SUPPORT,BCRA Annex Q explicitly requires pass/caucion income and expense split BCRA vs other financial institutions.
+FULL_FOUR_LEG_Q4_ENTITY,NONE_EXACT,IDENTIFIED_FOR_BANCO_CIUDAD,Q3/9M and FY disclose all pass income/expense as other-FI; Q4 exact after homogeneous differencing.
+CIUDAD_Q4_BCRA_PASS_FLOW,BCRA_INCOME_ZERO_EXPENSE_ND,INCOME_ZERO_AND_EXPENSE_ZERO,Both pass income and expense aggregate equal explicit other-FI subline.
+SUBSET_INTERBANK_NETTING_AS_SYSTEM_TEST,NOT_EXPLICIT,REJECTED,An open subset can have large net other-FI flow against banks outside subset; cancellation requires closed near-full coverage.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_MISSING_EXPENSE_LEGS,NOT_IDENTIFIED_CLOSED_COVERAGE_MISSING,"Regulatory schema exists, but coverage is not a closed system and several expense legs remain missing."
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,No system numerator/denominator reconciliation.
+HOUSEHOLD_PRODUCT_PROXY,SUPPORTED_ENTITY_LEVEL,SUPPORTED_DIRECT_CONTRACT_CANDIDATE_NOT_SECTOR_IDENTITY,"Annex Q product rows identify contract families, not a clean institutional household sector."
+HOUSEHOLD_SYSTEM_Q4_POINT_ESTIMATE,N/D,N/D,Coverage and sector identity gates remain open.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,No system accounting identity linking household loss to abnormal bank result.

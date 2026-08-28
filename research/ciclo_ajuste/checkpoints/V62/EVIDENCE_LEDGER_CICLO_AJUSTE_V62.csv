@@ -1,0 +1,8 @@
+﻿claim,status,evidence,caveat,scope,next
+V62_Q4_BROAD_COVERAGE,6_ENTITIES,Macro Ciudad Galicia Santander BBVA Supervielle,mixed bases; no system share,Q4-2023,V63
+V62_HH_PRODUCT_COVERAGE,5_ENTITIES,Added BBVA and Supervielle,product proxy,Q4-2023,V63
+V62_HH_CONSOLIDATED_SUBSAMPLE,DESCRIPTIVE_ONLY,17.7546% broad interest,nonrepresentative,4 consolidated banks,V63
+V62_SANTANDER_BCRA_PASS_BOUND,ENTITY_BOUND,<= 3.0825%,not system,Santander Q4,V63
+V62_SANTANDER_OTHERFI_BOUND,ENTITY_BOUND,>= 96.9175%,not system,Santander Q4,V63
+V62_INTERBANK_CANCELLATION,NOT_IDENTIFIED_MISSING_EXPENSE_LEGS,otherFI income lower bound 573.983bn,expense coverage sparse,sample,V63
+V62_IEF_PASS_BCRA_SHARE,N/D,counterparty incomplete,no floor,system,V63

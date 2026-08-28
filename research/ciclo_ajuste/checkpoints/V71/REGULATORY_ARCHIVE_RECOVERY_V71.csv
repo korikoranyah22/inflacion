@@ -1,0 +1,9 @@
+entity,route,url,status,meaning,target_basis_value
+BNA,AGN landing page,https://www.agn.gob.ar/informes/Informe-210-2023,RECOVERED,confirms consolidated condensed + separated condensed financial statements were reviewed,YES_INDEX_ONLY
+BNA,AGN SC review attachment,https://www.agn.gob.ar/sites/default/files/informes/2023-210-Informe%20SC%201.pdf,HTTP_502,exact filename resolved from official link; likely review report; full statement payload not established,NO
+BNA,AGN CC review attachment,https://www.agn.gob.ar/sites/default/files/informes/2023-210-Informe%20CC%202.pdf,HTTP_502,exact filename resolved from official link; content inaccessible,NO
+BNA,issuer Sep-2023 Pillar 3,https://www.bna.com.ar/Downloads/Institucional_DisciplinaDeMercado_INFORME%20DISCIPLINA%20DE%20MERCADO%20-%20SEP%202023_R.pdf,RECOVERED,period-specific primary control; not separated Annex Q,CONTROL_ONLY
+Credicoop,issuer Memoria y Balance index,https://www.bancocredicoop.coop/nuestrobanco/institucional/memoria-y-balance,RECOVERED,official index explicitly lists 30-09-2023,YES_INDEX_ONLY
+Credicoop,30-09-2023 dynamic PDF target,dynamic issuer link,NOT_EXPOSED,download identifier/URL not available in crawler output,NO
+BAPRO,2022 historical separated path pattern,https://www.bancoprovincia.com.ar/CDN/Get/ESF_sep_30092022,HISTORICAL_PRIMARY_PATTERN,"supports repository naming architecture, not 2023 document existence at analogous URL",SEARCH_AID_ONLY
+Ciudad,2023 separated search,issuer archive/search,NOT_SURFACED,no exact primary separated 30-09-2023 binary located in V71,NO

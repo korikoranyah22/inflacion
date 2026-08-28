@@ -1,0 +1,3 @@
+entity,period,basis,income_bcra,income_otherfi,expense_bcra,expense_otherfi,source_quality,source,interpretation
+Banco de la Nacion Argentina,FY-2023,SEPARATED_INDIVIDUAL,766170919,0,0,0,EXACT_OFFICIAL_ANNEX_Q,"BNA Memoria 2023, Annex Q Individual",STRICT_TARGET_BASIS_FY_CONTROL
+Banco de la Nacion Argentina,FY-2023,CONSOLIDATED_CONTROL_ONLY,766170918,3980009,0,0,EXACT_OFFICIAL_ANNEX_Q,"BNA Memoria 2023, Annex Q Consolidated",CONTROL_ONLY_CONSOLIDATION_ADDS_OTHERFI_FLOW

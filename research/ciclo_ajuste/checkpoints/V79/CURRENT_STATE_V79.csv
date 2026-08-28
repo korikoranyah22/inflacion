@@ -1,0 +1,8 @@
+entity,target_basis,fy_status,nine_month_status,q4_four_leg_status,strict_panel_status,priority,next_action
+Industrial and Commercial Bank of China (Argentina) S.A.U.,INDIVIDUAL_STANDALONE,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco de Valores S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Macro S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE6_EXACT_CROSSWALK,EXACT,ELIGIBLE,CLOSED,retain; alternate-note template
+Banco de la Nacion Argentina,SEPARATED_INDIVIDUAL,FY_EXACT_SEPARATED; CONSOLIDATED_FY_EXACT_CONTROL_WITH_3_980_009_OTHERFI_DIVERGENCE,OFFICIAL_9M_SUMMARY_CONTROL; FULL_SEPARATED_9M_KNOWN_TO_EXIST; BCRA_OPEN_DATA_2023_IN_SCOPE_ENDPOINT_UNRESOLVED,N/D,PENDING,1,prefer BCRA Sep-2023 raw/TRIMANUA endpoint; parallel issuer full separated 30-09-2023 recovery; never mix consolidated 9M with separated FY
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE14_15_EXACT,EXACT,ELIGIBLE,CLOSED,retain; alternate-note four-leg template; annual Annex Q crosswalk
+Banco Ciudad de Buenos Aires,INDIVIDUAL,CONSOLIDATED_FY_EXACT_CONTROL; SEPARATED_FY_KNOWN_TO_EXIST_NOT_RECOVERED,CONSOLIDATED_9M_EXACT_CONTROL_ONLY; BCRA_OPEN_DATA_2023_IN_SCOPE_ENDPOINT_UNRESOLVED,N/D_STRICT; CONSOLIDATED_Q4_CONTROL_ONLY,PENDING,2,recover separated/individual 30-09-2023 four legs via issuer or BCRA raw archive; retain consolidated values only as control

@@ -1,0 +1,7 @@
+﻿metric,nine_month_sep2023_thousand_ars,fy_dec2023_thousand_ars,reexpression_factor,q4_dec2023_thousand_ars,quality,source_9m,source_fy
+income_bcra,73941249,245614573,1.532908152197492,132269429.624235,EXACT_FROM_COMPATIBLE_HOMOGENEOUS_9M_AND_FY,"regulator-origin filing mirror, original 2023 filing",Banco de Valores issuer-official audited FY 2023
+expense_bcra,0,0,1.532908152197492,0,EXACT_FROM_COMPATIBLE_HOMOGENEOUS_9M_AND_FY,"regulator-origin filing mirror, original 2023 filing",Banco de Valores issuer-official audited FY 2023
+income_otherfi,181075,325492,1.532908152197492,47920.656341,EXACT_FROM_COMPATIBLE_HOMOGENEOUS_9M_AND_FY,"regulator-origin filing mirror, original 2023 filing",Banco de Valores issuer-official audited FY 2023
+expense_otherfi,474355,931695,1.532908152197492,204552.353464,EXACT_FROM_COMPATIBLE_HOMOGENEOUS_9M_AND_FY,"regulator-origin filing mirror, original 2023 filing",Banco de Valores issuer-official audited FY 2023
+net_bcra,N/A,N/A,1.532908152197492,132269429.624235,DERIVED_FROM_EXACT_FOUR_LEG,same,same
+net_otherfi,N/A,N/A,1.532908152197492,-156631.697124,DERIVED_FROM_EXACT_FOUR_LEG,same,same

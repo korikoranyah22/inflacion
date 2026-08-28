@@ -1,0 +1,30 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "version": "V58",
+  "title": "IEF reconciliation gate",
+  "created_at_utc": "2026-08-27T20:00:09.078845+00:00",
+  "base": "V57",
+  "html_modified": false,
+  "frozen_counterparty": {
+    "passes_direct_bcra_pp": 7.7,
+    "passes_share_positive_pct": 26.83,
+    "unresolved_pp": 21.0,
+    "unresolved_share_pct": 73.17
+  },
+  "new_findings": {
+    "exact_ief_table": "PASS",
+    "p24_interest_income_direct_mapping": "REJECTED",
+    "p24_interest_expense_mapping": "APPROX_SUPPORTED",
+    "p24_monetary_admin_mapping": "APPROX_SUPPORTED",
+    "modern_2023_xlsx_bytes": "NOT_MATERIALIZED"
+  },
+  "diagnostic_anchor_millions": {
+    "q3": 63767782.46171613,
+    "q4": 92210597.38486856
+  },
+  "interest_income_implied_denominator_ratio": {
+    "q3": 3.2761,
+    "q4": 3.3989
+  },
+  "next": "V59_ENTITY_LEVEL_REAL_MARGIN_BRIDGE"
+}

@@ -1,0 +1,3 @@
+# PROMPT CODEX V79 — BNA + CIUDAD SEPARATED 9M / TRIMANUA RECOVERY
+
+Continue from V78. Preserve all exact rows and the frozen Q4 bridge. Prioritize BNA, then Banco Ciudad. Seek a primary 30-09-2023 separated/individual disclosure of pass-interest income/expense split between BCRA and other financial institutions, or the exact TRIMANUA item codes 0301060100, 0301060200, 0302030100, 0302030200. Do not use pass stocks as flow substitutes. Do not use consolidated data for strict individual coverage. Ask the user for manual rescue only after identifying a concrete file/link that automated retrieval cannot fetch.

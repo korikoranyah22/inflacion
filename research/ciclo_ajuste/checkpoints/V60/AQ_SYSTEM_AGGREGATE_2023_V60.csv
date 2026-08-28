@@ -1,0 +1,3 @@
+﻿scope,entities,q4_broad_interest_thousand_dec23_ars,q4_household_like_thousand_dec23_ars,q4_household_like_share_broad_pct,q4_bcra_passes_thousand_dec23_ars,q4_other_fi_passes_thousand_dec23_ars,coverage,status
+TWO_BANK_SAMPLE,Macro+Ciudad,1173181204.9964862,258679768.66484454,22.04943000818184,83520202.8273678,371442025.11796606,NONREPRESENTATIVE_TWO_ENTITY_SAMPLE,DESCRIPTIVE_ONLY
+SYSTEM,all financial entities,,,,,,NOT_YET_AGGREGATED,NOT_RUN

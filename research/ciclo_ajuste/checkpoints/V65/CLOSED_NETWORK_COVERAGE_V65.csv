@@ -1,0 +1,11 @@
+﻿entity,basis,q4_four_leg,target_basis_compatible,bank_assets_dec23_million_ars,asset_share_of_banks_pct,strict_q4_network_role,status,source,note
+ICBC Argentina,INDIVIDUAL_STANDALONE,YES_EXACT,YES,3965612.9,4.101041787495339,ELIGIBLE,ONLY_STRICT_FULL_FOUR_LEG_Q4_ENTITY_V65,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202312e.pdf,Asset share is coverage diagnostic only.
+Banco de Galicia y Buenos Aires SAU,INDIVIDUAL,PARTIAL_EXACT,YES,8673081.7,8.96927445390878,PARTIAL_ONLY,BCRA_EXPENSE_LEG_MISSING,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202312e.pdf,"Can enter basis-consistent otherFI subset, not full four-leg panel."
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,NO_FY_EXACT_ONLY,YES,8682679.8,8.97920033678569,PENDING_9M,FY_FOUR_LEG_EXACT_Q4_ND,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202312e.pdf ; https://www.bancoprovincia.com.ar/CDN/Get/EEFF_unificado_31122023,Do not use FY flow as Q4.
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,NO_FY_EXACT_ONLY,YES,3194076.5,3.3031567954998473,PENDING_9M,FY_FOUR_LEG_EXACT_Q4_ND,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202312e.pdf ; https://www.bancocredicoop.coop/api/descargas/descargar.php?descarga=819,Do not use FY flow as Q4.
+Banco Ciudad de Buenos Aires,CONSOLIDATED,YES_EXACT,NO,N/D,N/D,CONTROL_ONLY,EXCLUDED_UNTIL_INDIVIDUAL_AQ_RETRIEVED,V64,Exact consolidated entity/group evidence remains valid but cannot enter target system panel.
+Banco Macro SA,CONSOLIDATED,PARTIAL_APPROX,NO,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64,Need individual Annex Q.
+Banco Santander Argentina SA,CONSOLIDATED,BOUND_ONLY,NO,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64,Need individual Annex Q.
+BBVA Argentina,CONSOLIDATED,TOTAL_ONLY,NO,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64,Need individual Annex Q.
+Grupo Supervielle / Banco Supervielle,CONSOLIDATED,UNSPLIT,NO,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64,Need individual Annex Q.
+Banco de la Nacion Argentina,CONSOLIDATED,FY_ONLY,NO,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64,Need individual 9M/FY Annex Q.

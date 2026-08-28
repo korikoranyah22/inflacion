@@ -1,0 +1,4 @@
+﻿target,numerator_bridge,coverage,closed_network_requirement,denominator_requirement,status
+IEF Q4-2023 pass component gap +7.7 pp,four-leg pass income/expense by entity,partial; first exact Q4 four-leg entity=Ciudad,NOT_MET,NOT_MET_SYSTEM_WIDE,NOT_RECONCILED
+BCRA share of +7.7 pp,sum net BCRA pass flow across homogeneous system,partial + bounds,not relevant for BCRA bilateral leg but high coverage still required,not met,N/D
+Other-FI share of +7.7 pp,sum otherFI income - sum otherFI expense,open subset only,REQUIRED,not met,N/D

@@ -1,0 +1,6 @@
+﻿bucket,pp,share_gross_positive_pct,v59_status,new_evidence,direct_household
+PASSES_DIRECT_BCRA,7.7,26.83,STRONG_SUPPORT_UNCHANGED,Post-NIIF Annex Q explicitly separates repo interest with BCRA (0301060100); entity accounting note confirms repo interest credits Ingresos por intereses.,NO
+UNRESOLVED_COUNTERPARTY,21.0,73.17,UNRESOLVED_UNCHANGED,"Positive-income reclassification architecture identified, but quarterly system subaccount values/issuer splits remain unavailable; do not convert accounting mode into counterparty.",N/D
+DIRECT_HOUSEHOLD_FLOW_SCHEMA,,,PARTIAL_SCHEMA_IDENTIFIED,Annex Q has personal and credit-card interest subaccounts plus mortgages/pledged; frequency is annual and product categories are not exact household-sector classification.,POSSIBLE_NOT_QUANTIFIED
+DIRECT_HOUSEHOLD_POINT_ESTIMATE,,,N/D_UNCHANGED,No quarter-compatible system accrued-flow by household sector compatible with IEF interest component.,N/D
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,,,NOT_IDENTIFIED,No one-to-one accounting bridge from household payment flows to the Q4 abnormal aggregate result.,NOT_IDENTIFIED

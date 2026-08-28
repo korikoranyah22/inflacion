@@ -1,0 +1,5 @@
+﻿scope,result_family,code,issuer_resolution,accounting_mode,q3_system_flow,q4_system_flow,ief_target_q4_pct_a_an,treasury_share,bcra_share,status,note
+POST_NIIF_SCHEMA,FVTPL public securities,0101010000,PUBLIC_ONLY,FVTPL,N/D,N/D,35.4,N/D,N/D,RESULT_SCHEMA_EXISTS_ISSUER_SPLIT_INSUFFICIENT,Public securities result is not automatically Treasury and does not split BCRA/Treasury.
+POST_NIIF_SCHEMA,Interest on public securities at amortized cost,0301030000,PUBLIC_ONLY,EIR_AMORTIZED_COST,N/D,N/D,35.4,N/D,N/D,INTEREST_FLOW_SCHEMA_EXISTS,Only one component of total securities result.
+POST_NIIF_SCHEMA,Public debt securities at FVOCI,0402000000,PUBLIC_ONLY,FVOCI_EIR_AND_ORI,N/D,N/D,35.4,N/D,N/D,ORI_FLOW_SCHEMA_EXISTS,Supports accounting-mode decomposition but not direct issuer counterparty split.
+SYSTEM_Q4_2023,IEF securities c/ORI abnormal gap,IEF,MIXED,MIXED,4479686.718,8160637.869,35.4,N/D,N/D,TARGET_FLOW_ONLY_COUNTERPARTY_ND,Do not allocate by stock holdings.

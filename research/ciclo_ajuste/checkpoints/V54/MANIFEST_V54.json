@@ -1,0 +1,104 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V54",
+  "title": "RAW_BCRA_MICRODATA_AND_ACCOUNTING_BRIDGE",
+  "generated_utc": "2026-08-27T18:01:03.018469+00:00",
+  "html_modified": false,
+  "base_package": "FRONTERA_CICLO_AJUSTE_V53_COUNTERPARTY_QUANTIFICATION.zip",
+  "gates": {
+    "official_endpoints_verified": true,
+    "raw_source_bytes_materialized": false,
+    "sha256_source_gate": "FAILED_RUNTIME_NETWORK",
+    "same_window_reconciliation": "FAILED_FOR_NEW_SPLITS",
+    "no_double_count": true
+  },
+  "frozen_or_corrected": {
+    "gross_positive_q4_2023_pp": 28.7,
+    "bcra_direct_counterparty_floor_pp": 7.7,
+    "bcra_direct_counterparty_floor_pct": 26.83,
+    "unresolved_counterparty_pp": 21.000000000000004,
+    "unresolved_counterparty_pct": 73.17,
+    "v53_strict_classified_66_20_joint_partition": "REVOKED",
+    "v53_market_valuation_floor_39_37": "REVOKED",
+    "v53_household_0_2_1_strict_ceiling": "REVOKED",
+    "direct_household_point_estimate": "N/D",
+    "direct_household_to_bank_transfer": "NOT_IDENTIFIED_AT_ABNORMAL_GAP_LEVEL"
+  },
+  "files": [
+    {
+      "name": "AUDITORIA_MICRODATA_BRIDGE_V54.md",
+      "bytes": 5719,
+      "sha256": "f83a5a995c0e814137efd3973bd08460e4aa063440c59cce741bfa644ba7e4fb"
+    },
+    {
+      "name": "BASE_V53.zip",
+      "bytes": 60708,
+      "sha256": "9d12a5db51055c3d32ef25be0ab7dc58959f9eeede357c9c40a9b22f2174d1b1"
+    },
+    {
+      "name": "CER_GROSS_BRIDGE_V54.csv",
+      "bytes": 1298,
+      "sha256": "2878a4acf5911efcac76f66fd35e81ba03ef55700febe0feae247e00c50c5d79"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V54.csv",
+      "bytes": 35891,
+      "sha256": "54f33bfa8d78add049c26f8ac528ad9e81d9123c5556ff22d75a36431e9bbac6"
+    },
+    {
+      "name": "FUENTES_V54.md",
+      "bytes": 1899,
+      "sha256": "c42c42416f320a5296e038a68f8d6950dcbd82dd821954e4a9c708326f433b13"
+    },
+    {
+      "name": "FX_GROSS_RESULT_BRIDGE_V54.csv",
+      "bytes": 1199,
+      "sha256": "71e249184acb20612d3f41b1e6d1d180cc5cea21a8da831e9812397281052e5e"
+    },
+    {
+      "name": "INTEREST_INCOME_ACCOUNTING_BRIDGE_V54.csv",
+      "bytes": 1406,
+      "sha256": "e473721b25e7bde3e221e03d48f9b71f3492736995eba0f9f646cffdaa01488b"
+    },
+    {
+      "name": "PROMPT_CODEX_V55_BYTE_MATERIALIZATION_AND_SUBACCOUNT_RECONCILIATION.md",
+      "bytes": 3086,
+      "sha256": "29766bcca55bc1433246643dab83d31d5566042256a35a4458bd3148dca04df2"
+    },
+    {
+      "name": "Q4_2023_JOINT_COUNTERPARTY_PARTITION_V54.csv",
+      "bytes": 1218,
+      "sha256": "2e420bb60fa2c76bae06bd90a0251e12c4fc402f15561f0d01d89886dcebc29b"
+    },
+    {
+      "name": "QA_RESULT_V54.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "RAW_SOURCE_MANIFEST_V54.csv",
+      "bytes": 4086,
+      "sha256": "494863431c09a356654cc24df0fb02f98b747ed89a94c123fdb0393f264194ec"
+    },
+    {
+      "name": "README_V54.md",
+      "bytes": 1151,
+      "sha256": "28ae6affc6cdedd1c1eb3ed6ace3ca8b4238a814d746c0d20b0234f79a089420"
+    },
+    {
+      "name": "SECURITIES_RESULT_BRIDGE_V54.csv",
+      "bytes": 1403,
+      "sha256": "1c8786eec17ce37979ef618a62e4b0822f29c10ef63b8707c2a0a29c86f8b87d"
+    },
+    {
+      "name": "VEREDICTO_MICRODATA_BRIDGE_V54.md",
+      "bytes": 2066,
+      "sha256": "e6ec95235f860aa61a3fa7fd4780f3ca3b265985d8cf692996f6b444c8e0710d"
+    },
+    {
+      "name": "qa_v54.py",
+      "bytes": 1477,
+      "sha256": "1ac5c8f3548c0c4d5e9cd75d1021e7d7deb88d4b14efcfea765b2dcebdb7dbc2"
+    }
+  ]
+}

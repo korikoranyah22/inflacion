@@ -1,0 +1,137 @@
+{
+  "version": "V67",
+  "created": "2026-08-27",
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "files": [
+    {
+      "name": "AUDITORIA_V67.md",
+      "sha256": "4ead2dae963b58d44e30e42a59a76aed99e6cbe0470cadedbe43dbe3e5c60579",
+      "bytes": 3414
+    },
+    {
+      "name": "BANCO_VALORES_Q4_AQ_BRIDGE_V67.csv",
+      "sha256": "fb3ca18128b71924114986b6fb7d99e83d00e9f7a4a3cd8e3dab7fd024fa253b",
+      "bytes": 1143
+    },
+    {
+      "name": "BAPRO_FY_AQ_CONTROL_V67.csv",
+      "sha256": "87958cabe18a2acb76960373817d79574f352194811bc0788435da30de416fc8",
+      "bytes": 599
+    },
+    {
+      "name": "BASE_V66.zip",
+      "sha256": "b3e0c547193dafc43f8b9461ad95f028b54c7b43df2aa3f5eac954e20e152672",
+      "bytes": 1635331
+    },
+    {
+      "name": "BASIS_HARMONIZATION_V67.csv",
+      "sha256": "ada0fc5b4cb44f8ffb000114ade4b123cbaaa72411437f37991ea97c6cb22a3a",
+      "bytes": 1555
+    },
+    {
+      "name": "BCRA_BANK_SYSTEM_COVERAGE_V67.csv",
+      "sha256": "3f16dbbbd48be9083780c09b22278e6a0235302022f774d5b2bed4be26feb3ac",
+      "bytes": 1953
+    },
+    {
+      "name": "CLOSED_NETWORK_COVERAGE_V67.csv",
+      "sha256": "5ebfe090a2f66784d5b1c3f44e8fdce2974c5a97bada1bff27c4cc83a6a6012a",
+      "bytes": 2266
+    },
+    {
+      "name": "CLOSED_NETWORK_NETTING_TEST_V67.csv",
+      "sha256": "7804ac133774a7e536c494154ca6fea1d1d220b3bc466f878b4929f5a5c448b1",
+      "bytes": 1290
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V67.csv",
+      "sha256": "d04e258043f326b461ae4e3b07e2a6b6e782ec63c7e23339dd581cf7bff9efc7",
+      "bytes": 2206
+    },
+    {
+      "name": "CREDICOOP_FY_AQ_CONTROL_V67.csv",
+      "sha256": "e04a59a261a4fa83648a917ea9c92e9701bf776c7e1cc6bbf73444137062464d",
+      "bytes": 646
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V67.csv",
+      "sha256": "37308a5720efd5b6250cbd37f50db1de90011911f8fca089971538009031e3e4",
+      "bytes": 5641
+    },
+    {
+      "name": "FOUR_LEG_PASS_PANEL_V67.csv",
+      "sha256": "69b883221975f5cfc6860ba96f18ce82f5200ca09549c676e1124b066cc12c5f",
+      "bytes": 3430
+    },
+    {
+      "name": "FUENTES_V67.md",
+      "sha256": "f282774e008af80d31e0fa45f79cd7d5c930e168f51ce189c69d8180227940d8",
+      "bytes": 2220
+    },
+    {
+      "name": "HANDOVER_CODEX_CICLO_AJUSTE_V67_A_V68.md",
+      "sha256": "392464f76b62cd8815ec92ea73fff7841ce2e0671319fa164090f787b47791a3",
+      "bytes": 2790
+    },
+    {
+      "name": "HOUSEHOLD_PRODUCT_PANEL_V67.csv",
+      "sha256": "527f2d84dc3d69edeb69ae21423ed156a0dff474478645dce38d50aed1ff4737",
+      "bytes": 2274
+    },
+    {
+      "name": "HOUSEHOLD_SECTOR_MAPPING_V67.csv",
+      "sha256": "331005b82c12144dac4c7ec44cbc4ef272137b22ecbc710fa45df64c94112458",
+      "bytes": 2021
+    },
+    {
+      "name": "IEF_PASS_RECONCILIATION_V67.csv",
+      "sha256": "7f9b6048e64bf84716f6f11aed5bee085fb75ce09e18fbaf519777dcc136f22d",
+      "bytes": 1070
+    },
+    {
+      "name": "INDIVIDUAL_AQ_RETRIEVAL_V67.csv",
+      "sha256": "b8d84f9237b34e990c27fc87781a0f182a2de4fb9b514dbbea3df3762093e8d6",
+      "bytes": 2349
+    },
+    {
+      "name": "MACRO_Q4_AQ_BRIDGE_V67.csv",
+      "sha256": "89142f3f0a68f106d28f46bd4f5db45e12a6accd7b8c6b81c3703d8ad5b0f78a",
+      "bytes": 1068
+    },
+    {
+      "name": "PASS_COUNTERPARTY_BOUNDS_V67.csv",
+      "sha256": "a3e30bc346ea9fad4739062d01e6bacd70603aaf3961494101cc1545c8fc423e",
+      "bytes": 2077
+    },
+    {
+      "name": "PROMPT_CODEX_V68_PRIMARY_BINARY_RECOVERY_AND_LARGE_BANK_COVERAGE.md",
+      "sha256": "7b7413436fd53fe7995c4067a80e0fbc4e2d24a655220fd6c17ff3ab6f8ac0bc",
+      "bytes": 2051
+    },
+    {
+      "name": "QA_RESULT_V67.txt",
+      "sha256": "d7ccca5d661fe021acb834e86c62fad8749f02fe62cc24ba31bd583847fcd3df",
+      "bytes": 8
+    },
+    {
+      "name": "README_V67.md",
+      "sha256": "a17eff5f73c4712dfc9b20c56f27e20dbb7513450913c0d6a6adccd092a1d6a3",
+      "bytes": 749
+    },
+    {
+      "name": "SUPERVIELLE_Q4_PASS_BOUND_V67.csv",
+      "sha256": "22509d5f88a01af61ce6e2ee0f83750844aa823aee812e6800252d6bcd4dee8f",
+      "bytes": 1423
+    },
+    {
+      "name": "VEREDICTO_V67.md",
+      "sha256": "217c28170e74e5a9eb338a1c65fc759cd7c0045db8586a5278a33cac2f383b01",
+      "bytes": 3675
+    },
+    {
+      "name": "qa_v67.py",
+      "sha256": "971bedb83e108358427886c882f207dcb565c4f6f23059c82a0f9dac8e3cbdd0",
+      "bytes": 2423
+    }
+  ]
+}

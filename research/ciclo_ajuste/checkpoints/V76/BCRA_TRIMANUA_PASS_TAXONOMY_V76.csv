@@ -1,0 +1,5 @@
+leg,reporting_section,code,label,flow_or_stock,counterparty,effective_from,source_url,v76_use
+income_bcra,Ingresos por intereses,0301060100,Banco Central de la República Argentina,FLOW,BCRA,2023-04-25,https://www.bcra.gob.ar/Pdfs/comytexord/A7749.pdf,canonical alternate-disclosure target
+income_otherfi,Ingresos por intereses,0301060200,Otras entidades financieras,FLOW,OTHER_FINANCIAL_INSTITUTIONS,2023-04-25,https://www.bcra.gob.ar/Pdfs/comytexord/A7749.pdf,canonical alternate-disclosure target
+expense_bcra,Egresos por intereses,0302030100,Banco Central de la República Argentina,FLOW,BCRA,2023-04-25,https://www.bcra.gob.ar/Pdfs/comytexord/A7749.pdf,canonical alternate-disclosure target
+expense_otherfi,Egresos por intereses,0302030200,Otras entidades financieras,FLOW,OTHER_FINANCIAL_INSTITUTIONS,2023-04-25,https://www.bcra.gob.ar/Pdfs/comytexord/A7749.pdf,canonical alternate-disclosure target

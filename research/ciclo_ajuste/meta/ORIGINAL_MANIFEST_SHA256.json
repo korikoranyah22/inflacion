@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-08-28T07:21:05.428886+00:00",
+  "files": [
+    {
+      "path": "repo/inflacion-backup_sources-v70-patched.zip",
+      "source": "inflacion-backup_sources-v70-patched(2).zip",
+      "size": 138301964,
+      "sha256": "524ef8ab518eb5d750f4efe189f17de897a622df66e5c896de517a88f064f8eb"
+    },
+    {
+      "path": "research/FRONTERA_CICLO_AJUSTE_V80_BCRA_LEGACY_DATE_ENDPOINT_AND_BNA_COMPARATIVE_BACKFILL_GATE.zip",
+      "source": "FRONTERA_CICLO_AJUSTE_V80_BCRA_LEGACY_DATE_ENDPOINT_AND_BNA_COMPARATIVE_BACKFILL_GATE.zip",
+      "size": 22300519,
+      "sha256": "36a0e5a010ffd59b34691e56e8c2df356cd0f7c15be3e1641651e66a6074e32f"
+    },
+    {
+      "path": "inputs/bcra_2023_09/InfBanc_Anexo.xlsx",
+      "source": "InfBanc_Anexo.xlsx",
+      "size": 2572175,
+      "sha256": "9b1b48b18039389889ee7d480a9c6d8958fb99630f169339e46ab953e7133251"
+    },
+    {
+      "path": "inputs/bcra_2023_09/Infbanc0923.xlsx",
+      "source": "Infbanc0923.xlsx",
+      "size": 151733,
+      "sha256": "752414aeec3a5f5ecbbb2c94835721b6c6898b23a4afd4251aa743761f93552b"
+    },
+    {
+      "path": "inputs/bcra_2023_09/InfBanc0923.pdf",
+      "source": "InfBanc0923.pdf",
+      "size": 337018,
+      "sha256": "ec57d0695aef8e9a842ccffd3bce994a4938438a73e683211388b730ddb47764"
+    },
+    {
+      "path": "inputs/bcra_2023_09/Glosario.pdf",
+      "source": "Glosario.pdf",
+      "size": 55020,
+      "sha256": "214973ed4108148e4e0930284ea656a7e359e6b5d0f59896c1f5aa3f3c751f06"
+    },
+    {
+      "path": "inputs/bcra_2023_09/Normativa0923.pdf",
+      "source": "Normativa0923.pdf",
+      "size": 32333,
+      "sha256": "33f4a5216b5e623024ebc669c0b5ca4e489b55c8fd7aa7c75c01b2febb03cfe1"
+    },
+    {
+      "path": "inputs/manual_recovery/BAPRO_EEFF_30-09-2023.pdf",
+      "source": "document.pdf",
+      "size": 2307522,
+      "sha256": "871929029887babc6d86d1606f98a0854956c27d7962e75aab575369033f6b0d"
+    },
+    {
+      "path": "inputs/manual_recovery/CREDICOOP_balance-30-09-2023.pdf",
+      "source": "balance-30-09-2023.pdf",
+      "size": 6753946,
+      "sha256": "d0ad8cbd61bd65792d6f400045b0065d0ce0d4524ca938711a8d5b00a50bb769"
+    }
+  ]
+}

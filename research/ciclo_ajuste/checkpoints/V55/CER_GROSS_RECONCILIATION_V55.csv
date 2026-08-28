@@ -1,0 +1,4 @@
+﻿target_gap_pp,series_code,gross_leg,direct_counterparty,cer_only_value,status,reason
+-0.2,1153,Indexed loan asset update bundled with loan interest,borrowers mixed,N/D,BUNDLED_COMPONENT_VALUES_MISSING,Series definition combines loan interest and update of adjusted principal; cannot isolate CER/UVA component.
+-0.2,1158,Indexed deposit liability update bundled with deposit interest,depositors mixed,N/D,BUNDLED_COMPONENT_VALUES_MISSING,Series definition combines deposit interest and capital update; cannot isolate household UVA-deposit expense.
+-0.2,1185,Adjustment/update on public securities bundled with rent/sales/FX/impairment,public issuer family,N/D,BUNDLED_COMPONENT_VALUES_MISSING,Public-security result mixes multiple modes and does not isolate CER.

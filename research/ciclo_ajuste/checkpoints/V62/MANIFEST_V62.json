@@ -1,0 +1,105 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V62",
+  "qa": "PASS",
+  "core_states": {
+    "q4_broad_entity_coverage": 6,
+    "household_product_q4_entity_coverage": 5,
+    "consolidated_household_subsample_ratio_pct": 17.754627221968015,
+    "household_system_q4_point_estimate": "N/D",
+    "santander_q4_bcra_pass_share_upper_pct": 3.0825334994162192,
+    "santander_q4_otherfi_pass_share_lower_pct": 96.91746650058377,
+    "system_interbank_pass_cancellation": "NOT_IDENTIFIED_MISSING_EXPENSE_LEGS",
+    "ief_7_7pp_bcra_share": "N/D",
+    "strict_bcra_floor": "REVOKED",
+    "direct_household_to_bank_transfer": "NOT_IDENTIFIED",
+    "next": "V63_FULL_AQ_HOMOGENEOUS_PANEL_AND_EXPENSE_LEGS"
+  },
+  "files": [
+    {
+      "name": "AUDITORIA_V62.md",
+      "bytes": 1393,
+      "sha256": "4218b738c7623355eba200ce0d22682a4cec87b741b26fb5791d5a4ac7beb908"
+    },
+    {
+      "name": "BASE_V61.zip",
+      "bytes": 1544918,
+      "sha256": "OMITTED_BASE_ARCHIVE"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V62.csv",
+      "bytes": 976,
+      "sha256": "b09388d0cb50de812d16ade4164e90b7d0c4005d6a7a1b7dfc761cbd79c2f2cc"
+    },
+    {
+      "name": "ENTITY_COVERAGE_V62.csv",
+      "bytes": 832,
+      "sha256": "4b8385bc525139e37e10ea74e62e2eb159a78cf6c04f160389cb2af6e280bda2"
+    },
+    {
+      "name": "ENTITY_Q4_AQ_PANEL_V62.csv",
+      "bytes": 1286,
+      "sha256": "ca0a5c30edf7723c146d06098bb9ac70621288218d58d1fc8140c40e47c1303c"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V62.csv",
+      "bytes": 744,
+      "sha256": "935dbf9946f68e87486ccb91763140b13a16c06e647bb523373cf4ddbbf707d6"
+    },
+    {
+      "name": "FUENTES_V62.md",
+      "bytes": 609,
+      "sha256": "0474f9f30a6c442ceaa5d28338535cd628d946a872ea865092ff732cbc58188a"
+    },
+    {
+      "name": "HOUSEHOLD_PRODUCT_SYSTEM_V62.csv",
+      "bytes": 1469,
+      "sha256": "f82c83a7cf2b3b87c73f87ad15854dff214f38b624f28bb119cd45af94083409"
+    },
+    {
+      "name": "IEF_PASS_RECONCILIATION_V62.csv",
+      "bytes": 546,
+      "sha256": "ede5fc1ac598285f7994dfdeeff58858274510e05d4af1a7d07317a42e235a2c"
+    },
+    {
+      "name": "INTERBANK_CANCELLATION_TEST_V62.csv",
+      "bytes": 488,
+      "sha256": "90e2128366028f7b022f18c3ba538dfbc33b982678406138c3c5c1dcc74333d5"
+    },
+    {
+      "name": "PASS_GROSS_NET_SYSTEM_V62.csv",
+      "bytes": 788,
+      "sha256": "2b79708bc2ababb4abc2f3e168233116bb76d643a935b8f39350de6ecb740348"
+    },
+    {
+      "name": "PROMPT_CODEX_V63_FULL_AQ_HOMOGENEOUS_PANEL_AND_EXPENSE_LEGS.md",
+      "bytes": 1239,
+      "sha256": "b9188218a2eec5f020091669ff3b511d1b9392e757afca066ab01b302420e993"
+    },
+    {
+      "name": "QA_RESULT_V62.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "RAW_ENTITY_MANIFEST_V62.csv",
+      "bytes": 858,
+      "sha256": "0e8e539ef53c0a4963c85bdf6f89a2fa2ce78c20904fe9b76c32672ca4477a59"
+    },
+    {
+      "name": "README_V62.md",
+      "bytes": 409,
+      "sha256": "3ee96bcdad5500cc0fbffbb69c8da6c09bedf57e60309538c5d59fafe5a935e1"
+    },
+    {
+      "name": "VEREDICTO_V62.md",
+      "bytes": 739,
+      "sha256": "0d231b8baf5de0f90c65b96a66bbbeecbe547b4bf002af208946acd23dbcf701"
+    },
+    {
+      "name": "qa_v62.py",
+      "bytes": 14,
+      "sha256": "73d5defd6593233793d27e63aea922d061342e307a396787febb8df00cf71286"
+    }
+  ]
+}

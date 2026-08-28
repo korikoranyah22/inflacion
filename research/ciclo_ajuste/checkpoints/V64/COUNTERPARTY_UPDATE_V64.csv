@@ -1,0 +1,10 @@
+﻿claim,v63,v64,reason
+FOUR_LEG_PASS_PUBLIC_DISCLOSURE_SCHEMA,STRONG_SUPPORT,STRONG_SUPPORT,No reversal; V64 adds another entity-level implementation of the same BCRA Annex Q split.
+FULL_FOUR_LEG_Q4_ENTITY,IDENTIFIED_FOR_BANCO_CIUDAD,IDENTIFIED_FOR_CIUDAD_AND_ICBC_DIFFERENT_BASES,ICBC official 9M/FY Annex Q closes all four legs exactly; ICBC standalone cannot be pooled with Ciudad consolidated without basis harmonization.
+CIUDAD_Q4_BCRA_PASS_FLOW,INCOME_ZERO_AND_EXPENSE_ZERO,INCOME_ZERO_AND_EXPENSE_ZERO,Unchanged; both pass income and expense aggregate equal explicit other-FI subline.
+SUBSET_INTERBANK_NETTING_AS_SYSTEM_TEST,REJECTED,REJECTED,Unchanged; an open subset can transact with banks outside sample; exact ICBC does not alter the gate.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_CLOSED_COVERAGE_MISSING,NOT_IDENTIFIED_CLOSED_COVERAGE_AND_BASIS_HARMONIZATION_MISSING,"Coverage improved with ICBC, but system remains open and accounting bases are mixed."
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,No compatible system-wide numerator/denominator reconciliation.
+HOUSEHOLD_PRODUCT_PROXY,SUPPORTED_DIRECT_CONTRACT_CANDIDATE_NOT_SECTOR_IDENTITY,RETAINED_NOT_STRICT_SECTOR_WITH_EXPLICIT_STOCK_MAPPING_EVIDENCE,"BCRA publishes human/legal-person splits for mortgage/pledged stocks, proving product labels are not a strict household-sector identity; interest-flow mapping still missing."
+HOUSEHOLD_SYSTEM_Q4_POINT_ESTIMATE,N/D,N/D,Coverage and sector-flow identity gates remain open.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,No system accounting identity linking household loss to abnormal bank result.

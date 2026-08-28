@@ -1,0 +1,115 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V64",
+  "created": "2026-08-27",
+  "qa": "PASS",
+  "core_states": {
+    "v64_icbc_four_leg_q4": "IDENTIFIED_EXACT",
+    "full_four_leg_q4_entity_count": "2_DIFFERENT_BASES",
+    "closed_pass_network": "NOT_ACHIEVED",
+    "system_interbank_pass_cancellation": "NOT_IDENTIFIED_CLOSED_COVERAGE_AND_BASIS_HARMONIZATION_MISSING",
+    "ief_7_7pp_bcra_share": "N/D",
+    "household_product_proxy": "RETAINED_NOT_STRICT_SECTOR",
+    "household_flow_sector_bridge": "NOT_IDENTIFIED",
+    "direct_household_to_bank_transfer": "NOT_IDENTIFIED",
+    "html_modification": "FORBIDDEN",
+    "next": "V65_BASIS_HARMONIZATION_AND_REMAINING_CLOSED_NETWORK_COVERAGE"
+  },
+  "files": [
+    {
+      "name": "AUDITORIA_V64.md",
+      "bytes": 1768,
+      "sha256": "b6a5bd99e3d0c2f6674c0adc6c767de995aacd72248b2b064fa2aadfff3424f6"
+    },
+    {
+      "name": "BASE_V63.zip",
+      "bytes": 1568045,
+      "sha256": "OMITTED_BASE_ARCHIVE"
+    },
+    {
+      "name": "CLOSED_NETWORK_COVERAGE_V64.csv",
+      "bytes": 1625,
+      "sha256": "5cfb4b103cb445aa3da136a0fa4e43eaed71b5b9958fc32abb2087a83bda990c"
+    },
+    {
+      "name": "CLOSED_NETWORK_NETTING_TEST_V64.csv",
+      "bytes": 688,
+      "sha256": "076122def28fdf70c97febd9f4d6fc1eda54aa69bfdf8114405ea99e74f6bbad"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V64.csv",
+      "bytes": 1638,
+      "sha256": "cc31612863e1a31d698ab6dc2debbac753dd9144bdd99b82a9e3d59267e558c0"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V64.csv",
+      "bytes": 2650,
+      "sha256": "f7532606275f81ecc81ee714d844a491e02d50705fef7af24ea0849651e0cdf5"
+    },
+    {
+      "name": "FOUR_LEG_PASS_PANEL_V64.csv",
+      "bytes": 1428,
+      "sha256": "f1b4a57619895da1cbec8f40c0a9cbea538b7b85a321f14b5e347713cac0f261"
+    },
+    {
+      "name": "FUENTES_V64.md",
+      "bytes": 1402,
+      "sha256": "a503a095921a323f673a7d7b5f325c41a189b59a9fab16aee2503d28a44f97fd"
+    },
+    {
+      "name": "HANDOVER_CODEX_CICLO_AJUSTE_V64_A_V65.md",
+      "bytes": 1548,
+      "sha256": "be8ebf1e31edb3d0dec465876d110e0ec48fb286b2293ab998012dcc622377dd"
+    },
+    {
+      "name": "HOUSEHOLD_PRODUCT_PANEL_V64.csv",
+      "bytes": 1489,
+      "sha256": "c9f6928fba3fbd38ffdb080e8111b9419e9395e4ad65e85c1fc9fd9fc424ac3a"
+    },
+    {
+      "name": "HOUSEHOLD_SECTOR_MAPPING_V64.csv",
+      "bytes": 2474,
+      "sha256": "2a4121b80e4386f46b841c13ae1818e0a22ff02c6288aaf176c37025d6d31123"
+    },
+    {
+      "name": "ICBC_Q4_AQ_BRIDGE_V64.csv",
+      "bytes": 1214,
+      "sha256": "34743af5e1ebe8a3932c959a89455d538e3ab1902ba4e8b259a391e135104295"
+    },
+    {
+      "name": "IEF_PASS_RECONCILIATION_V64.csv",
+      "bytes": 729,
+      "sha256": "a62e2102a32985decfefd4a9a0333e3418d19741803c75356d48528e0ee06ca1"
+    },
+    {
+      "name": "PASS_COUNTERPARTY_BOUNDS_V64.csv",
+      "bytes": 769,
+      "sha256": "1f69071ed58e2bfe767d6c39342f17afb534f69d7af2188a3d03624959bb6c16"
+    },
+    {
+      "name": "PROMPT_CODEX_V65_BASIS_HARMONIZATION_AND_REMAINING_CLOSED_NETWORK_COVERAGE.md",
+      "bytes": 2425,
+      "sha256": "d3a10be5027cfa2e16bef6dda54cd7f0b69f11ec1e5511e3bb9a2605fafc7e31"
+    },
+    {
+      "name": "QA_RESULT_V64.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "README_V64.md",
+      "bytes": 691,
+      "sha256": "cef1dc639b112d17f0b4561b2f1aa7fa8e6719d17a70d77c0b0843dc13697020"
+    },
+    {
+      "name": "VEREDICTO_V64.md",
+      "bytes": 3541,
+      "sha256": "3ff088969b05cecbf846298926eab15e6da7253b17b9ea303c84b33bef3a2561"
+    },
+    {
+      "name": "qa_v64.py",
+      "bytes": 1174,
+      "sha256": "fd3ecdc7dc5f5f7a0ce485362896888e5906358e2b6bab9584809ff777543f07"
+    }
+  ]
+}

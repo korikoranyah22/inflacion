@@ -1,0 +1,5 @@
+metric,nine_month_sep2023_thousand_ars,source_location,disclosure,zero_semantics,quality
+income_bcra,57895351.0,"Separated Note 6.1, PDF page 131",Int. por pases activos con el B.C.R.A,N/A,EXACT_PRIMARY_SEPARATED
+income_otherfi,0.0,"Separated Note 6.1, PDF page 131",Intereses por pases activos con el sector financiero = -.-; Intereses por otros pases activos = -.-,EXPLICIT_DASH_ZERO_IN_EXHAUSTIVE_TABLE,EXACT_PRIMARY_SEPARATED
+expense_bcra,0.0,"Separated Note 6.2, PDF page 132","No pass-interest expense line; listed rows sum exactly to Total 763,535,485; FY same taxonomy + Annex Q reports no pass expense",ZERO_BY_EXHAUSTIVE_RECONCILIATION_PLUS_FY_TAXONOMY_CROSSWALK,EXACT_RECONCILED_ZERO
+expense_otherfi,0.0,"Separated Note 6.2, PDF page 132","No pass-interest expense line; listed rows sum exactly to Total 763,535,485; FY same taxonomy separately shows pass expense zero",ZERO_BY_EXHAUSTIVE_RECONCILIATION_PLUS_FY_TAXONOMY_CROSSWALK,EXACT_RECONCILED_ZERO

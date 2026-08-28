@@ -1,0 +1,14 @@
+﻿claim,v68,v69,reason
+SYSTEM_PANEL_BASIS,INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING,UNCHANGED,BNA FY individual/consolidated difference further validates basis gate.
+STRICT_Q4_FOUR_LEG_EXACT_ASSET_COVERAGE,11.260968%,11.260968%,No new compatible 9M Annex Q binary recovered; no new exact Q4 four-leg entity.
+BNA_FY_INDIVIDUAL_ANNEX_Q,HEREDITARY_CONTROL_NOT_FULLY_BASIS_AUDITED,EXACT_RECOVERED,"Official BNA Schedule Q INDIVIDUAL: BCRA pass income 766,170,919k; otherFI income/expenses zero."
+BNA_CONSOLIDATED_FY_OTHERFI,"3,980,009k inherited consolidated control","3,980,009k CONTROL_ONLY",Official consolidated Schedule Q differs from individual row; do not mix bases.
+BNA_9M_SEPARATED_SOURCE,EXISTENCE_CONFIRMED,OFFICIAL_AGN_PACKAGE_AND_ATTACHMENT_URL_IDENTIFIED_BINARY_502,AGN Informe 210/2023 explicitly identifies separated condensed 9M statements; current binary retrieval fails.
+BNA_ASSET_SHARE,N/D,22.015263%,"BCRA Dec-2023 entity publication; retrieval priority only, never flow weight."
+BANCO_CIUDAD_ASSET_SHARE,N/D,3.822184%,BCRA Dec-2023 entity publication; consolidated Q4 remains excluded.
+PUBLIC_COOP_FOUR_TARGET_POTENTIAL,N/D,38.119804% assets unresolved footprint,BNA+Provincia+Credicoop+Ciudad asset footprint; not current exact coverage.
+STRICT_IF_FOUR_PUBLIC_COOP_TARGETS_ALL_EXACT,N/D,49.380772% HYPOTHETICAL,"Even hypothetical success remains below half of bank assets, so closed-network gate is not met automatically."
+SANTANDER_ALTERNATE_INTERIM_AQ,NOT_RECOVERED,NOT_RECOVERED,No alternate interim Annex Q recovered; V68 individual income bound remains unchanged.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_COVERAGE_TOO_LOW,NOT_IDENTIFIED_COVERAGE_TOO_LOW,Strict exact coverage unchanged and network remains open.
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,No system numerator/netting/denominator bridge.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,Household flow bridge unchanged.

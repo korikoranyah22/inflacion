@@ -1,0 +1,8 @@
+entity,target_basis,fy_status,nine_month_status,q4_four_leg_status,strict_panel_status,priority,next_action
+Industrial and Commercial Bank of China (Argentina) S.A.U.,INDIVIDUAL_STANDALONE,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco de Valores S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Macro S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco de la Nacion Argentina,SEPARATED_INDIVIDUAL,FY_EXACT,AGN_REVIEW_ATTACHMENTS_RECOVERED_FULL_STATEMENTS_PENDING,N/D,PENDING,1,recover primary 9M four-leg disclosure or compatible filing
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,FY_EXACT,9M_TARGET_BINARY_PENDING,N/D,PENDING,2,recover separated/individual 30-09-2023 filing or regulatory data
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_INDEX_30_09_2023_CONFIRMED_BINARY_PENDING,N/D,PENDING,3,recover official 30-09-2023 binary then inspect notes/results for pass counterparties
+Banco Ciudad de Buenos Aires,INDIVIDUAL,CONTROL_CONSOLIDATED_AVAILABLE,CONSOLIDATED_9M_CONTROL_ONLY,N/D,PENDING,4,recover separated/individual 30-09-2023 filing

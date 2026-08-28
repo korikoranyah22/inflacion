@@ -1,0 +1,4 @@
+rank,entity,missing_artifact,known_route,why_it_matters,user_help_useful,status
+1,Banco de la Nacion Argentina,Full separate/individual 30-09-2023 filing or TRIMANUA four-leg extract,Issuer/BCRA regulatory archives; AGN route exhausted (review reports only),~22.0153 pp potential asset coverage increment,ONLY_IF_CONCRETE_LINK_FOUND,PENDING
+2,Banco Ciudad de Buenos Aires,Individual/separated 30-09-2023 filing with pass-income/pass-expense counterparty split,Issuer quarterly statements / BCRA regulatory archive; consolidated 9M control already recovered,~3.8222 pp potential asset coverage increment,ONLY_IF_CONCRETE_LINK_FOUND,PENDING
+3,BCRA historical entity data,September-2023 TRIMANUA raw extract,BCRA open-data historical archive,Could bypass issuer PDFs for remaining banks,NO_UNLESS_UI_EXPOSES_DOWNLOAD,ENDPOINT_UNRESOLVED

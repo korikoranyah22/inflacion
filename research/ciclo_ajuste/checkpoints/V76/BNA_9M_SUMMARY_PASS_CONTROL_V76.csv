@@ -1,0 +1,2 @@
+entity,period,basis,pass_assets_stock_thousand_ars,pass_liabilities_stock_thousand_ars,income_bcra,income_otherfi,expense_bcra,expense_otherfi,strict_eligible,reason,source_url
+Banco de la Nacion Argentina,9M-2023,CONSOLIDATED_INCLUSIVE_SUMMARY_CONTROL,536910181,302,N/D,N/D,N/D,N/D,NO,STOCK_AND_AGGREGATE_RESULT_ONLY_NO_FLOW_COUNTERPARTY_SPLIT,https://www.bna.com.ar/Downloads/Institucional_MemoriayBalances_BALANCE%20CONDENSADO%20SEPT%202023.pdf

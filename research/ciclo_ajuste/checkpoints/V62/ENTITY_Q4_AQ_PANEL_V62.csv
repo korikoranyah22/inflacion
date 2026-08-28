@@ -1,0 +1,7 @@
+﻿entity,period,basis,currency_basis,unit,broad_interest,household_like_bundle,household_like_share_broad_pct,pass_total_income,bcra_pass_income_exact,otherfi_pass_income_exact,otherfi_pass_expense_exact,method,system_estimator
+Banco Macro SA,Q4-2023,CONSOLIDATED,Dec-2023 homogeneous ARS,thousand ARS,552336409.846935,163479310.56779042,29.597779116733268,,83520202.8273678,647816.0410429954,,FY-9M restated,NO
+Banco Ciudad de Buenos Aires,Q4-2023,CONSOLIDATED,Dec-2023 homogeneous ARS,thousand ARS,620844795.1495512,95200458.09705412,15.334018878924791,,0.0,370794209.0769231,,FY-9M restated,NO
+Banco de Galicia y Buenos Aires SAU,Q4-2023,INDIVIDUAL,Dec-2023 homogeneous ARS,thousand ARS,1193230518.22014,201913045.74623635,16.921545557468324,,228495363.41333684,6150559.389648143,1422129.1574905645,FY-9M restated,NO
+Banco Santander Argentina SA,Q4-2023,CONSOLIDATED,Dec-2023 homogeneous ARS,thousand ARS,1353477764.115233,,,202636435.29528397,,,,FY-9M restated (broad/pass total),NO
+BBVA Argentina,Q4-2023,CONSOLIDATED,Dec-2023 homogeneous ARS,thousand ARS,879638000,119515000,13.586839131551843,160569000,,,,Direct Q4,NO
+Grupo Supervielle / Banco Supervielle,Q4-2023,CONSOLIDATED,Dec-2023 homogeneous ARS,thousand ARS,339237600,46506000,13.708975656000396,,,,,Direct Q4,NO

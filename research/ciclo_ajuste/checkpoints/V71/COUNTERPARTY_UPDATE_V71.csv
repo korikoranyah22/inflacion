@@ -1,0 +1,10 @@
+claim,v70,v71,reason
+BNA_9M_AGN_SEPARATED_PACKAGE,OFFICIAL_SOURCE_IDENTIFIED,SEPARATED_STATEMENTS_AUDITED_FULL_PAYLOAD_NOT_ESTABLISHED,Exact AGN attachment names are review-report style; do not assume the inaccessible report binary contains full statements/Annex Q.
+BNA_9M_AGN_ATTACHMENT_FILENAMES,N/D,EXACT_IDENTIFIED_SC1_CC2_BOTH_HTTP_502,Clicking official AGN links exposes exact binary names.
+CREDICOOP_9M_PRIMARY_PUBLICATION,SECONDARY_EXISTENCE_SUPPORTED,OFFICIAL_ISSUER_INDEX_CONFIRMED,Credicoop official Memoria y Balance page explicitly lists 30-09-2023.
+CREDICOOP_9M_ANNEX_Q,NOT_RECOVERED,NOT_INSPECTED_DYNAMIC_BINARY_MISSING,Official index confirmation does not expose binary/Annex Q.
+BAPRO_2023_SEPARATED_9M,NOT_RECOVERED,NOT_RECOVERED,"2022 path architecture is search aid only, not 2023 evidence."
+STRICT_Q4_FOUR_LEG_EXACT_COVERAGE,11.260968%,11.260968%,No new exact target-basis entity.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_COVERAGE_TOO_LOW,NOT_IDENTIFIED_COVERAGE_TOO_LOW,No gate change.
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,No system numerator/netting bridge.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,No new household contractual-flow evidence.

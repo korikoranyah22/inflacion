@@ -1,0 +1,9 @@
+﻿entity,basis,period,household_like_bundle,broad_interest,ratio_pct,definition,strict_household_sector,system_estimator
+Banco Macro SA,CONSOLIDATED,Q4-2023,163479310.56779042,552336409.846935,29.597779116733268,mortgages + pledged/secured auto + personal/consumer + credit cards,NO,NO
+Banco Ciudad de Buenos Aires,CONSOLIDATED,Q4-2023,95200458.09705412,620844795.1495512,15.334018878924791,mortgages + pledged/secured auto + personal/consumer + credit cards,NO,NO
+Banco de Galicia y Buenos Aires SAU,INDIVIDUAL,Q4-2023,201913045.74623635,1193230518.22014,16.921545557468324,mortgages + pledged/secured auto + personal/consumer + credit cards,NO,NO
+BBVA Argentina,CONSOLIDATED,Q4-2023,119515000,879638000,13.586839131551843,mortgages + pledged/secured auto + personal/consumer + credit cards,NO,NO
+Grupo Supervielle / Banco Supervielle,CONSOLIDATED,Q4-2023,46506000,339237600,13.708975656000396,mortgages + pledged/secured auto + personal/consumer + credit cards,NO,NO
+CONSOLIDATED_BASIS_DESCRIPTIVE_SUBSAMPLE,CONSOLIDATED_ONLY,Q4-2023,424700768.6648445,2392056804.996486,17.754627221968015,Macro + Ciudad + BBVA + Supervielle,NO,NO_NONREPRESENTATIVE_SUBSAMPLE
+EXPANDED_MIXED_BASIS_DIAGNOSTIC,MIXED,Q4-2023,626613814.4110808,3585287323.216626,17.477366746966858,Macro + Ciudad + Galicia + BBVA + Supervielle,NO,NO_BASIS_MIXED
+SYSTEM,REQUIRES_HOMOGENEOUS_HIGH_COVERAGE,Q4-2023,N/D,N/D,N/D,requires sector validation and homogeneous coverage,N/D,NOT_IDENTIFIED

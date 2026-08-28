@@ -1,0 +1,9 @@
+V74 CHECKPOINT QA: PASS
+- V73 baseline preserved under BASE_V73_SNAPSHOT
+- strict coverage unchanged at 11.260968%
+- BCRA Sep-2023 entity-level controls recovered for Credicoop, Ciudad, BNA and BAPRO
+- no target promoted from aggregate financial totals to four-leg pass data
+- Ciudad 9M Annex Q explicitly remains consolidated control-only
+- Credicoop 30-09-2023 binary remains pending and is the top manual request
+- BCRA .7z existence documented; historical Sep-2023 endpoint not guessed
+- HTML untouched

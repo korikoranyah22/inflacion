@@ -1,0 +1,8 @@
+entity,route,url,status,meaning,target_basis_value
+BNA,AGN landing page,https://www.agn.gob.ar/informes/Informe-210-2023,RECOVERED,confirms consolidated condensed + separated condensed financial statements were reviewed,YES_INDEX_ONLY
+BNA,AGN exact separated review report,https://www.agn.gob.ar/sites/default/files/informes/2023-210-Informe%20SC%201.pdf,RECOVERED_VIA_USER_SUPPLIED_COPY_ARCHIVED,"3-page separated review report; lists Notes 1-19 and Annexes A,B,C,D,H,I,J,L,O,R; not full statement payload",YES_SCOPE_ONLY
+BNA,AGN exact consolidated review report,https://www.agn.gob.ar/sites/default/files/informes/2023-210-Informe%20CC%202.pdf,RECOVERED_VIA_USER_SUPPLIED_COPY_ARCHIVED,3-page consolidated review report; control basis only,NO_CONTROL_ONLY
+BNA,AGN Resolution 210/2023,https://www.agn.gob.ar/sites/default/files/informes/2023-210-Resolucion.pdf,RECOVERED_VIA_USER_SUPPLIED_COPY_ARCHIVED,approves BNA 30/09/2023 review; documents fieldwork,YES_SCOPE_ONLY
+BCRA,Communication A 7809,https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A7809.pdf,RECOVERED_WEB_TEXT,Section 12 frequency table says Annex Q / A-Q is ANNUAL; changes interim retrieval gate,YES_METHOD
+BNA,BCRA Informacion de Entidades Septiembre 2023,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202309e.pdf,RECOVERED_PUBLIC_ENTITY_CONTROL,contains entity/system indicators and liquidity references to BCRA instruments/pases; no four-leg counterparty income/expense split established,CONTROL_ONLY
+Credicoop,issuer Memoria y Balance index,https://www.bancocredicoop.coop/nuestrobanco/institucional/memoria-y-balance,RECOVERED_INDEX_DYNAMIC_TARGET_UNRESOLVED,official index lists 30-09-2023,YES_INDEX_ONLY

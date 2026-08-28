@@ -1,0 +1,8 @@
+bucket,gap_pp,share_gross_positive_pct,counterparty_axis,accounting_mode_axis,joint_partition_status,notes
+Primas por pases,7.7,26.83,BCRA_COUNTERPARTY,Contractual accrued pass premium,STRICTLY_IDENTIFIED,Direct BCRA→bank accounting counterparty. Does not imply taxpayer identity.
+Diferencias de cotización,11.3,39.37,MIXED/N-D,MIXED_REMEASUREMENT_PLUS_TRADING,UNRESOLVED,V53 numeric market-valuation floor revoked; accounting definition mixes remeasurement and FX trading.
+Resultado por títulos valores,7.3,25.44,BCRA/TREASURY/PRIVATE/MARKET_MIXED,COUPON_ACCRUAL/TIR/PRICE/SALES/IMPAIRMENT_MIXED,UNRESOLVED,Issuer and valuation are orthogonal dimensions; stock by issuer cannot allocate result.
+Ingresos por intereses,2.1,7.32,HOUSEHOLDS/COMPANIES/PUBLIC/OTHER_MIXED,Accrued interest,UNRESOLVED,"V53 [0,2.1] household strict ceiling revoked absent sign restrictions among sector contributions."
+Otros resultados financieros,0.3,1.05,N/D,N/D,UNRESOLVED,No additional split recovered.
+STRICT_IDENTIFIED_COUNTERPARTY_MASS,7.7,26.83,BCRA,N/A,SUMMARY,Only common-axis strict counterparty partition mass.
+UNRESOLVED_COUNTERPARTY_MASS,21.000000000000004,73.17,MIXED/N-D,MIXED,SUMMARY,FX + securities + interest + other.

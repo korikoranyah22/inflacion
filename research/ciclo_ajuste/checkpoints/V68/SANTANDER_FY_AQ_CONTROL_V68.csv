@@ -1,0 +1,7 @@
+entity,basis,period,metric,value,unit,quality
+Banco Santander Argentina SA,SEPARATED_INDIVIDUAL,FY-2023,pass_income_total,354485360.0,thousand_ARS_Dec2023_homogeneous,EXACT_OFFICIAL_ANNEX_Q
+Banco Santander Argentina SA,SEPARATED_INDIVIDUAL,FY-2023,pass_income_BCRA,354462410.0,thousand_ARS_Dec2023_homogeneous,EXACT_OFFICIAL_ANNEX_Q
+Banco Santander Argentina SA,SEPARATED_INDIVIDUAL,FY-2023,pass_income_otherFI,22950.0,thousand_ARS_Dec2023_homogeneous,EXACT_OFFICIAL_ANNEX_Q
+Banco Santander Argentina SA,SEPARATED_INDIVIDUAL,FY-2023,pass_expense_total,1631890.0,thousand_ARS_Dec2023_homogeneous,EXACT_OFFICIAL_ANNEX_Q
+Banco Santander Argentina SA,SEPARATED_INDIVIDUAL,FY-2023,pass_expense_BCRA,0.0,thousand_ARS_Dec2023_homogeneous,EXACT_FROM_ANNEX_Q_ONLY_OTHERFI_SUBROW
+Banco Santander Argentina SA,SEPARATED_INDIVIDUAL,FY-2023,pass_expense_otherFI,1631890.0,thousand_ARS_Dec2023_homogeneous,EXACT_OFFICIAL_ANNEX_Q

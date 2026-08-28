@@ -1,0 +1,155 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V66",
+  "created": "2026-08-27",
+  "qa": "PASS",
+  "core_states": {
+    "system_panel_basis": "INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING",
+    "bank_assets_dec2023_million_ars": 96697695.5,
+    "strict_q4_four_leg_exact_entity_count": 2,
+    "strict_q4_four_leg_exact_asset_coverage_pct": 5.209599850288056,
+    "point_q4_counterparty_detail_asset_footprint_pct": 14.178874304196835,
+    "counterparty_detail_including_supervielle_bound_asset_footprint_pct": 16.2247287475429,
+    "banco_valores_q4_four_leg": "IDENTIFIED_EXACT",
+    "supervielle_q4_pass_total": "IDENTIFIED_EXACT",
+    "supervielle_q4_counterparty_split": "BOUNDED_NOT_POINT_IDENTIFIED",
+    "bapro_q4": "N/D_9M_NOT_RETRIEVED",
+    "credicoop_q4": "N/D_9M_COMPATIBLE_PDF_NOT_RETRIEVED",
+    "closed_pass_network": "NOT_ACHIEVED",
+    "system_interbank_pass_cancellation": "NOT_IDENTIFIED_COVERAGE_TOO_LOW",
+    "system_bcra_net_pass_flow": "N/D",
+    "system_interbank_net_pass_flow": "N/D",
+    "ief_7_7pp_bcra_share": "N/D",
+    "household_annex_q_accrued_interest_flow_bridge": "NOT_IDENTIFIED",
+    "direct_household_to_bank_transfer": "NOT_IDENTIFIED",
+    "html_modification": "FORBIDDEN",
+    "next": "V67_LARGE_BANK_9M_RETRIEVAL_AND_COVERAGE_SCALEUP"
+  },
+  "files": [
+    {
+      "name": "AUDITORIA_V66.md",
+      "bytes": 3515,
+      "sha256": "03db3111638af90f8454438d0ddf2c5344f8b42b2c377a9fba2af15c5e260bb8"
+    },
+    {
+      "name": "BANCO_VALORES_Q4_AQ_BRIDGE_V66.csv",
+      "bytes": 1143,
+      "sha256": "fb3ca18128b71924114986b6fb7d99e83d00e9f7a4a3cd8e3dab7fd024fa253b"
+    },
+    {
+      "name": "BAPRO_FY_AQ_CONTROL_V66.csv",
+      "bytes": 599,
+      "sha256": "87958cabe18a2acb76960373817d79574f352194811bc0788435da30de416fc8"
+    },
+    {
+      "name": "BASE_V65.zip",
+      "bytes": 1609028,
+      "sha256": "OMITTED_BASE_ARCHIVE"
+    },
+    {
+      "name": "BASIS_HARMONIZATION_V66.csv",
+      "bytes": 1555,
+      "sha256": "ada0fc5b4cb44f8ffb000114ade4b123cbaaa72411437f37991ea97c6cb22a3a"
+    },
+    {
+      "name": "BCRA_BANK_SYSTEM_COVERAGE_V66.csv",
+      "bytes": 1907,
+      "sha256": "e5d2a58d1b1231a5ad8ed9f9be783a0914e9665b6e90a0270ec24ae8c0799af7"
+    },
+    {
+      "name": "CLOSED_NETWORK_COVERAGE_V66.csv",
+      "bytes": 2110,
+      "sha256": "ba377a1021e3238aa5d536935319b3b681e64c2e88705fd2b12ad854d5ea434a"
+    },
+    {
+      "name": "CLOSED_NETWORK_NETTING_TEST_V66.csv",
+      "bytes": 976,
+      "sha256": "be2e138c152ea3e6f02686450bfce7c08368bbf78b378ae17b9b1773e2945831"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V66.csv",
+      "bytes": 2035,
+      "sha256": "2073bf480c5b5795c749b208ef3ec0cbc80e00421e298e888e2f68f921af4edb"
+    },
+    {
+      "name": "CREDICOOP_FY_AQ_CONTROL_V66.csv",
+      "bytes": 646,
+      "sha256": "e04a59a261a4fa83648a917ea9c92e9701bf776c7e1cc6bbf73444137062464d"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V66.csv",
+      "bytes": 3522,
+      "sha256": "d840a24ea0252942650c0fcbaadda1688c06d661a5d0c7812ec6c31bcadc615c"
+    },
+    {
+      "name": "FOUR_LEG_PASS_PANEL_V66.csv",
+      "bytes": 2924,
+      "sha256": "23539408a94554b348191d9ec6d4efa344486cbfa956cb87027697b9a35090ac"
+    },
+    {
+      "name": "FUENTES_V66.md",
+      "bytes": 2284,
+      "sha256": "d538cb223a7f9248f093b99e75c2ecc43c83d22b1540c6cc8bff36270e4e2e1b"
+    },
+    {
+      "name": "HANDOVER_CODEX_CICLO_AJUSTE_V66_A_V67.md",
+      "bytes": 2288,
+      "sha256": "11e540d3b6813ea461e9a1af03c96770884252360a24e761a45dbb397c8d962e"
+    },
+    {
+      "name": "HOUSEHOLD_PRODUCT_PANEL_V66.csv",
+      "bytes": 2274,
+      "sha256": "527f2d84dc3d69edeb69ae21423ed156a0dff474478645dce38d50aed1ff4737"
+    },
+    {
+      "name": "HOUSEHOLD_SECTOR_MAPPING_V66.csv",
+      "bytes": 2021,
+      "sha256": "331005b82c12144dac4c7ec44cbc4ef272137b22ecbc710fa45df64c94112458"
+    },
+    {
+      "name": "IEF_PASS_RECONCILIATION_V66.csv",
+      "bytes": 1071,
+      "sha256": "a1f6b481a94c69a392c22e78440d9a2e8c6c5c17bedd36f6d5f307b1f72b69dc"
+    },
+    {
+      "name": "INDIVIDUAL_AQ_RETRIEVAL_V66.csv",
+      "bytes": 1868,
+      "sha256": "93aed4bdb5ffbde034986e569c2b721a74d10e9a6262b8ea215a80dce35f536e"
+    },
+    {
+      "name": "PASS_COUNTERPARTY_BOUNDS_V66.csv",
+      "bytes": 1797,
+      "sha256": "9ab5fd0c9faee56bc218daa786dae7c63d8644a32fa076d4a9a9d4f87ea972d4"
+    },
+    {
+      "name": "PROMPT_CODEX_V67_LARGE_BANK_9M_RETRIEVAL_AND_COVERAGE_SCALEUP.md",
+      "bytes": 2178,
+      "sha256": "adfe234a3e712900e37fef37b5a470d54cdc1e53025a4149f2dd209909c60330"
+    },
+    {
+      "name": "QA_RESULT_V66.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "README_V66.md",
+      "bytes": 575,
+      "sha256": "7d5085162b38b51d3e4568c59ab681ab004f89d8027558cc5f2ffa7230748c09"
+    },
+    {
+      "name": "SUPERVIELLE_Q4_PASS_BOUND_V66.csv",
+      "bytes": 1423,
+      "sha256": "22509d5f88a01af61ce6e2ee0f83750844aa823aee812e6800252d6bcd4dee8f"
+    },
+    {
+      "name": "VEREDICTO_V66.md",
+      "bytes": 3305,
+      "sha256": "08c234b66c669b34cad151f3bc9567d718dfb148ba6581a4b1d11ff9e60256e4"
+    },
+    {
+      "name": "qa_v66.py",
+      "bytes": 3290,
+      "sha256": "b1b8fea061d897d3487a084fbf850ccba5fbd96c48f4ffb588ac0f75595c76d8"
+    }
+  ]
+}

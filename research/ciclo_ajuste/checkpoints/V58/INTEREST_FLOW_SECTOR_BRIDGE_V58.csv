@@ -1,0 +1,6 @@
+﻿item,q3_value,q4_value,unit,status,household_split,note
+IEF_INTEREST_INCOME,13.5,15.6,%a netted assets,EXACT_IEF,N/D,Exact analytical line.
+P24_BROAD_INTEREST_INCOME,7050645.459,12223198.69,"million pesos in quarter-month homogeneous currency, approx reconstructed",NOT_SAME_COMPONENT,N/D,Direct mapping rejected by implied-denominator test.
+IMPLIED_ASSET_RATIO_TO_ANCHOR,3.2761,3.3989,ratio,DIRECT_MAP_REJECTED,N/D,Too large to be rounding; P24 Por Intereses must not be substituted for IEF Ingresos por intereses.
+HOUSEHOLD_ACCRUED_INTEREST_FLOW,,,,NOT_IDENTIFIED,N/D,"Stocks, portfolio shares and average rates are insufficient; need accrued-flow borrower-sector subaccount."
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,,,,NOT_IDENTIFIED,NOT_IDENTIFIED,No one-to-one bridge from household accrued flow to abnormal aggregate bank result.

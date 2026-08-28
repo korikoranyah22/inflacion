@@ -1,0 +1,4 @@
+﻿entity,period,flow_or_stock,counterparty,value_thousand_ars,claim
+Banco de la Nación Argentina,FY/end-2023,FLOW_INTEREST_INCOME,BCRA,766170918,Annual pass income mostly BCRA
+Banco de la Nación Argentina,FY/end-2023,FLOW_INTEREST_INCOME,OTHER_FINANCIAL_INSTITUTIONS,3980009,Annual pass income also includes other FIs
+Banco de la Nación Argentina,31-12-2023,PASS_LIABILITY_STOCK,OTHER_FINANCIAL_INSTITUTIONS,199417218,Year-end stock counterparty cannot proxy annual flow counterparty

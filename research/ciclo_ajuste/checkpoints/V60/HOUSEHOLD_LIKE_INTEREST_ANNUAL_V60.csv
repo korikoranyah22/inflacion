@@ -1,0 +1,4 @@
+﻿entity,q3_household_like_thousand_ars,q3_broad_interest_thousand_ars,q3_household_like_share_broad_pct,q4_household_like_thousand_dec23_ars,q4_broad_interest_thousand_dec23_ars,q4_household_like_share_broad_pct,bundle,classification,system_point_estimate
+Banco Macro SA,93750665,412300261,22.73844425240371,163479310.56779042,552336409.846935,29.597779116733268,mortgages+pledged+personal+cards,PRODUCT_PROXY_NOT_STRICT_HOUSEHOLD_SECTOR,N/D
+Banco Ciudad de Buenos Aires,51257631,346703649,14.7842779122293,95200458.09705412,620844795.1495512,15.334018878924791,mortgages+pledged+personal+cards,PRODUCT_PROXY_NOT_STRICT_HOUSEHOLD_SECTOR,N/D
+TWO_BANK_SAMPLE_MACRO_PLUS_CIUDAD,145008296,759003910,19.105078918499906,258679768.66484454,1173181204.9964862,22.04943000818184,same product proxy,NONREPRESENTATIVE_SAMPLE,N/D

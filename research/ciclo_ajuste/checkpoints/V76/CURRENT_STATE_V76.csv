@@ -1,0 +1,8 @@
+entity,target_basis,fy_status,nine_month_status,q4_four_leg_status,strict_panel_status,priority,next_action
+Industrial and Commercial Bank of China (Argentina) S.A.U.,INDIVIDUAL_STANDALONE,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco de Valores S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Macro S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE6_EXACT_CROSSWALK,EXACT,ELIGIBLE,CLOSED,retain; template for alternate note recovery
+Banco de la Nacion Argentina,SEPARATED_INDIVIDUAL,FY_EXACT,OFFICIAL_9M_SUMMARY_STOCK_CONTROL_PLUS_AGN_REVIEW_ATTACHMENTS_NO_FLOW_SPLIT,N/D,PENDING,1,recover separate 9M note/regulatory extract matching BCRA codes 0301060100/0200 + 0302030100/0200
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,FY_EXACT,SEP2023_DISCIPLINE_STOCK_CONTROL_ONLY; 2024_SEPARATE_NOTE_PATTERN_CONFIRMED,N/D,PENDING,2,recover 30-09-2023 separated filing and target issuer Note income/expense pass split rather than Annex Q
+Banco Ciudad de Buenos Aires,INDIVIDUAL,CONSOLIDATED_CONTROL_AVAILABLE,OFFICIAL_2023_Q3_ARCHIVE_CONFIRMED; CONSOLIDATED_FILING_CONTROL_ONLY,N/D,PENDING,3,recover individual/separated 30-09-2023 note or regulatory extract; do not promote consolidated data

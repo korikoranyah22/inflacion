@@ -1,0 +1,20 @@
+﻿claim,status,evidence,caveat,scope,next
+V62_Q4_BROAD_COVERAGE,6_ENTITIES,Macro Ciudad Galicia Santander BBVA Supervielle,mixed bases; no system share,Q4-2023,V63
+V62_HH_PRODUCT_COVERAGE,5_ENTITIES,Added BBVA and Supervielle,product proxy,Q4-2023,V63
+V62_HH_CONSOLIDATED_SUBSAMPLE,DESCRIPTIVE_ONLY,17.7546% broad interest,nonrepresentative,4 consolidated banks,V63
+V62_SANTANDER_BCRA_PASS_BOUND,ENTITY_BOUND,<= 3.0825%,not system,Santander Q4,V63
+V62_SANTANDER_OTHERFI_BOUND,ENTITY_BOUND,>= 96.9175%,not system,Santander Q4,V63
+V62_INTERBANK_CANCELLATION,NOT_IDENTIFIED_MISSING_EXPENSE_LEGS,otherFI income lower bound 573.983bn,expense coverage sparse,sample,V63
+V62_IEF_PASS_BCRA_SHARE,N/D,counterparty incomplete,no floor,system,V63
+V63_FOUR_LEG_SCHEMA,STRONG_SUPPORT,BCRA Annex Q explicitly splits pass income/expense BCRA vs otherFI,template evidence,regulatory,V64
+V63_CIUDAD_FOUR_LEG_Q4,IDENTIFIED,Q3/9M and FY disclose pass income/expense all otherFI,Q4 derived by homogeneous differencing,Ciudad Q4-2023,V64
+V63_SUBSET_NETTING,REJECTED_AS_SYSTEM_TEST,open subset may transact with banks outside sample,requires closed near-full coverage,system methodology,V64
+V63_SYSTEM_INTERBANK_CANCELLATION,NOT_IDENTIFIED_CLOSED_COVERAGE_MISSING,four-leg schema exists but coverage incomplete,do not infer from sample imbalance,system Q4,V64
+V63_IEF_PASS_BCRA_SHARE,N/D,no system numerator/denominator reconciliation,strict floor stays revoked,IEF Q4-2023,V64
+V63_HOUSEHOLD_SYSTEM_POINT,N/D,product rows not strict household-sector mapping,coverage/sector gates open,system Q4,V64
+V64_ICBC_FOUR_LEG_Q4,IDENTIFIED_EXACT,Q4 BCRA net 199.396505 bn ARS; otherFI net -0.902037 bn ARS,individual standalone basis; not system,ICBC Q4-2023,V65
+V64_FULL_FOUR_LEG_Q4_ENTITY_COUNT,2_ENTITIES_DIFFERENT_BASES,Ciudad consolidated + ICBC individual standalone,cannot pool as closed network without basis harmonization,Q4-2023,V65
+V64_HH_SECTOR_MAPPING_MORTGAGE_PLEDGED,STOCK_SPLIT_AVAILABLE,BCRA publishes holder-type and human/legal-person splits for mortgage/pledged stocks,stock sector mapping != Annex Q interest flow mapping,system methodology,V65
+V64_HOUSEHOLD_PRODUCT_PROXY,RETAINED_NOT_STRICT_SECTOR,product labels do not uniquely identify households; explicit PH/PJ splits exist for some products,no flow bridge to sector,Q4 product flows,V65
+V64_SYSTEM_INTERBANK_CANCELLATION,NOT_IDENTIFIED,coverage still open and bases mixed,do not infer from entity net positions,system Q4,V65
+V64_IEF_PASS_BCRA_SHARE,N/D,additional exact entity numerator does not solve system denominator/coverage,7.7 pp strict BCRA floor remains revoked,IEF Q4,V65

@@ -1,0 +1,5 @@
+﻿bucket,pp,share_gross_positive_pct,v58_status,new_evidence,direct_household
+PASSES_DIRECT_BCRA,7.7,26.83,STRONG_SUPPORT_UNCHANGED,Exact IEF Table 2 confirmed; Dec-2023 BCRA institutional identity unchanged,NO
+UNRESOLVED_COUNTERPARTY,21.0,73.17,UNRESOLVED_UNCHANGED,P24 cross-component test rejects direct mapping of gross interest income; securities/FX/CER still lack compatible subaccounts,N/D
+DIRECT_HOUSEHOLD_POINT_ESTIMATE,,,N/D_UNCHANGED,No accrued interest flow split by borrower sector; stock/rate substitution forbidden,N/D
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,,,NOT_IDENTIFIED,No one-to-one accounting identity connecting household flow to abnormal aggregate result,NOT_IDENTIFIED

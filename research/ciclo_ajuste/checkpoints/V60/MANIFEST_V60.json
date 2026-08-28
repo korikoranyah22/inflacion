@@ -1,0 +1,111 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V60",
+  "qa": "PASS",
+  "core_states": {
+    "A_Q_QUARTERLY_FLOW_SCHEMA": "STRONG_SUPPORT",
+    "7_7PP_AS_STRICT_BCRA_FLOOR": "REVOKED",
+    "BCRA_PASS_CHANNEL": "STRONG_SUPPORT_CHANNEL_NOT_FULL_BUCKET",
+    "OTHER_FI_PASS_CHANNEL": "SUPPORTED_ENTITY_LEVEL",
+    "HOUSEHOLD_SYSTEM_Q4_POINT_ESTIMATE": "N/D",
+    "DIRECT_HOUSEHOLD_TO_BANK_TRANSFER": "NOT_IDENTIFIED",
+    "NEXT": "V61_SYSTEM_Q4_AQ_COVERAGE_AND_PASS_NETTING"
+  },
+  "files": [
+    {
+      "name": "AQ_FREQUENCY_CORRECTION_V60.csv",
+      "bytes": 293,
+      "sha256": "2fc9d795c0f421b8188df7666728aa12b3dbe1f281c3910c7366951b7c2d29a5"
+    },
+    {
+      "name": "AQ_SYSTEM_AGGREGATE_2023_V60.csv",
+      "bytes": 453,
+      "sha256": "f4c36973e1816954055f21b8a8859e1dd1238df0cc86420f9e97601a14c50171"
+    },
+    {
+      "name": "AQ_TO_IEF_ANNUAL_BRIDGE_V60.csv",
+      "bytes": 521,
+      "sha256": "8d5dc76050ce471b0cbcbf9190193326f6539480379e57b4d02ff603bb61ced5"
+    },
+    {
+      "name": "AUDITORIA_V60.md",
+      "bytes": 1028,
+      "sha256": "3a52a11304d25ee0ce7ec6b486914a23578622a3b3608309b6a965c2ed7019b1"
+    },
+    {
+      "name": "BASE_V59.zip",
+      "bytes": 1488966,
+      "sha256": "d3c26931108372e1b67746a031f7b5767b7a2030ab91214a0a2891dea71d0e5b"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V60.csv",
+      "bytes": 1036,
+      "sha256": "86d13c37a52d3571c5cb9d087018db9205a4f0b52e85cffe1463f189d5deebb6"
+    },
+    {
+      "name": "ENTITY_Q4_AQ_BRIDGE_V60.csv",
+      "bytes": 2617,
+      "sha256": "0896bc45db92941f1e8035832504b385bd4153c2ba86a6e4de8ba3dccad36784"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V60.csv",
+      "bytes": 45977,
+      "sha256": "d036ae597ba356b36d889b758b70b681fff5583e78ebd9114fc9313f677d2cbe"
+    },
+    {
+      "name": "FUENTES_V60.md",
+      "bytes": 456,
+      "sha256": "fed8408c699ea3c9a0dab5cacd992f8e0fe36c9b661a41c7ddd25f3980558e04"
+    },
+    {
+      "name": "HOUSEHOLD_LIKE_INTEREST_ANNUAL_V60.csv",
+      "bytes": 824,
+      "sha256": "16d0686a8bf9f19076b8acb5aa963654796b5ed3e7bc8af4b0564b8eae119ba7"
+    },
+    {
+      "name": "IPC_REEXPRESSION_V60.csv",
+      "bytes": 171,
+      "sha256": "b17019480bf73ce60c7e0f3704d882b44135b408d374e9c93063800da472dd36"
+    },
+    {
+      "name": "PASS_COUNTERPARTY_FALSIFIER_V60.csv",
+      "bytes": 844,
+      "sha256": "0ce9d46080009f263649040d212cf110a160714bcfdbd215d0806aca2a2c73e0"
+    },
+    {
+      "name": "PROMPT_CODEX_V61_SYSTEM_Q4_AQ_COVERAGE_AND_PASS_NETTING.md",
+      "bytes": 848,
+      "sha256": "3bc1a4bf4330f13147d5e47cd23e633f9bab86438e4966339d1f1ba5d7d5b2f6"
+    },
+    {
+      "name": "QA_RESULT_V60.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "RAW_ENTITY_2023_MANIFEST_V60.csv",
+      "bytes": 500,
+      "sha256": "533b5ed54f4639809c7df00f7de3df51bba31ae374f9dc9460a474f9f633be14"
+    },
+    {
+      "name": "README_V60.md",
+      "bytes": 297,
+      "sha256": "c90dd97804581aaa2865964d3e1e8521cdd2d65698a7701eb5b6109980e9baae"
+    },
+    {
+      "name": "SECURITIES_PUBLIC_ISSUER_GATE_V60.csv",
+      "bytes": 586,
+      "sha256": "ef9dead6c4cb4f0ee2f9764d89325ce8c96b77d9745551a60d225ed6795454c3"
+    },
+    {
+      "name": "VEREDICTO_V60.md",
+      "bytes": 754,
+      "sha256": "b0f38b7d81ab546326b1b46ec232e1a6189445903e66526e37ad09098f90e2ca"
+    },
+    {
+      "name": "qa_v60.py",
+      "bytes": 1094,
+      "sha256": "33058b309db5159a249f854f5ce194b0315acfba08129a3a374d6a80106e89cf"
+    }
+  ]
+}

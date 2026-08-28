@@ -1,0 +1,4 @@
+﻿entity,line,q3_direct_thousand_ars,q4_reconstructed_dec23_thousand_ars,treasury_identity,caveat
+Banco Macro SA,interest income from public securities,190065241,85994675.96694016,NOT_ESTABLISHED,public securities may span multiple issuers/instruments; interest != full securities result
+Banco Ciudad de Buenos Aires,interest income from public securities,231994871,95865872.72753716,NOT_ESTABLISHED,public securities may span multiple issuers/instruments; interest != full securities result
+SYSTEM,IEF securities result,,,NOT_ESTABLISHED,issuer and accounting-mode mix unresolved

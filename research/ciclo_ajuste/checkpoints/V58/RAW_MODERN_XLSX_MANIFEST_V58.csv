@@ -1,0 +1,8 @@
+﻿source_id,url,verified_endpoint,bytes_materialized,sha256,status,role
+INFOBANC_0623_XLSX,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Infbanc0623.xlsx,YES,NO,,WEB_ENDPOINT_CONFIRMED_XLSX_BINARY_NOT_FETCHABLE_IN_RUNTIME,2023 Series de Datos candidate
+INFOBANC_0923_XLSX,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Infbanc0923.xlsx,YES,NO,,WEB_ENDPOINT_CONFIRMED_XLSX_BINARY_NOT_FETCHABLE_IN_RUNTIME,2023 Series de Datos candidate
+INFOBANC_1223_XLSX,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Infbanc1223.xlsx,YES,NO,,WEB_ENDPOINT_CONFIRMED_XLSX_BINARY_NOT_FETCHABLE_IN_RUNTIME,2023 Series de Datos candidate
+INFOBANC_ANEXO_XLSX,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc_Anexo.xlsx,YES,NO,,WEB_ENDPOINT_CONFIRMED_VERSION_STABILITY_NOT_PROVEN,Anexo Estadístico link from Dec-2023 report
+IEF_DEC2024_PDF,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/IEF0224.pdf,YES,WEB_PARSED_ONLY,,TABLE_2_EXACTLY_PARSED_AND_SCREENSHOT_VERIFIED,Exact Q3/Q4 2023 analytical profitability components
+ENTIDADES_DEC2023_PDF,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202312e.pdf,YES,WEB_PARSED_ONLY,,P24_SCREENSHOT_VERIFIED,Broad accumulated financial statements Oct-Nov-Dec 2023
+INFOBANC_0526_LOCAL_SCHEMA_ANALOGUE,,LOCAL_CACHE,YES,3966ba65f712354cc6bce742c6aa18572b6b25b4a9341495c3c1e381332d95b7,LOCAL_BYTES_VERIFIED_SCHEMA_ANALOGUE_ONLY,Inspect workbook structure; not historical evidence for 2023

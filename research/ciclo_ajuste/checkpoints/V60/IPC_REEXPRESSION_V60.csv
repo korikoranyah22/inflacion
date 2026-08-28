@@ -1,0 +1,2 @@
+﻿from_month,to_month,ipc_from,ipc_to,factor_dec23_per_sep23,formula,source,status
+2023-09,2023-12,2304.9,3533.2,1.532908152197492,IPC_Dec2023 / IPC_Sep2023,INDEC,PASS

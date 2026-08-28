@@ -1,0 +1,5 @@
+﻿target_gap_pp,series_code,mode,result_value,status,counterparty_implication
+11.3,1192,Sale and monthly update of FX assets/liabilities,N/D,MIXED_WITHIN_SERIES_VALUES_MISSING,Remeasurement need not have contemporaneous payer; sales do.
+11.3,1192,Update of FX forwards liquidable in pesos,N/D,MIXED_WITHIN_SERIES_VALUES_MISSING,Derivative counterparty exists but sector unidentified.
+11.3,1192,Interest-rate swaps,N/D,MIXED_WITHIN_SERIES_VALUES_MISSING,Derivative counterparty; not necessarily household.
+11.3,1155/1160,Forward FX premiums recorded within earned/paid interest,N/D,CROSS_ACCOUNT_FX_COMPONENT_VALUES_MISSING,Shows FX economics can span multiple result accounts; +11.3 broad line cannot be assumed to exhaust FX-linked effects.

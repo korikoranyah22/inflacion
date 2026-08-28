@@ -1,0 +1,12 @@
+﻿entity,basis,q4_four_leg,bank_assets_dec23_million_ars,asset_share_of_banks_pct,strict_q4_network_role,status,source,note
+ICBC Argentina,INDIVIDUAL_STANDALONE,YES_EXACT,3965612.9,4.101041787495,ELIGIBLE,EXACT_FULL_FOUR_LEG,BCRA Dec-2023 entity publication,Coverage diagnostic only.
+Banco de Valores S.A.,SEPARATED_INDIVIDUAL,YES_EXACT,1071950.1,1.108558062793,ELIGIBLE,NEW_V66_EXACT_FULL_FOUR_LEG,BCRA Dec-2023 entity publication + 9M/FY Annex Q,"BCRA asset = 1,071,950.1 million ARS; coverage diagnostic only."
+Banco de Galicia y Buenos Aires SAU,INDIVIDUAL,PARTIAL_EXACT,8673081.7,8.969274453909,PARTIAL_ONLY,BCRA_EXPENSE_LEG_MISSING,BCRA Dec-2023 entity publication + V65,OtherFI legs point-identified; not full four-leg.
+Banco Supervielle S.A.,SEPARATED_INDIVIDUAL,BOUND,1978294.1,2.045854443346,BOUND_ONLY,Q4_TOTAL_EXACT_INCOME_SPLIT_BOUND,BCRA Dec-2023 entity publication + official Supervielle 9M/FY,Target basis achieved but no point four-leg split.
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,NO_FY_EXACT_ONLY,8682679.8,8.979200336786,PENDING_9M,FY_FOUR_LEG_EXACT_Q4_ND,BCRA Dec-2023 + official Bapro FY,Do not use FY as Q4.
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,NO_FY_EXACT_ONLY,3194076.5,3.3031567955,PENDING_9M,FY_FOUR_LEG_EXACT_Q4_ND,BCRA Dec-2023 + official Credicoop FY,Do not use FY as Q4.
+Banco Ciudad de Buenos Aires,CONSOLIDATED,YES_EXACT_CONTROL,N/D,N/D,CONTROL_ONLY,EXCLUDED_UNTIL_INDIVIDUAL_AQ,V64/V65,Exact group/entity control but wrong system-panel basis.
+Banco Macro SA,CONSOLIDATED,PARTIAL_APPROX_CONTROL,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64/V65,Need individual Annex Q.
+Banco Santander Argentina SA,CONSOLIDATED,BOUND_CONTROL,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64/V65,Need individual Annex Q.
+BBVA Argentina,CONSOLIDATED,TOTAL_ONLY_CONTROL,N/D,N/D,CONTROL_ONLY,EXCLUDED_TARGET_BASIS,V64/V65,Need individual Annex Q.
+Banco de la Nacion Argentina,MIXED_CONTROL,FY_CONTROL_ONLY,N/D,N/D,PENDING_INDIVIDUAL_PAIR,SEPARATED_9M_EXISTENCE_CONFIRMED_ANNEX_Q_MISSING,AGN/BNA official record + V65,No Q4 four-leg bridge yet.

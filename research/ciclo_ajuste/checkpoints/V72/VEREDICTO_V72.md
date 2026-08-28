@@ -1,0 +1,90 @@
+# VEREDICTO V72 — BINARY RECOVERY AND ANNEX-Q FREQUENCY CORRECTION
+
+```text
+SYSTEM_PANEL_BASIS
+= INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING
+
+STRICT_Q4_FOUR_LEG_EXACT_TARGET_BASIS
+= ICBC + Banco de Valores + Banco Macro
+= 11.260968% bank assets
+
+NEW_Q4_FOUR_LEG_EXACT_ENTITY
+= NO
+
+BNA_9M_AGN_SC_REVIEW_ATTACHMENT
+= RECOVERED_AND_ARCHIVED
+
+BNA_9M_AGN_CC_REVIEW_ATTACHMENT
+= RECOVERED_AND_ARCHIVED
+
+BNA_9M_AGN_RESOLUTION
+= RECOVERED_AND_ARCHIVED
+
+BNA_9M_SC1_DOCUMENT_ROLE
+= SEPARATED_INTERIM_REVIEW_REPORT_NOT_FULL_STATEMENT_PAYLOAD
+
+BNA_9M_REVIEWED_SEPARATED_ANNEX_LIST
+= A,B,C,D,H,I,J,L,O,R
+
+BCRA_2023_ANNEX_Q_REPORTING_FREQUENCY
+= ANNUAL
+
+MANDATORY_9M_ANNEX_Q_RETRIEVAL_GATE
+= REMOVED
+
+BNA_9M_FULL_SEPARATED_STATEMENT_PAYLOAD
+= NOT_ESTABLISHED
+
+BNA_9M_FOUR_LEG
+= N/D
+
+BNA_Q4_FOUR_LEG
+= N/D
+
+CREDICOOP_9M_PRIMARY_PUBLICATION
+= OFFICIAL_ISSUER_INDEX_CONFIRMED
+
+CREDICOOP_9M_BINARY
+= NOT_RECOVERED_DYNAMIC_LINK
+
+CREDICOOP_Q4_FOUR_LEG
+= N/D
+
+BAPRO_2023_SEPARATED_9M_FOUR_LEG
+= NOT_RECOVERED
+
+CIUDAD_2023_SEPARATED_9M_FOUR_LEG
+= NOT_RECOVERED
+
+CLOSED_PASS_NETWORK
+= NOT_ACHIEVED
+
+SYSTEM_INTERBANK_PASS_CANCELLATION
+= NOT_IDENTIFIED_COVERAGE_TOO_LOW
+
+SYSTEM_BCRA_NET_PASS_FLOW
+= N/D
+
+SYSTEM_INTERBANK_NET_PASS_FLOW
+= N/D
+
+IEF_7_7PP_BCRA_SHARE
+= N/D
+
+HOUSEHOLD_ANNEX_Q_ACCRUED_INTEREST_FLOW_BRIDGE
+= NOT_IDENTIFIED
+
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER
+= NOT_IDENTIFIED
+
+HTML_MODIFICATION
+= FORBIDDEN
+```
+
+## Interpretación
+
+V72 cierra el problema del 502 para la evidencia AGN porque conserva copias locales inspeccionables. Al mismo tiempo confirma la cautela introducida en V71: SC1 y CC2 son **informes de revisión**, no el paquete de estados financieros.
+
+La corrección regulatoria de mayor alcance es que BCRA A7809 hace al Anexo Q **anual**. Por eso la ausencia de Q en SC1, Santander u otros filings intermedios no puede seguir contabilizándose como una publicación trimestral faltante. El objetivo válido es recuperar cualquier disclosure primario 9M compatible con las cuatro patas de pases.
+
+No aparece todavía un nuevo valor Q4 exacto. La cobertura estricta y todos los gates sistémicos permanecen cerrados.

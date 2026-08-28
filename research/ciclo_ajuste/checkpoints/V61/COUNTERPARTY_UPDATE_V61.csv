@@ -1,0 +1,10 @@
+﻿claim,v60,v61,reason
+A_Q_QUARTERLY_FLOW_SCHEMA,STRONG_SUPPORT,STRONG_SUPPORT_EXTENDED,Galicia original Sep-23 statements add direct 3M/9M product and pass splits.
+FULL_Q4_AQ_ENTITY_COVERAGE,2_ENTITIES,3_ENTITIES_PLUS_BNA_ANNUAL,Added Galicia Q4 and BNA annual.
+PASS_COUNTERPARTY_HETEROGENEITY,SUPPORTED_ENTITY_LEVEL,STRONG_SUPPORT,Macro/Ciudad/Galicia plus BNA show BCRA and other-FI pass flows.
+STOCK_AS_PASS_FLOW_COUNTERPARTY_PROXY,N/D,REJECTED,BNA annual pass income ~99.48% BCRA while year-end passive-repo stock is other-FI.
+SYSTEM_INTERBANK_PASS_RESULT_NETTING,N/D,NOT_ESTABLISHED,BCRA consolidated-result definition only explicitly removes permanent-participation results.
+IEF_7_7PP_BCRA_SHARE,N/D_AFTER_REVOCATION,N/D,System counterparty bridge remains incomplete.
+HOUSEHOLD_PRODUCT_FLOW_Q4,2_ENTITY,3_ENTITY,Galicia added; still product proxy and mixed consolidation basis.
+HOUSEHOLD_SYSTEM_Q4_POINT_ESTIMATE,N/D,N/D,Insufficient homogeneous system coverage.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,No system accounting identity from household loss to abnormal bank result.

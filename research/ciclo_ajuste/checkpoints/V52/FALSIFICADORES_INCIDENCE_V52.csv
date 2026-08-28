@@ -1,0 +1,11 @@
+﻿claim,verdict,evidence_or_reason,replacement_label
+PASSES_ARE_HOUSEHOLD_PAYMENT,REJECTED,BCRA states passes are its monetary-policy instrument; its 2023 statements record pass premiums as BCRA interest expense.,BCRA_COUNTERPARTY
+PASSES_EQUAL_TAXPAYER_SUBSIDY,REJECTED_AS_IDENTITY,"BCRA identifies quasi-fiscal/endogenous monetary-liability channel, but Treasury deposits and other balance-sheet operations can offset/alter transmission.",PARTIAL_MONETARY_FISCAL_BRIDGE_ONLY
+ALL_SECURITIES_GAIN_IS_TREASURY_PAYMENT,REJECTED,"Securities result can combine BCRA instruments, Treasury instruments and market valuation/ORI.",MIXED
+MARK_TO_MARKET_GAIN_IS_ISSUER_CASH_TRANSFER,REJECTED,Price appreciation can be recognized without contemporaneous issuer cash flow.,MARKET_VALUATION
+FX_GAIN_IS_HOUSEHOLD_LOSS,REJECTED_AS_IDENTITY,FX result follows net FX exposure and exchange-rate movement; no bilateral household payer is required.,MARKET_VALUATION/MIXED
+CER_GAIN_IS_HOUSEHOLD_UVA_PAYMENT,REJECTED_AS_AGGREGATE_IDENTITY,CER/CVS aggregates heterogeneous indexed assets and liabilities.,MIXED
+MORA_CREATED_ABNORMAL_POSITIVE_BANK_RESULT,REJECTED,2018 and Q4-2023 credit-loss charges are negative contributions.,BANK_COST_OFFSET
+INTEREST_INCOME_CAN_NEVER_BE_DIRECT_HOUSEHOLD_FLOW,REJECTED,"For an identified household credit contract, interest is a direct household→bank gross-revenue flow.",DIRECT_HOUSEHOLD_CONTRACT
+DIRECT_HOUSEHOLD_SHARE_OF_ABNORMAL_GAP_IS_IDENTIFIED,REJECTED_CURRENTLY,Aggregate abnormal interest/CER/service components are not sector-split.,N/D
+Q4_2023_COMPONENT_GAPS_ARE_POST_10DEC_TREATMENT_EFFECTS,REJECTED,Q4 contains October and November pre-shock observations.,WINDOW_CONTAMINATED

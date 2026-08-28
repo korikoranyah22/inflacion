@@ -1,0 +1,122 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V56",
+  "created_utc": "2026-08-27T18:47:30.038231+00:00",
+  "base": "V55",
+  "html_modified": false,
+  "frozen": {
+    "passes_bcra_pp": 7.7,
+    "passes_bcra_share_gross_positive_pct": 26.83,
+    "unresolved_pp": 21.0,
+    "unresolved_pct": 73.17
+  },
+  "status": {
+    "modern_catalog_bytes": "MATERIALIZED_HASH_VERIFIED",
+    "published_series_id_continuity": "STRONG_SUPPORT",
+    "underlying_niif_account_mapping": "NOT_FULLY_IDENTIFIED",
+    "2023_values": "NOT_MATERIALIZED",
+    "numeric_reconciliation": "NOT_RUN_VALUES_MISSING",
+    "direct_household_transfer": "NOT_IDENTIFIED"
+  },
+  "catalog": {
+    "relevant_series_count": 23,
+    "all_found_modern": true,
+    "all_modern_monthly": true,
+    "all_modern_DIN1": true,
+    "modern_sha256": "3d9a98fa443b833ebb34c814863c1259a89d4ab8d59570578ee030c00288b5d0",
+    "legacy_sha256": "46089e8501001529f6a089e9981fb72f1e5f46e8817504ddc76f18996f28dd2b"
+  },
+  "files": [
+    {
+      "path": "ACCOUNT_EQUIVALENCE_NIIF_V56.csv",
+      "bytes": 18940,
+      "sha256": "53ffd244ee6a646092d771abdcdff42bf12829da5cdeec18f3d90b0617d532c0"
+    },
+    {
+      "path": "AUDITORIA_V56.md",
+      "bytes": 1958,
+      "sha256": "267168a8320631fa72fd043ffed6457af26afb9f0ba9907afb5d02e5de0697a8"
+    },
+    {
+      "path": "BASE_V55.zip",
+      "bytes": 308547,
+      "sha256": "a9a7e95d9badc5dd777afa6220e53fda3bba0d35645d015cf8ca5aef24c3da93"
+    },
+    {
+      "path": "COUNTERPARTY_UPDATE_V56.csv",
+      "bytes": 548,
+      "sha256": "bdf6c47ff14feae37f0c0893ed40effe832d6b71bc185260e0a158ccf19a3df1"
+    },
+    {
+      "path": "EVIDENCE_LEDGER_CICLO_AJUSTE_V56.csv",
+      "bytes": 39312,
+      "sha256": "81950582b6f2c6f7ce20ed8cc12d3c243a859d4870e1f176c508ceb82e37a943"
+    },
+    {
+      "path": "FUENTES_V56.md",
+      "bytes": 1270,
+      "sha256": "8a49b59899ec3e5e5a9e3bc0a56e837ac7e3e5c6610d453a83c5ea9ef5e40f28"
+    },
+    {
+      "path": "MONTHLY_SUBACCOUNT_VALUES_2023_V56.csv",
+      "bytes": 10137,
+      "sha256": "cd148e8af87d1fdc576ab0d0dd9f5dfc8cfa5910646309159b3630edb6e0a9a0"
+    },
+    {
+      "path": "OFFICIAL_CATALOG_SLICE_V56.csv",
+      "bytes": 17529,
+      "sha256": "cfd5e38510d12ba58919739f9885f1ebb93fac49aa66f9feb9876ec2285b787d"
+    },
+    {
+      "path": "PROMPT_CODEX_V57_API_VALUE_EXTRACTION_AND_RECONCILIATION.md",
+      "bytes": 1639,
+      "sha256": "26b396e8f4bceb7411b60b5da8f8b0c22b71da24f8df94fc3c625db3285d0fa6"
+    },
+    {
+      "path": "QA_RESULT_V56.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "path": "README_V56.md",
+      "bytes": 741,
+      "sha256": "44e0f859940dc8ef28e10b73a409bbc185f0fd5feba4cd7b1362b6ee0f66e66a"
+    },
+    {
+      "path": "SERIES_VALUE_BYTES_MANIFEST_V56.csv",
+      "bytes": 1721,
+      "sha256": "c657df1f11165953e14345019f334d2852ef1302e86a67cb960cbe37a08015b5"
+    },
+    {
+      "path": "TARGET_RECONCILIATION_V56.csv",
+      "bytes": 1039,
+      "sha256": "c546c2f2fb14d384d5bb627d37d157b563776a269b3574d6095449585b22c229"
+    },
+    {
+      "path": "VEREDICTO_V56.md",
+      "bytes": 1131,
+      "sha256": "72dc5fe290b0079cf22f465e93002f94035d7f88ccc1b43083164e8f4dd43c2c"
+    },
+    {
+      "path": "fetch_bcra_v4_values.py",
+      "bytes": 1563,
+      "sha256": "a88dac92ad2c3e2f8deed3a65ea87ac7db5d7d4f28da44f3d1f9c2a951c6bf28"
+    },
+    {
+      "path": "qa_v56.py",
+      "bytes": 2132,
+      "sha256": "a552344b39d40f905082acb58b9223d69d1130067e16c93bccd0e23325c329b0"
+    },
+    {
+      "path": "raw_cache/Series_estadisticas.xlsx",
+      "bytes": 1507855,
+      "sha256": "3d9a98fa443b833ebb34c814863c1259a89d4ab8d59570578ee030c00288b5d0"
+    },
+    {
+      "path": "raw_cache/es_series.txt",
+      "bytes": 5827774,
+      "sha256": "46089e8501001529f6a089e9981fb72f1e5f46e8817504ddc76f18996f28dd2b"
+    }
+  ],
+  "manifest_self_hash_omitted": true
+}

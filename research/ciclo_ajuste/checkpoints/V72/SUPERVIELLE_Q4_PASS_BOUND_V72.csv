@@ -1,0 +1,8 @@
+metric,lower_q4_thousand_ars,upper_q4_thousand_ars,quality,derivation,source_9m,source_fy
+total_pass_income,86713401.666363,86713401.666363,EXACT_TOTAL_FROM_9M_FY_DIFFERENCING,FY total pass income - reexpressed 9M separated pass income total,Banco Supervielle official separated 9M Note 25,Banco Supervielle official separated FY Annex Q
+total_pass_expense,591120.907458,591120.907458,EXACT_TOTAL_FROM_9M_FY_DIFFERENCING,FY total pass expense - reexpressed 9M separated pass expense total,Banco Supervielle official separated 9M Note 25,Banco Supervielle official separated FY Annex Q
+income_bcra,83427561.666363,86713401.666363,BOUND,Q4 total income minus unknown Q4 otherFI; FY otherFI income provides gross nonnegative ceiling,counterparty split unavailable,FY split exact
+income_otherfi,0,3285840,BOUND,unknown 9M split; gross nonnegative otherFI income cannot exceed FY otherFI total,counterparty split unavailable,FY split exact
+expense_bcra,0,0,EXACT_ZERO,FY BCRA pass expense is zero and gross pass-expense sublegs are nonnegative,total only,FY split exact
+expense_otherfi,591120.907458,591120.907458,EXACT_FROM_TOTAL_AND_ZERO_BCRA,all Q4 pass expense must be otherFI because FY BCRA pass expense is zero,total pass expense exact,FY BCRA zero + otherFI exact
+net_otherfi,-591120.907458,2694719.092542,BOUND,bounded income_otherFI minus exact expense_otherFI,counterparty split unavailable,FY split exact

@@ -1,0 +1,49 @@
+﻿component,label,reference_month,accumulated_value_millions,currency_basis,source_pdf
+total_comprehensive_result,Resultado total integral acumulado del período,2023-06,755775.6,Jun-2023 homogeneous currency,202306e.pdf P24
+total_comprehensive_result,Resultado total integral acumulado del período,2023-09,1497537.3,Sep-2023 homogeneous currency,202309e.pdf P24
+total_comprehensive_result,Resultado total integral acumulado del período,2023-12,5430053.9,Dec-2023 homogeneous currency,202312e.pdf P24
+financial_income,Ingresos financieros,2023-06,11866541.3,Jun-2023 homogeneous currency,202306e.pdf P24
+financial_income,Ingresos financieros,2023-09,26702067.8,Sep-2023 homogeneous currency,202309e.pdf P24
+financial_income,Ingresos financieros,2023-12,62788899.4,Dec-2023 homogeneous currency,202312e.pdf P24
+interest_income_broad,Ingresos financieros - Por Intereses,2023-06,8672316.4,Jun-2023 homogeneous currency,202306e.pdf P24
+interest_income_broad,Ingresos financieros - Por Intereses,2023-09,18728380.2,Sep-2023 homogeneous currency,202309e.pdf P24
+interest_income_broad,Ingresos financieros - Por Intereses,2023-12,40936392.3,Dec-2023 homogeneous currency,202312e.pdf P24
+other_financial_income,Otros Ingresos Financieros,2023-06,3194224.8,Jun-2023 homogeneous currency,202306e.pdf P24
+other_financial_income,Otros Ingresos Financieros,2023-09,7973687.6,Sep-2023 homogeneous currency,202309e.pdf P24
+other_financial_income,Otros Ingresos Financieros,2023-12,21852507.1,Dec-2023 homogeneous currency,202312e.pdf P24
+financial_expenses,Egresos financieros,2023-06,-7246840.5,Jun-2023 homogeneous currency,202306e.pdf P24
+financial_expenses,Egresos financieros,2023-09,-16260000.0,Sep-2023 homogeneous currency,202309e.pdf P24
+financial_expenses,Egresos financieros,2023-12,-35635000.0,Dec-2023 homogeneous currency,202312e.pdf P24
+interest_expenses,Egresos financieros - Por Intereses,2023-06,-6484580.0,Jun-2023 homogeneous currency,202306e.pdf P24
+interest_expenses,Egresos financieros - Por Intereses,2023-09,-14605000.0,Sep-2023 homogeneous currency,202309e.pdf P24
+interest_expenses,Egresos financieros - Por Intereses,2023-12,-31652000.0,Dec-2023 homogeneous currency,202312e.pdf P24
+other_financial_expenses,Otros Egresos Financieros,2023-06,-762260.5,Jun-2023 homogeneous currency,202306e.pdf P24
+other_financial_expenses,Otros Egresos Financieros,2023-09,-1655171.0,Sep-2023 homogeneous currency,202309e.pdf P24
+other_financial_expenses,Otros Egresos Financieros,2023-12,-3982097.2,Dec-2023 homogeneous currency,202312e.pdf P24
+credit_loss_charges,Cargo por incobrabilidad,2023-06,-226588.8,Jun-2023 homogeneous currency,202306e.pdf P24
+credit_loss_charges,Cargo por incobrabilidad,2023-09,-422998.0,Sep-2023 homogeneous currency,202309e.pdf P24
+credit_loss_charges,Cargo por incobrabilidad,2023-12,-1078753.4,Dec-2023 homogeneous currency,202312e.pdf P24
+service_income,Ingresos por servicios,2023-06,696084.8,Jun-2023 homogeneous currency,202306e.pdf P24
+service_income,Ingresos por servicios,2023-09,1420707.2,Sep-2023 homogeneous currency,202309e.pdf P24
+service_income,Ingresos por servicios,2023-12,2921479.5,Dec-2023 homogeneous currency,202312e.pdf P24
+service_expenses,Egresos por servicios,2023-06,-372792.4,Jun-2023 homogeneous currency,202306e.pdf P24
+service_expenses,Egresos por servicios,2023-09,-796503.3,Sep-2023 homogeneous currency,202309e.pdf P24
+service_expenses,Egresos por servicios,2023-12,-1696457.1,Dec-2023 homogeneous currency,202312e.pdf P24
+admin_expenses,Gastos de administración,2023-06,-1595194.5,Jun-2023 homogeneous currency,202306e.pdf P24
+admin_expenses,Gastos de administración,2023-09,-3297670.2,Sep-2023 homogeneous currency,202309e.pdf P24
+admin_expenses,Gastos de administración,2023-12,-7062171.0,Dec-2023 homogeneous currency,202312e.pdf P24
+recoveries,Créditos recuperados y previsiones desafectadas,2023-06,73934.1,Jun-2023 homogeneous currency,202306e.pdf P24
+recoveries,Créditos recuperados y previsiones desafectadas,2023-09,143200.5,Sep-2023 homogeneous currency,202309e.pdf P24
+recoveries,Créditos recuperados y previsiones desafectadas,2023-12,244211.5,Dec-2023 homogeneous currency,202312e.pdf P24
+monetary_result,Resultado monetario,2023-06,-2233074.2,Jun-2023 homogeneous currency,202306e.pdf P24
+monetary_result,Resultado monetario,2023-09,-5263615.5,Sep-2023 homogeneous currency,202309e.pdf P24
+monetary_result,Resultado monetario,2023-12,-13462000.0,Dec-2023 homogeneous currency,202312e.pdf P24
+other,Otros,2023-06,96411.5,Jun-2023 homogeneous currency,202306e.pdf P24
+other,Otros,2023-09,222418.9,Sep-2023 homogeneous currency,202309e.pdf P24
+other,Otros,2023-12,501240.1,Dec-2023 homogeneous currency,202312e.pdf P24
+income_tax,Impuesto a las ganancias,2023-06,-321469.0,Jun-2023 homogeneous currency,202306e.pdf P24
+income_tax,Impuesto a las ganancias,2023-09,-925411.1,Sep-2023 homogeneous currency,202309e.pdf P24
+income_tax,Impuesto a las ganancias,2023-12,-2876454.0,Dec-2023 homogeneous currency,202312e.pdf P24
+other_comprehensive_income,Otro resultado integral,2023-06,18763.4,Jun-2023 homogeneous currency,202306e.pdf P24
+other_comprehensive_income,Otro resultado integral,2023-09,-24119.3,Sep-2023 homogeneous currency,202309e.pdf P24
+other_comprehensive_income,Otro resultado integral,2023-12,786149.3,Dec-2023 homogeneous currency,202312e.pdf P24

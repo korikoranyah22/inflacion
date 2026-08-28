@@ -1,0 +1,6 @@
+﻿entity,period,household_like_bundle,broad_interest,product_ratio_pct,definition,strict_household_sector,system_bound,status
+Banco Macro SA,Q4-2023 reconstructed,163479310.56779042,552336409.846935,29.597779116733268,mortgages + pledged + personal + cards,NO,N/D,ENTITY_PRODUCT_PROXY
+Banco Ciudad de Buenos Aires,Q4-2023 reconstructed,95200458.09705412,620844795.1495512,15.334018878924791,mortgages + pledged + personal + cards,NO,N/D,ENTITY_PRODUCT_PROXY
+Banco de Galicia y Buenos Aires SAU,Q4-2023 reconstructed,201913045.74623635,1193230518.22014,16.921545557468324,mortgages + pledged + personal + cards,NO,N/D,ENTITY_PRODUCT_PROXY
+Banco de la Nación Argentina,FY-2023 only,617327911,10936202248,5.644810666453212,mortgages + pledged + personal + cards,NO,N/D,ENTITY_PRODUCT_PROXY
+SYSTEM,Q4-2023,N/D,N/D,N/D,requires high-coverage aggregation and sector validation,N/D,N/D,NOT_IDENTIFIED

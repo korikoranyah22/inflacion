@@ -1,0 +1,4 @@
+﻿target,target_gap_pp,candidate_series,candidate_label,what_it_would_identify,reconciled_value,status,compatibility_warning
+Q4_2023_vs_Q3_2023 securities gap,7.3,1184,Net investment results total,investment result total,N/D,VALUE_BYTES_MISSING,Not proven same perimeter/denominator as frozen +7.3 pp
+Q4_2023_vs_Q3_2023 securities gap,7.3,1185,Net investments - public securities,"public-security result, but mixes rent, FX differences, adjustments/update, sales and impairment",N/D,SCHEMA_IDENTIFIED_VALUES_MISSING,Does not split BCRA vs Treasury/province and does not split accounting mode; old catalog metadata alone cannot establish 2023 NIIF perimeter equivalence
+Q4_2023_vs_Q3_2023 securities gap,7.3,1186/1187/1188/1190,Private/equity/ON/subordinated/permanent participation results,non-public investment families,N/D,SCHEMA_IDENTIFIED_VALUES_MISSING,"Cannot subtract from +7.3 until same-window, same-perimeter values reconcile"

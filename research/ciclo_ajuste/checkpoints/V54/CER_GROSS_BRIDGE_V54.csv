@@ -1,0 +1,6 @@
+episode,window,aggregate_CER_gap_pp,gross_leg,counterparty_sector,candidate_source,gross_result_pp,status,reason
+2014,FY2014_vs_FY2013,0.1,Indexed assets/liabilities,Mixed,historical reports / balance detail,N/D,FAILED_RECONCILIATION,Aggregate net CER/CVS line only; no gross asset/liability result split recovered.
+2018,H1_2018_vs_H1_2017,N/D_EXACT,UVA/CER assets and liabilities,Households + public + corporate,finuva_mensual.xls + depuva_mensual.xls + baldedhis.xls,N/D,FAILED_RECONCILIATION,Exposure mismatch is known but is not a result bridge; exact H1 sub-gap by gross leg unavailable.
+2023,Q4_2023_vs_Q3_2023,-0.2,Public CER securities,Treasury/public,titpubser.xls + baldedhis.xls,N/D,FAILED_RECONCILIATION,"Large public CER exposure exists, but stock cannot be converted to the Q4 result contribution."
+2023,Q4_2023_vs_Q3_2023,-0.2,UVA household loans,Households as debtors,finuva_mensual.xls + baldedhis.xls,N/D,FAILED_RECONCILIATION,Direct household contract exists but result flow by instrument was not materialized.
+2023,Q4_2023_vs_Q3_2023,-0.2,UVA deposits,Households and other depositors as bank creditors,depuva_mensual.xls + baldedhis.xls,N/D,FAILED_RECONCILIATION,"Opposite-sign household incidence is structurally supported, but gross indexed expense contribution remains N/D."

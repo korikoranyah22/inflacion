@@ -1,0 +1,7 @@
+binary_sha256: PASS
+9m_income_table_sum: PASS
+9m_expense_table_sum: PASS
+fy_note6_annexq_bcra_crosswalk: PASS
+q4_bridge_formula: PASS
+coverage_math: PASS
+strict_entity_count: PASS

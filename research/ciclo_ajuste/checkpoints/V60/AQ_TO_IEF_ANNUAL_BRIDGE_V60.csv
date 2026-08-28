@@ -1,0 +1,5 @@
+﻿target,aq_candidate,status,caveat
+IEF annual interest income,Annex Q broad interest decomposed by source/product,NOT_RECONCILED_SYSTEM_WIDE,aggregation incomplete
+IEF annual passes,Annex Q pass interest BCRA vs other-FI,COUNTERPARTY_SCHEMA_IDENTIFIED_ENTITY_LEVEL,system netting pending
+IEF annual securities,Annex Q public/private securities interest,NOT_EQUIVALENT_TO_FULL_SECURITIES_RESULT,valuation/trading/ORI omitted
+HOUSEHOLD,mortgages+pledged+personal+cards,PRODUCT_PROXY_ONLY,not strict household sector

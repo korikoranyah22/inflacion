@@ -1,0 +1,109 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V63",
+  "created": "2026-08-27",
+  "qa": "PASS",
+  "core_states": {
+    "four_leg_pass_public_disclosure_schema": "STRONG_SUPPORT",
+    "full_four_leg_q4_entity": "BANCO_CIUDAD",
+    "subset_interbank_netting_as_system_test": "REJECTED",
+    "system_interbank_pass_cancellation": "NOT_IDENTIFIED_CLOSED_COVERAGE_MISSING",
+    "ief_7_7pp_bcra_share": "N/D",
+    "strict_bcra_floor": "REVOKED",
+    "household_system_q4_point_estimate": "N/D",
+    "direct_household_to_bank_transfer": "NOT_IDENTIFIED",
+    "next": "V64_CLOSED_PASS_NETWORK_COVERAGE_AND_SECTOR_MAPPING"
+  },
+  "files": [
+    {
+      "name": "AUDITORIA_V63.md",
+      "bytes": 1856,
+      "sha256": "9e11b9a7df987d148e6fce61857cc4e62e802e613d104fca2f39c30195a0db26"
+    },
+    {
+      "name": "BASE_V62.zip",
+      "bytes": 1554965,
+      "sha256": "OMITTED_BASE_ARCHIVE"
+    },
+    {
+      "name": "CONSOLIDATED_Q4_AQ_PANEL_V63.csv",
+      "bytes": 1463,
+      "sha256": "7e7bc3412401c20d390907665ee29b9df547464c30721c4482827337234fcc5c"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V63.csv",
+      "bytes": 1443,
+      "sha256": "d88cc63aa594f531b19f1ec9e44533c43af43b5653add068ac3c1d998cb9d00b"
+    },
+    {
+      "name": "ENTITY_COVERAGE_V63.csv",
+      "bytes": 978,
+      "sha256": "39a704cc022ed1edd4659e2cf91d4a74d5cc2287b88f3ff85497ff9fa10f21fc"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V63.csv",
+      "bytes": 1591,
+      "sha256": "6274393f9255f04aaf80b31d87e3cff816d63559af0b09941df121240ca05330"
+    },
+    {
+      "name": "FOUR_LEG_PASS_PANEL_V63.csv",
+      "bytes": 1158,
+      "sha256": "7c53f01c728eb039df901e41f94fce810f7d2b751a701e7e5070fd7692b7bbda"
+    },
+    {
+      "name": "FUENTES_V63.md",
+      "bytes": 1249,
+      "sha256": "e7528fa2348a0d2abd8bdb533a7df1cbc6f5639f246fa4791dcffff784b5932a"
+    },
+    {
+      "name": "HOUSEHOLD_PRODUCT_PANEL_V63.csv",
+      "bytes": 1342,
+      "sha256": "28f6e183caf352c9e768bb8e656549d19c3ea1155cdda28cf47fbc7ce9f12fd6"
+    },
+    {
+      "name": "HOUSEHOLD_SECTOR_MAPPING_AUDIT_V63.md",
+      "bytes": 1037,
+      "sha256": "67bb285b556a31879cdea40b33b2daa11cca710f8f64c39b643209ee3349e68e"
+    },
+    {
+      "name": "IEF_PASS_RECONCILIATION_V63.csv",
+      "bytes": 540,
+      "sha256": "4ccf9cc384ae0cdef805024f20924785ffcb60ece2f453ec1c506d10ee545b09"
+    },
+    {
+      "name": "INDIVIDUAL_Q4_AQ_PANEL_V63.csv",
+      "bytes": 641,
+      "sha256": "aeb44a5dffb7cc7ee370d3a166a12ad1bb74713b26eb4c391ce0dab529d112cf"
+    },
+    {
+      "name": "PROMPT_CODEX_V64_CLOSED_PASS_NETWORK_COVERAGE_AND_SECTOR_MAPPING.md",
+      "bytes": 1635,
+      "sha256": "416002ed2abb8267e0df79ed2e313595800ccad4a3df80acf39f7b1050b92340"
+    },
+    {
+      "name": "QA_RESULT_V63.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "README_V63.md",
+      "bytes": 522,
+      "sha256": "493118c7ea3f248c46340bac10673e16ba8ce01adf847918b4b50efcd4bb81a4"
+    },
+    {
+      "name": "SYMMETRIC_INTERBANK_NETTING_TEST_V63.csv",
+      "bytes": 527,
+      "sha256": "9eaa43953bd3a0cbd4565e3e7c7f8a68989ff29b5a1bd498022572f5d7716f69"
+    },
+    {
+      "name": "VEREDICTO_V63.md",
+      "bytes": 801,
+      "sha256": "af6b493bca6b0afaefa5627841fcee10ede49d48de37737c70073294cfeb3142"
+    },
+    {
+      "name": "qa_v63.py",
+      "bytes": 1297,
+      "sha256": "b390720a3697667181fd0f9de64e23b6c79d1e517db45fe513a99a4a04f7fd00"
+    }
+  ]
+}

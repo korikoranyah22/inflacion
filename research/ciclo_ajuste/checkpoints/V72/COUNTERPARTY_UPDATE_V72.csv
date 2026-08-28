@@ -1,0 +1,8 @@
+claim,v71,v72,reason
+BNA_9M_AGN_SC1_BINARY,EXACT_FILENAME_IDENTIFIED_HTTP_502,RECOVERED_USER_SUPPLIED_COPY_ARCHIVED,The external AGN endpoint failure no longer blocks inspection; local archive preserves the exact-named 3-page review report.
+BNA_9M_AGN_SC1_SCOPE,NOT_INSPECTED,SEPARATED_REVIEW_REPORT_NOT_FULL_STATEMENTS,"SC1 explicitly lists Notes 1-19 and Annexes A,B,C,D,H,I,J,L,O,R."
+BNA_9M_ANNEX_Q_GATE,NOT_RECOVERED_TARGET,NOT_MANDATORY_QUARTERLY_UNDER_BCRA_A7809,BCRA A7809 frequency table labels Annex Q / A-Q as annual.
+BNA_9M_FOUR_LEG,N/D,N/D,No 9M counterparty four-leg values were recovered from the review report; Q4 bridge remains closed.
+CREDICOOP_9M_BINARY,DYNAMIC_LINK_NOT_RECOVERED,DYNAMIC_LINK_NOT_RECOVERED,Official date listing remains confirmed; dynamic binary still unresolved.
+STRICT_Q4_FOUR_LEG_EXACT_COVERAGE,11.260968%,11.260968%,No new exact Q4 target-basis entity.
+CLOSED_PASS_NETWORK,NOT_ACHIEVED,NOT_ACHIEVED,Source-scope correction does not increase flow coverage.

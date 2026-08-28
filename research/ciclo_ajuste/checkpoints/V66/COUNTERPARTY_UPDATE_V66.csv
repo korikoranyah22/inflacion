@@ -1,0 +1,15 @@
+﻿claim,v65,v66,reason
+SYSTEM_PANEL_BASIS,INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING,UNCHANGED,No contradictory regulatory evidence; all new eligible work stays on individual/separated basis.
+FULL_FOUR_LEG_Q4_ENTITY_COUNT_STRICT_SYSTEM_BASIS,1_EXACT_ELIGIBLE_ICBC,2_EXACT_ELIGIBLE_ICBC_PLUS_BANCO_VALORES,Banco de Valores 9M and FY separated Annex Q close all four pass legs after homogeneous differencing.
+STRICT_Q4_FOUR_LEG_EXACT_ASSET_COVERAGE,4.101042%,5.2096%,Adds Banco de Valores official BCRA Dec-2023 asset footprint.
+Q4_POINT_COUNTERPARTY_DETAIL_ASSET_FOOTPRINT,13.070316%_ICBC_PLUS_GALICIA,14.178874%_ICBC_PLUS_BANCO_VALORES_PLUS_GALICIA,Banco de Valores adds exact BCRA/otherFI point flow.
+SUPERVIELLE_Q4_INDIVIDUAL_PASS,N/D_INDIVIDUAL_SPLIT,TOTAL_EXACT_COUNTERPARTY_BOUND,"Separated 9M Note 25 provides pass totals; FY separated Annex Q provides exact FY split, permitting Q4 total and counterparty bounds."
+BAPRO_Q4_FOUR_LEG,N/D_9M_NOT_RETRIEVED,N/D_9M_NOT_RETRIEVED,No compatible 9M Annex Q extracted; FY control retained.
+CREDICOOP_Q4_FOUR_LEG,N/D_9M_COMPATIBLE_PDF_NOT_RETRIEVED,N/D_9M_COMPATIBLE_PDF_NOT_RETRIEVED,Publication existence confirmed but compatible file not retrieved.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_COVERAGE_TOO_LOW,NOT_IDENTIFIED_COVERAGE_TOO_LOW,Strict exact coverage rises only to ~5.21%; open network remains material.
+SYSTEM_BCRA_NET_PASS_FLOW,N/D,N/D,Two exact entities plus partial/bounded entities are not high-coverage system numerator.
+SYSTEM_INTERBANK_NET_PASS_FLOW,N/D,N/D,Open subset cannot test system cancellation.
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,Compatible system pass numerator/denominator bridge remains missing.
+HOUSEHOLD_ANNEX_Q_ACCRUED_INTEREST_FLOW_BRIDGE,NOT_IDENTIFIED,NOT_IDENTIFIED,V66 retrieval branch did not identify a direct accrued-interest PH/PJ bridge.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,No new contractual/system accounting identity.
+HTML_MODIFICATION,FORBIDDEN,FORBIDDEN,Frozen gate retained.

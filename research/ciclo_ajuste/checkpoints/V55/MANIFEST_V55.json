@@ -1,0 +1,25 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V55",
+  "created_utc": "2026-08-27T18:29:08.654006+00:00",
+  "base": "V54",
+  "html_modified": false,
+  "schema_cache": {
+    "path": "raw_cache/es_series.txt",
+    "bytes": 5827774,
+    "sha256": "46089e8501001529f6a089e9981fb72f1e5f46e8817504ddc76f18996f28dd2b",
+    "provenance": "user GitHub cache of BCRA file"
+  },
+  "frozen": {
+    "passes_bcra_pp": 7.7,
+    "passes_bcra_share_gross_positive_pct": 26.83,
+    "unresolved_pp": 21.0,
+    "unresolved_pct": 73.17
+  },
+  "status": {
+    "subaccount_schema": "SUPPORTED",
+    "2023_values": "NOT_MATERIALIZED",
+    "numeric_reconciliation": "NOT_RUN",
+    "direct_household_transfer": "NOT_IDENTIFIED"
+  }
+}

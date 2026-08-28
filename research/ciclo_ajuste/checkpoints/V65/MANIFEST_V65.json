@@ -1,0 +1,137 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "iteration": "V65",
+  "created": "2026-08-27",
+  "qa": "PASS",
+  "core_states": {
+    "system_panel_basis": "INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING",
+    "bank_assets_dec2023_million_ars": 96697695.5,
+    "strict_q4_four_leg_exact_asset_coverage_pct": 4.101041787495339,
+    "individual_q4_counterparty_detail_asset_footprint_pct": 13.070316241404118,
+    "bapro_fy_four_leg": "IDENTIFIED_EXACT",
+    "bapro_q4": "N/D_9M_NOT_RETRIEVED",
+    "credicoop_fy_four_leg": "IDENTIFIED_EXACT",
+    "credicoop_q4": "N/D_9M_COMPATIBLE_PDF_NOT_RETRIEVED",
+    "closed_pass_network": "NOT_ACHIEVED",
+    "system_interbank_pass_cancellation": "NOT_IDENTIFIED_COVERAGE_TOO_LOW",
+    "system_bcra_net_pass_flow": "N/D",
+    "system_interbank_net_pass_flow": "N/D",
+    "ief_7_7pp_bcra_share": "N/D",
+    "household_annex_q_accrued_interest_flow_bridge": "NOT_IDENTIFIED",
+    "direct_household_to_bank_transfer": "NOT_IDENTIFIED",
+    "html_modification": "FORBIDDEN",
+    "next": "V66_INDIVIDUAL_AQ_RETRIEVAL_AND_CLOSED_NETWORK_EXPANSION"
+  },
+  "files": [
+    {
+      "name": "AUDITORIA_V65.md",
+      "bytes": 2546,
+      "sha256": "49defe9fa2892b03d547ae48698883bac2123511bf719fcd69743a78cc8e7c95"
+    },
+    {
+      "name": "BAPRO_FY_AQ_CONTROL_V65.csv",
+      "bytes": 528,
+      "sha256": "d3e0945de3dcb527eee96cf263c79c9c455b0dcbb1708f3985db2c11898c4bac"
+    },
+    {
+      "name": "BASE_V64.zip",
+      "bytes": 1587524,
+      "sha256": "OMITTED_BASE_ARCHIVE"
+    },
+    {
+      "name": "BASIS_HARMONIZATION_V65.csv",
+      "bytes": 1445,
+      "sha256": "7dd455e0bcd330a97ef267ea1af3263d6c6a96789f05da8e82e347f10c57bb29"
+    },
+    {
+      "name": "BCRA_BANK_SYSTEM_COVERAGE_V65.csv",
+      "bytes": 1508,
+      "sha256": "8a2333f150044f1b5f52968f044ba9a3b1e84c4174bd5c6e107afef20de3a4eb"
+    },
+    {
+      "name": "CLOSED_NETWORK_COVERAGE_V65.csv",
+      "bytes": 2190,
+      "sha256": "dd78065d47f12ea861125b013d23c8d4474503d994988419cfcddc9724f51a98"
+    },
+    {
+      "name": "CLOSED_NETWORK_NETTING_TEST_V65.csv",
+      "bytes": 697,
+      "sha256": "ef1aa2a4c39a5f4d6a3a27d96d61adda24e38f8a83654d5c926f80599e8e4952"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V65.csv",
+      "bytes": 2098,
+      "sha256": "80ec0e219a759da577b0d0e93c8882b98c37d74d77a150bf3c1098f2f227e8f1"
+    },
+    {
+      "name": "CREDICOOP_FY_AQ_CONTROL_V65.csv",
+      "bytes": 575,
+      "sha256": "268412bb2c2b367eba21f35e1d01adf122f9b2b8f6f8d833b5cb06ae83eff39f"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V65.csv",
+      "bytes": 2924,
+      "sha256": "03d942fc25bef51b653166a151eff35e47471f384aa5b2d065d2947d36373143"
+    },
+    {
+      "name": "FOUR_LEG_PASS_PANEL_V65.csv",
+      "bytes": 2441,
+      "sha256": "ef9f868de6e45a3ebe6c0508f96d667e372c88ebdb9bfb3cfaff17fbc68ce13a"
+    },
+    {
+      "name": "FUENTES_V65.md",
+      "bytes": 2398,
+      "sha256": "f97ae41a8bc15ff3c9e0375161333e3fd8044625bb4b2a81eb238cf2bba2eeda"
+    },
+    {
+      "name": "HANDOVER_CODEX_CICLO_AJUSTE_V65_A_V66.md",
+      "bytes": 2804,
+      "sha256": "10bfec72daf350f40c7a7a718aca08790b3434e632aee4cc6f0f366caf162670"
+    },
+    {
+      "name": "HOUSEHOLD_PRODUCT_PANEL_V65.csv",
+      "bytes": 2274,
+      "sha256": "527f2d84dc3d69edeb69ae21423ed156a0dff474478645dce38d50aed1ff4737"
+    },
+    {
+      "name": "HOUSEHOLD_SECTOR_MAPPING_V65.csv",
+      "bytes": 2021,
+      "sha256": "f6f46e6a345be1f02f3d50a0daa15f921e08f54733fc62d9b3d9ed3d78ee3ea8"
+    },
+    {
+      "name": "IEF_PASS_RECONCILIATION_V65.csv",
+      "bytes": 1005,
+      "sha256": "fb307e4b7423b94de5b0c80abddda2040e191b31c9e31155227c9f23bc3bfd63"
+    },
+    {
+      "name": "PASS_COUNTERPARTY_BOUNDS_V65.csv",
+      "bytes": 1099,
+      "sha256": "54f0f7465007a72cf33938ec2892bfc492c4d54f12d09480fb87289a34a5b408"
+    },
+    {
+      "name": "PROMPT_CODEX_V66_INDIVIDUAL_AQ_RETRIEVAL_AND_CLOSED_NETWORK_EXPANSION.md",
+      "bytes": 3607,
+      "sha256": "558a4e769ff572f0c69b7e81d85ec9f5cef16b0eafc33f3778f3aed3c8b3a2a1"
+    },
+    {
+      "name": "QA_RESULT_V65.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "README_V65.md",
+      "bytes": 895,
+      "sha256": "ece72d937dc4e0c3b3a25ed0fecb496305eb25b6417996ed1fd1f9cbbc8b31e3"
+    },
+    {
+      "name": "VEREDICTO_V65.md",
+      "bytes": 4780,
+      "sha256": "23ca2b7219114bdb6c382a584576205b8fde6a4b42fc7f217758c36a14093f32"
+    },
+    {
+      "name": "qa_v65.py",
+      "bytes": 2379,
+      "sha256": "4150d99e27a34f5adcdcf1848f61412973a9b8981005cc45a3e171a73fe42e1b"
+    }
+  ]
+}

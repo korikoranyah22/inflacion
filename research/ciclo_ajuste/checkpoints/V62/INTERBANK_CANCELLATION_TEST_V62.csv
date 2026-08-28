@@ -1,0 +1,4 @@
+﻿test,value_thousand_ars,coverage,status,interpretation
+covered_otherfi_income_lower_bound,573982683.8028982,Macro+Ciudad+Galicia+Santander lower bound,OBSERVED_LOWER_BOUND,not system total
+covered_otherfi_expense_exact,1422129.1574905645,Galicia exact only,SEVERELY_INCOMPLETE,missing expense legs dominate
+interbank_pass_cancellation,,SYSTEM_REQUIRED,NOT_IDENTIFIED_MISSING_BILATERAL_EXPENSE_LEGS,"apparent imbalance is missing-data artifact, not evidence of failed cancellation"

@@ -1,0 +1,13 @@
+claim,v69,v70,reason
+SYSTEM_PANEL_BASIS,INDIVIDUAL_ENTITY_REGULATORY_WITH_EXPLICIT_SYSTEM_NETTING,UNCHANGED,No target-basis relaxation; newly recovered BNA condensed 9M is explicitly consolidated-inclusive and excluded.
+STRICT_Q4_FOUR_LEG_EXACT_ASSET_COVERAGE,11.260968%,11.260968%,No new compatible individual 9M Annex Q recovered; no new exact Q4 four-leg entity.
+BNA_9M_AGN_SEPARATED_SOURCE,OFFICIAL_PACKAGE_IDENTIFIED_BINARY_502,UNCHANGED_BINARY_502,AGN page still exposes separated-condensed package metadata; both Informe/Anexo attachments return 502.
+BNA_9M_ISSUER_CONDENSED,NOT_RECOVERED,PRIMARY_PDF_RECOVERED_CONTROL_ONLY,"Official BNA Sep-2023 condensed PDF recovered; explicitly includes foreign branches, subsidiaries and structured entities, so it is not the separated target basis."
+BNA_9M_ANNEX_Q,NOT_RECOVERED,NOT_RECOVERED,Recovered issuer condensed PDF is one page and has no Annex Q; AGN separated binary remains inaccessible.
+BAPRO_9M_PATH,HISTORICAL_ARCHITECTURE_CONFIRMED,OFFICIAL_SEP2023_MARKET_DISCIPLINE_RECOVERED_TARGET_EEFF_REFERENCED,Date-specific official publication improves source path but does not provide the separated Annex Q.
+CREDICOOP_9M,PUBLICATION_EXISTENCE_CONFIRMED_FILE_NOT_RETRIEVED,PRIMARY_BINARY_STILL_NOT_RECOVERED,Secondary rating evidence supports existence of Sep-2023 EEFF only; no numeric bridge.
+CIUDAD_9M,CONSOLIDATED_SOURCE_SUPPORTED,OFFICIAL_CONSOLIDATED_BINARY_RECOVERED,Still control-only; individual/separated binary not recovered.
+SYSTEM_INTERBANK_PASS_CANCELLATION,NOT_IDENTIFIED_COVERAGE_TOO_LOW,NOT_IDENTIFIED_COVERAGE_TOO_LOW,Strict exact coverage unchanged and network remains open.
+SYSTEM_BCRA_NET_PASS_FLOW,N/D,N/D,No closed/high-coverage compatible four-leg system numerator.
+IEF_7_7PP_BCRA_SHARE,N/D,N/D,No system numerator/netting/denominator bridge.
+DIRECT_HOUSEHOLD_TO_BANK_TRANSFER,NOT_IDENTIFIED,NOT_IDENTIFIED,Household accrued-interest sector bridge unchanged.

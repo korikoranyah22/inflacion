@@ -1,0 +1,6 @@
+﻿q4_bucket,gap_pp,counterparty_axis,status,basis,numeric_share_gross_positive_pct
+Primas por pases,7.7,BCRA_COUNTERPARTY,STRICTLY_IDENTIFIED,Frozen V52-V54 institutional/accounting identity,26.83
+Diferencias de cotización,11.3,MIXED/N-D,UNRESOLVED,Schema confirms sale + remeasurement + forwards/swaps can coexist across FX-related accounts,N/D
+Resultado por títulos valores,7.3,PUBLIC/BCRA?/PRIVATE/MARKET_MIXED,UNRESOLVED,Series 1185 identifies public-security result family but not issuer jurisdiction nor compatibility with frozen +7.3,N/D
+Ingresos por intereses,2.1,HOUSEHOLDS/COMPANIES/PUBLIC/OTHER_MIXED,UNRESOLVED,Series 1153 separates loan accounting source but not borrower sector,N/D
+Otros resultados financieros,0.3,N/D,UNRESOLVED,No compatible value split,N/D

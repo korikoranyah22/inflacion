@@ -1,0 +1,2 @@
+entity,period,basis,income_bcra,income_otherfi,expense_bcra,expense_otherfi,source_quality,source,strict_usable,note
+Banco Ciudad de Buenos Aires,FY-2023,CONSOLIDATED_CONTROL_ONLY,0,469990158,0,791821,EXACT_OFFICIAL_ANNEX_Q_CONSOLIDATED,"Banco Ciudad MYB2023 official, Annex Q consolidated",NO,"Annual auditor states a separate report on separated FY statements was issued, but the accessible MYB package exposes the consolidated Annex Q; do not promote to individual."

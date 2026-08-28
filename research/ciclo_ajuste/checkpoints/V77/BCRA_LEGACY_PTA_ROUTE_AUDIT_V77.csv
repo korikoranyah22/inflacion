@@ -1,0 +1,4 @@
+evidence_type,entity,entity_code,period,observed_filename,observed_url,status,inference
+LEGACY_BCRA_PTA_KNOWN_BINARY,Banco de Galicia y Buenos Aires S.A.,00007,2017-12,pta_7_201712.pdf,https://www.bcra.gob.ar/archivos/Pdfs/Informacion_usuario/pta_7_201712.pdf,WEB_INDEXED_PRIMARY,Confirms pta_<entity-code-without-leading-zeroes>_<YYYYMM>.pdf naming.
+LEGACY_BCRA_PTA_KNOWN_BINARY,BBVA Frances S.A.,00017,2017-09,pta_17_201709.pdf,https://www.bcra.gob.ar/archivos/Pdfs/Informacion_usuario/pta_17_201709.pdf,WEB_INDEXED_PRIMARY,Independent second observation confirms entity-code/date filename grammar.
+BCRA_REGULATORY_TAXONOMY,ALL,N/A,2023-Q2 onward,TRIMANUA.TXT design 4401,https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A7749.pdf,PRIMARY_RULE,2023 target rows are exact pass-flow counterparty concepts; candidate PTA binary is useful only if it exposes target-basis separated data.

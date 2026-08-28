@@ -1,0 +1,5 @@
+check,fy_note6_value,fy_annex_q_value,difference,status,meaning
+FY_BCRA_PASS_INCOME_CROSSWALK,180887922.0,180887922.0,0,EXACT_MATCH,Note 6 Int. por pases activos con el B.C.R.A maps exactly to Annex Q Por operaciones de pase / BCRA.
+FY_OTHERFI_PASS_INCOME_CROSSWALK,0.0,0.0,0,EXACT_MATCH,FY Note 6 sector-financial pass income is zero; Annex Q total pass income equals BCRA subline exactly.
+FY_PASS_EXPENSE_CROSSWALK,0.0,0.0,0,EXACT_MATCH,FY Note 6 pass expense is zero and Annex Q contains no pass-expense amount.
+9M_EXPENSE_TABLE_RECONCILIATION,,,0,EXACT_SUM,"All displayed 9M expense-interest rows sum exactly to 763,535,485; no nonzero pass-expense residual exists."

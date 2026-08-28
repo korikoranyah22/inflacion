@@ -1,0 +1,98 @@
+{
+  "project": "CICLO_AJUSTE_ARGENTINA_2002_2026",
+  "version": "V59",
+  "created_date": "2026-08-27",
+  "html_modified": false,
+  "qa_expected": "PASS",
+  "core_states": {
+    "IEF_MFIR_COMPONENT_FORMULA": "EXACT_WITH_ROUNDING",
+    "POST_NIIF_BROAD_INTEREST_COMMINGLING": "STRONG_SUPPORT",
+    "SYSTEM_Q3_Q4_POSITIVE_FLOW_RECONCILIATION": "NOT_FULLY_IDENTIFIED",
+    "PASSES_DIRECT_BCRA": "7.7 pp / 26.83%",
+    "UNRESOLVED_COUNTERPARTY": "21.0 pp / 73.17%",
+    "HOUSEHOLD_SYSTEM_Q4_POINT_ESTIMATE": "N/D",
+    "DIRECT_HOUSEHOLD_TO_BANK_TRANSFER": "NOT_IDENTIFIED"
+  },
+  "files": [
+    {
+      "name": "AUDITORIA_V59.md",
+      "bytes": 6227,
+      "sha256": "a3e0bedc2b37a38ad5e5136bc29214ccc83538bc7cd8ab8aa8247fbbb812701d"
+    },
+    {
+      "name": "BASE_V58.zip",
+      "bytes": 1457322,
+      "sha256": "27a02728786d955f73a6293690ddadae2a69af31cfd1802ffe67ebd0c10992ca"
+    },
+    {
+      "name": "COMMON_DENOMINATOR_RECONCILIATION_V59.csv",
+      "bytes": 3406,
+      "sha256": "6f4d4c4e98a12c2c5eef9b913586d9d5eeb98df996895350626ac0db6647c406"
+    },
+    {
+      "name": "COUNTERPARTY_UPDATE_V59.csv",
+      "bytes": 1111,
+      "sha256": "8f12e8e4ab0cac3b1dbd5eda2e247c4f719e4139c079d1353b7957b0b38b7f30"
+    },
+    {
+      "name": "EVIDENCE_LEDGER_CICLO_AJUSTE_V59.csv",
+      "bytes": 45300,
+      "sha256": "19dfc9a7444fd69e6ed01a1f00070e1a87df1020fddda14d67fd1fb48efe4df6"
+    },
+    {
+      "name": "FUENTES_V59.md",
+      "bytes": 1815,
+      "sha256": "9d9fed23a5a2bacbc6ad46949de103ea998096f1881ceded8f606a629885cea3"
+    },
+    {
+      "name": "FX_CER_PASSES_FLOW_V59.csv",
+      "bytes": 1003,
+      "sha256": "de47ccc553805c20131e0c10372461f0587fd3459a631b1901633409873e26a9"
+    },
+    {
+      "name": "INTEREST_ACCRUED_SECTOR_FLOW_V59.csv",
+      "bytes": 3456,
+      "sha256": "02a3b829a536e2bca5167b6def26d1520942091cf2e517a44cf395fc0118f116"
+    },
+    {
+      "name": "POSITIVE_FINANCIAL_INCOME_FORMULA_V59.csv",
+      "bytes": 2665,
+      "sha256": "dba03f2a10913469436ce7d192f5b2fe94f539a2c11340035bd3488ab7f75a2b"
+    },
+    {
+      "name": "POST_NIIF_SUBACCOUNT_MAP_V59.csv",
+      "bytes": 3652,
+      "sha256": "71e022658735fe2ce2bc26ad04fb3a77a1e10b61b6f9f291cb1fdb9b32552717"
+    },
+    {
+      "name": "PROMPT_CODEX_V60_ANNUAL_AQ_SYSTEM_RECONCILIATION.md",
+      "bytes": 2721,
+      "sha256": "86f28976b036535bd028abe8158ebd5f1b4dddba9e13626c737244e2048677eb"
+    },
+    {
+      "name": "QA_RESULT_V59.txt",
+      "bytes": 5,
+      "sha256": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+    },
+    {
+      "name": "README_V59.md",
+      "bytes": 689,
+      "sha256": "8d6bf9613b733d344a52bc654ed9cea8960def6fe717a5b76551718f6fa9d17f"
+    },
+    {
+      "name": "SECURITIES_RESULT_ISSUER_FLOW_V59.csv",
+      "bytes": 973,
+      "sha256": "9d1173c0d9cb964a1f77dd5fda649085feed6f335b73b60d4a732201eeb4b519"
+    },
+    {
+      "name": "VEREDICTO_V59.md",
+      "bytes": 1520,
+      "sha256": "f99631439fc9426cfcb4a6bc5f6fb573aa24145204b421192e5db6fc9f25958b"
+    },
+    {
+      "name": "qa_v59.py",
+      "bytes": 1599,
+      "sha256": "b0883c4a1d271273cf86750e44587a6df9351af9978c20f660aaf91ff2114a9f"
+    }
+  ]
+}

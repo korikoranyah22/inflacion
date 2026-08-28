@@ -1,0 +1,8 @@
+V73 CHECKPOINT QA: PASS
+- V72 baseline preserved verbatim under BASE_V72_SNAPSHOT
+- strict coverage unchanged at 11.260968%
+- no new exact entity promoted without compatible 9M separated/individual evidence
+- Credicoop binary explicitly marked pending
+- Ciudad consolidated explicitly control-only
+- Annex-Q quarterly mandatory gate remains removed
+- HTML untouched
