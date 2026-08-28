@@ -1,0 +1,4 @@
+entity,basis,period,income_bcra,expense_bcra,income_otherfi,expense_otherfi,unit,quality
+Banco Ciudad de Buenos Aires,INDIVIDUAL_ENTITY_REGULATORY,9M-2023,0.0,0.0,64710954.0,302748.0,thousand_ARS_Sep2023_homogeneous,EXACT_BCRA_OPEN_DATA_CTA_IMPU
+Banco Ciudad de Buenos Aires,INDIVIDUAL_ENTITY_REGULATORY,FY-2023,0.0,0.0,469990158.0,791821.0,thousand_ARS_Dec2023_homogeneous,EXACT_BCRA_OPEN_DATA_CTA_IMPU
+Banco Ciudad de Buenos Aires,INDIVIDUAL_ENTITY_REGULATORY,Q4-2023,0.0,0.0,370794209.0769231,327736.1227385137,thousand_ARS_Dec2023_homogeneous,EXACT_FROM_BCRA_RAW_9M_FY_HOMOGENEOUS_DIFFERENCING

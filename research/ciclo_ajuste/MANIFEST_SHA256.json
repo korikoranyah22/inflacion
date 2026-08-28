@@ -1,9 +1,9 @@
 {
-  "created_utc": "2026-08-28T07:26:50.886966+00:00",
+  "created_utc": "2026-08-28T10:14:49.184983+00:00",
   "repo_root": "inflacion-backup",
-  "base_repo_zip_sha256": "524ef8ab518eb5d750f4efe189f17de897a622df66e5c896de517a88f064f8eb",
-  "v80_bundle_sha256": "36a0e5a010ffd59b34691e56e8c2df356cd0f7c15be3e1641651e66a6074e32f",
-  "file_count": 3551,
+  "checkpoint": "V86",
+  "strict_q4_four_leg_coverage_pct": 42.60167543910082,
+  "file_count_excluding_manifest": 3700,
   "files": [
     {
       "path": ".gitignore",
@@ -3057,18 +3057,18 @@
     },
     {
       "path": "research/ciclo_ajuste/FILE_ORIGINS.csv",
-      "size_bytes": 83585,
-      "sha256": "c315e10a679c3a33b4a86d1a205ed3de8c17974001fa65bf5bb78e1c7c264ced"
+      "size_bytes": 98145,
+      "sha256": "cb0c3b1c791737920b35c0c82224ff2e080098862e4a7f57f69e0d390f2c6602"
     },
     {
       "path": "research/ciclo_ajuste/TRANSPARENCY_README.md",
-      "size_bytes": 1583,
-      "sha256": "b62a99bdb2af51eb746fcacd1c2a07773c688bffa77fffc6a7456215ff0e2064"
+      "size_bytes": 4120,
+      "sha256": "7998a620b0dcf9ebc52bd0bd3285ae562ed0987ac88d990328bce776221c16f1"
     },
     {
       "path": "research/ciclo_ajuste/TREE.txt",
-      "size_bytes": 21448,
-      "sha256": "0e58ca13af8bf449646addd4b2489b73cc6c0888a6400cb3ddf67e1bf33f034d"
+      "size_bytes": 266578,
+      "sha256": "ae021df2c7db0815a0a682e5c409a95756916e9ecd26a73d0ba07480f9b2d68a"
     },
     {
       "path": "research/ciclo_ajuste/checkpoints/V52/AUDITORIA_CONTRAPARTES_V52.md",
@@ -6056,6 +6056,691 @@
       "sha256": "7ca95e97f9b8b88f83dbadf0cff0d1c7a3bc4b8a0550ffb049f6eb4f65b6b7db"
     },
     {
+      "path": "research/ciclo_ajuste/checkpoints/V81/AUDITORIA_V81.md",
+      "size_bytes": 2178,
+      "sha256": "576eb19b6d3c955ccc2bc2c7dfba2dd77c8b234b46a9be4620e3eb649342fd17"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/CURRENT_STATE_V81.csv",
+      "size_bytes": 1492,
+      "sha256": "22e7f23fa9c6cb0fcb2f49ef65370897610bf59a4359692d63f3391714d1f320"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/FOUR_LEG_PASS_PANEL_V81.csv",
+      "size_bytes": 5901,
+      "sha256": "f2c12cb5caa303af6f76fc3fde95567664967a7a17b15f20ec97748425a57abb"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V81_A_V82.md",
+      "size_bytes": 3470,
+      "sha256": "46dbe56af892d471c760f4f1ee6b4ef5f9744680b11c7a31a96f9090303c06da"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/MANIFEST_V81.json",
+      "size_bytes": 2797,
+      "sha256": "09528a6f937332edfe153efc636f3f5890d667b7ee822bc4e0f96f802e24f85a"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/README_V81.md",
+      "size_bytes": 526,
+      "sha256": "2b632621070f8d37a20530f7644480c2228f1d02530b0f651f49c4a15e311c21"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/RECOVERY_QUEUE_V81.csv",
+      "size_bytes": 1090,
+      "sha256": "db36c01ab3f46b3e5c16c11728dc9276fd479550c0c629e1c4f8e906bdfeaf49"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/SOURCE_REFERENCES_V81.md",
+      "size_bytes": 2063,
+      "sha256": "14fac2156056a7fcb096e8a68e37f5cf8f1fe3c93c24caa2eb58d7be26801b90"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/STRICT_Q4_FOUR_LEG_COVERAGE_V81.csv",
+      "size_bytes": 633,
+      "sha256": "1ed2828fd3080a9208bb2fef5dd4054b055a463f0d977a5a99be61717809d1a2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/USER_FILE_REQUESTS_V81.md",
+      "size_bytes": 827,
+      "sha256": "06fa11caf1aca586be092faa9ff00990d16868df6db5cd5aac30bf250e11d724"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/VEREDICTO_V81.md",
+      "size_bytes": 864,
+      "sha256": "6dfcbb4d9a3827c492b0065d2a0dfe57c9f4d2a0c41116a1e90c70ef8fe9a633"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V81/qa_v81.py",
+      "size_bytes": 923,
+      "sha256": "e92d6dc9df13e917fb355de0b754598807044fc6e505a01be8f32d11e70289fb"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/AUDITORIA_V82.md",
+      "size_bytes": 2200,
+      "sha256": "51c75557f816d3a27a4d486a848ab638bb38774e2dda7163b546e94baf66d8fc"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/BCRA_OPEN_DATA_ARCHIVE_AUDIT_V82.md",
+      "size_bytes": 1963,
+      "sha256": "cab8c43d8ff7bf7585773ad462a428a1db054ccfbc737fdf76d256dbc1dd7b9a"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/BNA_RETRIEVAL_AUDIT_V82.md",
+      "size_bytes": 1820,
+      "sha256": "4161c1c8c3af84f827ad7bebe0a63bb618d47562c085c4f0d280fa62e7c6fec2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/CURRENT_STATE_V82.csv",
+      "size_bytes": 1577,
+      "sha256": "ea79be0dc705569a01218ff1e456b09391848b481905761bf47e45a573a0b303"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/FOUR_LEG_PASS_PANEL_V82.csv",
+      "size_bytes": 6327,
+      "sha256": "bddd24937bbba7bf6679f69c2c5c534dfa9d2993cb3c9977401bcd37d8acd75a"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V82_A_V83.md",
+      "size_bytes": 3313,
+      "sha256": "a430796589c4caf32d6f7deca3b70895a02ec155dde2287616c265b651c89db2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/MANIFEST_V82.json",
+      "size_bytes": 3451,
+      "sha256": "dfcd5cee052d716d69b6b7676984c62577be6306a42c2745ba352b44b7ece673"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/README_V82.md",
+      "size_bytes": 602,
+      "sha256": "089a5e52ad48845828f8544245267eda6bbdc84101815a3b727d3dab8030b8d0"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/RECOVERY_QUEUE_V82.csv",
+      "size_bytes": 1542,
+      "sha256": "b3678c9a87d93a3e9a05179bbf6a76390c0b7df65f6a52bc6a08dffb648449c8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/SOURCE_REFERENCES_V82.md",
+      "size_bytes": 2319,
+      "sha256": "9c6c22ef595d48c742e12b40f99b9d206fe11673ad85721b6ed46bcc0f2979ee"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/STRICT_Q4_FOUR_LEG_COVERAGE_V82.csv",
+      "size_bytes": 837,
+      "sha256": "6c9af5d2c36341e1697d9643abef188877e65da96d3403a85674a218cf7451b7"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/USER_FILE_REQUESTS_V82.md",
+      "size_bytes": 808,
+      "sha256": "3d555a425ccdb1542a6c83c1f7f190912089a96df579e4ef000d51c1905fbf1d"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/VEREDICTO_V82.md",
+      "size_bytes": 1028,
+      "sha256": "481374052b98a8e64f5c89165868a2d6e5b3662197f74568e2f301b669e81f39"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V82/qa_v82.py",
+      "size_bytes": 1003,
+      "sha256": "a1ddabd7643b81c3ae1a9038e7229d220604705bded03be33aac70dd4d6f5d58"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/AUDITORIA_V83.md",
+      "size_bytes": 1330,
+      "sha256": "06fcf4af2a68a57c462948e8531bb431e5b70bae565c46b5f64e5fc4ff03c529"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/BCRA_OPEN_DATA_ARCHIVE_AUDIT_V83.md",
+      "size_bytes": 1568,
+      "sha256": "5275b8cadc7a5dd425203db2da0052cfd923a32da51c8964118b540c42e7675b"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/BNA_2024_COMPARATOR_STRUCTURE_AUDIT_V83.md",
+      "size_bytes": 1368,
+      "sha256": "82f7e80500131e8362c5df52e914ec0b0f96480901515854e98744823ca3d348"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/BNA_AGN_210_DUPLICATE_AUDIT_V83.md",
+      "size_bytes": 1069,
+      "sha256": "ec14e30bbf19d286815f5dc925a86f273e57a3ce70a039655ef62b3917e0a2ba"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/CURRENT_STATE_V83.csv",
+      "size_bytes": 1593,
+      "sha256": "4c6f4eec41dd3424e3ed4e687e4f5c4f8090d941f6023e442456295380c529b6"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/FOUR_LEG_PASS_PANEL_V83.csv",
+      "size_bytes": 6621,
+      "sha256": "dcb215156dfaa9fbfcc3d5fe035dae435052c6b8c18dd53adca3cd9ad8c44d1b"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V83_A_V84.md",
+      "size_bytes": 2914,
+      "sha256": "e0f9780186115ea66919d8e2f69d85eeab13cc5cd564f8fadf1ec89a2e423a76"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/MANIFEST_V83.json",
+      "size_bytes": 3861,
+      "sha256": "aac29e23c92feecd7ed05ac70fbcddb4b6384c5ed2f7add14c2501b265660990"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/README_V83.md",
+      "size_bytes": 417,
+      "sha256": "be3d8acae04d36d2eece51b561177e6ee5819e583cee057bd9de93e9543db494"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/RECOVERY_QUEUE_V83.csv",
+      "size_bytes": 1545,
+      "sha256": "eca1fcd7d0b444b146f66f3f83048a7aec5dc0ca2ea825b778c2d3bb74796ff2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/SOURCE_REFERENCES_V83.md",
+      "size_bytes": 2137,
+      "sha256": "66d2dc6187719a5a687edd1a802647653e55d43c996a2d5168f5401eabdf922f"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/STRICT_Q4_FOUR_LEG_COVERAGE_V83.csv",
+      "size_bytes": 771,
+      "sha256": "bd8105a9fa6a45e09596ef962bf8c4e667b4197764da335f389c1fb05df71bb7"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/USER_FILE_REQUESTS_V83.md",
+      "size_bytes": 965,
+      "sha256": "a1b2bd0394df51562e9a2146d2235df2f9f60ba660c4ca6da496555fa25d4e22"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/USER_UPLOAD_DUPLICATE_EVENTS_V83.csv",
+      "size_bytes": 431,
+      "sha256": "300383476196cd8b1d822cc1d6d72cf0841144b3aaf74cc9243f8e69bbf79592"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/VEREDICTO_V83.md",
+      "size_bytes": 682,
+      "sha256": "be5e29509c0c60a0eb793cae53c425ee53e9cedb5e5327e0e09378be08630ec0"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V83/qa_v83.py",
+      "size_bytes": 980,
+      "sha256": "daa7eda3dee72e4048490b678e270db867726edcd6693b1b42b1d29b221fd2a5"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/AUDITORIA_V84.md",
+      "size_bytes": 1303,
+      "sha256": "4d52414b438dac7beef4d527bfdebeec75193cbc6e3a6f7fc7385bb316aaf79f"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/BCRA_OPEN_DATA_RAW_AUDIT_V84.md",
+      "size_bytes": 2158,
+      "sha256": "25467fd3b69d10a67c07ad32ec22ca6ddb4d92c5995910c118d49d61b8211c0c"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "size_bytes": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/BNA_BCRA_RAW_ACCOUNT_AUDIT_V84.csv",
+      "size_bytes": 727,
+      "sha256": "2b098f79a05f7fec0d32f11f7c73f23e590de0beb6d0ee082c43f37e95251106"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "size_bytes": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/CURRENT_STATE_V84.csv",
+      "size_bytes": 1345,
+      "sha256": "14b0554d503aaf25a492f82976e4da6941bbd833bcbc6523eeee86d42469a191"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/FOUR_LEG_PASS_PANEL_V84.csv",
+      "size_bytes": 7460,
+      "sha256": "e5c54ed4a6dd64d15b8331d881cb9878b0978f640e9b4a5cff7bc81eafd301fc"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V84_A_V85.md",
+      "size_bytes": 1671,
+      "sha256": "70fb376d884d518556350170752b8fce3396a574502c8704f586d596ed98a4b7"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/MANIFEST_V84.json",
+      "size_bytes": 3802,
+      "sha256": "6f49aa49c264514bcfa90f893f8a7b4114038e1c762b139686f3987c41a7a58a"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/README_V84.md",
+      "size_bytes": 349,
+      "sha256": "28c0fb95a32e20fc1e386c23984f68bb8b51d311f0a42de16da454795bdd2b41"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/RECOVERY_QUEUE_V84.csv",
+      "size_bytes": 700,
+      "sha256": "cc159a17338e480bec2c103a4f5c77b783539845250460f176cf8fdbb77a1c62"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/SOURCE_REFERENCES_V84.md",
+      "size_bytes": 1396,
+      "sha256": "d605e50bdaff6044155d6b7ace4da376aafc199a8af39a0a38bc1ae560dd9011"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/STRICT_Q4_FOUR_LEG_COVERAGE_V84.csv",
+      "size_bytes": 683,
+      "sha256": "4d5d05a31b720a9c77b44ecb21f666ff73d587df74660e8da9853bc4ba91b0f5"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/USER_FILE_REQUESTS_V84.md",
+      "size_bytes": 365,
+      "sha256": "3725251daa7340fbb3343ee6bb46914cf45b61886507d30ef5edeb43715b64c5"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/VEREDICTO_V84.md",
+      "size_bytes": 493,
+      "sha256": "479bda8439ec9a9df8f7500a4e616cdbda2b0898376cd021e92d8dc8afd6d3d6"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V84/qa_v84.py",
+      "size_bytes": 804,
+      "sha256": "2308508523932d264e3405a957a7ad04dc8460761bd617fbb9ca0e569a53bb40"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/AUDITORIA_V85.md",
+      "size_bytes": 1671,
+      "sha256": "20c1dfde979bd36f6bee7ec1de3dad664779bf6ff1b59fd49d6a7e512e93f94f"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BCRA_63_BANK_RAW_SWEEP_V85.csv",
+      "size_bytes": 13985,
+      "sha256": "58ac95e18318685cd1f4b7036f42c4e5cc25785e74f62a290479708529f643c6"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "size_bytes": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md",
+      "size_bytes": 1322,
+      "sha256": "ddbe0b670b9caeec300aadfa3b998e9a4b8a836be0616ecb5ef4536ec15ccd41"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BNA_521007_HISTORY_V85.csv",
+      "size_bytes": 1176,
+      "sha256": "2825d9dcc099d7a85610104dc7423cadf3566ee1b7b10ff0396589530dd8ea81"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/BNA_521007_PRESENTATION_AUDIT_V85.md",
+      "size_bytes": 669,
+      "sha256": "507ac83370a8d36d72bd09a478fdefd912eab6d187ac29bf586c287762a06860"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "size_bytes": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/CURRENT_STATE_V85.csv",
+      "size_bytes": 1591,
+      "sha256": "0c03dbea3390542a4001fefd576d877fee7c92561b55d23ed85a067ad0aa0c23"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/FOUR_LEG_PASS_PANEL_V85.csv",
+      "size_bytes": 7820,
+      "sha256": "632b4e7eda69f5c47cb0758e9fae9773d0fc71a8abb90b53ca457fe2b488739f"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv",
+      "size_bytes": 874,
+      "sha256": "81094074e0899ae32bafa655bc02318066c9e07a201ea4ec08cafb6c81d972a2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V85_A_V86.md",
+      "size_bytes": 1865,
+      "sha256": "cb9b044758ca7928bf32af29473a7b17320f8c429a22cf5dc05b508e15ffc0de"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/MANIFEST_V85.json",
+      "size_bytes": 4593,
+      "sha256": "2ffc1587b7fb0b029b0d36b977c33b987a0620fd9c568af2f621a1f16e0eb4c7"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv",
+      "size_bytes": 1844,
+      "sha256": "9abf234aad7e7a479fcda54bf423d5645fb18dd4fc3eb9f85d3e5dcf347388c2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/README_V85.md",
+      "size_bytes": 430,
+      "sha256": "1907d76d8a1972d261ea102828703756d936d5331701d094cc1cef45a1def1a5"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/RECOVERY_QUEUE_V85.csv",
+      "size_bytes": 661,
+      "sha256": "68d7515340b9957035c3e11475288920a2e18c472ab1ebcee96a10e130588e69"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/SOURCE_REFERENCES_V85.md",
+      "size_bytes": 1508,
+      "sha256": "237eb3fb308544464993aa5ec4de4a6a6c9c622b1750a2faebdfdcfaa65b10e7"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/STRICT_Q4_FOUR_LEG_COVERAGE_V85.csv",
+      "size_bytes": 682,
+      "sha256": "51f565d6e39505a1fdd807fe54e6d1d4199b4bb637ce41463e7274740f7fb331"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/USER_FILE_REQUESTS_V85.md",
+      "size_bytes": 288,
+      "sha256": "f199953e43052707e78ed6b14c99e8d10e04608aa36430f601cce82f124bc463"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/VEREDICTO_V85.md",
+      "size_bytes": 579,
+      "sha256": "0e1c8f6ffceae5b059444e39de9a8443dd6d3d094f32e8175040cbd8799b9ae7"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V85/qa_v85.py",
+      "size_bytes": 1115,
+      "sha256": "c886234537c60bacb538a68e7c526f40d2edff230bc026ac697e296af6d21213"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/ANNEX_Q_FREQUENCY_CORRECTION_V86.md",
+      "size_bytes": 860,
+      "sha256": "f6d67713ef9db5a717fad5bcfdb6ff4864ffa5ba1cafb9f5fc9b43fdc0e01318"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/AUDITORIA_V86.md",
+      "size_bytes": 1980,
+      "sha256": "ff46ef66d29a84ab89147b0f3d52a5b4e25b66db5ecc927450429707da0d8513"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv",
+      "size_bytes": 672,
+      "sha256": "a2d5fea7c2fab9d6b978f8bc57d4ff66f4ed2b9e1e608557e3432536539184da"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv",
+      "size_bytes": 1361,
+      "sha256": "18bfd71efbd783a0ca8bdb8a5702d280ff0e6ea84aef27370464c855278bf8f0"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv",
+      "size_bytes": 970,
+      "sha256": "4a8a22fe770a1ecafbd0ff401b94d4cff0c13147ec9c9d3a75d813f5694576b7"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BCRA_63_BANK_RAW_SWEEP_V85.csv",
+      "size_bytes": 13985,
+      "sha256": "58ac95e18318685cd1f4b7036f42c4e5cc25785e74f62a290479708529f643c6"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "size_bytes": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md",
+      "size_bytes": 1322,
+      "sha256": "ddbe0b670b9caeec300aadfa3b998e9a4b8a836be0616ecb5ef4536ec15ccd41"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BNA_521007_HISTORY_V85.csv",
+      "size_bytes": 1176,
+      "sha256": "2825d9dcc099d7a85610104dc7423cadf3566ee1b7b10ff0396589530dd8ea81"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BNA_521007_PRESENTATION_AUDIT_V85.md",
+      "size_bytes": 669,
+      "sha256": "507ac83370a8d36d72bd09a478fdefd912eab6d187ac29bf586c287762a06860"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md",
+      "size_bytes": 803,
+      "sha256": "ef0c99c84c6ddcdbde0786c92b9cd3360d7ac3d9ede18f39d733e5d679eea068"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "size_bytes": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/CURRENT_STATE_V86.csv",
+      "size_bytes": 2160,
+      "sha256": "2168ca39c754763a606140cf92392598836b2b765383f21383e95fe8c74b7bec"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/FOUR_LEG_PASS_PANEL_V86.csv",
+      "size_bytes": 8410,
+      "sha256": "d3b91c46b9a449b35a7ec04708dd73367328484be1f817f81a5fc9bd6d58a132"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv",
+      "size_bytes": 874,
+      "sha256": "81094074e0899ae32bafa655bc02318066c9e07a201ea4ec08cafb6c81d972a2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V86_A_V87.md",
+      "size_bytes": 2167,
+      "sha256": "96a4b349f8785cb23b398e6b6f6bfda894ce177329533ea6f6e817e42d022372"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/MANIFEST_V86.json",
+      "size_bytes": 5538,
+      "sha256": "abd3a79a1a33988390bb940a81140df340bc76b0fe7d7b0eef46b23ad647ab34"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv",
+      "size_bytes": 1844,
+      "sha256": "9abf234aad7e7a479fcda54bf423d5645fb18dd4fc3eb9f85d3e5dcf347388c2"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/README_V86.md",
+      "size_bytes": 370,
+      "sha256": "6bed87604acc493cc5d02f3e253efd6c8f0a0682846ae29122ddf00c5a3702a3"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/RECOVERY_QUEUE_V86.csv",
+      "size_bytes": 649,
+      "sha256": "0d6526ab82c9da4068b83c19d34df619d38458cb3d930f815614723494d279c0"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/SOURCE_REFERENCES_V86.md",
+      "size_bytes": 2010,
+      "sha256": "d312c908b73e8080b5ca7f0c1c0118d0a20ac5544936fb57ace4bbedb3254aee"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/STRICT_Q4_FOUR_LEG_COVERAGE_V86.csv",
+      "size_bytes": 832,
+      "sha256": "ab2b97e8ebf8a00e6ad564e7523e015d122c34c6d7cba7377b6fc1fd8f6d9202"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/USER_FILE_REQUESTS_V86.md",
+      "size_bytes": 358,
+      "sha256": "54ca61fa6b8d4920e27db3ab7382109a6b276d93e14eae4b5720c7aee6e36817"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/VEREDICTO_V86.md",
+      "size_bytes": 682,
+      "sha256": "bb4f2d2aae8d69d595b4fa7cdeb0db3664053c77274aef46c0e6ebe11e86753c"
+    },
+    {
+      "path": "research/ciclo_ajuste/checkpoints/V86/qa_v86.py",
+      "size_bytes": 1349,
+      "sha256": "290adb10c149cdb2c75e0d1a4bfc8f4abae7b9088558ae6c47212d74ea3d32af"
+    },
+    {
       "path": "research/ciclo_ajuste/inputs/bcra/2023-09/Glosario.pdf",
       "size_bytes": 55020,
       "sha256": "214973ed4108148e4e0930284ea656a7e359e6b5d0f59896c1f5aa3f3c751f06"
@@ -6084,6 +6769,36 @@
       "path": "research/ciclo_ajuste/inputs/bcra/2023-09/Normativa0923.pdf",
       "size_bytes": 32333,
       "sha256": "33f4a5216b5e623024ebc669c0b5ca4e489b55c8fd7aa7c75c01b2febb03cfe1"
+    },
+    {
+      "path": "research/ciclo_ajuste/inputs/bcra/2023-09/informacion_entidades_financieras_open_data/202309d.7z",
+      "size_bytes": 17016237,
+      "sha256": "31a0a315444496d4336695b6bd48deb562456df10e47fbc46de3703a77528bdb"
+    },
+    {
+      "path": "research/ciclo_ajuste/inputs/bcra/2023-09/informacion_entidades_financieras_open_data/202309e.pdf",
+      "size_bytes": 4103456,
+      "sha256": "d5d1f04cc0402b10b0e123c260a862a83bf522bd17b4b751c65d9a7ccb3f3d5c"
+    },
+    {
+      "path": "research/ciclo_ajuste/inputs/bcra/2023-12/informacion_entidades_financieras_open_data/202312d.7z",
+      "size_bytes": 17296123,
+      "sha256": "60ef86addba5e6646a2bfd42853ca077ea7970e9fa6effe54f1179049868f0d4"
+    },
+    {
+      "path": "research/ciclo_ajuste/inputs/bcra/2023-12/informacion_entidades_financieras_open_data/202312e.pdf",
+      "size_bytes": 5928897,
+      "sha256": "453e7729f271628a18bb355bed5d3e40bf0c2fb5eb890a52e322217d0bd19e24"
+    },
+    {
+      "path": "research/ciclo_ajuste/inputs/bcra/2024-06/informacion_entidades_financieras_open_data/202406d.7z",
+      "size_bytes": 17346550,
+      "sha256": "316c6c80f1206b08e13753bb4ac8b8ffe6239fbbf523dc7bddf9154e0e95385d"
+    },
+    {
+      "path": "research/ciclo_ajuste/inputs/bcra/2024-06/informacion_entidades_financieras_open_data/202406e.pdf",
+      "size_bytes": 6027314,
+      "sha256": "991ce57930183c65095c64c6a3abc44f02e419b5186f2287c78e9f7359763719"
     },
     {
       "path": "research/ciclo_ajuste/inputs/manual_recovery/bapro/BAPRO_EEFF_30-09-2023.pdf",
@@ -6119,6 +6834,36 @@
       "path": "research/ciclo_ajuste/meta/HANDOVER_V80_A_V81.md",
       "size_bytes": 1107,
       "sha256": "51bffd14eb6744708d73ae625de6008e82e4902e4832dccff5d1ee8e5d485fbb"
+    },
+    {
+      "path": "research/ciclo_ajuste/meta/HANDOVER_V81_A_V82.md",
+      "size_bytes": 3470,
+      "sha256": "46dbe56af892d471c760f4f1ee6b4ef5f9744680b11c7a31a96f9090303c06da"
+    },
+    {
+      "path": "research/ciclo_ajuste/meta/HANDOVER_V82_A_V83.md",
+      "size_bytes": 3313,
+      "sha256": "a430796589c4caf32d6f7deca3b70895a02ec155dde2287616c265b651c89db2"
+    },
+    {
+      "path": "research/ciclo_ajuste/meta/HANDOVER_V83_A_V84.md",
+      "size_bytes": 2914,
+      "sha256": "e0f9780186115ea66919d8e2f69d85eeab13cc5cd564f8fadf1ec89a2e423a76"
+    },
+    {
+      "path": "research/ciclo_ajuste/meta/HANDOVER_V84_A_V85.md",
+      "size_bytes": 1671,
+      "sha256": "70fb376d884d518556350170752b8fce3396a574502c8704f586d596ed98a4b7"
+    },
+    {
+      "path": "research/ciclo_ajuste/meta/HANDOVER_V85_A_V86.md",
+      "size_bytes": 1865,
+      "sha256": "cb9b044758ca7928bf32af29473a7b17320f8c429a22cf5dc05b508e15ffc0de"
+    },
+    {
+      "path": "research/ciclo_ajuste/meta/HANDOVER_V86_A_V87.md",
+      "size_bytes": 2167,
+      "sha256": "96a4b349f8785cb23b398e6b6f6bfda894ce177329533ea6f6e817e42d022372"
     },
     {
       "path": "research/ciclo_ajuste/meta/ORIGINAL_MANIFEST_SHA256.json",

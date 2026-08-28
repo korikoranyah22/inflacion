@@ -1,0 +1,138 @@
+{
+  "checkpoint": "V85",
+  "created_utc": "2026-08-28T09:28:43.732295+00:00",
+  "parent_checkpoint": "V84",
+  "strict_coverage_pct": 36.334782973188844,
+  "promotion_count": 1,
+  "promoted": [
+    "Banco de Galicia y Buenos Aires SAU"
+  ],
+  "rejected_hypothesis": "mass promotion from six-digit BCRA IEF raw",
+  "files": [
+    {
+      "file": "AUDITORIA_V85.md",
+      "size_bytes": 1671,
+      "sha256": "20c1dfde979bd36f6bee7ec1de3dad664779bf6ff1b59fd49d6a7e512e93f94f"
+    },
+    {
+      "file": "BCRA_63_BANK_RAW_SWEEP_V85.csv",
+      "size_bytes": 13985,
+      "sha256": "58ac95e18318685cd1f4b7036f42c4e5cc25785e74f62a290479708529f643c6"
+    },
+    {
+      "file": "BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "file": "BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "file": "BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "size_bytes": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "file": "BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md",
+      "size_bytes": 1322,
+      "sha256": "ddbe0b670b9caeec300aadfa3b998e9a4b8a836be0616ecb5ef4536ec15ccd41"
+    },
+    {
+      "file": "BNA_521007_HISTORY_V85.csv",
+      "size_bytes": 1176,
+      "sha256": "2825d9dcc099d7a85610104dc7423cadf3566ee1b7b10ff0396589530dd8ea81"
+    },
+    {
+      "file": "BNA_521007_PRESENTATION_AUDIT_V85.md",
+      "size_bytes": 669,
+      "sha256": "507ac83370a8d36d72bd09a478fdefd912eab6d187ac29bf586c287762a06860"
+    },
+    {
+      "file": "CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "size_bytes": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "file": "CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "file": "CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "file": "CURRENT_STATE_V85.csv",
+      "size_bytes": 1591,
+      "sha256": "0c03dbea3390542a4001fefd576d877fee7c92561b55d23ed85a067ad0aa0c23"
+    },
+    {
+      "file": "FOUR_LEG_PASS_PANEL_V85.csv",
+      "size_bytes": 7820,
+      "sha256": "632b4e7eda69f5c47cb0758e9fae9773d0fc71a8abb90b53ca457fe2b488739f"
+    },
+    {
+      "file": "GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv",
+      "size_bytes": 874,
+      "sha256": "81094074e0899ae32bafa655bc02318066c9e07a201ea4ec08cafb6c81d972a2"
+    },
+    {
+      "file": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V85_A_V86.md",
+      "size_bytes": 1865,
+      "sha256": "cb9b044758ca7928bf32af29473a7b17320f8c429a22cf5dc05b508e15ffc0de"
+    },
+    {
+      "file": "RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv",
+      "size_bytes": 1844,
+      "sha256": "9abf234aad7e7a479fcda54bf423d5645fb18dd4fc3eb9f85d3e5dcf347388c2"
+    },
+    {
+      "file": "README_V85.md",
+      "size_bytes": 430,
+      "sha256": "1907d76d8a1972d261ea102828703756d936d5331701d094cc1cef45a1def1a5"
+    },
+    {
+      "file": "RECOVERY_QUEUE_V85.csv",
+      "size_bytes": 661,
+      "sha256": "68d7515340b9957035c3e11475288920a2e18c472ab1ebcee96a10e130588e69"
+    },
+    {
+      "file": "SOURCE_REFERENCES_V85.md",
+      "size_bytes": 1508,
+      "sha256": "237eb3fb308544464993aa5ec4de4a6a6c9c622b1750a2faebdfdcfaa65b10e7"
+    },
+    {
+      "file": "STRICT_Q4_FOUR_LEG_COVERAGE_V85.csv",
+      "size_bytes": 682,
+      "sha256": "51f565d6e39505a1fdd807fe54e6d1d4199b4bb637ce41463e7274740f7fb331"
+    },
+    {
+      "file": "USER_FILE_REQUESTS_V85.md",
+      "size_bytes": 288,
+      "sha256": "f199953e43052707e78ed6b14c99e8d10e04608aa36430f601cce82f124bc463"
+    },
+    {
+      "file": "VEREDICTO_V85.md",
+      "size_bytes": 579,
+      "sha256": "0e1c8f6ffceae5b059444e39de9a8443dd6d3d094f32e8175040cbd8799b9ae7"
+    },
+    {
+      "file": "qa_v85.py",
+      "size_bytes": 1115,
+      "sha256": "c886234537c60bacb538a68e7c526f40d2edff230bc026ac697e296af6d21213"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+account,semantic,sep2023,dec2023,strict_use,note
+511108,pases activos con BCRA,276317950.0,766170918.0,YES_FOR_CONTROL,direct plan-account semantic; Dec differs by 1k from frozen separated Annex Q income_BCRA and equals consolidated FY
+511027,pases activos con sector financiero,0,0,ZERO_EXHAUSTIVE_RAW,absent in full nonzero account file
+521108,pases pasivos con BCRA,0,0,ZERO_EXHAUSTIVE_RAW,absent in full nonzero account file
+521022,pases pasivos con sector financiero,0,0,ZERO_EXHAUSTIVE_RAW,absent in full nonzero account file
+521007,otros pases pasivos,2.0,49898208.0,DO_NOT_AUTOMAP_TO_OTHERFI,large Dec balance conflicts with frozen BNA separated Annex Q pass-expense=0; requires presentation/subaccount crosswalk

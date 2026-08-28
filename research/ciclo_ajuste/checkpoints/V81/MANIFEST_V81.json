@@ -1,0 +1,85 @@
+{
+  "checkpoint": "V81",
+  "created_utc": "2026-08-28T07:55:26.019675+00:00",
+  "parent_checkpoint": "V80",
+  "strict_coverage_pct": 23.54332498027319,
+  "promotion_count": 0,
+  "infBanc_Anexo_sha256": "9b1b48b18039389889ee7d480a9c6d8958fb99630f169339e46ab953e7133251",
+  "files": [
+    {
+      "file": "AUDITORIA_V81.md",
+      "size_bytes": 2178,
+      "sha256": "576eb19b6d3c955ccc2bc2c7dfba2dd77c8b234b46a9be4620e3eb649342fd17"
+    },
+    {
+      "file": "BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "file": "BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "file": "CURRENT_STATE_V81.csv",
+      "size_bytes": 1492,
+      "sha256": "22e7f23fa9c6cb0fcb2f49ef65370897610bf59a4359692d63f3391714d1f320"
+    },
+    {
+      "file": "FOUR_LEG_PASS_PANEL_V81.csv",
+      "size_bytes": 5901,
+      "sha256": "f2c12cb5caa303af6f76fc3fde95567664967a7a17b15f20ec97748425a57abb"
+    },
+    {
+      "file": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V81_A_V82.md",
+      "size_bytes": 3470,
+      "sha256": "46dbe56af892d471c760f4f1ee6b4ef5f9744680b11c7a31a96f9090303c06da"
+    },
+    {
+      "file": "README_V81.md",
+      "size_bytes": 526,
+      "sha256": "2b632621070f8d37a20530f7644480c2228f1d02530b0f651f49c4a15e311c21"
+    },
+    {
+      "file": "RECOVERY_QUEUE_V81.csv",
+      "size_bytes": 1090,
+      "sha256": "db36c01ab3f46b3e5c16c11728dc9276fd479550c0c629e1c4f8e906bdfeaf49"
+    },
+    {
+      "file": "SOURCE_REFERENCES_V81.md",
+      "size_bytes": 2063,
+      "sha256": "14fac2156056a7fcb096e8a68e37f5cf8f1fe3c93c24caa2eb58d7be26801b90"
+    },
+    {
+      "file": "STRICT_Q4_FOUR_LEG_COVERAGE_V81.csv",
+      "size_bytes": 633,
+      "sha256": "1ed2828fd3080a9208bb2fef5dd4054b055a463f0d977a5a99be61717809d1a2"
+    },
+    {
+      "file": "USER_FILE_REQUESTS_V81.md",
+      "size_bytes": 827,
+      "sha256": "06fa11caf1aca586be092faa9ff00990d16868df6db5cd5aac30bf250e11d724"
+    },
+    {
+      "file": "VEREDICTO_V81.md",
+      "size_bytes": 864,
+      "sha256": "6dfcbb4d9a3827c492b0065d2a0dfe57c9f4d2a0c41116a1e90c70ef8fe9a633"
+    },
+    {
+      "file": "qa_v81.py",
+      "size_bytes": 923,
+      "sha256": "e92d6dc9df13e917fb355de0b754598807044fc6e505a01be8f32d11e70289fb"
+    }
+  ]
+}

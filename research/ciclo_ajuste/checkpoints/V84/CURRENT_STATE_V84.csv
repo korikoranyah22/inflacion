@@ -1,0 +1,8 @@
+entity,target_basis,fy_status,nine_month_status,q4_four_leg_status,strict_panel_status,priority,next_action
+Industrial and Commercial Bank of China (Argentina) S.A.U.,INDIVIDUAL_STANDALONE,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco de Valores S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain
+Banco Macro S.A.,SEPARATED_INDIVIDUAL,COMPATIBLE,COMPATIBLE,EXACT,ELIGIBLE,CLOSED,retain; V84 raw crosscheck exact on income legs and total pass expense
+Banco Credicoop Cooperativo Limitado,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE6_EXACT_CROSSWALK,EXACT,ELIGIBLE,CLOSED,retain; V84 raw 511108 exact crosscheck
+Banco de la Provincia de Buenos Aires,SEPARATED_INDIVIDUAL,FY_EXACT,PRIMARY_SEPARATED_9M_NOTE14_15_EXACT,EXACT,ELIGIBLE,CLOSED,retain; V84 raw 511108/521022 exact crosscheck
+Banco Ciudad de Buenos Aires,INDIVIDUAL_ENTITY_REGULATORY,BCRA_RAW_DEC_EXACT,BCRA_RAW_SEP_EXACT,EXACT,ELIGIBLE,CLOSED_V84,retain; raw account bridge independent of issuer consolidated control
+Banco de la Nacion Argentina,SEPARATED_INDIVIDUAL / INDIVIDUAL_REGULATORY_CONTROL,FY_EXACT_SEPARATED; RAW_DEC_CROSSCHECK_DIVERGES_ON_521007,RAW_SEP_RECOVERED_BUT_PRESENTATION_CROSSWALK_INCOMPLETE,N/D_STRICT,PENDING,1,resolve mapping/presentation of 521007 or recover full separated 9M Annex Q; do not autoassign

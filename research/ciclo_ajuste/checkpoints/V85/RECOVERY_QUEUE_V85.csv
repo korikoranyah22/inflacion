@@ -1,0 +1,3 @@
+rank,entity,missing_artifact,known_route,why_it_matters,user_help_useful,status
+1,Banco de la Nacion Argentina,Full separated 30-09-2023 Annex Q or explicit subaccount/presentation crosswalk,BNA/AGN/BCRA reporting package,Would distinguish the Sep 521007 reclassification and complete BNA Q4 without inference,ONLY_IF_CONCRETE_BINARY_FOUND,PENDING_PRESENTATION_CROSSWALK
+2,Santander Argentina,Separated 30-09-2023 Annex Q counterparty split,issuer full 9M package / regulatory submission,FY proves six-digit raw cannot split BCRA vs otherFI universally; 9M counterparties still needed for exact Q4,ONLY_IF_CONCRETE_BINARY_FOUND,PENDING_9M_COUNTERPARTY_SPLIT

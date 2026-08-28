@@ -1,0 +1,117 @@
+{
+  "checkpoint": "V84",
+  "created_utc": "2026-08-28T09:00:24.626016+00:00",
+  "parent_checkpoint": "V83",
+  "strict_coverage_pct": 27.36550851928007,
+  "promotion_count": 1,
+  "promoted": [
+    "Banco Ciudad de Buenos Aires"
+  ],
+  "files": [
+    {
+      "file": "AUDITORIA_V84.md",
+      "size_bytes": 1303,
+      "sha256": "4d52414b438dac7beef4d527bfdebeec75193cbc6e3a6f7fc7385bb316aaf79f"
+    },
+    {
+      "file": "BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "file": "BCRA_OPEN_DATA_RAW_AUDIT_V84.md",
+      "size_bytes": 2158,
+      "sha256": "25467fd3b69d10a67c07ad32ec22ca6ddb4d92c5995910c118d49d61b8211c0c"
+    },
+    {
+      "file": "BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "file": "BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "size_bytes": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "file": "BNA_BCRA_RAW_ACCOUNT_AUDIT_V84.csv",
+      "size_bytes": 727,
+      "sha256": "2b098f79a05f7fec0d32f11f7c73f23e590de0beb6d0ee082c43f37e95251106"
+    },
+    {
+      "file": "CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "size_bytes": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "file": "CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "file": "CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "file": "CURRENT_STATE_V84.csv",
+      "size_bytes": 1345,
+      "sha256": "14b0554d503aaf25a492f82976e4da6941bbd833bcbc6523eeee86d42469a191"
+    },
+    {
+      "file": "FOUR_LEG_PASS_PANEL_V84.csv",
+      "size_bytes": 7460,
+      "sha256": "e5c54ed4a6dd64d15b8331d881cb9878b0978f640e9b4a5cff7bc81eafd301fc"
+    },
+    {
+      "file": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V84_A_V85.md",
+      "size_bytes": 1671,
+      "sha256": "70fb376d884d518556350170752b8fce3396a574502c8704f586d596ed98a4b7"
+    },
+    {
+      "file": "README_V84.md",
+      "size_bytes": 349,
+      "sha256": "28c0fb95a32e20fc1e386c23984f68bb8b51d311f0a42de16da454795bdd2b41"
+    },
+    {
+      "file": "RECOVERY_QUEUE_V84.csv",
+      "size_bytes": 700,
+      "sha256": "cc159a17338e480bec2c103a4f5c77b783539845250460f176cf8fdbb77a1c62"
+    },
+    {
+      "file": "SOURCE_REFERENCES_V84.md",
+      "size_bytes": 1396,
+      "sha256": "d605e50bdaff6044155d6b7ace4da376aafc199a8af39a0a38bc1ae560dd9011"
+    },
+    {
+      "file": "STRICT_Q4_FOUR_LEG_COVERAGE_V84.csv",
+      "size_bytes": 683,
+      "sha256": "4d5d05a31b720a9c77b44ecb21f666ff73d587df74660e8da9853bc4ba91b0f5"
+    },
+    {
+      "file": "USER_FILE_REQUESTS_V84.md",
+      "size_bytes": 365,
+      "sha256": "3725251daa7340fbb3343ee6bb46914cf45b61886507d30ef5edeb43715b64c5"
+    },
+    {
+      "file": "VEREDICTO_V84.md",
+      "size_bytes": 493,
+      "sha256": "479bda8439ec9a9df8f7500a4e616cdbda2b0898376cd021e92d8dc8afd6d3d6"
+    },
+    {
+      "file": "qa_v84.py",
+      "size_bytes": 804,
+      "sha256": "2308508523932d264e3405a957a7ad04dc8460761bd617fbb9ca0e569a53bb40"
+    }
+  ]
+}

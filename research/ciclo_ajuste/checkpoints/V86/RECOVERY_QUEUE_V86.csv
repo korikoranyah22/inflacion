@@ -1,0 +1,4 @@
+priority,entity,missing_artifact,why,status
+1,Banco de la Nacion Argentina,Separated 30/09/2023 interim interest-income / interest-expense opening OR explicit BNA subaccount-to-presentation mapping,Resolve Sep 521007 without backward inference from FY; Annex Q is annual,OPEN
+2,Banco Santander Argentina SA,Separated 30/09/2023 interest notes/exhibits OR explicit regulator BCRA-vs-otherFI mapping,FY exact; 9M counterparty split missing and raw six-digit mapping is non-universal,OPEN
+3,Next large bank after BNA/Santander,Entity-specific 9M/FY presentation validation,Use raw only after entity-specific crosswalk validation,OPEN_AFTER_TOP_TWO

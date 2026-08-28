@@ -1,0 +1,2 @@
+received_filename,size_bytes,sha256,matches_canonical_path,canonical_sha256,verdict,effect_on_coverage
+2023-210-Informe CC 2(3).pdf,4181764,563b4e6f30ff13bd7a8cec6f794ad90a64383866cf907c434d9c7841a703ffd5,research/ciclo_ajuste/inputs/manual_recovery/bna_agn/2023-210-Informe CC 2.pdf,563b4e6f30ff13bd7a8cec6f794ad90a64383866cf907c434d9c7841a703ffd5,BYTE_FOR_BYTE_DUPLICATE_ALREADY_PRESERVED_CONSOLIDATED_CC2_NO_NEW_EVIDENCE,NONE

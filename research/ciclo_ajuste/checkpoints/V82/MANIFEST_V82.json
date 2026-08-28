@@ -1,0 +1,105 @@
+{
+  "checkpoint": "V82",
+  "created_utc": "2026-08-28T08:07:12.677727+00:00",
+  "parent_checkpoint": "V81",
+  "strict_coverage_pct": 23.54332498027319,
+  "promotion_count": 0,
+  "active_manual_rescue": "AGN Informe 210/2023 Anexo",
+  "files": [
+    {
+      "file": "AUDITORIA_V82.md",
+      "size_bytes": 2200,
+      "sha256": "51c75557f816d3a27a4d486a848ab638bb38774e2dda7163b546e94baf66d8fc"
+    },
+    {
+      "file": "BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "size_bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "file": "BCRA_OPEN_DATA_ARCHIVE_AUDIT_V82.md",
+      "size_bytes": 1963,
+      "sha256": "cab8c43d8ff7bf7585773ad462a428a1db054ccfbc737fdf76d256dbc1dd7b9a"
+    },
+    {
+      "file": "BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "size_bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "size_bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "file": "BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "size_bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "file": "BNA_RETRIEVAL_AUDIT_V82.md",
+      "size_bytes": 1820,
+      "sha256": "4161c1c8c3af84f827ad7bebe0a63bb618d47562c085c4f0d280fa62e7c6fec2"
+    },
+    {
+      "file": "CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "size_bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "file": "CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "size_bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "file": "CURRENT_STATE_V82.csv",
+      "size_bytes": 1577,
+      "sha256": "ea79be0dc705569a01218ff1e456b09391848b481905761bf47e45a573a0b303"
+    },
+    {
+      "file": "FOUR_LEG_PASS_PANEL_V82.csv",
+      "size_bytes": 6327,
+      "sha256": "bddd24937bbba7bf6679f69c2c5c534dfa9d2993cb3c9977401bcd37d8acd75a"
+    },
+    {
+      "file": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V82_A_V83.md",
+      "size_bytes": 3313,
+      "sha256": "a430796589c4caf32d6f7deca3b70895a02ec155dde2287616c265b651c89db2"
+    },
+    {
+      "file": "README_V82.md",
+      "size_bytes": 602,
+      "sha256": "089a5e52ad48845828f8544245267eda6bbdc84101815a3b727d3dab8030b8d0"
+    },
+    {
+      "file": "RECOVERY_QUEUE_V82.csv",
+      "size_bytes": 1542,
+      "sha256": "b3678c9a87d93a3e9a05179bbf6a76390c0b7df65f6a52bc6a08dffb648449c8"
+    },
+    {
+      "file": "SOURCE_REFERENCES_V82.md",
+      "size_bytes": 2319,
+      "sha256": "9c6c22ef595d48c742e12b40f99b9d206fe11673ad85721b6ed46bcc0f2979ee"
+    },
+    {
+      "file": "STRICT_Q4_FOUR_LEG_COVERAGE_V82.csv",
+      "size_bytes": 837,
+      "sha256": "6c9af5d2c36341e1697d9643abef188877e65da96d3403a85674a218cf7451b7"
+    },
+    {
+      "file": "USER_FILE_REQUESTS_V82.md",
+      "size_bytes": 808,
+      "sha256": "3d555a425ccdb1542a6c83c1f7f190912089a96df579e4ef000d51c1905fbf1d"
+    },
+    {
+      "file": "VEREDICTO_V82.md",
+      "size_bytes": 1028,
+      "sha256": "481374052b98a8e64f5c89165868a2d6e5b3662197f74568e2f301b669e81f39"
+    },
+    {
+      "file": "qa_v82.py",
+      "size_bytes": 1003,
+      "sha256": "a1ddabd7643b81c3ae1a9038e7229d220604705bded03be33aac70dd4d6f5d58"
+    }
+  ]
+}
