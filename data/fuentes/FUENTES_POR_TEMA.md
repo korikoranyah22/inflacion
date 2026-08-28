@@ -1,6 +1,6 @@
 # Índice de fuentes por tema
 
-Generado desde `FUENTES.csv` · corte 27-08-2026.
+Generado desde `FUENTES.csv` · corte 27-08-2026 · estado Ciclo del Ajuste V70.
 
 ## ahorro_hogares (4)
 
@@ -24,7 +24,7 @@ Generado desde `FUENTES.csv` · corte 27-08-2026.
 - **aporte_solidario_informe_final** — Ministerio de Economía · Aporte Solidario y Extraordinario · informe final al 17/12/2021 · local  
   `https://www.argentina.gob.ar/sites/default/files/2021/12/aporte_solidario_final_2021.12.20.pdf`
 
-## ciclo_ajuste_bancos (24)
+## ciclo_ajuste_bancos (50)
 
 - **bcra_ief_1s2018_ciclo** — BCRA · IEF · primer semestre 2018  
   `https://www.bcra.gob.ar/publicaciones/informe-de-estabilidad-financiera-primer-semestre-de-2018/`
@@ -97,6 +97,99 @@ Generado desde `FUENTES.csv` · corte 27-08-2026.
 
 - **bcra_isb_sep2024_ciclo** — BCRA · Informe sobre Bancos · septiembre 2024  
   `https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-septiembre-de-2024/`
+
+
+- **agn_bna_informe210_9m2023** — AGN · Informe 210/2023 · BNA 9M 2023  
+  `https://www.agn.gob.ar/informes/Informe-210-2023`
+
+- **audit_ciclo_ajuste_v70** — Elaboración propia · Auditoría Ciclo del Ajuste · V70 · local  
+  `/data/fuentes/ciclo_ajuste/AUDITORIA_CICLO_AJUSTE_V70.md`
+
+- **bapro_disciplina_sep2023_control** — Banco Provincia · Disciplina de Mercado · septiembre 2023  
+  `https://www.bancoprovincia.com.ar/CDN/Get/Disciplina_de_Mercado_septiembre_2023`
+
+- **bapro_eeff_fy2023_aq** — Banco Provincia · Estados financieros FY 2023 · Anexo Q separado  
+  `https://www.bancoprovincia.com.ar/CDN/Get/EEFF_unificado_31122023`
+
+- **bcra_entidades_dic2023_red_pases** — BCRA · Información de Entidades Financieras · diciembre 2023  
+  `https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202312e.pdf`
+
+- **bna_9m_recovery_v70** — Elaboración propia · Auditoría recuperación BNA 9M · V70 · local  
+  `/data/fuentes/ciclo_ajuste/v70/BNA_9M_BINARY_RECOVERY_V70.csv`
+
+- **bna_balance_condensado_sep2023_control** — Banco Nación · Balance Condensado · septiembre 2023  
+  `https://www.bna.com.ar/Downloads/Institucional_MemoriayBalances_BALANCE%20CONDENSADO%20SEPT%202023.pdf`
+
+- **bna_memoria_fy2023_aq** — Banco Nación · Memoria y Estados Financieros 2023 · Schedule Q individual/consolidado  
+  `https://www.bna.com.ar/Downloads/Institucional_MemoriayBalances_Memoria%202023%20Ingles.pdf`
+
+- **ciudad_eeff_9m2023_consol_control** — Banco Ciudad · Estados financieros consolidados 30/09/2023  
+  `https://www.bancociudad.com.ar/cms/recursos/institucional/carpetarecurso/Balances%20Trimestrales/EstadosFinancieros/2023.09_-_EEFF_consolidados.pdf`
+
+- **closed_network_coverage_v70** — Elaboración propia · Cobertura de red de pases · V70 · local  
+  `/data/fuentes/ciclo_ajuste/v70/CLOSED_NETWORK_COVERAGE_V70.csv`
+
+- **credicoop_eeff_fy2023_aq** — Banco Credicoop · Memoria y Balance 2023 · Anexo Q separado  
+  `https://www.bancocredicoop.coop/api/descargas/descargar.php?descarga=819`
+
+- **four_leg_pass_panel_v70** — Elaboración propia · Panel four-leg de pases · V70 · local  
+  `/data/fuentes/ciclo_ajuste/v70/FOUR_LEG_PASS_PANEL_V70.csv`
+
+- **icbc_eeff_9m2023_aq** — ICBC Argentina · Estados financieros 30/09/2023 · Anexo Q  
+  `https://www.icbc.com.ar/wcm/connect/4de3ed09-cb4e-4064-b6a5-0aa3f0bca5fd/Estados%2BFinancieros%2BICBC%2B202309_ESPA%C3%91OL%2BLEGALIZADO.pdf?CVID=oNG1sHj&MOD=AJPERES`
+
+- **icbc_eeff_fy2023_aq** — ICBC Argentina · Estados financieros 31/12/2023 · Anexo Q  
+  `https://www.icbc.com.ar/wcm/connect/09254af5-2d9a-4742-bec0-bbd0018305d5/Estados%2BFinancieros%2BICBC%2B202312_ESPA%C3%91OL%2BLEGALIZADO.pdf?CVID=oUU1Wae&MOD=AJPERES`
+
+- **ledger_ciclo_ajuste_v70** — Elaboración propia · Evidence ledger Ciclo del Ajuste · V70 · local  
+  `/data/fuentes/ciclo_ajuste/v70/EVIDENCE_LEDGER_CICLO_AJUSTE_V70.csv`
+
+- **macro_eeff_9m2023_aq** — Banco Macro · Estados financieros 30/09/2023 · bloque separado / Anexo Q  
+  `https://www.macro.com.ar/relaciones-inversores/documento/1580934703038/banco_macro_sa_eeff_30-09-2023.pdf`
+
+- **macro_eeff_fy2023_aq** — Banco Macro · Estados financieros 31/12/2023 · bloque separado / Anexo Q  
+  `https://www.macro.com.ar/relaciones-inversores/documento/1580935557769/eeff_bm_31-12-2023.pdf`
+
+- **refs_ciclo_ajuste_v70** — Elaboración propia · Referencias Ciclo del Ajuste · V70 · local  
+  `/data/fuentes/ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V70.md`
+
+- **santander_cnv_filings_2023** — CNV · Banco Santander Argentina · presentaciones 2023  
+  `https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/30500008454`
+
+- **santander_eeff_9m2023_sep_mirror** — Santander Argentina / mirror regulatorio · Estados separados intermedios 30/09/2023  
+  `https://cdn.financialreports.eu/financialreports/media/filings/68743/2023/RNS/68743_rns_2023-11-24_514c3f88-1bff-43e7-9afe-b8e793c5e3e1.pdf`
+
+- **santander_eeff_fy2023_aq_mirror** — Santander Argentina / mirror regulatorio · Estados separados FY 2023 · Anexo Q  
+  `https://cdn.financialreports.eu/financialreports/media/filings/68743/2024/RNS/68743_rns_2024-03-06_8a497326-fbc5-4ac4-bb14-21ece6df12e5.pdf`
+
+- **supervielle_eeff_9m2023_sep** — Banco Supervielle · Estados financieros condensados 30/09/2023 · separados  
+  `https://content-us-7.content-cms.com/8ba19f21-9a97-4525-8886-f54d823a5cea/dxdam/02/025e5bb4-d630-480e-a03d-397a022080ff/EECC%20Banco%20Supervielle%2030.09.23.pdf`
+
+- **supervielle_eeff_fy2023_aq** — Banco Supervielle · Estados financieros FY 2023 · Anexo Q separado  
+  `https://content-us-7.content-cms.com/8ba19f21-9a97-4525-8886-f54d823a5cea/dxdam/08/08afb7e5-b4c1-4396-925e-b66a2f5c13b1/EECC%20Banco%20Supervielle%2031.12.2023.pdf`
+
+- **valo_eeff_9m2023_aq_mirror** — Banco de Valores / mirror regulatorio · Estados separados 30/09/2023 · Anexo Q  
+  `https://cdn.financialreports.eu/financialreports/media/filings/68513/2023/RNS/68513_rns_2023-11-23_b356ffca-3ad3-4121-b2bc-c9ff8ad7aa0e.pdf`
+
+- **valo_eeff_fy2023_aq** — Banco de Valores · Estados financieros FY 2023 · bloque separado / Anexo Q  
+  `https://www.valo.ar/wp-content/uploads/BVSA-2023-Estados-Financieros-con-PDU-e-ICF-Consolidado-Legalizado.pdf`
+
+- **veredicto_ciclo_ajuste_v70** — Elaboración propia · Veredicto Ciclo del Ajuste · V70 · local  
+  `/data/fuentes/ciclo_ajuste/VEREDICTO_CICLO_AJUSTE_V70.md`
+
+## ciclo_ajuste_hogares (4)
+
+- **bcra_boldat202505_tipo_titular** — BCRA · Boletín Estadístico mayo 2025 · tipo de titular/destino  
+  `https://www7.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/BoletinEstadistico/boldat202505.pdf`
+
+- **bcra_bolmetes_prestamos_titular** — BCRA · Notas metodológicas del Boletín Estadístico  
+  `https://web2.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/bolmetes.pdf`
+
+- **bcra_prestamos_activos_sector_mapping** — BCRA · Préstamos y otros activos de las entidades financieras  
+  `https://www.bcra.gob.ar/prestamos-y-otros-activos-de-las-entidades-financieras/`
+
+- **household_sector_mapping_v70** — Elaboración propia · Mapping producto → sector hogar · V70 · local  
+  `/data/fuentes/ciclo_ajuste/v70/HOUSEHOLD_SECTOR_MAPPING_V70.csv`
 
 ## concentracion_patrimonial (1)
 

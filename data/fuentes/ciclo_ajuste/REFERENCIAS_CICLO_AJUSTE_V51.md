@@ -1,5 +1,8 @@
 # Referencias — Ciclo del ajuste, balances bancarios y transmisión · corte 27-08-2026
 
+> **SNAPSHOT HISTÓRICO — NO USAR COMO ESTADO VIGENTE.** Este archivo conserva el cierre V51. Para contrapartes, pases, base individual, mapping hogar y claims revocados usar [`REFERENCIAS_CICLO_AJUSTE_V70.md`](./REFERENCIAS_CICLO_AJUSTE_V70.md).
+
+
 ## Objeto
 
 Este índice reúne las fuentes primarias que sostienen la rama de investigación causal/documental sobre los shocks domésticos de **2014, 2018 y 2023–24**. No reemplaza las auditorías: sirve como mapa estable de navegación.

@@ -2,7 +2,7 @@
 
 **Catálogo canónico:** `data/fuentes/FUENTES.csv`  
 **Corte:** 27 de agosto de 2026  
-**Entradas registradas:** 106
+**Entradas registradas:** 136
 
 ## Jerarquía
 
@@ -15,10 +15,13 @@
 
 - `FUENTES.csv`: manifiesto maestro y compatible con los scripts existentes.
 - `FUENTES_NUEVAS_2026-08-25.csv`: snapshot histórico de la tanda incorporada el 25/08.
-- `FUENTES_NUEVAS_2026-08-27.csv`: nueva tanda de ahorro/stock de hogares + ciclo de ajuste/bancos.
+- `FUENTES_NUEVAS_2026-08-27.csv`: tanda inicial de ahorro/stock de hogares + ciclo de ajuste/bancos.
+- `FUENTES_NUEVAS_2026-08-27_V70.csv`: patch documental V64–V70 de contrapartes, pases, base individual y mapping hogar.
 - `FUENTES_VALIDACION_2026-08-27.csv`: existencia local y SHA-256 actual.
 - `FUENTES_POR_TEMA.md`: índice humano agrupado por tema.
-- `ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V51.md`: mapa causal/documental 2014/2018/2023.
+- `ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V51.md`: snapshot histórico del mapa al cierre V51.
+- `ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V70.md`: mapa causal/documental vigente y claims revocados V52–V70.
+- `ciclo_ajuste/AUDITORIA_CICLO_AJUSTE_V70.md` + `VEREDICTO_CICLO_AJUSTE_V70.md`: cierre autoritativo del patch.
 - `hogares/REFERENCIAS_AHORRO_STOCK_2018_2025.md`: desahorro y stock financiero.
 
 ## Regla de no doble conteo
@@ -29,6 +32,9 @@ Una misma fuente puede alimentar distintas vistas, pero el catálogo no conviert
 costo hogar != ingreso bruto banco != utilidad neta
 resultado contable != efecto causal
 valuación != transferencia
+stock != flujo
+producto != sector hogar
+submuestra abierta != sistema cerrado
 ```
 
 ## Compatibilidad
