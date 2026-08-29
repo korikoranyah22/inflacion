@@ -1,0 +1,9 @@
+period,account,raw_description,debit_k,credit_k,blp_specific_target,source
+202309,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,19150613.000,income_bcra,BCRA 202309d.7z / Entfin/Tec_Cont/baldet/00093.txt
+202309,521022,INTERESES POR PASES PASIVOS CON EL,3334.000,0.000,expense_otherfi,BCRA 202309d.7z / Entfin/Tec_Cont/baldet/00093.txt
+202309,511027,not present,0,0,income_otherfi=0,full nonzero entity file inspection
+202309,BCRA_PASS_EXPENSE_LEG,no separately validated BCRA pass-expense line,0,0,expense_bcra=0,entity-specific FY Annex Q validation + Sep full nonzero raw inspection
+202312,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,54227326.000,income_bcra,BCRA 202312d.7z / Entfin/Tec_Cont/baldet/00093.txt
+202312,521022,INTERESES POR PASES PASIVOS CON EL,5110.000,0.000,expense_otherfi,BCRA 202312d.7z / Entfin/Tec_Cont/baldet/00093.txt
+202312,511027,not present,0,0,income_otherfi=0,full nonzero entity file inspection
+202312,BCRA_PASS_EXPENSE_LEG,official FY Annex Q contains pass expense only under Otras Entidades Financieras,0,0,expense_bcra=0,Banco de La Pampa Memoria y Balance 2023 Annex Q p.95

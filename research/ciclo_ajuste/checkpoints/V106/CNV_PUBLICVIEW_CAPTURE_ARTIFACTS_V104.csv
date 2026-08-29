@@ -1,0 +1,4 @@
+﻿artifact,bytes,sha256,availability,source_report,implication
+extracted PublicView HTML,77570,33ca3bed35d68eff021ee21a92444b0d0fc8d86ec9931c34b2d0aedd9427f1ba,DOWNLOAD_DISABLED_IN_PUBLIC_REPORT,https://hybrid-analysis.com/sample/ac87b43af4c0dbf25d023fe4ce82067902593276ae57d244701dea2b55fd8258/681254b0322cb01225073c1b,Exact historical HTML body exists as a hashed artifact; obtaining it would expose markup/handlers without guessing.
+PCAP,~13 MiB,,DOWNLOAD_REQUIRES_ACCESS,https://hybrid-analysis.com/sample/ac87b43af4c0dbf25d023fe4ce82067902593276ae57d244701dea2b55fd8258/681254b0322cb01225073c1b,Full traffic exists; passive trace has 69 HTTP entries but did not include an attachment click.
+memory strings,2.7 KiB,,DOWNLOAD_PROTECTED,https://hybrid-analysis.com/sample/ac87b43af4c0dbf25d023fe4ce82067902593276ae57d244701dea2b55fd8258/681254b0322cb01225073c1b,"Could help recover additional frontend strings, but public download path is protected."
