@@ -1,0 +1,9 @@
+period,raw_account,raw_value_thousand_ars,target,issuer_validation,verdict
+FY-2023,511108,292074698,income_bcra,"Separated FY Annex Q BCRA pass income = 292,074,698 exactly.",EXACT_ENTITY_SPECIFIC
+FY-2023,511027,110798,income_otherfi,"Separated FY Annex Q Other Financial Institutions pass income = 110,798 exactly.",EXACT_ENTITY_SPECIFIC
+FY-2023,521022,2892,expense_otherfi,"Separated FY Annex Q pass expense = 2,892 and is explicitly presented entirely under Other Financial Institutions.",EXACT_ENTITY_SPECIFIC
+FY-2023,BCRA_PASS_EXPENSE_SET,0,expense_bcra,"Separated FY Annex Q has no BCRA pass-expense line; exhaustive pass expense is 2,892 under Other Financial Institutions.",EXACT_ZERO_ISSUER_PRESENTATION
+9M-2023,511108,91303079,income_bcra,Same Banco Industrial-specific 511108 identity validated one-to-one at FY; Sep raw is target individual/regulatory basis.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,511027,63741,income_otherfi,Same Banco Industrial-specific 511027 identity validated one-to-one at FY; Sep raw is target individual/regulatory basis.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,521022,605,expense_otherfi,Same Banco Industrial-specific 521022 identity validated one-to-one at FY; Sep raw is target individual/regulatory basis.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,BCRA_PASS_EXPENSE_SET,0,expense_bcra,"No separate BCRA pass-expense account is present in Sep entity raw, and FY issuer presentation establishes BCRA pass expense zero for the entity-specific taxonomy.",EXACT_ZERO_ENTITY_SPECIFIC

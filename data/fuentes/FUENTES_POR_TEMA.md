@@ -1,6 +1,6 @@
 # Índice de fuentes por tema
 
-Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
+Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V97.
 
 ## ahorro_hogares (4)
 
@@ -30,14 +30,13 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   `https://www.argentina.gob.ar/sites/default/files/2021/12/aporte_solidario_final_2021.12.20.pdf`
   local: `/data/fuentes/grandes_fortunas/aporte_solidario/aporte_solidario_final_2021-12-20.pdf`
 
-## ciclo_ajuste_bancos (100)
+## ciclo_ajuste_bancos (104)
 
 - **agn_bna_informe210_9m2023** — AGN · Informe 210/2023 · BNA 9M 2023 · local  
   `https://www.agn.gob.ar/informes/Informe-210-2023`
   local: `/data/fuentes/ciclo_ajuste/agn/agn_bna_informe210_9m2023_attachments.zip`
 
 - **audit_ciclo_ajuste_v70** — Elaboración propia · Auditoría Ciclo del Ajuste · V70 · local  
-  `/data/fuentes/ciclo_ajuste/AUDITORIA_CICLO_AJUSTE_V70.md`
   local: `/data/fuentes/ciclo_ajuste/AUDITORIA_CICLO_AJUSTE_V70.md`
 
 - **bapro_disciplina_sep2023_control** — Banco Provincia · Disciplina de Mercado · septiembre 2023 · local  
@@ -169,7 +168,6 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   local: `/data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_sep2024_ciclo.pdf`
 
 - **bna_9m_recovery_v70** — Elaboración propia · Auditoría recuperación BNA 9M · V70 · local  
-  `/data/fuentes/ciclo_ajuste/v70/BNA_9M_BINARY_RECOVERY_V70.csv`
   local: `/data/fuentes/ciclo_ajuste/v70/BNA_9M_BINARY_RECOVERY_V70.csv`
 
 - **bna_balance_condensado_sep2023_control** — Banco Nación · Balance Condensado · septiembre 2023 · local  
@@ -185,15 +183,21 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   local: `/data/fuentes/ciclo_ajuste/backfill_v96/ciudad_eeff_9m2023_consol_control.pdf`
 
 - **closed_network_coverage_v70** — Elaboración propia · Cobertura de red de pases · V70 · local  
-  `/data/fuentes/ciclo_ajuste/v70/CLOSED_NETWORK_COVERAGE_V70.csv`
   local: `/data/fuentes/ciclo_ajuste/v70/CLOSED_NETWORK_COVERAGE_V70.csv`
+
+- **columbia_eeff_9m2023_sep_pending** — Banco Columbia S.A. · Banco Columbia · EEFF consolidados y separados condensados intermedios · 30/09/2023 · BINARIO PENDIENTE  
+  `https://secure.bancocolumbia.com.ar/web/Multimedios/Otros/10184.pdf?v=36`
+  local: `PENDIENTE`
+
+- **columbia_eeff_fy2023_aq_pending** — Banco Columbia S.A. · Banco Columbia · EEFF anuales · 31/12/2023 · Annex Q · BINARIO PENDIENTE  
+  `https://secure.bancocolumbia.com.ar/web/Multimedios/Otros/10253.pdf?v=22`
+  local: `PENDIENTE`
 
 - **credicoop_eeff_fy2023_aq** — Banco Credicoop · Memoria y Balance 2023 · Anexo Q separado · local  
   `https://www.bancocredicoop.coop/api/descargas/descargar.php?descarga=819`
   local: `/data/fuentes/ciclo_ajuste/backfill_v96_round2/credicoop_eeff_fy2023_aq.pdf`
 
 - **four_leg_pass_panel_v70** — Elaboración propia · Panel four-leg de pases · V70 · local  
-  `/data/fuentes/ciclo_ajuste/v70/FOUR_LEG_PASS_PANEL_V70.csv`
   local: `/data/fuentes/ciclo_ajuste/v70/FOUR_LEG_PASS_PANEL_V70.csv`
 
 - **hist_bcra_baldethis** — BCRA · BCRA · detalle de balances/resultados históricos · local  
@@ -385,7 +389,6 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   local: `/research/ciclo_ajuste/inputs/issuer_retrieval/v96/binaries/021_Historico-Trimestral-Balances-e-Informes-1.zip`
 
 - **ledger_ciclo_ajuste_v70** — Elaboración propia · Evidence ledger Ciclo del Ajuste · V70 · local  
-  `/data/fuentes/ciclo_ajuste/v70/EVIDENCE_LEDGER_CICLO_AJUSTE_V70.csv`
   local: `/data/fuentes/ciclo_ajuste/v70/EVIDENCE_LEDGER_CICLO_AJUSTE_V70.csv`
 
 - **macro_eeff_9m2023_aq** — Banco Macro · Estados financieros 30/09/2023 · bloque separado / Anexo Q · local  
@@ -396,11 +399,16 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   `https://www.macro.com.ar/relaciones-inversores/documento/1580935557769/eeff_bm_31-12-2023.pdf`
   local: `/data/fuentes/ciclo_ajuste/backfill_v96/macro_eeff_fy2023_aq.pdf`
 
+- **mariva_cnv_9m2023_individual_discovery** — CNV · Banco Mariva · presentación individual 30/09/2023 #3122483 · referencia/discovery  
+  `https://aif2.cnv.gov.ar/presentations/publicview/c23edd68-9bf4-4b3d-a1d8-9cde4770d45c`
+
+- **mariva_cnv_fy2023_individual_discovery** — CNV · Banco Mariva · presentación individual 31/12/2023 #3165651 · referencia/discovery  
+  `https://aif2.cnv.gov.ar/presentations/publicview/d28fcf1a-28dc-465b-8478-aad95e0d4539`
+
 - **refs_ciclo_ajuste_v70** — Elaboración propia · Referencias Ciclo del Ajuste · V70 · local  
-  `/data/fuentes/ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V70.md`
   local: `/data/fuentes/ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V70.md`
 
-- **santander_cnv_filings_2023** — CNV · Banco Santander Argentina · presentaciones 2023  
+- **santander_cnv_filings_2023** — CNV · Banco Santander Argentina · presentaciones 2023 · referencia/discovery  
   `https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/30500008454`
 
 - **santander_eeff_9m2023_sep_mirror** — Santander Argentina / CNV (binario verificado) · Estados separados intermedios 30/09/2023 · local  
@@ -428,7 +436,6 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   local: `/data/fuentes/ciclo_ajuste/backfill_v96/valo_eeff_fy2023_aq.pdf`
 
 - **veredicto_ciclo_ajuste_v70** — Elaboración propia · Veredicto Ciclo del Ajuste · V70 · local  
-  `/data/fuentes/ciclo_ajuste/VEREDICTO_CICLO_AJUSTE_V70.md`
   local: `/data/fuentes/ciclo_ajuste/VEREDICTO_CICLO_AJUSTE_V70.md`
 
 ## ciclo_ajuste_hogares (4)
@@ -446,7 +453,6 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   local: `/data/fuentes/manual_recovery_v96_final/bcra_prestamos_activos_sector_mapping.xls`
 
 - **household_sector_mapping_v70** — Elaboración propia · Mapping producto → sector hogar · V70 · local  
-  `/data/fuentes/ciclo_ajuste/v70/HOUSEHOLD_SECTOR_MAPPING_V70.csv`
   local: `/data/fuentes/ciclo_ajuste/v70/HOUSEHOLD_SECTOR_MAPPING_V70.csv`
 
 ## ciclo_ajuste_macro (3)
@@ -472,11 +478,9 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
 ## credito_cftea (2)
 
 - **audit_cftea_ref** — Elaboración propia · Auditoría CFTEA de referencia y carga del crédito · local  
-  `/data/fuentes/tasas/metodologia/AUDITORIA_CFTEA_REFERENCIA_Y_CARGA_CREDITO.md`
   local: `/data/fuentes/tasas/metodologia/AUDITORIA_CFTEA_REFERENCIA_Y_CARGA_CREDITO.md`
 
 - **deriv_cftea_brecha** — Elaboración propia · Brecha costo crédito vs CFTEA referencia · local  
-  `/data/derivados/tasas/brecha_costo_credito_vs_cftea_referencia_2019_2026.csv`
   local: `/data/derivados/tasas/brecha_costo_credito_vs_cftea_referencia_2019_2026.csv`
 
 ## emae (4)
@@ -554,23 +558,19 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   local: `/data/fuentes/tasas/metodologia/Metodologia_Series.pdf`
 
 - **gf_metodo_cola** — Elaboración propia · Desagregación por tramos y cola abierta · local  
-  `/data/fuentes/grandes_fortunas/metodologia/metodo_distribucion_y_cola.txt`
   local: `/data/fuentes/grandes_fortunas/metodologia/metodo_distribucion_y_cola.txt`
 
 ## metodologia_causal (2)
 
 - **refs_ahorro_stock_hogares_2026** — Elaboración propia · Referencias de ahorro, desahorro y stock financiero de hogares · local  
-  `/data/fuentes/hogares/REFERENCIAS_AHORRO_STOCK_2018_2025.md`
   local: `/data/fuentes/hogares/REFERENCIAS_AHORRO_STOCK_2018_2025.md`
 
 - **refs_ciclo_ajuste_v51** — Elaboración propia · Referencias del ciclo de ajuste y mecanismos bancarios V51 · local  
-  `/data/fuentes/ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V51.md`
   local: `/data/fuentes/ciclo_ajuste/REFERENCIAS_CICLO_AJUSTE_V51.md`
 
 ## mora_causal (7)
 
 - **audit_causas_mora** — Elaboración propia · Auditoría causal de mora · local  
-  `/data/fuentes/morosidad/metodologia/AUDITORIA_CAUSAS_MORA_POBREZA_DESEMPLEO.md`
   local: `/data/fuentes/morosidad/metodologia/AUDITORIA_CAUSAS_MORA_POBREZA_DESEMPLEO.md`
 
 - **bcra_iif_1s2025_mora** — BCRA · Informe de Inclusión Financiera primer semestre 2025 · local  
@@ -593,7 +593,7 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
   `https://www.bcra.gob.ar/publicaciones/informe-sobre-bancos-noviembre-2025/`
   local: `/data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_nov2025_mora.pdf`
 
-- **todosobrelamora_cruce** — Análisis externo · Todo sobre la mora  
+- **todosobrelamora_cruce** — Análisis externo · Todo sobre la mora · referencia/discovery  
   `https://todosobrelamora.vercel.app/`
 
 ## morosidad (7)
@@ -767,27 +767,21 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V96.
 ## supermercados (9)
 
 - **audit_supermercados_hist** — Elaboración propia · Auditoría supermercados histórico 2017-2026 · local  
-  `/data/fuentes/supermercados/metodologia/AUDITORIA_SUPERMERCADOS_HISTORICO_2017_2026.md`
   local: `/data/fuentes/supermercados/metodologia/AUDITORIA_SUPERMERCADOS_HISTORICO_2017_2026.md`
 
 - **deriv_supermercados_estructura** — Elaboración propia · Estructura supermercados · local  
-  `/data/derivados/supermercados/supermercados_estructura_2020_2026.csv`
   local: `/data/derivados/supermercados/supermercados_estructura_2020_2026.csv`
 
 - **deriv_supermercados_moderno** — Elaboración propia · Serie moderna supermercados · local  
-  `/data/derivados/supermercados/supermercados_moderno_2017_2026.csv`
   local: `/data/derivados/supermercados/supermercados_moderno_2017_2026.csv`
 
 - **deriv_supermercados_pago** — Elaboración propia · Medios de pago supermercados · local  
-  `/data/derivados/supermercados/supermercados_medios_pago_2020_2026.csv`
   local: `/data/derivados/supermercados/supermercados_medios_pago_2020_2026.csv`
 
 - **deriv_supermercados_rubros** — Elaboración propia · Composición por rubros supermercados · local  
-  `/data/derivados/supermercados/supermercados_rubros_composicion_2023_2026.csv`
   local: `/data/derivados/supermercados/supermercados_rubros_composicion_2023_2026.csv`
 
 - **deriv_supermercados_territorio** — Elaboración propia · Referencias territoriales supermercados 1S2026 · local  
-  `/data/derivados/supermercados/supermercados_territorio_1S2026_referencias.csv`
   local: `/data/derivados/supermercados/supermercados_territorio_1S2026_referencias.csv`
 
 - **indec_supermercados_archivo** — INDEC · Archivo histórico y discontinuidades · local  

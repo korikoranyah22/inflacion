@@ -1,0 +1,45 @@
+{
+  "checkpoint": "V104",
+  "date": "2026-08-29",
+  "state": "CNV_PUBLICVIEW_FRONTEND_STACK_FORENSICALLY_IDENTIFIED_NO_STRICT_PROMOTION",
+  "master_catalog_entries": 205,
+  "physical_local_copies": 189,
+  "physical_local_hash_ok": 189,
+  "reference_only_nonbinary_exempt": 4,
+  "remaining_physical_gaps": 12,
+  "p0": 11,
+  "p1": 1,
+  "p2": 0,
+  "binary_required_entries": 201,
+  "binary_required_preserved": 189,
+  "binary_required_source_complete": false,
+  "pending_binary_discovery_actions": 7,
+  "pending_binary_discovery_entities": [
+    "Banco Mariva S.A. 9M/FY attachments",
+    "HSBC Bank Argentina S.A. 9M/FY attachments",
+    "Banco BMA/ex-Itaú 9M/FY attachments",
+    "Banco de Corrientes S.A. FY binary"
+  ],
+  "numeric_v102_strict_changed": false,
+  "strict_coverage_pct": "59.7775957463226204806504411472763588249111893261199797672530882599989158997072479353967644",
+  "exact_entities": 24,
+  "closed_network_gate": "NO",
+  "new_analytically_resolved_source_holds": [],
+  "new_mismatch_falsifiers": [],
+  "candidate_coverage_voii_if_sources_preserved_pct": "59.81442386494102126766816278470669448373772258098953350961709320156445713848475323799210912942594377",
+  "candidate_entities_voii": 25,
+  "candidate_coverage_v101_new_plus_voii_if_sources_preserved_pct": "60.25837167339732517203576997344264528000049391042623140899981427168551291897126958935644955468457881",
+  "candidate_entities_v101_new_plus_voii": 28,
+  "all_six_resolved_source_holds_if_preserved_pct": "61.85556252889191138996688912819023696381678506495534839297178493772894515361020159989231594459249549",
+  "all_six_resolved_source_holds_entities": 30,
+  "numeric_v103_strict_changed": false,
+  "new_recovery_route_findings": [
+    "Independent 2025 PublicView browser capture identifies presentation-specific presentations.js plus file-download/file-utils/public-uploader stack",
+    "Extracted PublicView HTML artifact recorded at 77,570 bytes with SHA-256 33ca3bed35d68eff021ee21a92444b0d0fc8d86ec9931c34b2d0aedd9427f1ba",
+    "Passive capture lacks attachment-click request; exact endpoint/blob GUID remains unrecovered"
+  ],
+  "numeric_v104_strict_changed": false,
+  "route_evidence_availability_notes": [
+    "V103 Almanac dataset URL returned Dataset no encontrado during V104; V104 new finding does not depend solely on it"
+  ]
+}

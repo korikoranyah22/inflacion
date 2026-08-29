@@ -1,0 +1,26 @@
+{
+  "checkpoint": "V97",
+  "date": "2026-08-28",
+  "state": "COLUMBIA_ANALYTICALLY_RESOLVED_SOURCE_PRESERVATION_HOLD_MARIVA_ATTACHMENT_DISCOVERY_HOLD",
+  "master_catalog_entries": 193,
+  "physical_local_copies": 187,
+  "physical_local_hash_ok": 187,
+  "reference_only_nonbinary_exempt": 4,
+  "remaining_physical_gaps": 2,
+  "p0": 2,
+  "p1": 0,
+  "p2": 0,
+  "binary_required_entries": 189,
+  "binary_required_preserved": 187,
+  "binary_required_source_complete": false,
+  "pending_binary_discovery_actions": 2,
+  "pending_binary_discovery_entities": [
+    "Banco Mariva S.A. 9M individual attachment",
+    "Banco Mariva S.A. FY individual attachment"
+  ],
+  "numeric_v97_changed": false,
+  "strict_coverage_pct": "59.777595746322620480650441147276358824911189326119979767253088259998915899707248",
+  "exact_entities": 24,
+  "closed_network_gate": "NO",
+  "columbia_candidate_coverage_if_sources_preserved_pct": "59.965540816843975356165545847987659643864005011370720825503023492426456016213954"
+}

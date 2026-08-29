@@ -1,0 +1,9 @@
+period,leg,issuer_value_k,raw_account,raw_value_k,method,evidence
+9M-2023,income_bcra,3377992,511108,3377992,DIRECT_ONE_TO_ONE,"Official Banco Formosa separated Annex Q at 30/09/2023 reports BCRA pass income 3,377,992k."
+9M-2023,income_otherfi,1420,511027,1420,DIRECT_ONE_TO_ONE,"Official Banco Formosa separated Annex Q at 30/09/2023 reports Other-FI pass income 1,420k."
+9M-2023,expense_otherfi,78619,521022,78619,DIRECT_ONE_TO_ONE,"Official Banco Formosa separated Annex Q at 30/09/2023 reports pass expense 78,619k, entirely Other-FI."
+9M-2023,expense_bcra,0,absence,0,DIRECT_ZERO,Separated 9M Annex Q shows no BCRA pass-expense value.
+FY-2023,income_bcra,13949461,511108,13949461,SAME_ENTITY_IDENTITY_PLUS_ISSUER_COMPONENT_CONTROL,"Official 2023 integrated report publishes Pases 13,949,461k; same account was directly identified as BCRA at 9M."
+FY-2023,income_otherfi,2178,511027,2178,EXACT_RESIDUAL_WITH_OFFICIAL_TOTAL,"Official annual pass-income total 13,951,639k; subtract BCRA component 13,949,461k = 2,178k; raw 511027 matches exactly and is same-entity validated as Other-FI at 9M."
+FY-2023,expense_otherfi,120514,521022,120514,SAME_ENTITY_IDENTITY_WITH_OFFICIAL_TOTAL_RECONCILIATION,"521022 is directly identified as Other-FI expense at 9M; Dec raw 120,514k participates in exact annual total 126,499k."
+FY-2023,expense_bcra,5985,525042,5985,EXACT_ENTITY_SPECIFIC_RESIDUAL,"Official annual pass-expense total 126,499k minus same-entity validated Other-FI expense 120,514k = 5,985k; raw residual is exactly 5,985k. No universal 525042 semantic is asserted."

@@ -1,0 +1,3 @@
+period,issuer_pass_income_total_k,raw_income_account,raw_income_k,income_diff_k,issuer_pass_expense_total_k,raw_expense_account,raw_expense_k,expense_diff_k,closing_pass_asset_bcra_k,flow_counterparty_split_status,strict_decision
+2023-09,10095166,511027,10095166,0,3830,521022,3830,0,51764239,NOT_IDENTIFIED_FROM_FLOW_PRESENTATION,HOLD_N_D_STRICT
+2023-12,36619212,511027,36619212,0,7933,521022,7933,0,99589907,NOT_IDENTIFIED_FROM_FLOW_PRESENTATION,HOLD_N_D_STRICT

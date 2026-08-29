@@ -1,0 +1,7 @@
+period,account,raw_description,debit_k,credit_k,nbch_specific_target,source
+202309,511027,INTERESES POR PASES ACTIVOS CON EL,0.000,338.000,income_otherfi,/Entfin/Tec_Cont/baldet/00311.txt
+202309,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,10833268.000,income_bcra,/Entfin/Tec_Cont/baldet/00311.txt
+202309,PASS_EXPENSE_SET,no nonzero pass-expense result account present in entity scan,0,0,expense_bcra=0; expense_otherfi=0,full NBCH baldet scan
+202312,511027,INTERESES POR PASES ACTIVOS CON EL,0.000,518.000,income_otherfi,/Entfin/Tec_Cont/baldet/00311.txt
+202312,511108,INTERESES POR PASES ACTIVOS CON EL,0.000,27741649.000,income_bcra,/Entfin/Tec_Cont/baldet/00311.txt
+202312,PASS_EXPENSE_SET,FY separated Annex Q contains no pass-expense line,0,0,expense_bcra=0; expense_otherfi=0,official issuer publication + raw entity scan

@@ -1,0 +1,9 @@
+period,account,signed_raw_k,absolute_result_k,formosa_specific_target,validation
+202309,511108,-3377992,3377992,income_bcra,"Official separated 9M Annex Q: BCRA pass income = 3,377,992k exactly."
+202309,511027,-1420,1420,income_otherfi,"Official separated 9M Annex Q: Other-FI pass income = 1,420k exactly."
+202309,521022,78619,78619,expense_otherfi,"Official separated 9M Annex Q: Other-FI pass expense = 78,619k exactly."
+202309,525042 / absence,0,0,expense_bcra,Official separated 9M Annex Q presents pass expense entirely under Other Financial Institutions; BCRA pass expense = 0.
+202312,511108,-13949461,13949461,income_bcra,"Same-entity Sep identity + official Banco Formosa 2023 integrated report Pases = 13,949,461k; raw exact."
+202312,511027,-2178,2178,income_otherfi,"Same-entity Sep identity; 13,949,461 + 2,178 = official annual total pass income 13,951,639k."
+202312,521022,120514,120514,expense_otherfi,"Same-entity Sep identity. This component plus the residual account exactly reconciles official annual total pass expense 126,499k."
+202312,525042,5985,5985,expense_bcra,"Entity-specific residual identification: official annual total pass expense 126,499k minus validated other-FI account 120,514k = 5,985k; strict Annex-Q taxonomy has only BCRA vs Other-FI counterparties."

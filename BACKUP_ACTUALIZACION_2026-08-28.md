@@ -113,3 +113,30 @@ Consultar `research/ciclo_ajuste/TRANSPARENCY_README.md`, `FILE_ORIGINS.csv` y `
 - `boldat202505`, snapshot BCRA pases, XLS BCRA préstamos/activos, snapshot Capital Humano y bundles INDEC fueron preservados manualmente.
 - El XLS adjunto rotulado AUH es byte-idéntico al XLS BCRA y se trata como alias duplicado, no como evidencia de Capital Humano.
 - Estado analítico V96: sin cambios.
+
+
+## V97 — Columbia analytical resolution / source-preservation hold
+
+- V96 repo was recomposed byte-exact from 8 parts and validated before work.
+- Columbia 1,395k FY discrepancy resolved exactly through entity raw account 511055; Sep counterpart 567k also closes the official 9M total.
+- Columbia candidate four-leg Q4 is analytically exact, but strict promotion is held because the two original issuer PDF binaries are not yet physically preserved.
+- Mariva exact CNV individual 9M/FY 2023 filings identified; underlying attachments remain to recover.
+- Strict state therefore remains 24 entities / 59.777595746322620480650441147276358824911189326119979767253088259998915899707248% / closed-network NO.
+- Master FUENTES now has 193 entries: 187 physically preserved, 4 explicit nonbinary discovery/reference exemptions, 2 pending Columbia PDF binaries.
+
+
+## V98 — CMF archive-body recovery / HSBC metadata pinning / Corrientes exact endpoint
+
+- No strict promotion: 24 exact entities / 59.777595746322620480650441147276358824911189326119979767253088259998915899707248% / closed-network NO.
+- Banco CMF historical official ZIPs were already preserved; exact FY2023 and 9M2023 separated member PDFs were extracted, SHA-verified and separately preserved. Both issuer pass totals reconcile raw exactly; counterparty flow split remains N/D, so no stock→flow inference is made.
+- HSBC CNV targets pinned to exact individual presentations #3121099 (Sep) and #3163537 (FY); attachment bodies still pending.
+- Banco de Corrientes FY2023 exact official binary endpoint identified (`documentid=1193`); current container DNS prevented physical recovery.
+- Master FUENTES: 195 entries; 189 physical SHA-valid; 4 nonbinary exemptions; 2 Columbia binary-required gaps.
+
+
+## V101 — exact analytical sweep, source-hold discipline
+- Added exact analytical candidates: BACS, Banco Municipal de Rosario, Banco Provincia de Tierra del Fuego.
+- No strict promotion: issuer binaries remain unpreserved.
+- Strict state remains 24 entities / 59.7775957463226204806504411472763588249111893261199797672530882599989158997072479353967644% / gate NO.
+- If five new V101 PDFs are preserved: 27 entities / 60.2215435547789243850180483360123096211739606555566776666358093301199716801937642867611049%.
+- If all Hipotecario+Columbia+BACS+BMR+BTF pending issuer PDFs are preserved: 29 entities / 61.8187344102735106029491674907599013049902518100857946506077799961634039148326962972969713%.

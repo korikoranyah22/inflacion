@@ -1,0 +1,6 @@
+period,raw_account,raw_value_thousand_ars,target,issuer_validation,verdict
+FY-2023,511108,129240317,income_bcra,"Official BPN Balance 2023 Annex Q (page 83) reports BCRA pass income = 129,240,317k exactly.",EXACT_ENTITY_SPECIFIC
+FY-2023,511027 / absence,0,income_otherfi,Official BPN FY2023 Annex Q presents Otras Entidades financieras under pass income with no 2023 amount; issuer value = 0.,EXACT_ZERO_ISSUER_PRESENTATION
+FY-2023,521007 / 521022 / absence,0,expense_bcra + expense_otherfi,Official BPN FY2023 Annex Q has no pass-expense line under Egresos por intereses; both strict pass-expense legs are 0.,EXACT_ZERO_ISSUER_PRESENTATION
+9M-2023,511108,50821306,income_bcra,Same BPN-specific 511108 identity is validated one-to-one at FY; BPN states it does not form part of economic groups.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,511027 / 521007 / 521022 / absence,0,income_otherfi + expense_bcra + expense_otherfi,No corresponding rows occur in the full Sep nonzero BPN entity file; FY issuer Annex Q independently validates the zero taxonomy.,EXACT_ZERO_ENTITY_SPECIFIC

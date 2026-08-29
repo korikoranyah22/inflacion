@@ -1,0 +1,9 @@
+period,leg,issuer_value_k,raw_account,raw_value_k,method,evidence
+FY-2023,income_bcra,23689034,511108,23689034,DIRECT_ONE_TO_ONE_FY_ANNEX_Q,"Official BST FY Annex Q: BCRA pass income 23,689,034k; Dec raw 511108 matches exactly."
+FY-2023,income_otherfi,340731,511027,340731,DIRECT_ONE_TO_ONE_FY_ANNEX_Q,"Official BST FY Annex Q: Other-FI pass income 340,731k; Dec raw 511027 matches exactly."
+FY-2023,expense_otherfi,186191,521022,186191,DIRECT_ONE_TO_ONE_FY_ANNEX_Q,"Official BST FY Annex Q: Other-FI pass expense 186,191k; Dec raw 521022 matches exactly."
+FY-2023,expense_bcra,0,absence,0,DIRECT_ZERO_FY_ANNEX_Q,Official FY Annex Q lists the entire pass expense under Other Financial Institutions and no BCRA expense value.
+9M-2023,income_bcra,7387208,511108,7387208,SAME_ENTITY_SAME_YEAR_FY_IDENTITY_PLUS_9M_TOTAL_CONTROL,"Official 9M note gives combined BCRA+Other-FI pass income 7,577,705k. Sep raw 511108+511027 = 7,387,208+190,497 = 7,577,705 exactly; FY Annex Q directly fixes those two account identities."
+9M-2023,income_otherfi,190497,511027,190497,SAME_ENTITY_SAME_YEAR_FY_IDENTITY_PLUS_9M_TOTAL_CONTROL,Official 9M combined pass-income total reconciles exactly to Sep raw; FY Annex Q directly identifies 511027 as the Other-FI leg for BST.
+9M-2023,expense_otherfi,107266,521022,107266,SAME_ENTITY_SAME_YEAR_FY_IDENTITY_PLUS_9M_TOTAL_CONTROL,"Official 9M combined pass-expense total = 107,266k, exactly Sep raw 521022; FY Annex Q directly identifies 521022 as Other-FI expense for BST."
+9M-2023,expense_bcra,0,absence,0,EXACT_9M_TOTAL_RESIDUAL_ZERO,"Official 9M combined pass-expense total is exhausted by Sep raw 521022=107,266k; therefore BCRA pass expense is exactly zero under the BST-specific FY identity."

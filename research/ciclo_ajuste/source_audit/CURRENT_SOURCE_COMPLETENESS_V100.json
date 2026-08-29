@@ -1,0 +1,33 @@
+{
+  "checkpoint": "V100",
+  "date": "2026-08-28",
+  "state": "HIPOTECARIO_ANALYTICALLY_REVALIDATED_SOURCE_HOLD_BMA_FY_TARGET_CORRECTED",
+  "master_catalog_entries": 197,
+  "physical_local_copies": 189,
+  "physical_local_hash_ok": 189,
+  "reference_only_nonbinary_exempt": 4,
+  "remaining_physical_gaps": 4,
+  "p0": 4,
+  "p1": 0,
+  "p2": 0,
+  "binary_required_entries": 193,
+  "binary_required_preserved": 189,
+  "binary_required_source_complete": false,
+  "pending_binary_discovery_actions": 8,
+  "pending_binary_discovery_entities": [
+    "Banco Hipotecario S.A. 9M original",
+    "Banco Hipotecario S.A. FY original",
+    "Banco Columbia S.A. 9M original",
+    "Banco Columbia S.A. FY original",
+    "Banco Mariva S.A. 9M/FY attachments",
+    "HSBC Bank Argentina S.A. 9M/FY attachments",
+    "Banco BMA/ex-Itaú 9M/FY attachments",
+    "Banco de Corrientes S.A. FY binary"
+  ],
+  "numeric_v100_changed": false,
+  "strict_coverage_pct": "59.777595746322620480650441147276358824911189326119979767253088259998915899707248",
+  "exact_entities": 24,
+  "closed_network_gate": "NO",
+  "hipotecario_candidate_coverage_if_sources_preserved_pct": "61.186841531295851823066455601312649689774664795398355692975123693614808017839474",
+  "hipotecario_plus_columbia_candidate_pct": "61.374786601817206698581560302023950508727480480649096751225058926042348134346180"
+}

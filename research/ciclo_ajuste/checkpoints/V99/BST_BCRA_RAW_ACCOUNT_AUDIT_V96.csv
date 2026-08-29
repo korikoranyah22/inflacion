@@ -1,0 +1,11 @@
+period,account,signed_raw_k,absolute_result_k,bst_specific_target,validation
+202309,141144,22030307,22030307,pass_asset_control,Stock/control only; not part of four result legs.
+202309,511108,-7387208,7387208,income_bcra,FY Annex Q identifies Dec 511108 exactly as BCRA pass income; Sep raw plus 511027 equals official 9M combined pass-income note.
+202309,511027,-190497,190497,income_otherfi,FY Annex Q identifies Dec 511027 exactly as Other-FI pass income; Sep raw plus 511108 equals official 9M combined pass-income note.
+202309,521022,107266,107266,expense_otherfi,"FY Annex Q identifies Dec 521022 exactly as Other-FI pass expense; Sep raw equals official 9M combined pass-expense note, leaving BCRA expense zero."
+202309,absence,0,0,expense_bcra,"Official 9M total pass expense 107,266k equals Sep raw 521022 exactly; no residual BCRA-expense leg."
+202312,141144,46863349,46863349,pass_asset_control,Stock/control only; not part of four result legs.
+202312,511108,-23689034,23689034,income_bcra,"Official FY Annex Q BCRA pass income = 23,689,034k exactly."
+202312,511027,-340731,340731,income_otherfi,"Official FY Annex Q Other-FI pass income = 340,731k exactly."
+202312,521022,186191,186191,expense_otherfi,"Official FY Annex Q Other-FI pass expense = 186,191k exactly."
+202312,absence,0,0,expense_bcra,Official FY Annex Q pass expense is presented entirely under Other Financial Institutions; BCRA pass expense = 0.

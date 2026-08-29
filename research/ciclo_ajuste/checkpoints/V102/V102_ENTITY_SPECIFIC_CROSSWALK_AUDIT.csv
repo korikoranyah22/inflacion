@@ -1,0 +1,5 @@
+﻿entity,period,raw_account,raw_value_k,mapped_four_leg,issuer_value_k,difference_k,evidence,scope
+Banco VOII S.A.,202309,511027,934677,income_otherfi,934677,0,Official issuer 9M Annex Q direct; same-period raw exact,VOII_ONLY
+Banco VOII S.A.,202309,521022,86752,expense_otherfi,86752,0,Official issuer 9M Annex Q direct; same-period raw exact,VOII_ONLY
+Banco VOII S.A.,202312,511027,2881991,income_otherfi,2881991,0,Official issuer FY Annex Q direct; same-period raw exact,VOII_ONLY
+Banco VOII S.A.,202312,521022,132980,expense_otherfi,132980,0,Official issuer FY Annex Q direct; same-period raw exact,VOII_ONLY

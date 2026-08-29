@@ -1,0 +1,9 @@
+period,raw_account,raw_value_thousand_ars,target,issuer_validation,verdict
+FY-2023,511108,27741649,income_bcra,"Official separated Annex Q BCRA pass income = 27,741,649 exactly.",EXACT_ENTITY_SPECIFIC
+FY-2023,511027,518,income_otherfi,Official separated Annex Q Other Financial Institutions pass income = 518 exactly.,EXACT_ENTITY_SPECIFIC
+FY-2023,PASS_EXPENSE_SET,0,expense_bcra,Official separated Annex Q presents no pass-expense line; BCRA pass expense is zero.,EXACT_ZERO_ISSUER_PRESENTATION
+FY-2023,PASS_EXPENSE_SET,0,expense_otherfi,Official separated Annex Q presents no pass-expense line; other-FI pass expense is zero.,EXACT_ZERO_ISSUER_PRESENTATION
+9M-2023,511108,10833268,income_bcra,Same NBCH-specific 511108 identity validated one-to-one at FY; Sep raw is target individual/regulatory basis.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,511027,338,income_otherfi,Same NBCH-specific 511027 identity validated one-to-one at FY; Sep raw is target individual/regulatory basis.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,PASS_EXPENSE_SET,0,expense_bcra,No pass-expense result account is present in Sep entity raw; FY issuer presentation independently shows no pass-expense line.,EXACT_ZERO_ENTITY_SPECIFIC
+9M-2023,PASS_EXPENSE_SET,0,expense_otherfi,No pass-expense result account is present in Sep entity raw; FY issuer presentation independently shows no pass-expense line.,EXACT_ZERO_ENTITY_SPECIFIC

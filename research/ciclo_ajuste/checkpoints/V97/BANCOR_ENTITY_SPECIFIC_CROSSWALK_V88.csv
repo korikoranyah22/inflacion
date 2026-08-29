@@ -1,0 +1,9 @@
+period,raw_account,raw_value_thousand_ars,target,issuer_validation,verdict
+FY-2023,511108,96947854,income_bcra,"Separated FY Annex Q BCRA pass income = 96,947,854 exactly",EXACT_ENTITY_SPECIFIC
+FY-2023,511027,394479,income_otherfi,"Separated FY Annex Q Other Financial Institutions pass income = 394,479 exactly",EXACT_ENTITY_SPECIFIC
+FY-2023,521022,206308,expense_otherfi,"Separated FY Annex Q Other Financial Institutions pass expense = 206,308 exactly; BCRA expense = 0",EXACT_ENTITY_SPECIFIC
+FY-2023,515034,1142,EXCLUDE_FROM_PASS,"Separated FY Annex Q exhausts 1,142 under loans/financing to Financial Sector, not pass income",EXPLICIT_NON_PASS_PRESENTATION
+9M-2023,511108,28097738,income_bcra,"Same Bancor-specific account mapping as FY; mapped pass-income set plus 511027 = 28,353,278 nominal",SUPPORTED_BY_SAME_ENTITY_FY_MAPPING
+9M-2023,511027,255540,income_otherfi,"Same mapped set reexpresses to official separated 30/09/2024 comparator 9M-2023 pass income 87,612,963; implied factor 3.0900470485282160320228228989960173211718235894982",SUPPORTED_BY_COMPARATOR_RECONCILIATION
+9M-2023,521022,117925,expense_otherfi,"Reexpresses to official separated comparator 9M-2023 pass expense 364,390; implied factor 3.0900148399406402374390502437990248039007843968624",SUPPORTED_BY_COMPARATOR_RECONCILIATION
+9M-2023,515034,327,EXCLUDE_FROM_PASS,Same Bancor-specific FY classification: 515034 is not a strict pass leg,ENTITY_SPECIFIC_EXCLUSION_CARRIED_WITH_VALIDATED_ACCOUNT_IDENTITY

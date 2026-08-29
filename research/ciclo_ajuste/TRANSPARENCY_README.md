@@ -1,13 +1,13 @@
-> Current research checkpoint: **V96** — 24 exact entities, strict coverage 59.777595746322620480650441147276358824911189326119979767253088259998915899707248%.
+> Current research checkpoint: **V98** — 24 exact entities, strict coverage 59.777595746322620480650441147276358824911189326119979767253088259998915899707248%.
 
-# Ciclo de ajuste — research tree transparente (checkpoint V96)
+# Ciclo de ajuste — research tree transparente (checkpoint V98)
 
 Este ZIP parte del repositorio `inflacion-backup_sources-v70-patched.zip`, **descomprimido**.
 No hay que abrir otro ZIP para ver el repositorio ni para inspeccionar los checkpoints V52–V94 usados por la investigación.
 
 ## Estructura
 
-- `research/ciclo_ajuste/checkpoints/V52` ... `V96`: archivos propios de cada iteración, reconstruidos desde la cadena de snapshots. Se omitieron los `BASE_V*.zip` redundantes porque su contenido fue descomprimido en estas carpetas.
+- `research/ciclo_ajuste/checkpoints/V52` ... `V98`: archivos propios de cada iteración, reconstruidos desde la cadena de snapshots. Se omitieron los `BASE_V*.zip` redundantes porque su contenido fue descomprimido en estas carpetas.
 - `research/ciclo_ajuste/inputs/`: binarios fuente recuperados manualmente y archivos BCRA usados como evidencia/control.
 - `research/ciclo_ajuste/meta/`: handover y metadatos del checkpoint anterior.
 - `research/ciclo_ajuste/FILE_ORIGINS.csv`: procedencia de cada archivo agregado.
@@ -139,3 +139,15 @@ Remaining physical preservation gaps: 33 (26 direct-binary Round 3 candidates; 7
 ## Source-completeness final — 2026-08-28 manual close
 
 Manual recovery closes the remaining binary-required preservation queue. The master catalog remains at 189 entries: 187 have verified local physical copies and 2 are explicit non-binary reference exemptions (CNV Santander discovery landing and Todo Sobre la Mora analytical secondary reference). There are **0 required physical gaps** and P0/P1/P2 are all zero. Santander's user-downloaded official CNV 9M/FY separated statements were byte-identical to the already preserved binaries, so no duplicate copy was added. V96 numeric state is unchanged: 24 exact entities, strict coverage 59.777595746322620480650441147276358824911189326119979767253088259998915899707248%, closed-network gate NO.
+
+
+## V97 head note — 2026-08-28
+V97 adds two Banco Columbia issuer PDFs as binary-required pending sources and two Banco Mariva CNV publicview discovery references. The prior V96 187/187 binary-required completeness remains true for the frozen V96 source universe, but the V97 head is intentionally not called source-complete until the two Columbia originals are physically preserved. Mariva also has two attachment-discovery actions before an issuer/raw crosswalk can be attempted. No V96 numeric state was modified.
+
+
+## V98 head note — 2026-08-28
+V98 makes no strict promotion. It corrects a stale CMF preservation statement by opening the already-preserved official annual and quarterly historical ZIPs, extracting and separately preserving exact FY-2023 and 9M-2023 separated PDFs, and verifying their hashes and exact pass-total reconciliation to BCRA raw. The flow BCRA-vs-other-FI split is still absent, so CMF remains N/D_STRICT; closing-stock counterparty is not substituted for flow. HSBC target CNV individual presentations are pinned to #3121099 (Sep) and #3163537 (FY), attachment bodies pending. Banco de Corrientes' exact FY download endpoint is identified but not physically recovered in the current environment. Columbia remains analytically resolved/source-preservation held; Mariva remains attachment held.
+
+
+## V100 delta
+Hipotecario analytical bridge independently revalidated against live official 2023 issuer PDFs; still no promotion without physical originals+SHA. Banco BMA/ex-Itaú ordinary FY target corrected to CNV #3171909; #3177414 excluded as special merger balance. Strict state remains 24 entities / 59.777595746322620480650441147276358824911189326119979767253088259998915899707248%.

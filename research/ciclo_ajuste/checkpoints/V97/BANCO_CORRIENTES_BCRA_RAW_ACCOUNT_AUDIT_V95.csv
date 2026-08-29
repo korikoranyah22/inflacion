@@ -1,0 +1,4 @@
+period,account,absolute_result_k,role,status
+202309,511108,16968619,candidate pass-income account,RAW_ONLY_NOT_COUNTERPARTY_CLASSIFIED
+202312,511108,40870153,candidate pass-income account,RAW_ONLY_NOT_COUNTERPARTY_CLASSIFIED
+202312,asset_control,349527560,Dec asset / coverage control only,CONTROL_ONLY
