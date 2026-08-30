@@ -1,0 +1,270 @@
+
+<html>
+<head>
+<title>Documentacion CAU</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../css/sba.css">
+</head>
+
+<body bgcolor="#FFFFFF" topmargin="0" class="body">
+<script language="JavaScript">
+function chequear_ingreso (app)
+{ // INICIO chequear_ingreso
+  if (document.form1.nombre.value == "" || document.form1.agente.value == "") {
+    window.alert("Debe ingresar su nombre y apellido y el número de agente.");
+    return;
+  }else{
+	download(app);
+  }
+		
+
+//  if (!document.form1.opcion1.value.checked || !document.form1.opcion2.value.checked || !document.form1.opcion3.value.checked) {
+//    window.alert("Debe seleccionar un sistema.");
+//     return;
+//    };  
+
+  document.form1.submit();
+} // FIN    guardar_ingreso
+
+ function download(app){
+ 	if (document.form1.opcion1.click){
+					document.form1.opcion.value = app;
+					document.form1.submit();
+    }
+    if (document.form1.opcion2.click){
+					document.form1.opcion.value = app;
+					document.form1.submit();
+    }
+    if (document.form1.opcion3.click){
+					document.form1.opcion.value = app;
+					document.form1.submit();
+    }
+    if (document.form1.opcion4.click){
+					document.form1.opcion.value = app;
+					document.form1.submit();
+    }
+ }
+</script>
+
+<form action="sba_sistemas.asp" method="post" name="form1">
+  <table width="100%" border="0">
+    <tr>
+      <td> 
+        
+          
+        <p align="center"><span class="titulosCentrado">DOCUMENTACIÓN DE SISTEMAS 
+          INFORMÁTICOS</span><br>
+        </p>
+          <p class="texto">En esta página Ud. podrá acceder a los manuales descriptivos 
+            de distintos sistemas informáticos. Esta documentación está destinada 
+            a aquellos usuarios que necesiten conocer el detalle de las funcionalidades 
+            y aspectos operativos de los sistemas que poseen.<br>
+          Para realizar la descarga (<b><i>bajar a su PC</i></b>) de los documentos, 
+          previamente complete el campo nombre y apellido como así también el 
+          número de agente o depositante al cual pertenece.<br>
+            Una vez cumplimentado el paso anterior, haga clic sobre el botón ubicado 
+            a la izquierda del nombre del sistema que desea "bajar". Aparecerá 
+            un cuadro de diálogo con la pregunta ¿Qué desea hacer con este archivo?, 
+            seleccione con el mouse la opción "Ejecutar este programa desde internet" 
+            y luego presione el botón "Aceptar"; se iniciará el proceso de descarga 
+            desplegando un mensaje de advertencia de seguridad el cual espera 
+            su aprobación para instalar y ejecutar el archivo. Acepte oprimiendo 
+            el botón "Si". Podrá indicar el directorio donde desea copiar el archivo, 
+            escribiendo la ruta en el cuadro de texto o bien mediante el botón 
+            "Browse" seleccionando la carpeta destino; luego presione el botón 
+            "Unzip". Finalizado el proceso, oprima el botón "Aceptar" y luego 
+            el botón "Close".<br>
+            Esta secuencia podrá repetirse con cualquiera de los otros documentos 
+            de los sistemas, presionando el correspondiente botón de descarga.<br>
+            Los documentos quedan en su PC en formato pdf, por lo cual para abrirlos, 
+            deberá tener instalado el sofware Acrobat Reader. Si aún no lo tiene, 
+            podrá descargarlo gratuitamente mediante el botón ubicado al pie de 
+            esta página. </p>
+        
+      </td>
+    </tr>
+  </table>
+  <br>
+  <span class="titulos">Para descargar Software de Sistemas Inform&aacute;ticos 
+  haga<a href="sba_sistemas_software.asp" target="_self"> clic aqu&iacute;.</a> 
+  </span> 
+  <table width="100%" border="0" class="texto">
+    <tr> 
+      <td width="19%">&nbsp;</td>
+      <td width="81%">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td width="19%"> 
+        <div align="right">Nombre:</div>
+      </td>
+      <td width="81%"> <input type=text name=nombre value=""> </td>
+    </tr>
+    <tr> 
+      <td width="19%"> 
+        <div align="right">Nro de Agente/Depositante:</div>
+      </td>
+      <td width="81%"> <input type=text name=agente value="" maxlength=3 size=5 > </td>
+    </tr>
+  </table>
+<br>
+  <table width="100%" border="0" height="212" class="textoGeneralDer">
+    <tr> 
+      <td width="12%">&nbsp;</td>
+      <td width="88%">&nbsp;</td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" class="texto"> 
+        <div align="right"> </div>
+        <span class="titulos">SISTEMAS DE DIFUSIÓN DE INFORMACIÓN </span><br>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"><img src="../imagenes/boton_descargar.gif" name="opcion1" onClick=javascript:chequear_ingreso('FTF') > 
+        </div>
+      </td>
+      <td width="88%" class="texto"> <span class="titulos">FTF </span>(File Transfer 
+        Facility )<br>
+        Sistema que permite "bajar" archivos desde el computador central a la 
+        estación de trabajo del usuario. <br>
+      </td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" class="texto"> 
+        <div align="right"> </div>
+        <span class="titulos">SISTEMAS DE NEGOCIACIÓN</span><br>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"> <img src="../imagenes/boton_descargar.gif" name="opcion2" onClick=javascript:chequear_ingreso('SINAC2') > 
+        </div>
+      </td>
+      <td width="88%" class="texto"><span class="titulos">SINAC</span><br>
+        Sistema integrado de negociación electrónica para la concertación de operaciones 
+        con títulos valores. Está basado en el ingreso de ofertas desde estaciones 
+        de trabajo remotas. <br>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"> <img src="../imagenes/boton_descargar.gif" name="opcion2" onClick=javascript:chequear_ingreso('SINAC') > 
+        </div>
+      </td>
+      <td width="88%" class="texto"><span class="titulos">Nueva estación SINAC 
+        TCP/IP</span><br>
+        Nueva estación de trabajo que permite la negociación electrónica, ampliando 
+        las funcionalidades existentes y utilizando una tecnología de avanzada. 
+        <br>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto" height="57"> 
+        <div align="right"> <img src="../imagenes/boton_descargar.gif" name="opcion3" onClick=javascript:chequear_ingreso('HAND') > 
+        </div>
+      </td>
+      <td width="88%" class="texto" height="57"> <span class="titulos">Estación 
+        portátil (Handheld) </span><br>
+        Estación de trabajo portátil (handheld) con conexión inalámbrica, para 
+        uso en el recinto de operaciones. Provee funcionalidades de negociación, 
+        navegación en la Web, correo electrónico y productos Office. <br>
+      </td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" class="texto"> 
+        <div align="right"></div>
+        <span class="titulos">SISTEMAS DE FUTUROS </span></td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"><img src="../imagenes/boton_descargar.gif" name="opcion3" onClick=javascript:chequear_ingreso('CPB') align="top" ></div>
+      </td>
+      <td width="88%" class="texto"> 
+        <p><span class="titulos">Sistema de Caución y Pase Bursátil</span><br>
+          Sistema de gestión de la toma o colocación fondos con garantía de títulos 
+          valores, que permite la administración de los requerimientos a los comitentes 
+          llevando posiciones por moneda y por fecha. <br>
+        </p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"><img src="../imagenes/boton_descargar.gif" name="opcion3" onClick=javascript:chequear_ingreso('SI') align="top" ></div>
+      </td>
+      <td width="88%" class="texto"> 
+        <p><span class="titulos">Sistema de Indices</span><br>
+          Sistema de gestión para las operatorias de futuros sobre índices (Indol, 
+          Merval, M.ar) habilitadas en el Mercado de Valores. Permite la administración 
+          de los comitentes, la distribución de los totales operados a las correspondientes 
+          posiciones, así como también efectuar el seguimiento de las liquidaciones 
+          intradiarias de pérdidas y ganancias. <br>
+        </p>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"><img src="../imagenes/boton_descargar.gif" name="opcion3" onClick=javascript:chequear_ingreso('DOMAY') align="top" ></div>
+      </td>
+      <td width="88%" class="texto"> 
+        <p><span class="titulos">Sistema de Indice Dólar Mayorista</span><br>
+          Sistema de gestión para la operatoria de futuro sobre índice dólar mayorista 
+          (Domay) habilitada en el Mercado de Valores. Permite la administración 
+          de los comitentes, la distribución de los totales operados a las correspondientes 
+          posiciones, el manejo del esquema de créditos, así como también efectuar 
+          el seguimiento de la liquidación de pérdidas y ganancias. <br>
+        </p>
+      </td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" class="texto"> 
+        <div align="right"> </div>
+        <span class="titulos">SISTEMAS DE CUSTODIA Y GARANTIA</span><br>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"><img src="../imagenes/boton_descargar.gif" name="opcion5" onClick=javascript:chequear_ingreso('SCG') > 
+        </div>
+      </td>
+      <td width="88%" class="texto">
+        <p><span class="titulos">Sistema de Transferencias Electrónicas</span><br>
+        Sistema que ofrece a los participantes la posibilidad de procesar desde 
+        su estación de trabajo órdenes de transferencias de títulos entre subcuentas 
+        del sistema de custodia de Caja de Valores S.A. A través de una serie 
+        de transacciones, los depositantes conectados al sistema interactivo podrán 
+        dar el alta, autorizar, modificar, solicitar la baja y efectuar consultas 
+        de todas sus transferencias.</p>
+      </td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" class="texto"> 
+        <div align="right"> </div>
+        <span class="titulos">SERVICIOS DE CONECTIVIDAD</span><br>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto"> 
+        <div align="right"><img src="../imagenes/boton_descargar.gif" name="opcion4" onClick=javascript:chequear_ingreso('SCS') > 
+        </div>
+      </td>
+      <td width="88%" class="texto"><span class="titulos">SCS (Sistema de Comunicaciones 
+        Seguras)</span><br>
+        Sistema que permite la conexión de la estación de trabajo con el computador 
+        central proveyendo funcionalidades de integridad, confidencialidad y no 
+        repudio. <br>
+      </td>
+    </tr>
+    <tr> 
+      <td width="12%" valign="top" class="texto">&nbsp;</td>
+      <td width="88%" class="texto"> 
+        <div align="center"><a href="http://www.adobe.com/products/acrobat/readstep2.html"><img src="../imagenes/acrobat.gif" width="88" height="31" border="0"></a> 
+          <input type="hidden" name="paso" value="1">
+          <input type="hidden" name="opcion">
+        </div>
+      </td>
+    </tr>
+  </table>
+</form>
+<br>
+</body>
+</html>

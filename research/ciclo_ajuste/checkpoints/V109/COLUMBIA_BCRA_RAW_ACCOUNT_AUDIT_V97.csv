@@ -1,0 +1,11 @@
+period,account,signed_raw_k,absolute_result_k,columbia_specific_role,validation
+202309,141144,1009301,1009301,pass_asset_control,Stock/control only; not part of four result legs.
+202309,511027,-55188,55188,pass_income_account_set,"Columbia-specific account-set member; the three Sep income accounts sum exactly to official separated 9M pass-income total 2,070,947k. Do not assign universal semantics to the six-digit code."
+202309,511108,-2015192,2015192,pass_income_account_set,"Columbia-specific account-set member; the three Sep income accounts sum exactly to official separated 9M pass-income total 2,070,947k. Do not assign universal semantics to the six-digit code."
+202309,511055,-567,567,pass_income_account_set,"Columbia-specific account-set member; the three Sep income accounts sum exactly to official separated 9M pass-income total 2,070,947k. Do not assign universal semantics to the six-digit code."
+202309,521022,512498,512498,pass_expense_account_set,"Sep raw equals official separated 9M total pass expense 512,498k; FY issuer identity maps the same Columbia account to Other-FI pass expense."
+202312,141144,43196242,43196242,pass_asset_control,Stock/control only; not part of four result legs.
+202312,511027,-170738,170738,pass_income_account_set,"Columbia-specific account-set member; the three Dec income accounts sum exactly to official FY Annex-Q BCRA pass income 8,366,812k, including the previously unexplained 1,395k in 511055."
+202312,511108,-8194679,8194679,pass_income_account_set,"Columbia-specific account-set member; the three Dec income accounts sum exactly to official FY Annex-Q BCRA pass income 8,366,812k, including the previously unexplained 1,395k in 511055."
+202312,511055,-1395,1395,pass_income_account_set,"Columbia-specific account-set member; the three Dec income accounts sum exactly to official FY Annex-Q BCRA pass income 8,366,812k, including the previously unexplained 1,395k in 511055."
+202312,521022,882825,882825,pass_expense_account_set,"Official FY Annex Q reports Other-FI pass expense 882,825k and BCRA pass expense zero; Dec raw 521022 matches exactly."

@@ -4,8 +4,10 @@
 /data/fuentes/tasas/bcra/tas1_ser.txt
 /data/fuentes/tasas/bcra/tas2_ser.txt
 
+# Dependencias locales de Node.js en cualquier nivel del repositorio.
+node_modules/
+
 # Laboratorio local de responsive.
-/responsive-lab/node_modules/
 /responsive-lab/dist/
 /data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_din4_ser.txt
 /research/ciclo_ajuste/inputs/issuer_retrieval/v95/binaries/007_118254.pdf

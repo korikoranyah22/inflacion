@@ -1,0 +1,137 @@
+{
+  "checkpoint": "V112",
+  "parent_checkpoint": "V111",
+  "created_utc": "2026-08-29T09:28:44Z",
+  "exact_entities": 30,
+  "strict_coverage_pct": "61.85556252889191138996688912819023696381678506495534839297178493772894515361020159989231594459249549",
+  "closed_network_gate": "NO",
+  "e0_primary_sources": 48,
+  "new_official_sources": 8,
+  "fiscal_ledger_rows": 88,
+  "fiscal_transaction_rows_2007_2012": 30,
+  "fiscal_service_bridge_rows": 7,
+  "fiscal_stock_bridge_rows_2007_2012": 11,
+  "fiscal_method_breaks": 37,
+  "files": [
+    {
+      "path": "AUDITORIA_V112.md",
+      "bytes": 1543,
+      "sha256": "44297d4467cf8972816c40647412b8cb689ae4954da7cd1b969165f8cdf8060a"
+    },
+    {
+      "path": "build_e0_fiscal_v112.py",
+      "bytes": 60972,
+      "sha256": "d100dad695558e1248563276b9245a396b1f7c07855b5a1430dbfe6abdc326b7"
+    },
+    {
+      "path": "CURRENT_STATE_V112.csv",
+      "bytes": 12018,
+      "sha256": "280fa19c790b1765dec4725cf9fa00580f014865596b4d0779e05f3cf798e6cc"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_SERVICE_BRIDGE_2007_2012_V112.csv",
+      "bytes": 2801,
+      "sha256": "cc665500954f2424b406af28c21c35922dbd225738f71cc9b4b4811b05d04998"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_STOCK_BRIDGE_2007_2012_V112.csv",
+      "bytes": 2096,
+      "sha256": "e5ff78495558a583af314e1d22e0c90309be0c2d128783c0272f61f71f56afbf"
+    },
+    {
+      "path": "E0_FISCAL_MECHANISM_LEDGER_V112.csv",
+      "bytes": 36977,
+      "sha256": "c50e546329f72068455e554bd1d5b6471594b4632b7491695f6b094c01a105fd"
+    },
+    {
+      "path": "E0_FISCAL_METHOD_BREAKS_V112.csv",
+      "bytes": 8706,
+      "sha256": "5be953c780c4bdbf396ca0a94079ba3f93cf16c17fa000da13f9d41fc2006756"
+    },
+    {
+      "path": "E0_FISCAL_RECONSTRUCTION_V112.md",
+      "bytes": 3240,
+      "sha256": "d47383fae0cab758da0620a2712a3907849cfe56bee00482c061ac07f0e3732f"
+    },
+    {
+      "path": "E0_FISCAL_STOCK_FLOW_BRIDGE_V112.csv",
+      "bytes": 4832,
+      "sha256": "974dc934cc9d8fdd145726eab28e31043616c5a2cce5c4251d6b5870f9766506"
+    },
+    {
+      "path": "E0_FISCAL_TRANSACTION_LEDGER_2004_2006_V112.csv",
+      "bytes": 9551,
+      "sha256": "d102d1caa92c577b43ba0f38bd0c2e00df47a7b429e6f1608e7ad7d26246961b"
+    },
+    {
+      "path": "E0_FISCAL_TRANSACTION_LEDGER_2007_2012_V112.csv",
+      "bytes": 8189,
+      "sha256": "9a9da4ae730a035b664835674fdc13732c47dc32d57da99a39fc591740f4ec79"
+    },
+    {
+      "path": "E0_LOCAL_PRIMARY_SOURCE_CENSUS_V112.csv",
+      "bytes": 28317,
+      "sha256": "80c5ff1bef65d2f9064e5e99124447a5db467c9fe147ef182b6eef5ee1035683"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V112.csv",
+      "bytes": 19632,
+      "sha256": "970af20c24845d2bbad54a55c5bdbb46d25b90e8b1bd16a66987ba44595b7a2e"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V112_A_V113.md",
+      "bytes": 1639,
+      "sha256": "c30e835a99e4f8685b96a98d2d48246b4e883a6973cdcd676630b20494e584de"
+    },
+    {
+      "path": "HISTORICAL_EPISODE_MATRIX_2001_2026_V112.csv",
+      "bytes": 28801,
+      "sha256": "aa139d5f45ab5e67509e938c60bab279ef7e256e34c7bc370a6d84110098a64f"
+    },
+    {
+      "path": "HISTORICAL_EVIDENCE_COVERAGE_V112.csv",
+      "bytes": 7048,
+      "sha256": "419e73e06df5a047ecd83ad89442598f26783cb90cebbe31acaf6bf4bfe7f5d1"
+    },
+    {
+      "path": "HISTORICAL_SOURCE_QUEUE_V112.csv",
+      "bytes": 3823,
+      "sha256": "22930597cca552ee89d7d8f250ae3f7d200b48b4bf3b9da56895dcbbaded55da"
+    },
+    {
+      "path": "INHERITED_QA_STATUS_V112.csv",
+      "bytes": 1379,
+      "sha256": "a05f8dfef4dca8ec74f79ff3d03aeb01b591522f4fb5ae60d0ca2e51bc9f56af"
+    },
+    {
+      "path": "qa_v112.py",
+      "bytes": 12971,
+      "sha256": "d48294bb8a1e20ea89cf7950be20ed0ec34bfc730d370b7afeb3eae852d7f020"
+    },
+    {
+      "path": "README_V112.md",
+      "bytes": 1880,
+      "sha256": "f48f8095e84603bf8de815e78564482aed0f2f9c0f7bf5162eb088e862e70ef0"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V112.csv",
+      "bytes": 2379,
+      "sha256": "9a2dfa17a3b94983b9b74e8b8d0cb05baeb63e2b7ccfb48b420656ffaf7e6a4e"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V112.md",
+      "bytes": 1202,
+      "sha256": "d5c28ecbb95abf1bd5b9567fe1b1a1462c543b71128dadb035cf9213f92a5f43"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V112.csv",
+      "bytes": 923,
+      "sha256": "1a82e3f7f5898dc064b44c56c2136e8ca7acfee348a785ae91171dd7d08de7b9"
+    },
+    {
+      "path": "VEREDICTO_V112.md",
+      "bytes": 1278,
+      "sha256": "3af909a0848d224343e9f62bc30539e3fb0d414006199c957b7eef5f73dc1f2a"
+    }
+  ]
+}

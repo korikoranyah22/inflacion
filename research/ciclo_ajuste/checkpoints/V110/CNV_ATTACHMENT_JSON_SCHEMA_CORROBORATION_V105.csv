@@ -1,0 +1,8 @@
+﻿observed_date,source,field,corroborated_meaning,route_implication
+2026-08-29,https://almanac.ar/datasets/cnv.ons.colocaciones,presentation_guid,AIF PublicView GUID used in the stable PublicView URL,confirms presentation GUID and attachment/blob GUID are distinct identifiers
+2026-08-29,https://almanac.ar/datasets/cnv.ons.colocaciones,pdf_blob_guid,GUID taken from the AIF attachments JSON for the first attachment,documented as sufficient for programmatic PDF redownload; exact request path still not documented here
+2026-08-29,https://almanac.ar/datasets/cnv.ons.colocaciones,pdf_nombre_archivo,attachment filename from AIF metadata,supports filename-level preservation checks
+2026-08-29,https://almanac.ar/datasets/cnv.ons.colocaciones,pdf_tamano_bytes,attachment size normalized from AIF size metadata,supports byte-size validation
+2026-08-29,https://almanac.ar/datasets/cnv.ons.colocaciones,pdf_hash,hash carried verbatim from the AIF attachments JSON,supports integrity verification independent of local download
+2026-08-29,https://almanac.ar/datasets/cnv.empresas.hechos-relevantes,attachments,array carrying attachment filename/URL/size in the derived HR dataset,independent current corroboration that PublicView attachments can be extracted programmatically
+2026-08-29,https://almanac.ar/datasets/cnv.empresas.hechos-relevantes,pdf_publicview_url,primary PDF URL retained by the derived pipeline,corroborates a resolvable document layer beyond the presentation shell; exact AIF request remains unrecovered

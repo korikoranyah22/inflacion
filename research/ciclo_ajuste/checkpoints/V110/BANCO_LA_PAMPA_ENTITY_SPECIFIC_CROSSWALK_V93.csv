@@ -1,0 +1,9 @@
+period,raw_account,raw_value_thousand_ars,target,issuer_validation,verdict
+FY-2023,511108,54227326,income_bcra,"Official Banco de La Pampa Annex Q: pass income BCRA = 54,227,326 exactly.",EXACT_ENTITY_SPECIFIC
+FY-2023,511027 / absence,0,income_otherfi,Official Annex Q: Other Financial Institutions pass income = 0.,EXACT_ZERO_ISSUER_PRESENTATION
+FY-2023,BCRA_PASS_EXPENSE_LEG,0,expense_bcra,Official Annex Q presents pass expense only under Other Financial Institutions; BCRA pass expense = 0.,EXACT_ZERO_ISSUER_PRESENTATION
+FY-2023,521022,5110,expense_otherfi,"Official Annex Q: pass expense Other Financial Institutions = 5,110 exactly.",EXACT_ENTITY_SPECIFIC
+9M-2023,511108,19150613,income_bcra,Same BLP-specific 511108 identity validated one-to-one at FY; CNV identifies the 30/09/2023 filing as INDIVIDUAL (#3121031).,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK
+9M-2023,511027 / absence,0,income_otherfi,No 511027 appears in the full Sep nonzero entity file; FY issuer Annex Q independently validates zero other-FI pass income.,EXACT_ZERO_ENTITY_SPECIFIC
+9M-2023,BCRA_PASS_EXPENSE_LEG,0,expense_bcra,No separate BCRA pass-expense result line in Sep full entity file; FY issuer taxonomy has BCRA expense zero.,EXACT_ZERO_ENTITY_SPECIFIC
+9M-2023,521022,3334,expense_otherfi,Same BLP-specific 521022 identity validated one-to-one at FY; CNV identifies the interim filing as individual.,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK

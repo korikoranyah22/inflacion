@@ -1,0 +1,43 @@
+﻿episode,variable_family,quality,primary_source_present,physical_source_preserved,comparable,gap,next_action
+E0_2001_2003,shock,PRIMARY_PARTIAL,YES,YES,PARTIAL,multiple valid t0 clocks; market-onset and implementation sensitivity not frozen,Build explicit announcement/norm/publication/implementation/market window table
+E0_2001_2003,households,PRIMARY_SOCIAL_CLOCKS_PARTIAL,YES,YES,WITHIN_REGIME_ONLY,Employment unemployment poverty indigence and registered-stable real wage clocks now exist; broad household income consumption and a cross-regime poverty level remain absent,Preserve method-regime blocks; add broad income/consumption only from primary vintages
+E0_2001_2003,credit,PRIMARY_PARTIAL,YES,YES,PARTIAL,stocks rates debtor classes and legal restructuring exist but are not normalized across breaks,Index daily codes and build a principal/rate/pesification bridge
+E0_2001_2003,risk,PRIMARY_RISK_CLOCKS_PARTIAL,YES,YES,WITHIN_VINTAGE_ONLY,monthly irregularity plus annual coverage net-exposure bad-debt liquidity and accounting-capitalization clocks are frozen; January-May 2002 and exact monthly provisions/write-offs/regulatory capital remain absent,Preserve publication vintages and stock/flow definitions; extend only with exact monthly official carriers
+E0_2001_2003,banks,PRIMARY_PARTIAL,YES,YES,PARTIAL,system loss/recovery and balance carriers exist; entity heterogeneity and issuer/AGN reconciliation absent,Bridge aggregate BCRA evidence to material issuer statements and audits
+E0_2001_2003,state_bcra,PRIMARY_BUYBACK_FOUR_ARCHIVED_ROUNDS_STRIP_PRIMARY_EXACT_ACCOUNT_ROUTE_2001_2012,YES,YES,SERIES_SERVICE_RECONCILED_FOUR_ARCHIVED_ROUNDS_STRIP_EXACT_ROUTES_MAPPED,"Cuatro rondas 2008 y strip 2009 tienen resultados primarios y rutas Caja/BCRA; faltan confirmaciones efectivas, blotter BNA, tenedores/propósito, respuesta individual AGN y padrón CRYL.","Recuperar confirmaciones Caja/BCRA, blotter BNA, clientes finales/CRYL y respuesta individual AGN."
+E1_2008_2009,shock,SUPPORTED,PARTIAL,PARTIAL,YES_CONTROL_ONLY,exact common t0 and sensitivity table not imported,Freeze external-shock t0 and retain as control
+E1_2008_2009,households,SUPPORTED,PARTIAL,PARTIAL,YES_CONTROL_ONLY,underlying household window should be re-indexed in the common schema,Import V31 control-series pointers without changing falsifier status
+E1_2008_2009,credit,PARTIAL,PARTIAL,PARTIAL,PARTIAL,common credit bridge not reconstructed,Add stocks/rates only if method-compatible
+E1_2008_2009,risk,PARTIAL,PARTIAL,PARTIAL,PARTIAL,common mora/provision sequence not frozen,Build only as falsification control
+E1_2008_2009,banks,PARTIAL,PARTIAL,PARTIAL,PARTIAL,heterogeneous response not in a common accounting bridge,Do not infer uniform bank sign
+E1_2008_2009,state_bcra,PARTIAL,PARTIAL,PARTIAL,PARTIAL,policy incidence not normalized,Map only if needed for control interpretation
+E2_2014,shock,SUPPORTED,YES,YES,YES,announcement/implementation/t0 sensitivity needs one row,Freeze official event chronology
+E2_2014,households,SUPPORTED,YES,YES,YES,registered vs broad recovery clocks remain separate,Import exact series vintages into common windows
+E2_2014,credit,PARTIAL,PARTIAL,PARTIAL,PARTIAL,all-in realized cost and bridge quantities incomplete,Recover compatible stock/rate/origination series
+E2_2014,risk,SUPPORTED,YES,YES,YES,cohort detail absent,Retain threshold sensitivity and provision caveat
+E2_2014,banks,SUPPORTED,YES,YES,YES,descriptive abnormal bridge is not causal,Keep pretrend and securities-led falsifier explicit
+E2_2014,state_bcra,PRIMARY,YES,YES,YES,net incidence of each measure not fully quantified,Index A5590 and related official sources
+E3_2015_2016,shock,NOT_COMPARABLE,NO,NO,NO,"episode is a regulatory laboratory, not a single shock",Do not manufacture a common t0
+E3_2015_2016,households,PARTIAL,PARTIAL,PARTIAL,PARTIAL,borrower cost effects not systemically quantified,Reuse matched-product work and keep net welfare N/D
+E3_2015_2016,credit,SUPPORTED,YES,PARTIAL,YES_REGULATORY,matched pre/post panel gate incomplete,Extend historical transparency/product pairs if available
+E3_2015_2016,risk,PARTIAL,PARTIAL,PARTIAL,PARTIAL,insurance risk transfer amount incomplete,Separate mechanical risk shift from net bank profit
+E3_2015_2016,banks,PARTIAL,PARTIAL,PARTIAL,PARTIAL,systemic profit effect N/D,Do not infer sign from regulation alone
+E3_2015_2016,state_bcra,PRIMARY,YES,PARTIAL,YES_REGULATORY,physical preservation/cross-index must be rechecked,Catalog A5853 and A5928 primary texts
+E4_2018_2019,shock,SUPPORTED,YES,YES,YES,May t0 has pretrend sensitivity,"Freeze announcement, market and household-onset alternatives"
+E4_2018_2019,households,EXACT,YES,YES,YES,common income recovery clocks need vintage audit,Reuse EPH buffers and preserve series distinctions
+E4_2018_2019,credit,PARTIAL,YES,YES,PARTIAL,originations and realized all-in cost not complete,Build compatible credit bridge
+E4_2018_2019,risk,SUPPORTED,YES,YES,YES,first link fails under May t0,Retain negative lag and later-threshold rows
+E4_2018_2019,banks,SUPPORTED,YES,YES,PARTIAL,NIIF break and strong pretrend,Keep descriptive abnormal range only
+E4_2018_2019,state_bcra,PRIMARY,YES,YES,YES,policy bundle incidence remains heterogeneous,"Index limits, reserve requirements and social floors separately"
+E5_2020_2021,shock,SUPPORTED,YES,PARTIAL,NO_SPECIAL_REGIME,health onset and policy dates require explicit regime fields,Build only a special-regime branch
+E5_2020_2021,households,PARTIAL,YES,PARTIAL,NO_SPECIAL_REGIME,extraordinary transfers and labor restrictions alter comparability,Do not pool without controls
+E5_2020_2021,credit,NOT_COMPARABLE,YES,PARTIAL,NO_SPECIAL_REGIME,forbearance and emergency rules,Document rule changes before values
+E5_2020_2021,risk,NOT_COMPARABLE,YES,PARTIAL,NO_SPECIAL_REGIME,portfolio classification discontinuities,Mark breaks explicitly
+E5_2020_2021,banks,NOT_COMPARABLE,YES,PARTIAL,NO_SPECIAL_REGIME,accounting and regulatory discontinuities,No direct recovery-clock comparison
+E5_2020_2021,state_bcra,PRIMARY,YES,PARTIAL,NO_SPECIAL_REGIME,emergency mechanisms not yet normalized,Build a separate mechanism inventory
+E6_2023_2026,shock,EXACT,YES,YES,YES,Q4 bank window includes Oct-Nov,Keep Dec t0 separate from quarterly accounting window
+E6_2023_2026,households,EXACT,YES,YES,YES,registered and broad wages disagree on recovery,Preserve multidimensional recovery vector
+E6_2023_2026,credit,SUPPORTED,YES,YES,YES,causal contribution to consumption not identified,Keep late-bridge status descriptive
+E6_2023_2026,risk,SUPPORTED,YES,YES,YES,portfolio/provider heterogeneity,"Separate households, bank personal and PNFC measures"
+E6_2023_2026,banks,EXACT,YES,YES,YES_ACCOUNTING,causal shock attribution not identified; micro network still open,Continue exact counterpart recovery and network bounds
+E6_2023_2026,state_bcra,PRIMARY,YES,YES,YES,distributive incidence is not a single mechanism,Maintain policy/mechanism separation

@@ -1,0 +1,16 @@
+﻿observation_date,creditor_sector,amount,currency_scale,share_total_pct,scope,source_id,locator,instrument_specific,caveat
+2008-12-31,TOTAL_PUBLIC_DEBT,503906,ARS_million,100,ALL_PUBLIC_DEBT,e0_agn_res_202_2009_act_41_2009_deuda,PDF_pp16_17,NO,Preliminary AGN table; not BODEN-specific.
+2008-12-31,PRIVATE_SECTOR,276157,ARS_million,54.8,ALL_PUBLIC_DEBT,e0_agn_res_202_2009_act_41_2009_deuda,PDF_pp16_17,NO,Private sector is not equivalent to banks.
+2008-12-31,PUBLIC_SECTOR,109636,ARS_million,21.8,ALL_PUBLIC_DEBT,e0_agn_res_202_2009_act_41_2009_deuda,PDF_pp16_17,NO,Aggregate public sector.
+2010-12-31,TOTAL_PUBLIC_DEBT,164331,USD_million,100,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2010-12-31,PRIVATE_SECTOR,63314,USD_million,40.1,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2010-12-31,PUBLIC_SECTOR,76973,USD_million,48.7,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2010-12-31,BILATERAL_AND_MULTILATERAL,24044,USD_million,11.2,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2011-12-31,TOTAL_PUBLIC_DEBT,178963,USD_million,100,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2011-12-31,PRIVATE_SECTOR,57790,USD_million,32.3,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2011-12-31,PUBLIC_SECTOR,96269,USD_million,53.8,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2011-12-31,BILATERAL_AND_MULTILATERAL,24904,USD_million,13.9,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2012-12-31,TOTAL_PUBLIC_DEBT,203034,USD_million,100,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2012-12-31,PRIVATE_SECTOR,63031,USD_million,31.0,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2012-12-31,PUBLIC_SECTOR,114767,USD_million,56.5,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."
+2012-12-31,BILATERAL_AND_MULTILATERAL,25236,USD_million,12.4,ALL_PUBLIC_DEBT,e0_agn_res_084_2015_act_158_2010_deuda,PDF_pp25_26,NO,"Sector distribution does not identify BODEN holders, MAE clients or original program purpose."

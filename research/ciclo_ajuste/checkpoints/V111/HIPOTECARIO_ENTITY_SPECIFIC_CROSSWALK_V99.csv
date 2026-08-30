@@ -1,0 +1,10 @@
+period,evidence_layer,concept,issuer_value_k,raw_account,raw_value_k,reconciliation,status
+9M-2023,issuer separated Note 19,pass income total,157005580,511108+511027,156378434+627146,exact total,PASS
+9M-2023,entity-specific raw + V88 FY crosswalk,pass income BCRA,156378434,511108,156378434,same-entity/same-year FY mapping; 9M issuer total exact,CANDIDATE_EXACT
+9M-2023,entity-specific raw + V88 FY crosswalk,pass income Other-FI,627146,511027,627146,same-entity/same-year FY mapping; 9M issuer total exact,CANDIDATE_EXACT
+9M-2023,entity-specific raw + FY presentation bridge,pass expense Other-FI,158630,521022,158630,prior Note20 omission no longer treated as contradiction,CANDIDATE_EXACT
+9M-2023,entity-specific raw/issuer,pass expense BCRA,0,,0,no BCRA pass-expense leg in entity-specific FY mapping; raw pass-expense candidate exhausted by Other-FI leg,CANDIDATE_EXACT
+FY-2023,issuer separated Annex Q,pass income BCRA,405189892,FY entity-specific raw crosswalk,,V88 same-entity FY mapping retained,PASS
+FY-2023,issuer separated Annex Q,pass income Other-FI,1052960,FY entity-specific raw crosswalk,,V88 same-entity FY mapping retained,PASS
+FY-2023,issuer separated Annex Q,pass expense Other-FI,526688,521022,,V88 same-entity FY mapping retained,PASS
+FY-2023,issuer separated Annex Q,pass expense BCRA,0,,0,explicit absent/zero leg in Annex Q,PASS

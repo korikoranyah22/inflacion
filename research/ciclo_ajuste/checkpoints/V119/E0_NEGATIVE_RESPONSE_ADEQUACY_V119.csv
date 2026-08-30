@@ -1,0 +1,15 @@
+adequacy_id,dimension,minimum_content,insufficient_example,effect_on_gap
+NR119_01,áreas,"identificar áreas productoras; de trámite y archivísticas efectivamente consultadas","se consultó a las áreas competentes",NO_CIERRA
+NR119_02,sistemas históricos,"nombrar cada sistema; libro; base; soporte o registro vigente en el período objetivo","no surge de GDE",NO_CIERRA
+NR119_03,identificadores,"informar número original; claves usadas y referencias cruzadas de migración","no se encontró por asunto",NO_CIERRA
+NR119_04,rango temporal,"indicar desde y hasta qué fechas cubrió cada búsqueda","se realizó una búsqueda exhaustiva",NO_CIERRA
+NR119_05,expediente en papel,"indicar archivo; depósito; inventario o serie revisados para documentación no electrónica","sólo se revisó el sistema actual",NO_CIERRA
+NR119_06,migración y digitalización,"buscar identificador de origen y destino; repositorio digitalizado e importaciones posteriores","el expediente es anterior a GDE",NO_CIERRA
+NR119_07,reproducciones,"revisar copias autenticadas; soportes; actas de apertura/cierre y registro de reproducción","el original fue reemplazado",NO_CIERRA
+NR119_08,respaldos,"identificar si se revisaron backups; correo; almacenamiento de adjuntos o contingencia según la clase documental","el portal actual no tiene archivo",NO_CIERRA
+NR119_09,serie y regla,"identificar serie documental y regla de retención/acceso histórica aplicable","venció el plazo de guarda",NO_CIERRA
+NR119_10,disposición concreta,"aportar acto; fecha; alcance; inventario o constancia individualizable de transferencia; eliminación; baja; siniestro o pérdida","la normativa autorizaba destruir",NO_CIERRA
+NR119_11,alternativa parcial,"evaluar copia testada; disociada; metadatos o agregado preexistente antes de negar","contiene información confidencial",NO_CIERRA
+NR119_12,derivación,"identificar sujeto; área y, cuando exista, expediente o informe al que se remite","consulte a otro organismo",NO_CIERRA
+NR119_13,alcance probatorio,"declarar que la inexistencia sólo cubre los lugares y períodos buscados","no existe la operación",NO_CIERRA
+NR119_14,resultado suficiente,"combinar alcance completo de búsqueda con regla histórica y traza concreta de disposición o custodia alternativa","respuesta genérica sin anexos ni identificadores",SOLO_AGOTA_LA_RUTA_DESCRITA

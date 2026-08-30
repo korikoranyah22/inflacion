@@ -1,0 +1,12 @@
+priority,entity,missing_artifact,why,status
+1,Banco Columbia S.A.,Physical original copies of official 30/09/2023 PDF 10184.pdf and FY 31/12/2023 PDF 10253.pdf,Analytical bridge and four legs are resolved exactly; only physical binary+SHA preservation blocks promotion.,ANALYTICALLY_RESOLVED_SOURCE_PRESERVATION_HOLD
+2,Banco Mariva S.A.,Actual CNV individual attachments #3122483 and #3165651,Exact individual filings are identified; publicviews remain shells and raw-only classification is prohibited.,ATTACHMENT_BINARY_DISCOVERY_HOLD
+3,HSBC Bank Argentina S.A.,Actual CNV individual attachments #3121099 and #3163537,V98 pins exact 2023 individual document numbers and UUIDs; attachment bodies remain unavailable.,MANUAL_RECOVERY_EXACT_PRESENTATIONS_CONFIRMED
+4,Banco de la Nacion Argentina,Separated 30/09/2023 interest opening or explicit 521007 presentation mapping,Resolve Sep 521007 without backward inference.,OPEN
+5,Banco Santander Argentina SA,Explicit 30/09/2023 BCRA-vs-otherFI split below separated pass-income total,9M total and raw reconcile but naive six-digit mapping is unsafe.,OPEN
+6,Banco Hipotecario S.A.,"Same-period explanation/subaccount mapping for Sep raw 521022=158,630",9M separated expense opening contains no pass line despite raw account.,OPEN_CONFLICT
+7,Banco BMA / ex Banco Itaú Argentina S.A.,CNV individual 30/09/2023 attachment #3119515 / UUID 9d3ded55-6d87-4ca2-9feb-920d961f3acd,Public filing and raw accounts identified; attachment required.,MANUAL_RECOVERY_CANDIDATE_PUBLICVIEW_IDENTIFIED
+8,Banco de Santiago del Estero S.A.,Official FY2023 issuer Annex Q/counterparty opening plus compatible Sep bridge,Raw 511108 alone cannot establish counterparty.,HOLD_ISSUER_CROSSWALK_NOT_RECOVERED
+9,Banco de Corrientes S.A.,"Official FY2023 binary at documentid=1193, then compatible Sep bridge",V98 identifies exact official binary endpoint; current container DNS prevents recovery.,HOLD_EXACT_BINARY_ENDPOINT_READY_FOR_MANUAL_RESCUE
+10,Banco CMF S.A.,Explicit same-year pass-result BCRA-vs-otherFI flow opening,V98 physically recovered FY and 9M separated bodies and exact raw totals; closing stock is BCRA-only but cannot substitute for flow counterparty split.,HOLD_SOURCE_BODY_RECOVERED_FLOW_SPLIT_MISSING
+11,Banco del Chubut S.A.,Official FY/9M 2023 Annex Q counterparty opening,Raw candidate exists but no issuer-specific split.,HOLD_ISSUER_CROSSWALK_NOT_RECOVERED

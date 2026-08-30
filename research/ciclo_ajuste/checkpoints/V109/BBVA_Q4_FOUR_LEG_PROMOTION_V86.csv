@@ -1,0 +1,4 @@
+entity,basis,period,income_bcra,expense_bcra,income_otherfi,expense_otherfi,unit,quality,source_logic
+Banco BBVA Argentina S.A.,INDIVIDUAL_ENTITY_REGULATORY,9M-2023,148146353,0,367704,15128,thousand_ARS_Sep2023_homogeneous,EXACT_BCRA_INDIVIDUAL_RAW_RECONCILED_TO_SEPARATE_ISSUER_NOTES,9M separate issuer Notes 26-27 totals reconcile raw entity 00017 exactly
+Banco BBVA Argentina S.A.,INDIVIDUAL_ENTITY_REGULATORY,FY-2023,387654578,0,563648,24987,thousand_ARS_Dec2023_homogeneous,EXACT_BCRA_INDIVIDUAL_RAW_WITH_ENTITY_SPECIFIC_ANNUAL_ISSUER_Q_MAPPING,FY raw entity 00017 mapped by annual issuer Exhibit-Q comparative; all three nonzero repo accounts share the same inflation-scale mapping within source rounding
+Banco BBVA Argentina S.A.,INDIVIDUAL_ENTITY_REGULATORY,Q4-2023,160559825.767972624453324,0,-8.459195626598368,1797.165473556341024,thousand_ARS_Dec2023_homogeneous,EXACT_HOMOGENEOUS_DIFFERENCING_AT_PUBLISHED_PRECISION,Q4 = FY_Dec - 9M_Sep * frozen factor

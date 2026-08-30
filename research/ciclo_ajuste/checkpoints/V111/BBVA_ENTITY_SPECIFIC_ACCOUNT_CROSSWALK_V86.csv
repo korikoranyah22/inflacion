@@ -1,0 +1,9 @@
+period,raw_account,target_leg,raw_value_thousand_ars,issuer_or_regulatory_validation,verdict
+9M-2023,511108,income_bcra,148146353,Raw + exact 9M separate issuer pass-income total reconciliation,ENTITY_SPECIFIC_MAPPING_SUPPORTED
+9M-2023,511027,income_otherfi,367704,Raw + exact 9M separate issuer pass-income total reconciliation,ENTITY_SPECIFIC_MAPPING_SUPPORTED
+9M-2023,521022,expense_otherfi,15128,"Exact 9M separate issuer pass-expense total = 15,128",ENTITY_SPECIFIC_MAPPING_SUPPORTED
+9M-2023,none_nonzero,expense_bcra,0,No BCRA/ambiguous repo-expense account; pass-expense total already exhausted by 521022,ZERO_EXHAUSTIVELY_RECONCILED
+FY-2023,511108,income_bcra,387654578,"2024 issuer Exhibit-Q comparative 2023 leg = 844,167,266; scale ratio=2.177627490832831077774605824466749880611",ENTITY_SPECIFIC_ANNUAL_MAPPING_VALIDATED
+FY-2023,511027,income_otherfi,563648,"2024 issuer Exhibit-Q comparative 2023 leg = 1,227,415; scale ratio=2.177626816736686726467582604746224594073",ENTITY_SPECIFIC_ANNUAL_MAPPING_VALIDATED
+FY-2023,521022,expense_otherfi,24987,"2024 issuer Exhibit-Q comparative 2023 leg = 54,412; scale ratio=2.177612358426381718493616680673950454236",ENTITY_SPECIFIC_ANNUAL_MAPPING_VALIDATED
+FY-2023,none_nonzero,expense_bcra,0,Issuer Exhibit-Q comparative 2023 explicitly reports BCRA repo expense = 0,EXPLICIT_ANNUAL_ZERO_VALIDATED

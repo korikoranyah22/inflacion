@@ -1,0 +1,220 @@
+{
+  "checkpoint": "V116",
+  "parent_checkpoint": "V115",
+  "created_utc": "2026-08-29T16:42:13Z",
+  "exact_entities": 30,
+  "strict_coverage_pct": "61.85556252889191138996688912819023696381678506495534839297178493772894515361020159989231594459249549",
+  "closed_network_gate": "NO",
+  "e0_primary_sources": 73,
+  "new_preserved_sources": 3,
+  "new_primary_sources": 3,
+  "fiscal_ledger_rows": 121,
+  "fiscal_method_breaks": 57,
+  "buyback_program_events": 10,
+  "strip_offer_rows": 35,
+  "strip_accepted_offer_rows": 20,
+  "strip_participant_rows": 7,
+  "strip_offered_effective_usd": "44367798.74",
+  "strip_awarded_effective_usd": "33691889.24",
+  "strip_awarded_underlying_vno_usd": "265707100",
+  "bcra_program_control_usd_approx": "420000000",
+  "approx_bridge_usd": "423908257.2082172386578130481932799826194",
+  "approx_bridge_gap_pct": "0.93053743",
+  "files": [
+    {
+      "path": "ARCHIVAL_PROVENANCE_V116.csv",
+      "bytes": 1868,
+      "sha256": "42ff3cb701d1177b3f1966acbb24e7c6a47ec5fb56a7e7ca66fb174c1418b485"
+    },
+    {
+      "path": "AUDITORIA_V116.md",
+      "bytes": 1077,
+      "sha256": "f2120bd9e2644cc430e8018bec784a350a8c9aff87836fe52778ade5509c25be"
+    },
+    {
+      "path": "build_e0_fiscal_v116.py",
+      "bytes": 47581,
+      "sha256": "b0f50af31d251123459c1f78472aa51af94639aa501a55108e4ef58dee32ae63"
+    },
+    {
+      "path": "CURRENT_STATE_V116.csv",
+      "bytes": 12018,
+      "sha256": "280fa19c790b1765dec4725cf9fa00580f014865596b4d0779e05f3cf798e6cc"
+    },
+    {
+      "path": "E0_FISCAL_AGN_CREDITOR_DISTRIBUTION_V116.csv",
+      "bytes": 3233,
+      "sha256": "8f7f5c92be9d3830880c36ab6d23f9d5e96329357f3d5e903a733aab04aac9e4"
+    },
+    {
+      "path": "E0_FISCAL_AGN_REPORT_INDEX_V116.csv",
+      "bytes": 1275,
+      "sha256": "56fb4a658c7c79a3afe7ec25dcc3deb0fc10099089296563a5f85cb25b0f58e1"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_BUYBACK_AWARDS_2008_V116.csv",
+      "bytes": 2028,
+      "sha256": "aefe9eff789b8df37a82065425aa2434b486ac72b61d7d0ab76d2a37601492f2"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_BUYBACK_TENDERS_2008_V116.csv",
+      "bytes": 1322,
+      "sha256": "eb18b7a310cc92c4fded24066d90c864782b41e56fe6504e7eca2a6d7f3e271a"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_SERVICE_BRIDGE_2007_2012_V116.csv",
+      "bytes": 2801,
+      "sha256": "cc665500954f2424b406af28c21c35922dbd225738f71cc9b4b4811b05d04998"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_STOCK_BRIDGE_2007_2012_V116.csv",
+      "bytes": 2096,
+      "sha256": "e5ff78495558a583af314e1d22e0c90309be0c2d128783c0272f61f71f56afbf"
+    },
+    {
+      "path": "E0_FISCAL_BUYBACK_APPROX_AGGREGATE_BRIDGE_V116.csv",
+      "bytes": 2968,
+      "sha256": "f0c2a681113315833fcedad6ff598a47a09c8ab41dbcf1845f6287e622fa55d1"
+    },
+    {
+      "path": "E0_FISCAL_BUYBACK_PROGRAM_EVENTS_2005_2009_V116.csv",
+      "bytes": 4970,
+      "sha256": "f22f19b94e9c35c6510c4cee0cf65b259abae6f34d9c5f352abf88349d13ca7c"
+    },
+    {
+      "path": "E0_FISCAL_BUYBACK_SETTLEMENT_CHAIN_V116.csv",
+      "bytes": 2345,
+      "sha256": "85e7c30ef03ecaec4da5b741f8dcfdc5f52dffbb939bad76336e4be7af17f29b"
+    },
+    {
+      "path": "E0_FISCAL_MECHANISM_LEDGER_V116.csv",
+      "bytes": 52466,
+      "sha256": "6f3ebb221a516d5d93ebf0f93f9407ed6086e3913fdd702467049ddcd4e20f2f"
+    },
+    {
+      "path": "E0_FISCAL_METHOD_BREAKS_V116.csv",
+      "bytes": 13647,
+      "sha256": "1b6293d307c8d0e9a52cbc255d7a77bf1200e41bb356fad319ebdd80ef12a61d"
+    },
+    {
+      "path": "E0_FISCAL_PUBLIC_BUYBACK_AWARDS_2008_V116.csv",
+      "bytes": 10377,
+      "sha256": "7c8cf79606ec6254ef7efb1c915b81a64a18938bd8f2335a67e561b6e11a6e8d"
+    },
+    {
+      "path": "E0_FISCAL_PUBLIC_BUYBACK_CALLS_2008_V116.csv",
+      "bytes": 2822,
+      "sha256": "c2fac2779ff57f93cd80939f130cb8e06675862f46b79a6eab495ea3915c465e"
+    },
+    {
+      "path": "E0_FISCAL_PUBLIC_BUYBACK_TENDERS_2008_V116.csv",
+      "bytes": 5639,
+      "sha256": "a93ab26429d9f558a271fb6a75c1a7fb03fcc8b8ca156e4cc8bda1cc38c4f857"
+    },
+    {
+      "path": "E0_FISCAL_RECONSTRUCTION_V116.md",
+      "bytes": 1975,
+      "sha256": "bb88854d3624c351075ae7acff9ada4228db1bbee5d95ff16ac8050df387a8a0"
+    },
+    {
+      "path": "E0_FISCAL_STOCK_FLOW_BRIDGE_V116.csv",
+      "bytes": 4832,
+      "sha256": "974dc934cc9d8fdd145726eab28e31043616c5a2cce5c4251d6b5870f9766506"
+    },
+    {
+      "path": "E0_FISCAL_STRIP_BUYBACK_AWARDS_2009_V116.csv",
+      "bytes": 2217,
+      "sha256": "8d842ad38d47fc95cf0dc64294d3eee299bcd2a12e39eca88580365d5c004a23"
+    },
+    {
+      "path": "E0_FISCAL_STRIP_BUYBACK_OFFERS_2009_V116.csv",
+      "bytes": 9225,
+      "sha256": "05e05fb19dfdd771756c0c50552e95f02b9b71f2a2bad83cef64b87f87a942b3"
+    },
+    {
+      "path": "E0_FISCAL_STRIP_BUYBACK_SUMMARY_2009_V116.csv",
+      "bytes": 1083,
+      "sha256": "a26d68e9a9b50cbb19fd33780b966448b0d98271b906f6dc1b915d9822a0d604"
+    },
+    {
+      "path": "E0_FISCAL_TRANSACTION_LEDGER_2004_2006_V116.csv",
+      "bytes": 9551,
+      "sha256": "d102d1caa92c577b43ba0f38bd0c2e00df47a7b429e6f1608e7ad7d26246961b"
+    },
+    {
+      "path": "E0_FISCAL_TRANSACTION_LEDGER_2007_2012_V116.csv",
+      "bytes": 8189,
+      "sha256": "9a9da4ae730a035b664835674fdc13732c47dc32d57da99a39fc591740f4ec79"
+    },
+    {
+      "path": "E0_LOCAL_PRIMARY_SOURCE_CENSUS_V116.csv",
+      "bytes": 46741,
+      "sha256": "03099d6590a681f40646791d8bd9581960ca34e601fd4a46762568a3e9ad5f2b"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V116.csv",
+      "bytes": 19632,
+      "sha256": "970af20c24845d2bbad54a55c5bdbb46d25b90e8b1bd16a66987ba44595b7a2e"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V116_A_V117.md",
+      "bytes": 1136,
+      "sha256": "0a9f9c9971181a0f7d4b5d8bdce2cffc24d556a5a25cbe3be8938bc1911bfec0"
+    },
+    {
+      "path": "HISTORICAL_EPISODE_MATRIX_2001_2026_V116.csv",
+      "bytes": 34202,
+      "sha256": "9807d77a6d4d9562942e9a8fec9804f01816ef5f96829dbe36ba48cd359fedbb"
+    },
+    {
+      "path": "HISTORICAL_EVIDENCE_COVERAGE_V116.csv",
+      "bytes": 7013,
+      "sha256": "4323a2982c233fe07daf7a50b94cf7d68ce4d62bc8fbfd92c29ecf2a530b447d"
+    },
+    {
+      "path": "HISTORICAL_SOURCE_QUEUE_V116.csv",
+      "bytes": 3787,
+      "sha256": "ca7228f64eb725535652b2a6759cb0baca1b4319935181b525289a152b342483"
+    },
+    {
+      "path": "INHERITED_QA_STATUS_V116.csv",
+      "bytes": 1697,
+      "sha256": "40c42a19b1f4cb1c79dcc030e2a2f4847a6e85f9325d58329a6b00fbfc57a2da"
+    },
+    {
+      "path": "qa_v116.py",
+      "bytes": 10911,
+      "sha256": "691727c1672c38cbb5b290275c977d301454c8acdf8ad27213464d109959ceea"
+    },
+    {
+      "path": "README_V116.md",
+      "bytes": 1450,
+      "sha256": "d9e73c84acc1b5fd6de31b143a4b64ff666dc3e99290d12811e824bcafa69d9f"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V116.csv",
+      "bytes": 2379,
+      "sha256": "9a2dfa17a3b94983b9b74e8b8d0cb05baeb63e2b7ccfb48b420656ffaf7e6a4e"
+    },
+    {
+      "path": "RETRIEVAL_LOG_V116.md",
+      "bytes": 1034,
+      "sha256": "c4dc1c486c7535ca320dde2b733f9764808924fc8f8fb49b7f7334419bd811a2"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V116.md",
+      "bytes": 742,
+      "sha256": "3bf79b91735dfff981a427fd5ed01136818efcdbdc6ff680c5830b2cc2eef9d7"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V116.csv",
+      "bytes": 923,
+      "sha256": "1a82e3f7f5898dc064b44c56c2136e8ca7acfee348a785ae91171dd7d08de7b9"
+    },
+    {
+      "path": "VEREDICTO_V116.md",
+      "bytes": 1031,
+      "sha256": "3bfbd7553e0821b9558a67d87399b1da0947ede3b74849c58ac6323d3c1b2aee"
+    }
+  ]
+}

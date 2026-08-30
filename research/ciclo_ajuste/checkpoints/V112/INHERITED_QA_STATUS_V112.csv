@@ -1,0 +1,16 @@
+﻿script,pre_v112_result,post_v112_result,interpretation
+qa_v97.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Fails only because V97 requires Columbia source path/hash to remain blank; V106+ preserve both originals
+qa_v98.py,PASS,PASS,Compatible
+qa_v100.py,PASS,PASS,Compatible
+qa_v101.py,PASS,PASS,Compatible
+qa_v102.py,PASS,PASS,Compatible
+qa_v103.py,PASS,PASS,Compatible
+qa_v104.py,PASS,PASS,Compatible
+qa_v105.py,PASS,PASS,Compatible
+qa_v106.py,PASS,PASS,Compatible
+qa_v107.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Fails only because V107 freezes the then-current global catalog at 215 rows; V112 validates 246
+qa_v108.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Fails only because V108 freezes the then-current global catalog at 225 rows; V112 validates 246
+qa_v109.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,Fails only because V109 freezes the then-current global catalog at 226 rows; V112 validates 246 after twelve later official E0 sources.
+qa_v110.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,Fails only because V110 freezes the global catalog at 229 rows and 31 E0 sources; V112 validates 246 and 48.
+qa_v111.py,N/A,EXPECTED_SUPERSEDED_ASSERTION,Fails only because V111 freezes the global catalog at 238 rows and 40 E0 sources; V112 validates 246 and 48.
+qa_v112.py,N/A,PASS,Current checkpoint invariants

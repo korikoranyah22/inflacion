@@ -1,0 +1,10 @@
+script,pre_v106_result,post_v106_result,interpretation
+qa_v97.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"Fails only because V97 requires Columbia source path/hash to remain blank; V106 physically preserves both originals"
+qa_v98.py,PASS,PASS,Compatible
+qa_v100.py,PASS,PASS,Compatible
+qa_v101.py,PASS,PASS,Compatible
+qa_v102.py,PASS,PASS,Compatible
+qa_v103.py,PASS,PASS,Compatible
+qa_v104.py,PASS,PASS,Compatible
+qa_v105.py,PASS,PASS,Compatible
+qa_v106.py,N/A,PASS,Current checkpoint invariants

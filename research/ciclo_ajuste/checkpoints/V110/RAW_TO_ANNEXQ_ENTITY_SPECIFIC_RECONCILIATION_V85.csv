@@ -1,0 +1,9 @@
+entity,period,raw_expression,raw_value,issuer_annexq_leg,issuer_value,difference,verdict,meaning
+Galicia,9M-2023,511108,149917156.0,income_bcra,149917156.0,0.0,ENTITY_MAPPING_VALIDATED,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.
+Galicia,9M-2023,511007+511027,9897718.0,income_otherfi,9897718.0,0.0,ENTITY_MAPPING_VALIDATED,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.
+Galicia,9M-2023,521022+525042,3419619.0,expense_otherfi,3419619.0,0.0,ENTITY_MAPPING_VALIDATED,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.
+Galicia,FY-2023,511108,458304594.0,income_bcra,458304594.0,0.0,ENTITY_MAPPING_VALIDATED,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.
+Galicia,FY-2023,511007+511027,21322852.0,income_otherfi,21322852.0,0.0,ENTITY_MAPPING_VALIDATED,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.
+Galicia,FY-2023,521022+525042,6664091.0,expense_otherfi,6664091.0,0.0,ENTITY_MAPPING_VALIDATED,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.
+Santander,FY-2023,511027,354483344.0,income_bcra,354462410.0,20934.0,COUNTEREXAMPLE_NOT_DIRECT_MAPPING,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.
+Santander,FY-2023,511108,1763.0,income_bcra,354462410.0,-354460647.0,COUNTEREXAMPLE_NOT_DIRECT_MAPPING,Six-digit raw account semantics require entity/subaccount presentation validation before Annex-Q counterparty assignment.

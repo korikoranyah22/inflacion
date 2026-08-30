@@ -1,0 +1,33 @@
+{
+  "checkpoint": "V106",
+  "date": "2026-08-29",
+  "state": "ELEVEN_P0_ORIGINALS_PRESERVED_SIX_SOURCE_HOLDS_PROMOTED_HISTORICAL_BOOTSTRAP_OPENED",
+  "master_catalog_entries": 205,
+  "physical_local_copies": 200,
+  "physical_local_hash_ok": 200,
+  "reference_only_nonbinary_exempt": 4,
+  "remaining_physical_gaps": 1,
+  "p0": 0,
+  "p1": 1,
+  "p2": 0,
+  "binary_required_entries": 201,
+  "binary_required_preserved": 200,
+  "binary_required_source_complete": false,
+  "pending_binary_discovery_actions": 7,
+  "numeric_v106_strict_changed": true,
+  "strict_coverage_pct": "61.85556252889191138996688912819023696381678506495534839297178493772894515361020159989231594459249549",
+  "exact_entities": 30,
+  "asset_numerator_million_ars": "59812903.504",
+  "system_denominator_million_ars": "96697695.5",
+  "closed_network_gate": "NO",
+  "promoted_entities": [
+    "Banco Hipotecario S.A.",
+    "Banco Columbia S.A.",
+    "BACS Banco de Credito y Securitizacion S.A.",
+    "Banco Municipal de Rosario",
+    "Banco Provincia de Tierra del Fuego",
+    "Banco VOII S.A."
+  ],
+  "historical_workstream": "BOOTSTRAPPED_2001_2026_WITH_2001_DEEP_GAP",
+  "path_encoding_note": "Banco La Pampa source is byte-identical to the catalog hash but the Git filename is mojibake relative to the catalog display path; content remains preserved."
+}

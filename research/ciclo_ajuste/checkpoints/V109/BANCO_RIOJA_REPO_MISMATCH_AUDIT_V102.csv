@@ -1,0 +1,3 @@
+﻿entity,period,leg,issuer_value_k,raw_candidate_account,raw_value_k_abs,difference_issuer_minus_raw_k,verdict
+Banco Rioja S.A.U.,202312,income_bcra,14409056,511108,14250267,158789,MISMATCH_DO_NOT_CROSSWALK
+Banco Rioja S.A.U.,202312,expense_bcra,7844,521108,7844,0,EXACT_ONE_LEG_ONLY_INSUFFICIENT_FOR_PROMOTION

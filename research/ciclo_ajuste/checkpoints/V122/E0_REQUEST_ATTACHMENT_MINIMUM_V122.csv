@@ -1,0 +1,10 @@
+request_id,institution,attach_file,purpose,why_minimal,exclude
+REQ122_ECON,Ministerio de Economía / Tesoro,E0_FISCAL_PUBLIC_BUYBACK_CALLS_2008_V122.csv,"fechas; cuenta; ISIN y calendario de cuatro rondas",acota sin imponer conclusión,"ledger completo; datos de participantes no necesarios"
+REQ122_ECON,Ministerio de Economía / Tesoro,E0_FISCAL_STRIP_BUYBACK_SUMMARY_2009_V122.csv,"identificar strip; cuenta y fechas",separa 2009 de las cuatro rondas,"anexos no vinculados"
+REQ122_BCRA,BCRA / CRyL,E0_REQUEST_SEARCH_KEY_MATRIX_V122.csv,"códigos CG1-CG7; formularios y claves exactas",permite búsqueda técnica reproducible,"filas de otros organismos si el canal exige mínimo"
+REQ122_BNA,Banco de la Nación Argentina,E0_FISCAL_BUYBACK_PROGRAM_EVENTS_2005_2009_V122.csv,"identificar primera etapa 11-22/08/2008",distingue mandato BNA de licitaciones posteriores,"segunda etapa como si fuera blotter BNA"
+REQ122_AGN,Auditoría General de la Nación,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V122.csv,"UUID; nid; vid y fechas",identifica unívocamente el nodo sin datos del solicitante,"cualquier dato personal histórico"
+REQ122_CNV,Comisión Nacional de Valores,E0_FISCAL_CUSTODIAN_INFORMATION_GAPS_V122.csv,"nota Caja 19/11/2014 y barrera documentada",identifica antecedente supervisor,"interpretaciones de tenencia cero"
+REQ122_CAJA,Caja de Valores S.A.,E0_FISCAL_BUYBACK_SETTLEMENT_CHAIN_V122.csv,"cuenta; calendario y especies",permite certificación agregada focalizada,"nombres de participantes o beneficiarios privados"
+
+

@@ -1,0 +1,12 @@
+script,pre_v108_result,post_v108_result,interpretation
+qa_v97.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,"Fails only because V97 requires Columbia source path/hash to remain blank; V106/V107 preserve both originals"
+qa_v98.py,PASS,PASS,Compatible
+qa_v100.py,PASS,PASS,Compatible
+qa_v101.py,PASS,PASS,Compatible
+qa_v102.py,PASS,PASS,Compatible
+qa_v103.py,PASS,PASS,Compatible
+qa_v104.py,PASS,PASS,Compatible
+qa_v105.py,PASS,PASS,Compatible
+qa_v106.py,PASS,PASS,Compatible
+qa_v107.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"Fails only because V107 freezes the then-current global catalog at 215 rows; V108 legitimately adds ten official sources and validates 225"
+qa_v108.py,N/A,PASS,Current checkpoint invariants

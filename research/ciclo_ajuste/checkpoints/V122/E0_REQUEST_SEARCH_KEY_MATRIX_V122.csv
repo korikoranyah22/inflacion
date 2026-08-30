@@ -1,0 +1,51 @@
+﻿key_id,request_id,key_group,exact_key,search_purpose,source_or_basis,caveat
+SK122_01,REQ122_ECON,date,2008-09-02;2008-09-09;2008-09-16;2008-10-07,fechas previstas de liquidación,E0_FISCAL_PUBLIC_BUYBACK_CALLS_2008_V122.csv,Previstas; no confirman pago.
+SK122_02,REQ122_ECON,date,2009-06-17;2009-06-18,entrega y liquidación strip,E0_FISCAL_STRIP_BUYBACK_SUMMARY_2009_V122.csv,Previstas; no confirman pago.
+SK122_03,REQ122_ECON,account,depositante 0306 / comitente 40000,cuenta receptora publicada,E0_FISCAL_BUYBACK_SETTLEMENT_CHAIN_V122.csv,Cuenta fiduciaria; no beneficiario final.
+SK122_04,REQ122_ECON,security,ARARGE034678;ARARGE035709;ARARGE03E147;ARARGE03E154;ARARGE03G415,especies exactas,llamados oficiales V115-V116,No sustituye el identificador interno.
+SK122_05,REQ122_ECON,system,COMDOC III;SIGADE;Sistema de Regularización de la Deuda Pública,buscar traza contemporánea,e0_argentina_rc_26_216_2008_tsa_sigade,Comprobar aplicabilidad a recompra.
+SK122_06,REQ122_ECON,system,TSA;Transmisión Segura de Archivos;Red Privada Virtual,buscar intercambios DADP-Caja,e0_argentina_rc_26_216_2008_tsa_sigade,Sistema probado para procedimiento BOCON vecino.
+SK122_07,REQ122_ECON,producer,ONCP;DADP;Unidad de Registro de la Deuda Pública;TGN,derivación interna focalizada,e0_argentina_rc_26_216_2008_tsa_sigade,Nombres contemporáneos; verificar sucesores.
+SK122_08,REQ122_BCRA,date,2008-09-02;2008-09-09;2008-09-16;2008-10-07;2009-06-18,cortes CRyL objetivo,llamados oficiales V115-V116,Fechas de liquidación prevista.
+SK122_09,REQ122_BCRA,account,0306;40000,cuenta Caja publicada,llamados oficiales V115-V116,Puede requerir código de cuenta CRyL adicional.
+SK122_10,REQ122_BCRA,security,ARARGE034678;ARARGE035709;ARARGE03E147;ARARGE03E154;ARARGE03G415,especies exactas,llamados oficiales V115-V116,Verificar códigos internos CRyL.
+SK122_11,REQ122_BCRA,file_code,CG1,errores de prematching,e0_bcra_b7971_cryl_operational_files_2003,Diseño; no prueba archivo objetivo.
+SK122_12,REQ122_BCRA,file_code,CG2,operaciones rechazadas,e0_bcra_b7971_cryl_operational_files_2003,Diseño; no prueba archivo objetivo.
+SK122_13,REQ122_BCRA,file_code,CG3,operaciones liquidadas,e0_bcra_b7971_cryl_operational_files_2003,Diseño; no prueba archivo objetivo.
+SK122_14,REQ122_BCRA,file_code,CG4,operaciones para liquidar,e0_bcra_b7971_cryl_operational_files_2003,Pendiente no es liquidado.
+SK122_15,REQ122_BCRA,file_code,CG5;CG6;CG7,saldos y extracto diario,e0_bcra_b7971_cryl_operational_files_2003,Debe cruzarse por cuenta/especie.
+SK122_16,REQ122_BCRA,form,4359 DVP/FD&P;4359B FTC;4359C FT,instrucciones y transferencias,e0_bcra_a3191_cryl_dvp_regime_2000,Verificar modalidad y versión 2008.
+SK122_17,REQ122_BCRA,field,número de instrucción;número de operación;concertación;liquidación;nominal;importe,campos mínimos de búsqueda,e0_bcra_a3191_cryl_dvp_regime_2000,No pedir sólo por texto libre.
+SK122_18,REQ122_BNA,date,2008-08-11/2008-08-22,ventana de ejecución,E0_FISCAL_BUYBACK_PROGRAM_EVENTS_2005_2009_V122.csv,No incluye segunda etapa.
+SK122_19,REQ122_BNA,phrase,programa de recompra de deuda pública;primera etapa;USD 380 millones,búsqueda en mandato y mesa,comunicados oficiales V114,Monto aproximado.
+SK122_20,REQ122_BNA,security,BODEN 2012;BODEN 2013;BONAR V;PRE8;BODEN 2008;unidades PBI,universo narrativo,comunicado 22/08/2008,Lista no prueba ejecución por especie.
+SK122_21,REQ122_BNA,record,blotter;libro de órdenes;ticket;confirmación;liquidación;rendición,clases de mesa y mandato,REQUEST_BNA_FIRST_STAGE_BLOTTER_V122.md,Usar también sinónimos internos.
+SK122_22,REQ122_AGN,identifier,2074c3d9-a535-497e-a97d-d74340ff49fb,UUID exacto,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V122.csv,No es expediente.
+SK122_23,REQ122_AGN,identifier,nid 18814;vid 18821,nodo y versión,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V122.csv,Metadatos de portal.
+SK122_24,REQ122_AGN,date,2018-08-14;2018-09-11,ingreso y respuesta,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V122.csv,Fechas públicas exactas.
+SK122_25,REQ122_AGN,phrase,BODEN 2006;BODEN 2012;BODEN 2013,tema público,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V122.csv,Buscar también sin acento y variantes.
+SK122_26,REQ122_AGN,repository,Drupal;webform;adjuntos;correo saliente;backup,objetos fuera del nodo público,REQUEST_AGN_2018_REPLY_V122.md,No presupone tecnología interna adicional.
+SK122_27,REQ122_CNV,date,2014-11-19,nota Caja citada por AGN,E0_FISCAL_CUSTODIAN_INFORMATION_GAPS_V122.csv,Nota sin número.
+SK122_28,REQ122_CNV,identifier,Resolución AGN 41/2016;pedido AGN;Caja de Valores,actuación supervisora,E0_FISCAL_CUSTODIAN_INFORMATION_GAPS_V122.csv,No identifica por sí solo expediente CNV.
+SK122_29,REQ122_CNV,account,0306/40000,liquidaciones de recompra,llamados oficiales V115-V116,Solicitar agregado/testado.
+SK122_30,REQ122_CNV,security,cinco ISIN de las rondas y strip,acotar búsqueda,REQUEST_CNV_CUSTODY_RECORDS_V122.md,No pedir padrón privado nominativo.
+SK122_31,REQ122_CAJA,account,depositante 0306 / comitente 40000,cuenta objetivo,llamados oficiales V115-V116,No equivale a beneficiario final.
+SK122_32,REQ122_CAJA,date,cuatro entregas 2008;2009-06-17,recepción de títulos,llamados oficiales V115-V116,Fechas previstas.
+SK122_33,REQ122_CAJA,system,TSA;Red Privada Virtual;acuse de aceptación,buscar transmisión DADP-Caja,e0_argentina_rc_26_216_2008_tsa_sigade,Comprobar uso para recompra.
+SK122_34,REQ122_CAJA,form,4359B FTC;copia certificada;aceptación;rechazo,buscar constancia bilateral,e0_bcra_a3191_cryl_dvp_regime_2000,Sólo si la modalidad fue FTC.
+SK122_35,REQ122_CAJA,security,ARARGE034678;ARARGE035709;ARARGE03E147;ARARGE03E154;ARARGE03G415,acotar por especie,llamados oficiales V115-V116,Una especie puede tener múltiples movimientos.
+SK122_36,REQ122_BCRA,file_code,CGA;CGAEEEEE.NN;CGAEEEEE.INN,instrucción y acuse FT/FTC,e0_bcra_b9173_cryl_cga_x400_2008,El acuse satisfactorio es condicional; pedir segunda etapa y CG3.
+SK122_37,REQ122_BCRA,system,X-400;MCT;correo institucional CRyL,buscar mensajería vigente desde 2008-01-21,e0_bcra_b9173_cryl_cga_x400_2008,No excluir contingencias en papel.
+SK122_38,REQ122_BCRA,message,Validación satisfactoria; operación CONDICIONAL a futura liquidación,distinguir primera etapa,e0_bcra_b9173_cryl_cga_x400_2008,No equivale a liquidación.
+SK122_39,REQ122_BCRA,field,código entidad 1001; cuenta 04; número de lote; registro; fecha/hora,cruzar lado Caja y respuesta,e0_bcra_b9173_cryl_cga_x400_2008,1001/04 no equivale a 0306/40000.
+SK122_40,REQ122_BCRA,migration,IDEAR;Esquema Institucional de Mensajería y Transferencia de Archivos;CG1-CG7;CGA,localizar repositorio sucesor,e0_bcra_b10469_cryl_code_continuity_2012,Continuidad de código no prueba preservación histórica.
+SK122_41,REQ122_ECON,phrase,modalidad diferida;confirmaciones Caja;pagos T+3,buscar instrucción equivalente de la recompra,e0_argentina_rc_212_24_2008_recompra,Descriptor publicado; falta equivalencia técnica.
+SK122_42,REQ122_CAJA,file_code,CGA;CGAEEEEE.NN;CGAEEEEE.INN,buscar archivo o acuse del lado Caja,e0_bcra_b9173_cryl_cga_x400_2008,Sólo si se usó FT/FTC.
+SK122_43,REQ122_CAJA,field,entidad 1001; cuenta 04; subcuenta receptora; número de comitente,acotar mensaje CRyL/Caja,e0_bcra_b9173_cryl_cga_x400_2008,Códigos de diseño; no beneficiario final.
+SK122_44,REQ122_ECON,historical_code,5426;5427;45698;45701,"cruzar resultados, especie recibida y registración de deuda",RG AFIP 2418/2008 y 2575/2009,Códigos oficiales por denominación; no son por sí solos asiento liquidado ni código CRyL.
+SK122_45,REQ122_BCRA,security_bridge,ARARGE034678=5426;ARARGE035709=5427;ARARGE03E147=45698;ARARGE03E154=45701,pedir tabla histórica ISIN-código de custodia/CRyL,llamados oficiales + RG AFIP 2418/2575,Puente por denominación exacta; requerir confirmación institucional.
+SK122_46,REQ122_CAJA,security_bridge,ARARGE034678=5426;ARARGE035709=5427;ARARGE03E147=45698;ARARGE03E154=45701,localizar especie y confirmar Código Caja histórico,llamados oficiales + RG AFIP 2418/2575,El encabezado AFIP histórico dice CÓDIGO; confirmar equivalencia y vigencia en Caja.
+SK122_47,REQ122_CAJA,form,F-33914.01;F-33915.01;Entrega diferida;Recepción diferida,obtener versión vigente en 2008 o equivalencia,formularios CVSA publicados en 2017,La edición preservada es posterior al período objetivo.
+SK122_48,REQ122_CAJA,matching,fecha de ejecución;fecha límite de Matching;Código Caja;depositante emisor;comitente emisor;depositante receptor;comitente receptor,buscar instrucción emparejada y estado de ejecución,F-33914.01 y F-33915.01,Campos de esquema; no prueban que exista un formulario objetivo.
+SK122_49,REQ122_ECON,strip_code,ARARGE03G415;BODEN 2012 cupón 15;subespecie;Código Caja,localizar el código propio del strip 2009,llamado oficial 2009,No heredar 5426 del título principal.
+SK122_50,REQ122_BCRA,channel_modality,TSA;modalidad diferida;CGA;FT;FTC;Código CVSA;Código CRyL,pedir equivalencias históricas sin confundir canal y modalidad,B9173; CVSA 10290; BYMA NSC 2023,Evidencia posterior sólo delimita categorías; no acredita uso en 2008.

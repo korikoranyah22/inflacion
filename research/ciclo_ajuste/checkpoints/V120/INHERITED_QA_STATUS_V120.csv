@@ -1,0 +1,24 @@
+﻿script,pre_v120_result,post_v120_result,interpretation
+qa_v97.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,V97 exige que una fuente recuperada después permanezca sin ruta/hash.
+qa_v98.py,PASS,PASS,Compatible
+qa_v100.py,PASS,PASS,Compatible
+qa_v101.py,PASS,PASS,Compatible
+qa_v102.py,PASS,PASS,Compatible
+qa_v103.py,PASS,PASS,Compatible
+qa_v104.py,PASS,PASS,Compatible
+qa_v105.py,PASS,PASS,Compatible
+qa_v106.py,PASS,PASS,Compatible
+qa_v107.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v108.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v109.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v110.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v111.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v112.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v113.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v114.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v115.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v116.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v117.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v118.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v119.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,Congela un checkpoint o conteo anterior.
+qa_v120.py,N/A,PASS,"Fuentes nuevas, productores, CG1-CG7, formularios, claves, adjuntos y estados no enviados."

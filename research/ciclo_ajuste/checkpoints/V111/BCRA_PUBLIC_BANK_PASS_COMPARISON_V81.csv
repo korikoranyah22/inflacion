@@ -1,0 +1,3 @@
+comparison,known_exact_million_dec2023_ars,public_group_control_million_dec2023_ars,known_share_pct,arithmetic_residual_million_dec2023_ars,bound_status,reason
+BAPRO exact Q4 net vs public-bank Primas por pases Q4 control,408809.771013623238,1296325.773163272752,31.536036657,887516.002149649515,NOT_AN_ENTITY_BOUND,Primas por pases four-leg crosswalk not established; group residual spans all other public banks and may contain signed net results.
+BNA+BAPRO exact FY net vs public-bank Primas por pases FY control,1806657.988000000000,2739176.298957038851,65.956250742,932518.310957038851,NOT_AN_ENTITY_BOUND,Same taxonomy limitation; comparison is a plausibility/control diagnostic only.

@@ -1,0 +1,1260 @@
+{
+  "checkpoint": "V106",
+  "created_utc": "2026-08-29T06:37:23Z",
+  "parent_checkpoint": "V105",
+  "strict_coverage_pct": "61.85556252889191138996688912819023696381678506495534839297178493772894515361020159989231594459249549",
+  "exact_entities": 30,
+  "promotion_count": 6,
+  "promoted": [
+    "Banco Hipotecario S.A.",
+    "Banco Columbia S.A.",
+    "BACS Banco de Credito y Securitizacion S.A.",
+    "Banco Municipal de Rosario",
+    "Banco Provincia de Tierra del Fuego",
+    "Banco VOII S.A."
+  ],
+  "material_delta": [
+    "Eleven original issuer PDFs preserved and SHA-256 validated",
+    "Six analytical source holds promoted mechanically",
+    "Strict coverage rises by 2.07796678256929090931644798091387813890559573883536862571869667773002925390295366449555154459249549 pp",
+    "Historical 2001-2026 workstream bootstrapped from V31-V51",
+    "Closed-network gate remains NO"
+  ],
+  "files": [
+    {
+      "path": "ANNEX_Q_FREQUENCY_CORRECTION_V86.md",
+      "bytes": 860,
+      "sha256": "f6d67713ef9db5a717fad5bcfdb6ff4864ffa5ba1cafb9f5fc9b43fdc0e01318"
+    },
+    {
+      "path": "ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md",
+      "bytes": 679,
+      "sha256": "9999e0631a63aee21964963deae95be6cba39ca8fb9cc27735147e116d1873d1"
+    },
+    {
+      "path": "AUDITORIA_V100.md",
+      "bytes": 1394,
+      "sha256": "6442ac25b4c4fdd9b90f1046b5e54c753c807b9a7c9f3d5bccab495372457b2a"
+    },
+    {
+      "path": "AUDITORIA_V101.md",
+      "bytes": 2489,
+      "sha256": "6afea2b3b9226033c7e45bfdd245b9e17e546e25e3724cbd9509e6a82b7354db"
+    },
+    {
+      "path": "AUDITORIA_V102.md",
+      "bytes": 1978,
+      "sha256": "c9dd95ffa362dc52fb7580eabbc44e9c900512c86c22c2a57ad93064322e6929"
+    },
+    {
+      "path": "AUDITORIA_V103.md",
+      "bytes": 1611,
+      "sha256": "86b7c8bb90c5938b07a479b4cb331310e7cc6ea84563a0e9d71d8dbdcc6019c6"
+    },
+    {
+      "path": "AUDITORIA_V104.md",
+      "bytes": 1888,
+      "sha256": "6a1f67c198ec6ef5623aa2960d2f491a2f730a0d66e5ab2ba17d5be0801f9ea8"
+    },
+    {
+      "path": "AUDITORIA_V105.md",
+      "bytes": 1233,
+      "sha256": "26433fa4d6eafc605d66396c28631b2c200ca715b224c83dc1d2b4c00a4bd83d"
+    },
+    {
+      "path": "AUDITORIA_V106.md",
+      "bytes": 3879,
+      "sha256": "f7c0222d854c668735246c9eaa8350fbaa9980801986fb24ab62cabe79ea50a2"
+    },
+    {
+      "path": "AUDITORIA_V97.md",
+      "bytes": 1859,
+      "sha256": "8dbca09bd6efde4f8b8d5aab03e5a146d2a3705334310cb7e0a74c32a5896092"
+    },
+    {
+      "path": "AUDITORIA_V98.md",
+      "bytes": 1850,
+      "sha256": "789c8a9d82277bf4b8be1aa604508742b390809ae54a84cb9acfd4559f94deef"
+    },
+    {
+      "path": "BACS_BCRA_RAW_REPO_ACCOUNT_AUDIT_V101.csv",
+      "bytes": 922,
+      "sha256": "0c31db3e6f8e6803c9e92bbdc297dbb2992476d76ce3fa9d342eb2bfd9c54637"
+    },
+    {
+      "path": "BACS_OFFICIAL_SOURCE_AUDIT_V101.md",
+      "bytes": 1644,
+      "sha256": "838f865564c6e37ad9a82ab1ffe46a3be58fa90cf85e8077f973a34f82e3385d"
+    },
+    {
+      "path": "BACS_Q4_FOUR_LEG_CANDIDATE_V101.csv",
+      "bytes": 865,
+      "sha256": "310909314394e74f73846936c7a3caf8e61d44ed624aa8889ab42d1d04cbd52a"
+    },
+    {
+      "path": "BANCO_CMF_BCRA_RAW_ACCOUNT_AUDIT_V96.csv",
+      "bytes": 506,
+      "sha256": "53c3157433565bdbdf6badc589ed9757626b05ccd684fe6dfa39daf6a880842e"
+    },
+    {
+      "path": "BANCO_CMF_OFFICIAL_SOURCE_AUDIT_V96.md",
+      "bytes": 978,
+      "sha256": "dfa31b6952bbee6a985f4734c7e917100bf7414f41ed610cd960d8e412ad0e6f"
+    },
+    {
+      "path": "BANCO_CMF_RECOVERY_STATUS_V96.md",
+      "bytes": 978,
+      "sha256": "dfa31b6952bbee6a985f4734c7e917100bf7414f41ed610cd960d8e412ad0e6f"
+    },
+    {
+      "path": "BANCO_CORRIENTES_BCRA_RAW_ACCOUNT_AUDIT_V95.csv",
+      "bytes": 307,
+      "sha256": "031f4274f8755c3aea17c5e805e41614d5b7a50ab41cc6e491b32d813f5123a7"
+    },
+    {
+      "path": "BANCO_CORRIENTES_RECOVERY_STATUS_V95.md",
+      "bytes": 822,
+      "sha256": "fac7a4ced6c767476ffffb6b5e4bbcf8018b7f18b4008bb69934023c2c61a348"
+    },
+    {
+      "path": "BANCO_DEL_CHUBUT_BCRA_RAW_ACCOUNT_AUDIT_V96.csv",
+      "bytes": 204,
+      "sha256": "972fb98dbe1a61d5ea704db3f382b580af58751f368577cd2add781f15fb7c47"
+    },
+    {
+      "path": "BANCO_DEL_CHUBUT_RECOVERY_STATUS_V96.md",
+      "bytes": 577,
+      "sha256": "aba7b909c3752698e149fa02afff688e4d8d6efb2ec29feb035d075c0be16a51"
+    },
+    {
+      "path": "BANCO_FORMOSA_BCRA_RAW_ACCOUNT_AUDIT_V95.csv",
+      "bytes": 1301,
+      "sha256": "f30b09ef06a5507e912c7f115f03f13530a815c5bab3aa3f7e4b9b1f164e0cb8"
+    },
+    {
+      "path": "BANCO_FORMOSA_ENTITY_SPECIFIC_CROSSWALK_V95.csv",
+      "bytes": 1580,
+      "sha256": "10e82ac8f1caac93b1fcbd682a1e86850d5385d286cf258219758303cace08e8"
+    },
+    {
+      "path": "BANCO_FORMOSA_OFFICIAL_SOURCE_AUDIT_V95.md",
+      "bytes": 2671,
+      "sha256": "a1fe6225d95c468cff06a3ae9b73b70d645da3913fab2aac1ad31e732bad199c"
+    },
+    {
+      "path": "BANCO_FORMOSA_Q4_FOUR_LEG_PROMOTION_V95.csv",
+      "bytes": 1405,
+      "sha256": "a1cfb3354c4963f03a064a81d3a2a213e1cccff762d689d69752c398431bcbe5"
+    },
+    {
+      "path": "BANCO_INDUSTRIAL_BCRA_RAW_ACCOUNT_AUDIT_V91.csv",
+      "bytes": 1100,
+      "sha256": "3505d05c8c467d7907659e82215368ff7403985a5ff32bdfba4aeb3755170c93"
+    },
+    {
+      "path": "BANCO_INDUSTRIAL_ENTITY_SPECIFIC_CROSSWALK_V91.csv",
+      "bytes": 1577,
+      "sha256": "43ddfa03572a8239fd59fa8ee10facbfdff9cecffb1622b604633931570509f2"
+    },
+    {
+      "path": "BANCO_INDUSTRIAL_Q4_FOUR_LEG_PROMOTION_V91.csv",
+      "bytes": 1032,
+      "sha256": "4d513b9608e74028bd0814db6614ad20c05b32ca3dfbe2d19dcea458c0fe778e"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_BCRA_RAW_ACCOUNT_AUDIT_V93.csv",
+      "bytes": 1124,
+      "sha256": "bd116e96ff48822fb3c980c096d9a52c37d04425aebd1cd1294916e94aed0a99"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_ENTITY_SPECIFIC_CROSSWALK_V93.csv",
+      "bytes": 1450,
+      "sha256": "cd9db246ad2e6694e3581e3c12aaa6b082ea5cfcc8a635eb1b930d06ac862698"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_OFFICIAL_SOURCE_AUDIT_V93.md",
+      "bytes": 2390,
+      "sha256": "324f34266e1606a74098f7bd470c3a9c18363c91e94a61e85b59d229715a7a96"
+    },
+    {
+      "path": "BANCO_LA_PAMPA_Q4_FOUR_LEG_PROMOTION_V93.csv",
+      "bytes": 1123,
+      "sha256": "8b2de9cca1557833fdf4d986ebe2fa7ec4f4db43790f122082348bd22d67bfe4"
+    },
+    {
+      "path": "BANCO_RIOJA_MISMATCH_AUDIT_V102.md",
+      "bytes": 1005,
+      "sha256": "e238422568a833de7ed7491d9af03c7b737259ccd789d2200ab6c72746525bdb"
+    },
+    {
+      "path": "BANCO_RIOJA_REPO_MISMATCH_AUDIT_V102.csv",
+      "bytes": 315,
+      "sha256": "5fda1ada9065578e462851a933e04b9a9b94c91c2123e93c513b94e65cc1b575"
+    },
+    {
+      "path": "BANCOR_ENTITY_SPECIFIC_CROSSWALK_V88.csv",
+      "bytes": 1490,
+      "sha256": "2e71f3131086303b8c68bb8ba0fd84e33c13e47d5e8f036eca078dbead82bf55"
+    },
+    {
+      "path": "BANCOR_Q4_FOUR_LEG_PROMOTION_V88.csv",
+      "bytes": 1023,
+      "sha256": "df5cfda9cb973fff70cb74fe0a3cf53c5affbb6d0514f56c94577455c99d0006"
+    },
+    {
+      "path": "BBVA_BCRA_RAW_ACCOUNT_AUDIT_V86.csv",
+      "bytes": 672,
+      "sha256": "a2d5fea7c2fab9d6b978f8bc57d4ff66f4ed2b9e1e608557e3432536539184da"
+    },
+    {
+      "path": "BBVA_ENTITY_SPECIFIC_ACCOUNT_CROSSWALK_V86.csv",
+      "bytes": 1361,
+      "sha256": "18bfd71efbd783a0ca8bdb8a5702d280ff0e6ea84aef27370464c855278bf8f0"
+    },
+    {
+      "path": "BBVA_Q4_FOUR_LEG_PROMOTION_V86.csv",
+      "bytes": 970,
+      "sha256": "4a8a22fe770a1ecafbd0ff401b94d4cff0c13147ec9c9d3a75d813f5694576b7"
+    },
+    {
+      "path": "BCRA_63_BANK_RAW_SWEEP_V85.csv",
+      "bytes": 13985,
+      "sha256": "58ac95e18318685cd1f4b7036f42c4e5cc25785e74f62a290479708529f643c6"
+    },
+    {
+      "path": "BCRA_INFBANC_ANEXO_AUDIT_V81.md",
+      "bytes": 3874,
+      "sha256": "47fb6fb1bd4d0afe4c70c81dd0478f26692e2f43f658ee00087cf64c8081b483"
+    },
+    {
+      "path": "BCRA_PASS_AGGREGATE_RECONCILIATION_V81.csv",
+      "bytes": 629,
+      "sha256": "42fedd63088776e8acab67e9f0d7b47717871b2b3b1763555edffd518b4b09a8"
+    },
+    {
+      "path": "BCRA_PUBLIC_BANK_PASS_AGGREGATE_CONTROL_V81.csv",
+      "bytes": 2422,
+      "sha256": "a4f73fcd75fe82e9a79210d633b6b74a10bf99f6f3e91418a9ca7d8363af2377"
+    },
+    {
+      "path": "BCRA_PUBLIC_BANK_PASS_COMPARISON_V81.csv",
+      "bytes": 693,
+      "sha256": "081aa9f28f20a85b3cbd01b4792a006329384aaafab4e2cbc77b669d09fc9c0d"
+    },
+    {
+      "path": "BCRA_RAW_ACCOUNT_RECONCILIATION_V84.csv",
+      "bytes": 1116,
+      "sha256": "a16b64a78aec61e568ef8b7de4571116b64e4133e88fc2a89fe83157d3925f07"
+    },
+    {
+      "path": "BCRA_SIX_DIGIT_MAPPING_LIMIT_V85.md",
+      "bytes": 1322,
+      "sha256": "ddbe0b670b9caeec300aadfa3b998e9a4b8a836be0616ecb5ef4536ec15ccd41"
+    },
+    {
+      "path": "BICE_AGN_MANUAL_RECOVERY_OUTCOME_V90.md",
+      "bytes": 2584,
+      "sha256": "f8b7e2b9615d68ab4ee645f5a6f0fe5e50ec34ef43f9df0b18d1a0127abef009"
+    },
+    {
+      "path": "BICE_BCRA_RAW_ACCOUNT_AUDIT_V90.csv",
+      "bytes": 799,
+      "sha256": "a1e8b4a107466626fa3f255e40e71681f4d36b5876205b5cdfd64cbafdf19e66"
+    },
+    {
+      "path": "BICE_ENTITY_SPECIFIC_CROSSWALK_V90.csv",
+      "bytes": 1503,
+      "sha256": "258dfdbcc605da2e4491d1d99ee3379a7d1ee29d6243efed4dd25716ac190e6e"
+    },
+    {
+      "path": "BICE_Q4_FOUR_LEG_PROMOTION_V90.csv",
+      "bytes": 1147,
+      "sha256": "46ebb057237ec65033df5e08d1caa26e3bc2e518f1287f34265eb6474e38d6ab"
+    },
+    {
+      "path": "BMA_CNV_RECOVERY_STATUS_V91.md",
+      "bytes": 628,
+      "sha256": "446315013085a7214c499890266f8435f0b14eff827e3020b629c9b46b6818ea"
+    },
+    {
+      "path": "BMA_FY_PRESENTATION_TARGET_CORRECTION_V100.md",
+      "bytes": 1121,
+      "sha256": "9d78d251549340614726d7dfa384076f840c972d9ff8f2c977656d27b86a85d2"
+    },
+    {
+      "path": "BMR_BCRA_RAW_REPO_ACCOUNT_AUDIT_V101.csv",
+      "bytes": 424,
+      "sha256": "9b4ce8ab8d5bebb516f6a133957ab46969c3fa110dd00eb29db9dfc94ebb0e97"
+    },
+    {
+      "path": "BMR_BTF_EXHAUSTIVE_INTEREST_RECONCILIATION_V101.csv",
+      "bytes": 1314,
+      "sha256": "eb45a2d896433ca81e1b0135cff79b7c05a954bcee2b879f377839041e79d3a6"
+    },
+    {
+      "path": "BMR_OFFICIAL_SOURCE_AUDIT_V101.md",
+      "bytes": 1784,
+      "sha256": "8bf2bdc1084e883b0cc237e15922e70b0b59bc41496962047c9f1e07af1d5aee"
+    },
+    {
+      "path": "BMR_Q4_FOUR_LEG_CANDIDATE_V101.csv",
+      "bytes": 916,
+      "sha256": "b7be483e5d9b9a17154054eda8f7cb30de2fe2673b91c1548153d391b35e3149"
+    },
+    {
+      "path": "BNA_521007_HISTORY_V85.csv",
+      "bytes": 1176,
+      "sha256": "2825d9dcc099d7a85610104dc7423cadf3566ee1b7b10ff0396589530dd8ea81"
+    },
+    {
+      "path": "BNA_521007_PRESENTATION_AUDIT_V85.md",
+      "bytes": 669,
+      "sha256": "507ac83370a8d36d72bd09a478fdefd912eab6d187ac29bf586c287762a06860"
+    },
+    {
+      "path": "BNA_SANTANDER_RECOVERY_ROUTE_CORRECTION_V86.md",
+      "bytes": 803,
+      "sha256": "ef0c99c84c6ddcdbde0786c92b9cd3360d7ac3d9ede18f39d733e5d679eea068"
+    },
+    {
+      "path": "BNA_STATUS_V87.md",
+      "bytes": 795,
+      "sha256": "0c5d414d9809a7250e5bf101f0f32e7750961dec1b8363bc1c240a3bc7e4a687"
+    },
+    {
+      "path": "BPN_BCRA_RAW_ACCOUNT_AUDIT_V94.csv",
+      "bytes": 1266,
+      "sha256": "064c89836e31b8997956e18ab921d052e3b89fd8421710a42139ebce65a6b2d8"
+    },
+    {
+      "path": "BPN_ENTITY_SPECIFIC_CROSSWALK_V94.csv",
+      "bytes": 1099,
+      "sha256": "c1b51e6c39a6075ba2822821853abc04f38e8aef0e4fa18284f882591fce5ddf"
+    },
+    {
+      "path": "BPN_OFFICIAL_SOURCE_AUDIT_V94.md",
+      "bytes": 2426,
+      "sha256": "ca6d674b07601e42116c4deb8459dad00290696b30099dda3cbd8562f89b4e8b"
+    },
+    {
+      "path": "BPN_Q4_FOUR_LEG_PROMOTION_V94.csv",
+      "bytes": 1158,
+      "sha256": "9718dafb3009f1c7d13d3f754307e06fc50788e89f1619f2b4d3bdeb0913bff9"
+    },
+    {
+      "path": "BSE_BCRA_RAW_ACCOUNT_AUDIT_V94.csv",
+      "bytes": 728,
+      "sha256": "bd4e744d4b9b3bf8bca6029335a0662ccf4a1d541fa36ef2eb9a3a3ee7bdf5ef"
+    },
+    {
+      "path": "BSE_RECOVERY_STATUS_V89.md",
+      "bytes": 541,
+      "sha256": "48a25d02b325108dfc23385e080bb501d3ba63ebeea7edc6547e3404eb4373de"
+    },
+    {
+      "path": "BSE_RECOVERY_STATUS_V94.md",
+      "bytes": 1656,
+      "sha256": "b2a223276a5afcee04c27b9f17fbd2b36d264f71c18cf17a8d27607bbaa95810"
+    },
+    {
+      "path": "BST_BCRA_RAW_ACCOUNT_AUDIT_V96.csv",
+      "bytes": 1435,
+      "sha256": "5d4751fb6286ad7cbeff08667d6671a83e58850b8c09e258328eb6cb46a71ed8"
+    },
+    {
+      "path": "BST_ENTITY_SPECIFIC_CROSSWALK_V96.csv",
+      "bytes": 1732,
+      "sha256": "445c7fa2aa2695f41455582af5f1bd1dfde7ece8aed292ebd416ba49683e5f5a"
+    },
+    {
+      "path": "BST_OFFICIAL_SOURCE_AUDIT_V96.md",
+      "bytes": 2059,
+      "sha256": "6dd254db54259ac2fc08b5973704ef7b28bb3da0b87ba0faa15bcafba08dfea9"
+    },
+    {
+      "path": "BST_Q4_FOUR_LEG_PROMOTION_V96.csv",
+      "bytes": 629,
+      "sha256": "4ead686ce6b26e2bb9cbc8446fc5990558593eefc55d49f41f51d154c4db561d"
+    },
+    {
+      "path": "BTF_BCRA_RAW_REPO_ACCOUNT_AUDIT_V101.csv",
+      "bytes": 460,
+      "sha256": "7f5956587fd5f8483c82f87111201d4954f756f343256c8844dc35c7ea0aff00"
+    },
+    {
+      "path": "BTF_OFFICIAL_SOURCE_AUDIT_V101.md",
+      "bytes": 1394,
+      "sha256": "442f939c5fc9652b0493905a308aa4898cab628c71b3a3f907e524f6f2282521"
+    },
+    {
+      "path": "BTF_Q4_FOUR_LEG_CANDIDATE_V101.csv",
+      "bytes": 901,
+      "sha256": "f9ed039cde0252aab7f4e829d0c1faaf9d737bf87a7be2a132b4410fac2a5fc8"
+    },
+    {
+      "path": "CITI_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "bytes": 723,
+      "sha256": "b83659122e69c3fc4ac5c7f9a8213fe3a37063a0c467c7496f896b2d54afbcbb"
+    },
+    {
+      "path": "CIUDAD_BCRA_RAW_Q4_BRIDGE_V84.csv",
+      "bytes": 602,
+      "sha256": "87b82479ed9ee75c3d1b319d4b02de296e94d52005fb87236101c9a6c36555b8"
+    },
+    {
+      "path": "CIUDAD_SEPARATED_EXISTENCE_AUDIT_V82.md",
+      "bytes": 1256,
+      "sha256": "cc31dcd9a79c4cc6a7588bd04cd3bd532a221454cf1b505de5877c411c20cbe4"
+    },
+    {
+      "path": "CMF_HISTORICAL_ARCHIVE_REAUDIT_V98.md",
+      "bytes": 2696,
+      "sha256": "cc966442001d3a4140f281abe207fbd25889714ae23794fc34ae7a60dc2b0459"
+    },
+    {
+      "path": "CMF_ISSUER_RAW_RECONCILIATION_V98.csv",
+      "bytes": 467,
+      "sha256": "53dbda709fdead711558388418a5eeacc888954e5c9d5d3dca01d849b4e7f438"
+    },
+    {
+      "path": "CNV_AIF_ATTACHMENT_ROUTE_DISCOVERY_V103.md",
+      "bytes": 2129,
+      "sha256": "bb6ce71d8751532f6c3275ad97e6ebe214fa38a392ee738222ae7c6959d62f54"
+    },
+    {
+      "path": "CNV_ATTACHMENT_JSON_SCHEMA_CORROBORATION_V105.csv",
+      "bytes": 1526,
+      "sha256": "28bfad7c7b57bef3ff006b59d5587e9c130f8c61cf2b24f984d545217a568e5b"
+    },
+    {
+      "path": "CNV_ATTACHMENT_ROUTE_V105.md",
+      "bytes": 2099,
+      "sha256": "4c0950df839c37db3b8bd45f6aa329f2d0f117d380624b2f7ca9dd83529bcd5c"
+    },
+    {
+      "path": "CNV_EXACT_PRESENTATION_REVALIDATION_V103.csv",
+      "bytes": 1386,
+      "sha256": "3401872b9e13b95fbb1e2949ce3a960631ee035fef6f407bc9d64e7551ae09c6"
+    },
+    {
+      "path": "CNV_EXACT_PRESENTATION_TARGETS_V104.csv",
+      "bytes": 1819,
+      "sha256": "6c68c10b358292c8081f3fcbb51cb2e62c4af676fccbdbd2cdc16f0e99ce4c40"
+    },
+    {
+      "path": "CNV_EXACT_PRESENTATION_TARGETS_V105.csv",
+      "bytes": 2116,
+      "sha256": "28d1ed57ce3f11e55ea7031d2f4dd2feb95031b8228e3080e6898c4f2f9ba337"
+    },
+    {
+      "path": "CNV_MONTHLY_ROUTE_AUDIT_V82.md",
+      "bytes": 781,
+      "sha256": "b5254dfb867f8cf4bde417fbb52abd6fd0bce261681d7ed537920cbfa5b53d60"
+    },
+    {
+      "path": "CNV_OFFICIAL_TARGET_REVALIDATION_V105.csv",
+      "bytes": 1320,
+      "sha256": "d0942e6007eb8fd9293353869546d4cc110f54a9b738f3c2830b14bed749eefd"
+    },
+    {
+      "path": "CNV_PUBLICVIEW_CAPTURE_ARTIFACTS_V104.csv",
+      "bytes": 958,
+      "sha256": "928794cadf91d54ebd65e3d3d4b9f4b347daa49d8064418663bdee7ef9afd7c4"
+    },
+    {
+      "path": "CNV_PUBLICVIEW_FRONTEND_FORENSICS_V104.csv",
+      "bytes": 2974,
+      "sha256": "fa6590ee1c140a36d80b441fe1c8f648fd7f48dd5cb81378104b29965645e213"
+    },
+    {
+      "path": "CNV_PUBLICVIEW_FRONTEND_FORENSICS_V104.md",
+      "bytes": 3822,
+      "sha256": "edc407f3c3535e7695c1c1b370334b34f5badea677d27c4c0e2859148cff69b0"
+    },
+    {
+      "path": "CNV_PUBLICVIEW_LIVE_INDEX_V105.csv",
+      "bytes": 1093,
+      "sha256": "f696a718478c7452a9de08846954516b53be882730815bd0ffa2f4e289c47147"
+    },
+    {
+      "path": "COLUMBIA_BCRA_RAW_ACCOUNT_AUDIT_V97.csv",
+      "bytes": 2121,
+      "sha256": "77086105f2baf90d6dc9380176465b65abbea243ecd4717b5ca5e7d0b7676825"
+    },
+    {
+      "path": "COLUMBIA_ENTITY_SPECIFIC_CROSSWALK_V97.csv",
+      "bytes": 2028,
+      "sha256": "b32ab2e015cbdd76e56b3cfb62a6ef34251e7287489baac0d20ee65ed0cb9286"
+    },
+    {
+      "path": "COLUMBIA_OFFICIAL_WEB_SOURCE_AUDIT_V97.md",
+      "bytes": 2555,
+      "sha256": "197ba0238bd2843197ecbbbf54df6d76c221e900088ba8b205a4bca7fc8667d2"
+    },
+    {
+      "path": "COLUMBIA_Q4_FOUR_LEG_CANDIDATE_V97.csv",
+      "bytes": 674,
+      "sha256": "72e5f5b922e4e1ad9537e23c16e2b9352c94ba3b639092def3967247a9c95ea9"
+    },
+    {
+      "path": "COMAFI_Q4_FOUR_LEG_PROMOTION_V88.csv",
+      "bytes": 804,
+      "sha256": "d16c494380d6e7ca7e82bfc9b3d3ec03dbfaf5867ab34a885d3eda38fb16f83a"
+    },
+    {
+      "path": "CORRIENTES_EXACT_DOWNLOAD_ENDPOINT_V98.md",
+      "bytes": 957,
+      "sha256": "805b5b9c62f24e8d86392b764916cc723c9c730a157c60726ec6a317ac173e95"
+    },
+    {
+      "path": "CURRENT_STATE_V100.csv",
+      "bytes": 10189,
+      "sha256": "b2d1f31ac37d81eaf6305fd4637afe3ba92599860286a02e334532c1ed091312"
+    },
+    {
+      "path": "CURRENT_STATE_V101.csv",
+      "bytes": 11462,
+      "sha256": "0a7faf35d61eaa45d08b526413b48a187fe2ea05fba43b3e31369ab3eec36fd9"
+    },
+    {
+      "path": "CURRENT_STATE_V102.csv",
+      "bytes": 12289,
+      "sha256": "e37850cc9191f9f0566b7f18ba745e6de67ae0bde82ca727b11143581ec874ff"
+    },
+    {
+      "path": "CURRENT_STATE_V103.csv",
+      "bytes": 12363,
+      "sha256": "b51e64e48b7243182bd30637295b4d7081da5bc90603bdddfa2a6f68e4ed62f0"
+    },
+    {
+      "path": "CURRENT_STATE_V104.csv",
+      "bytes": 12675,
+      "sha256": "d56d4d2de2c4743672149428e05ae6622522bd5df87a68993cc50169f00ad21d"
+    },
+    {
+      "path": "CURRENT_STATE_V105.csv",
+      "bytes": 12581,
+      "sha256": "7219668a9ef178bb5d71908696d92ba739f1192484d58e0e9995b9f4b8d5479a"
+    },
+    {
+      "path": "CURRENT_STATE_V106.csv",
+      "bytes": 12012,
+      "sha256": "d5e148ecc990b39fc8d9353f7b88e651644cdb95ade9ffbd86246a203194052e"
+    },
+    {
+      "path": "CURRENT_STATE_V97.csv",
+      "bytes": 9589,
+      "sha256": "e06b3ea91c944cd0b55f014538cc6489fb3fdcefe3fc92574b9cef06fbc5b757"
+    },
+    {
+      "path": "CURRENT_STATE_V98.csv",
+      "bytes": 10005,
+      "sha256": "a03898f96ec30cc1aa7666411b84edc6571fe7f17158877c9c05d04bdd13d420"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V100.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V101.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V102.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V103.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V104.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V105.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V106.csv",
+      "bytes": 19622,
+      "sha256": "81afcfa8c66b706ed819ddf73a7a59dc10c6d38fbe65d82f660f32fa1d29f457"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V97.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V98.csv",
+      "bytes": 17155,
+      "sha256": "95b935e4364ad5bb8df4abea7b1e1f50079047b1c5bc0898a154afa0741d555c"
+    },
+    {
+      "path": "GALICIA_Q4_FOUR_LEG_PROMOTION_V85.csv",
+      "bytes": 874,
+      "sha256": "81094074e0899ae32bafa655bc02318066c9e07a201ea4ec08cafb6c81d972a2"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V100_A_V101.md",
+      "bytes": 1428,
+      "sha256": "c2e063a61d69df7267825d8797f47462353313a9d297d7564cd08d6bc7f44827"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V101_A_V102.md",
+      "bytes": 1903,
+      "sha256": "5d0e9800bb2c854a61a5685d9e4a67259cf5d88078e5b92d55ad7d3e7c353035"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V102_A_V103.md",
+      "bytes": 1853,
+      "sha256": "f89606fca5475ccca8534799e8135c0d175e1757b44a976debe7e19712f47d61"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V103_A_V104.md",
+      "bytes": 1583,
+      "sha256": "c576e8d95bb93313dbddd6e7f00824eee86c810117e958c48a14c1d39efbe7d7"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V104_A_V105.md",
+      "bytes": 2145,
+      "sha256": "8ecf9dd7b0659c66aeb3c0aa6691881ed9367de430f65a358a47042aa06008b9"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V105_A_V106.md",
+      "bytes": 2116,
+      "sha256": "402487ad5abf390861673346b0c7323f8add0bf3e6aa2fc68455f2ebd804594b"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V106_A_V107.md",
+      "bytes": 2213,
+      "sha256": "9a0a507968a295ca445cb4f6c995ec88f745d73d7b9120863d84ff49185c0499"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V97_A_V98.md",
+      "bytes": 1476,
+      "sha256": "44aa995e29600aae94a3d0759e3a6cb4b4011c8de8c37c1d8f159b7b4b3e7491"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V98_A_V99.md",
+      "bytes": 2339,
+      "sha256": "71069ee787cf3f7a1c1ed01a859fa45db2fa06e4849f6ad3ccff3f9f2104676f"
+    },
+    {
+      "path": "HIGH_PAYOFF_SOURCE_REVALIDATION_V103.md",
+      "bytes": 1193,
+      "sha256": "eded66f408627951bac33be52d8a8ba620b9b3cc95b579e065ad91749f5ed115"
+    },
+    {
+      "path": "HIGH_PAYOFF_SOURCE_REVALIDATION_V104.md",
+      "bytes": 860,
+      "sha256": "a443f5262423189dc9fbd33023a20f54fb2d2a847064110a19d5dc5ef38e1055"
+    },
+    {
+      "path": "HIGH_PAYOFF_SOURCE_REVALIDATION_V105.md",
+      "bytes": 808,
+      "sha256": "890d90840cbd27fc6b963f611795f6fe3c7895068ecb8cbca9caea638f9d94ea"
+    },
+    {
+      "path": "HIPOTECARIO_ENTITY_SPECIFIC_CROSSWALK_V99.csv",
+      "bytes": 1366,
+      "sha256": "54e68f05245d30f2ca3ea660a65c7b2187e0696b44042610e679527a98e81a2f"
+    },
+    {
+      "path": "HIPOTECARIO_PRESENTATION_RECLASSIFICATION_RESOLUTION_V99.md",
+      "bytes": 3827,
+      "sha256": "7340502131f79f67eaf38111e7220530fb03f2b66b9df1547aeb6ede3fe63b34"
+    },
+    {
+      "path": "HIPOTECARIO_Q4_FOUR_LEG_CANDIDATE_V99.csv",
+      "bytes": 570,
+      "sha256": "9cb417e35d63819486713ea8a141bc05b33ad2927048e51f52a372429728f43b"
+    },
+    {
+      "path": "HIPOTECARIO_RAW_PRESENTATION_CONFLICT_V88.md",
+      "bytes": 1237,
+      "sha256": "8bd335eec79edfde2334f14aaa654f6f4551ad55ac823db85c7ba3faaf421956"
+    },
+    {
+      "path": "HIPOTECARIO_WEB_REVALIDATION_V100.md",
+      "bytes": 974,
+      "sha256": "9883755ed708aa6862948d8718943bb15964777d1e87e1980b99e2b12c19253a"
+    },
+    {
+      "path": "HISTORICAL_EPISODE_MATRIX_2001_2026_V106.csv",
+      "bytes": 11564,
+      "sha256": "1075d0b0b552fd34961a7ca4accb6648f1bd71ad2ca0c44def20874ce95c9506"
+    },
+    {
+      "path": "HISTORICAL_EVIDENCE_COVERAGE_V106.csv",
+      "bytes": 6311,
+      "sha256": "16414d065c9325c12436089ffb5d92dfe02d0dd07ab7c039b1b4a62773a44952"
+    },
+    {
+      "path": "HISTORICAL_SOURCE_QUEUE_V106.csv",
+      "bytes": 3087,
+      "sha256": "957f8e247aa835af53cef78770b1f224b2c5c3f42e5b6c8126f47e74adc72285"
+    },
+    {
+      "path": "HISTORICAL_WORKSTREAM_BOOTSTRAP_V106.md",
+      "bytes": 4053,
+      "sha256": "0d744ab39d0262144cef6f1acd3e45884cc070671ba65b145d47fd6251253e7e"
+    },
+    {
+      "path": "HSBC_CNV_MANUAL_RECOVERY_V88.md",
+      "bytes": 871,
+      "sha256": "e7c3008df22fcde55622128eee47cbdbb148ab4b24b04e99d4245fee780788b0"
+    },
+    {
+      "path": "HSBC_CNV_PRESENTATION_METADATA_V98.md",
+      "bytes": 1257,
+      "sha256": "2612963ff0fb83ab243f7cc530efdfb825d73cc58dbbb4d21d75f362c3b3faea"
+    },
+    {
+      "path": "INHERITED_QA_STATUS_V106.csv",
+      "bytes": 491,
+      "sha256": "420cfd9ee2fe50b7d51935bb3077945e5a89c3196797db5224fe605c55906328"
+    },
+    {
+      "path": "MANIFEST_V100.json",
+      "bytes": 22841,
+      "sha256": "8dc6be80018b749bc37a0345a2dc3e1111cc96abc90ef9e957abc5a4234cbbe6"
+    },
+    {
+      "path": "MANIFEST_V101.json",
+      "bytes": 27087,
+      "sha256": "c84d54c3c50b4e8f9e722f06dfbb5df7eba3990dbe34a3a4268911d45a51b38c"
+    },
+    {
+      "path": "MANIFEST_V102.json",
+      "bytes": 29982,
+      "sha256": "62a85b64c4b247296378efc82a5304f83c8fe04905eb91b0fa2e5e8fdaa44272"
+    },
+    {
+      "path": "MANIFEST_V103.json",
+      "bytes": 32762,
+      "sha256": "e832d343b08522596e2387c5687f630187351d8d15023da1bbb1c845bbd7a08e"
+    },
+    {
+      "path": "MANIFEST_V104.json",
+      "bytes": 35770,
+      "sha256": "f351c30960f0ca30268d68baa8a3600cf3d4d8977b26df133da6e3190020dfb6"
+    },
+    {
+      "path": "MANIFEST_V105.json",
+      "bytes": 38573,
+      "sha256": "86c77076aa7bfc33ebb499c5674d277754d219aec3fdcfe2be7731d2c4ff0dc7"
+    },
+    {
+      "path": "MANIFEST_V97.json",
+      "bytes": 16785,
+      "sha256": "1207b55d6910868c4e88b6521f636082ef8c24f3ee33dacefc32dbd31d1ca073"
+    },
+    {
+      "path": "MANIFEST_V98.json",
+      "bytes": 19818,
+      "sha256": "c276ef688467241b1f6a3f99cd6594fc8a5b2e8f86201803eeb9b638b7d359e2"
+    },
+    {
+      "path": "MARIVA_ATTACHMENT_STATUS_V98.md",
+      "bytes": 600,
+      "sha256": "07c01780645d24637940609f6c39957a8e5d85698e5fc81d835f522b5b2697c6"
+    },
+    {
+      "path": "MARIVA_BCRA_RAW_ACCOUNT_AUDIT_V97.csv",
+      "bytes": 2263,
+      "sha256": "ddf3d7a70d103b299fd3981bb3b588a531434e7dcaac10620a025965adf5b4ba"
+    },
+    {
+      "path": "MARIVA_ISSUER_SITE_ROUTE_REVALIDATION_V103.md",
+      "bytes": 651,
+      "sha256": "d044cc505377b5a102305db4407b285b7e148b3ab741d4b32c865d88d5407bfa"
+    },
+    {
+      "path": "MARIVA_SOURCE_RECOVERY_V97.md",
+      "bytes": 1195,
+      "sha256": "d3fde3b6f1bb1556d44cdfc72d1f21d263032ae138668aeb773f8d7d13b569e4"
+    },
+    {
+      "path": "NBCH_BCRA_RAW_ACCOUNT_AUDIT_V92.csv",
+      "bytes": 840,
+      "sha256": "dfce05d1f4d77f500e2ebb04c0ab07d0234ecf92f3fe550e540299fece845446"
+    },
+    {
+      "path": "NBCH_ENTITY_SPECIFIC_CROSSWALK_V92.csv",
+      "bytes": 1443,
+      "sha256": "0e8cd1838f7756198e0df4b0909efc42a6465ba8e465b70c868e7841db29b06f"
+    },
+    {
+      "path": "NBCH_OFFICIAL_SOURCE_AUDIT_V92.md",
+      "bytes": 1831,
+      "sha256": "5a4f109bdf22626f739bceb56e948473b2c9c2418d2462416d970bc970bfc0b2"
+    },
+    {
+      "path": "NBCH_Q4_FOUR_LEG_PROMOTION_V92.csv",
+      "bytes": 1045,
+      "sha256": "5b9cb8273a3a7803908f5d1fb1f9e230536a212577446cb42bad8f8ad8ebfe6a"
+    },
+    {
+      "path": "NBER_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "bytes": 1685,
+      "sha256": "58942591b71f833d15b1b54dfdff294cb63ef42fbcd9e828398014fc99f9195f"
+    },
+    {
+      "path": "NBSF_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "bytes": 1752,
+      "sha256": "405867b6927eb90b3bfc3a03bf57d8012ff3b3d2e49a7280a4dee42ff89c0624"
+    },
+    {
+      "path": "P0_ISSUER_SOURCE_INGEST_V106.csv",
+      "bytes": 5067,
+      "sha256": "da4f3d7d7afc9ec3cf7f6ee5f97fced8d3b41b906cbfcc6bfdb2c7d52d80293f"
+    },
+    {
+      "path": "P0_ISSUER_SOURCE_INGEST_V106.md",
+      "bytes": 1470,
+      "sha256": "f6286175e21d0dfebc945d38467e43f57e9e8874c1251063e44f5cbe103b554d"
+    },
+    {
+      "path": "P0_SIX_ENTITY_Q4_FOUR_LEG_PROMOTION_V106.csv",
+      "bytes": 1251,
+      "sha256": "bd94ef79e266009bf6819ed1f46ec4c50e9f156f311d41801cb48ac5d332da8e"
+    },
+    {
+      "path": "PATAGONIA_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "bytes": 745,
+      "sha256": "5a9b7dd48247a4bdba3fdbad83bd2a7eb770a831c16fde883cd25841134b8018"
+    },
+    {
+      "path": "qa_v100.py",
+      "bytes": 691,
+      "sha256": "8a96dcc2c3fa740d62b82e075d2b8e848db27b1e35eafe5ae6b76421bd5b158c"
+    },
+    {
+      "path": "qa_v101.py",
+      "bytes": 1417,
+      "sha256": "4886eff36de5938e9ad9a30d0524361c63edb06339c3fa782b4a1f2d6161a31f"
+    },
+    {
+      "path": "qa_v102.py",
+      "bytes": 1440,
+      "sha256": "a5f423a41211af009a8c27fd494183173388a7a90ecdb1183cddc1187375d900"
+    },
+    {
+      "path": "qa_v103.py",
+      "bytes": 1412,
+      "sha256": "d72cae21ad54b1e55aa88ead253c8a4b460ab2529695baedda72d1e2719d6945"
+    },
+    {
+      "path": "qa_v104.py",
+      "bytes": 2477,
+      "sha256": "cd6e2edfaf7562e31bf8b735cdae56049e7442843ba60c2d73f64e7d72df2a11"
+    },
+    {
+      "path": "qa_v105.py",
+      "bytes": 2111,
+      "sha256": "625b40a76eaac3914992a9cc00726249a7bd3e621a8ba252cc0f675dab72b952"
+    },
+    {
+      "path": "qa_v106.py",
+      "bytes": 5852,
+      "sha256": "3466546f3f2de0cd527c731a52b8b952a379515d55643255d8a956104b71c03a"
+    },
+    {
+      "path": "qa_v97.py",
+      "bytes": 2619,
+      "sha256": "ac73798c4c960443c712ad1c3c0be58893e671ae246dfb05b01a2a95abe4a203"
+    },
+    {
+      "path": "qa_v98.py",
+      "bytes": 2591,
+      "sha256": "84f56aa58a4ed1f3e3706ccdc861a4ae4aaf631f362bd33e00795029681241a1"
+    },
+    {
+      "path": "RAW_TO_ANNEXQ_ENTITY_SPECIFIC_RECONCILIATION_V85.csv",
+      "bytes": 1844,
+      "sha256": "9abf234aad7e7a479fcda54bf423d5645fb18dd4fc3eb9f85d3e5dcf347388c2"
+    },
+    {
+      "path": "README_V100.md",
+      "bytes": 733,
+      "sha256": "cf5e66260af8d0779695940419f2866949db0d8395939a747a4c641b4272db4c"
+    },
+    {
+      "path": "README_V101.md",
+      "bytes": 1008,
+      "sha256": "f4063c73f9168945cccf4a9c9000e2536b35f1fb35456f8878bf452b0754b62a"
+    },
+    {
+      "path": "README_V102.md",
+      "bytes": 504,
+      "sha256": "8762bc6f09ef780446ed8c490623acc05850295ee0b28d92f46a28d711b09ba8"
+    },
+    {
+      "path": "README_V103.md",
+      "bytes": 625,
+      "sha256": "72bb66976977d74bf3532337d35b461b484a314a17496dca217abbbe0af327ed"
+    },
+    {
+      "path": "README_V104.md",
+      "bytes": 1038,
+      "sha256": "70a09295ba565145c8df7d5dc76b33ff685b7693736542237bc8fe41c8f8770a"
+    },
+    {
+      "path": "README_V105.md",
+      "bytes": 1297,
+      "sha256": "8fe5dcde904084107244957dd18d87c1eae9f6f70f26fc3a9d422fb029554a69"
+    },
+    {
+      "path": "README_V106.md",
+      "bytes": 1733,
+      "sha256": "05ecfaedf94759b510e3e39280c14175f4a6cb642cca1503e0721070075a29a6"
+    },
+    {
+      "path": "README_V97.md",
+      "bytes": 957,
+      "sha256": "7044dbb786cbe36a9b2f26c2120a6e317d5d3734493ac8d83d17067934cd8a01"
+    },
+    {
+      "path": "README_V98.md",
+      "bytes": 1461,
+      "sha256": "e4172886eef4c66847ac1cc5d8e7a4d81290e8e4f1d155d35df03305239a81b5"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V100.csv",
+      "bytes": 2231,
+      "sha256": "abe0748e8a8942b3cd9a5a06807a614dcac6ba55f46e8a699cc933eca9deb944"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V101.csv",
+      "bytes": 2801,
+      "sha256": "fdaa78fb47f791d47c8eae2b73363daa333233815530b2d7bfc1f7836b5c63b5"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V102.csv",
+      "bytes": 3272,
+      "sha256": "44a771604e10b0468a05b9ae56cda027854bda525f6bd993a4f70fdd4822f546"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V103.csv",
+      "bytes": 3769,
+      "sha256": "8e7030c651938cd28e6fbd8618403af971acdf1d0a67e1309c93b853b5ed5635"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V104.csv",
+      "bytes": 4048,
+      "sha256": "421688ede4b432a465ff8dca53f9cbc4f8f3319db223d8aabde53a2d8a327703"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V105.csv",
+      "bytes": 4336,
+      "sha256": "aa9931c3187915db4be4f0cf8ea7446d3911a6da7b5a6acd06594e594da894c5"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V106.csv",
+      "bytes": 2365,
+      "sha256": "8c512889076c5df23a56370d3220e7abad7cbf18ddbeae83362950a60396ac25"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V97.csv",
+      "bytes": 3109,
+      "sha256": "6164cc47494b3f68761345b4a8a6255eb68d1a1f82bd69740483e12b11ac7d11"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V98.csv",
+      "bytes": 2416,
+      "sha256": "b66d1ede283b34e3ca59bf308f3090a012f036f86d11bd5524293f7723d29e8f"
+    },
+    {
+      "path": "SAN_JUAN_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "bytes": 1656,
+      "sha256": "576c97c2633e5c1f170be6fe0080c76cbc10b4725635a0d157d4c6d9e71a16ca"
+    },
+    {
+      "path": "SANTA_CRUZ_Q4_FOUR_LEG_PROMOTION_V89.csv",
+      "bytes": 1705,
+      "sha256": "d781f710a5de7db047993c7fe1de9169bc75dd46f1ab381c71c30444f96c9deb"
+    },
+    {
+      "path": "SANTANDER_SEPARATED_9M_AUDIT_V87.md",
+      "bytes": 1051,
+      "sha256": "87987e680eddbca1067b12e78a3154dfd6d49821c52ac23627eb3ee6eb6c36b5"
+    },
+    {
+      "path": "SOURCE_HOLD_CANDIDATE_COVERAGE_V101.csv",
+      "bytes": 995,
+      "sha256": "a8a72074194082b00fee213ad534f8b7e252feff21c64ff9752a8df08f78a28d"
+    },
+    {
+      "path": "SOURCE_HOLD_CANDIDATE_COVERAGE_V102.csv",
+      "bytes": 712,
+      "sha256": "f962ca5810ca71024c0dc8b9c574b53baebb7e650d5a09fcb066f147494dc377"
+    },
+    {
+      "path": "SOURCE_HOLD_CANDIDATE_COVERAGE_V103.csv",
+      "bytes": 712,
+      "sha256": "f962ca5810ca71024c0dc8b9c574b53baebb7e650d5a09fcb066f147494dc377"
+    },
+    {
+      "path": "SOURCE_HOLD_CANDIDATE_COVERAGE_V104.csv",
+      "bytes": 712,
+      "sha256": "f962ca5810ca71024c0dc8b9c574b53baebb7e650d5a09fcb066f147494dc377"
+    },
+    {
+      "path": "SOURCE_HOLD_CANDIDATE_COVERAGE_V105.csv",
+      "bytes": 712,
+      "sha256": "f962ca5810ca71024c0dc8b9c574b53baebb7e650d5a09fcb066f147494dc377"
+    },
+    {
+      "path": "SOURCE_HOLD_CANDIDATE_COVERAGE_V106.csv",
+      "bytes": 352,
+      "sha256": "7022355c15de740f7f06e8527775eb1a5dfe863f6d2874bb00952fb939f9e10d"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V100.md",
+      "bytes": 943,
+      "sha256": "f65a7b1794aafe600cca37a262749612f4dc84a41f38b32fb7baf75e6d954cb6"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V101.md",
+      "bytes": 1505,
+      "sha256": "4cf57550b8d8af13246340b5be54c808bad566a9d9c50a95719c9480044dac3e"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V102.md",
+      "bytes": 752,
+      "sha256": "0bfd24854d1a48c850008ca7d23c425892bc89e733298a754e311471c298a566"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V103.md",
+      "bytes": 696,
+      "sha256": "3706682fbed0b6bb382e4729c1595ae7e4bf6034a51b3f25c98bca06e50aaa91"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V104.md",
+      "bytes": 1179,
+      "sha256": "42e3278cedfc1661d07a015f2933593a567b3b119f813e345a3e0b9c7f2efd1f"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V105.md",
+      "bytes": 1408,
+      "sha256": "96c2631e148ab64fe73f94ab17eaf9278b5ea5dfbe2726fa2d7c1b69ebc43caf"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V106.md",
+      "bytes": 1728,
+      "sha256": "2515fc6407db7e45a7793e09cb188c5329af02a37a0f0c81deb7672bbf415ccd"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V97.md",
+      "bytes": 14404,
+      "sha256": "edbcce9c72b5d6302ec948d6a506bce0f01cc7bf835cd5b78822e34e964fbe3c"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V98.md",
+      "bytes": 1549,
+      "sha256": "da7f275923866bf9ffdd677385493b0e164b90b571426004a8534df7a8afab03"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V100.csv",
+      "bytes": 860,
+      "sha256": "eb2438fa6550ec4cdade0a6f5cde79dae539589429ba3706f165e40087a354cf"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V101.csv",
+      "bytes": 865,
+      "sha256": "e443db6ed4e60920ef1ef0c24297a5f518aa9f15ad58f7ddc03681738d2a80b0"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V102.csv",
+      "bytes": 888,
+      "sha256": "a463cd28a5f17b97424825b7d70c50b293b5a99fa8137cd59fd7ed7549614147"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V103.csv",
+      "bytes": 888,
+      "sha256": "a463cd28a5f17b97424825b7d70c50b293b5a99fa8137cd59fd7ed7549614147"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V104.csv",
+      "bytes": 888,
+      "sha256": "a463cd28a5f17b97424825b7d70c50b293b5a99fa8137cd59fd7ed7549614147"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V105.csv",
+      "bytes": 888,
+      "sha256": "a463cd28a5f17b97424825b7d70c50b293b5a99fa8137cd59fd7ed7549614147"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V106.csv",
+      "bytes": 918,
+      "sha256": "f4f5e70d9b3b2ed6b53b27cd8753bbd0fedcef5ba1af51494724b7208d17e0d5"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V97.csv",
+      "bytes": 1004,
+      "sha256": "1addbb763269956aa5bdf18fc248bccbd934c3eac0602f9377f5a5b8f3c5e560"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V98.csv",
+      "bytes": 1172,
+      "sha256": "8a497f92b5218c6a042dc51bfd99853bbb6a92cd459942f22dc2d4c96f6503fd"
+    },
+    {
+      "path": "SUPERVIELLE_Q4_FOUR_LEG_PROMOTION_V87.csv",
+      "bytes": 797,
+      "sha256": "243c87901a00e7fc2ed8c3de3c9b1cf967589c780d2c060a39f36a693e4da721"
+    },
+    {
+      "path": "TARGETED_RECOVERY_ROUTE_AUDIT_V99.md",
+      "bytes": 1642,
+      "sha256": "2c0bcf3ef9203e07d99776f097ba0e1971c43e661ba2a37f1fcaffda361008ae"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V100.md",
+      "bytes": 668,
+      "sha256": "d0b597fa8d7bdb4c7cfaf8337af831b65cd2a3902089e77b4e56a91456b148eb"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V101.md",
+      "bytes": 1414,
+      "sha256": "eb20f6351c49d3acb82b4cda0274d088e8db3a7ac4fd842df36e8b61dd566921"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V102.md",
+      "bytes": 842,
+      "sha256": "519bebe718e025d2c2166f1a5f097a0286df2f0c3c915a2634243519751f7f32"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V103.md",
+      "bytes": 660,
+      "sha256": "cee6009d23c9b6db899de20d9877fdf61c83b0a75f59cc365bec05b30a8b6bc7"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V104.md",
+      "bytes": 974,
+      "sha256": "e13b33c4371e643f9eb5a28083d962db44f42e0f85e1eff939683e02fa7e0d73"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V105.md",
+      "bytes": 620,
+      "sha256": "482f176ec0d22cae5f94610c255f87447e520cf96678da88266452e26bf03e39"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V97.md",
+      "bytes": 1085,
+      "sha256": "47e3aabcf9b524bb4f9c3b457d18141fe2fe7eaf5da94796e6f12e6ab2c5d64e"
+    },
+    {
+      "path": "USER_FILE_REQUESTS_V98.md",
+      "bytes": 1059,
+      "sha256": "cec178b63a2694a8695dd1fe7f1dec841fd029c8c5ac144e451291feafd5c4cf"
+    },
+    {
+      "path": "V101_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 1805,
+      "sha256": "10b7dcf4f9f2d7e7f862ccedaf15434d8e41e465fe41647f2442bbe6a6dda44b"
+    },
+    {
+      "path": "V102_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 619,
+      "sha256": "011efbe02b71a8f26a3ff8c5475f2a126967f5d6943d5a1b403f6cb779f8e2db"
+    },
+    {
+      "path": "V87_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 1519,
+      "sha256": "7a4744a2f00967b161aef928b31f0a5394a19bc0d4e1452cc847b339d9021069"
+    },
+    {
+      "path": "V88_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 1275,
+      "sha256": "bf0399c4b0c36f7218af9e4933f0cc44951bce2aee44d222da27a4c23a925324"
+    },
+    {
+      "path": "V96_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 7881,
+      "sha256": "bc67ab18a7d7743cd6c620ca9f1e3a9dc0de87ded472a0505f8093ec84af77ac"
+    },
+    {
+      "path": "V97_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 9096,
+      "sha256": "86a4937bbcdd2c18d6f9244c5fe84076b9a2efa50cec247aa600e1cb9e513d9e"
+    },
+    {
+      "path": "V98_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 9893,
+      "sha256": "7f2a66d5c7bff7273c1e3901b7df93a36e53b4cfa299f1b0a9d1f7d84492b20d"
+    },
+    {
+      "path": "V99_ENTITY_SPECIFIC_CROSSWALK_AUDIT.csv",
+      "bytes": 1491,
+      "sha256": "db29b007d21d5f9535b21daa77ddcb56647a36db723ae2a9a38ccc711798571a"
+    },
+    {
+      "path": "VEREDICTO_V100.md",
+      "bytes": 824,
+      "sha256": "b0d8a0f7a780b958e0dae480686c695f2b3eef3e7670a79dd6b9b0456f278d37"
+    },
+    {
+      "path": "VEREDICTO_V101.md",
+      "bytes": 1226,
+      "sha256": "298e8be227b6509aae1405dd1583b199f723eccf1fbb389c7780d7dc613a6331"
+    },
+    {
+      "path": "VEREDICTO_V102.md",
+      "bytes": 1264,
+      "sha256": "d8338bee91a0e42ad2b5cd7576cab75db45bcbed6a5365a46fea91f21dbd643f"
+    },
+    {
+      "path": "VEREDICTO_V103.md",
+      "bytes": 1109,
+      "sha256": "a1e75b9caae0aef98a5cd64abf2afe3949950b894e6fadc911ef35ce067d3192"
+    },
+    {
+      "path": "VEREDICTO_V104.md",
+      "bytes": 1342,
+      "sha256": "1973f280c0df9a8e3b061fd1601f3fa964cb8720b6ed564e55509561e96ace66"
+    },
+    {
+      "path": "VEREDICTO_V105.md",
+      "bytes": 938,
+      "sha256": "6e6d51701ce76a954bbf56f49121f6766b288ef4b41cd74dbf5b4de3ccc8e202"
+    },
+    {
+      "path": "VEREDICTO_V106.md",
+      "bytes": 2582,
+      "sha256": "f1fc64555d9183703cce816904dfc425ab80b8fa0152d98ee6ac5c438c6b53ef"
+    },
+    {
+      "path": "VEREDICTO_V97.md",
+      "bytes": 1593,
+      "sha256": "bc2405542c940419a930bfd5bb3f80f35fef71a7b9dbbc809c07fe956bc115bf"
+    },
+    {
+      "path": "VEREDICTO_V98.md",
+      "bytes": 1478,
+      "sha256": "3bb51b5a2c6518cb0e74ada4699d5c62c2a46a2ff7dcf7299955d5c4fa5b210a"
+    },
+    {
+      "path": "VOII_BCRA_RAW_REPO_ACCOUNT_AUDIT_V102.csv",
+      "bytes": 501,
+      "sha256": "f4719b81141830f954c019ce3f9be5a8e54623ada47c10b921f50545a3a5bed1"
+    },
+    {
+      "path": "VOII_OFFICIAL_SOURCE_AUDIT_V102.md",
+      "bytes": 1847,
+      "sha256": "570772485050a34a56c028fef564ad3ee8eabc5a62761939d55347e9f456d729"
+    },
+    {
+      "path": "VOII_Q4_FOUR_LEG_CANDIDATE_V102.csv",
+      "bytes": 892,
+      "sha256": "e7717d6ed308a2c59195991ee4317cab382989368488f5f8a7e5cc20b85a18de"
+    }
+  ]
+}

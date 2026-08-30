@@ -1,0 +1,13 @@
+script,pre_v109_result,post_v109_result,interpretation
+qa_v97.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,"Fails only because V97 requires Columbia source path/hash to remain blank; V106+ preserve both originals"
+qa_v98.py,PASS,PASS,Compatible
+qa_v100.py,PASS,PASS,Compatible
+qa_v101.py,PASS,PASS,Compatible
+qa_v102.py,PASS,PASS,Compatible
+qa_v103.py,PASS,PASS,Compatible
+qa_v104.py,PASS,PASS,Compatible
+qa_v105.py,PASS,PASS,Compatible
+qa_v106.py,PASS,PASS,Compatible
+qa_v107.py,EXPECTED_SUPERSEDED_ASSERTION,EXPECTED_SUPERSEDED_ASSERTION,"Fails only because V107 freezes the then-current global catalog at 215 rows; V109 validates 226"
+qa_v108.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"Fails only because V108 freezes the then-current global catalog at 225 rows; V109 adds one official BCRA source and validates 226"
+qa_v109.py,N/A,PASS,Current checkpoint invariants

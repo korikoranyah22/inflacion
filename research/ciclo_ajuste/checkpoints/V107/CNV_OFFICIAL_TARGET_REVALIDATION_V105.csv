@@ -1,0 +1,7 @@
+﻿entity,period,presentation_id,basis,close_date,filing_date,official_registry_url,result
+Banco Mariva S.A.,9M,3122483,INDIVIDUAL,2023-09-30,2023-11-30,https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/30516420444?fdesde=12%2F12%2F2019,OFFICIAL_CNV_ROW_REVALIDATED; DIRECT_PUBLICVIEW_LIVE_INDEX_CONFIRMED_AT_INHERITED_GUID
+Banco Mariva S.A.,FY,3165651,INDIVIDUAL,2023-12-31,2024-03-11,https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/30516420444?fdesde=12%2F12%2F2019,OFFICIAL_CNV_ROW_REVALIDATED
+HSBC Bank Argentina S.A.,9M,3121099,INDIVIDUAL,2023-09-30,2023-11-28,https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/33537186009?fdesde=31%2F1%2F2021,OFFICIAL_CNV_ROW_REVALIDATED
+HSBC Bank Argentina S.A.,FY,3163537,INDIVIDUAL,2023-12-31,2024-03-08,https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/33537186009?fdesde=31%2F1%2F2021,OFFICIAL_CNV_ROW_REVALIDATED
+Banco BMA / ex Banco Itau Argentina S.A.,9M,3119515,INDIVIDUAL,2023-09-30,2023-11-23,https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/30580189411?fdesde=13%2F06%2F18,OFFICIAL_CNV_ROW_REVALIDATED
+Banco BMA / ex Banco Itau Argentina S.A.,FY,3171909,INDIVIDUAL_ORDINARY,2023-12-31,2024-03-21,https://www.cnv.gov.ar/SitioWeb/Empresas/Empresa/30580189411?fdesde=13%2F06%2F18,OFFICIAL_CNV_ROW_REVALIDATED; 3177414_SEPARATE_LATER_2024_04_05_FILING_NOT_SUBSTITUTE

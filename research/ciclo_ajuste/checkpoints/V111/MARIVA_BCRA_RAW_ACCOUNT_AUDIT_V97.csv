@@ -1,0 +1,13 @@
+period,account,signed_raw_k,absolute_result_k,classification,validation
+202309,141144,33537350,33537350,STOCK_CONTROL_ONLY,Stock/control only; not a flow leg.
+202309,511027,-11112903,11112903,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202309,511055,-24638,24638,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202309,515034,-376334,376334,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202309,521022,2958,2958,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202309,525042,5601,5601,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202312,141144,97273607,97273607,STOCK_CONTROL_ONLY,Stock/control only; not a flow leg.
+202312,511027,-26821231,26821231,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202312,511055,-37767,37767,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202312,515034,-752156,752156,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202312,521022,5407,5407,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
+202312,525042,8585,8585,UNCLASSIFIED_RESULT_CANDIDATE,Retained as same-entity raw evidence only. No BCRA-vs-Other-FI semantics assigned until Mariva 2023 individual issuer attachment is recovered.
