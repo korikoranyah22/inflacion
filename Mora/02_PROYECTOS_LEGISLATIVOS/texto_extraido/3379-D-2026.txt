@@ -1,0 +1,93 @@
+PROYECTO DE RESOLUCIÓN
+La Honorable Cámara de Diputados de la Nación
+RESUELVE:
+ARTÍCULO 1°.- Solicitar al Poder Ejecutivo Nacional para que, a través del Banco Central de la
+República Argentina (BCRA), remita a esta Honorable Cámara un informe detallado sobre los
+siguientes puntos vinculados a la actividad de financiamiento de los Proveedores No Financieros
+de Crédito (PNFC):
+a) Detalle de los créditos otorgados por los Proveedores No Financieros de Crédito (PNFC) que
+actúan de manera directa o mediante empresas vinculadas dentro de las plataformas digitales
+de delivery, reparto de bienesy aplicaciones de transporte móvil.
+b) Detalle de las tasas de interés efectivas anuales (TEA) y el Costo Financiero Total (CFT) real
+promedio aplicados sobre dichos financiamientos, especificando de qué manera difieren de las
+tasas nominales anuales (TNA) publicadas de forma agregada para el resto de los Proveedores
+No Financieros de Crédito (PNFC) y entidades financieras.
+c) Detalle de la existencia de contratos y mecanismos técnicos automatizados que permitan a
+las plataformas operadoras el descuento o retención directa de las cuotas de amortización sobre
+las comisiones devengadas por los repartidores en sus cuentas digitales, antes de su efectiva
+liquidación.
+d) Desglose pormenorizado de los usuarios prestatarios del sector de plataformas digitales según
+variables de rango etario preciso, género y condición laboral/registral declarada (indicando
+porcentaje de monotributistas, asalariados o personas sin ingresos formalizados concurrentes y
+comercios).
+e) Detalle de los criterios utilizados por los Proveedores No Financieros de Crédito (PNFC) para
+elaborar el perfil crediticio de trabajadores y comerciantes vinculados a plataformas digitales.
+f) Detalle de la existencia de contratos formales entre las partes que regulen dicho proceso.
+g) Detalle si el trabajador o comerciante otorga consentimiento expreso para que se utilice su
+huella digital (datos de actividad en la aplicación, historial de pedidos, calificaciones,
+geolocalización, etc.) en la construcción de su perfil crediticio.
+h) Detalle si los créditos son solicitados voluntariamente por el trabajador o comerciante o si son
+
+ofrecidos de manera proactiva por la propia empresa.
+i) Detalle si las tasas de interés aplicadas son uniformes para todos los prestatarios o si varían
+en función del perfil crediticio elaborado por la plataforma, indicando los parámetros de
+diferenciación utilizados.
+j) Detalle cuál es el marco normativo que habilita a las empresas de economía de plataformas
+digitales a otorgar financiamiento a sus usuarios o trabajadores. En particular, se solicita precisar:
+● Si dichas empresas se encuentran inscriptas como Proveedores No Financieros de
+Crédito (PNFC).
+● Bajo qué categoría regulatoria operan dentro de la normativa vigente del BCRA.
+● Qué requisitos deben cumplir para desarrollar esa actividad.
+● Cuál es el régimen de supervisión aplicable y qué organismo es responsable de su
+fiscalización.
+k) Detalle en calidad de qué sujeto regulado —Otro Proveedor No Financiero de Crédito
+(OPNFC) u otra categoría prevista en la normativa del BCRA— las empresas de plataformas
+digitales de delivery, reparto y transporte, o las empresas vinculadas a estas, se encuentran
+inscriptas y reportan información al Banco Central de la República Argentina. Asimismo, se
+solicita precisar la razón social de la entidad efectivamente registrada por la cual se la identifica
+en el Informe de Proveedores No Financieros de Crédito de junio de 2026.
+ARTÍCULO 2°.- Comuníquese al Poder Ejecutivo Nacional y al Banco Central de la República
+Argentina.
+Diputada Nacional Marina Salzmann
+
+FUNDAMENTOS
+Señor Presidente
+El presente proyecto de resolución tiene como finalidad visibilizar e instar a este cuerpo a tomar
+medidas urgentes frente a un fenómeno de asimetría económica y vulnerabilidad social sin
+precedentes: la precarización laboral agravada por el endeudamiento financiero compulsivo.
+A partir de la información estadística provista de manera oficial por el propio Banco Central de la
+República Argentina (BCRA)1, en su Informe de Proveedores No Financieros de Crédito de junio
+de 2026, surgen diversas dudas y alertas que considero deben ser respondidas por el organismo.
+Según información relevada en varios periódicos, el universo de repartidores que recurren a las
+propias aplicaciones en busca de financiamiento, ante la total exclusión del sistema bancario
+tradicional debido a su condición de monotributistas informales, creció un 122% en el último año.
+Hacia fines del período evaluado, la cantidad de deudores menores de 30 años se incrementó
+de forma continua en los últimos tres ciclos analizados, pasando del 21% en 2023, al 29% en
+2024, hasta consolidar un 33% al cierre del último período anual.
+Lo que las plataformas de tecnología corporativa presentan en sus gacetillas de prensa
+comerciales como "herramientas de inclusión financiera y líneas de fomento para la adquisición
+de capital de trabajo", constituye en la práctica una trampa de usura y sujeción económica.
+Diversas organizaciones sindicales del sector han denunciado públicamente que el Costo
+Financiero Total (CFT) de estos préstamos a corto plazo llega a techos inaceptables del 700%
+anual, operando enteramente por fuera de los controles y topes de tasas que el BCRA impone a
+las entidades financieras tradicionales. Las aplicaciones no usan el Veraz tradicional; te evalúan
+según qué tan rápido pedaleás, cuántos viajes aceptás y cuántas estrellas te ponen. Crearon un
+"colateral digital" donde tu derecho al crédito depende de tu nivel de sobreexplotación.
+El núcleo de esta asimetría radica en que las empresas de plataforma operan un circuito
+financiero cerrado: otorgan el dinero para comprar o reparar las motos y bicicletas, cobran
+intereses usurarios y retienen el valor de las cuotas mensuales de forma automatizada sobre las
+comisiones generadas por el repartidor en la calle. El repartidor ya no pedalea para asegurar su
+sustento o capitalizarse, sino que conduce 12 o 14 horas diarias exclusivamente para saldar el
+pasivo financiero con la misma corporación que maneja la aplicación.
+Por último, es imperioso impugnar conceptualmente las consideraciones del informe del Banco
+Central de la República Argentina cuando califica esta actividad de forma genérica como "empleo
+autónomo" para sugerir una presunta contribución con la generación de empleo. Una
+formalización impositiva (Monotributo) no equivale a formalidad laboral genuina. Quien trabaja
+condicionado por penalizaciones algorítmicas, sin potestad real de fijar tarifas, turnos ni
+condiciones operativas básicas bajo riesgo de suspensión digital de su cuenta de ingresos, se
+encuentra sometido a un esquema de fraude laboral o dependencia económica encubierta,
+donde la precarización por deuda actúa como el último eslabón de coacción sistémica.
+Por todo lo expuesto, solicito a mis pares, acompañen con su voto la sanción del presente
+proyecto de resolución.
+1www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/informe-proveedores-no-
+financieros-credito-junio-2026.pdf

@@ -1,0 +1,867 @@
+PROYECTO DE LEY
+EL SENADO Y LA CÁMARA DE DIPUTADOS DE LA NACIÓN ARGENTINA,
+REUNIDOS EN CONGRESO, SANCIONAN CON FUERZA DE LEY:
+LEY FEDERAL DE CRÉDITO RESPONSABLE
+Y DESENDEUDAMIENTO
+(LEFCRED)
+TÍTULO I — DISPOSICIONES GENERALES
+CAPÍTULO I — OBJETO, PRINCIPIOS Y DEFINICIONES
+ARTÍCULO 1°. — OBJETO. La presente ley tiene por objeto establecer un marco integral
+para el crédito responsable y el desendeudamiento del consumidor financiero,
+mediante: a) la regulación del deber de evaluación de solvencia, el establecimiento de
+un límite máximo de endeudamiento y de un tope relativo al costo financiero del
+crédito; b) la transparencia y equidad en las decisiones crediticias automatizadas; c) la
+implementación de mecanismos de autocontrol financiero voluntario; d) la regulación
+de la publicidad crediticia, de las empresas de gestión de cobranzas y de las plataformas
+de financiamiento diferido (BNPL); e) la creación de un sistema de alerta temprana
+articulado con la infraestructura de finanzas abiertas; f) la institución de un régimen
+permanente de segunda oportunidad; g) la creación de un régimen transitorio
+extraordinario de desendeudamiento; h) el fortalecimiento de la educación financiera;
+i) la creación de un Observatorio Nacional de Sobreendeudamiento; j) el establecimiento
+de un entorno regulatorio de prueba para la innovación crediticia responsable; k) la
+consagración del derecho a la portabilidad del crédito; y l) la promoción de mecanismos
+de protección de ingresos frente a contingencias sobrevinientes.
+ARTÍCULO 2°. — PRINCIPIOS RECTORES. La aplicación e interpretación de la presente
+ley se regirá por los siguientes principios:
+a) Crédito responsable: las entidades proveedoras de crédito al consumo deben
+evaluar adecuadamente la capacidad de pago del solicitante antes del
+otorgamiento, contribuyendo a prevenir situaciones de sobreendeudamiento.
+b) Protección del consumidor financiero: el consumidor financiero goza de los
+derechos establecidos en el artículo 42 de la Constitución Nacional, la Ley 24.240,
+Página 1 de 27
+
+el Código Civil y Comercial de la Nación y las normas concordantes, los que se
+consideran estándares mínimos e irrenunciables.
+c) Buena fe y lealtad: las relaciones crediticias deben regirse por los principios de
+buena fe, transparencia y lealtad contractual.
+d) Proporcionalidad: las medidas regulatorias deben guardar proporción con los
+fines perseguidos, evitando restricciones innecesarias al acceso al crédito.
+e) Inclusión financiera: la prevención del sobreendeudamiento debe articularse con
+políticas de inclusión financiera.
+f) Dignidad de la persona: ningún procedimiento de cobro podrá afectar la dignidad,
+la salud o el mínimo vital del deudor y su grupo familiar.
+g) Segunda oportunidad: toda persona humana sobreendeudada de buena fe tiene
+derecho a reinsertarse en la vida económica.
+h) Educación financiera: el Estado promoverá la alfabetización financiera como
+herramienta preventiva.
+i) Corresponsabilidad: el sobreendeudamiento involucra tanto la conducta del
+deudor como las prácticas del proveedor. La regulación distribuye
+equitativamente las consecuencias del crédito irresponsable.
+j) Transparencia algorítmica: las decisiones crediticias automatizadas deben ser
+explicables, auditables y no discriminatorias.
+k) Innovación responsable: la regulación promoverá la innovación dentro de un
+marco de protección del consumidor y estabilidad financiera.
+l) Interoperabilidad: los sistemas de información crediticia deben ser interoperables
+y accesibles al consumidor, articulados con finanzas abiertas.
+m) Costo justo del crédito: el costo financiero del crédito al consumo no puede
+desviarse de manera desproporcionada respecto de las condiciones
+prevalecientes en el mercado.
+ARTÍCULO 3°. — DEFINICIONES. A los efectos de la presente ley, se entiende por:
+a) Consumidor financiero: la persona humana que contrata o utiliza servicios
+financieros de crédito al consumo como destinatario final, en los términos del
+artículo 1 de la Ley 24.240 y los artículos 1092 y 1093 del Código Civil y Comercial
+de la Nación.
+b) Proveedor de crédito al consumo: toda entidad financiera comprendida en la Ley
+21.526, así como toda persona jurídica o humana que, de manera habitual y
+profesional, otorgue créditos al consumo bajo cualquier modalidad, incluyendo
+entidades emisoras de tarjetas de crédito, empresas de tecnología financiera
+(fintech), plataformas de financiamiento diferido de pago (BNPL — Buy Now, Pay
+Later), mutuales, cooperativas de crédito, empresas de crédito para consumo y
+Página 2 de 27
+
+todo otro sujeto que ofrezca financiamiento al consumidor final.
+c) Plataforma de financiamiento diferido de pago (BNPL): todo servicio que permita
+al consumidor adquirir bienes o servicios difiriendo total o parcialmente el pago
+del precio en cuotas o plazos, con o sin intereses explícitos, cuando el
+financiamiento sea provisto por un tercero distinto del vendedor o cuando el
+vendedor actúe sistemáticamente como financiador.
+d) Sobreendeudamiento: la situación en la que un consumidor financiero de buena
+fe se encuentra imposibilitado, de manera actual o manifiestamente previsible,
+de hacer frente al conjunto de sus deudas no profesionales exigibles y de vencer,
+sin comprometer gravemente la satisfacción de las necesidades básicas propias
+y de su grupo familiar. Se presume la existencia de sobreendeudamiento cuando:
+(i) la relación entre las cuotas mensuales de deuda no profesional y los ingresos
+netos mensuales del consumidor supere el cuarenta por ciento (40%); o (ii) el
+consumidor registre mora simultánea en tres (3) o más obligaciones financieras;
+o (iii) el consumidor haya refinanciado la totalidad de sus deudas al menos dos
+(2) veces en los últimos doce (12) meses.
+e) Sobreendeudamiento pasivo: el sobreendeudamiento originado en circunstancias
+sobrevinientes ajenas a la voluntad del deudor, tales como pérdida involuntaria
+del empleo, enfermedad grave, accidente, fallecimiento del cónyuge o
+conviviente, separación o divorcio, catástrofes naturales o crisis
+macroeconómicas.
+f) Ratio de endeudamiento (DTI): el cociente entre la suma de las cuotas mensuales
+de todas las deudas no profesionales del consumidor —incluyendo las cuotas de
+financiamiento BNPL— y sus ingresos netos mensuales, expresado en
+porcentaje.
+g) Crédito responsable: el otorgamiento de crédito precedido de evaluación
+adecuada de solvencia y que no supere el límite máximo de endeudamiento ni
+el tope de costo financiero.
+h) MAFV: Mecanismo de Autocontrol Financiero Voluntario.
+i) Costo Financiero Total (CFT): costo total del crédito incluyendo intereses,
+comisiones, seguros, gastos y todo otro cargo, expresado como tasa efectiva
+anual.
+j) Tasa de referencia del sistema: la tasa promedio ponderada de créditos al
+consumo del sistema financiero para operaciones de plazo y monto
+equivalentes, publicada mensualmente por el BCRA.
+k) Plan de reestructuración: acuerdo entre consumidor y acreedores, homologado
+por autoridad competente, con condiciones de pago compatibles con la
+capacidad económica del deudor.
+Página 3 de 27
+
+l) Mínimo vital inembargable: monto de ingresos indisponible para la atención de
+deudas.
+m) Exoneración del pasivo insatisfecho (EPI): liberación judicial del deudor de buena
+fe respecto de deudas remanentes.
+n) Sistema de scoring crediticio automatizado: todo sistema que utilice algoritmos,
+modelos estadísticos, inteligencia artificial u otras técnicas computacionales
+para evaluar solvencia o riesgo crediticio.
+ñ) Empresa de gestión de cobranzas: toda persona que realice recupero extrajudicial
+de deudas de consumidores.
+o) Portabilidad crediticia: derecho a transferir el saldo de un crédito a otro proveedor
+sin penalidad.
+p) UVS: Unidad de Valor Sancionatorio, equivalente a la Canasta Básica Total
+(INDEC).
+q) Entorno regulatorio de prueba (sandbox): espacio supervisado para probar
+innovaciones crediticias.
+r) Seguro de protección de ingresos (SPI): póliza de seguro voluntaria que cubre total
+o parcialmente las cuotas de crédito al consumo del asegurado ante
+contingencias sobrevinientes que afecten su capacidad de pago, tales como
+desempleo involuntario, enfermedad grave o accidente incapacitante.
+ARTÍCULO 4°. — ÁMBITO DE APLICACIÓN. La presente ley se aplica a todas las
+relaciones de crédito al consumo, con independencia de la naturaleza jurídica del
+proveedor, la modalidad de contratación o el canal utilizado, incluyendo medios
+electrónicos y digitales. Las plataformas BNPL quedan expresamente comprendidas en
+el ámbito de aplicación de la presente ley en su carácter de proveedores de crédito al
+consumo. Quedan excluidos los créditos hipotecarios para vivienda única, sin perjuicio
+de la aplicación del deber de evaluación de solvencia y del límite máximo de
+endeudamiento. El régimen de desendeudamiento alcanza a la totalidad de las deudas
+no profesionales, incluyendo deudas tributarias no coactivas, de servicios públicos y
+comerciales.
+ARTÍCULO 5°. — ORDEN PÚBLICO. Las disposiciones de la presente ley son de orden
+público. Son nulas de nulidad absoluta las cláusulas que importen renuncia o restricción
+de los derechos del consumidor financiero.
+Página 4 de 27
+
+TÍTULO II — CRÉDITO RESPONSABLE, LÍMITE DE ENDEUDAMIENTO Y TOPE DE COSTO
+FINANCIERO
+CAPÍTULO I — DEBER DE EVALUACIÓN DE SOLVENCIA
+ARTÍCULO 6°. — DEBER DE EVALUACIÓN PREVIA. Todo proveedor de crédito al
+consumo debe, con carácter previo al otorgamiento de cualquier crédito o ampliación
+de límite, realizar una evaluación adecuada de la capacidad de pago del solicitante.
+Dicha evaluación debe incluir como mínimo: ingresos acreditables regulares,
+obligaciones financieras vigentes —incluyendo financiamientos BNPL informados en la
+PLANIC y en la Central de Deudores—, cargas de familia, gastos fijos esenciales y
+cualquier otro factor relevante. La evaluación deberá documentarse y conservarse por
+el plazo de vigencia del crédito y tres (3) años adicionales.
+CAPÍTULO II — LÍMITE MÁXIMO DE ENDEUDAMIENTO (DTI CAP)
+ARTÍCULO 7°. — RATIO MÁXIMO DE ENDEUDAMIENTO. Los proveedores de crédito al
+consumo no podrán otorgar créditos ni ampliar límites cuando, como resultado del
+nuevo otorgamiento, el ratio de endeudamiento (DTI) del solicitante supere el treinta y
+cinco por ciento (35%). A los efectos del cálculo del DTI se computarán la totalidad de
+las obligaciones no profesionales del solicitante, incluyendo expresamente las cuotas de
+financiamiento BNPL. El BCRA podrá elevar el límite hasta un máximo absoluto del
+cuarenta por ciento (40%) o reducirlo, mediante resolución fundada.
+ARTÍCULO 8°. — EXCEPCIONES AL DTI CAP. El límite podrá ser superado únicamente en:
+a) Créditos destinados a gastos de salud del solicitante o su grupo familiar.
+b) Créditos destinados a educación formal del solicitante o sus hijos menores.
+c) Operaciones de portabilidad que resulten en reducción del CFT.
+d) Otros supuestos excepcionales que establezca el BCRA con carácter restrictivo.
+En ningún caso el DTI podrá superar el cincuenta por ciento (50%), incluidas las
+excepciones.
+ARTÍCULO 9°. — STRESS TEST PARA CRÉDITOS A TASA VARIABLE. En créditos a tasa
+variable, el proveedor realizará una prueba de estrés simulando un incremento de al
+menos doscientos (200) puntos básicos. El crédito solo podrá otorgarse si el DTI no
+supera el límite aun bajo el escenario de estrés.
+CAPÍTULO III — TOPE RELATIVO AL COSTO FINANCIERO DEL CRÉDITO (CAP DE TASAS)
+ARTÍCULO 10°. — TASA DE REFERENCIA DEL SISTEMA. El Banco Central de la República
+Argentina publicará mensualmente la tasa de referencia del sistema para créditos al
+consumo, calculada como la tasa promedio ponderada del CFT de los créditos al
+consumo otorgados por el sistema financiero en el mes inmediato anterior, discriminada
+Página 5 de 27
+
+por tipo de producto (créditos personales, tarjetas de crédito, financiamiento BNPL) y
+por plazo de la operación. La metodología de cálculo y las categorías de productos serán
+determinadas por la reglamentación y publicadas en el sitio web institucional del BCRA.
+ARTÍCULO 11°. — LÍMITE MÁXIMO DEL COSTO FINANCIERO TOTAL. El Costo Financiero
+Total (CFT) de cualquier operación de crédito al consumo no podrá superar en más de
+una coma cinco (1,5) veces la tasa de referencia del sistema para el tipo de producto y
+plazo equivalentes, publicada por el BCRA conforme el artículo anterior. El BCRA podrá,
+mediante resolución fundada y con carácter transitorio, modificar el multiplicador
+previsto en el párrafo anterior dentro de un rango de una coma veinticinco (1,25) a dos
+(2) veces la tasa de referencia, en atención a las condiciones macroeconómicas, los
+niveles de morosidad del sistema y los objetivos de inclusión financiera. Las operaciones
+que superen el límite establecido se considerarán usurarias en los términos de la
+legislación civil y penal aplicable, sin perjuicio de las sanciones previstas en el Título XI
+de la presente ley.
+ARTÍCULO 12°. — TRANSPARENCIA DEL COSTO EN OPERACIONES BNPL. Las
+plataformas BNPL deberán informar al consumidor, con carácter previo a la aceptación
+de cada operación de financiamiento diferido, el CFT de la operación expresado como
+tasa efectiva anual, aun cuando el financiamiento se presente como “sin intereses” o
+“costo cero”. Cuando el costo del financiamiento sea absorbido total o parcialmente por
+el comercio adherido, dicha circunstancia deberá ser informada al consumidor. El BCRA
+podrá establecer un formato estandarizado de información para operaciones BNPL.
+CAPÍTULO IV — OBLIGACIONES PRECONTRACTUALES Y DERECHO DE REVOCACIÓN
+ARTÍCULO 13°. — PROHIBICIÓN DE OTORGAMIENTO IRRESPONSABLE. Queda
+prohibido el otorgamiento de crédito sin evaluación previa, en exceso del DTI cap o con
+un CFT que supere el límite del artículo 11. El proveedor infractor: a) será responsable
+por daños al consumidor; b) no podrá invocar la mora para la ejecución; c) el juez podrá
+reducir intereses y accesorios o declarar la inexigibilidad del saldo excedente. La carga
+de la prueba recae sobre el proveedor.
+ARTÍCULO 14°. — DEBER DE ADECUACIÓN. El proveedor debe ofrecer productos
+adecuados al perfil financiero del solicitante. El otorgamiento a un consumidor que el
+proveedor sabía o debía saber sobreendeudado constituye práctica abusiva conforme
+la Ley 24.240.
+ARTÍCULO 15°. — INFORMACIÓN PRECONTRACTUAL OBLIGATORIA. Con carácter
+previo, el proveedor suministrará en soporte durable y lenguaje claro:
+a) El CFT como tasa efectiva anual y monto total a abonar.
+b) Monto, cantidad, periodicidad y fecha de vencimiento de cada cuota.
+Página 6 de 27
+
+c) Tasas de interés compensatorio y moratorio.
+d) Seguros, comisiones, gastos y todo otro cargo.
+e) Consecuencias del incumplimiento.
+f) Derecho de revocación y forma de ejercerlo.
+g) Derecho a la portabilidad crediticia.
+h) Simulación del impacto sobre el presupuesto mensual, indicando el DTI
+resultante.
+i) Existencia del MAFV.
+j) Comparación del CFT ofrecido con la tasa de referencia del sistema publicada por
+el BCRA, expresando la relación entre ambos valores.
+k) Existencia y condiciones del Seguro de Protección de Ingresos (SPI) disponible,
+conforme el artículo 48 de la presente ley.
+ARTÍCULO 16°. — DERECHO DE REVOCACIÓN. El consumidor puede revocar sin causa y
+sin penalidad dentro de los diez (10) días hábiles desde la formalización o la recepción
+de fondos, restituyendo capital e intereses devengados.
+ARTÍCULO 17°. — PERÍODO DE REFLEXIÓN PARA CRÉDITOS DIGITALES INSTANTÁNEOS.
+En créditos contratados íntegramente por medios digitales superiores a tres (3) SMVM,
+el desembolso no podrá realizarse antes de veinticuatro (24) horas desde la aceptación.
+Durante ese período el consumidor puede desistir sin cargo. Excepción: emergencias de
+salud acreditadas.
+TÍTULO III — TRANSPARENCIA ALGORÍTMICA EN DECISIONES CREDITICIAS
+ARTÍCULO 18°. — PRINCIPIOS DE EQUIDAD ALGORÍTMICA. Todo sistema de scoring
+crediticio automatizado deberá cumplir con los principios de transparencia,
+explicabilidad, no discriminación y auditabilidad.
+ARTÍCULO 19°. — DERECHO A LA EXPLICACIÓN. Todo consumidor tiene derecho a
+obtener explicación clara, comprensible y gratuita de la denegación, asignación de
+condiciones desfavorables o reducción de límite adoptadas mediante scoring
+automatizado, incluyendo: a) los factores principales; b) su ponderación relativa; c) las
+acciones para mejorar la evaluación. Plazo: diez (10) días hábiles.
+ARTÍCULO 20°. — PROHIBICIÓN DE DISCRIMINACIÓN ALGORÍTMICA. Queda prohibido
+utilizar directa o indirectamente como variables: género, identidad de género,
+orientación sexual, raza, etnia, origen nacional, religión, discapacidad, embarazo,
+afiliación política o sindical, domicilio como proxy socioeconómico, condición de
+beneficiario de programas sociales. La prohibición alcanza a variables correlacionadas
+Página 7 de 27
+
+con efectos discriminatorios equivalentes (discriminación indirecta).
+ARTÍCULO 21°. — AUDITORÍA DE MODELOS. Los proveedores deberán: a) auditoría
+anual de equidad por auditor independiente; b) registro de modelos ante el BCRA; c)
+conservación de registros de decisiones por cinco (5) años; d) revisión humana a pedido
+del consumidor en quince (15) días hábiles.
+ARTÍCULO 22°. — SUPERVISIÓN DEL BCRA EN MATERIA ALGORÍTMICA. El BCRA podrá:
+a) requerir información sobre modelos; b) disponer auditorías especiales; c) suspender
+modelos discriminatorios; d) aplicar sanciones del Título XI.
+TÍTULO IV — PORTABILIDAD DEL CRÉDITO AL CONSUMO
+ARTÍCULO 23°. — DERECHO A LA PORTABILIDAD. Todo consumidor puede transferir el
+saldo de un crédito al consumo vigente a otro proveedor con mejores condiciones, sin
+cargos, comisiones ni penalidades por cancelación anticipada. Alcanza créditos
+personales, saldos de tarjetas y todo crédito al consumo, incluyendo saldos BNPL.
+ARTÍCULO 24°. — OBLIGACIONES DEL PROVEEDOR DE ORIGEN. Deberá: a) suministrar
+información completa en cinco (5) días hábiles; b) aceptar cancelación anticipada sin
+cargo; c) liberar garantías en diez (10) días hábiles. La obstrucción es infracción grave.
+ARTÍCULO 25°. — OBLIGACIONES DEL PROVEEDOR RECEPTOR. Deberá: a) informar
+claramente las condiciones y CFT; b) evaluar solvencia conforme Título II; c) cancelar
+directamente el saldo al proveedor de origen en cinco (5) días hábiles.
+ARTÍCULO 26°. — PLATAFORMA DE COMPARACIÓN. El BCRA creará una plataforma
+digital pública y gratuita de comparación de créditos. Los proveedores informarán
+periódicamente tasas, comisiones y condiciones.
+TÍTULO V — MECANISMO DE AUTOCONTROL FINANCIERO VOLUNTARIO (MAFV)
+ARTÍCULO 27°. — CREACIÓN DEL MAFV. Créase el MAFV como herramienta de gestión
+del gasto fundada en economía del comportamiento.
+ARTÍCULO 28°. — SUJETOS OBLIGADOS. Todos los proveedores que emitan tarjetas de
+crédito, tarjetas de compra, billeteras virtuales con crédito, plataformas BNPL o
+cualquier instrumento con financiación.
+ARTÍCULO 29°. — OBLIGACIONES ESPECÍFICAS. Deberán: a) opción de límites
+autocontrolados en no más de 3 pasos; b) alertas al 50% y 80%; c) rechazo automático
+al exceder el límite; d) información en contratación y resumen; e) límites por categoría
+Página 8 de 27
+
+cuando la plataforma lo permita.
+ARTÍCULO 30°. — PERÍODO MÍNIMO Y VÁLVULA DE SEGURIDAD. Mínimo 30 días.
+Desbloqueo anticipado en 48 horas (período de reflexión), salvo emergencias
+acreditadas (inmediato).
+ARTÍCULO 31°. — DERECHOS Y RESPONSABILIDAD. No discriminación. No afectación de
+calificación crediticia. Proveedor responsable por fallas técnicas, no por decisiones del
+titular.
+TÍTULO VI — PUBLICIDAD CREDITICIA, PRÁCTICAS DE COBRO Y REGULACIÓN DE
+COBRANZAS
+CAPÍTULO I — PUBLICIDAD CREDITICIA
+ARTÍCULO 32°. — PRINCIPIOS GENERALES. Toda publicidad de crédito al consumo debe
+ser veraz, clara, completa y no engañosa.
+ARTÍCULO 33°. — CONTENIDO OBLIGATORIO. Incluirá de manera destacada: a) CFT en
+tipografía no inferior a la de la tasa nominal; b) monto total a abonar; c) leyenda
+obligatoria sobre compromisos de pago; d) comparación del CFT ofrecido con la tasa de
+referencia del sistema.
+ARTÍCULO 34°. — PROHIBICIONES. Queda prohibido: a) “crédito gratis” o “dinero fácil”;
+b) destacar solo la cuota; c) publicidad crediticia a menores; d) crédito como solución a
+urgencias emocionales; e) presión temporal artificiosa; f) créditos preconcedidos no
+solicitados con carácter urgente; g) publicitar financiamiento BNPL omitiendo que
+genera una obligación de pago computable en el DTI.
+CAPÍTULO II — PRÁCTICAS DE COBRO
+ARTÍCULO 35°. — PROHIBICIONES EN MATERIA DE COBRO. Queda prohibido: a)
+comunicaciones fuera de 8-20 horas; b) contacto a terceros; c) amenazas, intimidación,
+lenguaje vejatorio; d) más de una comunicación diaria; e) simular actuaciones judiciales;
+f) contacto laboral salvo único medio; g) cargos no contractuales.
+CAPÍTULO III — REGISTRO NACIONAL DE EMPRESAS DE COBRANZAS (RNEGC)
+ARTÍCULO 36°. — CREACIÓN. Créase el RNEGC, a cargo de la autoridad nacional de
+defensa del consumidor. La inscripción es condición habilitante.
+ARTÍCULO 37°. — REQUISITOS. a) constitución legal; b) responsable de cumplimiento;
+c) programa de capacitación; d) garantía de cumplimiento; e) sin sanciones graves/muy
+graves en 2 años.
+Página 9 de 27
+
+ARTÍCULO 38°. — OBLIGACIONES Y RESPONSABILIDAD SOLIDARIA. Identificación
+fehaciente, información de derechos, registro de comunicaciones (2 años), auditorías,
+sistema de reclamos. Vigencia bienal renovable. El proveedor contratante es
+solidariamente responsable.
+TÍTULO VII — PLATAFORMA NACIONAL DE INFORMACIÓN CREDITICIA, ALERTA
+TEMPRANA E INTEROPERABILIDAD DIGITAL
+CAPÍTULO I — PLATAFORMA NACIONAL DE INFORMACIÓN CREDITICIA DEL
+CONSUMIDOR (PLANIC)
+ARTÍCULO 39°. — CREACIÓN DE LA PLANIC. Créase la PLANIC, administrada por el BCRA,
+como sistema digital integrado de acceso en tiempo real a la información crediticia
+consolidada del consumidor.
+ARTÍCULO 40°. — FUNCIONALIDADES. La PLANIC permitirá: a) consultar todas las
+deudas vigentes, incluyendo expresamente las operaciones BNPL, discriminadas por
+acreedor, monto, saldo, tasa, CFT, plazo y estado; b) visualizar el DTI actualizado en
+tiempo real, computando todas las obligaciones incluyendo BNPL; c) alertas automáticas
+del SATS; d) simuladores de crédito integrados con la tasa de referencia del sistema; e)
+iniciar portabilidad; f) acceder a RTED y segunda oportunidad; g) ejercer derechos de
+protección de datos; h) comparar el CFT de sus créditos vigentes con la tasa de
+referencia del sistema.
+ARTÍCULO 41°. — INTEGRACIÓN OBLIGATORIA DE OPERACIONES BNPL. Las
+plataformas BNPL deberán informar a la PLANIC y a la Central de Deudores del Sistema
+Financiero, en tiempo real o con una periodicidad máxima de veinticuatro (24) horas, la
+totalidad de las operaciones de financiamiento diferido vigentes de cada consumidor,
+incluyendo monto, cantidad de cuotas, cuota mensual, plazo y estado de pago. El
+incumplimiento de esta obligación constituye infracción grave. A los efectos del cálculo
+del DTI previsto en el artículo 7, las cuotas BNPL pendientes se computarán como
+obligaciones financieras del consumidor, con independencia de que el financiamiento
+se presente como “sin intereses” o “costo cero”.
+ARTÍCULO 42°. — INTEROPERABILIDAD CON OPEN FINANCE. La PLANIC se integrará con
+la infraestructura de finanzas abiertas del BCRA, permitiendo con consentimiento
+expreso: a) agregación de información de cuentas bancarias, billeteras y otros
+proveedores; b) verificación automática de ingresos para evaluación de solvencia; c)
+portabilidad de datos financieros. Los proveedores deberán compartir la información en
+formatos y plazos reglamentarios.
+Página 10 de 27
+
+CAPÍTULO II — SISTEMA DE ALERTA TEMPRANA (SATS)
+ARTÍCULO 43°. — CREACIÓN DEL SATS. Créase el SATS, integrado en la PLANIC, para
+detección preventiva de riesgo de sobreendeudamiento.
+ARTÍCULO 44°. — INDICADORES. Incluirán como mínimo: a) DTI; b) cantidad de
+acreedores simultáneos (incluyendo BNPL); c) evolución de deuda en 12 meses; d)
+frecuencia de pago mínimo en tarjetas; e) refinanciaciones sucesivas; f) tasa de
+crecimiento deuda vs. ingresos; g) cantidad y evolución de operaciones BNPL activas.
+ARTÍCULO 45°. — ALERTAS Y DEBER DE ABSTENCIÓN. Ante riesgo, se comunicará al
+consumidor: situación de riesgo, MAFV, asesoramiento gratuito y procedimientos de
+desendeudamiento. En riesgo alto, los proveedores —incluyendo plataformas BNPL—
+deberán abstenerse de ampliar límites u ofrecer nuevos créditos salvo nueva evaluación
+positiva.
+ARTÍCULO 46°. — PROTECCIÓN DE DATOS. Confidencialidad. Prohibición de uso
+comercial. Comunicación solo al consumidor y autoridades de aplicación.
+TÍTULO VIII — EDUCACIÓN FINANCIERA Y SEGURO DE PROTECCIÓN DE INGRESOS
+CAPÍTULO I — PROGRAMA NACIONAL DE EDUCACIÓN FINANCIERA (PRONEFCR)
+ARTÍCULO 47°. — CREACIÓN Y OBJETIVOS DEL PRONEFCR. Créase el PRONEFCR a cargo
+del BCRA en coordinación con los Ministerios de Educación y Economía y la autoridad
+de defensa del consumidor. Objetivos: a) alfabetización financiera con énfasis en
+crédito; b) educación financiera en secundaria; c) campañas públicas sobre derechos del
+consumidor financiero, incluyendo información sobre el impacto del BNPL en el
+endeudamiento y sobre la tasa de referencia como herramienta de comparación; d)
+plataforma digital de simulación integrada con PLANIC; e) capacitación a sociedad civil y
+justicia; f) programas para poblaciones vulnerables. Los proveedores incorporarán
+simuladores y alertas de pago mínimo en sus plataformas.
+CAPÍTULO II — SEGURO DE PROTECCIÓN DE INGRESOS (SPI)
+ARTÍCULO 48°. — PROMOCIÓN DEL SEGURO DE PROTECCIÓN DE INGRESOS. Los
+proveedores de crédito al consumo deberán ofrecer al consumidor, al momento de la
+contratación de cualquier crédito al consumo, la opción de contratar un Seguro de
+Protección de Ingresos (SPI) que cubra total o parcialmente las cuotas del crédito ante
+las siguientes contingencias: a) desempleo involuntario del asegurado; b) enfermedad
+grave o accidente que produzca incapacidad laboral temporaria o permanente; c)
+fallecimiento del asegurado. La contratación del SPI será siempre voluntaria. Queda
+Página 11 de 27
+
+prohibida toda práctica que condicione el otorgamiento del crédito a la contratación del
+seguro o que dificulte la obtención del crédito sin seguro.
+ARTÍCULO 49°. — CONDICIONES DEL SPI. El SPI ofrecido en el marco de la presente ley
+deberá cumplir con las siguientes condiciones mínimas:
+a) El costo de la prima deberá ser informado separadamente del CFT del crédito, de
+manera clara y destacada, y no podrá ser superior al porcentaje máximo que
+establezca la Superintendencia de Seguros de la Nación en coordinación con el
+BCRA.
+b) La cobertura mínima deberá alcanzar al menos al ochenta por ciento (80%) del
+valor de las cuotas durante un período mínimo de seis (6) meses en caso de
+desemplo y de doce (12) meses en caso de incapacidad.
+c) El período de carencia no podrá superar los treinta (30) días para incapacidad y
+los sesenta (60) días para desempleo.
+d) El consumidor podrá cancelar el SPI en cualquier momento con reembolso
+proporcional de la prima no devengada.
+e) El SPI deberá ser portable: en caso de portabilidad del crédito conforme el Título
+IV, el seguro se transferirá al nuevo crédito sin pérdida de antigüedad ni período
+de carencia adicional.
+ARTÍCULO 50°. — INCENTIVO PARA LA CONTRATACIÓN DEL SPI. Los consumidores que
+contraten un SPI tendrán derecho a que la prima del seguro no sea computada en el
+cálculo del DTI previsto en el artículo 7 de la presente ley. Los proveedores de crédito al
+consumo podrán ofrecer una reducción de la tasa de interés para los créditos que
+cuenten con cobertura SPI, en las condiciones que establezca la reglamentación. El BCRA
+y la Superintendencia de Seguros de la Nación promoverán el desarrollo de productos
+SPI accesibles para poblaciones de bajos ingresos.
+ARTÍCULO 51°. — SUPERVISIÓN DEL SPI. La Superintendencia de Seguros de la Nación
+será la autoridad de supervisión del SPI en lo referido a las condiciones de la póliza, la
+solvencia de las aseguradoras y la protección del asegurado. El BCRA supervisará las
+prácticas de comercialización del SPI por parte de los proveedores de crédito al
+consumo, velando por que se respete el carácter voluntario del seguro y la transparencia
+en la información.
+Página 12 de 27
+
+TÍTULO IX — RÉGIMEN PERMANENTE DE SEGUNDA OPORTUNIDAD
+CAPÍTULO I — DISPOSICIONES GENERALES
+ARTÍCULO 52°. — FINALIDAD. Ofrecer a personas humanas sobreendeudadas de buena
+fe un procedimiento accesible para reestructurar deudas y obtener la EPI.
+ARTÍCULO 53°. — LEGITIMACIÓN ACTIVA. Todo consumidor persona humana
+sobreendeudado de buena fe. Exclusiones: a) condenados por defraudación en 10 años;
+b) crédito obtenido con información falsa; c) procedimiento equivalente en 7 años; d)
+ocultamiento o distracción de bienes.
+ARTÍCULO 54°. — BUENA FE. Se presume, salvo prueba en contrario. El
+sobreendeudamiento pasivo constituye presunción reforzada.
+CAPÍTULO II — PROCEDIMIENTO ADMINISTRATIVO RÁPIDO (CONASE)
+ARTÍCULO 55°. — COMISIÓN NACIONAL DE SOBREENDEUDAMIENTO. Créase la
+CONASE en el ámbito de la autoridad de defensa del consumidor, con delegaciones
+provinciales en jurisdicciones adherentes.
+ARTÍCULO 56°. — COMPETENCIA. Recibir solicitudes, evaluar situación patrimonial,
+brindar asesoramiento gratuito obligatorio, convocar audiencias, proponer planes,
+homologar acuerdos, derivar a instancia judicial.
+ARTÍCULO 57°. — PROCEDIMIENTO. Etapas: a) solicitud electrónica o presencial con
+declaración jurada; b) verificación automática contra PLANIC en 5 días hábiles; c)
+asesoramiento obligatorio en 10 días; d) admisión y notificación a acreedores en 15 días;
+e) audiencia conciliatoria única en 20 días (quitas hasta 70%, esperas hasta 5 años,
+reducción de tasas); f) homologación con 60% de adhesiones.
+ARTÍCULO 58°. — EFECTOS DE LA ADMISIÓN. Por 120 días prorrogables por 60: a)
+suspensión de acciones de cobro y cautelares (excepto alimentarias); b) suspensión de
+punitorios; c) prohibición de informar negativamente; d) prohibición de corte de
+servicios esenciales.
+ARTÍCULO 59°. — MÍNIMO VITAL INEMBARGABLE. Dos (2) SMVM + 20% por persona a
+cargo. La reglamentación podrá elevar pero nunca reducir.
+CAPÍTULO III — ETAPA JUDICIAL
+ARTÍCULO 60°. — APERTURA JUDICIAL. Si la etapa administrativa fracasa, el consumidor
+accede al juez de defensa del consumidor o concursal. La CONASE remite expediente
+con dictamen.
+ARTÍCULO 61°. — FACULTADES DEL JUEZ. a) Homologar plan aun sin conformidad total
+(cramdown); b) evaluar conducta del proveedor y reducción agravada de créditos
+Página 13 de 27
+
+otorgados sin evaluación; c) quitas, esperas y medidas equitativas; d) período de buena
+conducta de 3 a 5 años destinando al pago lo que exceda el mínimo vital.
+ARTÍCULO 62°. — EXONERACIÓN DEL PASIVO INSATISFECHO (EPI). Cumplido el plan o
+período de buena conducta, el juez declara la EPI: extinción de créditos, cancelación de
+anotaciones negativas en 30 días, rehabilitación plena. No exonerables: alimentarias,
+daños dolosos, multas penales, daño ambiental.
+ARTÍCULO 63°. — GRATUIDAD Y ASISTENCIA JURÍDICA. Todo el procedimiento es
+gratuito con asistencia jurídica gratuita en todas las etapas.
+TÍTULO X — RÉGIMEN TRANSITORIO EXTRAORDINARIO DE DESENDEUDAMIENTO
+(RTED)
+ARTÍCULO 64°. — FINALIDAD Y VIGENCIA. Créase el RTED, con vigencia de dos (2) años
+prorrogable por uno (1) más, como vía rápida, simplificada y masiva de regularización.
+ARTÍCULO 65°. — BENEFICIARIOS. Personas humanas que al momento de la vigencia: a)
+estén sobreendeudadas; b) registren mora de 90+ días; c) ingresos netos no superen 6
+SMVM.
+ARTÍCULO 66°. — BENEFICIOS. a) Congelamiento al capital + intereses compensatorios,
+sin punitorios ni accesorios posteriores a 90 días de mora; b) hasta 60 cuotas al 70% de
+la tasa pasiva promedio BNA; c) quita automática del 100% de punitorios y penalidades;
+d) quita progresiva: hasta 2 SMVM: 30%, 2-5: 20%, 5-10: 15%, +10: 10%; e) suspensión
+de acciones; f) eliminación de anotaciones negativas al cumplir 25% del plan.
+ARTÍCULO 67°. — PROCEDIMIENTO SIMPLIFICADO. A través de la PLANIC: a) solicitud
+electrónica con verificación automática; b) notificación a acreedores (15 días para
+observaciones de veracidad); c) resolución en 30 días hábiles; d) generación automática
+del plan.
+ARTÍCULO 68°. — OBLIGACIÓN DE LOS ACREEDORES E INCENTIVO FISCAL. Los
+proveedores deberán aceptar los planes. Las quitas son deducibles en Ganancias.
+ARTÍCULO 69°. — CADUCIDAD. 3 cuotas consecutivas o 5 alternadas: caducidad con
+deducción de pagos. El deudor podrá acceder al Título IX.
+ARTÍCULO 70°. — PROTECCIÓN REFORZADA PARA POBLACIONES VULNERABLES.
+Quitas adicionales: +65 años: +10%; discapacidad: +10%; monoparentales con hijos
+menores: +10%; programas sociales: +15%. Acumulable hasta 60%.
+ARTÍCULO 71°. — CAMPAÑA DE DIFUSIÓN. Dentro de 30 días de operatividad de la
+plataforma RTED.
+Página 14 de 27
+
+TÍTULO XI — RÉGIMEN SANCIONATORIO
+ARTÍCULO 72°. — INFRACCIONES. a) Leves: información, publicidad, educación
+financiera, información MAFV. b) Graves: evaluación de solvencia, DTI cap, tope de
+tasas, MAFV, deber de abstención, obstrucción de
+reestructuración/desendeudamiento/RTED, prácticas abusivas de cobro, obstrucción de
+portabilidad, transparencia algorítmica, operar sin registro de cobranzas,
+incumplimiento de reporte BNPL a la PLANIC, venta atada de SPI. c) Muy graves:
+otorgamiento sistemático sin evaluación o excediendo DTI/tope de tasas, uso comercial
+de SATS, discriminación algorítmica sistemática, discriminación de usuarios del MAFV o
+reestructuración, reincidencia en graves, acoso sistemático a deudores.
+ARTÍCULO 73°. — SANCIONES. a) Leves: apercibimiento y/o 100-5.000 UVS. b) Graves:
+5.001-50.000 UVS y/o suspensión hasta 6 meses. c) Muy graves: 50.001-500.000 UVS
+y/o revocación y/o publicación a cargo del infractor.
+ARTÍCULO 74°. — GRADUACIÓN Y PROCEDIMIENTO. Criterios: gravedad, consumidores
+afectados, capacidad económica, intencionalidad, reincidencia, beneficio económico,
+colaboración. Debido proceso: 15 días hábiles para descargo. Multas: 70% PRONEFCR,
+30% ONSCF.
+TÍTULO XII — OBSERVATORIO NACIONAL DE SOBREENDEUDAMIENTO (ONSCF)
+ARTÍCULO 75°. — CREACIÓN. Créase el ONSCF en el ámbito del BCRA.
+ARTÍCULO 76°. — FUNCIONES. a) Datos estadísticos desagregados semestrales; b)
+evaluación de eficacia de todos los mecanismos, incluyendo el impacto del tope de tasas
+y del SPI; c) recomendaciones al PEN, BCRA y Congreso; d) cooperación con OCDE; e)
+monitoreo de cobro y scoring; f) ranking de proveedores por indicadores de crédito
+responsable, incluyendo la relación entre el CFT promedio de cada proveedor y la tasa
+de referencia del sistema.
+ARTÍCULO 77°. — CONSEJO CONSULTIVO. BCRA, defensa del consumidor, CNV,
+asociaciones financieras, asociaciones de consumidores, universidades, Defensoría del
+Pueblo, CONASE, Superintendencia de Seguros de la Nación. Ad honorem.
+ARTÍCULO 78°. — TRANSPARENCIA. Informes públicos en formatos abiertos y
+reutilizables.
+Página 15 de 27
+
+TÍTULO XIII — ENTORNO REGULATORIO DE PRUEBA (SANDBOX)
+ARTÍCULO 79°. — CREACIÓN DEL ERPICR. Créase el Entorno Regulatorio de Prueba para
+la Innovación Crediticia Responsable, administrado por el BCRA.
+ARTÍCULO 80°. — CONDICIONES. a) Proyecto que contribuya a prevención del
+sobreendeudamiento o inclusión financiera; b) capacidad técnica y financiera; c)
+protección de datos; d) supervisión permanente y reportes.
+ARTÍCULO 81°. — ALCANCE Y LÍMITES. Máximo 24+12 meses. Exenciones temporales
+de requisitos específicos, manteniendo íntegramente la protección del consumidor, el
+DTI cap y el tope de costo financiero. Se promoverán especialmente proyectos de SPI
+innovadores para poblaciones de bajos ingresos.
+ARTÍCULO 82°. — RESULTADOS. Al finalizar: autorización regular, extensión o
+denegación. Publicación de resultados.
+TÍTULO XIV — AUTORIDAD DE APLICACIÓN
+ARTÍCULO 83°. — AUTORIDADES. a) BCRA: evaluación de solvencia, DTI cap, tope de
+tasas, tasa de referencia, transparencia algorítmica, MAFV, PLANIC, SATS, RTED, ONSCF,
+sandbox, portabilidad (plataforma de comparación), supervisión de entidades Ley
+21.526. b) Autoridad nacional de defensa del consumidor: publicidad, prácticas de
+cobro, RNEGC, CONASE, derechos del consumidor, supervisión de proveedores no Ley
+21.526. c) Ministerio de Educación: currícula. d) Superintendencia de Seguros de la
+Nación: supervisión del SPI.
+ARTÍCULO 84°. — COMITÉ DE COORDINACIÓN. Reuniones trimestrales. Podrá convocar
+a CNV, AFIP, AAIP, SSN y otros organismos.
+ARTÍCULO 85°. — FACULTADES REGLAMENTARIAS. Dentro de sus competencias, sin
+desnaturalizar los objetivos de la ley.
+TÍTULO XV — ARTICULACIÓN NORMATIVA
+ARTÍCULO 86°. — LEY 24.240. Complementaria. En concurrencia, norma más favorable
+al consumidor.
+ARTÍCULO 87°. — LEY 25.065. MAFV y disposiciones sobre tarjetas son
+complementarias.
+ARTÍCULO 88°. — CÓDIGO CIVIL Y COMERCIAL. Armonía con contratos bancarios (1378-
+1389), de consumo (1092-1122). El régimen de segunda oportunidad es
+Página 16 de 27
+
+complementario de la Ley 24.522 y prevalece para personas humanas consumidoras. El
+tope de costo financiero previsto en el artículo 11 se articula con las disposiciones sobre
+usura del artículo 771 del Código Civil y Comercial.
+ARTÍCULO 89°. — LEY 21.526. Entidades financieras sujetas sin perjuicio de normativa
+prudencial del BCRA.
+ARTÍCULO 90°. — PROTECCIÓN DE DATOS PERSONALES. Ley 25.326 y normativa que la
+reemplace.
+ARTÍCULO 91°. — OPEN FINANCE DEL BCRA. Interoperabilidad con estándares de
+finanzas abiertas.
+ARTÍCULO 92°. — LEY 17.418 DE SEGUROS. El SPI se regirá por la Ley 17.418 de Seguros
+y la normativa de la Superintendencia de Seguros de la Nación, en lo que no se oponga
+a las condiciones mínimas establecidas en la presente ley.
+TÍTULO XVI — ADHESIÓN PROVINCIAL
+ARTÍCULO 93°. — INVITACIÓN. Invítase a las provincias y CABA a adherir, designando
+autoridades locales para la CONASE y difusión del RTED.
+ARTÍCULO 94°. — INCENTIVOS. Acceso a fondos del PRONEFCR y apoyo técnico del
+ONSCF.
+TÍTULO XVII — EVALUACIÓN DE IMPACTO REGULATORIO
+ARTÍCULO 95°. — EVALUACIÓN PERIÓDICA OBLIGATORIA. Cada cinco (5) años, el PEN
+remitirá al Congreso un Informe de Evaluación de Impacto que analice: a) indicadores
+de sobreendeudamiento; b) impacto sobre acceso al crédito e inclusión financiera; c)
+eficacia del DTI cap y del tope de tasas; d) funcionamiento de CONASE, RTED y segunda
+oportunidad; e) impacto del scoring algorítmico; f) resultados del sandbox; g) evolución
+y penetración del SPI y su impacto en la reducción del sobreendeudamiento pasivo; h)
+impacto de la integración del BNPL en el sistema de información crediticia; i)
+recomendaciones de ajuste normativo.
+ARTÍCULO 96°. — REVISIÓN DEL DTI CAP Y DEL TOPE DE TASAS. El informe incluirá
+análisis específico sobre la adecuación del DTI cap y del multiplicador del tope de costo
+financiero a las condiciones macroeconómicas y estándares internacionales, con
+recomendación fundada.
+Página 17 de 27
+
+TÍTULO XVIII — DISPOSICIONES TRANSITORIAS Y FINALES
+ARTÍCULO 97°. — PLAZOS DE IMPLEMENTACIÓN. Desde la entrada en vigencia:
+a) RTED (plataforma digital): 90 días. Vigencia del RTED desde operatividad.
+b) MAFV: 180 días.
+c) CONASE: 180 días.
+d) Tasa de referencia del sistema (primera publicación): 180 días.
+e) Tope de costo financiero (entrada en vigencia): 270 días.
+f) RNEGC: 270 días.
+g) ONSCF: 270 días.
+h) PLANIC: 365 días.
+i) SATS: 365 días.
+j) PRONEFCR: 365 días.
+k) Sandbox (ERPICR): 365 días.
+l) Plataforma de comparación para portabilidad: 365 días.
+m) Registro de modelos de scoring: 365 días.
+n) Integración de operaciones BNPL en PLANIC y Central de Deudores: 365 días.
+ñ) Oferta obligatoria de SPI: 365 días.
+ARTÍCULO 98°. — ADECUACIÓN DE CONTRATOS. Proveedores adecuarán contratos
+vigentes en 365 días. Los contratos anteriores se rigen por normas de orden público en
+lo más favorable.
+ARTÍCULO 99°. — REGLAMENTACIÓN. El PEN reglamentará en 180 días. El BCRA
+reglamentará la tasa de referencia del sistema y el tope de costo financiero en 120 días.
+ARTÍCULO 100°. — EVALUACIÓN INTEGRAL INICIAL. Sin perjuicio de la evaluación
+quinquenal, el BCRA con el ONSCF elaborará un primer informe a los tres (3) años,
+incluyendo resultados del RTED, impacto del tope de tasas en las condiciones de crédito
+y penetración del SPI.
+ARTÍCULO 101°. — PRESUPUESTO. Gastos con partidas de Presupuesto General. El BCRA
+atiende SATS, PLANIC, ONSCF, sandbox y plataforma RTED con recursos propios. Costos
+del RTED compensados por el incentivo fiscal del artículo 68.
+ARTÍCULO 102°. — CLÁUSULA DE COMPATIBILIDAD CONSTITUCIONAL. La presente ley
+se dicta en ejercicio de los artículos 75 incisos 12, 18, 19 y 32 de la Constitución Nacional,
+en concordancia con el artículo 42 y los tratados de derechos humanos con jerarquía
+constitucional (art. 75 inc. 22), en particular el derecho a un nivel de vida adecuado, la
+dignidad humana y la protección contra la usura.
+Página 18 de 27
+
+ARTÍCULO 103°. — COMUNÍQUESE AL PODER EJECUTIVO NACIONAL.
+LIC. MARCELA MARINA PAGANO
+DIPUTADA DE LA NACIÓN
+Página 19 de 27
+
+FUNDAMENTOS
+Señor Presidente:
+I. DIAGNÓSTICO: EL SOBREENDEUDAMIENTO COMO PROBLEMA ESTRUCTURAL
+El sobreendeudamiento de los hogares constituye uno de los problemas más urgentes y
+menos atendidos del ordenamiento jurídico argentino. A diferencia de la mayoría de las
+economías desarrolladas y de numerosos países de la región, la República Argentina
+carece de un marco legal integral que regule el crédito responsable, proteja al
+consumidor financiero frente a prácticas crediticias predatorias y ofrezca a las personas
+humanas sobreendeudadas de buena fe una vía eficaz para reestructurar sus deudas y
+reinsertarse en la vida económica.
+La ausencia de este marco legal se torna crítica en un contexto en el que la estructura
+del crédito al consumo ha experimentado transformaciones profundas en los últimos
+años. La irrupción de las empresas de tecnología financiera (fintech), las plataformas de
+financiamiento diferido de pago (BNPL — Buy Now, Pay Later), las billeteras virtuales
+con funcionalidad de crédito y los sistemas de scoring crediticio basados en inteligencia
+artificial han modificado sustancialmente la forma en que los consumidores acceden al
+crédito. Estos nuevos actores y modalidades, si bien contribuyen a la inclusión
+financiera, operan en muchos casos al margen de la regulación prudencial tradicional,
+generando riesgos de sobreendeudamiento que el marco normativo vigente no está
+preparado para contener.
+En particular, las plataformas BNPL representan un fenómeno de crecimiento acelerado
+a nivel global que plantea desafíos regulatorios específicos: al no reportarse como deuda
+formal en los sistemas de información crediticia, generan lo que la doctrina internacional
+denomina “endeudamiento oculto” o “endeudamiento invisible”, que no es captado por
+las evaluaciones de solvencia tradicionales ni por los indicadores de alerta temprana. La
+Autoridad de Conducta Financiera del Reino Unido (FCA), la Oficina de Protección
+Financiera del Consumidor de los Estados Unidos (CFPB) y la Comisión Australiana de
+Valores e Inversiones (ASIC) han identificado este fenómeno como un riesgo sistémico
+emergente que requiere intervención regulatoria urgente.
+Asimismo, la investigación en economía del comportamiento ha demostrado de manera
+Página 20 de 27
+
+concluyente que las decisiones financieras de los consumidores no responden al modelo
+de racionalidad perfecta que subyace a la regulación tradicional basada exclusivamente
+en la provisión de información. Los sesgos cognitivos —en particular el sesgo de
+optimismo respecto de la capacidad futura de pago, la preferencia por el presente, las
+dificultades de autocontrol y el efecto anclaje— conducen sistemáticamente a niveles
+de endeudamiento superiores a los deseados por los propios consumidores. Esta
+evidencia científica justifica la adopción de instrumentos regulatorios que vayan más
+allá de la mera transparencia informativa.
+II. EL VACÍO LEGAL ARGENTINO
+El ordenamiento jurídico argentino presenta un vacío normativo significativo en materia
+de protección del consumidor financiero frente al sobreendeudamiento. Si bien existen
+normas dispersas —la Ley 24.240 de Defensa del Consumidor, la Ley 25.065 de Tarjetas
+de Crédito, las disposiciones sobre contratos bancarios del Código Civil y Comercial (arts.
+1378-1389) y la regulación prudencial del Banco Central de la República Argentina—,
+ninguna de ellas aborda de manera integral la problemática del sobreendeudamiento ni
+establece los mecanismos mínimos que los estándares internacionales exigen.
+En particular, el ordenamiento vigente no establece: (i) un límite máximo de
+endeudamiento (debt-to-income cap) que impida el otorgamiento de crédito más allá
+de la capacidad real de pago del consumidor; (ii) un tope relativo al costo financiero del
+crédito que prevenga la usura moderna en el crédito al consumo, particularmente en el
+segmento fintech y BNPL; (iii) un régimen de insolvencia específico para personas
+humanas consumidoras que permita la reestructuración de deudas y la exoneración del
+pasivo insatisfecho (fresh start); (iv) regulación de las decisiones crediticias
+automatizadas basadas en algoritmos e inteligencia artificial; (v) un derecho efectivo a
+la portabilidad del crédito al consumo; (vi) regulación integral de las empresas de gestión
+de cobranzas; ni (vii) mecanismos de protección de ingresos frente a contingencias
+sobrevinientes.
+El régimen concursal vigente (Ley 24.522) resulta prácticamente inaccesible para las
+personas humanas consumidoras de bajos y medianos ingresos: sus costos, plazos,
+formalidades y requisitos lo convierten en un instrumento inadecuado para atender la
+problemática del sobreendeudamiento del consumidor. La doctrina jurídica argentina
+ha señalado reiteradamente esta deficiencia y ha reclamado la sanción de un régimen
+específico.
+Página 21 de 27
+
+III. ESTÁNDARES INTERNACIONALES Y DERECHO COMPARADO
+El presente proyecto se inscribe en el marco de los estándares internacionales más
+avanzados en materia de protección del consumidor financiero. Los G20/OCDE High-
+Level Principles on Financial Consumer Protection (2022) establecen como estándares
+mínimos: la evaluación de solvencia previa al otorgamiento de crédito (Principio 6), la
+transparencia y divulgación de información (Principio 4), el tratamiento responsable del
+sobreendeudamiento (Principio 8) y la protección de datos y privacidad (Principio 9). La
+presente ley no solo cumple con todos estos principios sino que los desarrolla y
+profundiza.
+En materia de límite máximo de endeudamiento (DTI cap), el proyecto se inspira en la
+experiencia de Corea del Sur (límite del 40%), el stress test canadiense y las affordability
+rules del Reino Unido, estableciendo un límite del 35% con flexibilidad macroeconómica
+y excepciones taxativas. Este mecanismo constituye la herramienta más eficaz, según la
+evidencia empírica internacional, para prevenir el crédito predatorio.
+El tope relativo al costo financiero del crédito se basa en el modelo francés del taux
+d’usure (tasa de usura calculada como 1,33 veces la tasa media del sistema), adaptado
+a las condiciones argentinas con un multiplicador de 1,5 veces la tasa de referencia y
+flexibilidad del BCRA para ajustarlo entre 1,25 y 2. Mecanismos similares operan en Chile
+(Tasa Máxima Convencional) y Colombia (tasa de usura certificada por la
+Superintendencia Financiera). Este instrumento permite combatir la usura moderna sin
+fijar tasas absolutas que distorsionen el mercado.
+El régimen de segunda oportunidad toma como referencia los modelos más avanzados
+del derecho comparado: la commission de surendettement francesa (Loi Lagarde, 2010,
+y sus reformas posteriores), el personal rehabilitation program coreano, la
+Insolvenzordnung alemana, el procedimiento de exoneración del pasivo insatisfecho
+español (Ley de Segunda Oportunidad, 2015, reformada en 2022 por transposición de la
+Directiva 2019/1023/UE) y las reformas del Bankruptcy Code estadounidense. La
+creación de la CONASE como organismo administrativo especializado sigue el modelo
+francés de la Banque de France, priorizando la resolución administrativa rápida por
+sobre la vía judicial, reduciendo costos, litigiosidad y congestión.
+Página 22 de 27
+
+La regulación de la transparencia algorítmica en decisiones crediticias se alinea con el
+Reglamento Europeo de Inteligencia Artificial (AI Act, 2024), que clasifica los sistemas
+de scoring crediticio como de alto riesgo, y con las directrices de la OCDE sobre IA (2019,
+actualizadas en 2024). El proyecto va más allá al establecer un derecho a la explicación
+con contenido mínimo obligatorio, la prohibición explícita de discriminación algorítmica
+directa e indirecta, y la auditoría anual de equidad de los modelos, posicionando a la
+Argentina en la vanguardia regulatoria global en esta materia.
+La portabilidad del crédito al consumo sigue los modelos del Reino Unido, Australia y
+Chile, promoviendo la competencia, la reducción de tasas y la eliminación de prácticas
+de refinanciación abusiva. La regulación de las empresas de cobranza toma como
+referencia el Fair Debt Collection Practices Act estadounidense (FDCPA) y las directrices
+europeas en la materia.
+La integración con la infraestructura de finanzas abiertas (Open Finance) y la creación
+de la PLANIC como plataforma de información crediticia del consumidor constituyen
+innovaciones que posicionan al proyecto en la frontera regulatoria global, articulando la
+protección del consumidor con la agenda de digitalización financiera del BCRA.
+El Seguro de Protección de Ingresos (SPI) recoge la experiencia internacional del
+Payment Protection Insurance (PPI), incorporando las lecciones del caso británico —
+donde la venta abusiva de PPI generó el mayor escándalo de protección del consumidor
+en la historia del Reino Unido— mediante la prohibición expresa de venta atada, la
+transparencia en la prima, la portabilidad del seguro y la supervisión dual (SSN + BCRA).
+El entorno regulatorio de prueba (sandbox) se basa en los modelos de la FCA británica,
+la Autoridad Monetaria de Singapur (MAS) y el BCRA, promoviendo la innovación
+crediticia responsable sin comprometer la protección del consumidor.
+IV. RÉGIMEN TRANSITORIO EXTRAORDINARIO DE DESENDEUDAMIENTO:
+JUSTIFICACIÓN
+El presente proyecto no solo establece un marco regulatorio permanente para el futuro,
+sino que atiende la emergencia presente. Millones de consumidores argentinos se
+encuentran actualmente en situación de sobreendeudamiento, atrapados en dinámicas
+de refinanciación sucesiva, acumulación de intereses punitorios y pérdida progresiva de
+Página 23 de 27
+
+capacidad de pago, sin acceso a un mecanismo legal eficaz de regularización.
+El Régimen Transitorio Extraordinario de Desendeudamiento (RTED) responde a esta
+urgencia mediante una vía simplificada, masiva y digital de regularización, con quitas
+automáticas de intereses punitorios, quitas progresivas de capital proporcionales a la
+vulnerabilidad del deudor, planes de pago accesibles a tasa subsidiada y protección
+reforzada para poblaciones vulnerables (adultos mayores, personas con discapacidad,
+familias monoparentales, beneficiarios de programas sociales). El incentivo fiscal para
+los acreedores (deducción de quitas en el Impuesto a las Ganancias) busca reducir la
+resistencia del sector financiero y facilitar la implementación masiva del régimen.
+La vigencia acotada del RTED (dos años prorrogable por uno) y la evaluación obligatoria
+de sus resultados aseguran que se trate de un instrumento extraordinario de
+emergencia y no de una política permanente que genere riesgo moral.
+V. INNOVACIONES DEL PROYECTO
+El presente proyecto incorpora innovaciones regulatorias que, consideradas en
+conjunto, lo posicionan como uno de los marcos normativos más completos del mundo
+en materia de crédito responsable y protección del consumidor financiero:
+1. Límite máximo de endeudamiento (DTI cap) del 35% con flexibilidad
+macroeconómica, stress test obligatorio para créditos a tasa variable y techo absoluto
+del 50%.
+2. Tope relativo dinámico al costo financiero total del crédito (1,5 veces la tasa de
+referencia del sistema), que combate la usura moderna sin fijar tasas absolutas.
+3. Primera regulación integral de BNPL en América Latina, con reporte obligatorio a la
+PLANIC, cómputo en el DTI, transparencia de CFT y sujeción al tope de tasas.
+4. Régimen de transparencia algorítmica con derecho a explicación, prohibición de
+discriminación directa e indirecta, auditoría de equidad y revisión humana.
+Página 24 de 27
+
+5. Portabilidad crediticia plena sin penalidad, con plataforma pública de comparación
+del BCRA.
+6. Régimen dual de desendeudamiento: permanente (segunda oportunidad con
+CONASE y EPI) y transitorio (RTED masivo y digital).
+7. Plataforma Nacional de Información Crediticia (PLANIC) integrada con Open Finance,
+que permite al consumidor visualizar en tiempo real todas sus deudas, su DTI, alertas y
+acceder a todos los mecanismos de la ley.
+8. Regulación integral de empresas de cobranzas con registro obligatorio, requisitos de
+habilitación y responsabilidad solidaria del proveedor contratante.
+9. Seguro de Protección de Ingresos (SPI) voluntario e incentivado, como mecanismo de
+prevención del sobreendeudamiento pasivo.
+10. Mecanismo de Autocontrol Financiero Voluntario (MAFV), heredero del concepto
+original del proyecto que da origen a esta iniciativa, ampliado a todos los instrumentos
+de crédito al consumo.
+11. Sandbox regulatorio para innovación crediticia responsable.
+12. Evaluación de impacto regulatorio quinquenal obligatoria al Congreso, conforme
+estándares OCDE.
+VI. MARCO CONSTITUCIONAL
+La presente ley se dicta en ejercicio de las atribuciones conferidas al Congreso de la
+Nación por los artículos 75 incisos 12 (legislación de fondo), 18 (prosperidad del país y
+bienestar de las provincias), 19 (desarrollo humano, progreso económico con justicia
+social, productividad de la economía nacional, generación de empleo, defensa del valor
+de la moneda) y 32 de la Constitución Nacional.
+Página 25 de 27
+
+El artículo 42 de la Constitución Nacional consagra los derechos de los consumidores y
+usuarios a la protección de su salud, seguridad e intereses económicos, a una
+información adecuada y veraz, a la libertad de elección y a condiciones de trato
+equitativo y digno. Estos derechos fundamentan directamente la regulación del crédito
+responsable, el tope de tasas, la transparencia algorítmica, la portabilidad crediticia, la
+regulación de cobranzas y los mecanismos de desendeudamiento previstos en la
+presente ley.
+Los tratados internacionales de derechos humanos con jerarquía constitucional (art. 75
+inc. 22) refuerzan este marco: el derecho a un nivel de vida adecuado (art. 11 del Pacto
+Internacional de Derechos Económicos, Sociales y Culturales), la dignidad humana (art.
+11 de la Convención Americana sobre Derechos Humanos) y la prohibición de tratos
+inhumanos o degradantes fundamentan la protección del deudor sobreendeudado, el
+mínimo vital inembargable y la prohibición de prácticas abusivas de cobro.
+VII. IMPACTO FISCAL Y VIABILIDAD ECONÓMICA
+El proyecto ha sido diseñado con atención a la viabilidad fiscal. Los principales
+organismos creados (SATS, PLANIC, ONSCF, plataforma RTED) se financian con recursos
+propios del BCRA, que ya cuenta con infraestructura tecnológica y de información
+crediticia. La CONASE opera en el ámbito de la autoridad de defensa del consumidor,
+aprovechando estructura existente. Las multas se destinan al PRONEFCR (70%) y al
+ONSCF (30%), generando autofinanciamiento parcial.
+El principal costo fiscal del proyecto es el incentivo de deducción de quitas en el
+Impuesto a las Ganancias para los acreedores que acepten el RTED. Sin embargo, este
+costo debe evaluarse contra el beneficio de reducir la morosidad sistémica del sistema
+financiero, mejorar la calidad de la cartera crediticia, reincorporar consumidores al
+circuito económico formal y reducir la litigiosidad judicial. La experiencia internacional
+demuestra que los regímenes de desendeudamiento bien diseñados generan un retorno
+fiscal neto positivo en el mediano plazo.
+VIII. CONCLUSIÓN
+El presente proyecto recoge aportes conceptuales de la investigación del Dr. Fernando
+Shina en materia de autocontrol financiero, y los integra en un marco normativo integral
+Página 26 de 27
+
+que aborda todas las dimensiones del sobreendeudamiento del consumidor financiero:
+la prevención (evaluación de solvencia, DTI cap, tope de tasas, MAFV, SATS, educación
+financiera, SPI), la transparencia (PLANIC, Open Finance, transparencia algorítmica,
+regulación publicitaria), la competencia (portabilidad, plataforma de comparación), la
+protección (regulación de cobranzas, prácticas abusivas), el tratamiento (segunda
+oportunidad, CONASE, EPI) y la emergencia (RTED).
+La Argentina tiene la oportunidad de pasar de la ausencia regulatoria a un marco
+normativo de vanguardia global. La presente ley no solo cumple con los estándares
+OCDE vigentes sino que, en varias de sus innovaciones —particularmente la regulación
+integral de BNPL, la transparencia algorítmica, la PLANIC integrada con Open Finance y
+el régimen dual de desendeudamiento—, los supera.
+Por las razones expuestas, solicito a mis pares la aprobación del presente proyecto de
+ley.
+LIC. MARCELA MARINA PAGANO
+DIPUTADA DE LA NACIÓN
+Página 27 de 27

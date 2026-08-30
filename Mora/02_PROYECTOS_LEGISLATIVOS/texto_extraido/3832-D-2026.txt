@@ -1,0 +1,1194 @@
+“2026 - Año de la grandeza argentina”
+PROYECTO DE LEY
+El Senado y la Cámara de Diputados de la Nación, reunidos en Congreso, sancionan con fuerza
+de ley…
+RÉGIMEN DE PROTECCIÓN Y DEFENSA DE USUARIOS
+FINANCIEROS Y PREVENCIÓN DEL
+SOBREENDEUDAMIENTO EN EL SISTEMA DE CRÉDITO
+TITILO I
+DISPOSICIONES GENERALES
+ARTÍCULO 1° — Objeto y finalidad. La presente ley tiene por objeto establecer un régimen de
+protección integral de los usuarios y consumidores de servicios financieros, orientado a garantizar
+el ejercicio efectivo de sus derechos en condiciones de equidad, transparencia, trato digno, acceso
+a información adecuada y justicia contractual, en el marco de relaciones caracterizadas por una
+profunda asimetría técnica, económica e informativa.
+A tal fin, la ley promueve el acceso al crédito responsable, la prevención del sobreendeudamiento,
+la transparencia en las condiciones de contratación, la responsabilidad social en el otorgamiento
+del crédito y la inclusión financiera con enfoque de derechos, asegurando la tutela efectiva de las
+personas humanas frente a prácticas abusivas, mecanismos de endeudamiento predatorio y
+sistemas automatizados que puedan afectar sus derechos en el ámbito del sistema financiero y
+digital.
+Las disposiciones de la presente ley son de orden público y deberán interpretarse conforme los
+principios de protección de consumidores y usuarios consagrados en el artículo 42 de la
+Constitución Nacional, en la Ley N° 24.240, en el Código Civil y Comercial de la Nación y en los
+instrumentos internacionales de derechos humanos aplicables.
+ARTÍCULO 2° — Ámbito de aplicación y sujetos obligados. Las disposiciones de la presente
+ley resultan aplicables a toda persona humana o jurídica, pública o privada, que en forma habitual
+u ocasional ofrezca, comercialice, intermedie, administre, gestione, facilite o participe en la
+prestación de productos o servicios financieros, cualquiera sea su modalidad operativa, soporte
+tecnológico, estructura societaria o encuadre regulatorio.
+Quedan comprendidas, entre otras, las entidades financieras reguladas por la Ley N° 21.526 y sus
+modificatorias, los proveedores no financieros de crédito, emisores y administradores de tarjetas
+de crédito y débito, proveedores de servicios de pago, billeteras virtuales, plataformas fintech,
+aplicaciones móviles, empresas de tecnología financiera, plataformas digitales, agregadores,
+intermediarios, operadores de crédito digital, fideicomisos financieros, estudios de cobranza y
+cualquier otro sujeto que intervenga directa o indirectamente en operaciones de financiamiento,
+
+“2026 - Año de la grandeza argentina”
+administración de fondos, evaluación crediticia, procesamiento automatizado de datos financieros
+o gestión de cobranzas.
+La presente ley será aplicable a todas las relaciones de consumo financiero desarrolladas total o
+parcialmente mediante entornos digitales, sistemas automatizados, algoritmos, herramientas de
+inteligencia artificial o mecanismos tecnológicos equivalentes, independientemente del domicilio
+del proveedor, del lugar de procesamiento de los datos o de la tecnología utilizada.
+Las disposiciones de esta ley se aplicarán sin perjuicio de las competencias regulatorias y de
+supervisión atribuidas al Banco Central de la República Argentina y demás organismos
+competentes, debiendo interpretarse de manera armónica con el sistema de protección de
+consumidores y usuarios previsto en el ordenamiento jurídico nacional.
+ARTÍCULO 3° — Definiciones. A los efectos de la presente ley, se entenderá por:
+a. Usuario financiero: Toda persona humana que, como destinataria final, utiliza, contrata o
+se beneficia de servicios financieros, incluyendo operaciones de crédito, ahorro, pago,
+transferencia, inversión o financiamiento, cualquiera sea el canal o soporte tecnológico
+utilizado. La condición de usuario financiero se rige, en lo pertinente, por los artículos 1092
+a 1094 del Código Civil y Comercial de la Nación.
+b. Proveedor de servicios financieros: Toda persona humana o jurídica, pública o privada,
+que en forma habitual u ocasional ofrezca, otorgue, intermedie, administre o facilite
+servicios financieros, incluyendo entidades financieras, proveedores no financieros de
+crédito, emisores de tarjetas, billeteras virtuales, fintech y plataformas digitales,
+independientemente de su forma jurídica o encuadre regulatorio.
+c. Sobreendeudamiento: Situación en la cual el usuario no puede cumplir con sus
+obligaciones financieras sin comprometer su subsistencia o la de su grupo familiar,
+afectando el acceso a bienes y servicios esenciales o deteriorando significativamente su
+calidad de vida.
+d. Costo financiero total (CFT): El costo total de una operación financiera expresado en
+términos porcentuales anuales, incluyendo intereses, comisiones, cargos, seguros,
+impuestos, tasas, contribuciones y cualquier otro concepto asociado, cualquiera sea el nivel
+de gobierno que los establezca. El CFT deberá calcularse conforme la metodología que
+establezca la autoridad de aplicación, compatible con las normas del Banco Central de la
+República Argentina.
+e. Prácticas abusivas: Toda conducta del proveedor que, aprovechando la asimetría
+existente, imponga condiciones desproporcionadas, induzca a error, limite derechos o
+afecte la dignidad del usuario, y todas aquellas enumeradas en el artículo 1119 del Código
+Civil y Comercial de la Nación.
+f. Servicios financieros digitales: Aquellos prestados a través de plataformas tecnológicas,
+aplicaciones móviles, algoritmos o sistemas automatizados, incluyendo herramientas de
+scoring crediticio.
+
+“2026 - Año de la grandeza argentina”
+g. Evaluación de solvencia: Proceso mediante el cual el proveedor analiza la capacidad real
+de pago del usuario, considerando ingresos, endeudamiento previo y condiciones
+socioeconómicas.
+h. Reestructuración de deuda: Mecanismo mediante el cual se modifican las condiciones
+originales de una obligación financiera para adecuarlas a la capacidad de pago del usuario.
+i. Crédito digital: Toda operación de financiamiento, préstamo, adelanto, pago diferido o
+mecanismo equivalente otorgado total o parcialmente mediante plataformas digitales,
+aplicaciones móviles, sistemas automatizados o interfaces electrónicas, cualquiera sea la
+tecnología utilizada y la naturaleza del proveedor.
+j. Plataformas fintech: Aquellos proveedores de servicios financieros que, mediante el uso
+intensivo de tecnología, algoritmos, inteligencia de datos o sistemas digitales, ofrecen,
+intermedian o administran productos financieros, incluyendo crédito, pagos, transferencias
+o inversiones, independientemente de su encuadre como entidad financiera o no financiera.
+k. Billetera virtual: Aplicación o plataforma digital que permite almacenar, gestionar,
+transferir o utilizar fondos electrónicos, y que puede incluir funcionalidades de
+financiamiento, pagos diferidos, adelantos de dinero o acceso a líneas de crédito.
+l. Proveedores no financieros de crédito: Personas humanas o jurídicas que, sin revestir el
+carácter de entidad financiera en los términos de la normativa vigente, otorgan, intermedian
+o facilitan crédito al consumo, incluyendo plataformas digitales, fintech, mutuales,
+cooperativas u otros esquemas de financiamiento alternativo.
+m. Sistemas automatizados de decisión: Conjunto de procesos tecnológicos, algoritmos o
+modelos de datos utilizados para evaluar la solvencia del usuario, determinar condiciones
+de crédito, asignar límites o adoptar decisiones que afecten el acceso al financiamiento.
+n. Scoring crediticio digital: Evaluación de la capacidad de pago o riesgo crediticio del
+usuario basada en el procesamiento automatizado de datos personales, financieros,
+conductuales o de cualquier otra naturaleza, mediante algoritmos o sistemas de inteligencia
+artificial.
+o. Sobreendeudamiento digital: Situación de endeudamiento excesivo generada o agravada
+por la utilización simultánea o reiterada de crédito otorgado mediante plataformas digitales,
+caracterizada por la acumulación de obligaciones en distintos proveedores, la inmediatez
+en el acceso al financiamiento y la ausencia de una evaluación integral de la capacidad de
+pago.
+ARTÍCULO 4° — Principios rectores. La interpretación y aplicación de la presente ley se regirá
+por los principios de protección de consumidores y usuarios, buena fe, transparencia, trato digno,
+acceso a información adecuada y veraz, responsabilidad en el otorgamiento del crédito, prevención
+del sobreendeudamiento, inclusión financiera con enfoque de derechos, equidad en las relaciones
+contractuales y tutela reforzada de las personas en situación de vulnerabilidad.
+Asimismo, las disposiciones de la presente ley deberán interpretarse conforme los principios de
+progresividad, no regresividad y protección integral de los derechos económicos y sociales
+
+“2026 - Año de la grandeza argentina”
+reconocidos por la Constitución Nacional y los instrumentos internacionales de derechos humanos
+aplicables.
+En caso de duda sobre la interpretación o alcance de la presente ley, prevalecerá la solución más
+favorable al usuario financiero.
+TÍTULO II
+RÉGIMEN GENERAL DE PROTECCIÓN DEL USUARIO FINANCIERO
+ARTÍCULO 5° — Derecho a la información y transparencia reforzada. Los proveedores
+deberán garantizar a los usuarios el acceso a información clara, completa, veraz, suficiente, gratuita
+y comprensible respecto de las condiciones económicas y jurídicas de los productos y servicios
+financieros ofrecidos o contratados.
+Dicha información deberá incluir, de manera expresa y fácilmente accesible, el costo financiero
+total (CFT), tasas de interés, cargos, comisiones, seguros, impuestos, tasas, contribuciones y
+cualquier otro concepto que incida directa o indirectamente en el costo de la operación, cualquiera
+sea el nivel de gobierno que los establezca.
+Asimismo, deberán brindarse simulaciones y herramientas explicativas que permitan al usuario
+comprender el impacto económico del financiamiento en distintos escenarios de pago,
+especialmente en casos de refinanciación, pago mínimo, mora o utilización reiterada de crédito.
+Se prohíbe toda práctica, diseño contractual, mecanismo digital o modalidad de presentación de
+información que distorsione, dificulte o impida la comprensión del costo real del crédito, minimice
+sus riesgos o priorice visualmente los beneficios del financiamiento por sobre sus consecuencias
+económicas.
+En contextos de alta morosidad o utilización intensiva de crédito —incluyendo tarjetas, billeteras
+virtuales, plataformas digitales y servicios financieros fintech— los proveedores deberán
+incorporar advertencias claras, visibles y de fácil comprensión sobre riesgos de
+sobreendeudamiento, acumulación de intereses, prolongación de la deuda y consecuencias del
+incumplimiento.
+La falta de información adecuada, suficiente o transparente generará la nulidad de las cláusulas
+afectadas, sin perjuicio de las responsabilidades y sanciones previstas en la presente ley y en el
+régimen de defensa del consumidor.
+ARTÍCULO 6° — Protección frente a errores, cargos indebidos y sistemas automatizados.
+Ante errores manifiestos o debidamente acreditados mediante indicios serios y concordantes en
+resúmenes, plataformas digitales, aplicaciones, sistemas automatizados o registros vinculados a
+servicios financieros, el usuario podrá impugnar y deducir provisoriamente los importes
+cuestionados sin generación de intereses, penalidades, cargos adicionales ni afectación de su
+situación crediticia mientras se encuentre pendiente su revisión.
+
+“2026 - Año de la grandeza argentina”
+Corresponderá al proveedor acreditar en forma clara, suficiente y documentada la legitimidad,
+exactitud y trazabilidad del cargo cuestionado, sin que la carga de la prueba pueda recaer
+exclusivamente sobre el usuario financiero.
+Los proveedores deberán garantizar canales eficaces de atención humana, accesibles y gratuitos,
+así como procedimientos ágiles y transparentes para la resolución de reclamos, los cuales deberán
+ser resueltos dentro de plazos razonables conforme lo establezca la reglamentación.
+La reiteración de errores, fallas sistemáticas, inconsistencias en sistemas automatizados o
+incumplimientos en los mecanismos de atención y resolución de reclamos dará lugar a la aplicación
+de sanciones agravadas en los términos de la presente ley.
+ARTÍCULO 7° — Crédito responsable y prevención del sobreendeudamiento. Los
+proveedores de servicios financieros deberán realizar una evaluación razonable, suficiente y
+actualizada de la capacidad de pago del usuario antes del otorgamiento de cualquier
+financiamiento, considerando la información disponible sobre ingresos, nivel de endeudamiento,
+obligaciones preexistentes, comportamiento crediticio y demás circunstancias relevantes conforme
+a la naturaleza y características de la operación.
+Dicha evaluación deberá adecuarse al tipo de crédito, su monto, modalidad, plazo y perfil del
+usuario, evitando tanto prácticas de otorgamiento irresponsable que puedan generar o agravar
+situaciones de sobreendeudamiento, como restricciones arbitrarias o discriminatorias en el acceso
+al financiamiento.
+Se considerará práctica abusiva el otorgamiento de crédito sin evaluación suficiente de solvencia
+o en condiciones manifiestamente incompatibles con la capacidad de pago del usuario,
+especialmente cuando ello pueda conducir razonablemente a situaciones de sobreendeudamiento
+o perpetuación de la deuda.
+Cuando se verifique incumplimiento de los deberes de evaluación, información, advertencia o
+conducta diligente en el otorgamiento del crédito, la autoridad de aplicación o el órgano judicial
+competente podrá disponer la revisión de las condiciones contractuales, la reducción de intereses,
+la reestructuración de la deuda, la eliminación de cargos indebidos o cualquier otra medida
+necesaria para restablecer el equilibrio contractual.
+La reglamentación podrá establecer criterios orientativos y parámetros mínimos de evaluación de
+solvencia, en coordinación con las competencias regulatorias del Banco Central de la República
+Argentina y demás organismos competentes.
+ARTÍCULO 8° — Responsabilidad del proveedor y sobreendeudamiento. La responsabilidad
+del proveedor por situaciones de sobreendeudamiento del usuario deberá analizarse en función del
+cumplimiento de los deberes de información, transparencia, evaluación de solvencia, prevención
+del sobreendeudamiento y conducta diligente en el otorgamiento y administración del crédito.
+
+“2026 - Año de la grandeza argentina”
+A tales efectos, se considerará especialmente la conducta desplegada por el proveedor, las
+características de la operación, el grado de asimetría existente en la relación contractual, las
+condiciones económicas y sociales del usuario y el contexto económico general al momento del
+otorgamiento del financiamiento.
+Cuando se verifique incumplimiento de los deberes previstos en la presente ley y exista relación
+adecuada de causalidad con la situación de sobreendeudamiento, la autoridad de aplicación o el
+órgano judicial interviniente podrá disponer la revisión integral del contrato, la reducción de
+intereses, la eliminación de cargos indebidos, la reestructuración de la deuda, la suspensión de
+cláusulas abusivas o cualquier otra medida necesaria para restablecer el equilibrio contractual y
+proteger los derechos del usuario financiero.
+La reiteración sistemática de conductas que generen o agraven situaciones de sobreendeudamiento
+podrá dar lugar a la aplicación de sanciones agravadas conforme lo previsto en la presente ley.
+ARTÍCULO 9° — Transparencia en instrumentos de crédito. Los proveedores deberán
+garantizar que los instrumentos de crédito, contratos, resúmenes, plataformas digitales y demás
+documentos o interfaces utilizados en relaciones de consumo financiero reflejen de manera clara,
+precisa, accesible y comprensible la totalidad de las condiciones económicas y jurídicas de la
+operación.
+La información relativa al costo financiero total, tasas de interés, cargos, comisiones, seguros,
+impuestos, mecanismos de refinanciación, consecuencias de la mora y demás condiciones
+relevantes deberá presentarse en forma visible, legible y fácilmente identificable, evitando
+estructuras contractuales o mecanismos de diseño que dificulten su comprensión.
+Los proveedores deberán incluir simulaciones y herramientas explicativas que permitan al usuario
+comprender el impacto económico del financiamiento bajo distintos escenarios de pago,
+especialmente en supuestos de utilización de pago mínimo, refinanciación, renovación de saldos o
+capitalización de intereses.
+Se prohíbe toda estructura contractual, práctica comercial o mecanismo tecnológico que, bajo
+apariencia de cumplimiento informativo, tenga por efecto la perpetuación de la deuda mediante la
+capitalización reiterada o indefinida de intereses, la ocultación de costos relevantes o la distorsión
+de la comprensión del usuario respecto de las condiciones reales del financiamiento.
+ARTÍCULO 10 — Tarjetas de crédito. Las relaciones derivadas de la utilización de tarjetas de
+crédito y demás instrumentos de financiamiento al consumo deberán ajustarse a criterios de
+transparencia, información adecuada, trato digno, responsabilidad en el otorgamiento del crédito y
+equilibrio contractual.
+Los emisores y administradores deberán garantizar que el usuario comprenda de manera clara y
+suficiente el funcionamiento del sistema de financiamiento, incluyendo el impacto económico del
+pago mínimo, la acumulación de intereses compensatorios y punitorios, los mecanismos de
+
+“2026 - Año de la grandeza argentina”
+refinanciación, el plazo estimado de cancelación de la deuda y el costo financiero total de la
+operación.
+Los resúmenes, plataformas digitales y comunicaciones vinculadas al servicio deberán presentar
+la información relevante de manera visible, accesible y comprensible, evitando mecanismos de
+diseño o presentación que minimicen los costos del financiamiento o incentiven prácticas de
+endeudamiento sostenido.
+Se considerará práctica abusiva toda conducta que promueva, facilite o perpetúe situaciones de
+sobreendeudamiento mediante mecanismos que dificulten razonablemente la cancelación efectiva
+del capital adeudado o induzcan al usuario a mantener niveles de endeudamiento incompatibles
+con su capacidad de pago.
+La autoridad de aplicación promoverá políticas de educación e información financiera orientadas
+a fortalecer la comprensión de los usuarios respecto del funcionamiento de los sistemas de crédito
+y financiamiento al consumo.
+ARTÍCULO 11 — Mora Automática y protección del usuario financiero. En las relaciones de
+consumo vinculadas a servicios financieros, incluyendo entidades bancarias, proveedores no
+financieros de crédito, emisores de tarjetas de crédito y débito, plataformas digitales, billeteras
+virtuales y demás proveedores de servicios financieros tecnológicos, la configuración de la mora
+del usuario no podrá producir efectos automáticos que impliquen la aplicación inmediata de
+sanciones, cargos, penalidades o consecuencias jurídicas sin previa notificación fehaciente y
+efectiva al consumidor.
+A los efectos del presente artículo, si bien la mora podrá configurarse por el solo vencimiento del
+plazo conforme la normativa civil y comercial vigente, los proveedores deberán garantizar, en
+todos los casos, un mecanismo de comunicación previa, clara, accesible y en soporte duradero, que
+informe al usuario el estado de su obligación, las consecuencias del incumplimiento y el plazo
+razonable para su regularización.
+En ningún caso podrán aplicarse intereses punitorios, cargos por mora, comisiones adicionales, ni
+disponerse la caducidad de plazos, la aceleración de deudas, el bloqueo de cuentas, la suspensión
+de servicios o el reporte a bases de datos crediticias, sin que haya transcurrido un plazo mínimo de
+gracia de DIEZ (10) días corridos desde la notificación efectiva al usuario.
+Quedan prohibidas las cláusulas contractuales que establezcan la caducidad automática de plazos
+o la exigibilidad anticipada de la totalidad de la deuda frente a incumplimientos parciales o de
+escasa significación económica, cuando ello configure una práctica abusiva en los términos de la
+normativa de defensa del consumidor.
+Los proveedores deberán implementar sistemas de alerta temprana y recordatorios periódicos que
+permitan al usuario conocer con antelación suficiente la proximidad de los vencimientos y evitar
+
+“2026 - Año de la grandeza argentina”
+situaciones de mora, garantizando condiciones de transparencia, trato digno y protección de los
+derechos del consumidor financiero.
+La falta de cumplimiento de lo dispuesto en el presente artículo será considerada práctica abusiva
+y dará lugar a las sanciones previstas en la Ley 24.240 y normas complementarias, sin perjuicio de
+la nulidad de las cláusulas contractuales que resulten contrarias a la presente disposición.
+ARTÍCULO 12 — Cesión, transferencia, venta o transmisión de créditos. En las relaciones de
+consumo financiero, la cesión, transferencia, venta o cualquier otra forma de transmisión de
+créditos por parte de proveedores de servicios financieros a terceros —incluyendo estudios
+jurídicos, empresas de cobranza, fondos de inversión, fideicomisos financieros o cualquier otro
+sujeto interviniente— deberá ser informada al usuario de manera fehaciente, clara y en soporte
+duradero, en forma previa o inmediata a su efectivización.
+La notificación deberá contener, como mínimo:
+a. la identificación completa del nuevo acreedor;
+b. el origen y composición de la deuda;
+c. el monto total adeudado discriminado por capital, intereses, cargos y demás conceptos
+aplicados;
+d. las condiciones contractuales vigentes;
+e. los canales habilitados para el ejercicio de los derechos del usuario y la formulación de
+reclamos.
+En ningún caso el cesionario podrá exigir el pago de la deuda, iniciar gestiones de cobranza,
+informar incumplimientos a bases de datos crediticias o promover acciones judiciales sin acreditar
+de manera suficiente su legitimación como titular del crédito y la trazabilidad de la obligación
+transmitida.
+El proveedor original mantendrá responsabilidad solidaria frente al usuario por las consecuencias
+derivadas de la cesión, incluyendo las prácticas de cobranza desplegadas por el cesionario, sin que
+la transferencia del crédito implique la liberación de sus obligaciones en materia de información,
+trato digno y protección del consumidor financiero.
+Queda prohibida la cesión de créditos a sujetos que no se encuentren debidamente registrados,
+autorizados o sometidos a mecanismos de control por parte de la autoridad competente, así como
+la transferencia de carteras de deuda en condiciones que impliquen pérdida de trazabilidad,
+opacidad en la identificación del acreedor o afectación de los derechos del usuario.
+Los usuarios tendrán derecho a acceder en todo momento a la documentación vinculada a la deuda
+cedida, verificar la legitimidad del acreedor, impugnar montos incorrectos o conceptos indebidos
+y recibir un trato digno en todas las instancias de cobranza.
+El incumplimiento de lo dispuesto en el presente artículo será considerado práctica abusiva grave
+en los términos de la presente ley y de la normativa de defensa del consumidor, dando lugar a la
+
+“2026 - Año de la grandeza argentina”
+nulidad de las cláusulas contrarias a la presente disposición y a la aplicación de las sanciones
+correspondientes.
+ARTÍCULO 13 — Prácticas de cobranza y trato digno. En toda gestión de cobro de deudas
+vinculadas a relaciones de consumo financiero, ya sea realizada por el proveedor original, terceros
+cesionarios, estudios jurídicos, empresas de cobranza o cualquier otro sujeto interviniente, deberán
+respetarse los principios de trato digno, buena fe, transparencia, privacidad y protección integral
+del usuario financiero.
+Queda expresamente prohibido:
+a. el contacto reiterado, insistente o en horarios irrazonables que configure una forma de
+hostigamiento;
+b. la utilización de amenazas, intimidaciones, información falsa o cualquier práctica que
+induzca al error respecto de las consecuencias del incumplimiento;
+c. el reclamo de montos que no se encuentren debidamente justificados o que incluyan cargos,
+intereses o comisiones no informados o improcedentes;
+d. la comunicación con terceros ajenos a la obligación, incluyendo familiares, empleadores o
+contactos del usuario, con el objeto de presionar para el pago;
+e. la utilización de denominaciones, formatos o comunicaciones que simulen actuaciones
+judiciales o administrativas sin serlo.
+f. la difusión, exposición o tratamiento de información personal o financiera del usuario en
+violación de la normativa vigente en materia de protección de datos personales y defensa
+del consumidor.
+Toda gestión de cobranza deberá identificar de manera clara y verificable al acreedor, el origen de
+la deuda, la composición del monto reclamado y los canales formales habilitados para consultas,
+impugnaciones y ejercicio de derechos por parte del usuario.
+El incumplimiento de lo dispuesto en el presente artículo será considerado práctica abusiva grave
+y dará lugar a la aplicación de las sanciones previstas en la presente ley, sin perjuicio de las
+responsabilidades civiles, administrativas y penales que pudieran corresponder.
+TÍTULO III
+CRÉDITO DIGITAL Y SERVICIOS FINANCIEROS FINTECH
+ARTÍCULO 14 — Servicios financieros digitales y algoritmos. Los servicios financieros
+prestados total o parcialmente mediante plataformas digitales, aplicaciones móviles, sistemas
+automatizados, algoritmos o herramientas de inteligencia artificial deberán garantizar iguales o
+mayores estándares de protección que los previstos para los servicios financieros tradicionales.
+Los proveedores deberán informar de manera clara, accesible y comprensible los criterios
+generales utilizados en sistemas automatizados de evaluación crediticia, scoring, determinación de
+
+“2026 - Año de la grandeza argentina”
+condiciones de financiamiento, asignación de límites o cualquier otra decisión que pueda afectar
+derechos o intereses económicos del usuario.
+Queda prohibida la utilización de sistemas automatizados que generen discriminaciones
+arbitrarias, afecten derechos fundamentales, produzcan sesgos irrazonables o impliquen decisiones
+opacas que impidan al usuario comprender las razones que determinaron el otorgamiento, rechazo,
+modificación o condicionamiento del acceso al crédito.
+Asimismo, los proveedores deberán garantizar mecanismos efectivos de revisión humana de las
+decisiones automatizadas cuando estas afecten el acceso al financiamiento, las condiciones
+contractuales, la continuidad del servicio o cualquier otro aspecto relevante de la relación de
+consumo financiero.
+La autoridad de aplicación podrá requerir auditorías, medidas de trazabilidad, mecanismos de
+explicabilidad algorítmica y cualquier otra herramienta necesaria para verificar el cumplimiento
+de los principios de transparencia, equidad y protección de derechos previstos en la presente ley.
+ARTÍCULO 15 — Ámbito de aplicación de los servicios financieros digitales. Quedan
+comprendidos en el presente régimen todos los servicios financieros prestados mediante entornos
+digitales, cualquiera sea su soporte tecnológico, modalidad operativa o estructura jurídica,
+incluyendo billeteras virtuales, proveedores de servicios de pago, plataformas fintech, aplicaciones
+móviles, interfaces automatizadas, sistemas de crédito digital, adelantos de fondos, mecanismos
+de pago diferido y cualquier otro instrumento que permita el acceso a financiamiento o servicios
+financieros por medios electrónicos.
+A los efectos de la presente ley, se considerará que existe prestación de servicios financieros
+digitales cuando el acceso, contratación, evaluación, otorgamiento, administración, refinanciación,
+cobranza o gestión de productos financieros se realice total o parcialmente mediante procesos
+automatizados, algoritmos, plataformas tecnológicas o sistemas digitales equivalentes,
+independientemente de la naturaleza jurídica del proveedor o de su encuadre regulatorio.
+Los sujetos comprendidos en este artículo quedarán alcanzados por la totalidad de las obligaciones
+previstas en la presente ley, sin perjuicio de las disposiciones específicas establecidas para el
+ámbito fintech y el crédito digital, las cuales deberán interpretarse como estándares reforzados de
+protección del usuario financiero.
+Ningún proveedor podrá invocar su carácter de plataforma tecnológica, intermediario digital o
+prestador de servicios informáticos para excluirse de las obligaciones de información,
+transparencia, prevención del sobreendeudamiento, trato digno, protección de datos personales y
+responsabilidad previstas en la presente ley.
+ARTÍCULO 16 — Crédito digital responsable. Los proveedores que ofrezcan u otorguen
+crédito mediante entornos digitales deberán garantizar, en todos los casos, el cumplimiento de
+
+“2026 - Año de la grandeza argentina”
+estándares reforzados de crédito responsable, asegurando que el acceso al financiamiento no se
+produzca en condiciones que puedan generar o agravar situaciones de sobreendeudamiento.
+A tal fin, deberán realizar una evaluación integral, suficiente, razonable y actualizada de la
+capacidad de pago del usuario, considerando la totalidad de sus ingresos disponibles, su nivel de
+endeudamiento previo, la eventual concurrencia de obligaciones contraídas en otras plataformas
+digitales, entidades financieras o proveedores no financieros de crédito, y cualquier otro elemento
+relevante para determinar su situación económica real.
+Queda prohibido el otorgamiento de crédito basado exclusivamente en mecanismos automatizados
+de preaprobación, perfiles de consumo, utilización de aplicaciones o sistemas de scoring que no
+contemplen una verificación efectiva de la solvencia del usuario.
+Asimismo, se considerará práctica abusiva la concesión de financiamiento en forma simultánea,
+reiterada o automatizada cuando el proveedor hubiera podido conocer, mediante una evaluación
+diligente, la existencia de un nivel de endeudamiento incompatible con la capacidad de pago del
+usuario o una situación de vulnerabilidad económica manifiesta.
+La reglamentación podrá establecer criterios objetivos y parámetros mínimos para la evaluación
+de solvencia en el ámbito digital, en coordinación con las competencias regulatorias del Banco
+Central de la República Argentina y demás organismos competentes, debiendo contemplar
+especialmente los riesgos derivados de la inmediatez en el otorgamiento del crédito, la utilización
+simultánea de múltiples plataformas y los mecanismos automatizados de contratación.
+ARTÍCULO 17 — Transparencia reforzada y advertencias en crédito digital. En toda oferta,
+promoción, publicidad o contratación de crédito digital, los proveedores deberán garantizar un
+estándar reforzado de transparencia, asegurando que el usuario reciba información clara, completa,
+veraz, suficiente, accesible y comprensible en forma previa a la aceptación de la operación.
+Dicha información deberá incluir, como mínimo, el costo financiero total, la tasa efectiva anual, el
+monto total a pagar, la cantidad y periodicidad de cuotas, el valor de cada una de ellas, intereses
+compensatorios y punitorios, cargos adicionales, mecanismos de refinanciación, consecuencias del
+incumplimiento y cualquier otro elemento relevante para la comprensión integral de la obligación
+asumida.
+Asimismo, deberán incorporarse en forma visible, destacada y de fácil comprensión advertencias
+expresas sobre los riesgos asociados al endeudamiento digital, incluyendo el impacto del pago
+mínimo, la acumulación de intereses, la prolongación de la deuda, la renovación automática de
+financiamiento y las consecuencias económicas y crediticias derivadas del incumplimiento.
+En ningún caso podrán utilizarse mecanismos de diseño, presentación de información, arquitectura
+digital o estrategias de comunicación que dificulten la comprensión de las condiciones reales del
+financiamiento, oculten datos relevantes o prioricen visualmente los beneficios del crédito por
+sobre sus costos y riesgos.
+
+“2026 - Año de la grandeza argentina”
+La falta de cumplimiento de las obligaciones previstas en el presente artículo dará lugar a la nulidad
+de las cláusulas afectadas, sin perjuicio de las sanciones y responsabilidades previstas en la
+presente ley y en la normativa de defensa del consumidor.
+ARTÍCULO 18 — Interfaces manipulativas y diseño digital abusivo. Se prohíbe la utilización
+de diseños de interfaz, estrategias de comunicación, mecanismos digitales o arquitecturas de
+decisión que tengan por objeto o efecto inducir al usuario a la contratación compulsiva de crédito,
+minimizar la percepción de riesgo, dificultar la comprensión de las condiciones económicas de la
+operación o incentivar situaciones de endeudamiento reiterado.
+En particular, se considerarán prácticas abusivas, entre otras, las siguientes:
+a. el envío de notificaciones masivas o personalizadas que ofrezcan crédito preaprobado sin
+evaluación previa de solvencia;
+b. la utilización de mensajes, notificaciones, estímulos visuales o mecanismos de
+comunicación que destaquen exclusivamente los beneficios inmediatos del financiamiento,
+omitiendo, minimizando u ocultando sus costos y riesgos;
+c. la implementación de sistemas de recompensa, gamificación, incentivos, beneficios
+escalonados o mecanismos equivalentes vinculados al uso reiterado del crédito;
+d. la incorporación de procesos de contratación inmediata que impidan o dificulten instancias
+razonables de reflexión, revisión de condiciones o comprensión efectiva de la operación;
+e. la utilización de configuraciones predeterminadas, recorridos digitales, opciones
+preseleccionadas o mecanismos de consentimiento diseñados para favorecer la aceptación
+automática de financiamiento;
+f. cualquier otra práctica que, mediante el diseño de la experiencia digital, explote sesgos
+cognitivos, situaciones de vulnerabilidad económica o limitaciones informativas del
+usuario financiero.
+Los proveedores deberán garantizar que las interfaces digitales respeten principios de diseño ético,
+transparencia, accesibilidad, protección del usuario y libertad de decisión informada, evitando
+configuraciones manipulativas o mecanismos que alteren de manera irrazonable la autonomía de
+la voluntad del usuario financiero.
+La autoridad de aplicación podrá dictar directrices específicas sobre prácticas de diseño digital
+abusivo, mecanismos de consentimiento y estándares de transparencia aplicables a los servicios
+financieros digitales.
+ARTÍCULO 19 — Algoritmos, scoring y decisiones automatizadas. Los sistemas
+automatizados utilizados para la evaluación crediticia, determinación de condiciones de
+financiamiento, asignación de límites, segmentación de usuarios o cualquier otra decisión relevante
+en materia de servicios financieros deberán cumplir con estándares de transparencia, trazabilidad,
+explicabilidad, seguridad y control.
+
+“2026 - Año de la grandeza argentina”
+Los proveedores deberán informar, en términos claros, accesibles y comprensibles, los criterios
+generales utilizados en los sistemas de scoring o evaluación automatizada, garantizando que los
+mismos no generen discriminaciones arbitrarias, sesgos irrazonables ni afectaciones indebidas a
+los derechos fundamentales de los usuarios.
+Toda persona tendrá derecho a solicitar información sobre las razones generales que
+fundamentaron una decisión automatizada que hubiera afectado el acceso al crédito, las
+condiciones del financiamiento o cualquier otro aspecto relevante de la relación contractual.
+Asimismo, los proveedores deberán garantizar mecanismos efectivos de revisión humana cuando
+las decisiones automatizadas impliquen:
+a. la denegación de crédito;
+b. la modificación sustancial de condiciones contractuales;
+c. la reducción o cancelación de límites de financiamiento;
+d. la suspensión o bloqueo de servicios financieros;
+e. cualquier otra afectación relevante para el usuario financiero.
+La autoridad de aplicación podrá requerir auditorías técnicas, evaluaciones de impacto,
+mecanismos de trazabilidad algorítmica y medidas correctivas cuando se verifiquen prácticas
+discriminatorias, opacas, abusivas o contrarias a los principios previstos en la presente ley.
+ARTÍCULO 20 — Condiciones Abusivas en el crédito digital. Se considerarán prácticas
+abusivas en el ámbito del crédito digital, además de las previstas con carácter general en la presente
+ley y en la normativa de defensa del consumidor, aquellas que impliquen condiciones económicas
+o contractuales desproporcionadas en relación con el riesgo asumido por el proveedor o que tengan
+por efecto la perpetuación de la deuda, el agravamiento del sobreendeudamiento o la imposibilidad
+razonable de cancelación del capital.
+En particular, se considerarán abusivas:
+a. la aplicación de tasas de interés, costos financieros, cargos o comisiones manifiestamente
+excesivos o desproporcionados en relación con parámetros generales del sistema
+financiero;
+b. la capitalización reiterada o indefinida de intereses;
+c. la renovación automática de créditos sin consentimiento libre, informado y expreso del
+usuario;
+d. el otorgamiento sistemático de financiamiento a usuarios que ya se encuentren en situación
+de sobreendeudamiento o vulnerabilidad económica manifiesta;
+e. la imposición de mecanismos de refinanciación compulsiva o de difícil cancelación efectiva
+del capital;
+f. cualquier otra práctica que tenga por objeto o efecto dificultar, postergar o impedir
+razonablemente la extinción de la deuda.
+
+“2026 - Año de la grandeza argentina”
+La verificación de tales conductas habilitará la intervención de la autoridad de aplicación o del
+órgano judicial competente para disponer la revisión integral de las condiciones contractuales, la
+reducción de intereses, la eliminación de cargos indebidos, la nulidad de cláusulas abusivas, la
+reestructuración de la deuda o cualquier otra medida necesaria para restablecer el equilibrio
+contractual y proteger los derechos del usuario financiero.
+La autoridad de aplicación podrá establecer parámetros orientativos, indicadores comparativos o
+pautas de razonabilidad aplicables a las condiciones económicas del crédito digital, en
+coordinación con las competencias regulatorias del Banco Central de la República Argentina y
+demás organismos competentes.
+ARTÍCULO 21 — Información crediticia integral y prevención del sobreendeudamiento.
+Los proveedores de servicios financieros digitales y demás sujetos alcanzados por la presente ley
+deberán reportar en forma completa, veraz, actualizada y oportuna la totalidad de los créditos
+otorgados, refinanciaciones, reestructuraciones y demás obligaciones financieras relevantes a los
+sistemas de información crediticia correspondientes, conforme lo establezca la reglamentación.
+Dicha obligación tendrá por finalidad garantizar una visión integral y adecuada del nivel de
+endeudamiento del usuario, permitiendo mejorar los mecanismos de evaluación de solvencia y
+prevenir situaciones de sobreendeudamiento derivadas de la fragmentación, opacidad o
+insuficiencia de la información financiera.
+Los proveedores deberán adoptar medidas razonables para verificar la consistencia y actualización
+de la información utilizada en los procesos de evaluación crediticia, evitando decisiones basadas
+en datos manifiestamente erróneos, incompletos, desactualizados o carentes de trazabilidad.
+Los usuarios tendrán derecho a acceder en forma gratuita, clara y accesible a la información
+crediticia vinculada a su persona, solicitar la rectificación de datos incorrectos y cuestionar
+decisiones adoptadas sobre la base de información errónea o inexacta, conforme la normativa
+vigente en materia de protección de datos personales y defensa del consumidor.
+El incumplimiento de las obligaciones previstas en el presente artículo será considerado falta grave
+y dará lugar a la aplicación de las sanciones previstas en la presente ley.
+ARTÍCULO 22 — Derecho a la desconexión financiera. Los usuarios tendrán derecho a limitar,
+restringir o bloquear su exposición a ofertas de crédito digital, líneas preaprobadas, mecanismos
+automatizados de financiamiento y demás herramientas de captación financiera implementadas
+mediante plataformas digitales, aplicaciones móviles o sistemas tecnológicos equivalentes.
+A tal fin, podrán solicitar en cualquier momento:
+a. la suspensión de notificaciones, promociones y ofrecimientos de crédito;
+b. la desactivación de líneas preaprobadas;
+c. el bloqueo de funcionalidades que impliquen acceso inmediato a financiamiento;
+d. la limitación de mecanismos automatizados de contratación o renovación de crédito;
+
+“2026 - Año de la grandeza argentina”
+e. cualquier otra medida destinada a reducir su exposición a procesos de endeudamiento
+digital.
+Los proveedores deberán garantizar mecanismos simples, gratuitos, accesibles y de
+implementación inmediata para el ejercicio de este derecho, sin que ello implique restricciones al
+acceso a otros servicios financieros, tratamientos discriminatorios, costos adicionales ni
+afectaciones indebidas a la operatoria habitual del usuario.
+Queda prohibida toda práctica destinada a obstaculizar, demorar, desincentivar o condicionar el
+ejercicio del derecho reconocido en el presente artículo.
+La falta de implementación de herramientas adecuadas para el ejercicio de este derecho o el
+incumplimiento de las obligaciones previstas en el presente artículo será considerada práctica
+abusiva grave en los términos de la presente ley.
+ARTÍCULO 23 — Responsabilidad agravada en entornos digitales. Cuando el
+sobreendeudamiento del usuario resulte total o parcialmente de la utilización de crédito otorgado
+mediante plataformas digitales, sistemas automatizados o mecanismos de financiamiento
+electrónico, y exista relación adecuada de causalidad entre el daño verificado y el incumplimiento
+de los deberes previstos en la presente ley, se presumirá la responsabilidad del proveedor, salvo
+prueba suficiente en contrario.
+A tales efectos, se considerará especialmente el cumplimiento de los deberes de evaluación de
+solvencia, información adecuada, transparencia, prevención del sobreendeudamiento, revisión
+humana de decisiones automatizadas y conducta diligente en el otorgamiento y administración del
+crédito digital.
+En tales supuestos, la autoridad de aplicación o el órgano judicial competente podrá disponer la
+revisión integral de las condiciones contractuales, la reducción de intereses, la eliminación de
+cargos indebidos, la suspensión de cláusulas abusivas, la reestructuración de la deuda o cualquier
+otra medida necesaria para restablecer el equilibrio contractual y proteger los derechos del usuario
+financiero.
+La reiteración sistemática de conductas que generen o agraven situaciones de sobreendeudamiento
+en el ámbito digital podrá dar lugar a la aplicación de sanciones agravadas, incluyendo la
+suspensión, limitación o inhabilitación para operar en los términos que establezca la
+reglamentación y demás normativa aplicable.
+ARTÍCULO 24 —Razonabilidad de costos financieros. En el ámbito de los servicios
+financieros digitales, la determinación de tasas de interés, cargos, comisiones y cualquier otro costo
+asociado al crédito deberá ajustarse a criterios de razonabilidad, proporcionalidad y función
+económica del financiamiento, en relación con el riesgo asumido por el proveedor y la situación
+del usuario.
+
+“2026 - Año de la grandeza argentina”
+A los efectos de la presente ley, se considerará que existe una condición abusiva cuando el costo
+financiero total resulte manifiestamente desproporcionado en relación con el promedio del sistema
+financiero o cuando, por su estructura, tenga por efecto la perpetuación de la deuda o la
+imposibilidad razonable de cancelación del capital.
+La autoridad de aplicación podrá establecer parámetros objetivos, límites, bandas o referencias
+comparativas que permitan identificar situaciones de abuso, particularmente en el ámbito del
+crédito digital, donde la automatización y la inmediatez pueden amplificar los riesgos de
+sobreendeudamiento.
+En ningún caso podrá justificarse la imposición de costos excesivos en base a la sola invocación
+de libertad contractual o desregulación del mercado, cuando se verifique una afectación a los
+derechos del usuario en los términos del artículo 42 de la Constitución Nacional.
+ARTÍCULO 25 — Integración normativa. Las relaciones comprendidas en la presente ley se
+regirán, en todo aquello no previsto expresamente, por las disposiciones de la Ley N° 24.240 de
+Defensa del Consumidor y sus modificatorias, la Ley N° 25.065 de Tarjetas de Crédito y sus
+modificatorias, la Ley N° 21.526 de Entidades Financieras y sus modificatorias, el Código Civil y
+Comercial de la Nación, la Ley N° 25.326 de Protección de Datos Personales y las normas dictadas
+por el Banco Central de la República Argentina, en cuanto resulten más favorables al usuario
+financiero.
+En caso de conflicto, superposición o duda interpretativa entre las normas aplicables, prevalecerá
+la interpretación que otorgue mayor protección a los derechos de consumidores y usuarios
+financieros, conforme los principios de orden público, progresividad, no regresividad y tutela
+reforzada previstos en la Constitución Nacional y en los instrumentos internacionales de derechos
+humanos aplicables.
+Las disposiciones de la presente ley deberán interpretarse de manera armónica con el sistema de
+protección de consumidores y usuarios, sin que puedan ser desplazadas, limitadas o
+desnaturalizadas por normas de desregulación económica, automatización tecnológica o
+mecanismos contractuales incompatibles con los derechos reconocidos por el ordenamiento
+jurídico nacional.
+ARTÍCULO 26 — Aprovechamiento de vulnerabilidad. La oferta, promoción, publicidad y
+otorgamiento de crédito mediante plataformas digitales, servicios financieros tecnológicos o
+mecanismos automatizados no podrá configurarse como una práctica de captación abusiva basada
+en la situación de vulnerabilidad económica, social, etaria, cognitiva o informativa del usuario.
+Se presumirá la existencia de aprovechamiento de vulnerabilidad cuando el financiamiento sea
+ofrecido:
+a. en condiciones de inmediatez incompatibles con una decisión suficientemente reflexiva;
+b. sin evaluación adecuada de solvencia;
+
+“2026 - Año de la grandeza argentina”
+c. mediante mecanismos de presión, insistencia o estímulos reiterados;
+d. en contextos de necesidad económica urgente o cobertura de gastos esenciales;
+e. utilizando sistemas automatizados, algoritmos o diseños digitales orientados a incentivar
+endeudamiento compulsivo o reiterado.
+La autoridad de aplicación o el órgano judicial competente podrá disponer la nulidad de cláusulas
+abusivas, la revisión integral de las condiciones contractuales, la suspensión de mecanismos de
+financiamiento, la reestructuración de la deuda o cualquier otra medida necesaria para prevenir o
+reparar afectaciones a los derechos del usuario financiero.
+La especial situación de vulnerabilidad del usuario deberá ser considerada como pauta
+interpretativa relevante en toda actuación administrativa, judicial o contractual vinculada a
+relaciones de consumo financiero comprendidas en la presente ley.
+TÍTULO IV
+PREVENCIÓN DEL SOBREENDEUDAMIENTO
+Y REHABILITACIÓN FINANCIERA
+ARTÍCULO 27 — Portabilidad financiera. Los usuarios financieros tendrán derecho a trasladar,
+migrar o unificar productos y servicios financieros entre distintos proveedores sin restricciones
+indebidas, costos ocultos, penalidades abusivas ni obstáculos administrativos o tecnológicos que
+dificulten el ejercicio efectivo de este derecho.
+Los proveedores deberán garantizar mecanismos ágiles, interoperables, transparentes y accesibles
+que permitan la transferencia de información, antecedentes financieros, medios de pago, débitos
+automáticos y demás elementos necesarios para asegurar la continuidad operativa y la libre
+elección del usuario.
+Queda prohibida toda práctica destinada a obstaculizar, desalentar o encarecer irrazonablemente
+la portabilidad financiera mediante cláusulas contractuales, cargos desproporcionados,
+limitaciones tecnológicas o mecanismos de retención indebida del usuario.
+La reglamentación establecerá los procedimientos, estándares de interoperabilidad y condiciones
+mínimas necesarias para garantizar el ejercicio efectivo del derecho reconocido en el presente
+artículo, en coordinación con las competencias regulatorias del Banco Central de la República
+Argentina y demás organismos competentes.
+ARTÍCULO 28 — Sistema de prevención del sobreendeudamiento. Los proveedores de
+servicios financieros deberán implementar mecanismos razonables de prevención del
+sobreendeudamiento, utilizando la información disponible en los sistemas de información
+crediticia y demás herramientas de evaluación pertinentes para verificar la relación entre las
+obligaciones financieras asumidas y la capacidad de pago real del usuario.
+A tales efectos, deberán considerar especialmente:
+
+“2026 - Año de la grandeza argentina”
+a. el nivel de endeudamiento total del usuario;
+b. la relación entre ingresos disponibles y servicios de deuda;
+c. la existencia de financiamiento simultáneo en múltiples plataformas o entidades;
+d. la utilización reiterada de mecanismos de refinanciación;
+e. cualquier otro indicador relevante para detectar situaciones de vulnerabilidad o riesgo de
+sobreendeudamiento.
+Los mecanismos de evaluación y prevención deberán desarrollarse conforme criterios de
+transparencia, proporcionalidad, protección de datos personales y no discriminación, evitando
+decisiones arbitrarias o exclusivamente automatizadas que afecten el acceso razonable al
+financiamiento.
+La autoridad de aplicación promoverá la coordinación y mejora de los sistemas de información
+crediticia, así como el desarrollo de políticas públicas orientadas a prevenir situaciones de
+sobreendeudamiento estructural y fortalecer la protección de los usuarios financieros.
+La reglamentación podrá establecer parámetros orientativos, mecanismos preventivos y estándares
+mínimos aplicables a los sujetos alcanzados por la presente ley, en coordinación con las
+competencias regulatorias del Banco Central de la República Argentina y demás organismos
+competentes.
+ARTÍCULO 29 — Procedimientos de reestructuración de deudas. La autoridad de aplicación
+podrá establecer mecanismos administrativos, gratuitos, accesibles y ágiles de reestructuración de
+deudas destinados a usuarios financieros que se encuentren en situación de sobreendeudamiento,
+vulnerabilidad económica o imposibilidad razonable de cumplimiento de sus obligaciones.
+Dichos mecanismos tendrán por finalidad promover soluciones de adecuación contractual,
+refinanciación sostenible, reducción de cargas financieras y protección de la subsistencia digna del
+usuario y su grupo familiar, priorizando criterios de buena fe, equilibrio contractual y conservación
+razonable del crédito.
+La reglamentación podrá prever:
+a. instancias de conciliación o negociación asistida;
+b. mecanismos de suspensión temporaria de ejecuciones o acciones de cobro;
+c. planes de refinanciación o adecuación de cuotas;
+d. reducción o limitación de intereses, cargos y penalidades abusivas;
+e. medidas especiales de protección en contextos de emergencia económica, social o sanitaria;
+f. cualquier otra herramienta destinada a prevenir el agravamiento del sobreendeudamiento.
+Durante la tramitación de los procedimientos previstos en el presente artículo, la autoridad
+competente podrá disponer medidas preventivas o de alivio temporario cuando resulte necesario
+para evitar daños graves o irreparables al usuario financiero.
+
+“2026 - Año de la grandeza argentina”
+Los mecanismos previstos en el presente artículo deberán articularse de manera compatible con
+las competencias judiciales y con el régimen concursal vigente, sin perjuicio de las facultades de
+protección administrativa reconocidas por la normativa de defensa del consumidor.
+ARTÍCULO 30 — Rehabilitación financiera y reinserción económica. La persona humana que
+se encuentre en situación de insolvencia, sobreendeudamiento estructural o imposibilidad
+razonable de cumplimiento de sus obligaciones financieras podrá acceder a un procedimiento
+judicial de rehabilitación financiera orientado a favorecer su recuperación económica, la protección
+de su subsistencia digna y su reinserción en el sistema financiero y social.
+Será competente el juez con competencia en materia comercial o, en su defecto, civil y comercial
+correspondiente al domicilio del usuario, aplicándose el procedimiento más abreviado previsto en
+el ordenamiento procesal local, en forma compatible y supletoria con las disposiciones de la Ley
+N° 24.522 de Concursos y Quiebras, en cuanto resulten aplicables a personas humanas no
+comerciantes.
+El procedimiento deberá regirse por los principios de celeridad, accesibilidad, informalidad
+relativa, tutela judicial efectiva, protección de la vivienda y del mínimo existencial, favoreciendo
+soluciones de continuidad económica y evitando mecanismos que perpetúen situaciones de
+exclusión financiera o vulnerabilidad estructural.
+El órgano judicial podrá disponer, entre otras medidas:
+a. planes razonables de pago y refinanciación;
+b. readecuación de intereses, cargos y penalidades;
+c. suspensión de ejecuciones incompatibles con la subsistencia digna del usuario;
+d. mecanismos de protección de bienes esenciales;
+e. medidas orientadas a facilitar la reinserción financiera y social del deudor.
+Cumplido sustancialmente el plan de pagos aprobado judicialmente y verificada la conducta de
+buena fe del usuario, el juez podrá disponer, de manera excepcional y mediante resolución fundada,
+la extinción total o parcial de las deudas remanentes en los términos que establezca la
+reglamentación y la normativa aplicable, favoreciendo su rehabilitación económica y su
+reintegración al sistema financiero en condiciones equitativas y no discriminatorias.
+TÍTULO V
+AUTORIDAD DE APLICACIÓN, DEFENSORÍA Y RÉGIMEN SANCIONATORIO
+ARTÍCULO 31 — Autoridad de aplicación. Será autoridad de aplicación de la presente ley la
+que determine el Poder Ejecutivo Nacional, sin perjuicio de las competencias atribuidas al Banco
+Central de la República Argentina, a las autoridades locales de defensa del consumidor y a los
+demás organismos con facultades regulatorias o de control en la materia.
+La autoridad de aplicación tendrá, entre otras, las siguientes funciones:
+
+“2026 - Año de la grandeza argentina”
+a. supervisar el cumplimiento de la presente ley y su reglamentación;
+b. prevenir, investigar y sancionar prácticas abusivas en el ámbito de los servicios financieros
+y del crédito digital;
+c. dictar normas complementarias, estándares técnicos, directrices y mecanismos de
+protección aplicables a los sujetos alcanzados por la presente ley;
+d. promover políticas públicas de prevención del sobreendeudamiento y educación financiera;
+e. coordinar acciones con el Banco Central de la República Argentina, autoridades de defensa
+del consumidor, organismos de protección de datos personales y demás autoridades
+competentes;
+f. recibir denuncias, intervenir en conflictos y promover mecanismos de resolución
+administrativa y conciliación;
+g. realizar auditorías, requerir información y adoptar medidas preventivas cuando se
+verifiquen riesgos para los derechos de usuarios financieros;
+h. elaborar informes periódicos sobre endeudamiento, crédito digital, prácticas financieras y
+evolución del sistema de protección previsto en la presente ley.
+La autoridad de aplicación deberá desarrollar mecanismos especiales de protección destinados a
+personas en situación de vulnerabilidad económica, social, etaria o digital, garantizando
+condiciones efectivas de acceso a la información, reclamo y tutela administrativa.
+ARTÍCULO 32 — Defensoría de Usuarios Financieros. Créase la Defensoría de Usuarios
+Financieros en el ámbito de la autoridad de aplicación, con el objeto de garantizar la protección,
+asesoramiento, orientación y defensa integral de los derechos reconocidos en la presente ley.
+La Defensoría tendrá las siguientes funciones:
+a. brindar asistencia, información y orientación gratuita a usuarios financieros;
+b. recibir denuncias y reclamos vinculados a prácticas abusivas, situaciones de
+sobreendeudamiento o vulneraciones de derechos en el ámbito financiero y digital;
+c. intervenir en procedimientos de conciliación, mediación o resolución administrativa de
+conflictos;
+d. promover acciones administrativas y judiciales, individuales o colectivas, en defensa de los
+derechos de usuarios financieros;
+e. elaborar recomendaciones, informes técnicos y propuestas de políticas públicas vinculadas
+a la protección de usuarios financieros y prevención del sobreendeudamiento;
+f. desarrollar programas de educación financiera con enfoque de derechos y protección de
+sectores vulnerables;
+g. coordinar acciones con organismos públicos, asociaciones de consumidores, instituciones
+académicas y organizaciones de la sociedad civil vinculadas a la temática.
+La Defensoría deberá garantizar mecanismos accesibles, gratuitos, ágiles y adaptados a entornos
+digitales para la recepción y tramitación de reclamos, asegurando especial protección a personas
+en situación de vulnerabilidad económica, social, etaria, cognitiva o tecnológica.
+
+“2026 - Año de la grandeza argentina”
+La reglamentación establecerá su organización, funcionamiento, competencias específicas y
+mecanismos de articulación con las autoridades nacionales, provinciales y municipales
+competentes en materia de defensa del consumidor y servicios financieros.
+ARTÍCULO 33 — Régimen sancionatorio. El incumplimiento de las obligaciones previstas en
+la presente ley, su reglamentación y las disposiciones complementarias dictadas por la autoridad
+de aplicación dará lugar a la aplicación de sanciones administrativas, sin perjuicio de las
+responsabilidades civiles, penales o de cualquier otra naturaleza que pudieran corresponder.
+Las sanciones podrán consistir en:
+a. apercibimiento;
+b. multas graduables conforme la gravedad de la infracción, el perjuicio ocasionado, la
+posición en el mercado del infractor, el volumen de operaciones involucradas y la
+reincidencia;
+c. suspensión total o parcial de actividades;
+d. inhabilitación temporal para operar en determinados segmentos del sistema financiero o
+digital;
+e. revocación de autorizaciones, registros o habilitaciones administrativas cuando
+corresponda;
+f. obligación de cesar prácticas abusivas o adecuar mecanismos tecnológicos, contractuales o
+comerciales contrarios a la presente ley;
+g. publicación de la sanción a costa del infractor;
+h. implementación obligatoria de mecanismos correctivos, auditorías o programas de
+adecuación y cumplimiento.
+A los efectos de graduar las sanciones, la autoridad de aplicación deberá considerar especialmente:
+a. el grado de afectación a los derechos del usuario financiero;
+b. la existencia de prácticas sistemáticas o masivas;
+c. el aprovechamiento de situaciones de vulnerabilidad;
+d. la utilización de mecanismos automatizados, algoritmos o interfaces manipulativas;
+e. la reincidencia;
+f. la conducta asumida por el infractor durante el procedimiento.
+Cuando las infracciones involucren prácticas masivas, afectación estructural de derechos,
+incumplimientos reiterados o utilización abusiva de sistemas digitales, la autoridad de aplicación
+podrá disponer sanciones agravadas y medidas preventivas urgentes destinadas a evitar la
+continuidad del daño.
+Las sanciones previstas en la presente ley serán aplicables sin perjuicio de las competencias
+sancionatorias atribuidas al Banco Central de la República Argentina, autoridades de defensa del
+consumidor y demás organismos competentes.
+
+“2026 - Año de la grandeza argentina”
+ARTÍCULO 34 — Acciones judiciales y tutela colectiva. Las personas usuarias financieras,
+asociaciones de consumidores, la Defensoría de Usuarios Financieros y demás sujetos legitimados
+conforme la normativa vigente podrán promover acciones judiciales individuales o colectivas
+destinadas a prevenir, hacer cesar o reparar afectaciones a los derechos reconocidos en la presente
+ley.
+Las acciones previstas en el presente artículo podrán tener por objeto, entre otras cuestiones:
+a. la declaración de nulidad de cláusulas abusivas;
+b. el cese de prácticas financieras ilegítimas o abusivas;
+c. la revisión de condiciones contractuales;
+d. la reparación de daños individuales o colectivos;
+e. la suspensión de mecanismos automatizados o prácticas digitales lesivas;
+f. la adopción de medidas preventivas o cautelares;
+g. la protección de usuarios en situación de vulnerabilidad o sobreendeudamiento.
+En los procesos judiciales vinculados a relaciones de consumo financiero regirá el principio de
+tutela judicial efectiva y la interpretación más favorable al usuario financiero, conforme la
+Constitución Nacional, la normativa de defensa del consumidor y los instrumentos internacionales
+de derechos humanos aplicables.
+Los jueces podrán disponer medidas cautelares, preventivas o estructurales destinadas a evitar
+daños masivos, impedir la continuidad de prácticas abusivas o garantizar la efectividad de los
+derechos reconocidos en la presente ley.
+Las acciones colectivas previstas en el presente artículo tramitarán conforme los principios y reglas
+aplicables en materia de tutela de derechos de incidencia colectiva y protección de consumidores
+y usuarios.
+ARTÍCULO 35 — Educación financiera y prevención. La autoridad de aplicación, en
+coordinación con el Banco Central de la República Argentina, organismos educativos,
+asociaciones de consumidores y demás instituciones competentes, deberá promover políticas
+permanentes de educación financiera con enfoque de derechos, orientadas a fortalecer la capacidad
+de comprensión, decisión y protección de los usuarios financieros.
+Las políticas previstas en el presente artículo deberán contemplar especialmente:
+a. la comprensión de tasas de interés, costo financiero total y mecanismos de refinanciación;
+b. los riesgos asociados al sobreendeudamiento y al crédito digital;
+c. el funcionamiento de plataformas fintech, billeteras virtuales y sistemas automatizados;
+d. la protección frente a prácticas abusivas, fraudes y mecanismos de manipulación digital;
+e. los derechos reconocidos a consumidores y usuarios financieros;
+f. herramientas de prevención y resolución de conflictos financieros.
+
+“2026 - Año de la grandeza argentina”
+La autoridad de aplicación deberá desarrollar programas específicos destinados a personas en
+situación de vulnerabilidad económica, social, etaria o digital, garantizando accesibilidad, lenguaje
+claro y mecanismos adecuados de difusión y capacitación.
+Asimismo, podrá celebrar convenios con universidades, colegios profesionales, asociaciones
+civiles, organismos públicos y entidades privadas para el desarrollo de acciones de capacitación,
+investigación y prevención vinculadas a la protección de usuarios financieros y el
+sobreendeudamiento.
+ARTÍCULO 36 — Orden público. Las disposiciones de la presente ley son de orden público y
+resultan aplicables en todo el territorio de la República Argentina.
+Toda cláusula contractual, práctica comercial, mecanismo tecnológico o disposición reglamentaria
+que limite, suprima, desnaturalice o restrinja los derechos reconocidos en la presente ley se tendrá
+por no escrita y será considerada nula de nulidad absoluta, sin perjuicio de las responsabilidades y
+sanciones que pudieran corresponder.
+Los derechos reconocidos en la presente ley tienen carácter mínimo e irrenunciable, debiendo
+interpretarse e integrarse de conformidad con los principios de protección de consumidores y
+usuarios, tutela reforzada, progresividad y no regresividad en materia de derechos económicos y
+sociales.
+ARTÍCULO 37 — Reglamentación. El Poder Ejecutivo Nacional reglamentará la presente ley
+dentro de los CIENTO OCHENTA (180) días contados a partir de su publicación en el Boletín
+Oficial, debiendo garantizar la participación de asociaciones de consumidores, organizaciones
+especializadas, instituciones académicas, organismos técnicos y demás actores vinculados a la
+protección de usuarios financieros y prevención del sobreendeudamiento.
+La reglamentación deberá contemplar especialmente mecanismos de coordinación entre la
+autoridad de aplicación, el Banco Central de la República Argentina, las autoridades de defensa
+del consumidor y demás organismos competentes, a fin de asegurar una implementación integral,
+efectiva y armónica del régimen previsto en la presente ley.
+ARTÍCULO 38 — Adhesión. Invítase a las provincias y a la Ciudad Autónoma de Buenos Aires
+a adherir a la presente ley, dictando las normas necesarias para garantizar su efectiva
+implementación, promover mecanismos locales de protección de usuarios financieros y coordinar
+acciones con las autoridades nacionales competentes.
+ARTÍCULO 39 — De forma. Comuníquese al Poder Ejecutivo.
+Pablo JULIANO
+
+“2026 - Año de la grandeza argentina”
+FUNDAMENTOS
+Señor Presidente:
+El presente proyecto de ley tiene por objeto establecer un régimen integral de protección de
+los usuarios y consumidores de servicios financieros frente a las nuevas dinámicas económicas,
+tecnológicas y contractuales que caracterizan al sistema financiero contemporáneo, en un contexto
+social marcado por el crecimiento sostenido del endeudamiento de los hogares, la expansión
+acelerada del crédito digital y la profundización de las asimetrías estructurales existentes entre
+proveedores y usuarios.
+Durante los últimos años, la relación entre las personas y el sistema financiero ha
+experimentado una transformación profunda. La expansión de plataformas digitales, billeteras
+virtuales, aplicaciones móviles, sistemas automatizados de otorgamiento de crédito y proveedores
+no financieros de financiamiento modificó radicalmente las formas de acceso al consumo, al
+crédito y a los servicios financieros en general. Procesos que anteriormente requerían evaluación
+presencial, análisis documental y tiempos relativamente prolongados hoy pueden concretarse en
+cuestión de segundos mediante decisiones automatizadas, interfaces digitales y mecanismos de
+aprobación inmediata.
+Esta transformación tecnológica produjo indudables avances en materia de acceso e inclusión
+financiera. Millones de personas pudieron incorporarse a herramientas de pago, financiamiento y
+contratación antes reservadas a sectores específicos del sistema bancario tradicional. Sin embargo,
+ese mismo proceso generó también nuevas formas de vulnerabilidad económica y digital que el
+ordenamiento jurídico vigente no logra abordar de manera suficiente.
+El fenómeno del sobreendeudamiento constituye hoy una de las expresiones más visibles y
+preocupantes de esa transformación. Lejos de tratarse de situaciones excepcionales o marginales,
+el endeudamiento excesivo de personas y hogares se ha consolidado como un rasgo estructural del
+funcionamiento económico contemporáneo. La utilización del crédito como mecanismo cotidiano
+de subsistencia, refinanciación permanente de obligaciones, multiplicación de líneas de
+financiamiento simultáneo y crecimiento sostenido de la morosidad revelan un escenario que
+excede ampliamente las categorías tradicionales del derecho contractual clásico.
+Los datos disponibles evidencian con claridad la magnitud y profundización del problema.
+Conforme el último Informe sobre Bancos publicado por el Banco Central de la República
+Argentina, correspondiente a mayo de 2026, el ratio de irregularidad de las financiaciones al sector
+privado alcanzó el 7,7%, mientras que el coeficiente de mora de las financiaciones a las familias
+ascendió al 12,8%, mostrando un deterioro particularmente significativo respecto del año anterior.
+La evolución resulta todavía más preocupante en el segmento del crédito no bancario. El propio
+Banco Central informó que la irregularidad total de la cartera de los proveedores no financieros de
+crédito alcanzó el 26,9% en febrero de 2026, con niveles del 34,1% en los préstamos personales y
+del 19,4% en las financiaciones mediante tarjetas de crédito. Datos posteriores relevados por
+
+“2026 - Año de la grandeza argentina”
+EcoGo muestran que, para mayo de 2026, la morosidad del crédito no bancario había ascendido al
+28,7%, casi cuatro veces el nivel de irregularidad registrado para el conjunto del sistema bancario.
+Esta situación se desarrolla, además, en un contexto de fuerte expansión y diversificación de
+las fuentes de financiamiento de los hogares. Según el último Informe de Inclusión Financiera del
+Banco Central de la República Argentina, a diciembre de 2025 aproximadamente 20,3 millones de
+personas registraban algún tipo de financiamiento, alcanzando una cobertura equivalente al 54,7%
+de la población considerada y un saldo promedio por deudor de $4,1 millones a precios constantes,
+con un crecimiento real del 24,7% durante 2025. Al mismo tiempo, aumentó significativamente la
+participación de los proveedores no financieros de crédito: 6,7 millones de personas mantenían
+simultáneamente financiamiento con entidades financieras y proveedores no financieros, el
+máximo de la serie histórica. El fenómeno continuó profundizándose durante 2026: el Banco
+Central informó que, a febrero, los proveedores no financieros financiaban a alrededor de 12,1
+millones de personas y que las fintech ya superaban los 7 millones de clientes. La propia autoridad
+monetaria reconoció, además, la necesidad de incorporar mecanismos específicos de prevención
+del sobreendeudamiento al crear, mediante la Comunicación “A” 8406, el sistema de Cobro con
+Transferencia (CCT), que establece, para los préstamos alcanzados por ese mecanismo, un límite
+del 30% en la relación cuota-ingreso al momento del origen del crédito. La medida, cuya
+implementación deberá encontrarse disponible a partir del 31 de agosto de 2026, evidencia que la
+expansión del financiamiento exige herramientas regulatorias capaces de compatibilizar
+innovación, acceso al crédito y evaluación responsable de la capacidad de pago de los usuarios.
+Sin embargo, el problema no puede reducirse exclusivamente a indicadores financieros o
+estadísticas de morosidad. El sobreendeudamiento constituye un fenómeno social complejo que
+afecta directamente condiciones materiales de existencia, acceso a bienes esenciales y ejercicio
+efectivo de derechos fundamentales. En numerosos casos, las personas recurren al crédito no para
+financiar consumos extraordinarios o inversiones patrimoniales, sino para cubrir gastos básicos
+vinculados a alimentación, servicios públicos, alquiler, salud, medicamentos o transporte. En tales
+contextos, el financiamiento deja de operar como herramienta de desarrollo económico y pasa a
+funcionar como un sustituto del ingreso.
+Esta circunstancia modifica sustancialmente la naturaleza de la relación entre usuario y
+proveedor financiero. Cuando el endeudamiento se convierte en condición de acceso a bienes
+esenciales, la libertad contractual se encuentra profundamente condicionada por la necesidad
+económica y la desigualdad estructural entre las partes se intensifica de manera exponencial. El
+usuario financiero deja de ser un sujeto que negocia en condiciones razonablemente equilibradas
+para convertirse, en muchos casos, en una persona que acepta condiciones impuestas desde una
+posición de vulnerabilidad material, urgencia económica y limitada capacidad real de elección.
+En este escenario, las categorías tradicionales del derecho privado resultan insuficientes para
+abordar las nuevas dinámicas del sistema financiero digitalizado. El problema contemporáneo ya
+no se limita exclusivamente a cláusulas abusivas o defectos informativos en contratos bancarios
+
+“2026 - Año de la grandeza argentina”
+tradicionales. Hoy se verifican mecanismos complejos de endeudamiento estructurados sobre
+automatización masiva, utilización intensiva de datos personales y conductuales, decisiones
+algorítmicas opacas, refinanciación permanente y diseños digitales orientados a incentivar
+conductas compulsivas de consumo y endeudamiento.
+El desarrollo de tecnologías financieras —fintech— ha transformado incluso la naturaleza
+de las asimetrías presentes en las relaciones de consumo financiero. Tradicionalmente, dichas
+desigualdades se vinculaban principalmente con diferencias de información, capacidad económica
+y poder contractual. Actualmente, esas asimetrías incorporan además dimensiones tecnológicas y
+algorítmicas de enorme complejidad. Los usuarios se enfrentan frecuentemente a sistemas
+automatizados cuyos criterios desconocen, a decisiones adoptadas mediante procesamiento masivo
+de datos, a mecanismos de scoring opacos y a interfaces digitales especialmente diseñadas para
+influir sobre comportamientos económicos.
+En numerosos casos, el otorgamiento de crédito se produce mediante mecanismos de
+preaprobación instantánea o sistemas automatizados que no contemplan adecuadamente el nivel
+global de endeudamiento del usuario ni su capacidad real de pago. La posibilidad de acceder
+simultáneamente a múltiples fuentes de financiamiento mediante plataformas digitales genera
+escenarios de fragmentación de información y acumulación de obligaciones que dificultan
+cualquier evaluación responsable de solvencia.
+A ello se suma la utilización creciente de algoritmos y sistemas automatizados de decisión
+que pueden afectar significativamente el acceso al financiamiento, las condiciones contractuales e
+incluso la continuidad de determinados servicios financieros. La ausencia de transparencia respecto
+de los criterios utilizados por dichos sistemas, sumada a la inexistencia de mecanismos efectivos
+de revisión humana, genera riesgos incompatibles con principios elementales de tutela judicial
+efectiva, igualdad y protección de consumidores y usuarios.
+El presente proyecto reconoce expresamente esta transformación y parte de una premisa
+fundamental: la innovación tecnológica y la expansión de herramientas digitales de financiamiento
+constituyen procesos legítimos y potencialmente beneficiosos para la inclusión financiera y el
+desarrollo económico, pero ello no puede traducirse en la habilitación de prácticas abusivas, opacas
+o desproporcionadas que transformen el crédito en un mecanismo de captura económica o
+reproducción de vulnerabilidad social.
+Por ello, la iniciativa no adopta una lógica anti-tecnológica ni procura restringir
+arbitrariamente el desarrollo del ecosistema fintech. Muy por el contrario, reconoce el enorme
+potencial de las tecnologías financieras para ampliar el acceso a servicios esenciales, reducir costos
+operativos, facilitar nuevas modalidades de contratación y promover inclusión financiera. Lo que
+se propone es establecer estándares mínimos de responsabilidad, transparencia y protección de
+derechos compatibles con las transformaciones del sistema financiero contemporáneo.
+
+“2026 - Año de la grandeza argentina”
+El acceso al crédito no puede desligarse de la responsabilidad social inherente a su
+otorgamiento. El financiamiento dirigido a personas humanas posee impacto directo sobre
+condiciones materiales de vida, estabilidad económica familiar y ejercicio efectivo de derechos
+fundamentales. Por ello, el crédito responsable constituye hoy una exigencia jurídica derivada no
+solo del derecho del consumidor, sino también de principios constitucionales vinculados a dignidad
+humana, trato digno, buena fe y protección de sectores vulnerables.
+Desde el punto de vista constitucional, el proyecto encuentra fundamento directo en el
+artículo 42 de la Constitución Nacional, que reconoce expresamente el derecho de consumidores
+y usuarios a la protección de sus intereses económicos, al acceso a información adecuada y veraz
+y a condiciones de trato equitativo y digno. Asimismo, la reforma constitucional de 1994 consolidó
+un paradigma protectorio que impone al Estado obligaciones activas de regulación frente a
+relaciones marcadas por profundas desigualdades estructurales.
+En igual sentido, la Ley N° 24.240 de Defensa del Consumidor y el Código Civil y Comercial
+de la Nación establecen un sistema de tutela de orden público basado en principios de buena fe,
+información adecuada, protección frente a cláusulas abusivas y trato digno. Sin embargo, la
+acelerada digitalización de las relaciones financieras exige actualizar y profundizar esas
+herramientas frente a nuevas modalidades de contratación y financiamiento que incorporan
+automatización, opacidad tecnológica y utilización intensiva de datos personales.
+El proyecto se inscribe también en las obligaciones internacionales asumidas por la
+República Argentina en materia de derechos económicos, sociales y culturales. Los principios de
+progresividad y no regresividad imponen al Estado no solo la obligación de abstenerse de adoptar
+medidas regresivas, sino también el deber positivo de intervenir frente a nuevas formas de
+vulneración de derechos derivadas de transformaciones económicas y tecnológicas.
+El sobreendeudamiento constituye precisamente una de esas nuevas formas de vulnerabilidad
+estructural. Cuando una persona debe destinar la mayor parte de sus ingresos al pago de
+obligaciones financieras, cuando el crédito reemplaza al salario como mecanismo de subsistencia
+o cuando la refinanciación perpetua impide toda posibilidad razonable de recuperación económica,
+el problema deja de ser estrictamente contractual para adquirir una dimensión social y
+constitucional que exige respuestas regulatorias específicas.
+Por ello, el proyecto incorpora herramientas destinadas a prevenir el otorgamiento
+irresponsable de crédito y a garantizar mecanismos de evaluación adecuada de solvencia. Estas
+disposiciones no persiguen restringir arbitrariamente el acceso al financiamiento, sino impedir que
+el sistema obtenga rentabilidad a partir de dinámicas estructurales de endeudamiento incompatible
+con condiciones mínimas de subsistencia digna.
+La experiencia reciente demuestra que una parte significativa del crédito digital se concede
+mediante procedimientos automatizados orientados prioritariamente a maximizar volumen de
+colocación y velocidad de contratación, muchas veces sin consideración suficiente respecto de la
+
+“2026 - Año de la grandeza argentina”
+capacidad real de pago del usuario. Ello favorece escenarios de refinanciación permanente,
+acumulación de obligaciones y agravamiento progresivo de la vulnerabilidad económica.
+En este contexto, adquiere especial relevancia la regulación de prácticas digitales
+manipulativas —conocidas internacionalmente como dark patterns— utilizadas crecientemente en
+plataformas financieras y aplicaciones de crédito. La arquitectura digital de determinadas
+interfaces no resulta neutral: puede diseñarse deliberadamente para incentivar endeudamiento
+impulsivo, minimizar percepción de riesgo, dificultar comprensión de costos reales o promover
+contratación inmediata mediante estímulos permanentes y mecanismos de presión conductual.
+La gamificación del crédito, las notificaciones constantes de financiamiento preaprobado, los
+diseños orientados a priorizar beneficios inmediatos sobre riesgos futuros y la utilización de
+configuraciones predeterminadas favorables al endeudamiento constituyen nuevas modalidades de
+influencia económica que requieren respuestas regulatorias acordes con la realidad tecnológica
+contemporánea.
+Las decisiones financieras no se producen en abstracto ni responden exclusivamente a
+modelos racionales clásicos. La evidencia empírica proveniente de la economía del
+comportamiento demuestra que el diseño de interfaces, la forma de presentación de información y
+los mecanismos digitales de interacción pueden influir significativamente sobre la conducta de las
+personas. El derecho no puede permanecer indiferente frente a tecnologías capaces de explotar
+vulnerabilidades cognitivas y económicas en contextos de necesidad material.
+Por ello, el proyecto incorpora estándares de transparencia y diseño ético orientados a
+garantizar que los entornos digitales financieros respeten condiciones mínimas de autonomía,
+comprensión e información adecuada. Estas disposiciones no buscan obstaculizar innovación
+tecnológica, sino asegurar que la misma se desarrolle dentro de parámetros compatibles con
+dignidad humana y protección constitucional de consumidores y usuarios.
+Asimismo, la iniciativa regula específicamente algoritmos y sistemas automatizados de
+scoring crediticio, exigiendo transparencia, auditabilidad y posibilidad de revisión humana. Las
+decisiones automatizadas pueden afectar acceso al crédito, modificar condiciones económicas,
+segmentar usuarios o restringir servicios sobre la base de variables desconocidas o potencialmente
+discriminatorias. La opacidad algorítmica resulta incompatible con estándares mínimos de debido
+proceso, tutela efectiva y protección de derechos económicos.
+Diversos organismos internacionales y experiencias comparadas han avanzado ya en la
+regulación de estas nuevas formas de automatización financiera. La Unión Europea ha desarrollado
+estándares crecientes en materia de transparencia algorítmica, inteligencia artificial y protección
+de consumidores financieros digitales. En particular, el Reglamento (UE) 2024/1689 sobre
+Inteligencia Artificial reconoce expresamente la especial sensibilidad de los sistemas destinados a
+evaluar la solvencia o calificación crediticia de personas humanas, incorporándolos, con las
+excepciones previstas por la propia norma, dentro de la categoría de sistemas de inteligencia
+
+“2026 - Año de la grandeza argentina”
+artificial de alto riesgo debido a su potencial impacto sobre el acceso a recursos financieros y
+servicios esenciales. En la misma dirección, los Principios de Alto Nivel G20/OCDE sobre
+Protección del Consumidor Financiero incorporan expresamente la digitalización, el bienestar
+financiero y la protección de consumidores en situación de vulnerabilidad como dimensiones
+centrales de los modernos sistemas regulatorios.
+En particular, la evolución reciente de la normativa europea sobre crédito al consumo
+evidencia una tendencia clara hacia modelos regulatorios que incorporan obligaciones reforzadas
+de evaluación de solvencia, transparencia y prevención del sobreendeudamiento. La Directiva
+(UE) 2023/2225 relativa a los contratos de crédito al consumo establece que, antes de celebrar un
+contrato, el prestamista debe realizar una evaluación exhaustiva de la solvencia del consumidor,
+efectuada en interés de este y dirigida expresamente a prevenir prácticas de concesión irresponsable
+de crédito y situaciones de sobreendeudamiento. La misma normativa contempla, además, límites
+frente al otorgamiento de crédito no solicitado. Estas experiencias demuestran que la innovación
+tecnológica y la expansión de nuevas modalidades de financiamiento no pueden utilizarse como
+fundamento para reducir estándares protectores ni para debilitar las responsabilidades inherentes
+al otorgamiento responsable de crédito.
+El proyecto incorpora también el derecho a la desconexión financiera, permitiendo que los
+usuarios limiten su exposición permanente a ofertas automatizadas de crédito, líneas preaprobadas
+y mecanismos digitales de captación financiera. La hiperconectividad permanente y la
+disponibilidad inmediata de financiamiento pueden operar como factores de agravamiento del
+endeudamiento, especialmente en contextos de vulnerabilidad económica o emocional.
+Otro eje central de la iniciativa se vincula con la regulación de la mora automática, la cesión
+de créditos y las prácticas de cobranza. En numerosos casos, los sistemas actuales permiten activar
+consecuencias gravosas de manera inmediata y automatizada ante el mero incumplimiento de una
+obligación financiera. Aplicación automática de intereses punitorios, reportes a bases de datos,
+bloqueo de servicios, caducidad de plazos y aceleración de deudas pueden producirse sin instancias
+reales de advertencia, regularización o defensa por parte del usuario.
+Estas prácticas no solo agravan la situación económica del deudor, sino que profundizan
+dinámicas de exclusión y vulnerabilidad incompatibles con principios de buena fe, trato digno y
+protección constitucional de consumidores y usuarios. Por ello, el proyecto establece límites
+específicos a la automatización de consecuencias derivadas del incumplimiento financiero,
+garantizando mecanismos mínimos de notificación efectiva y regularización razonable.
+La regulación de la cesión y transferencia de créditos adquiere igualmente especial
+relevancia. La creciente circulación de carteras de deuda entre fondos de inversión, fideicomisos,
+empresas de cobranza y estudios jurídicos generó escenarios frecuentes de opacidad respecto de la
+titularidad de obligaciones, legitimación para reclamar y composición real de las deudas exigidas.
+
+“2026 - Año de la grandeza argentina”
+En numerosos casos, las personas desconocen quién resulta efectivamente titular del crédito
+reclamado, cuáles son los montos realmente adeudados o bajo qué condiciones se produjo la
+transferencia de la obligación. La ausencia de mecanismos adecuados de información, trazabilidad
+y control favorece prácticas abusivas e incompatibles con el derecho a información adecuada y
+trato digno.
+Asimismo, la externalización de la cobranza no puede implicar liberación de responsabilidad
+del proveedor original respecto de obligaciones derivadas de la relación de consumo. La
+transferencia de titularidad del crédito no extingue deberes vinculados a buena fe, transparencia y
+protección de usuarios.
+El proyecto establece también límites claros a las prácticas de cobranza, prohibiendo
+mecanismos de hostigamiento, intimidación o presión indebida incompatibles con dignidad
+humana y protección constitucional de consumidores. El ejercicio legítimo del derecho de crédito
+no puede desarrollarse mediante modalidades que produzcan estigmatización, violencia económica
+o afectación de derechos fundamentales.
+Estas previsiones se encuentran plenamente alineadas con tendencias consolidadas del
+derecho comparado. En el ámbito de la Unión Europea, la Directiva (UE) 2021/2167 estableció un
+marco específico para los administradores y compradores de créditos dudosos, imponiendo
+obligaciones de actuación de buena fe, trato justo y profesional de los prestatarios, protección de
+sus datos personales y prohibición de comunicaciones que impliquen hostigamiento, coerción o
+influencia indebida. Asimismo, exige mecanismos específicos de información respecto de la
+transferencia del crédito y de la identidad de quienes se encuentran legitimados para administrarlo
+o reclamarlo. Estados Unidos cuenta, desde hace décadas, con la Fair Debt Collection Practices
+Act, complementada actualmente por la Regulation F, destinada a impedir prácticas abusivas,
+engañosas o desleales en los procesos de cobranza de deudas de consumidores.
+Del mismo modo, organismos internacionales han señalado reiteradamente la necesidad de
+fortalecer la protección de los consumidores financieros durante todo el ciclo de la relación
+crediticia. Las Directrices de las Naciones Unidas para la Protección del Consumidor contemplan
+específicamente la protección de consumidores vulnerables y desfavorecidos en materia de
+servicios financieros, mientras que la OCDE ha reforzado sus estándares internacionales sobre
+crédito al consumo incorporando expresamente los riesgos derivados de la digitalización, las
+nuevas formas de crédito, el endeudamiento de consumidores vulnerables y las prácticas injustas
+de cobranza. La protección no puede, por ello, agotarse en el momento de contratación, sino que
+debe extenderse al otorgamiento responsable, administración, refinanciación, cobranza y eventual
+reestructuración de las obligaciones.
+Otro aspecto especialmente relevante del proyecto es la incorporación de mecanismos de
+rehabilitación financiera y reinserción económica de personas humanas en situación de insolvencia
+o sobreendeudamiento estructural. La experiencia comparada demuestra que numerosos
+
+“2026 - Año de la grandeza argentina”
+ordenamientos jurídicos avanzaron hacia modelos de segunda oportunidad destinados a evitar
+escenarios permanentes de exclusión económica.
+El denominado fresh start o principio de segunda oportunidad constituye actualmente uno de
+los ejes relevantes de la evolución contemporánea del derecho de insolvencia y rehabilitación
+económica. La experiencia comparada muestra una progresiva incorporación de mecanismos
+destinados a permitir que personas sometidas a situaciones de insolvencia grave puedan, bajo
+determinadas condiciones y preservando razonablemente los derechos de los acreedores, superar
+situaciones de exclusión económica permanente. En el ámbito europeo, la Directiva (UE)
+2019/1023 consolidó el principio de segunda oportunidad respecto de empresarios insolventes
+mediante mecanismos de exoneración de deudas y limitación temporal de los períodos necesarios
+para acceder a ella, reflejando una evolución jurídica más amplia orientada a compatibilizar
+responsabilidad patrimonial, recuperación económica y reinserción en la actividad productiva.
+El proyecto incorpora esa perspectiva desde un enfoque compatible con el ordenamiento
+jurídico argentino y con los principios de buena fe, responsabilidad y tutela de dignidad humana.
+La rehabilitación financiera no implica desconocimiento arbitrario de obligaciones legítimamente
+asumidas, sino reconocimiento de que los sistemas jurídicos modernos deben contemplar
+mecanismos razonables de recuperación económica frente a situaciones estructurales de
+insolvencia personal.
+La exclusión financiera permanente no solo afecta derechos individuales, sino que produce
+además consecuencias económicas y sociales amplias. Personas atrapadas indefinidamente en
+situaciones de endeudamiento estructural ven severamente limitada su posibilidad de acceso al
+empleo formal, al crédito legítimo y a condiciones básicas de desarrollo económico y social.
+La iniciativa incorpora asimismo una perspectiva específica de tutela de consumidores
+hipervulnerables, reconociendo que determinadas personas enfrentan mayores dificultades para
+comprender, resistir o negociar mecanismos complejos de endeudamiento digital y automatizado.
+Vulnerabilidad económica, etaria, cognitiva, social o tecnológica requieren respuestas
+diferenciadas orientadas a garantizar igualdad real y tutela reforzada.
+La creación de mecanismos institucionales específicos —como la Defensoría de Usuarios
+Financieros— responde precisamente a la creciente complejidad técnica y estructural del
+ecosistema financiero contemporáneo. Las dimensiones tecnológicas y económicas de estas
+relaciones dificultan significativamente la defensa individual aislada de derechos, especialmente
+frente a daños masivos producidos mediante sistemas digitales centralizados.
+El fortalecimiento de acciones colectivas, herramientas preventivas y mecanismos
+administrativos especializados resulta indispensable frente a escenarios donde prácticas
+automatizadas pueden afectar simultáneamente a miles o millones de usuarios. La protección
+clásica basada exclusivamente en reclamos individuales resulta insuficiente frente a dinámicas de
+afectación estructural propias del sistema financiero digital contemporáneo.
+
+“2026 - Año de la grandeza argentina”
+El presente proyecto procura así construir un régimen integral, moderno y técnicamente
+sólido de protección de usuarios financieros, articulando herramientas tradicionales del derecho
+del consumidor con nuevas respuestas regulatorias adaptadas a las transformaciones económicas y
+tecnológicas de nuestro tiempo.
+La inclusión financiera no puede reducirse a la mera expansión cuantitativa del acceso al
+crédito. La verdadera inclusión exige transparencia, comprensión efectiva, responsabilidad en el
+otorgamiento del financiamiento y protección frente a dinámicas abusivas de endeudamiento. Del
+mismo modo, la modernización tecnológica del sistema financiero no puede traducirse en opacidad
+algorítmica, automatización irresponsable o debilitamiento de garantías constitucionales básicas.
+Cuando el crédito se convierte en mecanismo permanente de subsistencia, cuando la
+rentabilidad financiera depende de la vulnerabilidad económica y cuando la tecnología amplifica
+asimetrías en lugar de reducirlas, el Estado no puede permanecer indiferente. La regulación
+inteligente del ecosistema financiero digital constituye hoy una condición indispensable para
+garantizar que la innovación tecnológica se desarrolle en armonía con principios de dignidad
+humana, justicia social, igualdad y protección efectiva de consumidores y usuarios.
+Por todo lo expuesto, solicito a mis pares el acompañamiento del presente proyecto de ley.
+Pablo JULIANO
