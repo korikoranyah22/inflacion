@@ -1,0 +1,47 @@
+1	alfanumérico	código de entidad
+2	alfanumérico	nombre de entidad
+3	alfanumérico	nombre reducido de entidad
+4	alfanumérico	nombre abreviado de entidad
+5	alfanumérico	cuit de la entidad
+6	numérico		mes de cierre
+7	alfanumérico	fecha de posición de liquidez
+8	alfanumérico	1er. fecha de la entidad
+9	alfanumérico	2da. fecha de la entidad
+10	alfanumérico	3er. fecha de la entidad
+11	alfanumérico	4ta. fecha de la entidad
+12	alfanumérico	5ta. fecha de la entidad
+13	alfanumérico	Fecha numero 1
+14	alfanumérico	Fecha numero 2
+15	alfanumérico	Fecha numero 3
+16	alfanumérico	Fecha numero 4
+17	alfanumérico	Fecha numero 5
+18	alfanumérico	1er. Fecha información adicional
+19	alfanumérico	2da. Fecha información adicional
+20	alfanumérico	3er. Fecha información adicional
+21	alfanumérico	4ta. Fecha información adicional
+22	alfanumérico	5ta. Fecha información adicional
+23	alfanumérico	1er. cierre correspondiente a fecha numero 1
+24	alfanumérico	2do. cierre correspondiente a fecha numero 2
+25	alfanumérico	3er. cierre correspondiente a fecha numero 3
+26	alfanumérico	4to. cierre correspondiente a fecha numero 4
+27	alfanumérico	5to. cierre correspondiente a fecha numero 5
+28	alfanumérico	Presidente
+29	alfanumérico	Cargo gerencial
+30	alfanumérico	Gerente
+31	alfanumérico	Dirección
+32	alfanumérico	Opera en aladi
+33	alfanumérico	Localidad
+34	alfanumérico	Provincia
+35	alfanumérico	Teléfono_institucional
+36	alfanumérico	Grupo Homogéneo
+37 	alfanumérico	Asociación1
+38 	alfanumérico	Asociación2
+39	alfanumérico	Asociación3
+40 	alfanumérico	Descripción Agrupamiento Institucional
+41	alfanumérico	Tipo de casa matriz
+42	alfanumérico	Código de grupo institucional
+43	alfanumérico	Página Web
+44	alfanumérico	tipo red social_nombre red social
+45	alfanumérico	Dirección de e-mail
+46 	alfanumérico	Informe de cierre trimestral_1
+47	alfanumérico	Informe de cierre trimestral_2

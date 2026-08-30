@@ -1,0 +1,6 @@
+Formato archivo cuentas.txt
+/
+1	alfanumerico    codigo de cuenta
+2	alfanumérico	descripción
+3	fecha	fecha de baja
+

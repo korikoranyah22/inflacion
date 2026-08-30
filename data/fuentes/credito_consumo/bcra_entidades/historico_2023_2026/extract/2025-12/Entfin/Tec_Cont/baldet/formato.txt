@@ -1,0 +1,8 @@
+1	alfanumérico	código de entidad
+2	alfanumérico	nombre de entidad
+3	alfanumérico	Fecha
+4	alfanumérico	código de cuenta (Patrimonio Neto: se conforma con la suma algebraica de las partidas 400000 + 500000 + 650000)
+5	alfanumérico	denominación de la cuenta
+6	numérico	Saldo debe
+7	numérico	Saldo haber
+	

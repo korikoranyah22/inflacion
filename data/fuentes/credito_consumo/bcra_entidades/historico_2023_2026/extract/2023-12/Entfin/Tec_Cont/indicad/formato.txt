@@ -1,0 +1,14 @@
+1	alfanumérico	código de entidad
+2	alfanumérico	nombre de entidad
+3	alfanumérico	Fecha
+4	alfanumérico	código de línea
+5	alfanumerico	descripcion del indicador
+6	numérico	valores correspondientes a la 1ra. fecha de la entidad
+7	numérico	valores correspondientes a la 2da. fecha de la entidad
+8	numérico	valores correspondientes a la 3ra. fecha de la entidad
+9	numérico	valores correspondientes a la 4ta. fecha de la entidad
+10	numérico	valores correspondientes a la 5ta. fecha de la entidad
+11	numérico	valores correspondientes A GRUPO HOMOGENEO
+12	numérico	valores correspondientes A 10 PRIMEROS BANCOS PRIVADOS
+13	numérico	valores correspondientes AL SISTEMA FINANCIERO
+14	alfanumerico	formato del valor de las fechas (Porcentaje o Numérico)
