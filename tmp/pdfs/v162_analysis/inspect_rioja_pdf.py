@@ -1,9 +1,9 @@
 from pathlib import Path
-import re
+import sys
 import pdfplumber
 
 
-path = Path("research/ciclo_ajuste/inputs/source_sync/v161/binaries/banco_rioja_eeff_fy2023.pdf")
+path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("research/ciclo_ajuste/inputs/source_sync/v161/binaries/banco_rioja_eeff_fy2023.pdf")
 terms = [
     "pase",
     "14.409.056",
@@ -15,6 +15,10 @@ terms = [
     "anexo q",
     "apertura de resultados",
     "banco central de la república argentina",
+    "bcra",
+    "b.c.r.a",
+    "operaciones de pase",
+    "riesgo de tasa",
 ]
 with pdfplumber.open(path) as pdf:
     print(f"pages={len(pdf.pages)}")

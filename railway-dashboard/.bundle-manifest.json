@@ -1,0 +1,57 @@
+{
+  "generated_from": "dashboard source tree",
+  "public_file_count": 10,
+  "public_bytes": 8131876,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 8039530,
+      "sha256": "fa503bdf8e1684877b3438c0407d96dfd872eb8fab5d1ff444ed1dc83562da6c"
+    },
+    {
+      "path": "assets/epica-super-tabs.js",
+      "bytes": 49493,
+      "sha256": "34c45762e5ffe218c86434a1b041e2948ea689759359895c11629da6a04379ae"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
+      "bytes": 11384,
+      "sha256": "b788887717eced58d229eaa19c74fb8ca7f901ddc5be69c28dfb7218593a411e"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_strategy_summary.csv",
+      "bytes": 23142,
+      "sha256": "02572f2851764de3c1222baf09f228b4bd17cc1f585a34fa902db041a59d8589"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/bcra_reserve_liquidity_bridge.csv",
+      "bytes": 544,
+      "sha256": "808a6704543e1c45d09a75f492c2301e762d13adb1f49cfaec65f81014e33e90"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/debt_service_2026_2031.csv",
+      "bytes": 917,
+      "sha256": "79ab81b7335b01426ddd40bf910745699b1f38670c423d7449cee1a077d39c4a"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/income_distribution_2026_q1.csv",
+      "bytes": 1373,
+      "sha256": "15ba18659f0b681cc83dcce2cc669c2d6714b593b92311f1bf3f5776723062c7"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/channel_comparison.csv",
+      "bytes": 964,
+      "sha256": "9d53a4f4113122b20565a6a2f9dc1d411934763d610249fed53f6985ece0ccbf"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/policy_claims_audit.csv",
+      "bytes": 1688,
+      "sha256": "6f63ca622a3fffe30a20918823c789dd30543cddfdce8613d63705fa14e9888d"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/source_manifest.csv",
+      "bytes": 2841,
+      "sha256": "52053cc84a8a7cfd209330a9d39e3c68b3b4609b11d851f2c76a797427a453c2"
+    }
+  ]
+}
