@@ -1,0 +1,17 @@
+﻿row_id,query_object,route,result,status
+NS153_01,Certificación UAI Cuenta 2008 Anexo I SAF355,Economía/UAI/SIGEN/CGN,Modelo localizado; certificado ejecutado no localizado.,TARGET_CERT_I_NOT_LOCATED
+NS153_02,Certificación UAI Cuenta 2008 Anexo II SAF355,Economía/UAI/SIGEN/CGN,Modelo localizado; certificado o no aplicabilidad no localizado.,TARGET_CERT_II_NOT_LOCATED
+NS153_03,Certificación UAI Cuenta 2008 Anexo III/UEPEX,Economía/UAI/SIGEN/CGN,Modelo localizado; universo/no aplicabilidad target no localizado.,TARGET_CERT_III_NOT_LOCATED
+NS153_04,Certificación UAI Cuenta 2008 Anexo IV SAF355,Economía/UAI/SIGEN/CGN,Modelo localizado; certificado y anexo de formularios no localizados.,TARGET_CERT_IV_NOT_LOCATED
+NS153_05,Certificación UAI Cuenta 2008 Anexo V SAF355,Economía/UAI/SIGEN/CGN,Modelo localizado; ratificación/rectificación ejecutada no localizada.,TARGET_CERT_V_NOT_LOCATED
+NS153_06,Acuses UAI-SAF-CGN-SIGEN,Economía/SIGEN/CGN,Ruta normativa probada; acuses target no localizados.,TARGET_RECEIPTS_NOT_LOCATED
+NS153_07,Papeles de trabajo UAI,Economía/UAI,No localizados públicamente.,TARGET_WORKPAPERS_NOT_LOCATED
+NS153_08,Informe SIGEN Cuenta 2008 cuerpo/anexos,SIGEN,"Inventario identifica entidad, año y área; cuerpo no localizado.",GLOBAL_REPORT_BODY_NOT_LOCATED
+NS153_09,Número/carátula Informe SIGEN Cuenta 2008,SIGEN,No consignados en el inventario.,GLOBAL_REPORT_ID_NOT_LOCATED
+NS153_10,Supervisión SIGEN UAI Economía 2009,SIGEN,Universo probado; target no localizado.,SUPERVISION_TARGET_NOT_LOCATED
+NS153_11,Archivo público SIGEN 2009,SIGEN,La tabla pública actual expone sólo 2020-2026.,CURRENT_ARCHIVE_2009_NOT_EXPOSED
+NS153_12,Índice AGDFA para SAF355/Cuenta 2008,CGN,Capacidad/custodia probadas; ingreso target no localizado.,ARCHIVE_TARGET_INDEX_NOT_LOCATED
+NS153_13,Listado final Res.6 art.8 SAF355,CGN/SAF355,No localizado.,FINAL_LIST_NOT_LOCATED
+NS153_14,Conformidad/discrepancia SAF355,SAF355/CGN/UAI,No localizada.,TARGET_CONFORMITY_NOT_LOCATED
+NS153_15,Detalle AXT ONCP 30/06/2008,ONCP/CGN,Deber probado; archivo no localizado.,AXT_DETAIL_NOT_LOCATED
+NS153_16,Casillas param355/inconsis355 y planillas target,CGN/SAF355,Esquema probado; mensajes y filas no localizados.,TARGET_ROWS_NOT_LOCATED

@@ -1,0 +1,16 @@
+﻿query_id,sequence,system,filter_set,requested_output,success_test,fallback,status
+SQ142_01,1,SICHE · Formulario por Pda. Presupuestaria y Sigade,SAF355;2008;7.2.8;83106000;sin beneficiario,formulario;fecha;importe;beneficiario;observaciones,claves base,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_02,2,SICHE CUT · Entidades Básicas,SAF355;vigencia 2008;sin cuenta prefijada,banco;sucursal;cuenta;moneda;titular,cuenta histórica,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_03,3,SICHE CUT · Saldos por Tipo de Apertura,cuentas recuperadas;2008,cuenta operación;tipo;saldos,mapa CUT,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_04,4,SICHE CUT · Extractos,cuentas recuperadas;todo 2008,universo de movimientos,ruta bancaria,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_05,5,SICHE CUT · Logs de Impacto,mismo universo,evento;comprobante;importe;resultado,ruta de impacto,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_06,6,Cruce SIDIF/formulario/importe,"71597;152677;2876;32.270,30 y partes",candidatos concordantes,desagregar,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_07,7,Detalle de Extracto y Libro Banco,fecha;referencia;movimiento,códigos;cpte bancario;debe/haber;estado,probar impacto,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_08,8,Conciliación/Historial,movimientos candidatos,estado;causa;regularización,probar cierre,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_09,9,Pagos por SIGADE,83106000;comprobantes recuperados,PG/NPG/CMR-DP/TCE-RTCE o legacy,probar etapa,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_10,10,Expediente,S01:0342455/2008 o equivalente,OP y pagos asociados,contexto,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_11,11,AMIDDF,SAF355;tipo/número recuperado,índice;caja;cuerpo;folios,respaldo,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_12,12,RAIP Economía · auditoría de consulta,cada dataset/fallback,parámetros;diccionario;cobertura;filas;exclusiones,cero reproducible,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_13,13,SICHE CUT · catálogo histórico,vigencia 2008;cuentas de operación;códigos,código;descripción;grupo;regla;vigencia,resolver 230/AUTO o equivalentes,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_14,14,SICHE CUT · carril comisión,cuenta operación 230;AUTO/DBAUTO o equivalente;todo 2008,universo de débitos;referencia;formulario;estado,probar hipótesis C55,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ142_15,15,SICHE CUT · controles negativos,PAGO;PGTR;CRAUTO;rechazos;anulaciones;reversas,filas comparadoras y vínculos,descartar rutas alternativas,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT

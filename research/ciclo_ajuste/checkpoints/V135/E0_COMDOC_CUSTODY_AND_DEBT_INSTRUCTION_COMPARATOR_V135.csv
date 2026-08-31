@@ -1,0 +1,9 @@
+﻿row_id,control,requested_field,source_id,scope_status,target_use
+CC135_01,Registro COMDOC o seguimiento alternativo,número; estado; área depositaria,e0_minplan_resolution_1522_2006_comdoc_custody,CONTEMPORANEOUS_COMPARATOR,S01:0342455/2008 y anexos
+CC135_02,Dos remitos,emisor; receptor; firma; fecha,e0_minplan_resolution_1522_2006_comdoc_custody,CONTEMPORANEOUS_COMPARATOR,probar entrega y recepción
+CC135_03,Integridad material,cantidad de cuerpos; anexos; último folio,e0_minplan_resolution_1522_2006_comdoc_custody,CONTEMPORANEOUS_COMPARATOR,controlar contenido recibido
+CC135_04,Pérdida alegada,circular COMDOC; búsqueda intensiva; áreas consultadas; resultado,e0_minplan_resolution_1522_2006_comdoc_custody,CONTEMPORANEOUS_COMPARATOR,exigir trazabilidad de búsqueda
+CC135_05,Reconstrucción,copias certificadas; informe explicativo; acto de reconstrucción,e0_minplan_resolution_1522_2006_comdoc_custody,CONTEMPORANEOUS_COMPARATOR,evitar cerrar por mera ausencia
+CC135_06,Instrucción de deuda contemporánea,nota conjunta ONCP/TGN; firmantes; fecha; operación,e0_debt_joint_resolution_216_26_2008_instruction_chain,OTHER_DEBT_PROCEDURE_COMPARATOR,buscar documento funcionalmente análogo sin presumirlo
+CC135_07,Registro diario COMDOC,reporte diario; archivo; fecha; identificador,e0_debt_joint_resolution_216_26_2008_instruction_chain,OTHER_DEBT_PROCEDURE_COMPARATOR,formular búsqueda por sistema
+CC135_08,Aceptación y registro,validación; aceptación Caja; registro SIGADE; recibo/acreditación,e0_debt_joint_resolution_216_26_2008_instruction_chain,OTHER_DEBT_PROCEDURE_COMPARATOR,"mapear clases documentales, no adjudicar resultado"

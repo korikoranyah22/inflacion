@@ -1,0 +1,16 @@
+row_id,branch,necessary_record,success_condition,failure_or_next_branch,double_count_control,target_status
+DT150_01,C41,cuerpo C-41,"ID, cabecera y renglones exactos",buscar C42/C55,un pago por cadena bancaria,OPEN
+DT150_02,C41,historia,estado pagado/cancelado y sin reversa,buscar TGN/CUT,no contar emisión,OPEN
+DT150_03,C41,orden TGN,selección/remesa,buscar extracto,no contar selección,OPEN
+DT150_04,C41,extracto y conciliación,movimiento exacto conciliado,cierre sin ejecución,una fecha valor,OPEN
+DT150_05,C42,cuerpo C-42,tipo y números SAF/SIDIF,buscar C41/C55,no atribuir por siete dígitos,OPEN
+DT150_06,C42,TRANSAF y papel,coincidencia electrónica/papel,buscar archivo CGN,no contar transmisión,OPEN
+DT150_07,C42,aprobación CGN,remisión a TGN,buscar pago TGN,no contar aprobación,OPEN
+DT150_08,C42,extracto y conciliación,movimiento exacto conciliado,cierre sin ejecución,una sola cadena,OPEN
+DT150_09,C55,cuerpo C-55,regularización exacta enlazada,buscar documento original,no contar C42+C55 dos veces,OPEN
+DT150_10,C55,documento antecedente,C41/C42/otro identificado,buscar historia,regularización no es nuevo pago,OPEN
+DT150_11,C55,historia,estado y reversas,buscar TGN/CUT,no contar estado aislado,OPEN
+DT150_12,C55,extracto y conciliación,movimiento exacto conciliado,cierre sin ejecución,una sola cadena,OPEN
+DT150_13,ALL,71597/0071597,tipo probado por cuerpo,seguir rama real,no asignar por rango,OPEN
+DT150_14,ALL,152677/0152677,tipo probado por cuerpo,seguir rama real,no asignar por rango,OPEN
+DT150_15,ALL,2876/0002876,tipo probado por cuerpo,seguir rama real,no asignar por rango,OPEN

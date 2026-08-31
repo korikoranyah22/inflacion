@@ -1,0 +1,3 @@
+﻿script,pre_v156_result,post_v156_result,interpretation
+qa_v155.py,PASS,PASS_BASELINE,V155 íntegra; V156 agrega autoridad y esquema sin alterar 0/10.
+qa_v156.py,N/A,PASS,"Verifica cinco fuentes, matrices, controles y límites V156."

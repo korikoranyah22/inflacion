@@ -1,0 +1,3 @@
+﻿script,pre_v137_result,post_v137_result,interpretation
+qa_v136.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V136 queda supersedido por fuentes, conteos y corrección documental V137."
+qa_v137.py,N/A,PASS,"SAF355, índice AMIDDF, Ley 27.275, bifurcación bancaria, hashes y no envío verificados."

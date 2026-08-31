@@ -1,0 +1,3 @@
+﻿script,pre_v135_result,post_v135_result,interpretation
+qa_v134.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V134 queda supersedido por nuevas fuentes y conteos V135.
+qa_v135.py,N/A,PASS,"Alineación Anexo K, esquema P/R/A, archivos TGN/BCRA, comparadores, hashes y no ejecución verificados."

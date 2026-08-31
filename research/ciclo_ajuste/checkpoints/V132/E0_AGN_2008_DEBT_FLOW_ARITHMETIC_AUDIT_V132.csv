@@ -1,0 +1,7 @@
+audit_id,source_id,locator,item,published_value,unit,recomputed_value,residual,status,rule
+AF132_01,e0_agn_res_202_2009_act_41_2009_deuda,PDF_p9,Aumentos de instrumentos,21830,USD_million,N/A,N/A,PUBLISHED_COMPONENT,No asignar automáticamente a colocaciones o recompras particulares.
+AF132_02,e0_agn_res_202_2009_act_41_2009_deuda,PDF_p9,Disminuciones de instrumentos,20200,USD_million,N/A,N/A,PUBLISHED_COMPONENT,No identificar la disminución agregada con las recompras 2008.
+AF132_03,e0_agn_res_202_2009_act_41_2009_deuda,PDF_p9,Neto literal aumentos menos disminuciones,N/A,USD_million,1630,N/A,RECOMPUTED_LITERAL,Conservar la resta verificable sin corregir el original.
+AF132_04,e0_agn_res_202_2009_act_41_2009_deuda,PDF_pp9_11,Colocaciones netas publicadas,2399,USD_million,1630,769,INTERNAL_ARITHMETIC_TENSION,Pedir papel de trabajo; no elegir una cifra como corrección sin fuente.
+AF132_05,e0_agn_res_202_2009_act_41_2009_deuda,PDF_pp9_11,Brecha no explicada por la resta literal,N/A,USD_million,769,769,UNEXPLAINED_IN_PUBLIC_REPORT,"Puede ser omisión, clasificación o errata; no es por sí sola hallazgo de irregularidad."
+AF132_06,e0_agn_res_202_2009_act_41_2009_deuda,PDF_pp9_11,Variación total anual de deuda,1246,USD_million,N/A,N/A,AGGREGATE_WITH_VALUATION_COMPONENTS,"No usar para demostrar pago, beneficiario o cancelación de recompras."

@@ -1,0 +1,125 @@
+﻿control_id,source_id,printed_page,pdf_page,rendered_check,result,inference_limit
+PV151_01,e0_dgsiaf_slu_admin_local_manual_2007,3,4,administración local por SAF,PASS,control visual; no fila target
+PV151_02,e0_dgsiaf_slu_admin_local_manual_2007,22,23,Historia de usuario,PASS,control visual; no fila target
+PV151_03,e0_dgsiaf_slu_admin_local_manual_2007,32,33,Historia de rol/vigencia,PASS,control visual; no fila target
+PV151_04,e0_dgsiaf_slu_admin_local_manual_2007,89-90,90-91,llaves C55 y reversa,PASS,control visual; no fila target
+PV151_05,e0_dgsiaf_slu_admin_local_manual_2007,148,149,C55 débito directo,PASS,control visual; no fila target
+PV151_06,e0_dgsiaf_slu_admin_local_manual_2007,149,150,C55 diferencia de cambios,PASS,control visual; no fila target
+PV151_07,e0_dgsiaf_slu_admin_local_manual_2007,153-154,154-155,corrección/desautorización,PASS,control visual; no fila target
+PV151_08,e0_dgsiaf_slu_admin_local_manual_2007,163,164,importación restringida,PASS,control visual; no fila target
+PV151_09,e0_dgsiaf_slu_admin_local_manual_2007,165-167,166-168,commit/formato/error log,PASS,control visual; no fila target
+PV151_10,e0_dgsiaf_slu_admin_local_manual_2007,172,173,migración usuarios/roles,PASS,control visual; no fila target
+PV151_11,e0_cgn_joint_disposition_4_03_backup_recovery,2226,2140,UI/CGN y bases central/local,PASS,control visual; no fila target
+PV151_12,e0_cgn_joint_disposition_4_03_backup_recovery,2227,2141,obligación y responsable SAF,PASS,control visual; no fila target
+PV151_13,e0_cgn_joint_disposition_4_03_backup_recovery,2228-2229,2142-2143,"etiquetas, registro, logs/copias",PASS,control visual; no fila target
+PV151_14,e0_cgn_joint_disposition_4_03_backup_recovery,2230,2144,pruebas y retención perpetua,PASS,control visual; no fila target
+PV151_15,e0_cgn_joint_disposition_4_03_backup_recovery,2231,2145,recuperación mensual firmada,PASS,control visual; no fila target
+PV151_16,e0_cgn_joint_disposition_4_03_backup_recovery,2233-2235,2147-2149,soportes históricos/planilla,PASS,control visual; no fila target
+PV151_17,e0_mecon_uai_plan_2019_sigade_sidif_link,46,47,diagrama SIGADE→SIDIF-Link→SIDIF Central,PASS,Control visual; no fila target.
+PV151_18,e0_mecon_uai_report_13_2020_repo_commission,14,14,"cuenta y comisión REPO $0,61 millones",PASS,Control visual; no fila target.
+PV151_19,e0_mecon_uai_report_13_2020_repo_commission,15,15,continuación y alcance del informe,PASS,Control visual; no fila target.
+PV151_20,e0_cgn_chart_accounts_2018,23,23,definición 2.1.2.01.02.99.00,PASS,Control visual; no fila target.
+PV151_21,e0_dgsiaf_siche_deployment_2020_q1,10,10,"Gastos, Recursos, PEF y Pagos modelo 95",PASS,Control visual; no fila target.
+PV151_22,e0_dgsiaf_siche_cut_repository_2020_q2,9,9,CUT-SIDIF Central 2007-2014,PASS,Control visual; no fila target.
+PV151_23,e0_dgsiaf_siche_deployment_2020_q4,10,10,consultas especiales y conciliación bancaria,PASS,Control visual; no fila target.
+PV151_24,e0_dgsiaf_siche_deployment_2020_q4,11,11,SAF 355 reemplaza SIDIF-Link por e-SIDIF/SEPP,PASS,Control visual; no fila target.
+PV151_25,e0_agn_resolution_86_2021_public_debt_control,16,16,"escalera SIGADE, mayorizado, formularios, TGN, CRyL y mayores",PASS,Control visual de atribución/página; no confirma pago target.
+PV151_26,e0_agn_resolution_86_2021_public_debt_control,82,82,campos obligatorios y validación no aplicada,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_27,e0_agn_resolution_86_2021_public_debt_control,83,83,procedimientos omitidos y numeración Excel,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_28,e0_agn_report_65_2022_sigade_information_system,18,22,ciclo DADP y SIDIF-Link,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_29,e0_agn_report_65_2022_sigade_information_system,36,40,planillas compartidas y controles,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_30,e0_agn_report_65_2022_sigade_information_system,37,41,precisión decimal y adjuntos no utilizados,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_31,e0_agn_report_65_2022_sigade_information_system,38,42,rectificaciones fuera de SIGADE,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_32,e0_mecon_uai_report_24_2019_account_2018,5,5,Anexo L y divergencias SIGADE/e-SIDIF,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_33,e0_mecon_uai_report_24_2019_account_2018,6,6,acto de cierre y Anexos A-L,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_34,e0_mecon_uai_report_24_2019_account_2018,13,13,OTROS -563 y componentes 400/163,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_35,e0_mecon_uai_report_37_2023_account_2022,2,2,"límites SIGADE, planillas y carga manual",PASS,Control visual de atribución/página; no confirma pago target.
+PV151_36,e0_mecon_uai_report_37_2023_account_2022,3,3,regularización de pagos fuera de SIGADE,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_37,e0_mecon_uai_report_48_2023_saf355_closure,5,5,expedientes y actas de corte SAF 355,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_38,e0_mecon_uai_report_48_2023_saf355_closure,7,7,pagos holdout e-SIDIF ausentes de SIGADE,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_39,e0_cgn_cuenta_inversion_2008_sdp,67,67,Anexo K y fila 83106000 con tres SIDIF,PASS,Control visual de atribución/página; no confirma pago target.
+PV151_40,e0_cgn_account_2008_uepex_closing_exception,N/A,73,"listados parametrizados, consultas y regularización",PASS,Control de alcance; no confirma pago target.
+PV151_41,e0_cgn_account_2008_uepex_closing_exception,N/A,76,excepción SAF355/356 aplicada en 2008,PASS,Control de alcance; no confirma pago target.
+PV151_42,e0_mecon_uai_report_03_2022_saf355_closure_2021,2,2,integridad diferida e Informe Analítico referido,PASS,Control de alcance; no confirma pago target.
+PV151_43,e0_mecon_uai_report_51_2022_account_2021,2,2,alcance ejecutivo e Informe Analítico,PASS,Control de alcance; no confirma pago target.
+PV151_44,e0_mecon_uai_report_51_2022_account_2021,3,3,diferencias ONCP-CGN y pagos fuera de SIGADE,PASS,Control de alcance; no confirma pago target.
+PV151_45,e0_mecon_uai_report_06_2019_saf355_close_2018,3,4,"corte, actos y registros posteriores",PASS,Control visual de ruta; no confirma target 2008.
+PV151_46,e0_mecon_uai_report_06_2019_saf355_close_2018,4,5,"C-55, CRG y causas REPO",PASS,Control visual de ruta; no confirma target 2008.
+PV151_47,e0_mecon_uai_report_06_2019_saf355_close_2018,5,6,Anexo I tipo-interno-SIDIF,PASS,Control visual de ruta; no confirma target 2008.
+PV151_48,e0_mecon_uai_report_35_2019_saf355_change_close,4,4,base SIGADE reservada UAI,PASS,Control visual de ruta; no confirma target 2008.
+PV151_49,e0_mecon_uai_report_37_2019_tgn_change_close,3,3,"cuentas, saldos y conciliaciones",PASS,Control visual de ruta; no confirma target 2008.
+PV151_50,e0_mecon_uai_report_37_2019_tgn_change_close,4,4,"acta, nota, módulo y demora",PASS,Control visual de ruta; no confirma target 2008.
+PV151_51,e0_mecon_uai_report_37_2019_tgn_change_close,5,5,3855/19 y clases de pago,PASS,Control visual de ruta; no confirma target 2008.
+PV151_52,e0_mecon_uai_report_37_2019_tgn_change_close,6,6,salidas BCRA,PASS,Control visual de ruta; no confirma target 2008.
+PV151_53,e0_mecon_uai_report_02_2019_tgn_close_2018,4,4,metodología y saldos,PASS,Control visual de ruta; no confirma target 2008.
+PV151_54,e0_mecon_uai_report_02_2019_tgn_close_2018,5,5,3855/19 y reporte de pagos,PASS,Control visual de ruta; no confirma target 2008.
+PV151_55,e0_mecon_uai_report_02_2019_tgn_close_2018,6,6,partidas y notas SIGADE,PASS,Control visual de ruta; no confirma target 2008.
+PV151_56,e0_mecon_uai_report_02_2019_tgn_close_2018,7,7,"saldo SIDIF, banco y tránsitos",PASS,Control visual de ruta; no confirma target 2008.
+PV151_NEW_01,e0_cgn_account_2008_uepex_closing_exception,72,72,contraste SAF/DADP en SIDIF,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_02,e0_cgn_account_2008_uepex_closing_exception,73,73,listados y consultas específicas; regularización UAI,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_03,e0_cgn_account_2008_uepex_closing_exception,74,74,continuación de análisis y cuadros,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_04,e0_cgn_account_2008_uepex_closing_exception,76,76,excepción SAF355/356 y ajuste CGN,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_05,e0_cgn_circular_2_2021_uai_closing,1,1,condición de certificación UAI,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_06,e0_sigen_instruction_1_2021_account_certification,1,1,identificador y objeto del instructivo,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_07,e0_sigen_instruction_1_2021_account_certification,2,2,lineamientos de certificación,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_08,e0_sigen_instruction_1_2021_account_certification,3,3,continuación y cierre,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_09,e0_sigen_instruction_1_2021_annex_i_bank_movements,1,1,"registros, extractos y arqueo",PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_10,e0_sigen_instruction_1_2021_annex_iv_execution_forms,1,1,universo C41/C42/C55 y tres fuentes,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_11,e0_dgsiaf_transaf_user_guide_2022,9,9,envío de lote desde SAF,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_12,e0_dgsiaf_transaf_user_guide_2022,12,12,confirmación o error de envío,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_13,e0_dgsiaf_transaf_user_guide_2022,13,13,validaciones modernas de archivo,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_14,e0_dgsiaf_transaf_user_guide_2022,14,14,continuación validaciones modernas,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_15,e0_dgsiaf_transaf_user_guide_2022,15,15,recepción desde SIDIF Central,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_16,e0_dgsiaf_transaf_user_guide_2022,17,17,campos de recepción y error,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_17,e0_dgsiaf_transaf_user_guide_2022,18,18,historia por fecha/lote,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_18,e0_dgsiaf_transaf_user_guide_2022,19,19,límite visible de 30 días,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_19,e0_cgn_sigen_instruction_account_2009,1,1,instructivo y fechas,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_20,e0_cgn_sigen_instruction_account_2009,2,2,Anexo I Caja y Bancos,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_21,e0_cgn_sigen_instruction_account_2009,3,3,cierre Anexo I,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_22,e0_cgn_sigen_instruction_account_2009,4,4,Anexo II Fondo Rotatorio,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_23,e0_cgn_sigen_instruction_account_2009,5,5,cierre Anexo II,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_24,e0_cgn_sigen_instruction_account_2009,6,6,Anexo III UEPEX y listado central,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_25,e0_cgn_sigen_instruction_account_2009,7,7,cierre Anexo III,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_26,e0_cgn_sigen_instruction_account_2009,8,8,Anexo IV C41/C42/C55,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_27,e0_cgn_sigen_instruction_account_2009,9,9,cierre Anexo IV,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_28,e0_cgn_sigen_instruction_account_2009,10,10,Anexo V rectificación de remanente,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV151_NEW_29,e0_cgn_sigen_instruction_account_2009,11,11,cierre Anexo V,PASS,control visual; comparador o fuente contextual; no cuerpo ni pago target
+PV152_086,e0_enre_annual_2009_uai_account_2008_certifications,158,162,Informe UAI 04 e Instructivo 1/2009,PASS,comparador ENRE; no SAF355
+PV152_087,e0_enre_annual_2009_uai_account_2008_certifications,159,163,Notas 84.749/86.232; Instructivo 02/2008 Anexos II/IV/V,PASS,existencia/ejecución comparadora; no cuerpo target
+PV152_088,e0_enre_annual_2009_uai_account_2008_certifications,160,164,continuidad registro UAI,PASS,contexto
+PV152_089,e0_sigen_memory_2009_account_2008_global_control_report,5,5,124 evaluaciones control interno,PASS,universo global
+PV152_090,e0_sigen_memory_2009_account_2008_global_control_report,6,6,instrucciones UAI e Informe Cuenta 2008,PASS,global; no target
+PV152_091,e0_sigen_memory_2009_account_2008_global_control_report,7,7,supervisión UAI,PASS,ruta; no validación target
+PV152_092,e0_cgn_disposition_35_2002_parameterized_inconsistency_procedure,1,1,planilla SAF/OD: N° SIDIF y N° SAF,PASS,esquema vacío
+PV152_093,e0_cgn_disposition_35_2002_parameterized_inconsistency_procedure,2,2,objetivo e instrucciones Anexo I,PASS,procedimiento
+PV152_094,e0_cgn_disposition_35_2002_parameterized_inconsistency_procedure,3,3,campos y modificación presupuestaria Anexo I,PASS,no ejecución bancaria
+PV152_095,e0_cgn_disposition_35_2002_parameterized_inconsistency_procedure,1,1,planilla UEPEX Anexo II,PASS,comparador UEPEX
+PV152_096,e0_cgn_disposition_35_2002_parameterized_inconsistency_procedure,2,2,objetivo e instrucciones UEPEX,PASS,comparador
+PV152_097,e0_cgn_disposition_35_2002_parameterized_inconsistency_procedure,3,3,campos SIDIF/SAF UEPEX,PASS,esquema vacío
+PV152_098,e0_cgn_disposition_35_2002_parameterized_inconsistency_procedure,4,4,campos ONP y acto UEPEX,PASS,regularización no evento
+PV153_099,e0_sigen_instruction_2_2008_account_2008_certification,1,1,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_100,e0_sigen_instruction_2_2008_account_2008_certification,2,2,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_101,e0_sigen_instruction_2_2008_account_2008_certification,3,3,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_102,e0_sigen_instruction_2_2008_account_2008_certification,4,4,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_103,e0_sigen_instruction_2_2008_account_2008_certification,5,5,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_104,e0_sigen_instruction_2_2008_account_2008_certification,6,6,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_105,e0_sigen_instruction_2_2008_account_2008_certification,7,7,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_106,e0_sigen_instruction_2_2008_account_2008_certification,8,8,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_107,e0_sigen_instruction_2_2008_account_2008_certification,9,9,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_108,e0_sigen_instruction_2_2008_account_2008_certification,10,10,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_109,e0_sigen_instruction_2_2008_account_2008_certification,11,11,"cuerpo, anexos y modelo de certificación",PASS,modelo/procedimiento; no certificado SAF355
+PV153_110,e0_sigen_white_book_2012_account_2008_report_inventory,XVIII,52,"inventario de informes, contexto previo",PASS,inventario; no cuerpo
+PV153_111,e0_sigen_white_book_2012_account_2008_report_inventory,XIX,53,continuidad del inventario,PASS,contexto
+PV153_112,e0_sigen_white_book_2012_account_2008_report_inventory,XX,54,"fila Ministerio Economía, 2009, GSEPyPF, Cuenta 2008",PASS,"no número, cuerpo ni SAF355"
+PV154_113,e0_sigen_if_2020_annex_a_bank_certification_comparator,1,1,"objeto, remisión, expediente y fuentes",PASS,SAF109/2019; no target
+PV154_114,e0_sigen_if_2020_annex_a_bank_certification_comparator,2,2,"certificación, SAF, firma y fecha",PASS,agregado; no movimiento individual
+PV154_115,bundle_sigen_if_2020_09438552_annex_c_certification,1,1,"Fondo Rotatorio, remisión y fuentes",PASS,control negativo; no deuda
+PV154_116,bundle_sigen_if_2020_09438552_annex_c_certification,2,2,"certificación, SAF, firma y fecha",PASS,no prueba pago
+PV154_117,e0_sigen_if_2020_remainder_certification_cross_reference_comparator,1,1,"objeto, adelanto y expediente/orden",PASS,remanente; no pago
+PV154_118,e0_sigen_if_2020_remainder_certification_cross_reference_comparator,2,2,"referencias, monto y firma",PASS,SAF109/2019
+PV154_119,e0_sigen_if_2020_account_control_audit_comparator,1,1,"introducción, objeto y alcance",PASS,auditoría posterior
+PV154_120,e0_sigen_if_2020_account_control_audit_comparator,2,2,"procedimientos, marco y conclusión",PASS,selectivo; no exhaustividad
+PV154_121,e0_sigen_if_2020_account_control_audit_comparator,3,3,"anexos embebidos, firma y cierre",PASS,referencia no preserva embebidos
+PV155_01,e0_cgn_account_2009_uepex_2008_note_sisio_chain,77,77,"Nota 0120/09, respuesta 3672/09 e instrucción SISIO",PASS,Referencia oficial; no cuerpo autónomo ni SAF355
+PV155_02,e0_cgn_account_2009_uepex_2008_note_sisio_chain,78,78,"seguimiento UAI, cotejo SIDIF-DADP, consultas y regularización certificada",PASS,Procedimiento UEPEX; no fila bancaria target
+PV155_03,e0_cgn_account_2009_uepex_2008_note_sisio_chain,79,79,barrera de acceso SIGADE y quiebre de valuación,PASS,No prueba inexistencia SIGADE ni recompra doméstica

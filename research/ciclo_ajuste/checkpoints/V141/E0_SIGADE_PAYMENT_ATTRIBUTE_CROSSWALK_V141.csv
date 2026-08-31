@@ -1,0 +1,11 @@
+row_id,record,proved_sigade_scope,target_use,required_link,status,source_id,locator
+PX140_01,EPP,atributo SIGADE en detalle de ítems,escenario/programación,SIGADE83106000→OP/Pago,CURRENT_SCHEMA_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_02,PG,atributo SIGADE en detalle de ítems,pago,PG→medio→beneficiario→importe,CURRENT_SCHEMA_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_03,NPG,atributo SIGADE en detalle de ítems,nota de pago,NPG→OP/PG→cuentas,CURRENT_SCHEMA_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_04,CMR-DP,atributo SIGADE en anulación/rechazo bancario,estado reversado/rechazado,comprobante origen→motivo→fecha,CURRENT_SCHEMA_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_05,TCE/RTCE,atributo SIGADE,transferencia entre cuentas escriturales,cuenta origen/destino→importe,CURRENT_SCHEMA_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_06,Consultas y reportes de Pagos,ajuste de visibilidad SIGADE,salida filtrable,exportación por SIGADE,CURRENT_SCHEMA_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_07,Solicitud de Pagos por web service,recepción con atributo SIGADE,control de interoperabilidad,solicitud→pago,CURRENT_SCHEMA_PROVED_NOT_TARGET_ROUTE,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_08,Reporte Variable Resumen de Pagos,"beneficiario, carácter, fuente de cuenta y emisor distinto",control de beneficiario real,emisor/beneficiario/cuenta,CURRENT_FILTER_SCHEMA_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_09,Modelo de Medios de Pago,marca de medio originado en confirmación o generado después,separar confirmación de regularización posterior,marca temporal→medio→PG,CURRENT_PHASE_DISCRIMINATOR_PROVED_LEGACY_MIGRATION_OPEN,e0_dgsiaf_esidif_line33_sigade_payments_2020,PDF p.4
+PX140_10,Consulta devengado/pagado por expediente,retorna OP y pagos asociados por ejercicio/tipo/número,cerrar expediente→OP→pago si existe cruce,S01:0342455/2008 o identificador migrado,CURRENT_LOGICAL_LINK_PROVED_LEGACY_TARGET_OPEN,e0_dgsiaf_execution_webservice_current,página oficial

@@ -1,0 +1,19 @@
+﻿row_id,object_id,custodian,exact_record,period,minimum_fields,closure_rule,status
+RO152_01,INSTR_02,SIGEN,Instructivo SGN 02/2008 íntegro,2008,texto; anexos; versiones; fecha; firma; distribución,"Individualizar archivo, inventario y disposición si no se encuentra.",DRAFT_NOT_SENT
+RO152_02,INSTR_02_ANNEXES,SIGEN,Todos los anexos del Instructivo 02/2008,2008,número; título; versión; páginas; hash,No responder sólo con el cuerpo principal.,DRAFT_NOT_SENT
+RO152_03,UAI_CERT_IV,UAI Economía/SAF355,Certificación Cuenta 2008 Anexo IV,2008-2009,nota; certificado; universo; hallazgos; firma; adjuntos,Incluir reemplazos y rectificaciones.,DRAFT_NOT_SENT
+RO152_04,UAI_CERT_V,UAI Economía/SAF355,Certificación Cuenta 2008 Anexo V,2008-2009,nota; certificado; universo; ajustes; firma; adjuntos,Incluir soportes de diferencias.,DRAFT_NOT_SENT
+RO152_05,UAI_ALL_CERTS,UAI Economía/SAF355,Todas las certificaciones bajo Instructivo 02/2008,2008-2009,anexo; número; fecha; firmante; resultado,Enumerar anexos sin observaciones.,DRAFT_NOT_SENT
+RO152_06,UAI_DISPATCH,UAI/SAF355/CGN,"Registro de salida, entrada y acuses",2008-2009,número; fecha/hora; remitente; receptor; adjuntos,Ofrecer metadatos testados.,DRAFT_NOT_SENT
+RO152_07,UAI_WORKPAPERS,UAI Economía,Papeles de trabajo de certificación,2008-2009,universo; muestra; pruebas; excepciones; conclusión,Individualizar legajo/caja/sistema.,DRAFT_NOT_SENT
+RO152_08,UAI_AUDIT_1_2009,UAI Economía/SIGEN,Informe bajo Instructivo 1/2009 GNyPE,2009,informe; observaciones; plan; seguimiento,Buscar equivalente al ENRE 04 sin trasponer ID.,DRAFT_NOT_SENT
+RO152_09,SIGEN_GLOBAL,SIGEN,Informe de la Cuenta de Inversión 2008,2008-2009,cuerpo; anexos; base; universo; metodología; conclusiones,No basta Memoria 2009.,DRAFT_NOT_SENT
+RO152_10,SIGEN_SUPERVISION,SIGEN,Supervisión UAI Ministerio Economía,2009,informe; plan; observaciones; seguimiento,Individualizar dentro del universo.,DRAFT_NOT_SENT
+RO152_11,FINAL_LISTS,CGN/SAF355,Listados definitivos SIDIF art.8,31/12/2008,archivo; parámetros; columnas; filas; fecha; destinatario,Cero debe documentar universo y consulta.,DRAFT_NOT_SENT
+RO152_12,CONFORMITY,SAF355/CGN,Conformidad o discrepancia del cierre,2008-2009,nota; firma; fecha; listado; diferencias; adjuntos,Incluir avisos a SIGEN/UAI.,DRAFT_NOT_SENT
+RO152_13,ADJUSTMENTS,SAF355/CGN,Formularios de ajuste y notas,2008-2009,tipo; N° SIDIF; N° SAF; importe; estado; soporte,No contar evento adicional sin conciliación.,DRAFT_NOT_SENT
+RO152_14,ARCHIVE_INDEX,SAF355/UAI,Índice de originales art.22,2008-2009,serie; legajo; caja; folio; productor; transferencia,Identificar destino/fecha.,DRAFT_NOT_SENT
+RO152_15,AXT_DETAIL,ONCP/CGN,Detalle AXT al 30/06/2008,2008-06-30,cuenta; operación; saldo; explicación; razón extrapresupuestaria,Cruzar con 31/12 y banco.,DRAFT_NOT_SENT
+RO152_16,AXT_CONFORMITY,ONCP/CGN,Saldos finales y conformidad art.2-3,2008-06,archivo; versión; nota; ajustes; firmante,Respetar excepción SAF355 art.4.,DRAFT_NOT_SENT
+RO152_17,PARAM_EMAIL,CGN/SAF355,Mensajes/archivos param355 e inconsis355,2008,cabeceras; adjuntos; timestamp; acuse; respuesta,Buscar backups y soporte magnético.,DRAFT_NOT_SENT
+RO152_18,INCONSISTENCY_SHEETS,CGN/SAF355,Planillas Anexo I,2008-2009,SAF; anexo; fuente; imputación; tipo; N° SIDIF/SAF; firma,Filtrar IDs target y cero reproducible.,DRAFT_NOT_SENT

@@ -1,0 +1,4 @@
+﻿control_id,artifact,visual_finding,scope_limit,result
+IV154_01,cgn_disposition_52_1996_c42_form_page1.jpg,"Número SIDIF, beneficiario, banco/cuenta, SIGADE, respaldo, AXT, importe, concepto y firmas.",Formulario modelo; no cuerpo target.,PASS
+IV154_02,cgn_disposition_52_1996_c42_form_page2.jpg,"Recibo, identidad, firma y fecha.",Segunda página modelo; no recibo target.,PASS
+IV154_03,cgn_disposition_52_1996_c42_procedure_flow.jpg,Flujo SAF–procesamiento CGN–aprobación–TGN.,Diagrama normativo; no ejecución target.,PASS

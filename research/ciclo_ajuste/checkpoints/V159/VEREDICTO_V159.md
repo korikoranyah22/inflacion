@@ -1,0 +1,3 @@
+# Veredicto V159
+
+V159 estrecha la búsqueda sin cerrar indebidamente la identidad institucional. GSEPFyE tiene expansión oficial en 2003-2004, pero no existe todavía un puente contemporáneo hacia GSEyP de la Nota 3672/09. Las 145 UAI de 2006 no resuelven 120/160: unidad, proyecto e informe son magnitudes distintas y el año target requiere inventario y regla de conteo. El Acta ERAS 09/2010 fortalece la ruta del receptor porque vincula Nota 4712/2010-GSEPYPF, informe 2009, Expediente 1085-10 y pases internos, sin demostrar el desenlace ni el target Economía. La excepción SAF355 sigue siendo de producto/ruta, no de registración ni de prueba bancaria. Resultado 0/10; SAF355 0/5; seis borradores no enviados.

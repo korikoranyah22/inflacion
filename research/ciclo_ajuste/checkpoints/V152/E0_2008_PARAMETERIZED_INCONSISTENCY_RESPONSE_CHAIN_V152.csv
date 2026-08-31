@@ -1,0 +1,21 @@
+﻿row_id,object,finding,authority,status
+PI152_01,MONTHLY_SEND,CGN remitía listados parametrizados dentro de tres días hábiles.,Disp.35 art.6,PROCEDURE_PROVED
+PI152_02,TEXT_FORMAT,"Archivos en texto reutilizable en planilla, Access o Fox.",Disp.35 art.6,RECOVERABLE_FORMAT
+PI152_03,EMAIL_FAILURE,Ante falla debía pedirse soporte magnético temporal.,Disp.35 art.6,ALTERNATE_MEDIA
+PI152_04,CONFORMITY_72H,SAF debía conformar o discrepar en 72 horas.,Disp.35 art.6,DEADLINE
+PI152_05,SIGNED_NOTE,Discrepancia exigía nota explicativa del titular SAF.,Disp.35 art.6,SIGNED_RECORD
+PI152_06,ADJUSTMENT_FORMS,Debían acompañarse formularios de ajuste.,Disp.35 art.6,ADJUSTMENT_RECORD
+PI152_07,INCONSISTENCY_7D,Regularización y respuesta: siete días hábiles.,Disp.35 art.6,DEADLINE
+PI152_08,ENTRY_DESK,Respuesta papel ingresaba por Mesa de Entradas CGN.,Disp.35 art.6,RECEIPT_ROUTE
+PI152_09,PARAM_ADDRESS,Conformidad/consultas usaban casilla param CGN.,Disp.35 art.6,COMMUNICATION_ROUTE
+PI152_10,SAF_PARAM_ADDRESS,Cada SAF debía abrir casilla param+código.,Disp.35 art.7,TARGET_MAILBOX_PATTERN
+PI152_11,SAF_INCONSIS_ADDRESS,Cada SAF debía abrir casilla inconsis+código.,Disp.35 art.7,TARGET_MAILBOX_PATTERN
+PI152_12,TRANSMISSION_RECEIPT,Comunicación recibida desde transmisión CGN.,Disp.35 art.7,RECEIPT_RULE
+PI152_13,MIDMONTH,CGN enviaba acumulado el día 19 o hábil siguiente.,Disp.35 art.8,ADDITIONAL_OUTPUT
+PI152_14,MONTH_END,CGN enviaba anexo acumulado al último hábil.,Disp.35 art.8,ADDITIONAL_OUTPUT
+PI152_15,GENERAL_FORM,"Anexo I exige SAF, inconsistencia, fuente, imputación, formulario, N° SIDIF, N° SAF, observaciones y firma.",Anexo I pp.1-3,EXACT_SCHEMA
+PI152_16,UEPEX_FORM,Anexo II replica campos y agrega clasificación programática.,Anexo II pp.1-4,COMPARATOR_SCHEMA
+PI152_17,BUDGET_MOD,"Modificación: informe ONP, tipo/número de acto y estado.",Anexos I-II,EXACT_SCHEMA
+PI152_18,2004_CONTINUITY,"Reglas 2004 reiteran texto, casilla param y 72 horas.",CGN reglas 2004 sec.VII,CONTINUITY_COMPARATOR
+PI152_19,2006_CONTINUITY,Disp.31/2006 confirma listados locales aplicables al período.,e0_cgn_disposition_31_2006_parameterized_reports,TARGET_PERIOD_AUTHORITY
+PI152_20,2008_CLOSE,"Res.6/2008 exige conciliar listados finales, local, SIDIF y parametrizados.",Res.6 art.8,TARGET_YEAR_LINK

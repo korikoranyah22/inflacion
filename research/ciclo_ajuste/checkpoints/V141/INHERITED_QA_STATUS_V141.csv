@@ -1,0 +1,3 @@
+﻿script,pre_v141_result,post_v141_result,interpretation
+qa_v140.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V140 queda supersedida por la ruta histórica CUT, campos de extracto y Auditor V141."
+qa_v141.py,N/A,PASS,"Fuentes, hashes, alcance temporal, límites, trazabilidad y no envío verificados."

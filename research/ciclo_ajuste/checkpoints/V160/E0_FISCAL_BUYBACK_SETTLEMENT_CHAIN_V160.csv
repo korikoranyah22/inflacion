@@ -1,0 +1,11 @@
+step,timing,actor,action,account_or_system,evidence_status,source_id,source_locator,interpretation
+1,PRE_T,Other_investor_or_participant,Route firm offer through an eligible participant,MAE communications system,NORMATIVE_ROUTE,e0_argentina_rc_212_24_2008_recompra,Annex_1.4_1.6,Published participant can be intermediary; it is not automatically the ultimate holder.
+2,T,ONCP,Open order and prepare pre-award by participant,MAE/ONCP,NORMATIVE_ROUTE,e0_argentina_rc_212_24_2008_recompra,Annex_1.7_1.8,"Pre-award is an administrative phase, not settlement."
+3,T,Secretaria_de_Finanzas,Set cutoff and conform award,Multiple-price or Dutch auction,NORMATIVE_ROUTE_PLUS_PUBLISHED_RESULTS,e0_argentina_rc_212_24_2008_recompra,Annex_1.9_1.11,Awards below cutoff are full; cutoff may be prorated.
+4,T,ONCP,Notify awards and titles to be received,MAE and Caja de Valores,NORMATIVE_ROUTE,e0_argentina_rc_212_24_2008_recompra,Annex_1.12,The notice initiates settlement but does not confirm it.
+5,T_TO_T_PLUS_2_EXACT_DATES_IN_CALLS,Awarded_participant,Transfer awarded securities from its depositor account,Caja_de_Valores_depositante_0306_comitente_40000,NORMATIVE_ROUTE_PLUS_FOUR_NUMBERED_CALLS_ACTUAL_TRANSFER_FILES_OPEN,e0_argentina_rc_212_24_2008_recompra;e0_argentina_llamado_recompra_2008_08_27;e0_argentina_llamado_recompra_2008_09_03;e0_argentina_llamado_recompra_2008_09_10;e0_argentina_llamado_recompra_2008_10_01,Annex_2.1_2.2;call_PDF_p2,La cuenta fiduciaria y cuatro vencimientos T+2 son exactos; las confirmaciones de transferencia siguen ausentes.
+6,T_PLUS_3_10AM,Caja_de_Valores,Confirm transfers received,Report to Secretaria de Finanzas,NORMATIVE_ROUTE_ACTUAL_CONFIRMATION_OPEN,e0_argentina_rc_212_24_2008_recompra,Annex_2.3,This missing confirmation is the documentary bridge from award to delivered title.
+7,T_PLUS_3_2008_09_02_09_09_09_16_10_07,Secretaria_de_Finanzas,Pay based on Caja confirmations,Participant_current_accounts_at_BCRA,NORMATIVE_ROUTE_PLUS_FOUR_NUMBERED_CALLS_ACTUAL_PAYMENT_OPEN,e0_argentina_rc_212_24_2008_recompra;e0_argentina_llamado_recompra_2008_08_27;e0_argentina_llamado_recompra_2008_09_03;e0_argentina_llamado_recompra_2008_09_10;e0_argentina_llamado_recompra_2008_10_01,Annex_2.4_2.5;call_PDF_p2,Los cuatro días previstos y la vía BCRA son exactos; falta evidencia bancaria post-liquidación.
+
+
+

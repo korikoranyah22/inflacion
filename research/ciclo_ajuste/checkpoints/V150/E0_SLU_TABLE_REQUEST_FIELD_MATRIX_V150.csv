@@ -1,0 +1,13 @@
+request_id,table_name,requested_fields,filters,fallback,status
+TF144_01,BCUENTA,banco;sucursal;cuenta;descripción;tipo;moneda;titular;marcas bancaria/escritural/pagadora/recaudadora;fecha baja;estado,SAF355;vigencia o snapshot 2008,diccionario DDL + exportación disociada,DRAFT_NOT_SENT
+TF144_02,ACTA_FUE,banco;sucursal;cuenta;fuente;fecha baja;estado,cuentas recuperadas;2008,snapshot o backup,DRAFT_NOT_SENT
+TF144_03,ACTABAN_CTAESC,cuenta bancaria;cuenta escritural;vigencia;fecha baja;estado,cuentas recuperadas;2008,snapshot o backup,DRAFT_NOT_SENT
+TF144_04,BGRUPMOVBCO,grupo;descripción;fecha baja;estado,todos los grupos vigentes/usados en 2008,catálogo histórico,DRAFT_NOT_SENT
+TF144_05,BMOVBCO,grupo;código interno;descripción completa;débito/crédito;fecha baja;estado,todo universo;2008,dump + diccionario,DRAFT_NOT_SENT
+TF144_06,BMOVEXTERNO,banco;código externo;descripción;contracódigo;movimiento interno;grupo;automático/manual;fecha baja;estado,BNA;todo 2008,dump + archivos de carga bancaria,DRAFT_NOT_SENT
+TF144_07,AMOV_FORG,banco;cuenta;subcuenta;movimiento;partida presupuestaria/extrapresupuestaria;fecha baja;estado,SAF355;BNA;todo 2008,backup/snapshot y Consulta de Bajas,DRAFT_NOT_SENT
+TF144_08,ACLB_MOB,movimiento extracto;código Libro Banco;fecha baja;estado,códigos candidatos;2008,snapshot y relaciones usadas,DRAFT_NOT_SENT
+TF144_09,BCODLIBBCO,código;descripción;descripción completa;débito/crédito;permite conciliación parcial;fecha baja;estado,todos los códigos usados 2008,catálogo y Consulta de Bajas,DRAFT_NOT_SENT
+TF144_10,BEMPRESA,banco;empresa/grupo;cuentas incluidas;vigencia;fecha baja;estado,BNA;SAF355;2008,archivo de configuración de extractos,DRAFT_NOT_SENT
+TF144_11,BERROR_AUD;BPROCESO,código;descripción;proceso/error;fecha baja;estado,códigos observados en logs 2008,diccionario de auditor,DRAFT_NOT_SENT
+TF144_12,METADATOS/RESPALDOS,servidor;instancia;esquema;versión SLU;fecha backup;retención;custodio;hash;script migración,2006-2009;SAF355;órganos rectores,inventario documental y acta de inexistencia fundada,DRAFT_NOT_SENT

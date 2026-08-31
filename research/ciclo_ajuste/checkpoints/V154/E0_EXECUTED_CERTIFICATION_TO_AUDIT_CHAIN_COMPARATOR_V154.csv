@@ -1,0 +1,29 @@
+﻿row_id,object_code,document,fact,exact_value,probative_use,limit,status
+EC154_01,A_OBJECT,Anexo A,Caja y Bancos,Movimientos y saldo según extracto,Certificación específica,No individualiza pago target,COMPARATOR
+EC154_02,A_SAF,Anexo A,SAF 109,Ejercicio 2019,Delimita productor y período,No es SAF355/2008,SCOPE_LIMIT
+EC154_03,A_REPORT,Anexo A,Informe 007/2020-UAI,Número interno,Clave archivística,No es número público,IDENTIFIER
+EC154_04,A_IF,Anexo A,IF-2020-09433026,Documento firmado,Clave documental,GDE no retroactivo,IDENTIFIER
+EC154_05,A_EXP,Anexo A,EX-2019-113610848,Expediente,Contenedor,No prueba recepción CGN,IDENTIFIER
+EC154_06,A_REMIT,Anexo A,IF-2020-08168211,Remisión a UAI,Vincula productor-UAI,Falta acuse CGN,ROUTE
+EC154_07,A_ACC,Anexo A,Registros contables,Fuente 1,Base interna,Requiere archivo/consulta,SOURCE
+EC154_08,A_BANK,Anexo A,Extractos bancarios,Fuente 2,Contraste externo,Mención no es extracto target,SOURCE
+EC154_09,A_BANK_CERT,Anexo A,Certificaciones de saldo,Fuente 3,Contraste de saldo,Saldo no es transacción,SOURCE
+EC154_10,A_MECON,Anexo A,Extractos ministeriales,Fuente 4,Contraste administrativo,Pedir versión exacta,SOURCE
+EC154_11,C_OBJECT,Anexo C,Fondo Rotatorio FF11,Certificación específica,Control de cierre,No es deuda target,NEGATIVE_CONTROL
+EC154_12,C_IF,Anexo C,IF-2020-09438552,Informe 04/2020-UAI,Referencia cruzable,Bundle-only,IDENTIFIER
+EC154_13,R_OBJECT,Remanente,FF11 31/12/2019,Adelanto de auditoría,Secuencia explícita,No es pago,COMPARATOR
+EC154_14,R_EXP,Remanente,EX-2020-29170634 orden 4,Contenedor,Búsqueda reproducible,No identifica legajo 2009,CONTAINER
+EC154_15,R_PRIOR,Remanente,IF-2020-09438552,"$426.854,88",Cita certificado y monto,Referencia no sustituye cuerpo,CROSS_REFERENCE
+EC154_16,R_MHA,Remanente,IF-2020-26720406,Cálculo ministerial,Cita fuente,Requiere recuperación,CROSS_REFERENCE
+EC154_17,R_RESULT,Remanente,"$4.515.346,78",Remanente certificado,Monto exacto,No trasladar al target,AMOUNT
+EC154_18,AUD_OBJECT,Auditoría integral,Cuenta 2019 SAF109,Informe 019/2020,Cierra familia moderna,No es informe 2009,COMPARATOR
+EC154_19,AUD_SURVEY,Auditoría integral,Relevamiento de fuentes,Procedimiento 1,Control metodológico,No aporta filas target,AUDIT_PROCEDURE
+EC154_20,AUD_SYSTEMS,Auditoría integral,Revisión selectiva,Procedimiento 2,Confiabilidad/integridad,Selectivo,AUDIT_PROCEDURE
+EC154_21,AUD_TX,Auditoría integral,Cotejo transacción-respaldo,Procedimiento 3,Puente transacción-documento,No prueba universo,AUDIT_PROCEDURE
+EC154_22,AUD_TABLES,Auditoría integral,Concordancia cuadros-registros,Procedimiento 4,Puente contable,No prueba banco,AUDIT_PROCEDURE
+EC154_23,AUD_CGN,Auditoría integral,Envío oportuno CGN,Procedimiento 5,Ruta de recepción,No contiene acuse,AUDIT_PROCEDURE
+EC154_24,AUD_CONCLUSION,Auditoría integral,Calidad documental suficiente,Conclusión,Conclusión institucional,No equivale a pago,CONCLUSION_LIMIT
+EC154_25,AUD_ATTACH,Auditoría integral,Anexos A B C embebidos,Adjuntos,Mapa de familia,Cuerpos no recuperados,ATTACHMENT_LIMIT
+EC154_26,SEQUENCE,Familia,certificados-remanente-auditoría,Secuencia,Orienta búsqueda,No imponer calendario 2009,METHOD
+EC154_27,TARGET_CERT,SAF355,Anexos I-V ejecutados,Pendiente,Pedir cuerpo y fuentes,0/5 localizados,TARGET_OPEN
+EC154_28,TARGET_PAYMENT,SAF355,C41/C42/C55+banco+reversas,Pendiente,Conciliación individual,0 filas ejecutadas,TARGET_OPEN

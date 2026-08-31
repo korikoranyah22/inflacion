@@ -1,0 +1,13 @@
+﻿row_id,period,archive_event,documented_action,request_object,probative_value,limit,status
+AR157_01,2007,Archivo Digital,Implementación del aplicativo y digitalización histórica,Inventario de series digitalizadas,Prueba capacidad pre-target,No cuerpo target,ARCHIVE_CAPABILITY
+AR157_02,2008 plan,Archivo Digital,Continuar digitalización del archivo general,"Plan, órdenes y lotes",Prueba programa vigente,Plan no ejecución,ARCHIVE_PROGRAM
+AR157_03,2008 memoria,Archivo Digital,Avance en conformación del archivo,"Índice, lotes, imágenes y metadatos",Prueba ejecución general,No identifica notas,ARCHIVE_EXECUTION
+AR157_04,2008 memoria,Archivos móviles,Convocatoria para mejorar archivo SIGEN,"Expediente, pliego y ubicación",Prueba gestión física paralela,No caja target,PHYSICAL_ARCHIVE
+AR157_05,2009 memoria,Archivo Digital,"Continuidad en Mesa de Entradas, Salidas y Archivo",Índice y registro de documentos,Identifica unidad custodia,No prueba ingreso target,ARCHIVE_EXECUTION
+AR157_06,2009 memoria,Archivo general,Inicio de reordenamiento,"Registro de revisión, clasificación y ubicación",Ruta exacta para búsqueda,No inventario publicado,PHYSICAL_ARCHIVE
+AR157_07,2009 memoria,Archivo general,Registro de documentación,"Asiento de registro, fondo, serie y soporte",Posible localizador target,No cuerpo,ARCHIVE_REGISTER
+AR157_08,2009 memoria,Depuración,Proceso proyectado para finalizar siguiente ejercicio,"Plan, criterios, acta y destino",Exige disposición si falta cuerpo,Proyecto no destrucción,DISPOSITION_CONTROL
+AR157_09,2010 plan,Archivo Digital,Ampliación según requerimientos sectoriales,Solicitudes y prioridades,Comparador de continuidad,No prueba inclusión target,ARCHIVE_CONTINUITY
+AR157_10,2008-2010,Mesa de Entradas,Entrada y salida de notas,"Libro, COMDOC, número, emisor y destino",Ruta para 0120/09 y 3672/09,No asumir digitalización,REQUEST_ROUTE
+AR157_11,2008-2010,Archivo general,Caja y serie física,"Fondo, serie, caja, folios y transferencia",Ruta si no está digital,No asumir retención,REQUEST_ROUTE
+AR157_12,Regla final,Negativo fundado,"Buscar digital, registro, físico y disposición","Consultas, resultados y acto de destino",Evita ausencia simple,Programa archivístico no localización,METHOD_LIMIT

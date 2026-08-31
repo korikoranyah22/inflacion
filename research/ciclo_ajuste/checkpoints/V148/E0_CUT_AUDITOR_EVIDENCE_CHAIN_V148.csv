@@ -1,0 +1,13 @@
+row_id,proof,target_effect,limit,status,source_id,locator
+AC141_01,Extracto del agente financiero BNA se compara con Libro Banco,exigir ambos lados,"regla actual, no fila 2008",CURRENT_CONTROL_SCHEMA_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.5
+AC141_02,Cuentas de Operación CUT constituyen tercera capa,pedir saldo e impacto,código histórico abierto,CURRENT_CONTROL_SCHEMA_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.5
+AC141_03,Auditor ordena por banco/sucursal/cuenta/moneda y fechas,filtros reproducibles,orden no acredita cobertura histórica,CURRENT_QUERY_SCHEMA_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.19
+AC141_04,Sin coincidencias la grilla no retorna resultados,pedir parámetros y cobertura,cero no prueba inexistencia/pago,ZERO_RESULT_SEMANTICS_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.19
+AC141_05,"Detalle integra saldos Libro Banco, Extracto y cuentas CUT",pedir salida conjunta,modelo actual,CURRENT_AUDITOR_SCHEMA_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.19
+AC141_06,Detalle incluye movimientos pendientes de conciliación,no excluir pendientes,pendiente no equivale a impago definitivo,CURRENT_STATE_SCHEMA_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.19
+AC141_07,"Movimiento de extracto: fecha, secuencia, códigos, comprobante bancario, importe, estado",campos mínimos de exportación,equivalente legacy debe confirmarse,CURRENT_DETAIL_SCHEMA_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.34
+AC141_08,Cada movimiento navega a su consulta de Extracto,exigir detalle de entidad,navegación actual,CURRENT_NAVIGATION_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.34
+AC141_09,Formulario defectuoso puede generar impacto incorrecto,preservar cuerpo e historial,"posibilidad general, no target",CONTROL_RISK_PROVED_TARGET_OPEN,e0_tgn_cut_auditor_instruction_2025,PDF p.39
+AC141_10,Diferencia del auditor es neta y puede combinar factores,no atribuir diferencia íntegra a una fila,requiere desagregación,NON_ADDITIVITY_RULE_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.39
+AC141_11,"Hallazgo documenta fechas, saldos, diferencia, movimientos y causa",pedir informe diario si existe,informe actual no se presume en 2008,CURRENT_FINDING_SCHEMA_PROVED,e0_tgn_cut_auditor_instruction_2025,PDF p.39
+AC141_12,Manual 2022 vincula pago autorizado y formulario respaldatorio por movimiento,cerrar formulario→extracto,estructura posterior; equivalente 2008 abierto,CURRENT_LINK_SCHEMA_PROVED_LEGACY_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63

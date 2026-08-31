@@ -1,0 +1,10 @@
+report_id,system,report_or_function,filters,minimum_columns,target_use,source_id
+RS138_01,SLU,Ingreso Nro. SIDIF,tipo; ejercicio; estado; número local/SIDIF,tipo C41/C42/C55; número; N° SIDIF; estado,resolver especie,e0_dgsiaf_slu_sidif_number_input_2003
+RS138_02,SLU/SICHE,gastos_01.rep,ejercicio 2008; SAF355; C41/C42/C55; 71597/152677/2876,tipo/número; estado; documento; beneficiario; clase; objeto; pagado; regularizado,resolver tipo y etapas,e0_dgsiaf_slu_expense_reports_2003
+RS138_03,SLU/SICHE,pagos_04.rep / F80,OP asociada; ejercicio; pagador,F80; OP; pagador; FF; beneficiario; pagado; regularizado,vincular pago,e0_dgsiaf_slu_payment_reports_2003
+RS138_04,SLU/SICHE,PG_CPAR_EMITE_CONS_PAGO,fecha; ejercicio/tipo/rango OP; banco/cuenta; estado; beneficiario,fecha de pago; OP; banco; cuenta; beneficiario,certificar fecha/banco,e0_dgsiaf_slu_payment_query_2004
+RS138_05,SLU/SICHE,Nota de Pago e historia,OP; referencia; beneficiario,estado; referencia; OP; documento; cuentas pagadora/receptora/de gastos; impresión/entrega/cumplimiento,probar medio Nota,e0_dgsiaf_slu_note_payment_2001
+RS138_06,SLU/SICHE,C55 Regularización Global,tipo; subtipo; cuenta; beneficiario; documento,Débito Directo; FF; clase; imputación; importes; aceptación SC; historia,probar regularización,e0_dgsiaf_slu_global_regularization_2004
+RS138_07,SLU/SICHE,conc_01.rep,cuenta; fecha; tipo/estado,fecha extracto/proceso; movimiento; debe/haber; saldo; conciliación,probar débito bancario,e0_dgsiaf_slu_bank_reconciliation_reports_2002
+RS138_08,SLU/SICHE,conc_02.rep,ejercicio; fecha autorización; número formulario,estado; comprobante; tipo/número; beneficiario; debe/haber; saldo,probar Libro Banco,e0_dgsiaf_slu_bank_reconciliation_reports_2002
+

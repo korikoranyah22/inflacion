@@ -1,0 +1,3 @@
+audit_id,sheet,observed_rows,observed_columns,section,finding,scope_result,search_terms,matches,caveat
+XLS133_01,Emisiones 2008,170,17,foreign- and local-currency issues,BODEN 2015 and BONAR ARS 2013 issuance/placement entries,NOT_BUYBACK_LEDGER,ARARGE03E147;ARARGE03E154;ARARGE03E121;recompra;cancelación,0,Negative scope does not prove absence from another official system.
+XLS133_02,Emisiones 2008,170,17,Letras Intra Sector Público,"creditor, issue and maturity records for public-sector notes",NOT_BUYBACK_LEDGER,GDP Units;Discount;CRyL;Caja settlement,0,Useful only to exclude this annual placements workbook as the missing route.

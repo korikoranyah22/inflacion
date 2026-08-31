@@ -1,0 +1,23 @@
+row_id,object,finding,authority,status
+CR152_01,YEAR_END_BASE,CGN cerró 2008 con registros SIDIF e información complementaria.,Res. SH 6/2008 art.1,BASE_NOT_TARGET_ROW
+CR152_02,C41_DEADLINE,C41 tuvo fecha límite 7/1/2009.,Res.6 art.4,TEMPORAL_LOCATOR
+CR152_03,C42_DEADLINE,C42 cerró 31/12/2008; errores podían volver sin procesar.,Res.6 art.4,STATE_CONTROL
+CR152_04,FINAL_LISTS,CGN puso listados definitivos SIDIF a disposición de SAF.,Res.6 art.8,EXACT_OUTPUT_CLASS
+CR152_05,TEN_DAYS,SAF tenía diez días corridos para verificar y conciliar.,Res.6 art.8,DEADLINE
+CR152_06,FOUR_COMPARATORS,"Conciliación: sistema local, SIDIF, registros al 31/12 y listados parametrizados.",Res.6 art.8,MULTISOURCE_CONTROL
+CR152_07,DISCREPANCY_FORMS,Diferencias requerían formularios de ajuste.,Res.6 art.8,ADJUSTMENT_RECORD
+CR152_08,EXPLANATORY_NOTE,Diferencias requerían nota firmada por Secretario/Subsecretario.,Res.6 art.8,SIGNED_RECORD
+CR152_09,SIGEN_UAI_NOTICE,No conformidad/discrepancia debía notificarse a SIGEN y UAI.,Res.6 art.8,NOTICE_ROUTE
+CR152_10,NONRECEIPT_NOTICE,Información no recibida o inconsistente se comunicaba a SIGEN/UAI.,Res.6 art.12,NEGATIVE_CONTROL_ROUTE
+CR152_11,OFFICIAL_ARCHIVE,Firma certificaba respaldo visto y originales en archivo oficial.,Res.6 art.22,ARCHIVE_CERTIFICATION
+CR152_12,RESPONSIBILITY,Responsabilidad recaía en funcionarios firmantes.,Res.6 art.22,ACCOUNTABILITY
+CR152_13,MIDYEAR_CONFORMITY,Cierre intermedio exigía conformidad e inalterabilidad salvo causa justificada.,Disp.28 art.2,MIDYEAR_CONTROL
+CR152_14,FINAL_MIDYEAR_BALANCES,CGN enviaba saldos finales luego de regularizar inconsistencias.,Disp.28 art.3,MIDYEAR_OUTPUT
+CR152_15,MIDYEAR_NOTES,Conformidad podía incluir aclaraciones por nota.,Disp.28 art.3,MIDYEAR_NOTE
+CR152_16,SAF355_EXCEPTION,SAF355/356 estaban exceptuados de cuadros generales específicos.,Disp.28 art.4,SCOPE_EXCEPTION
+CR152_17,AXT_DETAIL,ONCP debía enviar detalle AXT al 30/6 y explicar permanencia extrapresupuestaria.,Disp.28 art.11,TARGET_RELEVANT_BRANCH
+CR152_18,MIDYEAR_SIGNATURE,Firma certificaba respaldo y archivo para estados alcanzados.,Disp.28 art.15,SCOPE_LIMITED_ARCHIVE
+CR152_19,MIDYEAR_NONREMIT,Falta de remisión podía comunicarse a SIGEN.,Disp.28 art.16,NEGATIVE_CONTROL_ROUTE
+CR152_20,COMPARE_CUTS,"Cruzar 30/6, 31/12 y fechas de liquidación; saldo no equivale a flujo.",Método V154,RECONCILIATION_RULE
+CR152_21,ARCHIVE_NOT_PAYMENT,Certificación de archivo no prueba ejecución bancaria.,Método V154,NOT_PAYMENT_PROOF
+CR152_22,ADJUSTMENT_NOT_EVENT,Formulario de ajuste no es un hecho económico adicional.,Método V154,NON_ADDITIVE

@@ -1,0 +1,13 @@
+route_id,stage,legal_locator,contemporaneous_rule,target_request_use,source_id,status,target_payment_confirmed
+TB148_01,SUPPORT,Art.69,Respaldo a ONCP de desembolsos/pagos directos.,Pedir respaldo y remisión.,e0_argentina_decree_1344_2007_original_finance_rule,OPEN,FALSE
+TB148_02,JURISDICTION90,Art.70,Gastos de crédito público a Jurisdicción 90.,"Ámbito, no identidad.",e0_argentina_decree_1344_2007_original_finance_rule,SCOPE_PROVED,FALSE
+TB148_03,PRE_CANCELLATION,Art.74(k),TGN conserva órdenes hasta cancelación.,Pedir orden y estado a TGN.,e0_argentina_decree_1344_2007_original_finance_rule,CUSTODY_RULE_PROVED,FALSE
+TB148_04,POST_CANCELLATION,Art.74(k),Órdenes canceladas se remiten a CGN.,Pedir cuerpo cancelado a CGN.,e0_argentina_decree_1344_2007_original_finance_rule,CUSTODY_RULE_PROVED,FALSE
+TB148_05,BANK_INFORMATION,Art.78.7.4,BNA debe informar movimientos/saldos a TGN a requerimiento.,Solicitar consulta histórica TGN→BNA.,e0_argentina_decree_1344_2007_original_finance_rule,STATUTORY_ROUTE_PROVED,FALSE
+TB148_06,TGN_QUERY,71597/152677/2876,Ruta legal a movimientos BNA.,"Pedir cuenta, fecha, signo, importe, referencia.",e0_argentina_decree_1344_2007_original_finance_rule,DRAFT_NOT_SENT,FALSE
+TB148_07,BRANCH_A,Orden,"Unir formulario, orden, cancelación y banco.",Aplicar custodia TGN/CGN.,e0_argentina_decree_1344_2007_original_finance_rule,TYPE_OPEN,FALSE
+TB148_08,BRANCH_B,Débito/regularización,"Unir extracto, aviso, formulario y Libro Banco.",Circular 22/04 como comparador.,e0_cgn_circular_22_2004_note_regularization,TYPE_OPEN,FALSE
+TB148_09,BRANCH_A_CLOSE,Ordenada y pagada,Cancelación sola no basta.,Exigir movimiento conciliado.,e0_argentina_decree_1344_2007_original_finance_rule,OPEN_0_OF_10,FALSE
+TB148_10,BRANCH_B_CLOSE,Débito confirmado,Extracto solo no prueba imputación.,Exigir referencia y sin reversa.,e0_cgn_circular_22_2004_note_regularization,OPEN_0_OF_10,FALSE
+TB148_11,REDACTION,Datos protegidos,Puede testarse preservando campos operativos.,Pedir disociación.,e0_argentina_decree_1344_2007_original_finance_rule,DRAFT_NOT_SENT,FALSE
+TB148_12,LIMIT,Capacidad jurídica,No demuestra movimiento target.,Mantener 0/10.,e0_argentina_decree_1344_2007_original_finance_rule,TARGET_NOT_PROVED,FALSE

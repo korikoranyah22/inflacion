@@ -1,0 +1,13 @@
+﻿row_id,query_or_route,result,interpretation,next_step,status
+NR157_01,Plan SIGEN 2009 cuerpo completo,No localizado públicamente,Aprobación y fecha sí están probadas,Pedir cuerpo y acto,PLAN_BODY_NOT_LOCATED
+NR157_02,Número del acto aprobatorio 15/12/2008,No localizado,Fecha no sustituye identificador formal,"Pedir resolución, disposición o nota",APPROVAL_ACT_NOT_LOCATED
+NR157_03,Subplan UAI Economía 2009,No localizado,Plan consolidado prueba que debía integrarlo,"Pedir plan, versión y aprobación",UAI_SUBPLAN_NOT_LOCATED
+NR157_04,Informe de Supervisión del Planeamiento UAI Economía 2009,No localizado,La clase y volumen están probados,Pedir inventario y cuerpo,SUPERVISION_REPORT_NOT_LOCATED
+NR157_05,Snapshot SISIO Plan 2009,No localizado,"Uso SISIO probado, salida target no",Pedir exportación y logs,SYSTEM_SNAPSHOT_NOT_LOCATED
+NR157_06,Anexos D y E Plan SIGEN 2010,No recuperados,La publicación refiere cuadros detallados fuera del suplemento,Buscar archivo y pedir copia,REFERRED_ANNEX_NOT_LOCATED
+NR157_07,Pautas gerenciales 2009 para Economía,No localizadas,Pueden contener objeto y código,Pedir por gerencia y fecha,PARTICULAR_GUIDANCE_NOT_LOCATED
+NR157_08,Registro Archivo Digital de notas target,No localizado,Capacidad y programa no prueban ingreso,Pedir índice y metadatos,ARCHIVE_ENTRY_NOT_LOCATED
+NR157_09,Registro de reordenamiento o depuración target,No localizado,Proceso general no prueba destino,Pedir actas y series,DISPOSITION_RECORD_NOT_LOCATED
+NR157_10,Certificados SAF355,0 de 5,Plan horizontal e instructivos no sustituyen cuerpos,Pedir por SAF y anexo,TARGET_CERTIFICATES_NOT_LOCATED
+NR157_11,Filas bancarias target,0 de 10,"Plan, SISIO y archivo son capas administrativas",Cerrar con banco y reversas,BANK_EXECUTION_NOT_LOCATED
+NR157_12,Seis solicitudes,No enviadas,No corre plazo ni existe acuse,Mantener borradores,DRAFT_NOT_SENT

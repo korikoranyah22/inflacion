@@ -1,0 +1,11 @@
+state_id,state_or_transition,name,official_effect,target_decision,source_id,locator
+SM143_01,I,Ingresado,Formulario cargado,estado inicial,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_02,X,Anulado,Carga dejada sin efecto,excluir como ejecución,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_03,E,Enviado,Autorizado y enviado a SIDIF Central; espera respuesta,no contar como confirmado,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_04,C,Confirmado,Aprobado por SIDIF Central; produce impacto en Libro Banco cuando corresponde,estado positivo necesario,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_05,R,Rechazado,SIDIF Central rechazó o se revirtió el formulario,excluir o rastrear reversa,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_06,I→X,Anulación local,La carga se anula antes del envío,control negativo,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_07,I→E,Autorización y envío,Se transmite a SIDIF Central,probar fecha de envío,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_08,E→C,Aceptación,Respuesta central aprobatoria,probar aceptación e impacto,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_09,E→R,Rechazo central,Respuesta central negativa revierte impactos internos,probar código de error,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir
+SM143_10,C→R,Reversión manual,C55-DEG revierte C55-REG confirmado y puede contraasentar Libro Banco,buscar original y reversa,e0_dgsiaf_slu_global_regularization_2004,DOC Abril 2004 · revisión 14/06/2005 · estados/histórico/revertir

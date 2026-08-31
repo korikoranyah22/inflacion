@@ -1,0 +1,41 @@
+﻿row_id,object_code,object,finding,locator,status
+UI153_01,TITLE,Instructivo de Trabajo 2/2008 GNyPE,Auditoría de Información para la Cuenta de Inversión,p.1,BODY_LOCATED
+UI153_02,DATE,30/12/2008,Fecha de emisión,p.1,OFFICIAL_METADATA
+UI153_03,AUTHORITY,Resolución SGN 10/2006,Marco reglamentario,p.1,AUTHORITY
+UI153_04,MODELS,"Anexos I, II, III, IV y V",Modelos de certificación contable,p.1,FIVE_ANNEXES_LOCATED
+UI153_05,UEPEX,Cuadro 9.a separado por cada UEPEX,Regla adicional para Administración Central,p.1,SCOPE_RULE
+UI153_06,ROUTE_CGN,Certificación al SAF para remisión a CGN,Se adjunta a información de cierre,p.1,ROUTING
+UI153_07,ROUTE_SIGEN,Copia a SIGEN por Síndico Jurisdiccional/Representante,Ruta paralela de control,p.1,ROUTING
+UI153_08,DEADLINE_I_IV,09/02/2009,Plazo de Anexos I-IV,p.1,DEADLINE
+UI153_09,DEADLINE_V,Ocho días hábiles desde remanente provisorio CGN,Plazo Anexo V,p.1,DEADLINE
+UI153_10,A1_OBJECT,Cuadro 1 Anexo B - Movimientos Financieros (Caja y Bancos),Saldos finales e información complementaria 2008,pp.2-3,ANNEX_I
+UI153_11,A1_LOCAL,SIU o sistema aplicable,Registros presupuestarios y contables,p.2,SOURCE_CLASS
+UI153_12,A1_C43,Formularios C43,Fondos propios en caja y bancos,p.2,SOURCE_CLASS
+UI153_13,A1_ESCRITURAL,"Cuentas escriturales, si correspondía",Registro complementario,p.2,SOURCE_CLASS
+UI153_14,A1_BANK,Extractos bancarios,Fuente externa de contraste,p.2,BANK_SOURCE
+UI153_15,A1_ARQUEO,"Acta de Arqueo de Caja, Fondos y Valores",Fuente física de contraste,p.2,PHYSICAL_SOURCE
+UI153_16,A1_CERT,Cifras de Cuadro 1 Anexo B surgen de registros y fuentes,Modelo de certificación,p.3,MODEL_NOT_EXECUTED_TARGET
+UI153_17,A2_OBJECT,Cuadro 1 Anexo C - Movimiento de Fondo Rotatorio,Información 2008,pp.4-5,ANNEX_II
+UI153_18,A2_C43,"C43 de creación, ampliación o disminución",Registro específico del fondo,p.4,SOURCE_CLASS
+UI153_19,A2_REMAINDER,Pedido de ajuste al cálculo del remanente,Fuente documental complementaria,p.4,ADJUSTMENT_SOURCE
+UI153_20,A2_BANK,Extractos bancarios,Contraste externo,p.4,BANK_SOURCE
+UI153_21,A2_CERT,Cifras de Anexo C surgen de registros y fuentes,Modelo de certificación,p.5,MODEL_NOT_EXECUTED_TARGET
+UI153_22,A3_OBJECT,"Cuadro 5.4 - UEPEX, intereses por saldos inmovilizados",Aplicación por cada UEPEX,pp.6-7,ANNEX_III_UEPEX
+UI153_23,A3_SIDIF,Listado Parametrizado SIDIF Central remitido por CGN,Registro de contraste,p.6,SOURCE_CLASS
+UI153_24,A3_LOCAL,Listados del sistema de registro de la UEPEX,Debe detallarse,p.6,SOURCE_CLASS
+UI153_25,A3_BANK_TGN,"Extractos, formularios de transferencias a TGN y arqueo",Fuentes externas y físicas,p.6,MULTISOURCE
+UI153_26,A3_CERT,Cifras del Cuadro 5.4 surgen de registros y fuentes,Modelo de certificación,p.7,MODEL_NOT_EXECUTED_TARGET
+UI153_27,A4_OBJECT,"C35, C41, C42, C43, C55, C75 y C10 presentados fuera de fecha tope",Formularios 2008 vencidos y aún no emitidos a la UAI,pp.8-9,ANNEX_IV_TARGET_RELEVANT
+UI153_28,A4_SIDIF,Listado Parametrizado SIDIF Central remitido por CGN,Registro de contraste,p.8,SOURCE_CLASS
+UI153_29,A4_LOCAL,Listado SLU o sistema aplicable,Registro local,p.8,SOURCE_CLASS
+UI153_30,A4_BANK_TGN,Extractos y formularios de transferencias a TGN,Fuentes externas,p.8,MULTISOURCE
+UI153_31,A4_ARQUEO,Acta de Arqueo de Fondos y Valores,Fuente física,p.8,PHYSICAL_SOURCE
+UI153_32,A4_REMAINDER,Información respaldatoria del ajuste de remanente,Fuente documental,p.8,ADJUSTMENT_SOURCE
+UI153_33,A4_CERT,Cifras de anexo y documentación surgen de registros y fuentes,Modelo de certificación,p.9,MODEL_NOT_EXECUTED_TARGET
+UI153_34,A5_OBJECT,Ratificación o rectificación del Remanente Provisorio 2008,Comunicación SAF contra cálculo CGN,pp.10-11,ANNEX_V
+UI153_35,A5_SIDIF,Listado SLU/sistema y Listado Parametrizado SIDIF Central,Registros presupuestarios y contables,p.10,SOURCE_CLASS
+UI153_36,A5_ERRORS,"Depósitos erróneos, duplicaciones, devolución de depósitos de terceros y de sueldos",Antecedentes de rectificaciones,p.10,ADJUSTMENT_SOURCE
+UI153_37,A5_CERT,Ratificación/rectificación surge de registros y fuentes,Modelo de certificación,p.11,MODEL_NOT_EXECUTED_TARGET
+UI153_38,LIMIT_BODY,Cuerpo y modelos,"No prueban que SAF355 emitió, remitió o recibió una certificación",pp.1-11,METHOD_LIMIT
+UI153_39,LIMIT_BANK,Extracto bancario como fuente,Su mención no reemplaza el extracto target,"pp.2,4,6,8",METHOD_LIMIT
+UI153_40,LIMIT_PAYMENT,Consistencia del cierre,"No individualiza beneficiario, cuenta, importe, fecha valor o reversa",pp.1-11,NOT_PAYMENT_PROOF

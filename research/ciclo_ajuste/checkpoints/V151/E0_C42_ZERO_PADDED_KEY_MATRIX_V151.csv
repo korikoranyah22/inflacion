@@ -1,0 +1,13 @@
+﻿row_id,raw_key,seven_digit_variant,query_context,controlled_use,status
+ZP150_01,71597,0071597,C42 SIDIF,buscar ambas grafías,SEARCH_KEY_ONLY
+ZP150_02,152677,0152677,C42 SIDIF,buscar ambas grafías,SEARCH_KEY_ONLY
+ZP150_03,2876,0002876,C42 SIDIF,buscar ambas grafías,SEARCH_KEY_ONLY
+ZP150_04,83106000,83106000,concepto/código,combinar con cada ID,SEARCH_KEY_ONLY
+ZP150_05,71597,0071597,C41,control de tipo alternativo,TYPE_OPEN
+ZP150_06,152677,0152677,C41,control de tipo alternativo,TYPE_OPEN
+ZP150_07,2876,0002876,C41,control de tipo alternativo,TYPE_OPEN
+ZP150_08,71597,0071597,C55,control de regularización,TYPE_OPEN
+ZP150_09,152677,0152677,C55,control de regularización,TYPE_OPEN
+ZP150_10,2876,0002876,C55,control de regularización,TYPE_OPEN
+ZP150_11,"32.270,30",32270.30,importe,combinar; no identificar por monto,SEARCH_KEY_ONLY
+ZP150_12,COMISIONES - BANCO NACION,COMISIONES BANCO NACION,texto,variantes con/sin guion,SEARCH_KEY_ONLY

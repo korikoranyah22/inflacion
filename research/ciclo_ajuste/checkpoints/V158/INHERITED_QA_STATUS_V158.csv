@@ -1,0 +1,3 @@
+﻿script,pre_v158_result,post_v158_result,interpretation
+qa_v157.py,PASS,PASS_BASELINE,"V157 íntegra; V158 agrega circuito reglado, reforma y contradicción de conteos sin alterar 0/10."
+qa_v158.py,N/A,PASS,"Verifica seis fuentes, cuatro matrices nuevas, cinco controles PDF y límites V158."

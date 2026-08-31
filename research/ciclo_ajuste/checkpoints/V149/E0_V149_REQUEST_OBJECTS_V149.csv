@@ -1,0 +1,21 @@
+﻿object_id,owner_or_system,requested_record,minimum_usable_fields,success_test,negative_response_rule,status
+RO149_01,CGN/SAF355,Listados finales SIDIF,archivo;parámetros;corte;hash,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_02,SAF355,Devoluciones conformadas,firma;fecha;versión,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_03,SAF355/CGN,Ajustes,tipo;número;renglones,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_04,SAF355,Notas firmadas,nota;firmantes;anexos,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_05,SIGEN/UAI,Comunicaciones de diferencias,ID;fecha;seguimiento,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_06,Archivo SAF355,Originales respaldatorios,inventario;serie;caja,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_07,CGN/SAF355,Paquete 30/6/2008,listas;conformidad;notas,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_08,CGN/SAF355,Paquete 31/12/2008,listas;ajustes;notas,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_09,SIDIF/SICHE,Cuerpo 71597,tipo;interno;SIDIF;estado,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_10,SIDIF/SICHE,Cuerpo 152677,tipo;interno;SIDIF;estado,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_11,SIDIF/SICHE,Cuerpo 2876,tipo;interno;SIDIF;estado,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_12,UAI,Acta últimos formularios,IF;tipo;interno;SIDIF,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_13,UAI/SIGADE,Backups 2008,archivo;motor;timestamp;hash,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_14,UAI/SIGADE,Restore/consulta 83106000,filtros;filas;diccionario,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_15,TGN,Nota de saldos/movimientos,cuenta;fecha;signo;importe,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_16,TGN/SIDIF,Reporte Resumen de Pagos,parámetros;orden;resultado,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_17,TGN/BNA,Extractos 3855/19/alternativas,fecha valor;proceso;código,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_18,SAF355,Copia magnética/papel BNA,medio;inventario;custodia,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_19,DADP/ONCP,Legajo recompra §1.13,índice;orden;remisión,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT
+RO149_20,CGN/TGN/BNA,Libro Banco y conciliación,movimiento;grupo;reversa,"Enlazable por ID, fecha, cuenta, signo, importe y referencia.","Individualizar serie, búsqueda, migración o disposición.",DRAFT_NOT_SENT

@@ -1,0 +1,11 @@
+﻿gap_id,object,public_scope,controlled_interpretation,status,source_id,target_2008_proof
+EA148_01,CATALOG_03,UAI 03/2022,Catálogo oficial individualiza cierre SAF355.,PUBLIC_EXECUTIVE_LOCATED,e0_argentina_mecon_uai_audit_catalog_2022,FALSE
+EA148_02,UAI03_BODY,2 páginas,El PDF público es resumen ejecutivo.,PUBLIC_EXECUTIVE_ONLY,e0_mecon_uai_report_03_2022_saf355_closure_2021,FALSE
+EA148_03,UAI03_ANALYTIC,Informe Analítico,Referido pero no incorporado.,ANALYTIC_BODY_NOT_LOCATED,e0_mecon_uai_report_03_2022_saf355_closure_2021,FALSE
+EA148_04,INTEGRITY,Cierre definitivo,Integridad no opinada hasta cerrar registros primarios.,LATER_COMPARATOR,e0_mecon_uai_report_03_2022_saf355_closure_2021,FALSE
+EA148_05,CATALOG_51,UAI 51/2022,Catálogo oficial individualiza Cuenta ONCP.,PUBLIC_EXECUTIVE_LOCATED,e0_argentina_mecon_uai_audit_catalog_2022,FALSE
+EA148_06,UAI51_BODY,3 páginas,El PDF público es resumen ejecutivo.,PUBLIC_EXECUTIVE_ONLY,e0_mecon_uai_report_51_2022_account_2021,FALSE
+EA148_07,UAI51_ANALYTIC,Secciones 5/6,Informe Analítico referido no incluido.,ANALYTIC_BODY_NOT_LOCATED,e0_mecon_uai_report_51_2022_account_2021,FALSE
+EA148_08,ONCP_CGN,Diferencias ONCP-CGN,Necesidad de conciliación intersistema.,LATER_COMPARATOR,e0_mecon_uai_report_51_2022_account_2021,FALSE
+EA148_09,SIGADE_LIMIT,Pagos holdout ausentes,Pago puede obrar fuera de SIGADE.,LATER_COMPARATOR_NOT_TARGET,e0_mecon_uai_report_51_2022_account_2021,FALSE
+EA148_10,ACT_BODY,IF-2023-147866862 / IF-2023-148676623,Citados por UAI 48/2023; cuerpos no localizados.,PUBLIC_ACT_BODY_NOT_LOCATED,e0_mecon_uai_report_48_2023_saf355_closure,FALSE

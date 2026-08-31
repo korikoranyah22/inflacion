@@ -1,0 +1,7 @@
+﻿control_id,official_fact,permitted_use,inference_limit,source_id
+CP145_01,CONPRE sólo lectura y reemplazado por SLU,contexto MDS 2007,no prueba custodia target,e0_argentina_resolution_7028_2007_backup_comparator
+CP145_02,Transacciones horarias y full 22:00 SQL Server,factibilidad institucional,no atribuir a Oracle/SAF 355,e0_argentina_resolution_7028_2007_backup_comparator
+CP145_03,Copias a dos servidores RAID 5,práctica de redundancia,no inventario target,e0_argentina_resolution_7028_2007_backup_comparator
+CP145_04,Diferenciales diarios y cintas mensuales,práctica de retención,no reemplaza norma aplicable,e0_argentina_resolution_7028_2007_backup_comparator
+CP145_05,Último juego anual para siempre,comparador de archivo,no prueba inclusión SLU target,e0_argentina_resolution_7028_2007_backup_comparator
+CP145_06,Recuperación a puntos por log,capacidad SQL Server,no extrapolar sin evidencia,e0_argentina_resolution_7028_2007_backup_comparator

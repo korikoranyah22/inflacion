@@ -8998,9 +8998,9 @@ html,body{overflow-x:clip}
     <div class="mascot left">☁️</div>
     <div class="mascot right">🐱💗</div>
     <h1>Gráficos exactos kawaii ✨</h1>
-    <div class="sub">Argentina · poder adquisitivo, tasas, inflación, pobreza, asistencia social, desigualdad, vulnerabilidad, canastas, salud, educación, consumo, balanza comercial, BCRA y deuda familiar · todo en un solo HTML</div><br>
+    <div class="sub">Argentina · poder adquisitivo, tasas, inflación, pobreza, asistencia social, desigualdad, vulnerabilidad, canastas, salud, educación, consumo, balanza comercial, BCRA y deuda familiar · todo en un dashboard auditable</div><br>
     <span class="badge">♡ datos, fuentes y metodología a la vista ♡</span>
-    <span class="badge" style="margin-left:6px;background:#fff7df;border-color:#ead39b;color:#7a6131">📌 cierre editorial · 25 ago 2026 · sin actualización automática</span>
+    <span class="badge" style="margin-left:6px;background:#fff7df;border-color:#ead39b;color:#7a6131">📌 base histórica · 25 ago 2026 · super-tabs auditados al 31 ago</span>
     <a class="badge repo-link" href="https://github.com/korikoranyah22/inflacion" target="_blank" rel="noopener noreferrer" aria-label="Abrir el repositorio del Dashito Argento en GitHub">↗ GitHub · código, datos y auditorías</a>
   </div>
 
@@ -14669,9 +14669,11 @@ html,body{overflow-x:clip}
     </section>
   </section>
 
-<div class="family-mini-note" style="margin:18px 0 8px;text-align:center"><b>📌 Snapshot editorial:</b> esta versión queda cerrada al <b>21/08/2026</b>. Las fuentes remotas que el archivo consulta para dibujar algunas series están limitadas por fecha y <b>no incorporarán publicaciones posteriores a este corte</b>.</div>
+<div class="family-mini-note" style="margin:18px 0 8px;text-align:center"><b>📌 Cortes visibles:</b> núcleo histórico al <b>21/08/2026</b> y super-tabs auditados al <b>31/08/2026</b>. Las fuentes remotas del núcleo histórico están limitadas por fecha y <b>no incorporarán publicaciones posteriores al 21/08/2026</b>; los super-tabs usan copias locales cerradas al 31/08/2026.</div>
 <div class="dashboard-credit">♡ ✦ hecho por <a href="https://x.com/miyurory" target="_blank" rel="noopener">@MiyuRory</a> y <span class="naira">Naira</span> 🐾 ✦ 🐾 ♡</div>
 </div>
+
+<script src="assets/epica-super-tabs.js"></script>
 
 <script>
 const DASHBOARD_SNAPSHOT_CUTOFF = '2026-08-21';
@@ -15286,11 +15288,11 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 
 // ---------------- Navegación temática + escalas Y auditadas ----------------
 const DASH_TAB_GROUPS={
-  featured:['tab-story','tab-power','tab-rates','tab-poverty','tab-emae','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-pendulo','tab-debt-public','tab-milei-cost'],
-  households:['tab-power','tab-poverty','tab-social','tab-gini','tab-structure','tab-family','tab-health-education','tab-consumption','tab-work','tab-housing','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-youth-credit'],
-  prices:['tab-rates','tab-pres','tab-risk','tab-bigmac','tab-wholesale','tab-bcra'],
+  featured:['tab-story','tab-epica-households','tab-epica-dollars','tab-epica-caputo-colchon','tab-power','tab-rates','tab-poverty','tab-emae','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-pendulo','tab-debt-public','tab-milei-cost'],
+  households:['tab-epica-households','tab-epica-caputo-colchon','tab-power','tab-poverty','tab-social','tab-gini','tab-structure','tab-family','tab-health-education','tab-consumption','tab-work','tab-housing','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-youth-credit'],
+  prices:['tab-epica-dollars','tab-epica-caputo-colchon','tab-rates','tab-pres','tab-risk','tab-bigmac','tab-wholesale','tab-bcra'],
   activity:['tab-consumption','tab-work','tab-investment','tab-housing','tab-growth','tab-emae','tab-roads','tab-tourism','tab-trade'],
-  state:['tab-social','tab-health-education','tab-debt-public','tab-fiscal','tab-bcra','tab-debt-spiral','tab-program'],
+  state:['tab-epica-dollars','tab-epica-caputo-colchon','tab-social','tab-health-education','tab-debt-public','tab-fiscal','tab-bcra','tab-debt-spiral','tab-program'],
   power:['tab-pendulo','tab-rates','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-wealth-contribution','tab-milei-cost','tab-meli-benefits','tab-casta']
 };
 let dashNavGroup='featured';

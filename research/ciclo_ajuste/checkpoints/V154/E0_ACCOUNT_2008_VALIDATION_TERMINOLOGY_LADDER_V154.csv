@@ -1,0 +1,19 @@
+﻿row_id,stage_id,step,evidence,validates,does_not_validate,target_implication,status
+VL154_01,L1,Cuenta 2009 Jur.50,Compilación validada con SIDIF,Proceso/sistema,UAI o banco,Vocabulario de validación,CONTEXT
+VL154_02,L2,Instructivo 2/2008,Deber y fuentes,Procedimiento,Ejecución SAF355,Pedir cada cuerpo,PROVED_DUTY
+VL154_03,L3,Circular 01/09,Barrera sin UAI,Admisión,Recepción efectiva,Pedir ingreso/rechazo,PROVED_GATE
+VL154_04,L4,Archivo SIGEN,Familia contemporánea,Anatomía de claves,Inventario 2009,Pedir múltiples claves,COMPARATOR
+VL154_05,L5,Anexo A 2019,Fuentes contables/bancarias,Certificación agregada,Movimiento target,Exigir fuentes/remisión,COMPARATOR
+VL154_06,L6,Anexo C 2019,Fondo Rotatorio,Control distinto,Deuda target,Control negativo,NEGATIVE_CONTROL
+VL154_07,L7,Remanente 2019,Referencias y monto,Trazabilidad,Pago individual,Exigir referencias,COMPARATOR
+VL154_08,L8,Auditoría 2019,Pruebas selectivas,Calidad de proceso,Exhaustividad/banco,No elevar evidencia,COMPARATOR
+VL154_09,L9,Certificado SAF355,Si se recupera,Cifras/fuentes,Débito por sí solo,Cruzar formularios/banco,TARGET_OPEN
+VL154_10,L10,Anexo IV SAF355,Si se recupera,Formularios tardíos,Pago final,Cruzar estado/reversas,TARGET_OPEN
+VL154_11,L11,C41/C42/C55,Si se recuperan,Registro administrativo,Liquidación bancaria,Cruzar fecha valor,TARGET_OPEN
+VL154_12,L12,Listado SIDIF/SLU,Si se recupera,Estado en sistema,Verdad bancaria,Preservar consulta,TARGET_OPEN
+VL154_13,L13,Acuse CGN,Si se recupera,Recepción paquete,Veracidad de filas,Cruzar adjuntos,TARGET_OPEN
+VL154_14,L14,Extracto bancario,Si se recupera,Movimiento de cuenta,Identidad causal sola,Cruzar referencia,TARGET_OPEN
+VL154_15,L15,Certificación saldo,Si se recupera,Saldo a fecha,Transacción individual,Sólo conciliación,TARGET_OPEN
+VL154_16,L16,Reversa/rechazo,Si se recupera,Estado final,Nuevo pago automático,Vincular original-final,TARGET_OPEN
+VL154_17,L17,Cero reproducible,Universo+parámetros,Ausencia definida,Inexistencia absoluta,Conservar sistema,CLOSURE_RULE
+VL154_18,L18,Conciliación individual,Comprobante+sistema+banco+reversas,Ejecución confirmada,Generalización,Única vía para subir 0/10,FINAL_GATE

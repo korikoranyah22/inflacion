@@ -1,0 +1,15 @@
+﻿step_id,sequence,query,filters,requested_output,decision,status
+CQ141_01,1,SICHE CUT · Entidades Básicas,ejercicio/vigencia 2008;SAF355;sin cuenta prefijada,banco;sucursal;cuenta;moneda;titular;vigencia,identificar cuenta histórica,DRAFT_NOT_SENT
+CQ141_02,2,SICHE CUT · Saldos por Tipo de Apertura,cuentas recuperadas;todo 2008,tipo apertura;cuenta operación;saldos;fechas,mapear cuentas,DRAFT_NOT_SENT
+CQ141_03,3,SICHE CUT · Extractos,cuentas recuperadas;01/01-31/12/2008;sin importe,universo anual completo,evitar falso negativo,DRAFT_NOT_SENT
+CQ141_04,4,SICHE CUT · Logs de Impacto,mismo universo anual,timestamp;evento;entidad;comprobante;importe;resultado,reconstruir impactos,DRAFT_NOT_SENT
+CQ141_05,5,SICHE · Formulario por Pda. y Sigade,SAF355;2008;7.2.8;83106000,formulario;fecha;importe;beneficiario;observaciones,obtener claves de cruce,DRAFT_NOT_SENT
+CQ141_06,6,Cruce por SIDIF,71597;152677;2876,tipo;número;fecha;importe individual,desagregar total anual,DRAFT_NOT_SENT
+CQ141_07,7,Cruce por importe,"32.270,30 y componentes;ambos signos;variantes decimales",movimientos candidatos,identificar total o partes,DRAFT_NOT_SENT
+CQ141_08,8,Detalle de Extracto,movimientos candidatos,fecha;secuencia;mov externo/interno;cpte bancario;importe;estado,identificar referencia BNA,DRAFT_NOT_SENT
+CQ141_09,9,Libro Banco,referencias y fechas candidatas,código;descripción;debe/haber;comprobante,probar impacto interno,DRAFT_NOT_SENT
+CQ141_10,10,Historial de Conciliación,movimiento/libro/extracto,estado;fechas;usuario;causa;regularización,separar conciliado y pendiente,DRAFT_NOT_SENT
+CQ141_11,11,Comprobantes origen/relacionado/respaldo,identificadores recuperados,EE;ejercicio;tipo;número;vínculos,cerrar formulario→movimiento,DRAFT_NOT_SENT
+CQ141_12,12,Informe diario del Auditor,fecha de movimiento/diferencia si existe,saldos;diferencia;movimientos;causa;seguimiento,documentar hallazgo,DRAFT_NOT_SENT
+CQ141_13,13,Auditoría de resultado cero,cada consulta individual,módulo;dataset;cobertura;filtros;fecha;filas;exclusiones;diccionario,evaluar suficiencia negativa,DRAFT_NOT_SENT
+CQ141_14,14,AMIDDF,tipo/número/SAF recuperados,índice;caja;cuerpo;folios;imagen,cerrar respaldo documental,DRAFT_NOT_SENT

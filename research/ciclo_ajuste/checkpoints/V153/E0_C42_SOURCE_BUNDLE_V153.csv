@@ -1,0 +1,12 @@
+row_id,filename,official_url,role,bytes,sha256,preserved
+B150_01,mecon_resolution_sh_47_1996_c42_authorization.html,https://www.economia.gob.ar/digesto/resoluciones/sh/1996/resolsh47.htm,AUTHORIZATION,6810,c14751d27e7f000a1b6f062a714d418df586c4817295ad7fd534c7db353e82ce,YES
+B150_02,cgn_disposition_52_1996_c42_debt_payment.html,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/dis52.htm,DISPOSITION,5347,7daee591ad78526f39322ac94a8cb63354648e2d900ab258c299b9cc729279cb,YES
+B150_03,cgn_disposition_52_1996_c42_instructions.html,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/adis52.htm,INSTRUCTIONS,18590,684ba9345dd55a33cc5227d5b107b035166eff4e021d7ea2683a29f89b003c41,YES
+B150_04,cgn_disposition_52_1996_c42_procedure.html,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/aadis52.htm,PROCEDURE,9622,e16f3466f99ba342349d19a457da2db0daebeaac898dda0b40fbcbf9f09dbbac,YES
+B150_05,cgn_disposition_52_1996_c42_form.html,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/dis52al.htm,FORM_WRAPPER,349,bd853aa810794981df64998a67047f110cc7e29e0efb3cfb619f9344c4b57ca7,YES
+B150_06,cgn_disposition_52_1996_c42_form_page1.jpg,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/c-42.jpg,FORM_PAGE_1,91693,b03b3a8e3b31201496e80769d0290d5b3cdf8e6ac6e6a17d260d3f351c1dbb9f,YES
+B150_07,cgn_disposition_52_1996_c42_form_page2.html,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/dis52all.htm,FORM_PAGE_2_WRAPPER,368,826fc890a7c0ac1e8a992744a721332a88697108595dc0512f39e63a339a38fa,YES
+B150_08,cgn_disposition_52_1996_c42_form_page2.jpg,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/c-42b.jpg,FORM_PAGE_2,15233,544bdfbbc82c02c69397767376cfea7d94d50a4da45217cfc87faaf96f7d0295,YES
+B150_09,cgn_disposition_52_1996_c42_procedure_flow.jpg,https://www.economia.gob.ar/hacienda/cgn/normas/disposiciones/1996/disp52/c-42proc.jpg,PROCEDURE_FLOW,74868,084fc140c53b9b318320e46e760882bdfde3c85915b59d0fa4e35a9bde7bd37e,YES
+B150_10,cgn_circular_16_1996_c42_presentation.html,https://www.economia.gob.ar/hacienda/cgn/normas/circulares/1996/cir16.htm,GENERAL_ROUTE_NEGATIVE_CONTROL,4731,1f381a403b51efe658224fd9a20b9b777a197989d48d3c1ce4a111ae7d273cce,YES
+B150_11,argentina_resolution_81_2012_original_expense_circuit.html,https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-81-2012-196825/texto,LATER_CROSSWALK,252185,a56f7579f93a48c29eb66c9ded60ff909068ca4a6ac30771ff94dede871e1932,YES

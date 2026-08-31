@@ -1,0 +1,13 @@
+﻿row_id,query_or_route,result,interpretation,next_step,status
+NS155_01,Informe Economía Cuenta 2008 2009,No apareció número/cuerpo directo en índice público,La brecha principal continúa,Pedir libro UAI y registro SIGEN,GLOBAL_REPORT_ID_NOT_LOCATED
+NS155_02,Nota 0120/09 DAIF,Referencia oficial localizada; cuerpo autónomo no localizado,Hay identificador exacto pero falta pieza,"Pedir cuerpo, anexos y acuse",REFERENCED_BODY_NOT_LOCATED
+NS155_03,Nota SIGEN 3672/09 GSEyP,Referencia oficial localizada; cuerpo autónomo no localizado,Hay identificador exacto pero falta pieza,"Pedir cuerpo firmado, distribución y anexos",REFERENCED_BODY_NOT_LOCATED
+NS155_04,SISIO 0120/09 3672/09,No apareció entrada pública individual,SISIO es sistema interno/legado,Pedir exportación o certificado de búsqueda,SYSTEM_ENTRY_NOT_PUBLIC
+NS155_05,ArchivoWeb SIGEN,Ventana contemporánea accesible; sin inventario 2009 completo,Negativo público no es inexistencia,Usar AIP directa,CURRENT_WINDOW_INCOMPLETE
+NS155_06,Auditorías Economía,Página actual declara 2022-2026,2009 queda fuera de la ventana visible,Pedir archivo histórico,HISTORICAL_WINDOW_GAP
+NS155_07,Wayback SISIO,Servicio Internet Archive temporalmente fuera de línea durante la consulta,Resultado técnico no probatorio,Reintentar en otra vuelta,TEMPORARY_ARCHIVE_FAILURE
+NS155_08,Arquivo.pt SISIO,Cliente no permitió recuperar contenido útil,Resultado técnico no probatorio,Reintentar con API o navegador,TEMPORARY_ARCHIVE_FAILURE
+NS155_09,GSEyP vs GSEPyPF,No se localizó equivalencia oficial contemporánea,Mantener siglas separadas,Pedir organigrama/registro,ACRONYM_EQUIVALENCE_NOT_PROVEN
+NS155_10,Certificaciones SAF355 I-V,0/5 cuerpos localizados,No elevar puntaje,Pedir cadena completa,TARGET_CERTIFICATES_NOT_LOCATED
+NS155_11,71597 152677 2876 + banco,0 filas conciliadas,No hay prueba de ejecución individual,"Pedir C41/C42/C55, extractos y reversas",BANK_EXECUTION_NOT_LOCATED
+NS155_12,Solicitudes,0/6 enviadas; 0 respuestas,No corren plazos ni hay acuses,Mantener borradores hasta autorización,DRAFT_NOT_SENT

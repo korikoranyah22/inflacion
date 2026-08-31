@@ -1,0 +1,11 @@
+control_id,observable,contemporary_rule,target_use,target_status,source_id
+C10144_01,rama funcional,C10 registra recursos; C55 registra gasto en la relación automática,separar crédito/recurso de débito/comisión,NEGATIVE_CONTROL_PROVED,e0_dgsiaf_slu_c10_2004_v10;e0_dgsiaf_slu_reconciliation_workshop_2017_historical_screens
+C10144_02,generación,A automática; M manual,pedir marca de generación de cada C10,FIELD_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_03,tipos,REC/REG/COR/DES/CMP,"detectar original, corrección, desafectación o cambio de medio",STATE_SCHEMA_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_04,cuenta,banco/sucursal/cuenta/tipo de cuenta impactada en Libro Banco,cerrar cuenta y signo,FIELD_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_05,deuda,Código SIGADE obligatorio para recursos asociados a endeudamiento/préstamos externos,buscar 83106000 y equivalentes en rama recurso,QUERY_FIELD_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_06,estado local,Confirmado; con Error; Pendiente,separar aceptación de mera carga,STATE_SCHEMA_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_07,transmisión,Rechazado; Aprobado; Sin Procesar; Espera Respuesta,"pedir envío, recepción, error y retransmisión",TRANSMISSION_SCHEMA_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_08,documento original,Corrección y desafectación referencian C10 original confirmado,preservar original y modificación,VERSION_CHAIN_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_09,conciliación,"acreditación bancaria puede generar C10 y conciliación automática; si faltan datos, C10 y conciliación manual",clasificar crédito y método,MECHANISM_PROVED_TARGET_OPEN,e0_dgsiaf_slu_c10_2004_v10
+C10144_10,SAF 355,versión 10 menciona alta automática de C10 emitidos por SAF 355 al recibirse lote,"pedir lotes, recepción y número SIDIF 2008",SAF_ROUTE_PROVED_TARGET_EXPORT_OPEN,e0_dgsiaf_slu_c10_2004_v10

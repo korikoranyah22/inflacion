@@ -1,0 +1,11 @@
+﻿row_id,exact_query,official_domain,result,interpretation,status
+NS150_01,71597 C-42,economia.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_02,0071597 C-42,economia.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_03,152677 C-42,economia.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_04,0152677 C-42,economia.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_05,2876 C-42,economia.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_06,0002876 C-42,economia.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_07,83106000 C-42,economia.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_08,71597 152677 2876,argentina.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_BODY_NOT_LOCATED
+NS150_09,UAI SAF355 cierre 2008,argentina.gob.ar,sin cuerpo target,no prueba inexistencia ni pago,PUBLIC_REPORT_NOT_LOCATED
+NS150_10,C-42 deuda pública SAF355,official,normativa hallada,no prueba inexistencia ni pago,BRANCH_PROVED_TARGET_OPEN

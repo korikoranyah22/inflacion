@@ -1,0 +1,22 @@
+﻿row_id,object_code,object,request_or_finding,status
+SB153_01,SAF,Servicio Administrativo Financiero 355,Universo institucional target,TARGET_SCOPE
+SB153_02,A1,Caja y Bancos,"Pedir certificado ejecutado o no aplicabilidad; incluye C43, extractos y arqueo.",HIGH_RELEVANCE_OPEN
+SB153_03,A1_FIELDS,Cuadro 1 Anexo B,"Solicitar versión, cifras, observaciones, firma, fecha, nota y fuentes.",DRAFT_NOT_SENT
+SB153_04,A2,Fondo Rotatorio,Pedir certificado/no aplicabilidad; por sí solo no corresponde a deuda target.,CONDITIONAL_OPEN
+SB153_05,A2_FIELDS,Cuadro 1 Anexo C,"Solicitar C43 de fondo, extractos y soportes de ajuste.",DRAFT_NOT_SENT
+SB153_06,A3,UEPEX,Sólo aplica si una UEPEX del ámbito SAF355 quedó incluida.,NEGATIVE_CONTROL
+SB153_07,A3_FIELDS,Cuadro 5.4,Pedir índice por UEPEX y constancia de no aplicabilidad si fue cero.,DRAFT_NOT_SENT
+SB153_08,A4,Formularios fuera de fecha,Rama central para C41/C42/C55 y demás formularios vencidos.,HIGH_RELEVANCE_OPEN
+SB153_09,A4_UNIVERSE,C35/C41/C42/C43/C55/C75/C10,"Pedir anexo completo, listado y estado final.",DRAFT_NOT_SENT
+SB153_10,A4_TARGET,71597; 152677; 2876,"Filtrar por IDs, N° SIDIF/SAF, importe, beneficiario, fecha, cuenta y reversa.",DRAFT_NOT_SENT
+SB153_11,A4_ZERO,Resultado cero,"Debe incluir universo, consulta, parámetros y cobertura reproducible.",CLOSURE_RULE
+SB153_12,A5,Remanente Provisorio,Puede capturar rectificaciones; no equivale a pago individual.,CONDITIONAL_OPEN
+SB153_13,A5_FIELDS,Ratificación/rectificación,"Pedir comunicación SAF, cálculo CGN, antecedentes y certificado.",DRAFT_NOT_SENT
+SB153_14,DISPATCH,Salida UAI y entrada SAF/CGN,"Pedir número, fecha/hora, remitente, destinatario, adjuntos y acuse.",DRAFT_NOT_SENT
+SB153_15,SIGEN_COPY,Copia a SIGEN,Pedir ingreso por Síndico y ubicación archivística.,DRAFT_NOT_SENT
+SB153_16,WORKPAPERS,Papeles de trabajo,"Pedir universo, muestra, pruebas, excepciones y conclusión por anexo.",DRAFT_NOT_SENT
+SB153_17,LATE_FORMS,Formularios no emitidos al momento UAI,Pedir fecha tope y fecha efectiva de cada emisión.,DRAFT_NOT_SENT
+SB153_18,BANK_LINK,Extractos mencionados,"Pedir banco, cuenta, moneda, fecha valor, movimiento y saldo.",DRAFT_NOT_SENT
+SB153_19,REVERSALS,Ajustes y rectificaciones,"Vincular original, reemplazo, rechazo, reversa y estado final.",DRAFT_NOT_SENT
+SB153_20,ABSENCE,Certificado inexistente,"Pedir causa, aviso de incumplimiento y autoridad responsable.",CLOSURE_RULE
+SB153_21,LIMIT,Certificación ejecutada,"Aun localizada, requiere cruce con comprobante y banco para elevar 0/10.",NOT_PAYMENT_PROOF

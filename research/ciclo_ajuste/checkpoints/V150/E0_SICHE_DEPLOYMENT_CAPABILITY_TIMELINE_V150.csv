@@ -1,0 +1,10 @@
+row_id,period,system,deployment,search_capability,target_use,status,source_id,locator
+ST139_01,2020-01,SICHE · SIDIF Central modelo 95,consultas de Gastos,expresiones numéricas,"buscar 71597, 152677, 2876, 83106000 y 32270.30",CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2020_q1,PDF p.10
+ST139_02,2020-01,SICHE · SIDIF Central modelo 95,consultas de Recursos y PEF,selección por modelo,control de universo y sistema,CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2020_q1,PDF p.10
+ST139_03,2020-02,SICHE · SIDIF Central modelo 95,consultas de Pagos,consulta normalizada,cruzar comprobante con pago,CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2020_q1,PDF p.10
+ST139_04,2020-02,SICHE,Formulación Presupuestaria,consulta heredada,control contextual; no prueba ejecución,CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2020_q1,PDF p.10
+ST139_05,2020 T4,SICHE · SIDIF Central,consultas especiales solicitadas por usuarios,consulta especial existente,pedir búsqueda exacta si la consulta estándar no alcanza,CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2020_q4,PDF p.10
+ST139_06,2020 T4,SICHE · SIDIF Central,"Tablas Básicas, Programación Financiera y Modificaciones Presupuestarias",múltiples dominios,resolver vínculos de cabecera,CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2020_q4,PDF p.10
+ST139_07,2020 T4,SICHE · SIDIF Central,Conciliación Bancaria,consulta de movimientos conciliados,cruzar extracto y Libro Banco,CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2020_q4,PDF p.10
+ST139_08,2021 T2,SICHE,"búsqueda detallada de comprobantes, formularios, acuerdos y entes",filtros en cabecera y detalle de entidad,"combinar N° SIDIF, SAF, concepto, importe y cuenta",CAPABILITY_PROVED_TARGET_RESULT_OPEN,e0_dgsiaf_siche_deployment_2021_q2,PDF p.11
+ST139_09,desde 2026-01-01,SIDIF Central → SICHE,"desafectación de modelos C35, C41 y C55, incluidas transmisiones",alcance histórico actual,C41/C55 primero; C35 fallback; no excluir C42 de SLU,CURRENT_SCOPE_PROVED_TARGET_TYPE_OPEN,e0_dgsiaf_sidif_forms_decommission_2025,página oficial

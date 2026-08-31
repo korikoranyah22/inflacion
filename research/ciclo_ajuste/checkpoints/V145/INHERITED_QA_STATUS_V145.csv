@@ -1,0 +1,3 @@
+﻿script,pre_v145_result,post_v145_result,interpretation
+qa_v144.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V144 ampliada por retención/migración/SICHE.
+qa_v145.py,N/A,PASS,"Verifica fuentes, matrices, hashes, límites y no envío."

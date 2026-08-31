@@ -1,0 +1,9 @@
+﻿row_id,route_component,documented_scope,target_query,source_id,status
+AR136_01,Competencia CGN-AGAN,mantener el Archivo General de Administración Nacional,SIDIF 71597;152677;2876; tipo documental abierto,e0_cgn_disposition_20_2007_agan_quality,DIRECT_AUTHORITY_PROVED_TARGET_OPEN
+AR136_02,Fondo financiero,documentación respaldatoria de la gestión financiera ejecutada por los SAF,SAF 355/356; ejercicio 2008,e0_agan_current_archive_services,DIRECT_SCOPE_PROVED_TARGET_OPEN
+AR136_03,Originales en papel,originales surgidos de movimientos de fondos de todos los SAF,formulario original; lista diaria; nota; boleto; débito; eventuales C41/C55,e0_amiddf_financial_document_images,PAPER_CUSTODY_ROUTE_PROVED_TARGET_OPEN
+AR136_04,Índice relacional,imágenes enlazadas con registros identificatorios,OB; SAF; fecha; tipo documental; expediente,e0_amiddf_financial_document_images,DIGITAL_INDEX_ROUTE_PROVED_TARGET_OPEN
+AR136_05,Cuerpos de expediente,acceso a todos los cuerpos mediante la aplicación,cuerpo; anexo; folios; signatura; imagen,e0_amiddf_financial_document_images,BODY_RETRIEVAL_CAPABILITY_PROVED_TARGET_OPEN
+AR136_06,Servicio de consulta,"usuarios, organismos de control, Poder Judicial, SAF e investigadores",consulta archivística motivada y copia/certificación,e0_agan_current_archive_services;e0_amiddf_financial_document_images;e0_cgn_disposition_20_2007_agan_quality,SERVICE_ROUTE_PROVED_NOT_CONTACTED
+AR136_07,Integridad y disponibilidad,"ordenar, custodiar y facilitar documentación para control y auditoría",inventario; custodia; faltantes; transferencia; expurgo si existiera,e0_agan_current_coordination_contact,OFFICIAL_PUBLISHED_COMPETENCE_TARGET_OPEN
+AR136_08,Contacto publicado,mherri@mecon.gov.ar; 54-11-4349-7824,verificar vigencia antes de cualquier presentación,e0_agan_current_coordination_contact,PUBLISHED_CONTACT_NOT_VERIFIED_NOT_CONTACTED

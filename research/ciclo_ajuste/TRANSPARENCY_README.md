@@ -151,3 +151,10 @@ V98 makes no strict promotion. It corrects a stale CMF preservation statement by
 
 ## V100 delta
 Hipotecario analytical bridge independently revalidated against live official 2023 issuer PDFs; still no promotion without physical originals+SHA. Banco BMA/ex-Itaú ordinary FY target corrected to CNV #3171909; #3177414 excluded as special merger balance. Strict state remains 24 entities / 59.777595746322620480650441147276358824911189326119979767253088259998915899707248%.
+
+
+## V161 source-archive synchronization — 2026-08-31
+
+The master source catalogue now has **577 entries, 577 verified local copies, 577 catalogue-matching SHA-256 hashes and 0 physical/hash gaps**. V161 physically preserves the Banco Rioja and Banco de Corrientes FY2023 statements, canonicalizes the Banco La Pampa Unicode path without deleting the prior mojibake-named copy, snapshots Santander's CNV index and Todo Sobre la Mora, and archives six CNV PublicView pages plus all 30 exposed attachments for BMA, HSBC and Mariva at Sep/FY 2023.
+
+All 30 CNV attachments pass format validation, but the CNV-declared base64 `hash` differs from the SHA-256 of the bytes served in 30/30 cases. Both values are retained; no equivalence or tampering claim is made. See `inputs/source_sync/v161/SOURCE_SYNC_REPORT_V161.md` and `inputs/source_sync/v161/SOURCE_SYNC_CNV_ATTACHMENTS_V161.csv`. This was preservation-only: no numeric state changed and all information-request drafts remain `DRAFT_NOT_SENT`.

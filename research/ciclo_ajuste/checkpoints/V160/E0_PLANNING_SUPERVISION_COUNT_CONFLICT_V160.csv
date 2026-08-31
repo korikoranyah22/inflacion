@@ -1,0 +1,13 @@
+﻿row_id,source,period,published_expression,normalized_reading,comparison,required_resolution,limit,status
+CF158_01,"Cuenta de Inversión 2009, Jurisdicción 20 SIGEN",2009,aproximadamente 120 informes,120 aproximado,Contradice cerca de 160 de otra fuente oficial,Inventario anual y regla de conteo,No exacto,OFFICIAL_COUNT_A
+CF158_02,Memoria SIGEN 2009,2009,cerca de 160 informes,160 aproximado,Contradice aproximadamente 120,Inventario anual y regla de conteo,No exacto,OFFICIAL_COUNT_B
+CF158_03,Diferencia nominal,2009,40 informes,160 menos 120,"Brecha de alrededor del 33,3% sobre 120",Definir universo antes de calcular,Ambos extremos son aproximados,DERIVED_DIAGNOSTIC
+CF158_04,Diferencia relativa inversa,2009,25%,40 sobre 160,120 equivale al 75% de 160,Definir si una serie es subconjunto,No adjudica error,DERIVED_DIAGNOSTIC
+CF158_05,Cuenta de Inversión,ejercicio 2009,Producción física/presupuestaria,Posible universo contabilizado,Puede usar criterio de producto devengado,Ficha técnica e indicador,Inferencia por contexto,HYPOTHESIS_ONLY
+CF158_06,Memoria institucional,actividad 2009,Gestión institucional,Posible universo operativo,"Puede incluir emitidos, tramitados o redondeo distinto",Metodología de Memoria,Inferencia por contexto,HYPOTHESIS_ONLY
+CF158_07,Ambas fuentes,2009,aproximadamente/cerca de,Rangos sin tolerancia declarada,No permiten igualdad exacta,Notas metodológicas y cifras sin redondear,No convertir en 120 y 160 exactos,METHOD_LIMIT
+CF158_08,Inventario requerido,2009,N/A,Una fila por informe,"Número, fecha, UAI, período, estado y producto",Permite deduplicar,No localizado,REQUEST_TARGET
+CF158_09,Regla de conteo requerida,2009,N/A,"Universo, unidad y fecha de corte",Emitido/aprobado/remitido/cerrado/anulado,Permite reconciliar,No localizada,REQUEST_TARGET
+CF158_10,Corte temporal requerido,2009-2010,N/A,Fecha de producción y fecha de reporte,Distinguir informe 2009 recibido en 2010,Evita desplazamiento anual,No localizado,REQUEST_TARGET
+CF158_11,Target Economía,2009,N/A,Pertenencia al inventario,Informe de Supervisión UAI Economía y metadatos,Puede identificar cuerpo target,Conteos no lo individualizan,TARGET_OPEN
+CF158_12,Regla V160,No seleccionar cifra,Método de contradicción congelada,Conservar 120 y 160 con sus fuentes,Resolver sólo con inventario/metodología,Evita falsa precisión,No altera 0/10,CONFLICT_FROZEN

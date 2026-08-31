@@ -1,0 +1,16 @@
+﻿control_id,dimension,official_fact,locator,inference_limit,source_id
+AL145_01,local_scope,Cada SAF dispone de administración local de menú/seguridad,p.3,rol local; no custodia física,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_02,database_admin,"Administración transparente de base, usuarios, roles y permisos",p.3,no DBA irrestricto,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_03,user_history,Historia de cambios del usuario,p.22,no historia bancaria,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_04,role_history,Historia de rol con inicio/fin de vigencia,p.32,modelo temporal de seguridad,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_05,import_scope,"Importación sólo para usuarios, roles, relaciones y llaves",pp.163-164,no BMOVEXTERNO/AMOV_FORG,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_06,import_format,"Plano con cabecera, fechas y separador ~",pp.166-167,sólo archivos de seguridad,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_07,commit,Commit sin/masivo/individual y _error.log,pp.165-167,log de esa importación,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_08,migration,Usuarios/roles sólo Commit Individual,p.172,migración estrecha,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_09,c55_permissions,C55 consultar/ingresar/autorizar/predatar,p.89,permiso no prueba emisión,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_10,c55_modify_c41,"C55 modifica C41 por transferencia, factura, reservados u otros",p.89,rama requiere registro,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_11,c55_reversal,Revertir C55 de desafectación confirmado por central,p.90,buscar original/reversa,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_12,direct_debit,C55 Regularización Global · Débito Directo,p.148,"carril, no fila target",e0_dgsiaf_slu_admin_local_manual_2007
+AL145_13,exchange_difference,C55 Regularización Global · Diferencia de Cambios,p.149,causa alternativa,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_14,global_correction,C55 Corrección Global y desautorización,pp.153-154,exigir estados,e0_dgsiaf_slu_admin_local_manual_2007
+AL145_15,responses,"Consultas, respuestas, sin respuesta, rechazos y manuales centrales",pp.154-156,pedir export integral,e0_dgsiaf_slu_admin_local_manual_2007

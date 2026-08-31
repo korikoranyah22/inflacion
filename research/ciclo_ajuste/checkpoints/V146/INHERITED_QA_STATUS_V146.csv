@@ -1,0 +1,3 @@
+﻿script,pre_v146_result,post_v146_result,interpretation
+qa_v145.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V145 ampliada por ruta SIDIF-Link/SICHE y comparador REPO.
+qa_v146.py,N/A,PASS,"Verifica fuentes, matrices, hashes, límites, aritmética y no envío."

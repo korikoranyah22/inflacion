@@ -1,0 +1,11 @@
+﻿lead_id,datum,value,unit,period,source_id,controlled_interpretation,target_2008_identity,status
+RP146_01,reported_repo_commission_regularization,0.61,ARS million,2019,e0_mecon_uai_report_13_2020_repo_commission,Pista contable concreta; no identidad 2008,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_02,account_code,2.1.2.01.02.99.00,code,2019,e0_mecon_uai_report_13_2020_repo_commission,Cuenta donde se informa la regularización,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_03,account_semantics,Otros títulos y valores de la deuda pública a pagar en moneda extranjera,text,2018,e0_cgn_chart_accounts_2018,No reclasificar como préstamo genérico,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_04,uai_otros_published_total,563.16,ARS million,2019,e0_mecon_uai_report_13_2020_repo_commission,Total publicado en comparación SIGADE/e-SIDIF,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_05,published_component_1,0.61,ARS million,2019,e0_mecon_uai_report_13_2020_repo_commission,Comisiones REPO,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_06,published_component_2,400.00,ARS million,2019,e0_mecon_uai_report_13_2020_repo_commission,Componente publicado,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_07,published_component_3,163.00,ARS million,2019,e0_mecon_uai_report_13_2020_repo_commission,Componente publicado,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_08,published_components_sum,563.61,ARS million,2019,calculation_from_e0_mecon_uai_report_13_2020_repo_commission,0.61+400+163,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF
+RP146_09,displayed_values_difference,0.45,ARS million,2019,calculation_from_e0_mecon_uai_report_13_2020_repo_commission,"563.61-563.16; diferencia entre valores mostrados, no error probado sin componentes no redondeados",FALSE,DISPLAYED_PRECISION_TENSION_NOT_ARITHMETIC_ERROR
+RP146_10,historical_repo_portfolio,312943885.60,ARS,1999,e0_cgn_account_1999_repo_portfolio,Coincidencia nominal; no continuidad ni identidad con 2019/2008,FALSE,COMPARATOR_LEAD_NOT_TARGET_PROOF

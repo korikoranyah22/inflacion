@@ -1,0 +1,21 @@
+﻿row_id,field_or_control,later_or_historical_meaning,locator,controlled_request,temporal_status
+TL151_01,EJERCICIO,Ejercicio,Tabla de recepción,pedir si existe en esquema 2008,LATER_COMPARATOR
+TL151_02,LOTE,Número de lote,Envío/recepción,pedir valor y diseño legado,LATER_COMPARATOR
+TL151_03,NRO_TRANS,Número de transacción,Mensaje de error,pedir vínculo con cada ID,LATER_COMPARATOR
+TL151_04,NODO,Nodo/SAF,Tabla de recepción/error,pedir SAF355 y nodo histórico,LATER_COMPARATOR
+TL151_05,SENTIDO,Dirección del flujo,Tabla de recepción,distinguir SAF→Central y Central→SAF,LATER_COMPARATOR
+TL151_06,ESTADO,Estado,Tabla de recepción,"pedir historia completa, no sólo final",LATER_COMPARATOR
+TL151_07,APLICACION,Aplicación o tipo,Tabla de recepción,pedir valor original,LATER_COMPARATOR
+TL151_08,FECHA_ALTA,Fecha de alta,Tabla de recepción,pedir fecha y hora,LATER_COMPARATOR
+TL151_09,FILE_COUNT,Cantidad de archivos,Tabla de recepción,pedir nombres e inventario,LATER_COMPARATOR
+TL151_10,UPLOAD,Archivo cargado por usuario SAF,Envío,pedir nombre original y copia,LATER_COMPARATOR
+TL151_11,SEND_CONFIRMATION,Confirmación de envío exitoso,Envío,pedir acuse y timestamp,LATER_COMPARATOR
+TL151_12,SEND_ERROR,Mensaje de error,Envío,"pedir código, texto y reintento",LATER_COMPARATOR
+TL151_13,RECEIPT,Lote recibido desde SIDIF Central,Recepción,pedir archivo y acuse,LATER_COMPARATOR
+TL151_14,PROTOCOL,UUCP/FTP/X.400 u otro,Arquitectura histórica,no restringir a protocolo moderno,HISTORICAL_FIELD
+TL151_15,AUTH_RESULT,Autenticación/firma electrónica,Arquitectura histórica,"pedir resultado, certificado y operador si se conservan",HISTORICAL_FIELD
+TL151_16,CHECKSUM,Hash/checksum,Control de integridad,pedir si existe; no exigir si el esquema no lo tenía,REQUEST_FIELD
+TL151_17,FILENAME_5,Primeros cinco caracteres del nombre,Validación moderna,no imponer a archivos 2008,DO_NOT_RETROPROJECT
+TL151_18,CON_EXTENSION,"Extensión .CON, mayúsculas, lote de tres dígitos",Validación moderna,no imponer a archivos 2008,DO_NOT_RETROPROJECT
+TL151_19,UI_30_DAYS,Descarga visible sólo por 30 días,Historia moderna,"es límite de interfaz, no política de retención",UI_NOT_DELETION
+TL151_20,BACKEND_ARCHIVE,Archivo/backup fuera de interfaz,Inferencia controlada,"pedir backend, restauración, soporte y disposición documental",REQUEST_REQUIRED

@@ -1,0 +1,3 @@
+# V133 · rutas archivísticas parlamentarias y COMDOC
+
+V133 cierra los localizadores parlamentarios de los anexos AGN T3/T4 (`OV 366/09` y `OV 44/10`), su paso por la Bicameral Revisora y su archivo el 28/05/2012. También prueba que el expediente `S01:0342455/2008` pertenece a la ruta COMDOC pre-septiembre de 2016; el endpoint publicado no estuvo operativo, por lo que la consulta quedó sin ejecutar, no “sin resultado”. La comparación CGN 2007–2010 demuestra cambios entre SIDIF individualizado, `VARIOS` y celda vacía. No aparece una liquidación nueva: 10/10 adjudicaciones, 9/10 cuentas candidatas y 0/10 ejecuciones confirmadas. Seis pedidos siguen DRAFT_NOT_SENT.

@@ -1,0 +1,16 @@
+row_id,object,contemporaneous_fact,retrieval_consequence,source_id,locator,status,target_payment_confirmed
+CL149_01,SIDIF_CLOSE,CGN cerraba 2008 con SIDIF y complementarios.,Pedir salida y corte SAF355.,e0_argentina_resolution_6_2008_closing_original,art.1,ROUTE_PROVED_TARGET_OPEN,FALSE
+CL149_02,C41_DEADLINE,C-41 se recibía hasta 7/1/2009.,Buscar ambos lados del corte.,e0_argentina_resolution_6_2008_closing_original,art.4,WINDOW_PROVED_TYPE_OPEN,FALSE
+CL149_03,C55_REGULARIZATION,Regularizaciones TGN C-10/C-55 hasta 31/1/2009.,Buscar historia enero 2009.,e0_argentina_resolution_6_2008_closing_original,art.6,WINDOW_PROVED_TYPE_OPEN,FALSE
+CL149_04,VALID_BASE,SIDIF al cierre era base válida.,Pedir dump/listado reproducible.,e0_argentina_resolution_6_2008_closing_original,art.8,BASE_PROVED,FALSE
+CL149_05,FINAL_LISTS,CGN daba listados finales a los SAF.,"Pedir archivo, parámetros y hash.",e0_argentina_resolution_6_2008_closing_original,art.8,RECORD_CLASS_PROVED,FALSE
+CL149_06,VERIFICATION,SAF debía verificar y conciliar.,Pedir papel de conciliación.,e0_argentina_resolution_6_2008_closing_original,art.8,CONTROL_PROVED,FALSE
+CL149_07,RETURN_CONFORMITY,Listados volvían conformados en diez días.,Pedir versión firmada.,e0_argentina_resolution_6_2008_closing_original,art.8,SIGNED_RECORD_CLASS_PROVED,FALSE
+CL149_08,ADJUSTMENT_FORM,Diferencias exigían formularios de ajuste.,"Pedir tipo, número y renglones.",e0_argentina_resolution_6_2008_closing_original,art.8,ADJUSTMENT_ROUTE_PROVED,FALSE
+CL149_09,EXPLANATORY_NOTE,Cada discrepancia exigía nota firmada.,"Pedir nota, anexos y firmantes.",e0_argentina_resolution_6_2008_closing_original,art.8,NOTE_ROUTE_PROVED,FALSE
+CL149_10,UAI_NOTICE,Diferencias se comunicaban a SIGEN/UAI.,Pedir comunicación y seguimiento.,e0_argentina_resolution_6_2008_closing_original,art.8,AUDIT_ROUTE_PROVED,FALSE
+CL149_11,RESPONSIBLE_OFFICIALS,Había responsables SAF y contables nominados.,Pedir inventario por productor.,e0_argentina_resolution_6_2008_closing_original,art.22,RESPONSIBILITY_PROVED,FALSE
+CL149_12,ORIGINAL_SUPPORT,Firmas certificaban originales en archivo oficial.,Pedir originales e inventario.,e0_argentina_resolution_6_2008_closing_original,art.22,ORIGINAL_ARCHIVE_ROUTE_PROVED,FALSE
+CL149_13,COMPLEMENTARY_AUTHORITY,CGN/ONP/TGN podían pedir más información.,Pedir requerimientos y respuestas.,e0_argentina_resolution_6_2008_closing_original,art.31,REQUEST_ROUTE_PROVED,FALSE
+CL149_14,TYPE_LIMIT,C-41 y C-55 coexistían en el cierre.,No clasificar por número.,e0_argentina_resolution_6_2008_closing_original,arts.4 y 6,TARGET_TYPE_OPEN,FALSE
+CL149_15,PUBLIC_GAP,Sólo está pública la fila Anexo K.,Pedir cuerpos; mantener 0/10.,e0_cgn_cuenta_inversion_2008_sdp,Anexo K p.67,TARGET_BODIES_NOT_LOCATED,FALSE

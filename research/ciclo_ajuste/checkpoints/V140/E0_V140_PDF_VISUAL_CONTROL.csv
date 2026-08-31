@@ -1,0 +1,3 @@
+﻿control_id,source_id,local_path,pdf_page,rendered_check,result
+PV140_01,e0_dgsiaf_esidif_line33_sigade_payments_2020,/research/ciclo_ajuste/inputs/historical_retrieval/v140/binaries/argentina_dgsiaf_esidif_line33_sigade_payments_2020.pdf,1,"portada: línea 33, octubre 2020, DGSIAF",PASS
+PV140_02,e0_dgsiaf_esidif_line33_sigade_payments_2020,/research/ciclo_ajuste/inputs/historical_retrieval/v140/binaries/argentina_dgsiaf_esidif_line33_sigade_payments_2020.pdf,4,SIGADE en EPP/PG/NPG/CMR-DP/TCE-RTCE y marca temporal de medio,PASS

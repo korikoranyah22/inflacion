@@ -1,0 +1,29 @@
+﻿row_id,object_id,custodian,exact_record,period,minimum_fields,closure_rule,status
+RO153_01,UAI_CERT_I,UAI Economía/SAF355,Certificación Cuenta 2008 Anexo I,2008-2009,nota; certificado; Cuadro 1 B; observaciones; firma; fuentes; nota remitente; contenedor; folio/orden; fuentes; adjuntos,Incluir no aplicabilidad o incumplimiento.,DRAFT_NOT_SENT
+RO153_02,UAI_CERT_II,UAI Economía/SAF355,Certificación Cuenta 2008 Anexo II,2008-2009,nota; certificado; Cuadro 1 C; C43; extractos; firma; nota remitente; contenedor; folio/orden; fuentes; adjuntos,Incluir no aplicabilidad o incumplimiento.,DRAFT_NOT_SENT
+RO153_03,UAI_CERT_III,UAI Economía/SAF355,Certificación Cuenta 2008 Anexo III por UEPEX,2008-2009,UEPEX; Cuadro 5.4; SIDIF; transferencias TGN; firma; nota remitente; contenedor; folio/orden; fuentes; adjuntos,Enumerar universo UEPEX incluso si es cero.,DRAFT_NOT_SENT
+RO153_04,UAI_CERT_IV,UAI Economía/SAF355,Certificación Cuenta 2008 Anexo IV,2008-2009,anexo; C35/C41/C42/C43/C55/C75/C10; N° SIDIF/SAF; firma; nota remitente; contenedor; folio/orden; fuentes; adjuntos,"Incluir reemplazos, rectificaciones y no aplicabilidad.",DRAFT_NOT_SENT
+RO153_05,UAI_CERT_V,UAI Economía/SAF355,Certificación Cuenta 2008 Anexo V,2008-2009,comunicación; cálculo; ratificación/rectificación; antecedentes; firma; nota remitente; contenedor; folio/orden; fuentes; adjuntos,Incluir soportes de diferencias.,DRAFT_NOT_SENT
+RO153_06,UAI_ALL_CERTS,UAI Economía/SAF355,Índice de certificaciones bajo Instructivo 2/2008,2008-2009,anexo; número; fecha; firmante; resultado; ubicación,Enumerar anexos ausentes y sin observaciones.,DRAFT_NOT_SENT
+RO153_07,UAI_DISPATCH,UAI/SAF355/CGN/SIGEN,"Registros de salida, entrada y acuses",2008-2009,número; fecha/hora; remitente; receptor; adjuntos,Ofrecer metadatos testados.,DRAFT_NOT_SENT
+RO153_08,UAI_WORKPAPERS,UAI Economía,Papeles de trabajo de certificación,2008-2009,universo; muestra; pruebas; excepciones; conclusión,Individualizar legajo/caja/sistema.,DRAFT_NOT_SENT
+RO153_09,SIGEN_GLOBAL,SIGEN,Informe global de Cuenta de Inversión 2008 inventariado,2008-2009,cuerpo; anexos; base; universo; metodología; conclusiones; número público; número interno; registro; contenedor; índice de adjuntos,"No exigir GDE retroactivo; informar inventario, búsqueda, ubicación y disposición.",DRAFT_NOT_SENT
+RO153_10,SIGEN_GLOBAL_METADATA,SIGEN,Registro archivístico del informe Cuenta 2008,2009,número; título; expediente; fecha; firmantes; destinatarios; área; número público; número interno; registro; contenedor; índice de adjuntos,"No exigir GDE retroactivo; informar inventario, búsqueda, ubicación y disposición.",DRAFT_NOT_SENT
+RO153_11,SIGEN_SUPERVISION,SIGEN,Supervisión UAI Ministerio Economía,2009,informe; plan; observaciones; seguimiento,Individualizar dentro del universo.,DRAFT_NOT_SENT
+RO153_12,FINAL_LISTS,CGN/SAF355,Listados definitivos SIDIF art.8,31/12/2008,archivo; parámetros; columnas; filas; fecha; destinatario,Cero debe documentar universo y consulta.,DRAFT_NOT_SENT
+RO153_13,CONFORMITY,SAF355/CGN,Conformidad o discrepancia del cierre,2008-2009,nota; firma; fecha; listado; diferencias; adjuntos,Incluir avisos a SIGEN/UAI.,DRAFT_NOT_SENT
+RO153_14,ADJUSTMENTS,SAF355/CGN,Formularios de ajuste y notas,2008-2009,tipo; N° SIDIF; N° SAF; importe; estado; soporte,No contar evento adicional sin conciliación.,DRAFT_NOT_SENT
+RO153_15,ARCHIVE_INDEX,SAF355/UAI,Índice de originales y certificaciones,2008-2009,serie; legajo; caja; folio; productor; transferencia,Identificar destino/fecha.,DRAFT_NOT_SENT
+RO153_16,AGDFA_INDEX,CGN/AGDFA,Índice de documentación recibida para SAF355/Cuenta 2008,2008-2009,legajo; soporte; campos; transferencia; ubicación; disposición,Informar consulta negativa reproducible.,DRAFT_NOT_SENT
+RO153_17,AXT_DETAIL,ONCP/CGN,Detalle AXT al 30/06/2008,2008-06-30,cuenta; operación; saldo; explicación; razón extrapresupuestaria,Cruzar con 31/12 y banco.,DRAFT_NOT_SENT
+RO153_18,AXT_CONFORMITY,ONCP/CGN,Saldos finales y conformidad arts.2-3,2008-06,archivo; versión; nota; ajustes; firmante,Respetar excepción SAF355 art.4.,DRAFT_NOT_SENT
+RO153_19,PARAM_EMAIL,CGN/SAF355,Mensajes/archivos param355 e inconsis355,2008,cabeceras; adjuntos; timestamp; acuse; respuesta,Buscar backups y soporte magnético.,DRAFT_NOT_SENT
+RO153_20,INCONSISTENCY_SHEETS,CGN/SAF355,Planillas Anexo I de inconsistencias,2008-2009,SAF; fuente; imputación; tipo; N° SIDIF/SAF; firma,Filtrar IDs target y cero reproducible.,DRAFT_NOT_SENT
+RO154_21,SIGEN_PUBLIC_NO,SIGEN,Número público/registro informe Cuenta 2008,2009,número; año; título; entidad; área; ficha,Índice anual o búsqueda negativa.,DRAFT_NOT_SENT
+RO154_22,SIGEN_INTERNAL_NO,SIGEN/UAI Economía,Número interno UAI o control,2009,número; fecha; firmante; objeto; vínculo,Libro/asiento o metadatos testados.,DRAFT_NOT_SENT
+RO154_23,SIGEN_CONTAINER,SIGEN/UAI Economía,Expediente/legajo/contenedor,2008-2009,sistema; número; carátula; productor; ubicación,"Aceptar COMDOC, papel o soporte.",DRAFT_NOT_SENT
+RO154_24,SIGEN_ATTACHMENTS,SIGEN/UAI Economía,Índice y cuerpos adjuntos,2008-2009,nombre; tipo; tamaño; folio/orden; ubicación,Inventario y disposición.,DRAFT_NOT_SENT
+RO154_25,UAI_REMITTANCE_CHAIN,UAI Economía/SAF355,Documento productor por Anexo I-V,2008-2009,nota; fecha; emisor; receptor; adjuntos; acuse,Registro entrada/salida testado.,DRAFT_NOT_SENT
+RO154_26,UAI_SOURCE_INDEX,UAI Economía/SAF355,Índice de fuentes usadas,2008,sistema; archivo; versión; banco; cuenta; período,Metadatos e inventario.,DRAFT_NOT_SENT
+RO154_27,UAI_REFERENCE_CHAIN,UAI Economía/CGN/SIGEN,Referencias entre certificados y auditoría,2008-2009,origen; referencia; monto; orden/folio; estado,Listado o cero reproducible.,DRAFT_NOT_SENT
+RO154_28,UAI_EMBEDDED_BODIES,UAI Economía/SIGEN,Embebidos/anexos del informe integral,2008-2009,índice; nombre; formato; tamaño; firma; ubicación,Inventario y disposición final.,DRAFT_NOT_SENT

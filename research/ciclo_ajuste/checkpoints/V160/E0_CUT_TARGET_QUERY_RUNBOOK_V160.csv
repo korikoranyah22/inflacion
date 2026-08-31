@@ -1,0 +1,37 @@
+step_id,sequence,query,filters,requested_output,decision,status
+CQ143_01,1,SICHE CUT · Entidades Básicas,ejercicio/vigencia 2008;SAF355;sin cuenta prefijada,banco;sucursal;cuenta;moneda;titular;vigencia,identificar cuenta histórica,DRAFT_NOT_SENT
+CQ143_02,2,SICHE CUT · Saldos por Tipo de Apertura,cuentas recuperadas;todo 2008,tipo apertura;cuenta operación;saldos;fechas,mapear cuentas,DRAFT_NOT_SENT
+CQ143_03,3,SICHE CUT · Extractos,cuentas recuperadas;01/01-31/12/2008;sin importe;cuenta operación 230 y universo sin filtro,universo anual completo;código y descripción histórica,evitar falso negativo y priorizar comisión,DRAFT_NOT_SENT
+CQ143_04,4,SICHE CUT · Logs de Impacto,mismo universo anual,timestamp;evento;entidad;comprobante;importe;resultado,reconstruir impactos,DRAFT_NOT_SENT
+CQ143_05,5,SICHE · Formulario por Pda. y Sigade,SAF355;2008;7.2.8;83106000,formulario;fecha;importe;beneficiario;observaciones,obtener claves de cruce,DRAFT_NOT_SENT
+CQ143_06,6,Cruce por SIDIF,71597;152677;2876,tipo;número;fecha;importe individual,desagregar total anual,DRAFT_NOT_SENT
+CQ143_07,7,Cruce por importe,"32.270,30 y componentes;ambos signos;variantes decimales",movimientos candidatos,identificar total o partes,DRAFT_NOT_SENT
+CQ143_08,8,Detalle de Extracto,movimientos candidatos,fecha;secuencia;mov externo/interno;cpte bancario;importe;estado,identificar referencia BNA,DRAFT_NOT_SENT
+CQ143_09,9,Libro Banco,referencias y fechas candidatas,código;descripción;debe/haber;comprobante,probar impacto interno,DRAFT_NOT_SENT
+CQ143_10,10,Historial de Conciliación,movimiento/libro/extracto,estado;fechas;usuario;causa;regularización,separar conciliado y pendiente,DRAFT_NOT_SENT
+CQ143_11,11,Comprobantes origen/relacionado/respaldo,identificadores recuperados,EE;ejercicio;tipo;número;vínculos,cerrar formulario→movimiento,DRAFT_NOT_SENT
+CQ143_12,12,Informe diario del Auditor,fecha de movimiento/diferencia si existe,saldos;diferencia;movimientos;causa;seguimiento,documentar hallazgo,DRAFT_NOT_SENT
+CQ143_13,13,Auditoría de resultado cero,cada consulta individual,módulo;dataset;cobertura;filtros;fecha;filas;exclusiones;diccionario,evaluar suficiencia negativa,DRAFT_NOT_SENT
+CQ143_14,14,AMIDDF,tipo/número/SAF recuperados,índice;caja;cuerpo;folios;imagen,cerrar respaldo documental,DRAFT_NOT_SENT
+CQ143_15,15,Diccionario histórico,módulo CUT-SIDIF Central;versión vigente 2008,cuentas de operación;códigos internos/externos;descripciones;grupos,resolver equivalentes de 230/AUTO/DBAUTO,DRAFT_NOT_SENT
+CQ143_16,16,Triage de códigos,230;AUTO;DBAUTO;CRAUTO;PAGO;PGTR;RECH;DCRB;ANPG;DLOT y equivalentes,todas las filas y descripción histórica,"separar comisión, pago, crédito, rechazo y reversa",DRAFT_NOT_SENT
+CQ143_17,17,Grupo de conciliación,movimientos candidatos,LIB;APL;EXB;MAN o equivalente;regla aplicada,identificar conciliación automática o manual,DRAFT_NOT_SENT
+CQ143_18,18,Referencia unívoca,movimientos candidatos,referencia BNA;contracódigo;comprobante;cuenta contraparte,obtener clave de unión bancaria,DRAFT_NOT_SENT
+CQ143_19,19,Cuenta de operación 230,todo 2008;SAF355;fuente/clase;sin importe,débitos;formulario;extracto;Libro Banco;estado,probar o descartar carril de gasto bancario,DRAFT_NOT_SENT
+CQ143_20,20,C-55 Regularización Global · Débito Directo,SAF355;todo 2008;sin OP original;cuenta de débito obligatoria,C55-REG;institución;UG;fuente;clase;beneficiario;importe;cuenta,probar firma contemporánea de comisión debitada,DRAFT_NOT_SENT
+CQ143_21,21,Histórico C-55,formularios candidatos;estados I/X/E/C/R,carga;autorización;envío a SIDIF Central;respuesta;usuario;fecha,probar aceptación central y secuencia,DRAFT_NOT_SENT
+CQ143_22,22,Reversas C-55,C55-REG rechazados/revertidos;C55-DEG,original;reversa;código de error;contraasiento Libro Banco,descartar débito revertido,DRAFT_NOT_SENT
+CQ143_23,23,Reporte conc_01.rep,cuentas históricas;todo 2008;estados N/P/T,fecha movimiento/proceso;tipo;cuenta;debe;haber;saldo;estado,obtener lado extracto con esquema contemporáneo,DRAFT_NOT_SENT
+CQ143_24,24,Reporte conc_02.rep,mismas cuentas/ventanas;estados N/P/T,Libro Banco;descripción;formulario;número;cheque;beneficiario;debe;haber;saldo,obtener lado interno con esquema contemporáneo,DRAFT_NOT_SENT
+CQ143_25,25,Prueba de rama del medio de pago,cada candidato;servicio deuda pública vs carta de crédito/transferencia exterior,tipo de nota;cuenta de gastos;comisión;orden/nota;respaldo,separar comisión operativa de pago de deuda,DRAFT_NOT_SENT
+CQ143_26,26,SLU · BCUENTA/ACTA_FUE/ACTABAN_CTAESC,SAF355;snapshot 2008;activas+bajas+rehabilitadas,banco;sucursal;cuenta;tipo;fuente;cuenta escritural;fechas de estado,resolver identidad histórica de cuenta,DRAFT_NOT_SENT
+CQ143_27,27,SLU · BMOVEXTERNO/BMOVBCO/BGRUPMOVBCO,BNA;todo código vigente/usado en 2008;sin literal prefijado,código externo;contracódigo;interno;grupo;signo;automático/manual,resolver código bancario histórico,DRAFT_NOT_SENT
+CQ143_28,28,SLU · AMOV_FORG,SAF355;BNA;cuentas recuperadas;todo 2008;activas+bajas+rehabilitadas,cuenta/subcuenta;movimiento;partida;estado;fecha baja/rehabilitación,recuperar parametrización de gasto automático,DRAFT_NOT_SENT
+CQ143_29,29,SLU · ACLB_MOB/BCODLIBBCO,códigos recuperados;vigencia 2008,movimiento extracto;código Libro Banco;descripción;signo;conciliación parcial,cerrar mapeo a Libro Banco,DRAFT_NOT_SENT
+CQ143_30,30,Backups SLU,2006-2009;instancia/esquema del SAF355 y órganos rectores,inventario;fecha;servidor;retención;custodio;hash;soporte,superar tablas sin historia,DRAFT_NOT_SENT
+CQ143_31,31,Migración/versiones SLU,v7→v9.0;2006-2009;módulos Tesorería/Conciliación,versión por SAF;DDL/DML;tablas origen/destino;diccionario,evitar falsa continuidad semántica,DRAFT_NOT_SENT
+CQ143_32,32,Consulta de Bajas/Rehabilitaciones,cada tabla local/externa;claves recuperadas,clave;descripción;fecha baja;fecha rehabilitación;usuario;motivo,reconstruir secuencia temporal,DRAFT_NOT_SENT
+CQ143_33,33,Historial de Correcciones,movimientos extracto candidatos,original;corrección;banco;sucursal;cuenta;fecha;códigos;comprobante;importe;signo,evitar perder versión original,DRAFT_NOT_SENT
+CQ143_34,34,C10 · control de recurso,SAF355;2008;generación A/M;REC/REG/COR/DES/CMP;83106000,cuenta;SIGADE;boleta;estado;transmisión;original/modificación,descartar crédito/recurso o vínculo alternativo,DRAFT_NOT_SENT
+CQ143_35,35,Desafectación/reversa/cheque,C55-DEP/C55-REP;C55-DEG;cheques C/R/E/F;movimientos candidatos,original;reversa;contraasiento;cuenta;estado;detalle conciliación,descartar ejecución neutralizada o medio alternativo,DRAFT_NOT_SENT
+

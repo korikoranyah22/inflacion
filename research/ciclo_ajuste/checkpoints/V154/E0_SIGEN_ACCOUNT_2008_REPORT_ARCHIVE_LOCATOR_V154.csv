@@ -1,0 +1,17 @@
+﻿row_id,object_code,value,interpretation,status
+SG153_01,SOURCE,Informe de Control Interno y Gestión 2007/2011,Inventario oficial SIGEN,OFFICIAL_INVENTORY
+SG153_02,PAGE,PDF 54 / impresa Anexos-XX,Fila exacta visualmente verificada,VISUAL_PASS
+SG153_03,ENTITY,Ministerio de Economía y Finanzas Públicas,Entidad/organismo,EXACT_LOCATOR
+SG153_04,YEAR,2009,Año consignado,EXACT_LOCATOR
+SG153_05,AREA,GSEPyPF,Área SIGEN consignada,EXACT_LOCATOR
+SG153_06,OBJECT,Visión global de controles internos de las jurisdicciones PEN,Primera parte del objetivo,EXACT_LOCATOR
+SG153_07,ACCOUNT,Calidad de información y documentación de la Cuenta de Inversión 2008,Objeto contable exacto,EXACT_LOCATOR
+SG153_08,REPORT_NO,No consignado,El inventario no da número ni carátula,OPEN
+SG153_09,BODY,No incluido,El inventario no contiene cuerpo ni anexos,OPEN
+SG153_10,SAF355,No individualizado,No valida los tres IDs target,OPEN
+SG153_11,PUBLIC_ARCHIVE,"Archivo público SIGEN visible: 121 entradas, 2020-2026",La tabla actual no expone 2009,CURRENT_SCOPE_ONLY
+SG153_12,PUBLIC_LIMIT,Ventana pública actual,No prueba inexistencia del informe 2009,METHOD_LIMIT
+SG153_13,REQUEST_KEY,Entidad + 2009 + GSEPyPF + objetivo exacto,Clave archivística primaria,DRAFT_NOT_SENT
+SG153_14,REQUEST_METADATA,"Número, título, expediente, fecha, firmantes y destinatarios",Metadatos mínimos,DRAFT_NOT_SENT
+SG153_15,REQUEST_BODY,"Cuerpo, anexos, base, universo, metodología y conclusiones",Contenido mínimo,DRAFT_NOT_SENT
+SG153_16,REQUEST_FALLBACK,"Inventario, disposición final y ubicación física/digital",Cierre si no se localiza,DRAFT_NOT_SENT

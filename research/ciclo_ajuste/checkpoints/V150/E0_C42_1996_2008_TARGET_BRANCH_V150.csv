@@ -1,0 +1,19 @@
+﻿row_id,object,contemporaneous_fact,target_query,source_id,locator,status,target_payment_confirmed
+CB150_01,AUTHORIZATION,SH autorizó el C-42.,Buscar tipo exacto por cada ID.,e0_mecon_resolution_sh_47_1996_c42_authorization,art.1,BRANCH_PROVED_TARGET_TYPE_OPEN,FALSE
+CB150_02,SAF355_SCOPE,Deuda pública era competencia exclusiva del SAF355.,Buscar archivo productor SAF355.,e0_mecon_resolution_sh_47_1996_c42_authorization,art.1.a,PRODUCER_PROVED,FALSE
+CB150_03,NO_BUDGET_CREDIT,C-42 cubría vencimientos sin crédito disponible con modificación solicitada.,Pedir expediente de modificación.,e0_cgn_disposition_52_1996_c42_procedure,procedimiento SAF355/356,USE_CASE_PROVED,FALSE
+CB150_04,THIRD_PARTY_OR_DEBT,Cubría fondos de terceros o cancelación de deuda pública.,No equiparar ambas causas.,e0_cgn_disposition_52_1996_c42_debt_payment,considerandos,SCOPE_PROVED,FALSE
+CB150_05,ANNUAL_EXPIRY,El formulario caducaba al cierre del ejercicio.,"Pedir estado, reemisión y regularización.",e0_mecon_resolution_sh_47_1996_c42_authorization,art.2,EXPIRY_RULE_PROVED,FALSE
+CB150_06,OPERATIVE_2008,El cierre 2008 fijó recepción C-42 al 31/12/2008.,Buscar corte 2008 y enero 2009.,e0_argentina_resolution_6_2008_closing_original,art.4,CONTEMPORANEOUS_OPERATION_PROVED,FALSE
+CB150_07,LEGACY_ORIGIN,"SAF podía usar CONPRE, SIDIF Local o sistema propio.",Pedir exportación de los tres universos.,e0_cgn_disposition_52_1996_c42_procedure,apartado SAF,SYSTEM_UNIVERSE_PROVED,FALSE
+CB150_08,TRANSAF,La transmisión electrónica llegaba por TRANSAF.,"Pedir envío, recepción y log.",e0_cgn_disposition_52_1996_c42_procedure,apartado SIDIF,TRANSMISSION_ROUTE_PROVED,FALSE
+CB150_09,SEVEN_DIGIT,"SIDIF asignaba correlativo de siete dígitos, hora y fecha.",Buscar cero relleno y crudo.,e0_cgn_disposition_52_1996_c42_procedure,apartado SIDIF,NUMBERING_PROVED_IDENTITY_OPEN,FALSE
+CB150_10,PAPER_ORIGINAL_COPY,Original y copia firmados se presentaban a CGN.,Pedir ambos y registro de mesa.,e0_cgn_disposition_52_1996_c42_procedure,apartado CGN,PAPER_ROUTE_PROVED,FALSE
+CB150_11,SCREEN_COMPARE,CGN cotejaba papel contra pantalla.,Pedir constancia y resultado.,e0_cgn_disposition_52_1996_c42_procedure,apartado CGN,CONTROL_PROVED,FALSE
+CB150_12,APPROVAL,Aprobado se remitía a TGN para pago.,"Separar aprobación, recepción y pago.",e0_cgn_disposition_52_1996_c42_procedure,apartado CGN/TGN,PREPAYMENT_STAGE_PROVED,FALSE
+CB150_13,OFFICIAL_ARCHIVE,Firmas y respaldos originales integraban archivo del SAF.,Pedir inventario y ubicación.,e0_cgn_disposition_52_1996_c42_procedure,apartado archivo,CUSTODY_ROUTE_PROVED,FALSE
+CB150_14,BENEFICIARY_BANK,C-42 registraba banco y cuenta del beneficiario.,No confundir con cuenta pagadora.,e0_cgn_disposition_52_1996_c42_instructions,campos beneficiario,FIELD_PROVED_TARGET_OPEN,FALSE
+CB150_15,SIGADE,C-42 registraba número SIGADE cuando correspondía.,Pedir vínculo exacto C42–SIGADE.,e0_cgn_disposition_52_1996_c42_instructions,campo SIGADE,LINK_FIELD_PROVED_TARGET_OPEN,FALSE
+CB150_16,SPECIAL_ROUTE,Circular 16 excluía a SAF355/356 de la vía general.,Usar procedimiento especial; general sólo como control.,e0_cgn_circular_16_1996_c42_presentation,cuerpo,SPECIAL_ROUTE_PROVED,FALSE
+CB150_17,C42_TO_C55,Un C-42 podía requerir posterior regularización presupuestaria.,Buscar ambos sin contar dos pagos.,e0_cgn_disposition_52_1996_c42_procedure,procedimiento SAF355/356,SEQUENCE_HYPOTHESIS_OPEN,FALSE
+CB150_18,TARGET_GAP,No se localizaron cuerpos públicos de los tres IDs.,Mantener PUBLIC_BODY_NOT_LOCATED y 0/10.,e0_cgn_cuenta_inversion_2008_sdp,Anexo K p.67,PUBLIC_BODY_NOT_LOCATED,FALSE

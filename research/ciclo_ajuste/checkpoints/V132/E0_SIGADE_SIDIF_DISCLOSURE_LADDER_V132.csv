@@ -1,0 +1,15 @@
+﻿row_id,year,sigade,provider_or_concept,amount_ars,sidif_disclosure,disclosure_level,source_id,locator,target_2008_use,caveat
+DL132_01,2004,83006000,Caja de Valores,95172.00,9309;26358;30629;41811;49879;67481;77089;98287;113996;132066;150479,ITEMIZED,e0_cgn_cuenta_inversion_2004_sdp,PDF_p72_Anexo_K,FORMAT_FEASIBILITY_CONTROL,No es una operación 2008.
+DL132_02,2004,83008000,Caja de Valores,8497773.25,52 individual SIDIF numbers,ITEMIZED,e0_cgn_cuenta_inversion_2004_sdp,PDF_p72_Anexo_K,FORMAT_FEASIBILITY_CONTROL,Lista abreviada aquí; fuente conserva todos los números.
+DL132_03,2004,83095000,Caja de Valores,3609791.69,6524;16712;31093;41808;53821;77090;92659;105283;137132;137143;148392,ITEMIZED,e0_cgn_cuenta_inversion_2004_sdp,PDF_p72_Anexo_K,FORMAT_FEASIBILITY_CONTROL,No es una operación 2008.
+DL132_04,2004,83020000,Comisiones Citibank,169648.75,128281;128282,ITEMIZED,e0_cgn_cuenta_inversion_2004_sdp,PDF_p72_Anexo_K,FORMAT_FEASIBILITY_CONTROL,No es una operación 2008.
+DL132_05,2008,83006000,Caja de Valores,183556.00,VARIOS,AGGREGATED,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,TARGET_KEY,"Servicio anual, no recompra específica."
+DL132_06,2008,83008000,Caja de Valores,8245946.42,VARIOS,AGGREGATED,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,TARGET_KEY,"Servicio anual, no recompra específica."
+DL132_07,2008,83095000,Caja de Valores,1786212.32,VARIOS,AGGREGATED,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,TARGET_KEY,"Servicio anual, no recompra específica."
+DL132_08,2008,83020000,Comisiones Citibank,122940.67,VARIOS,AGGREGATED,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,TARGET_KEY,Coincidencia de banco no atribuye la comisión a la recompra.
+DL132_09,2008,83106000,Comisiones Banco Nación,32270.30,71597;152677;2876,ITEMIZED,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,TARGET_KEY,Tres comprobantes anuales; no prueban mandato o pago de la recompra.
+DL132_10,2010,83006000,Caja de Valores,202292.17,VARIOS,AGGREGATED,e0_cgn_cuenta_inversion_2010_sdp,PDF_p74_Anexo_K,DISCLOSURE_COMPARATOR,No es una operación 2008.
+DL132_11,2010,83008000,Caja de Valores,11053961.08,VARIOS,AGGREGATED,e0_cgn_cuenta_inversion_2010_sdp,PDF_p74_Anexo_K,DISCLOSURE_COMPARATOR,No es una operación 2008.
+DL132_12,2010,83095000,Caja de Valores,542582.22,VARIOS,AGGREGATED,e0_cgn_cuenta_inversion_2010_sdp,PDF_p74_Anexo_K,DISCLOSURE_COMPARATOR,No es una operación 2008.
+DL132_13,2010,83020000,Comisiones Citibank,1154948.47,C41 21657;157867;242998;343494;343495,ITEMIZED,e0_cgn_cuenta_inversion_2010_sdp,PDF_p74_Anexo_K,FORMAT_FEASIBILITY_CONTROL,Demuestra formato; no vínculo con 2008.
+DL132_14,2010,83106000,Comisiones Banco Nación,1869.45,C41 5310;74291;156087;285224,ITEMIZED,e0_cgn_cuenta_inversion_2010_sdp,PDF_p74_Anexo_K,FORMAT_FEASIBILITY_CONTROL,Demuestra formato; no vínculo con 2008.

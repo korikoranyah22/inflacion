@@ -1,0 +1,3 @@
+﻿script,pre_v159_result,post_v159_result,interpretation
+qa_v158.py,PASS,PASS_BASELINE,"V158 íntegra; V159 agrega siglas, denominadores y lifecycle sin alterar 0/10."
+qa_v159.py,N/A,PASS,"Verifica cuatro fuentes, cuatro matrices nuevas, seis controles PDF y límites V159."

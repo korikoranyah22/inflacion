@@ -1,0 +1,15 @@
+﻿row_id,object_code,finding,interpretation,status
+CG153_01,DATE,20/01/2009,Fecha de Circular CGN 01/09.,OFFICIAL_METADATA
+CG153_02,REFERENCE,Cierre del Ejercicio 2008 - Certificación Unidad de Auditoría Interna,Objeto exacto.,OFFICIAL_METADATA
+CG153_03,ADDRESSEE,Jefe del Servicio Administrativo Financiero,La obligación se comunicó al SAF.,ROUTING
+CG153_04,INSTRUCTION,Instructivo de Trabajo 2/2008 GNyPE,La circular lo enlaza como documento reglamentario.,EXACT_LINK
+CG153_05,AUTHORITY,Resolución SGN 10/2006,Marco normativo citado.,AUTHORITY
+CG153_06,OBJECT,Información respaldatoria de la Cuenta de Inversión 2008,Universo documental alcanzado.,SCOPE
+CG153_07,GATE,CGN no recibiría la documentación indicada sin certificación UAI,Barrera expresa de recepción.,RECEIPT_GATE_PROVED
+CG153_08,BODY,El PDF enlazado contiene los cinco anexos,Cierra la brecha de texto y modelos.,BODY_LOCATED
+CG153_09,TARGET,Certificación ejecutada UAI Economía/SAF355,No está adjunta a la circular.,TARGET_OPEN
+CG153_10,RECEIPT,Constancia de recepción CGN,"Pedir número, fecha y adjuntos.",DRAFT_NOT_SENT
+CG153_11,NONCOMPLIANCE,Aviso de falta o rechazo,Pedir si no existió certificación aplicable.,DRAFT_NOT_SENT
+CG153_12,LIMIT_DUTY,Deber normativo,No demuestra cumplimiento individual.,METHOD_LIMIT
+CG153_13,LIMIT_CERT,Certificación contable,No sustituye extracto ni movimiento bancario.,METHOD_LIMIT
+CG153_14,LIMIT_PAYMENT,Recepción del cierre,No acredita liquidación de los tres IDs target.,NOT_PAYMENT_PROOF

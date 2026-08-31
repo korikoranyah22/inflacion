@@ -1,0 +1,4 @@
+record_type,node_uuid,drupal_nid,drupal_vid,public_alias,request_date,response_date,record_year,topic,public_response_text,relationship_types,file_relationship_present,included_resource_count,individual_response_file_published,match_status,source_id,source_locator,caveat
+node--webform,2074c3d9-a535-497e-a97d-d74340ff49fb,18814,18821,/formulario/javier-tarasco,2018-08-14,2018-09-11,2018,"Informes de evolución y distribución de la deuda pública en moneda extranjera en poder del sector privado (Boden 2006, 2012 y 2013 al 31 de diciembre de 2006, 2007, 2008, 2009, 2010 y 2011)",Se dio respuesta al solicitante identificando los informes para su consulta en nuestra página web.,node_type;revision_uid;uid,NO,0,NO,EXACT_PUBLIC_API_RECORD_NO_FILE_RELATIONSHIP,e0_agn_api_boden_request_2018_record,JSON_data_attributes_relationships,No file relationship in the public schema does not prove that an individualized offline answer never existed.
+
+

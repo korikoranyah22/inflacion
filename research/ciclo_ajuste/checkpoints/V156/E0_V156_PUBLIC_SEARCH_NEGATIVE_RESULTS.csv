@@ -1,0 +1,13 @@
+﻿row_id,query_or_route,result,interpretation,next_step,status
+NR156_01,Nota 0120/09 DAIF cuerpo,No localizada públicamente,Existe referencia pero no cuerpo,Pedir a CGN y archivo Economía,REFERENCED_BODY_NOT_LOCATED
+NR156_02,Nota SIGEN 3672/09 GSEyP cuerpo,No localizada públicamente,"Existe referencia pero no cuerpo, firma o distribución",Pedir a SIGEN,REFERENCED_BODY_NOT_LOCATED
+NR156_03,Entrada SISIO asociada a notas,No localizada públicamente,"La norma prueba campos, no asiento",Pedir exportación e historial,SYSTEM_ENTRY_NOT_PUBLIC
+NR156_04,Constancia de carga SISIO target,No localizada públicamente,Debería existir si se cargó documento nuevo,Pedir recibo y vínculo,LOAD_RECEIPT_NOT_LOCATED
+NR156_05,Cronograma de Emisión UAI 2009,No localizado públicamente,La norma lo define como constancia,Pedir plan y aprobación,PLAN_RECEIPT_NOT_LOCATED
+NR156_06,Anexos II y III UAI 2009,No localizados públicamente,Los modelos eran obligatorios,Pedir informes firmados,ANNUAL_REPORT_NOT_LOCATED
+NR156_07,Papeles UAI Cuenta 2008,No localizados públicamente,Economía es titular y UAI depositaria,Pedir inventario y disposición,WORKPAPERS_NOT_LOCATED
+NR156_08,Equivalencia GSEyP con GSEPyPF,No probada,La expansión larga es posterior,Recuperar fuente 2009,ACRONYM_EQUIVALENCE_NOT_PROVEN
+NR156_09,Informe global Economía Cuenta 2008 cuerpo,No localizado,Inventario no sustituye cuerpo,"Pedir número, cuerpo y anexos",GLOBAL_REPORT_BODY_NOT_LOCATED
+NR156_10,Certificados SAF355 Anexos I-V,0 de 5 localizados,Deber no sustituye cuerpos,Pedir por SAF y anexo,TARGET_CERTIFICATES_NOT_LOCATED
+NR156_11,Filas bancarias target,0 de 10 confirmadas,SISIO y UAI son capas administrativas,Cerrar con banco y reversas,BANK_EXECUTION_NOT_LOCATED
+NR156_12,Seis solicitudes externas,No enviadas,No corre plazo ni existe acuse,Mantener borradores,DRAFT_NOT_SENT

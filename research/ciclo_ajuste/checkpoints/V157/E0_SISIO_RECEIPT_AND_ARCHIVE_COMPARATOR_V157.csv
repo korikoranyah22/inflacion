@@ -1,0 +1,13 @@
+﻿row_id,source_period,actor,procedure_step,record_expected,allowed_use,forbidden_use,status
+RC156_01,2006 vigente en 2009,UAI,Carga informe propio en 72 horas,Entrada SISIO y constancia,Regla target de plazo,No prueba hora efectiva,TARGET_PERIOD_RULE
+RC156_02,2006 vigente en 2009,SISIO,Emite constancia por documento nuevo,Constancia individual,Pedir recibo exacto,No sustituye informe,TARGET_PERIOD_RULE
+RC156_03,2006 vigente en 2009,UAI,Remite constancia con original a sindicatura,"Cuerpo, constancia y distribución",Pedir cadena conjunta,No prueba acuse,TARGET_PERIOD_RULE
+RC156_04,2006 vigente en 2009,UAI,Conserva lista y evidencia en papeles,Índice y soporte,Pedir papeles exactos,No prueba banco,TARGET_PERIOD_RULE
+RC156_05,2006 vigente en 2009,UAI,Actualiza seguimiento y reportes anuales,"Historial, Anexo II y III",Pedir evolución completa,No acredita carga target,TARGET_PERIOD_RULE
+RC156_06,2011 CNRT,Auditor,Carga informe definitivo en SISIO WEB II,Registro y constancia,Comparador de implementación,No atribuir a Economía 2009,LATER_COMPARATOR
+RC156_07,2011 CNRT,Auditor,Emite constancia de carga,Recibo de sistema,Confirma materialidad del recibo,No prueba formato 2009,LATER_COMPARATOR
+RC156_08,2011 CNRT,UAI CNRT,Distribuye informe y constancia,Paquete de remisión,Comparador documento-sistema,No prueba destinos Economía,LATER_COMPARATOR
+RC156_09,2011 CNRT,UAI CNRT,Archiva copia en Legajo Transitorio,Legajo,Comparador de archivo,No prueba nombre en Economía,LATER_COMPARATOR
+RC156_10,2011 CNRT,UAI CNRT,Sólo informes generan constancia,Diferencia informe de actividad,Ayuda a interpretar recibos,No universalizar,LATER_COMPARATOR
+RC156_11,2011 CNRT,UAI CNRT,Actividades registran producto y horas,Registro sin constancia,Comparador de granularidad,No clasifica target,LATER_COMPARATOR
+RC156_12,2011 CNRT,UAI CNRT,Seguimiento se nutre de actualizaciones,Historia SISIO,Refuerza pedido de historial,No prueba conservación completa,LATER_COMPARATOR

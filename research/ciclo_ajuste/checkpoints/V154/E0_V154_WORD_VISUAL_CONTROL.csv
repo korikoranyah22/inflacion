@@ -1,0 +1,20 @@
+control_id,source_id,doc_page,rendered_check,result
+WV154_01,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7,10,grupos LIB/TRA/MAN/APL/EXB y regla automática/manual,PASS
+WV154_02,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7,49,"conciliación automática de extracto, Libro Banco, recursos/gastos y contracódigos",PASS
+WV154_03,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7,50,"generación de gestión/documento, asiento y relación origen-destino",PASS
+WV154_04,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7,59,conciliación manual y suma parcial,PASS
+WV154_05,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7,60,banco/sucursal/cuenta y campos de movimiento,PASS
+WV154_06,e0_dgsiaf_slu_bank_reconciliation_basic_tables_2002_v7,22,"código interno: grupo, código, descripción y débito/crédito",PASS
+WV154_07,e0_dgsiaf_slu_bank_reconciliation_basic_tables_2002_v7,25,"código externo: banco, código, grupo y movimiento interno",PASS
+WV154_08,e0_dgsiaf_slu_bank_reconciliation_basic_tables_2002_v7,30,relación partida de gasto-movimiento externo,PASS
+WV154_09,e0_dgsiaf_slu_bank_reconciliation_basic_tables_2002_v7,31,C55 automático enviado a SIDIF Central,PASS
+WV154_10,e0_dgsiaf_slu_bank_reconciliation_basic_tables_2002_v7,38,"Consulta de Bajas, prohibición de borrar códigos usados y rehabilitación",PASS
+WV154_11,e0_dgsiaf_slu_treasury_basic_tables_1,2,BCUENTA local sin historia; baja y rehabilitación,PASS
+WV154_12,e0_dgsiaf_slu_treasury_basic_tables_1,3,ACTA_FUE local sin historia; cuenta-fuente,PASS
+WV154_13,e0_dgsiaf_slu_treasury_basic_tables_2,3,BGRUPMOVBCO sin historia,PASS
+WV154_14,e0_dgsiaf_slu_treasury_basic_tables_2,4,BMOVBCO sin historia,PASS
+WV154_15,e0_dgsiaf_slu_treasury_basic_tables_2,5,BMOVEXTERNO y campos banco/contracódigo/movimiento,PASS
+WV154_16,e0_dgsiaf_slu_treasury_basic_tables_2,6,AMOV_FORG aplicación automática por cuenta y movimiento,PASS
+WV154_17,e0_dgsiaf_slu_treasury_basic_tables_2,7,ACLB_MOB relación extracto-Libro Banco,PASS
+WV154_18,e0_dgsiaf_slu_treasury_basic_tables_2,8,BCODLIBBCO y marca de conciliación,PASS
+

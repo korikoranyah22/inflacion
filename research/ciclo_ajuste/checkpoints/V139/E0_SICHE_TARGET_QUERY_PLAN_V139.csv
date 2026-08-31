@@ -1,0 +1,11 @@
+﻿query_id,sequence,system,filter_set,requested_output,success_test,fallback,status
+SQ139_01,1,SICHE · SIDIF Central,"ejercicio=2008; SAF=355; N°SIDIF=71597,152677,2876; sin tipo",Gastos y grilla/exportación sin transformación,tres filas o trazabilidad individual,expresiones 83106000; 32270.30; concepto,DRAFT_NOT_SENT
+SQ139_02,2,SICHE · SIDIF Central/SLU,C41 y C55; N° SIDIF target; cabecera y detalle,tipo; número local; estado; historia,especie resuelta,buscar todos los tipos,DRAFT_NOT_SENT
+SQ139_03,3,SICHE · Gastos,7.2.8; 83106000; 32270.30; Banco Nación,cabecera e ítems,"suma, tipo y beneficiario",consulta especial de usuario,DRAFT_NOT_SENT
+SQ139_04,4,SICHE · C41,"C41; 71597,152677,2876; SAF355",cuerpo; estado; OP; Nota/medio; cuentas,tipo y cadena C41,índice AMIDDF,DRAFT_NOT_SENT
+SQ139_05,5,SICHE · C55,C55; Débito Directo; Banco Nación; comisión,subtipo; cuenta; imputación; historia SC,mecanismo C55 exacto,todos los movimientos automáticos,DRAFT_NOT_SENT
+SQ139_06,6,SICHE · Pagos,N° SIDIF/OP target; pagador SAF/TGN,F80/PG; beneficiario; medio; estados,evento de pago vinculado,fecha/importe/beneficiario,DRAFT_NOT_SENT
+SQ139_07,7,SICHE · Conciliación Bancaria,cuenta BNA; importe target; formulario,extracto externo; extracto interno/Libro Banco; aplicación,débito cruzado y conciliado,ventana ±5 días; partes que sumen 32270.30,DRAFT_NOT_SENT
+SQ139_08,8,SICHE · fallback,SLU C42; SIDIF Central C35,tipo; fundamento; vínculos,clasificación alternativa,consulta especial sin tipo,DRAFT_NOT_SENT
+SQ139_09,9,AMIDDF,SAF355; 2008; Otros Gastos; tres SIDIF,índice; caja; cuerpo; folios; imágenes,respaldo físico/digital,tejuelo y planilla de remisión,DRAFT_NOT_SENT
+SQ139_10,10,RAIP Economía,Resolución 53/2024 + Ley 27.275,exportaciones existentes o derivación interna; metadatos de búsqueda negativa,respuesta reproducible,denegación fundada y entrega parcial,DRAFT_NOT_SENT

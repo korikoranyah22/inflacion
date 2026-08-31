@@ -1,0 +1,3 @@
+﻿script,pre_v136_result,post_v136_result,interpretation
+qa_v135.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V135 queda supersedido por nuevas fuentes y conteos V136.
+qa_v136.py,N/A,PASS,"Cronología SIDIF, AGAN/AMIDDF, pago parcial, controles temporales, hashes y no ejecución verificados."

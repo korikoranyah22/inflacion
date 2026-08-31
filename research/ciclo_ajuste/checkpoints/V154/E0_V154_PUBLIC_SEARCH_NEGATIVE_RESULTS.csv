@@ -1,0 +1,15 @@
+﻿row_id,query_object,route,result,status
+NS154_01,Informe Economía 2009 GSEPyPF número/carátula,SIGEN ArchivoWeb,No localizado; ventana comienza 2020,GLOBAL_REPORT_ID_NOT_LOCATED
+NS154_02,Cuerpo informe Cuenta 2008 Economía,SIGEN+Libro Blanco,Inventario sí; cuerpo/anexos no,GLOBAL_REPORT_BODY_NOT_LOCATED
+NS154_03,Certificación Anexo I SAF355,Economía/UAI/SIGEN/CGN,Comparador SAF109 sí; target no,TARGET_CERT_I_NOT_LOCATED
+NS154_04,Certificación Anexo II SAF355,Economía/UAI/SIGEN/CGN,Ejecución/no aplicabilidad no,TARGET_CERT_II_NOT_LOCATED
+NS154_05,Certificación Anexo III SAF355,Economía/UAI/SIGEN/CGN,Universo/no aplicabilidad no,TARGET_CERT_III_NOT_LOCATED
+NS154_06,Certificación Anexo IV SAF355,Economía/UAI/SIGEN/CGN,Certificado/listado no,TARGET_CERT_IV_NOT_LOCATED
+NS154_07,Certificación Anexo V SAF355,Economía/UAI/SIGEN/CGN,Ratificación/rectificación no,TARGET_CERT_V_NOT_LOCATED
+NS154_08,Números internos/registro 2009,SIGEN/UAI Economía,No expuestos,HISTORICAL_IDENTIFIERS_NOT_LOCATED
+NS154_09,Adjuntos/certificados embebidos 2009,SIGEN/UAI Economía,No localizados,HISTORICAL_ATTACHMENTS_NOT_LOCATED
+NS154_10,Índice AGDFA SAF355/Cuenta 2008,CGN,No localizado,ARCHIVE_TARGET_INDEX_NOT_LOCATED
+NS154_11,Ingreso/rechazo CGN,CGN,No localizado,TARGET_RECEIPT_NOT_LOCATED
+NS154_12,Copia SIGEN SAF355,SIGEN,No localizada,TARGET_SIGEN_COPY_NOT_LOCATED
+NS154_13,Filas 71597/152677/2876,CGN/SAF355,No localizadas,TARGET_ROWS_NOT_LOCATED
+NS154_14,Movimientos bancarios/reversas target,Tesoro/BCRA/BNA,No localizados; ejecución cero,BANK_EXECUTION_NOT_LOCATED

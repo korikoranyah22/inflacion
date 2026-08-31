@@ -1,0 +1,142 @@
+# Solicitud al Ministerio de Economía / Tesoro · V137
+
+Estado: **BORRADOR_NO_ENVIADO**  
+Canal oficial verificado: TAD, correo al RAIP o Mesa de Entradas del Ministerio de Economía.  
+Página oficial: https://www.argentina.gob.ar/economia/transparencia/pedirinformacion
+
+## Asunto sugerido
+
+Constancias de liquidación y expedientes de recompras de deuda pública 2008–2009
+
+## Texto listo para presentar
+
+A la persona Responsable de Acceso a la Información Pública del Ministerio de Economía:
+
+En los términos de la Ley 27.275, solicito acceso y copia digital de los documentos preexistentes, en cualquier soporte, que obren bajo custodia del Ministerio, la Secretaría de Finanzas, la Oficina Nacional de Crédito Público, la Dirección de Administración de la Deuda Pública, la Tesorería General de la Nación u otra dependencia competente, vinculados con las siguientes operaciones:
+
+1. Las cuatro licitaciones públicas de recompra de deuda realizadas el 28 de agosto, 4 de septiembre, 11 de septiembre y 2 de octubre de 2008, con entregas de títulos previstas para el 1, 8 y 15 de septiembre y 6 de octubre, y liquidaciones T+3 previstas para el 2, 9 y 16 de septiembre y 7 de octubre de 2008.
+2. La recompra del cupón de amortización y renta Nº 15 de BODEN 2012, ISIN ARARGE03G415, licitada el 12 de junio de 2009, con entrega prevista el 17 de junio y liquidación prevista el 18 de junio de 2009.
+
+Para identificar los registros, las operaciones utilizaron la cuenta de Caja de Valores depositante 0306 / comitente 40000. En 2008 comprendieron BODEN 2012 (ARARGE034678), BODEN 2013 (ARARGE035709), unidades vinculadas al PIB en pesos (ARARGE03E147) y en dólares bajo ley argentina (ARARGE03E154).
+
+Tablas contemporáneas preservadas permiten usar los pares 5426, 5427, 45698 y 45701 para las cuatro especies de 2008. Banco Columbia rotula esos valores como `Identificación Caja de Valores` y asigna 5326 al BODEN 2012 cupón vto. 03/08/2009; Banco Patagonia corrobora 5326 para el cupón 15. Solicito confirmar tipo, sistema y vigencia de los cinco códigos, manteniendo separado ARARGE03G415–5326 del principal ARARGE034678–5426.
+
+Los Comunicados de Caja 4857, 4861, 4873 y 5152 anuncian que Caja suministraría a la Secretaría de Finanzas informes los días 02/09/2008, 09/09/2008, 16/09/2008 y 18/06/2009. El contenido anunciado separa el detalle de las transferencias efectuadas del detalle de las transferencias pendientes de ejecución. Esa obligación contemporánea permite individualizar los documentos solicitados, pero no prueba que hayan sido entregados.
+
+Las planillas oficiales de Deuda Pública al 30/09/2008 y 31/12/2008 agregan dos claves contables. El cuadro Q3 registra `Boden - Recompras` por USD 16.814 miles y ese valor coincide exactamente con el principal residual de los BODEN adjudicados; el cuadro Q4 registra `Recompra Bonos del Canje - Dto. 1735/04` por USD 1.506.710,11 miles y aclara que no incluye GDP Units. Solicito el detalle preexistente que compone esas líneas y su conciliación, sin presumir que el agregado Q4 corresponda a una modalidad específica.
+
+Solicito específicamente, si existen:
+
+a) número y carátula de cada expediente, actuación o legajo, junto con su índice documental y todos sus identificadores originales; por tratarse de actuaciones de 2008–2009, solicito que la búsqueda no se limite a GDE/GEDO y cubra COMDOC, registros de Mesa de Entradas, legajos y expedientes en papel u otros sistemas heredados;
+b) comunicaciones de adjudicación remitidas al MAE, Caja de Valores, BCRA, participantes u otras áreas;
+c) informes o confirmaciones de Caja de Valores sobre títulos efectivamente recibidos en la cuenta 0306/40000, incluidos rechazos, faltantes, transferencias parciales no admitidas o incumplimientos;
+d) órdenes de pago, instrucciones de liquidación, avisos de crédito o débito, conciliaciones y constancias contables o bancarias que permitan verificar si y cuándo se pagó cada adjudicación;
+e) conciliaciones entre los resultados publicados, los títulos recibidos, los pagos efectuados y las registraciones de deuda posteriores;
+f) comunicaciones con el Banco de la Nación Argentina y expedientes relativos al mandato de primera etapa anunciado el 11 de agosto de 2008 y a las compras informadas para el período 11–22 de agosto de 2008;
+g) referencias cruzadas que permitan seguir una eventual digitalización, importación o migración posterior a GDE/GEDO/RUDO, incluido el identificador de origen y el de destino;
+h) si el expediente salió del área productora, inventario, remito, registro de transferencia, depósito o ubicación archivística actual;
+i) regla de retención y acceso aplicable a la serie documental —incluida, si existe, la propuesta institucional, dictamen o acto de la Comisión de Evaluación Documental— y acto individualizable de eliminación, baja, siniestro o pérdida si se invoca que ya no se conserva;
+j) búsqueda en la Oficina Nacional de Crédito Público, la Dirección de Administración de la Deuda Pública, su Unidad de Registro y la Tesorería General de la Nación, o en las unidades sucesoras que custodien sus fondos;
+k) si fueron utilizados para estas recompras, código o asiento en SIGADE, COMDOC III, Sistema de Regularización de la Deuda Pública, Transmisión Segura de Archivos (TSA) o sistema sucesor; archivos enviados a Caja y sus constancias de aceptación o rechazo.
+
+l) documento, instructivo o equivalencia técnica que vincule la “modalidad diferida” publicada en el punto 2.1 del procedimiento con la modalidad, archivo o formulario efectivamente usado ante Caja/BCRA —incluidos, si correspondieran, CGA, FT, FTC, DVP o una fórmula en papel—, junto con número de lote, fórmula o transacción;
+m) confirmación T+3 recibida de Caja, identificador de ese mensaje y la instrucción posterior de pago en cuenta corriente BCRA, conservando separadas aceptación técnica, recepción de títulos y pago.
+n) tabla, diccionario o constancia que vincule cada ISIN con el código interno usado por Economía, Caja y/o CRyL —incluidos 5426, 5427, 45698, 45701 y 5326—, con denominación, tipo de código, sistema y fechas de vigencia.
+o) si la implementación exigía entrega y recepción emparejadas, constancia de fecha de ejecución, fecha límite de matching, Código Caja, cantidad y cuentas emisora/receptora, o identificador del registro equivalente.
+p) copia de los informes T+3 anunciados por los Comunicados 4857, 4861, 4873 y 5152 para 02/09/2008, 09/09/2008, 16/09/2008 y 18/06/2009, incluidos sus detalles de transferencias efectuadas y transferencias pendientes de ejecución, junto con constancia de recepción y expediente de incorporación;
+q) detalle por oferta adjudicada que la Oficina Nacional de Crédito Público informó a Caja para que ésta ingresara las instrucciones de recepción, y comunicación equivalente de la ronda del 02/10/2008 o constancia documentada de la búsqueda realizada.
+r) detalle y conciliación de las líneas contables citadas de A.5.1/A.5.4, con fecha, especie, VNO original, residual, contravalor, asiento, expediente, estado y vínculo con Caja/BCRA; y registro separado de las GDP Units excluidas del cuadro.
+
+La Resolución Conjunta 216/2008 y 26/2008 documenta que, para un procedimiento contemporáneo distinto —colocaciones BOCON—, esas áreas utilizaban COMDOC III, SIGADE y un canal TSA/VPN con Caja. El procedimiento específico de recompra sólo publica “modalidad diferida”, confirmación de Caja en T+3 y pago posterior en cuentas BCRA; no nombra DVP, FTC, CGA, TSA ni SIGADE. No afirmo que las recompras hayan usado automáticamente ninguno de esos circuitos: solicito que se identifique el sistema y la modalidad que efectivamente las registró.
+
+No solicito que el organismo produzca un análisis nuevo. Pido los registros en el estado en que obren. Si contienen información alcanzada parcialmente por alguna excepción, solicito una versión con tachas o disociación que conserve, como mínimo, fecha, especie, monto o valor nominal, estado de entrega, estado de pago e identificador documental, conforme al principio de disociación y al artículo 12 de la Ley 27.275.
+
+Si todo o parte no obra en poder del Ministerio, solicito la remisión prevista en el artículo 10 de la Ley 27.275 al sujeto que se presuma poseedor, informándome esa circunstancia. Si se afirma que un documento no existe, solicito acto fundado que indique las áreas productoras y archivísticas, COMDOC u otros sistemas heredados, registros en papel, repositorios digitalizados, GDE/GEDO/RUDO y respaldos efectivamente consultados, las claves y el rango temporal de la búsqueda y, de corresponder, la regla y el acto individualizable de transferencia, eliminación, baja o pérdida documental. El mero transcurso de un plazo de retención no acredita por sí solo la destrucción.
+
+Solicito entrega electrónica en formato original o, cuando no sea posible, copia digital legible.
+
+Atentamente,
+
+[NOMBRE Y APELLIDO / RAZÓN SOCIAL]  
+[DNI / CUIT]  
+[DOMICILIO]  
+[CORREO ELECTRÓNICO]
+
+## Adjuntos sugeridos
+
+- tabla de cuatro rondas: `E0_FISCAL_PUBLIC_BUYBACK_CALLS_2008_V137.csv`;
+- resumen del strip: `E0_FISCAL_STRIP_BUYBACK_SUMMARY_2009_V137.csv`;
+- cadena normativa: `E0_FISCAL_BUYBACK_SETTLEMENT_CHAIN_V137.csv`.
+- matriz de comunicaciones directas: `E0_CAJA_TARGET_COMMUNICATION_MATRIX_V137.csv`;
+- hoja de claves técnicas: sólo las filas `REQ133_ECON` de `E0_REQUEST_SEARCH_KEY_MATRIX_V137.csv`.
+
+
+
+- puente contable trimestral: `E0_FISCAL_BUYBACK_DEBT_ACCOUNTING_BRIDGE_2008_V137.csv`.
+
+## Clave adicional V137 · Discount en Pesos
+
+Se solicita además el papel de trabajo o registro que vincule el tramo de recompra por exceso de crecimiento del año de referencia 2006 con `ARARGE03E121`: VNO ARS 2.748,50 millones, valor efectivo ARS 1.415,50 millones y baja Q4 ARS 4.723,53619 millones. Campos mínimos: fecha, operación, VNO, precio/efectivo, criterio de actualización, asiento, expediente y estado de conciliación. Puede entregarse agregado por especie y con datos de terceros testados.
+
+## Clave V137 · expediente productor y submayores SIGADE/SIDIF
+
+La norma identifica el expediente `S01:0342455/2008`, a ONCP como productora del listado de preadjudicación por participante y a DADP como custodio documental. Se solicita el índice completo y el cuerpo del expediente, sin limitar la búsqueda a GDE, con relación por fecha, participante, ISIN, VNO, precio, efectivo y estado.
+
+El Anexo K de la Cuenta de Inversión 2008 publica tres filas de servicios de Caja de Valores bajo SIGADE `83006000`, `83008000` y `83095000`; una comisión Citibank `83020000`; y una comisión Banco Nación `83106000`, SIDIF `71597-152677-2876`. Se solicitan submayores, órdenes, comprobantes, conceptos y expedientes de esas claves. Son llaves de búsqueda: no afirmo que esos importes anuales correspondan a las recompras.
+
+## Clave V137 · productor, sistemas y formato de salida demostrados
+
+El informe AGN 124/2022 identifica a DADP como back office, la conciliación `SIGADE↔SIDIF`, gestión documental física/electrónica y los subprocesos `I.f.2 Recompra de títulos` e `I.b.4 Revisión de una recompra de títulos`. Es un control posterior y no se invoca como prueba de ejecución 2008; se usa para individualizar planillas, respaldos, revisiones, bases comparadas y comprobantes que deben buscarse por `S01:0342455/2008`, incluso fuera de GDE.
+
+Las Cuentas de Inversión 2004 y 2010 publican números SIDIF/C-41 individuales para las mismas familias SIGADE que en 2008 aparecen como `VARIOS`. Por ello se solicita la salida equivalente de 2008 para `83006000`, `83008000`, `83095000`, `83020000` y `83106000`, con fecha, concepto, proveedor, importe, orden y expediente. Los comparadores demuestran formato; no atribuyen esos gastos a las recompras.
+
+## Clave V137 · ruta COMDOC y comparadores contiguos
+
+La página oficial del Ministerio separa los expedientes desde septiembre de 2016, consultables en GDE, de los anteriores, consultables en COMDOC. Por ser de 2008, `S01:0342455/2008` debe buscarse primero en COMDOC, cuyo enlace publicado es `http://expedientes.mecon.gov.ar/finddoc2/finddoc/Inicio`. Al `30/08/2026` el endpoint rechazó conexión; por eso la consulta no pudo ejecutarse y no corresponde registrar “sin resultados”. Solicito búsqueda sustitutiva por administradores COMDOC, Mesa de Entradas, ONCP, DADP y archivo, con índice, cuerpo, remitos y cualquier equivalencia de migración a GDE/GEDO/RUDO.
+
+Además, los años inmediatos muestran un cambio comprobable de exposición: en 2007 Citibank y Banco Nación tienen SIDIF individualizados; en 2008 Citibank aparece como `VARIOS` y Banco Nación individualizado; en 2009 las cinco celdas SIDIF están vacías; en 2010 ambas comisiones vuelven a individualizarse. Esto fundamenta pedir el submayor homogéneo 2008, pero no permite inferir que una celda vacía carezca de comprobantes ni atribuir importes a las recompras. Estado: **BORRADOR_NO_ENVIADO**.
+
+## Clave V137 · salida FindDoc y cadena C-41
+
+La especificación oficial de FindDoc prueba que la salida pública era una hoja de ruta: origen, destino, fechas de envío y recepción y ubicación. La AGN documentó una consulta efectiva al mismo endpoint el `05/03/2013` para otro expediente `S01:0130656/2008`, obteniendo estado y ubicación. Estos antecedentes permiten pedir una exportación administrativa equivalente para `S01:0342455/2008`, pero no sustituyen su consulta ni el cuerpo del expediente. Canales oficiales: `ciudadano@mecon.gov.ar`, `0810-333-6326`, Balcarce 186, piso 1, oficina 140.
+
+Para los SIDIF `71597`, `152677` y `2876`, se solicitan los C-41 completos y su estado. Las normas CGN definen la C-41 como Orden de Pago, contemplan rechazo y remisión a TGN “a efectos de su pago”, y muestran trazas posteriores como débito bancario y C-55 cuando existe diferencia. Por eso se piden por cada número: beneficiario, concepto, importe, moneda, fechas, procesamiento, pago/débito, rechazo/reversa y C-55 si aplica. Ningún número se atribuye por anticipado a la recompra. Estado: **BORRADOR_NO_ENVIADO**.
+
+## Clave V137 · salida FindDoc y cadena C-41
+
+La especificación oficial de FindDoc prueba que la salida pública era una hoja de ruta: origen, destino, fechas de envío y recepción y ubicación. La AGN documentó una consulta efectiva al mismo endpoint el `05/03/2013` para otro expediente `S01:0130656/2008`, obteniendo estado y ubicación. Estos antecedentes permiten pedir una exportación administrativa equivalente para `S01:0342455/2008`, pero no sustituyen su consulta ni el cuerpo del expediente. Canales oficiales: `ciudadano@mecon.gov.ar`, `0810-333-6326`, Balcarce 186, piso 1, oficina 140.
+
+La alineación visual del Anexo K 2008 confirma que `71597`, `152677` y `2876` pertenecen al renglón `83106000 COMISIONES - BANCO NACION`, por `ARS 32.270,30`; los snippets linealizados que parecen desplazarlos a otra cuenta son descartados como error de extracción. Esto fija la atribución de renglón, no prueba pago ni relación con la recompra.
+
+Para cada número se solicita el C-41 completo y el extracto `SDPGB`/`SDPAG` de 2008 o sucesor equivalente. El esquema oficial histórico permite pedir: OB SIDIF, SAF, beneficiario, importe, estado `P` pagado / `R` rechazado / `A` anulado, fecha, banco, sucursal, tipo y número de cuenta, motivo y medio `RN/CH/TR/TI/NS`. La Cuenta de Inversión 2008 agrega tres clases de huella electrónica: archivo de instrucciones TGN→BCRA y archivos de movimientos y saldos BCRA→TGN. Se requieren los registros target, no sólo la descripción del sistema.
+
+Si alguna orden fue un pago exterior bajo SAF 355/356, se pide además la nota TGN con beneficiario, banco, cuenta, tipo de operación, número SIDIF, moneda, cotización e importe en divisas, y el Boleto de Venta de Cambio BNA. Si no lo fue, basta certificar no aplicabilidad. También se piden remitos COMDOC, cuerpos, anexos, último folio y área depositaria; ante pérdida alegada, búsqueda y reconstrucción aplicables. Ningún número se atribuye por anticipado a la recompra. Estado: **BORRADOR_NO_ENVIADO**.
+
+## Clave V137 · AGAN/AMIDDF, sistema productor y pago parcial
+
+La cronología oficial 2008-2011 ubica las tres órdenes en el entorno legacy de `SIDIF Central` con transmisión `TRANSAF`: en 2008 se sustituyó sólo el módulo Entes; `Pagos Etapa 1 y Gastos` aparece en mayo de 2009, la carga C-41/C-42 en mayo de 2010 y la primera versión de Gastos en SAF 356 en 2011. Esto permite pedir `SDPGB`/`SDPAG` o la salida funcional sucesora del SIDIF Central. No se afirma que el nombre literal de los archivos haya permanecido idéntico hasta 2008.
+
+El custodio directo identificado es el Archivo General de Administración Nacional (`AGAN`) y su sistema `AMIDDF`, que reciben, ordenan, custodian, describen y digitalizan documentación financiera respaldatoria y originales en papel originados en movimientos de fondos de los SAF. Por `71597`, `152677` y `2876`, cuenta `83106000`, renglón `COMISIONES - BANCO NACION` e importe agregado `ARS 32.270,30`, se solicitan ficha de índice, signatura, caja, cuerpo, folios, imágenes y copia de todos los anexos: C-41 original, notas, lista diaria firmada de selección, autorizaciones si correspondían, boletos, débitos, C-55 y demás respaldos. La competencia general del archivo no se presenta como prueba de que esas piezas concretas ya hayan sido localizadas.
+
+La Disposición CGN 54/2008 obliga a separar pago total de pago parcial: para cada OB se requieren importe original y moneda, fecha de conformidad, cada pago y fecha, suma acumulada, saldo, caducidad, anulación o reversa. Un estado `P` aislado no se considerará prueba suficiente de cancelación total. La Disposición Conjunta CGN 13/2009-TGN 16/2009 se usa sólo como sucesor/comparador inmediato para identificar copia papel, listas diarias firmadas y autorizaciones; no se retroproyecta automáticamente a 2008.
+
+Si alguna orden fue un pago exterior, se solicita el paquete correspondiente; si no, certificación individual de no aplicabilidad. La incorporación expresa en 2009 de recepción de movimientos `CRYL` impide confundir sin prueba esos archivos específicos con los movimientos bancarios generales documentados para 2008. Contacto AGAN publicado: `mherri@mecon.gov.ar`, `54-11-4349-7824`; su vigencia no fue verificada y no fue contactado. Estado: **BORRADOR_NO_ENVIADO**.
+
+## Clave V137 · productor exacto, índice AMIDDF y bifurcación de comisiones
+
+La Cuenta de Inversión 2008 identifica en su propio Cuadro 1-A al productor como `SAF 355 · Dirección de Administración de la Deuda Pública`; queda descartado `SAF 356` como alternativa para este renglón. El Anexo K sólo titula su última columna `SIDIF`: confirma que `71597`, `152677` y `2876` son localizadores exactos de `83106000 COMISIONES - BANCO NACION`, pero no imprime que sean números de formulario `C-41`. Donde versiones anteriores del borrador dicen “OB” o “C-41” para esos tres números, debe leerse como hipótesis de búsqueda pendiente de clasificación documental.
+
+Como primera capa solicito copia o exportación de las **Planillas de Remisión preexistentes**, en el estado en que obren, que correspondan a: organismo productor `SAF 355`, serie `Rendiciones de Cuentas`, subserie `Otros Gastos`, ejercicio `2008` y números documentales `71597`, `152677` o `2876`. Sus campos oficiales son remitente, productor, serie, subserie, ejercicio, fechas extremas, número de caja, tipo documental, número documental, fecha de desafectación, observaciones y firmas de Administración/Archivo/recepción AMIDDF. Solicito también el tejuelo e inventario de la caja y la constancia de recepción. No conozco el número de caja y por eso no lo invento: debe surgir del índice.
+
+Con el tipo documental identificado, solicito el original o copia autenticada, todos los cuerpos, folios y anexos y la cadena aplicable. La Disposición 46/1998 exige originales —o sustitutos autenticados si el original falta o está deteriorado— y separa la responsabilidad según el envío haya sido para digitalización o mera guarda. Una fecha de desafectación en la planilla no prueba destrucción: si se invoca baja, solicito el acto individualizable y el registro de expurgo/desafectación.
+
+Para cada referencia se solicitan pagador, fuente, clase de gasto, importe individual, beneficiario, expediente, fecha, estado y vínculos. El régimen de 2007 y su interpretación oficial posterior establecen que el pago de deuda pública es `PAGADOR TGN` cualquiera sea el monto; por eso el agregado de ARS 32.270,30 no excluye el circuito TGN por estar debajo de un umbral. Sin embargo, la clasificación individual debe provenir del registro, no del título agregado.
+
+La búsqueda debe abrir dos ramas y cerrar la que corresponda:
+
+1. Si se trató de una orden/comprobante pasible de pago: Reporte de Distribución Diaria que marque total o parcial, selección, confirmación, identificador bancario, medio, lote/archivo, rendición bancaria, pagos acumulados, saldo y conciliación. Si fue deuda cancelada por Nota: lote y Archivo de Notas a BCRA, confirmación de recepción e impacto en Libro Banco.
+2. Si se trató de comisiones debitadas automáticamente por BNA: extracto de la CUT, código específico de movimiento, fecha valor, cuenta, débito individual, formulario de regularización, conciliación bancaria y afectación de la cuenta escritural. La propia denominación “comisiones” vuelve esta rama necesaria; no demuestra que haya sido la utilizada.
+
+La regla papel se mantiene como objetivo probatorio y no como hecho target: Circular 19/1995 fija el plazo posterior a TRANSAF; Circular 33/1995 siguió vigente hasta su derogación expresa en marzo de 2009, pero su frase final sobre SAF 355/356 está ubicada después del apartado C-43 y se preserva con esa reserva de alcance. Se solicitan la planilla, el sello de recepción y el papel si existieron, sin afirmar anticipadamente que cada registro fue C-41.
+
+Este pedido no exige producir análisis, clasificaciones o cuadros nuevos. Pide copias y exportaciones de registros existentes conforme al artículo 5 de la Ley 27.275. Si el Ministerio no los posee, solicito la transferencia prevista por el artículo 10 dentro de cinco días; si parte está exceptuada, versión disociada conforme al artículo 12; y si no existe o se deniega, acto fundado con alcance de búsqueda conforme al artículo 13. Canal vigente verificado: TAD, `ciudadano@mecon.gov.ar`, o Balcarce 186, piso 1, oficina 148. Estado: **BORRADOR_NO_ENVIADO**.

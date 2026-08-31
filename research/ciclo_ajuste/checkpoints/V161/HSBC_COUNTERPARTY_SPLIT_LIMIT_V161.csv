@@ -1,0 +1,4 @@
+﻿period,pass_income_total_thousand_ars,pass_expense_total_thousand_ars,issuer_counterparty_label,four_leg_status,reason
+9M-2023,68481253,169767,RAW_TOTAL_ONLY; issuer 9M opening absent,N/D_STRICT,One total does not determine BCRA versus other financial institutions.
+FY-2023,204724664,542204,sector financiero,N/D_STRICT,The issuer does not split sector financiero between BCRA and other financial institutions.
+Q4-2023,99749193.003601044382524,281966.781725888375636,sector financiero total only,N/D_STRICT,Homogeneous differencing preserves exact totals but cannot identify four legs; repo stock is not a flow allocation.

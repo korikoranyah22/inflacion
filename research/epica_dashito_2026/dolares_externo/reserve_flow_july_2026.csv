@@ -1,0 +1,10 @@
+﻿component,usd_millions,classification
+Compras de moneda extranjera del BCRA,2163.0,mercado_cambios
+Capital e intereses de organismos internacionales,2621.0,financiamiento_oficial
+Nuevas emisiones de titulos del Gobierno Nacional,1063.0,financiamiento_tesoro
+Aumento de tenencias ME de entidades en BCRA,1307.0,depositos_terceros
+Valuacion de activos de reserva,110.0,valuacion
+Pagos de capital e intereses de titulos publicos,-4476.0,servicio_deuda
+Ventas ME del Tesoro Nacional,-146.0,tesoro_mercado
+Pagos netos SML,-67.0,sistema_pagos
+Residual de conciliacion (variaciones no enumeradas/redondeos),154.0,residual_calculado

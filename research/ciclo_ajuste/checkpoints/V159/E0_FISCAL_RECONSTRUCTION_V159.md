@@ -1,0 +1,3 @@
+# Reconstrucción fiscal E0 V159
+
+La reconstrucción incorpora una cronología de unidades y tokens SIGEN, un control de denominadores y un lifecycle de recepción. Se piden por separado el acto que expanda GSEyP, el censo de UAI 2009, el inventario de informes, la metodología 120/160, la fila Economía, la nota de remisión, el expediente receptor, sus pases, respuestas y acto final. Para SAF355, la excepción de cuadros generales no se transpone a los certificados Anexo I/IV ni a listados SIDIF. Estas capas permiten hallar el cuerpo y sus custodios; documento, sistema, banco y reversas continúan siendo necesarios para la ejecución. Estado 0/10.

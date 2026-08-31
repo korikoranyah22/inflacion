@@ -1,0 +1,5 @@
+control_id,artifact,literal_scope,cannot_prove,source_id,status
+NC137_01,Disposición 28/2001 · C-43,Fondo Rotatorio,"tipo, campos o flujo C-41",e0_cgn_disposition_28_2001_c43_negative_control,EXCLUDED_FROM_C41_INFERENCE
+NC137_02,Circular 16/2000 · flujos C-43,archivos C-43 SIDIF Central↔SAF,nombre o continuidad de archivos C-41,e0_cgn_circular_16_2000_c43_negative_control,EXCLUDED_FROM_C41_INFERENCE
+NC137_03,Anexo K 2008 · columna SIDIF,tres referencias SIDIF alineadas a 83106000,que sean números C-41 y no otra especie documental,e0_cgn_cuenta_inversion_2008_sdp,DOCUMENT_TYPE_OPEN
+NC137_04,Manual TGN v1,procedimiento oficial posterior,contenido de registros 2008,e0_tgn_manual_system_treasury_v1,PROCEDURAL_COMPARATOR

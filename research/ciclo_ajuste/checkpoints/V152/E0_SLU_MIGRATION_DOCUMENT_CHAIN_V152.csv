@@ -1,0 +1,13 @@
+chain_id,stage,official_requirement,locator,target_record,status,source_id
+MG145_01,database_admin,CGN centraliza información como Administrador de la Base de Datos,Anexo I.b,nota/opinión órganos rectores,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_02,legal_file,"Manuales, Acta Acuerdo y convenio de prestación",Anexo I.c.I,expediente de implantación,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_03,backup_rules,"Esquema, guarda, responsables, identificación y recuperación",Anexo I.c.II,procedimiento local,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_04,signed_agreement,Acta Acuerdo firmada por autoridad SAF y Hacienda,Anexo I.e,Acta Acuerdo SAF 355,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_05,pre_migration_backup,Backup del sistema reemplazado antes de migrar,Anexo I.f.IV,inventario/copia/hash,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_06,migration,Migración de datos,Anexo I.f.V,scripts/mapeos/conteos,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_07,database_control,Testeo y control entre bases; diferencias documentadas,Anexo I.f.VI,totales antes/después y diferencias,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_08,parallel_test,Prueba paralela y diferencias documentadas,Anexo I.f.VIII,resultados/aceptación,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_09,production,Puesta en producción y seguimiento,Anexo I.f.IX-X,fecha/versión/informes,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_10,progress,"Informe dentro de cinco días de cada etapa, firmado UI+SAF",Anexo I.g,informes firmados,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_11,responsibles,"UI, SAF y órganos rectores designan representantes",Anexo I.h,designaciones nominales,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems
+MG145_12,incidents,Problemas por Mesa de Atención con número y documentación,Anexo I.i,tickets/casos,REQUIRED_RECORD_NOT_LOCATED,e0_argentina_resolution_115_2005_financial_systems

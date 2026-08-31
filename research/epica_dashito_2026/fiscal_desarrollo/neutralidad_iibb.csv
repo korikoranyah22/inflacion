@@ -1,0 +1,5 @@
+reduccion_alicuota_pct,alicuota_remanente_pct_de_original,multiplicador_base_neutral,crecimiento_base_necesario_pct,formula,interpretacion
+10,90,1.111111,11.111111,1/(1-r)-1,"Identidad mecánica antes de evasión, formalización, actividad y traslado."
+25,75,1.333333,33.333333,1/(1-r)-1,"Identidad mecánica antes de evasión, formalización, actividad y traslado."
+50,50,2.000000,100.000000,1/(1-r)-1,"Identidad mecánica antes de evasión, formalización, actividad y traslado."
+100,0,N/D,infinito/no existe,"con t1=0, t1*B1=0 para toda base finita",Eliminar el impuesto no puede recaudar lo mismo mediante expansión de su propia base.

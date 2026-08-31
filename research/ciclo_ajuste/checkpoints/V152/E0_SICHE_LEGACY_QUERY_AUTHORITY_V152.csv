@@ -1,0 +1,9 @@
+rule_id,proposition,operative_detail,target_effect,source_id,status
+SA138_01,SICHE es la única herramienta para sistemas discontinuados,aprobación por Resolución SH 53/2024,la búsqueda oficial debe ejecutarse en SICHE,e0_argentina_resolution_53_2024_siche,PROVED
+SA138_02,SIDIF Central quedó bajo SICHE,acceso anterior desafectado desde 2024-07-01,consultar SC por los tres N° SIDIF,e0_argentina_resolution_53_2024_siche,PROVED
+SA138_03,SLU quedó bajo SICHE,acceso anterior desafectado desde 2024-07-01,consultar SLU SAF 355 y cruzar SC,e0_argentina_resolution_53_2024_siche;e0_dgsiaf_slu_landing,PROVED
+SA138_04,SICHE usa consultas estandarizadas,"filtrar, seleccionar y ordenar","pedir una consulta preexistente, no una investigación ad hoc",e0_argentina_resolution_53_2024_siche,PROVED
+SA138_05,SICHE exporta a planilla,grilla exportable,pedir CSV/XLSX en el estado en que obre,e0_argentina_resolution_53_2024_siche,PROVED
+SA138_06,SICHE no transforma la fuente,toma repositorio tal como está,preservar campos y valores originales,e0_argentina_resolution_53_2024_siche,PROVED
+SA138_07,La integridad del sistema de origen es una premisa,sin migración ni transformación,una exportación negativa debe identificar sistema y filtros,e0_argentina_resolution_53_2024_siche,PROVED_RULE_TARGET_RESULT_OPEN
+SA138_08,La ruta pública es Ley 27.275,solicitud al Ministerio sobre registro existente,pedir ejecución/exportación SICHE o derivación interna,e0_argentina_law_27275_updated_access;e0_argentina_economia_access_channel_2026,DRAFT_NOT_SENT

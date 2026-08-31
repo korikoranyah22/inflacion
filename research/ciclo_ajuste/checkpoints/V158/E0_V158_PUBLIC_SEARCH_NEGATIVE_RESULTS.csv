@@ -1,0 +1,15 @@
+﻿row_id,query_or_route,result,interpretation,next_step,status
+NR158_01,Plan SIGEN 2009 cuerpo completo y acto final,No localizados públicamente,La fecha 15/12/2008 no sustituye cuerpo ni identificador,"Pedir acto, plan y anexos por versión",PLAN_AND_ACT_NOT_LOCATED
+NR158_02,Plan UAI Economía 2009 presentado antes del 30/10,No localizado,"La regla prueba que debía existir una presentación, no que Economía cumpliera","Pedir asiento, carátula y copia inicial",INITIAL_PLAN_NOT_LOCATED
+NR158_03,Legajo plan auditoría UAI Economía,No localizado,La Resolución 7/2003 individualiza el contenedor,"Pedir carátula, índice y movimientos",PLAN_FILE_NOT_LOCATED
+NR158_04,Dictamen y aprobación preliminar,No localizados,Son pasos separados de la aprobación final,"Pedir dictamen, evaluación, modificaciones y nota preliminar",PRELIMINARY_CHAIN_NOT_LOCATED
+NR158_05,Plan conformado en papel y copia magnética,No localizados,Los dos soportes eran exigibles y no deben colapsarse,Pedir asiento y metadatos de ambos,DUAL_SUPPORT_NOT_LOCATED
+NR158_06,Versión definitiva bajo custodia de Gerencia,No localizada,La norma identifica custodio distinto de la UAI,Pedir copia definitiva e índice de custodia,DEFINITIVE_VERSION_NOT_LOCATED
+NR158_07,Crosswalk pre/post reforma Economía-Producción,No localizado,La reforma ocurrió entre entrega inicial y aprobación final,"Pedir versiones, notas de adecuación y responsables",REORGANIZATION_CROSSWALK_NOT_LOCATED
+NR158_08,Informe de Supervisión UAI Economía 2009 y nota de remisión,No localizados,"ERAS prueba que nota, adjunto y expediente receptor eran piezas separadas",Pedir en SIGEN y Economía,SUPERVISION_DELIVERY_CHAIN_NOT_LOCATED
+NR158_09,Inventario de Informes de Supervisión 2009,No localizado,Fuentes oficiales difieren entre aproximadamente 120 y cerca de 160,Pedir inventario y regla de conteo,COUNT_CONFLICT_UNRESOLVED
+NR158_10,Snapshot SISIO Plan 2009 y código Cuenta 2008,No localizados,"La función del sistema está probada, no la salida target","Pedir exportación, parámetros, versión y logs",SYSTEM_SNAPSHOT_NOT_LOCATED
+NR158_11,Registro Archivo Digital/reordenamiento del target,No localizado,"Capacidad archivística no prueba ingreso, retención ni destino","Pedir índice, caja, transferencia o disposición",ARCHIVE_ENTRY_NOT_LOCATED
+NR158_12,Certificados SAF355,0 de 5,La cadena del plan no sustituye certificados ni anexos,Pedir por SAF y anexo,TARGET_CERTIFICATES_NOT_LOCATED
+NR158_13,Filas bancarias target,0 de 10,"Plan, supervisión y archivo siguen siendo capas administrativas",Cerrar con banco y reversas,BANK_EXECUTION_NOT_LOCATED
+NR158_14,Seis solicitudes,No enviadas,"No existe presentación, acuse, plazo ni respuesta",Mantener borradores hasta autorización expresa,DRAFT_NOT_SENT

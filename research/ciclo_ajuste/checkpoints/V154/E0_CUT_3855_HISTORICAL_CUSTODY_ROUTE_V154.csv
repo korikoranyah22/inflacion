@@ -1,0 +1,15 @@
+row_id,element,historic_fact,target_use,source_id,locator,status,target_payment_confirmed
+CU149_01,ACCOUNT,BNA 3855/19 operaba en 1996.,Filtro histórico candidato.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento,HISTORICAL_CONTINUITY_PROVED,FALSE
+CU149_02,CUT,Era cuenta CUT/TGN.,Pedir vigencia 2008.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento,ACCOUNT_ROLE_PROVED_1996,FALSE
+CU149_03,DAILY,BNA emitía extractos diarios.,Pedir fecha valor/secuencia.,e0_cgn_disposition_38_1996_annex_cut_extracts,anexo,FREQUENCY_PROVED,FALSE
+CU149_04,MAGNETIC_A,Primera copia magnética iba a TGN.,Buscar copia TGN.,e0_cgn_disposition_38_1996_annex_cut_extracts,anexo,CUSTODY_ROUTE_PROVED,FALSE
+CU149_05,MAGNETIC_B,Segunda copia magnética iba al SAF.,Buscar copia SAF355.,e0_cgn_disposition_38_1996_annex_cut_extracts,anexo,CUSTODY_ROUTE_PROVED,FALSE
+CU149_06,PAPER,Papel y respaldo iban al SAF.,Pedir soporte/inventario.,e0_cgn_disposition_38_1996_annex_cut_extracts,anexo,DUAL_MEDIA_ROUTE_PROVED,FALSE
+CU149_07,LOADER,TGN cargaba soporte BNA en SIDIF.,Pedir log de carga.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento 1,SYSTEM_ROUTE_PROVED,FALSE
+CU149_08,READER,Proceso leía cada movimiento 3855/19.,Exportar sin filtro inicial.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento 2,MOVEMENT_UNIVERSE_PROVED,FALSE
+CU149_09,FIELDS,"Usaba código, comprobante e importe.",Cruzar referencia/importe.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento 2,FIELD_ROUTE_PROVED,FALSE
+CU149_10,BOOK,Registraba en Libro Banco.,Pedir asiento/marca.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento,BOOK_ROUTE_PROVED,FALSE
+CU149_11,RECONCILED,Marcaba movimientos conciliados.,Pedir estado/reversas.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento,RECONCILIATION_ROUTE_PROVED,FALSE
+CU149_12,DATES,Emisión=extracto; registro=proceso.,Distinguir ambas fechas.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento,DATE_SEMANTICS_PROVED,FALSE
+CU149_13,NEGATIVE_CODE,TRAC/TROD eran transferencias.,No tratarlos como comisión.,e0_cgn_disposition_38_1996_cut_account_3855,procedimiento 2,NEGATIVE_CONTROL,FALSE
+CU149_14,LIMIT,Continuidad no prueba uso target 2008.,Exigir cuerpo/extracto target.,multiple,1996-2019,TARGET_ACCOUNT_OPEN,FALSE

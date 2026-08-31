@@ -1,0 +1,3 @@
+# Veredicto V155
+
+La vuelta encuentra una cadena documental contemporánea y numerada que antes era difusa: CGN elevó la Nota 0120/09 DAIF, SIGEN respondió por Nota 3672/09 GSEyP e instruyó incorporar hallazgos a SISIO para seguimiento y regularización por las UAI. También documenta cotejo SIDIF-DADP, listados parametrizados y correcciones certificadas. Esto vuelve mucho más preciso el reclamo archivístico, pero no recupera los cuerpos autónomos de las notas, el asiento SISIO, los Anexos I-V SAF355 ni el banco. La página actual sólo cubre 2022-2026 y el formulario SIGEN sigue sin enviarse. Resultado 0/10; seis borradores no enviados.

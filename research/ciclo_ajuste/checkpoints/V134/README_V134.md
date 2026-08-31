@@ -1,0 +1,3 @@
+# V134 · FindDoc y cadena C-41
+
+V134 prueba qué entregaba el índice FindDoc/COMDOC y documenta un control histórico real de la AGN sobre otro S01/2008. La salida era hoja de ruta y ubicación, no cuerpo del expediente. El target `S01:0342455/2008` sigue sin consulta ejecutada; quedó lista una vía administrativa oficial, no enviada. Cuatro normas CGN separan emisión C-41, procesamiento, remisión a TGN, débito y C-55. Los SIDIF `71597`, `152677` y `2876` son localizadores exactos, no pagos confirmados. La revisión parlamentaria sólo aporta contexto de archivo masivo; la nota del 18/05/2012 continúa abierta. Resultado estricto sin cambio: 10/10 adjudicaciones, 9/10 cuentas candidatas y 0/10 ejecuciones confirmadas; seis pedidos DRAFT_NOT_SENT.

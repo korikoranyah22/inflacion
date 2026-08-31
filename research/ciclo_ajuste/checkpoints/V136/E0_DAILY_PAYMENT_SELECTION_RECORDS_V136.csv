@@ -1,0 +1,8 @@
+﻿row_id,agency_class,record,minimum_fields,source_id,temporal_status
+DR136_01,"Administración Central, PAGADOR TGN",Copia papel de orden de pago presentada a CGN,C-41 completo; número; SAF; importe; firmas,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,2009_RULE_SUCCESSOR_COMPARATOR
+DR136_02,Administración Central sin SLU,Lista diaria impresa de órdenes seleccionadas para cancelar por CUT,fecha; SAF; órdenes; selección; firma responsable,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,2009_RULE_SUCCESSOR_COMPARATOR
+DR136_03,Organismo descentralizado sin SLU,Autorización de pago transmitida,ejercicio; SAF; fecha; número; beneficiario; CUIT; fuente; banco/sucursal; tipo R/B; importe; cuenta,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,2009_RULE_SUCCESSOR_COMPARATOR
+DR136_04,Organismo descentralizado sin SLU,Lista diaria de autorizaciones,fecha; SAF; autorización; beneficiario; importe; total; firmas,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,2009_RULE_SUCCESSOR_COMPARATOR
+DR136_05,responsables firmantes,Certificación de documentación respaldatoria vista,identidad; cargo; firma; fecha; declaración,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,2009_RULE_SUCCESSOR_COMPARATOR
+DR136_06,pagos al exterior y casos especiales,Nota y soporte papel adicionales,beneficiario; destino; moneda; importe; orden,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,CLASS_CONDITIONAL
+DR136_07,control temporal,Listado de normas derogadas,artículo 7; normas expresamente derogadas,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,CIRCULAR_TGN_7_1997_NOT_LISTED_SUPPORTING_NON_REPEAL_ONLY

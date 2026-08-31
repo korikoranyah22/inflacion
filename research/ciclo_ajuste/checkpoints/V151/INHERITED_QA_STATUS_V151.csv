@@ -1,0 +1,3 @@
+﻿script,pre_v151_result,post_v151_result,interpretation
+qa_v150.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V150 ampliada por doble repositorio y control UAI.
+qa_v151.py,N/A,PASS,"Verifica fuentes, matrices, borradores y 0/10."

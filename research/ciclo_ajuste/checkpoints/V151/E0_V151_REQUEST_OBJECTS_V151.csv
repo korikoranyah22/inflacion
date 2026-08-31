@@ -1,0 +1,19 @@
+﻿object_id,owner_or_system,requested_record,minimum_usable_fields,success_test,negative_response_rule,status
+RO150_01,SAF355,Universo C41/C42/C55,tipo; número SAF; número SIDIF,cada ID clasificado por cuerpo,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_02,SIDIF/CGN,Correlativo de siete dígitos,número; hora; fecha,match crudo y cero relleno,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_03,SAF355/CGN,TRANSAF,archivo; acuse; timestamp,envío y recepción enlazados,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_04,CGN,Original y copia C42,firmas; recepción; imágenes,cuerpo legible e íntegro,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_05,CGN,Cotejo papel/pantalla,operador; fecha; resultado,control enlazado por ID,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_06,CGN,Aprobación C42,estado; fecha; remisión,aprobación diferenciada de pago,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_07,TGN,Recepción y selección,ID; lote; fecha; estado,cadena CGN–TGN,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_08,TGN/BNA/BCRA,Pago/cancelación,fecha valor; signo; moneda; importe; cuenta; referencia,movimiento conciliado y sin reversa,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_09,SAF355,Beneficiario,nombre; código; CUIT; domicilio,identidad exacta,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_10,SAF355/TGN,Banco beneficiario,banco; sucursal; tipo; cuenta,destino separado de cuenta pagadora,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_11,SAF355/TGN,Pagador y cuenta responsable,pagador; banco; código; cuenta,origen financiero exacto,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_12,SAF355,AXT y concepto,AXT; texto íntegro; parciales,match 83106000 y monto,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_13,SAF355/ONCP,Vínculo SIGADE,número; versión; obligación,join reproducible,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_14,SAF355,Documento de respaldo,tipo; número; legajo; inventario,cuerpo original localizado,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_15,SAF355/CGN,Caducidad C42,estado al 31/12/2008,"distinguir caduco, aprobado y pagado","Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_16,SAF355/CGN,Reemisión o regularización C55,antecedente; posterior; relación,secuencia sin doble conteo,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_17,SAF355/UAI,Backup legado,sistema; motor; versión; corte; hash,restore/export verificable,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT
+RO150_18,Archivo SAF355/CGN,Inventario y transferencia,serie; caja; fecha; destino,custodia actual nominada,"Individualizar serie, búsqueda, migración, transferencia o disposición.",DRAFT_NOT_SENT

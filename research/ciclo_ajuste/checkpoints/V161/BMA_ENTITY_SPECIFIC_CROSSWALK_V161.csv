@@ -1,0 +1,9 @@
+﻿period,entity_code,raw_account_set,raw_values_thousand_ars,raw_set_sum_thousand_ars,target_leg,issuer_value_thousand_ars,issuer_page,verdict,scope_limit
+9M-2023,00259,511007+511108,2174590+26976957,29151547,income_bcra,29151547,9M PDF physical 54 / printed 130,EXACT_ENTITY_SPECIFIC_SET,BMA/Itaú 2023 only
+9M-2023,00259,511027,329255,329255,income_otherfi,329255,9M PDF physical 54 / printed 130,EXACT_ENTITY_SPECIFIC,BMA/Itaú 2023 only
+9M-2023,00259,521007+521022,1758+872464,874222,expense_otherfi,874222,9M PDF physical 55 / printed 131,EXACT_ENTITY_SPECIFIC_SET,BMA/Itaú 2023 only
+9M-2023,00259,ABSENT_BCRA_EXPENSE_SET,0,0,expense_bcra,0,9M PDF physical 55 / printed 131,EXACT_ZERO,BMA/Itaú 2023 only
+FY-2023,00259,511007+511108,3638320+76257915,79896235,income_bcra,79896235,FY PDF physical 65 / printed 203,EXACT_ENTITY_SPECIFIC_SET,BMA/Itaú 2023 only
+FY-2023,00259,511027,574991,574991,income_otherfi,574991,FY PDF physical 65 / printed 203,EXACT_ENTITY_SPECIFIC,BMA/Itaú 2023 only
+FY-2023,00259,521007+521022,5494+7076391,7081885,expense_otherfi,7081885,FY PDF physical 66 / printed 204,EXACT_ENTITY_SPECIFIC_SET,BMA/Itaú 2023 only
+FY-2023,00259,ABSENT_BCRA_EXPENSE_SET,0,0,expense_bcra,0,FY PDF physical 66 / printed 204,EXACT_ZERO,BMA/Itaú 2023 only

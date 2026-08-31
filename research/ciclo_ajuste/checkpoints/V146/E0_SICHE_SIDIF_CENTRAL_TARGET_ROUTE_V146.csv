@@ -1,0 +1,15 @@
+﻿route_id,object_or_query,repository_or_scope,target_use,source_id,status,inference_limit
+RT146_01,Gastos,SIDIF Central modelo 95,consulta SICHE,e0_dgsiaf_siche_deployment_2020_q1,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_02,Recursos,SIDIF Central modelo 95,consulta SICHE,e0_dgsiaf_siche_deployment_2020_q1,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_03,Programación de la Ejecución Financiera,SIDIF Central modelo 95,consulta SICHE,e0_dgsiaf_siche_deployment_2020_q1,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_04,Pagos,SIDIF Central modelo 95,consulta SICHE,e0_dgsiaf_siche_deployment_2020_q1,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_05,Entidades Básicas,CUT-SIDIF Central 2007-2014,repositorio histórico,e0_dgsiaf_siche_cut_repository_2020_q2,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_06,Saldos por apertura de cuenta,CUT-SIDIF Central 2007-2014,repositorio histórico,e0_dgsiaf_siche_cut_repository_2020_q2,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_07,Extractos,CUT-SIDIF Central 2007-2014,capa bancaria,e0_dgsiaf_siche_cut_repository_2020_q2,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_08,Logs de Impacto,CUT-SIDIF Central 2007-2014,trazabilidad,e0_dgsiaf_siche_cut_repository_2020_q2,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_09,Consultas especiales,SIDIF Central,consulta SICHE,e0_dgsiaf_siche_deployment_2020_q4,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_10,Conciliación Bancaria,SIDIF Central,consulta SICHE,e0_dgsiaf_siche_deployment_2020_q4,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_11,Programación de la Ejecución,SIDIF Central,mejora 2022,e0_dgsiaf_siche_sidif_central_q2_2022,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_12,Transmisiones,SIDIF Central,mejora 2022,e0_dgsiaf_siche_sidif_central_q2_2022,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_13,Formulario por Pda. Presupuestaria y Sigade,atribución por cronología,consulta nombrada; sistema fuente no rotulado expresamente,e0_dgsiaf_siche_special_queries_2022_q3,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.
+RT146_14,Deuda Exigible hasta 2008 / Gastos por Beneficiarios,atribución por cronología,consultas nombradas; pedir export y metadatos,e0_dgsiaf_siche_special_queries_2022_q3,ROUTE_PROVED_QUERY_NOT_EXECUTED,Capacidad/nombre de consulta no equivale a resultado target.

@@ -76,7 +76,7 @@ data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_oct2018_ciclo.pdf,V96 sou
 data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_sep2018_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=496615.0; sha256=ee5a5188ccf94e93a2079973ba4c4bda8cc886c64c35ec37f0abc988cacf8b38; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0918.pdf
 data/fuentes/ciclo_ajuste/backfill_v96_round3/bcra_isb_sep2024_ciclo.pdf,V96 source backfill round3 payload 20260828_170012,DOWNLOAD_OK revalidated; bytes=473410.0; sha256=f90abc735a9846e8de5ff5a27c87081e96f2d2468f30e0572c7a05731bb8fb67; source=https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/InfBanc0924.pdf
 data/fuentes/ciclo_ajuste/recovered_loose/Infbanc0624.xlsx,Recovered loose Downloads archaeology batch4,PRESERVED_AS_SOURCE_RECOVERED_LOOSE
-data/fuentes/FUENTES.csv,generated/updated V98,V98 adds two physically materialized CMF 2023 archive members and corrects stale archive-body note
+data/fuentes/FUENTES.csv,generated/updated V161 source sync,V161 promotes preserved snapshots and 30 CNV attachments; 577/577 local hash-valid sources.
 data/fuentes/FUENTES_POR_TEMA.md,generated/updated V97,Human source index regenerated for V97
 data/fuentes/hogares/indec/indec_estrategias_manutencion_2025.pdf,SOURCE_BACKFILL_PAYLOAD_V96_20260828_160057.zip,gap 47 P2; indec_estrategias_manutencion_2025; SHA-256 verified 76d22a3aaca2cbbb4a1e2de81e578926d9791f9b7f322487edd79fbf00475ae6; source https://www.indec.gob.ar/ftp/cuadros/publicaciones/dosier_estrategias_manutencion_2025.pdf
 data/fuentes/manual_recovery_v96_final/bcra_boldat202505_tipo_titular.pdf,V96 final manual source recovery,PDF oficial · recuperación manual; sha256=0b466df43189cfef6e96083b5fbe47c28570f933fa108aaae7099fb1a1a73b52; Recuperación manual 2026-08-28 del Boletín Estadístico mayo 2025; el host legacy www7 no resolvía durante el backfill automático. Binario validado localmente por firma PDF y SHA-256.
@@ -2081,7 +2081,7 @@ research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V101.csv,generated/updat
 research/ciclo_ajuste/source_audit/MASTER_LOCAL_HASH_VALIDATION_V101.csv,generated/updated V101,V101 cumulative update
 research/ciclo_ajuste/source_audit/GITHUB_FILE_SIZE_AUDIT_V101.csv,generated/updated V101,Full-repo GitHub size audit after V101
 research/ciclo_ajuste/checkpoints/V101/MANIFEST_V101.json,generated/updated V101,V101 checkpoint manifest; excludes itself by design
-TREE.txt,generated/updated V101,Cumulative repo tree regenerated after V101
+TREE.txt,generated/updated V161 source sync,Cycle inventory regenerated after V161 archival synchronization.
 research/ciclo_ajuste/checkpoints/V102/ANNEX_Q_FREQUENCY_CORRECTION_V86.md,generated/updated V102,V102 checkpoint artifact
 research/ciclo_ajuste/checkpoints/V102/ANNEX_Q_INTERIM_AVAILABILITY_NUANCE_V88.md,generated/updated V102,V102 checkpoint artifact
 research/ciclo_ajuste/checkpoints/V102/AUDITORIA_V100.md,generated/updated V102,V102 checkpoint artifact
@@ -2335,3 +2335,61 @@ research/ciclo_ajuste/source_audit/MASTER_LOCAL_HASH_VALIDATION_V105.csv,generat
 research/ciclo_ajuste/source_audit/SOURCE_BACKUP_CENSUS_V105.csv,generated/updated V105,V105 live CNV target/index and attachment-schema recovery-route artifact
 research/ciclo_ajuste/source_audit/GITHUB_FILE_SIZE_AUDIT_V105.csv,generated/updated V105,V105 live CNV target/index and attachment-schema recovery-route artifact
 research/ciclo_ajuste/source_audit/SOURCE_PRESERVATION_MISSING_V105.csv,generated/updated V105,V105 live CNV target/index and attachment-schema recovery-route artifact
+inputs/source_sync/v161/binaries/banco_corrientes_eeff_fy2023.pdf,Remote source snapshot · recovered V161,Source response preserved locally with size and SHA-256 in the V161 file manifest.
+inputs/source_sync/v161/binaries/banco_rioja_eeff_fy2023.pdf,Remote source snapshot · recovered V161,Source response preserved locally with size and SHA-256 in the V161 file manifest.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_9m2023/estado_contable.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_9m2023/informe_auditor_independiente.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_9m2023/informe_comision_fiscalizadora_sindico.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_9m2023/memoria.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_9m2023/resena_informativa.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_fy2023/estado_contable.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_fy2023/informe_auditor_independiente.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_fy2023/informe_comision_fiscalizadora_sindico.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_fy2023/memoria.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/bma_fy2023/resena_informativa.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_9m2023/estado_contable.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_9m2023/informe_auditor_independiente.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_9m2023/informe_comision_fiscalizadora_sindico.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_9m2023/memoria.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_9m2023/resena_informativa.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_fy2023/estado_contable.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_fy2023/informe_auditor_independiente.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_fy2023/informe_comision_fiscalizadora_sindico.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_fy2023/memoria.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/hsbc_fy2023/resena_informativa.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_9m2023/estado_contable.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_9m2023/informe_auditor_independiente.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_9m2023/informe_comision_fiscalizadora_sindico.docx,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_9m2023/memoria.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_9m2023/resena_informativa.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_fy2023/estado_contable.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_fy2023/informe_auditor_independiente.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_fy2023/informe_comision_fiscalizadora_sindico.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_fy2023/memoria.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_attachments/mariva_fy2023/resena_informativa.pdf,CNV AIF public attachment · recovered V161,Public GetPublicValetKey/DownloadBlob retrieval; CNV-declared and served-byte hashes retained separately.
+inputs/source_sync/v161/binaries/cnv_bma_9m2023_publicview.html,CNV AIF PublicView · copied V161,Full official public-view response with embedded filing and attachment metadata.
+inputs/source_sync/v161/binaries/cnv_bma_fy2023_publicview.html,CNV AIF PublicView · copied V161,Full official public-view response with embedded filing and attachment metadata.
+inputs/source_sync/v161/binaries/cnv_hsbc_9m2023_publicview.html,CNV AIF PublicView · copied V161,Full official public-view response with embedded filing and attachment metadata.
+inputs/source_sync/v161/binaries/cnv_hsbc_fy2023_publicview.html,CNV AIF PublicView · copied V161,Full official public-view response with embedded filing and attachment metadata.
+inputs/source_sync/v161/binaries/cnv_mariva_9m2023_publicview.html,CNV AIF PublicView · copied V161,Full official public-view response with embedded filing and attachment metadata.
+inputs/source_sync/v161/binaries/cnv_mariva_fy2023_publicview.html,CNV AIF PublicView · copied V161,Full official public-view response with embedded filing and attachment metadata.
+inputs/source_sync/v161/binaries/cnv_santander_filings_2023_index.html,Remote source snapshot · recovered V161,Source response preserved locally with size and SHA-256 in the V161 file manifest.
+inputs/source_sync/v161/binaries/todosobrelamora_snapshot.html,Remote source snapshot · recovered V161,Source response preserved locally with size and SHA-256 in the V161 file manifest.
+inputs/source_sync/v161/build_source_sync_file_manifest_v161.py,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/download_cnv_attachments.py,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/extract_cnv_attachments.py,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/fb.publicuploader.js,CNV AIF public frontend · copied V161,Public frontend script preserved to document the attachment-retrieval contract.
+inputs/source_sync/v161/finalize_source_sync_v161.py,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/qa_source_sync_v161.py,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/site.bo.min.js,CNV AIF public frontend · copied V161,Public frontend script preserved to document the attachment-retrieval contract.
+inputs/source_sync/v161/SOURCE_SYNC_CNV_ATTACHMENTS_V161.csv,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/SOURCE_SYNC_FILE_MANIFEST_V161.csv,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/SOURCE_SYNC_REPORT_V161.md,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+inputs/source_sync/v161/update_source_catalog_v161.py,generated/updated V161 source sync,"Reproducible archival synchronization, manifest, report or QA artifact."
+source_audit/CURRENT_SOURCE_COMPLETENESS_V161.json,generated/updated V161 source sync,V161 master-catalog physical and hash completeness audit.
+source_audit/MASTER_LOCAL_HASH_VALIDATION_V161.csv,generated/updated V161 source sync,V161 master-catalog physical and hash completeness audit.
+source_audit/SOURCE_BACKUP_CENSUS_V161.csv,generated/updated V161 source sync,V161 master-catalog physical and hash completeness audit.
+source_audit/SOURCE_PRESERVATION_MISSING_V161.csv,generated/updated V161 source sync,V161 master-catalog physical and hash completeness audit.
+inputs/issuer_retrieval/v93/binaries/008_Diseño Memoria y Balance General 2023 web.pdf,canonical Unicode copy V161,Byte-identical canonical-path copy; prior mojibake-named source retained.
+TRANSPARENCY_README.md,generated/updated V161 source sync,V161 archival completeness and CNV hash-anomaly disclosure appended.
+MANIFEST_SHA256.json,generated/updated V161 source sync,Global repository manifest regenerated after V161 archival synchronization.

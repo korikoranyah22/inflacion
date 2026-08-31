@@ -1,0 +1,13 @@
+﻿row_id,token_or_source,documented_expansion_or_context,temporal_relation,allowed_inference,unproved_link,search_action,status
+GN156_01,GSEyP,Aparece en Nota SIGEN 3672/09 referida por Cuenta 2009,2009 target,Token exacto de búsqueda,Expansión institucional,Buscar literal y variantes,TARGET_TOKEN
+GN156_02,3672/09,Número exacto asociado a GSEyP,2009 target,Buscar por número,Cuerpo y firma,"Pedir libro, COMDOC, caja y SISIO",TARGET_IDENTIFIER
+GN156_03,0120/09 DAIF,Antecedente remitido a SIGEN,2009 target,Cadena emisor-destino,Unidad receptora completa,Buscar distribución y acuse,TARGET_IDENTIFIER
+GN156_04,GSEPyPF,Inventario posterior lo asocia al informe global Cuenta 2008,2009 referido después,Token alternativo legítimo,Equivalencia con GSEyP,Buscar separado,DISTINCT_TOKEN
+GN156_05,Resolución SIGEN 93/2013,"Expande GSEPyPF como Gerencia de Supervisión de Economía, Producción y Planificación Federal",2013 posterior,Fija expansión larga,Identidad con token corto,Sólo desambiguar,EXPANSION_PROVED
+GN156_06,Economía,Componente literal en GSEPyPF,2013 posterior,Área material coincidente,Misma unidad,No fusionar por palabra,ACRONYM_CONTROL
+GN156_07,Producción,Componente literal en GSEPyPF,2013 posterior,Expansión parcial,Presencia en GSEyP,Buscar organigrama 2009,ACRONYM_CONTROL
+GN156_08,Planificación Federal,Componente literal en GSEPyPF,2013 posterior,Expansión parcial,Qué representa P en 2009,Buscar firma contemporánea,ACRONYM_CONTROL
+GN156_09,Decreto 1359/2004,"Estructura Economía, no SIGEN",Target period,Control temporal UAI,Gerencias SIGEN,No expandir acrónimo,CROSS_INSTITUTION_LIMIT
+GN156_10,Resolución SIGEN 15/2006,Regla SISIO aplicable,Target period,Buscar entradas y constancias,Nombre completo GSEyP,No resolver unidad,SYSTEM_LIMIT
+GN156_11,Cuerpo o firma 3672/09,Evidencia decisiva ausente,2009 target,Podría cerrar equivalencia,Contenido actual,Prioridad de recuperación,OPEN_LINK
+GN156_12,Regla final,Similitud ortográfica no basta,Todos,Mantener tokens separados,GSEyP igual a GSEPyPF,No fusionar,METHOD_LIMIT

@@ -1,0 +1,6 @@
+﻿row_id,printed_object,printed_label,target_values,directly_proves,does_not_prove,status
+DT137_01,Anexo K,SIDIF,71597;152677;2876,identificadores SIDIF alineados a 83106000,tipo C-41,EXACT_LOCATORS_DOCUMENT_TYPE_OPEN
+DT137_02,Cuadro 1-A,SAF N°355,Dirección de Administración de la Deuda Pública,productor institucional,caja o formulario,PRODUCER_EXACT
+DT137_03,Decreto 1344/2007,salida del Tesoro requiere orden,Jurisdicción90;Deuda Pública,debe existir una orden en el circuito,que el número impreso en Anexo K sea el de esa orden,ORDER_REQUIRED_NUMBER_LINK_OPEN
+DT137_04,Manual TGN,débito automático,gastos bancarios;regularización,ruta alternativa para comisiones bancarias,que se usó en los tres target,ALTERNATIVE_BRANCH_OPEN
+DT137_05,Cierre V137,hipótesis bifurcada,orden/C41 o regularización/débito,dos paquetes documentales buscables,ejecución,DO_NOT_PREJUDGE_DOCUMENT_TYPE

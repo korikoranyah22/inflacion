@@ -1,0 +1,7 @@
+﻿control_id,source_id,local_path,pdf_page,rendered_check,result
+PV141_01,e0_dgsiaf_siche_cut_repository_2020_q2,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_dgsiaf_bulletin_2020_q2_siche_cut_2007_2014.pdf,9,"SICHE CUT-SIDIF Central 2007-2014; Entidades, Saldos, Extractos y Logs",PASS
+PV141_02,e0_tgn_treasury_system_v3_2022_cut_extract,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_treasury_system_v3_2022.pdf,63,auditor CUT; formulario respaldatorio; modelo de extracto y campos,PASS
+PV141_03,e0_tgn_cut_auditor_instruction_2025,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_disposition_10_2025_cut_auditor.pdf,7,BNA versus Libro Banco y cuentas de operación,PASS
+PV141_04,e0_tgn_cut_auditor_instruction_2025,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_disposition_10_2025_cut_auditor.pdf,21,semántica de grilla vacía y atributos del auditor,PASS
+PV141_05,e0_tgn_cut_auditor_instruction_2025,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_disposition_10_2025_cut_auditor.pdf,36,detalle de movimiento de extracto y comprobante bancario,PASS
+PV141_06,e0_tgn_cut_auditor_instruction_2025,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_disposition_10_2025_cut_auditor.pdf,41,"formulario defectuoso, diferencia neta y documentación del hallazgo",PASS

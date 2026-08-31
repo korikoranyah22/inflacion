@@ -1,0 +1,4 @@
+coverage_set,basis,period,asset_numerator_million_ars,system_assets_million_ars,asset_coverage_pct,increment_vs_v105_pp,quality,closed_network_gate,v106_change
+V106 strict 30-entity set after physical-source promotion of Hipotecario + Columbia + BACS + BMR + BTF + VOII,INDIVIDUAL_ENTITY_REGULATORY / INDIVIDUAL_ISSUER / SEPARATED_INDIVIDUAL / STANDALONE_ISSUER / ENTITY_SPECIFIC_RESIDUAL_VALIDATION / INDIVIDUAL_ENTITY_NO_SUBSIDIARIES,Q4-2023,59812903.504,96697695.5,61.85556252889191138996688912819023696381678506495534839297178493772894515361020159989231594459249549,2.07796678256929090931644798091387813890559573883536862571869667773002925390295366449555154459249549,ALL_FOUR_LEGS_EXACT_THIRTY_ENTITIES,NO_MAJORITY_COVERAGE_BUT_NETWORK_STILL_OPEN,"Eleven original issuer PDFs preserved, hashed and visually revalidated; six analytically resolved source holds promoted without changing their frozen Q4 arithmetic."
+
+

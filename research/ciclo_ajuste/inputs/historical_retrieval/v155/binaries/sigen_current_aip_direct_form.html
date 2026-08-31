@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Acceso a la información pública
+</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        function validarProvincia(oSrc, args){
+        args.IsValid = (args.Value!='-1');
+        }
+</script>
+</head>
+<body>
+    <form method="post" action="./Default.aspx" id="form1" autocomplete="off">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTgyODIwNTA1Mw9kFgICAw9kFgICEQ8QZA8WGWYCAQICAgMCBAIFAgYCBwIIAgkCCgILAgwCDQIOAg8CEAIRAhICEwIUAhUCFgIXAhgWGRAFDChTZWxlY2Npb25lKQUCLTFnEAUMQnVlbm9zIEFpcmVzBQNCVUVnEAUPQ2FwaXRhbCBGZWRlcmFsBQNDQVBnEAUJQ2F0YW1hcmNhBQNDQVRnEAUIQ8OzcmRvYmEFA0NCQWcQBQVDaGFjbwUDQ0hBZxAFBkNodWJ1dAUDQ0hVZxAFCkNvcnJpZW50ZXMFA0NPUmcQBQtFbnRyZSBSw61vcwUDRVJJZxAFB0Zvcm1vc2EFA0ZPUmcQBQVKdWp1eQUDSlVKZxAFCExhIFBhbXBhBQNMQVBnEAUITGEgUmlvamEFA0xSSmcQBQhNaXNpb25lcwUDTUlTZxAFB01lbmRvemEFA01aQWcQBQhOZXVxdcOpbgUDTkVVZxAFClLDrW8gTmVncm8FA1JOT2cQBQVTYWx0YQUDU0FMZxAFClNhbnRhIENydXoFA1NDUmcQBQhTYW50YSBGZQUDU0ZFZxAFE1NhbnRpYWdvIGRlbCBFc3Rlcm8FA1NHT2cQBQhTYW4gSnVhbgUDU0pVZxAFCFNhbiBMdWlzBQNTTFVnEAUQVGllcnJhIGRlbCBGdWVnbwUDVERGZxAFCFR1Y3Vtw6FuBQNUVUNnFgFmZGQ5UFXFOfQ1t/km0fQg4KI8fwdSOq/vvgt3CLi0bK7E1w==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="772784C4" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACor84dvTwgIVv9mZUBWINKMSilorlJxqTle8MnWDqq3D5SLzu2VGwuwElyBZM694Yb/0Tl9uAPcNVyBo4msONhORsgThB0SEiIY4OP0fNIwlSO5ESXKzV9PwnfG6CqWZ/Nscr4I8TjzvhEroJ5aiyjg/QRfBi3QVAMotmj4e1EkWtvjSoPlhPThTnEch5TFcoeR6IncdtwpLh+1OovCPmgiHbK7JGwquVly4EYYfS6uI6QGP2rpYETcEcmzAvITJyQRJDjyzxzpG10Xxjp5pQ067aSpAevNXqnei8oS71epwwSLY6PUH6uYSNwMU78Yp4f92KzedjegL8YrNYoZNt/YtMDqJJf0aW9ZZ3ZIPmWx9S9gMMmASUdTq1eQQp32OYBBw/o1hl4fEW/NjAFe29s3GAwoy2A2KPX/hzsOel53LiltFyKjfj8s2wHYTSBfptbPFJWrwwxJHh60ULYb0B1T5pxxxOqUJrqXuMnzGkn249+2txzt+4caijRLtWqL1UOEcuqtt9vVnrPA5+NEEoiSPF503SmqATELLn9E5RgOvOgdnO0OHBeyyPthiyt59bg/FsD1o4Rz4xnlqp540CWU3RcTQBgnGPwWoUraYdlIAi3+JVAn6DCc+HphJfBYB5J+6c92tfFnyc5VSMfspW5K4eP8ywdYu7gi+Xm+YMclvR41EYpvmb00s8qPGdIIuSXpiTAeOKbeX8SRezTeqRCQDqxg0hClx41945pZwk0F4YENzNeG806hL8G5GDumve7Y5iFgpTsfYs8sqYCLECKknu/kaH1akkD4fnHcAoTrf0Dq1/YCD9XI+4+0AeufEpMQ6PqM5zVJRL/jsnjqxlzjQ6C8/KrPj5zWy/pRFLTzOm3x+4qwIw+g5LPNtC+WpE3wVcwv7t78kiYofEx84QASqKbX2atgS7Eu0bxbRNMfQw==" />
+    <section class="section half-section-left">
+		<div class="container-fluid">
+			<div class="row" style="background-color:#3399CC;">
+				<div>
+                    <div class="col-sm-6 hidden-xs" style="width:250px; float:left"><img src="http://www.sigen.gob.ar/imagenes/mision.jpg" width="250" /></div>
+                    <div class="col-sm-6" style="width:280px; float:right"><img src="http://www.sigen.gob.ar/imagenes/galeria/logo-sigen-galeria.png" alt="SIGEN"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <div class="content" id="content">
+	    <section class="section half-section-right">
+		    <div class="container">
+                <div class="section-header alt-style">
+				    <h1 style="font-size:30px !important; color:#0097c9; padding-left:5px;">Ingrese su solicitud</h1>
+					<small class="text-uppercase strong base-color">Formulario de Ingreso de Datos</small>
+				</div>
+
+                <hr class="divider">
+
+                <div class="container">
+                    <strong class="text-primary">Datos Personales</strong>
+                </div>
+                <br />
+                <div class="col-sm-2">Apellido (*): </div>
+                <div class="col-sm-4">
+                    <input name="txtApellido" type="text" maxlength="50" id="txtApellido" title="Ingrese su apellido" placeholder="Ingrese su apellido" class="form-control" />
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">Nombre (*): </div>
+                <div class="col-sm-4">
+                    <input name="txtNombre" type="text" maxlength="50" id="txtNombre" title="Ingrese su nombre" placeholder="Ingrese su nombre" class="form-control" />
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">Domicilio (*): </div>
+                <div class="col-sm-4">
+                    <input name="txtDomicilio" type="text" maxlength="50" id="txtDomicilio" title="Ingrese su domicilio" placeholder="Ingrese su domicilio" class="form-control" />
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">CP (*): </div>
+                <div class="col-sm-4">
+                    <input name="txtCP" type="text" maxlength="8" id="txtCP" title="Ingrese su código postal" placeholder="Ingrese su código postal" class="form-control" />
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">Provincia (*): </div>
+                <div class="col-sm-4">
+                    <select name="cboProvincias" id="cboProvincias" title="Seleccione una provincia" class="form-control">
+	<option selected="selected" value="-1">(Seleccione)</option>
+	<option value="BUE">Buenos Aires</option>
+	<option value="CAP">Capital Federal</option>
+	<option value="CAT">Catamarca</option>
+	<option value="CBA">C&#243;rdoba</option>
+	<option value="CHA">Chaco</option>
+	<option value="CHU">Chubut</option>
+	<option value="COR">Corrientes</option>
+	<option value="ERI">Entre R&#237;os</option>
+	<option value="FOR">Formosa</option>
+	<option value="JUJ">Jujuy</option>
+	<option value="LAP">La Pampa</option>
+	<option value="LRJ">La Rioja</option>
+	<option value="MIS">Misiones</option>
+	<option value="MZA">Mendoza</option>
+	<option value="NEU">Neuqu&#233;n</option>
+	<option value="RNO">R&#237;o Negro</option>
+	<option value="SAL">Salta</option>
+	<option value="SCR">Santa Cruz</option>
+	<option value="SFE">Santa Fe</option>
+	<option value="SGO">Santiago del Estero</option>
+	<option value="SJU">San Juan</option>
+	<option value="SLU">San Luis</option>
+	<option value="TDF">Tierra del Fuego</option>
+	<option value="TUC">Tucum&#225;n</option>
+
+</select>
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">Localidad (*): </div>
+                <div class="col-sm-4">
+                    <select name="cboLocalidades" id="cboLocalidades" title="Seleccione una localidad" class="form-control">
+
+</select>
+                </div>
+                <div class="col-sm-12">&nbsp;</div>
+                <div class="col-sm-2">Teléfono (*): </div>
+                <div class="col-sm-4">
+                    <input name="txtTelefono" type="text" maxlength="20" id="txtTelefono" title="Ingrese su teléfono" placeholder="Ingrese su teléfono" class="form-control" />
+                    &nbsp;
+                </div>
+                <div class="col-sm-2">Celular: </div>
+                <div class="col-sm-4">
+                    <input name="txtCelular" type="text" maxlength="20" id="txtCelular" title="Ingrese su celular" placeholder="Ingrese su celular" class="form-control" />
+                </div>
+                <div class="col-sm-12"></div>
+                <div class="col-sm-2">Tipo de documento: </div>
+                <div class="col-sm-4">
+                    <select name="txtTipoDoc" id="txtTipoDoc" title="Ingrese su tipo de documento" class="form-control">
+	<option value="DNI">DNI</option>
+	<option value="LC">LC</option>
+	<option value="LE">LE</option>
+	<option value="Pasaporte">Pasaporte</option>
+	<option value="CI">CI</option>
+	<option value="DNI Ext">DNI Ext</option>
+
+</select>
+                </div>
+                <div class="col-sm-2">Nro. de documento (*):</div>
+                <div class="col-sm-4">
+                    <input name="txtDocumento" type="text" maxlength="10" id="txtDocumento" title="Ingrese su número de documento" placeholder="Ingrese su número de documento" class="form-control" />
+                    &nbsp;
+                </div>
+                <div class="col-sm-12">&nbsp;</div>
+                <div class="col-xs-2">E-mail (*): </div>
+                <div class="col-xs-10">
+                    <input name="txtMail" maxlength="50" id="txtMail" title="Ingrese su mail" placeholder="Ingrese su mail" type="email" class="form-control" />
+                    &nbsp;
+                    &nbsp;
+                </div>
+            </div>
+            <br />
+            <div class="container">
+                <strong class="text-primary">Detalle de la información solicitada</strong> (*)
+            </div>
+            <br />
+            <div class="container">
+                <textarea name="txtDetalle" rows="6" cols="20" id="txtDetalle" title="Ingrese el detalle de la información solicitada" class="form-control">
+</textarea>
+                &nbsp;
+            </div>
+
+            <div class="container">
+                <small class="small">Los campos marcados con (*) son obligatorios.</small>
+                
+            </div>
+            <hr class="divider">
+            <div class="container bottom-right">
+                <input type="submit" name="btnIngresar" value=" Ingresar " onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnIngresar&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="btnIngresar" title="Haga clic aquí para ingresar la solicitud" class="btn btn-success btn-lg" />
+                <input type="Reset" value=" Borrar " class="btn btn-info btn-lg" />
+            </div>
+        </section>
+    </div>
+    </form>
+</body>
+</html>

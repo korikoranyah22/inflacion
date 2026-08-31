@@ -1,0 +1,21 @@
+﻿row_id,structural_level,action_number,duty,record_class,target_use,temporal_limit,status
+UD155_01,UAI,Responsabilidad primaria,Mantener control interno adecuado,Evaluación institucional,Ubica productor de control,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_02,UAI,1,"Examen independiente, objetivo, sistemático y amplio",Informes y papeles,Pedir índice de auditorías,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_03,UAI,2,Establecer planificación,Planificación,Pedir plan y modificaciones,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_04,UAI,3,Elaborar Plan Anual,Plan anual,Pedir plan 2009,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_05,UAI,8,Informar avance del Plan al Ministro y Comité,Reportes de avance,Pedir ejecución del plan,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_06,UAI,10,Evaluar actos de trascendencia económica,Papeles e informes,Buscar recompras por materialidad,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_07,UAI,11,Verificar principios contables y niveles presupuestarios,Pruebas contables,Pedir pruebas sobre cierre,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_08,UAI,12,Constatar confiabilidad de antecedentes,Papeles de trabajo,Pedir fuentes de certificados,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_09,UAI,13,Precisar exactitud del registro de activos y resguardos,Pruebas patrimoniales,Pedir registro/custodia de títulos,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_10,UAI,14,Emitir opinión sobre estados contables de ejecutoras,Opiniones/certificados,Pedir cuerpo y firma,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_11,UAI,15,Producir informes periódicos,Libro de informes,Pedir inventario y números,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_12,UAI,16,Comunicar desvíos a autoridades y SIGEN,Notas y remisiones,Pedir acuses y distribución,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_13,UAI,17,Seguir recomendaciones y observaciones,SISIO/seguimientos,Pedir altas y cierres,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_14,UAI,18,Informar temas requeridos por SIGEN,Respuestas a requerimientos,Pedir cadena 3672/09,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_15,Supervisión,9,Controlar trámites de consolidación de deuda y circulares,Actuaciones obligatorias,Identifica familia deuda/control,Decreto julio 2010; no recompra probada,POST_TARGET_COMPARATOR
+UD155_16,Cumplimiento,2,"Controlar consolidación de deuda, perjuicio fiscal y recupero",Papeles e informes,Pedir inventario temático,Decreto julio 2010; operatoria distinta,POST_TARGET_COMPARATOR
+UD155_17,Gestión contable,3,Revisar y conformar papeles de trabajo,Papeles de evidencia,"Pedir índice, soporte y disposición",Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_18,Órganos rectores,1,Auditar órganos de administración financiera Ley 24.156,Informes sobre CGN/TGN/ONCP,Pedir proyectos 2009,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_19,Órganos rectores,2,Revisar y conformar papeles de trabajo,Papeles de evidencia,Pedir referencias y anexos,Decreto julio 2010,POST_TARGET_COMPARATOR
+UD155_20,Regla V155,N/A,Usar sólo como comparador inmediato posterior,Control metodológico,No atribuir organigrama 2010 a 2009,Diferencia temporal explícita,METHOD_LIMIT

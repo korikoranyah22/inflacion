@@ -1,0 +1,203 @@
+PAGE 1
+Julio 2022
+Transaf
+Transmisiones SAF
+Principales funciones operativas de uso
+Guía de ayuda para el usuario
+
+PAGE 2
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+ÍNDICE
+Introducción ………………………………………………………………………………………………………………………….……………… 3
+Objetivos de la funcionalidad
+Alcance
+Permisos/Roles
+Asignación de ícono Transaf desde GESUS
+Acceso a la aplicación web ………………………………………………………………………………………….…………….……. 7
+Enviar Lotes hacia Sidif Central ……………………………………………………………………………….……………….…… 9
+Validaciones y mensajes ……………………………………………………………………….……..……………….…………..……. 13
+Recibir Lotes desde el Sidif Central ………………………………………………………………………….……………..…… 15
+Validaciones y mensajes ……………………………………………………………………………………………….…..……….…… 17
+Historial de descargas ………………………………………………………………………..……..……………….…………..….…… 18
+Ayuda ……………………………………………………………………………………………………………..……………………….……..….… 20
+
+PAGE 3
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Introducción
+Objetivos de la funcionalidad
+El objetivo de la aplicación es proveer a los Organismos con sistemas propios, una herramienta alternativa para la
+transmisión de lotes al Sidif Central.
+Alcance
+Los Usuarios que tendrán acceso a esta herramienta son: SAF 320, SAF 335 y SAF 606.
+Permisos/Roles
+La aplicación contiene un único rol/permiso:
+● Transmitir lotes: Este rol habilita el envío y recepción de lotes a los usuarios que lo tengan asignado.
+Para acceder a la aplicación es necesario que el Administrador Local de cada uno de estos SAF, mediante el
+sistema GESUS, publique el ícono y el rol correspondiente a los usuarios finales.
+3
+
+PAGE 4
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Introducción
+Asignación de ícono Transaf desde GESUS
+Los Administradores Locales de los siguientes Organismos: SAF 320, SAF 606 y SAF 335, tendrán disponible en su
+perfil la aplicación web Transaf para poder otorgar a los usuarios finales que así lo requieran.
+Para ello, deberán posicionarse sobre el usuario, desplegar las opciones mediante el ícono “triángulo” y luego ingresar
+a la opción “Administrar aplicaciones”, como se muestra a continuación.
+4
+
+PAGE 5
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Introducción
+Se desplegará la ventana Administrar aplicaciones, desde la cual se deberá tildar el “checkbox” de la aplicación
+Transaf y luego presionar el botón Listo.
+¡ATENCIÓN!
+Luego de asignar el ícono de acceso a la aplicación, el
+Administrador Local deberá hacer click sobre el mismo para
+habilitar el rol que permite operar con la herramienta de
+transmisión.
+5
+
+PAGE 6
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Introducción
+El rol se asigna tildando el checkbox “Transmitir lotes”. Una vez tildado el permiso, se pulsa el botón Listo y el usuario
+queda habilitado para operar.
+6
+
+PAGE 7
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Acceso a la aplicación web
+El usuario ingresará a través del siguiente enlace: https://apps.dgsiaf.mecon.gov.ar/transaf/
+Debe loguearse con su usuario DNI y contraseña, tal como se muestra en la captura de pantalla a continuación:
+7
+
+PAGE 8
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Acceso a la aplicación web
+Una vez dentro de la aplicación Transaf, visualizará la siguiente pantalla:
+Con las siguientes funcionalidades disponibles:
+8
+
+PAGE 9
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Enviar Lotes hacia Sidif Central
+Desde esta opción se transmiten los lotes desde la PC del Usuario del SAF al Sidif Central:
+Al seleccionar la opción Enviar Lotes, se despliega la siguiente pantalla de transmisión que posibilitará Subir Archivos:
+9
+
+PAGE 10
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Enviar Lotes hacia Sidif Central
+Subir archivo:
+Al hacer click sobre el ícono “Subir Archivos”, se habilita la carga de archivos. El usuario podrá buscar en su PC (en
+cualquier lugar donde lo tenga guardado), el archivo que necesita transmitir y seleccionarlo para su incorporación. La
+aplicación permite realizar una selección múltiple de archivos de ser necesario, para subirlos todos juntos en una misma
+acción.
+10
+
+PAGE 11
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Enviar Lotes hacia Sidif Central
+Otra manera de subir los archivos consiste en arrastrar los mismos hacia el área de transmisión, donde se encuentra el
+ícono Subir Archivo.
+Una vez “subido” el archivo, quedará visible debajo del recuadro, tal como se observa en la imagen:
+En caso de necesitar eliminarlo, se puede hacer click en el cesto ubicado a la derecha del archivo.
+La transmisión se ejecuta cuando se presiona el botón TRANSMITIR.
+11
+
+PAGE 12
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Enviar Lotes hacia Sidif Central
+Si la transmisión resulta exitosa, el sistema arroja un mensaje de confirmación de envío de lote, como el que se
+presenta a continuación:
+En el caso de que la aplicación no pueda realizar el envío del lote, arrojará un mensaje de error advirtiendo el problema
+detectado.
+12
+
+PAGE 13
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Validaciones y mensajes
+Validaciones al Enviar Lote
+● MENSAJE: "El nombre es inválido, verifique los primeros 5 caracteres."
+Se valida que los primeros 5 caracteres estén dentro de esta lista: ('GMRCA', 'GSBEN', 'GSCAB', 'GSDED', 'GSITE',
+'NMCDP', 'NMCES', 'NMPGC', 'NMPGD', 'NMPGI', 'NMRCA', 'NMRIT', 'NMSEL', 'SDADP', 'SDBEI', 'SDBNI', 'SDCCA',
+'SDCDP', 'SDCED', 'SDCES', 'SDCET', 'SDCIT', 'SDCNI', 'SDCRS', 'SDCTI', 'SDDNI', 'SDGBE', 'SDGCA', 'SDGDE', 'SDGIT',
+'SDGRE', 'SDGSP', 'SDGST', 'SDITR', 'SDLOG', 'SDMCA', 'SDMIT', 'SDNDC', 'SDNDI', 'SDPTE', 'SDSOP', 'TEST1', 'TEST2').
+● MENSAJE: "Los archivos tienen que tener el mismo nro. de lote."
+Se valida que los archivos a enviar tengan todos el mismo número de lote.
+● MENSAJE: "Falta el número de lote en el nombre del archivo."
+Se valida que el archivo contenga el nro. de lote y esté compuesto por 3 dígitos.
+● MENSAJE: "El archivo se encuentra vacío."
+Se valida que el archivo no esté vacío.
+13
+
+PAGE 14
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Validaciones y mensajes
+Validaciones al Enviar Lote
+● MENSAJE: "El tipo de archivo es inválido. El tipo permitido es .CON."
+Se valida la extensión del archivo.
+● MENSAJE: "El nombre del archivo debe ser en mayúsculas."
+Se valida el nombre del archivo, debe estar en mayúsculas.
+● MENSAJE: "El archivo no puede superar los 100k."
+Se valida el tamaño del archivo, no debe superar los 100k.
+14
+
+PAGE 15
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Recibir Lotes desde el Sidif Central
+Desde esta opción del menú, es posible realizar la recepción de los lotes:
+Cuando se selecciona este ícono, se despliega una pantalla de recepción de lotes. Si hay lotes para recibir, la aplicación
+mostrará automáticamente todos los lotes disponibles. El usuario deberá realizar la descarga manual de cada uno de
+ellos desde el ícono correspondiente, situado en la última columna disponible.
+15
+
+PAGE 16
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Recibir Lotes desde el Sidif Central
+Una vez ejecutada la descarga de manera exitosa, la aplicación arrojará el siguiente mensaje:
+16
+
+PAGE 17
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Validaciones y mensajes
+Validaciones al Descargar Lote
+● MENSAJE: "No se recuperaron correctamente los archivos para el lote con Ejercicio:" ejercicio + "- Nodo: " +
+nodo + "- Nro Trans: " Nrotrans + ."
+● MENSAJE: "La entidad que desea ingresar ya existe."
+● MENSAJE: "No se pudo generar el zip."
+En el caso de que al momento de la descarga surgiera alguno de los errores arriba mencionados, deberán comunicarse
+con el Centro de Atención a Usuarios para evaluar la solución requerida en cada caso.
+17
+
+PAGE 18
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Historial de descargas
+Este punto del menú permite consultar descargas realizadas en los últimos 30 días y volver a descargar archivos de ser
+necesario.
+Al presionar esta opción, se despliega una ventana de búsqueda. Puede realizarse la búsqueda por una fecha o rango
+de fecha determinado y/o por número de lote.
+18
+
+PAGE 19
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Historial de descargas
+Una vez ingresados los filtros deseados, pulsar el botón Confirmar. En caso de optar por no utilizar ningún filtro para
+acotar la búsqueda, directamente Confirmar. Se recuerda que el historial de descargas sólo permite descargar lotes
+de los últimos 30 días.
+19
+
+PAGE 20
+DGSIAF │ TRANSAF │ Transmisiones SAF | Principales funciones operativas de uso
+Ayuda
+La herramienta cuenta con un ícono Ayuda desde donde se puede acceder a un teléfono y mail de contacto, como así
+también un acceso directo a esta guía de usuario Transaf.
+20
+
+PAGE 21
+Julio 2022
+Transaf
+Centro de Atención a Usuarios y Réplicas
+mesa@mecon.gob.ar
++54 (11) 4349-8700

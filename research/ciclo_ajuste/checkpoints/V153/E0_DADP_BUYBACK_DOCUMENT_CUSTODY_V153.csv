@@ -1,0 +1,9 @@
+row_id,object,contemporaneous_rule,request_use,source_id,locator,status,target_commission_proved
+DP149_01,OFFERS,Procedimiento documenta ofertas.,Pedir planillas/soporte.,e0_argentina_rc_212_24_2008_recompra,§1,PRODUCER_ROUTE_PROVED,FALSE
+DP149_02,PREADJUDICATION,ONCP confecciona preadjudicación.,Pedir versión firmada.,e0_argentina_rc_212_24_2008_recompra,§1,RECORD_CLASS_PROVED,FALSE
+DP149_03,TRANSFER,Caja informa títulos transferidos.,Pedir comunicación.,e0_argentina_rc_212_24_2008_recompra,§1,RECORD_CLASS_PROVED,FALSE
+DP149_04,PAYMENT,Finanzas paga en cuenta BCRA.,Pedir instrucción/resultado.,e0_argentina_rc_212_24_2008_recompra,§1,PAYMENT_ROUTE_PROVED,FALSE
+DP149_05,CUSTODIAN,Documentación queda en DADP.,Pedir inventario/legajo.,e0_argentina_rc_212_24_2008_recompra,§1.13,NAMED_CUSTODIAN_PROVED,FALSE
+DP149_06,CONTROL,Custodia es para control competente.,Pedir copia/índice.,e0_argentina_rc_212_24_2008_recompra,§1.13,CONTROL_PURPOSE_PROVED,FALSE
+DP149_07,CROSSWALK,Legajo puede enlazar orden bancaria.,Pedir IDs/remisiones.,e0_argentina_rc_212_24_2008_recompra,§1,REQUEST_OBJECT,FALSE
+DP149_08,LIMIT,Norma no vincula 83106000.,No atribuir sin cuerpo.,e0_argentina_rc_212_24_2008_recompra,integral,TARGET_LINK_OPEN,FALSE

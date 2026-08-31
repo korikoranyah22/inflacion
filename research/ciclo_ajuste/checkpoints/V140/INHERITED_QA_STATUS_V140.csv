@@ -1,0 +1,3 @@
+﻿script,pre_v140_result,post_v140_result,interpretation
+qa_v139.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V139 queda supersedida por consultas SICHE nombradas, crosswalk de Pagos y runbook V140."
+qa_v140.py,N/A,PASS,"Fuentes, hashes, consultas, límites de inferencia, trazabilidad y no envío verificados."

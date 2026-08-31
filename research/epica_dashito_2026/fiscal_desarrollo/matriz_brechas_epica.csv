@@ -1,0 +1,17 @@
+item_epica,estado,disponible,faltante,regla_no_inferencia,prioridad_siguiente,fecha_corte
+3,parcial,"Resultado SPN, cuenta corriente y evidencia de uso/stock de ahorro",cuenta por sector institucional hogares vs sociedades no financieras; ingreso disponible y formación de capital,No se puede repartir el balance privado entre hogares y empresas,alta,2026-08-31
+4,parcial,"Salarios por sector, hogares, Estado y capital público",jubilación base+bono real mensual; bancos/fintech; empresas; provincias; subsidios y transferencias con universo común,Matriz no aditiva; causalidad baja,alta,2026-08-31
+17,parcial,Aprobados/evaluación RIGI y un proyecto con temporal/permanente,"ejecución financiera, empleo realizado, proveedores/import content por proyecto",Empleo oficial es proyectado,alta,2026-08-31
+18,parcial,EMAE vs empleo privado registrado,"capital, productividad, empleo y masa salarial por sector",No hay elasticidad sectorial,alta,2026-08-31
+19,no estimable,Coincidencia de recuperación de actividad y menor empleo privado,"panel sectorial de inversión real, horas, empleo y salarios",No calcular elasticidad inversión-empleo con agregados,media,2026-08-31
+20,mecánico completo; causal pendiente,Curva de neutralidad aritmética,elasticidad de formalización/evasión/actividad y traslado a precios,No asumir respuesta de base,media,2026-08-31
+21,no medible,Ninguno comparable,definir 'Buenos Aires/27 distritos'; costo funcional y recursos por nivel,Escenario ambiguo y sin perímetro,media,2026-08-31
+22,no medible,Ninguno comparable,"saldos a favor, plazos y costo financiero PyME; expediente jurídico Misiones",Cautelar no equivale a sentencia,media,2026-08-31
+23,parcial,Resultado fiscal e inversión pública,"depreciación, mantenimiento y condición física de activos",No existe resultado fiscal ajustado sin tasa de depreciación y stock,alta,2026-08-31
+24,no medible,Ninguno granular,"caja mínima, compromisos, cartera y prestaciones por organismo",Liquidez no prueba mala prestación,media,2026-08-31
+25,no medible,Flujo agregado de inversión con algunas funciones,"salarios, vacantes, personal, obra, insumos, matrícula y prestaciones compatibles",Gasto no es capacidad ni outcome,media,2026-08-31
+36,sólo marco,Trayectoria observada,modelo y supuestos explícitos para cada contrafactual,No afirmar inevitabilidad ni resultado contrafactual,media,2026-08-31
+37,parcial,"Fiscal, RIGI y concesiones clasificados","inventario completo de medidas, objetivos e indicadores antes/después",Aprobado/cerrado no es outcome,alta,2026-08-31
+38,parcial,Matriz de procedencia INDEC/OPC/PEN,"mandatos, cambios normativos, series de publicación y auditorías",Control institucional requiere análisis jurídico separado,alta,2026-08-31
+39,no medible,Ninguno local,"Cámara Nacional Electoral: ingresos, gastos, observaciones y estado procesal",Observación no es delito,media,2026-08-31
+40,input normativo/proyección,Pampa industrial; tecnología figura en el universo RIGI,"proyectos tecnológicos aprobados, energía/agua/importaciones/empleo permanente/datos",No hay outcome tecnológico auditable,media,2026-08-31

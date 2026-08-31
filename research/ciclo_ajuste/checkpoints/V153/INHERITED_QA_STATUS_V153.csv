@@ -1,0 +1,3 @@
+﻿script,pre_v153_result,post_v153_result,interpretation
+qa_v152.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V152 ampliada: cuerpo 2/2008 localizado y ruta archivística precisa.
+qa_v153.py,N/A,PASS,"Verifica fuentes, matrices, borradores y 0/10."

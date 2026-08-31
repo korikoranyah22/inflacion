@@ -1,0 +1,11 @@
+stage_id,stage,event,target_record,not_equivalent_to,source_id
+PS137_01,DEVENGADO,surge obligación y se liquida; cuando corresponde se emite orden,comprobante/orden y respaldo,pagado,e0_argentina_decree_1344_2007_original_finance_rule
+PS137_02,PROGRAMACIÓN,escenario/distribución total o parcial,Reporte de Distribución Diaria,selección o pago,e0_tgn_manual_system_treasury_v1
+PS137_03,SELECCIÓN,reserva comprobante y consume cuota,selección/lista diaria,confirmación,e0_tgn_manual_system_treasury_v1
+PS137_04,CONFIRMACIÓN,funcionario habilitado confirma y se genera medio,confirmación; identificador; saldos,recepción bancaria final,e0_tgn_manual_system_treasury_v1
+PS137_05,MEDIO_RED_CUT,lote/archivo a BNA,archivo;operaciones;monto;fecha compensación,acreditación aceptada,e0_tgn_manual_system_treasury_v1
+PS137_06,MEDIO_NOTA,deuda pública vía lotes/archivos BCRA,nota;lote;archivo;acuse recepción,cancelación CRYL,e0_tgn_manual_system_treasury_v1
+PS137_07,DÉBITO_AUTOMÁTICO,gasto bancario en extracto CUT con código específico,extracto;código;regularización,C-41 target sin clasificar,e0_tgn_manual_system_treasury_v1
+PS137_08,RENDICIÓN_BANCARIA,BNA informa acreditación o rechazo / BCRA confirma recepción,rendición;rechazo;acuse,mera transmisión,e0_tgn_manual_system_treasury_v1
+PS137_09,CONCILIACIÓN,procesa rendiciones y completa proceso bancario,conciliación;Libro Banco;saldo,Cuenta de Inversión agregada,e0_tgn_manual_system_treasury_v1
+PS137_10,PAGADO,cancelación de la orden con independencia del medio,"cadena coherente de importe original, pagos y saldo cero",SIDIF listado en Anexo K,e0_argentina_decree_1344_2007_original_finance_rule

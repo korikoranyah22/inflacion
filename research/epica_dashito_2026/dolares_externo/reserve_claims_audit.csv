@@ -1,0 +1,7 @@
+﻿item,date,usd_millions,calculation,classification,subtractable_as_official_net
+Reservas internacionales brutas,2026-08-26,50784.000,API BCRA id 1,stock_bruto_observado,no
+Cuenta corriente en moneda extranjera de entidades en BCRA,2026-08-26,16132.549,API id 1256 en millones ARS / TC mayorista id 5,encajes_depositos_privados_aprox,no; solo memo de pasivo identificado
+Depositos del gobierno en moneda extranjera en BCRA,2026-08-26,2809.227,API id 1266 en millones ARS / TC mayorista id 5,fondos_del_tesoro_aprox,depende de metodologia; memo
+Letras emitidas por BCRA en moneda extranjera,2026-08-26,4889.686,API id 1259 en millones ARS / TC mayorista id 5,pasivo_me_aprox,depende de metodologia y vencimiento; memo
+REPO con bancos internacionales,2026-07-03,6000.000,Comunicado BCRA: refinanciacion por igual monto,financiamiento_con_garantia,depende de metodologia; memo
+Tramo activado swap PBoC,2026-08-05,5000.000,"Comunicado BCRA: RMB 35.000 M, equivalente informado",swap_activado,depende de metodologia; memo

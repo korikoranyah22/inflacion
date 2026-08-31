@@ -1,0 +1,7 @@
+﻿period,entity_code,raw_account_set,raw_values_thousand_ars,raw_set_sum_thousand_ars,target_leg,issuer_value_thousand_ars,issuer_page,verdict,scope_limit
+9M-2023,00254,511027+515034,11112903+376334,11489237,income_otherfi,N/A_NO_9M_ANNEXQ,9M PDF full-document search,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_SET,Mariva 2023 only; not a universal account rule
+9M-2023,00254,521022+525042,2958+5601,8559,expense_otherfi,N/A_NO_9M_ANNEXQ,9M PDF full-document search,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_SET,Mariva 2023 only; not a universal account rule
+9M-2023,00254,ABSENT_BCRA_PASS_RESULT_SET,0,0,income_bcra;expense_bcra,N/A_NO_9M_ANNEXQ,9M PDF full-document search,EXACT_ZERO_WITH_ENTITY_SET_LIMIT,Mariva 2023 only; not a universal account rule
+FY-2023,00254,511027+515034,26821231+752156,27573387,income_otherfi,27573387,FY PDF physical 78 / printed 190,EXACT_ENTITY_SPECIFIC_SET,Mariva 2023 only
+FY-2023,00254,521022+525042,5407+8585,13992,expense_otherfi,13992,FY PDF physical 78 / printed 190,EXACT_ENTITY_SPECIFIC_SET,Mariva 2023 only
+FY-2023,00254,ABSENT_BCRA_PASS_RESULT_SET,0,0,income_bcra;expense_bcra,0,FY PDF physical 78 / printed 190,EXACT_ZERO,Mariva 2023 only

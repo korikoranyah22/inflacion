@@ -1,0 +1,3 @@
+﻿script,pre_v139_result,post_v139_result,interpretation
+qa_v138.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V138 queda supersedida por capacidad SICHE, comparadores y doble prioridad V139."
+qa_v139.py,N/A,PASS,"Fuentes, deduplicación, hipótesis, hashes, trazabilidad y no envío verificados."

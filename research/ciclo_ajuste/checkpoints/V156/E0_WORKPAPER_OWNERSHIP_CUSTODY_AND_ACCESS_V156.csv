@@ -1,0 +1,16 @@
+﻿row_id,authority,record_class,ownership_or_access_rule,request_consequence,probative_value,limit,status
+WP156_01,Resolución SIGEN 152/2002,Papeles de auditorías SIGEN,Son propiedad de SIGEN,Pedir a SIGEN sus propios papeles e índice,Define titular institucional,No prueba existencia target,OWNERSHIP_RULE
+WP156_02,Resolución SIGEN 152/2002,Papeles producidos por UAI,Son propiedad del organismo respectivo,Pedir a Economía como titular,Cierra error de dirigir sólo a SIGEN,Propiedad no localización,OWNERSHIP_RULE
+WP156_03,Resolución SIGEN 152/2002,Papeles producidos por UAI,La UAI actúa como depositaria,"Pedir custodia, inventario y disposición",Identifica depositario operativo,No prueba retención indefinida,DEPOSITARY_RULE
+WP156_04,Resolución SIGEN 152/2002,Registros y documentos de organismos y UAI,SIGEN tiene acceso libre e irrestricto,Pedir búsqueda por acceso o derivación,Aporta vía secundaria,Acceso no es propiedad,ACCESS_RULE
+WP156_05,Resolución SIGEN 152/2002,Archivos e informes UAI,Acceso SIGEN comprende archivos e informes,Solicitar cruce de índices,Amplía objetos accesibles,No asegura copia en SIGEN,ACCESS_RULE
+WP156_06,Resolución SIGEN 152/2002,Papeles de trabajo,Contienen evidencia que sustenta hallazgos y opiniones,"Pedir cédulas, pruebas y referencias",Vincula conclusión con soporte,Puede admitir restricciones legales,EVIDENCE_RULE
+WP156_07,Resolución SIGEN 152/2002,Papeles de trabajo,Sustentan observaciones y conclusiones,Pedir matriz observación-evidencia,Permite trazabilidad,No valida la evidencia,EVIDENCE_RULE
+WP156_08,Resolución SIGEN 152/2002,Papeles de trabajo,Sustentan recomendaciones,Pedir fundamento y acción correctiva,Reconstruye causalidad,No prueba cumplimiento,EVIDENCE_RULE
+WP156_09,Resolución SIGEN 152/2002,Papeles de trabajo,La regla vale cualquiera sea el soporte,"Buscar papel, digital, óptico y legado",Evita limitar a GDE,No identifica soporte concreto,SUPPORT_RULE
+WP156_10,Resolución SIGEN 15/2006,Papeles UAI vinculados a SISIO,Deben permitir lista de informes considerados,Pedir índice de universo,Puente SISIO-archivo UAI,Índice no contiene cuerpos,SISIO_WORKPAPER_RULE
+WP156_11,Resolución SIGEN 15/2006,Papeles UAI vinculados a SISIO,Deben preservar evidencia de clasificación y estado,Pedir evidencia por cambio,Permite auditar regularización,Estado no prueba banco,SISIO_WORKPAPER_RULE
+WP156_12,Economía como organismo,Papeles UAI Cuenta 2008,Titular institucional probable bajo norma,Objeto principal del pedido,Mejora asignación de custodio,Sujeto a disposición acreditada,REQUEST_ROUTE
+WP156_13,SIGEN como supervisor,Papeles UAI Cuenta 2008,Acceso normativo aunque no propiedad,Objeto alternativo de búsqueda,Evita incompetencia absoluta,No autoriza inferir copia,REQUEST_ROUTE
+WP156_14,Cadena de custodia,Transferencia o expurgo,"Debe informarse fondo, serie, soporte, acto y destino",Pedir disposición si no aparece,Hace verificable un negativo,La norma no fija plazo concreto,NEGATIVE_RESPONSE_CONTROL
+WP156_15,Regla final,Pago target,Papeles y acceso son capa de auditoría,"Cerrar sólo con documento, sistema, banco y reversas",Mantiene 0/10,No promover ejecución,METHOD_LIMIT

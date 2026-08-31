@@ -1,0 +1,6 @@
+row_id,state_component,rule,target_field,source_id,status
+PP136_01,Conformidad SIDIF,punto de partida para la caducidad,fecha de conformidad,e0_cgn_disposition_54_2008_order_expiry_partial,RULE_PROVED_TARGET_VALUE_OPEN
+PP136_02,Caducidad,cierre del ejercicio siguiente a la conformidad,fecha y causal de caducidad,e0_cgn_disposition_54_2008_order_expiry_partial,RULE_PROVED_TARGET_VALUE_OPEN
+PP136_03,Excepción,pagos parciales del SAF antes de caducar,cada importe y fecha de pago parcial,e0_cgn_disposition_54_2008_order_expiry_partial,PARTIAL_PAYMENT_STATE_PROVED_TARGET_VALUE_OPEN
+PP136_04,Denominador,importe original de la orden,importe ordenado y moneda,e0_cgn_disposition_54_2008_order_expiry_partial,REQUIRED_TO_CLASSIFY_TOTAL_VS_PARTIAL
+PP136_05,Numerador y saldo,suma de movimientos pagados y saldo residual,Σ pagos; saldo; anulación/caducidad,e0_cgn_disposition_54_2008_order_expiry_partial,REQUIRED_TO_CLOSE_EXECUTION

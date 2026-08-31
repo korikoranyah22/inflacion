@@ -1,0 +1,3 @@
+﻿script,pre_v143_result,post_v143_result,interpretation
+qa_v142.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V142 queda ampliada por el puente contemporáneo SLU 2001-2005 y la firma C55 V143.
+qa_v143.py,N/A,PASS,"Reportes, C55, rama de pago, temporalidad, hashes, límites y no envío verificados."

@@ -1,0 +1,3 @@
+﻿script,pre_v144_result,post_v144_result,interpretation
+qa_v143.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V143 queda ampliada por quince fuentes y el diccionario exacto de tablas SLU V144.
+qa_v144.py,N/A,PASS,"Tablas, recuperación histórica, versión v9, controles, hashes, límites y no envío verificados."

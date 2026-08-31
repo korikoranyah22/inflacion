@@ -214,3 +214,276 @@
 - CRyL/Caja quedan como ruta documental, no como asiento probado.
 - Cupón referencia 2007 y procedimiento de capacidad de pago separados. Seis pedidos DRAFT_NOT_SENT.
 - Panel estricto y cifras bancarias sin cambios.
+
+
+## V129 · modalidad, imputación y porción pública GDP
+
+- Ocurrencia, clases compra directa/licitación e imputación Excess GDP: cerradas con fuentes oficiales.
+- Seis adjudicaciones GDP: ARS 96.68593436m efectivos; 5,13% del subtotal GDP y 2,93% del total.
+- Residual total central ARS 3204.91406564m con ±ARS 0,005m; control aritmético, no blotter.
+- Planilla oficial de colocaciones 2008 preservada y descartada por alcance: sólo emisiones/letras.
+- Compras directas, transferencia, pago y cancelación siguen abiertos; seis pedidos DRAFT_NOT_SENT.
+
+
+## V130 · participantes y ruta de pago
+
+- Diez filas participante–instrumento GDP: ARS 96685934.350900; delta de redondeo ARS 0.009100.
+- Cuatro etiquetas publicadas; HHI descriptivo 5621.675971083157783991627445, sin inferencia sobre titulares finales.
+- B 9322 fija cuentas ARS/USD contemporáneas de Citibank, HSBC y Standard; MERVAL queda abierta.
+- Participante no equivale a acreedor final y cuenta no equivale a pago.
+- Transferencia Caja, orden/crédito BCRA, cancelación CRyL y compras directas siguen abiertas; seis pedidos DRAFT_NOT_SENT.
+
+
+## V131 · agotamiento público y claves archivísticas
+
+- Localizador AGN `48 0237/09` preservado; informe final candidato Res.202/2009 Act.41/2009, crosswalk abierto.
+- Brecha aritmética agregada AGN USD 769m congelada sin imputación.
+- CGN Anexo K aporta claves SIGADE/SIDIF; importes anuales no asignados a recompra.
+- Escalera: 10 adjudicaciones, 9 cuentas candidatas, 0 liquidaciones ejecutadas confirmadas; no equivale a cero pagos.
+- Seis pedidos DRAFT_NOT_SENT; panel estricto sin cambios.
+
+
+## V132 · identidad AGN y productores documentales
+
+- Identidad informe final–Act.41/2009–Res.202/2009 cerrada por UUID oficial; 48 0237/09 contextual fuerte, no literal.
+- Anexos AGN T3/T4 probados pero cuerpos públicos no localizados.
+- DADP/SIGADE/SIDIF/COMDOC y subprocesos de recompra mapeados con corte temporal posterior.
+- Formato SIDIF/C-41 individualizado demostrado por CGN 2004/2010; asignación 2008 abierta.
+- Escalera sin cambio: 10 adjudicaciones, 9 cuentas candidatas, 0 ejecuciones confirmadas; seis pedidos no enviados.
+
+
+## V133 · rutas parlamentarias y COMDOC
+
+- T3/T4 AGN cruzados con Senado `OV 366/09` y `OV 44/10`, Bicameral Revisora y archivo 28/05/2012; cuerpos abiertos.
+- `S01:0342455/2008` asignado a COMDOC por regla oficial; endpoint no operativo, consulta no ejecutada.
+- Transición CGN 2007–2010 distingue SIDIF individualizado, `VARIOS` y columna vacía sin inferir ausencia contable.
+- Escalera sin cambio: 10 adjudicaciones, 9 cuentas candidatas, 0 ejecuciones confirmadas; seis pedidos no enviados.
+
+
+## V134 · FindDoc y cadena C-41
+
+- FindDoc calibrado como índice de ruta/ubicación y validado con control AGN sobre otro S01/2008.
+- Target `S01:0342455/2008` sin consulta ejecutada; vía administrativa oficial lista y no enviada.
+- C-41 separada de procesamiento, pago/débito y C-55; tres SIDIF exactos siguen sin cuerpos ni estados.
+- Nota Bicameral 18/05/2012 abierta; contexto de archivo masivo no se atribuye a los dos OV.
+- Escalera sin cambio: 10 adjudicaciones, 9 cuentas candidatas, 0 ejecuciones confirmadas.
+
+
+## V135 · estado SIDIF y huella bancaria 2008
+
+- Alineación visual Anexo K congelada: cuenta 83106000/BNA/ARS 32.270,30/SIDIF 71597, 152677 y 2876.
+- Esquema SDPGB/SDPAG con estados P/R/A, campos bancarios y medios de pago probado; filas target abiertas.
+- Archivos 2008 de instrucciones TGN→BCRA y movimientos/saldos BCRA→TGN probados como clases; vínculos target abiertos.
+- Controles COMDOC/deuda y búsqueda HCDN usados sólo como comparadores y controles negativos.
+- Escalera sin cambio: 10 adjudicaciones, 9 cuentas candidatas, 0 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V136 · SIDIF legacy, AGAN y pagos parciales
+
+- Cronología oficial: target 2008 en SIDIF Central/TRANSAF; e-SIDIF Gastos desplegado después.
+- AGAN/AMIDDF identificado como custodio directo de respaldo financiero, originales, imágenes e índices; holdings target abiertos.
+- Regla exacta 2008 de pagos parciales: exigir importe original, pagos acumulados, saldo y caducidad.
+- Paquete papel/listas de 2009 usado sólo como sucesor comparador; recepción CRYL 2009 no retroproyectada.
+- Escalera sin cambio: 10 adjudicaciones, 9 cuentas candidatas, 0 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V137 · índice AMIDDF, SAF 355 y bifurcación bancaria
+
+- Productor exacto: SAF 355; clave archivística AMIDDF reconstruida hasta caja/tipo documental.
+- Corrección estricta: 71597, 152677 y 2876 son referencias SIDIF; C-41 permanece hipótesis.
+- Dos rutas: orden/Nota TGN-BCRA o débito automático/regularización BNA-CUT.
+- Ley 27.275 aplicada a registros existentes, transferencia, tachas y acto fundado.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V138 · SICHE y test C-55
+
+- SICHE es la ruta única vigente para SIDIF Central/SLU discontinuados y permite exportación sin transformación.
+- Primera búsqueda de tipo: C-41/C-42/C-55; C-55 Débito Directo es hipótesis prioritaria, no hecho.
+- Pedido Economía refinado a gastos_01, pagos_04, conc_01 y conc_02, con metadatos de búsqueda negativa.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V139 · capacidad SICHE y doble prioridad
+
+- SICHE: Gastos, Pagos, Conciliación Bancaria, expresiones numéricas, consultas especiales y filtros cabecera/detalle demostrados.
+- C-41 lidera sólo como comparador documental; C-55 sólo como comparador de mecanismo. Tipo target abierto.
+- C-42 (SLU) y C-35 (SIDIF Central) incorporados como fallbacks.
+- Serie 83106000 2007-2015 preserva deriva semántica y alternancia C-41/VARIOS.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V140 · consultas SICHE nombradas y puente SIGADE-Pagos
+
+- Consulta exacta identificada: `Formulario por Pda. Presupuestaria y Sigade`, aplicable a 7.2.8/83106000.
+- Controles nombrados: Gastos por Beneficiarios, Deuda Exigible hasta 2008 y asientos detallados 2001-2012.
+- e-SIDIF línea 33 prueba SIGADE en EPP, PG, NPG, CMR-DP, TCE/RTCE y reportes; migración 2008 no probada.
+- Runbook y estándar de resultados cero listos, pero ninguna consulta fue ejecutada.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V141 · repositorio CUT histórico 2007-2014
+
+- SICHE conserva CUT-SIDIF Central 2007-2014: Entidades Básicas, Saldos, Extractos y Logs de Impacto.
+- La cobertura incluye exactamente 2008 y abre una ruta bancaria independiente.
+- Manuales TGN posteriores fijan campos para comprobantes, códigos, Libro Banco y conciliación como crosswalk.
+- Cuenta 3855/19 no se proyecta retroactivamente; identidad histórica pendiente.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V142 · cuenta 230, códigos automáticos y conciliación
+
+- Cuenta de operación 230 concentra débitos del extracto que no son pagos CUT; gastos bancarios como ejemplo.
+- Código 2013 AUTO evoluciona a DBAUTO/CRAUTO; PAGO/PGTR quedan como controles separados.
+- Ruta verificable: código externo/interno, referencia unívoca, formulario, Libro Banco y conciliación.
+- Catálogo 2008 y fila target siguen abiertos; la continuidad 2013-2022 no se proyecta retroactivamente.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V143 · puente SLU contemporáneo 2001-2005
+
+- Manual versión 3 fechado el 16/08/2005 por metadato PDF; diseño contemporáneo anterior a 2008.
+- Servicio de la Deuda Pública sin gastos/comisiones; carta de crédito y transferencia exterior con gastos/comisiones.
+- C55-REG Débito Directo prueba firma de comisión, estados I/X/E/C/R, histórico y reversa C55-DEG.
+- `conc_01.rep` y `conc_02.rep` fijan los dos reportes y campos exactos para Extracto y Libro Banco.
+- Código exacto 2008 y fila target siguen abiertos; 230/AUTO queda como crosswalk posterior.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+
+## V144 · tablas SLU y recuperación histórica
+
+- Quince manuales oficiales nuevos preservados; tablas exactas de cuenta, códigos, aplicación automática y Libro Banco.
+- `BMOVEXTERNO` y `AMOV_FORG` cierran el mapeo banco→movimiento→partida→C55.
+- Las tablas centrales son `sin historia`: se requieren backups/snapshots, bajas/rehabilitaciones y migraciones.
+- Captura oficial `SLU v9.0` fechada el 26/11/2008; prueba entorno mostrado, no fila target.
+- C10 separa recurso de C55 gasto; C55-DEP/REP/DEG y cheque controlan reversas/alternativas.
+- 10 adjudicaciones, 9 cuentas candidatas, 0/10 ejecuciones confirmadas; seis borradores no enviados.
+
+## V145 · obligación de resguardo, migración y ruta SICHE
+
+- Disposición 4/03–1/03: fuentes/bases perpetuas; registros, logs, pruebas mensuales y responsable SAF.
+- Resolución 115/2005: backup previo, migración, control entre bases, diferencias e informes firmados.
+- Resolución 53/2024: SICHE vía única SLU.
+- Manual AL 2007: C55 débito, diferencia, corrección y reversa; historia limitada a seguridad.
+- Sin export/soporte target; 10 adjudicaciones, 9 cuentas, 0/10; seis borradores no enviados.
+
+## V146 · ruta SIGADE–SIDIF-Link–SICHE y pista REPO
+
+- Ruta primaria SAF 355/2008: SIGADE→SIDIF-Link→SIDIF Central→SICHE; CUT para extracto/conciliación.
+- Consultas históricas nombradas localizadas; ninguna ejecutada.
+- Pista REPO 2019: $0,61 millones en 2.1.2.01.02.99.00; gap interno $0,45 millones.
+- SLU secundario condicional; target 0/10; seis borradores no enviados.
+
+## V147 · escalera AGN, rama Anexo K y rectificación de precisión
+
+- Ruta oficial: SIGADE→Estado/Ficha/Tabla→mayorizado→formularios→mayores→TGN/banco; CRyL condicional.
+- Fila Anexo K 83106000 con SIDIF 71597/152677/2876 confirmada visualmente; pago sigue abierto.
+- Ausencia SIGADE no equivale a no pago; planillas/sidecars y rectificaciones externas deben pedirse.
+- Diferencia REPO 0,45 es tensión de precisión, no error probado.
+- SICHE manual/export público no localizado; target 0/10; seis borradores no enviados.
+
+## V148 · excepción SAF 355 y ruta TGN–CGN–BNA
+
+- SAF355/356 estaba exceptuado de cuadros generales en 2008; ruta especial documentada.
+- TGN custodia órdenes antes de cancelación, CGN después, y puede requerir movimientos/saldos al BNA.
+- Cuerpos 71597/152677/2876 e Informes Analíticos UAI no localizados públicamente.
+- Ramas orden y débito/regularización abiertas; 0/10; seis borradores no enviados.
+
+## V149 · archivo oficial, CUT histórica y custodios
+
+- Cierre 2008: listados, conformidades, ajustes, notas y originales en archivo oficial probados.
+- Paquetes 30/6 y 31/12 separados; enero 2009 incluido; tipo target abierto.
+- CUT 3855/19 probada desde 1996 y doble custodia TGN/SAF; uso target abierto.
+- UAI snapshot 2019 y DADP recompra son custodios nominados; no prueban target.
+- Nueve fuentes nuevas; 0/10; seis borradores no enviados.
+
+## V150 · rama C-42 y triple árbol documental
+
+- C-42 para deuda pública SAF355 y vigencia 2008 probados; tipo target abierto.
+- Árbol C-41/C-42/C-55 y variantes SIDIF de siete dígitos incorporados.
+- Cadena SAF–TRANSAF–SIDIF–CGN–TGN–banco separada por estados.
+- Ocho fuentes nuevas; 0/10; seis borradores no enviados.
+
+## V151 · doble repositorio SIDIF y control UAI
+
+- Arquitectura local–TRANSAF–SIDIF Central congelada con búsqueda independiente por custodio.
+- Control adyacente 2009 documenta C41/C42/C55 y triangulación local, central y bancaria.
+- Formato TRANSAF 2022 usado sólo como comparador; 30 días de interfaz no implican eliminación.
+- Diez fuentes nuevas; cuerpos 0/3; ejecución 0/10; seis borradores no enviados.
+
+## V152 · certificaciones UAI y rastro de inconsistencias
+
+- Instructivo 02/2008 probado por ejecución comparadora ENRE; cuerpo/SAF355 abiertos.
+- Informe global SIGEN Cuenta 2008 y supervisión UAI probados.
+- Cierre final, AXT, casillas SAF y planillas SIDIF/SAF convertidos en pedidos.
+- Cuatro fuentes; trece controles PDF nuevos; seis borradores no enviados; 0/10.
+
+## V153 · Instructivo 2/2008 completo y ruta archivística
+
+- Cuerpo y Anexos I-V localizados; certificaciones SAF355 abiertas.
+- Circular 01/09 prueba barrera de recepción CGN sin certificación UAI.
+- Informe Cuenta 2008 inventariado como Economía, 2009, GSEPyPF; cuerpo abierto.
+- AGDFA identificado como ruta de digitalización, guarda y descripción.
+- Cuatro fuentes conceptuales; catorce controles PDF nuevos; seis borradores no enviados; 0/10.
+
+## V154 · familia SIGEN e identificadores múltiples
+
+- Preservada familia oficial 2019/2020 como comparador de certificación y auditoría.
+- Separados número público, interno, ficha, adjunto, IF, expediente y orden/folio.
+- Nueve páginas nuevas controladas; cuatro fuentes conceptuales nuevas.
+- SAF355/2008 abierto; seis borradores no enviados; 0/10.
+
+## V155 · notas DAIF/SIGEN, SISIO y vía AIP
+
+- Localizada la cadena Nota 0120/09 DAIF → Nota SIGEN 3672/09 GSEyP → SISIO → seguimiento UAI.
+- Congelados cotejo SIDIF-DADP, consultas parametrizadas, reemplazos y certificación como capas no bancarias.
+- Verificadas ventana Economía 2022-2026 y vía AIP SIGEN; ninguna presentación.
+- Tres páginas nuevas controladas; cuatro fuentes conceptuales nuevas.
+- SAF355 0/5; ejecución 0/10; seis borradores no enviados.
+
+## V156 · autoridad UAI exacta, SISIO y custodia
+
+- Recuperado Decreto 1359/2004 como autoridad UAI vigente en 2008-2009.
+- Recuperadas Resoluciones SIGEN 152/2002 y 15/2006.
+- Controladas visualmente las 10 páginas del PDF 15/2006.
+- Preservados comparadores CNRT 1002/2011 y expansión GSEPyPF 93/2013 con límites.
+- Cinco fuentes nuevas; 134 controles PDF y 3 de imagen acumulados.
+- SAF355 0/5; ejecución 0/10; seis borradores no enviados.
+
+## V157 · Plan SIGEN 2009, supervisión y archivo
+
+- Plan SIGEN 2009 aprobado el 15/12/2008; plan y acto todavía no recuperados.
+- Cuenta de Inversión congelada como auditoría horizontal 2008.
+- Confirmados Informes de Supervisión del Planeamiento y corte SISIO 16/12/2009.
+- Separados SISIO, SISPE y Archivo Digital; agregada ruta de reordenamiento/depuración.
+- Cinco fuentes nuevas; tres páginas PDF nuevas controladas.
+- SAF355 0/5; ejecución 0/10; seis borradores no enviados.
+
+## V158 · circuito preliminar-final, reforma y contradicción 120/160
+
+- Resolución 7/2003 convierte el Plan UAI 2009 en una cadena de al menos diez objetos/versiones recuperables.
+- Reforma Economía-Producción congelada entre presentación inicial y aprobación final; deuda/finanzas permanecen en Economía.
+- Acta ORSNA usada sólo como comparador contemporáneo; errores internos preservados como límite.
+- Contradicción oficial 2009 congelada: aproximadamente 120 versus cerca de 160 Informes de Supervisión.
+- ERAS abre la ruta de copia receptora: nota, informe adjunto y expediente local separados.
+- Seis fuentes nuevas; cinco páginas PDF nuevas controladas.
+- SAF355 0/5; ejecución 0/10; seis borradores no enviados.
+
+## V159 · siglas, denominadores, lifecycle y no transposición SAF355
+
+- GSEPFyE queda expandida en 2003-2004; otros tres tokens permanecen separados.
+- La estructura 2003-2004 y el nombre largo del Plan 2008 amplían claves sin demostrar productor target.
+- 145 UAI, 143 proyectos, 318 proyectos y 119 informes prueban denominadores distintos.
+- ERAS 2010 agrega expediente receptor, pases a áreas y respuesta esperada al modelo de remisión.
+- La excepción SAF355 a cuadros generales no se extiende a certificados UAI ni banco.
+- Cuatro fuentes nuevas; seis páginas PDF nuevas controladas.
+- SAF355 0/5; ejecución 0/10; seis borradores no enviados.
+
+## V160 · glosario oficial, UAI multi-entidad y continuidad jurídica
+
+- GSEyP queda expandida oficialmente como Gerencia de Supervisión Economía y Producción; GSPF es distinta.
+- El Anexo H prueba que una UAI podía abarcar varias entidades; UAI no equivale a entidad ni informe.
+- Decreto 1366/2009 art.7 documenta la competencia transitoria de UAI Economía.
+- OT, SDP, consolidación, UAI BNA y asiento bancario quedan como capas separadas.
+- Cinco fuentes nuevas; cuatro imágenes oficiales controladas.
+- SAF355 0/5; ejecución 0/10; seis borradores no enviados.

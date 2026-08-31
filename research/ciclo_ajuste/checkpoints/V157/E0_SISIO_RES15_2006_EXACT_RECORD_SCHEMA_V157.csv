@@ -1,0 +1,36 @@
+﻿row_id,norm_section,required_actor,required_record_or_field,deadline_or_frequency,evidentiary_use,limit,status
+SI156_01,Artículo 1,Todas las UAI alcanzadas,Uso obligatorio de SISIO WEB,Desde 1 de abril de 2006,Prueba obligatoriedad en 2009,No prueba entrada target,MANDATORY_SCHEMA
+SI156_02,Artículo 1,UAI,Guía del Anexo I,Durante la operación,Fija procedimiento uniforme,No acredita cumplimiento concreto,MANDATORY_SCHEMA
+SI156_03,Artículo 2,UAI,Informe de observaciones pendientes,Antes del 15 de febrero anual,Exige corte anual identificable,No contiene informe 2009,ANNUAL_RECORD
+SI156_04,Artículo 2,UAI,Informe de observaciones regularizadas,Antes del 15 de febrero anual,Exige segundo corte anual,Regularizada no equivale a pagada,ANNUAL_RECORD
+SI156_05,Artículo 2,UAI,Detalle emitido por sistema adjunto,Con cada informe anual,Permite pedir exportación y soporte firmado,No garantiza conservación actual,ANNUAL_RECORD
+SI156_06,Anexo I plan,UAI,Carga del plan anual,Al inicio del ciclo aprobado,Debía existir alta y versión,No prueba inclusión target,PLAN_RECORD
+SI156_07,Anexo I plan,SISIO,Cronograma de Emisión de Informes,Luego de cargar el plan,Es constancia de carga,No es el plan completo,LOAD_RECEIPT
+SI156_08,Anexo I plan,UAI y SIGEN,Cronograma usado para aprobación,Antes de aprobación,Vincula carga y aprobación,No aporta firma target,PLAN_RECORD
+SI156_09,Anexo I plan,UAI,Actividad agregada como No Planificado,Después de aprobación,Permite buscar proyectos agregados,No prueba incorporación,PLAN_RECORD
+SI156_10,Anexo I informes,UAI,Carga de informe propio,Dentro de 72 horas de elevar a máxima autoridad,Fija ventana contrastable,No prueba fecha efectiva,REPORT_RECORD
+SI156_11,Anexo I informes,UAI,Carga de informe de otro órgano salvo SIGEN,Dentro de 144 horas de conocerlo,Fija ventana para externos,No se aplica a notas SIGEN,REPORT_RECORD
+SI156_12,Anexo I informes,SISIO,Constancia de carga por documento nuevo,Al registrar documento,Debería existir recibo individual,No contiene cuerpo íntegro,LOAD_RECEIPT
+SI156_13,Anexo I informes,UAI,Remisión de constancia con original a sindicatura,Con la elevación,"Conecta recibo, cuerpo y destino",No prueba acuse,DISTRIBUTION_RECORD
+SI156_14,Anexo I informes,UAI,Copia de constancia adjunta a informes de otros órganos,Con la carga,Encadena documento externo y SISIO,No aplica sin carga,DISTRIBUTION_RECORD
+SI156_15,Anexo I informes,UAI,Indicador de impacto en Cuenta de Inversión,Por cada informe,Campo exacto para búsqueda Cuenta 2008,No valida la Cuenta,ACCOUNT_IMPACT_FIELD
+SI156_16,Anexo I observaciones,UAI,Carga de todas las observaciones,Con cada informe,Obliga inventario de hallazgos,Puede haber síntesis,OBSERVATION_RECORD
+SI156_17,Anexo I recomendaciones,UAI,Carga de todas las recomendaciones,Con cada informe,Obliga inventario de medidas,No prueba aceptación,OBSERVATION_RECORD
+SI156_18,Anexo I síntesis,UAI,Síntesis clara de observación y recomendación,Con cada carga,Permite buscar abreviaturas,No sustituye cuerpo,OBSERVATION_RECORD
+SI156_19,Anexo I conclusiones,UAI,Conclusiones generales que requieran corrección,Cuando corresponda,Amplía universo de hallazgos,No prueba conclusión target,OBSERVATION_RECORD
+SI156_20,Anexo I papeles,UAI,Lista de informes considerados,Durante auditoría,Permite pedir índice del universo,No prueba análisis exhaustivo,WORKPAPER_RECORD
+SI156_21,Anexo I papeles,UAI,Evidencia de clasificación y estado,Durante auditoría y seguimiento,Permite auditar fundamento,No equivale a banco,WORKPAPER_RECORD
+SI156_22,Anexo I regularización,UAI,Instrumento que subsanó observación,Al marcar Regularizada,Exige referencia documental,Puede ser administrativo,REGULARIZATION_RECORD
+SI156_23,Anexo I regularización,UAI,Verificación directa de regularización,Al marcar Regularizada,Permite pedir prueba UAI,No prueba pago salvo que sea objeto,REGULARIZATION_RECORD
+SI156_24,Anexo I estados,UAI,Estado Sin acción correctiva,Según situación,Distingue falta de respuesta,No implica responsabilidad firme,STATUS_HISTORY
+SI156_25,Anexo I estados,UAI,Estado No compartida,Según situación,Distingue controversia,No resuelve mérito,STATUS_HISTORY
+SI156_26,Anexo I estados,UAI,Estado Sin conocimiento UAI,Según situación,Identifica falta de información,No prueba ausencia externa,STATUS_HISTORY
+SI156_27,Anexo I estados,UAI,Estado En trámite,Según situación,Identifica cierre inconcluso,No es cierre,STATUS_HISTORY
+SI156_28,Anexo I estados,UAI,Estado Regularizada,Según situación,Identifica cierre declarado,No significa pago,STATUS_HISTORY
+SI156_29,Anexo I actualización,UAI,Actualizar cuando cambie situación,Continuamente,Exige historial,Puede no conservarse todo,STATUS_HISTORY
+SI156_30,Anexo I actualización,UAI,Actualizar como mínimo al 31 de diciembre,Anual,Fija fecha de corte,No prueba actualización,STATUS_HISTORY
+SI156_31,Anexo I reportes,UAI,Incluir informes UAI y otros órganos como AGN y BCRA,En reportes anuales,Amplía referencias cruzadas,No funde competencias,ANNUAL_RECORD
+SI156_32,Anexo II,UAI,Modelo de observaciones pendientes,Antes del 15 de febrero,"Exige objeto, alcance, limitaciones, pruebas y opinión",Modelo no cuerpo,ANNEX_MODEL
+SI156_33,Anexo III,UAI,Modelo de observaciones regularizadas,Antes del 15 de febrero,Exige verificación y opinión,Modelo no presentación,ANNEX_MODEL
+SI156_34,Anexos II y III,UAI,"Hojas firmadas e inicialadas, fecha, firma y sello",Con cada informe anual,Define autenticidad mínima,No prueba integridad posterior,SIGNATURE_CONTROL
+SI156_35,Anexo I clasificación,UAI,"Impacto alto, medio o bajo y área temática",Por observación,Permite búsqueda por taxonomía,No cuantifica daño ni pago,CLASSIFICATION_FIELD

@@ -1,0 +1,13 @@
+﻿row_id,query_object,route,result,status
+NS152_01,Instructivo SGN 02/2008 texto completo,SIGEN/CGN,No localizado; existencia/aplicación corroboradas por ENRE.,INSTRUCTIVE_BODY_NOT_LOCATED
+NS152_02,Anexos completos Instructivo 02/2008,SIGEN/CGN,No localizados públicamente.,ANNEX_BODIES_NOT_LOCATED
+NS152_03,Certificación UAI Cuenta 2008 Economía/SAF355,Economía/SIGEN,No localizada.,TARGET_CERT_NOT_LOCATED
+NS152_04,Informe UAI Instructivo 1/2009 Economía/SAF355,Economía/SIGEN,No localizado.,TARGET_AUDIT_NOT_LOCATED
+NS152_05,Informe SIGEN Cuenta 2008 cuerpo/anexos,SIGEN,Memoria prueba existencia; cuerpo no localizado.,GLOBAL_REPORT_BODY_NOT_LOCATED
+NS152_06,Supervisión SIGEN UAI Economía 2009,SIGEN,Universo probado; target no localizado.,SUPERVISION_TARGET_NOT_LOCATED
+NS152_07,Certificados Anexo IV/V SAF355,Economía/UAI,No localizados.,TARGET_ANNEX_CERT_NOT_LOCATED
+NS152_08,Listado final Res.6 art.8 SAF355,CGN/SAF355,No localizado.,FINAL_LIST_NOT_LOCATED
+NS152_09,Conformidad/discrepancia SAF355,SAF355/CGN/UAI,No localizada.,TARGET_CONFORMITY_NOT_LOCATED
+NS152_10,Detalle AXT ONCP 30/06/2008,ONCP/CGN,Deber probado; archivo no localizado.,AXT_DETAIL_NOT_LOCATED
+NS152_11,Casillas param355/inconsis355 2008,CGN/SAF355,Patrón probado; mensajes no localizados.,TARGET_EMAILS_NOT_LOCATED
+NS152_12,Planillas Anexo I con IDs target,CGN/SAF355,Esquema preservado; filas no localizadas.,TARGET_ROWS_NOT_LOCATED

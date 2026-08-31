@@ -1,0 +1,3 @@
+# Reconstrucción fiscal E0 V158
+
+La reconstrucción incorpora una cadena de versión completa: presentación UAI, legajo, dictamen, evaluación, modificación, aprobación preliminar, conformidad superior, doble soporte, acto final y custodia definitiva. La ventana de reforma del 25/11 al 15/12/2008 exige cruzar denominaciones y responsables; no cambia por sí sola la pertenencia sustantiva de deuda/finanzas a Economía. La supervisión debe rastrearse como nota, informe y expediente receptor, y su inventario debe resolver la contradicción 120/160. Son rutas de identificación y custodia, no prueba de ejecución. Documento, sistema, banco y reversas siguen siendo el cierre. Estado 0/10.

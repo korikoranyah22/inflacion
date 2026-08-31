@@ -1,0 +1,13 @@
+route_id,element,record_or_rule,official_fact,controlled_use,source_id,locator,target_payment_confirmed
+CE148_01,GENERAL_RULE,Disposición 49/02 art.1,Los SAF presentan cuadros de cierre según anexos.,Regla general; revisar excepciones.,e0_cgn_disposition_49_2002_saf355_closing_exception,art.1,FALSE
+CE148_02,GENERAL_BANK_TABLE,Cuadro 1 · Caja y Bancos,Integra el cierre estándar.,No atribuirlo automáticamente a SAF355.,e0_cgn_disposition_49_2002_saf355_closing_exception,anexos,FALSE
+CE148_03,EXCEPTION,SAF 355 y 356,Exceptuados de cuadros estándar.,"Excepción de ruta, no de registración.",e0_cgn_disposition_49_2002_saf355_closing_exception,art.1,FALSE
+CE148_04,APPLIED_2008,Cuenta 2008,La CGN aplica la excepción a 355/356.,Prueba contemporánea directa.,e0_cgn_account_2008_uepex_closing_exception,PDF p.76,FALSE
+CE148_05,DETAILED_LISTS,Listados parametrizados,CGN suministró listados para conciliación.,"Pedir salida, parámetros, corte y hash.",e0_cgn_account_2008_uepex_closing_exception,PDF p.73,FALSE
+CE148_06,SPECIFIC_QUERIES,Consultas específicas,CGN habilitó consultas de movimientos.,Pedir cuerpo y metadatos.,e0_cgn_account_2008_uepex_closing_exception,PDF p.73,FALSE
+CE148_07,REPLACEMENT,Sustitución de cuadros/anexos,Información corregida podía reemplazar productos.,Pedir versiones y responsables.,e0_cgn_account_2008_uepex_closing_exception,PDF p.73,FALSE
+CE148_08,REGULARIZATION,Regularizaciones con certificación UAI,Salida formal posible.,Buscar tipo sin prejuzgar C-55.,e0_cgn_account_2008_uepex_closing_exception,PDF p.73,FALSE
+CE148_09,TARGET_BRANCH,Anexo K 83106000,Fila especial de deuda con tres SIDIF.,Priorizar ONCP/SAF355.,e0_cgn_cuenta_inversion_2008_sdp,PDF p.67,FALSE
+CE148_10,EXCLUDED_PRESUMPTION,Cierre bancario general,No puede presumirse repositorio target.,No aceptar su cero como cierre.,e0_cgn_account_2008_uepex_closing_exception,PDF p.76,FALSE
+CE148_11,SPECIAL_ROUTE,Anexo K→listas/formularios→banco,Ruta coherente con la excepción.,Cerrar por identidad completa.,e0_cgn_account_2008_uepex_closing_exception,"PDF pp.73,76",FALSE
+CE148_12,NEGATIVE_LIMIT,Ausencia en cierre general,No prueba inexistencia o no pago.,Exigir repositorios especiales.,e0_cgn_account_2008_uepex_closing_exception,PDF p.76,FALSE

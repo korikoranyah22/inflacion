@@ -1,0 +1,23 @@
+﻿row_id,field_or_record,official_meaning,producer_or_custodian,request_object,source_id,payment_proof_alone
+FC150_01,SIDIF_NUMBER,correlativo de siete dígitos,SIDIF/CGN,"número, hora y fecha",e0_cgn_disposition_52_1996_c42_procedure,NO
+FC150_02,SAF_NUMBER,identificador de origen,SAF355,número interno y tipo,e0_cgn_disposition_52_1996_c42_procedure,NO
+FC150_03,TRANSAF_LOG,transmisión electrónica,SAF355/CGN,archivo y acuse,e0_cgn_disposition_52_1996_c42_procedure,NO
+FC150_04,RECEIPT_TIMESTAMP,hora y fecha SIDIF,CGN/SIDIF,timestamp exacto,e0_cgn_disposition_52_1996_c42_procedure,NO
+FC150_05,BENEFICIARY_NAME,identidad del beneficiario,SAF355,nombre y código,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_06,CUIT,clave tributaria,SAF355,CUIT,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_07,ADDRESS,domicilio,SAF355,domicilio,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_08,BENEFICIARY_BANK,banco/sucursal,SAF355/TGN,banco y sucursal,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_09,BENEFICIARY_ACCOUNT,tipo y número de cuenta,SAF355/TGN,tipo y número,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_10,PAYER,servicio pagador,SAF355/TGN,código y nombre,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_11,AMOUNT,importe total/parcial,SAF355/CGN,"moneda, total y parciales",e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_12,AXT,auxiliar de tesorería,SAF355/CGN,AXT,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_13,PAYMENT_CONCEPT,concepto declarado,SAF355,texto íntegro,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_14,EMITTING_OFFICE,oficina emisora,SAF355,oficina y responsable,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_15,RESPONSIBLE_ACCOUNT,banco/código/número responsable,SAF355/TGN,tres campos separados,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_16,SUPPORT_DOCUMENT,tipo y número de respaldo,SAF355,documento y legajo,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_17,SIGADE_NUMBER,vínculo deuda cuando corresponde,SAF355/ONCP,número y versión,e0_cgn_disposition_52_1996_c42_instructions,NO
+FC150_18,SIGNATURES,responsabilidad y controles,SAF355/CGN/TGN,"firmas, cargos y fechas",e0_cgn_disposition_52_1996_c42_form,NO
+FC150_19,PAPER_ORIGINAL,soporte firmado,CGN/SAF355,"original, copia e inventario",e0_cgn_disposition_52_1996_c42_procedure,NO
+FC150_20,SCREEN_COMPARISON,validación papel/sistema,CGN,resultado y operador,e0_cgn_disposition_52_1996_c42_procedure,NO
+FC150_21,APPROVAL,habilitación previa,CGN,estado y timestamp,e0_cgn_disposition_52_1996_c42_procedure,NO
+FC150_22,TGN_PAYMENT,movimiento de salida y cancelación,TGN/BNA/BCRA,"fecha valor, signo, importe, cuenta, referencia, conciliación y reversa",e0_cgn_disposition_52_1996_c42_procedure,YES_IF_COMPLETE_CHAIN

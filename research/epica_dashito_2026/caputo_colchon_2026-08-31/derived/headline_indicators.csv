@@ -1,0 +1,9 @@
+﻿indicador,valor,unidad,calidad,fuente,advertencia
+Ingreso del 20% superior,50.1,% del ingreso corriente,medición oficial,INDEC ingresos 2026-T1,No mide riqueza
+Ingreso del 40% inferior,14.5,% del ingreso corriente,medición oficial,INDEC ingresos 2026-T1,No mide riqueza
+Hogares con alguna estrategia extraordinaria,71.778,% de hogares,estimación EPH auditada,EPH 2026-T1,No equivale a falta de ahorro
+Proxy hogares sólo con recursos corrientes,24.534,% de hogares,proxy EPH,EPH 2026-T1,No es una medición de excedente invertible
+Depósitos privados en dólares,40.3,USD miles de millones,dato oficial comunicado,Ministerio de Economía 2026-08-13,Stock bancario
+Préstamos privados en dólares,24.6,USD miles de millones,dato oficial comunicado,Ministerio de Economía 2026-08-13,Crédito vigente
+Capacidad crediticia adicional al ratio teórico de 75%,5.8,USD miles de millones,cálculo oficial aproximado,Ministerio de Economía 2026-08-13,Capacidad no usada; no implica demanda solvente
+Moneda y depósitos de otros sectores en el exterior,259.305,USD miles de millones,estadística oficial agregada,INDEC PII 2026-T1,"Incluye hogares, empresas e ISFLSH; no es sólo colchón"

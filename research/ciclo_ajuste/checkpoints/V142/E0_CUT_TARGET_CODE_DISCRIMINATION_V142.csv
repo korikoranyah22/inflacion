@@ -1,0 +1,16 @@
+﻿row_id,code_or_key,layer,official_meaning,target_role,required_target_observable,status
+TD142_01,230,Cuenta de operación,Débito de extracto no originado en pago CUT,PRIORIDAD_1,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_02,AUTO,Movimiento 2013,Débito automático; gastos bancarios expresamente incluidos,PRIORIDAD_1,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_03,DBAUTO,Movimiento 2022,Débito por extracto bancario,PRIORIDAD_1_CROSSWALK,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_04,CRAUTO,Movimiento 2022,Crédito por extracto; control de signo,NEGATIVE_SIGN_CONTROL,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_05,C55 Débito Directo,Formulario 2004-2008,Regularización de comisión debitada,PRIORIDAD_1_FORM,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_06,PAGO,Movimiento,Pago ordinario por CUT,ALTERNATIVE_PAYMENT_ROUTE,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_07,PGTR,Movimiento,Pago por transferencia,ALTERNATIVE_PAYMENT_ROUTE,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_08,ANPG;ANPE;ATRB,Anulación,anulación de pago o transferencia,REVERSAL_CONTROL,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_09,RECH;DCRB;DCHR,Rechazo,rechazo o devolución bancaria,REJECTION_CONTROL,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_10,DLOT;RRDDF,Desarme/reintegro,reversión posterior,UNWIND_CONTROL,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_11,LIB,Grupo conciliación,busca par en Libro Banco,BOOK_MATCH,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_12,APL,Grupo conciliación,aplica gasto/recurso automáticamente; incluye comisiones,AUTOMATIC_EXPENSE_MATCH,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_13,EXB,Grupo conciliación,concilia por contracódigos del extracto,STATEMENT_REVERSAL_MATCH,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_14,MAN,Grupo conciliación,regularización manual,MANUAL_RECONCILIATION,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN
+TD142_15,referencia unívoca,Referencia bancaria,identificador de cada operación,JOIN_KEY,código;descripción;fecha;importe;referencia;estado;cuenta operación;formulario,QUERY_DISCRIMINATOR_PROVED_TARGET_OPEN

@@ -1,0 +1,6 @@
+﻿audit_id,term_or_key,hit_pages,public_context,target_relation,status,forbidden_inference
+BN131_01,recompra,14,BCRA open-market repurchase of LEBAC-NOBAC,UNRELATED_MONETARY_OPERATION,NEGATIVE_SCOPE_CONTROL_ONLY,BNA did not execute the Treasury mandate.
+BN131_02,Caja de Valores,115,Accreditation of 2005 exchange Discount bonds and accrued interest,UNRELATED_2005_EXCHANGE,NEGATIVE_SCOPE_CONTROL_ONLY,No 2008 settlement records exist internally.
+BN131_03,Citibank,121,2001 JPY/USD swap and collateral,UNRELATED_DERIVATIVE,NEGATIVE_SCOPE_CONTROL_ONLY,Citibank did not receive tender payments.
+BN131_04,HSBC,147,Pledged certificates of deposit in New York attachment matter,UNRELATED_COLLATERAL,NEGATIVE_SCOPE_CONTROL_ONLY,HSBC did not participate in the tenders.
+BN131_05,Standard Bank; ARARGE03E147; ARARGE03E154; S01:0342455/2008,0,No full-text hit,TARGET_NOT_DISCLOSED_IN_ANNUAL_REPORT,NEGATIVE_SCOPE_CONTROL_ONLY,"The mandate, trades, payment or internal records did not exist."

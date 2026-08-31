@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-08-31T08:12:35.720213-03:00",
+  "cut_off": "2026-08-31",
+  "tests": [
+    {
+      "name": "bop_current_account_identity",
+      "expected": -1651.0,
+      "actual": -1651.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "name": "reserve_flow_july_reconciliation",
+      "expected": 2729.0,
+      "actual": 2729.0,
+      "tolerance": 0.0,
+      "pass": true
+    },
+    {
+      "name": "trade_rounding_bridge",
+      "expected": 16080.0,
+      "actual": 16079.0,
+      "tolerance": 1.0,
+      "pass": true
+    },
+    {
+      "name": "latest_reserve_not_after_cutoff",
+      "expected": "2026-08-31",
+      "actual": "2026-08-26",
+      "tolerance": "date <= cutoff",
+      "pass": true
+    },
+    {
+      "name": "latest_itcrm_not_after_cutoff",
+      "expected": "2026-08-31",
+      "actual": "2026-08-28",
+      "tolerance": "date <= cutoff",
+      "pass": true
+    },
+    {
+      "name": "no_official_net_or_liquid_reserve_created",
+      "expected": true,
+      "actual": true,
+      "tolerance": "exact",
+      "pass": true
+    }
+  ],
+  "derived": {
+    "reserve_latest_usd_millions": 50784.0,
+    "reserve_latest_date": "2026-08-26",
+    "identified_claims_usd_millions": 34831.463,
+    "identified_claims_pct_gross": 68.59,
+    "july_start_reserves_usd_millions": 44870.0,
+    "july_published_components_usd_millions": 2575.0,
+    "july_reconciliation_residual_usd_millions": 154.0,
+    "q1_services_plus_primary_drain_usd_millions": -8704.0,
+    "jan_jul_energy_proxy_surplus_usd_millions": 6853.0,
+    "jan_jul_energy_proxy_share_commercial_surplus_pct": 42.62,
+    "latest_itcrm": 85.77,
+    "latest_itcrm_date": "2026-08-28",
+    "latest_itcrm_full_history_percentile": 24.25
+  },
+  "all_tests_pass": true
+}

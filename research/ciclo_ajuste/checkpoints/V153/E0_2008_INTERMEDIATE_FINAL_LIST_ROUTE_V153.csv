@@ -1,0 +1,11 @@
+row_id,stage,official_fact,requested_record,source_id,locator,inference_limit,status
+IC149_01,CUT_DATE,Cierre intermedio al 30/6/2008.,corte y parámetros,e0_cgn_disposition_28_2008_intermediate_close,arts.1-2,No es 31/12.,PROVED
+IC149_02,CONFORMITY,Conformidad volvía inalterable la ejecución salvo causa.,constancia firmada,e0_cgn_disposition_28_2008_intermediate_close,cuerpo,No elimina cambios posteriores.,PROVED
+IC149_03,INCONSISTENCIES,Inconsistencias debían regularizarse.,formularios y nota,e0_cgn_disposition_28_2008_intermediate_close,cuerpo,No identifica target.,PROVED
+IC149_04,FINAL_BALANCES,CGN remitía saldos finales.,listado final 30/6,e0_cgn_disposition_28_2008_intermediate_close,cuerpo,Saldo neto no identifica movimiento.,PROVED
+IC149_05,DEFINITIVE_CONFORMITY,SAF/UEPEX daban conformidad definitiva.,devolución conformada,e0_cgn_disposition_28_2008_intermediate_close,cuerpo,No sustituye formulario.,PROVED
+IC149_06,NOTES,Podían adjuntarse notas y aclaraciones.,nota y anexos,e0_cgn_disposition_28_2008_intermediate_close,cuerpo,No confirma pago.,PROVED
+IC149_07,SUPPORT,Responsables certificaban respaldo.,originales e inventario,e0_cgn_disposition_28_2008_intermediate_close,art.15,Custodia no es ejecución.,PROVED
+IC149_08,H1_SEARCH,Primer semestre tenía paquete formal.,listas/conformidad/notas 30/6,e0_cgn_disposition_28_2008_intermediate_close,integral,No asignar IDs por magnitud.,SEARCH_BRANCH
+IC149_09,H2_SEARCH,Cierre anual tenía paquete formal.,listas/ajustes/notas 31/12,e0_argentina_resolution_6_2008_closing_original,art.8,No asignar IDs por magnitud.,SEARCH_BRANCH
+IC149_10,TARGET_SPLIT,Buscar tres IDs en ambos paquetes.,71597;152677;2876,multiple,H1/H2,No inferir semestre.,OPEN_0_OF_10

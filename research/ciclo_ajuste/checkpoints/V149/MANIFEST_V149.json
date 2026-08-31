@@ -1,0 +1,1007 @@
+{
+  "checkpoint": "V149",
+  "parent_checkpoint": "V148",
+  "created_utc": "2026-08-31T05:04:10Z",
+  "exact_entities": 30,
+  "strict_coverage_pct": "61.85556252889191138996688912819023696381678506495534839297178493772894515361020159989231594459249549",
+  "closed_network_gate": "NO",
+  "e0_primary_sources": 243,
+  "new_preserved_sources": 9,
+  "fiscal_method_breaks": 241,
+  "request_traceability_rows": 280,
+  "request_search_keys": 336,
+  "pdf_visual_controls_v149": 56,
+  "closing_route_rows": 15,
+  "intermediate_route_rows": 10,
+  "last_form_rows": 13,
+  "sigade_custody_rows": 10,
+  "tgn_bank_cut_rows": 14,
+  "cut_3855_rows": 14,
+  "dadp_custody_rows": 8,
+  "exact_search_rows": 10,
+  "v149_request_objects": 20,
+  "target_original_support_official_entity_archive_2008": true,
+  "historical_account_3855_continuity_proved": true,
+  "target_account_3855_proved": false,
+  "uai_sigade_snapshot_custodian_2019": true,
+  "uai_sigade_snapshot_2008_proved": false,
+  "target_forms_public_bodies_located": 0,
+  "award_rows_exact": 10,
+  "account_candidate_rows": 9,
+  "executed_settlement_rows_confirmed": 0,
+  "request_drafts": 6,
+  "requests_submitted": 0,
+  "responses_received": 0,
+  "files": [
+    {
+      "path": "ARCHIVAL_PROVENANCE_V149.csv",
+      "bytes": 73360,
+      "sha256": "27d91b283fbb96d37546e05cf52b8e82fd09036d6dc0aa13623c76f5b9352ac0"
+    },
+    {
+      "path": "AUDITORIA_V149.md",
+      "bytes": 284,
+      "sha256": "067b786342f0257579f8002d25533e50094faca8a547904b3b68eea5644e2fdd"
+    },
+    {
+      "path": "build_v149.py",
+      "bytes": 53145,
+      "sha256": "77a6a139cded569be127c08cb58406f17a0ef936efd12cbbaa8ffc9826186421"
+    },
+    {
+      "path": "CURRENT_OFFICIAL_SUBMISSION_CHANNELS_V149.csv",
+      "bytes": 3757,
+      "sha256": "43001992229cf2e8c6251fd03d09ce0a73b9e1f89212de9247ada9232a435643"
+    },
+    {
+      "path": "CURRENT_STATE_V149.csv",
+      "bytes": 12019,
+      "sha256": "b631fe9aaa83f3e82a45a73201e6268c04c9c8f35200c067a770ebee0eb07f74"
+    },
+    {
+      "path": "E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V149.csv",
+      "bytes": 3281,
+      "sha256": "5ea6b073f894436714d16e00193788b971c301eb8c7bdf5b9cb1c7a27fb45196"
+    },
+    {
+      "path": "E0_2007_BACKUP_COMPARATOR_AND_LIMITS_V149.csv",
+      "bytes": 966,
+      "sha256": "25af89e54eb35ce4f06ab18286618228b300affc0344bd8236143258d940ce9c"
+    },
+    {
+      "path": "E0_2008_ANEXO_K_VISUAL_ALIGNMENT_CONTROL_V149.csv",
+      "bytes": 1276,
+      "sha256": "5a6ec3b38762c5a2f552bedce7e893ebb824767fcb873329c8f765f58aee6922"
+    },
+    {
+      "path": "E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V149.csv",
+      "bytes": 2802,
+      "sha256": "f61efe609db726cb41be750c75c921c54b453a2091a78a6301288cbfeee90fb2"
+    },
+    {
+      "path": "E0_2008_INTERMEDIATE_FINAL_LIST_ROUTE_V149.csv",
+      "bytes": 1748,
+      "sha256": "7a6d494f367c4783fd649abc22e7bdeaecdbb72ed5a793979a6c5ebac3c0baf0"
+    },
+    {
+      "path": "E0_83106000_DISCLOSURE_TYPE_CONTINUITY_2005_2010_V149.csv",
+      "bytes": 2313,
+      "sha256": "d59aba0762b9255c8a4ebb5315a24b40d4524228ca35a1b53b35ede89e23676f"
+    },
+    {
+      "path": "E0_83106000_DOCUMENT_TYPE_COMPARATORS_V149.csv",
+      "bytes": 2923,
+      "sha256": "864f87f663d660659233c5f718d2863983ea44f55a773e0ad115eaad50a898fa"
+    },
+    {
+      "path": "E0_ACCESS_INFORMATION_LEGAL_FIT_V149.csv",
+      "bytes": 2330,
+      "sha256": "86e5cb3c7e76036c4c04441738f2a5f819142e56e8f88464c4d07cb64bc898cc"
+    },
+    {
+      "path": "E0_AGAN_C41_ARCHIVAL_ROUTE_V149.csv",
+      "bytes": 1890,
+      "sha256": "3872ce219398ad88fdfd3ebd520be93f27771183c90950a792114f7edacce3a0"
+    },
+    {
+      "path": "E0_AGN_2008_DEBT_AUDIT_PROJECT_BRIDGE_V149.csv",
+      "bytes": 2994,
+      "sha256": "96dd837d62c4a0f09248cff2ac0b50def0dee54c77754ea97b78320e64d61d5a"
+    },
+    {
+      "path": "E0_AGN_2008_DEBT_FLOW_ARITHMETIC_AUDIT_V149.csv",
+      "bytes": 1367,
+      "sha256": "9d2acb1e50440bbef46af529a6c5703872530ee460c8d4711df347dd5ce566c4"
+    },
+    {
+      "path": "E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V149.csv",
+      "bytes": 952,
+      "sha256": "260edc55f4e5fdbb89827396c6470017aead9d6c0d9c9d0080449b23042f4ae7"
+    },
+    {
+      "path": "E0_AGN_OFFICIAL_SETTLEMENT_AUDIT_LADDER_V149.csv",
+      "bytes": 4110,
+      "sha256": "47d5eb2bccd5b42eeb0cc0dd552b1f11c605fa442b89bbfd1f931d21128ba93b"
+    },
+    {
+      "path": "E0_AGN_PARLIAMENTARY_ARCHIVE_CROSSWALK_V149.csv",
+      "bytes": 949,
+      "sha256": "0bf2a30443bfafbe0c5d3b2f948a1277d3112202038e3c59e2ec4c76ae4169e1"
+    },
+    {
+      "path": "E0_AGN_PUBLIC_METADATA_CROSSWALK_V149.csv",
+      "bytes": 1577,
+      "sha256": "708c93b42d5614261ace2b98dcc52e02c5a1d6d013e5e4ace4c194458696a7a5"
+    },
+    {
+      "path": "E0_AGN_QUARTERLY_ANNEX_AVAILABILITY_V149.csv",
+      "bytes": 1179,
+      "sha256": "71c84f3774537e47a124926ed2fb640739bfc0d713da1c83134f3904eb71ef58"
+    },
+    {
+      "path": "E0_AMIDDF_CUSTODY_RESPONSIBILITY_ROUTE_V149.csv",
+      "bytes": 2160,
+      "sha256": "fc5a2f771e2d050a6b432d3960b4913314840fcb217eda9d4161023d50ecca12"
+    },
+    {
+      "path": "E0_AMIDDF_REMITTANCE_INDEX_SCHEMA_V149.csv",
+      "bytes": 2106,
+      "sha256": "93aff2a2c1a5eb6b9a768260bc4fe33bd94c001e20505df8ec25fd706f328396"
+    },
+    {
+      "path": "E0_ANEXO_K_OFF_CUADRO1A_TARGET_BRANCH_V149.csv",
+      "bytes": 2451,
+      "sha256": "74528ebbcc53582a98ef136053bbbff308140f47809f9ac8d20c6642401c12f7"
+    },
+    {
+      "path": "E0_ANNUAL_SERVICE_FEE_SCOPE_AUDIT_V149.csv",
+      "bytes": 1380,
+      "sha256": "1bd0e91bc18e1d55b555817aa73431fddc4d3544005597ec60ebff8ec9b5ad61"
+    },
+    {
+      "path": "E0_ARCHIVAL_RETENTION_AUTHORITY_MATRIX_V149.csv",
+      "bytes": 4160,
+      "sha256": "c5a1d09a4a0ffcab35fe0b680d079df80a116b4e1e1ed9086187fd2bf126f2cc"
+    },
+    {
+      "path": "E0_BANK_COMMISSION_RECONCILIATION_SIGNATURE_V149.csv",
+      "bytes": 2763,
+      "sha256": "19bce203c00c9d41b0567bd40c0008d4c26ebfefcf1534e8e94b8b6efca24659"
+    },
+    {
+      "path": "E0_BCRA_2008_ACCOUNT_VERSION_AUDIT_V149.csv",
+      "bytes": 2584,
+      "sha256": "53c6616f406667105b0b8ae5976407c54985fb3e35b31c48a29806977f1ac3ef"
+    },
+    {
+      "path": "E0_BICAMERAL_PUBLIC_INVENTORY_AUDIT_V149.csv",
+      "bytes": 2354,
+      "sha256": "f51de1d6cf0bd931341fff7220d3f79bca11fcaa3ed73afe9c4f9b8f6ec472c8"
+    },
+    {
+      "path": "E0_BNA_2008_BUYBACK_PUBLIC_DISCLOSURE_SCOPE_AUDIT_V149.csv",
+      "bytes": 987,
+      "sha256": "674b1e73996396476e6c729525200c41548c8546505b261ed50d51b129831490"
+    },
+    {
+      "path": "E0_BUYBACK_MODALITY_TERM_AUDIT_V149.csv",
+      "bytes": 2536,
+      "sha256": "446efd7c93f05d2d4ee81ca873b070fa194e16cb84e6c9ecf1601f00eb73eea7"
+    },
+    {
+      "path": "E0_C41_EXTERNAL_CLASSIFICATION_V149.csv",
+      "bytes": 1433,
+      "sha256": "51fc1cd702a80beda40ec2f738fef51265ac7d23538959b92e5b6f15affd5ae7"
+    },
+    {
+      "path": "E0_C41_PAPER_OBLIGATION_TEMPORAL_MATRIX_V149.csv",
+      "bytes": 1965,
+      "sha256": "642434f2cb02942d0863011ae6a42e0a443323cf64071fa874b6bc223d27e11d"
+    },
+    {
+      "path": "E0_C41_PARTIAL_PAYMENT_EXPIRY_STATE_V149.csv",
+      "bytes": 939,
+      "sha256": "d8dafd61f10ee97c0f7c1f681c7b6c65ed924af49f39dd8dc3d28123ec7ed8f8"
+    },
+    {
+      "path": "E0_C41_PAYMENT_EXECUTION_CHAIN_V149.csv",
+      "bytes": 12766,
+      "sha256": "fae5802b7b7de646fd8d2a5eaf59638bbc2b78536be17dca0775338680fbb844"
+    },
+    {
+      "path": "E0_C55_DIRECT_DEBIT_HYPOTHESIS_TEST_V149.csv",
+      "bytes": 1967,
+      "sha256": "388efd31cd59a59b44e8f999ae31cee87b1a8dfcdcb20cab8a214da1610e3823"
+    },
+    {
+      "path": "E0_C55_DIRECT_DEBIT_STATE_MACHINE_V149.csv",
+      "bytes": 2151,
+      "sha256": "fd4b2cb3cccc55002bdecca9a268b6124340400de5632edf936f91ab9f080500"
+    },
+    {
+      "path": "E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V149.csv",
+      "bytes": 3863,
+      "sha256": "e95d9fe8b210ee464bbaac32628f4eb44314a8efdafe878f8d8e0bb6848cefe1"
+    },
+    {
+      "path": "E0_CAJA_ARCHIVE_FOURTH_ROUND_SEARCH_AUDIT_V149.csv",
+      "bytes": 944,
+      "sha256": "4a7f62bab2da8ec2ce99cb1e99864bd49c988d17d97e538ae1b5eda7cd370733"
+    },
+    {
+      "path": "E0_CAJA_CRYL_SETTLEMENT_STAGE_MATRIX_V149.csv",
+      "bytes": 2442,
+      "sha256": "7874296cf20cfb4b58fdb85e5110dc49f00001a3a7f9e779707b3fae9a982432"
+    },
+    {
+      "path": "E0_CAJA_TARGET_COMMUNICATION_MATRIX_V149.csv",
+      "bytes": 2014,
+      "sha256": "8b63096a478f52c914371c8dfa4902fd5cc1e9b50298a9d16987302cd797dacc"
+    },
+    {
+      "path": "E0_COMDOC_CUSTODY_AND_DEBT_INSTRUCTION_COMPARATOR_V149.csv",
+      "bytes": 1666,
+      "sha256": "b198fb2339fb94bf052eb626d7c8955c0b6de702afe5b7944fe67233c25ec8bc"
+    },
+    {
+      "path": "E0_COMDOC_FINDDOC_CAPABILITY_V149.csv",
+      "bytes": 1975,
+      "sha256": "8b3ba6b7319888c94e1103c86449408fd9ddaa8a430fbbdab88c949e5b34c5ad"
+    },
+    {
+      "path": "E0_COMDOC_LEGACY_QUERY_ROUTE_V149.csv",
+      "bytes": 2085,
+      "sha256": "a48e6491686dd0e58c6b653b325ec5c16d7ef8868f0bdb5a31c40df571e0895e"
+    },
+    {
+      "path": "E0_CROSS_SYSTEM_PAYMENT_STATE_TRUTH_TABLE_V149.csv",
+      "bytes": 2864,
+      "sha256": "a967fe00bb87e7f5c816d8a19d385ca9bfca8670d760e23e5491595f75d7d939"
+    },
+    {
+      "path": "E0_CRYL_CGA_RECORD_MAP_V149.csv",
+      "bytes": 2360,
+      "sha256": "49d03c13055eb172f1554eb585a4c4acc37c2147a0923fd430694b1e96f873fb"
+    },
+    {
+      "path": "E0_CRYL_EFFECTIVE_VERSION_CHAIN_V149.csv",
+      "bytes": 3971,
+      "sha256": "d9fdfd056e49d5cab0baf552647663d27f63f00228598223f032204553559ca5"
+    },
+    {
+      "path": "E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V149.csv",
+      "bytes": 2302,
+      "sha256": "ce35b03de8aa4c60be52afb0a2306806503a3dd2c32c244d533485346cfc81ac"
+    },
+    {
+      "path": "E0_CUT_AUDITOR_EVIDENCE_CHAIN_V149.csv",
+      "bytes": 2526,
+      "sha256": "e906e55d5b0abdd4858c0f4765ae9e55817d683677e0d45a16d09ca797386609"
+    },
+    {
+      "path": "E0_CUT_EVENT_CODE_CONTINUITY_V149.csv",
+      "bytes": 7085,
+      "sha256": "3fbe29e6329b93fb2d35052f875d12a05f172b12c7158f863c92cb5778757d4d"
+    },
+    {
+      "path": "E0_CUT_EVENT_CODE_DICTIONARY_V149.csv",
+      "bytes": 16854,
+      "sha256": "b45450dbca6fe4458aae3502c85322fe100a483b07434bdaf4f5a33f096f82fd"
+    },
+    {
+      "path": "E0_CUT_EXTRACT_FIELD_CROSSWALK_V149.csv",
+      "bytes": 3540,
+      "sha256": "42879e9f96873f21dc8b6dc766512e4860487a53edd24b73d6f4a2bb5fc79d03"
+    },
+    {
+      "path": "E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V149.csv",
+      "bytes": 4516,
+      "sha256": "b9631125950b4cbf5aac0b84338fad180d3f852fff3f163e391b9001b1177e8c"
+    },
+    {
+      "path": "E0_CUT_RECONCILIATION_EVIDENCE_ROUTE_V149.csv",
+      "bytes": 2558,
+      "sha256": "7103f118b984084e3255d44a3d6e2f91ed34562ed3e2843f11bde5c47f4c1fc4"
+    },
+    {
+      "path": "E0_CUT_TARGET_CODE_DISCRIMINATION_V149.csv",
+      "bytes": 3238,
+      "sha256": "f537e8f205f245848613a6ae96f093dcc6a91413ff28bcb04b21bea1ce6ff771"
+    },
+    {
+      "path": "E0_CUT_TARGET_QUERY_RUNBOOK_V149.csv",
+      "bytes": 6711,
+      "sha256": "8c2bd2c54e20e82df5dc5b734aabb2e9ea4740e17367cfce48dee4664ace6566"
+    },
+    {
+      "path": "E0_CUT_ZERO_RESULT_AND_CONCILIATION_LIMITS_V149.csv",
+      "bytes": 1072,
+      "sha256": "587ce495bb752fae4d39e2b044b9afa8f41020b9635c4ea63e52a219133e7f42"
+    },
+    {
+      "path": "E0_DADP_BUYBACK_DOCUMENT_CUSTODY_V149.csv",
+      "bytes": 1260,
+      "sha256": "c8303070e0f0242b7e0622e11a025720c174ef991097b3397c74e541a1bbc8da"
+    },
+    {
+      "path": "E0_DAILY_PAYMENT_SELECTION_RECORDS_V149.csv",
+      "bytes": 1669,
+      "sha256": "aab7ef7ffaab050231f2363347ba1e01ac455c12d6ca3d670cb193a07db80875"
+    },
+    {
+      "path": "E0_DEFERRED_MODALITY_EQUIVALENCE_AUDIT_V149.csv",
+      "bytes": 6420,
+      "sha256": "a48264033e1ee900d32239e9e0996408284c43c28913fc3311289f0ff7c354f7"
+    },
+    {
+      "path": "E0_DOCUMENT_SYSTEM_TEMPORAL_MAP_V149.csv",
+      "bytes": 3087,
+      "sha256": "fe9eb4737e46eab4f3ce1d89ee2f812d4a7508dc7feabbf3db02e90efb017d6e"
+    },
+    {
+      "path": "E0_DOCUMENT_TYPE_HYPOTHESIS_BALANCE_V149.csv",
+      "bytes": 1588,
+      "sha256": "9255bbe49b11e03e677f7825eee21f5c708e419b2debc13e8b6434d45435864b"
+    },
+    {
+      "path": "E0_DUAL_PAYMENT_MECHANISM_DECISION_TREE_V149.csv",
+      "bytes": 2649,
+      "sha256": "8a6c2d973195f83b72ce65bb599a18b661b9ef04bbc07242c4068f25baa44118"
+    },
+    {
+      "path": "E0_EXACT_SICHE_QUERY_RUNBOOK_V149.csv",
+      "bytes": 1946,
+      "sha256": "9c3ab08d739140dbd858fe701e17d0021c2f94fa355e5d54fda57068ce93c1f0"
+    },
+    {
+      "path": "E0_EXACT_TARGET_ID_PUBLIC_SEARCH_V149.csv",
+      "bytes": 3253,
+      "sha256": "4b40b93e5c617ad6a8c443eb74e8b7bc61f07284c4201dd6ef9436e8528e0ffd"
+    },
+    {
+      "path": "E0_EXCESS_GDP_VS_PAYMENT_CAPACITY_PROCEDURE_V149.csv",
+      "bytes": 1166,
+      "sha256": "081c03671262908ea970f1968a3bb3ac75a05f673ff3fd0d1e8275d6eb5a7149"
+    },
+    {
+      "path": "E0_EXPEDIENT_PUBLIC_SEARCH_EXHAUSTION_V149.csv",
+      "bytes": 5217,
+      "sha256": "a9ad44f2f2faeae87b2cc59bdd0641f625008fb2118c8827936e5492e14829ac"
+    },
+    {
+      "path": "E0_FINANCE_ARCHIVE_PDF_CENSUS_2008_2009_V149.csv",
+      "bytes": 14885,
+      "sha256": "4cd07bf5b00f0c7bfbc82aaeb847ad9bd105ff4035c5206056c993b9b4d770f4"
+    },
+    {
+      "path": "E0_FISCAL_AGN_CREDITOR_DISTRIBUTION_V149.csv",
+      "bytes": 3234,
+      "sha256": "5bc4a972ddecef76ae4da8d80efc7db04776b78d4a3ee3950add926c4d6368b5"
+    },
+    {
+      "path": "E0_FISCAL_AGN_REPORT_INDEX_V149.csv",
+      "bytes": 1847,
+      "sha256": "2b0c824cda26f458fde40ba38cb74626e4d2e9757855af975e5b94a7d3589ab2"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_BUYBACK_AWARDS_2008_V149.csv",
+      "bytes": 2361,
+      "sha256": "5fb3f86c55b994eeafec61b8badd261ea8c04026fab935debd049aabb5a4bc2d"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_BUYBACK_TENDERS_2008_V149.csv",
+      "bytes": 1513,
+      "sha256": "7cdbc3b5ba75fd7bd3f95403952dea0cd33627694c718d58c5879047921a01bc"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_SERVICE_BRIDGE_2007_2012_V149.csv",
+      "bytes": 2802,
+      "sha256": "61e7f14ca6df51508ebc40a131a6306e28d0531b64377c958a2f981982739550"
+    },
+    {
+      "path": "E0_FISCAL_BODEN_STOCK_BRIDGE_2007_2012_V149.csv",
+      "bytes": 2097,
+      "sha256": "debec8a0192ed3f8cfa179efe8742df28f0bb89b941d6e8c43848157455cc95a"
+    },
+    {
+      "path": "E0_FISCAL_BUYBACK_APPROX_AGGREGATE_BRIDGE_V149.csv",
+      "bytes": 2971,
+      "sha256": "5fcd50bc29611ba95ccc738b343990872bb259f43b9f9202b967ab49c13d6449"
+    },
+    {
+      "path": "E0_FISCAL_BUYBACK_DEBT_ACCOUNTING_BRIDGE_2008_V149.csv",
+      "bytes": 1820,
+      "sha256": "126fb4dfa4d41037ebe32e701ba20c767709dd3134b5358e36ce9851612e2828"
+    },
+    {
+      "path": "E0_FISCAL_BUYBACK_PROGRAM_EVENTS_2005_2009_V149.csv",
+      "bytes": 4971,
+      "sha256": "fd3144434fd89b1160c6c24d5d8f530bdca5a33615589905699acbcd812e41c4"
+    },
+    {
+      "path": "E0_FISCAL_BUYBACK_SETTLEMENT_CHAIN_V149.csv",
+      "bytes": 2346,
+      "sha256": "e4b29bf2bc2acbd1596c20390b46bf3a80f1d615bad2d07d131cfbe4baf083e6"
+    },
+    {
+      "path": "E0_FISCAL_CUSTODIAN_INFORMATION_GAPS_V149.csv",
+      "bytes": 2946,
+      "sha256": "4e9ed5cf39462994b9549c203c7c9e3571df102c73591d50c38be4d0e71c9446"
+    },
+    {
+      "path": "E0_FISCAL_EXCESS_GROWTH_BUYBACK_REFERENCE_2006_V149.csv",
+      "bytes": 1853,
+      "sha256": "fb518494958db932d2777debf1feb167f3fe55a5f3387ea8dfcf1bc78543d5e8"
+    },
+    {
+      "path": "E0_FISCAL_GDP_UNITS_REPURCHASE_SCOPE_BRIDGE_V149.csv",
+      "bytes": 1499,
+      "sha256": "a8e27a8c7d2cf30f1f9d955dd0437f38ac6312ed1ec920c64522c42884ae3332"
+    },
+    {
+      "path": "E0_FISCAL_MECHANISM_LEDGER_V149.csv",
+      "bytes": 114500,
+      "sha256": "6d13e4bd1c9f1eb6ccd0cc407bcf203b0843a26b2505d33feef60066f48a8578"
+    },
+    {
+      "path": "E0_FISCAL_METHOD_BREAKS_V149.csv",
+      "bytes": 61458,
+      "sha256": "2a23f2c849b704547e201024238ee8129d6ed47c166ad6626e1be7251cc06fd2"
+    },
+    {
+      "path": "E0_FISCAL_PUBLIC_BUYBACK_AWARDS_2008_V149.csv",
+      "bytes": 11054,
+      "sha256": "79ffdbe1dedc18668989bc32bbc30d5da089c1e88d202cd2d6d2f2681e26c7b4"
+    },
+    {
+      "path": "E0_FISCAL_PUBLIC_BUYBACK_CALLS_2008_V149.csv",
+      "bytes": 2823,
+      "sha256": "cb0f45afcc53d75e844237ca10f7e43c8a12623dd5dfc78050d91f6d811e953e"
+    },
+    {
+      "path": "E0_FISCAL_PUBLIC_BUYBACK_TENDERS_2008_V149.csv",
+      "bytes": 5884,
+      "sha256": "18d55ec60d259fc76d45513231270e8518a631d96e780f1dd059164f39a8723c"
+    },
+    {
+      "path": "E0_FISCAL_Q4_DISCOUNT_PESOS_VALUATION_BRIDGE_V149.csv",
+      "bytes": 1706,
+      "sha256": "dcc6590f580249b4082d7f61fe758ae65a41479072476f88dd54e0e4aee9065b"
+    },
+    {
+      "path": "E0_FISCAL_Q4_EXCHANGE_BOND_STOCK_MOVEMENTS_V149.csv",
+      "bytes": 1626,
+      "sha256": "540697b24d865dbfec3fc65c7db268b828fda5f1399e5f05cfdacb7aa7319d07"
+    },
+    {
+      "path": "E0_FISCAL_RECONSTRUCTION_V149.md",
+      "bytes": 365,
+      "sha256": "fc83dc0eff07c309a15a3731dec21b2819ce76e9b577e0eaa78bcadcabd65ff0"
+    },
+    {
+      "path": "E0_FISCAL_STOCK_FLOW_BRIDGE_V149.csv",
+      "bytes": 4833,
+      "sha256": "c9e919dcbbc45648b87231e14a44b6769593addf3a34f17b9c728ff7109566c1"
+    },
+    {
+      "path": "E0_FISCAL_STRIP_BUYBACK_AWARDS_2009_V149.csv",
+      "bytes": 2218,
+      "sha256": "a873d9abebadeb61e4f5946e99eaae69c0dc7a4d328e860fab7638d94ae5fe6f"
+    },
+    {
+      "path": "E0_FISCAL_STRIP_BUYBACK_OFFERS_2009_V149.csv",
+      "bytes": 9226,
+      "sha256": "b0b9a35ae5cc2b483cb334fa1cf8dcf3655a190d254ddd3cd8e913900265b448"
+    },
+    {
+      "path": "E0_FISCAL_STRIP_BUYBACK_SUMMARY_2009_V149.csv",
+      "bytes": 1084,
+      "sha256": "8dcf3185edaaf0e72369a8019712488ac90c67b2dda83a94790330def2eeadb3"
+    },
+    {
+      "path": "E0_FISCAL_TRANSACTION_LEDGER_2004_2006_V149.csv",
+      "bytes": 9552,
+      "sha256": "7900eba516ba84723f26b17e5f127c02172087d60dd2bf0e511e115ce362a622"
+    },
+    {
+      "path": "E0_FISCAL_TRANSACTION_LEDGER_2007_2012_V149.csv",
+      "bytes": 8190,
+      "sha256": "9246f191a4fc283f9a05eac4745f2e20e49597edd088deee4e55150e77dcd45e"
+    },
+    {
+      "path": "E0_FOREIGN_PAYMENT_COMMISSION_CHAIN_V149.csv",
+      "bytes": 1518,
+      "sha256": "c4ddd5bf344e0f28f31e36961ae9f60608c20ce3c39bf05f5fbd78d907b51f10"
+    },
+    {
+      "path": "E0_FORM_SCOPE_NEGATIVE_CONTROLS_V149.csv",
+      "bytes": 738,
+      "sha256": "c22ee79294bcf7c12f295d58020743b8764b25391fd31f0e126ee1010396a0b4"
+    },
+    {
+      "path": "E0_GDP_UNITS_CONTRACTUAL_TIMELINE_V149.csv",
+      "bytes": 2499,
+      "sha256": "b16014d247a2a96f6b1987c3ac216fb3145eb6861613582857fad82dead628a1"
+    },
+    {
+      "path": "E0_GDP_UNITS_PAYMENT_VS_REPURCHASE_SEPARATION_V149.csv",
+      "bytes": 1067,
+      "sha256": "5eaefc4baa30cc015f74a60d75f37bf4ed3d12c59d840d4b07f4242e59c64bd6"
+    },
+    {
+      "path": "E0_INFORMATION_REQUEST_TRACEABILITY_V149.csv",
+      "bytes": 80737,
+      "sha256": "a3603cf34f7bdfcac959194190d8789854fdf76c173c9649a573214c48dc07e2"
+    },
+    {
+      "path": "E0_INSTITUTIONAL_REQUEST_PACKAGE_V149.md",
+      "bytes": 4743,
+      "sha256": "2d0fab28c0e1dba30d51fa2888062202d6ad65fe56c9a586a3c3acb5e17e0424"
+    },
+    {
+      "path": "E0_LOCAL_PRIMARY_SOURCE_CENSUS_V149.csv",
+      "bytes": 168872,
+      "sha256": "e0e16d1ebeaf41c191a8f1fbe6680db660eb9507394e73978ebe3161ec4a35f5"
+    },
+    {
+      "path": "E0_NEGATIVE_RESPONSE_ADEQUACY_V149.csv",
+      "bytes": 2323,
+      "sha256": "3ac03fcd978749d1000c0f39d3bd55023138394fa6cada049473321d37dce194"
+    },
+    {
+      "path": "E0_OFFICIAL_2008_PLACEMENTS_XLS_SCOPE_AUDIT_V149.csv",
+      "bytes": 642,
+      "sha256": "bcba336710a287a566f26435537563c0d1532d81e8f4bfb8b2f73199f41c9d47"
+    },
+    {
+      "path": "E0_ONCP_SIGADE_RECORD_PRODUCER_CONTROL_V149.csv",
+      "bytes": 2530,
+      "sha256": "2d22ba39ceb4253df450cfb6d0ffeb94ce5cf96ed65eab586f1093b223ccfbad"
+    },
+    {
+      "path": "E0_PAYMENT_STAGE_SEPARATION_V149.csv",
+      "bytes": 1695,
+      "sha256": "734fd8a918ade8ec4e66ed079b3d7185dcc8e5eb897c615d37835b92079b7187"
+    },
+    {
+      "path": "E0_PUBLIC_EXECUTIVE_ONLY_ACT_BODY_GAP_V149.csv",
+      "bytes": 1636,
+      "sha256": "0cff3db56672d2a1b069c93346254006dade6e3f72d89d44395b4ff185f45a49"
+    },
+    {
+      "path": "E0_PUBLIC_ROUTE_EXHAUSTION_V149.csv",
+      "bytes": 1689,
+      "sha256": "09fd9fb562bad6f29406a2f2e6980a8756dc881655d65a0971651c82fdbe962c"
+    },
+    {
+      "path": "E0_PUBLIC_SETTLEMENT_RECORD_EXHAUSTION_V149.csv",
+      "bytes": 3020,
+      "sha256": "7ddde6254c14636de0a7c87203b32ee5a5e2e342b004b69f5e7eb7f2256b0e2f"
+    },
+    {
+      "path": "E0_QUERY_ZERO_RESULT_INTERPRETATION_V149.csv",
+      "bytes": 1366,
+      "sha256": "435b29ff30c3eea5192f4f1219e5cac44806f4d2110b7591afc1c2dcc04085ad"
+    },
+    {
+      "path": "E0_RECORD_PRODUCER_SYSTEM_MAP_V149.csv",
+      "bytes": 8755,
+      "sha256": "e7cb4413846e2f1c94c201aaa7ec06598eacf13771000cffafeadcc5d0dca245"
+    },
+    {
+      "path": "E0_REFERENCE_2006_IMPUTATION_CHAIN_V149.csv",
+      "bytes": 1494,
+      "sha256": "d6e60e53bff3f71881bbbaea7fcb25e7b2412a5c3122b2d737de732b2b5ce376"
+    },
+    {
+      "path": "E0_REFERENCE_2006_MODALITY_ALLOCATION_V149.csv",
+      "bytes": 2641,
+      "sha256": "eea49141676ddf4cc5f2b03cd0bd0e283cb2438ad3ee58a81db13943302f0f16"
+    },
+    {
+      "path": "E0_REFERENCE_2006_PARTICIPANT_AWARD_EVENT_MATRIX_V149.csv",
+      "bytes": 4989,
+      "sha256": "8c4082a93b1ceb17e7de9cbb401fee812e2072ee1736c455cae9cecf3e59e9f6"
+    },
+    {
+      "path": "E0_REFERENCE_2006_PARTICIPANT_CONCENTRATION_V149.csv",
+      "bytes": 787,
+      "sha256": "6d436feeed8c2aa500c512a70860a3832e3fc5abddbdd3920d5f6ecdaa2c628e"
+    },
+    {
+      "path": "E0_REFERENCE_2006_PAYMENT_RECORD_TARGET_MATRIX_V149.csv",
+      "bytes": 4769,
+      "sha256": "d578435ca5e7fc4eb0769a1f3d934bb0a2bcac934bd8602d43ff9a9f38befd3b"
+    },
+    {
+      "path": "E0_REFERENCE_2006_PUBLIC_TENDER_AWARDS_V149.csv",
+      "bytes": 2502,
+      "sha256": "90b6554836f508be9f6649b3580b8f4fe6566aeb072d16d5273f6792ea93e03d"
+    },
+    {
+      "path": "E0_REFERENCE_2006_PUBLIC_TENDER_PARTICIPANT_DISTRIBUTION_V149.csv",
+      "bytes": 2351,
+      "sha256": "a247c01322dd3e63690a39ee1bb1235c22839552d047debe926e0ac2416d8228"
+    },
+    {
+      "path": "E0_REPO_COMMISSION_ACCOUNT_LEAD_V149.csv",
+      "bytes": 2000,
+      "sha256": "b45f37f2563dca52fb5788874df05fe862b2cdef2c0a8580ad9ef92b7a6de3cd"
+    },
+    {
+      "path": "E0_REPO_DISPLAY_PRECISION_REASSESSMENT_V149.csv",
+      "bytes": 2913,
+      "sha256": "446bf64b044d7ba7fca6e5b1a18d69922474e25ca678bfe657a3e49434b0f172"
+    },
+    {
+      "path": "E0_REPO_PUBLIC_UNROUNDED_SEARCH_V149.csv",
+      "bytes": 818,
+      "sha256": "18fc5cc7cab6100e233104a71f00842a3ba5ccbaf7f508fd9db89b151baea2d1"
+    },
+    {
+      "path": "E0_REQUEST_ATTACHMENT_MINIMUM_V149.csv",
+      "bytes": 2106,
+      "sha256": "efbaffa9c70790653316a56df17487c506a089a66d4fdf2470bb84eec575ab7e"
+    },
+    {
+      "path": "E0_REQUEST_CLOSURE_CRITERIA_V149.csv",
+      "bytes": 5826,
+      "sha256": "ade8ed4dc88e0677f229012bfb931c3323dfde162ff919deaea0272f5bb632b2"
+    },
+    {
+      "path": "E0_REQUEST_RESPONSE_REGISTER_V149.csv",
+      "bytes": 1624,
+      "sha256": "400247cecf84d83cf3ebafceee532cee463c0157e5dc5b5f26651dbf7b98a0c0"
+    },
+    {
+      "path": "E0_REQUEST_SEARCH_KEY_MATRIX_V149.csv",
+      "bytes": 73060,
+      "sha256": "e473f169e7d01a335bf88b0c6f3358c4df70c6ea0aa7e41accbc4ad24b54bf0b"
+    },
+    {
+      "path": "E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V149.csv",
+      "bytes": 2287,
+      "sha256": "0fefeaa6cda786d08b7ec9e7ed4e30ed9c4be719c74b819275299c1e8e783b74"
+    },
+    {
+      "path": "E0_SAF355_PRODUCER_CROSSWALK_V149.csv",
+      "bytes": 962,
+      "sha256": "ffc99090c611e3045e05983e8f34a6900fda3e1c6aa4effc9a358aac841dcead"
+    },
+    {
+      "path": "E0_SAF355_SIGADE_SIDIF_LINK_SYSTEM_CHAIN_V149.csv",
+      "bytes": 2553,
+      "sha256": "7bf54c2a28f38256e2174ae5c5ca5389bc3ad9d2c6bb19a31cdb1c9a6701a6d1"
+    },
+    {
+      "path": "E0_SECURITY_IDENTIFIER_CROSSWALK_V149.csv",
+      "bytes": 2596,
+      "sha256": "7d2a49a68f923cc9bebffb99fce927d5df4a42cf163e4f17fe64d14644c75b79"
+    },
+    {
+      "path": "E0_SETTLEMENT_EVIDENCE_LADDER_SUMMARY_V149.csv",
+      "bytes": 738,
+      "sha256": "62916987bcb59dc455e57fa810ad48b7d1237b042e26b8cd6221d858272ea267"
+    },
+    {
+      "path": "E0_SETTLEMENT_EVIDENCE_LADDER_V149.csv",
+      "bytes": 2902,
+      "sha256": "2ac2a450843d03ecfbdcc3425651f6f5fc7504104758eff5fe2a26a695c04493"
+    },
+    {
+      "path": "E0_SICHE_CUT_HISTORICAL_REPOSITORY_V149.csv",
+      "bytes": 2943,
+      "sha256": "71b3c77469e3da5a6e09fe1317c752a615877b80652368a26517c7e2b9125c9d"
+    },
+    {
+      "path": "E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V149.csv",
+      "bytes": 2193,
+      "sha256": "c5400199158e626787dd54f4e9dfb12cb8887beee983a2af47f03543319b9919"
+    },
+    {
+      "path": "E0_SICHE_LEGACY_QUERY_AUTHORITY_V149.csv",
+      "bytes": 1563,
+      "sha256": "e9b136fa6f61fdad15da65556d4b7d6e33f5aa58b1911af9dc9f2bb6a7208df4"
+    },
+    {
+      "path": "E0_SICHE_NAMED_QUERY_TARGET_MAP_V149.csv",
+      "bytes": 3334,
+      "sha256": "59d2e2ef65075066cee5b5e98ba1d1916459c1150c9300c0631761deee82ff45"
+    },
+    {
+      "path": "E0_SICHE_SIDIF_CENTRAL_TARGET_ROUTE_V149.csv",
+      "bytes": 2991,
+      "sha256": "a84e73ca8c810a5cafad0fac43ad48a1f01318f22fcd756cf2e031259e9bb265"
+    },
+    {
+      "path": "E0_SICHE_SLU_LEGAL_CUSTODY_EXPORT_ROUTE_V149.csv",
+      "bytes": 2288,
+      "sha256": "5ffba43219d290e8b465479a16156c90c279d56d7896ccdefbfbb0b7b4b30e15"
+    },
+    {
+      "path": "E0_SICHE_TARGET_QUERY_PLAN_V149.csv",
+      "bytes": 6685,
+      "sha256": "a80fad6f5a1d05db1cca7ff82f5fc1d12e271a8b7b24806e693b844ba1e56a99"
+    },
+    {
+      "path": "E0_SIDIF_ESIDIF_TEMPORAL_DEPLOYMENT_V149.csv",
+      "bytes": 2402,
+      "sha256": "f7379ea89d45f0904ab763f661d9becd0835169e282723cee1c2bc46771cce7d"
+    },
+    {
+      "path": "E0_SIDIF_LINK_HISTORICAL_RECOVERY_STRATEGY_V149.csv",
+      "bytes": 2046,
+      "sha256": "337ca75b4651a9f73a26a52da11abd488b29c302a4c3dbe2d93c62c07127136c"
+    },
+    {
+      "path": "E0_SIDIF_LINK_SICHE_REQUEST_OBJECTS_V149.csv",
+      "bytes": 4079,
+      "sha256": "119b5d55678c4c953f0239c14e8e5f6dc9d35954253b74c8e07abdee03b9ce91"
+    },
+    {
+      "path": "E0_SIDIF_PAID_BENEFICIARY_FILE_SCHEMA_V149.csv",
+      "bytes": 1772,
+      "sha256": "53c5a80b1e15411749ed2ebe2f05fc1e57bd100324e517f6874999933e8dce50"
+    },
+    {
+      "path": "E0_SIDIF_TARGET_DOCUMENT_TYPE_AUDIT_V149.csv",
+      "bytes": 954,
+      "sha256": "3690c2e7cbb3ec68c9860cd4a89393f62c8ef0cf29d219ebfc458c1986685b30"
+    },
+    {
+      "path": "E0_SIGADE_DATA_QUALITY_AND_SIDECAR_RISK_V149.csv",
+      "bytes": 5044,
+      "sha256": "b9f23add7d015f1a2ff2b2c95bc7be2a805e62d30ab417f10c19a305cef03d5d"
+    },
+    {
+      "path": "E0_SIGADE_PAYMENT_ATTRIBUTE_CROSSWALK_V149.csv",
+      "bytes": 2351,
+      "sha256": "64e6e11db5ce5b058cb03fb0680795cf89e6bb9d248e4b353a66f740f1ffbdc3"
+    },
+    {
+      "path": "E0_SIGADE_Q3_EXCHANGE_BOND_EXTRACT_V149.csv",
+      "bytes": 1580,
+      "sha256": "f61baccc3eafae7c265a7b2c15072244bd958a4cc131ff89ec0dedc49b36467e"
+    },
+    {
+      "path": "E0_SIGADE_SIDIF_DISCLOSURE_LADDER_V149.csv",
+      "bytes": 6371,
+      "sha256": "3569f17a7027f3a6302fce00661955dc9a2a50a496bce89bb05f890b54a33cf1"
+    },
+    {
+      "path": "E0_SIGADE_SIDIF_TARGET_DISCLOSURE_TRANSITIONS_V149.csv",
+      "bytes": 1595,
+      "sha256": "087bc1d147666a5851a326d519f43908cfcb858b80036f7d28e73ca70ed5f524"
+    },
+    {
+      "path": "E0_SLU_2002_RECONCILIATION_REPORT_SCHEMA_V149.csv",
+      "bytes": 6234,
+      "sha256": "7a555d16894103646418c06121db74130b9c87d079d8a264fc270036070cd3b7"
+    },
+    {
+      "path": "E0_SLU_2005_PAYMENT_COMMISSION_BRANCH_V149.csv",
+      "bytes": 3981,
+      "sha256": "5266127747218ff2a69260d005d01086ddd4bb28a5331f48359cf7b96461db54"
+    },
+    {
+      "path": "E0_SLU_AUTOMATIC_EXPENSE_MAPPING_CHAIN_V149.csv",
+      "bytes": 2940,
+      "sha256": "cdf5f42119a97ed0f22fbfae4e07a64b52c73e137092ac7defa4b56a68e68328"
+    },
+    {
+      "path": "E0_SLU_BACKUP_AND_SICHE_REQUEST_OBJECTS_V149.csv",
+      "bytes": 6410,
+      "sha256": "4bfc6e0299c0710c0b3688ac53607facb34d60cfc66badf63b4930c32392a1c0"
+    },
+    {
+      "path": "E0_SLU_BACKUP_RETENTION_DUTY_V149.csv",
+      "bytes": 3216,
+      "sha256": "284cb3e49a286fa113547a18bbf00c5bc51c3682858172fd0f55c34856c08c81"
+    },
+    {
+      "path": "E0_SLU_BASE_TABLE_DICTIONARY_V149.csv",
+      "bytes": 3594,
+      "sha256": "1ac5a397892a779a0c9da5c79935ecf44e88224a6518ec9bb717759a899c1c45"
+    },
+    {
+      "path": "E0_SLU_C10_RESOURCE_NEGATIVE_CONTROL_V149.csv",
+      "bytes": 1968,
+      "sha256": "2ee6851a5242aec2b5d1d414d597ab209e6c609eff9faddf3657b75e0edbdff2"
+    },
+    {
+      "path": "E0_SLU_HISTORICAL_RECOVERY_STRATEGY_V149.csv",
+      "bytes": 4812,
+      "sha256": "f8877f34e1887ff69909a1a8aec35c82c4971629fd2af7c1a55183ec1ea7f620"
+    },
+    {
+      "path": "E0_SLU_LEGACY_REPORT_EXPORT_SCHEMA_V149.csv",
+      "bytes": 1758,
+      "sha256": "76a7d28e78a42a46e19c28977b2b347f5502794d355e6c1e4e835c3bd77a934e"
+    },
+    {
+      "path": "E0_SLU_LOCAL_ADMIN_HISTORY_AND_C55_V149.csv",
+      "bytes": 2211,
+      "sha256": "3f38a5b84906a953fa85165ed6d8a2e915019ca816e0bea66a524e7cabd15f6d"
+    },
+    {
+      "path": "E0_SLU_MIGRATION_DOCUMENT_CHAIN_V149.csv",
+      "bytes": 2345,
+      "sha256": "1a6d7fa959dd207298a89c89834b845991286203f67030cb7df38cb504390e4a"
+    },
+    {
+      "path": "E0_SLU_REVERSAL_NEGATIVE_CONTROL_V149.csv",
+      "bytes": 1821,
+      "sha256": "6fac612656ad62abcb34a05984e4aa654def5dc80750fba0f46d19025c1b402b"
+    },
+    {
+      "path": "E0_SLU_SIDIF_DOCUMENT_TYPE_NARROWING_V149.csv",
+      "bytes": 1910,
+      "sha256": "0657bfac4dae05522e5e6f35573f718f43403128bf50df47d0483f022deb3dd7"
+    },
+    {
+      "path": "E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V149.csv",
+      "bytes": 2116,
+      "sha256": "20e49a038431e88821549511e7d8b83a7ac944383bf37997f929e41ec2a34a59"
+    },
+    {
+      "path": "E0_SLU_V9_2008_VISUAL_VERSION_CONTROL_V149.csv",
+      "bytes": 1421,
+      "sha256": "34bbabba696f84eb0a4f1a19eac3c0e33f20cb9eb7e0a3223fb1787588240f22"
+    },
+    {
+      "path": "E0_TARGET_FIRST_STAGE_REQUEST_OBJECTS_V149.csv",
+      "bytes": 1838,
+      "sha256": "79004ab5c2a89dde6a659543978af6f825771135cd05cf4024c7bba816f85cc8"
+    },
+    {
+      "path": "E0_TGN_BANK_CUT_OUTPUT_AND_NOTE_CHAIN_V149.csv",
+      "bytes": 2200,
+      "sha256": "d5ee02be1f5fe1a1c415860b0c80fc2b4a2dd1df69aa11d4cd00240c626dce0e"
+    },
+    {
+      "path": "E0_TGN_BCRA_2008_PAYMENT_RECORD_CLASSES_V149.csv",
+      "bytes": 1368,
+      "sha256": "797953fbf4f1d92096474b083bc804a1a66780634577eba4d056311de8361f4c"
+    },
+    {
+      "path": "E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V149.csv",
+      "bytes": 2271,
+      "sha256": "edea5a4a0216df6744d6551e486f56b58435e3504d242fec563dd6f934626d49"
+    },
+    {
+      "path": "E0_UAI_LAST_FORM_CUT_SCHEMA_V149.csv",
+      "bytes": 1876,
+      "sha256": "579db116334f55b96d3b24687d1a8e657da699e21a3ae065ed9447184191f32f"
+    },
+    {
+      "path": "E0_UAI_SIGADE_BACKUP_CUSTODY_ROUTE_V149.csv",
+      "bytes": 1533,
+      "sha256": "c6539e84af8d03dfa3e2414d31d7665347aa97a79c3584c3657735685f1d0e5e"
+    },
+    {
+      "path": "E0_V149_EXACT_PUBLIC_SEARCH_V149.csv",
+      "bytes": 1682,
+      "sha256": "0150a930f5a363c837ecfa4a243d476070946cc011e033c0c54cace6989827cb"
+    },
+    {
+      "path": "E0_V149_PDF_VISUAL_CONTROL.csv",
+      "bytes": 8077,
+      "sha256": "0b6bc5a9c375405d7aadbc6ac6f6f9abcd062709cd5f99c1384551f08903cf1c"
+    },
+    {
+      "path": "E0_V149_PUBLIC_SEARCH_NEGATIVE_RESULTS_V149.csv",
+      "bytes": 3189,
+      "sha256": "68cab45a7b642c60ecdc7f64b4da9fb26f4e1424f4d20e349eff0aa9a9ccfb5f"
+    },
+    {
+      "path": "E0_V149_REQUEST_OBJECTS_V149.csv",
+      "bytes": 4256,
+      "sha256": "480331d65d6027c0e9068c967f063514759cee59b9737d1e8148e0f031226e3f"
+    },
+    {
+      "path": "E0_V149_WORD_VISUAL_CONTROL.csv",
+      "bytes": 2108,
+      "sha256": "c9d695fc79edeb0c912dd3cef697ea80be6c94c6f53f189f4efe4b785f79004a"
+    },
+    {
+      "path": "FOUR_LEG_PASS_PANEL_V149.csv",
+      "bytes": 19633,
+      "sha256": "08145e7b8e446fae0a111e0e4c11f7a41b554743133f688fe3422f5e7ed1028f"
+    },
+    {
+      "path": "HANDOVER_PROXIMA_SESION_CICLO_AJUSTE_V149_A_V150.md",
+      "bytes": 1175,
+      "sha256": "1a271774bd12a9c29d9bc8c38663d03566bb291518138d676081ac0b7015b272"
+    },
+    {
+      "path": "HISTORICAL_EPISODE_MATRIX_2001_2026_V149.csv",
+      "bytes": 38500,
+      "sha256": "44ee8730c1767427d476a3d80c49104fbb342ad75918a48885ef2b0212831cbe"
+    },
+    {
+      "path": "HISTORICAL_EVIDENCE_COVERAGE_V149.csv",
+      "bytes": 6978,
+      "sha256": "ceca91005efb995f12e0995e57ce2322abe8e36b1c6b5541d347a4f4bacac20a"
+    },
+    {
+      "path": "HISTORICAL_SOURCE_QUEUE_V149.csv",
+      "bytes": 5801,
+      "sha256": "2d2976fe65fe40005a21f6eb2ec78b4648019732eae3ef38d23dd81276f9cbc9"
+    },
+    {
+      "path": "INHERITED_QA_STATUS_V149.csv",
+      "bytes": 226,
+      "sha256": "aaf35c38bf7ac79d060db2bf879691f8db0dc0c2e1500d67aaf1204428cf3eb5"
+    },
+    {
+      "path": "qa_v149.py",
+      "bytes": 7697,
+      "sha256": "d010d2e05ccbccc3e8f94837890b73c765e7c5f27cca2d790ff32a3564582d98"
+    },
+    {
+      "path": "README_V149.md",
+      "bytes": 1336,
+      "sha256": "b01a36250a95dea3b9bb047adbb33c32241783270758abd91e2c9ff06c486b8a"
+    },
+    {
+      "path": "RECOVERY_QUEUE_V149.csv",
+      "bytes": 3561,
+      "sha256": "58ff468ec4ff0a0d8a7bdbf5fce7bce499fc68d091c2eb1112767943f6985962"
+    },
+    {
+      "path": "REQUEST_AGN_2018_REPLY_V149.md",
+      "bytes": 9208,
+      "sha256": "ca9ee6f64e68a978394fe7e2454aed41fb92de7ac1d4f71895fa5ab7827680b7"
+    },
+    {
+      "path": "REQUEST_BCRA_CRYL_SETTLEMENT_V149.md",
+      "bytes": 9014,
+      "sha256": "dd5e0b82f7fc30cee189e02c0b7f8a0c554194a121bc8769dee9de855de96002"
+    },
+    {
+      "path": "REQUEST_BNA_FIRST_STAGE_BLOTTER_V149.md",
+      "bytes": 7440,
+      "sha256": "1f5242ba0dac6da8faa4ddc7c978bdad58151870ecbf98c2c0bd56369a5f573d"
+    },
+    {
+      "path": "REQUEST_CAJA_SETTLEMENT_HOLDINGS_V149.md",
+      "bytes": 8483,
+      "sha256": "c42185d2ac8a5994108ae23453f8188593609c754746e59e8bea796e79ae7f91"
+    },
+    {
+      "path": "REQUEST_CNV_CUSTODY_RECORDS_V149.md",
+      "bytes": 4759,
+      "sha256": "b4604ce4b4d0c6cddb30df971736a8b2164711565471388ddab5424a29676fd7"
+    },
+    {
+      "path": "REQUEST_ECONOMIA_TESORO_SETTLEMENT_V149.md",
+      "bytes": 50996,
+      "sha256": "629ff0a4ffb6c1fad89c06737eade0f2ac0b8e2a23ed8d60dfe5b5e42aae63cf"
+    },
+    {
+      "path": "REQUEST_SUBMISSION_CHECKLIST_V149.md",
+      "bytes": 10562,
+      "sha256": "a6c706cce04a818e05da6845a791501f8b9828632b1863ba5822fb9eeebaf38b"
+    },
+    {
+      "path": "RETRIEVAL_LOG_V149.md",
+      "bytes": 527,
+      "sha256": "0982661ae1f36a92e4b8d9b157dbc74bd43fa55a2aa6d545f14b8b00c2d6ed6f"
+    },
+    {
+      "path": "SOURCE_REFERENCES_V149.md",
+      "bytes": 43114,
+      "sha256": "a72e48b9b846a41a9766860cf49540e3cf0c60d0fb0a56538176a9500ec2b256"
+    },
+    {
+      "path": "STRICT_Q4_FOUR_LEG_COVERAGE_V149.csv",
+      "bytes": 924,
+      "sha256": "aaf60df97ab77a38d00e5178c241dfeb5de9aefa00c3336ba3c20c26550d54c0"
+    },
+    {
+      "path": "VEREDICTO_V149.md",
+      "bytes": 733,
+      "sha256": "e04f7abaa5380809a0a316e35ff6e537d46cd525bad42d05c47a7534addc5200"
+    }
+  ]
+}

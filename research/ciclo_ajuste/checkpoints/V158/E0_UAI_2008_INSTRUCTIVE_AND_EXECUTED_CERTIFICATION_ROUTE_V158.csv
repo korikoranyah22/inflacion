@@ -1,0 +1,22 @@
+row_id,object_code,object,finding,locator,status
+UA152_01,INSTR_02_EXISTENCE,Instructivo de Trabajo SGN 02/2008,"Existencia, cuerpo íntegro y Anexos I-V localizados en Circular CGN 01/09.",Circular 01/09 + acir01.pdf pp.1-11,BODY_AND_ANNEXES_LOCATED
+UA152_02,NOTE_84749,Nota ENRE 84.749,"Certificó Cuenta 2008 bajo Instructivo 02/2008, Anexos II y IV.",ENRE p.163,COMPARATOR_EXECUTION
+UA152_03,NOTE_86232,Nota ENRE 86.232,"Certificó Cuenta 2008 bajo Instructivo 02/2008, Anexo V.",ENRE p.163,COMPARATOR_EXECUTION
+UA152_04,ANNEX_II,Anexo II,Modelo localizado; falta la certificación ejecutada del SAF355.,Nota 84.749,MODEL_LOCATED_TARGET_CERT_OPEN
+UA152_05,ANNEX_IV,Anexo IV,Modelo localizado; falta la certificación ejecutada del SAF355.,Nota 84.749 + Instructivo 2/2009,MODEL_LOCATED_TARGET_CERT_OPEN
+UA152_06,ANNEX_V,Anexo V,Modelo localizado; falta la certificación ejecutada del SAF355.,Nota 86.232 + Instructivo 2/2009,MODEL_LOCATED_TARGET_CERT_OPEN
+UA152_07,AUDIT_1_2009,Instructivo 1/2009 GNyPE,"Informe UAI 04 auditó control interno, sistemas y metodología, separado de certificaciones.",ENRE pp.162-163,SEPARATE_AUDIT_LADDER
+UA152_08,REPORT_04,Informe UAI ENRE 04,Comparador; no es el informe del Ministerio de Economía.,ENRE p.162,COMPARATOR_ONLY
+UA152_09,SIGEN_WORK_INSTRUCTIONS,Instrucciones de trabajo a UAI,SIGEN declara haberlas emitido para certificaciones de la Cuenta.,Memoria SIGEN 2009 p.6,CENTRAL_ROUTE_PROVED
+UA152_10,SIGEN_GLOBAL_REPORT,Informe de la Cuenta de Inversión 2008,SIGEN declara un informe global sobre controles de los estados contables.,Memoria SIGEN 2009 p.6,EXACT_OBJECT_PROVED
+UA152_11,SIGEN_SUPERVISION,Supervisión y coordinación de UAI,SIGEN monitoreó planes y emitió informes de supervisión.,Memoria SIGEN 2009 pp.5-7,SUPERVISION_ROUTE_PROVED
+UA152_12,SYSTEM_EVALUATIONS,124 evaluaciones de control interno,Universo 2008; no individualiza SAF355.,Memoria SIGEN 2009 p.5,GLOBAL_UNIVERSE_ONLY
+UA152_13,MINISTRY_CERT,Certificación UAI Ministerio de Economía / SAF355,No localizada públicamente.,Búsqueda V152,TARGET_OPEN
+UA152_14,MINISTRY_AUDIT,Informe 1/2009 para Economía/SAF355,No localizado públicamente.,Búsqueda V152,TARGET_OPEN
+UA152_15,INSTR_BODY,Cuerpo completo Instructivo 02/2008,Cuerpo completo de once páginas localizado y controlado visualmente.,acir01.pdf pp.1-11,BODY_LOCATED
+UA152_16,ANNEX_VERSIONS,Anexos y versiones distribuidas,"Pedir anexos, modificaciones, fecha, remitente y destinatarios.",Control de completitud,DRAFT_REQUEST
+UA152_17,DISPATCH_RECEIPT,Notas de salida/entrada y acuses,"Pedir número, fecha, hora, adjuntos, firmante y receptor.",Cadena de custodia,DRAFT_REQUEST
+UA152_18,WORKPAPERS,Papeles de trabajo UAI,"Pedir universo, muestra, hallazgos, ajustes, excepciones y conclusión.",Cadena de auditoría,DRAFT_REQUEST
+UA152_19,LIMIT_ENRE,IDs 84.749 y 86.232,"Son notas ENRE, no números del SAF355.",Control metodológico,DO_NOT_TRANSPOSE
+UA152_20,LIMIT_CERT,Certificación UAI,Certifica consistencia/control; no sustituye movimiento bancario target.,Control metodológico,NOT_PAYMENT_PROOF
+

@@ -1,0 +1,7 @@
+scope_id,reference_year,component,isin,vno_native_million,vno_currency,effective_value_million_ars,source_chain,locator_chain,additivity,evidence_status,caveat
+GS133_01,2006,GDP Units ARS Argentine law,ARARGE03E147,43824.10,ARS,1858.10,e0_argentina_recompras_decreto_1735_04_report,PDF_p2,COMPONENT,OFFICIAL_REPURCHASE_COMPONENT,VNO no es principal exigible ni debe sumarse con el VNO USD.
+GS133_02,2006,GDP Units USD Argentine law,ARARGE03E154,260.90,USD,28.00,e0_argentina_recompras_decreto_1735_04_report,PDF_p2,COMPONENT,OFFICIAL_REPURCHASE_COMPONENT,El efectivo está expresado en ARS; el VNO permanece en USD.
+GS133_GDP_SUBTOTAL,2006,GDP Units subtotal,ARARGE03E147;ARARGE03E154,N/A_MIXED_CURRENCIES,MIXED,1886.10,e0_argentina_recompras_decreto_1735_04_report,PDF_p2,SUBTOTAL_DO_NOT_ADD_TO_COMPONENTS,EXACT_DERIVED_FROM_OFFICIAL_COMPONENTS,"Subtotal efectivo exacto; no acredita fecha, contraparte ni débito."
+GS133_03,2006,Discount en Pesos 5.83% 2033,ARARGE03E121,2748.50,ARS,1415.50,e0_argentina_recompras_decreto_1735_04_report;E0_FISCAL_Q4_DISCOUNT_PESOS_VALUATION_BRIDGE_V154.csv,PDF_p2;VB128,COMPONENT,OFFICIAL_REPURCHASE_COMPONENT_Q4_ACCOUNTING_RECONCILED,El efectivo no es la baja contable actualizada.
+GS133_TOTAL,2006,Official total,N/A,N/A_MIXED_CURRENCIES,MIXED,3301.60,e0_argentina_recompras_decreto_1735_04_report,PDF_p2,TOTAL_DO_NOT_ADD_TO_COMPONENTS_OR_SUBTOTAL,OFFICIAL_TABLE_TOTAL_EXACTLY_RECONCILED,"Total efectivo, no stock, principal ni confirmación bancaria."
+

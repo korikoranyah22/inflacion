@@ -1,0 +1,3 @@
+﻿script,pre_v134_result,post_v134_result,interpretation
+qa_v133.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V133 queda supersedido por nuevas fuentes y conteos V134.
+qa_v134.py,N/A,PASS,"FindDoc, C-41, Bicameral, hashes y no ejecución verificados."

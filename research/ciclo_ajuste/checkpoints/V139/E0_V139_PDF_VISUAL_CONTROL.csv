@@ -1,0 +1,14 @@
+﻿control_id,source_id,local_path,pdf_page,rendered_check,result
+PV139_01,e0_dgsiaf_siche_deployment_2020_q1,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_dgsiaf_bulletin_2020_q1_siche.pdf,10,SICHE Gastos/Recursos/PEF/Pagos y expresiones numéricas,PASS
+PV139_02,e0_dgsiaf_siche_deployment_2020_q4,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_dgsiaf_bulletin_2020_q4_siche.pdf,10,consultas especiales y Conciliación Bancaria,PASS
+PV139_03,e0_dgsiaf_siche_deployment_2021_q2,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_dgsiaf_bulletin_2021_q2_siche.pdf,11,filtros de cabecera y detalle,PASS
+PV139_04,e0_dgsiaf_slu_system_description_v3,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_slu_system_description_v3.pdf,89,Sistema de Tesorería,PASS
+PV139_05,e0_dgsiaf_slu_system_description_v3,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_slu_system_description_v3.pdf,107,"medios, selección y confirmación de pagos",PASS
+PV139_06,e0_dgsiaf_slu_system_description_v3,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_slu_system_description_v3.pdf,113,"conciliación, Libro Banco y extracto interno",PASS
+PV139_07,e0_dgsiaf_slu_system_description_v3,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_slu_system_description_v3.pdf,114,movimientos automáticos; ejemplo comisiones bancarias,PASS
+PV139_08,e0_dgsiaf_slu_system_description_v3,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/argentina_slu_system_description_v3.pdf,115,débitos de pagos versus débito/crédito automático BNA,PASS
+PV139_09,e0_cgn_cuenta_inversion_2011_sdp,/research/ciclo_ajuste/inputs/historical_retrieval/v112/binaries/cgn_cuenta_inversion_2011_sdp.pdf,62,"83106000, ARS 1.101,10, cuatro C41, concepto YPF",PASS
+PV139_10,e0_cgn_cuenta_inversion_2012_sdp,/research/ciclo_ajuste/inputs/historical_retrieval/v112/binaries/cgn_cuenta_inversion_2012_sdp.pdf,52,"83106000, ARS 1.113,20, VARIOS, concepto YPF",PASS
+PV139_11,e0_cgn_cuenta_inversion_2013_sdp,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/cgn_cuenta_2013_separata_deuda_publica.pdf,53,"83106000, ARS 1.542,75, tres C41, concepto YPF",PASS
+PV139_12,e0_cgn_cuenta_inversion_2014_sdp,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/cgn_cuenta_2014_separata_deuda_publica.pdf,67,"83106000, ARS 1.748,45, cuatro C41, concepto YPF",PASS
+PV139_13,e0_cgn_cuenta_inversion_2015_sdp,/research/ciclo_ajuste/inputs/historical_retrieval/v139/binaries/cgn_cuenta_2015_separata_deuda_publica.pdf,54,"83106000, ARS 767,85, VARIOS, concepto YPF",PASS

@@ -1,0 +1,63 @@
+{
+  "fecha_corte": "2026-08-31",
+  "checks": {
+    "wage_private_trough_below_baseline": true,
+    "wage_public_worse_than_private_at_cutoff": true,
+    "current_account_2024_latest_revision": true,
+    "fiscal_swing_matches": true,
+    "public_investment_chain": true,
+    "iibb_50_requires_double_base": true,
+    "iibb_100_has_no_finite_solution": true,
+    "rigi_intensity_positive": true,
+    "routes_operational_not_greater_than_awarded": true,
+    "household_reference_strings_present": true,
+    "coverage_items_complete": true,
+    "metric_ids_unique": true
+  },
+  "calculated": {
+    "wagePrivate": {
+      "baseline_period": "2023-11",
+      "trough_period": "2024-03",
+      "trough_index": 87.86668487414445,
+      "last_period": "2026-06",
+      "last_index": 96.44557049875527,
+      "shock_pct": -12.133315125855546,
+      "recovery_from_trough_pct": 9.763524863716832,
+      "saldo_vs_baseline_pct": -3.5544295012447265
+    },
+    "wagePublic": {
+      "baseline_period": "2023-11",
+      "trough_period": "2024-01",
+      "trough_index": 78.13557164618318,
+      "last_period": "2026-06",
+      "last_index": 83.48074772508427,
+      "shock_pct": -21.86442835381682,
+      "recovery_from_trough_pct": 6.840899690483293,
+      "saldo_vs_baseline_pct": -16.51925227491573
+    },
+    "wageUnregistered": {
+      "baseline_period": "2023-11",
+      "trough_period": "2024-04",
+      "trough_index": 72.30959636266115,
+      "last_period": "2026-06",
+      "last_index": 184.84725368013966,
+      "shock_pct": -27.690403637338846,
+      "recovery_from_trough_pct": 155.63308741630607,
+      "saldo_vs_baseline_pct": 84.84725368013966
+    },
+    "fiscalSwingPp": 4.7004850110000005,
+    "currentAccount2024UsdM": 6285,
+    "currentAccountSwingUsdM": 27241,
+    "emaeChange": 5.154051403678084,
+    "emaePcChange": 4.694351243782968,
+    "privateEmploymentDelta": -251500,
+    "rigiApprovedJobsPerUsdBn": 1823.0630268968287,
+    "pampaPermanentPerUsdBn": 111.1111111111111,
+    "publicInvestmentIndex2025": 18.177,
+    "stockMechanicalEnd2024": 96.62980000000002,
+    "stockSpliceGapPp": 8.870199999999983,
+    "operationalKm": 741.7099999999999,
+    "awardedKm": 2613.53
+  },
+  "pass": true
+}

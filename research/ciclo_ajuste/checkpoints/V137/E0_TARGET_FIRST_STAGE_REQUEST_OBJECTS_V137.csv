@@ -1,0 +1,11 @@
+﻿priority,record_object,exact_keys,minimum_output,fallback,status
+1,Planillas de Remisión SAF355 ejercicio 2008 subserie Otros Gastos,SAF355;2008;Rendiciones de Cuentas;Otros Gastos;71597;152677;2876,copia/exportación existente; caja;tipo;número;desafectación;observaciones;firmas,"índice en el estado en que obre, con tachas parciales",DRAFT_NOT_SENT
+2,Tejuelos e inventario de cajas,SAF355;2008;Otros Gastos,período;número de orden;caja,metadatos de ubicación,DRAFT_NOT_SENT
+3,Tipo documental de cada referencia SIDIF,71597;152677;2876;83106000,especie;fecha;importe;beneficiario;expediente;vínculos,salida preexistente de índice,DRAFT_NOT_SENT
+4,Original o copia autenticada y cuerpos relacionados,caja+tipo+número obtenidos,todos los folios y anexos,imagen digital o copia disociada,DRAFT_NOT_SENT
+5,"Clasificación de pagador, fuente y clase de gasto",SAF355;71597;152677;2876,PAGADOR TGN/SAF;fuente;partida;concepto,registro preexistente de sistema,DRAFT_NOT_SENT
+6,Reporte de Distribución Diaria de Pagos,tres SIDIF;2008,total/parcial;importe distribuido;fecha;selección,filas existentes sin datos personales,DRAFT_NOT_SENT
+7,Confirmación y medio de pago,tres SIDIF;identificador bancario,confirmación;saldo;medio;lote;archivo,metadatos del evento,DRAFT_NOT_SENT
+8,Rama débito automático de comisiones BNA,83106000;ARS32270.30;CUT;gastos bancarios,código movimiento;extracto;fecha valor;regularización;conciliación,movimientos agregados por fecha/importe,DRAFT_NOT_SENT
+9,Rama Nota de Pago deuda pública,SAF355;BCRA;Archivos de Notas,lote;archivo;instrucción;acuse BCRA;registro Libro Banco,metadatos de lote/acuse,DRAFT_NOT_SENT
+10,Rendición bancaria y conciliación,BNA/BCRA;tres SIDIF;importe/fecha,aceptado/rechazado;acreditación/débito;saldo;conciliación,respuesta disociada,DRAFT_NOT_SENT

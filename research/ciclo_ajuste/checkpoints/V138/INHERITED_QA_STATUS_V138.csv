@@ -1,0 +1,3 @@
+﻿script,pre_v138_result,post_v138_result,interpretation
+qa_v137.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V137 queda supersedida por fuentes, conteos y ruta SICHE V138."
+qa_v138.py,N/A,PASS,"SICHE, tipos candidatos, test C55, hashes y no envío verificados."

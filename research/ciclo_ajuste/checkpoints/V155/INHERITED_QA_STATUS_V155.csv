@@ -1,0 +1,3 @@
+﻿script,pre_v155_result,post_v155_result,interpretation
+qa_v154.py,PASS,PASS_BASELINE,V154 íntegra; V155 agrega cadena documental sin alterar 0/10.
+qa_v155.py,N/A,PASS,"Verifica fuentes, controles, borradores y límites V155."

@@ -1,0 +1,3 @@
+﻿script,pre_v157_result,post_v157_result,interpretation
+qa_v156.py,PASS,PASS_BASELINE,V156 íntegra; V157 agrega cadena de planeamiento sin alterar 0/10.
+qa_v157.py,N/A,PASS,"Verifica cinco fuentes, matrices, controles y límites V157."

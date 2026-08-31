@@ -1,0 +1,11 @@
+﻿row_id,exact_query,official_domain,result,interpretation,status
+NS151_01,site:economia.gob.ar instruai2008.pdf,economia.gob.ar,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",EXACT_URL_404_NOT_ABSENCE
+NS151_02,site:economia.gob.ar 0071597 C42,economia.gob.ar,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",PUBLIC_BODY_NOT_LOCATED
+NS151_03,site:economia.gob.ar 0152677 C42,economia.gob.ar,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",PUBLIC_BODY_NOT_LOCATED
+NS151_04,site:economia.gob.ar 0002876 C42,economia.gob.ar,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",PUBLIC_BODY_NOT_LOCATED
+NS151_05,site:argentina.gob.ar 71597 83106000,argentina.gob.ar,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",PUBLIC_BODY_NOT_LOCATED
+NS151_06,site:argentina.gob.ar 152677 83106000,argentina.gob.ar,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",PUBLIC_BODY_NOT_LOCATED
+NS151_07,site:argentina.gob.ar 2876 83106000,argentina.gob.ar,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",PUBLIC_BODY_NOT_LOCATED
+NS151_08,SAF355 listado parametrizado SIDIF Central 2008,official,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",TARGET_OUTPUT_NOT_LOCATED
+NS151_09,SAF355 TRANSAF lote 2008 C42,official,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",TARGET_LOG_NOT_LOCATED
+NS151_10,UAI SAF355 formularios C41 C42 C55 2008,official,sin cuerpo/log/certificación target,"No prueba inexistencia, destrucción ni pago.",TARGET_CERTIFICATION_NOT_LOCATED

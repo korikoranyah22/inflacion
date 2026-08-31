@@ -1,0 +1,13 @@
+﻿row_id,system,documented_function,period,record_to_request,allowed_inference,forbidden_inference,status
+SS157_01,SISIO WEB,Seguimiento de informes y observaciones,Desde 2006,"Entrada, constancia e historial",Sistema UAI y observaciones,No SIGEN plan interno,SYSTEM_ROLE
+SS157_02,SISIO WEB,Confección y seguimiento de Planeamientos UAI,2008,"Plan UAI, versiones y estados",Aloja planificación UAI,No actividad SIGEN propia,SYSTEM_ROLE
+SS157_03,SISIO WEB II,Fuente de planes UAI 2010,Corte 16/12/2009,"Snapshot, exportación y diccionario",Fecha y origen exactos,No plan final aprobado,SYSTEM_ROLE
+SS157_04,SISPE,Planeamiento de actividades SIGEN,2008,"Plan SIGEN, actividades y responsables",Sistema de planificación SIGEN,No entrada UAI SISIO,SYSTEM_ROLE
+SS157_05,SISPE,Seguimiento de ejecución SIGEN,2008,"Estados, productos y fechas",Ruta para producto SIGEN,No observaciones UAI,SYSTEM_ROLE
+SS157_06,Archivo Digital,Acceso a documentación histórica,2007-2010,"Índice, imagen, metadatos y logs",Ruta documental SIGEN,No prueba digitalización target,SYSTEM_ROLE
+SS157_07,SISIO versus SISPE,Sistemas con objetos distintos,2008-2009,"Crosswalk de ids, proyecto e informe",Exige búsqueda doble,No fusionar tokens,SYSTEM_SEPARATION
+SS157_08,SISIO versus Archivo Digital,Sistema de gestión versus repositorio documental,2008-2009,Vínculo entrada-documento-imagen,Permite cadena de evidencia,No asumir enlace automático,SYSTEM_SEPARATION
+SS157_09,SISPE versus Archivo Digital,Plan SIGEN versus cuerpo documental,2008-2009,Vínculo actividad-producto-archivo,Permite rastrear informe global,No asumir mismo id,SYSTEM_SEPARATION
+SS157_10,Snapshot,Fotografía a fecha de corte,16/12/2009,"Parámetros, versión y hash",Prueba estado en corte,No cambios posteriores,VERSION_CONTROL
+SS157_11,Plan aprobado,Resultado formal posterior,22/12/2009,"Acto, plan final y diferencias",Permite comparar snapshot-final,No prueba ejecución,VERSION_CONTROL
+SS157_12,Regla final,Cada sistema debe certificarse separado,2008-2009,"Consulta, operador, fecha y resultado",Evita falso negativo,Un cero no cubre otros sistemas,METHOD_LIMIT

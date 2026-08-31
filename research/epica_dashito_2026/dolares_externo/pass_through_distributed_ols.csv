@@ -1,0 +1,6 @@
+﻿regime,start,end,n,intercept,beta_fx_t,beta_fx_lag1,beta_fx_lag2,beta_fx_lag3,cumulative_beta_0_3,r_squared,interpretation
+completo,2018-04,2026-07,100,2.046173,0.209165,0.195492,0.115196,0.090483,0.610336,0.643992,pp IPC por 1% de depreciacion; OLS descriptivo sin controles
+2018-2019,2018-04,2019-12,21,2.918847,0.012033,0.084105,0.023869,0.024700,0.144708,0.536179,pp IPC por 1% de depreciacion; OLS descriptivo sin controles
+2020-pre_shock,2020-01,2023-11,47,1.359099,0.178692,0.255516,0.113106,0.418391,0.965705,0.756305,pp IPC por 1% de depreciacion; OLS descriptivo sin controles
+shock_y_crawl,2023-12,2025-03,16,2.420214,0.278229,0.213091,0.117679,0.091905,0.700904,0.953450,pp IPC por 1% de depreciacion; OLS descriptivo sin controles
+bandas,2025-04,2026-07,16,2.649835,-0.059753,-0.083858,-0.039438,0.026992,-0.156057,0.554762,pp IPC por 1% de depreciacion; OLS descriptivo sin controles

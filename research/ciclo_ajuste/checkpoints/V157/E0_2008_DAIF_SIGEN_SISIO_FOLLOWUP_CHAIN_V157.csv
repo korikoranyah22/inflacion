@@ -1,0 +1,25 @@
+row_id,stage,actor,record_or_system,exact_identifier,documented_action,probative_value,limit,status
+DS155_01,1,CGN-DAIF,Informe elevado a SIGEN,Nota 0120/09 DAIF,Remite detalle pormenorizado de gestión presupuestaria y financiera UEPEX y transferencias externas del cierre 2008,"Existencia, emisor, destinatario, número y objeto",No es el informe global Economía/2009 ni Anexo SAF355,CONTEMPORARY_RECORD_LOCATED
+DS155_02,2,SIGEN,Respuesta institucional,Nota SIGEN 3672/09 GSEyP,Comunica que conclusiones fueron puestas en conocimiento de áreas pertinentes,Existencia de respuesta y circulación interna,No se preservó el cuerpo autónomo de la nota,CONTEMPORARY_RECORD_REFERENCED
+DS155_03,3,Síndico General de la Nación,Firma de respuesta,Nota SIGEN 3672/09 GSEyP,Suscribe la respuesta según la Cuenta de Inversión,Nivel de autoridad de la instrucción,La mención no sustituye el original firmado,SIGNATURE_REFERENCED
+DS155_04,4,SIGEN,Instrucción de sistema,SISIO,Ordena incorporar hallazgos surgidos del informe,Nombre del sistema y objeto de carga,No ofrece número de actuación o registro SISIO,SYSTEM_ENTRY_REQUIRED
+DS155_05,5,UAI respectivas,Seguimiento,Circuito SISIO,Deben ejecutar seguimiento y regularización,Identifica ejecutor posterior y finalidad,No demuestra que cada hallazgo fuera regularizado,FOLLOWUP_ROUTE
+DS155_06,6,CGN,Control de cierre,Cuadros UEPEX,Coteja movimientos expuestos,Define objeto controlado,UEPEX no equivale al universo SAF355,CONTROL_OBJECT
+DS155_07,7,SAF,Registro presupuestario,SIDIF,Aporta ejecuciones de recursos y gastos,Fuente administrativa contemporánea,Registro no prueba acreditación bancaria,SYSTEM_SOURCE
+DS155_08,8,DADP,Registro de deuda,SIDIF,Aporta ejecuciones de la Dirección de Administración de la Deuda Pública,Vincula deuda y cierre,No individualiza las tres recompras target,SYSTEM_SOURCE
+DS155_09,9,CGN,Detección de diferencias,Comparación cuadros-SIDIF,Verifica origen de diferencias,Prueba procedimiento de conciliación,No preserva resultado por evento target,RECONCILIATION_PROCEDURE
+DS155_10,10,CGN,Comunicación correctiva,Coordinaciones de programas,Solicita aclaración o corrección,Identifica productor de respuesta,No individualiza notas concretas,RESPONSE_ROUTE
+DS155_11,11,CGN,Comunicación correctiva,Áreas contables SAF,Solicita aclaración o corrección,Identifica custodio contable,No individualiza SAF355,RESPONSE_ROUTE
+DS155_12,12,CGN,Comunicación correctiva,Áreas presupuestarias SAF,Solicita aclaración o corrección,Identifica custodio presupuestario,No individualiza SAF355,RESPONSE_ROUTE
+DS155_13,13,CGN,Comunicación correctiva,Sector Préstamos Multilaterales DADP,Solicita aclaración o corrección,Identifica custodio de deuda externa,No es el circuito BODEN doméstico por sí solo,RESPONSE_ROUTE
+DS155_14,14,CGN,Salida de consulta,Listados detallados,Proporciona detalle de movimientos registrados,Prueba capacidad de exportación,Capacidad no prueba que exista una consulta target preservada,QUERY_CAPABILITY
+DS155_15,15,CGN,Salida de consulta,Listados parametrizados,Proporciona salida por parámetros,Fundamenta pedido de parámetros y resultado,No especifica esquema de campos,QUERY_CAPABILITY
+DS155_16,16,CGN,Salida de consulta,Consultas específicas,Proporciona movimientos puntuales,Fundamenta pedido por IDs exactos,"No contiene 71597, 152677 ni 2876",QUERY_CAPABILITY
+DS155_17,17,Programas/SAF,Respuesta,Información faltante o corregida,Entregan correcciones,Prueba fase de subsanación,No prueba aceptación final,CORRECTION_STAGE
+DS155_18,18,CGN,Reemplazo documental,Cuadros y anexos,Reemplaza versiones cuando corresponde,Prueba control de versiones,No identifica versión SAF355 target,VERSION_CONTROL
+DS155_19,19,SAF/UAI,Regularización,Formularios pertinentes,Ingresan regularización al sistema,Prueba clase de documento,No preserva formulario individual,REGULARIZATION_STAGE
+DS155_20,20,UAI respectiva,Certificación,Certificación del ejercicio que cierra,Certifica que movimientos corresponden al cierre,Prueba intervención UAI en corrección,Certificado agregado no prueba pago individual,CERTIFICATION_STAGE
+DS155_21,21,Responsables UEPEX,Explicación,Movimientos extrapresupuestarios,Deben explicar claramente causas,Prueba deber de justificación,Explicación no convierte movimiento en presupuestario,EXPLANATION_DUTY
+DS155_22,22,CGN,Cruce ausente,SIGADE,Declara no contar con autorizaciones/permisos para puntos de consulta,Documenta barrera de acceso contemporánea,No prueba inexistencia de datos SIGADE,ACCESS_BARRIER
+DS155_23,23,CGN/DADP/UEPEX,Problema recurrente,Desembolsos y tipo de cambio,Reconoce diferencias por momento y cotización,Prueba quiebre de valuación,No trasladar a recompra doméstica sin evidencia,METHOD_BREAK
+DS155_24,24,Investigación V157,Objetos derivados,0120/09; 3672/09; SISIO; planes UAI,Convierte la cadena en pedidos separables,Reduce riesgo de respuesta genérica,Todos siguen DRAFT_NOT_SENT,REQUEST_UPGRADE

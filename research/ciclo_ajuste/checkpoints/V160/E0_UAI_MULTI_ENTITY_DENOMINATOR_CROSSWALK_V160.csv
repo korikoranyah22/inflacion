@@ -1,0 +1,15 @@
+﻿row_id,uai_heading,entity_token,official_entity_name,relationship,denominator_consequence,limit,status
+MU160_01,UAI Ministerio de Economía y Finanzas Públicas,MEyFP,Ministerio de Economía y Finanzas Públicas,Entidad bajo una UAI,Una UAI puede incluir su jurisdicción cabecera,No prueba un informe por entidad,OFFICIAL_CROSSWALK
+MU160_02,UAI Ministerio de Economía y Finanzas Públicas,ONCCA,Oficina Nacional de Control Comercial Agropecuario,Entidad adicional bajo la misma UAI,Entidad no suma una UAI nueva,No prueba mismo archivo,OFFICIAL_CROSSWALK
+MU160_03,UAI Ministerio de Economía y Finanzas Públicas,MAGyP,"Ministerio de Agricultura, Ganadería y Pesca",Entidad adicional bajo la misma UAI,Explica competencia transitoria,No prueba cobertura durante todo 2009,OFFICIAL_CROSSWALK
+MU160_04,UAI Ministerio de Economía y Finanzas Públicas,MIyT,Ministerio de Industria y Turismo,Entidad adicional bajo la misma UAI,Explica competencia transitoria,No prueba contenido del plan target,OFFICIAL_CROSSWALK
+MU160_05,UAI Ministerio de Economía y Finanzas Públicas,YCRT,Yacimiento Carbonífero Río Turbio,Entidad adicional bajo la misma UAI,Un encabezado UAI cubre múltiples organismos,No prueba proyecto individual,OFFICIAL_CROSSWALK
+MU160_06,UAI Banco de la Nación Argentina,BNA,Banco de la Nación Argentina,Entidad cabecera,Un grupo institucional puede compartir UAI,No prueba participación en recompra,OFFICIAL_CROSSWALK
+MU160_07,UAI Banco de la Nación Argentina,NBSA,Nación Bursátil Sociedad Anónima,Entidad adicional,No sumar como UAI independiente,No prueba cuenta target,OFFICIAL_CROSSWALK
+MU160_08,UAI Banco de la Nación Argentina,NFSA,Nación Factoring Sociedad Anónima,Entidad adicional,No sumar como UAI independiente,No prueba movimiento bancario,OFFICIAL_CROSSWALK
+MU160_09,UAI Banco de la Nación Argentina,NFIDSA,Nación Fideicomisos Sociedad Anónima,Entidad adicional,No sumar como UAI independiente,No prueba custodia target,OFFICIAL_CROSSWALK
+MU160_10,UAI Banco de la Nación Argentina,NLSA; NSRSA; NSERVSA; PGFCI,Empresas del grupo Nación listadas en Anexo H,Cuatro entidades adicionales,El encabezado BNA alcanza al menos ocho filas,No inferir ocho informes,OFFICIAL_CROSSWALK
+MU160_11,Total Plan 2010,154 UAI,Unidades que presentaron planes,Conteo de unidades institucionales,No es conteo de entidades porque algunas abarcan varias,No es conteo de productos,DENOMINATOR_PROVED
+MU160_12,Total productos,más de 4550,Productos planificados,Flujo o stock de productos del plan,No dividir automáticamente por 154 UAI,No prueba informes emitidos,DENOMINATOR_SEPARATION
+MU160_13,Conteos 2009,120 y 160 aproximados,Informes de Supervisión,Clase documental distinta,Anexo H impide reconciliarlos por número de UAI solamente,Falta inventario y regla de corte,TARGET_CONFLICT_OPEN
+MU160_14,Regla final,N/A,N/A,"UAI, entidad, proyecto, producto e informe son denominadores separados",Exigir crosswalk fila a fila,No altera banco 0/10,METHOD_RULE

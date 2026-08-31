@@ -1,0 +1,11 @@
+﻿query_id,sequence,system,filter_set,requested_output,success_test,fallback,status
+SQ140_01,1,SICHE · Formulario por Pda. Presupuestaria y Sigade,SAF355;2008;7.2.8;83106000;sin beneficiario,"universo completo, columnas y diccionario",fila(s) base identificada(s),consulta especial por parámetros equivalentes,DRAFT_NOT_SENT
+SQ140_02,2,SICHE · misma consulta,SIDIF71597;152677;2876;observaciones,tipo;número;estado;beneficiario;observaciones,tres registros clasificados,sin filtro SIDIF y cruce por importe,DRAFT_NOT_SENT
+SQ140_03,3,SICHE · Gastos por Beneficiarios,SAF355;2008;BNA/Banco Nación;7.2.8,formularios e importes,control independiente,variantes/código de beneficiario,DRAFT_NOT_SENT
+SQ140_04,4,SICHE · Deuda Exigible hasta 2008,SAF355;SIDIF target;SIGADE83106000,definición;corte;estado;saldo,estado al corte definido,consulta sin restricción de estado,DRAFT_NOT_SENT
+SQ140_05,5,SICHE · Asientos detallados 2001-2012,2008;32270.30/partes;cuenta/descripcion,Debe;Haber;cuenta;asiento anual;tipo;fecha,contrapartida identificada,rango anual por descripción,DRAFT_NOT_SENT
+SQ140_06,6,Pagos · SIGADE,83106000;2008;SIDIF/OP target,EPP;PG;NPG;CMR-DP;TCE/RTCE o equivalentes,pago/rechazo/regularización vinculados,SC/SLU legacy y reporte variable,DRAFT_NOT_SENT
+SQ140_07,7,Consulta por expediente,S01:0342455/2008 o identificador migrado,OP y pagos asociados,expediente→OP→pago,COMDOC/FindDoc y cruce manual,DRAFT_NOT_SENT
+SQ140_08,8,Conciliación Bancaria,cuenta;importe/partes;formulario recuperado,extracto externo;interno/Libro Banco;aplicación;estado,débito conciliado,ventana ampliada,DRAFT_NOT_SENT
+SQ140_09,9,AMIDDF,SAF355;2008;tipo/número recuperados,índice;caja;cuerpo;folios;imágenes,respaldo localizado,planillas/tejuelos por subserie,DRAFT_NOT_SENT
+SQ140_10,10,RAIP Economía · auditoría de consulta,cada consulta y fallback por separado,parámetros;diccionario;cobertura;filas;exclusiones,positivo o cero reproducible,derivación al órgano rector,DRAFT_NOT_SENT

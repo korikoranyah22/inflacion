@@ -1,0 +1,3 @@
+﻿script,pre_v152_result,post_v152_result,interpretation
+qa_v151.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V151 ampliada por certificación 2008, AXT e inconsistencias."
+qa_v152.py,N/A,PASS,"Verifica fuentes, matrices, borradores y 0/10."

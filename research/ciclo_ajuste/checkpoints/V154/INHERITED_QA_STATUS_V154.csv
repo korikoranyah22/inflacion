@@ -1,0 +1,3 @@
+﻿script,pre_v154_result,post_v154_result,interpretation
+qa_v153.py,PASS,PASS_BASELINE,V153 íntegra; V154 agrega comparadores sin alterar 0/10.
+qa_v154.py,N/A,PASS,"Verifica fuentes, controles, borradores y límites."

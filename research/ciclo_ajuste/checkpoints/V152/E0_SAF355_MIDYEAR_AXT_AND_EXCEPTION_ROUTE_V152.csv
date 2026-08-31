@@ -1,0 +1,17 @@
+﻿row_id,object_code,object,finding,status
+AX152_01,CUT,30/06/2008,Cierre intermedio; no sustituye 31/12.,MIDYEAR_ONLY
+AX152_02,PRODUCER,ONCP,Productor del detalle AXT requerido.,EXACT_CUSTODIAN
+AX152_03,RECIPIENT,CGN,Receptor del detalle y explicaciones.,EXACT_CUSTODIAN
+AX152_04,OBJECT,Detalle AXT de saldos registrados,"Pedir archivo, versión, soporte, nota e índice.",EXACT_RECORD_CLASS
+AX152_05,EXPLANATION,Breve explicación de operaciones,Pedir texto completo por cuenta/operación.,EXACT_FIELD
+AX152_06,NONBUDGET_REASON,Razón de permanencia extrapresupuestaria,Pedir campo y soporte.,EXACT_FIELD
+AX152_07,TARGET_ACCOUNTS,83106000 y cuentas/subcuentas candidatas,Filtrar sin asumir identidad.,SEARCH_KEY
+AX152_08,TARGET_IDS,71597/0071597; 152677/0152677; 2876/0002876,Buscar variantes con/sin cero.,SEARCH_KEY
+AX152_09,TARGET_DATES,02/09; 09/09; 16/09; 07/10/2008,Fechas previstas; no confirman pago.,SEARCH_KEY
+AX152_10,EXCEPTION,SAF355 exceptuado de cuadros art.4,No inferir ausencia de registro ni vía especial.,NEGATIVE_CONTROL
+AX152_11,PAPER_SCOPE,Original foliado/disco art.13,No imponer a cuadros exceptuados para SAF355.,SCOPE_LIMIT
+AX152_12,SIGNATURE_SCOPE,Art.15,Aplicar sólo a estados/formularios alcanzados.,SCOPE_LIMIT
+AX152_13,BRIDGE_YEAR_END,Comparar AXT 30/6 con listados finales 31/12,"Reconciliar altas, bajas, ajustes y reclasificaciones.",CONTROLLED_BRIDGE
+AX152_14,BRIDGE_BANK,Comparar AXT con extracto/CUT/TGN/BNA,Sólo movimiento conciliado eleva 0/10.,PAYMENT_GATE
+AX152_15,ZERO_RESULT,Cero en Cuadro 1/13,"No cierra AXT, SIGADE, SIDIF, TRANSAF ni banco.",NO_UNILATERAL_CLOSE
+AX152_16,REQUEST_STATUS,Objetos AXT/conformidad,BORRADOR_NO_ENVIADO.,DRAFT_NOT_SENT

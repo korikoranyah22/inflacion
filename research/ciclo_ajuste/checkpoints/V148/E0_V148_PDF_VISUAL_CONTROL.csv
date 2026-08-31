@@ -1,0 +1,45 @@
+﻿control_id,source_id,printed_page,pdf_page,rendered_check,result,inference_limit
+PV148_01,e0_dgsiaf_slu_admin_local_manual_2007,3,4,administración local por SAF,PASS,control visual; no fila target
+PV148_02,e0_dgsiaf_slu_admin_local_manual_2007,22,23,Historia de usuario,PASS,control visual; no fila target
+PV148_03,e0_dgsiaf_slu_admin_local_manual_2007,32,33,Historia de rol/vigencia,PASS,control visual; no fila target
+PV148_04,e0_dgsiaf_slu_admin_local_manual_2007,89-90,90-91,llaves C55 y reversa,PASS,control visual; no fila target
+PV148_05,e0_dgsiaf_slu_admin_local_manual_2007,148,149,C55 débito directo,PASS,control visual; no fila target
+PV148_06,e0_dgsiaf_slu_admin_local_manual_2007,149,150,C55 diferencia de cambios,PASS,control visual; no fila target
+PV148_07,e0_dgsiaf_slu_admin_local_manual_2007,153-154,154-155,corrección/desautorización,PASS,control visual; no fila target
+PV148_08,e0_dgsiaf_slu_admin_local_manual_2007,163,164,importación restringida,PASS,control visual; no fila target
+PV148_09,e0_dgsiaf_slu_admin_local_manual_2007,165-167,166-168,commit/formato/error log,PASS,control visual; no fila target
+PV148_10,e0_dgsiaf_slu_admin_local_manual_2007,172,173,migración usuarios/roles,PASS,control visual; no fila target
+PV148_11,e0_cgn_joint_disposition_4_03_backup_recovery,2226,2140,UI/CGN y bases central/local,PASS,control visual; no fila target
+PV148_12,e0_cgn_joint_disposition_4_03_backup_recovery,2227,2141,obligación y responsable SAF,PASS,control visual; no fila target
+PV148_13,e0_cgn_joint_disposition_4_03_backup_recovery,2228-2229,2142-2143,"etiquetas, registro, logs/copias",PASS,control visual; no fila target
+PV148_14,e0_cgn_joint_disposition_4_03_backup_recovery,2230,2144,pruebas y retención perpetua,PASS,control visual; no fila target
+PV148_15,e0_cgn_joint_disposition_4_03_backup_recovery,2231,2145,recuperación mensual firmada,PASS,control visual; no fila target
+PV148_16,e0_cgn_joint_disposition_4_03_backup_recovery,2233-2235,2147-2149,soportes históricos/planilla,PASS,control visual; no fila target
+PV148_17,e0_mecon_uai_plan_2019_sigade_sidif_link,46,47,diagrama SIGADE→SIDIF-Link→SIDIF Central,PASS,Control visual; no fila target.
+PV148_18,e0_mecon_uai_report_13_2020_repo_commission,14,14,"cuenta y comisión REPO $0,61 millones",PASS,Control visual; no fila target.
+PV148_19,e0_mecon_uai_report_13_2020_repo_commission,15,15,continuación y alcance del informe,PASS,Control visual; no fila target.
+PV148_20,e0_cgn_chart_accounts_2018,23,23,definición 2.1.2.01.02.99.00,PASS,Control visual; no fila target.
+PV148_21,e0_dgsiaf_siche_deployment_2020_q1,10,10,"Gastos, Recursos, PEF y Pagos modelo 95",PASS,Control visual; no fila target.
+PV148_22,e0_dgsiaf_siche_cut_repository_2020_q2,9,9,CUT-SIDIF Central 2007-2014,PASS,Control visual; no fila target.
+PV148_23,e0_dgsiaf_siche_deployment_2020_q4,10,10,consultas especiales y conciliación bancaria,PASS,Control visual; no fila target.
+PV148_24,e0_dgsiaf_siche_deployment_2020_q4,11,11,SAF 355 reemplaza SIDIF-Link por e-SIDIF/SEPP,PASS,Control visual; no fila target.
+PV148_25,e0_agn_resolution_86_2021_public_debt_control,16,16,"escalera SIGADE, mayorizado, formularios, TGN, CRyL y mayores",PASS,Control visual de atribución/página; no confirma pago target.
+PV148_26,e0_agn_resolution_86_2021_public_debt_control,82,82,campos obligatorios y validación no aplicada,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_27,e0_agn_resolution_86_2021_public_debt_control,83,83,procedimientos omitidos y numeración Excel,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_28,e0_agn_report_65_2022_sigade_information_system,18,22,ciclo DADP y SIDIF-Link,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_29,e0_agn_report_65_2022_sigade_information_system,36,40,planillas compartidas y controles,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_30,e0_agn_report_65_2022_sigade_information_system,37,41,precisión decimal y adjuntos no utilizados,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_31,e0_agn_report_65_2022_sigade_information_system,38,42,rectificaciones fuera de SIGADE,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_32,e0_mecon_uai_report_24_2019_account_2018,5,5,Anexo L y divergencias SIGADE/e-SIDIF,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_33,e0_mecon_uai_report_24_2019_account_2018,6,6,acto de cierre y Anexos A-L,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_34,e0_mecon_uai_report_24_2019_account_2018,13,13,OTROS -563 y componentes 400/163,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_35,e0_mecon_uai_report_37_2023_account_2022,2,2,"límites SIGADE, planillas y carga manual",PASS,Control visual de atribución/página; no confirma pago target.
+PV148_36,e0_mecon_uai_report_37_2023_account_2022,3,3,regularización de pagos fuera de SIGADE,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_37,e0_mecon_uai_report_48_2023_saf355_closure,5,5,expedientes y actas de corte SAF 355,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_38,e0_mecon_uai_report_48_2023_saf355_closure,7,7,pagos holdout e-SIDIF ausentes de SIGADE,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_39,e0_cgn_cuenta_inversion_2008_sdp,67,67,Anexo K y fila 83106000 con tres SIDIF,PASS,Control visual de atribución/página; no confirma pago target.
+PV148_40,e0_cgn_account_2008_uepex_closing_exception,N/A,73,"listados parametrizados, consultas y regularización",PASS,Control de alcance; no confirma pago target.
+PV148_41,e0_cgn_account_2008_uepex_closing_exception,N/A,76,excepción SAF355/356 aplicada en 2008,PASS,Control de alcance; no confirma pago target.
+PV148_42,e0_mecon_uai_report_03_2022_saf355_closure_2021,2,2,integridad diferida e Informe Analítico referido,PASS,Control de alcance; no confirma pago target.
+PV148_43,e0_mecon_uai_report_51_2022_account_2021,2,2,alcance ejecutivo e Informe Analítico,PASS,Control de alcance; no confirma pago target.
+PV148_44,e0_mecon_uai_report_51_2022_account_2021,3,3,diferencias ONCP-CGN y pagos fuera de SIGADE,PASS,Control de alcance; no confirma pago target.

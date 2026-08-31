@@ -1,0 +1,11 @@
+﻿query_id,sequence,system,filter_set,requested_output,success_test,fallback,status
+SQ138_01,1,SICHE · SIDIF Central,"ejercicio=2008; SAF=355; N°SIDIF=71597,152677,2876",grilla/exportación sin transformación,tres filas o trazabilidad individual,constancia de sistemas/filtros/filas consultadas,DRAFT_NOT_SENT
+SQ138_02,2,SICHE · SLU,"SAF355; ejercicio 2008; tipos C41,C42,C55; N° SIDIF target",tipo; número local; estado; historia,especie resuelta,buscar por importe/concepto/partida,DRAFT_NOT_SENT
+SQ138_03,3,SICHE · SLU gastos,"gastos_01.rep; 7.2.8; 32.270,30; BNA",cabecera e ítems,suma y beneficiario,exportación anual filtrada,DRAFT_NOT_SENT
+SQ138_04,4,SICHE · SLU C55,subtipo Débito Directo; BNA; 2008,cuenta; FF; clase; imputación; historia SC,mecanismo exacto,todos C55 por comisión,DRAFT_NOT_SENT
+SQ138_05,5,SICHE · SLU pagos,pagos_04.rep; OP target,F80; pagador; beneficiario; pagado/regularizado,evento pago vinculado,todos F80 del día/importe,DRAFT_NOT_SENT
+SQ138_06,6,SICHE · SLU Nota,OP target; BNA/BCRA,nota; estados; cuentas; impresión/entrega/cumplimiento,medio Nota probado,historia/metadatos,DRAFT_NOT_SENT
+SQ138_07,7,SICHE · extracto,conc_01.rep; cuenta BNA; fechas target,movimiento; debe/haber; saldo; estado,débito conciliado,ventana ±5 días,DRAFT_NOT_SENT
+SQ138_08,8,SICHE · Libro Banco,conc_02.rep; formulario target,tipo/número; beneficiario; debe/haber; saldo,C55/OP impactó Libro Banco,buscar por importe/fecha,DRAFT_NOT_SENT
+SQ138_09,9,AMIDDF,SAF355; 2008; Otros Gastos; tres SIDIF,caja; tipo; imágenes; firmas,respaldo físico/digital,índice/tejuelo,DRAFT_NOT_SENT
+SQ138_10,10,RAIP Economía,Resolución 53/2024 + Ley 27.275,copias/exportaciones existentes,respuesta completa o derivación,denegación fundada y entrega parcial,DRAFT_NOT_SENT

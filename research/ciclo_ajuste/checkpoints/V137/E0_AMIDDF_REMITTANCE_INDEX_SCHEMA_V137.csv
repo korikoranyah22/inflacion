@@ -1,0 +1,16 @@
+﻿field_id,official_field,target_value,request_role,source_id,status
+RI137_01,Organismo remitente,DESCONOCIDO,salida a obtener,e0_cgn_disposition_46_1998_amiddf_annex;e0_cgn_disposition_46_1998_amiddf_remittance_form,OPEN
+RI137_02,Organismo productor,SAF 355 · Dirección de Administración de la Deuda Pública,clave exacta,e0_cgn_cuenta_inversion_2008_sdp;e0_cgn_account_2008_saf355_356_crosswalk,EXACT
+RI137_03,Serie,Rendiciones de Cuentas,clave exacta,e0_cgn_disposition_46_1998_amiddf_annex,EXACT_SCHEMA
+RI137_04,Subserie,Otros Gastos,clave exacta por exclusión de Gastos en Personal,e0_cgn_disposition_46_1998_amiddf_annex;e0_cgn_cuenta_inversion_2008_sdp,EXACT_CLASSIFICATION
+RI137_05,Ejercicio,2008,clave exacta,e0_cgn_cuenta_inversion_2008_sdp,EXACT
+RI137_06,Fechas extremas,2008,salida a obtener,e0_cgn_disposition_46_1998_amiddf_annex,OPEN
+RI137_07,Cantidad de unidades de conservación,DESCONOCIDO,salida a obtener,e0_cgn_disposition_46_1998_amiddf_remittance_form,OPEN
+RI137_08,N° caja,DESCONOCIDO,objetivo primario de la primera respuesta,e0_cgn_disposition_46_1998_amiddf_annex,OPEN_CRITICAL
+RI137_09,Tipo documental,SIDIF; identificar especie exacta antes de asumir C-41,objetivo primario,e0_cgn_disposition_46_1998_amiddf_annex;e0_cgn_cuenta_inversion_2008_sdp,OPEN_CRITICAL
+RI137_10,N° documento,71597;152677;2876,claves exactas,e0_cgn_cuenta_inversion_2008_sdp,EXACT_SIDIF_LOCATORS
+RI137_11,Fecha de desafectación,DESCONOCIDO,salida; no equivale a destrucción,e0_cgn_disposition_46_1998_amiddf_annex,OPEN
+RI137_12,Observaciones,DESCONOCIDO,salida sobre guarda/no desafectable,e0_cgn_disposition_46_1998_amiddf_annex,OPEN
+RI137_13,Tejuelo · N° y nombre SAF,355 · Dirección de Administración de la Deuda Pública,clave de caja,e0_cgn_disposition_46_1998_amiddf_annex,EXACT_SCHEMA
+RI137_14,Tejuelo · período/subserie/orden,2008;Otros Gastos;N° orden desconocido,salida a obtener,e0_cgn_disposition_46_1998_amiddf_annex,PARTIAL
+RI137_15,Firma recepción AMIDDF,DESCONOCIDO,prueba de transferencia/recepción,e0_cgn_disposition_46_1998_amiddf_remittance_form,OPEN

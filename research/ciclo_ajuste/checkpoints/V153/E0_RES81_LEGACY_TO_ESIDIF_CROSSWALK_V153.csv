@@ -1,0 +1,13 @@
+row_id,legacy_object,later_esidif_object,continuity,temporal_break,controlled_use,source_id
+CW150_01,C42,OP NPR,pago no presupuestario,e-SIDIF posterior; SAF355 desplegado en 2010,diccionario de búsqueda,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_02,número SAF,número propio,identificador productor,e-SIDIF posterior; SAF355 desplegado en 2010,pedir ambos,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_03,número SIDIF,número e-SIDIF,identificador central,e-SIDIF posterior; SAF355 desplegado en 2010,no homologar valores,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_04,SIGADE,SIGADE,vínculo deuda,e-SIDIF posterior; SAF355 desplegado en 2010,pedir versión y tabla,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_05,pagador TGN,pagador TGN,rol pagador,e-SIDIF posterior; SAF355 desplegado en 2010,buscar salida,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_06,C55 ajuste,CMR,regularización,e-SIDIF posterior; SAF355 desplegado en 2010,buscar parentesco,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_07,C55 ajuste,CRG,regularización,e-SIDIF posterior; SAF355 desplegado en 2010,buscar parentesco,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_08,papel,archivo oficial digital/papel,custodia,e-SIDIF posterior; SAF355 desplegado en 2010,pedir inventario,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_09,TRANSAF,interoperabilidad e-SIDIF,transmisión,e-SIDIF posterior; SAF355 desplegado en 2010,buscar logs legados,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_10,concepto,descripción,semántica,e-SIDIF posterior; SAF355 desplegado en 2010,texto exacto y variantes,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_11,banco beneficiario,cuenta beneficiaria,destino,e-SIDIF posterior; SAF355 desplegado en 2010,no confundir con pagadora,e0_argentina_resolution_81_2012_original_expense_circuit
+CW150_12,2008 legado,2012 e-SIDIF,comparabilidad limitada,e-SIDIF posterior; SAF355 desplegado en 2010,no retroproyectar esquema,e0_cgn_account_2010_saf355_esidif_deployment

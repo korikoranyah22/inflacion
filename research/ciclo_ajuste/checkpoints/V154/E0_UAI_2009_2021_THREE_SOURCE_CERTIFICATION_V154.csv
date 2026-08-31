@@ -1,0 +1,19 @@
+row_id,object,finding,locator,source_id,status
+UA151_01,2009_SCOPE,La UAI debía certificar información preparada por el SAF para CGN.,Marco 2009,e0_cgn_sigen_instruction_account_2009,ADJACENT_YEAR_ONLY
+UA151_02,2009_BANK,"Caja y Bancos se contrastaba con registros, C43, extractos y acta de arqueo.",Anexo I pp.2-3,e0_cgn_sigen_instruction_account_2009,THREE_SOURCE_CONTROL
+UA151_03,2009_UEPEX,UEPEX usaba listado parametrizado SIDIF Central y registro de la unidad.,Anexo III pp.6-7,e0_cgn_sigen_instruction_account_2009,DUAL_SYSTEM_CONTROL
+UA151_04,2009_UEPEX_BANK,"Además se usaban extractos, formularios de transferencias TGN y acta.",Anexo III pp.6-7,e0_cgn_sigen_instruction_account_2009,BANK_BRIDGE_CONTROL
+UA151_05,2009_FORMS,"El universo tardío incluía C35, C41, C42, C43, C55, C75 y C10.",Anexo IV pp.8-9,e0_cgn_sigen_instruction_account_2009,FORM_UNIVERSE_PROVED_2009
+UA151_06,2009_LOCAL,La certificación usaba SLU o sistema aplicable.,Anexo IV pp.8-9,e0_cgn_sigen_instruction_account_2009,LOCAL_SOURCE
+UA151_07,2009_CENTRAL,La certificación usaba listado parametrizado SIDIF Central remitido por CGN.,Anexo IV pp.8-9,e0_cgn_sigen_instruction_account_2009,CENTRAL_SOURCE
+UA151_08,2009_BANK_SUPPORT,"La certificación usaba extractos, formularios TGN, acta y soporte de ajustes.",Anexo IV pp.8-9,e0_cgn_sigen_instruction_account_2009,EXTERNAL_SOURCE
+UA151_09,2009_REMAINDER,"Rectificaciones se contrastaban con sistema local, listado central y antecedentes.",Anexo V pp.10-11,e0_cgn_sigen_instruction_account_2009,ADJUSTMENT_ROUTE
+UA151_10,2009_REMAINDER_CASES,"Se nombran depósitos erróneos, duplicaciones y devoluciones.",Anexo V pp.10-11,e0_cgn_sigen_instruction_account_2009,NEGATIVE_CONTROL_CASES
+UA151_11,2021_CIRCULAR,CGN condicionó recepción de cierre a certificación UAI.,Circular 2/2021,e0_cgn_circular_2_2021_uai_closing,LATER_CONTINUITY
+UA151_12,2021_FRAME,SIGEN mantuvo un instructivo formal de certificación.,IF-2021-01980369,e0_sigen_instruction_1_2021_account_certification,LATER_CONTINUITY
+UA151_13,2021_BANK,"Caja y Bancos volvió a combinar registros, extractos y acta.",Anexo I,e0_sigen_instruction_1_2021_annex_i_bank_movements,LATER_CONTINUITY
+UA151_14,2021_FORMS,"El universo volvió a nombrar C41, C42 y C55.",Anexo IV,e0_sigen_instruction_1_2021_annex_iv_execution_forms,LATER_CONTINUITY
+UA151_15,2021_THREE_SOURCES,"Sistema local/e-SIDIF, listado SIDIF Central y fuentes externas se contrastaban.",Anexo IV,e0_sigen_instruction_1_2021_annex_iv_execution_forms,LATER_CONTINUITY
+UA151_16,EXACT_OUTPUT,Nombre documental: Listado Parametrizado del SIDIF Central remitido por la CGN.,2009 y 2021,e0_cgn_sigen_instruction_account_2009,REQUEST_BY_NAME
+UA151_17,CERT_NOT_PAYMENT,"Certificación UAI valida consistencia del cierre, no ejecución bancaria individual.",Control metodológico,e0_cgn_sigen_instruction_account_2009,NOT_PAYMENT_PROOF
+UA151_18,TARGET_LIMIT,No se localizó certificación UAI que identifique los tres IDs target.,Búsqueda pública V154,e0_cgn_sigen_instruction_account_2009,TARGET_OPEN

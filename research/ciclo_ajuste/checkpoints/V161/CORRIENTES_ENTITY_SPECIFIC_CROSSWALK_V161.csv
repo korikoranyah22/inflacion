@@ -1,0 +1,5 @@
+﻿period,entity_code,raw_account_set,raw_values_thousand_ars,raw_set_sum_thousand_ars,target_leg,issuer_value_thousand_ars,issuer_page,verdict,scope_limit
+9M-2023,00094,511108,16968619,16968619,income_bcra,N/A_NO_9M_ISSUER_OPENING,BCRA Sep raw,SUPPORTED_BY_SAME_ENTITY_SAME_YEAR_FY_CROSSWALK,Corrientes 2023 only
+9M-2023,00094,ABSENT_OTHER_PASS_RESULT_ACCOUNTS,0,0,expense_bcra;income_otherfi;expense_otherfi,N/A_NO_9M_ISSUER_OPENING,BCRA Sep raw,EXACT_ZERO_WITH_ENTITY_SET_LIMIT,Corrientes 2023 only
+FY-2023,00094,511108,40870153,40870153,income_bcra,40870153,FY PDF physical 130,EXACT_ENTITY_SPECIFIC,Corrientes 2023 only
+FY-2023,00094,ABSENT_OTHER_PASS_RESULT_ACCOUNTS,0,0,expense_bcra;income_otherfi;expense_otherfi,0,FY PDF physical 130,EXACT_ZERO,Corrientes 2023 only

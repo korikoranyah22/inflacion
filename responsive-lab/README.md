@@ -21,5 +21,6 @@ Abrir: <http://127.0.0.1:5173/>
 - mantiene la navegación y las interacciones reales dentro del iframe;
 - informa si el documento tiene overflow horizontal global;
 - conserva ancho y alto en la URL para compartir una vista concreta.
+- incluye los super-tabs **Hogares · supervivencia** y **Dólares · qué hay realmente**, conectados a los CSV auditados del deep dive del 31/08/2026.
 
 La escala visual sólo achica el marco en pantalla: no altera el viewport ni las media queries del dashboard.

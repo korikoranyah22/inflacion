@@ -1,0 +1,3 @@
+﻿script,pre_v147_result,post_v147_result,interpretation
+qa_v146.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V146 ampliada y rectificada por precisión, rama Anexo K y escalera AGN."
+qa_v147.py,N/A,PASS,"Verifica fuentes, matrices, hashes, límites, no envío y corrección de precisión."

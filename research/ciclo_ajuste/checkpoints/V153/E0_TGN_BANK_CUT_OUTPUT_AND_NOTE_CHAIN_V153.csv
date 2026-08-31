@@ -1,0 +1,15 @@
+row_id,object,official_fact,retrieval_use,source_id,locator,status,target_2008_proof
+TB149_01,UNIVERSE,UAI pidió universo de cuentas TGN.,Pedir universo 2008.,e0_mecon_uai_report_37_2019_tgn_change_close,pp.3-4,COMPARATOR,FALSE
+TB149_02,BALANCES,Pidió saldos y conciliaciones.,Pedir SIDIF/extracto/partidas.,e0_mecon_uai_report_37_2019_tgn_change_close,pp.3-4,COMPARATOR,FALSE
+TB149_03,MOVEMENTS,Obtuvo listas e-SIDIF.,Pedir salida nativa/CSV.,e0_mecon_uai_report_37_2019_tgn_change_close,pp.3-4,RECORD_CLASS_PROVED,FALSE
+TB149_04,ACT,IF-2019-109242536-APN-UAI#MHA.,Pedir cuerpo/anexos.,e0_mecon_uai_report_37_2019_tgn_change_close,p.4,EXACT_ID_PROVED,FALSE
+TB149_05,TGN_NOTE,NO-2019-109266599-APN-TGN#MHA.,Pedir nota/adjuntos.,e0_mecon_uai_report_37_2019_tgn_change_close,p.4,EXACT_ID_PROVED,FALSE
+TB149_06,MODULE,Usó módulo de conciliación bancaria.,Pedir versión/filtros.,e0_mecon_uai_report_37_2019_tgn_change_close,p.4,SYSTEM_ROUTE_PROVED,FALSE
+TB149_07,ACCOUNT,BNA 3855/19 figura en salida.,Filtro histórico candidato.,e0_mecon_uai_report_37_2019_tgn_change_close,pp.4-5,LATER_ACCOUNT_PROVED,FALSE
+TB149_08,LAST_CHEQUE,Individualiza último cheque.,Pedir tipo/número/movimiento.,e0_mecon_uai_report_37_2019_tgn_change_close,p.5,OUTPUT_CLASS_PROVED,FALSE
+TB149_09,NETWORK_PAYMENT,Usa Listado Reporte Resumen de Pagos.,Pedir reporte/parámetros.,e0_mecon_uai_report_37_2019_tgn_change_close,p.5,NAMED_OUTPUT_PROVED,FALSE
+TB149_10,NOTE_PAYMENT,Individualiza último pago por nota.,Pedir nota/resultado.,e0_mecon_uai_report_37_2019_tgn_change_close,p.5,OUTPUT_CLASS_PROVED,FALSE
+TB149_11,EXTRACT_DELAY,Extracto previo se procesó después.,Separar fecha valor/proceso.,e0_mecon_uai_report_37_2019_tgn_change_close,pp.4-5,DATE_BREAK_PROVED,FALSE
+TB149_12,2018_RECON,"Cierre usa saldo SIDIF, banco y partidas.",Pedir tabla completa.,e0_mecon_uai_report_02_2019_tgn_close_2018,pp.6-7,COMPARATOR,FALSE
+TB149_13,SIGADE_NOTES,Partidas incluían notas SIGADE y lotes.,Pedir nota/lote/cruce.,e0_mecon_uai_report_02_2019_tgn_close_2018,p.6,COMPARATOR,FALSE
+TB149_14,LIMIT,Informes no publican target 83106000.,No atribuir cuenta/salida.,multiple,integral,TARGET_ACCOUNT_OPEN,FALSE

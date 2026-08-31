@@ -1,0 +1,3 @@
+﻿script,pre_v142_result,post_v142_result,interpretation
+qa_v141.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V141 queda supersedida por cuenta 230, código AUTO/DBAUTO y ruta de conciliación V142."
+qa_v142.py,N/A,PASS,"Diccionario, continuidad, cuentas, conciliación, hashes, límites y no envío verificados."

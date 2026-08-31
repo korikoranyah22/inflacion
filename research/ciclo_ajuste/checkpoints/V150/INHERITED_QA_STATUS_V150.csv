@@ -1,0 +1,3 @@
+﻿script,pre_v150_result,post_v150_result,interpretation
+qa_v149.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,V149 ampliada por rama C-42.
+qa_v150.py,N/A,PASS,"Verifica fuentes, matrices, borradores y 0/10."

@@ -1,0 +1,16 @@
+﻿row_id,official_token,official_expansion,institutional_level,target_relevance,proved_relationship,remaining_limit,status
+GX160_01,GSEyP,Gerencia de Supervisión Economía y Producción,Gerencia SIGEN,Coincide literalmente con sufijo de Nota 3672/09,Expansión oficial exacta en Plan SIGEN 2010,No prueba denominación idéntica en fecha exacta de la nota,NEAR_CONTEMPORARY_EXACT_EXPANSION
+GX160_02,GSPF,Gerencia de Supervisión Planificación Federal,Gerencia SIGEN,Control de desambiguación,GSPF aparece separada de GSEyP,No identifica automáticamente notas GSEyP,DISTINCT_OFFICIAL_TOKEN
+GX160_03,GSESyEF,"Gerencia de Supervisión Empresas, Sociedades y Entidades Financieras",Gerencia SIGEN,Ruta para entidades y bancos,Expansión oficial exacta,No acredita operación bancaria target,SEARCH_ROUTE
+GX160_04,GSE,Gerencia de Supervisión Entidades,Gerencia SIGEN,Ruta organizacional paralela,Expansión oficial exacta,No equiparar con GSESyEF,SEARCH_ROUTE
+GX160_05,GSIS,Gerencia de Supervisión Institucional y Social,Gerencia SIGEN,Control institucional,Expansión oficial exacta,No corresponde por similitud al target,NEGATIVE_CONTROL
+GX160_06,GAJ,Gerencia de Asuntos Jurídicos,Gerencia SIGEN,Ruta legal,Expansión oficial exacta,No prueba intervención en Nota 3672/09,SEARCH_ROUTE
+GX160_07,GNyT,Gerencia de Normativa y Técnica,Gerencia SIGEN,Ruta metodológica,Expansión oficial exacta,No prueba custodia del informe,SEARCH_ROUTE
+GX160_08,GSEyP versus GSPF,Dos tokens y dos expansiones,Gerencias SIGEN,Evita leer yP como Planificación Federal,Separación oficial explícita,No reconstruye sucesión 2009,DISAMBIGUATION_PROVED
+GX160_09,GSEPFyE,Expansión documentada en 2003-2004,Gerencia SIGEN,Antecedente histórico,Token distinto y anterior,No normalizar a GSEyP,HISTORICAL_ONLY
+GX160_10,GSEPyPF,Expansión oficial posterior en 2013,Gerencia SIGEN,Sucesor o variante por probar,Token distinto,No retrotraer a 2009,POSTERIOR_ONLY
+GX160_11,GSEPYPF,Sufijo de Nota 4712/2010,Metadato documental,Comparador temporal,Token literal documentado,No sustituye glosario exacto propio,TOKEN_ONLY
+GX160_12,Nota 3672/09-GSEyP,Documento target referido,Nota SIGEN,Une número y token,El token coincide con el glosario 2010,"Falta cuerpo, firma, fecha completa y acto orgánico vigente",TARGET_PARTIAL_BRIDGE
+GX160_13,Plan SIGEN 2010,Plan aprobado 22-12-2009 y publicado 2010,Documento institucional,Fuente cercana al target,Glosario institucional oficial,No equivale al organigrama exacto de cada día de 2009,TEMPORAL_LIMIT
+GX160_14,Regla probatoria,N/A,Método,Usar expansión para búsqueda y desambiguación,No seguir tratando GSEyP como sigla sin expansión,Mantener abierta identidad exacta a fecha de Nota 3672/09,METHOD_RULE
+GX160_15,Cierre,N/A,Método,"GSEyP queda expandida, no queda recuperado el documento",Mejora el puente de productor,No altera SAF355 0/5 ni banco 0/10,GLOSSARY_GAP_CLOSED_DOCUMENT_GAP_OPEN

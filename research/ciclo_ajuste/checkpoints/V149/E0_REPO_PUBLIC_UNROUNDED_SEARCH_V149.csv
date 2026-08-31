@@ -1,0 +1,7 @@
+﻿search_id,query_or_datum,search_scope,result,status,searched_on,arithmetic_error_proved,unrounded_components_located
+RU148_01,2.1.2.01.02.99.00,official exact web search,Only UAI comparator reports,NO_UNROUNDED_LEDGER,2026-08-31,FALSE,FALSE
+RU148_02,"563,16",official exact web search,Published rounded aggregate only,NO_WORKPAPER,2026-08-31,FALSE,FALSE
+RU148_03,"0,61 REPO",official exact web search,Published component only,NO_RAW_COMPONENT,2026-08-31,FALSE,FALSE
+RU148_04,"563,61 - 563,16",calculation,"0,45 displayed-value tension",NOT_ARITHMETIC_ERROR_PROOF,2026-08-31,FALSE,FALSE
+RU148_05,Informe Analítico/papel,official public search,Not located,PUBLIC_BODY_NOT_LOCATED,2026-08-31,FALSE,FALSE
+RU148_06,negative_limit,method,Unknown precision remains,UNROUNDED_INPUTS_REQUIRED,2026-08-31,FALSE,FALSE

@@ -1,0 +1,31 @@
+row_id,request_field,proven_modern_pattern,target_2008_request,fallback,status
+RF154_01,PUBLIC_REPORT_NO,00398/2020,Número público informe 2009,Inventario anual,DRAFT_NOT_SENT
+RF154_02,DETAIL_ID,IdDocumento=205855,Identificador de ficha,Asiento de catálogo,DRAFT_NOT_SENT
+RF154_03,INTERNAL_REPORT_NO,007/2020-UAI,Número interno UAI,Libro de informes 2009,DRAFT_NOT_SENT
+RF154_04,DOCUMENT_ID,IF-2020-09433026,Número de documento,COMDOC/legajo; no exigir IF,DRAFT_NOT_SENT
+RF154_05,ATTACHMENT_ID,IdA=80644620,Identificador de adjunto,Inventario o soporte óptico,DRAFT_NOT_SENT
+RF154_06,EXPEDIENTE,EX-2019-113610848,Expediente/contenedor,Papel/COMDOC/legajo,DRAFT_NOT_SENT
+RF154_07,ORDER_FOLIO,Orden 4,"Orden, folio o asiento",Caja/legajo/folio,DRAFT_NOT_SENT
+RF154_08,TITLE,Certificación Anexo A,Título equivalente,Cuenta 2008+SAF355,DRAFT_NOT_SENT
+RF154_09,OBJECT,Caja y Bancos,Cuadro 1 Anexo B,Instructivo 2/2008,DRAFT_NOT_SENT
+RF154_10,AREA,UAI SIGEN,UAI Economía+GSEPyPF,Síndico/representante,DRAFT_NOT_SENT
+RF154_11,SAF,SAF109,SAF355,Jurisdicción 50,DRAFT_NOT_SENT
+RF154_12,PERIOD,31/12/2019,31/12/2008 y remisiones 2009,Fechas de cierre/documento,DRAFT_NOT_SENT
+RF154_13,INSTRUCTION,Instructivos 1/2020 y 2/2020,Instructivo 2/2008,Resolución 10/2006,DRAFT_NOT_SENT
+RF154_14,REMITTANCE,IF productor a UAI,Nota SAF355-UAI,Registro salida/entrada,DRAFT_NOT_SENT
+RF154_15,CGN_RECEIPT,Auditoría verifica envío,Acuse CGN,Mesa de entradas/rechazo,DRAFT_NOT_SENT
+RF154_16,SIGEN_COPY,Expediente SIGEN,Copia remitida a SIGEN,Síndico jurisdiccional,DRAFT_NOT_SENT
+RF154_17,ACCOUNTING_FILE,Registros contables,Listado exacto,"Parámetros, versión y corte",DRAFT_NOT_SENT
+RF154_18,BANK_STATEMENT,Extractos bancarios,Extracto fuente,"Banco, cuenta, moneda y movimiento",DRAFT_NOT_SENT
+RF154_19,BANK_BALANCE_CERT,Certificación de saldo,Certificación equivalente,"Fecha, cuenta, saldo y firma",DRAFT_NOT_SENT
+RF154_20,MINISTRY_EXTRACT,Extracto ministerial,SIDIF/SLU exacto,"Nombre, versión, fecha y campos",DRAFT_NOT_SENT
+RF154_21,C41_C42_C55,Pruebas selectivas,Universo Anexo IV,"Tipo, N° SIDIF/SAF y estado",DRAFT_NOT_SENT
+RF154_22,TARGET_IDS,No aplica comparador,71597;152677;2876,Cero reproducible,DRAFT_NOT_SENT
+RF154_23,BANK_EXECUTION,No expuesto,Débito/crédito y fecha valor,"Cuenta, importe y referencia",DRAFT_NOT_SENT
+RF154_24,REVERSAL,No expuesto,Anulación/rechazo/reversa,Vínculo original-final,DRAFT_NOT_SENT
+RF154_25,ATTACHMENT_INDEX,Embebidos declarados,Índice completo,"Nombre, formato, tamaño y folio",DRAFT_NOT_SENT
+RF154_26,WORKPAPERS,Procedimientos enumerados,Papeles de trabajo,"Universo, muestra y conclusión",DRAFT_NOT_SENT
+RF154_27,NO_RESULT,No aplica,Cierre negativo,"Sistemas, campos, parámetros y responsable",DRAFT_NOT_SENT
+RF154_28,DISPOSITION,No aplica,Retención/disposición final,"Transferencia, eliminación o ubicación",DRAFT_NOT_SENT
+RF154_29,FORMAT_LIMIT,GDE contemporáneo,No exigir GDE en 2009,"Aceptar papel, COMDOC, correo o soporte",METHOD_LIMIT
+

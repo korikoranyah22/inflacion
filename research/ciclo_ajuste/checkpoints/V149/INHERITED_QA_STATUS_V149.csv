@@ -1,0 +1,3 @@
+﻿script,pre_v149_result,post_v149_result,interpretation
+qa_v148.py,PASS,EXPECTED_SUPERSEDED_ASSERTION,"V148 ampliada por archivo 2008, CUT y custodios."
+qa_v149.py,N/A,PASS,"Verifica fuentes, matrices, no envío y 0/10."

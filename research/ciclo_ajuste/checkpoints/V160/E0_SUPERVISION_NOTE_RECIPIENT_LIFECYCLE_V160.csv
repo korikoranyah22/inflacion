@@ -1,0 +1,13 @@
+﻿row_id,stage,documented_comparator,record_producer,recipient_or_custodian,identifier_or_link,target_request,limit,status
+LC159_01,Producción,Informe de Supervisión UAI ERAS enero-junio 2009,SIGEN,SIGEN,Título y período,Informe de Supervisión UAI Economía 2009,Comparador ERAS,COMPARATOR_STAGE
+LC159_02,Remisión,Nota SIGEN 5095/2009-GSPF,SIGEN,ERAS,Nota más ejemplar adjunto,Nota equivalente y acuse Economía,No es target,COMPARATOR_STAGE
+LC159_03,Apertura receptora,Expediente ERAS 878-09,ERAS,ERAS,Número local,Expediente receptor Economía,No es legajo SIGEN,COMPARATOR_STAGE
+LC159_04,Producción,Informe de Evaluación del Sistema de Control Interno - Año 2009 ERAS,SIGEN,SIGEN,Título completo,"Cuerpo, anexos y papeles",Otra clase documental,COMPARATOR_STAGE
+LC159_05,Remisión,Nota SIGEN 4712/2010-GSEPYPF,SIGEN,ERAS,"Número, año y área",Buscar número/área/fecha/destino target,No equipara GSEyP,COMPARATOR_STAGE
+LC159_06,Apertura receptora,Expediente ERAS 1085-10,ERAS,ERAS,"Acta vincula nota, informe y expediente","Número local target, índice y copia",No es número SIGEN,COMPARATOR_STAGE
+LC159_07,Circulación interna,Giro a Gerencias y Departamentos involucrados,Directorio ERAS,Áreas competentes,Pases internos,Pases y responsables en Economía,No prueba respuesta,COMPARATOR_STAGE
+LC159_08,Respuesta esperada,Áreas deben expedirse,Áreas ERAS,Directorio ERAS,Tratamiento en próxima reunión,Informes internos y nueva elevación,Acta no contiene desenlace,FOLLOWUP_STAGE
+LC159_09,Custodia doble,Nota/cuerpo en SIGEN y expediente/copia en receptor,SIGEN y ERAS,Dos custodios,Acuse y fojas,Certificar búsquedas en ambos fondos,Una negativa no cierra la otra,CUSTODY_RULE
+LC159_10,Target 2009,Nota 3672/09 GSEyP y cuerpo referido,SIGEN,Áreas pertinentes,Cuenta dice envío y carga SISIO,"Nota, cuerpo, anexos, distribución, acuses y SISIO",No banco,TARGET_OPEN
+LC159_11,Target Economía,Informe global Cuenta 2008 e informe UAI,SIGEN/UAI,Economía/CGN/SIGEN,Inventario posterior,"Cruzar nota, informe, expediente y seguimiento",No asumir un único expediente,TARGET_OPEN
+LC159_12,Regla final,Cada transición exige identificador,Todos,Todos,"número, fecha, fojas, pase, acuse y resultado",Solicitar cadena completa y testada,Comparador no acredita existencia target,METHOD_LIMIT

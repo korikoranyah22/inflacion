@@ -1,0 +1,11 @@
+﻿recovery_id,route,required_record,priority,success_test,inference_limit,status
+HR146_01,SIGADE,Submayor/eventos del instrumento,P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_02,SIDIF-Link,Lotes y transmisiones a SIDIF Central,P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_03,SICHE SIDIF Central,Formulario por partida y SIGADE,P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_04,SICHE SIDIF Central,Deuda exigible hasta 2008,P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_05,SICHE SIDIF Central,Gastos por beneficiario y detalle de asientos,P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_06,CUT-SIDIF Central,"Extracto, saldos y logs de impacto 2008",P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_07,SIDIF Central,Conciliación bancaria y transmisión,P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_08,SAF 355,"Expediente, orden y vínculo con movimiento bancario",P0_PRIMARY,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_09,Cuenta REPO 2019,"Mayor, asiento e identidad del instrumento",P1_COMPARATOR,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT
+HR146_10,SLU,Consulta/restauración sólo si se prueba implantación objetivo,P2_CONDITIONAL,cadena SIGADE→asiento→orden→extracto o descarte documentado,Ruta/capacidad no prueba fila target.,DRAFT_NOT_SENT

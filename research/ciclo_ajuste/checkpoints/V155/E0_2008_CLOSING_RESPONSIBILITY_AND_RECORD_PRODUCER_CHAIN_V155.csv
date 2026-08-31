@@ -1,0 +1,21 @@
+﻿row_id,authority_or_actor,norm_or_source,duty_or_action,record_class,request_target,probative_value,limit,status
+RP155_01,Secretaría/Subsecretaría de Coordinación Administrativa,Resolución SH 6/2008 art. 22,Responsabilidad dentro de su competencia jerárquica,Información y respaldo documental,"Índice de remisión, notas y disposición final",Identifica nivel responsable,No prueba autoría material de cada pieza,RESPONSIBLE_LEVEL
+RP155_02,Jefatura SAF,Resolución SH 6/2008 art. 22,Responsabilidad dentro de su competencia jerárquica,Presentación en término y respaldo,Legajo de cierre SAF355,Identifica custodio operativo,No prueba recepción CGN,RESPONSIBLE_LEVEL
+RP155_03,Unidad de Registro Contable,Resolución SH 6/2008 art. 22,Responsabilidad dentro de su competencia jerárquica,Formularios de ajuste contable,"C41/C42/C55, ajustes y listados",Identifica productor contable,No prueba banco,RESPONSIBLE_LEVEL
+RP155_04,SAF355,Resolución SH 6/2008,Preparar cierre 2008,Formularios y listados,Universo documental del SAF,Delimita jurisdicción objetivo,No individualiza evento de recompra,PRODUCER
+RP155_05,UAI Economía,Instructivo SIGEN 2/2008,Certificar anexos aplicables,Certificados y papeles de trabajo,Anexos I-V y fuentes,Identifica controlador,0/5 cuerpos target localizados,CONTROL_PRODUCER
+RP155_06,CGN,Resolución SH 6/2008,Recibir y compilar Cuenta,"Acuses, rechazos y reemplazos",Mesa de entradas y legajo Cuenta 2008,Identifica custodio central,Compilación no equivale a certificación,CENTRAL_CUSTODIAN
+RP155_07,TGN,Resolución SH 6/2008,Gestionar cierre financiero,Listados y corte,Pagos y CUT,Identifica custodio financiero,CUT no cubre necesariamente todo pago externo,FINANCIAL_CUSTODIAN
+RP155_08,DADP,Cuenta 2009 UEPEX,Aportar ejecución de deuda,SIDIF/DADP y respuestas,Consultas y listados por movimientos,Vincula deuda con cierre,UEPEX no prueba BODEN target,DEBT_PRODUCER
+RP155_09,CGN-DAIF,Cuenta 2009 UEPEX,Elevar análisis de cierre,Nota 0120/09 DAIF,"Cuerpo, anexos, índice y acuse",Número exacto localizado,Objeto agregado UEPEX,EXACT_RECORD
+RP155_10,SIGEN GSEyP,Cuenta 2009 UEPEX,Responder e instruir seguimiento,Nota 3672/09 GSEyP,"Cuerpo firmado, anexos y distribución",Número exacto localizado,Acrónimo no equiparado a GSEPyPF,EXACT_RECORD
+RP155_11,SIGEN,Cuenta 2009 UEPEX,Registrar hallazgos,Entrada SISIO,"Número de actuación, tema, organismo, estado",Identifica sistema de seguimiento,Registro no es informe completo,SYSTEM_CUSTODIAN
+RP155_12,UAI respectivas,Cuenta 2009 UEPEX,Seguir y regularizar,Actuaciones e informes de seguimiento,"Alta, actualización, cierre y evidencia",Identifica ejecutor,No demuestra cierre del caso,FOLLOWUP_PRODUCER
+RP155_13,UAI Economía,Decreto 1025/2010,Planificar auditoría,Plan anual,"Plan 2009, modificaciones y ejecución",Tipo documental estable,Norma posterior al target,POST_TARGET_COMPARATOR
+RP155_14,UAI Economía,Decreto 1025/2010,Producir informes periódicos,Libro/registro de informes,Inventario 2009 y numeración interna,Tipo documental estable,Norma posterior al target,POST_TARGET_COMPARATOR
+RP155_15,UAI Economía,Decreto 1025/2010,Revisar papeles de trabajo,Papeles y conformidades,"Índice, caja, soporte y disposición final",Tipo documental estable,Norma posterior al target,POST_TARGET_COMPARATOR
+RP155_16,SIGEN,Página Economía 2026,Publicar/buscar informes,ArchivoWeb,"Número público, organismo, período, adjunto",Canal actual verificado,Ventana pública no inventario histórico,CURRENT_DISCLOSURE
+RP155_17,SIGEN,Formulario AIP,Recibir solicitudes,Formulario y acuse,Detalle exacto y constancia,Canal directo verificado,No enviado,CURRENT_REQUEST_ROUTE
+RP155_18,Archivo/Mesa de entradas Economía,Ley 27.275 y ruta oficial,Localizar legados,"COMDOC, libro, caja, soporte","Búsqueda por número, asunto, fechas y áreas",Cubre pre-GDE,Sin respuesta no hay hallazgo,ARCHIVAL_ROUTE
+RP155_19,Archivo/Mesa de entradas SIGEN,Ley 27.275 y ruta oficial,Localizar legados,Registro salida/entrada y SISIO,"0120/09, 3672/09, Cuenta 2008",Cubre copia controlante,Sin respuesta no hay hallazgo,ARCHIVAL_ROUTE
+RP155_20,Investigación V155,Regla probatoria,"Separar producción, custodia y prueba",Matriz de objetos,Cada cuerpo y acuse por separado,Evita fundir roles,No cierra ejecución,METHOD_CONTROL

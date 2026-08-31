@@ -1,0 +1,8 @@
+fee_id,provider,sigade,sidif,amount_ars,source_id,locator,scope,buyback_specific,use
+SF133_01,Caja de Valores,83006000,VARIOS,183556.00,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,ANNUAL_SERVICE_FEE,NO,Exact SIGADE key for detail request.
+SF133_02,Caja de Valores,83008000,VARIOS,8245946.42,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,ANNUAL_SERVICE_FEE,NO,Exact SIGADE key for detail request.
+SF133_03,Caja de Valores,83095000,VARIOS,1786212.32,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,ANNUAL_SERVICE_FEE,NO,Exact SIGADE key for detail request.
+SF133_04,Citibank,83020000,VARIOS,122940.67,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,ANNUAL_COMMISSION,NO,Exact SIGADE key for detail request; participant name alone does not link it to the tenders.
+SF133_05,Banco Nación,83106000,71597-152677-2876,32270.30,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,ANNUAL_COMMISSION,NO,Exact SIGADE/SIDIF key for detail request; not proof of first-stage mandate payment.
+SF133_06,Caja de Valores total,83006000+83008000+83095000,VARIOS,10215714.74,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,RECOMPUTED_ANNUAL_PROVIDER_TOTAL,NO,Control sum only; never allocate to buybacks without subledger.
+SF133_07,Anexo K total,MULTIPLE,MULTIPLE,107159337.66,e0_cgn_cuenta_inversion_2008_sdp,PDF_p67_Anexo_K,PUBLISHED_ANNUAL_TABLE_TOTAL,NO,Table control total only.

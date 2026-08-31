@@ -1,0 +1,8 @@
+﻿candidate,rank,support,contrary,decision_key,status,source_id
+UNCLASSIFIED,0,Anexo K sólo imprime SIDIF,no da tipo,consulta SICHE por N° SIDIF,EXACT_LOCATORS_TYPE_OPEN,e0_cgn_cuenta_inversion_2008_sdp
+C55_DIRECT_DEBIT,1,manual: débito bancario por comisión → C55 Débito Directo,falta exportación target,tipo=C55; subtipo Débito Directo; cuenta; Libro Banco,PRIORITY_HYPOTHESIS_NOT_PROVED,e0_dgsiaf_slu_global_regularization_2004
+C41_FOREIGN_PAYMENT,2,SAF355 usaba C41 y cuenta del SAF para gastos/comisiones exteriores,concepto agregado puede ser regularización posterior,tipo=C41; observación transferencia exterior; Nota/Boleto,ALTERNATIVE_HYPOTHESIS_NOT_PROVED,e0_cgn_circular_13_2002_foreign_payments;e0_cgn_tgn_disposition_47_10_2008_foreign_payments_annex
+C42_NON_BUDGETARY,3,tipo admitido por ingreso manual SIDIF,partida 7.2.8 es presupuestaria,tipo=C42; AXT; razón extrapresupuestaria,LOWER_PRIORITY_NOT_EXCLUDED,e0_dgsiaf_slu_sidif_number_input_2003;e0_dgsiaf_slu_expense_reports_2003
+C41_C42_C55_SET,N/A,son los tipos permitidos por la función SLU de ingreso N° SIDIF,la función no prueba universo exhaustivo,buscar los tres tipos primero y ampliar si no hay fila,PROVED_WORKFLOW_NARROWING,e0_dgsiaf_slu_sidif_number_input_2003
+C55_NOTE_DIFFERENCE,2B,C55 regulariza diferencias de débito de pagos por Nota,no conocemos una OP original ni diferencia cambiaria,formulario original; medio Nota; diferencia; cuenta,SECONDARY_C55_VARIANT_OPEN,e0_cgn_circular_22_2004_note_regularization;e0_dgsiaf_slu_global_regularization_2004
+DECISION,N/A,"el tipo, subtipo e historia del registro deciden",se prohíbe convertir ranking en hecho,exportación SICHE + imagen/respaldos,OPEN,e0_argentina_resolution_53_2024_siche

@@ -1,0 +1,14 @@
+﻿row_id,record_type,act_internal_sidif,later_internal_sidif,observed_change,controlled_use,source_id,locator,target_2008_proof
+LF149_01,ACTS,IF-2019-00247631 / IF-2019-01053905,N/A,dos cortes,Pedir actas equivalentes.,e0_mecon_uai_report_06_2019_saf355_close_2018,pp.4-5,FALSE
+LF149_02,IR,556/483003,587/483153,31,Crosswalk interno↔SIDIF.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_03,CMIR,23/15294,25/16462,2,Número solo no clasifica.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_04,C35,61564/109183,sin cambio,0,Clase explícita requerida.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_05,C41,307329/331295,sin cambio,0,C-41 no se deduce del rango.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_06,PRE,9/325077,sin cambio,0,Conservar tipo e IDs.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_07,C42,307331/20100,sin cambio,0,Conservar tipo e IDs.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_08,C55,307342/73318,307820/74633,17 y luego 4,Buscar historia post-cierre.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_09,CMR,2446/73652,sin cambio,0,Conservar clase y corte.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_10,CRG,2545/73870,2629/SN,27 y luego 57,Buscar historia y monto.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_11,REPO,N/A,CRG posterior,cancelaciones REPO,Comparador posterior.,e0_mecon_uai_report_06_2019_saf355_close_2018,p.5,FALSE
+LF149_12,SCHEMA,tipo+número interno+número SIDIF,dos cortes,historia,Pedir mismo esquema 2008.,e0_mecon_uai_report_06_2019_saf355_close_2018,Anexo I p.6,FALSE
+LF149_13,LIMIT,71597/152677/2876,N/A,sin cuerpo,No homologar por rango.,e0_cgn_cuenta_inversion_2008_sdp,Anexo K p.67,FALSE

@@ -1,0 +1,3 @@
+# Veredicto V160
+
+V160 cierra un subgap real: GSEyP tiene expansión oficial como Gerencia de Supervisión Economía y Producción, y GSPF figura separada como Planificación Federal. La evidencia es cercana al target porque integra el Plan 2010 aprobado en diciembre de 2009, pero no sustituye el acto orgánico vigente al emitir la Nota 3672/09 ni su cuerpo. El Anexo H y el Decreto 1366/2009 prueban conjuntamente que la UAI de Economía tenía alcance multi-entidad y competencia transitoria; por eso 154 UAI no son 154 entidades ni 154 informes. Tampoco los más de 4550 productos reconcilian los agregados 120/160 sin inventario, estado y fecha de corte. OT, SDP, consolidación, UAI BNA y asiento bancario siguen separados. Resultado 0/10; SAF355 0/5; seis borradores no enviados.

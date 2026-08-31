@@ -1,0 +1,20 @@
+﻿step_id,sequence,query,filters,requested_output,decision,status
+CQ142_01,1,SICHE CUT · Entidades Básicas,ejercicio/vigencia 2008;SAF355;sin cuenta prefijada,banco;sucursal;cuenta;moneda;titular;vigencia,identificar cuenta histórica,DRAFT_NOT_SENT
+CQ142_02,2,SICHE CUT · Saldos por Tipo de Apertura,cuentas recuperadas;todo 2008,tipo apertura;cuenta operación;saldos;fechas,mapear cuentas,DRAFT_NOT_SENT
+CQ142_03,3,SICHE CUT · Extractos,cuentas recuperadas;01/01-31/12/2008;sin importe;cuenta operación 230 y universo sin filtro,universo anual completo;código y descripción histórica,evitar falso negativo y priorizar comisión,DRAFT_NOT_SENT
+CQ142_04,4,SICHE CUT · Logs de Impacto,mismo universo anual,timestamp;evento;entidad;comprobante;importe;resultado,reconstruir impactos,DRAFT_NOT_SENT
+CQ142_05,5,SICHE · Formulario por Pda. y Sigade,SAF355;2008;7.2.8;83106000,formulario;fecha;importe;beneficiario;observaciones,obtener claves de cruce,DRAFT_NOT_SENT
+CQ142_06,6,Cruce por SIDIF,71597;152677;2876,tipo;número;fecha;importe individual,desagregar total anual,DRAFT_NOT_SENT
+CQ142_07,7,Cruce por importe,"32.270,30 y componentes;ambos signos;variantes decimales",movimientos candidatos,identificar total o partes,DRAFT_NOT_SENT
+CQ142_08,8,Detalle de Extracto,movimientos candidatos,fecha;secuencia;mov externo/interno;cpte bancario;importe;estado,identificar referencia BNA,DRAFT_NOT_SENT
+CQ142_09,9,Libro Banco,referencias y fechas candidatas,código;descripción;debe/haber;comprobante,probar impacto interno,DRAFT_NOT_SENT
+CQ142_10,10,Historial de Conciliación,movimiento/libro/extracto,estado;fechas;usuario;causa;regularización,separar conciliado y pendiente,DRAFT_NOT_SENT
+CQ142_11,11,Comprobantes origen/relacionado/respaldo,identificadores recuperados,EE;ejercicio;tipo;número;vínculos,cerrar formulario→movimiento,DRAFT_NOT_SENT
+CQ142_12,12,Informe diario del Auditor,fecha de movimiento/diferencia si existe,saldos;diferencia;movimientos;causa;seguimiento,documentar hallazgo,DRAFT_NOT_SENT
+CQ142_13,13,Auditoría de resultado cero,cada consulta individual,módulo;dataset;cobertura;filtros;fecha;filas;exclusiones;diccionario,evaluar suficiencia negativa,DRAFT_NOT_SENT
+CQ142_14,14,AMIDDF,tipo/número/SAF recuperados,índice;caja;cuerpo;folios;imagen,cerrar respaldo documental,DRAFT_NOT_SENT
+CQ142_15,15,Diccionario histórico,módulo CUT-SIDIF Central;versión vigente 2008,cuentas de operación;códigos internos/externos;descripciones;grupos,resolver equivalentes de 230/AUTO/DBAUTO,DRAFT_NOT_SENT
+CQ142_16,16,Triage de códigos,230;AUTO;DBAUTO;CRAUTO;PAGO;PGTR;RECH;DCRB;ANPG;DLOT y equivalentes,todas las filas y descripción histórica,"separar comisión, pago, crédito, rechazo y reversa",DRAFT_NOT_SENT
+CQ142_17,17,Grupo de conciliación,movimientos candidatos,LIB;APL;EXB;MAN o equivalente;regla aplicada,identificar conciliación automática o manual,DRAFT_NOT_SENT
+CQ142_18,18,Referencia unívoca,movimientos candidatos,referencia BNA;contracódigo;comprobante;cuenta contraparte,obtener clave de unión bancaria,DRAFT_NOT_SENT
+CQ142_19,19,Cuenta de operación 230,todo 2008;SAF355;fuente/clase;sin importe,débitos;formulario;extracto;Libro Banco;estado,probar o descartar carril de gasto bancario,DRAFT_NOT_SENT

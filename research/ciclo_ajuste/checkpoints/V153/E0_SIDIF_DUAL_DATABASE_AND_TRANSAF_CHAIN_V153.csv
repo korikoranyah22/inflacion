@@ -1,0 +1,19 @@
+row_id,object,official_or_controlled_finding,request_or_rule,source_id,status
+DC151_01,ARCHITECTURE,El SIDIF operó con bases locales de los SAF y una base central.,Consultar ambos repositorios por separado.,e0_argentina_afg_first_stage_sidif_transaf_architecture,BASES_DISTINCT
+DC151_02,LOCAL_SYSTEMS,"Los SAF podían usar SIDIF Local, CONPRE o sistemas propios.","Pedir inventario, motor, versión y backups SAF355.",e0_argentina_afg_first_stage_sidif_transaf_architecture,LOCAL_UNIVERSE_PROVED
+DC151_03,TRANSACTION_COPY,La transacción quedaba en base local y central.,"Comparar cabecera, renglones, estados y timestamps.",e0_argentina_afg_first_stage_sidif_transaf_architecture,DUAL_RECORD_EXPECTED
+DC151_04,NO_DOUBLE_EVENT,Dos registros pueden corresponder a un único hecho económico.,"Deduplicar por identificadores, importe, fecha y vínculo de transmisión.",e0_argentina_afg_first_stage_sidif_transaf_architecture,METHOD_CONTROL
+DC151_05,TRANSAF_START,La comunicación electrónica por TRANSAF comenzó en 1995.,Pedir trazas legadas 2008.,e0_argentina_afg_first_stage_sidif_transaf_architecture,ROUTE_PROVED
+DC151_06,AUTHENTICATION,TRANSAF incorporó autenticación y firma electrónica.,"Pedir resultado y metadatos, no presumir pago.",e0_argentina_afg_first_stage_sidif_transaf_architecture,PREPAYMENT_METADATA
+DC151_07,PROTOCOLS,"Se usaron UUCP, FTP y luego X.400.",Buscar archivos/logs por protocolo y no sólo interfaz actual.,e0_argentina_afg_first_stage_sidif_transaf_architecture,LEGACY_SEARCH_EXPANDED
+DC151_08,CENTRAL_REGISTRATION,La recepción central generaba registración presupuestaria y contable.,Pedir registro central e historia del documento.,e0_argentina_afg_first_stage_sidif_transaf_architecture,CENTRAL_RECORD_EXPECTED
+DC151_09,TECHNICAL_DOCS,Existieron manuales técnicos y operativos por módulo.,"Pedir diccionarios, diseños de lote y tablas 2008.",e0_argentina_afg_first_stage_sidif_transaf_architecture,DOCUMENT_ROUTE_PROVED
+DC151_10,DISTRIBUTED_DB,La quinta etapa describe una base lógica distribuida entre nivel central e institucional.,No aceptar un cero unilateral como cierre global.,e0_argentina_afg_fifth_stage_legacy_transaf,DUAL_CUSTODIAN_RULE
+DC151_11,LEGACY_2004,TRANSAF punto a punto seguía en uso al desarrollarse SIDIF Internet.,Tratar 2008 como entorno legado salvo prueba contraria.,e0_argentina_afg_fifth_stage_legacy_transaf,TEMPORAL_CONTEXT
+DC151_12,CENTRALIZATION_FUTURE,La centralización y eliminación de formularios eran metas posteriores.,No retroproyectar arquitectura e-SIDIF a 2008.,e0_argentina_afg_fifth_stage_legacy_transaf,TEMPORAL_BREAK
+DC151_13,LOCAL_QUERY,Ruta A: base local/origen SAF355.,71597/0071597; 152677/0152677; 2876/0002876; C41/C42/C55.,e0_argentina_afg_first_stage_sidif_transaf_architecture,REQUEST_DRAFT
+DC151_14,CENTRAL_QUERY,Ruta B: SIDIF Central/CGN.,"Mismas claves, sin limitar por tipo o estado.",e0_argentina_afg_first_stage_sidif_transaf_architecture,REQUEST_DRAFT
+DC151_15,TRANSMISSION_QUERY,"Ruta C: lote, log, acuse, autenticación y error TRANSAF.",Vincular origen y registro central.,e0_argentina_afg_first_stage_sidif_transaf_architecture,REQUEST_DRAFT
+DC151_16,UAI_QUERY,"Ruta D: certificación, ajuste o regularización posterior al corte.",Buscar UAI/CGN con fuentes de contraste.,e0_cgn_sigen_instruction_account_2009,REQUEST_DRAFT
+DC151_17,NEGATIVE_LOCAL,Cero local no demuestra cero central.,"Individualizar búsqueda, backup y disposición documental.",e0_argentina_afg_first_stage_sidif_transaf_architecture,NON_CLOSING_ZERO
+DC151_18,NEGATIVE_CENTRAL,"Cero central no demuestra cero local, bancario o papel.","Escalar a archivo, UAI, TGN y extractos.",e0_argentina_afg_first_stage_sidif_transaf_architecture,NON_CLOSING_ZERO

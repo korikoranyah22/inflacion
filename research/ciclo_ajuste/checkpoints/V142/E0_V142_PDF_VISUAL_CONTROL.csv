@@ -1,0 +1,14 @@
+﻿control_id,source_id,local_path,pdf_page,rendered_check,result
+PV142_01,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,64,cuenta 230 Débitos Automáticos; catálogo de cuentas y ecuaciones,PASS
+PV142_02,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,65,"eventos, reconstrucción de impactos y auditor diario",PASS
+PV142_03,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,67,tabla de 28 códigos; AUTO/PAGO/PGTR/rechazos,PASS
+PV142_04,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,68,referencia unívoca bancaria por operación,PASS
+PV142_05,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,112,débito automático BNA; gastos bancarios; formulario de regularización,PASS
+PV142_06,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,140,"mapeo código externo/interno, validación, reversa e historial",PASS
+PV142_07,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,141,campos de extracto y estados T/P/N,PASS
+PV142_08,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,147,grupos LIB/APL y comisiones bancarias automáticas,PASS
+PV142_09,e0_tgn_manual_system_treasury_v1,/research/ciclo_ajuste/inputs/historical_retrieval/v137/binaries/tgn_manual_sistema_tesoreria_v1.pdf,148,formulario SIDIF de gasto y C-55/CRG de regularización,PASS
+PV142_10,e0_tgn_treasury_system_v3_2022_cut_extract,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_treasury_system_v3_2022.pdf,61,cuenta 230 Débitos extracto bancario y definición estable,PASS
+PV142_11,e0_tgn_treasury_system_v3_2022_cut_extract,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_treasury_system_v3_2022.pdf,62,cuentas 511/530/640/710/810 y ecuaciones,PASS
+PV142_12,e0_tgn_treasury_system_v3_2022_cut_extract,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_treasury_system_v3_2022.pdf,64,DBAUTO/CRAUTO y tabla de códigos v3 parte 1,PASS
+PV142_13,e0_tgn_treasury_system_v3_2022_cut_extract,/research/ciclo_ajuste/inputs/historical_retrieval/v141/binaries/argentina_tgn_treasury_system_v3_2022.pdf,65,tabla de códigos v3 parte 2 y referencia unívoca,PASS
