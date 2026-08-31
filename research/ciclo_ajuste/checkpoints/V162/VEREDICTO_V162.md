@@ -1,0 +1,3 @@
+# Veredicto V162
+
+V162 mejora la certeza sin inflar la cobertura. La nueva publicación oficial de Banco Rioja prueba que el stock de septiembre coincide exactamente con capital más interés devengado en la salida BCRA. A la vez, el cierre anual mantiene dos diferencias no explicadas frente al raw: 238.183k en stock y 158.789k en ingreso. Esto impide construir un Q4 homogéneo de ingreso y confirma que un saldo de balance no puede reemplazar un flujo de resultados. HSBC tampoco ofrece la separación de contraparte en sus ocho adjuntos complementarios. Ambos permanecen excluidos. El panel conserva 33 entidades y 63.3404130639287055191506606276878645985932518939916205138518528603403997357930830936917209159343409585184995437662731063% de activos.

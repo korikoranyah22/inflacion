@@ -1,4 +1,4 @@
-# Paquete mínimo para Railway
+# Paquete mínimo para Railway o Netlify
 
 Esta carpeta es el único directorio que Railway necesita descargar para publicar el dashboard. No contiene los PDFs, microdatos, checkpoints ni copias completas de investigación del repositorio principal.
 
@@ -11,6 +11,17 @@ Esta carpeta es el único directorio que Railway necesita descargar para publica
 - **Healthcheck Path:** `/health`
 
 La ruta `/` y la ruta histórica `/dashboard/` sirven el mismo dashboard.
+
+## Configuración en Netlify
+
+- **Base directory:** `railway-dashboard` (sin barra inicial)
+- **Package directory:** dejar vacío
+- **Build command:** dejar vacío
+- **Publish directory:** `.`
+- **Functions directory:** dejar vacío
+- **Runtime:** no requiere selección manual
+
+`netlify.toml` conserva la carpeta de publicación y hace que `/dashboard/` siga funcionando. Netlify sólo publica el contenido de esta carpeta, aunque el proveedor puede clonar el repositorio completo antes de iniciar el build.
 
 ## Actualizar el paquete
 

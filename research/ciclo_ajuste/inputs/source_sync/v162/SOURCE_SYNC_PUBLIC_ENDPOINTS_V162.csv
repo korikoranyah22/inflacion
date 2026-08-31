@@ -1,0 +1,5 @@
+﻿control_id,institution,url,public_fact,local_status,decision
+WEB162_01,Banco Rioja,https://bancorioja.com.ar/institucional/disciplina-de-mercado,Official index exposes the 30/09/2023 disclosure,INDEX_URL_RECORDED_BINARY_ARCHIVED,USE
+WEB162_02,Banco Rioja,https://bancorioja.com.ar/pdf/disciplina-de-mercado/DM-30-09-23.pdf,"Official 9M disclosure, 9 pages",ARCHIVED_SHA256_VALID,USE_STOCK_CONTROL_ONLY
+WEB162_03,BCRA,https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A6358.pdf,Plan de Cuentas effective 2018 defines 141144 and 141222 as active repo stock with BCRA,LOCAL_BINARY_PENDING_SERVER_RESET; operative labels also preserved inside official 2023 raw archives,PUBLIC_CORROBORATION_NOT_PROMOTION_BASIS
+WEB162_04,BCRA,https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A6402.pdf,Plan de Cuentas effective 2018 defines 511108 as interest on active repos with BCRA and 521108 as interest on passive repos with BCRA,LOCAL_BINARY_PENDING_SERVER_RESET; operative labels also preserved inside official 2023 raw archives,PUBLIC_CORROBORATION_NOT_PROMOTION_BASIS

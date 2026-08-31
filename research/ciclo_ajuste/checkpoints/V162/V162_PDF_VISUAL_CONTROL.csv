@@ -1,0 +1,6 @@
+﻿control_id,artifact,page,method,target,result,observation
+PV162_01,banco_rioja_eeff_fy2023.pdf,25 / printed 23,Poppler 150 dpi + original-detail visual inspection,FY repo stock and counterparty,PASS_LIMIT,"BCRA LELIQ active repos 29,217,148; no passive repos; stock is not flow."
+PV162_02,banco_rioja_eeff_fy2023.pdf,79 / printed 77,Poppler 150 dpi + original-detail visual inspection,FY Annex Q result split,PASS,"BCRA repo income 14,409,056 and expense 7,844; other-FI absent."
+PV162_03,banco_rioja_disciplina_mercado_9m2023.pdf,7,Poppler 150 dpi + original-detail visual inspection,9M repo stock,PASS_LIMIT,"Instrumentos de pase 14,191,142; no result-flow opening."
+PV162_04,hsbc_9m2023/estado_contable.pdf,29,Poppler 150 dpi + original-detail visual inspection,9M repo stock,PASS_LIMIT,"Capital 182,670,273 plus accrued interest 1,111,036 = 183,781,309; no result split."
+PV162_05,hsbc_fy2023/estado_contable.pdf,36,Poppler 150 dpi + original-detail visual inspection,FY pass results,PASS_LIMIT,"Income 204,724,664 and expense 542,204, both sector financiero unsplit."

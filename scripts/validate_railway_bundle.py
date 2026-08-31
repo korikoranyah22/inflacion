@@ -33,6 +33,7 @@ for row in manifest["files"]:
 
 assert (BUNDLE / "package.json").is_file()
 assert (BUNDLE / "server.mjs").is_file()
+assert (BUNDLE / "netlify.toml").is_file()
 assert not (BUNDLE / "data").exists()
 assert not (BUNDLE / "tmp").exists()
 assert not (BUNDLE / "Mora").exists()

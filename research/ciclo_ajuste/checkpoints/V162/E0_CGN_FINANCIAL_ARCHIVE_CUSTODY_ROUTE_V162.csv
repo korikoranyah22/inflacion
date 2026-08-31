@@ -1,0 +1,16 @@
+row_id,object_code,object,finding,status
+AR153_01,C8_DATE,01/10/2009,Circular CGN 08/09,OFFICIAL_METADATA
+AR153_02,ARCHIVE,Archivo General de Documentación Financiera de la Administración Nacional,Dependiente de CGN,NAMED_CUSTODIAN
+AR153_03,ISO,Certificación IRAM-ISO 9001:2008 otorgada el 06/07/2009,Sistema de calidad,CAPABILITY
+AR153_04,SCOPE_DIGITIZE,Digitalización de documentos,Servicio certificado,CAPABILITY
+AR153_05,SCOPE_GUARD,Guarda de documentación recibida,Custodia sobre lo recibido,CAPABILITY
+AR153_06,SCOPE_DESCRIBE,Descripción de documentación recibida,Índice/metadatos plausibles,CAPABILITY
+AR153_07,USERS,Atención a usuarios del sistema,Ruta de consulta,ACCESS_ROUTE
+AR153_08,AUTHORITY_1998,Disposición CGN 46/1998,Norma de recepción citada,AUTHORITY
+AR153_09,SAF_SUPPORT,Recursos para que SAF digitalicen archivos,Ruta institucional ofrecida,ARCHIVAL_ROUTE
+AR153_10,OPTICAL,Documentación a resguardar en soportes ópticos,Soporte mencionado,ARCHIVAL_ROUTE
+AR153_11,LEGAL_VALUE,CGN habilitada para dar valor jurídico a impresión de imagen procesada,Carácter de original,LEGAL_VALUE_ROUTE
+AR153_12,C6_PROJECT,Proyecto de Archivo Informático Histórico SIDIF con pleno valor jurídico,Circular 06/09: presentación y resguardo de imágenes,CONTEXT_ONLY
+AR153_13,TARGET_LIMIT,Capacidad del archivo,No prueba que ingresó la certificación o listado SAF355,METHOD_LIMIT
+AR153_14,REQUEST,"Índice AGDFA por SAF355, Cuenta 2008, UAI, GSEPyPF y Anexos I-V","Pedir legajo, soporte, transferencia y disposición",DRAFT_NOT_SENT
+

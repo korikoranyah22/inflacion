@@ -1,0 +1,10 @@
+﻿control_id,period,measure,issuer_value_thousand_ars,raw_account_set,raw_values_thousand_ars,raw_sum_thousand_ars,difference_issuer_minus_raw,verdict,analytic_use
+BR162_01,9M-2023,active_repo_stock,14191142,141144+141222,14148116+43026,14191142,0,EXACT_STOCK_RECONCILIATION,Validates Sep entity/account stock bridge only; not a result-flow allocation.
+BR162_02,FY-2023,active_repo_stock,29217148,141144+141222(absent),28978965+0,28978965,238183,AUDITED_VS_RAW_STOCK_MISMATCH,Shows a broader closing presentation/timing difference is possible; cause remains unproven.
+BR162_03,FY-2023,repo_income_bcra,14409056,511108,14250267,14250267,158789,AUDITED_VS_RAW_RESULT_MISMATCH,Blocks income-leg promotion.
+BR162_04,FY-2023,repo_expense_bcra,7844,521108,7844,7844,0,EXACT_ENTITY_SPECIFIC_FY,Supports the expense account for Rioja only; insufficient for four-leg promotion.
+BR162_05,9M-2023,repo_income_bcra,N/A_NO_ISSUER_RESULT_OPENING,511108,5712151,5712151,N/A,RAW_ONLY,Cannot substitute stock disclosure for issuer result opening.
+BR162_06,9M-2023,repo_expense_bcra,N/A_NO_ISSUER_RESULT_OPENING,521108,5117,5117,N/A,RAW_ONLY_WITH_FY_ENTITY_CROSSCHECK,Expense mapping is supported at FY but full four-leg gate remains open.
+BR162_07,Q4-2023,repo_income_bcra_raw_to_raw,N/A,14250267-5712151*1.532908152197492,5494064.165516943874708,5494064.165516943874708,N/A,ARITHMETIC_ONLY_NOT_PROMOTED,Regulatory raw-to-raw candidate conflicts with issuer FY presentation.
+BR162_08,Q4-2023,repo_income_bcra_issuer_fy_minus_raw_9m,5652853.165516943874708,14409056-5712151*1.532908152197492,5652853.165516943874708,5652853.165516943874708,158789,MIXED_PRESENTATION_NOT_PROMOTABLE,Do not mix audited FY with unmatched regulatory 9M.
+BR162_09,Q4-2023,repo_expense_bcra,0.108985205433436,7844-5117*1.532908152197492,0.108985205433436,0.108985205433436,0,EXACT_ARITHMETIC_NOT_PANEL_PROMOTION,One resolved leg does not satisfy the four-leg gate.

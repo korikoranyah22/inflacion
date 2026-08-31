@@ -1,0 +1,12 @@
+row_id,object,official_fact,request_field,source_id,locator,status,target_2008_proof
+SG149_01,CUT,Corte al 9/12/2019.,timestamp,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,COMPARATOR,FALSE
+SG149_02,LAST_FORMS,UAI obtuvo últimos e-SIDIF.,acta/exportación,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,RECORD_CLASS_PROVED,FALSE
+SG149_03,ACT,IF-2019-109041824-APN-UAI#MHA.,cuerpo/anexos,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,EXACT_ID_PROVED,FALSE
+SG149_04,BACKUP,UAI obtuvo base SIGADE al corte.,medio/archivo/formato,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,BACKUP_CLASS_PROVED,FALSE
+SG149_05,CUSTODIAN,Base reservada en UAI para consulta.,inventario/ubicación,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,NAMED_CUSTODIAN_2019,FALSE
+SG149_06,INTEGRITY,No publica hash ni esquema.,checksum/motor/versión,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,METADATA_OPEN,FALSE
+SG149_07,RESTORE,La copia admite consulta institucional.,restore/export,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,REQUEST_OBJECT,FALSE
+SG149_08,QUERY,83106000 no aparece.,consulta exacta/cero,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,TARGET_QUERY_OPEN,FALSE
+SG149_09,TEMPORAL_LIMIT,Snapshot probado sólo en 2019.,inventarios 2008,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,NO_2008_SNAPSHOT_INFERENCE,FALSE
+SG149_10,DISPOSITION,Destino posterior no publicado.,custodia/transferencia/expurgo,e0_mecon_uai_report_35_2019_saf355_change_close,p.4,PRESERVATION_OPEN,FALSE
+
