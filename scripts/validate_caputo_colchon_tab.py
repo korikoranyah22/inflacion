@@ -20,8 +20,20 @@ def rows(path: Path) -> list[dict[str, str]]:
 assert ASSET.count('id="tab-epica-caputo-colchon"') == 1
 assert ASSET.count('data-tab="tab-epica-caputo-colchon"') >= 1
 assert "window.renderEpicaCaputo" in ASSET
-assert "La frase se audita como paráfrasis" in ASSET
-assert "estado mental no inferido" in ASSET
+assert "Punto de partida del storytelling" in ASSET
+assert "paráfrasis de trabajo" in ASSET
+assert "¿Qué preguntas permanecen abiertas?" in ASSET
+assert '<section id="story-hypotheses"' in INDEX
+assert "Hipótesis de Miyu · Caputo" in INDEX
+
+for adversarial_label in (
+    "Hipótesis que sobrevive",
+    "Probado ·",
+    "No probado ·",
+    "Veredicto",
+    "¿Está desesperado?",
+):
+    assert adversarial_label not in ASSET, f"Quedó una etiqueta adversarial: {adversarial_label}"
 
 for fragment in (
     "featured:['tab-story','tab-epica-households','tab-epica-dollars','tab-epica-caputo-colchon'",
@@ -34,7 +46,7 @@ for fragment in (
 required_downloads = (
     "income_distribution_2026_q1.csv",
     "channel_comparison.csv",
-    "policy_claims_audit.csv",
+    "policy_questions_matrix.csv",
 )
 for name in required_downloads:
     path = DERIVED / name
@@ -55,9 +67,10 @@ assert rate_by_channel["Plazo fijo bancario USD · 60 días o más"] == 2.05
 assert rate_by_channel["Letra del Tesoro de EE.UU. a 52 semanas"] == 4.14
 assert "2,09 p.p." in ASSET
 
-claims = rows(DERIVED / "policy_claims_audit.csv")
-assert any(row["clasificacion"] == "no observable" for row in claims)
-assert any("USD 5,8" in row["veredicto"] for row in claims)
+questions = rows(DERIVED / "policy_questions_matrix.csv")
+assert any(row["tipo_de_evidencia"] == "fuera del alcance" for row in questions)
+assert any("USD 5,8" in row["lectura_actual"] for row in questions)
+assert all(row["limite_o_pregunta_abierta"] for row in questions)
 
 manifest_path = RESEARCH / "source_manifest.csv"
 manifest = rows(manifest_path)

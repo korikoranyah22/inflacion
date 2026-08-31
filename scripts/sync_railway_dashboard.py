@@ -19,8 +19,12 @@ PUBLIC_FILES = (
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/debt_service_2026_2031.csv",
     "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/income_distribution_2026_q1.csv",
     "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/channel_comparison.csv",
-    "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/policy_claims_audit.csv",
+    "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/policy_questions_matrix.csv",
     "research/epica_dashito_2026/caputo_colchon_2026-08-31/source_manifest.csv",
+)
+
+STALE_PUBLIC_FILES = (
+    "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/policy_claims_audit.csv",
 )
 
 
@@ -33,6 +37,11 @@ def digest(path: Path) -> str:
 
 
 def main() -> None:
+    for relative in STALE_PUBLIC_FILES:
+        stale = BUNDLE / relative
+        if stale.is_file():
+            stale.unlink()
+
     manifest: list[dict[str, object]] = []
     for relative in PUBLIC_FILES:
         source = ROOT / relative

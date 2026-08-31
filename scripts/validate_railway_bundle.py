@@ -43,6 +43,14 @@ assert not (BUNDLE / "tmp").exists()
 assert not (BUNDLE / "Mora").exists()
 assert not (BUNDLE / "Reclamo colectivo").exists()
 assert not (BUNDLE / "research" / "ciclo_ajuste").exists()
+assert not (
+    BUNDLE
+    / "research"
+    / "epica_dashito_2026"
+    / "caputo_colchon_2026-08-31"
+    / "derived"
+    / "policy_claims_audit.csv"
+).exists()
 
 asset = (BUNDLE / "assets" / "epica-super-tabs.js").read_text(encoding="utf-8")
 for row in manifest["files"]:

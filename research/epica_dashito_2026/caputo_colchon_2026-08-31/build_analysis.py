@@ -144,46 +144,51 @@ def build_channel_comparison(rates: list[dict[str, object]]) -> None:
     )
 
 
-def build_claims_audit() -> None:
+def build_questions_matrix() -> None:
     rows = [
-        {"pregunta": "¿La frase fue localizada textualmente?", "clasificacion": "no localizada", "veredicto": "Se conserva como paráfrasis; el argumento oficial equivalente sí fue localizado.", "fuente_principal": "Ministerio de Economía 2026-08-13"},
-        {"pregunta": "¿Quién tiene margen para invertir?", "clasificacion": "indicio fuerte, no medición directa", "veredicto": "La capacidad está concentrada: el 20% superior capta 50,1% del ingreso; ingreso no equivale a patrimonio.", "fuente_principal": "INDEC ingresos 2026-T1"},
-        {"pregunta": "¿Depositar equivale a inversión productiva?", "clasificacion": "falso como automatismo", "veredicto": "El depósito sólo crea fondeo potencial; requiere banco dispuesto, empresa elegible, demanda solvente y uso productivo.", "fuente_principal": "BCRA y Ministerio de Economía 2026-08-13"},
-        {"pregunta": "¿El banco ofrece el mejor incentivo privado?", "clasificacion": "no demostrado", "veredicto": "Las tasas bancarias USD observadas quedan por debajo de una letra del Tesoro estadounidense a 52 semanas antes de costos e impuestos.", "fuente_principal": "BCRA 2026-08-27 y US Treasury 2026-08-28"},
-        {"pregunta": "¿Cuál es el beneficio buscado por el Gobierno?", "clasificacion": "probado", "veredicto": "Formalización, más crédito, actividad, empleo y recaudación asociada al crecimiento.", "fuente_principal": "Ministerio de Economía 2026-07-22 y 2026-08-13"},
-        {"pregunta": "¿La urgencia se explica sólo por falta de depósitos?", "clasificacion": "contrapunto", "veredicto": "No: la propia presentación estima USD 5,8 mil millones de capacidad crediticia ya disponible.", "fuente_principal": "Ministerio de Economía 2026-08-13"},
-        {"pregunta": "¿Busca rescatar bancos o financiar deuda soberana?", "clasificacion": "no demostrado", "veredicto": "Las fuentes revisadas no prueban ese propósito; además limitan la tenencia de deuda pública respecto del crédito en USD.", "fuente_principal": "Ministerio de Economía 2026-08-13"},
-        {"pregunta": "¿Está desesperado?", "clasificacion": "no observable", "veredicto": "No se infiere un estado mental. Se analizan objetivos, restricciones e incentivos observables.", "fuente_principal": "criterio metodológico"},
+        {"dimension": "origen del análisis", "pregunta": "¿Qué formulación oficial se localizó?", "tipo_de_evidencia": "fuente oficial", "lectura_actual": "La redacción entregada se conserva como paráfrasis; sí se localizó el argumento depósitos → crédito → actividad y empleo.", "limite_o_pregunta_abierta": "No se atribuye literalidad a la paráfrasis.", "fuente_principal": "Ministerio de Economía 2026-08-13"},
+        {"dimension": "distribución", "pregunta": "¿Cómo se distribuye la capacidad potencial de ahorro?", "tipo_de_evidencia": "medición indirecta", "lectura_actual": "El 20% superior capta 50,1% del ingreso corriente, lo que muestra una capacidad potencial concentrada.", "limite_o_pregunta_abierta": "Ingreso corriente no equivale a patrimonio ni identifica tenencias de dólares.", "fuente_principal": "INDEC ingresos 2026-T1"},
+        {"dimension": "transmisión", "pregunta": "¿Qué pasos separan el depósito de la inversión productiva?", "tipo_de_evidencia": "mecanismo regulatorio", "lectura_actual": "El depósito crea fondeo potencial; la transmisión también requiere un banco dispuesto, una empresa elegible, demanda solvente y uso productivo.", "limite_o_pregunta_abierta": "La evidencia disponible no mide la probabilidad de cada paso.", "fuente_principal": "BCRA y Ministerio de Economía 2026-08-13"},
+        {"dimension": "canales", "pregunta": "¿Qué atributos ofrece cada alternativa de inversión?", "tipo_de_evidencia": "comparación de referencia", "lectura_actual": "Las tasas bancarias USD observadas son menores que la letra del Tesoro estadounidense a 52 semanas; el banco aporta funciones transaccionales y la comitente acceso a activos.", "limite_o_pregunta_abierta": "La elección depende además de comisiones, impuestos, custodia, liquidez, acceso y riesgo de precio.", "fuente_principal": "BCRA 2026-08-27 y US Treasury 2026-08-28"},
+        {"dimension": "política pública", "pregunta": "¿Qué objetivos y mecanismos declara el Gobierno?", "tipo_de_evidencia": "declaración oficial", "lectura_actual": "Las fuentes mencionan formalización, más crédito, actividad, empleo y recaudación asociada al crecimiento.", "limite_o_pregunta_abierta": "Las declaraciones no permiten establecer el peso relativo de cada objetivo.", "fuente_principal": "Ministerio de Economía 2026-07-22 y 2026-08-13"},
+        {"dimension": "capacidad bancaria", "pregunta": "¿Qué otros límites pueden intervenir además de los depósitos?", "tipo_de_evidencia": "estimación oficial", "lectura_actual": "La presentación oficial estima USD 5,8 mil millones de capacidad crediticia ya disponible.", "limite_o_pregunta_abierta": "Falta medir demanda, elegibilidad, riesgo y uso efectivo de esa capacidad.", "fuente_principal": "Ministerio de Economía 2026-08-13"},
+        {"dimension": "otros objetivos", "pregunta": "¿Qué lugar ocupan los bancos y la deuda soberana en las fuentes revisadas?", "tipo_de_evidencia": "delimitación de alcance", "lectura_actual": "No aparecen como objetivo central en el corpus revisado; la regulación citada limita ciertas tenencias de deuda pública respecto del crédito en USD.", "limite_o_pregunta_abierta": "Esto no prueba su ausencia en el conjunto más amplio de la política económica.", "fuente_principal": "Ministerio de Economía 2026-08-13"},
+        {"dimension": "motivaciones personales", "pregunta": "¿Qué puede decirse sobre las motivaciones personales del ministro?", "tipo_de_evidencia": "fuera del alcance", "lectura_actual": "El análisis se concentra en objetivos declarados, restricciones, incentivos y mecanismos observables.", "limite_o_pregunta_abierta": "Las fuentes utilizadas no permiten inferir estados psicológicos.", "fuente_principal": "criterio metodológico"},
     ]
-    write_csv(DERIVED / "policy_claims_audit.csv", ["pregunta", "clasificacion", "veredicto", "fuente_principal"], rows)
+    write_csv(
+        DERIVED / "policy_questions_matrix.csv",
+        ["dimension", "pregunta", "tipo_de_evidencia", "lectura_actual", "limite_o_pregunta_abierta", "fuente_principal"],
+        rows,
+    )
 
 
 def build_results_markdown() -> None:
-    text = """# Resultados · auditoría “dólares del colchón”
+    text = """# Resultados · preguntas sobre los “dólares del colchón”
 
 Fecha de corte: **31/08/2026**.
 
-## Veredicto corto
+## Síntesis de alcance
 
-La frase suministrada se trata como **paráfrasis**: no fue localizada literalmente en las transcripciones oficiales revisadas. El argumento oficial equivalente sí es inequívoco: Caputo propone que los dólares fuera del sistema entren a los bancos para ampliar el crédito empresarial y, por esa vía, la actividad y el empleo.
+La intuición inicial de Miyu queda registrada en el Storytelling del dashboard. Este módulo la traduce a preguntas abiertas sobre distribución, alternativas de inversión, transmisión bancaria y objetivos de política. La frase suministrada se conserva como **paráfrasis de trabajo**: no fue localizada literalmente en las transcripciones oficiales revisadas. Sí se encontró el argumento de que los dólares fuera del sistema podrían entrar a los bancos, ampliar el crédito empresarial y, por esa vía, favorecer la actividad y el empleo.
 
-Ese beneficio macroeconómico no coincide necesariamente con el incentivo privado del ahorrista. Al 27/08/2026, las referencias del BCRA eran 0,22% TNA para caja de ahorro USD y 2,05% para plazos de 60 días o más; la letra del Tesoro estadounidense a 52 semanas rendía 4,14% el 28/08/2026. La comparación es ilustrativa: antes de elegir hay que descontar comisiones, impuestos, custodia, liquidez, acceso y riesgo de precio.
+El beneficio macroeconómico buscado y el incentivo privado del ahorrista son dimensiones diferentes. Al 27/08/2026, las referencias del BCRA eran 0,22% TNA para caja de ahorro USD y 2,05% para plazos de 60 días o más; la letra del Tesoro estadounidense a 52 semanas rendía 4,14% el 28/08/2026. La comparación es ilustrativa: antes de elegir hay que considerar comisiones, impuestos, custodia, liquidez, acceso y riesgo de precio.
 
-## Quiénes pueden invertir
+## Capacidad potencial para invertir
 
 INDEC muestra que el 20% de mayores ingresos concentra 50,1% del ingreso corriente y el 40% inferior, 14,5%. Esto respalda la idea de una capacidad concentrada, pero no identifica quién posee dólares: la EPH mide ingresos, no riqueza ni efectivo atesorado. Como contexto, 71,778% de los hogares usó al menos una estrategia extraordinaria de sostenimiento en 2026-T1; tampoco es una medición directa de falta de ahorro.
 
-## Por qué el Gobierno quiere el canal bancario
+## Objetivos y mecanismos declarados
 
 La cadena pretendida es: depósito USD → fondeo bancario → crédito a una empresa → liquidación del préstamo en el mercado de cambios → fondos en pesos/FX adicional → eventual inversión, empleo y recaudación. Cada flecha es contingente. Depositar no convierte automáticamente el dinero en reservas del BCRA ni en capital productivo.
 
-La urgencia no puede atribuirse a un estado psicológico. Las presiones observables son formalizar activos, profundizar el crédito y conseguir crecimiento sin expandir el gasto o la emisión. Hay un contrapunto importante: la propia presentación oficial calcula que ya existían unos USD 5,8 mil millones de capacidad crediticia sin usar. Por eso, una escasez inmediata de depósitos no explica por sí sola el impulso político.
+Las fuentes permiten observar objetivos como formalizar activos, profundizar el crédito y favorecer el crecimiento sin expandir el gasto o la emisión. También abren una pregunta sobre otros límites a la transmisión: la propia presentación oficial calcula que ya existían unos USD 5,8 mil millones de capacidad crediticia sin usar. Queda por investigar el papel de la demanda de crédito, la elegibilidad de las empresas, el riesgo y el uso efectivo de esa capacidad.
 
-## Precauciones
+## Preguntas abiertas y límites
 
 - La PII registra USD 259,305 mil millones de moneda y depósitos de “otros sectores”, pero mezcla hogares, empresas e ISFLSH: no es una medición del “colchón” de las familias.
 - La garantía de depósitos rige hasta ARS 50 millones por persona/entidad desde el 01/04/2026; los depósitos en moneda extranjera se convierten al tipo de referencia aplicable.
-- No se encontró evidencia suficiente para afirmar que el objetivo central sea rescatar bancos o financiar deuda soberana.
+- ¿Qué peso relativo tienen la formalización, el crédito, la actividad, la recaudación y otros objetivos no explicitados en estas fuentes?
+- Las motivaciones personales del ministro quedan fuera del alcance empírico; el módulo se limita a declaraciones, incentivos, restricciones y mecanismos observables.
 - El módulo es análisis económico y de incentivos, no recomendación financiera individual.
 """
     (ROOT / "CAPUTO_COLCHON_RESULTS.md").write_text(text, encoding="utf-8", newline="\n")
@@ -197,7 +202,7 @@ def main() -> None:
     build_income_distribution()
     build_headlines()
     build_channel_comparison(rates)
-    build_claims_audit()
+    build_questions_matrix()
     build_results_markdown()
     print("OK: manifiesto, cinco datasets derivados y memo de resultados generados")
 
