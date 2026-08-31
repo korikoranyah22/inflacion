@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import tomllib
 from pathlib import Path
 
 
@@ -34,6 +35,9 @@ for row in manifest["files"]:
 assert (BUNDLE / "package.json").is_file()
 assert (BUNDLE / "server.mjs").is_file()
 assert (BUNDLE / "netlify.toml").is_file()
+root_netlify = tomllib.loads((ROOT / "netlify.toml").read_text(encoding="utf-8"))
+assert root_netlify["build"]["base"] == "railway-dashboard"
+assert root_netlify["build"]["publish"] == "."
 assert not (BUNDLE / "data").exists()
 assert not (BUNDLE / "tmp").exists()
 assert not (BUNDLE / "Mora").exists()

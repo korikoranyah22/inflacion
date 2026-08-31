@@ -23,6 +23,8 @@ La ruta `/` y la ruta histórica `/dashboard/` sirven el mismo dashboard.
 
 `netlify.toml` conserva la carpeta de publicación y hace que `/dashboard/` siga funcionando. Netlify sólo publica el contenido de esta carpeta, aunque el proveedor puede clonar el repositorio completo antes de iniciar el build.
 
+El `netlify.toml` de la raíz del repositorio fija además `base = "railway-dashboard"`. Esta copia en la raíz evita que una ruta absoluta o un valor anterior del panel haga que Netlify intente publicar `/`.
+
 ## Actualizar el paquete
 
 Después de modificar el dashboard o uno de sus CSV descargables, ejecutar desde la raíz:
