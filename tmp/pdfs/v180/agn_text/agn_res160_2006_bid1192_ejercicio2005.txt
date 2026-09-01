@@ -1,0 +1,3255 @@
+
+
+===== PDF PAGE 1 =====
+
+1
+INFORME DE AUDITORÍA SOBRE LOS ESTADOS FINANCIEROS DEL
+“PROGRAMA GLOBAL DE CRÉDITO A LA MICRO Y PEQUEÑA EMPRESA”
+CONTRATOS DE PRÉSTAMOS N° 643/OC-AR, N° 867/SF-AR Y N° 1192/OC-AR BID
+(Ejercicio N° 14 finalizado el 31/12/2005)
+Al Señor Secretario de Política Económica
+del Ministerio de Economía y Producción.
+La Auditoría General de la Nación, en su caráct er de auditor externo independiente, informa
+acerca del examen practicado sobre los estados financieros identificados en el Apartado I-
+siguiente, por el ejercicio fi nalizado el 31/12/05, correspondie ntes al “Programa Global de
+Crédito a la Micro y Pequeña Empresa” (MyPEs ), parcialmente financiado a través de los
+Contratos de Préstamos (CP) Nros. 643/OC-AR,  867/SF-AR y 1192/OC-AR, suscriptos, los dos
+primeros, el 07/04/92, y el último menci onado, el 15/09/99 (con modificaciones al mismo
+producidas en fechas 22/06/00, 30/07/02, 05/09/02 y 13/ 12/04), entre la Nación Argentina y el
+Banco Interamericano de Desarrollo (BID).
+El Proyecto es llevado a cabo por la Subsecretaría de la Pequeña y Mediana Empresa y
+Desarrollo Regional (SSPyMEyDR) a través de la UCP creada al efecto y del BCRA (agente
+financiero del Programa).
+I. ESTADOS AUDITADOS
+A. Expresados en dólares estadounidenses
+1. Estado de Activos y Pasivos del Proyecto al 31/12/05, comp arativo con el ejercicio
+anterior.
+
+===== PDF PAGE 2 =====
+
+2
+2. Estado de Resultados por el ejercicio finalizado el 31/12/05, comparativo con el
+ejercicio anterior.
+3. Cuentas de Orden al 31/12/05 (Aporte Loca l y Garantías constituidas por las IFI’s),
+comparativo con el ejercicio anterior.
+4. Estado de Evolución del Patrimonio Neto al 31/12/05.
+5. Estado de Variación de Disponibilida des del ejercicio 2005 y Acumulado al
+31/12/05.
+6. Cuadro de Costo y Financiamiento al 31/12/05, expresado en miles de dólares
+estadounidenses y Detalle de Desembolsos.
+7. Anexo “A” (y cuadro “Bienes de Uso”) y Cuadros “A”, “B”, “C”, “D” y “E”.
+8. Reseña sobre la Naturaleza y Activida des del Proyecto “Notas a los Estados
+Contables Nros.1 a 14”, que forman parte integrante de los mismos.
+B. Expresados en pesos
+1. Estado de Activos y Pasivos del Proyecto al 31/12/05, comp arativo con el ejercicio
+anterior.
+2. Estado de Resultados por el ejercicio finalizado el 31/12/05, comparativo con el
+ejercicio anterior.
+3. Estado de Evolución del Patrimonio Neto al 31/12/05.
+4. Notas a los Estados Contables Nros. 1 a 13, que forman parte integrante de los
+mismos, con importes comparativos en dólares al cierre de ejercicio.
+Los estados precedentes fueron preparados por la Unidad Coordinadora del Programa
+(UCP) y son de su exclusiva responsabilida d. Los estados financieros definitivos fueron
+presentados a esta auditoría el 27/01/06 (dólares) y 31/01/06 (pesos), y se adjuntan
+inicialados por nosotros a efectos de su identificación con este informe.
+Nuestra tarea estuvo dirigida a expresar una opinión basada en el examen de auditoría
+realizado, habiéndose efectuado el trabajo en campo entre el 02/06/06 y el 21/07/06 y entre
+el 07/08/06 y el 20/09/06.
+
+===== PDF PAGE 3 =====
+
+3
+II. ALCANCE DEL TRABAJO DE AUDITORÍA:
+El examen fue practicado de conformidad con las Normas de Auditoría Externas emitidas
+por la Auditoría General de la Nación, las cuales son comp atibles con las de aceptación
+General en la República Argen tina para la profesión contab le y con las recomendadas por
+la Organización Internacional de Entidades  Fiscalizadoras Superiores (INTOSAI),
+incluyendo las pruebas y demás procedimientos  que se consideraron necesarios, que se
+detallan en nuestra Declaración de Procedim ientos adjunta, excep to por las siguientes
+situaciones que a continuación se detallan:
+1. Matriz de Financiamiento: Componente de Asistencia Técnica-Seguimiento y
+Auditoría: Tal como expresáramos en nuest ro informe de auditoría correspondiente al
+ejercicio inmediato anterior , el Componente de Asistencia Técnica - Seguimiento y
+Auditoría, durante el ejercicio 2004 sufri ó una modificación al habérsele adicionado
+USD 240.000,00 que fueron detraídos del Componente de Crédito, objetivo
+fundamental del Programa. Al respecto, no tene mos constancia si la misma dio origen a
+la elaboración de algún documento adici onal y, consecuentemente, si el Programa
+cuenta con la correspondiente No Objeción del BID.
+2. Reasignación del FIV dispensado: Tal co mo mencionáramos en nuestro informe
+correspondiente al ejercicio inmediato anterior, hemos verificado que el FIV
+dispensado, según surge de los estados c ontables (Costo y Financiamiento) al
+31/12/2005, asciende a USD 417.500,00. No obsta nte según LMS 1 emitido a la misma
+fecha, la categoría FIV continúa con el monto original presupuestado de USD
+980.000,00, no habiéndose dejado constancia de la  reasignación a otra categoría del
+monto mencionado en primer término.
+3. Cuenta Banco Central de la República Ar gentina: Del cotejo  efectuado entre las
+subcuentas e importes registrados en la c ontabilidad y la información suministrada por
+el BCRA, se han podido determin ar diferencias por subcuentas pendientes de ajustar,
+pero encontrandose en el total  prácticamente compensadas.
+4. Rubro Créditos-Cuenta 1291-Sud Inversione s y Análisis SA (S IASA) Fideicomiso
+MyPEs II (a)- Nota 3: De la lectura de lo s Pagarés surge, en algunos casos, que el
+
+===== PDF PAGE 4 =====
+
+4
+vencimiento y pago de cuotas de amorti zación y/o intereses, tuvo lugar durante el
+transcurso del ejercicio 2005. Al respecto, no hemos podido verificar desde los registros
+contables del Programa, la cobranza de dichos importes a su vencimiento, y por ende su
+exposición en el rubro Disponibilidades - cuenta BCRA. Los casos mencionados se
+reflejan en el siguiente cuadro:
+Cifras expresadas en dólares estadounidenses
+Vencimientos operados al 31/12/2005Pagaré Nº Amortización Intereses Vencimiento Pago
+B-0000004 2.333,41 0,00 (*) 25/10/2005
+B-0000004 2.348,56 82,79 (*) 25/11/2005
+B-0000004 2.363,81 169,89 (*) 25/12/2005
+B-0000005 0,00 159,59 31/12/2005
+B-0000006 0,00 69,39 31/12/2005
+B-0000007 0,00 69,60 31/12/2005
+B-0000008 0,00 29,88 25/12/2005
+B-0000009 0,00 97,14 31/12/2005
+B-0000010 8.077,70 0,00 (*) 25/11/2005
+B-0000010 8.086,73 58,78 (*) 25/12/2005
+(*): Expuestos en Nota 3 SIASA-Documentos a Cobrar -“Cuotas vencidas al 31/12/05”.
+III. ACLARACIONES PREVIAS:
+1. Recibida la respuesta de los Asesores Legales del Programa, a través de Nota fechada el
+13/09/06, se procedió su cotejo  con las Notas Nº 4 y Nº 6 a los Estados Contables y con
+la información suministrada por el BCRA, surgiendo los siguientes comentarios:
+a) La información recibida de la DGAJ del Ministerio de Economía y Producción,
+destaca, entre otros aspectos, la situación particular de los siguientes bancos, dejando
+constancia que las mismas son idénticas a las proporcionadas por esa Dirección en el
+ejercicio inmediato anterior, es decir, la  situación procesal de las entidades que se
+mencionan seguidamente, no sufrió modifi cación alguna durante el transcurso del
+año 2005:
+i) Banco del Suquía S.A.: “…cabe destacar que por no haberse alcanzado las
+conformidades necesarias para la hom ologación del Acuerdo Preventivo, el
+Juzgado Interviniente decretó la quiebra de la entidad bancaria, extremo este que
+
+===== PDF PAGE 5 =====
+
+5
+ya fuera informado al contestar la No ta Nº 106/05, remitida por esa Dirección.
+La medida fue apelada por la concursada…”.
+ii) Banco de Balcarce S.A.: “…A la fecha de elaboración de este informe aún no fue
+dictado por el señor Juez a cargo del Ju zgado Civil y Comercial Nº 7, Secretaría
+Nº 4 del Departamento Judicial de Mar del Plata, el auto verificatorio, por lo que
+se desconoce lo informado por la sindicatura…”.
+iii)Banco Bisel SA: “La sentencia fue apelada por la  concursada y con fecha 12 de
+agosto del 2005, notificada a es te Ministerio el 25 de agosto de 2005, la Cámara
+Departamental rechazó los recursos invocados por la contraria, quedando en
+definitiva verificado el crédito en dólares por  la suma de U$S 827.187,33
+encontrándose en Cámara el expediente para resolver…”
+b) En cada uno de los bancos citados en el  punto anterior, la información suministrada
+por la Dirección General de Asuntos Ju rídicos del Ministerio de Economía y
+Producción (CUDAP: EXP-S01: 0329842/2006), no agrega el último párrafo de lo
+informado para cada entidad, a través de nota del 04/07/2005 emitida por el entonces
+asesor legal del Programa, Dr. Hor acio Chediex -en respuesta a nuestra
+circularización del ejercicio 2004- y que se expone en cada uno de las citadas
+entidades en nota a los estados contables Nº  6 del presente ejercicio. Dicho agregado
+es el siguiente: “…Toda vez que la entidad del caso fue reestructurada por el Banco
+Central de la República Argentina en los té rminos del artículo 35 bis de la Ley Nº
+21526 de Entidades Financieras se estiman poco significativas las expectativas de
+recupero.”.
+Se señala que la respuesta suministrada po r la  DGAJ no se encuentra completa, ello en
+virtud que sólo brinda información de tres de las cinco entidades bancarias contenidas
+en las Notas a los Estados Contables Nros . 4 y 6, quedando excluido del informe de la
+citada Dirección el ex Banc o de Entre Ríos SA (BERSA) y el ex Banco Integrado
+Departamental (Bid) Coop. Ltdo. (s/Quiebra ), sin agregar mayores precisiones al
+respecto. Tampoco responde al requerimi ento de información y/o documentación
+solicitada por esta AGN por Nota DC EE Nº 421327 003-2006 (12/07/2006) sobre el
+rechazo de la garantía hipotecaria del  exBid.
+
+===== PDF PAGE 6 =====
+
+6
+Cabe destacar que la sumatoria de los montos de deudas de capital al 31/12/05 sobre los
+tres bancos que se recibió res puesta, alcanza la cifra de USD 3.470.089,41,
+representando el 83,55% del total de crédit os a bancos corrientes y no corrientes
+(cuentas “Componente de Crédito a Bancos”y  “Ex Bancos en Gestión Judicial”) (USD
+4.153.311,46), el 85,38% del total de deudas de ba ncos en situación de litigio -no
+corrientes- (USD 4.064.453,41) y el 7,71% de l Total del Activo al 31/12/05 (USD
+45.017.237,55).
+El monto total de saldos de capital de entidades financieras en situación irregular,
+alcanza al 31/12/05 la cifr a de USD 4.064.453,41; lo que representa el 97,86% del total
+de saldos de deuda -cuentas “Component e de Crédito a Bancos”y “Ex Bancos en
+Gestión Judicial” (USD 4.153.311,46), y el 9,03%  del total del Activo del Programa al
+31/12/05 (USD 45.017.237,55).
+Cabe señalar, que al 31/12/ 05 el “Fondo de Cobertura para Incobrables”, es de USD
+401.240,00, importe insuficiente para hacer fren te a contingencias negativas, según lo
+expuesto por la UCP en sus Notas a los Estados Contables Nros. 2. y 6. (9,87% del total
+de saldos de deudas de bancos en situaci ón irregular). Además; al igual que en los
+últimos ejercicios auditados, la UCP informa “…se está estudiando el incremento que
+debería sufrir el citado f ondo para generar en el tiempo de desembolso del préstamo
+original y del “fondo semilla” originados por los fondos rotatorios, el monto suficiente
+para atender la parte proporcional de incobr ables que debería pagarse al BID en cada
+una de las amortizaciones semestrales de los préstamos”.
+2. Respecto los saldos adeudados por las IFIs  al 31/12/2005, cabe se ñalar que del cotejo
+realizado entre la documentación suministrada  por el Proyecto, las respuestas de los
+bancos participantes a nuestra s circularizaciones y lo informado por BCRA, surgen las
+siguientes diferencias de saldos:
+Deuda de Capital Operatoria MyPEs I-Diferencia Registros UCP/BCRA
+Saldos al 31/12/05Cuenta
+N° Banco S/UCP S/BCRA Observación
+135 Ex BUCI USD 1.175.529,00 $ 1.441.052,34 (*)
+178 Ex Balcarce SA USD 1.281.753,00 USD 2.090.320,00 (**)
+(*): El saldo al 31/12/05 difiere del informado al 31/12/04, en virtud de la inclusión de intereses devengados al 31/12/98
+por encontrarse dentro de la deuda que asumiera CorpBanca SA con el BCRA (Nota 5 a los EECC).
+
+===== PDF PAGE 7 =====
+
+7
+(**): La diferencia expuesta, se justifica por la disminución de la deuda  po r la ejecución de las garantías constituidas
+(Títulos Públicos VN USD 811.000,00)., y por los intereses  de  que corresponden a otro banco (exBid) por USD
+2.433. El BCRA, no informa de tal situación.
+3. Garantías constituidas por la IFIs confor me los saldos de capital de la anterior
+operatoria: Al 31/12/05 -s egún los estados financieros del Proyecto e información
+suministrada por BCRA- los Bancos De l Chubut SA, Macro SA y Julio SA,
+identificados por el Programa bajos lo s números 83, 285 y 305 respectivamente, no
+poseen deuda alguna con el Proyecto. No obstante, se verifica que continúan
+exponiéndose en Cuentas de Orden (Garantías  de las IFIs) y en nota a los estados
+financieros Nº 11, los saldos de sus pertinentes garantías. Por lo tanto la información
+expuesta por el Programa arroja saldos no actualizados al 31/12/2005.
+4. Costos Financieros: Al 31/12/05, se veri ficaron las diferencia s detalladas en los
+siguientes cuadros:
+1º Vencimiento - Cifras expresadas en dólares estadounidenses
+Montos
+Préstamo Concepto Según AGN Según UEP Diferencias
+643/OC 361.300,87 361.690,80 -389,93
+867/SF 176.378,24 175.895,01 483,23
+1192 USD 330.271,90 332.560,01 -2.288,11
+1192 $
+Intereses
+137,04 137,41 -0,37
+1192 USD C. Compromiso 103.346,09 103.514,85 -168,76
+Totales 971.434,14 973.798,09 -2.363,95
+Los montos calculados por AGN coinciden con los ordenados pagar por el BID.
+2º Vencimiento - Cifras expresadas en dólares estadounidenses
+MontosPréstamo Concepto Según AGN Según UEP Diferencias
+643/OC 332.408,22 332.408,22 0,00
+867/SF 169.323,11 169.787,01 -463,90
+1192 USD 324.092,33 324.092,33 0,00
+1192 $
+Intereses
+228,42 228,42 0,00
+1192 USD C. Compromiso 105.230,57 105.230,57 0,00
+Totales 931.282,65 931.746,55 -463,90
+Los montos calculados por AGN coinciden con los ordenados pagar por el BID.
+Saldo a Pagar al 31/12/05 - Cifras expresadas en dólares estadounidenses
+MontosPréstamo Concepto Según AGN Según UEP Diferencias
+
+===== PDF PAGE 8 =====
+
+8
+643/OC 131.090,01 129.475,82 1.614,19
+867/SF 76.626,55 75.576,87 1.049,68
+1192 USD 185.851,89 184.131,04 1.720,85
+1192 $
+Intereses
+128,25 128,25 0,00
+1192 USD C. Compromiso 29.624,69 29.624,69 0,00
+Totales 423.321,39 418.936,67 4.384,72
+El monto resultante de diferencia de este cuadro, surge por la sumatoria de las diferencias de los dos cuadros anteriores y
+del tramo correspondiente al último trimestre de 2005.
+5. Estado de Costo y Financiamiento:
+a) Aporte Local: Del análisis efectuado so bre los importes expuestos en el estado de
+referencia al 31/12/05 y su  cotejo con los restantes estados y cuadros que lo
+acompañan, se han podido verificar las diferencias que se detallan a continuación:
+Costo y Financiamiento Vs. Cuentas de Orden
+Componente de Crédito (miles de USD)
+Según Estado de Costo y Financiamiento 11.247,08
+Según Cuentas de Orden 11.388,86
+Diferencia -141,78
+Costo y Financiamiento Vs. Cuadro C-Erogaciones Ejecución Proyecto
+Componente Asistencia Técnica (miles de USD)
+Según Estado de Costo y Financiamiento: 0,00
+Según Cuadro C 4,52
+Diferencia -4,52
+b) Aporte BID: Del cotejo realizado entre el Estado de Costo y Financiamiento y el
+Estado de Activos y Pasivos con su corr espondiente nota aclarat oria N° 3, se ha
+podido constatar que el importe ejecut ado, según Costo y Financiamiento (en
+miles) de USD 406,10; corresponde a los Pagarés detallados en el siguiente
+cuadro:
+Cifras expresadas en USD
+Pagaré Nº Fecha de vencimiento Importe
+B-0000001 26/08/06 40.000,00
+B-0000002 22/07/06 300.000,00
+B-0000003 26/07/06 8.415,00
+B-0000004 26/08/07 57.681,65
+Total 406.096,65
+
+===== PDF PAGE 9 =====
+
+9
+En tanto, el monto expuesto en el Estado de Activos y Pasivos detallado en Nota
+3, alcanza la cifra de Capital de USD 831.246,65; importe conformado con los
+instrumentos detallados precedentemente, más USD 425.150,00 correspondiente a
+la sumatoria del resto de los Pagarés puntua lizados en la citada nota. Es decir, no
+se tomó en el Estado de Costo y Fina nciamiento, el último importe mencionado
+como aplicación del ejercicio 2005.
+6. Nota 6 -ex Bancos en Gestión Judicial (Concurso y/o Quiebra)-Intereses Devengados:
+Según información expuesta en la nota del títu lo, se ha podido constatar en los casos
+que a continuación se detallan, la inex istencia de registración de intereses
+oportunamente devengados a cobrar:
+Cifras expresadas en dólares estadounidenses
+Ex Banco Importe
+BALCARCE S.A. (s/Quiebra) 15.882,00
+BISEL S.A. (s/Concurso) 55.257,58
+DEL SUQUÍA S.A. (s/Concurso) 41.734,65
+7. Nota 6-ex bancos en gesti ón judicial (Concurso y/o Quie bra): ex Banco Balcarce SA-
+Operatoria MyPEs I: Según la UEP, la de uda mantenida con el Programa al 31/12/05
+por el ex Banco Balcarce SA, as cendía a un total de USD 2.106.202,00 (USD
+2.090.320,00 en concepto de capital y USD 15.882,00 en  concepto de intereses) de la
+cual se detrae la suma de USD 811.000,00 atribuibles a Títulos Públicos especie 06506
+“Bono Externo Global República Argent ina USD 9.75% vencimiento 19/09/2027”,
+que fueran depositados en la Caja de Valores SA, en la Cuenta Depositante N° 0325/3-
+Secretaría de Hacienda Movimiento Título s Varios. En consecuencia, la composición
+de la deuda, neta del valor de los títulos pasados a favor de la SH, quedaría expresada
+según detalle reflejado en el siguiente cuadro:
+Cifras expresadas en dólares estadounidenses
+Concepto Importe
+Deuda Original de capital 2.090.320,00
+Deuda original de intereses devengados 15.882,00
+Subtotal deuda original capital más intereses devengados 2.106.202,00
+Menos
+Acreditación a cuenta en Títulos Públicos BONEX 2027 -811.000,00
+
+===== PDF PAGE 10 =====
+
+10
+Saldo pendiente de cobro a favor del Programa 1.295.202,00
+Sin perjuicio del incremento en el valor de los intereses, en virtud de la actualización
+de los mismos a la fecha en que finalmente se resuelva la forma en la que el Programa
+recuperará sus acreencias y, conforme la cifra de deuda neta expuesta precedentemente
+y su comparación con el saldo informado por  el Programa en el quinto párrafo de la
+Nota 6 a los estados contables -ex Bancos  en Concurso o Quiebra - MyPEs I-, en
+donde se lee textualmente “…el saldo actualmente adeudado por el Ex Banco
+Balcarce S.A. s/ quiebra, asciende a USD 1.281.753,00 a recuperar en la Quiebra…”;
+surge una diferencia en menos de USD 13.449,00.
+Vale mencionar que el monto expuesto en la  citada nota, se encuentra mal calculado,
+toda vez que dicha cifra contiene saldo de  capital e intereses del mencionado banco, e
+intereses devengados a cobrar de otra entidad financiera por USD 2.433,00, por lo que
+la diferencia alcanzaría un monto de USD 15.882,00.
+8. Cuenta 1291-Sud Inversiones y Análisis SA  (SIASA) Fideicomiso MyPEs II (a): Del
+análisis efectuado sobre el importe re gistrado en la cuenta del título y su
+correspondiente documentación de respaldo (P agarés), se ha podido verificar que, en
+nota a los estados contables Nº  3 -SIASA Documentos a Cobr ar-, se detalla el total de
+Pagarés recibidos por el Programa al 31/12/2005, con la siguiente discriminación:
+Concepto Importe USD
+Capital 831.246,65
+Intereses Devengados 24.333,07
+Total 855.579,72
+Con relación a los intereses, el monto informado precedentemente fue contabilizado
+por el Programa en el ejercicio 2005 en la cuenta contable Nº 3511 “Intereses a
+Devengar Pag. SIASA”, mientras  que dicha cifra, corres ponde al total a devengar por
+dicho concepto desde la fecha de desembol so de capital de cada préstamo, hasta la
+cancelación de cada uno de ellos. Corres ponde señalar al respecto, que los
+vencimientos operan en su mayoría durante el transcurso del ej ercicio 2006 y hasta el
+año 2007. En virtud de lo expresado precedenteme nte, se procedió a la realización del
+
+===== PDF PAGE 11 =====
+
+11
+cálculo de intereses efectivamente deve ngados al 31/12/2005, de l que surgen los
+importes detallados en el siguiente cuadro:
+Pagaré Nº Préstamo USD Fecha de
+Desembolso
+Intereses hasta
+el Vencimiento
+Intereses hasta
+el 31/12/05
+Diferencia
+(*)
+B-0000001 40.000,00 26/09/05 1.423,23 414,58 1.008,65
+B-0000002 300.000,00 13/10/05 9.007,40 2.564,38 6.443,02
+B-0000003 8.415,00 04/11/05 239,76 51,25 188,51
+B-0000004 57.681,65 11/11/05 1.991,89 288,31 1.703,58
+B-0000005 115.000,00 19/12/05 3.765,27 159,74 3.605,53
+B-0000006 50.000,00 19/12/05 1.604,03 69,45 1.534,58
+B-0000007 50.150,00 19/12/05 1.349,98 69,66 1.280,32
+B-0000008 40.000,00 19/12/05 1.076,75 55,56 1.021,19
+B-0000009 70.000,00 19/12/05 2.304,39 97,23 2.207,16
+B-0000010 100.000,00 19/12/05 1.570,37 128,53 1.441,84
+Totales 831.246,65 24.333,07 3.898,69 20.434,38
+(*): El total de esta columna es el qu e debe contabilizarse en la Cuenta Co ntable Nº 3511 “Interes es a Devengar Pag.
+SIASA” al 31/12/2005, ya que a esa fecha se habían deve ngado efectivamente USD 3.898,69, tal como surge de los
+cálculos efectuados por AGN y expresados en el cuadro.
+Asimismo, en notas a los estados contables,  subtítulo Cómputo de los Intereses, se
+informa: “Los intereses ganados por el Fideicomiso MyPEs II a) se contabilizarán
+por el método de lo percibido, habiéndose registrado los intereses a devengar hasta el
+vencimiento del documento”.
+9. Redireccionamiento de cartera BID-C ontrato de Modificación de Préstamos Nº
+1192/OC-AR-3 a 6 (13/12/2004)-Comisión de Cr édito: Conforme la  lectura de los
+apéndices 2, 4, 6 y 9, que forman parte del Contrato Modificatorio Ómnibus suscripto
+el 13/12/2004 surge que, la Cláusula 2.4. de l citado Contrato de Préstamo establece
+“…el Prestatario pagará una comisión de crédito  de acuerdo con lo establecido en el
+Artículo 3.02 de las Normas Generales” . En tanto dicho artículo de las Normas
+Generales prescribe: “(a) Sobre saldo no desembolsado del Financiamiento que no
+sea en moneda del país del Prestatari o, éste pagará una comi sión de crédito, que
+empezará a devengarse a los sesenta (60) dí as de la fecha del Contrato. El monto de
+dicha comisión será aquél indicado en las Estipulaciones Especiales y, en ningún
+caso, podrá exceder del 0,75% por año” . “(b) Esta comisión será pagada en las
+mismas fechas estipuladas para el pago de  los intereses de conformidad con lo
+previsto en las Estipulaciones Especiales”.
+
+===== PDF PAGE 12 =====
+
+12
+Con base en la documentación suministrada por el Programa, se verificó que el cálculo
+para la determinación del monto en concepto de comisión de crédito, no se ajustó a los
+términos previstos en el Contrato de Pr éstamo señalado, toda vez que fue practicado
+desde la firma del contrato Modificatori o Ómnibus (13/12/2004), y no a partir de los
+60 días de dicha fecha, tal como lo estipul a la referida norma contractual, lo cual
+generó las siguientes diferencias pagada s en exceso, de acuerdo al cuadro que se
+expone seguidamente:
+Importes expresados en dólares estadounidenses
+Préstamo BID Nº Según BID Aceptado
+y pagado por la UEP Según AGN Diferencias
+1192 (3) 27.036,12 21.287,67 5.748,45
+1192 (4) 15.133,43 11.027,40 4.106,03
+1192 (5) 63.993,98 50.141,86 13.852,11
+1192 (6) 1º Vencimiento 47.876,90 32.273,97 15.602,93
+1192 (6) 2º Vencimiento 21.550,68 21.550,68 0,00
+Total 175.591,11 136.281,59 39.309,52
+10. Pago de Amortización e Intereses-CP  1192/OC-AR (5)-USD 16.954,69: En relación a
+estos costos financieros, pudo determinarse:
+a) CP BID Redireccionado Nº 1068/OC-AR: C onforme los términos de Nota UCP
+195/05 del 14/09/2005, en la que el Proyecto cuestiona el importe de USD
+10.153,85 correspondiente a amortizaci ón del principal y USD 6.800,84 en
+concepto de intereses devengados por el  período 13/12/04-16/09/05 sobre un total
+de USD 264.000,00 que el BID debitara de los recursos  del préstamo
+redireccionado en concepto de FIV, todo es to incluido en el es tado de cuenta que
+oportunamente efectuara el Banco y en Nota 3061/05 del 26/08/2005 de la Oficina
+Nacional de Crédito Público, se solicitó  oportunamente al Programa informar y
+documentar sobre la respuesta brindada al  respecto por el BID. No obstante la
+falta de respuesta a dicho requerimiento, al igual que el Proyecto, esta auditoría
+entiende que los conceptos debitados por el BID no corresponden.
+b) Según Cláusula 2.4 de Estipulaciones Especiales y artículo 4.05 de Normas
+Generales, el importe corre spondiente a FIV de USD 340.000,00 “…será
+desembolsado en cuotas trimestrales y en lo posible iguales…”. Al respecto, pudo
+
+===== PDF PAGE 13 =====
+
+13
+verificarse que USD 264.000,00 fueron amortizados por este concepto y debitados
+por el BID de los recursos  del préstamo, en la misma fecha de la firma del
+Contrato Ómnibus (13/12/2004). Cabe señalar que la cifra mencionada, representa
+el 77,65% del total presupuestado para este costo financiero.
+11. Primer Contrato de Fideicomiso (26/05 /04)-última modificación (19/08/05): Comisión
+de Crédito:
+El Capítulo Primero-Cláusula Segunda-Artículo 2.4-Apartado (vi), del instrumento del
+título, establece “A partir de la fecha de suscri pción del Presente Contrato el
+Fiduciario se obliga cada tres (3) meses a solicitar al Fiduciante-Beneficiario un
+mínimo de USD 8.000.000 (dólares estadounide nses ocho millones) con destino al
+efectivo descuento de créditos a las Ifis…” . “…El incumplimiento por parte del
+Fiduciario de la obligación antedicha determinará el nacim iento de su obligación de
+resarcir al Fiduciante-Beneficiario c on una Comisión de Compromiso del 0,75%
+(setenta y cinco centésimos por cien to) anual sobre saldo no desembolsado pagadera
+semestralmente…”.
+Al respecto, los registros y por ende los estados financieros no reflejan que se haya
+realizado la aplicación de la penalidad pr evista y enunciada precedentemente ya que,
+desde la fecha de firma del primer Fideicomis o (19/08/05) hasta el cierre del ejercicio
+2005, el Fiduciario ejecutó por la suma  de USD 831.246,65, importe que representa
+sólo el 10,39% del mínimo exigido para el período septiembre-diciembre/2005.
+12. Desembolsos efectuados al Fideicomiso-Fi duciario: Sud Inversiones y Análisis SA:
+Según lo informado a través del Cuad ro B-Continuación, anexo a los estados
+financieros del Programa al 31/12/05, el monto total adeudado por el Fiduciario
+SIASA, se imputa parte al Activo Corrient e y parte al Activo no Corriente, conforme
+detalle expuesto en el siguiente cuadro:
+Saldo adeudado SIASA Fondos BID I ntereses a Devengar Total Pagarés
+Activo Corriente 773.565,00 22.341,18 795.906,18
+Activo no Corriente 57.681.65 1.991,89 59.673,54
+Total 831.246,65 24.333,07 855.579.72
+
+===== PDF PAGE 14 =====
+
+14
+Por su parte, el Estado de Activos y Pa sivos del Proyecto, no re fleja la exposición
+precedente.
+Del control llevado a cabo sobre el particul ar por esta AGN, surge que los montos a
+exponer correctamente en los Activos Corrie nte y No Corriente del Programa, son los
+siguientes:
+Saldo adeudado SIASA Cap ital Intereses Total Pagarés
+Activo Corriente 810.202,63 24.027,21 834.229,84
+Activo no Corriente 21.044.02 305,86 21.349,88
+Totales 831.246,65 24.333,07 855.579,72
+Los intereses incluyen devengados y a devengar.
+13. Diferencias de cambio-estados financiero s expresados en pesos: Se han podido
+verificar errores en la determinación de la s diferencias de cambio aplicadas sobre las
+erogaciones realizadas en pesos por el Proyecto. No obstante, cabe señalar que el error
+habido, no modifica la información expuesta en  los estados financieros expresados en
+dólares. En el siguiente cuadro, se expone de manera global la situación descripta.
+Cifras expresadas en pesos
+Saldos al 31/12/05Rubros UCP AGN Diferencias
+Bienes de Uso 62.791,36 54.449,50 8.341,86
+Gastos de Administración UCP 8.664.853,04 3.573.091,15 5.091.761,89
+Asistencia Técnica MyPEs II 708.825,01 328.998,39 379.826,62
+Comp. de Capac. T. Gtos. UCP MyPEs I 8.822.451,03 2.910.259,29 5.912.191,74
+Fondo de Asistencia Técnica y Crediticia 782.783,65 258.216,61 524.567,04
+Totales 19.041.704,09 7.125014,94 11.916.689,15
+IV. DICTAMEN:
+En opinión de esta Auditoría General de la Nación, sujeto a lo mencionado en II. III- 1) y
+2) y excepto por lo expresado en III. 3)  a 13) precedentes, los estados contables
+identificados en I., presentan razonablemente la situación financiera del “Programa Global
+de Crédito a la Micro y Pequeña Empresa”  al 31 de diciembre de 2005, así como las
+transacciones efectuadas durante el ejercicio finalizado en esa fecha, de conformidad con
+
+===== PDF PAGE 15 =====
+
+15
+prácticas contables profesionales usuales y con los requisitos es tablecidos en los Contratos
+de Préstamos Nros. 643/OC-AR, 867/SF-AR y 1192/OC-AR BID.
+BUENOS AIRES, 21 de septiembre de 2006.
+
+===== PDF PAGE 16 =====
+
+16
+INFORME SOBRE EL CUMPLIMIENTO DEL REGLAMENTO DE CRÉDITO
+DEL “PROGRAMA GLOBAL DE CRÉDITO A LA MICRO Y PEQUEÑA EMPRESA”
+CONTRATOS DE PRÉSTAMOS N° 643/OC-AR, N° 867/SF-AR y N° 1192/OC-AR BID
+(Ejercicio N° 14 finalizado el 31/12/2005)
+Al Señor Secretario de Política Económica
+del Ministerio de Economía y Producción.
+A. INTRODUCCIÓN:
+En relación a la utilización de los recursos del financiamien to, conforme las previsiones
+establecidas en la cláusula contractual N° 4.02, consistente en el otorgamiento de créditos
+(subpréstamos) vía Instituciones Financieras Intermedias (IFIs), cabe mencionar que con
+fecha 05/09/2002 se procede a la modificación de l contrato de préstamo originalmente
+suscripto (15/09/1999), reemplazando el si stema de licitación por la figura del
+Fideicomiso. En orden a lo expresado, el nuevo sistema entró en vigor a través del Decreto
+de Necesidad y Urgencia (DNU) N° 1118/03 de fecha 09/05/03 que en su artículo 1º
+facultó al PEN, a través del Ministerio  de Economía y Producción, a constituir un
+Programa de Fideicomiso. El mismo está c onstituido por dos fideicomisos administrados
+por entidades financieras au torizadas por BCRA ó Sociedad es Anónimas Fiduciarias. El
+monto total del Programa para esta nue va operatoria es de USD 200,0 millones, que
+estarán constituidos con fondos del Préstamo BID y los provenientes de la Contrapartida
+Local, en iguales proporciones.
+Sin perjuicio de lo menciona do precedentemente, el 24/11/04 a través del Decreto Nº
+1636/04, el PEN aprobó el modelo de Contra to Modificatorio Óm nibus Nº 1192/OC-AR.
+El contrato respectivo fue suscripto entre la  Nación Argentina y el BID el 13/12/04 el que,
+en la parte pertinente al Programa, destin a recursos adicionales por un total de USD 96,0
+millones y reformula contenidos, ampliando el destino del financiamiento a las medianas
+empresas que facturen hasta USD 20,0 millones,  según la clasificación de empresas del
+
+===== PDF PAGE 17 =====
+
+17
+MERCOSUR. Cabe destacar que los montos redireccionados serán colocados a través de la
+creación de un tercer fideicomiso.
+B. RESEÑA DE LAS ACTIVIDADES DE L PROGRAMA EJERCICIOS 2005 Y 2006:
+Primer Fideicomiso: Las actividades del Programa al respecto consistieron, en lo
+sustancial, en la toma de una serie de medida s con el objeto de mejorar y flexibilizar las
+oportunidades de colocación de recursos por part e de las IFIs particip antes. En ese órden
+de ideas, se procedió a:
+1. Incorporación de la Mediana Empresa: Tal como se mencionó en el primer apartado,
+con la incorporación de la mediana empres a al Programa se promovió la modificación
+de las Normas Operativas del Primer Fideicomiso, de forma de posibilitar la extensión
+del financiamiento a ese tramo empresario. En virtud de ello, por Resolución MEyP Nº
+148/2005 del 16/03/05, se aprobó una Addenda al  Contrato de Fideicomiso celebrado
+el 26/05/2004 entre la Nación Argentina y Sud Inversiones y Análisis SA (SIASA), en
+su carácter de sociedad fiduciaria del fideicomiso MyPEs II (a), y los Bancos
+Credicoop Cooperativo Limitado y Macro Bansud SA, en sus condiciones de
+Instituciones Financieras Intermedias (IFIs), mediante la cual las partes acordaron
+incorporar a la mediana empresa al Contra to de Fideicomiso y sus anexos (Art. 1).
+Con fecha 22/03/05 fue suscript a la referida Addenda Cont ractual, por SIASA y las
+mencionadas IFIs, todos partes integrantes del Contrato de Fideicomiso aprobado por
+Resolución Nº 347 del 12/05/04.
+2. Adecuaciones de las Normas Operativas de l Fideicomiso: A efectos de optimizar la
+operatoria del ahora Programa de Crédito a la Micro, Pequeña y Mediana Empresa, la
+UCP conjuntamente con el BID, introduje ron modificaciones respecto del Pari-Passu
+de fondos del BID y fondos de las IFIs , separando tales fondeos de forma de
+posibilitar que el fideicomiso origine créditos de mediano y largo plazo con fondos del
+BID e, independientemente, las IFIs constituyan la contraparte local con otros créditos
+que se destinarían especialmente a operaci ones de corto plazo. Como así también, la
+determinación de tasas de transferencia de los fondos del BID en función de los plazos
+del financiamiento. Tal modificación permitió  ampliar el espectro monetario del
+
+===== PDF PAGE 18 =====
+
+18
+financiamiento posibilitando que los créditos  con fondos de las IFIs puedan otorgarse
+en pesos y/o dólares, ampliándose el fina nciamiento de la producción dirigida al
+mercado interno. Asimismo, se introduj o la percepción de una Comisión de
+Compromiso a cargo de las IFIs, a efectos de ince ntivar el desembolso de recursos,
+conforme con los mínimos establecidos en  la norma. Las referidas modificaciones a
+las Normas Operativas del Programa, obtuvieron la no objeción del BID mediante
+Nota CAR 2032/2005 del 15/04/05 y, por Resolución MEyP Nº 389/2005 del
+07/07/05, Artículo 1, se aprobó el modelo de Contrato de Fideicomiso y sus Anexos.
+Con fecha 19/08/05 se suscribió un nuevo Contrato de Fideicomiso con sus
+respectivos Anexos, entre el PEN, SIASA y las IFIs participantes, concluyendo con
+ello la instrumentación de medidas centrales para la ejecución del proyecto.
+Tras la aprobación de las citadas m odificaciones a las normas operativas del
+Programa, instruidas por Resolución MEyP  Nº 389/05 y la posterior suscripción por
+las IFIs participantes de los respecti vos documentos operativos, el Fideicomiso
+MIPyMES inició en el mes de septie mbre/2005, el descuento de operaciones de
+crédito con base en las presentaciones re alizadas por el Banco Macro Bansud SA, por
+un monto total al 31/12/2005 de US D 855.579,72 (capital USD 831.246,65 e intereses
+USD 24.333,07).
+En referencia al Banco Credicoop Coop. Ltdo., la entidad no había completado al
+31/12/05, presentación de operaciones en vi rtud de algunas objeciones que mantiene
+con aspectos operativos de las normas que, a su entender inhiben la posibilidad de dar
+inicio formal a su participación. En este contexto, el Banco Macro Bansud SA solicitó
+asimismo algunas adecuaciones en las normas operativas, sin implicar ello
+discontinuar su participación.
+En el ejercicio 2006, la UCP instó a las entidades, la presentación de un documento
+único y consensuado para su tratamiento y ulterior remisión al BID a sus efectos. Al
+respecto por Memorando UCP de fecha 24/ 07/06, el Programa informó que, respecto
+las modificaciones consensuadas con los bancos, el BID remitió Nota CAR Nº
+941/2006 del 23/02/06, comunicando que en pr incipio no tiene objeciones a que se
+incorporen en el Contrato de Fideicomiso suscripto con las IFIs (Credicoop y Macro),
+
+===== PDF PAGE 19 =====
+
+19
+los ajustes propuestos en términos generales. Sin embargo, a efectos que el Banco esté
+en condiciones de emitir una opinión defini tiva es necesario que la SSEPYMEyDR le
+remita con la mayor brevedad posible lo s textos correspondientes a las cláusulas
+contractuales que desean modificar en el citado Contrato de Fideicomiso y sus anexos.
+Al respecto, la UCP nos informó sobre la remisión al BID de las Normas Operativas
+del Programa, con los cambios propuestos  para su evaluación y consecuente no
+objeción.
+Posteriormente el Proyecto (N ota UCP Nº 221/06 del 05/09/06 ) remite el Informe de
+Progreso correspondiente al 1º seme stre de 2006, del cual se extrae “Al concluir el
+primer semestre del 2006 el Programa es ta operando a través de la ejecución del
+Primer Fideicomiso MIPyMES con la úni ca participación del Macro-Bansud SA:,
+entidad que ha presentado operaciones de créd ito desde el inicio de la actividad en
+septiembre de 2005. La SSEPYMEyDR y el BI D están reformulando contenidos de las
+Normas Operativas del Fideicomiso a solic itud de los bancos originantes. Se estima
+que la aprobación conjunta de tales adecuaciones, determinará el inicio de las
+operaciones del Banco Credicoop Coop. Ltdo. Asimismo, dentro de las modificaciones
+normativas previstas, se asigna particular significación a la in corporación del Nuevo
+Banco del Suquia S.A. como entidad originante de operaciones de créditos”.
+3. Antecedentes de la propuesta de inclus ión del Nuevo Banco del Suquía SA a la
+operatoria del 1º Fideicomiso:  Sobre el particular, y tal como surge de lo expresado
+precedentemente la propuesta de inclusió n del Nuevo Banco del Suquia SA formó
+parte de las modificaciones solicitadas por las IFIs.
+Al respecto, de la lectura de los informes  semestrales emitidos durante el ejercicio
+2005 se desprende que, en la reunión de l 12/04/05 mantenida en el BID con
+autoridades del Proyecto, los bancos Macro Bansud SA y Credicoop Coop. Ltdo. y
+Sud Inversiones y Análisis SA, el primero de los citados bancos resaltó la importancia,
+para éste, de la incorporación del Nuevo Ba nco del Suquia SA (entidad adquirida por
+dicha institución financiera),  dentro de las posibilidades  de descontar cartera en el
+Fideicomiso MIPyMES y propuso se considere esta solicitud. La UCP señaló entonces
+que, bajo las actuales normas del Programa,  el Nuevo Banco Suquia puede participar
+
+===== PDF PAGE 20 =====
+
+20
+en el fideicomiso vendiendo cartera al banco Macro Bansud SA. Asimismo añadió,
+“Sin perjuicio de los beneficios para el Programa de la ampliación de crédito del
+Fideicomiso MIPyMES que habría de surgir de la incorporación del Nuevo Banco del
+Suquia S.A., y dadas las restricciones formales que se vinculan con la participación de
+una entidad financiera que mantiene aún su i ndependencia jurídica y en tal sentido
+constituye a la fecha una tercera enti dad, la UCP ha remitido la solicitud de
+evaluación del caso a la co nsultoría jurídica del BID para que se establezcan las
+posibilidades y condiciones para una event ual incorporación de la mencionada
+entidad.”.
+Con fecha 06/06/05, el Banco Macro Bans ud SA solicitó, dada su condición de
+accionista mayoritario en el capital del c itado nuevo banco, la incorporación de éste al
+Fideicomiso MyPEs II (a)/MIPyMES, a efect os que dicha entidad pueda operar como
+IFI bajo el mencionado fideicomiso, susten tando su petición en que  la inclusión será
+beneficiosa para los objetivos del fideic omiso, toda vez que se contará con un nuevo
+canal de distribución para dicho programa.
+La mentada solicitud de incorporación fue avalada por los participantes del presente
+fideicomiso: el fiduciario Sud Inversi ones & Análisis SA, el banco Credicoop
+Cooperativo Limitado en su carácter de IF I autorizada para ope rar en el presente
+fideicomiso, y hasta el propio Nuevo Banco del Suquía SA.
+Por su parte, AGN por Nota DCEE Nº  421327 005-2006 de fecha 17/7/06, solicitó
+información y documentación respecto a que tipo de vinculación tiene el Nuevo Banco
+del Suquia SA. con el ex Banco Suquia SA. S/Concurso, entidad esta última, declarada
+en quiebra según nota a los Estados Financie ros Nº 6 y que mantiene una importante
+deuda en la operatoria del MyPEs II del Programa.
+En respuesta a nuestra consulta, a trav és de Memorando del 24/07/05-Punto 3 b., la
+UCP informó “De acuerdo con lo previsto, la s actuaciones vinculadas con la
+participación del Nuevo Banco del Suqui a SA han dado lugar a la instrucción de
+consultas jurídicas al BID y a la Cons ultoría Jurídica del Programa. Corresponde
+señalar que el tratamiento de la incor poración del mencionado Banco forma parte de
+
+===== PDF PAGE 21 =====
+
+21
+un cuerpo más amplio de modificaciones a las  Normas Operativas del Fideicomiso
+solicitadas por las IFIs participantes y en trámite de implementación.”
+“En tal sentido, la propuesta global ha sido integrada en un Proyecto de Modificación
+del Contrato de Fideicomiso y Anexos, sujeto actualmente a aprobación de las nuevas
+autoridades de la SSEPYMEyDR y posterior tratamiento de la Dirección General de
+Asuntos Jurídicos del Ministerio de  Economía y Producción, para la ulterior
+aprobación a través de Resolución Ministerial.”
+“Respecto de la aludida consulta al BID, debe señalarse que a efectos de observar un
+tratamiento igualitario con las IFIs partici pantes, se estimó procedente extender la
+consulta al caso general de incorporaci ón al Fideicomiso de entidades financieras
+controladas por las IFIs par ticipantes, cuyo caso particular en la oportunidad es el
+Nuevo Banco del Suquia SA.” . Así también, la UCP adjuntó a la citada respuesta: (i)
+Nota CAR 941/2006 del 23/02/06 re ferente a la Consulta sobre ajustes a las Normas
+Operativas del Programa, mediante la cu al el Banco no tiene  objeciones a que se
+incorporen en el Contrato  de Fideicomiso, los ajustes propuestos en términos
+generales, y solicita se remita  los textos correspondientes a las cláusulas contractuales
+que se desea modificar para su opinión defi nitiva, (ii) respuesta especifica del estudio
+Lisoprawski, sobre la incorporación de en tidades controladas, la que sintéticamente
+expresa que la misma resulta viable, ya sea mediante su incorporación al Contrato de
+Fideicomiso como parte del mismo, o a trav és de la cesión de créditos a las IFIs
+participantes, (iii) Nota UCP Nº 92/06 de l 21/04/06 remitida al BCRA, y Modelo de
+Addenda al Contrato de Fideicomiso sobre el caso en particular, a efectos de solicitarle
+“… se evalúe el estado de situación ec onómica-financiera y de gestión del Nuevo
+Banco Suquia SA., entidad que de acuerdo con lo descripto habrá de constituirse en
+deudor del Fideicomiso de referencia a tr avés de la operatoria de descuento de
+operaciones de crédito con recursos de fuente  BID, y en tal sentido comunique a esta
+Subsecretaría la condición de elegibilidad …”.
+Respecto la vinculación del Nuevo Banco de l Suquia SA con el ex Banco Suquia SA,
+La UCP remite a nota del 04/07/05 enviada a la AGN por el Consultor Jurídico del
+Programa, Dr. Horario Chediex, en cuya pa rte pertinente se señala que la entidad
+
+===== PDF PAGE 22 =====
+
+22
+financiera “fue reestructurada por el Banco Centra l de la República Argentina en los
+términos del Art. 35 BIS de la Ley 21.526 de Entidades Financieras”.
+Segundo Fideicomiso-DNU Nº 1118/2003: Respect o el estado de trámite de este
+instrumento, el Organismo Ejecutor, medi ante Nota UCP N° 119/05 del 02/06/05, con
+motivo de nuestra auditoría de l ejercicio anterior, había informado que se encontraba en
+curso de implementación, habiéndose realiza do reuniones con autoridades del Banco de
+Inversión y Comercio Exterior (BICE) y, da do traslado de la documentación del Programa
+para su consideración y análisis, a efectos de la participación de dicha entidad financiera en
+reemplazo de Banco de la Nación Argentina. A tenor de la respuesta brindada, con fecha
+09/06/05, AGN requirió, información respecto las gestiones efectuadas ante el Banco de la
+Nación Argentina, institución bancaria eleg ida en su oportunidad para integrar el 2°
+fideicomiso, de la cual no se había obtenido una  expresión explícita de  la citada entidad
+respecto de sus expectativas de incorporac ión al Programa a través del Fideicomiso
+MIPyMES. Con fecha 15/06/05, el Banco de  la Nación Argentina, remitió a la
+SSEPyMEyDR una nota expresando los motivos  que habían llevado a la entidad a
+considerar no conveniente su participación, señalando que “ Sin realizar una mención
+exhaustiva, se citan especialme nte las siguientes cláusulas de l Contrato de Fideicomiso
+propuesto: Cláusula 10ª “Retri bución del Fiduciario”, artí culo 10.2 retribución a éxito  o
+resultado; Cláusula 15ª “Gastos e Impuestos de l Fideicomiso”, artículo 15 (puntos 1 y 2)
+no deducibles del patrimonio del Fideicomis o y eventualmente a cargo del Fiduciario con
+su patrimonio  personal; Cláusula 22ª “Los pagarés. Té rminos y Condiciones”, artículo
+22.4.1 (viii) débito automático”. “Por lo expuesto, he considerado conveniente confirmar
+por este medio las conversaciones que mantuviéramos sobre el particular, a efectos de que
+esa Subsecretaría desarrolle las acciones que estime pertinentes”.
+Dicha situación fue informada por la UCP al BID. Por Nota CAR Nº 3522/2005 (30/06/05)
+el Organismo Financiador expres ó, entre otros aspectos, que “… el Banco ha tomado
+debida nota de lo informado por ustedes, y nos  manifestamos nuevamente a su disposición
+a efectos de analizar los cursos de acción a seguir para lograr la  efectiva ejecución de
+estos recursos”.
+
+===== PDF PAGE 23 =====
+
+23
+No obstante lo relatado precedentemente y, respecto el estado de situación de la
+instrumentación del 2º Fideicomiso, la UCP informó (Nota Nº 162/06 del 26/06/2006),
+entre otros aspectos, que “A partir del corriente año 2006, y en asociación con la política
+de crédito del BNA (Financiamiento de  Inversiones Productivas ”, línea de $ 4.500
+millones vigente a partir de ener o 2006), la SSEPYMEyDR ha propuesto la
+reconsideración de la participación del BNA como entidad participante en el 2º
+Fideicomiso previsto por el DNU 1118/03. En este sentido, se está avanzando en las
+tratativas con el citado Banco para la read ecuación de las Normas Operativas vigentes
+que permitan a la entidad suscri bir el Contrato de Fideic omiso y Anexos por un monto de
+U$S 50 millones de fuente BID”. “En la ac tualidad, se mantienen relaciones de trabajo
+con funcionarios del BNA, los que están realizando la evaluación jurídico-operativa de las
+modificaciones propuestas por la UCP a las Normas Operativas vigentes del Primer
+Fideicomiso, de forma de establecer cursos de  acción. Bajo condiciones de acuerdo sobre
+los alcances y modalidades de la operatoria y sujeto a la aprobación del Directorio de la
+entidad, se estima que el BNA estaría oper ando el Segundo Fideicomiso en el curso del
+segundo semestre del corriente año 2006”.
+Adicionalmente, a través de sus Informes de Ejecuciones Semestrales del ejercicio 2005,
+como de la propia Nota Nº 162/06, la UCP puso de manifiesto que, a tenor de la evaluación
+efectuada respecto de la situación de contexto  en la que se inscri be la instrumentación de
+un nuevo fideicomiso de fondos de Programa, se  ha planteado la pos ibilidad de introducir
+modificaciones para este financiamiento, por lo que se estaría trabajando en la elaboración
+de una propuesta alternativa de asignación de  recursos, unificando lo s recursos pendientes
+de colocación del Segundo Fideic omiso (USD 50,0 millones), y los de redireccionamiento
+de cartera del Decreto 1636/04 (USD 96,0 millones), sumando un total de USD 146,0
+millones.
+Redireccionamiento de la cartera BID-Propue sta alternativa de as ignación-Unificación de
+recursos:
+Con relación a la implementación del redireccionamiento de cartera BID, la UCP (Nota Nº
+162/06 del 26/06/06 ) informó de las diversas alternativ as barajadas a efectos de ejecutar
+
+===== PDF PAGE 24 =====
+
+24
+los fondos disponibles a través del mismo. El Contrato Modificatorio Ómnibus, en su parte
+CP 1192/OC-AR (3 a 6), refier e a los recursos redireccionados por un monto de USD 96,0
+millones. Los montos redireccionados serían colocados a través de la utilización de la
+figura del Fideicomiso, para lo cual, como en  las instancias de creación de similares
+instrumentos asociados al Modificatorio Nº  3 al Contrato 1192/OC-AR, se requiere su
+implementación por ley o en su defecto, por un DNU.
+La SSEPYMEyDR, en función de la consolid ación de la situación de liquidez y solvencia
+del sistema económico-financiero de las entidad es, ha instruido el diseño de estrategias de
+colocación de los fondos. En oportunidad de la  realización de la Misión de Revisión de
+Cartera BID (septiembre de 2005), la UCP pr esentó con carácter informal para el
+tratamiento preliminar del BID, una propuest a alternativa de asignación de recursos,
+basada en la licitación de r ecursos al sistema financiero con la participación del BICE
+como entidad de segundo grado, se adjuntaron en la oportunidad, proyectos de convenio de
+participación del citado banco y de Reglamen to de Crédito y Lic itación de la operación,
+consensuados con dicha entidad financiera.
+El BID introdujo en el análisis, la al ternativa de considerar una operatoria de
+financiamiento a empresas en moneda domés tica, asumiendo el estado el riesgo de cambio
+emergente del fondeo en dólares. Esta últim a instancia no obtuvo opinión favorable de la
+Subsecretaría.
+Dentro de las acciones acordadas, el BI D anunció que antes de noviembre de 2005 se
+llevaría a cabo una Misión de Ad ministración para definir líneas  de acción respecto de la
+utilización de los recursos del financiamiento. La Misión no se  produjo, sin perjuicio de lo
+cual, la UCP con fecha 17/03/06, presentó al Banco con carácter informal y como
+documento sujeto a análisis, y antecedente para la Misión a rea lizar, una “Propuesta de
+Asignación de Recursos para la Reactivación del Programa”. La misma prevé, en la parte
+pertinente, la unificación de los recursos pendientes de colocación del segundo fideicomiso
+y los provenientes del redireccionamiento  de cartera del Decreto 1636/04, sumando un
+total de USD 146,0 millones, a ejecutar por el Banco de la Nación Argentina como
+originante de créditos en los términos del Programa.
+
+===== PDF PAGE 25 =====
+
+25
+En la citada propuesta, puede leerse “…b. Corresponde destacar que en el marco del
+fortalecimiento del financiamiento a las MIPyMEs, el Ministerio de Economía y
+Producción ha asignado al Banco de la Naci ón Argentina (BNA) un rol de primera
+preferencia y, en esta dirección, la enti dad financiera ha potenciado en el corriente año
+2006 su protagonismo como eje central en las políticas públicas de apoyo al crecimiento
+de la inversión productiva de las empresas del sector” “c. En este contexto, como primera
+medida dirigida a una inmediata re activación de las fuentes de colocación de los recursos
+pendientes del Contrato 1192/OC-AR (1 y 2), el Organismo Ejecutor del Programa ha
+dispuesto la inmediata rec onsideración de la participación del Banco de la Nación
+Argentina como destinatario de la ejecución del 2º Fideicomiso previsto por el Decreto
+1118/03. En este aspecto, se está avanzando en la s tratativas con el citado Banco para la
+suscripción con Nación Fideicomisos S.A. del Contrato de Fideicomiso…”. “d. el
+Organismo Ejecutor ha considerado que el BN A constituye un vehículo eficiente para la
+canalización complementaria de los recurso s del Redireccionamiento de Cartera del
+Banco, a través de la ampliación de los fondos previstos para la ejecución del segundo
+Fideicomiso…”. “f. El mecanismo de asignación de los recursos responderá en lo general
+a las previsiones contenidas en las Normas  Operativas vigentes para la ejecución del
+Primer Fideicomiso. En particular, de ac uerdo con las modificaciones que oportunamente
+se introdujeron en dichas normas para viab ilizar la participaci ón del BNA, según las
+solicitudes y acuerdos alcanzados con la en tidad que obtuvieron lue go la no-objeción del
+BID (26/12/02), el Contrato de Fideicomis o y Anexos que habría de aplicarse en la
+operatoria con el BNA no incluye el Contra to de Garantía Bancaria e Indemnidad que
+fuera suscripto con las IFIs del Prim er Fideicomiso, fundado en criterios de
+responsabilidad pública y ause ncia de riesgo moral” . Finaliza la exposición en la nota
+expresando que “En la actualidad y en virtud de l cambio de autoridades de la
+Subsecretaría, las actuaciones están sujetas a la evaluación del Organismo Ejecutor.”.
+En síntesis y atento lo reseñado, los fondos  disponibles del Programa, esto es, los
+provenientes del DNU Nº 1118/03 (USD 50.0 millones), y los correspondientes al
+redireccionameinto (USD 96,0 millones), a la fecha de finalización de nuestras tareas de
+
+===== PDF PAGE 26 =====
+
+26
+campo de la presente auditoria, continúan si n ejecutarse, lo cual pone de manifiesto y
+ratifica lo citado para el  ejercicio 2004, respecto a “la inconveniencia de asignar recursos
+adicionales a un Programa que a la fecha ha demostrado serías dificultades para ejecutar
+los fondos disponibles”
+C. ESTRUCTURACIÓN LÍNEA DE CR ÉDITO CON EL BICE-USD 30.000.000,00:
+Tal como se desprende de los Informes de Ejecución ejercicio 2005, se encuentra en
+trámite por Expediente PROY-SO1: 0005207/2005 , la estructuración de una línea de
+crédito, a través del Banco de Inversión y Comercio Exterior (BICE) como entidad de
+primer grado, para el financiamiento a MI PyMES comprendidas dentro de los parámetros
+previstos en la operatoria vigente. Se deta llan seguidamente los principales aspectos de
+esta línea de crédito:
+Objetivos y Estado de situación:
+a) Destinar recursos disponibles del Programa (Contratos 643/OC-AR y 867/SF-AR) a
+una alternativa próxima e inmediata de co locación dirigida a generar créditos para
+MIPyMES en las condiciones previstas en los documentos del Programa.
+b) Ampliar los canales de asignación de recurs os del Programa, de forma de optimizar la
+ecuación de costos del mismo.
+c) En esa dirección, la UCP informa que ha  avanzado en aspectos operativos y de
+instrumentación vinculados con una asignación directa de fondos al BICE, entidad que
+actualmente opera también como banco de primer piso.
+d) Con fecha 30/03/2005, la SSEPYMEyDR y el BICE suscribieron una Carta de
+Intención especificando los objetivos proyectados.
+Contenidos de la Operatoria:
+a) Se ha consensuado con el BICE, un modelo de Convenio de Línea de Crédito de hasta
+USD 30,0 millones y un Reglamento de Cr édito con las especificaciones de la
+operatoria.
+b) Los recursos van dirigidos a las empresas  que no excedan el nivel máximo de ventas
+anuales por actividad (USD 3,5 millones pa ra las micro y pequeñas empresas y USD
+
+===== PDF PAGE 27 =====
+
+27
+20,0 millones para las medianas) con crédito s para prefinanciación y financiación de
+exportaciones, adquisiciones de capital fijo, proyectos de inversión y capital de
+trabajo, en la medida de sus encuadramientos con los estatutos del BICE.
+c) El monto máximo de crédito por empresa,  es de USD 3,0 millones y los plazos pueden
+extenderse hasta siete años, con hasta tres de gracia.
+d) El BICE podrá solicitar desembolsos de la Línea según la estructu ra de plazos y tasas
+de transferencia respectivas  que determine la SSEPYMEyDR, y deberá aplicar cada
+desembolso de fondos de la Línea a una operación de crédito a plazos compatibles con
+los del respectivo desembolso.
+e) El BCRA será el Agente Financiero de Pr ograma, transferirá a la  cuenta del BICE en
+ese organismo, los recursos correspondien tes a cada desembolso aprobado por la
+SSEPYMEyDR.
+f) El BICE constituirá garantías a favor del Programa sobre los recursos desembolsados.
+g) El BICE depositará en las cuentas del Programa en el BCRA, los montos
+correspondientes a los servicios de capital e intereses del préstamo de acuerdo con el
+cronograma de vencimiento de los créditos otorgados.
+Sobre el particular y, a efectos de actualizar  el estado de trámite, esta auditoría solicitó
+dicha información con fecha 24/07/2006, a lo que la UCP informó “ Concluidas las
+actuaciones administrativas y provisto el di ctamen de la Dirección General de Asuntos
+Jurídicos del Ministerio de Economía y Producción, se señalan los siguientes conceptos:
+a. Las normas pertinentes no impiden des tinar el remanente no utilizado para la
+integración de los fideicomisos establecidos en el Decreto 1118/03 a la operatoria prevista
+con el BICE. La referida operatoria cons tituye una Línea de Crédito de hasta US$
+30.000.000 que se financiará con el citado remanente no utilizado en los fideicomisos y los
+sucesivos recuperos de la misma operatoria.
+b. La operación prevista no cambia el desti no de los fondos dado que la Línea de Crédito
+a otorgarse al BICE con tales recursos se ap licará a la concesión de nuevos créditos que
+se ajusten sustancialmente a la s normas establecidas en los referidos Contratos. Para la
+inclusión de la Mediana Empresa deberá obtenerse conformidad del BID.”
+
+===== PDF PAGE 28 =====
+
+28
+Por ultimo expresa “ Cabe señalar que en la actualidad, la re ferida Línea de Crédito está
+sujeta a evaluación por parte de las nuevas autoridades de la SSEPYMEyDR”.
+Al cierre de nuestras tareas de campo y, tal como se desprende de la Nota UCP Nº 214/06
+de fecha 22/08/06 emitida por el Programa en  respuesta al BID, en virtud de un
+requerimiento del Organismo Financiador re specto del segundo Fideic omiso a través del
+Banco de la Nación Argentina, y su ampliación con los recursos del Redireccionamiento de
+Cartera Productiva del Banco, junto con la aprobación de una Línea de Crédito con el
+BICE, el Programa informa “…las nuevas autoridades se encuentran actualmente
+evaluando alternativas de Re direccionamiento de los F ondos, quedando en estudio las
+instrumentaciones anteriormente mencionadas.”
+D. DEL REGLAMENTO DE CR ÉDITO PROPIAMENTE DICHO:
+Cabe señalar preliminarmente que, de los USD 50,0 millones que integran el Patrimonio
+Fideicomitido, desde la firma original de l Contrato de Fideicomiso (26/05/04 ) hasta el
+31/12/2005, sólo se ha ejecutado la suma de USD 831.246,65 durante el ejercicio 2005 por
+el Banco Macro Bansud SA, importe que representa el 1,66 % del monto total asignado.
+Al respecto, señalamos que se procedió al  control del 100% del importe ejecutado y
+mencionado precedentemente, conforme las pa utas establecidas en el Reglamento de
+Crédito y de otros instrumentos que hacen a la operatoria de Fideicomiso. Dichas tareas
+fueron llevadas a cabo, una parte en el domicilio del Fiducario con documentación provista
+por éste, y otra en la propia UCP con docum entación suministrada por el Proyecto: Como
+resultado de nuestras tareas de control, surge:
+Controles directos al Fiduciario:
+Efectuadas las tareas de cont rol y análisis de la documen tación en poder del Fiduciario
+SIASA, respecto los préstamos concedidos por la IFI (Banco Macro Bansud SA) a los
+subprestatarios, todo ello conforme el Regl amento de Crédito (aprobado por Resolución
+MEyP N° 389/05) y del Primer Contrato de Fideicomiso (19/08/2005), se detallan
+seguidamente, algunos puntos de dichos instrumentos:
+
+===== PDF PAGE 29 =====
+
+29
+Del Reglamento de Crédito, Título VII I-D “Formalización de los Contratos de
+Subpréstamos”, punto 8.06 inciso f) “… las IFIs y el Fiduciario, según corresponda
+deberán abrir y mantener, para cada subprés tamo y/o descuento, un legajo con toda la
+información correspondiente a la solicitud, evaluación y docum entación que justifique el
+otorgamiento del subpréstamo o redescuent o en cuestión, así co mo toda documentación
+respaldatoria de la decisión crediticia y del desembolso de recursos. Dichos legajos
+deberán contener: 1) los informes y demá s documentación relacionada con el seguimiento
+del crédito otorgado…”.
+Del primer Contrato de Fideicomiso, Capítu lo II “Términos y condiciones generales del
+Fideicomiso”, Tercera - punto 3.1.3. (i) “…El referido porcentaje deberá ser susceptible
+de verificación contable directamente por el Fiduciante Beneficiario, en cualquier
+momento, en los libros, registros y demás doc umentación que lo evidencie, en poder del
+Subprestatario, sin perjuicio de  la que sobre el particular debe obrar en poder del
+Fiduciario”.
+En relación a lo expresado se han podido constatar las siguientes situaciones:
+a) No obra en los legajos analizados, docum entación respaldatoria alguna que avale el
+destino dado a los fondos provenientes de l préstamo por parte del Subprestatario.
+Consecuentemente, no hemos podido verificar el cumplimiento de lo determinado en
+el Reglamento de Crédito, punto 6.1, título VI-“Utilizacion de los Recursos del
+Programa”, el que expresa que las financiaciones se deberán destinar a Inversiones y/o
+capital de trabajo necesarios para la ejecución de actividades de producción, comercio
+y servicios, como así tampoco, determinar  que haya tenido l ugar algunas de las
+restricciones establecidas en el título VII “Restricciones” , punto 7.1 incisos a), b) y c)
+del citado Reglamento, en cuanto al dest ino de los fondos recibidos. Todo ello sin
+perjuicio de lo determinado por dicho reglamento, citado al comienzo de este apartado.
+b) No obra entre la documentación suministrada  por el Fiduciario, constancia documental
+alguna, respaldatoria de los aportes realizados por los Subprestatarios.
+c) En los casos detallados en el siguiente  cuadro, se constató la ausencia de
+documentación de respaldo (d eclaraciones juradas del impuesto sobre los bienes
+personales o manifestaciones de bienes de bidamente certificadas) correspondiente a
+
+===== PDF PAGE 30 =====
+
+30
+los fiadores y/o avalistas de los subprest atarios, que posibilite a cada uno de ellos,
+otorgar los citados respaldos.
+Subprestatario Actividad Fiador
+La Tranquera SA Wilson y Roberto Marconi - Directores
+Los Once SA Agropecuaria Eduardo Pierce - Director
+Carbonoid SA
+Comercialización y distribución de
+esencias y sabores para la industria
+alimenticia
+Alberto Terezani - Director
+Los cargos pertenecen a cada una de las empresas enunciadas en la primera columna.
+Controles realizados en la UCP:
+Subprestatario: Empresa Torreón del Sol SA: Monto del Préstamo: USD 115.000,00:
+Del análisis de la documentación suministrada  por el Programa relativa a los antecedentes
+de la empresa del título, surge:
+a) Si bien el objeto social de la empresa es el de la agricultura, y su radicación se
+encuentra en la Provincia de San Juan, el préstamo que le fue concedido se destinó a la
+adquisición de un compresor de origen nacion al marca “Galileo”, para ser afectado a
+la explotación de una estación de venta de gas natural comprimido (GNC), ubicada en
+Paraná, Provincia de Entre Ríos.
+b) El subprestatario no dio cumplimient o a la presentación de los balances
+correspondientes a los tres últimos ejercici os cerrados con antela ción a la fecha del
+otorgamiento del préstamo, dado que el más antiguo de los presentados (ejercicio
+irregular) es el que cerrara con fecha 31/05/2004, ello en virtud que el de comienzo de
+actividades data del 06/06/2003, mientras que el restante (primer ejercicio regular) con
+fecha de cierre 31/05/2005. Pr esentó además, en forma complementaria, un estado de
+situación patrimonial de carácter extracont able (sin certificación profesional), por el
+período 01/06/2005-31/08/2005.
+c) Con relación al monto de las ventas anuale s verificadas en los instrumentos citados en
+el apartado precedente, se verificó que no se expone venta alguna, en ninguno de los
+dos ejercicios analizados, ni en el período complement ario al último balance
+presentado. Lo comentado, resalta el incump limiento a lo determinado en el punto V,
+apartado 5.02 del Reglamento de Crédito, que textualmente dice “A efectos del cálculo
+
+===== PDF PAGE 31 =====
+
+31
+del límite antedicho, se considerará el  valor de las ven tas anuales promedio
+correspondientes a los tres últimos ejerci cios económicos anuales de la empresa, de
+acuerdo a cifras de sus estados financieros certific ados o información contable
+equivalente adecuadamente documentada. En los casos de empresas cuya antigüedad
+sea menor que la requerida para el cálcul o establecido, se considerará el promedio
+proporcional de ventas anuales verificado desde su puesta en marcha.”
+d) En cuanto a los estados de resultados de ambos ejercicios surge que, el cerrado el
+31/05/2004, presenta como único movimiento de ese período, la integración del capital
+social de $ 12.000,00; mientras que el corr espondiente al finalizado el 31/05/2005, no
+expone cifra alguna en concepto de resultado de ventas. Por otra parte, en este último,
+los gastos de explotación alcanzan la  suma de $ 146.483,28; advirtiéndose ingresos
+extraordinarios, producto de la venta de bi enes de uso (rodados), por la suma de $
+35.000,00; lo cual reduce el quebranto final para dicho ejercicio a la suma de $
+111.483,28 y, consecuentemente el Capital Social, por el mismo importe.
+e) En tanto el Estado de Evolución del Pa trimonio Neto al 31/05/2005, refleja aportes
+irrevocables efectuados por los accionistas por la su ma de $ 203.800,67, lo que evitó
+llevar a la empresa a situación de liquidación (PN Negativo), en virtud de contrarrestar
+dicho efecto a través del mencionado aporte . No obstante lo comentado, no obra entre
+la documentación suministrada, soporte alguno que permita verificar que el aporte en
+cuestión, se encuentre realizado conforme nor mas legales vigentes en la materia, esto
+es: (i) Acta de Directorio en donde se me ncione la intención de los accionistas a
+realizarlo, (ii) Acta de Asamblea apro bándolo, (iii) Libro Depósito y Registro de
+Acciones y; eventualmente, (iv) Acta Notarial  que ratifique la cifr a y le otorgue fecha
+cierta.
+Por todo lo expuesto, se infi ere la inviabilidad para el otorgamiento del crédito,
+calificación que debiera haber su rgido al momento de efectuar;  tanto el Fiduciario, cuanto
+el Programa, las correspondientes evaluacione s. Asimismo, es menester señalar que el
+préstamo se concedió a “Sola Firma” y por  la suma de USD 115.000,00 (más de tres veces
+el Patrimonio Neto declarado al 31/05/2005, consistente en $ 104.317,39).
+
+===== PDF PAGE 32 =====
+
+32
+Complementariamente, el Programa no cu mplió con lo dispuesto en el Manual de
+Procedimientos del Fideicomiso en su aparta do “Procedimientos”, en cuanto a la emisión
+del “Resultado de Evaluación”, además de lo establecido en los diferentes instrumentos de
+la operatoria, toda vez que es  el Programa quien finalmente autoriza o no el otorgamiento
+de los préstamos.
+BUENOS AIRES, 21 de septiembre de 2006.
+
+===== PDF PAGE 33 =====
+
+33
+INFORME SOBRE EL CUMPLIMIENTO DE CLAUSULAS CONTRACTUALES DE
+LOS CONTRATOS DE PRESTAMOS N° 643/OC, N° 867/SF y N° 1192/OC-AR BID
+DEL “PROGRAMA GLOBAL DE CREDITO A LA MICRO Y PEQUEÑA EMPRESA”
+(Ejercicio N° 14 finalizado el 31/12/2005)
+Al Señor Secretario de Política Económica
+del Ministerio de Economía y Producción.
+Durante el desarrollo del examen sobre los esta dos contables del ejercicio finalizado el 31/12/05
+del “Programa Global de Crédito para las Micr o y Pequeñas Empresas”, se ha examinado el
+cumplimiento de las cláusulas contractuales de carácter contable - financiero contempladas en
+las diferentes secciones y anexos de los Contratos de Préstamos Nros. 643/OC-AR, 867/SF-AR y
+1192/OCAR, en su parte pertinente, celebra dos entre la Nación Argentina y el Banco
+Interamericano de Desarrollo (BID).
+A. CONTRATO DE PRÉSTAMO Nº 1192/OC-AR:
+1. ESTIPULACIONES ESPECIALES:
+a) Cláusula 1.01: Costo del Programa (USD 200.000.000,00):
+A la fecha de cierre del ejercicio económ ico (31/12/05), se ha bía ejecutado el 13,81%
+del total del Programa, según el siguiente detalle extr aído del Estado de Costo y
+Financiamiento, elaborado por el Proyecto:
+Fuente de FinanciamientoEjecución BID Aporte Local Total
+Acumulada al 31/12/2004 14.514.331,00 11.476.374,57 25.990.705,57
+Del ejercicio 2005 1.156.096,65 463.432,56 1.619.529,21
+Acumulada al 31/12/2005 15.670.427.65 11.939.807,13 27.610.234,78
+Porcentajes de ejecución: 15,67% 11,94% 13,81%
+
+===== PDF PAGE 34 =====
+
+34
+Del control llevado a cabo por es ta auditoría, surge que la real ejecución del ejercicio
+2005 y su consencuente cifra de  aplicaciones acumuladas al cierre, es la que se expone
+en el siguiente cuadro:
+Fuente de FinanciamientoEjecución BID Aporte Local Total
+Acumulada al 31/12/2004 14.514.331,00 11.476.374,57 25.990.705,57
+Del ejercicio 2005 831.246,65 (*) 3.575.704,49 4.406.951,14
+Acumulada al 31/12/2005 15.345.577,65 15.052.079,06 30.397.656,71
+Porcentajes de ejecución: 15,35% 15,05% 15,20%
+(*): Incluye ejecuciones del componente de gastos denominado  “Asistencia Técnica”, afrontado con recursos del Tesoro
+Nacional por USD 4.521,33. Los aportes locales realizados por las IFIs y Subpres tatarios alcanza la suma de USD
+3.571.183.16. Así también, nos remitimos al Memorando a la  Dirección del Programa, Apar tado B. 8. a), adjunto al
+presente.
+b) Cláusula 1.02: Monto del Financiamiento (USD 100.000.000,00):
+Durante el transcurso del ejercicio 2005 el  BID efectuó al Programa, los siguientes
+desembolsos:
+Cifras expresadas en dólares estadounidenses
+Fecha Concepto Importe
+10/11/2005 Desembolso de Fondo Rotatorio 750.000,00
+05/12/2005 Reposición Fondo Rotatorio 406.096,65
+Total Desembolsado 2005 1.156.096,65
+Al 31/12/2005, la composición de lo desembol sado por el organismo financiador, fue la
+siguiente:
+Cifras expresadas en dólares estadounidenses
+Concepto Importe Porcentaje s/el total
+Desembolsado al 31/12/04 14.514.331,00 14,51%
+Desembolsos ejercicio 2005 1.156.096,65 1,16%
+Acumulado al 31/12/2005 15.670.427,65 15,67%
+c) Cláusula 1.04: Recursos adicionales:
+Durante el ejercicio 2005, se re alizaron los siguientes aporte s en concepto de recursos
+adicionales a los del préstamo:
+Cifras expresadas en dólares estadounidenses
+Concepto Importe
+Aporte de las Entidades Financieras (IFIs) 3.449.403,82
+Aporte de Subprestatarios 121.779,34
+Total Recursos Adicionales 3.571.183,16
+
+===== PDF PAGE 35 =====
+
+35
+Cabe señalar que se verificar on aportes de contrapartida lo cal (Tesoro Nacional), por la
+suma de USD 4.521,33 para cancelar gastos del componente de Asistencia Técnica.
+d) Cláusula 2.01: Amortización:
+Cumplida. En el ejercicio cerrado el  31/12/2005, tuvieron lugar los pagos de
+amortizaciones del principal detallados en el siguiente cuadro:
+Cifras expresadas en dólares estadounidenses
+Contrato de Préstamo Pago
+Nº Moneda Nota UCP Nº Cuota Nº Fecha Importe
+1192/OC-AR USD 040/05 3/32 15/03/05 453.182,22
+1192/OC-AR USD 192/05 4/32 15/09/05 453.182,22
+1192/OC-AR $ 040/05 3/32 15/03/05 390,63
+1192/OC-AR $ 192/05 4/32 15/09/05 390,63
+Total abonado ejercicio 2005 en concepto de amortización del Préstamo: 907.145,70
+e) Cláusula 2.02: Intereses:
+Cumplida. Durante el ejercicio finaliza do el 31/12/2005, se abonaron los siguientes
+montos en concepto de intereses:
+Cifras expresadas en dólares estadounidenses
+Contrato de Préstamo Pago
+Nº Moneda Nota UCP Nº Cuota Nº Fecha Importe
+1192/OC-AR USD 048/05 1/05 15/03/05 (1) 336.223,93
+1192/OC-AR USD 191/05 2/05 15/09/05 (2) 317.513,12
+1192/OC-AR $ 048/05 1/05 15/03/05 (1) 232,07
+1192/OC-AR $ 191/05 2/05 15/09/05 (2) 228,42
+Total abonado ejercicio 2005 en concepto de intereses: 654.197,54
+(1) y (2): Referentes para el siguiente cuadro.
+En el siguiente cuadro, se detalla el origen de los recursos para cancelar las respectivas
+cuotas de dichos servicios financieros abonados durante el ejercicio 2005:
+
+===== PDF PAGE 36 =====
+
+36
+Cifras expresadas en dólares estadounidenses
+C.P. Nº/Moneda Cuota
+Nº Origen de los Recursos Total
+Aportado Total Cuota
+Tesoro Nacional 299.456,001/05 (1) Programa Global de Crédito 37.000,00 336.456,00
+Tesoro Nacional 317.741,541192/OC-AR/USD y $
+2/05 (2) Programa Global de Crédito 0,00 317.741,54
+Total Abonado: 654.197,54
+Resumen origen de los fondos
+Primera y Segunda cuota 2005abonada por el Tesoro Nacional: 617.197,54
+Primera y Segunda cuota 2005 abonada por el Programa: 37.000,00
+Total Abonado: 654.197,54
+Respecto el origen de los recu rsos para afrontar los servicios financieros de intereses,
+nos remitimos a nuestro apartado j) del presente.
+f) Cláusula 2.03: Recursos para In spección y Vigilancia Generales:
+Cabe señalar que durante el ejercicio 2005 no se efectuaron pagos por este concepto. Al
+respecto, en el cuadro que continúa se e xponen los siguientes he chos relacionados con
+el FIV, efectuados por el Banco Interamericano de Desarrollo:
+Cifras expresadas en dólares estadounidenses
+CP 1192/OC-ARSituación al 31/12/05 Tramo en dólares Tramo en Pesos Total
+Debitado en ejercicios anteriores 570.000,00 12.500,00 582.500,00
+Dispensado en ejercicios anteriores 410.000,00 7.500,00 417.500,00
+Totales: 980.000,00 20.000,00 1.000.000,00
+Se realizan observaciones puntu ales respecto al monto to tal de FIV dispensado por el
+Banco (USD 417.500,00) en nuestro Memo rando a la Dirección del Proyecto -
+Apartado A. 5.
+g) Cláusula 2.04: Comisión de Crédito:
+Cumplida. Durante el transc urso de 2005, vencieron y tuvi eron lugar los pagos de las
+siguientes cuotas:
+
+===== PDF PAGE 37 =====
+
+37
+Cifras expresadas en dólares estadounidenses
+Período Vencimiento Orde nado Pagar y Pagado
+1º Semestre de 2005 15/03/2005 103.346,09
+2º Semestre de 2005 15/09/2005 105.230,57
+Total Abonado: 208.576,66
+Los importes abonados al BID por este con cepto, se efectuaron en su totalidad con
+recursos del Tesoro Nacional, según lo expr esan las notas emitidas por la Tesorería
+General de la Nación N° 1007/2005 del 14/ 03/05 para la cuota correspondiente al
+primer semestre de 2005, y Nº 3924/2005 del 14/09/05 para  la atinente al segundo
+semestre de dicho año.
+h) Cláusula 3.03: Reembolso de gastos con cargo al financiamiento:
+No hubo durante el ejerci cio 2005, ningún reembolso de gastos con cargo al
+financiamiento, tanto del componente de Crédito como del de Asistencia Técnica.
+i) Cláusula 3.04 (b): Plazos para compromet er y para desembolsar los recursos del
+financiamiento:
+En el mes de noviembre de 2004, mediante  Decreto Nº 1636 se aprobó el Contrato
+Modificatorio Ómnibus que abarca el Pr éstamo BID 1192/OC-AR. El mencionado
+Contrato Modificatorio Ómnibus fue suscript o por el BID en el mes de abril de 2004 y
+por la Nación Argentina el 13/12/2004.
+El nuevo plazo para comprometer los recursos del financiamiento en créditos a favor de
+las IFIs, finalizará el 15/ 01/2008, en tanto el plazo para  desembolsar la parte del
+financiamiento que hubiera sido comprometida, finalizará el 15/07/2008.
+Es de mencionar asimismo que, el Proy ecto a través de Nota UCP Nº 170/06 del
+29/06/06, informa que no se han producido prórr ogas para el desembolso de los fondos,
+mantienéndose las estipuladas en los c ontratos modificados y/o redireccionados
+mediante el Decreto Nº 1636/2004.
+
+===== PDF PAGE 38 =====
+
+38
+j) Cláusula 4.05: Uso de fondos proveniente s de recuperaciones de los créditos:
+Durante el Ejercicio 2005, tal como surge de  los estados financie ros del Programa, se
+destinaron fondos al Fideicomiso MyPE s II a), por un monto de USD 831.246,65 para
+asistir crediticiamente a diez empresas MIPYMEs.
+Al 31/12/2005, no se había cobrado ninguna cuota de los Pagarés emitidos por el
+Fiduciario SIASA. Por ello, a esa f echa, no existen fondos provenientes de
+recuperaciones del Fideicomiso MyPEs II a).
+Respecto de los Fondos provenientes de recuperaciones de los subpréstamos del MyPEs
+II original, los mismos se encuentran deposi tados en la cuenta del Programa abierta en
+el BCRA, y habilitada a ese fin. De ella, se re tiraron los fondos para hacer frente a las
+cuotas de amortización vencidas en los meses de marzo y septiembre de 2005.
+Cabe señalar no obstante, que el Programa  no generó fondos suficientes para hacer
+frente al pago de los servicios de la de uda correspondientes al ejercicio 2005 (hecho
+recurrente en ejercicios anteriores), razón por la cual, se solicitó a la Secretaría de
+Hacienda la atención del pago de los mismos. Tal situación se refleja en el siguiente
+cuadro:
+Cifras expresadas en dólares estadounidenses
+Conceptos del PagoVencimientos Comisión de Compromiso Intereses
+15/09/00 369.508,20 0,00
+15/03/01 330.645,01 0,00
+15/09/01 315.826,15 0,00
+15/03/02 287.689,13 0,00
+15/09/03 259.652,26 350.338,46
+15/03/04 64.356,23 250.484,86
+15/09/04 104.943,05 262.614,47
+15/03/05 103.346,09 299.456,00
+15/09/05 105.230,57 317.741,54
+Totales 1.941.196,69 1.480.635,33
+k. Cláusula 4.07: Cooperación Técnica:
+Durante el ejercicio 2005, no se  realizaron gastos en con cepto de Cooperación Técnica
+con recursos del Préstamo.
+
+===== PDF PAGE 39 =====
+
+39
+Sólo se efectuó un gasto c on fondos del Programa (Aporte  Local), en concepto de
+Asistencia Técnica destinada a la promoc ión y difusión del Programa, por un monto de
+USD 4.521,33.
+l) Cláusula 4.08: Contratación de cons ultores, profesionales o expertos:
+Cumplida en términos generales. En nues tro Memorando a la Dirección del Proyecto,
+Apartado A. 8. adjunto al presente, se incorpora mayor detalle .
+m)Cláusula 5.01: Registro, inspecciones e informes:
+Cumplida en términos generales, se real izan observaciones específicas en nuestro
+Memorando a la Dirección del Programa, Apartados A. 2. y B. 1. 2. 6. 8. 9. 11.y 15.
+2. NORMAS GENERALES:
+a) Artículos 4.04: Desembolsos para Cooperación Técnica:
+Durante el Ejercicio 2005 no se  realizaron desembolsos pa ra Cooperación Técnica del
+Préstamo.
+b) Artículos 6.03: Utilización de bienes:
+Cumplida en términos generales. En nuestro Memorando a la Dirección del Proyecto, se
+realizan observaciones específicas, Apartados A. 9 y B. 12.
+c) Artículo 6.04(b): R ecursos Adicionales:
+Cumplida. Hemos tenido a la vista copia de  la Decisión Admini strativa Nº 01/05 de
+fecha 11/01/05 de Distribución del Pres upuesto Ejercicio 2005 correspondiente al
+Programa 24, Servicio Administrativo Financiero Nº 354.
+d) Artículos 7.03: Informes semestrales de ejecución del proyecto
+Cumplida. El Informe correspondiente al pr imer semestre de 2005, fue remitido al BID
+adjunto a Nota UCP N° 182/05 del 31/08/05, y éste manifestó su no objeción por Nota
+
+===== PDF PAGE 40 =====
+
+40
+CAR Nº 5794/05 del 19/10/05. El Informe correspondiente al segundo semestre de 2005
+fue remitido al BID, a través de Nota UCP N° 33/06 del 27/02/ 06. El BID, por Nota
+CAR Nº 1220/05, solicitó información complementaria a efectos de dar por cumplida la
+presentación del citado Informe. El Program a cumplimentó los requisitos solicitados,
+mediante el envió de Nota  UCP Nº 128/06 del 02/06/06, por su parte el BID manifestó
+su no objeción por Nota CAR 3548/06 del 25/07/06.
+e) Artículos 7.01: Control Interno y Registros:
+Cumplida en terminos generales, se real izan observaciones específicas en nuestro
+Memorando a la Dirección del Programa (Apartados A.2 y B.1., 2, 6, 8, 9, 11 y 15).
+3. CONTRATO MODIFICATOR IO N° 3 DEL 05/09/02:
+a) Cláusula 3.06 (a), (b) y (c) - Condiciones especiales previas al primer desembolso
+siguiente a la firma del Contrato Modificatorio N° 3:
+Cumplida. En similar realizado por esta  AGN del ejercicio inmediato anterior, se
+exponen analíticamente los cumplimientos de los tres incisos de esta cláusula.
+b) Cláusula 3.07 - Condición previa al pr imer desembolso al segundo Fideicomiso
+Financiero:
+No cumplida. Nos remitimos al apartado B. de nuestro Informe Sobre el Cumplimiento
+del Reglamento de Crédito, adjunto.
+B. CONTRATO DE PRÉSTAMO Nº 643/OC-AR:
+ESTIPULACIONES ESPECIALES:
+a) Cláusula 1.01: Monto: USD 30.000.000,00:
+Cumplida. A la fecha de inicio del ej ercicio económico 2005, se había desembolsado
+totalmente el Préstamo.
+
+===== PDF PAGE 41 =====
+
+41
+b) Cláusula 3.01: Amortización:
+Cumplida. En el siguiente cuad ro, se detallan las cuotas canceladas por este concepto,
+durante el ejercicio 2005:
+Cifras expresadas en dólares estadounidenses
+Cuota Nº Vto./Pago Nota UCP Nº Importe
+14/28 07/04/05 060/05 1.061.733,56
+15/28 07/10/05 201/05 1.023.562.64
+Total Abonado: 2.085.296,20
+La segunda cuota fue por EUR 845.221,01 equivalentes a USD 1.023.562,64
+c) Cláusula 3.02: Intereses
+Cumplida. En el siguiente cuad ro, se detallan las cuotas canceladas por este concepto,
+durante el ejercicio 2005:
+Cifras expresadas en dólares estadounidenses
+Cuota Nº Vto./Pago Nota UCP Nº Importe
+1 07/04/05 068/05 366.092,58
+2 07/10/05 202/05 322.692,88
+Total Abonado: 688.785,46
+La segunda cuota fue por EUR 267.086,57, equivalentes a USD 324.016,22
+d) Cláusula 6.05: Uso de fondos provenientes de recuperaciones de créditos:
+Los fondos provenientes de recuperaciones de los subpréstamos (por las cobranzas
+efectuadas por el BCRA en su carácter de Agente Financiero del Programa), fueron
+depositados en las cuentas que el Programa tiene habilitadas para la operatoria en el
+BCRA, tal como surge de los registros contables del Programa, respaldada por los
+comprobantes emitidos por la Gerencia de Crédito del BCRA. Al respecto, en el cuadro
+siguiente se exponen en forma detallada los ci tados montos de cobranzas, que incluyen las
+correspondientes al Préstamo Nº 867/SF-AR:
+Cifras expresadas en dólares estadounidenses
+Concepto MyPEs I
+Cobranzas acumuladas al 31/12/2004 82.877.634,80
+Cobranzas efectuadas en el ejercicio 2005 31.816,00
+Total de Cobranzas acumuladas al 31/12/2005 82.909.450,80
+Las cobranzas incluyen las correspondientes al CP Nº 867/SF-AR.
+
+===== PDF PAGE 42 =====
+
+42
+C. CONTRATO DE PRÉSTAMO Nº 867/SF-AR:
+ESTIPULACIONES ESPECIALES:
+a) Cláusula 1.01: Monto USD 15.000.000,00:
+Cumplida. Cabe señalar que del impor te total del préstamo (USD 15.000.000,00) se
+desembolsaron al 31/12/2005 USD 14.110.259,29, en tanto el remanente de USD
+889.740,71, no se desembolsará (cancelado), razón por la cual, se considera recibida por el
+Proyecto, la totalidad del monto del financiamiento.
+b) Cláusula 3.01: Amortización:
+Cumplida. En el siguiente cuad ro, se detallan las cuotas canceladas por este concepto,
+durante el ejercicio 2005:
+Cifras expresadas en dólares estadounidenses
+Cuota Nº Vto/Pago Nota UCP Nº Importe
+6/30 07/04/05 060/05 470.341,98
+7/30 07/10/05 201/05 470.341,98
+Total Abonado: 940.683,96
+c) Cláusula 3.02: Intereses.
+Cumplida. En el siguiente cuad ro, se detallan las cuotas canceladas por este concepto,
+durante el ejercicio 2005:
+Cifras expresadas en dólares estadounidenses
+Cuota Nº Vto/Pago Nota UCP Nº Importe
+1 07/04/05 068/05 176.378,24
+2 07/10/05 202/05 169.323,11
+Total Abonado: 345.701,35
+d) Cláusula 6.05: Uso de fondos provenientes de recuperaciones de los créditos
+Los fondos provenientes de recuperaciones de los subpréstamos (por las cobranzas
+efectuadas por el BCRA en su  carácter de Agente Financiero del Programa) fueron
+depositados en las cuentas que el Programa tiene habilitadas para la operatoria en el
+
+===== PDF PAGE 43 =====
+
+43
+BCRA, tal como surge de los registros contables del Programa, respaldada por los
+comprobantes emitidos por la Gerencia de Crédito del BCRA. Al respecto, en el cuadro
+siguiente se exponen en forma detallada los ci tados montos de cobranzas, que incluyen las
+correspondientes al Préstamo Nº 643/OC-AR:
+Cifras expresadas en dólares estadounidenses
+Concepto MyPEs I
+Cobranzas acumuladas al 31/12/2004 82.877.634.88
+Cobranzas efectuadas en el ejercicio 2005 31.816,00
+Total de Cobranzas acumuladas al 31/12/2005 82.909.450,80
+Las cobranzas incluyen las correspondientes al CP Nº 643/OC-AR.
+D. CONTRATOS DE PRÉSTAMOS REDIRECCIONADOS AL 1192/OC-AR (1) y (2):
+Atento lo mencionado en nuestro Informe sobre el Cumplimiento del Reglamento de Crédito,
+Apartado B, a través del Decreto N° 1636 del 24/11/2004, el Poder Ejecutivo Nacional aprobó
+el Modelo de Contrato Modificatorio Ómnibus Nº 1192/OC-AR, con la finalidad de apoyar la
+reactivación económica del país. Consecuentement e, dicho instrumento fue suscripto entre la
+Nación Argentina y el BID con fecha 13/12/2004 a efectos de reformular el CP 1192/OC-AR
+y redireccionar cuatro préstamos que, en la pa rte pertinente al Programa, destina al MyPEs
+recursos adicionales por un total de US D 96.000.000,00. A su vez, los fondos a aportar en
+concepto de Contrapartida Loca l, es el equivalente a la mi sma cantidad de dólares, esto es
+USD 96.000.000,00; lo que a nivel pari-passu si gnifica el 50% para ambas fuentes de
+financiamiento, totalizando dicho redireccionamiento la suma de USD 192.000.000,00 que se
+agregan en carácter de adicional al total del costo del Programa ya existente de USD
+200.000.000,00.
+Consiguientemente, el costo estimado de todos los programas que se de tallan en el siguiente
+cuadro, relacionados con la micro, pequeña y mediana empresa, es el equivalente a USD
+392.000.000,00:
+
+===== PDF PAGE 44 =====
+
+44
+Cifras expresadas en dólares estadounidenses
+Fuente de financiamiento BID-Préstamos OC-AR
+Nº Apéndice Cláusula Nº Categoría Importe
+Componente de Crédito 13.860.000,00795 2 1.01 FIV 140.000,00
+Total Aporte 795/OC-AR 14.000.000,00
+Componente de Crédito 9.900.000,001060 4 1.02 FIV 100.000,00
+Total Aporte 1060/OC-AR 10.000.000,00
+Componente de Crédito 33.660.000,001068 6 1.02 FIV 340.000,00
+Total Aporte 1068/OC-AR 34.000.000,00
+Componente de Crédito 37.620.000,001164 9 1.02 FIV 380.000,00
+Total Aporte 1164/OC-AR 38.000.000,00
+Total de fondos redireccionados Fuente BID (50%) 96.000.000,00
+Fuente de financiamiento Aporte Local
+Recursos Adicionales de la Nación (50%) 96.000.000,00
+Monto redireccionamiento ambas fuentes 192.000.000,00
+Costo original del Programa 200.000.000,00
+Costo Total 392.000.000,00
+El Contrato Modificatorio Ómni bus Nº 1192/OC-AR, se formalizó a través de la suscripción
+del mismo el 13/12/2004. No obstante no habers e realizado operator ia alguna durante el
+ejercicio objeto de auditoría, se abonar on los siguientes importes en concepto de
+Amortización, Intereses y Comisión de Crédito:
+Cifras expresadas en dólares estadounidenses
+Concepto del PagoPréstamo Nº Fecha Cuota Nº Capital Intereses C. de Crédito Total
+1192 OC-AR (3) 21/09/05 0,00 0,00 27.036,12 27.036,12
+1192 OC-AR (4) 22/07/05 0,00 0,00 15.133,43 15.133,43
+1192 OC-AR (5) 15/09/05 10.153,85 6.800,84 63.993,98 80.948,67
+15/06/05
+1
+0,00 0,00 47.876,90 47.876,901192 OC-AR (6) 15/12/05 2 0,00 0,00 21.550,69 21.550,69
+Totales 10.153,85 6.800,84 175.591,12 192.545,81
+BUENOS AIRES, 21de septiembre de 2006.
+
+===== PDF PAGE 45 =====
+
+45
+MEMORANDO A LA DIRECCIÓN DEL
+“PROGRAMA GLOBAL DE CRÉDITO A LA MICRO Y PEQUEÑA EMPRESA”
+CONVENIOS DE PRÉSTAMOS N° 643/OC-AR, N° 867/SF-AR y N° 1192/OC-AR BID
+(Ejercicio N° 14 finalizado el 31/12/2005)
+Como resultado de la revisi ón practicada sobre los estados  financieros al 31/12/05,
+correspondientes al “Programa Global de Crédito a la Micro y Pequeña Empresa”, Convenios de
+Préstamos N° 643/OC-AR, N° 867/SF-AR y N° 1192/OC-AR BID, han surgido observaciones y
+consecuentes recomendaciones sobre aspectos relativos a procedimientos administrativo-
+contables y del sistema de control interno exis tentes en la Unidad Coordinadora del Programa
+(UCP), que hemos considerado necesario informar para su conocimiento y acción futura.
+Cabe destacar que el requerimiento de audito ría efectuado por la pr estataria, no tuvo como
+objetivo principal el análisis de sus contro les administrativos, lo que hubiese conducido a un
+grado mayor de detalle en las observaciones que seguidamente se  mencionan, ya que el examen
+se practicó sobre la base de muestras selectivas determinadas por esta auditoría. Entendemos que
+la adopción de las recomendaciones referidas a las observaciones dete ctadas al momento de
+nuestro trabajo en campo, contribuirá al mejorami ento de los sistemas de información y control
+existentes, de acuerdo con adecuadas prácticas en la materia.
+Por otra parte y, al solo efecto de guiar la lectura de este in forme, se listan a continuación
+aquellas observaciones que consideramos tienen mayor impacto y significatividad:
+Índice Título
+A. 3. Fondos para Incobrables
+A. 7. Estructuración de una Línea de Crédito con el BICE-USD 30.000.000,00
+B. 5. Nota 6-Ex Bancos en Gestión Judicial (Concurso y/o Quiebra)
+B. 11. Primer Contrato de Fideicomiso (2 6/05/04)-Última Modificación (19/08/05)- C.C.
+B. 16. Diferencias de Cambio-Estados Financieros expresados en Pesos
+B. 17 Control de Cumplimiento del Reglamento de Crédito-Docum. brindada por SIASA
+B. 18 Control de Cumplimiento del Reglamento de Crédito-Docum. brindada el O.E.
+
+===== PDF PAGE 46 =====
+
+46
+A. OBSERVACIONES DE EJERCICIOS ANTERIORES, NO SUBSANADAS AL
+31/12/05.
+1. SALDOS ADEUDADOS POR LAS IFIs:
+Observación: Respecto los saldos adeudados por la IFIs al 31/12/2005, cabe señalar que
+del cotejo realizado entre la documentación su ministrada por el Proye cto, las respuestas a
+nuestras circularizaci ones efectuadas por los bancos participantes y lo informado por
+BCRA, surgen las siguientes diferencias de saldos:
+Deuda de Capital Operatoria MyPEs I-Diferencia Registros UCP/BCRA
+Saldos al 31/12/05Cuenta
+N° Banco S/UCP S/BCRA Observación
+135 Ex BUCI USD 1.175.529,00 $ 1.441.052,34 (*)
+178 Ex Balcarce SA USD 1.281.753,00 USD 2.090.320,00 (**)
+(*): El saldo al 31/12/05 difiere del informado al 31/12/04, en virtud de la inclusión de intereses devengados al 31/12/98
+por encontrarse dentro de la deuda que asumiera CorpBanca SA con el BCRA (Nota a los EECC 5).
+(**): La diferencia expuesta, se justifica por la disminución de la deuda de este banco por la ejecución de las garantías
+constituidas por el mismo (Títulos Públicos VN USD 811. 000,00). )., y por los intereses de  que corresponden a otro
+banco (exBid) por USD 2.433.El BCRA, no informa de tal situación.
+Comentarios de la UCP: Sin comentarios.
+Recomendación: Conciliar debidamente las diferencia s detalladas precedentemente y, de
+ser necesario, efectuar los ajustes que considere pertinentes en el ejercicio 2006, además de
+efectuar conciliaciones periódicas de los sal dos durante todo el ejer cicio. Por otra parte,
+requerir al BCRA efectúe las correcciones correspondientes, conforme los cambios
+producidos en las situaciones de deudas de los bancos participantes del Programa.
+2. GARANTÍAS CONSTITUIDAS POR LAS IFIS-ANTERIOR SISTEMA:
+Observación: Del control llevado a cabo sobre el sa ldo de las garantía s constituidas por
+las IFIs al cierre del ejercicio 2005, conforme  los saldos de deuda de capital del anterior
+sistema de otorgamiento de préstamos, he mos podido verificar que los Bancos Del Chubut
+SA, Macro SA y Julio SA, identificados po r el Programa bajos los números 83, 285 y 305
+respectivamente, no poseen deuda alguna con el Proyecto al cierre de l ejercicio, según los
+estados financieros del Proyecto e informaci ón suministrada por BCRA. No obstante, se
+
+===== PDF PAGE 47 =====
+
+47
+verifica que continúan exponiéndose en Cuentas de Orden (Garantías de las IFIs) y en nota
+a los estados financieros Nº 11, los saldos de sus pertinentes garantías. Cabe aclarar que la
+información expuesta por el Programa arroja saldos no actualizados al 31/12/2005. En los
+siguientes cuadros, se realiza detalle de lo mencionado:
+UCP-NOTA Nº 11-Saldos S/EEFF al 30/06/05-en USDCuenta N° Banco MyPEs I MyPEs II Total Garantías
+83 Del Chubut SA 0,00 90.702,90 90.702,90
+285 Macro SA 0,00 47540,24 47.540,24
+305 Julio SA 0,00 50.000,00 50.000,00
+59 Entre Ríos 140.400,43 0,00 140.400,43
+Totales: 140.400,43 188.243,14 328.643,57
+BCRA-Saldos al 31/12/2005-En PesosCuenta N° Banco MyPEs I MyPEs II Total Gtías.
+83 Banco del Chubut 0,00 0,00 0,00
+285 Macro S.A. 0,00 0,00 0,00
+305 Julio S.A. 0,00 0,00 0,00
+59 Entre Ríos 477.062,84 0,00 477.062,84
+Totales: 477.062,84 0,00 477.062,84
+Comentario de la UCP: Se procederá a efectuar la correspondiente revisión y ajuste.
+Recomendación: Conciliar oportuna y peri ódicamente los saldos de garantías constituidas
+por las IFIs con la información recibida por el BCRA. En los casos observados, realizar los
+ajustes que hubiere lugar, solicitando además al organismo financiero del Programa, la
+correspondiente conversión a dólares de la cartera de garantías por éste informada.
+3. FONDO PARA INCOBRABLES:
+Observación: Teniendo en cuenta lo descripto en el punto III- 1. b) de nuestro informe
+sobre los estados financieros del Programa al 31/12/05, se considera insuficiente la cifra de
+USD 401.240,00 generado para el “Fondo de Cobertur a para Incobrables”, reflejado en los
+estados contables al 31/12/05 y menciona do en la correspondien te nota a los Estados
+Contables. Esta observación se  viene realizando recurrenteme nte desde varios ejercicios
+para atrás.
+
+===== PDF PAGE 48 =====
+
+48
+Comentarios de la UCP: Se ha incluido un porcentual en la  tasa de transferencia de los
+fondos a cobrar a las IFIs participantes, de modo tal que permita en el tiempo de ejecución
+de Programa, y en la del fondo semilla gene rado (fondos rotatorios),  generar los recursos
+para la cobertura de los egresos financiero s y otros costos y gastos vinculados con la
+ejecución del proyecto.
+Estos recursos permitirán cubrir la difere ncia señalada, posibil itando atender la parte
+proporcional de incobrables que debería pagarse al BID en ca da una de las amortizaciones
+semestrales de los Préstamos.
+Recomendación: No obstante los comentarios vertidos  por la UCP, los cuales son una
+reiteración textual de los real izados en ejercicios anterior es y, teniendo en cuenta las
+situaciones descriptas en el Apartado III. 1. de nuestro Informe sobre Estados Financieros
+del Programa al 31/12/05, recomendamos agilizar  los mecanismos de estudio a efectos de
+generar los recursos suficiente s para atender las situaciones descriptas en la información
+suministrada por la DGAJ del Ministerio de Economía y Producción, relacionada con las
+bajas probabilidades de recupero de importe s considerables, conc ernientes a deudas de
+capital involucrados en distintas entidades financieras en situación litigiosa.
+4. MATRIZ DE FINANCIAMIENTO: COMP ONENTE DE ASISTENCIA TÉCNICA-
+SEGUIMIENTO Y AUDITORÍA:
+Observación: Tal como expresáramos en nuestro informe de auditorí a correspondiente al
+ejercicio inmediato anterior, el Component e de Asistencia Técn ica - Seguimiento y
+Auditoría, durante el ejercicio 2004 sufrió una modificación al habérsele adicionado USD
+240.000,00 que fueron detraídos del Componente de Crédito, objetivo fundamental del
+Programa.
+Al respecto, si bien la resp uesta brindada oportunamente por  el Proyecto refiere que esta
+decisión se tomó a niveles supe riores, no tenemos constancia si la misma dio origen a la
+elaboración de algún documento adicional y, cons ecuentemente, si el Programa cuenta con
+la correspondiente No Objeción del BID.
+
+===== PDF PAGE 49 =====
+
+49
+Comentario de la UCP:  De la revisión de los archivos del proyecto, no surge
+documentación alguna sobre el particular. No obs tante, se tendrá en cuenta la observación
+y se analizará la posibilidad de solicitar el reintegro al Componente de Crédito.
+Recomendación: Respetar estrictamente lo firmado y pactado con el BID a través del
+instrumento vigente a partir del 13/12/04.
+5. REASIGNACIÓN DEL FIV DISPENSADO:
+Observación: Tal como mencionáramos en nuestro informe correspondiente al ejercicio
+inmediato anterior, hemos verificado que el  FIV dispensado, según surge de los estados
+contables (Costo y Financiamiento ) al 31/12/2005, asciende a USD 417.500,00. No
+obstante según LMS 1 emitido a la misma fecha, la categoría FIV continúa con el monto
+original presupuestado de USD 980.000,00, no habiéndose dejado constancia de la
+reasignación a otra categoría del monto mencionado en primer término.
+Comentario de la UCP: Se procederá a efectuar la conciliación con el BID y se informará
+en consecuencia.
+Recomendación: Reasignar los recursos de acuerdo a lo  pactado con el BID, a través del
+instrumento vigente a partir del 13/12/ 04 (Apéndice 12 del Cont rato Modificatorio
+Ómnibus).
+6. COSTOS FINANCIEROS:
+Observación: Del control llevado a cabo sobre lo s costos financieros del Programa
+correspondientes al ejercicio 2005, surgen la s diferencias expuestas en los cuadros que
+continúan:
+
+===== PDF PAGE 50 =====
+
+50
+1º Vencimiento - Cifras expresadas en dólares estadounidenses
+Montos
+Préstamo Concepto Según AGN Según UEP Diferencias
+643/OC 361.300,87 361.690,80 -389,93
+867/SF 176.378,24 175.895,01 483,23
+1192 USD 330.271,90 332.560,01 -2.288,11
+1192 $
+Intereses
+137,04 137,41 -0,37
+1192 USD C. Compromiso 103.346,09 103.514,85 -168,76
+Totales 971.434,14 973.798,09 -2.363,95
+Los montos calculados por AGN coinciden con los ordenados pagar por el BID.
+2º Vencimiento - Cifras expresadas en dólares estadounidenses
+MontosPréstamo Concepto Según AGN Según UEP Diferencias
+643/OC 332.408,22 332.408,22 0,00
+867/SF 169.323,11 169.787,01 -463,90
+1192 USD 324.092,33 324.092,33 0,00
+1192 $
+Intereses
+228,42 228,42 0,00
+1192 USD C. Compromiso 105.230,57 105.230,57 0,00
+Totales 931.282,65 931.746,55 -463,90
+Los montos calculados por AGN coinciden con los ordenados pagar por el BID.
+Saldo a Pagar al 31/12/05 - Cifras expresadas en dólares estadounidenses
+MontosPréstamo Concepto Según AGN Según UEP Diferencias
+643/OC 131.090,01 129.475,82 1.614,19
+867/SF 76.626,55 75.576,87 1.049,68
+1192 USD 185.851,89 184.131,04 1.720,85
+1192 $
+Intereses
+128,25 128,25 0,00
+1192 USD C. Compromiso 29.624,69 29.624,69 0,00
+Totales 423.321,39 418.936,67 4.384,72
+El monto resultante de diferencia de este cuadro, surge por la su matoria de las diferencias de los dos cuadros anteriores y del
+tramo correspondiente al último trimestre de 2005.
+Comentario de la UCP:  Se tendrá en cuenta la observa ción y se practicarán los ajustes
+correspondientes.
+Recomendación: Conciliar debidamente los importes a pagar al BID, ajustando las cifras
+que, por errores de la UCP se hubieran produc ido. Dejar expuestas en  notas a los estados
+contables, toda incongruencia entre importe s pagados y a pagar (B ID/UCP), que serán
+objeto de regularizaciones posteriores.
+
+===== PDF PAGE 51 =====
+
+51
+7. ESTRUCTURACIÓN DE UNA LÍNEA DE  CRÉDITO CON EL BICE - USD
+30.000.000,00:
+Observación: Tal como fuera observado en el ejercicio anterior , no se advierte
+vinculación alguna entre los lineamientos genera les de esta línea de créditos detallados a
+continuación, con la nueva operatoria, refe rida específicamente al segundo Fideicomiso
+Financiero. En los Informes de Ejecución ejercicio 2005, la UCP informa que se encuentra
+en trámite por Expediente PROY-SO1: 0005207/2005, la estructuración de una línea de
+crédito a través del Banco de Inversión y Comercio Exterior (BICE) como entidad de
+primer grado, para el financiamiento a MI PyMES comprendidas dentro de los parámetros
+previstos en la operatoria vigente. Los lineam ientos generales de esta línea de crédito
+consisten en:
+Objetivos y Estado de situación:
+a) Destinar recursos disponibles del Programa (Contratos 643/OC-AR y 867/SF-AR) a
+una alternativa próxima e inmediata de co locación dirigida a generar créditos para
+MIPyMES en las condiciones previstas en los documentos del Programa.
+b) Ampliar los canales de asignación de recurs os del Programa, de forma de optimizar la
+ecuación de costos del mismo.
+c) En esa dirección, la UCP informa que ha  avanzado en aspectos operativos y de
+instrumentación vinculados con una asignación directa de fondos al BICE, entidad que
+actualmente opera también como banco de primer piso.
+d) Con fecha 30/03/2005, la SSEPYMEyDR y el BICE suscribieron una Carta de
+Intención especificando los objetivos proyectados.
+Contenidos de la Operatoria:
+a) Se ha consensuado con el BICE, un modelo de Convenio de Línea de Crédito de hasta
+USD 30,0 millones y un Reglamento de Cr édito con las especificaciones de la
+operatoria.
+b) Los recursos van dirigidos a las empresas  que no excedan el nivel máximo de ventas
+anuales por actividad (USD 3,5 millones para las micro y pequeñas empresas y USD
+20,0 millones para las medianas) con crédito s para prefinanciación y financiación de
+
+===== PDF PAGE 52 =====
+
+52
+exportaciones, adquisiciones de capital fijo, proyectos  de inversión y capital de
+trabajo, en la medida de sus encuadramientos con los estatutos del BICE.
+c) El monto máximo de crédito por empresa,  es de USD 3,0 millones y los plazos pueden
+extenderse hasta siete años, con hasta tres de gracia.
+d) El BICE podrá solicitar desembolsos de la Línea según la estructu ra de plazos y tasas
+de transferencia respectivas  que determine la SSEPYMEyDR, y deberá aplicar cada
+desembolso de fondos de la Línea a una operación de crédito a plazos compatibles con
+los del respectivo desembolso.
+e) El BCRA será el Agente Financiero de Pr ograma, transferirá a la  cuenta del BICE en
+ese organismo, los recursos correspondien tes a cada desembolso aprobado por la
+SSEPYMEyDR.
+f) El BICE constituirá garantías a favor del Programa sobre los recursos desembolsados.
+g) El BICE depositará en las cuentas del Programa en el BCRA, los montos
+correspondientes a los servicios de capital e intereses del préstamo de acuerdo con el
+cronograma de vencimiento de los créditos otorgados.
+Sobre el particular y, a efecto s de actualizar el estado de trámite, esta auditoría solicitó
+dicha información con fecha 24/07/ 2006, a lo que la UCP informó “ Concluidas las
+actuaciones administrativas y provisto el di ctamen de la Dirección General de Asuntos
+Jurídicos del Ministerio de Economía y Producción, se señalan los siguientes conceptos:
+a. Las normas pertinentes no impiden des tinar el remanente no utilizado para la
+integración de los fideicomisos establec idos en el Decreto 1118/03 a la operatoria
+prevista con el BICE. La referida operatori a constituye una Línea de Crédito de hasta
+US$ 30.000.000 que se financiará con el c itado remanente no utilizado en los
+fideicomisos y los sucesivos recuperos de la misma operatoria.
+b. La operación prevista no cambia el desti no de los fondos dado que la Línea de Crédito
+a otorgarse al BICE con tales recursos se ap licará a la concesión de nuevos créditos que
+se ajusten sustancialmente a la s normas establecidas en los referidos Contratos. Para la
+inclusión de la Mediana Empresa deberá obtenerse conformidad del BID.”
+
+===== PDF PAGE 53 =====
+
+53
+Por ultimo expresa “ Cabe señalar que en la actualidad, la re ferida Línea de Crédito está
+sujeta a evaluación por parte de las nuevas autoridades de la SSEPYMEyDR”.
+Al cierre de nuestras tareas de campo y, tal como se desprende de la Nota UCP Nº 214/06
+de fecha 22/08/06 emitida por el Programa en respuesta al BID, en virtud de un
+requerimiento del Organismo Financiador resp ecto del segundo Fideic omiso a través del
+Banco de la Nación Argentina, y su ampli ación con los recursos del Redireccionamiento
+de Cartera Productiva del Banco, junto con la aprobación de una Línea de Crédito con el
+BICE, el Programa informa “…las nuevas autoridades se encuentran actualmente
+evaluando alternativas de Re direccionamiento de los F ondos, quedando en estudio las
+instrumentaciones anteriormente mencionadas.”.
+Comentarios de la UCP:  Concluidas las actuaciones administrativas y provisto el
+Dictamen de la Dirección General de Asun tos Jurídicos del Ministerio de Economía y
+Producción, se señalan los siguientes conceptos:
+a) Las normas pertinentes, no impiden des tinar el remanente no utilizado para la
+integración de los fideicomisos estableci dos en el Decreto 1118/03, a la operatoria
+prevista con el BICE. La referida operatori a, constituye una línea de crédito de hasta
+USD 30,0 millones que se financiará con el  citado remanente no utilizado en los
+fideicomisos y los sucesivos recuperos de la misma operatoria.
+b) La operatoria prevista no cambia el desti no de los fondos, dado que la línea de crédito
+a otorgarse al BICE con tales recursos, se  aplicará a la concesión de nuevos créditos
+que se ajusten sustancialmente a las normas establecidas en los referidos contratos.
+Para la inclusión de la mediana empresa, deberá obtenerse conformidad del BID.
+Recomendación: Al igual que en el ejercicio anteri or, merecen aclararse previamente los
+siguientes conceptos, a tener en cuenta como mínimo:
+a) Para que los fondos provenientes de recuperos de créditos de los mencionados
+préstamos puedan ser represtados, deben exis tir remanentes reales luego de afrontar
+los costos financieros y el pago de capital; hechos éstos que no se dan en este caso,
+según los números de los estados financieros del Programa al 31/12/05.
+
+===== PDF PAGE 54 =====
+
+54
+b) Con el avance en la estruc turación de una línea de crédito al BICE vía “Asignación
+Directa”, el Proyecto se aparta de la nueva operatoria de Fideicomiso.
+Por lo tanto recomendamos al Proyecto, ajusta rse estrictamente a la normativa vigente en
+materia de otorgamiento de préstamo s con fondos provenientes del Organismo
+Financiador o en su defecto adecuar la normativa respecto a su vialbilidad.
+8. CONSULTORES:
+Observaciones:
+a) Acto Administrativo de aprobación Planta de Personal:
+No se tuvo a la vista el Acto Administrati vo que aprobó la Planta de Personal para el
+Ejercicio 2005, tal como lo establece el artículo 1º de la Resolución S.H. Nº 545/98.
+b) Proceso de selección - Currículum Vitae:
+(i) Se ha constatado falta de fecha de emis ión en el Currículo Vitae presentado por un
+consultor. Idéntica omisión, se  verifica en los CV presen tados por el resto de los
+integrantes que conformaron una terna.
+(ii) Se ha constatado falta de  sello de recepción por parte de la UCP, en los CV
+presentados por dos consultores. Idén tica situación se verificó en los CV
+presentados por el resto de los integrantes de una terna.
+c) Control de Legajos - Acto Administrativo de Contratación:
+Los Actos administrativos que aprobaron las contrataciones  de Locación de Servicios
+de los consultores contratados por el Prog rama, fueron dictados con posterioridad al
+inicio de la relación contractual, tal como se expone en el siguiente cuadro:
+
+===== PDF PAGE 55 =====
+
+55
+Acto Administrativo Datos del Contrato
+Tipo y N° Fecha Período Cantidad de
+Consultores Fecha
+Días de
+Atraso
+01/01/05-31/03/05 1 02/01/05 16
+01/01/05 17Resolución ME y P 28 18/01/05 01/01/05-30/06/05 4 02/01/05 16
+01/02/05-30/06/05 01/02/05 88Resolución ME y P
+256 29/04/05 01/04/05-30/06/05 01/04/05 29
+D. Adm. 307 28/06/05 01/03/05-30/06/05
+3
+02/03/05 118
+Resolución ME y P
+447 11/08/05 42
+D. Adm. 795 28/11/05
+01/07/05-31/12/05 6 01/07/05
+120
+d) Control de Contratos:
+(i) Se ha podido verificar que, todos los cont ratos de Locación de Servicios carecen de
+número y fecha de suscripc ión por parte de los consultores y del responsable del
+organismo contratante.
+(ii) Las Resoluciones Ministeriales Nº 028 y Nº 256 de fechas  18/01/05 y 29/04/05
+respectivamente, aprobaron las respectivas  contrataciones de un consultor en la
+Función “C” Categoría II. Al respecto y, según documentación suministrada por el
+Programa, no obra en el legajo correspondiente, copia alguna del título universitario
+o terciario del consultor, requisito f undamental establecido por el Decreto Nº
+1184/01 en su acápite “Requis itos Obligatorios”, para encuadrar a un consultor en
+la mencionada categoría.
+e) Control de Pagos - Situación Fiscal:
+De la revisión llevada a cabo en los pago s de honorarios efectuado s por el Programa a
+dos consultores durante el ejercicio 2005, surge:
+(i) Los pagos de honorarios efectuados por el  Programa a un consultor en su condición
+de locatario, datan del 01/10/04 según surg e de nota dirigida por el Proyecto al
+Coordinador del Área de Contratos y Pa santías del Ministerio de Economía y
+Producción de fecha 09/11/04. En relación a lo comentado, pudo verificarse que a
+dicho consultor se le abonó mensualmente y durante todo el ejercicio 2005, la suma
+de $ 6.267,00 bajo la condición fiscal de “R esponsable Monotributo”, exteriorizada
+oportunamente por el mismo.
+
+===== PDF PAGE 56 =====
+
+56
+Al respecto cabe señalar que, conforme  lo normado por la Ley Nº 25.865-artículo
+21 (legislación que rige la  relación fisco-contribuyent e para quienes resulten
+alcanzados por el régimen de monotributo) , como así también por la Resolución
+General AFIP Nº 1699-artícul o 23, para el caso de aquellos contribuyentes que en
+razón de los ingresos percibidos durante  los últimos doce meses corridos, contados
+desde su ingreso al régimen simplificado -para el asunto bajo análisis desde el
+01/10/04- hubiesen superado el monto de  $ 72.000,00, implica quedar fuera de tal
+régimen debiendo inscribirse en consecue ncia como responsables inscriptos ante
+los Impuestos al Valor Agregado y a las Ganancias.
+En función de lo expuesto se advierte que, a partir del 30 /09/05, el consultor
+debería haberse inscripto en el régimen general de acuerdo a lo enunciado en el
+párrafo anterior; para lo cual el cont ribuyente -según lo esta blecido por la citada
+Resolución General AFIP Nº 1699- disponía  de quince días hábiles contados a
+partir del 30/09/05 a fin de regularizar su nueva situación ante el fisco.
+Dado que tal hecho -conforme surge de la c onsulta realizada por esta auditoría a la
+página web de la AFIP- recién resulta ma terializado por dicho consultor en fecha
+27/01/06; cabría pues observar que, en su caso, hubiese correspondido llevar a cabo
+dicho trámite durante los primeros quince días hábiles del mes de octubre de 2005.
+Por otra parte, el Programa no cumplió con su deber fiscal de agente de retención
+ante ambos impuestos, al momento de efectuar los pagos de honorarios
+correspondientes a los meses de octubr e, noviembre y diciembre de 2005, a través
+de las autorizaciones de pago Nros. 3143, 3155 y 3171 respectivamente.
+(ii) Analizados los pagos de honorarios efectuados por el Programa durante el ejercicio
+2005 a otro consultor, cuyo Contrato de  Locación de Servicios comprendió el
+período 01/03/05-30/06/05, se advierte que , -según surge de la constancia de
+inscripción generada por esta auditoría- la situación fis cal del citado consultor es la
+de Responsable Inscripto ante el Impuest o al Valor Agregado a partir del 01/09/04
+y de Inscripto ante el Impuesto a las Ganancias a partir del 01/01/03.
+Sin perjuicio que el consultor hubiere comenzado la prestación de sus servicios con
+fecha 01/03/05, en razón que el acto admi nistrativo que aprobó su contratación fue
+
+===== PDF PAGE 57 =====
+
+57
+de fecha 28/06/05, el Programa proced ió a abonar con fecha 13/07/05 los
+honorarios correspondientes al período co mpleto pactado contractualmente,
+instrumentándolo a través de las Au torizaciones de Pago Nros. 3105, 3106, 3107 y
+3108 emitidas cada una de ellas por la suma de $ 3.610,00; correspondientes a los
+servicios profesionales brindados por el  consultor durante los meses de marzo,
+abril, mayo y junio respectivamente.
+En consecuencia se advierte que, a pesar de asumirse como conocida la situación
+fiscal del consultor, el Programa no cump lió con su deber de agente de retención
+respecto de los impuestos al Valor Agre gado y a las Ganancias, en función de lo
+normado por la cláusula décima del cont rato celebrado entr e las partes que
+textualmente reza: “ En los casos que corresponda, “la UCP” procederá a la
+retención de las sumas debidas en con cepto de impuestos, de los pagos que deba
+efectuarse a “el consultor”.
+Al respecto cabe destacar que, en raz ón de haberse abonado en un mismo mes la
+totalidad de los honorarios del período  por un monto de $ 14.440,00; cabría pues
+haber practicado las retenciones mencionada s sobre el citado total; lo cual, en esta
+instancia resulta de imposible cumplimiento.
+f) Control de Informes:
+No obran en los legajos de cu atro consultores, los informes finales detallados en el
+siguiente cuadro por los pe ríodos de contratación expu estos en el mismo. Dicho
+requisito lo establece la Cláusula 5° de l Contrato de Locación de Servicios, que
+textualmente expresa: “ El ultimo pago estará sujeto a la aceptación del Informe Final
+del consultor por la UCP” , además de formar parte del Contrato de Préstamo Nº
+1192/OC-AR BID-Anexo “C”-Punto IX-Condiciones Especiales-Apartado 9.01:
+Cantidad de
+Consultores Tipo de Informe Período Faltante
+3 Enero-Junio 2005
+Enero-Marzo 20051 FINAL
+Abril-Junio 2005
+
+===== PDF PAGE 58 =====
+
+58
+Comentarios de la UCP:
+a) En el ejercicio 2005 no se di ctó el correspondiente Acto Administrativo que aprueba la
+Planta de Personal.
+b) A partir del ejercicio 2006, se requiere a los consultores dejar expresa constancia de la
+fecha de emisión de los CV que remiten al Programa. En tanto, se tomarán los recaudos
+tendientes a asegurar, en todos los casos, la debida constanc ia de la fecha de recepción
+de los CV por parte de la UCP.
+c) El Programa dio cumplimiento a la normativa vigente en materia de contrataciones. El
+retraso se debió a cuestiones ajenas a la UCP.
+d) En el caso de la primera de las observacione s de este apartado, se tendrá en cuenta la
+observación y se tomarán las medidas tendiente s a evitar la reiteración de este tipo de
+omisiones en lo sucesivo. En cuanto a lo s dichos de AGN para el otro consultor,
+informamos que el mismo ha desempeñado sus funciones como consultor de
+promoción y difusión desde septiembre de  2001. En todas las contrataciones se ha
+contado con la previa no obje ción del BID, a las tareas, extensión e importes de los
+honorarios. En los períodos 01/01/05 al 30/ 03/05 y 01/04/05 a 30/ 06/05, se siguió el
+mismo procedimiento, contando con la no objeción del BID, según CAR BID 6769/04
+y 1639/05.
+e) En el caso del primero de los consulto res mencionados por AGN en este apartado,
+informamos que la UCP procedió a efectuar  las retenciones a los honorarios abonados
+a partir del mes de enero de  2006, fecha de alta del consul tor en los impuestos de las
+ganancias e IVA. En cuanto al segundo co nsultor, se informa que la situación
+observada obedece a una omisión involuntaria de la UCP. No obstante, se tendrá en
+cuenta la observación.
+f) Se cumplimento a partir del segundo seme stre de 2005, atento las observaciones
+efectuadas oportunamente por la AGN. En lo que respecta al primer semestre, se reitera
+el comentario del ejercicio anterior, es deci r, la UCP consideró que los informes de los
+consultores se encontraban incluidos en  los respectivos Informes de Avance
+presentados al BID.
+
+===== PDF PAGE 59 =====
+
+59
+Recomendaciones:
+a) Tramitar la aprobación de la planta de pers onal conforme lo prescripto en la normativa
+vigente.
+b) Efectuar los correspondientes controles de calidad de toda la documentación presentada
+a la UCP por los consultores por ésta contratados, verifi cando la correcta y completa
+integración de la misma e intervenirla consecuentemente.
+c) Instrumentar los mecanismos necesarios a efectos que el acto administrativo que
+aprueba la contratación, sea anterior al inicio de funciones.
+d) Sugerimos numerar cada contrato suscript o por consultores y UCP, a efectos sean
+unívocamente identificados. A su vez, debe  dejarse asentado en cada uno de ellos, la
+fecha en la que se suscriben. Por otra  parte, los consul tores encasillados en
+determinadas categorías, deben cumplir para ello, con los requisitos establecidos por la
+normativa vigente (Decreto Nº 1184/01).
+e) Cumplir y hacer cumplir estrictamente lo esta blecido en las normativas vigentes en la
+materia.-
+f) Incluir en los legajos de los consultores contratados por el Programa, la totalidad de
+informes finales que elaboran los mismos, dándole a éstos el debido carácter
+adjuntando además, la correspondiente aproba ción y autorización de la liberación del
+pago consecuente efectuado por las autoridades de la UCP.
+9. OTROS GASTOS:
+Cuenta Contable N° 2909 - Gastos de Representación:
+Observaciones:
+Se detallan primariamente en el cuadro que continúa, las siguientes órdenes de pago:
+Orden de Pago N° Fecha Importe $
+3025 24/01/05 419,50
+3034 21/02/05 299,40
+3052 21/03/05 293,00
+3093 07/06/05 169,00
+Total: 1.180,90
+
+===== PDF PAGE 60 =====
+
+60
+Al respecto, hemos podido observar:
+a) Las facturas que integran y respaldan la s órdenes de pago detalladas en el cuadro
+precedente, en ningún caso se encuentran diri gidas al “Programa Global de Crédito a la
+Micro y Pequeña Empresa”.
+b) Respecto la OP Nº 3093/05 emitida por un m onto de $ 169,00, para cancelar la factura
+Nº 0001-00005438 del 20/05/05 del Restaura nte Don Charras, por gastos de
+representación de autoridades del Programa  en oportunidad del viaje a Paraná-Entre
+Ríos, con motivo del lanzamiento de distin tos Programas de la SSEPYME y DR y del
+Banco BICE SA se destaca que, entre los an tecedentes remitidos por el Programa, no
+obra documentación que acredite dicho lan zamiento, a efectos de  poder constatar la
+inclusión del Programa 1192/OC-AR en el referido evento.
+Comentarios de la UCP:
+a) Se omitió solicitar la facturación a nom bre del Programa. Se tendrá en cuenta la
+observación.
+b) Los gastos corresponden a la reunión mant enida por autoridades de la Secretaría de
+Industria y de la Subsecretaría de la  Pequeña y Mediana Empresa y Desarrollo
+Regional, con autoridades de la Secretaría de Producción de la ci udad de Paraná y del
+Banco BICE, en la que se trataron temas vinculados a la ope ratoria del Programa
+MyPEs y de otras líneas de as istencia financiera a MIPYME S. La reunión se llevó a
+cabo en la ciudad de Paraná, en oportunidad del viaje reali zado a la provincia de Entre
+Ríos con motivo del lanzamiento de los pr ogramas de la SEPYME. Estas actividades
+implican en la generalidad de los casos, encuentros con las autoridades de la región a fin
+de dar a conocer con mayor profundidad los beneficios que la SEPYME pone a
+disposición de las empresas. Es decir, no necesariamente existe un evento “formal” de
+lanzamiento con documentación que acredite la participación de los programas.
+Recomendaciones: Instruir a todos los funcionarios del Programa respecto del beneficiario
+de las facturas emitidas a ellos por cualqu ier proveedor. Respecto la segunda de nuestras
+observaciones vale mencionar, no obstante la respuesta brindada por la UCP, que no se
+
+===== PDF PAGE 61 =====
+
+61
+tuvo documentación de respaldo alguna en re lación a sus dichos, como así tampoco se
+verificaron erogaciones relaci onadas con los ítems “Viáticos y Movilidad”, por lo que no
+pudimos satisfacernos de comprobantes que efect ivamente acrediten el evento descripto
+por el Programa. Recomendamos por lo tant o, dejar debidamente documentados los gastos
+incurridos por estos motivos.
+Cuenta Contable N° 2920 - Otros Honorarios - Estudios e Investigaciones:
+Observación: Se detallan en el siguiente cuadro las OP emitidas durante el ejercicio 2005
+para solventar erogaciones derivadas del abono contractual con la empresa NOSIS SA:
+Proveedor NOSIS – Laboratorio de Investigación y Desarrollo S.A.
+OP N° Fecha Abono mensual-Sistema de
+Antecedentes Comerciales Importe $
+3024 24/01/05 Enero 2005 205,70
+3040 25/02/05 Febrero 2005 205,70
+3053 22/03/05 Marzo 2005 205,70
+3067 25/04/05 Abril 2005 205,70
+3080 20/05/05 Mayo 2005 205,70
+3095 23/06/05 Junio 2005 205,70
+3112 25/07/05 Julio 2005 205,70
+3123 30/08/05 Agosto 2005 205,70
+3131 30/09/05 Septiembre 2005 205,70
+3142 28/10/05 Octubre 2005 205,70
+3154 30/11/05 Noviembre 2005 205,70
+3168 29/12/05 Diciembre 2005 205,70
+Total 2.468,40
+Al respecto y, entre la documentación remitida por el Programa, no obra nota que
+justifique la viabilidad del abono en relación con el objet o de Proyecto, y la
+correspondiente emisión de la orden de comp ra. Asimismo, en el cuadro comparativo de
+ofertas emitidas, de fecha 26/05/04, no se especifica la empresa adjudicataria.
+Comentario de la UCP:  Las consultas en el Sistema de  Antecedentes Comerciales de la
+empresa NOSIS SA, se realizan para verificar datos (existenci a, situación crediticia, etc.)
+de los subprestatarios. Previo a la cont ratación, se solicitó pr esupuesto a las firmas
+FIDELITAS SA, VERAZ SA y NOSIS SA. En el cuadro comparativo de ofertas, se omitió
+dejar constancia de la empresa adjudicada, aunque surge del mismo que el precio más bajo
+
+===== PDF PAGE 62 =====
+
+62
+corresponde al ofertado por NOSIS  SA. No obstante, se tendrá  en cuenta la observación y
+se tomarán los recaudos a fin de evitar en lo  sucesivo la reiteración de similares errores
+formales en los expedientes.
+Recomendación: Completar debidamente todas la s instancias correspondientes a
+erogaciones efectuadas por el Programa.
+Cuenta Contable Nº 2011 Hard (Computadoras e impresoras):
+Observación: En relación con las OP detalladas en  el siguiente cuadro, no hemos tenido a
+la vista documentación alguna que justifique el gasto o la necesidad de la compra ni
+satisfacernos adecuadamente de sus ubicaciones físicas:
+OP Nº Fecha Importe $ Bie nes adquiridos Proveedor
+4 CPU
+4 Monitores3033 01/02/2005 12.917,47
+4 Regrabadoras
+CLS SA
+3043 28/02/2005 837,80 1 Impresora Arroba Computer SA
+Comentarios de la UCP: En el primer caso, el objeto de la compra fue cubrir necesidades
+de equipamiento de la Unidad Ejecutora.  En tanto en el segundo, la impresora fue
+adquirida para uso del Sr. Subsecretario de  la Pequeña y Mediana Empresa y Desarrollo
+Regional, titular del organismo ejecutor de l Programa. Sus ubicaciones se indican en el
+Inventario puesto a disposición de la AGN.
+Recomendaciones: Es menester señalar primariament e, que no obra tal como se observó,
+documentación de respaldo de los dichos efectua dos por la UCP. Por otra parte, la copia
+del reporte denominado “Inventario de Mu ebles y Útiles, Equipos de Computación,
+Impresoras al 31/12/2005”, no incluye el númer o de serie de cada bien dado de alta, a
+efectos de cotejar, a través de las inspecciones  oculares de rigor, la correcta incorporación
+de los mismos. Por lo tanto se recomienda  archivar adecuadamente toda documentación
+que respalde las órdenes de pago emitidas por el Proyecto, además de integrar debidamente
+el mencionado inventario.
+
+===== PDF PAGE 63 =====
+
+63
+B. OBSERVACIONES DEL EJERCICIO:
+1. ESTADO DE COSTO Y FINANCIAMIENTO:
+Observaciones:
+a) Aporte Local:  Del análisis efectuado sobre los importes expuestos en el estado de
+referencia al 31/12/05 y su cotejo c on los restantes estados y cuadros que lo
+acompañan, se han podido verificar las diferencias que se detallan a continuación:
+Costo y Financiamiento Vs. Cuentas de Orden
+Componente de Crédito (miles de USD)
+Según Estado de Costo y Financiamiento 11.247,08
+Según Cuentas de Orden 11.388,86
+Diferencia -141,78
+Costo y Financiamiento Vs. Cuadro C-Erogaciones Ejecución Proyecto
+Componente Asistencia Técnica (miles de USD)
+Según Estado de Costo y Financiamiento: 0,00
+Según Cuadro C 4,52
+Diferencia -4,52
+b) Aporte BID:  Del cotejo realizado entre el Es tado de Costo y Financiamiento vs.
+Estado de Activos y Pasivos con su corr espondiente nota aclaratoria N° 3, se ha
+podido constatar que el importe ejecutado, según Costo y Financiamiento de miles de
+USD 406,10; corresponde a los Pagarés detallados en el siguiente cuadro:
+Cifras expresadas en USD
+Pagaré Nº Fecha de vencimiento Importe
+B-0000001 26/08/06 40.000,00
+B-0000002 22/07/06 300.000,00
+B-0000003 26/07/06 8.415,00
+B-0000004 26/08/07 57.681,65
+Total 406.096,65
+En tanto, el monto expuesto en el Estado de  Activos y Pasivos de tallado en Nota 3,
+alcanza la cifra de Capital de USD 831.246,65; importe conformado con los
+instrumentos detallados precedentemente, más USD 425.150,00 correspondiente a la
+sumatoria del resto de los Pagarés puntualizados en la citada nota. Es decir, no se tomó
+
+===== PDF PAGE 64 =====
+
+64
+en el Estado de Costo y Financiamiento, el último importe mencionado como
+aplicación del ejercicio 2005.
+Comentarios de la UCP:
+a) La diferencia observada en el primer cuadro, corresponde a operaciones de représtamo
+de fondos recuperados del MyPES II, opera toria aplicada durante  el ejercicio 2001
+según lo establecido en el Reglamento de Crédito. No obstante, se procederá a la
+revisión de los antecedentes de la operación y se efectuarán los ajustes necesarios a los
+fines de su correcta exposición. En tanto la expresada en el segundo de los cuadros,
+responde a que se omitió incluir en el Estado de Co sto y Financiamiento la suma de
+USD 4.520,00 correspondiente a la publicación de  la Cámara de Exportadores de la
+República Argentina (CERA). Se procederá a efectuar el ajuste correspondiente.
+b) El criterio adoptado para la preparación del Estado de Costo y Financiamiento, fue el
+de incluir únicamente los montos corre spondientes a pagarés que hubieran sido
+efectivamente rendidos al BID al cierre del ejercicio. Las part idas pendientes fueron
+incluidas en la Solicitud de Justificación de Fondos Nº 14, remitida al BID con fecha
+03/01/06, cuya copia se puso a disposición de la AGN, oportunamente.
+Recomendaciones:
+a) Realizar los ajustes pertinentes, toda ve z que los montos obtenidos de recuperos de
+préstamos pasan a formar parte de los fondos genuinos del Programa, no
+correspondiendo su inclusión en Cuentas de  Órden. Asimismo, efectuar los controles
+de calidad correspondientes, previo al arma do de los estados fina ncieros, a efectos de
+evitar omisiones como la observada en el segundo de los cuadros.
+b) Las efectivas ejecuciones real izadas en el ejercicio, ha yan sido justificadas o no al
+BID, deben exponerse como inversión del período en el Estado de Costo y
+Financiamiento. Se recomienda por lo tant o, ajustar a futuro, el  criterio adoptado por
+el Programa.
+
+===== PDF PAGE 65 =====
+
+65
+2. NOTA 6-EX BANCOS EN GESTIÓN JUDICIAL (CONCURSO Y/O QUIEBRA)-
+INTERESES DEVENGADOS:
+Observación: Según información expuesta en la nota del título, se ha podido constatar en
+los casos que a continuación se detallan, la inexistencia de registración de intereses
+devengados a cobrar:
+Cifras expresadas en dólares estadounidenses
+Ex Banco Importe
+BALCARSE S.A. (s/Quiebra) 15.882,00
+BISEL S.A. (s/Concurso) 55.257,58
+DEL SUQUÍA S.A. (s/Concurso) 41.734,65
+Comentario de la UCP:  El criterio adoptado fue in formar en Nota a los Estados
+Contables los intereses devengados a cobrar de los bancos mencionados y no proceder a
+su contabilización, en función de “las poco significativas ex pectativas de recupero” que
+surgen de lo informado por el Asesor Le gal del Programa a la AGN en su nota del 4 de
+julio del 2005.
+Recomendación: Es menester destacar en primer l ugar, que la respue sta brindada por el
+Programa no tiene asidero con las normas generales de contabilidad generalmente
+aceptada toda vez que, si existen -según el asesor legal del Programa- escasas
+probabilidades de recupero, y esta es la raz ón para la no contabilización de los intereses,
+dichas expectativas de cobro también lo son para el capital adeuda do por las IFIs, y este
+concepto si se encuentra registrado. Por lo  tanto, sugerimos al Proyecto efectuar las
+registraciones omitidas, a efectos de mostrar en su contabilidad la totalidad de sus
+derechos habidos.
+3. CUENTA BANCO CENTRAL DE  LA REPÚBLICA ARGENTINA:
+Observación: Del cotejo efectuado entre las subc uentas e importes registrados en la
+contabilidad vs la información suminist rada por el BCRA, se han podido determinar
+diferencias varias. Asimismo, pudo veri ficarse que los importes registrados
+
+===== PDF PAGE 66 =====
+
+66
+contablemente en cada una de dichas subcuent as, no se ajustan a los determinados por el
+BCRA, no obstante encontrarse las diferencias habidas, prácticamente compensadas.
+Comentario de la UCP: El Programa efectúa la concilia ción permanente de las cuentas,
+y los importes contabilizados son correctos.  Las diferencias corresponden a errores de
+imputación en los registros del BCRA, que se encuentran pendientes de ajuste. En el caso
+de la cuenta Ingresos Vari os, que arroja una diferencia de USD 8.511,07, la misma surge
+como consecuencia de la expresión del mont o en pesos por parte del BCRA, mientras en
+los estados contables del Programa se expone en dólares.
+Recomendación: No obstante la conciliación pe rmanente de cuentas e importes
+efectuados por el Programa, sugerimos arbitrar  los medios que sean  menester, a efectos
+que en cada cierre de ejercicio, queden lo s papeles de trabajo pertinentes y las
+correspondientes notas de comunicación de di ferencias, efectuadas por el Proyecto al
+BCRA.
+4. ÓRDENES DE PAGO:
+Observaciones: Del análisis efectuado sobre las órdenes de pago emitidas por el
+Proyecto durante el ejercicio 2005, hemos podido determinar:
+a) Discrepancias en la fecha de recepción del pago y/o en el ti po de cambio tomado a
+efectos de convertir a dólares la erogación efectuada. En el siguiente cuadro, se realiza
+detalle de lo expuesto:
+
+===== PDF PAGE 67 =====
+
+67
+Orden de Pago
+Proveedor
+Nº Fecha Fecha de
+Pago Importe $
+TC USD
+Importe en
+USD S/AGN
+(1)
+Importe en
+USD S/UEP
+(2)
+Diferencia
+(2)-(1)
+Prima SA 3044 28/02/05 03/03/05 544,50 2,9570 184,14 184,70 0,56
+Rodriguez e Hijo 3049 21/03/05 22/03/05 993,00 2,9170 340,42 341,12 0,70
+Frigerio-Marzo 3054 30/03/05 01/04/05 6.267,00 2,9170 2.148,44 2.146,23 -2,21
+Segal-Marzo 3058 30/03/05 01/04/05 1.897,00 2,9170 650,33 649,66 -0,67
+American Varts
+SRL 3094 23/06/05 24/06/05 302,50 2,8720 105,33 105,03 -0,30
+Frigerio-Junio 3097 30/06/05 01/07/05 6.267,00 2,8870 2.170,77 2.164,77 -6,00
+Segal-Junio 3101 30/06/05 01/07/05 1.897,00 2,8870 657,08 655,27 -1,81
+NOSIS 3131 30/09/05 30/09/05 205,70 2,9148 70,57 70,63 0,06
+American Varts
+SRL 3153 23/11/05 24/11/05 302,50 2,9458 102,69 101,59 -1,10
+Cataldo-Noviembre 3159 30/11/05 02/12/05 1.604,00 2,9700 540,07 539,43 -0,64
+FF 139-O.G.. Adm. - - 29/04/05 59,30 2,9090 20,39 20,42 0,03
+Totales 20.339,50 6.990,21 6.978,85 -11,36
+b) Gastos imputados al ejercicio 2005, abona dos durante 2006 según detalle reflejado en
+el siguiente cuadro:
+Orden de Pago
+Consultores y Gastos UCP
+Nº Fecha Fecha de
+Pago
+Cheque
+Nº Importe $
+TC vigente al
+31/12/05USD Importe USD
+Mercado de la Oficina 3167 02/01/06 2382 371,86 3,0315 122,67
+NOSIS 3168 04/01/06 2383 205,70 3,0315 67,85
+Rivas - Diciembre 3169 2384 1.897,00 3,0315 625,76
+Bogado - Diciembre 3170 2385 3.610,00 3,0315 1.190,83
+Frigerio - Diciembre 3171
+02/01/06
+2386 6.267,00 3,0315 2.067,29
+Criado - Diciembre 3172 03/01/06 2387 4.061,00 3,0315 1.339,60
+Saques - Diciembre 3173 2388 3.610,00 3,0315 1.190,83
+Cataldo - Diciembre 3176
+29/12/05
+02/01/06
+2390 1.604,00 3,0315 529,11
+Total imputado Ejercicio 2005 21.626,56 7.133,94
+Comentario de la UCP:  Se tendrán en cuenta las observaciones y se intensificarán los
+controles a fin de evitar la reiteración de este ti po de errores. En el caso de los gastos
+imputados al ejercicio 2005 abonados durante 2006 (si bien los mismos no se informan al
+BID) se efectuará la corrección pertinen te, a fin de exponerlos como ejecución del
+corriente año.
+
+===== PDF PAGE 68 =====
+
+68
+Recomendación: Efectuar los controles de calidad  correspondientes, en todas las
+operaciones realizadas por el Programa. Así también, a cada ejercicio económico, debe
+cargársele la totalidad de las inversiones realizadas, estén o no justificadas al BID.
+5. NOTA 6-EX BANCOS EN GESTIÓN JUDICIAL (CONCURSO Y/O QUIEBRA):
+Observaciones:
+a) Ex Banco Integrado Departamental C ooperativo Limitado-Operatoria MyPEs I:
+En notas a los estados contables correspondien tes a los ejercicios cerrados con fechas
+31/12/04 y 31/12/05 -valga mencionarlo, analíti camente para el caso de lo expresado
+en oportunidad del ejercicio anterior, y muy sucintamente en cuanto hace al ejercicio
+bajo análisis- el Proyecto informa que; si bien se había constituido originalmente
+garantía hipotecaría por un monto de  USD 800.000,00 (suma que, que en teoría,
+debería haber brindado cobertura al créd ito devengado a la fecha del decreto de
+quiebra de la entidad en cuestión po r un saldo de capital que ascendía a USD
+448.401,00 en concepto de capital y USD 2.433,00 en concepto de intereses), al
+momento de tener que responde r por el crédito garantizado, la misma no cumplió con
+su objetivo. Lo expuesto surge en razón que, la  citada garantía hipotecaria -a la que en
+materia de concursos se la reconoce como  el “superprivilegio” dentro de los
+privilegios especiales normados  por la ley- fue rechazada “ in limine” por ante todas
+las instancias judiciales que fallaron respecto de su eventual vinculación con el crédito
+al cual se pretendía garant izar; encontrándose actualmente en resolución por parte de
+la Corte Suprema de Justicia de la Provincia  de Santa Fe. En raz ón de tratarse de un
+derecho real, esta auditorí a desconoce si los rechazos en  las distintas instancias
+judiciales, tienen relación con la existencia , en dicha garantía, de vicios de nulidad
+respecto los requisitos de especialidad y accesoriedad con los que debía cumplir a fin
+de poder avalar el crédito en análisis, o de otros motivos. Por lo tanto, no se pudo
+constatar como quedaría avalado el crédito  en cuestión, desde el punto de vista de
+posibilidades de recupero para el Programa.
+b) Ex Banco Balcarce SA-Operatoria MyPEs I:  Según lo manifestado por la UEP en
+sus respectivas notas a los estados contable s correspondientes a los ejercicios cerrados
+
+===== PDF PAGE 69 =====
+
+69
+con fechas 31/12/04 y 31/12/05, la deuda mant enida con el Programa por el Ex Banco
+Balcarce SA, ascendía a un to tal de USD 2.106.202,00 (USD 2.090.320,00 en
+concepto de capital y USD 15.882,00 en concepto de intereses) de la  cual se detrae la
+suma de USD 811.000,00 atribuibles a Título s Públicos especie 06506 “Bono Externo
+Global República Argentina USD 9.75% ve ncimiento 19/09/2027”, que fueran
+depositados en la Caja de Valores SA, en  la Cuenta Depositante N° 0325/3-Secretaría
+de Hacienda Movimiento Títulos Varios. En consecuencia, la composición de la
+deuda, neta del valor de los títulos pasados a favor de la SH, quedaría expresada según
+detalle reflejado en el siguiente cuadro:
+Cifras expresadas en dólares estadounidenses
+Concepto Importe
+Deuda Original de capital 2.090.320,00
+Deuda original de intereses devengados 15.882,00
+Subtotal deuda original capital más intereses devengados 2.106.202,00
+Menos
+Acreditación a cuenta en Títulos Públicos BONEX 2027 -811.000,00
+Saldo pendiente de cobro a favor del Programa 1.295.202,00
+Sin perjuicio del incremento en el valor de los intereses, en virtud de la actualización
+de los mismos a la fecha en que finalmente se resuelva la forma en la que el Programa
+recuperará sus acreencias y, conforme la cifra de deuda neta expuesta precedentemente
+y su comparación con el saldo informado por  el Programa en el quinto párrafo de la
+Nota 6 a los estados contables -ex Bancos  en Concurso o Quiebra - MyPEs I-, en
+donde se lee textualmente “…el saldo actualmente adeudado por el Ex Banco
+Balcarce S.A. s/ quiebra, asciende a USD 1.281.753,00 a recuperar en la Quiebra…”;
+surge una diferencia en menos de USD 13.449,00.
+Vale mencionar que el monto expuesto en la  citada nota, se encuentra mal calculado,
+toda vez que dicha cifra contiene saldo de  capital e intereses del mencionado banco, e
+intereses devengados a cobrar de otra entidad financiera por USD 2.433,00, por lo que
+la diferencia alcanzaría un monto de USD 15.882,00.
+c) Comentario general-entidades fi nancieras en situación concursal: En función de lo
+expuesto precedentemente, esta AGN requi rió oportunamente a la UCP y por su
+
+===== PDF PAGE 70 =====
+
+70
+intermedio a quién corresponda, informar sobre las instancias de todas las instituciones
+financieras que se encuentren en situación concursal, así como el monto que hubiere
+resultado verificado en cada caso, por part e de los respectivos jueces a cargo de cada
+uno de los procesos, a la fecha de cierre del ejercicio bajo análisis.
+Tal información debería respaldarse en f unción de lo resuelto por cada aquo en
+oportunidad de producir su informe referido al artículo 36 de la Ley Concursal.
+Se requirió informar asimismo, si con pos terioridad se hubiesen promovido incidentes
+de revisión y/u otros recursos  procesales, se nos brinde tal información; como así
+también, nos facilite la documentación respaldatoria respectiva (copia de las
+resoluciones judiciales en cada instancia).
+En el mismo orden de ideas y, sin perjuicio de las respuest as a nuestra circularización
+a los asesores legales del Programa, se solicitó similar información producida a la
+fecha más próxima a la de su respuesta, a fin de ponderarla bajo el criterio de hechos
+posteriores al cierre de ejercicio.
+En la respuesta de la Dirección de Asuntos  Jurídicos del Ministerio de Economía a la
+citada nota efectuada por la UCP, sólo informan sobre el ex Banco Balcarce SA, ex
+Banco del Suquía SA y Bisel SA, no efect úan alusión alguna s obre el ex Banco
+Integrado Departamental Cooperativo Lim itado (al igual que las tres entidades
+mencionadas precedentemente, en situación de concurso o quiebra), ni sobre el ex
+Banco de Entre Ríos SA.
+Comentarios de la UCP:
+a) y c) Mediante nota UCP 219/06, se solicitó la información requerida a la Dirección de
+Asuntos Jurídicos del Ministerio de Economía.
+b) Se procederá a la revisión y se efectuarán los ajustes correspondientes.
+Recomendaciones:
+a) Cabe destacar en primer lugar, que en la respuesta de la Dirección de Asuntos
+Jurídicos del Ministerio de Economía a la citada nota efectuad a por la UCP, nada
+dicen respecto lo requerido por AGN. Se recomienda arbitrar todos los medios
+
+===== PDF PAGE 71 =====
+
+71
+disponibles por el Proyecto, tendientes a diluci dar los motivos de la caída de la
+garantía hipotecaria en cuestión, ya que si esto se confirma finalmente en la Corte
+Suprema de Justicia de la Provincia de Santa Fe, el crédito a favor del Programa
+quedaría sin respaldo, con las consecuencias pertinentes por este hecho.
+b) Efectuar los controles de calidad correspondi entes, a todas las transacciones realizadas
+por el Programa.
+c) Se recomienda al Programa, solicitar a sus asesores legales, brinda información
+actualizada y completa de manera perman ente, a efectos de llevar un riguroso
+monitoreo sobre su acreencias en litigio.
+6. CUENTA 1291-SUD INVERSIO NES Y ANÁLISIS SA (SIASA) FIDEICOMISO
+MYPES II (a):
+Observaciones: Del análisis efectuado sobre el importe  registrado en la cuenta del título
+y su correspondiente documentación de respaldo (Pagarés), se ha podido verificar:
+a) En nota a los estados contables Nº 3 -SIASA Documentos a Cobrar-, se detalla el total
+de Pagarés recibidos por el Programa al 31/12/2005, con la siguiente discriminación:
+Concepto Importe USD
+Capital 831.246,65
+Intereses Devengados 24.333,07
+Total 855.579,72
+Con relación a los intereses, el monto informado precedentemente fue contabilizado
+por el Programa en el ejercicio 2005 en la cuenta contable Nº 3511 “Intereses a
+Devengar Pag. SIASA”, mientras  que dicha cifra, corres ponde al total a devengar por
+dicho concepto desde la fecha de desembol so de capital de cada préstamo, hasta la
+cancelación de cada uno de ellos. Corres ponde señalar al respecto, que los
+vencimientos operan en su mayoría durante el transcurso del ej ercicio 2006 y hasta el
+año 2007. En virtud de lo expresado precedenteme nte, se procedió a la realización del
+cálculo de intereses efectivamente deve ngados al 31/12/2005, de l que surgen los
+importes detallados en el siguiente cuadro:
+
+===== PDF PAGE 72 =====
+
+72
+Pagaré Nº Préstamo USD Fecha de
+Desembolso
+Intereses hasta el
+Vencimiento
+Intereses hasta el
+31/12/05
+Diferencia
+(*)
+B-0000001 40.000,00 26/09/05 1.423,23 414,58 1.008,65
+B-0000002 300.000,00 13/10/05 9.007,40 2.564,38 6.443,02
+B-0000003 8.415,00 04/11/05 239,76 51,25 188,51
+B-0000004 57.681,65 11/11/05 1.991,89 288,31 1.703,58
+B-0000005 115.000,00 19/12/05 3.765,27 159,74 3.605,53
+B-0000006 50.000,00 19/12/05 1.604,03 69,45 1.534,58
+B-0000007 50.150,00 19/12/05 1.349,98 69,66 1.280,32
+B-0000008 40.000,00 19/12/05 1.076,75 55,56 1.021,19
+B-0000009 70.000,00 19/12/05 2.304,39 97,23 2.207,16
+B-0000010 100.000,00 19/12/05 1.570,37 128,53 1.441,84
+Totales 831.246,65 24.333,07 3.898,69 20.434,38
+(*): El total de esta columna es el que debe contabilizarse en la Cuenta Contable Nº 3511 “Intereses a Devengar Pag. SIASA”
+al 31/12/2005, ya que a esa fecha se ha bían devengado efectivamente USD 3.898, 69, tal como surge de los cálculos
+efectuados por AGN y expresados en el cuadro.
+Asimismo, en notas a los estados contables,  subtítulo Cómputo de los Intereses, se
+informa: “Los intereses ganados por el Fideicomiso MyPEs II a) se contabilizarán
+por el método de lo percibido, habiéndose registrado los intereses a devengar hasta el
+vencimiento del documento”.
+b) De la lectura de los Pagarés surge; en al gunos casos, que el vencimiento de cuotas de
+amortización y/o intereses, tuvo lugar dura nte el transcurso del ejercicio 2005. Al
+respecto, no hemos podido verificar desde lo s registros contables del Programa, la
+cancelación de dichos importes a su vencim iento. Los casos mencionados se reflejan
+en el siguiente cuadro:
+Cifras expresadas en dólares estadounidenses
+Vencimientos operados al 31/12/2005Pagaré Nº Amortización Intereses Vencimiento Pago
+B-0000004 2.333,41 0,00 (*) 25/10/2005
+B-0000004 2.348,56 82,79 (*) 25/11/2005
+B-0000004 2.363,81 169,89 (*) 25/12/2005
+B-0000005 0,00 159,59 31/12/2005
+B-0000006 0,00 69,39 31/12/2005
+B-0000007 0,00 69,60 31/12/2005
+B-0000008 0,00 29,88 25/12/2005
+B-0000009 0,00 97,14 31/12/2005
+B-0000010 8.077,70 0,00 (*) 25/11/2005
+B-0000010 8.086,73 58,78 (*) 25/12/2005
+(*): Expuestos en Nota 3 SIASA-Documentos a Cobrar -“Cuotas vencidas al 31/12/05”.
+
+===== PDF PAGE 73 =====
+
+73
+c) En lo referente a la fecha de vencimient o del préstamo, se ha podido verificar que, en
+algunos casos, no hay coincidencia entre la expuesta en nota a los estados contables Nº
+3 y la que surge como dato en cada uno de lo s Pagarés. En el cuadro que continúa se
+realiza detalle de lo mencionado:
+Fechas de Vencimientos de los Instrumentos
+Pagaré Nº S/Datos Pagarés S/Nota 3-Estados Contables
+B-0000001 25/08/06 26/08/06
+B-0000002 21/07/06 22/07/06
+B-0000003 25/07/06 26/07/06
+B-0000004 25/08/07 26/08/07
+B-0000009 21/10/06 20/10/06
+Comentarios de la UCP:
+a) Se practicarán los ajustes y se modifi cará el texto de la nota correspondiente.
+b) El monto correspondiente a la cobranza de  las cuotas -cuyos vencimientos operaron
+durante el ejercicio 2005- se transfirió a las cuentas del Programa abiertas en el BCRA
+durante el mes de febrero del corrient e año. En Nota UCP 015/06 (del 16/01/06 cuya
+copia se adjunta) se soli cita al BCRA debitar los importes correspondientes de la
+cuenta del BCRA N° 80285 cuyo titular es Banco Macro Bansud, conforme la nota
+enviada por el mismo.
+c) Se acepta la observación y se procederá a efectuar -en los casos que así corresponda-
+la corrección de las fechas erróneamente expuestas en nota 3 a los estados contables.
+Recomendaciones:
+a) Ajustarse a normas de contabilidad generalmente aceptados.
+b) No obstante los comentarios de la UCP,  debe señalarse que las cancelaciones cuyos
+vencimientos figuran en el cuadro arriba  efectuado fueron; al menos, informados al
+Proyecto fuera de término. Se recomienda ch equear con las IFIs y Fiduciario al cierre
+de cada ejercicio, las cobranzas realizadas por los primeros, a ef ectos de contabilizar
+oportunamente las correspondientes cancelaciones.
+c) Efectuar los controles de calidad, previo al cierre de cada ejercicio.
+
+===== PDF PAGE 74 =====
+
+74
+7. SOLICITUD DE DESEMBOLSO DE FONDOS-FIDEICOMISO MYPES II (a):
+Observaciones:
+a) Del cotejo efectuado sobre la solicitud de fondos prevista por el artículo 4 del
+Reglamento de Desembolso de Fondos, Anexo II al Contrato de Fideicomiso, que
+generó la cesión del Pagaré Nº B-0000004, versus el Formulario de Solicitud de
+Desembolso Nº 13 presentado al BID y lo s pertinentes registros contables, hemos
+podido determinar la siguiente diferencia:
+Cifras expresadas en dólares estadounidenses
+Solicitud Desembolso Fondos
+Banco Macro Bansud SA
+Solicitud Nº 13-BID
+y Registros Contables Diferencias
+Montos-Fuente
+BID MyPE BID MyPE BID MyPE
+60.000,00 10.000,00 57.681,65 12.318,65 -2.318,65 2.318,65
+b) Asimismo y, con relación a los instrumentos  del título, hemos verificado las siguientes
+omisiones:
+(i) Volumen de venta anual de los últimos tres ejercicios: Torreón del Sol SA, sin
+informar.(Pagaré Nº B-0000005).
+(ii)Fecha de desembolso: Este dato sólo está expuesto en las solicitudes
+correspondientes a los Pagarés Nº B-0000003 y Nº B-0000007.
+Comentarios de la UCP:
+a) La diferencia señalada (USD 2.318,65) corre sponde al aporte lo cal realizado por la
+IFI. Por error fue considerado como aporte del subprestatario (MyPE). Se procederá a
+subsanar dicha diferencia en la próxima rendición al BID.
+b) (i) El caso observado corresponde a una em presa ya existente, que comienza una
+nueva actividad con los fondos del crédito (queda a consideración del Banco el asumir
+el riesgo originado por este tipo de operaciones). (ii) En las solicitudes de desembolsos
+“provisorias” que se utilizan para el pedido de transferencia a la cuenta indisponible de
+la IFI, no se incluye la fecha de desembol so, ya que se desconoce la misma. Este dato
+
+===== PDF PAGE 75 =====
+
+75
+se encuentra en la solicitud de desembol so definitiva, firmada por la IFI y el
+Fiduciario.
+Recomendaciones:
+a) Realizar los pertinentes controles de cali dad, a efectos de evita r situaciones como la
+descripta.
+b) En cuanto a la primera de las observaci ones de este apartado corresponde señalar que,
+tal como se menciona en el Apartado B.  18. de este memorando, el Proyecto tiene
+responsabilidades que lo invo lucran directamente en la evaluación y autorización del
+otorgamiento del préstamos. Se sugiere ac atar estrictamente lo establecido en los
+distintos instrumentos que hacen al sistem a de Fideicomisos. Respecto la segunda de
+nuestras observaciones, vale e xpresar que la misma se efectuó con base en la revisión
+de las solicitudes de desembolsos definitivas, firmadas por la IFI y el Fiduciario, por
+ello se menciona a las únicas dos que exponen las fechas de desembolsos, esto es, las
+correspondientes a los Pagarés Nº  B-0000003 y Nº B-0000007. Se recomienda
+efectuar los pertinentes contro les de calidad, a efectos de constatar la completitud de
+dichos instrumentos.
+8. SOLICITUD DE ANTICIPO DE FO NDOS Nº 14 PRESENTADA POR EL
+PROGRAMA AL BID:
+Observaciones:
+a) Con fecha 03/01/2006, el Proyecto presentó al  BID la Solicitud Nº 14 de reposición
+del Fondo Rotatorio, justifi cando los créditos otorgados en el año 2005 pendientes de
+informar al cierre de dicho ejer cicio por USD 425.150,00 (fuente BID) y USD
+54.086.99 (fuente local, aporte de subprestata rios). Asimismo, se informó un crédito
+conformando el Aporte Local (IFIS) por USD 3.053.663,62. No queda clara para esta
+auditoría, el procedimiento utilizado por el Programa para  la conformación del pari-
+passu sobre los préstamos concedidos al 31/12/2005 (aportes BID y local), toda vez
+que este último está integrado por otros préstamos cedidos en garantía que, a su vez,
+debe representar al menos el 70% del aporte  BID. En el siguiente cuadro, se efectúa
+
+===== PDF PAGE 76 =====
+
+76
+detalle de los préstamos otorgados por el  Programa, encuadrados en la figura del
+primer Fideicomiso, los importes efectuados por cada fuente de financiamiento y el
+porcentaje que representa el aporte local, respecto del efectuado por el BID.
+Cifras expresadas en dólares estadounidenses
+Fuente de FinanciamientoSolicitud Nº/Año BID (1) Local (IFIs) (2) % A. L. respecto a (1)
+13/2005 406.096,65 395.740,21 97,45%
+14/2006 425.150,00 3.053.663,62 718,26%
+Totales: 831.246,65 3.449.403,83 414,97%
+b) Por otra parte, pudo verificarse que en el  Formulario Modelo 1-E presentado al BID,
+no se exponen las erogaciones efectuadas por el Programa en concepto de Asistencia
+Técnica -Aporte Local-. Los montos no in formados en dicho instrumento por el
+concepto mencionado, son los siguientes:
+Cifras expresadas en dólares estadounidenses
+Período Importe
+Ejecuciones acumuladas al 31/12/2004 229.298,57
+Ejecuciones ejercicio 2005 4.521,33
+Total: 233.819,90
+Comentarios de la UCP:
+a) De acuerdo a lo establecido por la normativ a vigente, se ha verificado el cumplimiento
+del mínimo establecido del 70% de présta mos cedidos en garantía que constituyen el
+aporte local, verificándose en algunas o casiones un porcentaje mayor al señalado. Se
+tendrá en cuenta la sugerencia en relaci ón a las Cuentas de Orden y se tomarán las
+medidas tendientes a asegurar la correcta exposición del aporte local.
+b) Se omitió involuntariamente la inclus ión del monto de USD 4.521,33 correspondiente
+a Asistencia Técnica del ejercicio 2005 a pesar de encontrarse el mismo correctamente
+registrado. Se practicará el ajuste correspondiente.
+Recomendaciones:
+a) Apropiar y exponer en Cuentas de Or den de manera separada, las cifras
+correspondientes al Aporte Local (IFIs y S ubprestatarios) que conforman el pari-passu
+
+===== PDF PAGE 77 =====
+
+77
+de las ejecuciones efectivamente reali zadas, de aquellas que exceden dicha
+contribución y que representan las gara ntías aportadas por los bancos. Este
+procedimiento redundará en una mejor calidad  de exposición y facilitará los controles
+respectivos.
+b) Informar al BID sobre todas las erogaciones efectuadas por el Programa.
+9. REDIRECCIONAMIENTO DE CARTERA BID: CONTRATO DE
+MODIFICACIÓN DE PRÉSTAMOS Nº 1192/OC-AR-3 a 6 (13/12/2004):
+Comisión de Crédito:
+Observación: Conforme la lectura de los apéndi ces 2, 4, 6 y 9, que forman parte del
+Contrato Modificatorio Ómnibus suscripto el 13/12/2004, surge:
+La Cláusula 2.4. del citado Cont rato de Préstamo establece “…el Prestatario pagará una
+comisión de crédito de acuerdo con lo es tablecido en el Artículo 3.02 de las Normas
+Generales”. En tanto dicho artículo de la s Normas Generales prescribe: “(a) Sobre saldo
+no desembolsado del Financiamiento que no sea en moneda del país del Prestatario, éste
+pagará una comisión de crédito, que empezará a devengarse a los sesenta (60) días de la
+fecha del Contrato. El monto de dic ha comisión será aqué l indicado en las
+Estipulaciones Especiales y, en ni ngún caso, podrá exceder del 0,75% por año” . “(b)
+Esta comisión será pagada en las mismas fechas estipuladas para el pago de los
+intereses de conformidad con lo previsto en las Estipulaciones Especiales”.
+Con base en la documentación suministrada po r el Programa, se verificó que el cálculo
+para la determinación del monto en concepto de comisión de crédito, no se ajustó a los
+términos previstos en el Contrato de Pr éstamo señalado, toda vez que fue practicado
+desde la firma del contrato Modificatorio Ómnibus (13/12/2004), y no a partir de los 60
+días de dicha fecha, tal como lo estipula la re ferida norma contractual, lo cual generó las
+siguientes diferencias pagadas en exces o, de acuerdo al cuadro que se expone
+seguidamente:
+
+===== PDF PAGE 78 =====
+
+78
+Importes expresados en dólares estadounidenses
+Préstamo BID Nº Según BID Aceptado y
+pagado por la UEP Según AGN Diferencias
+1192 (3) 27.036,12 21.287,67 5.748,45
+1192 (4) 15.133,43 11.027,40 4.106,03
+1192 (5) 63.993,98 50.141,86 13.852,11
+1192 (6) 1º Vencimiento 47.876,90 32.273,97 15.602,93
+1192 (6) 2º Vencimiento 21.550,68 21.550,68 0,00
+Total 175.591,11 136.281,59 39.309,52
+Comentario de la UCP:  El Contrato Ómnibus modi fica varios Proyectos, con el
+agregado de fondos de otros préstamos, pero  no implica la firma de un nuevo contrato de
+préstamo, sino la ampliación de otro firmado anteriormente. Por lo cual, los sesenta días
+que indica el artículo 3.02. de las Normas Ge nerales, ya se aplicaron anteriormente y por
+lo tanto no comienzan a correr nuevamente luego de la ampliación.
+Recomendación: De manera preliminar, cabe señalar lo mencionado en el Contrato
+Modificatorio Ómnibus en su artícu lo segundo que textualmente expresa: “Las partes
+ratifican todas las demás disposiciones de  los Préstamos Redireccionados y de los
+Préstamos de Programas Receptores, excepto que: (i) los Préstamos derivativos surgidos
+del Redireccionamiento (899/OC-AR-1; 899/OC-AR-2; y 1192/OC-AR-3, AR-4, AR-5 y
+AR-6) seguirán los procedimientos de Adqu isiciones que figuran en los Anexos a los
+Contratos de Préstamos 899/OC-AR y 1192/OC -AR respectivamente; y (ii) las Normas
+Generales que se incorporan como Parte Segunda de los Apéndices 2, 4, 6, 9 y 12 de este
+Contrato Modificatorio y que incor poran los conceptos relacionados con la…” . Cabe
+señalar que cuando dicho artículo segundo esta blece la ratificación de todas las demás
+disposiciones de los Préstamos Redirecci onados, incluye; según en tendemos, el citado
+artículo 3.02. Por otra parte, no se exp lica que se abonen cuotas de comisión de
+compromiso, que dejen al Proyecto en de sigualdad de condiciones respecto los
+Programas de los cuales provienen los fondos redireccionados. Se recomienda, en
+cualquier caso, evaluar la oportunidad del pago de este costo financiero, a efectos de no
+incurrir en situaciones desfavorables respec to de los Programas de donde proceden los
+fondos.
+
+===== PDF PAGE 79 =====
+
+79
+10. PAGO DE AMORTIZACIÓN E INTERESES-CP 1192/OC-AR (5)-USD 16.954,69:
+Observaciones:
+a) CP BID Redireccionado Nº 1068/OC-AR: C onforme los términos de Nota UCP
+195/05 del 14/09/2005, en la que el Proye cto cuestiona el importe de USD 10.153,85
+correspondiente a amortización del principal y USD 6.800,84 en concepto de intereses
+devengados por el período 13/12/04-16/09/05 sobre un total de USD 264.000,00 que el
+BID debitara de los recursos  del préstamo redireccionado en concepto de FIV, todo
+esto incluido en el estado de cuenta que oportunamente efectuara el Banco y en Nota
+3061/05 del 26/08/2005 de la Oficina Naci onal de Crédito Público, se solicitó
+oportunamente al Programa informar y doc umentar sobre la respuesta brindada al
+respecto por el BID.
+b) Según Cláusula 2.4 de Estipulaciones Especi ales y artículo 4.05 de Normas Generales,
+el importe correspondie nte a FIV de USD 340.000,00 “…será desembolsado en
+cuotas trimestrales y en lo posible iguales…” . Al respecto, pudo verificarse que USD
+264.000,00 fueron amortizados por este concep to y debitados por el BID de los
+recursos del préstamo, en la misma f echa de la firma del Contrato Ómnibus
+(13/12/2004). Cabe señalar que la cifra me ncionada, representa el 77,65% del total
+presupuestado para este costo financiero.
+Comentarios de la UCP:
+a) Sin comentarios.
+b) Con respecto al cargo FIV de USD 264.000,00 se procedió a devolverle al préstamo
+cedente de fondos (BID 1068/OC-AR) me diante un “desembolso negativo”, y
+acreditárselo al BID 1192/OC-AR-5 en el mism o día. No se cargaron exactamente los
+USD 340.000,00 debido a que se tuvieron en cuen ta los “waivers” de cargos FIV que
+hubo a lo largo de los años (información suministrada por la  Dirección de Deuda
+Pública).
+
+===== PDF PAGE 80 =====
+
+80
+Recomendaciones:
+a) Insistir ante el BID, a efectos de la r ecuperación de los fondos debitados por éste, toda
+vez que, al igual que el Programa, consideramos su no correspondencia.
+b) El Proyecto no acompañó a su respuest a documentación de respaldo, a efectos de
+nuestra correspondiente evaluación. Se r ecomienda a futuro, dejar debidamente
+archivada toda documentación referida a los puntos cuestionados.
+11. PRIMER CONTRATO DE FIDEICOM ISO (26/05/04)-ÚLTIMA MODIFICACIÓN
+(19/08/05):
+Comisión de Crédito:
+Observaciones:
+a) El Capítulo Primero-Cláusula Segunda-Art ículo 2.4-Apartado (vi), del instrumento del
+título, establece “A partir de la fecha de suscri pción del Presente Contrato el
+Fiduciario se obliga cada tres (3) meses a solicitar al Fiduciante-Beneficiario un
+mínimo de USD 8.000.000 (dólares estadounide nses ocho millones) con destino al
+efectivo descuento de créditos a las Ifis…” . “…El incumplimiento por parte del
+Fiduciario de la obligación antedicha determinará el nacim iento de su obligación de
+resarcir al Fiduciante-Beneficiario con una Comisión de Compromiso del 0,75%
+(setenta y cinco centésimos por cien to) anual sobre saldo no desembolsado pagadera
+semestralmente…”.
+Al respecto, no hemos podido verificar de sde los registros la aplicación de la
+penalidad prevista y enunciada precedentemente ya que, desde la fecha de firma del
+primer Fideicomiso (19/08/05) hasta el cie rre del ejercicio 2005, el  Fiduciario ejecutó
+por la suma de USD 831.246,65, importe que representa sólo el 10,39% del mínimo
+exigido para el período septiembre-diciembre/2005.
+b) Del análisis de los registros contab les, hemos podido verificar que con fecha
+01/03/2005, se produce una transferencia desd e la cuenta Nº 1151 “Fondo Rotatorio
+643/OC”, hacia la cuenta Nº 1156 “Fondos 643 a Fideic MII (A)”, por la suma de
+USD 2.000.000,00. Al respecto, se solicitó oport unamente al Programa informar y
+documentar sobre el criterio seguido para la conformación del importe transferido a la
+
+===== PDF PAGE 81 =====
+
+81
+citada cuenta indisponible, y sobre la raz ón de la fecha de dicho movimiento, anterior
+a la de la última enmienda producida el 19/08/2005.
+c) Hemos podido verificar la cifra de US D 441.150,00 transferidos el 02/03/2005, desde
+la última de las cuentas mencionadas en el  párrafo anterior, a la Nº 1167 “Cuenta No
+Operativa MP 0191”. Al resp ecto, del análisis de ejecuciones 2005 cotejadas con los
+respectivos estados financieros del mismo ejercicio, no surge que el titular de dicha
+cuenta, Banco Credicoop Cooperativo Limitado, haya efectuado préstamo alguno.
+Comentarios de la UCP:
+a) Si bien la norma de referencia establ ece el cargo de una comisión de compromiso
+sobre los recursos no desembolsados por el  Fiduciario, fue necesario complementar
+dicha norma con una metodología de aplic ación y una fórmula para el cálculo
+sistemático de tal cargo. En esta dirección, el  Organismo Ejecutor a través de la UCP
+remitió con fecha  27/12/05 al Administ rador Fiduciario, un instructivo sobre el
+particular. Como puede observarse, en f unción de lo previsto por la norma, se
+estableció la percepción semestral de la Comisión de Compromiso considerándose que
+el primer trimestre se extendiera desde la puesta en marcha del Fideicomiso hasta
+concluir el año 2005 -ver apartado b) del instructivo adjunto-, concluyendo el semestre
+el 31 de marzo de 2006.
+Es oportuno destacar las condiciones especiales  que particularizan la ejecución del
+Fideicomiso, uno de cuyos bancos origin antes -Credicoop Coop. Ltdo- ha decidido
+postergar su participación hasta tanto se efectivicen las adecuaciones normativas
+oportunamente solicitadas y en curso de instrumentación. En tal caso, la citada
+institución financiera no ha realizado desembolso alguno en el primer semestre
+aludido, situación que el Or ganismo Ejecutor ha evaluado respecto de mérito y
+oportunidad para la toma de decisión sobre el particular.
+En tal sentido y considerando lo establ ecido en el apartado 11.5 del Contrato de
+Fideicomiso, en especial lo relativo a la f acultad otorgada al Fiduciante-Beneficiario
+de demorar el ejercicio de cualquier derecho, sin que de ello pueda interpretarse como
+renuncia a su ejercicio poste rior, la UCP ha puesto a c onsideración de las nuevas
+
+===== PDF PAGE 82 =====
+
+82
+autoridades del Organismo Ejecutor una not a para comunicación al Fiduciario en la
+que se evalúan las condiciones especiales  antes señaladas y establece acciones
+tendientes a la resolución del tema con base en las normas del Programa. En particular
+se expresa:
+(i) el monto en concepto de Comisión de Compromiso que corresponde imputar a
+cada banco participante por los recursos no desembolsados en el período;
+(ii) la decisión de demorar la percepci ón de los valores determinados hasta la
+aprobación e incorporación a las Normas Operativas de las modificaciones en
+curso;
+(iii) la extensión para los siguientes tres trimestres -marzo/diciembre de 2006- del
+cómputo de los defectos y/o excesos  de desembolsos que se verifiquen
+trimestralmente, determinándose al conclu ir el corriente año, el monto efectivo a
+percibir en concepto de la referida Comisión.
+En la actualidad los contenidos  citados son remitidos a la instancia jurídica pertinente
+para consideración y opinión.
+b) La transferencia se realizó con motivo de existir operaciones presentadas por el
+Fiduciario, a través de los dos Bancos  participantes del Fideicomiso.
+Se adjunta Nota UCP 018/05 de l 03/02/05 en la que se so licita al BCRA realizar la
+transferencia desde la cuenta del Fondo rotatorio del Préstamo 643/OC-AR a la cuenta
+indisponible general del Programa (cuenta c ontable 1156). Luego se  transfirió desde
+esa cuenta a las cuentas indisponibles de los bancos participantes por el importe de las
+operaciones presentadas. (Notas UCP 019/05 y 020/05 donde se solicitan dichas
+transferencias).
+c) Se transfirió para hacer frente a oper aciones presentadas por el Banco Credicoop. En
+el transcurso del ejercicio 2005 no se hizo efectivo el desembolso. El Banco Credicoop
+solicitó modificaciones al contrato. El 12 /01/06 se procedió a solicitar al BCRA, a
+través de NOTA UCP 014/06, real izar la transferencia de l saldo de la cuenta No
+operativa del Banco Credicoop Coop Ltdo (USD 441.150,00) a la cuenta no operativa
+general.
+
+===== PDF PAGE 83 =====
+
+83
+Recomendaciones:
+a) No obstante, el Programa debió reflejar el  monto de la comisión de crédito devengada
+desde el inicio hasta el 31/12/2005. Por lo tanto se recomienda efectuar los ajustes
+contables pertinentes.
+b) La transferencia aludida se realizó con anterioridad a la fecha de la última enmienda
+del primer contrato de fideicomiso, confor me las solicitudes pres entadas por el citado
+banco. No queda claro -según lo s dichos de la UCP- el proceder de dicha entidad
+financiera, que habiendo presentado solicitudes de créditos y firmado los instrumentos
+que hacen al actual sistema, luego inter ponga objeciones a sus textos. Cabe señalar
+que no se tuvieron a la vista los elemento s documentales respecto al citado banco. Se
+recomienda por lo tanto, dejar claramente  asentados y debidamente documentados en
+los legajos contables, los fundament os que respaldan las correspondientes
+registraciones contables.
+c) Efectuar antes de cada cierre de ejercici o, los controles de calid ad correspondientes, a
+efectos de no incurrir en registra ciones que no correspondan a transacciones
+efectivamente realizadas por el Proy ecto, instruyendo también oportunamente al
+BCRA sobre los movimientos a realizar por éste.
+12. OTROS GASTOS:
+Cuenta Contable N° 2912 -Suscripciones y Publicaciones:
+Observaciones:
+a) Órden de Pago N° 3062 (14/04/05)-Mon to $ 3.755,84-Motivo: Aviso publicitario
+Suplemento PYMES (Clarín 04/04/05), Proveedor Naya Comunicaciones SA.
+En relación con la OP señalada, no hemos tenido a la vista:
+i) Documentación alguna que acredite la justificación del gasto;
+ii) Los tres presupuestos de rigor;
+iii) El cuadro comparativo de ofertas y; La correspondiente orden de compra.
+b) Órden de Pago N° 3152 (15/11/05)-Monto $ 7.328,06-Motivo: Aviso publicitario
+Suplemento PYMES. (Clarín Noviembr e/2005)-Proveedor: Zenit Optimedia
+Argentina SA.
+
+===== PDF PAGE 84 =====
+
+84
+En relación con la OP señalada, no hemos tenido a la vista:
+i) Documentación alguna que acredite la justificación del gasto;
+ii) Los tres presupuestos de rigor;
+iii) El cuadro comparativo de ofertas.
+Comentarios de la UCP: El Suplemento PyMes de Clarín es una edición de gran llegada
+y aceptación entre los empresarios PyMe de  todo el país. Por este motivo ha sido
+seleccionado a fin de dar a conoc er los beneficios que otorga  la Subsecretaría Pyme a
+través del Programa. Por otra parte, si bi en se verificó en ambos casos contratar la
+empresa que ofreciera el menor precio (mediante la comparación de presupuestos), se
+omitió documentar adecuadamente la comparaci ón efectuada. Por lo tanto, se tendrá en
+cuenta la observación. Cabe señalar que c on fecha 02/01/06 se puso en vigencia el
+Manual de Normas y Procedimientos Admi nistrativos del Programa. Se espera en
+consecuencia, minimizar las observaciones re lacionadas con procedimientos de compras
+y contrataciones.
+Cuenta Contable Nº 2911 - Cursos de Capacitacion y Exposición:
+Observaciones:
+a) Órden de Pago N° 3042 (25/02/05) - Monto $ 1.185,80-Motivo: Alquiler de
+proyector, servicios audiovisuales a realizar en FERIAGRO-Proveedor:
+Panorama Sistemas Audiovisuales.
+En relación con la OP señalada, no hemos tenido a la vista:
+i) Documentación alguna que acredite la justificación del gasto; y
+ii) La correspondiente orden de compra.
+b) Órden de Pago N° 3041 (25/02/05) - Mo nto $ 1.064,80-Motivo: Alquiler de tres
+computadoras evento FERIAGRO 2005-Proveedor: Alquitel Group.
+En relación con la OP señalada, no hemo s tenido a la vista documentación alguna que
+acredite la justificación del gasto.
+
+===== PDF PAGE 85 =====
+
+85
+c) Órden de Pago N° 3044 (28/02/05) - Mo nto $ 544,50-Motivo: conexión Internet
+FERIAGRO 2005-Proveedor PRIMA S.A.
+En relación con la OP señalada, no hemos tenido a la vista:
+i) Documentación alguna que acredite la justificación del gasto;
+ii) Los tres presupuestos de rigor;
+iii) El cuadro comparativo de ofertas y;
+iv) La correspondiente orden de compra.
+Comentarios de la UCP:
+a) y b) Se reitera lo expuesto en el punto anterior.
+c) Se contrató al proveedor oficial de la muestra, único autorizado para brindar este
+servicio en FERIAGRO. Si bien no se em itió Orden de compra, se firmó un contrato
+formulario. Cabe señalar que con fecha 02 /01/06 se puso en vigencia el Manual de
+Normas y Procedimientos Administrativos del Programa.   Se espera  en consecuencia
+minimizar las observaciones relacionada s con procedimientos de compras y
+contrataciones.
+Recomendaciones: Documentar íntegra y adecuadamente las órdenes de pago emitidas
+por el Proyecto.
+13. GASTOS RENDIDOS POR FONDO FIJO:
+Observaciones: Analizada la totalidad de los comp robantes rendidos a través de los
+fondos fijos y, en razón de no reunir los requisitos fisc ales correspondientes, cabe
+observar los siguientes:
+a) Fondo Fijo Nº 137: Se exponen los resultados de las verificaciones realizadas:
+Factura
+Tipo Nº Fecha Proveedor ($) Observaciones
+"B" 1-599 02/12/04 Pegassus SRL 68,98 Fotocopia de factura enviada por fax
+"A" 1-13977 18,00
+"A" 1-13978 05/01/05 All Contable
+SRL 14,52 No debió aceptarse factura tipo "A
+Total: 101,50
+
+===== PDF PAGE 86 =====
+
+86
+b) Fondo fijo Nº 138: Se exponen los resultados de las verificaciones realizadas:
+Factura
+Tipo Nº Fecha Proveedor ($) Observaciones
+24/01/05 "Kiosco" 2,20-S / N º 24/02/05 Radio Taxi AS 5,80 Documento no válido como factura
+Total: 8,00
+Si bien los montos involucrados en la presente observación no tienen significación
+económica, se efectúa a efectos que el Programa se ajuste a la normativa fiscal vigente
+y a lo establecido por la Re solución Nº 591/94 de la Secr etaría de Hacienda de la
+Nación en su artículo 6 inciso b) referi do a las “Normas para gastos mediante el
+mecanismo de Caja Chica”.
+Comentarios de la UCP:  Se omitió incluir oportunamente en la rendición de la Caja
+Chica, la factura original de Pegasuss SR L por $ 68,98 (correspondien te al servicio de
+remise). No obstante se aclara que la  mencionada factura corresponde a gastos
+efectivamente realizados y que en todos los casos las facturas se abonan una vez
+efectuado el control de los remitos correspondientes. Se tendrá en cuenta la observación.
+Recomendación: Instruir a los usuarios de los gast os observados, resp ecto la normativa
+vigente en la materia, a efectos de su estricto cumplimiento.
+14. GARANTÍAS CONSTITUID AS POR LAS IFIS-SISTEMA DE FIDEICOMISO:
+Observación: Respecto las garantías a portadas por la IFI part icipante (Banco Macro
+Bansud SA), hemos podido verificar desfasajes  producidos entre las fechas de las
+cesiones realizadas de documentos emitidos por el Fiduciario, correspondientes a los
+aportes efectuados por el Fi duciante Beneficiario (fuent e BID), y las de cesiones de
+créditos en garantías adicionales al  crédito descontado, no cumpliéndose con lo
+determinado en la Cláusula Tercera - Punto 3.1.4. (iii) del primer Contrato de
+Fideicomiso, según detalle realizado en los sigu ientes cuadros elaborados a efectos de las
+respectivas comparaciones de fechas:
+
+===== PDF PAGE 87 =====
+
+87
+Préstamos descontados fondos BID
+Pagaré Nº Monto
+BID
+Aportes
+subprestatarios
+(**)
+Fecha
+desembolso a
+Subprestatario
+Cesion de la
+IFI a SIASA
+(*)
+Fecha desembolso a
+SIASA
+B-0000001 40.000,00 7.060,00 18/08/05 02/09/05 26/09/05
+B-0000002 300.000,00 46.829,00 26/07/05 22/09/05 13/10/05
+B-0000003 8.415,00 1.485,00 27/07/05 18/10/05 04/11/05
+B-0000004 57.681,65 12.318,35 07/09/05 24/10/05 11/11/05
+B-0000005 115.000,00 17.000,00 17/10/05 17/11/05 19/12/05
+B-0000006 50.000,00 8.824,00 11/10/05 17/11/05 19/12/05
+B-0000007 50.150,00 8.850,00 29/08/05 17/11/05 19/12/05
+B-0000008 40.000,00 7.060,00 18/08/05 17/11/05 19/12/05
+B-0000009 70.000,00 12.352,99 24/10/05 17/11/05 19/12/05
+B-0000010 100.000,00 0,00 28/10/05 17/11/05 19/12/05
+831.246,65 121.779,34
+(*) Columna que refleja las fechas a ser comparadas con las ces iones de aportes locales del siguiente cuadro. (**)  El Aporte
+del Subprestatario surge de las Solic.de Desembolsos presentadas y forma parte del total del Proyecto por el cual se
+solicita el crédito
+Prestamos cedidos Fondos Aporte Local
+Subpréstamo Nº Aportes IFIs en USD Cesión de la IFI a SIASA  (*)
+10001 35.632,11 02/09/05
+10002 46.664,60 22/09/05
+10003 170.576,64 22/09/05
+10004 57.826,21 22/09/05
+10005 24.961,48 18/10/05
+10006 28.762,94 24/10/05
+10007 14.661,09 24/10/05
+10008 16.655,13 24/10/05
+10009 3.053.663,62 17/11/05
+Total 3.449.403,82
+(*) Columna que refleja las fechas a ser comparadas con la s cesiones de aportes del Fiduciario del anterior cuadro.
+Comentario de la UCP:  Los desfasajes en cuanto las fechas de cesión de créditos en
+garantía por las IFIs, son ante riores a la fecha de cesión de  los créditos descontados, no
+existiendo riesgo sobre los fondos del Programa.
+Recomendación: Ajustarse estrictamente a la normativ a vigente en la materia, elaborada
+por la propia UCP.
+
+===== PDF PAGE 88 =====
+
+88
+15. DESEMBOLSOS EFECTUAD OS AL FIDEICOMISO:
+Fiduciario: Sud Inversiones y Análisis SA
+Observación:
+Según lo informado a través del Cuadro B-C ontinuación, anexo a los estados financieros
+del Programa al 31/12/05, el monto total ad eudado por el Fiduciario SIASA, se imputa
+parte al Activo Corriente y pa rte al Activo no Corriente, c onforme detalle expuesto en el
+siguiente cuadro:
+Saldo adeudado SIASA Fondos BID I ntereses a Devengar Total Pagarés
+Activo Corriente 773.565,00 22.341,18 795.906,18
+Activo no Corriente 57.681.65 1.991,89 59.673,54
+Total 831.246,65 24.333,07 855.579.72
+Por su parte, el Estado de Activos y Pa sivos del Proyecto, no re fleja la exposición
+precedente.
+Del control llevado a cabo sobr e el particular por esta AGN, surge que los montos a
+exponer correctamente en los Activos Corrie nte y No Corriente del Programa, son los
+siguientes:
+Saldo adeudado SIASA Cap ital Intereses Total Pagarés
+Activo Corriente 810.202,63 24.027,21 834.229,84
+Activo no Corriente 21.044.02 305,86 21.349,88
+Totales 831.246,65 24.333,07 855.579,72
+Los intereses incluyen devengados y a devengar.
+Comentario de la UCP:  Se tendrá en cuenta la observa ción y se practicarán los ajustes
+correspondientes.
+Recomendación: Ajustar los importes conforme la  correcta apropiación de activos
+corrientes y no corrientes.
+
+===== PDF PAGE 89 =====
+
+89
+16. DIFERENCIAS DE CAMBIO-ESTADOS FINANCIEROS EXPRESADOS EN
+PESOS:
+Observación: Se han podido verificar errores en la  determinación de las diferencias de
+cambio aplicadas sobre las erogaciones realizad as en pesos por el Proyecto. No obstante,
+cabe señalar que el error habido, no modifica la inform ación expuesta en los estados
+financieros expresados en dólares. En el siguiente cuadro, se expone de manera global la
+situación descripta.
+Cifras expresadas en pesos
+Saldos al 31/12/05Rubros UCP AGN Diferencias
+Bienes de Uso 62.791,36 54.449,50 8.341,86
+Gastos de Administración UCP 8.664.853,04 3.573.091,15 5.091.761,89
+Asistencia Técnica MyPEs II 708.825,01 328.998,39 379.826,62
+Comp. de Capac. T. Gtos. UCP MyPEs I 8.822.451,03 2.910.259,29 5.912.191,74
+Fondo de Asistencia Técnica y Crediticia 782.783,65 258.216,61 524.567,04
+Totales 19.041.704,09 7.125014,94 11.916.689,15
+Comentario de la UCP:  Se tendrá en cuenta la observa ción y se practicarán los ajustes
+correspondientes.
+Recomendación: Efectuar los cálculos de conversión de monedas conforme lo prescripto
+por el BID.
+17. CONTROL DE CUMPLIMIENTO DEL REGLAMENTO DE CRÉDITO-
+DOCUMENTACIÓN BRINDADA POR EL FIDUCIARIO SIASA:
+Efectuadas las tareas de cont rol y análisis de la documen tación en poder del Fiduciario
+SIASA, respecto los préstamos concedidos por  la IFI (Banco Macro Bansud SA) a los
+subprestatarios, todo ello conforme el Regl amento de Crédito (aprobado por Resolución
+MEyP N° 389/05) y del Primer Contrato de Fideicomiso (19/08/2005), se detallan
+seguidamente, algunos puntos de dichos instrumentos:
+Del Reglamento de Crédito, Título VII I-D “Formalización de los Contratos de
+Subpréstamos”, punto 8.06 inciso f) “… las IFIs y el Fiduciario, según corresponda
+deberán abrir y mantener, para cada subprés tamo y/o descuento, un legajo con toda la
+
+===== PDF PAGE 90 =====
+
+90
+información correspondiente a la solicitud, evaluación y docum entación que justifique el
+otorgamiento del subpréstamo o redescuent o en cuestión, así co mo toda documentación
+respaldatoria de la decisión crediticia y de l desembolso de recursos. Dichos legajos
+deberán contener: 1) los informes y demás documentación relacionada con el
+seguimiento del crédito otorgado…”.
+Del primer Contrato de Fideicomiso, Capítu lo II “Términos y condiciones generales del
+Fideicomiso”, Tercera - punto 3.1.3. (i) “…El referido porcentaje deberá ser susceptible
+de verificación contable directamente por el Fiduciante Beneficiario, en cualquier
+momento, en los libros, registros y demás doc umentación que lo evidencie, en poder del
+Subprestatario, sin perjuicio de  la que sobre el particular debe obrar en poder del
+Fiduciario”.
+Observaciones:
+a) No obra en los legajos analizados, docum entación respaldatoria alguna que avale el
+destino dado a los fondos provenientes de l préstamo por parte del Subprestatario.
+Consecuentemente, no hemos podido verificar el cumplimiento de lo determinado en
+el Reglamento de Crédito, punto 6.1, título VI-“Utilizacion de los Recursos del
+Programa”, el que expresa que las financiaciones se deberán destinar a Inversiones y/o
+capital de trabajo necesarios para la ejecución de activ idades de producción, comercio
+y servicios, como así tampoco, determinar  que haya tenido l ugar algunas de las
+restricciones establecidas en el título VII “Restricciones” , punto 7.1 incisos a), b) y c)
+del citado Reglamento, en cuanto al dest ino de los fondos recibidos. Todo ello sin
+perjuicio de lo determinado por dicho reglamento, citado al comienzo de este
+apartado.
+b) No obra entre la documentación suministrada  por el Fiduciario, constancia documental
+alguna, respaldatoria de los aportes realizados por los Subprestatarios.
+c) En los casos detallados en el siguiente  cuadro, se constató la ausencia de
+documentación de respaldo (declaraciones juradas del impuesto sobre los bienes
+personales o manifestaciones de bienes de bidamente certificadas) correspondiente a
+
+===== PDF PAGE 91 =====
+
+91
+los fiadores y/o avalistas de los subprest atarios, que posibilite a cada uno de ellos,
+otorgar los citados respaldos.
+Subprestatario Actividad Fiador
+La Tranquera SA Wilson y Roberto Marconi - Directores
+Los Once SA Agropecuaria Eduardo Pierce - Director
+Carbonoid SA
+Comercialización y distribución de
+esencias y sabores para la industria
+alimenticia
+Alberto Terezani - Director
+Los cargos pertenecen a cada una de las empresas enunciadas en la primera columna.
+Comentario de la UCP:  Se toma nota de las observaci ones y se procederá a requerir al
+Fiduciario la confección de lo s legajos respectivos. La UC P ha iniciado el proceso de
+revisión de la operatoria del Fideicomiso. De los resultados del análisis, como así también
+de las observaciones efectuadas por la AGN,  procederá a actualizar el Manual de
+Procedimientos. Se encuentra en proceso de evaluación una propuesta del sistema de
+monitoreo que permita controla r el destino de los recursos del Programa, como así
+también, la correspondiente documentación de respaldo.
+Recomendación: Respecto a parte de lo s comentarios vertidos por la UCP, es menester
+señalar en primer lugar, que los sistemas de monitoreos para controlar el destino de los
+recursos del Programa, debieran haber es tado implementados antes de la puesta en
+marcha del actual sistema de préstamos. No obstante ello, recomendamos verificar el
+estricto cumplimiento de lo establecido en  el Reglamento de Crédito y en los demás
+instrumentos que conforman la operatoria del Programa.
+18. CONTROL DE CUMPLIMIENTO DEL REGLAMENTO DE CRÉDITO-
+DOCUMENTACIÓN BRINDADA POR EL FIDUCIANTE BENEFICIARIO:
+Subprestatario: Empresa Torreón del Sol SA: Monto del Préstamo: USD
+115.000,00:
+Observaciones: Del análisis de la documentación suministrada por el Programa relativa a
+los antecedentes de la empresa del título, surge:
+a) Si bien el objeto social de la empresa es el de la agricultura, y su radicación se
+encuentra en la Provincia de San Juan, el préstamo que le fue concedido se destinó a la
+
+===== PDF PAGE 92 =====
+
+92
+adquisición de un compresor de origen naci onal marca “Galileo”, para ser afectado a
+la explotación de una estación de venta de gas natural comprimido (GNC), ubicada en
+Paraná, Provincia de Entre Ríos.
+b) El subprestatario no dio cumplimient o a la presentación de los balances
+correspondientes a los tres últimos ejercici os cerrados con antela ción a la fecha del
+otorgamiento del préstamo, dado que el más antiguo de los presentados (ejercicio
+irregular) es el que cerrara con fecha 31/05/2004, ello en virtud que el de comienzo de
+actividades data del 06/06/2003, mientras que el restante (primer ejercicio regular) con
+fecha de cierre 31/05/2005. Presentó adem ás, en forma complementaria, un estado de
+situación patrimonial de carácter extracont able (sin certificación profesional), por el
+período 01/06/2005-31/08/2005.
+c) Con relación al monto de las ventas anuale s verificadas en los instrumentos citados en
+el apartado precedente, se verificó que no se expone venta alguna, en ninguno de los
+dos ejercicios analizados, ni en el período complement ario al último balance
+presentado. Lo comentado, resalta el incump limiento a lo determinado en el punto V,
+apartado 5.02 del Reglamento de Cr édito, que textualmente dice “A efectos del
+cálculo del límite antedicho, se considerará el valor de las ventas anuales promedio
+correspondientes a los tres últimos ejerci cios económicos anuales de la empresa, de
+acuerdo a cifras de sus estados financie ros certificados o in formación contable
+equivalente adecuadamente documentada. En los casos de empresas cuya antigüedad
+sea menor que la requerida para el cálcul o establecido, se considerará el promedio
+proporcional de ventas anuales verificado desde su puesta en marcha.”
+d) En cuanto a los estados de resultados de ambos ejercicios surge que, el cerrado el
+31/05/2004, no tiene movimiento alguno, ya que el único que tiene lugar en dicho
+período, es por la integrac ión del capital social de  $ 12.000,00; mientras que el
+correspondiente al finaliza do el 31/05/2005, no expone cifr a alguna en concepto de
+resultado de ventas. Por otra parte, en es te último, los gastos de explotación alcanzan
+la suma de $ 146.483,28; advirtiéndose ingresos  extraordinarios, producto de la venta
+de bienes de uso (rodados), por la suma  de $ 35.000,00; lo cual reduce el quebranto
+
+===== PDF PAGE 93 =====
+
+93
+final para dicho ejercici o a la suma de $ 111.483,28 y, consecuentemente el Capital
+Social, por el mismo importe.
+e) En tanto el Estado de E volución del Patrimonio Neto al 31/05/2005, refleja aportes
+irrevocables efectuados por los accionistas por la suma de $ 203.800,67, lo que evitó
+llevar a la empresa a situación de liquidación (PN Negativo), en virtud de contrarrestar
+dicho efecto a través del mencionado aporte . No obstante lo comentado, no obra entre
+la documentación suministrada, soporte alguno que permita verificar que el aporte en
+cuestión, se encuentre realizado conforme nor mas legales vigentes en la materia, esto
+es: (i) Acta de Directorio en donde se me ncione la intención de los accionistas a
+realizarlo, (ii) Acta de Asamblea apro bándolo, (iii) Libro Depósito y Registro de
+Acciones y; eventualmente, (iv) Acta Notarial  que ratifique la cifra y le otorgue fecha
+cierta.
+Por todo lo expuesto, se infi ere la inviabilidad para el otorgamiento del crédito,
+calificación que debiera haber surgido al momento de efectuar; tanto el Fiduciario, cuanto
+el Programa, las correspondientes evaluacione s. Asimismo, es menester señalar que el
+préstamo se concedió a “Sola Firma” y por la suma de USD 115.000,00 (más de tres
+veces el Patrimonio Neto declarado al 31/05/2005, consistente en $ 104.317,39).
+Como consecuencia de lo an tedicho, el Programa no cump lió con lo dispuesto en el
+Manual de Procedimientos del Fideicomiso en su apartado “Procedimientos”, en cuanto a
+la emisión del “Resultado de Evaluación”, ad emás de lo establecido en los diferentes
+instrumentos de la operatoria, toda vez que es el Programa quien finalmente autoriza o no
+el otorgamiento de los préstamos.
+Comentarios de la UEP:  Con carácter prioritario, es mene ster clarificar acerca de las
+incumbencias de los distintos actores en el proceso de descuento de operaciones de
+crédito del Fideicomiso MiPyMEsII, según lo establece el Contrato de Fideicomiso y
+anexos:
+El Fiduciante-Beneficiario, la SSEPYMEyDR y la UCP, no evalúan riesgo de crédito de
+las operaciones que se financian con recursos  del Programa. En este sentido, el Contrato
+de Fideicomiso y Reglamento de Crédito establecen:
+
+===== PDF PAGE 94 =====
+
+94
+a) Contrato de Fideicomiso. Cláusula Décimo Cuarta, Art. 14.2 (i):  “ El Fiduciario
+deberá llevar adelante el conjunto de acciones necesarias y convenientes con el objeto
+de seleccionar los Créditos a descont ar, evaluando la capacidad de pago de los
+Subprestatarios y demás términos y condici ones establecidos en  el Reglamento de
+Crédito y supervisar los Créditos hasta su cobro final”.
+b) Reglamento de Crédito: Cláusula IV, Artículo 4.01:  “Podrán solicitar participar
+como Subprestatarios del Programa, las Pers onas físicas o jurídicas  del sector privado
+radicadas en el país que, teniendo habilidad legal para contratar realicen actividades de
+producción primaria o industrial, comercio o prestación de servicios, con exclusión de
+los financieros, que a juicio de las IF Is y el Fiduciario cuenten con suficiente
+capacidad técnica, económica, financiera y legal para llevar a cabo las actividades
+cuyo financiamiento se solicite”. Cláusula IV, Artículo 4.02:  “El Fiduciario deberá
+evaluar la elegibilidad para participar en el Programa, tanto de los potenciales
+Subprestatarios como de los Subpréstamos que le presenten las IFIs para descontar
+dichos Financiamientos en el Fideicomiso” . Cláusula VIII, Apartado D, Artículo
+8.06 (f):  “Las IFIs y el Fiduciario, según co rresponda, deberán abrir y mantener,
+para cada subpréstamo y/o descuento, un legajo con toda la información
+correspondiente a la solicitud, evaluac ión y documentación que justifique el
+otorgamiento del Subpréstamo o redesc uento en cuestión, así como toda
+documentación respaldatoria de la decisión crediticia y del desembolso de recursos.
+Dichos legajos deberán contener asimis mo los informes y demás documentación
+relacionada con el seguimiento del Crédito otorgado…”.
+En relación a las observaciones efectuadas al Subprestatario Torreón del Sol SA, cabe
+señalar:
+(i) Sin perjuicio de las especificaciones que  contiene cada solicitud de desembolso de
+fondos, según se expresa en el Reglamen to de Desembolso de Fondos anexo al
+Contrato de Fideicomiso, la disposición de la citada información por parte del
+Fiduciante-Beneficiario y del BCRA -Artículo 4.19 del Reglamento de Desembolso
+de Fondos-, no implica el ejercicio por part e de ellos de funciones complementarias
+
+===== PDF PAGE 95 =====
+
+95
+de evaluación de riesgo cred iticio de los Subprestatari os que, de acuerdo con lo
+transcripto en el punto anterior, corresponden a la IFI y al Fiduciario.
+Adicionalmente, dada la obligación  del Fiduciario y/o IFI de apertura y disposición
+de legajos con toda la documentación vi nculada con cada operación de crédito, la
+verificación sobre calidad y condiciones para el otorgamiento de cada crédito
+corresponde efectuarla sobre la información obrante en los citados legajos. No
+obstante, se procederá a requerir al Fiducia rio el cumplimiento de la confección y
+mantenimiento actualizado de los legajos según la normativa vigente.
+(ii) En esta dirección, resulta oportuno reco rdar que comparativamente, la figura del
+Fideicomiso vigente en la actual operatori a no ha modificado en lo sustancial la
+metodología de gestión financiera de la primera etapa del Programa (MyPEs II-años
+2000/2001), en la que los bancos participante s surgidos de la licitación de recursos
+otorgaban financiamiento a empresas bajo las condiciones del Programa y
+posteriormente rendían al BCRA sobre lo actuado.
+(iii) La UCP procedió a emitir la “Notificación de Transferencia de Fondos” a SIASA, en
+cumplimiento de lo estipulado en el Manual de Procedimientos. No obstante se
+reitera que la mencionada evaluación no incluye el análisis del riesgo crediticio, toda
+vez que del mencionado manual, no surg e cláusula alguna que establezca tal
+obligación en cabeza del Programa.
+Recomendación: Previo a nuestra sugerencia y, conforme los dichos del auditado
+mencionados precedentemente, es necesario ma nifestar lo expresado, entre otros, por el
+Contrato de Fideicomiso con su última addenda del 19/08/2005, por sus Anexos I
+“Reglamento de Crédito” y II “Reglamento de Desembolsos de Fondos”, y por el Manual
+de Procedimientos del Fideicomiso los que, en sus partes pertinentes, establecen:
+Contrato de Fideicomiso: Capítulo VI-D el Beneficiario-Vigésima-Derechos del
+Fiduciante-Beneficiario: “Sin perjuicio de los demás der echos que se le reconocen en el
+Presente Contrato, el Fiduc iante-Beneficiario tendrá, en tre otros, los siguientes
+derechos:…” “20.7. Realizar el control del cumpli miento de las ob ligaciones asumidas
+por el Fiduciario, solicitando toda la documentación necesaria a tal fin”.
+
+===== PDF PAGE 96 =====
+
+96
+Anexo I-Reglamento De Crédito: V. Criterios de elegibilidad de los Subprestatarios-5.04:
+“El Organismo Ejecutor a través de la UC P se reserva el derecho de rechazar
+irrecusablemente los Subpréstamos que no cump limenten las condiciones o criterios de
+elegibilidad”.
+Anexo II- Reglamento de Desembolsos De Fondos: Capítulo Primero-Desembolso de
+Fondos del Fiduciante-Beneficiario al Fi duciario. (condiciones, formas, tiempo y
+oportunidad de los mismos)-Primero-Desembolso de Fondos: “El Fiduciante-
+Beneficiario aprobará el desembolso de los fondos comprometidos en virtud del Contrato
+de Fideicomiso cada vez que lo solicite el Fiduciario, siempre y cuando este último
+hubiera cumplido o se hallare en cumplimient o regular de las esti pulaciones contenidas
+en el presente Reglamento de Desem bolso de Fondos y/o en el Contrato de
+Fideicomiso…”. Segundo-Condiciones Precedentes al Desembolso de Fondos: “El
+compromiso de desembolso de fondos del Fiduciante-Beneficiario en relación a cada
+desembolso se encuentra condicionado a que , en la fecha de cada desembolso, se
+encuentren cumplidos, se otorgue, se  mantenga, y/o se hub iera verificado el
+cumplimiento, según sea el caso, en tiempo y forma, de los siguientes…” . Atento lo
+mencionado, algunos de dichos hechos, actos, recaudos, requisitos, aportes u obligaciones
+que constituyen con respecto a cada dese mbolso sus condiciones precedentes, son: “2.1.
+Las obligaciones asumidas por el Fiduci ario en el Contrato de Fideicomiso” , “2.2. Los
+requisitos previstos en el presente Reglamento de Desembolso de Fondos” , y “2.4. Las
+condiciones y requisitos previstos en el Regl amento de Crédito, en especial las relativas
+a la elegibilidad de los créditos”.
+Manual de Procedimientos del Fideicom iso: El apartado “ALCANCE” de dicho
+instrumento, señala “Desde el momento en que se informa una operación de crédito
+acordada a un cliente de la I.F.I. (Banco participante del programa) para su aprobación,
+pasando por el análisis de viabilidad de cada operación por parte de S.I.A.S.A., y de la
+S.S.E.Y.M.E., la cesión de la ope ración, la administración en el  Sistema de los Bancos y
+la recepción de las cobranzas en S.I.A.S.A. hasta la cancelación de los fondos aportados
+por el Fiduciante y de la contrapartida local a cargo de las IFIs”.
+
+===== PDF PAGE 97 =====
+
+97
+Conforme lo expuesto precedentemente, de donde surge claramente la competencia del
+Organismo Ejecutor (Fiduciante-Beneficiario) para efectuar controles integrales previos a
+los otorgamientos de los subpréstamos, au torizándolos o no, en cuyo caso dicha decisión
+es inapelable, recomendamos al Proyecto cumplir y hacer cumplir estrictamente al
+Fiduciario, los preceptos establecidos en los documentos que enmarcan las obligaciones y
+derechos de los participantes en el actual sistema de ope ratoria de Fideicomiso, poniendo
+especial énfasis en el control del cumplimie nto irrestricto por part e del subprestatario, de
+los requisitos a integrar para acceder al otorgamiento de créditos.
+19. REGLAMENTO DE CRÉDITO- PUNTO IX-MEDIO AMBIENTE:
+Observación: La UCP no ha procedido al dictado de  las normas, tal como se encuentra
+previsto en el punto 9.01 del citado reglamento.
+Comentario de la UCP: Considerando que el Organismo Ejecutor tiene bajo evaluación
+la definición sobre oportunidades y alcances asociados a la ut ilización de los recursos de
+Asistencia Técnica, y dado qu e el dictado de las normas sobre impacto en el medio
+ambiente de las actividades financiada s por el Programa forma parte de un ítem
+específico a desarrollar c on tales fondos, a la fecha (24/07/2006) la UCP mantiene
+pendiente la realización de la consultoría pertinente para el dictado de normas referido.
+Recomendación: Propender al pronto cumplimiento de lo determinado en el Reglamento
+de Crédito.
+BUENOS AIRES, 21 de septiembre  de 2006.
+
+===== PDF PAGE 98 =====
+
+98
+DECLARACIÓN DE PROCEDIMIENTOS DE AUDITORÍA DEL
+“PROGRAMA GLOBAL DE CRÉDITO PARA LAS MICRO Y PEQUEÑAS EMPRESAS”
+CONTRATOS DE PRÉSTAMOS N° 643/OC, N° 867/SF y 1192/OC-AR BID
+(Ejercicio N° 14 finalizado el 31/12/2005)
+Al Señor Subsecretario de Financiamiento
+del Ministerio de Economía y Producción.
+En virtud de los requerimientos del Banco Inte ramericano de Desarrollo y, de conformidad con
+las Normas de Auditoría Externa emitidas por la Auditoría General de la  Nación, las cuales son
+compatibles con las de aceptación general en la República Argentina para la profesión contable y
+con las recomendadas por la Organización Internac ional de Entidades Fisc alizadoras Superiores
+(INTOSAI), se detallan a continuación los princi pales procedimientos de auditoría aplicados
+sobre bases selectivas, efectuados sobre las diferentes cuentas del Programa:
+- Pruebas de registros;
+- Cotejo de las acumulaciones de las transaccione s del ejercicio contra los documentos que les
+dieron origen -test de comprobantes-;
+- Reconciliaciones bancarias;
+- Pedido de confirmación a terceros;
+- Análisis sobre la admisibilidad de las eroga ciones del proyecto conforme los requerimientos
+del financiamiento externo;
+- Estudio y comprensión de la nueva operatoria de subpréstamos, conforme la reformulación
+efectuada por el Programa.
+- Análisis del redireccionamiento de cuatro  préstamos BID-OC-AR, que aportarán fondos
+adicionales a los del CP BID Nº 1192/OC-AR.
+- Visita al Fiduciario SIASA, a efectos de verificar la doc umentación de respaldo de las
+ejecuciones realizadas por el sistema de Fideicomiso, durante el ejercicio 2005.
+
+===== PDF PAGE 99 =====
+
+99
+- Como así también la aplicación de otros pro cedimientos de auditorí a que se consideraron
+necesarios en las circunstancias.
+El alcance de nuestro examen, comprendió el 100 % de los orígenes de fondos provenientes de
+fuentes 11 (BID) y 22 (Secretaría de hacienda del Ministerio de Economía y Producción) y de las
+aplicaciones del ejercicio finalizado al 31/12/05, conforme el siguiente detalle:
+Cifras expresadas en dólares % correspondiente a
+Categoría de Inversión Ejecución 2005 Muestra AGN Incidencia del
+rubro
+Muestra
+analizada
+Componente de Crédito 831.246,65 831.246,65 27,42% 100,00%
+Componente de Asistencia Técnica 4.521,33 4.521,33 0,15% 100,00%
+Bienes de Uso 5.979,16 5.979,16 0,20% 100,00%
+Gastos UCP 13.732,04 13.732,04 0,45% 100,00%
+Honorarios Consultores 86.992,80 86.992,80 2,87% 100,00%
+Intereses y Comisión de Crédito (1) 2.089.368,32 2.089.368,32 68,91% 100,00%
+Totales 3.031.840,30 3.031.840,30 100,00% 100,00%
+El importe detallado en el cuadro precedente respecto las categorías Intereses y Comisión de
+Crédito, es el efectivamente abonado, en tanto el  monto “Ordenado a Paga r” por El BID, fue de
+USD 2.079.652,98, toda vez que a estos conceptos, relacionados con el CP N° 643/OC-AR, se
+les aplica un procedimiento especial debido a que  dicho préstamo fue or iginalmente pactado en
+“Canasta de Monedas”. La diferencia de cambio entre ambos importes es de USD 9.715,34.
+Debe destacarse que el examen practicado no ha tenido como obje tivo principal la detección de
+hallazgos referidos a desfalcos u otras anomalías similares.
+BUENOS AIRES, 21 de septiembre de 2006.

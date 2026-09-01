@@ -1,0 +1,3818 @@
+
+
+===== PDF PAGE 1 =====
+
+ 
+INFORME ESPECIAL 
+RELEVAMIENTO DE LA ACTIVIDAD FIDUCIARIA DEL SECTOR PÚBLICO 
+NACIONAL 
+ 
+ 
+1. INTRODUCCIÓN - OBJETIVO 
+ 
+En virtud de las funciones conferidas por el artículo 85 de la Constitución Nacional y 
+en uso de las facultades establecidas por el artículo 118 de la ley N° 24.156 la AUDITORIA 
+GENERAL DE LA NACION procedió, por solicitud de las Comisiones Parlamentaria Mixta 
+Revisora de Cuentas de la Administración y de Presupuesto y Hacienda de ambas Cámaras 
+del Honorable Congreso de la Nación a través de su Resolución Conjunta N° 1/04 y Anexo, a 
+efectuar un relevamiento de la actividad fiduciaria llevada adelante por el Estado Nacional, 
+con el alcance que se define en el apartado siguiente. 
+ 
+ 
+2. ALCANCE  
+ 
+Nuestro trabajo consistió en el relevamiento de los datos más destacados relacionados 
+con los fondos fiduciarios del sector público y por lo tanto no constituyó un examen de 
+auditoría de acuerdo con normas de auditoría externa vigentes. A través del relevamiento 
+efectuado sobre los fideicomisos operativos al 30/09/04, hemos tomado conocimiento de los 
+aspectos más importantes en materia económica y financiera como así también en relación al 
+volumen de sus operaciones, mecanismos de control administrativo y resguardo de los 
+patrimonios fideicomitidos. 
+ 
+La tarea de relevamiento comprendió principalmente la identificación de los Fondos 
+Fiduciarios Públicos, el análisis de la normativa aplicable y la compilación de datos 
+
+===== PDF PAGE 2 =====
+
+ 2 
+económicos-financieros relevantes, a través de los procedimientos que se detallan a 
+continuación:  
+ 
+1.  Revisión en el Boletín Oficial de leyes, decretos y resoluciones relacionadas con los 
+fondos fiduciarios, durante el período 1997 a 2004. 
+2. Análisis de Ley de Presupuesto y Cuenta de Inversión años 2001 a 2004. 
+3. Relevamiento en áreas de administración fiduciaria de Banco de la Nación Argentina 
+(BNA) y de Inversión y Comercio Exterior (BICE) a efectos de determinar los 
+fideicomisos del sector público en el universo de fideicomisos administrados por 
+dichas entidades. 
+4. Entrevistas con los funcionarios del BNA y BICE en calidad de fiduciarios de los 
+fideicomisos públicos. 
+5. Entrevista con funcionarios de los Consejos de Administración de los fondos 
+fiduciarios relevados. 
+6. Análisis normativo de los fideicomisos relevados. 
+7. Análisis de los contratos de fideicomiso. 
+8. Análisis de los estados contables al 31/12/03 o último cerrado en el año 2003. 
+9. Revisión de estados contables anteriores al cierre del año 2003. 
+10. Consolidación bruta de los resultados del ejercicio finalizado en el año 2003, 
+detallando los resultados acumulados que incluyen los del ejercicio. 
+11. Consolidación de cifras incluidas en los Estados de Orígenes y Aplicaciones de 
+Fondos al 31/12/03, a efectos de suministrar información relacionada con los aportes, 
+recursos autogenerados, financiamiento y erogaciones de los fondos fiduciarios 
+relevados. 
+12. Consolidación de gastos de administración y/o comisiones al fiduciario para el 
+ejercicio 2003. 
+13. Solicitud a los Consejos de Administración y fiduciarios, de información económica, 
+financiera, de gestión y presupuestaria disponible al 30/09/04.  
+14. Análisis de información financiera al 30/09/04. 
+
+===== PDF PAGE 3 =====
+
+ 3 
+15. Consolidación de saldos incluidos en las posiciones financieras de los fondos 
+fiduciarios al 30/09/04, desagregadas en disponibilidades, inversiones y tenencia de 
+títulos públicos. 
+16. Análisis de los informes de gestión suministrados.  
+17. Análisis del Decreto 906/2004. Creación del Consejo Consultivo de Inversiones de los 
+Fondos Fiduciarios del Estado Nacional. 
+18. Solicitud a Consejos de Administración y Fiduciarios de instrucciones recibidas del 
+Consejo Consultivo de Inversiones de los Fondos Fiduciarios del Estado Nacional, 
+creado por el Dto. 906/04. 
+19. Análisis de bibliografía existente sobre fideicomisos y fondos fiduciarios públicos 
+ 
+Las tareas realizadas se aplicaron sobre los fideicomisos públicos nacionales, sin que se 
+incluyan en este informe los de carácter provincial o municipal, los fondos fiduciarios que 
+siendo administrados por empresas o entidades financieras públicas, o con fondos provistos 
+por éstas, tengan objetivos de carácter privado, ni los constituidos por aplicación del artículo 
+35 bis de la Ley de Entidades Financieras. 
+ 
+Las tareas propias del objetivo del presente trabajo han sido ejecutadas entre el 1 de 
+octubre de 2004 y el 15 de diciembre de 2004. 
+ 
+ 
+3. ACLARACIONES PREVIAS 
+ 
+3.1. Conceptos Generales sobre Fideicomisos  
+ 
+En el ordenamiento jurídico argentino, y según el artículo 1º de la ley 24.441, habrá 
+fideicomiso cuando "una persona (fiduciante) transmita la propiedad fiduciaria de bienes 
+determinados a otra (fiduciario) quien se obliga a ejercerla en beneficio de quien se designe en 
+el contrato (beneficiario) y a transmitirlo al cumplimiento de un plazo o condición al 
+fiduciante, al beneficiario o al fideicomisario". 
+
+===== PDF PAGE 4 =====
+
+ 4 
+ 
+Los bienes fideicomitidos constituyen un patrimonio separado del patrimonio del 
+fiduciario y del fiduciante, y pueden comprender inmuebles, muebles registrables o no, 
+dinero, títulos valores y otros derechos. El contrato de fideicomiso debe contener la 
+individualización de los bienes objeto del mismo. En caso de no resultar posible tal 
+individualización a la fecha de la celebración del fideicomiso, debe constar la descripción de 
+los requisitos y características que deberán reunir los bienes.  
+ 
+El contrato de fideicomiso debe contener la determinación del modo en que otros bienes 
+podrán ser incorporados al fideicomiso; el plazo o condición a que se sujeta el dominio 
+fiduciario, (el que no podrá durar más de treinta años desde su constitución), el destino de los 
+bienes a la finalización del fideicomiso y los derechos y obligaciones del fiduciario y el modo 
+de sustituirlo si cesare. 
+ 
+En el contrato de fideicomiso intervienen cuatro partes: 
+ 
+• Fiduciante: es quien transmite la propiedad fiduciaria de los bienes. 
+• Fiduciario: es quien recibe los bienes del fideicomiso, con las facultades de un 
+propietario, y asume la obligación de cumplir con ellos una determinada 
+administración o gestión. 
+• Beneficiario: es quien recibe los beneficios producidos por la gestión o 
+administración de los bienes fideicomitidos. 
+• Fideicomisario: es a quien deben entregarse los bienes vencido el plazo o cumplida 
+la condición a la que se subordina la existencia del contrato de fideicomiso. 
+ 
+
+===== PDF PAGE 5 =====
+
+ 5 
+Esquema general de un Fideicomiso: 
+ 
+        
+                    
+ 
+ 
+ 
+                   
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+El fiduciario deberá cumplir las obligaciones impuestas por la ley o la convención con la 
+prudencia y diligencia del buen hombre de negocios que actúa sobre la base de la confianza 
+depositada en él. 
+ 
+Los bienes fideicomitidos quedarán exentos de la acción singular o colectiva de los 
+acreedores del fiduciario. Tampoco podrán agredir los bienes fideicomitidos los acreedores  
+del fiduciante,  quedando  a  salvo  la acción de fraude. Los acreedores del beneficiario podrán 
+ejercer sus derechos sobre los frutos de los bienes fideicomitidos y subrogarse en sus 
+derechos. 
+ 
+El fiduciario deberá llevar una contabilidad separada por cada fideicomiso que 
+administre, debiendo rendir cuentas de su gestión al beneficiario por lo menos una vez al año. 
+ 
+Los fideicomisos pueden clasificarse en fideicomisos de administración, de inversión, de 
+seguro, testamentario, de garantía, financiero, inmobiliario o público, no siendo esta 
+enunciación limitativa. La ley 24.441 hace referencia a los fideicomisos en general, y sólo 
+ 
+FIDUCIARIO 
+Posee la propiedad 
+fiduciaria. 
+                  
+ 
+FIDUCIANTE 
+Transmite la 
+propiedad 
+fiduciaria de los 
+bienes. 
+ 
+FIDEICOMISO 
+Patrimonio separado 
+ 
+BENEFICIARIOS 
+Recibe el beneficio 
+de la propiedad. 
+ 
+FIDEICOMISARIO 
+Recibe el bien al 
+finalizar el fideicomiso. 
+
+===== PDF PAGE 6 =====
+
+ 6 
+contiene disposiciones específicas sobre el fideicomiso financiero. La Comisión Nacional de 
+Valores denomina “fideicomisos ordinarios públicos” a los fideicomisos privados no 
+financieros bajo su contralor, los que no deben confundirse con los fideicomisos sujetos a 
+relevamiento en este informe.  
+ 
+3.2. Conceptos sobre Fideicomisos o Fondos Fiduciarios Públicos 
+ 
+A partir de la sanción de la Ley 24.441 surgieron en la Administración Pública Nacional 
+los denominados Fondos Fiduciarios creados por leyes o decretos, sin un esquema jurídico de 
+tipología conocida en nuestro sistema. En cuanto a la terminología, puede observarse que las 
+normas que crean estos fondos utilizan alternativamente las expresiones fideicomiso, propio 
+de la ley mencionada, y fondo fiduciario.  
+ 
+En sus comienzos los fideicomisos creados por el Estado Nacional fueron iniciativas 
+destinadas, de acuerdo a los considerandos de las normas de creación, a solucionar problemas 
+de naturaleza concreta, tal es el caso del Fondo Fiduciario para el Desarrollo Provincial, que 
+fue constituido como herramienta para la ejecución, de reformas en las administraciones 
+provinciales en el marco de las circunstancias ocurridas a partir de las decisiones de política 
+económica adoptadas por los Estados Unidos Mexicanos a partir del 20 de diciembre de 1994, 
+o del Fondo Fiduciario de Capitalización Bancaria, creado con el objetivo de fortalecer el 
+sistema financiero ante los efectos de las circunstancias referidas.  
+ 
+Desde entonces la creación de fondos fiduciarios por parte del Estado Nacional ha 
+observado un importante crecimiento en el número de fondos y en el volumen de los recursos 
+de que disponen. 
+ 
+   
+ 
+ 
+
+===== PDF PAGE 7 =====
+
+ 7 
+Evolución de la Cantidad de Fideicomisos Públicos desde su 
+creación
+0
+5
+10
+15
+20
+1994 199519961997 19981999 200020012002 2003
+ 
+ 
+Cálculo de Recursos en el Presupuesto Nacional – valores históricos en $(000):  
+ 
+ 2001 2002 2003 2004 
+Recursos de la Administración 
+Nacional 46.412.634.- 39.895.339.- 62.268.145.- 62.012.238.- 
+Recursos Fondos Fiduciarios 616.852.- 1.422.867.- 2.230.385.- 3.151.398.- 
+ 
+Fuente: Ley de Presupuesto excepto Recursos Fondos Fiduciarios del ejercicio 2001 (crédito original según Cuenta de 
+Inversión) 
+ 
+No existe una definición legal precisa del fideicomiso público, sin embargo existe 
+literatura al respecto, como es el caso de Kiper y Lisoprawski, de los cuales tomamos su 
+definición: 
+ 
+“El fideicomiso público es un contrato por medio del cual la administración, por 
+intermedio de alguna de sus dependencias, en carácter de fiduciante, transmite la propiedad de 
+Evolución de la relación Recursos Totales/Recursos de los FF en el 
+Presupuesto
+5,08%
+3,58%3,57%
+1,33%
+0,0%
+2,0%
+4,0%
+6,0%
+2001 2002 2003 2004
+
+===== PDF PAGE 8 =====
+
+ 8 
+bienes de dominio público o privado del estado, o afecta fondos públicos a un fiduciario para 
+realizar un fin de interés público.” 
+ 
+De esta definición se desprenden dos características distintivas de los fideicomisos 
+públicos:  
+ 
+a) Objeto fiduciario: bienes de dominio público o privado del estado, tales como dinero en 
+efectivo, derechos derivados de la recaudación impositiva a través de tasas, fondos 
+provenientes de organismos internacionales de crédito, acciones, títulos de deuda, 
+inmuebles, etc.  
+ 
+b) Finalidad fiduciaria: el fomento económico y social y la satisfacción de las necesidades 
+generales. 
+ 
+En el fideicomiso de la Administración Pública la aplicación de las normas legales que 
+lo rigen escapa, en algunas ocasiones, del ámbito de la legislación puramente privada 
+mencionada en 3.1. La constitución, modificación y extinción del fideicomiso público tiene 
+origen en el derecho administrativo, sin perjuicio de la aplicación de la ley citada, en todo lo 
+que no se oponga a aquella normativa. Este tipo de fideicomiso puede, en ocasiones, coincidir 
+con el de la referida ley o bien tomar alguno de sus contenidos, pero con características y 
+adaptaciones que responden a las necesidades de la Administración en el caso concreto. 
+Asimismo no existe una normativa general que establezca los caracteres y condicionantes de 
+los fideicomisos públicos, contándose con una legislación conformada básicamente por las 
+disposiciones legislativas o administrativas específicas que disponen la creación de 
+fideicomisos públicos, acordes con la finalidad de interés público que los mismos deberían 
+cumplir, además de disposiciones vinculadas con aspectos presupuestarios. 
+ 
+Si bien el fideicomiso público se apoya en una estructura de tipo contractual, definiendo 
+la relación fiduciario-fiduciante, existen diferencias con los fideicomisos privados. En el 
+Público, la celebración del contrato es una fase dentro de un proceso que se inicia a través de 
+
+===== PDF PAGE 9 =====
+
+ 9 
+una norma que fija sus objetivos y características, determina las condiciones y términos a los 
+que se ajustará el contrato correspondiente y regula la constitución, modificación, 
+organización, funcionamiento y extinción del fideicomiso. 
+ 
+Puede entenderse que la utilización de la figura del fideicomiso público como 
+herramienta de las actividades del Estado Nacional resulta aplicable cuando, frente a ciertas 
+necesidades sociales o económicas, resulta conveniente separar un patrimonio que esté sujeto 
+a reglas diferentes debido a que se trata de actividades temporales, fáciles de identificar y de 
+aislar de cualquier otro tipo de relación administrativa, y de considerar en un presupuesto de 
+egresos o ingresos 
+ 
+Las partes que intervienen habitualmente en el fideicomiso público son: 
+ 
+• Fiduciante:  
+El Estado Nacional, directamente o a través de las dependencias designadas, es el 
+titular de los bienes objeto de la transmisión fiduciaria. 
+ 
+• Fiduciario:  
+Entidad pública o privada a quien se le transmite la propiedad fiduciaria de los bienes 
+y asume la obligación de cumplir con ellos una determinada gestión o administración. 
+Generalmente el fiduciario es una entidad financiera pública.  
+ 
+• Comité de Administración, de Dirección, Técnico o similares:  
+Este órgano generalmente es el responsable del cumplimiento de los objetivos 
+específicos del contrato, o bien de la aprobación de las acciones ejecutadas por el 
+fiduciario. Su existencia dependerá de lo dispuesto en la ley o el acto administrativo de 
+creación del fideicomiso, no estando previsto como participante del contrato en la ley 
+24.441. Sus facultades, obligaciones y conformación se hallan estipuladas en el 
+contrato de fideicomiso.  
+ 
+
+===== PDF PAGE 10 =====
+
+ 10
+ 
+• Beneficiarios: 
+Conforman los destinatarios de la acción de fomento, es decir, los agentes o sectores 
+económicos que recibirán los beneficios producidos por el fideicomiso dado que el 
+estado considera que es necesario apoyarlos por diferentes motivos. También puede 
+serlo el mismo Estado. 
+ 
+• Fideicomisario: 
+En términos generales se prevé al Estado Nacional como fideicomisario, en el caso de 
+existir remanentes de bienes a la fecha de extinción del contrato. 
+ 
+Esquema general de un fideicomiso público 
+ 
+ 
+        
+                    
+ 
+ 
+ 
+                   
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.3. Normas aplicables a los Fideicomisos Públicos 
+ 
+Si bien se mencionó en 3.2. que no existe una norma general aplicable a los 
+fideicomisos públicos, en los últimos años se han emitido algunas disposiciones que cubren 
+ 
+FIDUCIARIO 
+ 
+                  
+ 
+FIDUCIANTE 
+ 
+FIDEICOMISO  
+ 
+BENEFICIARIOS 
+ 
+ 
+FIDEICOMISARIO 
+ 
+COMITÉ TECNICO, 
+CONSEJO DE DIRECCION 
+O ADMINISTRACION 
+
+===== PDF PAGE 11 =====
+
+ 11
+ciertos aspectos comunes. En tal sentido, la Ley 25.565, sancionada el 6/03/02, dispone la 
+incorporación de los Fondos Fiduciarios integrados total o mayoritariamente con bienes y/o 
+fondos del Estado Nacional como comprendidos dentro del Sector Público Nacional 
+alcanzado por las disposiciones de la Ley 24.156. Adicionalmente la Ley 25.565 establece 
+que los Fondos Fiduciarios integrados mayoritariamente con bienes y/o fondos del Estado 
+Nacional no podrán tener estructura de personal permanente y temporario a su cargo por lo 
+que el personal de los Fondos Fiduciarios, sus Consejos de Administración y de los 
+Fideicomisos de Asistencia deberán integrar las plantas de personal de las Jurisdicciones y/o 
+Entidades de las cuales dependen los citados Fondos Fiduciarios. Dispone además que los 
+Fondos Fiduciarios podrán financiar, a través de transferencias, los gastos en personal de las 
+Jurisdicciones y Entidades involucradas 
+ 
+La ley citada precedentemente establece que la creación de un fondo fiduciario 
+integrado total o parcialmente con fondos del Estado Nacional requiere el dictado de una ley. 
+Por decreto 2209 del 30/10/02 se estableció la excepción a esta ley para el Banco de la Nación 
+Argentina y el Banco de Inversión y Comercio Exterior, atento al carácter de bancos 
+comerciales de los mismos y con referencia a aquellos fideicomisos que han organizado con 
+destino al otorgamiento de asistencia crediticia dentro de los límites de su objeto social. El 
+decreto señalado también exceptúa al Fondo Fiduciario de Asistencia a Entidades Financieras 
+y de Seguros en razón de que la organización de fideicomisos como instrumentos financieros 
+permite estructurar modelos de préstamos o garantías respaldatorios de la asistencia que 
+presta el citado fondo. 
+ 
+En materia presupuestaria, a partir de la Ley 25.152 del 25/8/99 se dispuso la inclusión 
+de los flujos financieros para la constitución y uso de los Fondos Fiduciarios en la ley de 
+presupuesto de la administración pública nacional. La Oficina Nacional de Presupuesto ha 
+preparado instructivos específicos para la confección de proyectos de presupuesto, en el que 
+se establece como información a presentar el plan de acción, con una breve descripción de los 
+objetivos y tareas propuestas para el año; las proyecciones de la cuenta ahorro-inversión-
+financiamiento; las principales fuentes y aplicaciones financieras; los principales proyectos a 
+
+===== PDF PAGE 12 =====
+
+ 12
+financiar por el fondo con ubicación geográfica y estado de ejecución; y la desagregación de 
+la planta de personal del órgano administrador del Fondo Fiduciario. Asimismo establece las 
+pautas de la información a presentar sobre la ejecución económico-financiera de los mismos: 
+cuenta ahorro-inversión-financiamiento, ejecución de caja, remuneraciones, composición del 
+gasto, proyectos financiados, estado de situación patrimonial y estado de origen y aplicación 
+de fondos. En caso de desviaciones de importancia, las autoridades administradoras de los 
+Fondos Fiduciarios deben adjuntar un informe explicativo de la situación. 
+ 
+Con fecha 20/7/04 se sancionó el Decreto 906 que crea el Consejo Consultivo de 
+Inversiones de los Fondos Fiduciarios del Estado Nacional, en el ámbito de los Ministerios de 
+Economía y Producción y de Planificación Federal, Inversión Publica y Servicios, quien 
+deberá instruir sobre la inversión de las disponibilidades líquidas sin aplicación temporaria de 
+los fondos fiduciarios referidos. Dichas disponibilidades deberán ser invertidas en:  
+ 
+• instrumentos financieros emitidos por entidades públicas o privadas, cuyo destino 
+directo o indirecto sea la financiación de obras de infraestructura emprendidas total o 
+parcialmente por el Estado Nacional, los gobiernos provinciales y municipales y el 
+Gobierno de la Ciudad Autónoma de Buenos Aires, siempre que los citados 
+instrumentos sean susceptibles de negociación en los mercados secundarios, y  
+• letras emitidas por la Tesorería General de la Nación, con carácter transitorio por un 
+plazo que no podrá superar los noventa (90) días. 
+ 
+A estos efectos no resultarán aplicables las normas de administración financiera 
+relativas a las disponibilidades líquidas de los fondos fiduciarios que temporariamente no se 
+hallaren asignadas. Asimismo, el Consejo Consultivo queda exceptuado de las normas que 
+impidan el ejercicio de las facultades encomendadas al mismo. 
+ 
+
+===== PDF PAGE 13 =====
+
+ 13
+ 
+4. RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS 
+ 
+4.1 Los fideicomisos públicos relevados que se hallan operativos al 30.09.04 son los que 
+se detallan a continuación:  
+ 
+1. Fondo Fiduciario para el Desarrollo Provincial (Dto. 286/95) 
+2. Fideicomiso de Tasa sobre Gasoil (Dto. 976/01) 
+3. Fondo Fiduciario para la Reconstrucción de Empresas (Dto. 342/00) 
+4. Fideicomiso de Asistencia al Fondo Fiduciario Federal de Infraestructura Regional 
+(Dto. 924/97) 
+5. Fondo Fiduciario Federal de Infraestructura Regional-FFFIR (Ley Nº 24.855) 
+6. Fondo Fiduciario-Convenio Secretaría de Hacienda y Banco de Inversión y Comercio 
+Exterior ( Res. MEyOSP 557/94). 
+7. Fideicomiso de Infraestructura Hídrica ( Dto. 1381/01) 
+8. Fondo Fiduciario para Subsidios de Consumos Residenciales de Gas (Ley Nº 25.565) 
+9. Fondo Fiduciario para el Transporte Eléctrico Federal (Resolución Nº 657/99 de la 
+Secretaría de Energía) 
+10. Fondo Fiduciario para la Promoción Científica y Tecnológica (Dto. 1331/96) 
+11. Programa de Fideicomisos - MyPES II (Dto. 1118/03) 
+12. Fondo Fiduciario de Capital Social (Dto. 675/97) 
+13. Fondo para la Recuperación de la Actividad Ovina (Ley Nº 25.422) 
+14. Fondo de Garantía para la Micro, Pequeña y Mediana Empresa  - FOGAPYME – (Ley 
+Nº 25.300 – Dto. 1074/2001) 
+15. Fondo Nacional de Desarrollo para la Micro, Pequeña y Mediana Empresa – 
+FONAPYME – (Ley Nº 25.300 – Dto. 1074/2001) 
+16. Fondo FIT/AR en Fideicomiso (Acuerdo de Cooperación Técnica entre el Instituto 
+Nacional de la Propiedad Industrial de Argentina -INPI- y la Organización Mundial de 
+la Propiedad Intelectual -OMPI- del 15/05/98) 
+ 
+
+===== PDF PAGE 14 =====
+
+ 14
+En el Anexo I se expone un detalle de los fideicomisos mencionados mientras que en el 
+Anexo II se describen las características principales de cada uno de ellos. 
+ 
+En el siguiente gráfico se puede observar la distribución de los fideicomisos 
+mencionados de acuerdo a las jurisdicciones dentro de la Administración Nacional de las 
+cuales dependen: 
+ 
+Distribución Fideicomisos por Dependencia
+Min. Educación
+ 1
+Min. Desarrollo 
+Social
+ 1
+Min. Economía y 
+Producción
+ 8
+Min. Planificación 
+Federal, Inv. Pública 
+y Servicios
+ 6
+ 
+ 
+4.2 En la mayoría de los fideicomisos el fiduciario es el BNA, excepto en el Convenio 
+Secretaría de Hacienda con el BICE, en el cual el fiduciario es este último, MYPES II, donde 
+el fiduciario es Sud Inversiones y Análisis S.A., y en el Fideicomiso de Capital Social cuyo 
+fiduciario es Foncap S.A.. Para el caso de FIT/AR, según el Anexo B del Acuerdo de 
+Cooperación Técnica entre el INPI y la OMPI, se define como administrador de los fondos 
+aportados a esta última. 
+ 
+4.3 Los aportes realizados por el Estado Nacional en calidad de fiduciante se componen 
+principalmente de: 
+• Partidas presupuestarias de la Tesorería General de la Nación. 
+• Recaudación y tasas específicamente creadas. 
+• Acciones de empresas privatizadas 
+• Fondos provenientes de préstamos de Organismos Internacionales de Crédito 
+• Otros bienes o derechos del Estado Nacional (inmuebles, títulos, etc.) 
+• Utilidades 
+
+===== PDF PAGE 15 =====
+
+ 15
+ 
+4.4 Los fondos que reciben los fideicomisos provenientes de préstamos contraídos por el 
+Estado Nacional ante organismos internacionales como el BIRF o BID, están siendo 
+cancelados con los fondos de los mismos fideicomisos. 
+ 
+4.5 En los fideicomisos se pueden distinguir entre los objetivos más frecuentes el 
+financiamiento a las provincias, entidades financieras o a sectores de la actividad productiva e 
+industrial así como también la financiación de obras públicas y el pago de subsidios a una 
+determinada actividad.  
+ 
+4.6 Entre los principales beneficiarios, además del Estado Nacional, se encuentran las 
+provincias, los contratistas de obras, los concesionarios y las empresas de un determinado 
+sector. 
+ 
+4.7 Los fideicomisos no cuentan con plan de cuentas ni criterios contables comunes a los 
+fondos fiduciarios públicos, que permitan la homogeneización de la información a efectos de 
+hacerla comparable. En general no se encuentra prevista la obligación de que los estados 
+contables de los fondos fiduciarios sean auditados por auditor externo, ni que sean publicados 
+periódicamente. Las cifras que se incluyen en este informe y anexos no han sido auditadas por 
+la AGN, y en solo tres fideicomisos (Secretaría de Hacienda-BICE, FFFIR y Fondo 
+Fiduciario de Capital Social), se cuenta con informe de auditor externo en sus últimos estados 
+contables anuales disponibles.  
+ 
+4.8 Se han observado discrepancias en los criterios utilizados para la preparación de la 
+información contable de los fideicomisos analizados, aún cuando en la mayoría de los casos 
+es el BNA el que cumple tal función. Asimismo se verificaron atrasos en los registros 
+contables, producidos por la precariedad de los sistemas de registración contable empleados. 
+En algunos fondos fiduciarios la registración contable se encontraba a cargo de profesionales 
+externos al fiduciario, contratados en cumplimiento con las decisiones adoptadas por los 
+respectivos órganos de administración.  
+
+===== PDF PAGE 16 =====
+
+ 16
+ 
+4.9 El Fondo Fiduciario Federal de Infraestructura Regional presenta estados contables 
+preparados por el Consejo de Administración con informe de auditor externo al 31/12/03, que 
+contienen diferencias significativas con el estado de situación patrimonial y de resultados 
+preparados por el BNA en calidad de fiduciario a la misma fecha. Las principales diferencias 
+se exponen en anexo II 5. 
+ 
+4.10 En el siguiente cuadro se expone el total de los orígenes de fondos, en conceptos de 
+aportes, préstamos y los generados por los fideicomisos, como así también los recursos 
+aplicados, acumulados desde el inicio de las operaciones de cada uno de ellos. Las cifras 
+expuestas surgen de los Estados de Origen y Aplicación de Fondos preparados por los 
+fiduciarios u órganos de administración. Teniendo en cuenta que parte de la información 
+suministrada se encontraba a valores históricos se aplicó sobre los mismos un cálculo 
+estimado de los efectos de la variación de precios desde diciembre de 2001 hasta febrero de 
+2003 (según lo establecido por el Decreto 664/03) a efectos de homogeneizar los importes 
+expuestos. En anexo III se informan los datos desagregados por fideicomiso 
+ 
+CONCEPTO 
+CIFRAS 
+ACUMULADAS 
+AL 31/12/03 
+ 
+Aportes y recursos  en $(000) % 
+BID-BIRF y otras ent.fin. 9.669.237 27,3 
+Venta de acciones 6.898.163 19,5 
+Aporte del Tesoro Nacional 5.924.837 17,7 
+Tributarios (Tasas) 4.460.480 12,6 
+Rentas / Intereses 3.982.803 11,2 
+Reembolso de Préstamos y otros créditos 3.209.765 9,1 
+Otros  (1) 934.882 2,6 
+Ingresos concesionarios 28.128 0,1 
+TOTAL 35.108.295 100,0 
+
+===== PDF PAGE 17 =====
+
+ 17
+ 
+CONCEPTO 
+CIFRAS 
+ACUMULADAS 
+AL 31/12/03 
+ 
+Aplicaciones en $(000) % 
+Prestamos 16.624.129 51,9 
+Suscripción de Bonos del Estado Nacional 4.394.000 13,7 
+Pagos BID y BIRF y otros 3.941.293 12,3 
+Obras,  concesiones y subsidios 2.860.315 8,9 
+Aportes al Tesoro 2.716.976 8,5 
+Aportes a Fondos Fiduciarios 935.143 2,9 
+Otras (2) 521.807 1,6 
+Aportes al BNA 25.197 0,1 
+TOTAL 32.018.860 100,0 
+   
+ 
+(1) Se incluyen conceptos como diferencias de cambio y comisiones, entre los más importantes. 
+(2) Se incluyen gastos varios, comisiones y compra de bienes de uso.  
+ 
+4.11 Del relevamiento realizado sobre los datos incluidos en los Estados Contables al 
+31/12/03 y al 30/09/04 provistos por los fiduciarios u órganos de administración, se informan 
+las cifras consolidadas de las disponibilidades e inversiones líquidas, que contienen saldos en 
+cuenta corriente y en caja de ahorro, las inversiones en plazo fijo, en fondos comunes de 
+inversión y en títulos públicos con cotización:  
+ 
+ 
+Concepto Saldo al 31/12/03 Saldo al 30/09/04 
+ $(000) $(000) 
+Disponibilidades       430.945.-      546.365.- 
+Inversiones    1.820.464.-   2.322.365.- 
+Títulos Públicos   518.833.- 538.745.- 
+          TOTAL    2.770.242.-   3.407.475.- 
+ 
+En anexo IV se informan las cifras desagregadas de cada uno de los fideicomisos analizados. 
+ 
+4.12 En el siguiente cuadro se informa el total de los resultados del ejercicio y los 
+resultados acumulados de los fideicomisos, cuyos valores surgen de los estados contables al 
+
+===== PDF PAGE 18 =====
+
+ 18
+31/12/03 provistos por los fiduciarios u órganos de administración. Teniendo en cuenta que 
+parte de la información suministrada relativa a los resultados acumulados se encontraba a 
+valores históricos se aplicó sobre los mismos un cálculo estimado de los efectos de la 
+variación de precios desde diciembre de 2001 hasta febrero de 2003 (según lo establecido por 
+el Decreto 664/03) a efectos de homogeneizar los importes expuestos. Asimismo se expresa el 
+total de los gastos administrativos del período, que incluye las comisiones percibidas por el 
+fiduciario:  
+ 
+Concepto Cifras en $(000) 
+Resultado del Ejercicio finalizado el 31/12/03:                  432.115.- 
+Gastos de Administración /comisiones al fiduciario al 31/12/03                 -21.299.- 
+Total de Resultados acumulados al 31/12/03:            8.822.072.- 
+ 
+En Anexo V se incluye cuadro con los datos de cada fideicomiso analizado. 
+ 
+Del total de resultados acumulados al 31/12/03, ($000) 9.135.237.- corresponden al 
+Fondo Fiduciario para el Desarrollo Provincial, representado principalmente por la diferencia 
+de cotización de las acciones del YPF S.A., la pesificación de créditos a las provincias y la 
+renta de los títulos públicos y plazos fijos. 
+Los gastos de administración informados en el detalle precedente, incluyen comisiones 
+al fiduciario y otros gastos realizados por los órganos de administración, siendo los más 
+significativos los correspondientes al Fondo Secretaría de Hacienda-BICE, Fondo Fiduciario 
+de Capital Social, Fondo Fiduciario Federal de Infraestructura Regional y Fondo Fiduciario 
+para el Desarrollo Provincial, cuyos montos anuales ascienden a ($000) 9.113.-, 4.543.-, 
+3.000.- y 2.687.- respectivamente. 
+ 
+4.13 De los fondos mencionados, cinco fueron creados por ley, siete por decretos y dos por 
+resoluciones y uno a partir de un acuerdo de cooperación técnica (FIT/AR).  
+ 
+4.14 No existe una legislación general sobre fondos fiduciarios públicos que brinde un 
+marco de referencia para la definición de ciertos aspectos de los contratos de fideicomiso, por 
+
+===== PDF PAGE 19 =====
+
+ 19
+ejemplo la delimitación de responsabilidades y funciones de los fiduciarios y los comités 
+técnicos o de administración, o los criterios de selección de los agentes fiduciarios. 
+ 
+4.15 Se detectaron casos de inconsistencias entre las disposiciones de las diferentes normas 
+de creación y los contratos de fideicomisos. 
+ 
+4.16 De la documentación puesta a disposición de esta Auditoría no surgen evidencias de 
+procedimientos destinados a la coordinación de objetivos entre fideicomisos públicos y de 
+éstos con otros organismos públicos ni del análisis de la conveniencia de la utilización de la 
+figura del fideicomiso público frente a otras alternativas posibles para el logro de los objetivos 
+buscados por el Estado Nacional en la creación de los fondos relevados. 
+ 
+4.17 Los planes de acción de los fondos fiduciarios, preparados por los órganos de 
+administración y presentados juntamente con la información presupuestaria, no cuentan con la 
+información necesaria para poder analizar la gestión prevista de los activos fideicomitidos. De 
+la documentación analizada no se ha observado una obligación de presentar informes de 
+gestión periódicos y estandarizados por parte de los órganos de administración de los 
+fideicomisos a la dependencia estatal correspondiente, excepto los relacionados con la 
+información presupuestaria. 
+ 
+4.18 Dentro de la cuenta de inversión 2003 no se incluyó información de los Fondos 
+FIT/AR y de Asistencia al FFFIR y tampoco fue incluida en el presupuesto 2004. (ver anexos 
+VI y VII) 
+ 
+4.19 El Decreto 906/04 incluye en su anexo de fondos fiduciarios integrados con bienes o 
+fondos del Estado Nacional al Fondo Fiduciario de Desarrollo de Infraestructura, que nunca 
+funcionó operativamente y al Fondo Fiduciario de Becas con Destino a Estudiantes 
+Universitarios, cuyo plazo de duración se halla vencido. En Anexo VIII se describen las 
+principales características de los mismos.  
+ 
+
+===== PDF PAGE 20 =====
+
+ 20
+4.20 Los fideicomisos que se indican a continuación, y que se describen en Anexo IX, 
+fueron creados recientemente y aún se encuentran en etapa de implementación: 
+ 
+a) Fondo Fiduciario para Atender Inversiones en Transporte y Distribución de Gas. 
+(Dto. 180/2004)  
+b) Fideicomiso para la Refinanciación Hipotecaria (Ley Nº 25.798 – Dto. 1284/2003)  
+c) Fondo Fiduciario para Atender la Contratación de Transporte y Adquisición de 
+Gas Natural Destinados a la Generación de Energía Eléctrica (Resolución Nº 
+950/2004 de la Secretaría de Energía)  
+d) Fondo Fiduciario de Promoción de la Industria del Software (Fonsoft - Ley 
+25.922) 
+ 
+4.21 Existen otros fondos fiduciarios que por sus particularidades se exponen por separado 
+de los fideicomisos mencionados en 4.1. En Anexo X se describen sintéticamente las 
+características de los mismos.  
+ 
+a) Fideicomisos relacionados con el Programa de Propiedad Participada (Ley 
+23.696).  
+b) Fideicomiso firmado entre Aguas Argentinas S.A. y BAPRO Mandatos y 
+Negocios S.A.  
+c) Fideicomisos cuyo fiduciante es el BICE. 
+d) Fideicomiso Conversión de Deuda-Decreto 1387/01. 
+ 
+4.22 De acuerdo a lo informado por los órganos de administración de los fondos al 
+30/09/04 éstos no recibieron instrucción alguna respecto de lo establecido en el Decreto 
+906/04. Se encuentran comprendidos en esta normativa los fondos indicados en 4.1 (con 
+excepción del 11), 4.19., 4.20 a) y los fondos a crearse en el futuro. 
+ 
+Buenos Aires, 23 de diciembre de 2004 
+
+===== PDF PAGE 21 =====
+
+ANEXO I - CUADRO RESUMEN FIDEICOMISOS PUBLICOS
+FIDEICOMISOS PUBLICOS NORMA DE 
+CREACION
+FECHA DE 
+CONTRATO PLAZO FIDUCIANTE FIDUCIARIO BENEFICIARIO FIDEICOMISARIO COMITE FINALIDAD PATRIMONIO      
+en $(000)
+1
+Fondo Fiduciario para el Desarrollo 
+Provincial Dto. 286/95 3/6/1995 30 años
+Estado Nacional a través 
+del Ministerio de 
+Economía y Producción
+B.N.A.
+Provincias, Ciudad de Bs.As., 
+Bancos provinciales o 
+Municipios.
+Estado Nacional a 
+través del Ministerio de 
+Economía y 
+Producción
+Comité Directivo
+Asistir  privatización de bancos y otras 
+empresas, financiar programas de 
+reformas y desarrollo.
+6,753,340
+2
+Fideicomiso de Tasa sobre Gasoil Dto.  
+976/2001 9/13/2001 30 años Estado Nacional B.N.A. Concesionarios viales, 
+contratistas de obras, otros Estado Nacional N/A
+Asegurar la disponibilidad de recursos 
+para el pago y compensaciones a 
+beneficiarios
+594,483
+3
+Fondo Fiduciario para la Reconstrucción 
+de Empresas
+Dto.  
+342/2000 5/12/2000 14 años Estado Nacional B.N.A. Estado Nacional Estado Nacional Comité Directivo
+Otorgar préstamos, avales, fianzas y/u 
+otras garantías a entidades financieras, de 
+seguros, etc.
+1,164,709
+4
+Fideicomiso de Asistencia al F.F. Fed.de 
+Infraestructura Regional Dto. 924/97 5/9/1998 30 años F.F. Federal de 
+Infraestructura Regional B.N.A. F.F. Federal de Infraestructura 
+Regional Estado Nacional Comité Ejecutivo Capitalización del Fondo Federal de 
+Infraestructura Regional 11
+5
+Fondo Fiduciario Federal de 
+Infraestructura Regional  (1) Ley 24.855 5/9/1998 30 años Estado Nacional B.N.A.
+Estado Nacional, Estados 
+Provinciales y la Ciudad de 
+Buenos Aires
+Estado Nacional Consejo de 
+Administración
+Asistir en la financiación de obras de 
+infraestructura a los beneficiarios. 635,060
+6 Fondo Secretaría de Hacienda - B.I.C.E. (2)Res. 557/94 1/27/1999 10 años Secretaría de Hacienda BICE Secretaría de Hacienda Secretaría de Hacienda Comisión de 
+Contralor
+Implementación de programas de 
+financiamiento 738,997
+7
+Fideicomiso de Infraestructura Hidrica Dto. 
+1381/2001 3/19/2002 30 años Estado Nacional B.N.A. Contratistas y concesionarios de 
+obras, etc. Estado Nacional N/A
+Financiación de obras de infraestructura 
+hídrica, pago de compensaciones 
+tarifarias, etc.
+386,197
+8
+Fondo Fiduciario para Subsidio de 
+Consumos Residenciales de Gas Ley 25.565 6/4/2002 10 años Estado Nacional B.N.A.
+Empresas distribuidoras y 
+subdistribuidoras de gas por 
+redes, entre otras 
+Estado Nacional N/A
+Financiar a) compensaciones tarifarias y 
+b) la venta para uso domiciliario de 
+cilindros,  garrafas, etc. en la región sur 
+del país
+38,200
+9
+Fideicomiso para el Transporte Electrico 
+Federal Res. 657/99 11/14/2000
+20 años o 
+cumplimie
+nto del 
+contrato
+Consejo Federal de 
+Energía Eléctrica B.N.A.
+Comité de administración y las 
+personas que este indique, que 
+participen en el fondo de 
+financiamiento de obras.
+Fondo Nacional de la 
+Energía Eléctrica 
+Comité de 
+Administración
+Financiación de obras de ampliación del 
+sistema de transporte de energía eléctrica 
+en alta tensión
+192,080
+10
+Fondo Fiduciario para la Promoción 
+Científica y Tecnológica Dto. 1331/96 9/22/1997 10 años Secretaría de Ciencia y 
+Tecnología B.N.A.
+Provincias, Municipios, Personas 
+Físicas o de existencia Ideal, 
+Públicas o Privadas que 
+desarrollen actividades 
+productivas de bienes y servicios, 
+actividades científicas, 
+tecnológicas, etc
+Secretaría de Ciencia y 
+Tecnología
+Comité de 
+Gestión
+Promoción y fomento de la investigación 
+y desarrollo, la transmisión de tecnología 
+y la asistencia técnica 
+41,298
+11
+Programa de Fideicomisos - MYPES II Dto. 1118/03 5/26/2004 3 años
+Nación Argentina por 
+intermedio del 
+Ministerio de Economía 
+y Producción
+Sud 
+Inversiones y 
+Análisis S.A.
+Estado Nacional por intermedio 
+del Ministerio de Economía y 
+Producción
+Nación Argentina por 
+intermedio del 
+Ministerio de 
+Economía y 
+Producción
+N/A
+Destinar los fondos fideicomitidos a la 
+adquisición, por via de descuento, de 
+créditos de los bancos Credicoop Coop. 
+Ltdo. y Macro Bansud S.A. otorgados o a 
+otorgarse a las MyPES.
+N/D
+12
+Fondo Fiduciario de Capital Social Dto. 675/97 10/22/1997 30 años
+Estado Nacional por 
+medio de la Secretaría 
+de Desarrollo Social de 
+la Presidencia de la 
+Nación, así como los 
+participantes 
+mencionados en el Art. 
+2 inc (c y d) Dto. 675/97
+FONCAP 
+S.A.
+Secretaría de Desarrollo Social de 
+la Presidencia de la Nación o los 
+que participen efectivizando 
+nuevos aportes al fideicomiso
+Secretaría de 
+Desarrollo Social de la 
+Presidencia de la 
+Nación o los que 
+participen 
+efectivizando nuevos 
+aportes al fideicomiso
+Comite Ejecutivo
+Prestar servicios financieros y de 
+organización y capacitación a las 
+microempresas.
+33,852
+13
+Fondo Fiduciario para la Recuperación de 
+la Actividad Ovina Ley 25.422 7/19/2002 10 años
+Secretaría de 
+Agricultura, Ganadería, 
+Pesca y Alimentos
+B.N.A.
+Las personas físicas o jurídicas y 
+las sucesiones indivisas que 
+realicen actividades objeto de la 
+Ley 25.422 
+Secretaría de 
+Agricultura, Ganadería, 
+Pesca y Alimentos
+Comité de 
+Administración
+Solventar los desembolsos derivados de 
+la aplicación del régimen establecido por 
+la ley para la recuperación de la 
+ganadería ovina
+33,472
+14
+FOGAPYME Ley 25.300 - 
+Dto. 1074/01 11/22/2002 25 años
+Estado Nacional a través 
+del Ministerio de 
+Economía y suscriptores 
+de certif.de particip.
+B.N.A.
+Titulares de los certificados de 
+participación que emita el 
+Fiduciario
+Estado Nacional Comité de 
+Administración
+Otorgar garantías en respaldo de las que 
+emitan las Sociedades de Garantía 
+Reciproca y de las que emitan los fondos 
+provinciales o regionales y ofrecer 
+garantías directas a las entidades 
+financieras acreedoras de las micro, 
+pequeñas y medianas empresas
+20,206
+
+===== PDF PAGE 22 =====
+
+ANEXO I - CUADRO RESUMEN FIDEICOMISOS PUBLICOS
+FIDEICOMISOS PUBLICOS NORMA DE 
+CREACION
+FECHA DE 
+CONTRATO PLAZO FIDUCIANTE FIDUCIARIO BENEFICIARIO FIDEICOMISARIO COMITE FINALIDAD PATRIMONIO      
+en $(000)
+15
+FONAPYME Ley 25.300 11/22/2002 25 años
+Estado Nacional a través 
+del Ministerio de 
+Economía y suscriptores 
+de certif.de particip.
+B.N.A.
+Titulares de los certificados de 
+participación que emita el 
+Fiduciario
+Estado Nacional Comité de 
+Inversiones
+Efectuar aportes de capital y a brindar 
+financiamiento a mediano y largo plazo 
+para inversiones productivas a  micros, 
+pequeñas y medianas empresas.
+5,015
+16
+FIT/AR N/D 5/30/1998 N/D INPI OMPI N/D INPI N/A
+Ejecución de actividades de 
+modernización y actualización 
+administrativa con miras a optimizar los 
+resultados de los servicios que brinda el 
+INPI a los usuarios del sistema
+N/D
+TOTAL 10,636,920
+Observaciones:
+Cifras de Patrimonio según balances al 31/12/03 o último disponible provisorio por fiduciario u órgano de administración - ver punto 4.7 del informe
+(1) saldo del patrimonio según balance emitido por el Fondo Fiduciario - ver punto 4.9 del informe
+(2) saldo del patrimonio al  30/9/03
+N/A: no aplicable
+N/D: no disponible
+
+===== PDF PAGE 23 =====
+
+ANEXO II  
+ 
+DESCRIPCION DE FONDOS FIDUCIARIOS  
+ 
+ 
+1. FONDO FIDUCIARIO PARA EL DESARROLLO PROVINCIAL (FFDP) 
+ 
+NORMA DE CREACION: Decreto N° 286/95. 
+FECHA DE CONTRATO: 06/03/95 
+PLAZO: 30 años de acuerdo a la Ley 24.623  
+FIDUCIANTE: Estado Nacional a través del Ministerio de Economía y Producción 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO: las provincias, Ciudad de Buenos Aires, bancos de propiedad total o 
+parcial de las Provincias o Municipios, siempre que se hayan cumplido las siguientes 
+condiciones: 
+a) Que las autoridades constitucionalmente habilitadas para ello otorguen la autorización 
+para su privatización total, o la transferencia al sector privado de la mayoría del capital 
+y el control de las decisiones de administración y gobierno de dichas entidades. 
+b) Que se transfiera al fiduciario, o a una entidad aceptable para éste, las facultades para 
+realizar los actos necesarios para privatizar el banco, o bien que se acuerde un 
+cronograma para dicha privatización. 
+c) Que se convenga con el fiduciario las condiciones en que se desarrollen las operaciones 
+del beneficiario, hasta que se complete su privatización. 
+d) Que la Provincia o Municipio respectivo comprometa el producido de la privatización 
+del Banco a la cancelación del saldo deudor de la cuenta con el fiduciario. 
+e) Que la Provincia o Municipio respectivo garantice a satisfacción del fiduciario la 
+devolución de los eventuales saldos deudores que pudieren subsistir luego de la 
+afectación dispuesta en el punto anterior, afectando para ello otros activos o empresas 
+de propiedad provincial y los recursos provenientes del Régimen de Coparticipación 
+Federal de Impuestos que resulten necesarios. 
+
+===== PDF PAGE 24 =====
+
+ 2 
+COMITÉ DIRECTIVO : formado por cuatro miembros designados por el Ministerio de 
+Economía y un miembro de la Superintendencia de Entidades Financieras y Cambiarias 
+(SEFyC) del BCRA. 
+FIDEICOMISARIO: Una vez cumplido su objeto se disolverá el Fondo quedando su 
+liquidación y el cumplimiento de los convenios existentes a cargo de los funcionarios que 
+designe el Ministerio de Economía y Obras y Servicios Públicos. 
+FINALIDAD:  
+a) Asistir a las Provincias o Municipios en la privatización de las entidades financieras o 
+cualesquiera otras empresas cuyo capital sea total o parcialmente de propiedad de dichas 
+Provincias o Municipios. 
+b) Financiar programas de reforma fiscal, financiera, económica o administrativa de los 
+Estados Provinciales, cuyo principal objetivo consista en la consolidación de la Reforma 
+del Sector Público Provincial, a través de mecanismos ágiles y flexibles que aseguren la 
+implementación definitiva de las reformas básicas y el avance en la generación de 
+programas de mejoramiento del gasto público social y de desarrollo regional. 
+c) Asistir y financiar programas que contemplen el saneamiento de las deudas de los 
+Estados Provinciales, su renegociación y/o cancelación. 
+d) Asistir y financiar programas de desarrollo, mejora de la eficiencia, incremento de la 
+calidad de las prestaciones y fortalecimiento en general de los sectores de la economía 
+real, educación, justicia, salud y seguridad. 
+ 
+RECURSOS DEL FIDEICOMISO: 
+a) 70.599.999 acciones Clase A de YPF S.A., excluido el derecho al cobro de los 
+dividendos a partir de la distribución de los dividendos correspondientes al ejercicio 
+1997, cuya titularidad corresponde al Estado Nacional, Ministerio de Economía y 
+Producción. 
+b) Los recursos que en el futuro provengan de préstamos otorgados por el BIRF, el BID, u 
+otras instituciones multilaterales o nacionales de crédito, destinados a similares 
+objetivos a los previstos en el fideicomiso. 
+c) Los recursos que en el futuro le asigne el presupuesto nacional o los presupuestos 
+provinciales. 
+
+===== PDF PAGE 25 =====
+
+ 3 
+d) el producido de sus operaciones o la renta de sus activos. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El fondo fiduciario se administra siguiendo las instrucciones que le imparta el Ministerio 
+de Economía a través de la Secretaría de Hacienda y cuenta con un Comité Directivo A 
+dicho Comité le corresponde preparar, diseñar y supervisar las operaciones del Fondo. 
+Una unidad técnica depende del Comité Directivo y esta a su cargo el procesamiento, 
+análisis y evaluación de los proyectos de privatización y/o saneamiento fiscal que 
+presenten las Provincias a fin de acceder a la asistencia del Fondo. Corresponde también a 
+la unidad técnica la prestación de asistencia técnica a las Provincias y Municipios y/o a los 
+bancos o empresas sujetos a privatización, cuando la prestación de esta asistencia fuera 
+convenida entre el FFDP y una Provincia o Municipio.  
+ 
+b) Activos ingresados al fideicomiso, a valores históricos: 
+• Acciones clase “A” de YPF S.A.:70.599.999 valuadas al inicio a $ 10 c/u: $(000) 
+705.990.-, y dividendos correspondientes al año 1996 por $(000) 62.130..  
+Las acciones de YPF S.A. fueron vendidas en el año 1999 a un valor total de $(000) 
+2.802.000. Por instrucciones de la Secretaría de Hacienda se dispuso la inversión de 
+$(000) 2.000.000, en títulos Bonte 2006 del Estado Nacional que posteriormente 
+fueron convertidos en Préstamos Garantizados. 
+• Recursos provenientes de préstamos de Organismos Multilaterales:  
+ 
+Préstamo U$S $(000) 
+BID año 1995 750.000.- 
+BIRF año 1996 500.000.- 
+BIRF año 1997 166.000.- 
+TOTAL 1.416.000.- 
+ 
+
+===== PDF PAGE 26 =====
+
+ 4 
+El FFDP efectuó pagos al Estado Nacional por los servicios de intereses por los 
+préstamos otorgados por el BID y el BIRF por un total acumulado al 2001 de 
+U$S(000) 433.130.- 
+Asimismo, por instrucciones del Poder Ejecutivo que reasignaron mediante el decreto 
+181/00 las aplicaciones del Fideicomiso, se transfirieron fondos a la Tesorería General 
+de la Nación para cancelar los capitales prestados por los Organismos Multilaterales -
+U$S(000) 1.416.000.-, y en concepto de aporte $(000) 400.000.- con destino al Fondo 
+Anticíclico Fiscal. 
+• Aportes del Estado Nacional por colocación de Certificados de Crédito Fiscal (CCF) 
+realizados en el año 2001: $(000) 558.200.- 
+• Adicionalmente el FFDP emitió Obligaciones Negociables por U$S(000) 1.200.000.- 
+para financiar el programa de saneamiento fiscal del año 2000 y subsiguientes. 
+ 
+c) Créditos al 30/09/04: 
+ 
+Concepto Saldo $(000) 
+Créditos a Provincias por Emisión de BOGAR 27.863.975.- 
+Préstamos a Provincias y Municipalidades 12.651.325.- 
+Préstamos Garantizados 1.212.957.- 
+Títulos Cedidos en Garantía 1.142.862.- 
+Otros 849.062.- 
+Total 43.720.181.- 
+ 
+ 
+
+===== PDF PAGE 27 =====
+
+ 5 
+Composión de Créditos 30/09/04 
+Créd. a Prov. 
+por Emisión de 
+BOGAR
+63%
+Préstamos a 
+Prov. y 
+Municip.
+29%
+Tít. Cedidos 
+en Gtía.
+3%
+Otros
+2%
+Préstamos 
+Garantizados
+3%
+ 
+ 
+o La composición de los créditos recibidos por la reestructuración de préstamos 
+provinciales en el marco del programa de reconversión de Deuda Pública 
+Provincial con la correspondiente emisión de BOGAR, de acuerdo a lo dispuesto 
+en el Dto. 1579/02 es la siguiente:  
+ 
+Provincia Saldo $(000) 
+Buenos Aires 10.639.606 
+Córdoba 3.598.281 
+Formosa 1.387.513 
+Chaco 1.374.309 
+Entre Ríos 1.368.787 
+Misiones 1.231.775 
+Corrientes 1.225.315 
+Mendoza 1.125.732 
+Río Negro 1.053.147 
+Jujuy 903.379 
+Salta 836.138 
+Tucumán 758.349 
+Neuquén 757.561 
+San Juan 630.312 
+Catamarca 359.318 
+Chubut 257.695 
+La Rioja 199.479 
+T. del Fuego 157.279 
+Total 27.863.975 
+Córdoba 13%
+Jujuy 3%
+Corrientes 4%
+Buenos Aires 
+39%
+Resto 11%
+Salta 3%
+Mendoza 4%
+Río Negro 4%
+Entre Ríos 5%
+Misiones 4%
+Formosa 5%
+Chaco 5%
+ 
+o Los préstamos a Provincias y Municipalidades se componen de los siguientes 
+conceptos 
+
+===== PDF PAGE 28 =====
+
+ 6 
+Concepto Saldo $(000) 
+Préstamos reestructurados con emisión de bonos – Programa de 
+Conversión de deuda pública provincial – Dto. 1579/02 Art.11 – Res 
+ME 539/02 Anexo II inc f) 
+2.168.483.- 
+Préstamos reestructurados– Programa de Conversión de deuda pública 
+provincial – Dto. 1579/02 Art.11 – Res ME 539/02 Anexo II inc g) 3.740.122.- 
+Préstamos otorgados a las Provincias mediante Programas de 
+Saneamiento Fiscal 2000 y 2001 – Deuda no reestructurada 1.802.136.- 
+Préstamos otorgados para la privatización de Bancos Provinciales – 
+Deuda no reestructurada 832.456.- 
+Préstamos otorgados para la privatización de Bancos Oficiales 
+Provinciales – Deuda no reestructurada 885.718.- 
+Programa de Financiamiento Ordenado de las Finanzas Provinciales – 
+Año 2002 805.968.- 
+Programa de Financiamiento Ordenado de las Finanzas Provinciales – 
+Año 2003 1.646.208.- 
+Programa de Financiamiento Ordenado de las Finanzas Provinciales – 
+Año 2004 636.544.- 
+TOTAL 12.517.636.- 
+ 
+o Distribución por provincias  
+ 
+Provincia Saldo $(000) 
+Buenos Aires 2.224.449 
+Tucumán 1.168.791 
+Chaco 1.138.564 
+Jujuy 1.085.994 
+Río Negro 970.073 
+Formosa 941.077 
+Mendoza 711.215 
+San Juan 584.194 
+Catamarca 538.591 
+Neuquén 534.823 
+Misiones 530.015 
+Entre Ríos 417.189 
+Santa Fe 354.868 
+Chubut 250.897 
+Corrientes 209.337 
+Córdoba 190.120 
+Santa Cruz 185.853 
+La Rioja 149.903 
+T. del Fuego 121.764 
+San Luis 117.075 
+Sgo. del Estero 115.179 
+Salta 111.354 
+Total 12.651.325 
+ 
+Buenos 
+Aires
+18%
+Tucumán
+9%
+Chaco
+9%
+Jujuy
+9%Río Negro
+8%
+Resto
+14%
+Neuquén
+4%
+Entre Ríos
+3%
+Misiones
+4%
+San Juan
+5%
+Catamarca
+4%
+Mendoza
+6% Formosa
+7%
+
+===== PDF PAGE 29 =====
+
+ 7 
+ 
+ 
+• El plazo promedio de las financiaciones otorgadas es de 5 a 9 años. Para los préstamos 
+instrumentados con Bogar (canje de deuda pública provincial), el plazo de 
+financiación es de 16 años. 
+• Los préstamos provinciales se otorgaron con garantía de Coparticipación Federal 
+ 
+d) El FFDP registra en su pasivo al 30/09/04, títulos BOGAR emitidos por un total de $(000) 
+30.040.000.- 
+ 
+e) El FFDP participó en la emisión de Letras de Cancelación de Obligaciones Provinciales 
+(LECOP) emitidos por cuenta y orden de las Jurisdicciones, de acuerdo a lo previsto en el 
+Dto. Nº  1004/01 y normas reglamentarias y modificatorias.  
+ 
+ 
+2. FIDEICOMISO DE GASOIL Y TASAS VIALES 
+ 
+NORMA DE CREACION: Decreto 976/2001 
+FECHA DE CONTRATO: 13/09/2001  
+PLAZO: 30 años 
+FIDUCIANTE: Estado Nacional 
+FIDUCIARIO: Banco de la Nación Argentina  
+BENEFICIARIO:  
+a) Los concesionarios viales según Dto. 1377/01 y Art.23 inciso (a) de Dto. 976/01 
+b) Los contratistas, concesionarios y/o encargados de proyecto de obras y servicios de 
+infraestructura ferroviaria en la medida y con el alcance que le sea comunicado por el 
+Ministerio de Planificación Federal, Inversión Pública y Servicios. 
+c) Otros que determine el Poder Ejecutivo Nacional a propuesta del Ministerio 
+Planificación Federal, Inversión Pública y Servicios en relación con la creación del 
+sistema de desarrollo de la infraestructura vial conforme lo establecido en el artículo 11 
+del Decreto N° 802/01. 
+
+===== PDF PAGE 30 =====
+
+ 8 
+d) Las empresas concesionarias de los Corredores de la Red Vial Nacional que resulten 
+adjudicatarias en virtud de lo dispuesto por el Decreto N° 425/03 y por la Resolución 
+del Ministerio de Planificación Federal, Inversión Pública y Servicios N° 60/03.  
+e) El Órgano de Control de Concesiones Viales, dependiente de la Secretaria de Obras 
+Públicas del Ministerio de Planificación Federal, Inversión Pública y Servicios.  
+f) Los adjudicatarios de las contrataciones de obras adicionales, construcciones, trabajos o 
+servicios de industria que se efectúen en los Corredores de la Red Vial Nacional 
+otorgados en concesión mediante el Decreto Nº 1007/03, o vinculados a ellos, no 
+considerados en los contratos aprobados mediante dicho Decreto.  
+g) La Dirección Nacional de Vialidad, organismo descentralizado de la órbita de la 
+Subsecretaria de Obras Públicas. 
+h) A las personas que surjan de la implementación del Sistema Vial Integrado (SISVIAL) 
+conforme lo normado en Art. (7) Dto. 652/02. 
+i) Las personas que surjan de la propuesta que deberá elevar la Secretaría de Transporte 
+del Ministerio de la Producción de acuerdo con lo establecido en los Art. (4) in fine y 
+(5) in fine Dto. 652/02 y en la Resolución del Ministerio de la Producción N° 82 del 
+29/04/2002. 
+j) Aquellas personas, fondos, organismos, registros, dependencias, etc. que surjan de la 
+aplicación de acciones vinculadas a la transformación del sistema de transporte de 
+cargas por automotor de jurisdicción nacional conforme el Art. (4) in fine Dto. 652/02. 
+k) Los encargados de proyectos; de percepción de tasas viales; los contratistas de obra en 
+el ámbito del Sistema Infraestructura de Transporte (SIT) del Dto. 1377/01, según Dto. 
+652/02; los organismos multilaterales de crédito y/o las entidades con las que se hayan 
+efectuado operaciones de crédito y/o líneas contingentes en el marco del SIT; los 
+concesionarios viales de rutas nacionales y/o rutas provinciales, no incluidos en inciso 
+(a) del Art. 23 Dto. 976/01, cuyos contratos hayan sido suscriptos y aprobados con 
+anterioridad a la fecha de entrada en vigencia del Dto. 802/01 y conforme al convenio 
+que en cada caso realice la Autoridad de Aplicación con la provincia; los tenedores de 
+títulos de deuda y/o certificados de participación por las emisiones que la Autoridad de 
+Aplicación resuelva efectuar, de acuerdo con Dto. 1377/01 y Art. 21 Dto. 976/01 y, los 
+prestadores de servicios relacionados con tales emisiones. 
+
+===== PDF PAGE 31 =====
+
+ 9 
+FIDEICOMISARIO: Estado Nacional. 
+FINALIDAD: asegurar la disponibilidad de recursos para:  
+a) atender el pago de los legítimos derechos de cobro que resulten titulares los 
+Beneficiarios conforme a los términos y condiciones de los Decretos 976/01, 1377/01 
+(Plan Federal de Infraestructura) y 652/02 (Convenio de Estabilidad de Suministro del 
+Gasoil entre el Estado Nacional y las empresas productoras y refinadores de 
+hidrocarburos). 
+b) atender el pago de compensaciones por la disminución de ingresos de los actuales 
+concesionarios viales, con motivo de:  
+I. La reducción de tarifas de peaje por Dto. 802/01;  
+II. Los distintos tipos de compensaciones incluidos en las Actas Acuerdo aprobadas 
+por Dto. 92/01;  
+III. Lo dispuesto en el Convenio para mejorar la competitividad y la generación de 
+empleo ratificado por Dto. 929/01; y  
+IV. cualquier otro destino que determine el PEN a propuesta del Ministerio 
+Planificación Federal, Inversión Pública y Servicios en oportunidad de la creación 
+del Sistema de Desarrollo de Infraestructura Vial conforme al Art. 11 del Dto. 
+802/01. 
+ 
+RECURSOS DEL FIDEICOMISO:  
+a) Las sumas de dinero percibidas o a percibirse provenientes de la Tasa sobre el Gasoil, 
+creada en el Decreto Nº 802/01,  
+b) Los recursos provenientes de las tasas viales,  
+c) El producido de sus operaciones, la renta, frutos e inversión de los bienes 
+fideicomitidos. 
+d) Las contribuciones, subsidios, legados o donaciones específicamente destinados al 
+Fideicomiso.  
+e) Los recursos que, en su caso, le asignen el Estado Nacional y/o las Provincias. 
+f) Otras tasas que pudieren crearse y/o recursos que pudieren asignarse en el futuro con 
+destino al sistema de Infraestructura del Transporte según Dto. 652/02.  
+
+===== PDF PAGE 32 =====
+
+ 10 
+g) Los ingresos provenientes de intereses y multas aplicadas a los responsables del ingreso 
+de la Tasa sobre el Gasoil. 
+h) La totalidad de los ingresos que resulten de los contratos de concesión de los Corredores 
+de la Red Vial Nacional. que se aprueben en virtud del Decreto 25/2003 y 1006/2003. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) La función del Banco de la Nación Argentina será administrar los recursos del 
+Fideicomiso de conformidad con las instrucciones que imparta la Secretaría de Obras 
+Públicas, respecto de los fondos provenientes de la recaudación de las tasas viales y 
+recursos derivados al SISVIAL, y la Secretaría de Transporte del Ministerio de Economía 
+y Producción según las pautas que esta fije respecto de los recursos derivados al 
+SITRANS. 
+ 
+b) El Estado Nacional no puede crear organismo, consejo, comité directivo o ente alguno con 
+facultades decisorias o de control sobre el Fiduciario o sobre los Activos Fideicomitidos. 
+ 
+c) La Unidad de Coordinación de Fideicomisos de Infraestructura (UCOFIN), creada por 
+medio de la Resolución 531/01 del Ministerio de Infraestructura y Vivienda, tendrá por 
+objeto asistir al señor Ministro de Economía y Producción en la aplicación y afectación 
+eficiente de los recursos de los fideicomisos creados para promover la participación 
+privada en el desarrollo de infraestructura, a cuyo fin ejercerá la coordinación y 
+supervisión del accionar de los distintos entes intervinientes. 
+ 
+d) Por decreto 976/01 el Fideicomiso no está regido por la Ley de Administración Financiera 
+y de los Sistemas de Control del Sector Publico Nacional N° 24.156 y sus modificatorias, 
+sin perjuicio de las facultades que otorga a la SIGEN y la AGN. 
+ 
+e) Los activos fideicomitidos en ningún caso serán considerados como recursos 
+presupuestarios, impositivos o de cualquier otra naturaleza que ponga en riesgo el 
+cumplimiento del fin al que están afectados, ni el modo u oportunidad en que se realice.  
+
+===== PDF PAGE 33 =====
+
+ 11 
+El Estado Nacional no puede disponer en modo alguno de los Activos Fideicomitidos para 
+atender gastos propios. Dichos Activos deben ingresar como de libre disponibilidad por el 
+Fiduciante, libre de toda prenda, gravamen, cesión fiduciaria previa, cesión en garantía y/o 
+afectación de cualquier naturaleza. 
+ 
+f) Los activos fideicomitidos podrán ser invertidos por el Fiduciario en títulos o valores 
+públicos de corto plazo, tanto nacionales como provinciales con garantía de los recursos 
+de la coparticipación federal de impuestos, y/o depósitos a plazo fijo en el Banco de la 
+Nación Argentina menores a un año. 
+ 
+g) El Decreto 1377/01 y normas modificatorias y reglamentarias, establecen el Sistema de 
+Infraestructura de Transporte (SIT) que incluye el SISVIAL y el SITRANS, mencionados 
+anteriormente. Este último se encuentra integrado por el Sistema de Compensaciones al 
+Transporte (SISCOTA), el Sistema Ferroviario Integrado (SIFER) y el SISTAU. 
+ 
+h) Por Decreto 1377/01 se constituye, para hacer frente a eventuales disminuciones 
+temporales en los recursos, una reserva de liquidez equivalente al 3% de la sumatoria 
+anual de las tasas sobre el gasoil y viales 
+ 
+i) Por Decretos 1377/01, 652/02 y modificatorios se establece que, de los recursos del 
+fideicomiso, el equivalente al 100% de la Tasa sobre el Gasoil, se destinará: 
+o a la constitución de la reserva de liquidez  
+o a inversiones en la Red Vial sujeta al SISVIAL; 
+o a SIFER, SISTAU y SISCOTA. 
+A su vez se establece que, de estos recursos, deducidos lo derivado a la reserva, el 50% se 
+destinará al SISVIAL (70% en función del índice de asignación por provincia y 30% por 
+decisión de la autoridad de aplicación a obras en rutas bajo ciertas condiciones) y 50% al 
+SITRANS (no pudiendo exceder el 65% al SISTAU). 
+ 
+
+===== PDF PAGE 34 =====
+
+ 12 
+j) Respecto de los recursos provenientes de las tasas viales el total se destinará a inversiones 
+en rutas o corredores afectados por dichas tasas, netas de los gastos de inversiones que 
+resulten necesarios para la percepción de las mismas. 
+ 
+k) Al 30/09/04 el total de recursos ingresados a las cuentas fiduciarias asciende a $(000) 
+3.811.974.- (a valores históricos acumulados desde la creación del fondo), habiéndose 
+creado una reserva de liquidez de $ 103.500.  
+ 
+l) Aplicación de fondos ingresados al Fondo Fiduciario (a valores históricos).  
+ 
+o SISVIAL 
+ 
+Adjudicaciones de Obras Cantidad de 
+concesiones 
+Monto 
+Nominal 
+Acumulado 
+$(000) 
+Inversión 
+prevista 
+$(000) 
+% 
+Promedio 
+sobre lo 
+previsto 
+Concesionarios Viales 15 $ 893.563.- - - 
+Obras de Infraestructura Vial 
+para Provincias en Rutas 
+Nacionales - Anexo II Dto. 
+1377/01 
+12 367.986.- 648.119.- 50 
+Asistencia Financiera - Dto. 
+172/03 1 28.225.- 51.648.- 57 
+Concesiones por contratos de 
+construcción, operación y 
+transferencia (2003-2011) - 
+Dto. 976/01 y Dto. 1377/01 
+2 20.698.- 127.913.- 14 
+Obras Viales en la Provincia 
+de Santa Cruz - Dto. 976/01, 
+1377/01 y 140/04 
+4 52.751.- 74.507.- 75 
+Obras de Infraestructura Vial 
+para Proveedores en Rutas 
+Nacionales – Decreto 508 
+Anexo I 
+14 72.510.- 1.291.083.- 4 
+Obras de Infraestructura Vial 
+s/ Corredores Viales 9 2.384.- 124.206.- 2 
+ 
+ 
+ 
+
+===== PDF PAGE 35 =====
+
+ 13 
+o SITRANS 
+ 
+Adjudicaciones de obras Cantidad de 
+concesiones 
+Monto Nominal 
+Acumulado 
+$(000) 
+SIFER  
+Distribuye un coeficiente de participación por pasajero 
+transportado (CPPT) 
+7 421.735.- 
+SISTAU  
+Distribuye un coeficiente de Participación Federal (CPF) 
+– Compensación tarifaria: pasajeros/carga/emergencias 
+27 932.748.- 
+SISCOTA 9 4.052.- 
+CONCESIONARIOS VIALES – Decreto 1006/03 7 125.788.- 
+ 
+m) Según el contrato el fiduciario no percibe remuneración u honorario, reconociéndosele 
+expensas por un valor  no superior a $(000) 10.- mensuales 
+ 
+ 
+3. FONDO FIDUCIARIO PARA LA RECONSTRUCCIÓN DE EMPRESAS 
+ 
+NORMA DE CREACION: Decreto N° 342/00, modificado por Decreto Nº 2705/02 
+FECHA DE CONTRATO: 12 de mayo de 2000 
+PLAZO: 14 años  
+FIDUCIANTE: Estado Nacional 
+FIDUCIARIO: Banco de la Nación Argentina  
+BENEFICIARIO: Estado Nacional 
+FIDEICOMISARIO: Estado Nacional 
+COMITÉ DIRECTIVO: designado por el Ministro de Economía y Producción 
+FINALIDAD:  
+a) Suscribir e integrar aportes de capital, otorgar préstamos convertibles o no en acciones y 
+otorgar avales, fianzas y/u otras garantías a entidades financieras, a entidades de seguros 
+y a sus sociedades controlantes;  
+b) Comprar y vender acciones de entidades financieras, de entidades de seguros y de sus 
+sociedades controlantes;  
+
+===== PDF PAGE 36 =====
+
+ 14 
+c) Adquirir activos de entidades financieras, de entidades de seguros y de sus sociedades 
+controlantes;  
+d) Realizar los activos que adquiera, en forma gradual y progresiva;  
+e) Realizar las gestiones y transferencias de activos y pasivos financieros que le 
+encomiende el Banco de la Nación Argentina o el Ministerio de Economía, todo ello, en 
+las condiciones previstas en el decreto y en el contrato de fideicomiso;  
+f) Gestionar la disolución del Fondo Fiduciario de Capitalización Bancaria  quedando a su 
+cargo el cumplimiento de los convenios existentes conforme instrucciones que le 
+imparta el Ministerio de Economía. 
+ 
+RECURSOS DEL FIDEICOMISO:  
+a) Transferencia fiduciaria de la totalidad de los activos al 26/02/00 del fondo Fiduciario 
+de Capitalización Bancaria. 
+b) Los recursos provenientes de financiamiento y/o aportes de cualquier naturaleza de 
+entidades financieras y de organismos multilaterales de crédito destinados al mismo 
+objeto de los fideicomisos. 
+c) La renta de sus operaciones. 
+d) Otros recursos que se obtengan para los mismos fines previstos en el contrato de 
+fideicomiso. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) Mediante el dictado del Decreto N° 342 del 18/04/00 se dispuso la creación del Fondo 
+Fiduciario de Asistencia a Entidades Financieras y de Seguros, con el objeto de 
+reemplazar al Fondo  Fiduciario de Capitalización Bancaria reglamentado por Decreto Nº 
+445/95, que fuera disuelto por ese mismo acto administrativo. La constitución del fondo 
+tuvo efectos a partir del 26/02/00. Posteriormente, el Poder Ejecutivo Nacional dictó el 
+Decreto Nº 2705/02 por el cual pasa a denominar al Fondo como Fondo Fiduciario para la 
+Reconstrucción de Empresas, adecuar su objeto conforme allí lo determina y prorrogar su 
+plazo por 12 años más.  
+ 
+
+===== PDF PAGE 37 =====
+
+ 15 
+ 
+b) Aporte de fondos realizados por el fiduciante (en miles de dólares): 
+ 
+Origen del aporte 1995 1996 Total 
+Tesorería Gral. De la Nación (TGN) 277.756.- 56.244.- 334.000.- 
+Banco Internacional de Reconstrucción y 
+Fomento (BIRF) 
+167.000.- 167.000.- 334.000.- 
+TOTAL   668.000.- 
+ 
+ 
+c) El plazo promedio de financiación es de 7 años, siendo en la mayoría de los casos exigible 
+la primera cuota de amortización de capital a los 3 años de ocurrido el desembolso. 
+ 
+d) Composición de la Cartera 
+ 
+ 
+Créditos del FFRE en $(000) al 30/09/04
+Préstamos 
+Garantizados; 
+34.192
+Préstamos en 
+atraso; 12.271
+Préstamos en 
+gestión judicial 
+(neto de prev.); 
+60.349
+Préstamos en 
+general; 451.248
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PDF PAGE 38 =====
+
+ 16 
+e) Composición de la cartera en situación judicial 
+ 
+Cartera en situación judicial en $(000) al 30/09/04
+Bisel; 128.349
+Suquia; 94.902
+Mayo; 139.803
+BUCI; 11.384
+Medefin; 71.074
+Mercobank; 
+72.462
+Velox; 6.813Crédito Provincial; 
+17.574
+Otros; 807
+ 
+ 
+f) Actualmente existen controversias entre los Bancos que recibieron asistencia financiera y 
+el Fondo Fiduciario, ya que por aplicación de los decretos Nº 214/02, 410/02 y 53/2003, 
+los créditos otorgados con anterioridad al 04.02.02 se dolarizaron en un 50%, generando 
+para el Fondo una acreencia que los bancos no están dispuestos a afrontar. 
+ 
+g) Adicionalmente existen entidades que recibieron ayuda financiera por parte del Fondo que 
+se encuentran en proceso de liquidación o quiebra. En estos casos el Fondo ha realizado 
+las acciones judiciales correspondientes para verificar el crédito en dichos procesos. Los 
+saldos al 30.09.04 se hallan previsionados al 100 %. 
+ 
+h) Pagos efectuados al Estado Nacional y al BIRF : 
+ 
+Ejercicio - Concepto U$S(000) 
+ 2000 – BIRF  29.033.- 
+ 2001 - TGN 
+ 2001 - BIRF 
+TOTAL 
+37.111.- 
+80.766.- 
+ 
+ 
+117.877.- 
+ 2002 - BIRF  26.670.- 
+
+===== PDF PAGE 39 =====
+
+ 17 
+ 
+i) Retribución del Fiduciario: 
+Según el contrato de fideicomiso “El Fiduciario no cobrara retribución por su actuación 
+salvo los gastos en los que incurra por el mantenimiento de una estructura administrativa 
+asignada al efecto, los que deberán ser aprobados por el Comité Directivo”. 
+El Banco de la Nación Argentina en calidad de fiduciario percibe una comisión de $(000) 
+10.- mensuales. Asimismo, el fideicomiso soporta los gastos de servicios administrativos 
+contratados y otros gastos de administración. El cargo anual al resultado por dichos 
+conceptos asciende a $(000) 500.- aproximadamente. 
+ 
+j) A la fecha de emisión del presente informe, el Estado Nacional ha dispuesto mediante la 
+emisión del Decreto Nº 1284/03, reglamentario de la Ley 25.798, que el FFRE efectúe 
+aportes al Fideicomiso para la Refinanciación Hipotecaria. 
+ 
+ 
+4. FIDEICOMISO DE ASISTENCIA AL FONDO FIDUCIARIO FEDERAL DE 
+INFRAESTRUCTURA REGIONAL 
+ 
+NORMA DE CREACION: Decreto Nº 924/97 - Decreto 228/98 
+FECHA DE CONTRATO: 9/05/98 
+PLAZO: cumplimiento de la finalidad o 30 años. 
+FIDUCIANTE: Fondo Fiduciario Federal de Infraestructura Regional  
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO: Fondo Fiduciario Federal de Infraestructura Regional 
+FIDEICOMISARIO: Estado Nacional 
+COMITÉ EJECUTIVO: integrado por cuatro miembros, dos representantes del Ministerio 
+de Economía y dos del Ministerio de Obras y Servicios Públicos. 
+FINALIDAD: proceder a la capitalización del FFFIR mediante el aporte del producido neto 
+de la venta de las acciones del Banco Hipotecario S.A., con excepción de las excluidas por el 
+Artículo 7º inciso a) de la Ley Nº 24.855 (aportes al BNA y afectadas al programa de 
+propiedad participada), los gastos que se comprometan para la venta de las mismas y el 
+
+===== PDF PAGE 40 =====
+
+ 18 
+producido de los empréstitos que contraiga con garantía sobre tales acciones, en un todo de 
+acuerdo con lo prescripto por el Art. 37 de la mencionada Ley y los Arts. 47 y 49 del Dto. 
+924/97. 
+ 
+RECURSOS DEL FIDEICOMISO: acciones del Banco Hipotecario S.A.  
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El Fideicomiso de Asistencia actuará conforme las instrucciones que le imparta su Comité 
+Ejecutivo. Será responsabilidad del Comité Ejecutivo del Fideicomiso de Asistencia 
+disponer e instruir las medidas necesarias que aseguren al FFFIR las disponibilidades 
+financieras requeridas para el cumplimiento de sus fines.  
+ 
+b) El FFFIR recibió en propiedad fiduciaria el 94,9 % del capital social del BHSA, 
+compuesto por la siguiente cantidad de acciones: 
+ 
+Acciones clase A             134.850.000 
+Acciones clase C                 7.500.000 
+ 
+c) Con fecha 2 de febrero de 1999 se vendieron 42.000.000 acciones y 270.000 contratos de 
+opciones. El ingreso reflejado por el fondo, por este concepto asciende a $(000) 307.124, 
+(a valores históricos). Adicionalmente el fideicomiso cobró dividendos de las acciones del 
+BHSA por un total de $(000) 108.454.-, (a valores históricos). La aplicación de estos 
+importes corresponde a la capitalización del Fondo Fiduciario Federal de Infraestructura 
+Regional.  
+ 
+d) De acuerdo a la información remitida por el Comité Ejecutivo, el 2 de febrero de 2004 
+venció el plazo para el ejercicio de la opción con derecho a compra de las acciones clase 
+A de BHSA, ejerciéndose la misma en un 60 %, con los siguientes resultados: 
+Total de opciones ejercidas: 179.095 
+Monto efectivo total de las opciones ejercidas: $(000) 125.367.- 
+
+===== PDF PAGE 41 =====
+
+ 19 
+Con el producido de esta venta el fiduciario ha cancelado la operación del pase activo con 
+Banco de la Nación Argentina (operación concertada en el año 2001) por un total de 
+$(000) 67.425.- El remanente se halla invertido en un plazo fijo en Banco de la Nación 
+Argentina por $(000) 57.139 al 30/09/04. 
+ 
+ 
+5. FONDO FIDUCIARIO FEDERAL DE INFRAESTRUCTURA REGIONAL 
+(FFFIR) 
+ 
+NORMA DE CREACION : Ley N° 24.855 - de Desarrollo Regional y Generación de 
+Empleo, del 2/7/97 - Decreto N° 924/97. 
+FECHA DE CONTRATO: 9/05/98  
+PLAZO: 30 años 
+FIDUCIANTE: Estado Nacional 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO: Jurisdicciones que adhieran al régimen creado por la Ley 24.855, el Dto. 
+677/97 y el 924/97, esto es el Estado Nacional, los Estados Provinciales y la Ciudad de 
+Buenos Aires, una vez cumplidos los términos y condiciones que le son impuestos a tales 
+fines por el Dto. 924/97. 
+FIDEICOMISARIO: Estado Nacional 
+CONSEJO DE ADMINISTRACION : compuesto por siete miembros designados por el 
+Poder Ejecutivo Nacional a propuesta de la Jefatura de Gabinete de Ministros, dos de los 
+cuales son designados por la Asamblea de Gobernadores del Consejo Federal de Inversiones.  
+FINALIDAD: asistir a las provincias y al Estado Nacional en la financiación de obras de 
+infraestructura económica y social, de acuerdo a lo dispuesto en el Art. 4 de la Ley 24.855.  
+ 
+RECURSOS DEL FIDEICOMISO:  
+a) acciones del Banco Hipotecario S.A. y el producido de su venta;  
+b) recursos que le asigne el Estado Nacional, las Provincias y los Organismos 
+Internacionales;  
+
+===== PDF PAGE 42 =====
+
+ 20 
+c) el producido de los empréstitos que contraiga el Fondo los que podrán estar 
+garantizados con los bienes que lo integran; y  
+d) la renta y los frutos de sus activos. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El contrato de fideicomiso fue suscripto por el presidente del Consejo de Administración 
+del fondo, en representación del mismo y en ejercicio de sus facultades y por el BNA en 
+calidad de fiduciario. Dicho contrato no define el fiduciante ni el objeto del fideicomiso 
+por lo que se debe recurrir a la Ley y al decreto reglamentario a tal fin.  
+ 
+b) El presente fondo fiduciario cedió en propiedad fiduciaria al Fideicomiso de Asistencia, 
+cuyas características se detallan en 5. la propiedad de las acciones del Banco Hipotecario 
+S.A., convirtiéndose en fiduciante de ese fideicomiso. 
+ 
+c) La ley dispone que el Fondo funcione en el ámbito de la Jefatura de Gabinete de 
+Ministros. Por medio del Dto. 408/03 se transfirió al ámbito del Ministerio de 
+Planificación Federal, Inversión Pública y Servicios. 
+ 
+d) Se verificaron diferencias entre los estados de situación patrimonial y de resultados 
+preparados por el BNA en calidad de fiduciario y los emitidos por el Consejo de 
+Administración.  
+Al 31/12/03 se determinaron las siguientes diferencias: 
+ 
+$(000) 
+CONCEPTO SALDO S/ EECC 
+FFFIR 
+SALDO S/ BCE. 
+BNA 
+DIFERENCIA 
+Activo 1.251.480.- 1.367.040.- 115.560.- 
+Pasivo 735.429.- 731.980.- 3.449.- 
+Resultado del Ejercicio 468.860.- 47.764.- 421.096.- 
+ 
+
+===== PDF PAGE 43 =====
+
+ 21 
+Entre las cuestiones mas significativas se puede mencionar que el balance 
+confeccionado por BNA, a diferencia del emitido por el FFFIR, no incluye en activos 
+previsiones por riesgo de incobrabilidad sobre la cartera de créditos ($000) 106.359.-, 
+por desvalorización de acciones ($000) 107.000.- y Otros activos por ($000) 109.034 
+que corresponden a la capitalización del BNA por Art. 35 de la Ley 24.855, entre los 
+conceptos mas importantes. En el pasivo la diferencia corresponde a deudas por 
+aportes al BNA y en resultados al resultado por tenencia de acciones ($000) 581.546.-, 
+cargo por desvalorización de acciones ($000) 107.490.- y cargo por incobrabilidad 
+($000) 51.890, entre otros. 
+ 
+e) Fondos ingresados al Fideicomiso (a valores históricos según informe del Consejo de 
+Administración) 
+ 
+Al 30/09/04 $(000) 
+Aportes del Estado Nacional 1.355 
+Ingresos por venta de acciones y opciones del BHSA 281.979 
+Dividendos en efectivo de acciones de BHSA 108.454 
+Operaciones de pase pasivo con Banco de la Nación Argentina 30.000 
+ 
+f) Pasivos del fideicomiso: fueron transferidos de acuerdo a lo establecido por la ley de 
+creación, sin que se haga ninguna referencia a los mismos en el contrato de fideicomiso: 
+ 
+• Según lo dispuesto en el Art. 26 de la Ley 24.855, el Estado Nacional transfirió a este 
+fondo fiduciario, junto con las acciones, el pasivo residual que el BHSA poseía con el 
+BCRA, a cancelar en las condiciones establecidas en el Dto. 1284/99, en 120 cuotas 
+iguales, mensuales y consecutivas a partir de setiembre/03, devengando un interés a 
+tasa Libo a 180 días. Al 30/09/04 la deuda asciende a $(000) 615.245. A la fecha del 
+presente informe no se ha cancelado ninguna cuota y la deuda exigible es de $(000) 
+61.499. 
+ 
+
+===== PDF PAGE 44 =====
+
+ 22 
+• El Art. 35 de la Ley 24.855 establece que el presente fideicomiso deberá transferir al 
+Banco de la Nación Argentina $(000) 100.000.- del producido de la venta de las 
+acciones del BHSA y un porcentaje de la renta que generen los activos fideicomitidos 
+hasta completar un total de $(000) 200.000. Con estos fondos el Banco de la Nación 
+Argentina debe crear un área de crédito hipotecario destinado a operar un programa 
+especial para el financiamiento de la vivienda familiar única. Al 30.09.04 la deuda con 
+Banco de la Nación Argentina por ambos conceptos asciende a $(000) 105.100.- 
+ 
+g) Financiaciones realizadas por el Fondo Fiduciario: 
+Desde la creación del fondo hasta el 30.09.04 se han financiado 178 obras por un total de 
+$(000) 741.125, (a valores históricos), cuya discriminación por jurisdicción se detalla en 
+el cuadro expuesto a continuación. Los préstamos fueron otorgados a la Nación o a las 
+provincias, en este último caso con garantía de coparticipación, instrumentado mediante la 
+firma de mutuos. El plazo promedio de las financiaciones es de 60 meses. 
+ 
+ 
+
+===== PDF PAGE 45 =====
+
+ 23 
+Distribución de financiaciones por jurisdiccion en $(000) 
+ 
+h) Al 30/09/04 el saldo de los préstamos otorgados asciende a $(000) 586.971, dentro de los 
+cuales se incluyen $(000) 71.690 correspondientes a cuotas vencidas. El Estado Nacional 
+adeuda al FFFIR $(000) 59.815 desde junio de 2002. 
+ 
+i) El Fondo Fiduciario mantiene compromisos con las jurisdicciones por convenios firmados 
+con las mismas por un total de $(000) 123.307. Dado el cronograma de desembolsos de 
+cada proyecto financiado, la totalidad de las erogaciones se realizarán en el último 
+trimestre del año en curso y durante el año 2005. 
+ 
+ 
+ 
+Jurisdicción Monto 
+Comprometido
+Monto 
+Desembolsado
+Cantidad 
+de Obras
+Interés 
+promedio Morosidad
+Nacion 280.841 273.790 58 4,2% 18,4%
+Cordoba 91.829 67.724 5 7,5% 3,0%
+Buenos Aires 74.514 38.110 4 7,8% 0,0%
+Chaco 32.396 32.315 6 6,9% 0,0%
+San Juan 31.390 25.196 9 6,9% 0,0%
+Salta 30.799 25.513 13 6,3% 1,5%
+Mendoza 29.946 23.684 3 7,5% 1,4%
+La Rioja 20.379 20.181 16 6,2% 10,7%
+Santa Fe 18.931 6.065 1 8,1% 0,1%
+Entre Rios 18.500 12.380 9 7,2% 4,4%
+Tucuman 18.387 11.526 7 6,9% 0,0%
+Formosa 17.881 16.279 5 6,8% 0,0%
+La Pampa 15.953 15.953 1 5,2% 12,2%
+Jujuy 11.630 11.630 1 7,7% 7,0%
+Rio Negro 9.551 2.870 3 7,4% 0,0%
+Tierra del Fuego 8.743 5.485 15 6,6% 0,0%
+Chubut 7.897 7.658 8 6,4% 9,0%
+Neuquen 7.051 7.051 2 4,5% 17,9%
+Misiones 5.100 5.061 1 7,3% 0,0%
+Santa Cruz 5.000 5.000 1 6,2% 9,5%
+Catamarca 3.738 3.738 2 6,6% 0,0%
+Corrientes 477 418 7 7,1% 0,0%
+Santiago del Estero 192 192 1 6,2% 10,5%
+TOTAL 741.125 617.819 178
+
+===== PDF PAGE 46 =====
+
+ 24 
+j) Capacidad prestable del Fondo Fiduciario: 
+De acuerdo a los informes de gestión y del auditor, se manifiesta que el fideicomiso posee 
+serias dificultades para otorgar nuevos préstamos a las jurisdicciones, hasta tanto no se 
+capitalice el fondo. 
+Los factores que inciden en el corto plazo son, el crecimiento de los costos de las obras, la 
+reducción en el monto de capitalización comprometida por aplicación del Dto. 471/02, la 
+cancelación de operaciones de pase con Banco de la Nación Argentina y la obligación de 
+cumplir con los servicios de amortización al BCRA.  
+ 
+k) Con respecto a los activos del FFFIR, que servirán de garantía para cualquier nueva 
+operación de capitalización, se destaca la caída que ha demostrado la cotización de las 
+acciones del BHSA, con un mínimo histórico a diciembre 2002.  
+   
+FECHA COTIZACION $ P/ACCION
+31/12/1999 13,8
+31/12/2000 7,0
+31/12/2001 3,3
+31/12/2002 1,9
+30/06/2003 2,5
+31/12/2003 8,1
+30/06/2004 6,8
+30/09/2004 6,3
+  
+ 
+l) Estructura de gastos al 30.09.04  
+El total de gastos de administración asciende a $(000) 3.070.-, compuesto por los 
+siguientes ítems: 
+ 
+Gastos de personal 2.241
+Servicios técnicos y profesionales 303
+Amortizaciones (1) 121
+Comisiones al fiduciario 99
+Gastos de mantenimiento 86
+Servicios básicos 71
+Pasajes y viáticos 69
+Bienes de Consumo 43
+Otros gastos 37  
+
+===== PDF PAGE 47 =====
+
+ 25 
+(1) las amortizaciones corresponden a equipos de computación y de comunicación, muebles y software 
+adquirido por el consejo de administración.  
+ 
+m) La organización administrativa del Fideicomiso cuenta con una dotación de 45 empleados 
+en planta permanente, de acuerdo a la información suministrada por el Fondo a la Oficina 
+Nacional de Presupuesto:  
+ 
+ 
+Directivos 5
+Técnicos y profesionales 24
+Administrativos 13
+Obreros y maestranza 3  
+ 
+ 
+6. FONDO DE SECRETARIA DE HACIENDA (BICE) 
+ 
+NORMA DE CREACION: Resolución Nº 557/94 
+FECHA DE CONTRATO: 27/01/99. 
+PLAZO: 5 años con una renovación automática de 5 años más. 
+FIDUCIANTE: Secretaria de Hacienda 
+FIDUCIARIO: Banco de Inversión y Comercio Exterior (BICE) 
+BENEFICIARIO: Secretaria de Hacienda 
+FIDEICOMISARIO: Secretaria de Hacienda 
+COMISION DE CONTRALOR : presidida por el Secretario de Hacienda e integrada por 2 
+miembros a designar por la Secretaría y otros 2 por el BICE 
+FINALIDAD: aplicar el producido de los bienes fideicomitidos a la implementación de 
+programas de financiamiento y/o a los fines que pudiera determinar la Secretaría de Hacienda 
+ 
+RECURSOS DEL FIDEICOMISO : comprendido por activos financieros, importes a 
+percibir en virtud de lo dispuesto por Res. 1.016/93 del MEYOSP, sus modificatorias y los 
+convenios respectivos e importes a percibir y en su caso el saldo de los percibidos no 
+capitalizados, en virtud de los prescripto por el Dto. 1.245/98  
+ 
+
+===== PDF PAGE 48 =====
+
+ 26 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) Por medio de la Resolución Nº 1016 del 14/09/93 del MEYOSP se instruyó a la Secretaria 
+para que procediera a transferir en administración al BICE, activos a valores del 30/09/92, 
+provenientes de la escisión de los mismos del balance del Banco Central de la República 
+Argentina. 
+Por Resolución Nº 557 del 26/04/94 se aprobó el texto del convenio a suscribirse entre la 
+Secretaría de Hacienda y el BICE, formalizado con fecha 06/05/94. Este convenio 
+transfirió en fideicomiso al BICE los activos que este administraba de acuerdo al convenio 
+anterior. 
+Ratificando la continuidad del convenio, las partes resolvieron adecuar el contenido del 
+mismo a las estipulaciones de la Ley 24.441 y Decreto 1245/98, por lo cual se celebró un 
+nuevo contrato con fecha 27/01/99 . 
+ 
+b) Los bienes fideicomitidos son los que se describen en el Anexo I al contrato de 
+fideicomiso, expresados en valores del 31/12/98 y se detallan a continuación: 
+a) Activos financieros: 
+ 
+Activos $(000) 
+Disponibilidades $   15.181.- 
+Títulos Públicos $ 123.329.- 
+Préstamos $   71.266.- 
+Otros Créditos por Intermed. Financiera $   50.315.- 
+Obligaciones Diversas $      (224.-) 
+TOTAL $ 259.868.- 
+  
+b) Importes a recibir en virtud de lo dispuesto por resoluciones del MEyOSP Nº 
+1016/93, modificatorias y convenios respectivos: 
+o Líneas de Crédito de Cobro Regular U$S 24.061.- 
+o Líneas de Crédito de Cobro Irregular U$S 66.667.-  
+ 
+
+===== PDF PAGE 49 =====
+
+ 27 
+c) Importes a percibir y en su caso el saldo de los percibidos no capitalizados en virtud 
+de lo prescripto por el Dto. 1245 del 27.10.98: U$S 12.305.-  
+ 
+c) Por Ley 25. 300 se estableció que la Secretaría de Hacienda efectúe aportes a los Fondos 
+FOGAPYME y FONAPYME (ver 14. y 15. siguientes) utilizando fondos de este 
+fideicomiso. 
+ 
+d) El contrato establece una retribución para el fiduciario calculada sobre ciertos cobros y 
+operaciones autorizadas por el mismo, netos de gastos deducibles. 
+ 
+e) Al 30/09/04 la composición de la cartera de préstamos y otros créditos era la siguiente: 
+ 
+Concepto $(000) 
+Prestamos Garantizados 15.879.- 
+Líneas comerciales 37.953.- 
+Línea Ecuador 31.436.- 
+Línea País-País-Cobros Irregulares 204.416.- 
+ 
+ 
+7. FIDEICOMISO DE INFRAESTRUCTURA HÍDRICA 
+ 
+NORMA DE CREACION: Decreto N° 1381/01 
+FECHA DE CONTRATO: 19/03/2002  
+PLAZO: treinta años desde la celebración del contrato 
+FIDUCIANTE: Estado Nacional 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO:  
+a) Los contratistas y/o encargados del proyecto de obras, mantenimiento y servicios de 
+infraestructura en la medida y con el alcance que le sea comunicado por el Ministerio de 
+Economía por los proyectos de infraestructura de obras hídricas de recuperación de 
+tierras productivas, mitigación de inundaciones en zonas rurales y avenamiento y 
+
+===== PDF PAGE 50 =====
+
+ 28 
+protección de infraestructura vial y ferroviaria en zonas rurales y periurbanas, 
+comenzando por aquellas regiones que se encuentran en emergencia hídrica. 
+b) Los concesionarios de dragado y mantenimiento de vías navegables por las 
+compensaciones por disminuciones tarifarias. 
+c) Los Organismos multilaterales de crédito o entidades financieras que ocurrieren al 
+financiamiento de proyectos de infraestructura hídrica a ser pagados desde el 
+Fideicomiso de Infraestructura Hídrica. 
+d) Los tenedores de títulos de deuda y/o certificados de participación por las emisiones que 
+el Ministerio de Economía decida efectuar de conformidad con lo establecido en Dto. 
+1381/01 y en el contrato y, los prestadores de servicios relacionados con tales 
+emisiones. 
+FIDEICOMISARIO: Estado Nacional. 
+FINALIDAD: atender:  
+a) las necesidades de financiación de los beneficiarios por la ejecución de obras, 
+mantenimiento y servicios de infraestructura hídrica de recuperación de tierras 
+productivas, mitigación de inundaciones,  
+b) pago de compensaciones por disminuciones tarifarias a los concesionarios de dragado y 
+mantenimiento de vías navegables,  
+c) pago de intereses y amortizaciones de títulos de deuda pública,  
+d) constitución de reserva de liquidez, entre otros fines 
+ 
+RECURSOS DEL FIDEICOMISO:  
+a) Tasa de infraestructura hídrica 
+b) El producido de sus operaciones, la renta, frutos e inversión de los bienes 
+fideicomitidos 
+c) Las contribuciones, subsidios, legados o donaciones específicamente destinados al 
+Fideicomiso de Infraestructura Hídrica 
+d) Los recursos que, en su caso, le asignen el Estado Nacional y/o las Provincias 
+e) Los ingresos provenientes de intereses y multas aplicadas a los responsables del 
+ingreso de la Tasa de infraestructura hídrica. 
+ 
+
+===== PDF PAGE 51 =====
+
+ 29 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) Por el Decreto N° 1381/01 se creó la tasa de infraestructura hídrica aplicable a la venta o 
+importación de naftas de determinadas condiciones fijadas en el mismo decreto y al gas 
+natural comprimido utilizado en automóviles y al consumo de los combustibles señalados 
+por parte de los sujetos obligados al pago de la tasa. 
+ 
+b) El fiduciario debe administrar el fondo de acuerdo a las pautas establecidas por el 
+Ministerio de Economía y Producción. 
+ 
+c) Expensas de Fiduciario: incluye todos los gastos, expensas y costos, los de estructura 
+operativa, personal, cargas respectivas, equipamiento, papelería, comunicaciones e 
+impuestos propios por su actividad como fiduciario. El valor total de las mismas no podrá 
+exceder la suma de hasta $(000) 10 por mes calendario. 
+ 
+d) Naturaleza de los activos fideicomitidos: 
+En ningún caso los Activos Fideicomitidos son ni serán considerados como recursos 
+presupuestarios, impositivos o de cualquier otra naturaleza que ponga en riesgo el 
+cumplimiento del fin al que están afectados. El Fiduciante por el presente se obliga entre 
+otras cosas a no disponer, en modo alguno, total o parcialmente, de los activos 
+Fideicomitidos para atender gastos propios, o de sus empleados dependientes, ni podrá 
+crear organismo, consejo, comité directivo o ente alguno con facultades decisorias o de 
+control sobre el Fiduciario o sobre los activos fideicomitidos. 
+ 
+e) Información de la UNIDAD  DE COORDINACION DE FIDEICOMISOS DE 
+INFRAESTRUCTURA  UCOFIN 
+(Información a valores históricos acumulados 
+desde 03/2002 al 09/2004)     
+        
+ Aplicaciones en $(000) 
+Recursos 
+Reserva Provincias  Obras 
+Serv. Asist. 
+Tec. Expropiac. 
+Aportes al 
+Tesoro 
+Total 
+Aplicacio
+nes 
+803.190 24 169.590 58.822 7.258 11.039 70.000 316.733 
+ 
+o Diferencia entre Recursos y Aplicaciones: $(000) 486.457.- 
+
+===== PDF PAGE 52 =====
+
+ 30 
+ 
+OBRAS DE EMERGENCIA HIDRICA POR CONVENIOS CON PROVINCIAS 
+  $(000) a valores históricos   
+Provincia Proyecto Total 
+Acumul.09/04 
+Monto 
+Previsto 
+Avance 
+Global    
+Buenos Aires Conv. 2001 33.483 48.560 68,95%  
+Buenos Aires Conv. 2003 2.676 240.000 1,11%  
+Buenos Aires Conv. 2004 0 2.900 0,00%  
+Catamarca Conv. 2002 1.498 1.500 99,89%  
+Chaco Conv. 2002 1.366 1.500 91,07%  
+Chaco Conv. 2003  2.260 0,00%  
+Chaco Conv. 2004  4.120 0,00%  
+Chubut Conv. 2002 1.629 2.031 80,21%  
+Chubut Conv. 2003 2.988 3.400 87,89%  
+Chubut Conv. 2004  16.000 0,00%  
+Chubut Conv. 2004  Prov 20.000 0,00%  
+Córdoba Conv. 2001 32.253 40.750 79,15%  
+Córdoba Conv. 2003 3.528 3.600 98,01%  
+Corrientes Conv. 2004  2.000 0,00%  
+Entre Ríos Conv. 2003 6.369 8.241 77,28%  
+Entre Ríos Conv. 2004  6.496 0,00%  
+Entre Ríos Conv. 2004  4.141 0,00%  
+Formosa Conv. 2002 1.202 1.202 100,00%  
+Formosa Conv. 2004  8.850 0,00%  
+Int. La Pampa, Bs. 
+As., Sta. Fe  
+Recup. De Vías 
+Férreas 6.591 6.591 100,00%  
+Int. Chaco, Sta Fe Conv. 2003 431 436 98,93%  
+Jujuy Conv. 2002 756 1.300 58,14%  
+Jujuy Conv. 2004  Prov 18.427 0,00%  
+La Pampa Conv. 2001 22.071 23.306 94,70%  
+La Rioja Conv. 2004  6.250 0,00%  
+Mendoza Conv. 2001 7.326 8.475 86,44%  
+Mendoza Conv. 2004  Prov 5.300 0,00%  
+Misiones Conv. 2003 2.849 3.998 71,27%  
+Neuquén Conv. 2003 554 1.400 39,54%  
+Neuquén Conv. 2004  Prov 6.000 0,00%  
+Rió Negro Conv. 2002 2.709 3.497 77,48%  
+Rió Negro Conv. 2003  570 0,00%  
+Rió Negro Conv. 2003  2.000 0,00%  
+Rió Negro Conv. 2004  3.284 0,00%  
+Rió Negro Conv. 2004  Prov 20.000 0,00%  
+Salta Conv. 2002 3.460 3.460 100,00%  
+San Juan Conv. 2003 1.500 1.500 100,00%  
+San Juan Conv. 2004  Prov 3.457 0,00%  
+Santa Fe Conv. 2001 21.290 25.425 83,74%  
+Santa Fe Conv. 2003 13.889 100.000 13,89%  
+Tucumán Conv. 2004  5.294 0,00%  
+TOTAL  170.419 667.521   
+
+===== PDF PAGE 53 =====
+
+ 31 
+ 
+ 
+OBRAS DE PLAN FEDERAL CONTROL INUNDACIONES - ASISTENCIA TECNICA Y OBRA 
+ 
+         
+ $(000) a valores históricos 
+Provincia Total 
+Acumul.09/04 
+Monto 
+Previsto 
+Avance 
+Global   
+Bs. As.   39.580 289.828 13,66% 
+Córdoba   9.783 269.491 3,63% 
+La Pampa   13.740 154.034 8,92% 
+San Luis   0 2.155 0,00% 
+Santa Fe   6.190 289.117 2,14% 
+Int. Chaco, Sta. Fe 8.116 16.450 49,34% 
+    77.409 1.021.075   
+     
+Total de Obras de Emergencia 
+Hidrica + Plan Federal Control     
+de Inundaciones  247.827 1.688.596  
+     
+Monto abonado a    
+    Subtotal a Provincias  169.590  
+         Obras 58.822   
+         Serv. Asistencia. 7.258   
+         Expropiaciones. 11.039   
+  Subtotal Plan Federal Control 
+   Inundaciones.  77.119  
+TOTALES   246.709  
+ 
+ 
+8. FONDO FIDUCIARIO PARA SUBSIDIOS DE CONSUMOS RESIDENCIALES 
+DE GAS 
+ 
+NORMA DE CREACION: Ley 25.565 – Decreto 786/02 
+FECHA DE CONTRATO: 4/6/02  
+PLAZO: 10 años contados a partir de la suscripción del Contrato de Fideicomiso. 
+FIDUCIANTE: Estado Nacional 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO:  
+
+===== PDF PAGE 54 =====
+
+ 32 
+a) Las empresas distribuidoras y subdistribuidoras de gas por redes de las Provincias 
+enunciadas con anterioridad, menos la Provincia de Mendoza, quienes percibirán el 
+subsidio con el objeto de financiar la aplicación de tarifas diferenciales a los consumos 
+residenciales de la zona indicada en este punto. 
+b) Las empresas distribuidoras y subdistribuidoras de gas por redes del Departamento 
+Malargüe de la Provincia de Mendoza, quienes lo percibirán con el objeto de financiar la 
+aplicación de tarifas diferenciales a los consumos residenciales de la zona indicada en este 
+punto. 
+c) Las personas físicas y/o jurídicas que indiquen las Provincias y que realicen ventas 
+mayoristas de cilindros, garrafas, o gas licuado de petróleo para uso domiciliario, 
+efectuadas a precios diferenciales inferiores a los de mercado, en las Provincias 
+enunciadas anteriormente, quienes lo percibirán con el objeto de financiar dichos precios 
+diferenciales.  
+d) Las personas físicas y/o jurídicas eventuales acreedoras del Estado Nacional, por 
+compensaciones no pagadas de ventas de gas subsidiadas a los usuarios finales.  
+FIDEICOMISARIO: Estado Nacional. 
+FINALIDAD: financiar:  
+a) las compensaciones tarifarias para la zona Sur del país y del Departamento Malargüe de 
+la Provincia de Mendoza, que las distribuidoras o subdistribuidoras zonales de Gas 
+Natural y Gas Licuado de Petróleo de uso domiciliario, deberán percibir por la 
+aplicación de tarifas diferenciales a los consumos residenciales, y  
+b) la venta para uso domiciliario de cilindros, garrafas, o gas licuado de petróleo en las 
+Provincias ubicadas en la Región Patagónica y del Departamento Malargüe de la 
+Provincia de Mendoza. 
+ 
+RECURSOS DEL FIDEICOMISO : El Fondo, cuyo monto total no podrá exceder la suma 
+de cien millones de pesos $(000) 100.000 anuales, se constituye con un recargo, que se aplica 
+a la totalidad de los metros cúbicos que se consuman por redes o ductos en el Territorio 
+Nacional cualquiera fuera el uso o utilización final del mismo.  
+a) Los recursos provenientes del recargo. 
+
+===== PDF PAGE 55 =====
+
+ 33 
+b) El producido de sus operaciones, la renta, frutos e inversión de los bienes 
+fideicomitidos. 
+c) Las contribuciones, subsidios, legados o donaciones específicamente destinados al 
+Fideicomiso.  
+d) Los recursos que, en su caso, le asignen el Estado Nacional y/o las Provincias. 
+e) Los ingresos provenientes de intereses y multas aplicadas a los responsables del 
+ingreso del recargo. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) La administración del Fideicomiso será ejercida por el Fiduciario de conformidad con las 
+instrucciones que le imparta la Secretaría de Energía del Ministerio de Economía y 
+Producción. 
+ 
+b) El Ministerio de Economía y Producción determina el importe del recargo referido. 
+ 
+c) La administración del Fideicomiso es ejercida por el Fiduciario de conformidad con las 
+instrucciones que le imparta la Secretaria de Energía del Ministerio de Economía.  
+ 
+d) Los productores de gas actuarán como agentes de percepción en las entregas de gas 
+natural a cualquiera de los sujetos de la industria. 
+ 
+e) Evolución de Ingresos y Egresos en $(000): 
+ 
+Ingresos Acumulado 
+al 31-12-02 
+Acumulado al 
+31-12-03 
+Acumulado al 
+30-09-04 
+Recaudación – AFIP 148.497.- 295.246.- 410.613.- 
+Totales 148.497.- 295.246.- 410.613.- 
+    
+    
+
+===== PDF PAGE 56 =====
+
+ 34 
+ 
+ 
+ 
+9. FIDEICOMISO PARA EL TRANSPORTE ELECTRICO FEDERAL 
+ 
+NORMA DE CREACION : Resolución N° 657/99 de la Secretaría de Energía. Resolución 
+N° 174/2000 
+FECHA DE CONTRATO: 14/11/2000 
+PLAZO: 20 años o cumplimiento del estatuto. 
+FIDUCIANTE: Consejo Federal de Energía Eléctrica órgano dependiente de la Secretaría de 
+Energía y Minería del Ministerio de Economía 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO: Comité de Administración y las personas físicas o jurídicas que éste 
+indique como consecuencia de la aplicación de la metodología de participación del Fondo en 
+el financiamiento de las obras que la Secretaría de Energía y Minería identifique como una 
+Ampliación del Sistema de Transporte de Energía Eléctrica en Alta Tensión Destinada al 
+Abastecimiento de la Demanda o a la Interconexión de Regiones Eléctricas para Mejora de 
+Calidad y/o Seguridad de la Demanda. 
+FIDEICOMISARIO: Fondo Nacional de la Energía Eléctrica (FNEE) 
+Egresos
+Acumulado al 
+31/12/02
+Acumulado al 
+31/12/03
+Acumulado al 
+30/09/04
+Pagos a beneficiarios
+Camuzzi Gas Pampeana S.A. 7.319 13.914 16.776
+Camuzzi Gas del Sur S.A. 108.323 192.815 236.482
+Coopetel El Bolson S. Ltda. 861 1.811 3.457
+Surgas S.A. 1.027 3.398 5.622
+Hidrocarburos del Neuquén S.A. 2.089 4.093 5.058
+Distrigas S.A. 14.842 28.030 38.178
+Repsol YPF Gas S.A. 1.671 3.998 7.974
+Gas Trelew S.A. 192 569 641
+Tecnogas Patagónica S.A. 0 998 1.287
+Distribuidora del Gas Cuyana S.A. 0 2.086 3.705
+Gas Austral S.A. 0 0 570
+Sartini Gas S.R.L. 0 0 480
+Totales 136.324 251.712 320.230
+
+===== PDF PAGE 57 =====
+
+ 35 
+COMITÉ DE ADMINISTRACION : constituido por tres miembros, presidido por el 
+Secretario de Energía,  
+FINALIDAD: financiación de obras que la Secretaría de Energía identifique como 
+ampliación del sistema de transporte de energía eléctrica en alta tensión destinada al 
+abastecimiento de la demanda o a la interconexión de regiones eléctricas para mejorar la 
+calidad y/o seguridad de la demanda. 
+ 
+RECURSOS DEL FIDEICOMISO:  
+a) Las recaudaciones provenientes del incremento del 0,0006 $/KWh en el valor del 
+recargo sobre tarifas que deben pagar los compradores de energía eléctrica en el 
+Mercado Eléctrico Mayorista. (MEM) 
+b) La renta financiera que produzca la administración de dichos fondos. 
+c) Los recursos que le asignen el Estado Nacional y las Provincias. 
+d) Las donaciones. 
+e) Otros recursos que se obtengan para los mismos objetivos previstos en el Estatuto. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) Mediante el dictado de la Resolución N° 657/99 de la Secretaría de Energía, se dispuso la 
+constitución de un fondo fiduciario cuyo objetivo era participar en el financiamiento de 
+obras de expansión de la red de abastecimiento de energía eléctrica. Este objetivo que se 
+vio redefinido por la Resolución N° 174/2000, en razón de la necesidad de realizar obras 
+que permitan abastecer de energía eléctrica a las zonas menos desarrolladas del país, 
+financiando las obras en el Sistema de Transporte de Energía Eléctrica en Alta Tensión. 
+ 
+b) La resolución 174/2000 incluyó la aprobación del Estatuto para el Fondo Fiduciario y la 
+aprobación del contrato de fideicomiso correspondiente.  
+ 
+c) la Resolución 142/2000 establece el Contrato, además existe una addenda que reconoce 
+$(000) 14.- por mes al fiduciario.  
+ 
+
+===== PDF PAGE 58 =====
+
+ 36 
+d) El Comité de Administración debe ajustar su actuar a las pautas establecidas en el mismo 
+estatuto, informar de manera periódica al Consejo Federal de Energía Eléctrica y ser 
+fiscalizado por la Sindicatura General de la Nación 
+ 
+e) Aportes del Fiduciante al 30/09/04: 
+ 
+Origen $(000) a valores 
+históricos 
+Fondo Nacional de la Energía Eléctrica  190.152.- 
+Tesoro Nacional  51.775.- 
+Total $ 241.927.- 
+ 
+f) Obras descriptas en el Plan Federal de Transporte Eléctrico: 
+o Interconexión Puerto Madryn – Zona Norte de la Provincia de Santa Cruz (Pico 
+Truncado) en 500 kV (incorporado al Plan por Res. 831/2003-SE) 
+o Interconexión Gran Mendoza-San Juan en 500 kV (primer tramo de la Línea 
+Minera, Res. 830/2003-SE) 
+o Interconexión Recreo (Catamarca)-La Rioja en 500 kV (segundo tramo de la Línea 
+Minera, Res. 830/2003-SE) 
+o Interconexión Comahue-Cuyo en 500 kV 
+o Interconexión regiones Noreste Argentino y Noroeste Argentino en 500 kV 
+o Interconexión San Juan-Rodeo en 500 kV (tercer tramo de la Línea Minera, Res. 
+830/2003-SE) 
+o Interconexión Mercado Eléctrico Mayorista (MEM) - Mercado Eléctrico 
+Mayorista Sistema Patagónico (MEMSP) en 500 kV 
+ 
+g) Aplicación de los fondos al 30/09/04:  
+ 
+Obras Adjudicatarios Montos Abonados en $(000) 
+Puerto Madryn – Pico Truncado Estudios $ 12.-
+MEM – MEMSP INTESAR $ 57.203.-
+Total  $ 57.215.-
+
+===== PDF PAGE 59 =====
+
+ 37 
+ 
+h) Existe una diferencia con relación a las aplicaciones entre la Información suministrada por 
+el Comité de Administración y el Estado de Origen y Aplicación de Fondos preparado por 
+el Banco de la Nación Argentina de $(000) 4.998.- 
+ 
+i) Plan Federal de Transporte. Desembolsos financieros previstos por obra en $(000):  
+ 
+Obra Costo FFTEF Inicio 
+Obra 
+Final 
+Obra 
+Duración 
+Meses 
+Mendoza – San Juan 80.000 56.000 abr-05 dic-06 20 
+Recreo – La Rioja 98.000 68.600 jun-05 feb-07 20 
+Comahue – Cuyo 435.000 65.250 Nov-05 nov-07  24 
+NEA – NOA 548.000 191.800 dic-05 dic-07 24 
+MEM – MEMSP 266.759 184.064 ene-04 dic-05 20 
+Total 1.427.759 565.714    
+ 
+ 
+10. FONDO FIDUCIARIO PARA LA PROMOCIÓN CIENTÍFICA Y 
+TECNOLÓGICA 
+ 
+NORMA DE CREACION: Decreto 1331/96 – Decreto 1660/96 
+FECHA DE CONTRATO: 22/09/97 
+PLAZO: 10 años, prorrogable, desde la firma del contrato 
+FIDUCIANTE: Secretaria de Ciencia, Tecnología e Innovación Productiva 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO: provincias, municipios, personas físicas o de existencia ideal, públicas o 
+privadas que desarrollen actividades elegibles. 
+FIDEICOMISARIO: Secretaria de Ciencia, Tecnología e Innovación Productiva. 
+COMITÉ DE GESTION: funcionarios del fiduciario 
+FINALIDAD: Financiar actividades productivas de bienes y servicios, actividades científicas, 
+tecnológicas, etc., que resulten elegibles a criterio del Fiduciante.  
+
+===== PDF PAGE 60 =====
+
+ 38 
+ 
+RECURSOS DEL FIDEICOMISO : los recursos que asigne el Estado Nacional a la 
+Secretaría de Ciencia, Tecnología e Innovación Productiva, las contribuciones o subsidios de 
+otros organismos estatales o privados, de acuerdos o convenios con organismos nacionales o 
+extranjeros y de legados, donaciones o herencias, así como los provenientes del reembolso de 
+beneficios otorgados e intereses legal y específicamente afectados en todos los casos a la 
+Agencia Nacional de Promoción Científica y Tecnológica para la aplicación de la Ley 23.877 
+de Promoción y Fomento de la Innovación. 
+Los demás recursos legal y específicamente afectados a la Agencia mencionada para la 
+promoción de la ciencia, la tecnología y la innovación tecnológica del sector productivo de 
+bienes y servicios y para su administración también podrán ser bienes fideicomitidos 
+mediante autorización del Poder Ejecutivo o quien éste designe. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El Comité de Gestión es el órgano ejecutivo del fideicomiso, integrado por funcionarios 
+del fiduciario, que se regirá por un Reglamento de Gestión y Reglamento operativo 
+aprobado por el fiduciario y el fiduciante. 
+ 
+b) El fiduciario ejerce sus funciones con la actuación del Comité de Gestión. Entre las 
+mismas se encuentra desembolsar a los beneficiarios préstamos o subvenciones para 
+ejecutar proyectos de investigación y desarrollo científico y tecnológico, de innovación y 
+modernización tecnológica, de capacitación y asistencia técnica que determine el 
+fiduciante y efectuar cuando corresponda el estudio, verificación e instrumentación de las 
+garantías que los beneficiarios deban constituir. 
+ 
+c) Retribuciones y Gastos: Gastos en que incurra para la Administración,  0,25% Trimestral 
+en carácter de remuneración sobre: Saldos Promedios de los Préstamos y/o subvenciones, 
+y Saldos Promedios de las Inversiones con un mínimo de $(000) 12,5. 
+ 
+
+===== PDF PAGE 61 =====
+
+ 39 
+d) Por Decreto 1660/96 se crea la Agencia Nacional de Promoción Científica y Tecnológica 
+en jurisdicción de la Secretaria de Ciencia, Tecnología e Innovación Productiva del 
+Ministerio de Cultura y Educación como organismo desconcentrado cuya misión principal 
+será la de organizar y administrar instrumentos para la promoción y el fomento del 
+desarrollo científico – tecnológico.  
+ 
+ 
+11. PROGRAMA DE FIDEICOMISOS DECRETO 1118/03- MYPES II  
+PROGRAMA GLOBAL DE CRÉDITO A LA MICRO Y PEQUEÑA EMPRESA 
+(CONTRATO DE PRÉSTAMO BID 1192/OC-AR) 
+ 
+NORMA DE CREACION: Decreto Nº 1118/03 
+FECHA DE CONTRATO: 26/05/04 
+PLAZO: 3 años 
+FIDUCIANTE: Nación Argentina por intermedio del Ministerio de Economía y Producción 
+FIDUCIARIO: Sud Inversiones y Análisis S.A. 
+BENEFICIARIO: Nación Argentina por intermedio del Ministerio de Economía y 
+Producción. 
+FIDEICOMISARIO: Nación Argentina por intermedio del Ministerio de Economía y 
+Producción  
+FINALIDAD: adquisición, por vía de descuento, de créditos de titularidad de los Bancos 
+Credicoop Cooperativo Ltdo. y Macro-Bansud S.A.(denominadas las IFIs), otorgados o a 
+otorgarse a las MyPES susceptibles de financiación. 
+ 
+RECURSOS DEL FIDEICOMISO: fondos provenientes del préstamo BID 1192/OC-AR y 
+con el recupero de los préstamos BID 643/OC-AR y 867/SF-AR.: 
+(i) los fondos que aportará el fiduciante producto de los préstamos del BID, (ii) los créditos 
+que el fiduciante le descuente a la IFIs y (iii) los derechos y privilegios provenientes de la 
+cesión de créditos en garantía o prenda que se constituyan a favor del fideicomiso. 
+ 
+ 
+
+===== PDF PAGE 62 =====
+
+ 40 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El Decreto Nº 993/99 aprobó el modelo del contrato a suscribir entre la Nación Argentina 
+y el Banco Interamericano de Desarrollo (BID) por un monto de financiamiento de hasta 
+U$S(000) 100.000.- 
+ 
+b) Con fecha 15/9/99, la Nación Argentina y el BID firmaron el Contrato de Préstamo 
+1192/OC-AR, para cooperar en la ejecución del Programa Global de Crédito a la Micro y 
+Pequeña Empresa, destinado al apoyo al incremento de la capacidad productiva de las 
+micro y pequeñas empresas. 
+ 
+c) El Art. 5to. Del Dto. 993/99 dispuso que la Unidad de Coordinación del Programa (UCP) 
+que funciona actualmente en la jurisdicción de la Subsecretaría de la Pequeña y Mediana 
+Empresa y Desarrollo Regional, de la Secretaría de Industria, Comercio y de la Pequeña y 
+Mediana Empresa del Ministerio de Economía y Producción, sea el organismo ejecutor 
+del Programa. 
+ 
+d) El Decreto Nº 1118/03 facultó al Poder Ejecutivo a través del entonces Ministerio de 
+Economía a constituir un programa de Fideicomisos con el objeto de utilizar los fondos 
+del Contrato de Préstamo BID 1192/OC-AR y facultó al Ministerio de Economía a 
+suscribir el Contrato de Fideicomiso, que fue firmado con fecha 26/05/04. 
+El contrato de Fideicomiso, cuyo patrimonio podrá alcanzar la suma de U$S(000) 50.000., 
+se integrará con los fondos provenientes del préstamo BID 1192/OC-AR y con el recupero 
+de los préstamos BID 643/OC-AR y 867/SF-AR, hasta la suma de U$S(000) 6.000.- 
+ 
+e) El aporte máximo que el fiduciario destinará al descuento de cada crédito, con recursos 
+del fideicomiso, será del 58,82 % del total de cada crédito que le ofrezcan las IFIs, el 
+saldo será el denominado Aporte de Contrapartida Local de las IFIs. 
+ 
+f) El BCRA es el agente financiero del fiduciante y desarrollará la función de control y 
+fiscalización del fiduciario, atendiendo los lineamientos que acuerde con la UCP. 
+
+===== PDF PAGE 63 =====
+
+ 41 
+ 
+g) Junto con el contrato de fideicomiso, las partes firmaron un Contrato de Garantía Bancaria 
+e Indemnidad, mediante el cual las IFIs se constituyen en fiadores solidarios, codeudores y 
+principales pagadores de todas y cada una de las obligaciones asumidas por el fiduciario. 
+El límite de la garantía para cada entidad financiera, será el monto de los créditos que cada 
+una de ellas hubiera descontado al fiduciario o este le hubiera adquirido. 
+ 
+h) El fideicomiso presenta la información contable dentro del Balance del Programa 
+preparado por la UCP, que incluye saldos relacionados con el MYPES I . 
+ 
+i) Composición de la Cartera al 31/12/03 
+o En situación normal: U$S(000) 2.718 
+o En gestión judicial: U$S(000) 2.188 (ex Bancos Suquía y Bisel) 
+j) Fondos provenientes del préstamo BID 1192/OC-AR al 31/12/03: U$S (000) 14.228.- 
+ 
+ 
+12. FONDO FIDUCIARIO DE CAPITAL SOCIAL 
+ 
+NORMA DE CREACION: Decreto N° 675/97  
+FECHA DE CONTRATO: 22/10/97 
+FIDUCIANTE: Estado Nacional 
+PLAZO: treinta años  
+FIDUCIARIO: FONCAP S.A. 
+BENEFICIARIO: Estado Nacional y a quienes se adhirieran a futuro mediante la realización 
+de un aporte fiduciario al Fondo  
+FIDEICOMISARIO: Beneficiarios 
+COMITÉ EJECUTIVO: miembros del Directorio de FONCAP S.A:  
+FINALIDAD: facilitar el desarrollo del sector de la microempresa de menores recursos a 
+nivel nacional, con especial atención a las particularidades de cada región. En particular: 
+a) Facilitar recursos a los fideicomisos que la sociedad administradora entienda incluidos en 
+el fin para el cual fue creado el fondo fiduciario 
+
+===== PDF PAGE 64 =====
+
+ 42 
+b) Desarrollar instituciones y herramientas aptas para atender las necesidades de las 
+microempresas de cada región, ampliando el sistema de garantías para permitirles el 
+acceso a los servicios financieros 
+c) Atraer, tomar y canalizar el capital y crédito nacional e internacional necesario para el 
+cumplimiento de su objeto 
+d) Otorgar garantías comprometiendo exclusivamente los recursos del Fondo Fiduciario que 
+se crea por este Decreto  
+e) Promover la prestación de servicios al sector de la microempresa. 
+ 
+RECURSOS DEL FIDEICOMISO : las utilidades obtenidas por la Lotería Nacional en los 
+ejercicios contables 1992, 1993, 1994 y 1995, recursos presupuestarios, aporte de organismos 
+internacionales y cualquier otro aporte, donación o legado nacional o extranjero que por su 
+condición subjetiva se encuentre exento de pagar Imp. a las Ganancias. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) Mediante el dictado del Decreto N° 675/97 además de la creación del Fondo Fiduciario de 
+Capital Social, se dispuso la creación de una sociedad anónima con participación estatal 
+mayoritaria (FONCAP) con el objeto de actuar como fiduciaria ya sea para el fideicomiso 
+que se creó o para los que se constituyeren a futuro para fines sociales similares, 
+estableciendo en su Anexo I el estatuto por el cual debería regirse esta sociedad.  Esta 
+sociedad tiene prevista una duración de treinta y cinco (35) años. Su capital estaría 
+conformado por acciones clase A y B, correspondiendo las primeras al Estado Nacional y 
+las segundas a organizaciones sin fines de lucro representativas del sector social, 
+empresario y de organismos y fundaciones internacionales. 
+ 
+b) Se dispuso asimismo que el objeto para el cual el Fondo Fiduciario había sido creado 
+debería ser llevado a cabo de acuerdo a las directivas establecidas en los anexos del 
+mismo contrato, a saber: pautas para el otorgamiento de créditos por parte de prestadores 
+de servicios financieros al sector de la Microempresa y la aplicación de parámetros de 
+
+===== PDF PAGE 65 =====
+
+ 43 
+inversión ajustándose a las normas vigentes para las Administradoras de Fondos de 
+Jubilaciones y Pensiones. 
+ 
+c) El Comité Ejecutivo tiene la función de asistir en la administración del Fondo. 
+ 
+d) Composición de la Cartera al 30/09/04 en $(000)  
+ 
+Fideicomiso 
+Tabaco; 4.639
+Resto; 4.588
+Fundación Pro - 
+Vivienda Social; 
+2.998
+Fie Gran Poder 
+S.A.; 2.223
+Fund. Bco. Mundial 
+de la Mujer WWB; 
+900
+Fideicomiso Ben 
+Hur; 1.270
+Fideicomiso Miel; 
+9.314
+ 
+ 
+ 
+13. FONDO FIDUCIARIO PARA LA RECUPERACIÓN DE LA ACTIVIDAD OVINA 
+(FRAO) 
+ 
+NORMA DE CREACION: Ley Nº 25.422 del 27/04/01 - Decreto 1031/02 
+FECHA DE CONTRATO: 19/07/02 
+PLAZO: 10 años renovable por acuerdo de las partes. 
+FIDUCIANTE: Secretaría de Agricultura, Ganadería, Pesca y Alimentos 
+FIDUCIARIO: Banco de la Nación Argentina. 
+FIDEICOMISARIO: al vencimiento del plazo del contrato todos los bienes fideicomitidos 
+serán transferidos según instruya el Fiduciante. 
+BENEFICIARIO: Las personas físicas o jurídicas y las sucesiones indivisas que realicen 
+actividades objeto de la Ley 25.422 y que cumplan los requisitos: 
+
+===== PDF PAGE 66 =====
+
+ 44 
+a) Productores agropecuarios que sean propietarios de animales ovinos con el objetivo de 
+su explotación comercial. 
+b) Productores agropecuarios que sin tener animales ovinos presenten proyectos de 
+inversión en producción ovina, que sean aprobados por la Autoridad de Aplicación. 
+c) Emprendimientos comerciales asociativos de integración horizontal o vertical en la que 
+la mayor parte de los asociados sean productores agropecuarios. 
+COMITÉ DE ADMINISTRACIÓN : Comisión Asesora Técnica del Régimen para la 
+Recuperación de la Ganadería Ovina (CAT), que actúa en el ámbito de la Secretaría de 
+Agricultura, Ganadería, Pesca y Alimentación. 
+FINALIDAD: Solventar los desembolsos derivados de la aplicación de este régimen para la 
+recuperación de la ganadería ovina, destinado a lograr la adecuación y modernización de los 
+sistemas productivos ovinos que permita su sostenibilidad a través del tiempo y 
+consecuentemente, permita mantener e incrementar las fuentes de trabajo y la radicación de la 
+población rural. 
+Comprende la explotación de la hacienda ovina que tenga el objetivo final de lograr una 
+producción comercializable ya sea de animales en pie, lana, carne, cuero, leche, grasa, semen, 
+embriones u otro producto derivado, y que se realice en cualquier parte del territorio nacional, 
+en tierras y en condiciones agroecológicas adecuadas. 
+ 
+RECURSOS DEL FIDEICOMISO : Recursos provenientes de las partidas anuales 
+presupuestarias del Tesoro Nacional por un monto anual no menor a ($.000) 20.000.- por el 
+lapso de 10 años, de donaciones, de aportes de organismos internacionales, provinciales y de 
+los productores, del recupero de los créditos otorgados por el FRAO y de los fondos 
+provenientes de las sanciones aplicadas conforme a los incisos b) y c) del artículo 23 de la ley 
+de creación. Integrarán también el fideicomiso los intereses, dividendos, frutos y demás rentas 
+e ingresos que produzcan los mismos bienes. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) La autoridad de aplicación del Régimen de Recuperación será la Secretaría de Agricultura, 
+Ganadería, Pesca y Alimentación 
+
+===== PDF PAGE 67 =====
+
+ 45 
+ 
+b) La autoridad de aplicación, previa consulta con la CAT, establecerá el criterio para la 
+distribución de los fondos del FRAO, dando prioridad a las zonas agroecológicas del país 
+en las cuales la ganadería ovina tenga una significativa importancia para el arraigo de la 
+población y a los planes de trabajo o proyectos de inversión en los cuales se incremente la 
+ocupación de mano de obra y/o en los que las personas físicas titulares de los beneficios se 
+comprometan a radicarse dentro del establecimiento rural promovido 
+ 
+ 
+14. FONDO DE GARANTÍA PARA LA MICRO, PEQUEÑA Y MEDIANA EMPRESA 
+(FOGAPYME) 
+ 
+NORMA DE CREACION: Ley N° 25.300 del 16/8/00 - Decreto N° 1074/01 
+FECHA DE CONTRATO: 22/11/02 
+PLAZO: 25 años a partir de la puesta en funcionamiento 
+FIDUCIANTE: Estado Nacional a través del Ministerio de Economía 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO: Titulares de los certificados de participación que emita el Fiduciario. 
+FIDEICOMISARIO: Estado Nacional. 
+COMITÉ DE ADMINISTRACION : un integrante de SSEPyMEyDR, uno del BNA, uno 
+del BICE y uno de la Secretaría de Hacienda. 
+FINALIDAD: otorgar garantías en respaldo de las que emitan las Sociedades de Garantía 
+Reciproca y de las que emitan los fondos provinciales o regionales y ofrecer garantías directas 
+a las entidades financieras acreedoras de las micro, pequeñas y medianas empresas y formas 
+asociativas comprendidas en el artículo 1° de la Ley N° 25.300, a fin de mejorar las 
+condiciones de acceso al crédito de las mismas. 
+Asimismo, deberá preverse una asignación de fondos para la instalación y puesta en 
+marcha de la Red de Agencias Regionales de Desarrollo Productivo por hasta la suma de 
+$(000) 5.000.- a afrontar en forma conjunta con el FONAPYME, en los plazos y condiciones 
+que establezca el Comité de Administración. 
+ 
+
+===== PDF PAGE 68 =====
+
+ 46 
+RECURSOS DEL FIDEICOMISO: El Ministerio de Economía a través de la Secretaría de 
+Hacienda se compromete a transferir hasta la suma de $(000) 100.000.- a integrarse en las 
+proporciones, modalidades y plazos establecidos por el Art. 23 del Dto. 1074/2001 y las 
+cláusulas respectivas del contrato. 
+Integrarán también el Fideicomiso, los intereses, dividendos, frutos y demás acrecidos e 
+ingresos que produzcan los activos a que se refiere el párrafo precedente; así como otros 
+aportes que realicen el Estado Nacional, organismos internacionales, entidades públicas y 
+privadas nacionales o extranjeras, gobiernos provinciales o municipales. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El fiduciario debe emitir certificados de participación, que serán suscriptos inicialmente 
+por el Estado Nacional y se integrarán por el Banco de la Nación Argentina en un 60% y 
+por la Secretaría de Hacienda del Ministerio de Economía en un 40%. 
+ 
+b) El Comité de Administración podrá incorporar 1 representante por cada entidad que 
+efectúe aportes no inferiores al 20% del total de lo efectivamente integrado. Tiene entre 
+otras atribuciones establecer la política de inversión de los recursos del fondo y fijar 
+términos, condiciones y requisitos para el otorgamiento de garantías y reafianzamientos a 
+las SGR y Fondos de Garantía. 
+ 
+c) El fiduciario no percibe comisión quedando autorizado a retener el 0,25% de los fondos 
+integrados en concepto de reconocimiento de gastos 
+ 
+d) La Secretaría de Hacienda podrá disponer de utilidades líquidas y realizadas del ejercicio 
+en curso en los meses de marzo y setiembre de cada año. 
+ 
+e) Al 30.09.04 el fiduciante efectuó los siguientes aportes: 
+Ø Aporte de Banco de la Nación Argentina: Títulos Públicos “Bonos Gob. Nac. Badlar B 
+Vto. 7/8/02”, valor nominal $(000) 6.118.- con fecha 8/01/03., valuado en $(000) 
+12.000.- 
+
+===== PDF PAGE 69 =====
+
+ 47 
+ 
+Ø Aporte de la Secretaría de Hacienda por intermedio de Fondo Secretaría de Hacienda-
+BICE: Bonos Brady Perú T.V. Vto. 7/3/27, con fecha 14/01/03, valor nominal $(000) 
+2.967.- valuados en $(000) 8.000.- 
+ 
+f) A la fecha del informe este fideicomiso no ha realizado operaciones. 
+ 
+ 
+15. FONDO NACIONAL DE DESARROLLO PARA LA MICRO, PEQUEÑA Y  
+MEDIANA EMPRESA (FONAPYME) 
+ 
+NORMA DE CREACION: la Ley N° 25.300 de fecha 16/8/00 - Decreto N° 1074/01  
+FECHA DE CONTRATO:  22/11/02 
+PLAZO: 25 años de su efectiva puesta en funcionamiento 
+FIDUCIANTE: Estado Nacional, por intermedio del Ministro de Economía 
+FIDUCIARIO: Banco de la Nación Argentina 
+BENEFICIARIO: Los titulares de los certificados de participación que emita el Fiduciario. 
+FIDEICOMISARIO: Estado Nacional 
+COMITÉ DE INVERSIONES : un integrante de SSEPyMEyDR, uno del BNA, uno del 
+BICE y uno de la Secretaría de Hacienda más un representante de la provincia donde se 
+radique el proyecto bajo tratamiento 
+FINALIDAD: efectuar aportes de capital y a brindar financiamiento a mediano y largo plazo 
+para inversiones productivas de las empresas y formas asociativas comprendidas en el Art. 1 
+de la Ley 25.300 en los términos y condiciones establecidos por el Dto. 1074/2001 y a los 
+requisitos y procedimientos que establezca la Autoridad de Aplicación y el Comité de 
+Inversiones.  
+Asimismo, deberá preverse una asignación de fondos para la instalación y puesta en 
+marcha de la Red de Agencias Regionales de Desarrollo Productivo por hasta la suma de 
+$(000)5.000.- a afrontar en forma conjunta con el FOGAPYME, en los plazos y condiciones 
+que establezca el Comité de Inversiones. 
+
+===== PDF PAGE 70 =====
+
+ 48 
+RECURSOS DEL FIDEICOMISO: El Ministerio de Economía a través de la Secretaría de 
+Hacienda se compromete a transferir hasta la suma de $(000) 100.000.- a integrarse en las 
+proporciones, modalidades y plazos establecidos por el Art. 11 del Dto. 1074/2001 y por el 
+contrato. 
+Integrarán también el Fideicomiso los intereses, dividendos, frutos y demás acrecidos 
+e ingresos que produzcan los bienes y derechos a que se refiere el párrafo precedente, así 
+como otros recursos que le asigne el Estado Nacional, organismos internacionales, entidades 
+públicas y privadas nacionales o extranjeras, gobiernos provinciales o municipales. 
+ 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El fiduciario deberá emitir certificados de participación, que serán suscriptos por el  
+Estado Nacional y se integrarán por el Banco de la Nación Argentina en un 40% y por la 
+Secretaría de Hacienda del Ministerio de Economía en un 60%. 
+ 
+b) el Comité de Inversiones podrá incorporar 1 representante por cada entidad que efectúe 
+aportes no inferiores al 20% del total de lo efectivamente integrado. Tiene entre otras 
+atribuciones fijar la política de inversiones, efectuar los llamados a concurso público para 
+la presentación de proyectos, estableciendo cupos globales y por jurisdicción territorial, y 
+definir criterios de elegibilidad. 
+ 
+c) Los proyectos susceptibles de recibir aportes serán aquellos presentados por micro, 
+pequeñas y medianas empresas, o por formas asociativas constituidas exclusivamente por 
+éstas. Dichos proyectos deberán tener por objeto la realización de inversiones que creen o 
+amplíen su capacidad productiva o introduzcan nuevos productos o procesos de 
+producción que mejores en forma comprobable la competitividad de dichas empresas. 
+Asimismo se considerarán proyectos con impacto ambiental favorable y que contribuyan a 
+incrementar el empleo de mano de obra, a desarrollar las economías regionales, a 
+promover mayor valor agregado local, a la generación de innovación tecnológica y al 
+incremento de las exportaciones. 
+ 
+
+===== PDF PAGE 71 =====
+
+ 49 
+d) Al 30.09.04 el fiduciante efectuó los siguientes aportes (el primer aporte fue efectuado con 
+fecha 29/05/03): 
+ 
+Ø Aportes de Banco de la Nación Argentina (40 %):  $(000) 5.525.- 
+Ø Aportes Secretaria de Hacienda (60%): $(000) 8.353.- 
+ 
+e) A continuación se expone el cuadro de situación de las financiaciones aprobadas (al 
+7/10/04), expuestas de acuerdo al orden de la licitación realizada; la presente información 
+es preparada por el Comité de Inversión: 
+ 
+ 
+ 
+TOTAL 89 8.722 100,0% 100,0%
+DESEMBOLSOS
+CASOS DESEMBOLSADOS  
+TOTALMENTE 43 4.125 47,3% 48,3%
+CASOS DESEMBOLSADOS 
+PARCIALMENTE 5 447 5,1% 5,6%
+PROXIMOS A DESEMBOLSAR 0,0% 0,0%
+Subtotal 48 4.572 52,4% 53,9%
+POSICION DEL BENEFICIARIO
+CLIENTES QUE HAN DESISTIDO 
+DEL ACUERDO 39 3.888 44,6% 43,8%
+Subtotal 39 3.888 44,6% 43,8%
+EN TRAMITE 
+EN TRAMITE FORMALIZACION 
+GARANTIAS 1 112 1,3% 1,1%
+SE OTORGA PLAZO 1 150 1,7% 1,1%
+Subtotal 262 3,0% 2,2%
+RESUMEN     SITUACION    FONAPyME     I   
+TOTAL ACORDADO 
+EN $(000)
+% S/TOTAL 
+ACORDADO %S/CANTIDADCANTIDADTOTAL PROYECTOS
+
+===== PDF PAGE 72 =====
+
+ 50 
+ 
+ 
+ 
+ 
+ 
+TOTAL 142 13.008 100,0% 100,0%
+EN TRAMITE 
+En trámite de instrumentación del 
+préstamo 12 1.347 10,4% 8,5%
+Subtotal 12 1.347 10,4% 8,5%
+DESEMBOLSOS
+Desembolsados totalmente 62 4.870 37,4% 43,7%
+Casos a desembolsar 2 44 0,3% 1,4%
+Desembolsados parcialmente 13 1.663 12,8% 9,2%
+Subtotal 77 6.576 50,6% 54,2%
+POSICION DEL BENEFICIARIO
+Clientes que no se han 
+presentado 2 79 0,6% 1,4%
+Clientes que desistieron 45 4.162 32,0% 31,7%
+A la espera de documentación 6 844 6,5% 4,2%
+Subtotal 53 5.085 39,1% 37,3%
+RESUMEN     SITUACION    FONAPyME     II   
+TOTAL PROYECTOS CANTIDAD TOTAL ACORDADO 
+EN $000
+% S/TOTAL 
+ACORDADO %S/CANTIDAD
+TOTAL 58 5.284 100,0% 100,0%
+EN TRAMITE 
+En trámite de instrumentación 
+del préstamo 32 3.495 66,1% 55,2%
+Subtotal 32 3.495 66,1% 55,2%
+DESEMBOLSOS
+Desembolsados totalmente 8 1.006 28,8% 13,8%
+Casos a desembolsar 5 152 4,3% 8,6%
+Desembolsados parcialmente 4 422 8,0% 6,9%
+Subtotal 17 1.579 29,9% 29,3%
+POSICION DEL BENEFICIARIO
+Clientes que no se han 
+presentado 2 171 3,2% 3,4%
+Clientes que desistieron 7 39 0,7% 12,1%
+Subtotal 9 210 4,0% 15,5%
+%S/CANTIDADTOTAL PROYECTOS CANTIDAD TOTAL ACORDADO 
+EN $000
+% S/TOTAL 
+ACORDADO
+RESUMEN     SITUACION    FONAPyME     III    
+
+===== PDF PAGE 73 =====
+
+ 51 
+f) Con respecto a los cuadros expuestos precedentemente se observa una diferencia de 
+$(000) 1.848.- entre lo informado por el Comité y el BNA.  
+ 
+g) Los préstamos se otorgan con la constitución de garantías prendarias o hipotecarias y es el 
+Banco de la Nación Argentina el encargado de la formalización de las mismas. 
+ 
+h) El Banco de la Nación Argentina no percibe comisiones por su gestión de fiduciario; por 
+contrato de fideicomiso establece que el fiduciario se halla autorizado para retener el 0,25 
+% de los fondos efectivamente integrados en concepto de gastos. 
+ 
+i) Los gastos administrativos al 30.09.04 ascienden a $(000) 24.- 
+ 
+ 
+16. FONDO FIT/AR EN FIDEICOMISO  
+Acuerdo de Cooperación Técnica del 30 de mayo de 1998 entre el Instituto Nacional 
+de la Propiedad Intelectual y la Organización Mundial de la Propiedad Intelectual 
+ 
+NORMA DE CREACION: El fideicomiso nace del Acuerdo de Cooperación Técnica entre 
+el Instituto Nacional de la Propiedad Intelectual y la Organización Mundial de la Propiedad 
+Intelectual  
+FECHA DE CONTRATO: 30 de mayo de 1998 
+FIDUCIANTE: Instituto Nacional de la Propiedad Intelectual (INPI) dependiente del 
+Ministerio de Economía y Producción 
+FIDUCIARIO: Organización Mundial de la Propiedad Intelectual (OMPI) 
+BENEFICIARIO: ND 
+FIDEICOMISARIO: INPI 
+FINALIDAD: ejecución de actividades de modernización y actualización administrativa con 
+miras a optimizar los resultados de los servicios que brinda el INPI a los usuarios del sistema 
+RECURSOS DEL FIDEICOMISO: aportes del INPI 
+ 
+ 
+
+===== PDF PAGE 74 =====
+
+ 52 
+RESULTADOS DE LOS PROCEDIMIENTOS APLICADOS: 
+ 
+a) El objetivo del Acuerdo de Cooperación Técnica es la prestación, por parte de la OMPI, 
+de la asistencia técnica para la ejecución de actividades de modernización y actualización 
+administrativa que ha iniciado el INPI con miras a optimizar los resultados de los 
+servicios que brinda a los usuarios del sistema. 
+ 
+b) La cooperación técnica consiste principalmente en la prestación de asesoramiento 
+especializado a través de la contratación de consultores locales e internacionales para 
+implementar un proceso intensivo de recuperación de atrasos en materia de renovación y 
+reclasificación de marcas, tratamiento de solicitudes de patentes de invención y de 
+reorganización y sistematización del archivo documental. Asimismo, se prevé la 
+actualización del acervo bibliográfico para facilitar las tareas del personal encargado de la 
+tramitación de solicitudes de marcas. 
+ 
+c) El Fondo FIT/AR en Fideicomiso se constituye por los aportes efectuados por el INPI 
+para la ejecución del proyecto de “Asistencia técnica en el campo de la propiedad 
+industrial”, depositados a nombre de la Oficina Internacional de la OMPI en una cuenta de 
+la Societe de Banque Suisse (SBS), en Ginebra, Suiza. 
+ 
+d) La OMPI utiliza los fondos del FIT/AR para cubrir los costos de ejecución del proyecto y 
+administra el FIT/AR de acuerdo con sus reglamentos, normas y directivas financieras y 
+de administración. Debe mantener una cuenta separada para el FIT/AR, con indicación de 
+los depósitos, gastos e intereses que se generen por esos depósitos y debe certificar que los 
+fondos hayan sido utilizados de manera económica y para los fines establecidos. Debe 
+asegurar además que los desembolsos no excedan los montos depositados por el INPI 
+ 
+e) La contabilidad del FIT/AR estará expresada en U$S estadounidenses. Los ingresos y 
+gastos en otras monedas son convertidos a U$S al tipo de cambio vigente el día de la 
+transacción. 
+ 
+
+===== PDF PAGE 75 =====
+
+ 53 
+f) De la documentación brindada por el INPI sólo hemos recibido el acuerdo por el 
+desembolso inicial 
+ 
+g) Del informe de situación al 30/06/04 presentado por el INPI se observa lo siguiente: 
+ 
+INGRESOS U$S(000) U$S(000) 
+Fondos transferidos por el INPI:   
+08/06/98 80.-  
+14/01/99  30.-  
+13/07/99  50.-  
+27/10/99 100.-  
+12/01/00 130.-  
+05/01/01 170.-  
+SUBTOTAL  560.- 
+Intereses Bancarios Dev.    52.- 
+                       TOTAL  612.- 
+ 
+                 EGRESOS U$S(000) 
+Elementos de Informática  349.- 
+Servicio de clasificación de documentación    29.- 
+Muebles     23.- 
+Consultores     7.- 
+Material bibliográfico     4.- 
+Otros     1.- 
+TOTAL 413.- 
+ 
+h) La diferencia entre ingresos y egresos es de U$S(000) 199.-, existiendo al 30/06/04 
+compromisos por compra de elementos de informática por U$S(000) 49.- y servicios de 
+consultoría por U$S(000) 5.- 
+
+===== PDF PAGE 76 =====
+
+APORTES Y APLICACIONES ACUMULADAS AL 31/12/03 - EN $(000)
+FONDOS FIDUCIARIOS
+Fondo Fiduciario 
+para el Desarrollo 
+Provincial
+Fideicomiso de 
+Gasoil y Tasas 
+Viales
+Fondo Fiduciario 
+para la 
+Reconstruc-ción 
+de Empresas
+Fideicomiso de 
+asistencia al F.F. 
+Fed.de 
+Infraestructu-ra 
+Regional
+Fondo Fiduciario 
+Federal de 
+Infraestructu-ra 
+Regional 
+Fondo Secretaría 
+de Hacienda - 
+B.I.C.E.
+Fideicomiso de 
+Infraestructu-ra 
+Hidrica
+Fondo Fiduciario 
+para Subsidio de 
+Consumo 
+Residencial de 
+Gas
+Fideicomiso para 
+el Transporte 
+Electrico Federal
+Fondo Fiduciario 
+para la 
+Promoción 
+Científica y 
+Tecnológica
+MyPES II
+Fondo 
+Fiduciario de 
+Capital Social
+Fondo Fiduciario 
+para la 
+Recuperación de 
+la Actividad 
+Ovina
+FOGAPYME FONAPYME FITAR TOTAL
+Aportes y recursos 
+BID - BIRF y otras ent.fin. 8,134,363 733,798 729,077 69,605 2,394 9,669,237
+Venta de acciones aportadas 6,157,545 740,618 6,898,163
+Presup. (Aport. Tesoro) 3,752,106 733,798 923,649 33,353 211,054 176,421 40,000 47,866 0 4,948 1,643 5,924,837
+Tributaria (Tasas) 3,420,161 745,073 295,246 4,460,480
+Rentas / Intereses 3,078,922 14,385 193,085 245,942 322,055 74,477 22,230 19,168 12,513 26 3,982,803
+Reembolso de Préstamos y 
+otros créditos 572,760 2,043,528 246,556 293,623 24,521 28,734 43 3,209,765
+Otros 243,660 2,626 511,214 4,129 6,285 15,027 41 90,052 61,669 138 41 934,882
+Ingresos concesionarios 28,128 28,128
+TOTAL 21,939,356 3,465,300 4,215,423 1,719,766 1,498,545 416,479 767,344 295,246 320,274 275,124 98,339 42,394 48,030 0 5,032 1,643 35,108,294
+Aplicaciones
+Prestamos 12,494,193 2,587,889 1,065,568 210,134 205,825 40,862 15,553 1,177 2,928 16,624,129
+Suscr.Bono Estado Nac. 4,394,000 4,394,000
+Pagos BID, BIRF y otros 2,328,224 631,133 728,462 218,417 3,767 28,743 2,547 3,941,293
+Obras, concesionarios y 
+subsidios 2,490,189 116,343 251,712 2,071 2,860,315
+Aportes al Tesoro 2,302,007 178,507 111,507 124,955 2,716,976
+Aportes a Fondos Fiduciarios 924,264 10,879 935,143
+Otras 194,985 42,073 101,033 64,472 31,351 36,161 15,412 251 30,232 1,621 964 1,718 164 1,370 521,807
+Aportes al BNA 2,024 23,173 25,197
+TOTAL 21,713,409 2,710,769 3,320,055 1,719,222 1,338,509 372,447 256,710 251,963 32,303 207,446 69,605 19,064 2,895 0 3,092 1,370 32,018,860
+Observaciones
+Los aportes, recursos y aplicaciones, que se exponen por concepto,  representan los valores acumulados desde el inicio de las operaciones de los fidecomisos hasta el 31/12/03
+Los importes que se detallan en el presente cuadro surgen de los estados de origen y aplicación de fondos de los fideicomisos - ver puntos 4.7 y 4.10 del informe    
+ANEXO III
+
+===== PDF PAGE 77 =====
+
+ANEXO IV
+DISPONIBILIDADES E INVERSIONES LIQUIDAS 
+DISPONIBILIDADES INVERSIONES TIT.PUBLICOS TOTAL DISPONIBILIDADES INVERSIONES TIT.PUBLICOS TOTAL
+Fondo Fiduciario para el Desarrollo Provincial 88,384 109,565 197,949 69,481 216,313 285,795
+Fideicomiso de Gasoil y Tasas Viales 84,092 468,848 552,941 205,159 601,921 807,080
+Fondo Fiduciario para la Reconstrucción de 
+Empresas 16,865 541,221 74,630 632,715 7,082 615,100 85,172 707,354
+Fideicomiso de Asistencia al Fondo Fiduciario 
+Federal de Infraestructura Regional (1) 15 15 15 15
+Fondo Fiduciario Federal de Infraestructura 
+Regional (1) 9,628 90,097 99,725 5,173 92,487 97,660
+Fondo Secretaría de Hacienda (BICE) 40,705 406,412 447,117 58,957 429,680 488,637
+Fideicomiso de Infraestructura Hídrica 39,936 346,235 386,171 23,225 463,259 486,485
+Fondo Fiduciario para Subsidios de Consumo 
+Residencial de Gas 34,443 3,532 37,975 64,796 19,742 84,538
+Fideicomiso para el Transporte Eléctrico Federal 182 191,614 191,796 5,096 233,604 238,700
+Fondo Fiduciario para la Promoción Científica y 
+Tecnológica 3,652 32,908 36,559 1,635 31,382 33,017
+MYPES II 105,501 105,501 100,075 100,075
+Fondo Fiduciario de Capital Social 895 3,866 17,585 22,346 1,125 6,032 3,596 10,753
+Fondo Fiduciario para la Recuperación de la 
+Actividad Ovina (FRAO) 4,709 32,577 37,285 2,353 40,625 42,978
+FOGAPYME  20,206 20,206 20,297 20,297
+FONAPYME 1,940 1,940 2,046 1,900 3,946
+FITAR  (2) S/D 0 145 145
+TOTAL 430,945 1,820,464 518,833 2,770,242 546,365 2,322,365 538,745 3,407,475
+Observaciones
+Los importes que se detallan en el presente cuadro surgen de los estados de situación patrimonial de fondos de los fideicomisos - ver puntos 4.7 y 4.11 del informe    
+ (1) El último balance preparado por BNA corresponde al 31/03/04. Dichos valores se incluyeron en las columnas correspondientes al 30/09/04
+ (2) Los datos aportados corresponden a la situación de liquidez correspondiente al 30/06/04
+Las disponibilidades incluyen saldos en cuenta corriente y en cajas de ahorro
+Las inversiones incluyen plazos fijos y Fondos Comunes de Inversión
+S/D: sin datos
+FONDO FIDUCIARIO
+12/31/2003 9/30/2004
+
+===== PDF PAGE 78 =====
+
+ANEXO V
+RESULTADOS DEL EJERCICIO Y ACUMULADOS AL 31/12/03
+Fondo Fiduciario para el Desarrollo 
+Provincial 515,001 9,135,237 -2,687
+Incluye comisiones a 
+BNA por $ 1.379
+Fideicomiso de Gasoil y Tasas Viales 17,989 -171,015 -120 Comisión BNA
+Fondo Fiduciario para la Reconstrucción 
+de Empresas -30,441 -221,480 -348
+Incluye comisiones a 
+BNA por $000 120
+Fideicomiso de Asistencia al Fondo 
+Fiduciario Federal de Infraestructura 
+Regional -19,304 -121,378 0
+Fondo Fiduciario Federal de 
+Infraestructura Regional 47,764 191,192 -3,000
+Fondo Secretaría de Hacienda (BICE) (1) -105,911 270,312 -9,113 Comisiones a BICE 
+Fideicomiso de Infraestructura Hídrica 14,815 -102,128 -120 Comisión BNA
+Fondo Fiduciario para Subsidios de 
+Consumo Residencial de Gas 81 -26 -144Comisiones a BNA
+Fideicomiso para el Transporte Eléctrico 
+Federal 3,426 79,794 -122Comisiones a BNA
+Fondo Fiduciario para la Promoción 
+Científica y Tecnológica -8,721 -187,194 -338Comisión BNA
+MYPES II -1,754 2,053 0
+Fondo Fiduciario de Capital Social
+-1,544 -54,038 -4,543
+Incluye $(000) 1.640.- 
+en concepto de gastos 
+de desarrollo
+Fondo Fiduciario para la Recuperación de 
+la Actividad Ovina (FRAO) 440 470 -765
+Incluye comisiones a 
+BNA por $000 195
+FOGAPYME  206 206 0
+FONAPYME 68 68 0
+TOTAL 432,115 8,822,072 -21,299
+Observaciones
+- Los importes que se detallan en el presente cuadro surgen de Los
+ estados de resultados de los fideicomisos - ver puntos 4.7 y 4.12 del informe    
+- Los resultados, que se exponen por concepto,  representan los valores 
+acumulados desde el inicio de las operaciones de los fidecomisos hasta el 31/12/03
+(1) Fecha de cierre de ejercicio 30/09/03
+COMENTARIOS
+en $(000)
+FONDO FIDUCIARIO
+RESULTADO 
+DEL 
+EJERCICIO 
+2003
+RESULTADOS 
+ACUMULADOS 
+al 31/12/03
+GASTOS DE 
+ADMINISTRAC
+ION DEL 
+EJERCICIO
+
+===== PDF PAGE 79 =====
+
+ANEXO VI
+CUENTA AHORRO-INVERSION-FINANCIAMIENTO FONDOS FIDUCIARIOS DEL ESTADO NACIONAL
+BASE DEVENGADO EJERCICIO 2003 - EN $(000)
+CONCEPTO DESARROLLO 
+PROVINCIAL VIAL (gasoil) PARA LA RECONST. 
+DE EMPRESAS INFRAEST. REGIONAL SEC. DE 
+HACIENDA
+DE INFRAEST. 
+HÍDRICA
+CONSUMO RESIDENCIAL 
+DE GAS
+PARA EL TRANSP. 
+ELECT. FED
+PROM. CIENT. Y 
+TECN.
+DE CAPITAL 
+SOCIAL
+DE PROM. DE LA 
+GANADERÍA OVINA FOGAPYME FONAPYME TOTAL
+ I    INGRESOS CORRIENTES 3,797,246 1,287,185 61,156 646,358 20,947 318,568 146,749 77,833 14,822 5,690 20,000 206 75 6,396,835
+      - Ingresos Tributarios
+      - Contrib. a la Seguridad Social
+      - Ingresos no Tributarios
+      - Ventas de Bs. y Serv. de las Adm. Pub.
+      - Ingresos de Operación 1,613 53,365 20,947 1,212 77,136
+      - Rentas de la Propiedad 778,383 18,143 7,790 45,919 14,935 3,547 723 3,523 201 68 873,234
+      - Transferencias Corrientes 2,988,035 74,286 12,319 20,000 3,094,639
+      - Otros Recursos 30,828 1,267,429 600,439 303,633 146,749 1,781 955 5 7 2,351,826
+ II   GASTOS CORRIENTES 2,650,622 790,877 91,597 177,031 7,748 120 115,534 1,154 11,006 5,809 2,594 7 3,854,098
+      - Gastos de Operación 2,687 120 157,524 56,389 7,748 120 144 122 3,566 399 7 228,825
+          . Remuneraciones 846 189 2,809 3,844
+          . Bienes y Servicios 1,841 120 159 1,613 7,748 120 144 122 3,344 399 7 15,617
+          . Otros Gastos 157,176 51,966 222 209,364
+      - Rentas de la Propiedad 622,067 8,464 630,531
+          . Intereses 622,067 8,464 630,531
+          . Otras Rentas
+      - Prestaciones de la Seguridad Social
+      - Otros Gastos Corrientes 33 0 -65,927 107,589 321 2,243 44,258
+      - Transferencias Corrientes 2,025,835 790,757 4,589 115,390 1,032 10,685 2,195 2,950,483
+          . Al Sector Privado 790,757 4,589 115,390 1,032 2,990 2,195 916,953
+          . Al Sector Publico 2,025,835 7,695 2,033,530
+          . Al Sector Externo
+ III  RESULT. ECON.: AHORRO/DESAHORRO (I-II) 1,146,625 496,308 -30,441 469,327 13,198 318,448 31,215 76,679 3,817 -119 17,406 206 68 2,542,737
+ IV   RECURSOS DE CAPITAL 7 2 75 188 272
+      - Recursos Propios de Capital 7 2 75 188 272
+      - Transferencias de Capital
+      - Disminución de la Inv. Financiera
+ V    GASTOS DE CAPITAL 10 125,743 0 54 86,686 378 212,871
+      - Inversión Real Directa 10 0 54 378 442
+      - Transferencias de Capital 125,743 86,686 212,429
+          . Al Sector Privado
+          . Al Sector Publico 125,743 86,686 212,429
+          . Al Sector Externo
+      - Inversión Financiera
+ VI RESULT. FINANC. ANTES DE CONTRIBUCIONES 1,146,622 370,565 -30,439 469,348 13,198 231,762 31,215 76,679 3,817 -309 17,406 206 68 2,330,137
+TOTAL RECURSOS (I+IV) 3,797,254 1,287,185 61,157 646,433 20,947 318,568 146,749 77,833 14,822 5,877 20,000 206 75 6,397,106
+TOTAL GASTOS (II+V) 2,650,631 916,620 91,597 177,086 7,748 86,806 115,534 1,154 11,006 6,187 2,594 7 4,066,969
+ VII CONTRIBUCIONES FIGURATIVAS
+ VIII  GASTOS FIGURATIVOS
+ IX   RESULTADO FINANCIERO 1,146,622 370,565 -30,439 469,348 13,198 231,762 31,215 76,679 3,817 -309 17,406 206 68 2,330,137
+  X   FUENTES FINANCIERAS 4,508,557 112,701 251,028 291,921 59,722 3,339 87 29,110 20,000 4,955 5,281,419
+      - Disminución de la Inv. Financiera 2,050,956 85,015 234,097 123,169 51,974 842 87 28,577 2,574,717
+              Caja, Bancos e Inversiones Temporarias 75,748 20,992 96,741
+              Otros Activos Financieros 2,050,956 9,266 234,097 102,177 51,974 842 87 21,046 2,470,446
+      - Endeudamiento Publico e Incremento Otros Pasivos 2,457,601 27,687 7,342 168,348 7,748 2,496 533 7 2,671,761
+               Deuda Pública 2,386,857 22,132 2,408,990
+               Otros Pasivos 70,743 5,554 7,342 168,348 7,748 2,496 533 7 262,772
+      - Incremento del Patrimonio 9,590 404 20,000 4,948 34,941
+  XI  APLICACIONES FINANCIERAS 5,655,179 483,266 220,589 761,268 72,921 235,101 31,215 76,765 3,817 28,801 17,406 20,206 5,023 7,611,556
+      - Inversión Financiera 1,816,888 465,118 219,270 750,002 65,348 232,404 31,215 76,765 3,817 27,873 17,406 20,206 5,023 3,731,335
+              Caja, Bancos e Inversiones Temporarias 165,479 374,971 210,260 18,907 44,402 227,634 31,215 76,765 3,817 402 17,406 206 1,940 1,173,403
+              Otros Activos Financieros 1,651,409 90,146 9,011 731,095 20,947 4,770 19,940 20,000 3,083 2,550,401
+      - Amortización de Deudas y Dism.de Otros Pasivos 3,838,291 18,149 9,756 7,573 2,697 928 3,877,394
+               Deuda Pública 3,834,405 3,834,405
+               Otros Pasivos 3,886 18,149 9,756 7,573 2,697 928 42,989
+      - Disminución del Patrimonio 1,318 1,510 2,828
+  XII  FINANCIAMIENTO NETO (X-XI) -1,146,622 -370,565 30,439 -469,348 -13,198 -231,762 -31,215 -76,679 -3,817 309 -17,406 -206 -68 -2,330,137
+(*) No Consolidado
+Cifras según Cuenta de Inversión 2003
+
+===== PDF PAGE 80 =====
+
+ANEXO VII
+PRESUPUESTO 2004 FONDOS FIDUCIARIOS - en $(000)
+CONCEPTO DESARROLLO 
+PROVINCIAL VIAL (gasoil)
+PARA LA 
+RECONST. DE 
+EMPRESAS
+INFRAEST. 
+REGIONAL
+SEC. DE 
+HACIENDA
+DE INFRAEST. 
+HÍDRICA
+CONSUMO 
+RESIDENCIAL DE 
+GAS
+PARA EL 
+TRANSP. 
+ELECT. FED
+PROM. 
+CIENT. Y 
+TECN.
+PROG. DE 
+FIDEICOMISOS 
+DECRETO Nº 
+1118/03
+DE CAPITAL 
+SOCIAL
+DE PROM. DE 
+LA GANADERÍA 
+OVINA
+FOGAPYME FONAPYME TOTAL
+I - INGRESOS CORRIENTES 893,902 1,504,987 32,059 59,968 30,096 284,988 144,500 60,250 9,175 8,557 4,331 20,000 1,974 5,557 3,060,344
+     Ingresos de Operacion 3,544 1,951 800 6,295
+     Ingresos de la Propiedad 893,902 46,587 28,515 58,135 14,503 2,750 8,557 2,380 5,557 1,060,886
+     Transferencias Corrientes 9,175 20,000 29,175
+     Otros Ingresos Corrientes 1,458,400 1,833 30,096 270,485 144,500 57,500 1,174 1,963,988
+II - GASTOS CORRIENTES 695,003 618,871 138,456 19,655 6,871 120 120,000 1,466 9,175 10,228 3,116 20,000 2,810 187 1,645,958
+ - Gastos de Operacion 6,000 120 60,196 2,565 6,871 120 1,466 251 3,116 2,810 187 83,702
+     Personal
+     Bienes y Servicios 6,000 120 485 2,565 6,871 120 1,466 251 2,880 187 20,945
+     Transferencias
+     Otros Gastos de Operacion
+     Impuestos Indirectos 72 72
+     Depreciación y Amortización 164 164
+     Previsiones 59,711 2,810 62,521
+     Ajuste por Variacion de Inventario
+ - Gastos ajenos a la Operacion 689,003 618,751 78,260 17,090 120,000 9,175 9,977 20,000 1,562,256
+     Intereses Internos 51,293 8,182 59,475
+     Intereses Externos 9,110 9,110
+     Transferencias 636,510 618,751 78,260 5,813 120,000 9,175 20,000 1,488,509
+     Impuestos Directos
+     Otros 1,200 3,095 867 5,162
+III - RESULTADO ECONOMICO (I-II) 198,899 886,116 (106,397) 40,313 23,225 284,868 24,500 58,784 (1,671) 1,215 (836) 5,370 1,414,386
+IV - INGRESOS DE CAPITAL 90,890 164 91,054
+     Venta y/o Desincorporacion de Activos
+     Otros Ingresos de Capital 90,890 164 91,054
+       .Transferencias del Tesoro Nacional 90,890 90,890
+       .Otros 164 164
+V - GASTOS DE CAPITAL 20 460,800 484 401,641 192,303 50 1,055,298
+     Inversion 20 484 50 554
+     Otros Gastos de Capital 460,800 401,641 192,303 1,054,744
+VI - RESULTADO FINANCIERO (III+IV-V) 198,879 425,316 (106,397) 39,829 23,225 (116,773) 24,500 (42,629) (1,671) 1,329 (836) 5,370 450,142
+     TOTAL INGRESOS 893,902 1,504,987 32,059 59,968 30,096 284,988 144,500 151,140 9,175 8,557 4,495 20,000 1,974 5,557 3,151,398
+     TOTAL GASTOS 695,023 1,079,671 138,456 20,139 6,871 401,761 120,000 193,769 9,175 10,228 3,166 20,000 2,810 187 2,701,256
+VII - FINANCIAMIENTO (VIII-IX) (198,879) (425,316) 106,397 (39,829) (23,225) 116,773 (24,500) 42,629 1,671 (1,329) 836 (5,370) (450,142)
+VIII - FUENTES FINANCIERAS 1,652,829 29,967 629,064 181,081 53,752 116,773 42,629 6,280 256,326 13,403 40,000 84,468 3,106,572
+     Disminucion de Activos Financieros 412,917 29,967 569,353 180,854 46,881 116,773 42,629 6,280 66,089 13,143 40,000 84,468 1,609,354
+     Aumentos de Pasivos 1,239,912 59,711 227 6,871 190,237 260 1,497,218
+       .Prestamos Internos 1,239,912 5,124 1,245,036
+       .Prestamos Externos 178,476 178,476
+       .Prestamos del Tesoro Nacional
+       .Aumento de Pasivos Circulantes 59,711 227 6,871 6,637 260 73,706
+     Incremento del Patrimonio 
+IX - APLICACIONES FINANCIERAS 1,851,708 455,283 522,667 220,910 76,977 24,500 6,280 254,655 14,732 39,164 89,838 3,556,714
+     Aumento de Activos Financieros 1,438,791 455,283 300,000 159,988 69,240 6,280 239,784 14,732 39,164 89,838 2,813,100
+     Disminucion de Pasivos 412,917 222,667 60,922 7,737 24,500 14,871 743,614
+       .Amortizaciones Internas 412,917 59,018 471,935
+       .Amortizaciones Externas 8,572 8,572
+       .Disminucion de Pasivos Circulantes 222,667 1,904 7,737 24,500 6,299 263,107
+     Disminucion del Patrimonio
+
+===== PDF PAGE 81 =====
+
+ANEXO VIII 
+ 
+ 
+FONDOS FIDUCIARIOS NO OPERATIVOS  
+ 
+ 
+1. FONDO FIDUCIARIO DE DESARROLLO DE INFRAESTRUCTURA 
+ 
+Este Fideicomiso fue creado mediante el Dto. 1299/2000, para promover la participación 
+del sector privado en el desarrollo de la infraestructura nacional, mediante el 
+establecimiento de un régimen de alcance federal para el diseño, construcción, 
+mantenimiento, operación y financiamiento de obras. 
+Fiduciante: Ministerio de Economía y Producción 
+Fiduciario: Banco de la Nación Argentina 
+Fideicomisario: Estado Nacional 
+Finalidad: garantizar los pagos a contratistas a cargo de los entes contratantes. Un 
+organismo desconcentrado, el Consejo de Administración se encargaría de supervisar el 
+cumplimiento del régimen para la promoción de la participación privada en el desarrollo 
+de infraestructura. 
+Recursos del fideicomiso: el fideicomiso se integrará con bienes y recursos que asigne el 
+Estado Nacional, el producido de sus operaciones, rentas y venta de activos y 
+contribuciones, subsidios, legados o donaciones. 
+El Fiduciario deberá constituir fideicomisos específicos, los que se denominarán Fondos 
+Específicos, afectados a cada contrato en el que actúe el Fondo Fiduciario de Desarrollo 
+de Infraestructura, como garante o como agente de pago de los Entes Contratantes. 
+A la fecha del relevamiento el Fondo no ha funcionado operativamente, sin que se 
+verifique la firma del contrato.  
+ 
+
+===== PDF PAGE 82 =====
+
+ 2 
+ 
+2. FONDO FIDUCIARIO DE BECAS CON DESTINO A ESTUDIANTES 
+UNIVERSITARIOS 
+ 
+Este fideicomiso fue creado por Resolución del Ministerio de Cultura y Educación Nº 313 
+del 14/04/00 y su contrato formalizado el 04/11/02 entre la Dirección Nacional de 
+Programación y Coordinación Institucional de dicho ministerio, en calidad de fiduciante y 
+el BNA en carácter de fiduciario. 
+ 
+El 20/02/03 se produjo el vencimiento de la vigencia del contrato. 
+ 
+Durante los años 2000 y 2001 se fideicomitieron fondos por un valor aproximado a los 
+$(000) 15.000.-, habiéndose otorgado becas por un importe similar, durante el mismo 
+período. El BNA cobró $(000) 24.- en concepto de comisiones por su gestión 
+administrativa.  
+
+===== PDF PAGE 83 =====
+
+ANEXO IX 
+ 
+FIDEICOMISOS PUBLICOS EN ETAPA DE IMPLEMENTACION  
+ 
+1. FIDEICOMISO PARA LA REFINANCIACION HIPOTECARIA 
+ 
+El fideicomiso fue creado mediante la sanción de la Ley Nº 25.798, reglamentada por el 
+Decreto 1284/2003, con la finalidad de implementar mecanismos de refinanciación de los 
+mutuos hipotecarios que resulten elegibles en los términos de la citada Ley y su Decreto 
+Reglamentario. Son sus partes intervinientes 
+Fiduciante: Estado Nacional a través del Ministerio de Economía y Producción 
+Fiduciario: Banco de la Nación Argentina 
+Fideicomisario: Estado Nacional 
+Beneficiario: no identificado en la norma 
+El patrimonio fideicomitido estará integrado por: 
+a) El aporte del Fondo Fiduciario para la Reconstrucción de Empresas. 
+b) Los fondos que el Ministerio de Desarrollo Social destine a atender situaciones especiales 
+que el mismo determine. 
+c) La afectación de una suma fija de los recursos que integran el Fondo Nacional de la 
+Vivienda según el artículo 3º de la Ley Nº 24.464 y sus modificatorias. 
+d) La afectación de una suma fija del Impuesto a la Transferencia de Inmuebles de Personas 
+Físicas y Sucesiones Indivisas creado por el Título VII de la Ley Nº 23.905 y sus 
+modificatorias. 
+e) La renta y los frutos de sus activos. 
+f) Los recursos que se asignen a través de las correspondientes Leyes de Presupuesto de la 
+Administración Nacional. 
+g) Los recursos provenientes del Fondo de Contingencia del Sistema de Refinanciación 
+Hipotecaria. 
+h) La afectación de una suma fija del fondo especial, previsto en el artículo 13 de la Ley Nº 
+24.143 a cuyos efectos el Banco Hipotecario S.A. deberá adoptar las medidas 
+correspondientes para efectivizar dicha afectación. 
+
+===== PDF PAGE 84 =====
+
+ 2 
+Los recursos que se describen en los incisos a); b); e); f); g) y h) precedentes se transmiten en 
+propiedad fiduciaria por el plazo de duración del Fideicomiso, treinta años. 
+Los recursos que se describen en los incisos c) y d) precedentes se transmiten en propiedad 
+fiduciaria hasta el 31 de diciembre de 2004. Finalizado dicho plazo, respecto de los bienes que 
+no hubieran sido afectados al cumplimiento del objeto del fideicomiso, la cesión fiduciaria 
+será revertida al fiduciante conforme las instrucciones que oportunamente le imparta al 
+fiduciario.  
+A la fecha del relevamiento no hemos podido verificar la existencia del contrato de 
+fideicomiso correspondiente. 
+ 
+ 
+2. FONDO FIDUCIARIO PARA ATENDER INVERSIONES EN TRANSPORTE 
+Y DISTRIBUCION DE GAS 
+ 
+Mediante el Decreto 180 de fecha 13 de febrero de 2004 se creó el Fondo Fiduciario para 
+atender Inversiones en Transporte y Distribución de Gas cuya finalidad exclusiva es la 
+financiación de obras para la expansión y/o extensión en transporte y distribución de gas, en 
+el marco del Artículo 2° de la Ley N° 24.076, especialmente de conformidad con lo dispuesto 
+por el inciso b) de ese Artículo.  
+El Fondo Fiduciario podrá ser único o estar dividido en tantos Fondos como se lo considere 
+pertinente.  
+El Fondo Fiduciario estará integrado por los siguientes recursos: (i) cargos tarifarios a pagar 
+por los usuarios de los servicios regulados de transporte y/o distribución; (ii) los recursos que 
+se obtengan en el marco de programas especiales de crédito que se acuerden con los 
+organismos o instituciones pertinentes, nacionales e internacionales; y (iii) a través de 
+sistemas de aportes específicos, a realizar por los beneficiarios directos. 
+Por la Resolución N° 185 del 19/04/04 del Ministerio de Planificación Federal, Inversión 
+Publica y Servicios, se constituyó en el ámbito del citado Ministerio, un Programa Global 
+para la emisión de Valores Representativos de Deuda y/o Certificados de Participación en 
+Fideicomisos Financieros bajo la Ley N° 24.441. constituidos para la titulización de activos 
+
+===== PDF PAGE 85 =====
+
+ 3 
+por un monto máximo en circulación de hasta $(000) 3.000.000.- denominado "Fideicomisos 
+de Gas - Fideicomisos Financieros 
+Podrán actuar como Fiduciantes, en cualquiera de los Fideicomisos Individuales que se 
+organicen bajo el Programa, conforme se establece en el Artículo 7° de la presente resolución: 
+(i) las Licenciatarias de los servicios de Transporte y Distribución de Gas, (ii) las cooperativas 
+y los restantes sujetos activos de la Industria del Gas conforme se lo define en el Artículo 9° 
+de la Ley Nº 24.076. 
+El Programa para la emisión de Valores Representativos de Deuda y Certificados de 
+Participación en Fideicomisos de Gas, tendrá como Beneficiarios los titulares de tales Valores 
+Representativos de Deuda y/o Certificados de Participación. 
+Serán fideicomisarios las Licenciatarias de Transporte y/o Distribución y/o los 
+Subdistribuidores autorizados a operar como tales, respecto a los activos físicos del 
+Fideicomiso cuya titularidad les será transferida, una vez recuperada la inversión, teniendo en 
+cuenta la utilización del valor actual del negocio conforme la normativa vigente y las 
+condiciones que determine la reglamentación. 
+La Secretaria de Energía del Ministerio de Planificación Federal, Inversión Publica y 
+Servicios, actuará en carácter de organizador del programa. 
+También se prevé la creación de un fideicomiso de administración con la finalidad de 
+garantizar y asegurar la disponibilidad de recursos necesarios para atender el pago de las 
+inversiones que se realicen en Transporte y Distribución de Gas en el marco de lo dispuesto 
+en el Artículo 2° de la Ley N° 24.076, en especial en el inciso b) de ese artículo y los 
+fideicomisos mencionados anteriormente 
+A la fecha del relevamiento no hemos podido verificar la existencia del contrato de 
+fideicomiso correspondiente. 
+ 
+
+===== PDF PAGE 86 =====
+
+ 4 
+ 
+3. FONDO FIDUCIARIO PARA ATENDER LA CONTRATACION DE 
+TRANSPORTE Y ADQUISICION DE GAS NATURAL DESTINADOS A LA 
+GENERACION DE ENERGIA ELECTRICA 
+ 
+A través de la Resolución Nº 950 del 17/09/04 de la Secretaría de Energía, fue creado el 
+Fideicomiso, cuyo objeto exclusivo es la contratación de transporte firme de gas natural y la 
+adquisición de gas natural, ambas, con destino a la generación de energía eléctrica. 
+dependiente del Ministerio.  
+El Fondo Fiduciario estará integrado por los siguientes recursos: 
+a) un cargo tarifario a aplicar sobre compras que realicen en el Mercado Eléctrico Mayorista 
+(MEM) los Agentes Demandantes y las demandas de Exportación, con independencia de los 
+contratos en el Mercado a Término suscriptos para su abastecimiento; 
+b) los pagos que realicen los Agentes Generadores por uso de la capacidad de transporte y/o 
+compras de gas natural objeto de esta operatoria; 
+c) los recursos que se obtengan por reventa de la capacidad de transporte y/o de gas natural 
+objeto de esta operatoria; 
+d) los aportes que destine el Estado Nacional a esta operatoria; y 
+e) los recursos que se obtengan en el marco de programas especiales de crédito que se 
+acuerden con los organismos o instituciones pertinentes, nacionales e internacionales 
+A la fecha del relevamiento no hemos podido verificar la existencia del contrato de 
+fideicomiso correspondiente. 
+ 
+4. FONDO FIDUCIARIO DE PROMOCIÓN DE LA INDUSTRIA DEL 
+SOFTWARE (FONSOFT) 
+ 
+Por Ley 25.922 (de Promoción de la Industria del Software) se creó el Fondo Fiduciario de 
+Promoción de la Industria del Software (Fonsoft), el cual será integrado por:  
+1. Los recursos que anualmente se asignen a través de la ley de presupuesto. 
+2. Los ingresos por las penalidades previstas ante el incumplimiento de la presente 
+ley. 
+
+===== PDF PAGE 87 =====
+
+ 5 
+3. Ingresos por legados o donaciones. 
+4. Fondos provistos por organismos internacionales u organizaciones no 
+gubernamentales. 
+La Secretaría de Ciencia, Tecnología e Innovación Productiva, a través de la Agencia 
+Nacional de Promoción Científica y Tecnológica, será la autoridad de aplicación en lo 
+referido al Fonsoft y actuará como fiduciante frente al administrador fiduciario. 
+La autoridad de aplicación podrá financiar a través del Fonsoft:  
+1. Proyectos de investigación y desarrollo relacionados a las actividades definidas en el 
+artículo 4° de la ley mencionada (creación, diseño, desarrollo, producción e 
+implementación y puesta a punto de los sistemas de software desarrollados y su 
+documentación técnica asociada, tanto en su aspecto básico como aplicativo, incluyendo 
+el que se elabore para ser incorporado a procesadores utilizados en bienes de diversa 
+índole, tales como consolas, centrales telefónicas, telefonía celular, máquinas y otros 
+dispositivos) 
+2. Programas de nivel terciario o superior para la capacitación de recursos humanos. 
+3. Programas para la mejora en la calidad de los procesos de creación, diseño, desarrollo y 
+producción de software. 
+4. Programas de asistencia para la constitución de nuevos emprendimientos. 
+A la fecha del relevamiento no hemos podido verificar la existencia del contrato de 
+fideicomiso correspondiente. 
+ 
+
+===== PDF PAGE 88 =====
+
+ANEXO X 
+ 
+OTROS FONDOS FIDUCIARIOS 
+ 
+ 
+1. PROGRAMAS DE PROPIEDAD PARTICIPADA 
+ 
+ 
+1.1 En el marco del proceso de privatizaciones de entes públicos llevado a cabo por el 
+Estado Nacional, se estableció, mediante la Ley Nº 23.696 y normas complementarias, 
+un sistema de adquisiciones del capital accionario de dichos entes denominado 
+Programa de Propiedad Participada. En virtud de ello, el Banco de la Nación Argentina 
+(BNA) celebró diversos convenios de fideicomisos con el Ministerio de Economía y 
+Obras y Servicios Públicos y con otros entes públicos y privados, por los cuales recibió 
+en propiedad fiduciaria acciones correspondientes a las empresas privatizadas. De 
+acuerdo a lo previsto en los contratos mencionados el BNA queda obligado a 
+administrar la cobranza de dividendos y el pago al acreedor por cuenta de cada uno de 
+los adquirentes, a tener a su cargo la custodia de las acciones y a administrar el fondo de 
+garantía y recompra de acciones. Al 31/12/03 el saldo de los patrimonios netos 
+fiduciarios ascendía a ($000) 490.541.  
+ 
+PPP FIDEICOMISOS Total Patrimonio 
+$(000) 
+METROGAS S.A. 78.555 
+DIST. GAS DEL SUR S.A. 40.037 
+DIST. GAS PAMPEANA S.A. 1.135 
+GAS NATURAL BAN 95 
+DIST. GAS DEL CENTRO 40.222 
+DIST. GAS CUYANA 56.093 
+DIST. GAS DEL LITORAL 37.376 
+C.T. PATAGONICAS 1.092 
+TRANSENER S.A. 44.667 
+CENT. TERM. DEL LITORAL S.A. 73 
+HID. P. DEL AGUILA S.A. 11.438 
+TRANSPA S.A. 10.214 
+TRANSNOA S.A. 5.413 
+AEROLINEAS ARG. S.A. 0 
+TRANSNEA S.A. 717 
+BCO. HIPOTECARIO S.A. 98.645 
+
+===== PDF PAGE 89 =====
+
+ 2 
+C.T. MENDOZA S.A. 3.479 
+DISTROCUYO S.A. 9.786 
+AGUAS PROVINCIAL DE SANTA FE 7.500 
+HID. RIO HONDO S.A. 111 
+HID. DIAMANTE S.A. 2.934 
+HID. RIO JURAMENTO S.A. 839 
+HID. TERMICA SAN JUAN S.A. 252 
+C. DE AHORRO Y SEG. S.A. 11.702 
+HID. TUCUMAN S.A. 96 
+AUSTRAL L.A. S.A. 0  
+EDECAT S.A. 1.344 
+EDEER S.A. 26.726 
+TOTAL 490.541 
+ 
+1.2 Dentro del sistema de adquisición mencionado el BNA recibió, en calidad de 
+depositario, acciones de empresas privatizadas debiendo cumplir con funciones 
+similares a las referidas en 1.1. Al 31/12/03 el saldo de acciones recibidas en custodia 
+asciende a ($000) 265.060.  
+ 
+PPP DEPOSITOS Total Patrimonio 
+$(000)  
+P. MENDOZA S.A. 670 
+CENT. DOCK SUD S.A. 57 
+C.T. ALTO VALLE S.A. 1.105 
+C.T. SAN NICOLAS S.A. 39.756 
+CENT. TERMICA DEL N.O. 2.045 
+C.T. SORRENTO S.A. 1.203 
+CENT. GUEMES S.A. 2.957 
+HID. ALICURA S.A. 724 
+EDENOR S.A. 93.140 
+HID. EL CHOCON S.A. 11.535 
+EDESUR S.A. 10.781 
+HID. CERRO COLORADO 3.448 
+AGUAS ARGENTINAS S.A. 3.350 
+AGUAS ARGENTINAS 2 S.A. 35.240 
+AGUAS ARGENTINAS 3 S.A. 1.273 
+YPF S.A.- ADICIONAL 28.038 
+CENTRAL PUERTO 0 
+EDELAP 29.738 
+TOTAL 265.060 
+ 
+
+===== PDF PAGE 90 =====
+
+ 3 
+ 
+2. FIDEICOMISO DE AGUAS ARGENTINAS S.A. 
+ 
+El fideicomiso se constituyó con el fin de garantizar el cumplimiento de las obras 
+acordadas o que se acuerden en el futuro en el marco del Plan de Mejoras y Expansión 
+del Servicio (P.M.E.S.).  
+Las partes intervinientes en el contrato son Aguas Argentinas S.A. en calidad de 
+fiduciante, BAPRO Mandatos y Negocios S.A. en carácter de fiduciario y el Ente 
+Tripartito de Obras y Servicios Sanitarios (ETOSS) quien actúa como organismo de 
+control del fideicomiso. 
+El fiduciario recibe de Aguas Argentinas S.A., de acuerdo al contrato, la propiedad 
+fiduciaria de la recaudación neta de los aumentos porcentuales acumulativos de un 
+coeficiente multiplicador de todas las tarifas de la concesión, que fuera utilizado como 
+variable de adjudicación, correspondiente a los años 2001 y 2002. Se entiende como 
+recaudación neta, a la recaudación bruta excluidos los impuestos y tasas facturados 
+como venta (IVA, retenciones, Tasa Financiamiento ETOSS y tasas municipales) y 
+deducidos los impuestos que gravan los ingresos del fiduciante y los gastos de 
+recaudación. A la firma del contrato, el fiduciante aportó $(000) 43.800.-, previéndose 
+que los días 11 de cada mes la concesionaria depositará el importe correspondiente a la 
+recaudación neta mencionada precedentemente. 
+ 
+ 
+3. FIDEICOMISOS CON PARTICIPACIÓN DEL BANCO DE INVERSION Y 
+COMERCIO EXTERIOR (BICE) 
+ 
+3.1 FIDEICOMISO PARA LA ACTIVIDAD EXPORTADORA DE LA 
+INDUSTRIA FRIGORÍFICA ARGENTINA 
+Por el contrato firmado con fecha 9/8/01 el BICE se comprometió a transferir la 
+propiedad fiduciaria de U$S (000) 7.700.- al BNA como fiduciario. A su vez la 
+Secretaría de Agricultura, Ganadería, Pesca y Alimentación de la Nación le transfiere 
+la suma equivalente a los gastos en concepto de honorarios del fiduciario, 
+bonificaciones y gastos de emisión y endoso de warrants. La finalidad del fideicomiso 
+
+===== PDF PAGE 91 =====
+
+ 4 
+era el otorgamiento de préstamos a exportadores con su principal establecimiento en la 
+República Argentina, dedicadas exclusivamente a la industria frigorífica, cumpliendo 
+determinadas condiciones. El fideicomisario es el BICE. Los préstamos debían ser en 
+dólares y no podían superar el 25% del fondo por exportador. La tasa de interés era del 
+10% del capital con una bonificación de 4 puntos por la Secretaría. El vencimiento del 
+contrato operó el 06/04/02. El saldo del patrimonio del fondo al 31/12/03 era de $(000) 
+933.- 
+ 
+3.2 FIDEICOMISO PARA LA INDUSTRIA LECHERA DE EXPORTACIÓN 
+En virtud del contrato de fecha 26/12/2001 el BICE transfirió fondos a HSBC 
+Participaciones S.A para el otorgamiento de préstamos para exportadores de la 
+industria láctea. El patrimonio fiduciario al 31/12/03 alcanzaba a $(000) 5.- 
+ 
+3.3 FIDEICOMISO CUOTA HILTON 
+En virtud del contrato de fecha 12/04/2002 el BICE transfirió fondos al Banco Río de 
+la Plata para el otorgamiento de préstamos para exportadores de la industria frigorífica. 
+El fideicomiso al 31/12/03 se encontraba cancelado.  
+ 
+3.4 PROGRAMA DE FIDEICOMISOS REGIONALES DE INVERSION PARA LA 
+PCIA. DE LA PAMPA 
+Por contrato de fecha 31/10/02 la provincia de La Pampa y BICE se comprometieron a 
+transmitir la propiedad fiduciaria al Banco de la Pampa en su calidad de fiduciario 
+U$S(000) 800.- y 3.300.- respectivamente, con la finalidad de aplicar el dinero 
+proveniente de la colocación de los Títulos Valores al financiamiento del sector 
+agropecuario o de operaciones de Comercio Exterior mediante la celebración de 
+contratos de mutuo. La provincia recibe por su aporte Certificados de Participación y 
+el BICE títulos  de deuda fiduciaria. La SEPYME toma a su cargo la bonificación de 3 
+puntos porcentuales de la tasa nominal anual pagadera  por los solicitantes. El 
+patrimonio fiduciario al 31/12/03 alcanzaba a  $(000) 1.211.- 
+
+===== PDF PAGE 92 =====
+
+ 5 
+ 
+3.5 PROGRAMA DE FIDEICOMISOS REGIONALES DE INVERSION PARA LA 
+PCIA. DE CHUBUT 
+Por contrato de fecha 01/06/2003 la provincia del Chubut y BICE se comprometieron 
+a transferir al BNA en su calidad de fiduciario U$S (000) 750.- y U$S(000) 3.000.-, 
+respectivamente, con el destino de otorgar asistencia crediticia a personas físicas o 
+jurídicas que ejerzan su actividad económica en la Provincia y en beneficio de los 
+fiduciantes con los derechos que resulten de los títulos valores a ser emitidos por el 
+fiduciario. La provincia recibe Certificados de Participación A y el BICE títulos de 
+deuda fiduciaria. El contrato contempla la existencia de inversores privados 
+adicionales, suscriptores de Certificados de Participación Clase B. La SSEPyMEyDR 
+toma a su cargo una bonificación de 3 puntos porcentuales de la tasa nominal anual 
+pagadera por los solicitantes de los préstamos, los que deben cumplir una serie de 
+condiciones (Pymes que produzcan bienes con valor agregado argentino y un 
+financiamiento máximo de U$S(000) 300.- . Si existieran bienes fideicomitidos 
+remanentes al finalizar el fideicomiso los mismos deben ser transmitidos a la 
+provincia. El fideicomiso contará con un Comité de Créditos encargado de la 
+aprobación de los créditos, y que será integrado por un funcionario de los fiduciantes y 
+uno del fiduciario. El patrimonio al 31/12/03 alcanzaba a $(000) 5.935.  
+ 
+3.6 FIDEICOMISO PARA LA INDUSTRIA LECHERA DE EXPORTACIÓN 
+  
+Por contrato de fecha 18/03/03 el BICE se comprometió a transferir al BNA U$S(000) 
+10.700.- para el otorgamiento de préstamos para exportadores de la industria láctea. El 
+patrimonio fiduciario al 31/12/03 alcanzaba a $(000) 12.508.- 
+ 
+4. FIDEICOMISO CONVERSION DE DEUDA PUBLICA POR PRESTAMOS 
+GARANTIZADOS – DECRETO 1387/01 
+ 
+En el marco del proceso de conversión de deuda pública establecido por el decreto 
+1387/01 se dispuso, por Resolución 767 del 28/11/01 y Decreto N° 1646 de fecha 12 
+diciembre de 2001, la creación de un fideicomiso destinado a administrar la cobranza 
+
+===== PDF PAGE 93 =====
+
+ 6 
+de los títulos de deuda pública transferidos por sus tenedores (Bancos y mandantes) al 
+fiduciario (Caja de Valores S.A.), a cambio de certificados de participación con los 
+cuales estos tenedores integraron los préstamos garantizados otorgados a la República 
+Argentina. El fiduciario queda así encargado de la cobranza de los servicios de renta y 
+amortización de los títulos fideicomitidos y de cancelar con éstos los certificados de 
+participación.  
+Los activos fideicomitidos están constituídos por: 
+a) Títulos que constituyen endeudamiento público interno: deuda pública de la 
+República Argentina constituida por cualquiera de los títulos previstos en el Art. 57 de 
+la Ley Nº 24.156, emitidos en moneda nacional o extranjera, regidos por leyes de la 
+República Argentina y con domicilio de pago en esta jurisdicción. 
+b) Títulos que constituyen endeudamiento público interno externo: deuda pública 
+externa de la República Argentina, constituida por títulos públicos o bonos, con 
+cotización pública en mercados de valores, emitidos en moneda nacional o extranjera, 
+regidos por leyes extranjeras y con domicilio de pago en el exterior 
+En el caso de incumplimiento de las cláusulas del Contrato de Préstamo Garantizado, 
+aprobado por el decreto 1646/01, los fiduciantes tienen la opción de solicitar la 
+restitución de los títulos fideicomitidos.  
+El plazo del fideicomiso está dado por la cancelación total de los bienes fideicomitidos 
+o el incumplimiento de las condiciones del contrato de préstamo garantizado, 
+quedando los fiduciantes con los activos remanentes. 
+ 

@@ -9,6 +9,9 @@ for name in (
     "agn_res023_2005_fideicomisos_publicos.pdf",
     "agn_res160_2006_bid1192_ejercicio2005.pdf",
     "agn_res014_2010_bid1192_ejercicio2008.pdf",
+    "bid_ar0127_informe_terminacion_proyecto.pdf",
+    "bid_ar0127_evaluacion_intermedia.pdf",
+    "bid_ar0127_propuesta_prestamo_407194.pdf",
 ):
     source = source_dir / name
     reader = PdfReader(source)
