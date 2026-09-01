@@ -1,0 +1,7 @@
+﻿log_id,surface,query_or_target,result,classification,limit_or_next_step
+PUB174_01,ArchivoWeb,Año 2009 + 3672,Total de informes: 0,PUBLIC_REPORT_SEARCH_NEGATIVE_ONLY,no cubre NOT/backend
+PUB174_02,SIGEN AuditoresWeb,Nota 2518/2009,fecha 6/7/2009 localizada,DATED_SERIAL_COMPARATOR,no interpolar sin regla
+PUB174_03,Infoleg,Notas 3059/09 y 4169/09,secuencias receptoras fechadas localizadas,CONTEXTUAL_SERIAL_COMPARATORS,fecha exacta no impresa
+PUB174_04,ERAS acta 12/09,Nota 3832/2009-GSPF,asunto + Expte 828-09 + respuesta,RECIPIENT_DUAL_IDENTIFIER_PROVED,aplicar método a CGN
+PUB174_05,ERAS orden/acta 1/10,Nota 5095/2009-GSPF,asunto + Expte 878-09 + pases,RECIPIENT_DUAL_IDENTIFIER_PROVED,comparador posterior
+PUB174_06,Common Crawl,control CC-MAIN-2014-49 dos hosts,2 service errors,SERVICE_ERROR,40 pendientes no ejecutadas

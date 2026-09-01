@@ -15,6 +15,9 @@ EXACT_URLS = {
     "bcra_reservas/estado_resumido_aclaraciones.pdf": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/aclaraciones-estado-resumido-activos-pasivos-bcra.pdf",
     "bcra_reservas/nedd_reservas_2026-08-31.html": "https://www.bcra.gob.ar/normas-especiales-para-la-divulgacion-de-datos-fmi/",
     "bcra_reservas/swap_china_renovacion_2026-08-05.html": "https://www.bcra.gob.ar/noticias/el-banco-central-de-la-republica-argentina-y-el-banco-de-la-republica-popular-de-china-renuevan-su-acuerdo-de-swap-y-extienden-el-plazo-de-3-a-5-anos/",
+    "bcra_reservas/reservas_internacionales_2026-08-27.pdf": "https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/reservas1.pdf",
+    "bcra_reservas/imf_argentina_staff_report_2026_105_main.pdf": "https://www.elibrary.imf.org/downloadpdf/view/journals/002/2026/105/article-A001-en.pdf",
+    "bcra_reservas/imf_argentina_staff_report_2026_105_supplement.pdf": "https://www.elibrary.imf.org/downloadpdf/view/journals/002/2026/105/article-A003-en.pdf",
     "deuda/datos_mensuales_2026-08-31.html": "https://www.argentina.gob.ar/economia/finanzas/datos-mensuales",
     "deuda/boletin_mensual_deuda_2026-07-31.xlsx": "https://www.argentina.gob.ar/sites/default/files/boletin_mensual_31_07_2026_0.xlsx",
     "deuda/datos_trimestrales_2026-08-31.html": "https://www.argentina.gob.ar/economia/finanzas/datos-trimestrales-de-la-deuda",
@@ -39,6 +42,12 @@ EXACT_URLS = {
     "indec_eph/indec_bases_de_datos_2026-08-31.html": "https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos",
 }
 
+RETRIEVAL_DATES = {
+    "bcra_reservas/reservas_internacionales_2026-08-27.pdf": "2026-09-01",
+    "bcra_reservas/imf_argentina_staff_report_2026_105_main.pdf": "2026-09-01",
+    "bcra_reservas/imf_argentina_staff_report_2026_105_supplement.pdf": "2026-09-01",
+}
+
 
 def source_url(relative: str) -> str:
     if relative in EXACT_URLS:
@@ -61,7 +70,7 @@ for file in sorted(path for path in SOURCES.rglob("*") if path.is_file()):
         {
             "ruta_relativa": relative,
             "url_origen": source_url(relative),
-            "fecha_recuperacion": "2026-08-31",
+            "fecha_recuperacion": RETRIEVAL_DATES.get(relative, "2026-08-31"),
             "bytes": file.stat().st_size,
             "sha256": digest,
         }

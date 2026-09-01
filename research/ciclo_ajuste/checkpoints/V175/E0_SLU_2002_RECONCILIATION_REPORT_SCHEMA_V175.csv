@@ -1,0 +1,30 @@
+field_id,report,field_or_value,official_meaning,target_use,source_id,locator,status
+RS143_01,conc_01.rep,ruta,Tesorería / Conciliación bancaria / Listado/Extracto,reproducir reporte de movimientos externos,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_02,conc_01.rep,cuenta,Cuenta bancaria consultada,identificar cuenta histórica,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_03,conc_01.rep,saldo final anterior,Saldo previo al período,controlar continuidad,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_04,conc_01.rep,fecha de movimiento,Fecha económica del movimiento,cruzar formulario y banco,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_05,conc_01.rep,fecha de proceso,Fecha de procesamiento,medir rezago,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_06,conc_01.rep,tipo de movimiento,Clasificación del movimiento,buscar comisión/pago/rechazo,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_07,conc_01.rep,tipo de cuenta bancaria,Clase bancaria,clasificar cuenta,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_08,conc_01.rep,número de cuenta bancaria,Identificador bancario,unir con BNA,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_09,conc_01.rep,debe,Importe débito,controlar signo,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_10,conc_01.rep,haber,Importe crédito,controlar signo,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_11,conc_01.rep,saldo acumulado,Saldo posterior por movimiento,probar aritmética,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_12,conc_01.rep,saldo final del período,Cierre del intervalo,controlar completitud,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_13,conc_01.rep,tipo E/P/R,"Cuenta Escritural, Pagadora o Recaudadora",separar función de cuenta,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_14,conc_01.rep,estado N/P/T,"No, Parcial o Totalmente conciliado",clasificar estado,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_01.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_15,conc_02.rep,ruta,Tesorería / Conciliación bancaria / Listado/Libro Banco,reproducir reporte interno,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_16,conc_02.rep,saldo inicial,Saldo de apertura,controlar continuidad,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_17,conc_02.rep,ejercicio,Ejercicio presupuestario,fijar 2008,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_18,conc_02.rep,fecha de proceso,Fecha de procesamiento,medir rezago,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_19,conc_02.rep,comprobante Libro Banco,Número y descripción del comprobante,unir registro interno,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_20,conc_02.rep,debe,Importe débito,controlar signo,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_21,conc_02.rep,haber,Importe crédito,controlar signo,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_22,conc_02.rep,saldo,Saldo posterior,probar aritmética,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_23,conc_02.rep,tipo de formulario,Clase de formulario respaldatorio,buscar C55/nota/pago,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_24,conc_02.rep,número de formulario,Identificador del formulario,cruzar SIDIF,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_25,conc_02.rep,número de cheque,Cheque asociado si corresponde,control de medio,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_26,conc_02.rep,beneficiario,Beneficiario informado,contrastar Banco Nación,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_27,conc_02.rep,cuenta,Cuenta operativa,unir con extracto,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+RS143_28,conc_02.rep,estado y fecha de movimiento,N/P/T y fecha económica,cerrar conciliación,e0_dgsiaf_slu_bank_reconciliation_reports_2002,DOC Septiembre 2002 · versión 7 · conc_02.rep,CONTEMPORARY_SCHEMA_PROVED_TARGET_OPEN
+

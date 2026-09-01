@@ -1,0 +1,4 @@
+﻿control_id,source_id,pdf_pages,target,result,limit
+PDF174_01,e0_eras_acta12_2009_note3832_recipient_expte828_v174,1-2,fecha reunión; Nota 3832; asunto; Expte 828-09,PASS_LEGIBLE_COMPLETE,no fecha de emisión
+PDF174_02,e0_eras_acta01_2010_note5095_recipient_expte878_v174,1,Nota 5095; asunto; Expte 878-09; actuaciones,PASS_LEGIBLE_COMPLETE,comparador posterior
+PDF174_03,e0_eras_order01_2010_note5095_recipient_expte878_v174,1,control de agenda Nota 5095 → Expte 878-09,PASS_LEGIBLE_COMPLETE,comparador posterior

@@ -1,0 +1,9 @@
+﻿row_id,note,area,date_or_envelope,recipient_record,evidence_level,target_use,limit
+NR175_01,Decreto 759/1966 actualizado,según registro,vigente como marco de trámite,"numeración única del organismo originante; mesa registra, distribuye, archiva y mantiene movimiento/destino",OFFICIAL_NORMATIVE_DUTY,regla/ventana/remito,no prueba serie anual ni fila 3672
+NR175_02,Nota SIGEN 734/2009-GA + remito 014580,según registro,10/03/2009,"copia fechada, entrega de original y remito reproducidos en inventario judicial",DATED_NOTE_AND_ORIGINAL_DELIVERY_REPRODUCTION,regla/ventana/remito,host vLex no oficial; otro número/área
+NR175_03,Nota SIGEN 3183/2009,según registro,recibida 11/09/2009,comparador contemporáneo ya preservado,DATED_RECIPIENT_COMPARATOR,regla/ventana/remito,otra materia
+NR175_04,Nota SIGEN 3672/2009-GSEyP,según registro,ABIERTO,referencia existente; fecha/cuerpo/remito pendientes,TARGET_REFERENCE_ONLY,regla/ventana/remito,no interpolar
+NR175_05,Remitos originales 4955/2009-NyT a 5353/2009-GSIS,según registro,15-29/12/2009,inventario los describe como numeración correlativa y conserva avisos de recibo originales,CORRELATIVE_RANGE_AND_RECEIPT_PRESERVATION_REPRODUCTION,regla/ventana/remito,no incluye rango 3672 ni prueba una única serie global
+NR175_06,Notas SIGEN 5016/2009 a 5373/2009,según registro,15-29/12/2009,biblioratos rojos inventariados judicialmente,LATE_YEAR_NOTE_RANGE_REPRODUCTION,regla/ventana/remito,no lista individualmente fila 3672
+NR175_07,Nota SIGEN 5259/2009,según registro,28/12/2009,"nota, informe, remitos y recepción al Ministerio de Economía reproducidos en acta",EXACT_LATE_YEAR_COMPARATOR,regla/ventana/remito,otra nota
+NR175_08,conclusión de serie,según registro,2009,muestras fechadas + rango declarado correlativo + originales de remito/acuse,ANNUAL_CORRELATIVE_PRACTICE_SUPPORTED,regla/ventana/remito,regla formal y fila 3672 siguen abiertas

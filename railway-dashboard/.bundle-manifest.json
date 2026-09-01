@@ -1,17 +1,17 @@
 {
   "generated_from": "dashboard source tree",
-  "public_file_count": 31,
-  "public_bytes": 8274754,
+  "public_file_count": 32,
+  "public_bytes": 8281216,
   "files": [
     {
       "path": "index.html",
-      "bytes": 8046775,
-      "sha256": "e71d885af03280f1422d5958434c28894485731013387e5e7a4980cb497229d9"
+      "bytes": 8049531,
+      "sha256": "2de38da9a29912c9acfa01f1258ec3fb1cc953769d42fae4601ca719b7fe47ed"
     },
     {
       "path": "assets/epica-super-tabs.js",
-      "bytes": 71626,
-      "sha256": "afc18b2eaea86151794e22e7e869f47649a1b7dea23729bf90eec17b1ea5eaf0"
+      "bytes": 73642,
+      "sha256": "72432b615867e015b74cb121c6d6f1d330f92011c027e5311d5d4ee68ecc3f65"
     },
     {
       "path": "assets/epica-stage2-tabs.js",
@@ -32,6 +32,11 @@
       "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/bcra_reserve_liquidity_bridge.csv",
       "bytes": 544,
       "sha256": "808a6704543e1c45d09a75f492c2301e762d13adb1f49cfaec65f81014e33e90"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/reserve_measure_definitions_2026-09-01.csv",
+      "bytes": 1690,
+      "sha256": "0c654fbbd8629c4cfe2bad3eaa648a1bdd4925cfb650ad0b0e627d0227e4e070"
     },
     {
       "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/debt_service_2026_2031.csv",

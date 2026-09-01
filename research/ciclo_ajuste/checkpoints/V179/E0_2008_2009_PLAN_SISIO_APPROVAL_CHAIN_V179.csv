@@ -1,0 +1,23 @@
+row_id,date_or_period,source,documented_event,expected_record,target_value,limit,status
+PC157_01,2008,Plan SIGEN 2008,Planes UAI sometidos a aprobación SIGEN,Plan y comunicación de aprobación,Prueba circuito contemporáneo,No subplan Economía,TARGET_PERIOD_CHAIN
+PC157_02,2008,Plan SIGEN 2008,Más de 7000 productos o informes UAI previstos,Inventario de productos por UAI,Prueba escala y clasificación,Agregado no inventario,AGGREGATE_CONTROL
+PC157_03,2008,Plan SIGEN 2008,Cuenta de Inversión planificada como auditoría horizontal,"Proyecto, responsables e informes contribuyentes",Nombre exacto de programa target,Plan no ejecución,TARGET_PERIOD_CHAIN
+PC157_04,2008,Plan SIGEN 2008,Previstos criterios e instructivos para respaldo Cuenta,"Instructivos, versiones y distribución",Clase documental exacta,Previsión no emisión,TARGET_PERIOD_CHAIN
+PC157_05,2008,Memoria SIGEN 2008,Se dictaron Instructivos de Trabajo Cuenta,Instructivos y acuses UAI,Confirma ejecución de previsión,No identifica números en memoria,TARGET_PERIOD_CHAIN
+PC157_06,2008,Memoria SIGEN 2008,Emitido informe global Cuenta de Inversión 2007,"Cuerpo, anexos y distribución",Prueba continuidad anual,No es Cuenta 2008,ANNUAL_CONTINUITY
+PC157_07,2008,Memoria SIGEN 2008,Unos 120 Informes de Supervisión del Planeamiento,Informe correspondiente a UAI Economía,Prueba clase y volumen,No identifica cuerpo individual,PLANNING_SUPERVISION
+PC157_08,2008,Memoria SIGEN 2008,Mejoras SISIO para confección y seguimiento de planes UAI,"Versión, snapshot, logs y exportación",Conecta plan con sistema,No entrada 0120/09,SYSTEM_CHAIN
+PC157_09,2008,Memoria SIGEN 2008,Lineamientos emitidos para planeamiento 2009,Lineamientos generales y pautas gerenciales,Precursor exacto del plan,No contiene anexos,TARGET_PERIOD_CHAIN
+PC157_10,2008-12-15,Memoria SIGEN 2008,Aprobado Plan SIGEN 2009,Plan completo y acto de aprobación,Fecha exacta de aprobación,No número de acto,EXACT_APPROVAL_DATE
+PC157_11,2008-12-15,Memoria SIGEN 2008,Plan 2009 reúne organismo y distintas UAI,Subplan UAI Economía y consolidación,Prueba que debía integrar el conjunto,No prueba contenido target,TARGET_PERIOD_CHAIN
+PC157_12,2008,Memoria SIGEN 2008,SISPE apoya planificación SIGEN y seguimiento,Snapshot SISPE y diccionario,Identifica sistema distinto,No confundir con SISIO,SYSTEM_CHAIN
+PC157_13,2009,Memoria SIGEN 2009,Emitido informe global Cuenta de Inversión 2008,"Cuerpo, anexos y papeles",Confirma producto target anual,No SAF355 ni banco,TARGET_REPORT_REFERENCE
+PC157_14,2009,Memoria SIGEN 2009,Unos 160 Informes de Supervisión del Planeamiento,Informe UAI Economía 2009,Prueba continuidad y mayor volumen,No cuerpo individual,PLANNING_SUPERVISION
+PC157_15,2009,Memoria SIGEN 2009,Mejoras SISIO para planeamientos UAI,"Snapshot, versión y logs",Confirma uso continuado,No asiento target,SYSTEM_CHAIN
+PC157_16,2009-12-16,Plan SIGEN 2010 segunda parte,Datos de planes UAI extraídos de SISIO WEB II,Exportación de corte y parámetros,Fecha exacta de snapshot,Corresponde a Plan 2010,EXACT_SYSTEM_CUTOFF
+PC157_17,2009-12-16,Plan SIGEN 2010 segunda parte,Consolidación prevé más de 4550 productos,Cuadros 10 a 13 y anexo D,Prueba campos de detalle,Anexo completo ausente,AGGREGATE_CONTROL
+PC157_18,2009-12-22,Memoria SIGEN 2009,Aprobado Plan SIGEN 2010,Plan final y acto,Fecha exacta posterior al corte,No es Plan 2009,NEAR_TARGET_CONTROL
+PC157_19,2009-12-16 a 22,Cruce fuentes,Snapshot SISIO precede seis días a aprobación final,"Versiones antes y después, cambios y aprobación",Define control de versiones,No prueba que no hubiera cambios,VERSION_CONTROL
+PC157_20,2010,Plan SIGEN 2010 segunda parte,Cuenta de Inversión 2009 planificada como horizontal,Proyecto e informes contribuyentes,Confirma continuidad de programa,No es Cuenta 2008,ANNUAL_CONTINUITY
+PC157_21,2010,Cuenta de Inversión 2010,Unos 140 Informes de Supervisión del Planeamiento,Inventario y cuerpo por UAI,Confirma continuidad de clase,Comparador posterior,PLANNING_SUPERVISION
+PC157_22,Regla final,Método V179,"Plan, aprobación, snapshot y supervisión son piezas separadas",Cuatro cuerpos vinculados por ids y fechas,Evita respuestas genéricas,Ninguna acredita banco,METHOD_LIMIT

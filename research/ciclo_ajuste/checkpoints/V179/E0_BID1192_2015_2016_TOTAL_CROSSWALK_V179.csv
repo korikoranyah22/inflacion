@@ -1,0 +1,10 @@
+row_id,measure,amount_ars,calculation,status,limit
+TC178_01,Cuenta 2015 sum / Cuenta 2016 opening rows,482435943.60,sum 15/16 published rows,REPRODUCED,table scope only
+TC178_02,SIGEN-reported 2016 opening total,489607291.57,source value,REPORTED_NOT_VERIFIED,scope not reconciled
+TC178_03,opening scope gap,7171347.97,489607291.57-482435943.60,UNEXPLAINED,not damage
+TC178_04,Cuenta 2016 closing row sum,676322549.15,sum 16 published rows,REPRODUCED,table scope only
+TC178_05,SIGEN-reported 2016 closing total,685073367.12,source value,REPORTED_NOT_VERIFIED,Cuadro 13.3 not verified
+TC178_06,closing scope gap,8750817.97,685073367.12-676322549.15,UNEXPLAINED,not damage
+TC178_07,published-row net movement,193886605.55,676322549.15-482435943.60,REPRODUCED,nominal
+TC178_08,SIGEN aggregate net movement,195466075.55,685073367.12-489607291.57,REPRODUCED_FROM_REPORTED_TOTALS,substance unverified
+TC178_09,difference between net movements,1579470.00,195466075.55-193886605.55,UNEXPLAINED,requires Cuadro 13.3/ledger crosswalk

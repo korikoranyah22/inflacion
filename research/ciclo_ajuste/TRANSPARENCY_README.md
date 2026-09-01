@@ -218,3 +218,33 @@ La Memoria SIGEN 2007 documenta Mesa informatizada y bases del Archivo Digital; 
 ## V173 · CIDD, SPD y Notas SIGEN
 
 La Resolución 41/2007 y anexos identifican código NOT, CIDD, SPD, acceso y caja física. ArchivoWeb público sólo cubre informes; la ruta GDE/archivo digital de Notas está documentada en 2022 sin retroproyección. Common Crawl quedó detenido tras control fallido. Archivo 607/607; panel 34; solicitudes 0.
+
+
+## V174 · Notas y expedientes receptores
+
+Fuentes oficiales contemporáneas prueban el patrón Nota SIGEN→expediente receptor con asunto y actuaciones. La 3672/09 sigue abierta y no se fecha por interpolación. ArchivoWeb sólo dio cero dentro de Informes; Common Crawl volvió a fallar. Archivo 613/613; panel 34; solicitudes 0.
+
+
+## V175 · circuito probado, atribución abierta
+
+Fuentes contemporáneas prueban el flujo expediente/SISIO/acciones, la capacidad archivística SIGEN 2009 y la continuidad correctiva CGN 2009-2013. No prueban aún qué corrección o importe individual fue causado por Nota 3672/09. La reproducción vLex de un acta judicial se identifica como host no oficial. Archivo 623/623; panel 34; solicitudes 0.
+
+
+## V176 · historial SISIO comprobado
+
+Cuatro exportaciones oficiales prueban la clave compuesta y trayectoria de observaciones: una Cuenta 2008 de 2009 quedó En Trámite hasta 2016 y luego Regularizada; una fila UEPEX terminó no regularizable por cierre de proyecto/cuenta. Son comparadores, no filas 3672. Cargo firmante probado; persona y causalidad abiertas. Archivo 627/627; panel 34; solicitudes 0.
+
+
+## V177 · candidato longitudinal BID 1192
+
+Tres PDF oficiales nuevos permiten trazar el BID 1192 desde hallazgos 2008/2009 hasta observaciones sin acción correctiva y ausencia de información 2019. Hay 14 cuentas comunes y ARS 824.861.366,21 en 16 referencias 2018. Es continuidad de objeto y déficit de rendición, no crosswalk SISIO/3672 ni daño. Archivo 630/630; panel 34; solicitudes 0.
+
+
+## V178 · fideicomiso MyPEs II y FONDYF
+
+Seis Cuentas 2011-2016 y siete normas oficiales cierran la arquitectura del fideicomiso y el FONDYF a nivel normativo/contable. Se cuantificaron gaps de alcance con SIGEN, no daño. El contrato completo, las notas, reportes, Acta 398 y SISIO siguen abiertos. Archivo 643/643; panel 34; solicitudes 0.
+
+
+## V179 · anexo completo Resolución 967/2006
+
+El Boletín Oficial conservaba el Anexo 00345809: 99 páginas con el modelo completo y Anexos I-V. La arquitectura de garantías de Macro/Credicoop y los reportes exigibles quedan probados a nivel contractual. No se confunde modelo con contraparte ejecutada ni garantía con incumplimiento. Archivo 649/649; panel 34; solicitudes 0.

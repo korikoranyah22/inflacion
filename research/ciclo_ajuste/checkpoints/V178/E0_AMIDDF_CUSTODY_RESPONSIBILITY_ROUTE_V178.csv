@@ -1,0 +1,12 @@
+route_id,phase,responsible,record_or_action,condition,target_result,source_id
+CR137_01,PRODUCTION,SAF 355,"ordenar, clasificar, conservar y depurar",mientras está en su poder,responsable exacto probado; tenencia actual abierta,e0_cgn_disposition_46_1998_amiddf_annex;e0_argentina_decree_1344_2007_original_finance_rule
+CR137_02,AUTHORIZATION,SAF 355 + máxima autoridad AMIDDF,conformes escritos y decisión sobre digitalización,antes del envío,actos preexistentes a solicitar,e0_cgn_disposition_46_1998_amiddf_annex
+CR137_03,REMITTANCE,archivo SAF 355,"planilla, cajas/biblioratos y tejuelo",después de aprobación de rendición y cronograma,planilla target no localizada,e0_cgn_disposition_46_1998_amiddf_annex;e0_cgn_disposition_46_1998_amiddf_remittance_form
+CR137_04,DIGITIZATION,AMIDDF,asume responsabilidad,sólo si la entrega tuvo objeto de digitalización,autorización e imágenes target abiertas,e0_cgn_disposition_46_1998_amiddf_annex
+CR137_05,PAPER_CUSTODY,SAF 355,mantiene responsabilidad,si el envío fue sólo para guarda,tipo de transferencia abierto,e0_cgn_disposition_46_1998_amiddf_annex
+CR137_06,NON_DIGITIZED_LOCAL,SAF 355,conservación propia dos años adicionales,si no autorizó digitalización,cronograma/transferencia posterior a solicitar,e0_cgn_disposition_46_1998_amiddf_annex
+CR137_07,ORIGINALS,SAF 355 / AMIDDF,originales; copia autenticada sólo si falta o está deteriorado,preparación del envío,original/copia target abierto,e0_cgn_disposition_46_1998_amiddf_annex
+CR137_08,EXPURGO,SAF 355 + AMIDDF + AGN,expurgo previo a desafectación,al vencer guarda,fecha de desafectación no prueba destrucción,e0_cgn_disposition_46_1998_amiddf_annex
+CR137_09,HISTORIC_QUERY,SAF/control/Poder Judicial,nota escrita y retiro por ejercicio/caja/expediente,procedimiento 1998,no era vía ciudadana directa,e0_cgn_disposition_46_1998_amiddf_annex
+CR137_10,CURRENT_PUBLIC_ACCESS,RAIP Ministerio de Economía,Ley 27.275; TAD/email/mesa,"cualquier persona, sin motivo ni abogado",ruta lista; no enviada,e0_argentina_law_27275_updated_access;e0_argentina_economia_access_channel_2026;e0_argentina_tad_public_information_route
+

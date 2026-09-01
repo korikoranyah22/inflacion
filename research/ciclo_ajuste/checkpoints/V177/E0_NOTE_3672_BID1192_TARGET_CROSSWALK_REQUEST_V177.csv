@@ -1,0 +1,7 @@
+﻿field_group,required_fields,known_anchor,closure_rule
+origin,Nota 0120/09; informe y anexos; página/fila; hallazgo; cuenta; importe,BID 1192; SAF 357; cuentas Anexo 4.28 2008,documento original o índice archivístico con unión inequívoca
+instruction,Nota 3672/09; cuerpo; fecha; destinatarios; adjuntos; área/persona firmante,cargo firmante Síndico General; orden SISIO,cuerpo firmado y remito/acuse
+SISIO,entidad; UAI; informe número/fecha; observación; título; sector; hallazgo; recomendación,programa BID 1192 y 14 cuentas persistentes,"exportación exacta, no búsqueda por texto resumido"
+history,estado; motivo; comentario; acción; cada fecha; usuario; soporte; cierre,recurrencia y acción cambian entre compilaciones,historial no sobrescrito de todos los estados
+financial,SAF; programa; cuenta; moneda; saldo; debe; haber; extracto; cuadro 13.2/13.3; SIDIF,"2008, 2009 y 16 referencias 2018",ledger antes/después conciliable por cuenta
+outcome,corregida; pendiente; no regularizable; sin acción; razón; acto; fecha,préstamo finalizado no equivale a corrección,categorías mutuamente excluyentes y soporte de cierre

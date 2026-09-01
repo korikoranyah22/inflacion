@@ -1,0 +1,7 @@
+﻿row_id,proposition,evidence,proved,not_proved
+RL177_01,responsabilidad de información primaria,Decreto 1344/07 art. 6 citado por CGN: SAF actúa como nexo y eleva documentación requerida para Cuenta,YES,responsabilidad personal individual
+RL177_02,deber de veracidad y verificabilidad,"marco SIGEN Cuenta 2016: responsables de veracidad, objetividad, verificabilidad, integridad, razonabilidad y confiabilidad",YES,dolo o culpa individual
+RL177_03,préstamo finalizado no extingue deber de rendición,en 2016 hubo movimientos y saldo variable; SIGEN no pudo verificar sin estados,CONTROL_DUTY_PERSISTS_FOR_REPORTED_MOVEMENTS,ilegalidad sustantiva de cada movimiento
+RL177_04,continuidad objetiva del programa,"mismo BID 1192 y 14 IDs de cuenta comunes en 2008, 2009 y referencia 2018",YES,misma observación SISIO o mismo responsable orgánico
+RL177_05,vínculo con Nota 3672,2008 tiene hallazgos; 3672 ordenó incorporar los hallazgos del informe 0120/09,CANDIDATE_SCOPE_ONLY,"crosswalk fila por fila, alta SISIO, usuario, fecha y disposición"
+RL177_06,daño o apropiación,"hay diferencias, falta de respaldo y datos no verificables",NO,"daño, beneficiario, apropiación, enriquecimiento o nexo causal bancario"

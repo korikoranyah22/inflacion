@@ -1,0 +1,8 @@
+row_id,2008_record_class,direction,minimum_target_fields,source_id,target_status
+TS135_01,Archivo de instrucciones de pago,TGN→BCRA,fecha/hora; orden; importe; moneda; cuenta/destino; acuse,e0_cgn_cuenta_inversion_2008_tomo_ii_tgn_system_files,CLASS_PROVED_TARGET_RECORD_OPEN
+TS135_02,Archivo de movimientos bancarios,BCRA→TGN,cuenta; fecha valor; débito/crédito; importe; referencia,e0_cgn_cuenta_inversion_2008_tomo_ii_tgn_system_files,CLASS_PROVED_TARGET_RECORD_OPEN
+TS135_03,Archivo de saldos bancarios,BCRA→TGN,cuenta; fecha; saldo inicial/final; moneda,e0_cgn_cuenta_inversion_2008_tomo_ii_tgn_system_files,CLASS_PROVED_TARGET_RECORD_OPEN
+TS135_04,Nota a TGN para pago exterior,SAF355/356→TGN,beneficiario; banco; cuenta; tipo de operación; SIDIF; moneda; cambio; divisas,e0_cgn_tgn_disposicion_conjunta_47_10_2008_external_payments,CONDITIONAL_ON_EXTERNAL_PAYMENT
+TS135_05,Boleto de Venta de Cambio y respaldos,BNA↔SAF/TGN,fecha; moneda; cotización; importe; firmas/poderes,e0_cgn_tgn_disposicion_conjunta_47_10_2008_external_payments,CONDITIONAL_ON_BNA_EXTERNAL_PAYMENT
+TS135_06,Nota conjunta ONCP/TGN + archivo/aceptación SIGADE/Caja,ONCP/TGN→agente de registro/pago,instrucción; archivo; validación; aceptación; registro,e0_debt_joint_resolution_216_26_2008_instruction_chain,COMPARATOR_OTHER_DEBT_PROCEDURE_NOT_TARGET_EQUIVALENCE
+

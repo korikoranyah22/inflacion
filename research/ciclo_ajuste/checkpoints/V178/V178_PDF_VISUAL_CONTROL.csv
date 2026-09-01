@@ -1,0 +1,7 @@
+﻿control_id,source_id,pdf_pages,target,result,limit
+PDF178_01,e0_cgn_account2011_bid1192_fondyf_trace_v178,200-202,"MP0191, cierres respaldados y cuentas 2011",PASS_LEGIBLE_COMPLETE,no cuerpo Nota 466/1796/08
+PDF178_02,e0_cgn_account2012_bid1192_fondyf_trace_v178,222-223,MP0191 y COBINT 2012,PASS_LEGIBLE_COMPLETE,cierre MP0191 abierto
+PDF178_03,e0_cgn_account2013_bid1192_fondyf_trace_v178,219-220,Nota 88/14 y cuentas 2013,PASS_LEGIBLE_COMPLETE,atribución disputada
+PDF178_04,e0_cgn_account2014_bid1192_fondyf_trace_v178,222-223,serie numérica 2014,PASS_LEGIBLE_COMPLETE,ausencia MP0191 no cierra
+PDF178_05,e0_cgn_account2015_bid1192_fondyf_trace_v178,220-221,serie numérica y fórmulas 2015,PASS_LEGIBLE_COMPLETE,agregado SIGEN difiere
+PDF178_06,e0_cgn_account2016_bid1192_fondyf_trace_v178,159-161,"rótulo FONDYF, 16 filas y fórmulas 2016",PASS_LEGIBLE_COMPLETE,Cuadro 13.3 no disponible

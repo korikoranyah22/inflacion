@@ -1,0 +1,7 @@
+﻿row_id,period,record,statement,evidentiary_state,limit
+MP178_01,2009,Cuenta 2009,MP0191 no expuesta; se desconoce si fue cerrada,CLOSURE_UNKNOWN,sin documento de cierre
+MP178_02,2011,Cuenta 2011 + Nota BCRA 466/1796/08,"BCRA la atribuye al Programa de Crédito para Desarrollo y Empleo de San Juan, pero no informa si sigue activa",OTHER_PROGRAM_ASSERTION_ACTIVE_STATUS_UNKNOWN,"nota citada, cuerpo todavía no recuperado"
+MP178_03,2012,Cuenta 2012,CGN reitera falta de documentación fehaciente y la insuficiencia de la Nota 466/1796/08,CLOSURE_STILL_UNPROVED,reiteración no agrega cuerpo de nota
+MP178_04,2013,Cuenta 2013 + Nota 88/14,programa afirma que pertenece a otro programa; CGN objeta falta de criterio que explique años de exposición como propia,ATTRIBUTION_CONTESTED,Nota 88/14 no recuperada
+MP178_05,2014-2015,Cuentas 2014-2015,MP0191 deja de aparecer en los anexos numéricos,ABSENCE_NOT_CLOSURE,omisión de fila no equivale a certificación
+MP178_06,2016-2017,compilaciones SIGEN preservadas en V177,la falta de respaldo de cierre vuelve a figurar como observación y sin acción correctiva,CONTROL_GAP_PERSISTS,no identifica saldo ni daño

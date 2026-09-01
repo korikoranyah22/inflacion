@@ -1,0 +1,7 @@
+﻿field_group,required_fields,why,closure
+composite_identity,organismo/entidad; UAI; informe número; informe fecha; observación número; título; sector,Obs.5 no es globalmente única; la unión exige clave compuesta,todos los hallazgos cargados por 3672 identificados sin colisiones
+directive_origin,Nota 0120/09; Nota 3672/09; fecha de alta; usuario; área; documento adjunto,separar fila SISIO de la orden que dispuso cargarla,referencia documental uno-a-uno
+substance,calificación/impacto; texto íntegro del hallazgo; recomendación; comentario; acción encarada,el estado solo no explica contenido ni respuesta,texto y acciones completos
+history,cada fecha; estado; motivo; usuario/área; comentario; documento soporte,la misma fila cambió de motivo y luego de estado,historial no sobrescrito
+financial_join,SAF; UEPEX/proyecto; préstamo; cuadro; cuenta bancaria; moneda; importe; período; documento SIDIF,permitir cuantificación y reconciliación,join con ledger CGN antes/después
+disposition,regularizada/no regularizable/otra; razón; fecha; acto/documento; cierre proyecto/cuenta,no confundir cierre administrativo con corrección,clasificación mutuamente excluyente y fundada

@@ -1,0 +1,11 @@
+﻿row_id,actor,role,proved_duty_or_right,source,limit
+RR179_01,Estado Nacional / Ministerio,Fiduciante-Beneficiario y fideicomisario,"aporta recursos, es beneficiario, imparte controles e instrucciones por las vías contractuales","Contrato, cláusulas 3, 19-20",modelo aprobado; ejecución pendiente
+RR179_02,SSEPYMEYDR/UCP,Organismo Ejecutor,"evalúa sostenibilidad, controla administración/destino, supervisa, puede suspender desembolsos e instruir sanciones","Contrato, cláusulas 19-20",faltan expedientes de control
+RR179_03,SUD Inversiones y Análisis S.A.,Fiduciario,"administra patrimonio separado, adquiere créditos, lleva contabilidad/registros, conserva documentación, cobra, ejecuta y rinde cuentas","Contrato, cláusulas 10-16",faltan reportes y contraparte ejecutada
+RR179_04,SUD / delegados,Fiduciario y administradores delegados,puede delegar administración de créditos sin desprenderse de la responsabilidad contractual por actos u omisiones de delegados,"Contrato, cláusula 14",alcance exacto sujeto al instrumento ejecutado
+RR179_05,BCRA,Agente financiero y órgano de control/fiscalización,controla la gestión fiduciaria y recibe información periódica y archivos mensuales de deudores,Decreto 1118 art. 6; Contrato cláusulas 16 y 18,faltan informes producidos
+RR179_06,Banco Credicoop,"IFI, originante/administrador y garante","aporta contraparte, origina créditos, cede créditos/garantías y responde por los que genera",Contrato cláusula 3; Anexos I-III,modelo no prueba cartera ni pagos concretos
+RR179_07,Banco Macro-Bansud,"IFI, originante/administrador, garante y designante de SUD",mismas obligaciones IFI y garantía específica por obligaciones de SUD y sus dependientes,"Anexo III, cláusulas 3-6",modelo no prueba activación de garantía
+RR179_08,Credicoop y Macro,garantes solidarios/coobligados,"garantizan obligaciones definidas, aportan ante insuficiencia y autorizan débitos automáticos","Anexo III, cláusulas 3-9","faltan saldos, avisos, débitos y ejecuciones"
+RR179_09,Subprestatarios MiPyME,deudores finales elegibles,"reciben crédito sujeto a elegibilidad, documentación, garantías, destino y límites",Anexo I,datos personales y legajos no localizados
+RR179_10,Auditor externo,control independiente,audita y emite informes especiales periódicos,Contrato cláusulas 16.4 y 16.8; Anexo IV,informes no localizados

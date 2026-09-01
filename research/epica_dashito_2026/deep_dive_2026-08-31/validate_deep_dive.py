@@ -20,6 +20,7 @@ required = [
     "derived/eph_strategy_summary.csv",
     "derived/eph_exclusive_profiles.csv",
     "derived/bcra_reserve_liquidity_bridge.csv",
+    "derived/reserve_measure_definitions_2026-09-01.csv",
     "derived/debt_wall_summary.csv",
     "derived/rigi_summary.csv",
     "derived/public_capital_accounting_inventory.csv",
@@ -57,6 +58,12 @@ assert abs(float(debt["servicios_usd_m"]) - 243187.688) < 0.001
 bridge = read_csv("derived/bcra_reserve_liquidity_bridge.csv")
 one_year = next(row for row in bridge if row["horizonte"] == "hasta_1_anio")
 assert abs(float(one_year["residual_bruto_menos_flujos_usd_m"]) - 5819.75) < 0.001
+
+reserve_measures = read_csv("derived/reserve_measure_definitions_2026-09-01.csv")
+by_measure = {row["medida"]: row for row in reserve_measures}
+assert float(by_measure["reservas_brutas_diarias"]["valor_usd_m"]) == 50861
+assert float(by_measure["reservas_netas_fmi"]["valor_usd_m"]) == -6500
+assert by_measure["reservas_netas_fmi_diarias"]["estado"] == "no_disponible_publicamente"
 
 print(
     f"OK: deep dive validado; {len(source_files)} fuentes con SHA-256; "

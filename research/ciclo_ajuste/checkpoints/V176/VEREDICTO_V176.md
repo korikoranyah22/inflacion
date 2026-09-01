@@ -1,0 +1,3 @@
+# Veredicto V176
+
+Avance probatorio sobre la evidencia que debe existir. Cuatro exportaciones oficiales demuestran que SISIO conserva claves compuestas, hallazgos, recomendaciones, estados, motivos, comentarios y fechas durante años, y que regularizada y no regularizable son desenlaces distintos. Esto hace más exigible y verificable la exportación target, pero no prueba que la observación SSS o la fila UEPEX comparadora provengan de Nota 3672. Para atribución específica siguen faltando filas 3672, crosswalk 0120/09, expediente CGN y ledger antes/después. Sin promoción bancaria ni solicitud enviada.

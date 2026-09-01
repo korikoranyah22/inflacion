@@ -1,0 +1,11 @@
+row_id,token,source,documented_context,allowed_inference,forbidden_inference,status
+AC155_01,GSEyP,Cuenta de Inversión 2009 UEPEX,Sufijo de Nota SIGEN 3672/09,Buscar literalmente GSEyP,Equipararlo sin fuente a GSEPyPF,TOKEN_VERIFIED
+AC155_02,GSEPyPF,Libro Blanco/otras fuentes preservadas,Gerencia de Supervisión Economía y Producción y Planificación Federal según contexto previo,Buscar literalmente GSEPyPF,Retrotraerlo automáticamente a la nota 3672/09,TOKEN_VERIFIED
+AC155_03,SIGEN,Ambas familias,Organismo de control,Cruzar registros institucionales,Asumir misma gerencia por pertenecer a SIGEN,ORGANIZATION_ONLY
+AC155_04,3672/09,Cuenta 2009,Número exacto de nota SIGEN,"Pedir cuerpo, anexos, índice y salida",Suponer número de informe UAI,EXACT_IDENTIFIER
+AC155_05,0120/09,Cuenta 2009,Número exacto de nota DAIF,"Pedir cuerpo, anexos y acuse",Suponer expediente o actuación SISIO,EXACT_IDENTIFIER
+AC155_06,SISIO,Cuenta 2009,Sistema de seguimiento,"Pedir alta, organismo, tema, estado y cierre",Tratarlo como repositorio del informe completo,SYSTEM_IDENTIFIER
+AC155_07,Cuenta2008,Ambas familias,Tema temporal común,Usar como término de cruce,Inferir identidad organizacional,TOPIC_ONLY
+AC155_08,Economía,Ambas familias,Jurisdicción común o vecina,Usar como filtro,Inferir custodio único,JURISDICTION_ONLY
+AC155_09,Hipótesis,V174,Posible proximidad temática entre siglas,Conservar como pista secundaria,Presentarla como hecho,HYPOTHESIS_ONLY
+AC155_10,Regla,V174,"La equivalencia exige organigrama, firma o registro contemporáneo",Pedir documento probatorio,Cerrar brecha por parecido ortográfico,METHOD_LIMIT

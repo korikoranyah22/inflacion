@@ -1,0 +1,7 @@
+﻿query_id,query,result,artifact,limit
+PS179_01,Boletín Oficial búsqueda avanzada Resolución 967/2006,aviso 9095705 localizado,detalle oficial preservado,búsqueda pública no prueba ejecución
+PS179_02,anexos=1 aviso 9095705,idAnexo 00345809 y fecha 20061211,HTML oficial,identificador técnico
+PS179_03,downloadPdf.js descargarPDFAnexo,POST /pdf/download_anexo y parámetros localizados,JS oficial preservado,protocolo de recuperación
+PS179_04,POST primera/1/00345809/20061211,"PDF oficial 6811172 bytes, SHA-256 validado, 99 páginas",anexo completo preservado,"modelo aprobado, no contraparte firmada"
+PS179_05,Decreto 1118/2003,"dos fideicomisos, recursos y control BCRA",HTML oficial preservado,anexo originario no recuperado
+PS179_06,Resoluciones 347/2004 y 389/2005,"dos IFI, firma 26/05/2004, pari passu y comisión",dos HTML oficiales,anexos históricos anteriores abiertos

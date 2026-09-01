@@ -1,0 +1,7 @@
+﻿rule_id,observed_label,allowed_conclusion,forbidden_conclusion
+OC176_01,En Trámite,observación seguía abierta en la fecha del snapshot,hubo corrección o incumplimiento definitivo
+OC176_02,Regularizada · Cumplimiento Recomendación,la UAI/SISIO la incluyó como regularizada por ese motivo y fecha,importe recuperado o causalidad de Nota 3672 sin documento de acción
+OC176_03,No regularizable / proyecto o cuenta cerrados,el seguimiento no podía continuar bajo ese objeto según comentario,la inconsistencia fue corregida
+OC176_04,Seguimiento no asociado a Informe,modo/motivo de seguimiento de la fila,ausencia de informe origen; la clave compuesta aún lo identifica
+OC176_05,fila ausente en una lista anual,no estaba en esa exportación/filtro,"regularización, eliminación o inexistencia sin historial"
+OC176_06,diferencia de saldos cuantificada,discontinuidad contable a explicar y conciliar,"daño, desvío o beneficio sin causa, documentación y contraparte"

@@ -1,0 +1,10 @@
+﻿row_id,dimension,mypes_2006,fondyf_bna_2013,safe_conclusion
+NT179_01,instrumento,fideicomiso BID 1192 con SUD y dos IFI,convenio de administración BNA-FONDYF,regímenes jurídicos distintos
+NT179_02,función bancaria,IFI origina/administra créditos y aporta contraparte,BNA administra fondos y operaciones por cuenta del FONDYF,no homologar funciones
+NT179_03,riesgo crediticio,IFI garantiza créditos propios y obligaciones definidas,modelo dice que BNA no asume riesgo de crédito,oposición expresa
+NT179_04,garantía/indemnidad,Anexo III contiene garantía solidaria e indemnidad,no localizada garantía equivalente en modelo público,no trasladar Anexo III
+NT179_05,débito automático,autorización irrevocable sobre cuentas IFI,no localizada obligación equivalente,exige instrumento específico
+NT179_06,remuneración,retribución fiduciaria/spread y costos según contrato,2% de créditos efectivamente otorgados más gastos taxativos,precios y bases diferentes
+NT179_07,información,"régimen trimestral, auditoría y archivo mensual BCRA",informes mensuales de operación/cobranza/mora/saldos,pedir ambos archivos por separado
+NT179_08,transición,patrimonio y recuperos del fideicomiso,recuperos integrados al FONDYF por Decreto 1273/2012,"falta crosswalk, novación, liquidación o transferencia ejecutada"
+NT179_09,atribución,obligaciones aprobadas para Macro/Credicoop,obligaciones aprobadas para BNA/Programa,ninguna imputación individual cruza períodos sin prueba de continuidad

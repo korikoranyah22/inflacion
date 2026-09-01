@@ -1,0 +1,6 @@
+control_id,measure,raw_thousand_ars,audited_thousand_ars,audited_minus_raw,verdict
+BR165_01,total_assets,96882462,96944768,62306,EXACT_CLOSING_LAYER_DELTA
+BR165_02,total_liabilities,62510206,62510206,0,EXACT_UNCHANGED
+BR165_03,equity_before_current_result,35589212,35589212,0,EXACT_UNCHANGED
+BR165_04,current_result,-1216956,-1154650,62306,EXACT_CLOSING_LAYER_DELTA
+BR165_05,net_equity,34372256,34434562,62306,EXACT_CLOSING_LAYER_DELTA

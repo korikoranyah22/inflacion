@@ -1,0 +1,7 @@
+﻿row_id,note,area,date_or_envelope,recipient_record,evidence_level,target_use,limit
+NS174_01,2518/2009,no consignada en la cita,06/07/2009,designación UAI conservada en AuditoresWeb,EXACT_NOTE_AND_DATE,comparador inferior fechado,otra materia; no prueba serie global
+NS174_02,3059/09,no consignada,posición narrativa entre 13/08/2009 y 03/09/2009,Expediente PFA S02:0002320/2007,CONTEXTUAL_RECITAL_ENVELOPE,comparador numérico inferior cercano,orden del considerando no es fecha certificada
+NS174_03,3672/09,GSEyP,fecha exacta abierta; buscar todo 2009,CGN/DAIF: identificador receptor abierto,TARGET_REFERENCE_ONLY,objeto principal,no fechar sólo por interpolación
+NS174_04,3832/2009,GSPF,recibida y tratada a más tardar 21/12/2009,Expediente ERAS 828-09,EXACT_NOTE_SUBJECT_RECIPIENT_FILE,comparador superior y patrón de correlación,fecha de emisión no impresa
+NS174_05,4169/09,no consignada,posición narrativa entre 27/10/2009 y 15/12/2009,Expediente PFA 843-01-000409/07,CONTEXTUAL_RECITAL_ENVELOPE,control superior adicional,no fecha exacta
+NS174_06,5095/2009,GSPF,en agenda y tratada 29/01/2010,Expediente ERAS 878-09,EXACT_NOTE_SUBJECT_RECIPIENT_FILE,prueba de continuidad receptora,nota emitida en 2009; fecha exacta abierta

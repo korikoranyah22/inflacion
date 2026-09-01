@@ -64,10 +64,23 @@ one_year = next(row for row in bridge if row["horizonte"] == "hasta_1_anio")
 assert abs(float(one_year["residual_bruto_menos_flujos_usd_m"]) - 5819.75) < 0.001
 assert "no es “reservas netas”" in ASSET
 
+reserve_measures = rows("reserve_measure_definitions_2026-09-01.csv")
+by_measure = {row["medida"]: row for row in reserve_measures}
+assert float(by_measure["reservas_brutas_diarias"]["valor_usd_m"]) == 50861
+assert float(by_measure["reservas_netas_fmi"]["valor_usd_m"]) == -6500
+assert "Reservas netas FMI" in ASSET
+assert "≈−USD 6.500 M" in ASSET
+assert "netas diarias N/D público" in ASSET
+assert 'id="bcraReserveDefinitions"' in INDEX
+assert "Reservas netas FMI · última estimación pública" in INDEX
+assert "Antes de graficar · Brutas, netas y residual" in INDEX
+assert "snapshot superior conserva el libro descargado hasta el 13/08/2026" in INDEX
+
 for relative in (
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_strategy_summary.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/bcra_reserve_liquidity_bridge.csv",
+    "research/epica_dashito_2026/deep_dive_2026-08-31/derived/reserve_measure_definitions_2026-09-01.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/debt_service_2026_2031.csv",
 ):
     assert (ROOT / relative).is_file(), f"Descarga inexistente: {relative}"

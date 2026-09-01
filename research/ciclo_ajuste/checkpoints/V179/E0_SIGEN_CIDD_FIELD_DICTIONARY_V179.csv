@@ -1,0 +1,13 @@
+row_id,descriptor,official_definition,target_use,status,source_id
+CIDD173_01,Tipo de documento,NOT = nota SIGEN,"buscar tipo NOT, no Informe",EXACT_CODE,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_02,Número de documento,campo aplicable a resoluciones/circulares/notas,3672 y variantes 03672/2009,EXACT_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_03,Fecha,dd.mm.aaaa,acotar salida/comunicación 2009,EXACT_FORMAT,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_04,Número de expediente u oficio,clave única alfanumérica; método idéntico al sistema Mesa de Entradas,"correlacionar salida, trámite previo y receptor",CROSS_SYSTEM_KEY,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_05,Cantidad de páginas,documento principal,detectar cuerpo incompleto,INTEGRITY_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_06,Cantidad de archivos anexos,documentos complementarios,recuperar adjuntos,INTEGRITY_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_07,Referencia o extracto,resumen conceptual,"0120/09 DAIF, Cuenta/Cierre 2008, UEPEX",SEARCH_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_08,Emisor,responsable documental,GSEyP/firmante,SEARCH_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_09,Palabras clave,temas y frases,"deuda, comisiones, Cuenta 2008",SEARCH_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_10,Área temática,tabla del sistema de Mesa,recuperar código/valor histórico,CROSS_SYSTEM_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_11,Nivel de acceso,"público, reservado o confidencial",distinguir no publicación de inexistencia,ACCESS_FIELD,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173
+CIDD173_12,Número de caja,ubicación en Archivo General,rastrear original físico,PHYSICAL_LINK,e0_hcdn_bo_31194_sigen_resolution_41_2007_annexes_v173

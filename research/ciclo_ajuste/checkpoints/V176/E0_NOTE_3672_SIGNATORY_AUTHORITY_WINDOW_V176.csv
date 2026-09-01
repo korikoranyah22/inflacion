@@ -1,0 +1,5 @@
+﻿row_id,officeholder,official_event,boundary,target_implication,status
+SG176_01,rol firmante,Cuenta 2009 dice literalmente que la Nota 3672/09 fue suscripta por el Señor Síndico General de la Nación,2009; fecha exacta abierta,cargo del firmante probado,SIGNATORY_ROLE_PROVED_PERSON_OPEN
+SG176_02,Carlos Pacios,renuncia aceptada por Decreto 1795/2009,hasta relevo 19-20/11/2009,candidato personal si la nota precede el relevo,DO_NOT_ATTRIBUTE_WITHOUT_EXACT_DATE_OR_BODY
+SG176_03,Daniel Reposo,designación por Decreto 1796/2009,desde 20/11/2009,candidato personal si la nota es posterior,DO_NOT_ATTRIBUTE_WITHOUT_EXACT_DATE_OR_BODY
+SG176_04,persona firmante de Nota 3672/09-GSEyP,ABIERTO,fecha exacta abierta,el cargo no resuelve la persona en el relevo,PERSONAL_SIGNATORY_NOT_PROVED

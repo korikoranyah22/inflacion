@@ -1,0 +1,13 @@
+row_id,layer,official_rule_or_record,scope,allowed_inference,forbidden_inference,target_action,status
+NT159_01,Cierre general,Disposición CGN 49/02 art.1,SAF 355 y 356 exceptuados de cuadros estándar,Existe excepción de ruta y producto,No registración de operaciones,Conservar ruta especial,SCOPE_EXCEPTION
+NT159_02,Aplicación 2008,Cuenta de Inversión 2008 UEPEX,CGN aplica excepción a 355/356,Es contemporánea al target,No cierre de todos los objetos UAI,Citar alcance exacto,TARGET_PERIOD_EXCEPTION
+NT159_03,Cuadro general,Caja y Bancos del cierre estándar,Producto exceptuado para SAF355,Su ausencia es esperable en esa vía,No inexistencia de cuenta o movimiento,No usar cero general como cierre,NEGATIVE_LIMIT
+NT159_04,Consulta especial,Listados parametrizados SIDIF,CGN suministró salidas para conciliación,Ruta alternativa verificable,No cuerpo de pago por sí solo,"Pedir salida, parámetros, fecha y hash",SPECIAL_ROUTE
+NT159_05,Consulta especial,Consultas específicas de movimientos,Movimientos individualizables,Posible reconstrucción,No identidad target sin filtros,Pedir consulta reproducible,SPECIAL_ROUTE
+NT159_06,Certificación UAI A1,Instructivo 2/2008 Anexo I,"Caja y Bancos, registros, C43, extractos y arqueo",Rama material de alta relevancia,No ejecutada para SAF355 por el mero modelo,Pedir certificado o no aplicabilidad,CERTIFICATION_OPEN
+NT159_07,Certificación UAI A4,Instructivo 2/2008 Anexo IV,"C35, C41, C42, C43, C55, C75 y C10 fuera de fecha",Rama central para comprobantes target,No queda anulada por excepción de cuadros CGN,Pedir universo y filtros 71597/152677/2876,CERTIFICATION_OPEN
+NT159_08,Certificación UAI A3,Instructivo 2/2008 Anexo III,Cuadro 5.4 por UEPEX,Sólo si una UEPEX de SAF355 quedó incluida,No universalizar UEPEX a todo SAF355,Pedir índice y no aplicabilidad,NEGATIVE_CONTROL
+NT159_09,Ruta paralela,Copia a SIGEN por Síndico/Representante,Certificaciones UAI,Segundo custodio potencial,No prueba recepción concreta,Pedir ingreso y ubicación,CUSTODY_ROUTE
+NT159_10,Resultado actual,Matriz SAF355,0 de 5 certificados ejecutados,Gap permanece abierto,La excepción no convierte 0/5 en inexistencia,Mantener cinco ramas,EVIDENCE_GAP
+NT159_11,Pago bancario,"Documento, sistema, banco y reversas",Ejecución target,Certificado sólo agrega capa documental,No acredita débito ni ausencia de reversa,Conservar 0/10,BANK_GATE
+NT159_12,Regla final,Método V176,No transposición entre productos,Cada excepción se limita al cuadro expresamente exceptuado,"No extenderla a certificados, SIDIF, banco o archivo",Pedir base normativa por objeto,METHOD_LIMIT

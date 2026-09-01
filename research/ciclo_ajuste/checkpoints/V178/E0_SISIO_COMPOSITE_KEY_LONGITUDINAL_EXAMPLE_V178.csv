@@ -1,0 +1,5 @@
+row_id,entity,report,report_date,observation,title,sector,snapshot_date,status,motive,event,source
+LH176_01,UAI-SUPERINTENDENCIA DE SERVICIOS DE SALUD,04,20/04/2009,5,Cuenta de Inversión 2008,Gerencia de Administración,31/12/2013,En Trámite,Elaboración de Norma y/o Procedimiento,hallazgo activo,Informe UAI 02/2014 PDF 6
+LH176_02,UAI-SUPERINTENDENCIA DE SERVICIOS DE SALUD,04,20/04/2009,5,Cuenta de Inversión 2008,Gerencia de Administración,29/12/2014,En Trámite,Elaboración de Norma y/o Procedimiento,misma clave compuesta persistente,Informe UAI 02/2015 PDF 6
+LH176_03,UAI-SUPERINTENDENCIA DE SERVICIOS DE SALUD,04,20/04/2009,5,Cuenta de Inversión 2008,Gerencia de Administración,18/02/2016,En Trámite,No Aplica,misma observación; motivo modificado,Informe UAI 02/2016 PDF 10
+LH176_04,UAI-SUPERINTENDENCIA DE SERVICIOS DE SALUD,04,20/04/2009,5,Cuenta de Inversión 2008,Gerencia de Administración,30/12/2016,Regularizada,Cumplimiento Recomendación,incorporada al listado anual de regularizadas,Listado 2017 PDF 1

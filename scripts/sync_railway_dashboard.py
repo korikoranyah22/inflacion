@@ -17,6 +17,7 @@ PUBLIC_FILES = (
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_strategy_summary.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/bcra_reserve_liquidity_bridge.csv",
+    "research/epica_dashito_2026/deep_dive_2026-08-31/derived/reserve_measure_definitions_2026-09-01.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/debt_service_2026_2031.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/rigi_summary.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/rigi_investment_schedule.csv",

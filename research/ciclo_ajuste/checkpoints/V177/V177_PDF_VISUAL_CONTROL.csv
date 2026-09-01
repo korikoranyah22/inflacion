@@ -1,0 +1,6 @@
+﻿control_id,source_id,pdf_pages,target,result,limit
+PDF177_01,e0_cgn_account_2008_uepex_closing_exception,118-121,BID 1192 · cuentas y comentarios 31/12/2008,PASS_LEGIBLE_COMPLETE,candidate rows; no SISIO ID
+PDF177_02,e0_cgn_account_2009_uepex_note_sisio_chain,77-78;143-145,"Notas 0120/3672, circuito SISIO y cuentas BID 1192 en 2009",PASS_LEGIBLE_COMPLETE,crosswalk fila por fila ausente
+PDF177_03,e0_sigen_account2016_bid1192_high_impact_observations_v177,87-89;92,"recurrencia, acción y saldo no verificable 2016",PASS_LEGIBLE_COMPLETE,compilación SIGEN
+PDF177_04,e0_sigen_account2017_bid1192_high_impact_observations_v177,85;88,persistencia 2017 y cambio de bandera recurrente,PASS_LEGIBLE_COMPLETE,no historial SISIO
+PDF177_05,e0_cgn_account2019_bid1192_missing_information_accounts_v177,76-77;167-169,"reunión 2019, omisión y 16 saldos 2018",PASS_LEGIBLE_COMPLETE,2019 sin movimientos informados

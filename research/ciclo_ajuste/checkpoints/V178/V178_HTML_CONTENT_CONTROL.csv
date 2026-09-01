@@ -1,0 +1,8 @@
+﻿control_id,source_id,target_string,result,limit
+HTML178_01,e0_norm_res148_2005_mypesii_addendum_v178,SUD INVERSIONES Y ANALISIS SOCIEDAD ANONIMA,PASS_EXACT_STRING,control de contenido local; no prueba ejecución material
+HTML178_02,e0_norm_res967_2006_mypesii_trust_v178,SETENTA Y CUATRO (74) hojas,PASS_EXACT_STRING,control de contenido local; no prueba ejecución material
+HTML178_03,e0_norm_decree1273_2012_fondyf_v178,los recuperos de préstamos originados,PASS_EXACT_STRING,control de contenido local; no prueba ejecución material
+HTML178_04,e0_norm_res206_2012_fondyf_collaboration_v178,Modelo de Convenio de Colaboración,PASS_EXACT_STRING,control de contenido local; no prueba ejecución material
+HTML178_05,e0_norm_res48_2013_fondyf_bna_admin_v178,El BANCO no asumirá riesgo de crédito alguno,PASS_EXACT_STRING,control de contenido local; no prueba ejecución material
+HTML178_06,e0_norm_res4_2016_fondyf_assignment_v178,a partir del 1 de enero de 2016,PASS_EXACT_STRING,control de contenido local; no prueba ejecución material
+HTML178_07,e0_norm_decree400_2019_fondyf_reform_v178,mecanismos que aseguren la debida transparencia,PASS_EXACT_STRING,control de contenido local; no prueba ejecución material

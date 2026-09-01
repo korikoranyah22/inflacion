@@ -8,7 +8,7 @@ La búsqueda adicional permite cerrar dos preguntas en un perímetro definido, m
 |---|---|---|
 | Estrategias de manutención mutuamente excluyentes | Calculadas desde microdatos EPH con `PONDIH` para 2025-S1, 2025-S2 y 2026-Q1 | Cerrada para las variables V13–V17 |
 | Hogares que viven sólo de ingreso corriente | Se construyó un proxy observable de 25,8% en 2025-S1 y 24,5% en 2026-Q1 | Parcial: no mide suficiencia presupuestaria |
-| Reservas netas/líquidas/propias | Se recuperó la definición oficial de liquidez y la planilla SDDS de activos y flujos a un año | Parcial: no hay una cifra oficial sincronizada de “netas/propias” |
+| Reservas netas/líquidas/propias | Se recuperó la definición NIR del programa, una estimación pública de ≈−USD 6.500 M en mayo y la planilla SDDS de activos y flujos | Parcial: no hay una cifra pública sincronizada con el stock bruto diario de agosto |
 | Muro de deuda 2027–2031 | Perfil oficial de servicios de la Administración Central: USD 243.188 M | Cerrada para ese perímetro; no para sector público consolidado |
 | Empleo RIGI real y permanente | Se actualizaron 22 proyectos, USD 47.073 M y 95.950 empleos proyectados; ningún proyecto trae desglose temporal/permanente | Sigue abierta, con ausencia documentada |
 | Cuenta corriente posterior a 2026-Q1 | Al corte, INDEC sólo publicó 2026-Q1 | Sigue abierta por calendario de publicación |
@@ -61,9 +61,11 @@ La misma planilla informa flujos netos predeterminados de la autoridad monetaria
 | Hasta 3 meses | −USD 37.371,31 M | USD 10.227,88 M |
 | Hasta 1 año | −USD 41.779,44 M | USD 5.819,75 M |
 
-**USD 5.819,75 M no es una estimación oficial de reservas netas.** Es un residual mecánico de estrés que ignora entradas nuevas, renovaciones y valuación. La cifra líquida exacta tampoco puede reconstruirse porque la planilla no separa la porción en yuanes del swap con la granularidad requerida por la definición del IPOM.
+El informe del FMI publicado en mayo de 2026 define las reservas internacionales netas (NIR) como reservas oficiales brutas menos pasivos oficiales de reserva, a tipos de cambio del programa. Entre esos pasivos incluye obligaciones en moneda extranjera de corto plazo, compras netas al Fondo desde el inicio del programa, forwards entregables, swaps, encajes bancarios en moneda extranjera, SEDESA, ALADI y otros depósitos de no residentes. El mismo informe contiene una estimación pública de **aproximadamente −USD 6.500 M**. No es una cifra sincronizada con las reservas brutas diarias de agosto: aunque el BCRA entrega NIR al Fondo semanalmente, no se localizó una serie pública de esa frecuencia.
 
-Archivo reproducible: `derived/bcra_reserve_liquidity_bridge.csv`.
+**USD 5.819,75 M no es una estimación oficial de reservas netas.** Es un residual mecánico de estrés que ignora entradas nuevas, renovaciones y valuación. La cifra líquida exacta tampoco puede reconstruirse porque la planilla no separa la porción en yuanes del swap con la granularidad requerida por la definición del IPOM. Una cifra positiva cercana a USD 10.000 M necesita, por lo tanto, fecha, fórmula y fuente: no debe confundirse con los USD 10.471,37 M del residual a un mes.
+
+Archivos reproducibles: `derived/bcra_reserve_liquidity_bridge.csv` y `derived/reserve_measure_definitions_2026-09-01.csv`.
 
 ## 3. Muro de deuda 2027–2031
 

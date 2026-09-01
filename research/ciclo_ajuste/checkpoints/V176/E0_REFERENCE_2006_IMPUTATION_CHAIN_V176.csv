@@ -1,0 +1,9 @@
+bridge_id,stage,evidence,source_chain,locator,proof_status,does_not_prove
+IM133_01,CONTRACT,5% of Excess GDP reference 2006 to be repurchased during calendar 2008 and cancelled,e0_argentina_2005_prospectus_supplement,S-19;S-69,CONTRACTUAL_RULE,"individual trade, seller or settlement"
+IM133_02,PROGRAM,2008 program had BNA market interventions and four public tenders,e0_cgn_cuenta_inversion_2008_sdp,printed_p63,OFFICIAL_PROGRAM_MODALITIES,that every mixed-program instrument belongs to Excess GDP
+IM133_03,AWARDS,six successful GDP rows: four ARS and two USD,four official tender result PDFs,E0_REFERENCE_2006_PUBLIC_TENDER_AWARDS_V176.csv,PUBLIC_AWARD_EXACT,actual T+ settlement or participant ultimate holder
+IM133_04,ACCOUNTING_IMPUTATION,eligible 2005-restructuring purchases under the program were imputed to the Excess GDP repurchase,e0_cgn_cuenta_inversion_2008_sdp,printed_p64,OFFICIAL_ATTRIBUTION_BRIDGE,payment rail or cancellation entry
+IM133_05,RETROSPECTIVE_TOTAL,purchases effected through direct purchases and tenders; three ISIN and acquired totals,e0_argentina_recompras_decreto_1735_04_report,PDF_p2,EXECUTED_OCCURRENCE_MODALITY_CLASS_AND_TOTAL,complete trade-level allocation
+IM133_06,RECONCILIATION,GDP tender effective ARS 96.68593436m; 5.13% of GDP subtotal and 2.93% of full total,E0_REFERENCE_2006_MODALITY_ALLOCATION_V176.csv,MA133_GDP_SUBTOTAL;MA133_TOTAL,DECIMAL_RECONCILED_WITH_ROUNDING_BANDS,that the arithmetic residual is one trade or one intermediary
+
+

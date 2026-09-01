@@ -1,0 +1,8 @@
+﻿control_id,source_id,pdf_pages,target,result,limit
+PDF176_01,e0_sss_sisio_followup_2014_account2008_observation_v176,6,Cuenta 2008 Obs.5; clave/estado/fecha/hallazgo/recomendación,PASS_LEGIBLE_COMPLETE,comparador SSS
+PDF176_02,e0_sss_sisio_followup_2014_account2008_observation_v176,17,UEPEX Obs.6 en trámite,PASS_LEGIBLE_COMPLETE,ejercicio 2012
+PDF176_03,e0_sss_sisio_followup_2015_account2008_observation_v176,6,persistencia Cuenta 2008 Obs.5,PASS_LEGIBLE_COMPLETE,comparador SSS
+PDF176_04,e0_sss_sisio_followup_2015_account2008_observation_v176,16,persistencia UEPEX Obs.6,PASS_LEGIBLE_COMPLETE,ejercicio 2012
+PDF176_05,e0_sss_sisio_followup_2016_account2008_and_uepex_disposition_v176,10,Cuenta 2008 Obs.5 en trámite 18/02/2016,PASS_LEGIBLE_COMPLETE,no vínculo 3672
+PDF176_06,e0_sss_sisio_followup_2016_account2008_and_uepex_disposition_v176,44,"UEPEX importes, comentario y no regularizabilidad",PASS_LEGIBLE_COMPLETE,ejemplo posterior
+PDF176_07,e0_sss_sisio_regularized_2017_account2008_observation_v176,1,Cuenta 2008 Obs.5 regularizada 30/12/2016,PASS_LEGIBLE_COMPLETE,motivo UAI; sin importe

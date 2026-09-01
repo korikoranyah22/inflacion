@@ -1,0 +1,32 @@
+query_id,sequence,system,filter_set,requested_output,success_test,fallback,status
+SQ143_01,1,SICHE · Formulario por Pda. Presupuestaria y Sigade,SAF355;2008;7.2.8;83106000;sin beneficiario,formulario;fecha;importe;beneficiario;observaciones,claves base,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_02,2,SICHE CUT · Entidades Básicas,SAF355;vigencia 2008;sin cuenta prefijada,banco;sucursal;cuenta;moneda;titular,cuenta histórica,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_03,3,SICHE CUT · Saldos por Tipo de Apertura,cuentas recuperadas;2008,cuenta operación;tipo;saldos,mapa CUT,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_04,4,SICHE CUT · Extractos,cuentas recuperadas;todo 2008,universo de movimientos,ruta bancaria,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_05,5,SICHE CUT · Logs de Impacto,mismo universo,evento;comprobante;importe;resultado,ruta de impacto,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_06,6,Cruce SIDIF/formulario/importe,"71597;152677;2876;32.270,30 y partes",candidatos concordantes,desagregar,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_07,7,Detalle de Extracto y Libro Banco,fecha;referencia;movimiento,códigos;cpte bancario;debe/haber;estado,probar impacto,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_08,8,Conciliación/Historial,movimientos candidatos,estado;causa;regularización,probar cierre,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_09,9,Pagos por SIGADE,83106000;comprobantes recuperados,PG/NPG/CMR-DP/TCE-RTCE o legacy,probar etapa,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_10,10,Expediente,S01:0342455/2008 o equivalente,OP y pagos asociados,contexto,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_11,11,AMIDDF,SAF355;tipo/número recuperado,índice;caja;cuerpo;folios,respaldo,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_12,12,RAIP Economía · auditoría de consulta,cada dataset/fallback,parámetros;diccionario;cobertura;filas;exclusiones,cero reproducible,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_13,13,SICHE CUT · catálogo histórico,vigencia 2008;cuentas de operación;códigos,código;descripción;grupo;regla;vigencia,resolver 230/AUTO o equivalentes,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_14,14,SICHE CUT · carril comisión,cuenta operación 230;AUTO/DBAUTO o equivalente;todo 2008,universo de débitos;referencia;formulario;estado,probar hipótesis C55,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_15,15,SICHE CUT · controles negativos,PAGO;PGTR;CRAUTO;rechazos;anulaciones;reversas,filas comparadoras y vínculos,descartar rutas alternativas,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_16,16,SLU · Reporte conc_01.rep,SAF355;cuentas históricas;01/01-31/12/2008;N/P/T,fecha movimiento/proceso;tipo;cuenta;debe;haber;saldo;estado,recuperar extracto contemporáneo,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_17,17,SLU · Reporte conc_02.rep,mismas cuentas y fechas;N/P/T,Libro Banco;descripción;formulario;número;beneficiario;debe;haber;saldo,recuperar contraparte interna,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_18,18,SLU · C55-REG Débito Directo,SAF355;2008;sin OP original;cuenta débito;comisión,institución;UG;fuente;clase;beneficiario;importe;cuenta;estado,probar firma de comisión,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_19,19,SLU · Histórico/Reversa C55,candidatos I/X/E/C/R;C55-DEG,carga;autorización;envío;respuesta;error;original;reversa;contraasiento,separar confirmado de rechazado/revertido,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_20,20,SLU · Rama del medio de pago,tipo de nota;servicio deuda/carta crédito/transferencia exterior,medio;cuenta de gastos;orden/nota;comisión;respaldo,refutar atribución automática a deuda pública,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_21,21,SLU · BCUENTA/ACTA_FUE/ACTABAN_CTAESC,SAF355;snapshot 2008;activas+bajas+rehabilitadas,cuenta;fuente;cuenta escritural;vigencia,identidad de cuenta,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_22,22,SLU · BMOVEXTERNO/BMOVBCO/BGRUPMOVBCO,BNA;todo 2008;sin código prefijado,externo;contracódigo;interno;grupo;signo;tipo,código histórico,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_23,23,SLU · AMOV_FORG,cuentas recuperadas;SAF355;2008;incluye bajas,cuenta;movimiento;partida;estado;fechas,parametrización de gasto,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_24,24,SLU · ACLB_MOB/BCODLIBBCO,códigos recuperados;2008,relación extracto-Libro Banco;signo;conciliación,mapeo interno,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_25,25,Backups SLU,2006-2009;SAF355;órganos rectores,inventario;instancia;esquema;fecha;retención;hash,recuperación histórica,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_26,26,Versiones/migraciones,SLU v7→v9.0;2006-2009,versión;SAF;DDL/DML;tabla origen/destino,continuidad controlada,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_27,27,Consulta de Bajas/Rehabilitaciones,tablas clave;todo estado,clave;fecha baja/rehabilitación;usuario;motivo,historial lógico,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_28,28,Correcciones de extracto,movimientos candidatos,original;corrección;códigos;importe;signo;comprobante,cadena de versiones,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_29,29,C10 · rama recurso,SAF355;2008;A/M;83106000,tipo;cuenta;SIGADE;estado;transmisión;original,control de signo/origen,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+SQ143_30,30,Reversas y medios alternativos,C55-DEP/REP/DEG;cheques C/R/E/F,original;reversa;contraasiento;estado;conciliación,control negativo final,derivación al órgano rector y equivalente legacy documentado,DRAFT_NOT_SENT
+

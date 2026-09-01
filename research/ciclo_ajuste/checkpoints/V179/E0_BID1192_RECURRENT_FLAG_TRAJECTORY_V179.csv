@@ -1,0 +1,6 @@
+row_id,observation_key,snapshot,action,recurrent,interpretation
+RF177_01,Cuenta 2015 · cierre MP0191 sin respaldo,Cuenta 2016 / SIGEN octubre 2017,Sin acción correctiva informada,SI,falla recurrente explícita
+RF177_02,Cuenta 2015 · cierre MP0191 sin respaldo,Cuenta 2017 / SIGEN febrero 2019,Sin acción correctiva,SI,persistencia textual y de clasificación
+RF177_03,estados 2015 no emitidos; contabilidad desactualizada desde agosto 2014,Cuenta 2016 / SIGEN octubre 2017,Sin acción correctiva informada,SI,falla recurrente explícita
+RF177_04,estados 2015 no emitidos; contabilidad desactualizada desde agosto 2014,Cuenta 2017 / SIGEN febrero 2019,Sin acción correctiva,NO,la etiqueta cambió aunque el texto subsiste; no usar recurrente como ID durable
+RF177_05,2016 sin estados; Cuadro 13.3 no verificable,Cuenta 2016 / SIGEN octubre 2017,Sin acción correctiva informada en el grupo,NO,observación nueva del ejercicio; no contradice las recurrencias anteriores

@@ -1,0 +1,13 @@
+row_id,date_or_period,source_or_actor,record,identifier,relationship,target_analogue,limit,status
+DL158_01,2009,SIGEN,Nota de remisión,5095/2009-GSPF,Vehículo de entrega,Nota equivalente dirigida a Economía,Comparador ERAS,COMPARATOR_METADATA
+DL158_02,enero-junio 2009,SIGEN,Informe de Supervisión UAI ERAS,Título explícito,Cuerpo adjunto a la nota,Informe de Supervisión UAI Economía,No mismo organismo,COMPARATOR_METADATA
+DL158_03,2009-2010,ERAS,Ejemplar recibido,copia del informe,Copia sobreviviente en destinatario,Copia en UAI/Ministerio de Economía,No prueba que subsista,CUSTODY_ROUTE
+DL158_04,2009,ERAS,Expediente local,878-09,Contenedor receptor distinto,Expediente local Economía,No es legajo interno SIGEN,COMPARATOR_METADATA
+DL158_05,29/01/2010,Directorio ERAS,Orden del día,01/2010,Registra tratamiento posterior,Acta o giro interno Economía,No cuerpo del informe,COMPARATOR_METADATA
+DL158_06,2009,SIGEN,Gerencia remitente,GSPF en número de nota,Metadato de productor,Gerencia competente para Economía,Sigla no universal,SEARCH_KEY
+DL158_07,2009,SIGEN,Nota,número/año/gerencia,Objeto documental autónomo,Pedir nota y adjunto por separado,Nota no prueba contenido del adjunto,METHOD_RULE
+DL158_08,2009,SIGEN,Informe,título/período/UAI,Objeto documental autónomo,"Pedir cuerpo, anexos y carátula",Título no prueba hallazgos,METHOD_RULE
+DL158_09,2009,Organismo receptor,Expediente,número local,Objeto documental autónomo,"Pedir índice, pases y copia recibida",Número local no número SIGEN,METHOD_RULE
+DL158_10,2009,SIGEN/organismo,Cadena de remisión,nota + adjunto + recepción,Tres vínculos comprobables,"Acuse, fecha y cantidad de fojas",Comparador no target,REQUEST_MODEL
+DL158_11,2009,Economía/SIGEN,Target,sin identificar,"Buscar por UAI, período, gerencia y clase","Recuperar nota, informe y expediente receptor",Aún 0 cuerpos target,TARGET_OPEN
+DL158_12,Regla final,Método V179,Separación de objetos,N/A,"No colapsar nota, informe y expediente",Certificar búsqueda en ambos custodios,Ninguno prueba banco,METHOD_LIMIT

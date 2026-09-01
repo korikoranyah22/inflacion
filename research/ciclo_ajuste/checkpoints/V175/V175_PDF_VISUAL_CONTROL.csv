@@ -1,0 +1,4 @@
+﻿control_id,source_id,pdf_pages,target,result,limit
+PDF175_01,e0_sigen_memoria_2009_archive_sisio_capability_v175,6,Cuenta de Inversión 2008; instrucciones/certificaciones,PASS_LEGIBLE_COMPLETE,capacidad general; no Nota 3672
+PDF175_02,e0_sigen_memoria_2009_archive_sisio_capability_v175,7,mejoras SISIO WEB; supervisión y seguimiento,PASS_LEGIBLE_COMPLETE,sin filas target
+PDF175_03,e0_sigen_memoria_2009_archive_sisio_capability_v175,13,archivo digital de Mesa; reordenamiento/registro Archivo General,PASS_LEGIBLE_COMPLETE,sin ubicación individual

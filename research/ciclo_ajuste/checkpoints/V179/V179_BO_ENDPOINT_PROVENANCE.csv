@@ -1,0 +1,2 @@
+﻿notice_id,publication_date,section,annex_number,annex_id,endpoint,method,bytes,sha256,pdf_pages,normative_folios,provenance_result
+9095705,20061211,primera,1,00345809,https://www.boletinoficial.gob.ar/pdf/download_anexo,POST JSON response with pdfBase64,6811172,0b6653618f26a044a8be5fe5e3f728d0261ca2a5b879811d36c2af5d5240c553,99,74,PASS_OFFICIAL_NOTICE_ENDPOINT_HASHED_LOCAL_COPY

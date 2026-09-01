@@ -1,0 +1,9 @@
+control_id,pdf_page,visible_fact,historical_value,inference_limit,result,source_id
+SV179_01,1,taller de Conciliación Bancaria del SLU,identifica el módulo,portada de 2017,PASS,e0_dgsiaf_slu_reconciliation_workshop_2017_historical_screens
+SV179_02,2,relación de gasto genera factura de caja chica y C55; relación de recurso genera C10,separa ramas gasto/recurso,regla presentada en 2017,PASS,e0_dgsiaf_slu_reconciliation_workshop_2017_historical_screens
+SV179_03,3,barra SLU v9.0 · 26/11/2008 11:30:04; ejercicio 2008; BNA sucursal 85 cuenta 2914/86; ejemplo CUM023,prueba visual de versión/pantalla fechada y campos,"CUM023 es ejemplo de recurso, no código objetivo",PASS,e0_dgsiaf_slu_reconciliation_workshop_2017_historical_screens
+SV179_04,4,configuración de relación y conciliación,confirma interfaz de parametrización,no exporta tabla poblada completa,PASS,e0_dgsiaf_slu_reconciliation_workshop_2017_historical_screens
+SV179_05,5,"barra SLU v9.0 · 04/12/2006 y menú de grupos, códigos internos/externos y relaciones gasto/recurso",prueba nombres funcionales contemporáneos anteriores a 2008,captura de capacitación; no prueba despliegue por SAF,PASS,e0_dgsiaf_slu_reconciliation_workshop_2017_historical_screens
+SV179_06,6,cierre del taller y circuito de conciliación,control de integridad visual del PDF,sin fila objetivo,PASS,e0_dgsiaf_slu_reconciliation_workshop_2017_historical_screens
+
+

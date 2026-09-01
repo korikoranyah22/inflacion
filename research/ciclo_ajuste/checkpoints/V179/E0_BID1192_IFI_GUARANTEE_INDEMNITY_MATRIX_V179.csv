@@ -1,0 +1,12 @@
+﻿row_id,mechanism,obligor,scope,trigger_or_term,source,proof_limit
+GI179_01,garantía solidaria,Credicoop y Macro,obligaciones garantizadas del fiduciario/fideicomiso según el contrato,incumplimiento; carácter de principales pagadores,"Anexo III, cláusula 3","término aprobado, no incumplimiento probado"
+GI179_02,garantía por cartera propia,cada IFI,créditos originados o adquiridos por esa IFI,obligaciones ligadas a cada crédito,"Anexo III, cláusula 4",falta padrón de créditos
+GI179_03,garantía de obligaciones generales,IFI conforme distribución contractual,"costos, pagarés, transferencia, comisión de compromiso y demás conceptos definidos",exigibilidad contractual,"Anexo III, cláusula 4",falta ledger de conceptos
+GI179_04,garantía del fiduciario designado,Macro-Bansud,"obligaciones de SUD, sus empleados y agentes",incumplimiento atribuible al fiduciario,"Anexo III, cláusulas 4 y 6",no se acredita incumplimiento
+GI179_05,aporte por insuficiencia patrimonial,IFI pertinente,fondos necesarios y suficientes para cubrir obligaciones garantizadas,insuficiencia del patrimonio; aviso de 48 horas,"Anexo III, cláusula 5",faltan avisos y movimientos
+GI179_06,supervivencia,IFI,garantía no extinguida por remoción/cese del fiduciario ni terminación hasta pago total,vigencia hasta satisfacción completa,"Anexo III, cláusulas 6-7",falta fecha de extinción efectiva
+GI179_07,débito automático irrevocable,Credicoop y Macro,cuentas en BCRA u otras entidades para obligaciones garantizadas,aviso; plazos de 5 o 15 días hábiles según concepto,"Anexo III, cláusula 8",no prueba que se debitó
+GI179_08,mora automática e intereses,IFI incumplidora,"compensatorio más punitorio equivalente al 50% del compensatorio, con reglas de capitalización",vencimiento por mero transcurso del tiempo,"Anexo III, cláusula 9",no cuantificado
+GI179_09,renuncia a defensas,IFI,defensas y recursos enumerados en el instrumento,acción de cobro,"Anexo III, cláusula 12",aplicación judicial no examinada
+GI179_10,acción directa,IFI,Fiduciante puede accionar directamente por obligaciones que el fiduciario debía perseguir,incumplimiento garantizado,"Anexo III, cláusula 19",no prueba acción ejercida
+GI179_11,subordinación,IFI,derechos de IFI subordinados a satisfacción previa del Fiduciante,distribución de patrimonio/remanente,"Anexo III, cláusula 20",falta liquidación

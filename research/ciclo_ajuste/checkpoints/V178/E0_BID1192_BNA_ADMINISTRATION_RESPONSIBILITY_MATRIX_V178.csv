@@ -1,0 +1,9 @@
+﻿row_id,subject,rule,proved,source_clause
+BA178_01,titularidad,fondos propiedad del FONDYF transferidos al BNA para administración,BNA no es beneficiario económico del capital,"Res. 48/2013, cláusulas 1 y 3.a"
+BA178_02,riesgo,BNA no asume riesgo de crédito cualquiera sea la contingencia,riesgo crediticio no bancario bajo el modelo,"Res. 48/2013, cláusula 2.4"
+BA178_03,retribución,2% de créditos efectivamente otorgados más gastos taxativos,precio contractual del administrador,"Res. 48/2013, cláusula 6"
+BA178_04,custodia y control,"legajo por préstamo, control adecuado, informes periódicos y auditorías",deber documental del BNA,"Res. 48/2013, cláusula 3.d-f"
+BA178_05,información,"informes mensuales de cobranzas, mora, desembolsos, cancelaciones y saldos",universo de registros primarios exigibles,"Res. 48/2013, cláusula 8"
+BA178_06,mora,BNA recupera y ejecuta previa instrucción del Comité/Secretaría,decisión de ejecución no autónoma,"Res. 48/2013, cláusulas 4.e y 7"
+BA178_07,destino,seguimiento del destino y cumplimiento del proyecto queda a cargo del Programa,separación administrador/programa,"Res. 48/2013, cláusula 5.h"
+BA178_08,límite,modelo público no acredita por sí solo firma ni cumplimiento de cada obligación,estructura normativa,"ejemplar ejecutado, reportes y legajos pendientes"

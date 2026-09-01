@@ -1,0 +1,16 @@
+﻿route_id,surface,target,result,status,required_record
+N168_01,CGN Cuenta 2009 UEPEX,Nota SIGEN 3672/09 GSEyP,"referencia, firmante e instrucción SISIO",REFERENCE_LOCATED_BODY_OPEN,"nota, anexos, distribución, acuses"
+N168_02,Internet Archive CDX,URLs SIGEN *3672*,0 captures,URL_INDEX_NEGATIVE_SCOPED,salida/Mesa/COMDOC
+N168_03,Common Crawl 2009-2010,URLs SIGEN *3672*,No Captures found,URL_INDEX_NEGATIVE_SCOPED,salida/Mesa/COMDOC
+N168_04,Common Crawl 2012,URLs SIGEN *3672*,No Captures found,LATE_URL_INDEX_NEGATIVE_SCOPED,salida/Mesa/COMDOC
+N168_05,SISIO,hallazgos 0120/09 y 3672/09,sin id público,SYSTEM_ENTRY_NOT_LOCATED,"exportación, historial, vínculos"
+N169_06,ENARGAS Informe 2009 Cuadro I-11,seis Notas SIGEN 2009,cada nota está emparejada con Actuación ENARGAS,RECIPIENT_DUAL_IDENTIFIER_PATTERN_PROVED,buscar asiento receptor target sin asumir numeración
+N169_07,CGN/Economía Mesa o COMDOC,Nota SIGEN 3672/09 GSEyP,número de entrada receptor no localizado,RECIPIENT_IDENTIFIER_OPEN,asiento de ingreso; fecha; remitente; asunto; pase; contenedor
+N170_08,CGN Cuenta 2009 UEPEX · cadena narrativa,receptor institucional de Nota SIGEN 3672/09,CGN es el referente de 'esta repartición' en el intercambio Nota 0120/09 → Nota 3672/09,RECIPIENT_IDENTIFIED_BY_CONTEXT_CGN,cuerpo para confirmar destinatario formal
+N170_09,CGN Mesa/registro de entradas 2009,Nota SIGEN 3672/09 GSEyP,"número de entrada, fecha y pases no localizados",FORMAL_ADDRESSEE_AND_INCOMING_ID_OPEN,asiento; fecha; destinatario; remitente; asunto; pases; contenedor; adjuntos
+N170_10,Ministerio de Economía COMDOC 2009,ruta subsidiaria de Nota SIGEN 3672/09,mantener sólo si CGN no conserva registro propio o hubo pase ministerial,SECONDARY_ROUTING_HYPOTHESIS,"registro por número SIGEN, fecha, remitente y asunto"
+N171_20,CGN Mesa de Entradas bajo Disposición 41/1996,ingreso Nota SIGEN 3672/09 GSEyP,productor registral y deber de asiento identificados,PRIMARY_REGISTRY_DUTY_LOCATED_RECORD_OPEN,asiento; fecha; remitente; destinatario; asunto; soporte; contenedor
+N171_21,CGN sistema de seguimiento de expedientes,pases internos de Nota 3672/09,deber de registrar pases identificado; nombre del sistema y entrada abiertos,PASS_HISTORY_ROUTE_LOCATED,dirección origen/destino; fecha; motivo; usuario; estado; expediente/carpeta
+N171_22,COMDOC III según Circular 04/2010,ruta subsidiaria posterior,COMDOC III no debe tratarse como repositorio exclusivo para documento de 2009,COMDOC_EXCLUSIVITY_REJECTED,consulta subsidiaria y explicación de migración/ausencia
+N174_30,ArchivoWeb Informes,Año 2009 + palabra 3672,Total de informes: 0,PUBLIC_REPORT_SEARCH_NEGATIVE_ONLY,backend NOT/CIDD/SPD/caja
+N174_31,ERAS actas públicas,Notas SIGEN 3832 y 5095 de 2009,correlación exacta con expedientes receptores 828-09 y 878-09,RECIPIENT_FILE_PATTERN_PROVED,aplicar patrón a CGN sin trasladar numeración

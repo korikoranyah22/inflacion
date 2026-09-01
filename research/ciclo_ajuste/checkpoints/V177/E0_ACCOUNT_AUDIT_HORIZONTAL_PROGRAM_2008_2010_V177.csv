@@ -1,0 +1,19 @@
+row_id,year,program_or_output,modality,record_producer,expected_body,probative_use,limit,status
+AH157_01,2008,Cuenta de Inversión,Auditoría horizontal planificada,SIGEN y UAI,Proyecto horizontal 2008,Nombre de programa contemporáneo,No prueba ejecución,PROGRAM_LOCATED
+AH157_02,2008,Cuenta de Inversión,Informes por jurisdicción o entidad,UAI contribuyentes,Informe UAI Economía,Define cuerpo contribuyente,No localizado,CONTRIBUTOR_RECORD
+AH157_03,2008,Cuenta de Inversión,Visión integral posterior,SIGEN,Informe global,Define producto consolidado,No sustituye contribuyentes,GLOBAL_RECORD
+AH157_04,2008,Información respaldatoria,Normativa e instructivos,SIGEN,"Criterios, instructivos y papeles",Define metodología,Previsión no emisión,METHOD_RECORD
+AH157_05,2008,Certificaciones,Instructivos dictados,UAI,Certificados por aspectos Cuenta,Confirma ejecución normativa,0/5 SAF355,CERTIFICATION_RECORD
+AH157_06,2008,Planeamiento UAI,Aprobación y supervisión,SIGEN,Informe de Supervisión UAI Economía,Ruta a proyecto e informe,No es informe de auditoría,SUPERVISION_RECORD
+AH157_07,2008,SISIO,Confección y seguimiento plan,SIGEN/UAI,Alta del proyecto y estados,Ruta de sistema,No prueba cuerpo,SYSTEM_RECORD
+AH157_08,2007 informado 2008,Cuenta 2007,Informe global emitido,SIGEN,Cuerpo y anexos,Continuidad anterior,No target,ANNUAL_COMPARATOR
+AH157_09,2008 informado 2009,Cuenta 2008,Informe global emitido,SIGEN,Cuerpo y anexos,Referencia target exacta,Cuerpo abierto,TARGET_REPORT_REFERENCE
+AH157_10,2008 informado 2009,Cuenta 2008,Certificaciones UAI,UAI de cada SAF,"Anexos, fuentes y firma",Capa contribuyente target,No banco,TARGET_CERTIFICATION
+AH157_11,2009 planificado 2010,Cuenta 2009,Auditoría horizontal,SIGEN/UAI,Proyecto y contribuyentes,Continuidad posterior,No target 2008,ANNUAL_COMPARATOR
+AH157_12,Todos,Horizontal,Auditorías paralelas en jurisdicciones,UAI,Informes jurisdiccionales,Explica multiplicidad de cuerpos,No universaliza resultado,MODALITY_RULE
+AH157_13,Todos,Horizontal,Apreciación general,SIGEN,Informe integral,Explica producto global,No sustituye informe Economía,MODALITY_RULE
+AH157_14,2008-2009,UAI Economía,Proyecto Cuenta 2008,UAI Economía,"Programa, alcance, horas y producto",Objeto recuperable,No prueba inclusión de recompras,REQUEST_TARGET
+AH157_15,2008-2009,SAF355,Certificación Cuenta 2008,UAI/SAF355,Anexos I-V y papeles,Objeto target exacto,0/5,REQUEST_TARGET
+AH157_16,2008-2009,SIGEN,Supervisión del proyecto UAI Economía,Gerencia/Sindicatura,Informe de Supervisión del Planeamiento,Puede contener código del proyecto,No informe final,REQUEST_TARGET
+AH157_17,2009,SIGEN,Informe global Cuenta 2008,SIGEN,"Informe, anexos, referencias contribuyentes",Puede identificar cuerpo UAI,No banco,REQUEST_TARGET
+AH157_18,Regla final,Ejecución,Cierre por cuatro capas,"Economía, sistemas y banco","Documento, sistema, banco, reversas",Mantiene 0/10,Programa horizontal no pago,METHOD_LIMIT

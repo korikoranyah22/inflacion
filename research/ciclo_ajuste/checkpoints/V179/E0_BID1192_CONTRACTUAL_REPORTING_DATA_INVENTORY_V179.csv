@@ -1,0 +1,11 @@
+﻿row_id,record,producer,recipient,minimum_fields,source,evidentiary_use
+DR179_01,rendición trimestral,Fiduciario,Fiduciante/BCRA/UCP según circuito,estado patrimonial; movimientos; cuentas; conciliación; firma,Contrato cláusula 16,reconstruir patrimonio y desempeño
+DR179_02,detalle de operaciones de crédito,Fiduciario/IFI administradora,control contractual,cantidad; monto; tasa; financiamiento; IFI; crédito,Contrato cláusula 16,padrón y tasa efectivamente aplicada
+DR179_03,cartera en mora y previsiones,Fiduciario/IFI,control contractual,crédito; días de mora; saldo; previsión; garantía; gestión,Contrato cláusula 16,"riesgo, pérdidas y activación de garantías"
+DR179_04,"gastos, cobranzas y acciones judiciales",Fiduciario,Fiduciante/BCRA,fecha; concepto; importe; crédito; acción; resultado,Contrato cláusula 16,"costos, recuperos y enforcement"
+DR179_05,sistema de gestión y registros,Fiduciario,auditor/control,sistema; claves; altas; modificaciones; trazabilidad; respaldo,Contrato cláusulas 11 y 16,cadena de custodia y completitud
+DR179_06,informes especiales trimestrales,Auditor externo,partes y control,alcance; pruebas; excepciones; saldos; opinión; firma,Contrato cláusula 16.4,validación independiente
+DR179_07,archivo mensual de deudores,Fiduciario/IFI,BCRA,deudor; CUIT; situación; saldo; clasificación; fecha,Contrato cláusula 16.5,crosswalk con Central de Deudores
+DR179_08,documentación original y respaldo digital,Fiduciario/IFI,custodia y auditoría,contrato; pagaré; cesión; garantía; desembolso; cobro; índice,Contrato cláusula 11,probar existencia y titularidad de cada crédito
+DR179_09,cuentas bancarias del fideicomiso,Fiduciario/BCRA/banco depositario,control y auditoría,cuenta; fecha valor; débito; crédito; contraparte; saldo; instrucción,Contrato cláusula 11,reconciliar flujos y garantías
+DR179_10,garantías y débitos IFI,IFI/BCRA/Fiduciario,Fiduciante,aviso; obligación; monto; plazo; cuenta; débito; moneda; resultado,Anexo III cláusulas 3-9,probar cumplimiento o incumplimiento material

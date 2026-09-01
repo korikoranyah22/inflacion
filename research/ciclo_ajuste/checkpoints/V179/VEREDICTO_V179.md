@@ -1,0 +1,3 @@
+# Veredicto V179
+
+Avance probatorio mayor. El anexo oficial recuperado sustituye una inferencia institucional por cláusulas concretas: identifica a las partes, distribuye administración y control, establece información periódica y crea una garantía e indemnidad robusta a cargo de las IFI del esquema 2006. Esto vuelve cerrables los pedidos de evidencia de desempeño. Aún no permite afirmar responsabilidad material: falta la contraparte ejecutada, el padrón de créditos, rendiciones, auditorías, avisos, débitos y el instrumento que conectó o extinguió esta arquitectura al crearse FONDYF. La conclusión jurídicamente segura es contractual, no indemnizatoria.

@@ -1,0 +1,6 @@
+object,exact_route,public_archive,local_copy,status,proof_or_limit
+plananual2009.asp,http://www.sigen.gov.ar:80/plananual2009.asp,5 Wayback captures 2009-02-21 to 2010-01-18,YES,PAGE_LOCATED,Página e inventario; no cuerpo PDF
+Plan SIGEN 2009,documentacion/plananualpdfs/Plan SIGEN 2009.pdf,No capture in Wayback/Common Crawl/Arquivo.pt queries,NO,BODY_NOT_LOCATED,Negativo limitado a índices/replay
+Anexo F cuadros 8-18,documentacion/plananualpdfs/Anexo F - Cuadro N - título.pdf,Links exactos; cuerpos no capturados,NO,LINK_INVENTORY_LOCATED_BODIES_OPEN,11 cuadros; no contenido
+Anexo G capacitación,documentacion/plananualpdfs/Anexo G - Capacitacion 2009.pdf,Link exacto; cuerpo no capturado,NO,LINK_LOCATED_BODY_OPEN,Evitar trasposición con Plan 2010
+Plan Red Federal 2009,documentacion/plananualpdfs/planred2009.pdf,Link exacto; cuerpo no capturado,NO,LINK_LOCATED_BODY_OPEN,Documento distinto del Plan SIGEN

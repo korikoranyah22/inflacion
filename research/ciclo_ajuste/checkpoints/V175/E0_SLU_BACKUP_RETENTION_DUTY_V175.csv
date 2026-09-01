@@ -1,0 +1,18 @@
+duty_id,dimension,official_rule,locator,request_effect,inference_limit,source_id
+BD145_01,scope,Obligatoria para organismos usuarios de sistemas de Hacienda administrados localmente,art. 4,identificar SAF/sistema,no prueba soporte actual,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_02,responsibility,Director General de Administración o titular informático del SAF responde por el resguardo,art. 5,pedir responsable y transferencia de custodia,no identifica soporte,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_03,central_role,UI mantiene sistemas; CGN vela por integridad de bases centrales y locales,considerandos,búsqueda coordinada CGN/DGSIAF/SAF,no presumir custodio exclusivo,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_04,preproduction,Todo sistema debía documentar resguardo/recuperación antes de producción,Anexo I.1,pedir procedimiento por versión,documento aún no localizado,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_05,coverage,"Debía cubrir programas, archivos y bases de datos",Anexo I.1.d-e,pedir esquema y datos SLU,no identifica instancia,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_06,label,"Cada copia: equipo, fecha/hora, frecuencia, lote, tipo y sistema",Anexo I.2,buscar inventario SLU 2006-2009,etiqueta no es restauración,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_07,daily_register,"Registro diario de cintas, uso y lugar de guarda",Anexo I.3,pedir planillas y custodia,registro puede haberse expurgado,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_08,execution_log,Todo respaldo debía generar log; preferible verificación de integridad,Anexo I.4,pedir job/resultado/checksum,log perdido no niega backup,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_09,offsite,En lo posible dos copias y una fuera del edificio,Anexo I.6,pedir guarda externa/traslados,regla no asegura doble copia,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_10,full_frequency,Con incrementales: full cada siete días,Anexo I.8.c,buscar cortes semanales 2008,depende de aplicación,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_11,recovery_test,Prueba de recuperación al menos cada treinta días,Anexo I.9,pedir actas y archivos recuperados,prueba muestral,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_12,signed_act,Prueba formalizada en acta firmada,Anexo I.9 y II,pedir fecha/equipo/backup/archivos/firmas,acta no contiene necesariamente datos,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_13,retention,Fuentes y bases de datos: perpetuo,Anexo I.12,pedir soporte o acto de transferencia/expurgo,deber no es hallazgo,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_14,retention,Lotes TRANSAF: perpetuo,Anexo I.12,pedir lotes SIDIF,no reemplaza extracto,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_15,retention,Actividad de usuarios y pistas: tres años,Anexo I.12,separar log temporal de base perpetua,no asumir supervivencia del log,e0_cgn_joint_disposition_4_03_backup_recovery
+BD145_16,historical_media,Histórico en soportes no reutilizables y grabación automática,Anexo I.13-14,pedir catálogo y cadena de custodia,no identifica ubicación,e0_cgn_joint_disposition_4_03_backup_recovery
+

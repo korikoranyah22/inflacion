@@ -1,0 +1,15 @@
+row_id,token,official_expansion_or_role,record_route,allowed_inference,forbidden_inference,request_action,status
+PR160_01,GSEyP,Gerencia de Supervisión Economía y Producción,"SIGEN organización, Mesa y Archivo",Ruta probable para Nota 3672/09,No productor exacto sin cuerpo o asiento,"Pedir nota, registro de salida y acto orgánico",PRODUCER_ROUTE
+PR160_02,SJ,Sindicatura Jurisdiccional,Legajo de planeamiento y supervisión,Nivel que analiza planes UAI,No identificar cuál SJ por sigla sola,Pedir legajo y responsable de Economía,PRODUCER_ROUTE
+PR160_03,UAI MEyFP,UAI Ministerio de Economía y Finanzas Públicas,"Plan, proyecto, informe y papeles",Productor de auditoría interna jurisdiccional,No confundir con gerencia SIGEN,Pedir versiones y cuerpo Cuenta 2008,PRODUCER_ROUTE
+PR160_04,MEyFP,Ministerio de Economía y Finanzas Públicas,Expediente receptor y áreas internas,Custodio receptor potencial,No equiparar jurisdicción con UAI,"Pedir ingreso, pases y respuestas",CUSTODY_ROUTE
+PR160_05,OT,Obligaciones a cargo del Tesoro,Programa y registros de asistencia u obligaciones,Clave contable y presupuestaria,No equiparar con Servicio de Deuda,Pedir crosswalk programático,PROGRAM_ROUTE
+PR160_06,SDP,Servicio de la Deuda Pública,"Servicio, registro y pago de deuda",Clave separada de OT,No prueba recompra o liquidación,Pedir registros target por instrumento,PROGRAM_ROUTE
+PR160_07,CASCPP,Comisión de Análisis y Supervisión de Consolidación del Pasivo Público,Registros de consolidación,Control negativo y búsqueda histórica,Consolidación no es recompra,Pedir sólo si el tipo documental coincide,NEGATIVE_CONTROL
+PR160_08,CAIPCP,Comisión de Análisis e Intervención del Pasivo Consolidado del INSSJyP,Registros de pasivo INSSJyP,Control negativo,No corresponde al target por palabras deuda o pasivo,Excluir salvo vínculo documental,NEGATIVE_CONTROL
+PR160_09,BNA,Banco de la Nación Argentina,UAI y registros bancarios separados,Doble ruta institucional,UAI BNA no prueba débito bancario,"Pedir extracto, asiento, fecha valor y reversa",BANK_ROUTE
+PR160_10,ONCCA; MAGyP; MIyT; YCRT,Entidades bajo UAI Economía en Anexo H,Cobertura institucional,Explica que una UAI abarca varias entidades,No asigna cada proyecto a todas,Pedir fila de entidad y proyecto,SCOPE_ROUTE
+PR160_11,Decreto 1366/2009 art.7,Control interno transitorio por UAI Economía,Continuidad jurídica octubre 2009,Prueba competencia sobre áreas centralizadas,No prueba custodia anterior ni posterior completa,Pedir fecha efectiva por expediente,TEMPORAL_ROUTE
+PR160_12,Anexo H Plan 2010,Crosswalk UAI-entidades al corte SISIO,Ruta de inventario,Permite interpretar denominador,No sustituye censo 2009 completo,Pedir exportación SISIO y diccionario,SYSTEM_ROUTE
+PR160_13,Nota 3672/09,Número y sufijo GSEyP,Objeto documental target,Buscar con expansión oficial,No prueba adjunto ni contenido,"Pedir nota, anexos, destinatario y acuse",TARGET_ROUTE
+PR160_14,Regla final,Capas separadas,"Organización, programa, UAI, expediente y banco",Cada token abre una ruta comprobable,No cerrar por coincidencia de nombre,Exigir identificadores vinculantes,METHOD_RULE

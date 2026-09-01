@@ -20,7 +20,7 @@ def digest(path: Path) -> str:
 
 
 manifest = json.loads((BUNDLE / ".bundle-manifest.json").read_text(encoding="utf-8"))
-assert manifest["public_file_count"] == 31
+assert manifest["public_file_count"] == 32
 assert manifest["public_bytes"] < MAX_BUNDLE_BYTES
 
 for row in manifest["files"]:
@@ -52,7 +52,8 @@ assert not (
     / "policy_claims_audit.csv"
 ).exists()
 
-asset = (BUNDLE / "assets" / "epica-super-tabs.js").read_text(encoding="utf-8")
+asset = (BUNDLE / "index.html").read_text(encoding="utf-8")
+asset += (BUNDLE / "assets" / "epica-super-tabs.js").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "epica-stage2-tabs.js").read_text(encoding="utf-8")
 for row in manifest["files"]:
     relative = str(row["path"])

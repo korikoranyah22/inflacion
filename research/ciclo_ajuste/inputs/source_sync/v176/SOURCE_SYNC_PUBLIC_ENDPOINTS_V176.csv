@@ -1,0 +1,10 @@
+﻿log_id,surface,query_or_target,result,classification,limit_or_next_step
+PUB176_01,web exact search,Nota 112/10 DAIF,sin cuerpo autónomo; sólo referencia Cuenta 2010,REFERENCED_BODY_NOT_LOCATED,pedido CGN por nota/anexos/expediente
+PUB176_02,web exact search,Nota DAIF 93/11,sin cuerpo autónomo; sólo referencia Cuenta 2011,REFERENCED_BODY_NOT_LOCATED,pedido CGN
+PUB176_03,web exact search,Nota DAIF 145/12,sin cuerpo autónomo; sólo referencia Cuenta 2012,REFERENCED_BODY_NOT_LOCATED,pedido CGN
+PUB176_04,Argentina.gob.ar · Informe UAI SSS 02/2014,Cuenta 2008 Obs.5 + UEPEX Obs.6,"filas SISIO, estados y campos localizados",OFFICIAL_SISIO_EXPORT,comparador; no prueba vínculo 3672
+PUB176_05,Argentina.gob.ar · Informe UAI SSS 02/2015,persistencia de mismas claves,En Trámite confirmado,OFFICIAL_LONGITUDINAL_SNAPSHOT,comparador
+PUB176_06,Argentina.gob.ar · Informe UAI SSS 02/2016,Cuenta 2008 + UEPEX no regularizable,"historial, importes y comentarios localizados",OFFICIAL_STATUS_AND_AMOUNT_EVIDENCE,no extrapolar a target
+PUB176_07,Argentina.gob.ar · listado regularizadas 2017,Cuenta 2008 Obs.5,Regularizada 30/12/2016 por cumplimiento,OFFICIAL_FINAL_DISPOSITION,pedir igual salida para target
+PUB176_08,Cuenta 2009 oficial ya preservada,frase de firma Nota 3672,suscripta por el Señor Síndico General,SIGNATORY_ROLE_PROVED_PERSON_OPEN,fecha/cuerpo para Pacios o Reposo
+PUB176_09,Common Crawl,decisión de reintento,sin consultas V176; control V174 falló 2/2,DEFERRED_UNTIL_VALID_CONTROL,40 pendientes

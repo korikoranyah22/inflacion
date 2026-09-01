@@ -1,0 +1,8 @@
+step,actor,action,record,target_test
+1,Sector Solicitante / Secretaría General para notas,asigna descriptores CIDD en sistema,registro Archivo Digital,tipo NOT + número + fecha + referencia
+2,Sector Solicitante,remite ejemplar foliado y SPD a Mesa de Ayuda,SPD + original,"folios, anexos, expediente/oficio"
+3,Mesa de Ayuda CGSI,verifica integridad/CIDD y corrige deficiencias,recepción/incidencia,"acuse, observaciones y correcciones"
+4,Mesa de Ayuda CGSI,"escanea, nombra archivo y controla calidad",archivo electrónico,"nombre CIDD, fecha, operador, archivo/hash"
+5,Mesa de Ayuda CGSI,"actualiza Archivo Digital, publica si corresponde y completa resultado SPD",ID/estado/acceso/resultado,"IdDocumento, acceso y publicación"
+6,Sector Solicitante,confronta original y copia; presta conformidad,SPD firmado,firma/fecha/conformidad
+7,Archivo General,guarda original y registra ubicación física,número de caja,fondo/serie/caja/folios

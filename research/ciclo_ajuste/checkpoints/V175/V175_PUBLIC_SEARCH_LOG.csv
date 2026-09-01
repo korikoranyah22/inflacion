@@ -1,0 +1,11 @@
+﻿log_id,surface,query_or_target,result,classification,limit_or_next_step
+PUB175_01,CGN Cuenta 2010 UEPEX,Nota 112/10 DAIF; 3672; 0120/09; SISIO,mecanismo correctivo y nota anual presentes; exactos 0/0/0,RECURRING_MECHANISM_POSITIVE_TARGET_CHAIN_ABSENT_FROM_PAGE,pedir cuerpo/anexos y expediente
+PUB175_02,CGN Cuenta 2011 UEPEX,Nota 93/11; 3672; 0120/09; SISIO,mecanismo correctivo presente; exactos 0/0/0,RECURRING_MECHANISM_POSITIVE_TARGET_CHAIN_ABSENT_FROM_PAGE,pedir cuerpo/anexos
+PUB175_03,CGN Cuenta 2012 UEPEX,Nota 145/12; subsanaciones; exactos,seguimiento positivo; exactos 0/0/0,FOLLOWUP_POSITIVE_TARGET_CHAIN_ABSENT_FROM_PAGE,pedir informe y respuestas
+PUB175_04,CGN Cuenta 2013 UEPEX,subsanaciones; exactos,continuidad positiva; exactos 0/0/0,FOLLOWUP_POSITIVE_TARGET_CHAIN_ABSENT_FROM_PAGE,no convertir ausencia de texto en ausencia archivística
+PUB175_05,Argentina.gob.ar · Decreto 759/1966 actualizado,"numeración, Mesa de Entradas, movimiento/destino y archivo",deberes normativos localizados,OFFICIAL_RECORD_DUTY_PROVED,aplicar a registro objetivo
+PUB175_06,Argentina.gob.ar · Resolución 2600/2009,"circuito SIGEN, expediente, SISIO, estados y acciones",flujo contemporáneo exacto localizado,CONTEMPORARY_WORKFLOW_PROVED,obtener filas target
+PUB175_07,Memoria SIGEN 2009,"Cuenta, SISIO WEB, archivo digital/general","capacidades localizadas en PDF 6, 7 y 13",CONTEMPORARY_CAPABILITY_PROVED,buscar asiento/caja individual
+PUB175_08,Infoleg · Decretos 1795/1796,relevo Síndico General noviembre 2009,dos ventanas institucionales delimitadas,AUTHORITY_BOUNDARY_PROVED_SIGNATORY_OPEN,no atribuir sin fecha/cuerpo
+PUB175_09,vLex · reproducción acta TOCF4,Notas/remitos/avisos SIGEN 2009,rango correlativo y originales descriptos,PUBLIC_JUDICIAL_REPRODUCTION_CORRELATIVE_PRACTICE,pedir original SIGEN; host no oficial
+PUB175_10,Common Crawl,decisión de reintento,sin consultas V175 por control V174 2/2 SERVICE_ERROR,DEFERRED_UNTIL_VALID_CONTROL,40 consultas pendientes; no inferir ausencia

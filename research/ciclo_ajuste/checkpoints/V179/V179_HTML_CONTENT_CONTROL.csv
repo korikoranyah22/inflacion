@@ -1,0 +1,6 @@
+﻿control_id,source_id,target_string,result,limit
+HTML179_01,e0_bo_res967_2006_notice_endpoint_v179,"descargarPDFAnexo(""primera"",""1"", ""00345809"", ""20061211"", ""/pdf/download_anexo"")",PASS_EXACT_STRING,integridad de contenido local; no desempeño material
+HTML179_02,e0_bo_download_annex_protocol_v179,function descargarPDFAnexo,PASS_EXACT_STRING,integridad de contenido local; no desempeño material
+HTML179_03,e0_norm_decree1118_2003_mypesii_trust_v179,El BANCO CENTRAL DE LA REPÚBLICA ARGENTINA actuará en carácter de Agente Financiero,PASS_EXACT_STRING,integridad de contenido local; no desempeño material
+HTML179_04,e0_norm_res347_2004_mypesii_two_ifis_v179,DOS (2) Entidades Financieras,PASS_EXACT_STRING,integridad de contenido local; no desempeño material
+HTML179_05,e0_norm_res389_2005_mypesii_paripassu_v179,Pari-passu,PASS_EXACT_STRING,integridad de contenido local; no desempeño material

@@ -1,0 +1,7 @@
+requirement_id,dataset,minimum_fields,join_keys,closure_test
+PR176_01,SISIO,clave compuesta entidad+UAI+informe+número/fecha+observación+título+sector; hallazgo; recomendación; acciones; historial estado/motivo/comentario,3672/09; 0120/09; UEPEX; cierre 2008; organismo; informe,cada observación instruida identificada y trazada sin colisiones
+PR176_02,CGN / DAIF,cuadro antes/después; inconsistencia; importe; moneda; formulario SIDIF; certificante; fecha; respuesta,proyecto/organismo; cuadro; formulario; ejercicio; observación,corrección específica cuantificada y documentalmente vinculada
+PR176_03,Mesa SIGEN / CIDD / SPD / archivo,número; fecha; firmante persona/cargo; destinatario; asunto; adjuntos; expediente; acceso; caja; remito; acuse,3672/09-GSEyP,"identidad, emisión, entrega, custodia y contenido primario cerrados"
+PR176_04,Mesa CGN / expediente receptor,entrada; fecha; remitente; número nota; expediente; pases; anexos; respuesta; archivo,3672/09; asunto; 0120/09,salida SIGEN unida uno-a-uno con ingreso y expediente CGN
+PR176_05,clasificación de resultado,"estado, motivo, comentario, acción, fecha y documento de cierre",clave compuesta SISIO,"separar regularizada, abierta y no regularizable; no tratar cierre de proyecto como corrección"
+PR176_06,atribución causal,secuencia temporal; orden concreta; destinatario; acción posterior; fuentes alternativas; resultado medible,observación e identificadores documentales comunes,no confundir persistencia/cierre administrativo con efecto causado por 3672
