@@ -1,0 +1,7 @@
+﻿control_id,artifact,page,method,target,result,observation
+PV163_01,banco_rioja_eeff_fy2023.pdf,3,Poppler 150 dpi + original-detail visual inspection,FY balance repo stock,PASS,"Operaciones de pase 29,217,148."
+PV163_02,banco_rioja_eeff_fy2023.pdf,18,Poppler 150 dpi + original-detail visual inspection,repo accounting policy,PASS_LIMIT,"Purchase-sale difference accrues by effective-interest method and is posted to interest results; this supports plausibility, not the journal's existence."
+PV163_03,banco_rioja_eeff_fy2023.pdf,25 / printed 23,Poppler 150 dpi + original-detail visual inspection,FY repo stock and counterparty,PASS,"BCRA LELIQ active repos 29,217,148; no passive repos."
+PV163_04,banco_rioja_eeff_fy2023.pdf,79 / printed 77,Poppler 150 dpi + original-detail visual inspection,FY Annex Q result split,PASS,"BCRA repo income 14,409,056 and expense 7,844; other-FI absent."
+PV163_05,banco_rioja_disciplina_mercado_9m2023.pdf,7,Poppler 150 dpi + original-detail visual inspection,9M-2023 repo stock,PASS_LIMIT,"Repo instruments 14,191,142; no result-flow opening."
+PV163_06,banco_rioja_disciplina_mercado_9m2024.pdf,7,Poppler 150 dpi + original-detail visual inspection,9M-2024 repo stock,PASS_LIMIT,Repo and securities-lending operations 0; no comparative 2023 result opening.

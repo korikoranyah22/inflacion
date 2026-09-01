@@ -1,0 +1,9 @@
+﻿control_id,period,measure,issuer_value_thousand_ars,raw_account_set,raw_values_thousand_ars,raw_sum_thousand_ars,difference_issuer_minus_raw,verdict,analytic_use
+BR163_01,9M-2023,active_repo_stock,14191142,141144+141222,14148116+43026,14191142,0,EXACT_STOCK_RECONCILIATION,Validates September capital-plus-accrued-interest stock; not a result-flow allocation.
+BR163_02,FY-2023,active_repo_stock,29217148,141144+141222,28978965+79394,29058359,158789,EXACT_DUAL_SIDED_RESIDUAL,"Corrects V162: 141222 exists. The 238183 figure was only the gap against capital, not against total raw stock."
+BR163_03,FY-2023,repo_income_bcra,14409056,511108,14250267,14250267,158789,EXACT_DUAL_SIDED_RESIDUAL,Same residual as the asset-side stock bridge; supports but does not authenticate a closing entry.
+BR163_04,FY-2023,repo_expense_bcra,7844,521108,7844,7844,0,EXACT_ENTITY_SPECIFIC_FY,Expense leg reconciles.
+BR163_05,Q4-2023,repo_income_bcra_raw_to_raw,N/A,14250267-5712151*1.532908152197492,5494064.165516943874708,5494064.165516943874708,N/A,ARITHMETIC_ONLY_NOT_PROMOTED,Homogeneous regulatory candidate; not issuer-authenticated at 9M.
+BR163_06,Q4-2023,repo_income_bcra_adjusted_closing_hypothesis,5652853.165516943874708,14409056-5712151*1.532908152197492,5652853.165516943874708,5652853.165516943874708,158789,SINGLE_ADJUSTING_ENTRY_HYPOTHESIS_UNAUTHENTICATED,Upper scenario if the equal debit/credit residual is a closing accrual; not panel evidence.
+BR163_07,Q4-2023,repo_expense_bcra,0.108985205433436,7844-5117*1.532908152197492,0.108985205433436,0.108985205433436,0,EXACT_ARITHMETIC_NOT_PANEL_PROMOTION,One resolved leg does not satisfy the four-leg gate.
+BR163_08,9M-2024,active_repo_stock,0,N/A_NOT_USED,N/A,N/A,N/A,OFFICIAL_NEGATIVE_TEMPORAL_COMPARATOR,Shows zero repo stock a year later; no comparative 2023 result opening.

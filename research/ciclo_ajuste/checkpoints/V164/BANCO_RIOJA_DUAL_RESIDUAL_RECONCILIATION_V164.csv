@@ -1,0 +1,4 @@
+﻿control_id,period,measure,issuer_value_thousand_ars,raw_account_set,raw_values_thousand_ars,raw_sum_thousand_ars,difference_issuer_minus_raw,verdict,analytic_use
+BR164_02,FY-2023,active_repo_stock,29217148,141144+141222,28978965+79394,29058359,158789,CLOSING_LAYER_DIFFERENCE_CONFIRMED_STOCK,"A6358/A6402 prove the account mapping; annual discipline disclosure reports 29217148 in publication and supervision, while raw detail sums 29058359. Cause and journal remain unauthenticated."
+BR164_03,FY-2023,repo_income_bcra,14409056,511108,14250267,14250267,158789,EXACT_DUAL_SIDED_RESIDUAL,Same residual as the asset-side stock bridge; supports but does not authenticate a closing entry.
+BR164_04,FY-2023,repo_expense_bcra,7844,521108,7844,7844,0,EXACT_ENTITY_SPECIFIC_FY,Expense leg reconciles.

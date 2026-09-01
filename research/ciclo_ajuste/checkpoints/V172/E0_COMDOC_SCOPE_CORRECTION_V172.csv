@@ -1,0 +1,4 @@
+﻿claim_id,prior_shorthand,corrected_claim,evidence,effect,guardrail
+CD172_01,COMDOC comienza en 2010,COMDOC III ya estaba operativo en Economía al menos en 2008 para ciertos circuitos,RC SH/SF 216/26 de 2008,corregir cronología; buscar COMDOC como ruta posible,capacidad ministerial no prueba inclusión de toda nota CGN
+CD172_02,Circular 04/2010 crea COMDOC,Circular 04/2010 fija un alcance obligatorio específico ante CGN y mantiene rutas por Nota,Circular CGN 04/2010,distinguir existencia del sistema de obligación por circuito,no retroproyectar la regla a 2009
+CD172_03,un negativo COMDOC cierra 2009,"el cierre exige Mesa CGN, registro legado, archivo, COMDOC si correspondió y migraciones",Disposición 41/1996 + Circular 17/2005 + Disp.32/2009 + Circ.04/2010,negativo fundado multisistema,ninguna ruta aislada prueba inexistencia

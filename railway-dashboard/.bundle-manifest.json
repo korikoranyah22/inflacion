@@ -1,17 +1,22 @@
 {
   "generated_from": "dashboard source tree",
-  "public_file_count": 10,
-  "public_bytes": 8140188,
+  "public_file_count": 31,
+  "public_bytes": 8274759,
   "files": [
     {
       "path": "index.html",
-      "bytes": 8046430,
-      "sha256": "6e40a280e52eb41664464be8df08ff656bac37a72320e23c58f54b835cc6d7b6"
+      "bytes": 8046780,
+      "sha256": "2874384aea969127eb02f4b3c30cac452d52313e82a20cf7b855b60026b9be6a"
     },
     {
       "path": "assets/epica-super-tabs.js",
-      "bytes": 49804,
-      "sha256": "e8395e1b888ec502bda016a865e1d2abce1e42ee2347a5b452709771842efd2a"
+      "bytes": 71626,
+      "sha256": "afc18b2eaea86151794e22e7e869f47649a1b7dea23729bf90eec17b1ea5eaf0"
+    },
+    {
+      "path": "assets/epica-stage2-tabs.js",
+      "bytes": 28474,
+      "sha256": "1435fcc2d4c43f2fd867a085a66047d9fc98778351b8d0320f7b3015f078c45a"
     },
     {
       "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
@@ -34,6 +39,51 @@
       "sha256": "79ab81b7335b01426ddd40bf910745699b1f38670c423d7449cee1a077d39c4a"
     },
     {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/rigi_summary.csv",
+      "bytes": 235,
+      "sha256": "1d14916dfa88883e00a6375bf5c6840b215e01f9401fa6e7cb9900794af0b76a"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/rigi_investment_schedule.csv",
+      "bytes": 2638,
+      "sha256": "2860fc407f47d7c6da43272119c716e277865f00a309d424f7e18f219c6177f4"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/public_capital_accounting_inventory.csv",
+      "bytes": 528,
+      "sha256": "745bb23933ed6675556497014237c81f025956b26fc5658ccec423a777240188"
+    },
+    {
+      "path": "research/epica_dashito_2026/deep_dive_2026-08-31/gap_resolution_matrix.csv",
+      "bytes": 2662,
+      "sha256": "c71f36a26cbbad293410021778b901dad41632bcacd9985cebb32fe3729e29dd"
+    },
+    {
+      "path": "research/epica_dashito_2026/fiscal_desarrollo/matriz_incidencia.csv",
+      "bytes": 1703,
+      "sha256": "dcf74f2ce2d2e35a36ac8115debb377e2f25b45c88eb9341ed8ebe16b774faa9"
+    },
+    {
+      "path": "research/epica_dashito_2026/fiscal_desarrollo/hallazgos_cuantitativos.csv",
+      "bytes": 5159,
+      "sha256": "f1dc0bd06e1f4de3be9c4d1e15bc1f956be9bf28056a4e05149147260176ce89"
+    },
+    {
+      "path": "research/epica_dashito_2026/hogares_credito/matriz_evidencia.csv",
+      "bytes": 15658,
+      "sha256": "99a1b180c6a8c52ca56da659b7ec6cec920232745d4ec4f7b76c5d9e37ab4098"
+    },
+    {
+      "path": "research/epica_dashito_2026/claims_registry.csv",
+      "bytes": 4760,
+      "sha256": "e71bed2898f4333ba51718f9970d3c2227266c3b6536655970bb933afdb4b2f6"
+    },
+    {
+      "path": "research/epica_dashito_2026/execution_matrix.csv",
+      "bytes": 6757,
+      "sha256": "49ac329a0e438cabe5c857a879ffdfc55bd83f5b189fb422edadd3f7820b50b7"
+    },
+    {
       "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/income_distribution_2026_q1.csv",
       "bytes": 1373,
       "sha256": "15ba18659f0b681cc83dcce2cc669c2d6714b593b92311f1bf3f5776723062c7"
@@ -44,14 +94,69 @@
       "sha256": "9d53a4f4113122b20565a6a2f9dc1d411934763d610249fed53f6985ece0ccbf"
     },
     {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/channel_break_even_scenarios.csv",
+      "bytes": 1152,
+      "sha256": "14395f9b0145530b9ec79cdb312b572036f3869f96c14a3982c6d061325e641d"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/bank_usd_transmission_map.csv",
+      "bytes": 2053,
+      "sha256": "f833968d15dd5a95c87d00fca674771c5416a854f3cc92e4d1573dd8fe2ac846"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/usd_bank_intermediation_2023_2026.csv",
+      "bytes": 1690,
+      "sha256": "498c0c9820e5a0df0185e90f4694307e31c9bda528da31aa521f0ad50c3828d6"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/usd_channel_observed_july_2026.csv",
+      "bytes": 1369,
+      "sha256": "9cb2607c3fde369447c022937b39786ef17597012d6262fb9fda50bd005fb845"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/usd_prudential_framework_2026.csv",
+      "bytes": 545,
+      "sha256": "70705815a54ede79776123daf57e7e32a32544adfb8ca17e69ff2a7634e2ea62"
+    },
+    {
       "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/policy_questions_matrix.csv",
-      "bytes": 2789,
-      "sha256": "e0f7c08def2769836d56169a31c2b1fb4bfe74ea1bda23f464aa1efdc4158bc6"
+      "bytes": 6314,
+      "sha256": "e45d5d50859f64897a0df2ab7325b9fffa0325bd66a0117ea26bfa7a7a5e32ab"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/deposit_account_concentration_2026_q2.json",
+      "bytes": 2240,
+      "sha256": "2f597e2c4538065fb3b07d9f1196b2a21d56b23c3fe83e96b920985e1502212e"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/deposit_concentration_history_2023_2026.json",
+      "bytes": 3944,
+      "sha256": "ba9bd6ff68f58709720a9a00203fa94167c449c393a89c6f668e778f51ce6d0f"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/usd_credit_line_composition_and_rates_2023_2026.json",
+      "bytes": 3821,
+      "sha256": "e8632f1c231b7dd5e6d1288e7d5ee025206114bc95470f23d197991cd2d174ef"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/usd_credit_activity_borrower_tenor_2026.json",
+      "bytes": 7681,
+      "sha256": "1a6c167e832598fa3f937462e09322bd215b07e4e04b456c7d767131c421127f"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/percentage_denominator_audit.json",
+      "bytes": 4201,
+      "sha256": "18ba7da2089b8385a4c8cb12a319de3a31b323c56f7e6739436728232e157086"
+    },
+    {
+      "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/derived/a8467_post_policy_tracker_2026-08-31.json",
+      "bytes": 4134,
+      "sha256": "d0d5dd6b920294011a23f4718c19a9b7bae1b94f2cf0699369fd7f133f4b2acd"
     },
     {
       "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/source_manifest.csv",
-      "bytes": 2841,
-      "sha256": "52053cc84a8a7cfd209330a9d39e3c68b3b4609b11d851f2c76a797427a453c2"
+      "bytes": 10311,
+      "sha256": "713bfd63e99c1fd1f884e3e46194f762909eb16ee507533b4a7b6e75cf316d2e"
     }
   ]
 }

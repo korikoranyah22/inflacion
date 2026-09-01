@@ -1,0 +1,4 @@
+﻿test_id,surface,query_or_reference,result,classification,next_step
+R41172_01,Memoria SIGEN 2007,Resolución Nº 41/07 SGN,referencia y objeto documental localizados,ACT_REFERENCE_LOCATED_BODY_OPEN,"pedir cuerpo, anexos, procedimiento y registro de vigencia"
+R41172_02,buscador público web oficial/general,resolución SIGEN 41/2007 digitalización publicación documentación,sin cuerpo oficial recuperado,PUBLIC_BODY_SEARCH_NEGATIVE_SCOPED,consulta AIP/archivo SIGEN por acto exacto
+R41172_03,índice histórico dinámico SIGEN,resoluciones.asp / POST Result_resoluciones.asp / año 2007 / número 41,formulario y campos conocidos; respuesta POST no preservada,HISTORICAL_QUERY_SCHEMA_ONLY,pedir exportación del índice o asiento del acto

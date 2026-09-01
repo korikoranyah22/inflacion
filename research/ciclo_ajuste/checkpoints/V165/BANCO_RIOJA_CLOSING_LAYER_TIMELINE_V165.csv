@@ -1,0 +1,5 @@
+﻿sequence,event,date_or_timestamp,evidence,interpretation
+1,BCRA raw entity-detail member timestamp,2024-03-04 14:18:17.8813456,202312d.7z / Entfin/Tec_Cont/baldet/00309.txt member metadata,"Archive-member metadata, not proof of submission date."
+2,BCRA monthly IEF PDF creation metadata,2024-03-08 15:50:09,202312e.pdf metadata and printed Banco Rioja page 260,Public report reproduces the raw 96882462k asset total and -1216956k result after rounding; creation metadata is not formal publication-date proof.
+3,Independent auditor report date,2024-03-11,Banco Rioja FY2023 audited financial statements,Signed package contains a +62306k net asset/result closing delta and a +158789k repo stock/income component.
+4,Annual discipline-market PDF creation metadata,2024-04-23 11:04:54,DM-31-12-23.pdf metadata,Later disclosure copies the audited repo stock into publication and supervision; metadata is not formal publication-date proof.

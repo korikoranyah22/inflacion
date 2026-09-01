@@ -1,0 +1,13 @@
+rule_id,legal_rule,draft_instruction,anti_overreach,source_id,status
+AI137_01,Presunción de publicidad y máximo acceso,"pedir índice, remisión y cuerpos existentes con máxima desagregación",no afirmar existencia target,e0_argentina_law_27275_updated_access,READY_NOT_SENT
+AI137_02,Cualquier persona; sin interés legítimo ni abogado,no justificar la investigación como requisito,identificar claramente lo pedido,e0_argentina_law_27275_updated_access;e0_argentina_tad_public_information_route,READY_NOT_SENT
+AI137_03,Entrega en el estado en que se encuentre,pedir copia/exportación del índice o planilla preexistente,no exigir que creen un cuadro certificado,e0_argentina_law_27275_updated_access,READY_NOT_SENT
+AI137_04,Solicitud simple + constancia,"incluir identidad, información y contacto; conservar acuse",ninguna presentación ocurrió,e0_argentina_law_27275_updated_access,READY_NOT_SENT
+AI137_05,Transferencia en cinco días,"si Economía no posee, remitir a custodio conocido e informar",no tratar la falta de tenencia como inexistencia,e0_argentina_law_27275_updated_access,READY_NOT_SENT
+AI137_06,15 días + prórroga excepcional fundada de 15,registrar fecha sólo después de presentar,no hay vencimiento mientras sea borrador,e0_argentina_law_27275_updated_access;e0_argentina_economia_access_channel_2026,READY_NOT_SENT
+AI137_07,Información parcial/tachas,pedir copia disociada que conserve metadatos operativos,no reclamar datos personales innecesarios,e0_argentina_law_27275_updated_access,READY_NOT_SENT
+AI137_08,Denegatoria sólo fundada,"si no existe, pedir acto y alcance de búsqueda",no pedir producir lo inexistente,e0_argentina_law_27275_updated_access,READY_NOT_SENT
+AI137_09,"Silencio, ambigüedad o entrega incompleta",registrar como denegatoria injustificada una vez vencido el plazo,no anticipar incumplimiento,e0_argentina_law_27275_updated_access,READY_NOT_SENT
+AI137_10,Reclamo dentro de 40 días hábiles,activar sólo tras solicitud real y constancia,no iniciar seguimiento ahora,e0_argentina_law_27275_updated_access;e0_argentina_economia_access_channel_2026,READY_NOT_SENT
+AI137_11,Canales Ministerio de Economía,"TAD, ciudadano@mecon.gov.ar o Balcarce 186 piso 1 oficina 148","canal verificado, no contactado",e0_argentina_economia_access_channel_2026,READY_NOT_SENT
+

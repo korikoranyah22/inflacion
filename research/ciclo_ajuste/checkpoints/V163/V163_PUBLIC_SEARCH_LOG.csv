@@ -1,0 +1,7 @@
+﻿control_id,route,url,result,evidentiary_use
+WEB163_01,Banco Rioja · Disciplina de mercado index,https://bancorioja.com.ar/institucional/disciplina-de-mercado,OFFICIAL_QUARTERLY_INDEX,Locates 30/09/2023 and 30/09/2024 official PDFs.
+WEB163_02,Banco Rioja · DM 30/09/2024,https://bancorioja.com.ar/pdf/disciplina-de-mercado/DM-30-09-24.pdf,OFFICIAL_PDF_ARCHIVED,Physical page 7 reports repo and securities-lending operations equal to zero.
+WEB163_03,Banco Rioja · Balances,https://bancorioja.com.ar/institucional/balances,ROUTE_REDIRECTS_TO_EEFF_BR_PDF_2021,Did not expose a 2023 9M result opening or 2024 annual statement index.
+WEB163_04,Focused 2024 annual filename probe,https://bancorioja.com.ar/pdf/EEFF-BR-2024.pdf,HTTP_404,Single targeted negative probe; no filename iteration used.
+WEB163_05,Boletín Oficial La Rioja 07/03/2025,https://www.boletinoflarioja.com.ar/pdf/2025/2025-03-07.pdf,ASSEMBLY_NOTICE_REFERENCES_2024_STATEMENTS_WITHOUT_ATTACHING_THEM,Corroborates existence only; not used for values.
+WEB163_06,Moody's Local Banco Rioja 26/05/2025,https://moodyslocal.com.ar/wp-content/uploads/2025/05/MLAR_Banco-Rioja_26052025.pdf,SECONDARY_REPORT_SAYS_AUDITED_2024_BALANCE_USED,Discovery lead only; not accounting evidence.

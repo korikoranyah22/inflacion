@@ -1,0 +1,14 @@
+step_id,sequence,query,filters,output,decision,status
+QR140_01,1,Formulario por Pda. Presupuestaria y Sigade,SAF355;2008;Pda7.2.8;SIGADE83106000;sin beneficiario,todas las filas y columnas,establecer universo base,DRAFT_NOT_SENT
+QR140_02,2,misma consulta,N°SIDIF71597;152677;2876 si el campo existe,coincidencia individual,resolver tipo/número/estado,DRAFT_NOT_SENT
+QR140_03,3,misma consulta,Beneficiario sin restricción; luego BNA/Banco Nación,beneficiario/código/CUIT,probar o refutar BNA registral,DRAFT_NOT_SENT
+QR140_04,4,misma consulta,observaciones contiene comisión/Banco Nación/83106000,observaciones íntegras,buscar propósito y medio,DRAFT_NOT_SENT
+QR140_05,5,Gastos por Beneficiarios,SAF355;2008;partida7.2.8;BNA y variantes,gastos/formularios/estados,control independiente,DRAFT_NOT_SENT
+QR140_06,6,Deuda Exigible hasta 2008,SAF355;SIDIF target;SIGADE83106000,definición;corte;saldo;estado,clasificar deuda al corte sin inferir después,DRAFT_NOT_SENT
+QR140_07,7,Consulta detallada de asientos 2001 a 2012,2008;32270.30 y partes;cuenta/descripcion,Debe;Haber;cuenta;asiento anual;tipo;fecha,construir contrapartida,DRAFT_NOT_SENT
+QR140_08,8,Pagos por SIGADE,83106000;2008;target IDs,EPP;PG;NPG;CMR-DP;TCE/RTCE o equivalentes legacy,"cruzar pago, rechazo y regularización",DRAFT_NOT_SENT
+QR140_09,9,Resumen de Pagos,beneficiario;emisor distinto;fuente/cuenta,exportación con medios,resolver pagador/beneficiario/cuenta,DRAFT_NOT_SENT
+QR140_10,10,Conciliación Bancaria,cuenta BNA;importe/partes;formulario recuperado,extracto externo;interno/Libro Banco;aplicación;estado,cerrar débito,DRAFT_NOT_SENT
+QR140_11,11,AMIDDF,tipo/número/SAF recuperados,índice;caja;cuerpo;folios;imagen,cerrar respaldo,DRAFT_NOT_SENT
+QR140_12,12,Auditoría de resultado cero,cada consulta por separado,sistema;modelo;consulta;parámetros;fecha;filas;cobertura;exclusiones;diccionario,evaluar suficiencia negativa,DRAFT_NOT_SENT
+

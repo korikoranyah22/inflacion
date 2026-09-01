@@ -1,0 +1,6 @@
+﻿step_id,text_marker,actor_or_antecedent,inference,confidence,open_limit
+PR170_01,CGN elevó Nota 0120/09 DAIF a SIGEN,Contaduría General de la Nación,CGN inicia el intercambio institucional narrado.,DIRECT_STATEMENT,No identifica mesa ni expediente.
+PR170_02,Al respecto,enlace con la respuesta al informe CGN,La Nota SIGEN 3672/09 responde al antecedente inmediato.,STRONG_CONTEXTUAL_LINK,No sustituye el cuerpo de la respuesta.
+PR170_03,Nota SIGEN 3672/09 GSEyP,SIGEN / Síndico General,"Se identifica emisor, firmante y número de salida.",DIRECT_STATEMENT,"Fecha completa, adjuntos y distribución abiertos."
+PR170_04,esta repartición fue notificada,"CGN, narradora y antecedente institucional inmediato",CGN es la receptora contextual de la notificación.,HIGH_CONTEXTUAL_INFERENCE,No prueba destinatario nominal ni número de entrada.
+PR170_05,áreas pertinentes + SISIO + UAI,SIGEN y UAI competentes,"La respuesta ordena circulación y seguimiento, no acredita ejecución ni cierre.",DIRECT_STATEMENT_WITH_LIMIT,"IDs SISIO, responsables, fechas y regularizaciones abiertos."

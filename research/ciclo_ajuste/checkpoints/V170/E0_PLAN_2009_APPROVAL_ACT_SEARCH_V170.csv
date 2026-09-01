@@ -1,0 +1,8 @@
+﻿test_id,question,evidence,result,classification,remaining_gap
+AA168_01,¿Se aprobó el Plan SIGEN 2009?,Memoria SIGEN 2008,"Sí, 15/12/2008",FACT_CONFIRMED,"instrumento, número, expediente, firma"
+AA168_02,¿La página 2009 identifica el acto?,plananual2009.asp,No; enlaza plan y anexos,PAGE_SILENT_ON_ACT,registro de aprobación
+AA168_03,¿El BO del 15/12/2008 publicó resolución SIGEN aprobatoria?,sumario oficial,No aparece,DATE_SCOPED_PUBLICATION_NEGATIVE,otras fechas o acto interno
+AA168_04,"¿Existía buscador SIGEN por fecha, número y tema?",resoluciones.asp 2010,Sí,HISTORICAL_REGISTRY_SCHEMA_LOCATED,respuesta POST/exportación
+AA168_05,¿Puede afirmarse acto interno?,"cruce memoria, página, BO e índice",Sólo hipótesis prioritaria,INFERENCE_NOT_FACT,acto o certificación
+AA170_06,"¿Las búsquedas exactas en SIGEN, Normativa y Boletín Oficial revelan el acto?",consultas públicas exactas del 31/08/2026,No apareció número ni cuerpo del acto,PUBLIC_SEARCH_NEGATIVE_SCOPED,registro de aprobación; expediente; firma; comunicación
+AA170_07,¿Qué puede afirmarse después del nuevo barrido?,Memoria SIGEN 2008 + búsquedas oficiales,Aprobación 15/12/2008 confirmada; clase y número aún abiertos,EXISTENCE_DATE_CONFIRMED_ACT_OPEN,acto original o certificación de custodia

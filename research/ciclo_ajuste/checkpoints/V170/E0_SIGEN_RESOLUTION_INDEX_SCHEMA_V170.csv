@@ -1,0 +1,9 @@
+schema_id,capture,surface,element,name_or_value,semantics,proof,limit
+RI168_01,2010-07-29,resoluciones.asp,form,frmQuery,buscador histórico,POST a Result_resoluciones.asp,No se preservó respuesta POST
+RI168_02,2010-07-29,resoluciones.asp,field,txtNumero,número,input text,Sin resultado target
+RI168_03,2010-07-29,resoluciones.asp,field,cboAnio,año 1993-2010 o todos,incluye 2008 y 2009,Catálogo dinámico no exportado
+RI168_04,2010-07-29,resoluciones.asp,field,calDesde/calHasta,rango de fechas,campos fecha,Valores por defecto
+RI168_05,2010-07-29,resoluciones.asp,field,txtKeywords,palabras clave,input text,Sin índice invertido
+RI168_06,2010-07-29,resoluciones.asp,field,hdnAccion=Filtrar,acción,hidden input,No reconstruye respuesta
+RI168_07,2012-02-05,resoluciones.asp,control,mismo esquema; años 1993-2012,continuidad,campos y endpoint estables,No prueba exhaustividad
+RI168_08,2010-07-29,normativa.asp,routes,normas01.asp..normas05.asp,familias normativas,cinco enlaces,No es libro de resoluciones

@@ -1,0 +1,22 @@
+field_id,source_field,current_meaning,target_request,legacy_status,source_id,locator
+EF141_01,Cuenta Bancaria CUT,banco;sucursal;cuenta;moneda,identidad de cuenta histórica,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_02,Ejercicio,año del extracto,2008,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_03,Cuenta de Operación,código y denominación,tipo de cuenta afectada,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_04,Apertura Cuenta Operación,tipo de apertura,clasificación histórica,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_05,Cuenta Operativa,cuenta asociada,vínculo institucional,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_06,Titular,titular de cuenta escritural,SAF/entidad,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_07,Fuente de Financiamiento,fuente,clasificación del movimiento,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_08,Clase de Gasto,clase,naturaleza del pago,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_09,Jurisdicción y Entidad,identidad institucional,SAF355/Deuda Pública,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_10,Fecha extracto desde/hasta,ventana temporal,todo 2008 y fechas recuperadas,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_11,Saldo inicial/final,saldo de la cuenta,control de integridad,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_12,Cod. Mov.,código de movimiento,clasificar débito/crédito,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_13,Fecha,fecha del movimiento,cruzar formulario/log,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_14,Importe Crédito/Importe Débito,signo e importe,"32.270,30 y componentes",CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_15,Comprobante Respaldo,EE-Ejer-Tipo-Nro,vincular SIDIF/formulario,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_16,Libro Banco/Extracto,Ejer-Tipo-Nro,vincular registro interno y externo,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_17,Comprobante Origen,EE-Ejer-Tipo-Nro,rastrear evento causante,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_18,Comprobante Relacionado,EE-Ejer-Tipo-Nro,rastrear reversa/regularización,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_treasury_system_v3_2022_cut_extract,PDF p.63
+EF141_19,Mov. Externo/Mov. Interno/Nro. Cpte. Bancario,códigos y referencia bancaria,identificar movimiento BNA,CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_cut_auditor_instruction_2025,PDF p.34
+EF141_20,Importe pendiente/Estado de conciliación,importe y estado,"separar conciliado, pendiente y diferencia",CURRENT_FIELD_CROSSWALK_2008_EQUIVALENT_OPEN,e0_tgn_cut_auditor_instruction_2025,PDF p.34
+

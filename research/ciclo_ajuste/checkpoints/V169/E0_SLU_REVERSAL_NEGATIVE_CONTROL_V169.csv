@@ -1,0 +1,13 @@
+control_id,record,rule,target_effect,limit,source_id
+RV169_01,C55-DEP,desafecta pago por depósito bancario o diferencia de cambio,buscar devolución o diferencia que neutralice pago,no es C55-REG de comisión por sí solo,e0_dgsiaf_slu_payment_reversal_2005
+RV169_02,OP original,"tipo C41/C42, ejercicio y número completan la desafectación",exigir vínculo al original,target puede carecer de OP si es débito directo,e0_dgsiaf_slu_payment_reversal_2005
+RV169_03,cuenta,banco/sucursal/cuenta y boleta/fecha identifican devolución,cruzar con cuenta y extracto,cuenta sola no prueba causa,e0_dgsiaf_slu_payment_reversal_2005
+RV169_04,aceptación central,impacto en Libro Banco ocurre cuando SIDIF Central acepta,no contar ingreso/envío como impacto,aceptación interna aún debe cruzarse con banco,e0_dgsiaf_slu_payment_reversal_2005
+RV169_05,C55-REP,revierte impactos del C55-DEP y lo pone rechazado,"buscar original, reversa y contraasiento",requiere concordancia de importe,e0_dgsiaf_slu_payment_reversal_2005
+RV169_06,consulta,C55-DEP generados pueden consultarse desde el programa,pedir exportación completa de consulta,pantalla actual puede no retener 2008,e0_dgsiaf_slu_payment_reversal_2005
+RV169_07,cheque estado C,cheque conciliado,control alternativo de medio de pago,no confundir con débito automático,e0_dgsiaf_slu_checks_checkbooks
+RV169_08,cheque estado R,conciliado y luego devuelto,detectar reversa/devolución bancaria,no prueba comisión,e0_dgsiaf_slu_checks_checkbooks
+RV169_09,anulación cheque,E o C no conciliado puede pasar a F,preservar secuencia de estados,regla de cheque,e0_dgsiaf_slu_checks_checkbooks
+RV169_10,detalle conciliación,pantalla navega al estado de conciliación del cheque,pedir detalle si ruta cheque aparece,control negativo,e0_dgsiaf_slu_checks_checkbooks
+
+

@@ -1,0 +1,3 @@
+# Veredicto V165
+
+V165 demuestra que la diferencia de Banco Rioja forma parte de un paquete de cierre completo y equilibrado. Entre el detalle BCRA y los estados auditados, activo y resultado corriente mejoran 62.306k; pasivos y patrimonio anterior al resultado no cambian. El componente de pases aporta +158.789k y el conjunto no-pases compensa -96.483k. Esta igualdad confirma capas contables distintas y un efecto neto débito-activo/crédito-resultado, pero no autentica diario, comprobante ni número de asientos. Sin apertura 9M del resultado de pases, Banco Rioja permanece fuera del panel: 33 entidades y 63.3404130639287055191506606276878645985932518939916205138518528603403997357930830936917209159343409585184995437662731063%.

@@ -1,0 +1,17 @@
+step_id,layer,official_rule,minimum_output,locator,source_id,target_status
+RR143_01,Evento,cada transacción CUT dispara créditos/débitos,evento y cuentas impactadas,2013 p.65,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_02,Reconstrucción,SIDIF permite reconstruir cada impacto,log completo,2013 p.65,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_03,Auditor diario,Libro Banco = cuentas escriturales + extracto,saldos y diferencias,2013 p.65,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_04,Respaldo,cada movimiento se controla con formulario,tipo/número/ejercicio/SAF,2013 p.65-66,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_05,Referencia,agente CUT incorpora referencia unívoca,referencia bancaria,2013 p.68,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_06,Débito automático,TGN autoriza conceptos específicos al BNA,acto/código/concepto,2013 p.112,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_07,Gasto bancario,ejemplo expreso de débito automático,importe y cuenta,2013 p.112,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_08,Regularización,el débito se registra mediante formulario,C55/CRG o equivalente,2013 p.112,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_09,Conversión,código externo del banco se mapea a código interno,ambos códigos,2013 p.140,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_10,Validación,"cuenta activa, continuidad de saldos, importe y comprobante",resultado de validaciones,2013 p.140,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_11,Corrección,error se revierte y queda vinculado,movimiento original y reversa,2013 p.140,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_12,Conciliación automática,extracto se coteja con Libro Banco,par e instancia histórica,2013 p.140,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_13,Estado,"T/P/N: total, parcial o no conciliado",estado por movimiento,2013 p.141,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_14,APL,comisiones generan gasto SIDIF automático,"formulario, partida y libro",2013 p.147-148,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+RR143_15,MAN,pendientes se regularizan y conservan historia,"causa, usuario y fecha",2013 p.149,e0_tgn_manual_system_treasury_v1,ROUTE_PROVED_TARGET_RECORD_OPEN
+

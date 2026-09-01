@@ -1,0 +1,6 @@
+﻿control_id,institution,url,result,decision
+WEB164_01,Banco Rioja,https://bancorioja.com.ar/institucional/disciplina-de-mercado,OFFICIAL_INDEX_EXPOSES_ALL_FOUR_2023_QUARTERS,USE_AND_ARCHIVE_MISSING_Q1_Q2_FY
+WEB164_02,BCRA,https://www.bcra.gob.ar/buscador-de-comunicaciones/,OFFICIAL_SEARCH_RESULTS_LOCATED_A6358_AND_A6402,USE_AND_ARCHIVE_BOTH_QUEUE_CLOSED
+WEB164_03,BCRA,https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A6358.pdf,OFFICIAL_PLAN_AND_PUBLICATION_CROSSWALK_PRESERVED,USE
+WEB164_04,BCRA,https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A6402.pdf,OFFICIAL_SUPERVISION_AND_PUBLICATION_CROSSWALK_PRESERVED,USE
+WEB164_05,BCRA,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202303d.7z,BINARY_DIRECT_NAVIGATION_BLOCKED_BY_CLIENT,NO_WORKAROUND_RAW_Q1_NOT_PRESERVED

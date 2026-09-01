@@ -1,0 +1,12 @@
+step_id,period,actor,record_or_action,target_field,target_status,source_id
+FP138_01,2002-11/2008,SAF 355,C-41 pago exterior,N° SIDIF,OPEN,e0_cgn_circular_13_2002_foreign_payments
+FP138_02,2002-11/2008,SAF 355,beneficiario BNA o BCRA,beneficiario,OPEN,e0_cgn_circular_13_2002_foreign_payments
+FP138_03,2002-11/2008,SAF 355,Nota a TGN,beneficiario exterior; banco; cuenta; moneda; importe,OPEN,e0_cgn_circular_13_2002_foreign_payments
+FP138_04,2002-11/2008,BNA,débito de gastos/comisiones,cuenta fondo rotatorio SAF,MECHANISM_PROVED_TARGET_OPEN,e0_cgn_circular_13_2002_foreign_payments
+FP138_05,desde 2008-11-20,SAF 355,C-41 + Nota + Boleto,paquete respaldatorio,OPEN_DATE_DEPENDENT,e0_cgn_tgn_disposition_47_10_2008_foreign_payments
+FP138_06,desde 2008-11-20,BNA,visa Boleto de Venta,boleto visado,OPEN_DATE_DEPENDENT,e0_cgn_tgn_disposition_47_10_2008_foreign_payments_annex
+FP138_07,desde 2008-11-20,CGN,remite OP/Nota/Boleto,recepción y remisión,OPEN_DATE_DEPENDENT,e0_cgn_tgn_disposition_47_10_2008_foreign_payments_annex
+FP138_08,desde 2008-11-20,TGN,instrucción de pago a banco,fecha; lote; importe; anexos,OPEN_DATE_DEPENDENT,e0_cgn_tgn_disposition_47_10_2008_foreign_payments_annex
+FP138_09,2008,SAF 355,C-55 Débito Directo posterior,comisión; cuenta; Libro Banco,LEADING_MECHANISM_COMPARATOR_NOT_PROVED,e0_dgsiaf_slu_global_regularization_2004
+FP138_10,2008,SICHE,exportación cruzada SC/SLU,tipo; vínculos; historia; pago/regularización,DRAFT_NOT_SENT,e0_argentina_resolution_53_2024_siche
+

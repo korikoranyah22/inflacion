@@ -1,0 +1,6 @@
+﻿control_id,artifact,page,result,observation,method
+PV165_01,202309e.pdf,261,PASS,"Banco Rioja 9M public totals; printed page 260; 71,886.2m assets and 1,258.6m accumulated result.",Poppler render + original-detail visual inspection
+PV165_02,202312e.pdf,261,PASS,"Banco Rioja raw/public closing layer; printed page 260; 96,882.5m assets and -1,217.0m result.",Poppler render + original-detail visual inspection
+PV165_03,EEFF-BR-2023.pdf,3,PASS,"Audited total assets 96,944,768k and repo stock 29,217,148k.",Poppler render + original-detail visual inspection
+PV165_04,EEFF-BR-2023.pdf,4,PASS,"Audited liabilities 62,510,206k, net equity 34,434,562k, and current result -1,154,650k.",Poppler render + original-detail visual inspection
+PV165_05,EEFF-BR-2023.pdf,5,PASS,"Audited statement of results confirms current result -1,154,650k.",Poppler render + original-detail visual inspection

@@ -1,0 +1,22 @@
+row_id,query_or_route,result,interpretation,next_step,status
+NR159_01,Plan SIGEN 2009 cuerpo completo y acto final,No localizados públicamente,La fecha 15/12/2008 no sustituye cuerpo ni identificador,"Pedir acto, plan y anexos por versión",PLAN_AND_ACT_NOT_LOCATED
+NR159_02,Plan UAI Economía 2009 presentado antes del 30/10,No localizado,"La regla prueba que debía existir una presentación, no que Economía cumpliera","Pedir asiento, carátula y copia inicial",INITIAL_PLAN_NOT_LOCATED
+NR159_03,Legajo plan auditoría UAI Economía,No localizado,La Resolución 7/2003 individualiza el contenedor,"Pedir carátula, índice y movimientos",PLAN_FILE_NOT_LOCATED
+NR159_04,Dictamen y aprobación preliminar,No localizados,Son pasos separados de la aprobación final,"Pedir dictamen, evaluación, modificaciones y nota preliminar",PRELIMINARY_CHAIN_NOT_LOCATED
+NR159_05,Plan conformado en papel y copia magnética,No localizados,Los dos soportes eran exigibles y no deben colapsarse,Pedir asiento y metadatos de ambos,DUAL_SUPPORT_NOT_LOCATED
+NR159_06,Versión definitiva bajo custodia de Gerencia,No localizada,La norma identifica custodio distinto de la UAI,Pedir copia definitiva e índice de custodia,DEFINITIVE_VERSION_NOT_LOCATED
+NR159_07,Crosswalk pre/post reforma Economía-Producción,No localizado,La reforma ocurrió entre entrega inicial y aprobación final,"Pedir versiones, notas de adecuación y responsables",REORGANIZATION_CROSSWALK_NOT_LOCATED
+NR159_08,Informe de Supervisión UAI Economía 2009 y nota de remisión,No localizados,"ERAS prueba que nota, adjunto y expediente receptor eran piezas separadas",Pedir en SIGEN y Economía,SUPERVISION_DELIVERY_CHAIN_NOT_LOCATED
+NR159_09,Inventario de Informes de Supervisión 2009,No localizado,Fuentes oficiales difieren entre aproximadamente 120 y cerca de 160,Pedir inventario y regla de conteo,COUNT_CONFLICT_UNRESOLVED
+NR159_10,Snapshot SISIO Plan 2009 y código Cuenta 2008,No localizados,"La función del sistema está probada, no la salida target","Pedir exportación, parámetros, versión y logs",SYSTEM_SNAPSHOT_NOT_LOCATED
+NR159_11,Registro Archivo Digital/reordenamiento del target,No localizado,"Capacidad archivística no prueba ingreso, retención ni destino","Pedir índice, caja, transferencia o disposición",ARCHIVE_ENTRY_NOT_LOCATED
+NR159_12,Certificados SAF355,0 de 5,La cadena del plan no sustituye certificados ni anexos,Pedir por SAF y anexo,TARGET_CERTIFICATES_NOT_LOCATED
+NR159_13,Filas bancarias target,0 de 10,"Plan, supervisión y archivo siguen siendo capas administrativas",Cerrar con banco y reversas,BANK_EXECUTION_NOT_LOCATED
+NR159_14,Seis solicitudes,No enviadas,"No existe presentación, acuse, plazo ni respuesta",Mantener borradores hasta autorización expresa,DRAFT_NOT_SENT
+NR159_15,Acto contemporáneo que expanda GSEyP en 2009,No localizado,"GSEPFyE, GSEPyPF y GSEPYPF no prueban identidad","Pedir organigrama, firma o registro 2008-2009",ACRONYM_IDENTITY_OPEN
+NR159_16,Universo de UAI e inventario de informes 2009,No localizado,145 UAI corresponde a 2006 y no resuelve 120/160,"Pedir censo, inventario y diccionario del indicador",DENOMINATOR_OPEN
+NR159_17,Respuesta final del expediente ERAS 1085-10,No localizada en esta pieza,El acta sólo documenta giro y obligación de expedirse,"Usarlo como modelo de lifecycle, no desenlace",COMPARATOR_FOLLOWUP_OPEN
+NR159_18,Expansión oficial cercana de GSEyP,Localizada en Plan SIGEN 2010 Anexo G,GSEyP significa Gerencia de Supervisión Economía y Producción y GSPF es distinta,Mantener abierta vigencia exacta en fecha de Nota 3672/09,NEAR_CONTEMPORARY_EXPANSION_LOCATED
+NR159_19,Plan SIGEN 2009 y su Anexo G,No localizados en búsqueda oficial,El glosario 2010 no puede retrotraerse como acto diario sin control,"Pedir plan, acto e índice 2009",PLAN_2009_BODY_STILL_OPEN
+NR159_20,Crosswalk UAI-entidades,Localizado en Plan 2010 Anexo H,Una UAI podía abarcar varias entidades,Pedir inventario UAI-proyecto-informe para 2009,MULTI_ENTITY_UAI_PROVED
+NR159_21,Competencia transitoria UAI Economía,Localizada en Decreto 1366/2009 art.7,La UAI Economía controló áreas centralizadas de Industria y Agricultura,No prueba el contenido de un informe individual,LEGAL_SCOPE_LOCATED

@@ -1,4 +1,4 @@
-# Auditoría empírica — fiscal, balances sectoriales, inversión-empleo e infraestructura
+# Análisis empírico — fiscal, balances sectoriales, inversión-empleo e infraestructura
 
 **Fecha de corte:** 2026-08-31  
 **Ítems de la épica:** 3–4, 17–25 y 36–40  
@@ -6,7 +6,7 @@
 
 ## Resultado ejecutivo
 
-1. **La incidencia salarial fue desigual.** Con IPC nacional e índices INDEC, desde noviembre de 2023 el salario real privado registrado tocó un mínimo de 87.87 en 2024-03 y a junio de 2026 seguía -3.55% respecto de la base. El público tocó 78.14 y seguía -16.52%. El no registrado arroja un salto extremo y queda marcado para auditoría metodológica, no como mejora consolidada.
+1. **La incidencia salarial fue desigual.** Con IPC nacional e índices INDEC, desde noviembre de 2023 el salario real privado registrado tocó un mínimo de 87.87 en 2024-03 y a junio de 2026 seguía -3.55% respecto de la base. El público tocó 78.14 y seguía -16.52%. El no registrado arroja un salto extremo y queda marcado para revisión metodológica, no como mejora consolidada.
 
 2. **Hubo desahorro/fragilidad observada, pero no una cuenta sectorial completa de hogares.** El uso declarado de ahorros subió de 27.6% a 40.1% entre 1S-2018 y 1S-2024 (+12.5 pp). El stock BCRA cayó 20,6% real en 1S-2024 y luego se informó +21,7% semestral; empalmados mecánicamente darían 96.63 (base dic-2023=100), no 105,5 como la variación interanual reportada. La brecha de 8.87 pp impide unir ambas publicaciones sin revisar revisiones/perímetros.
 

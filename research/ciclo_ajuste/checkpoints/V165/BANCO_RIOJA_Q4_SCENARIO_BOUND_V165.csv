@@ -1,0 +1,3 @@
+﻿scenario,q4_income_bcra_thousand_ars,q4_expense_bcra_thousand_ars,panel_use,remaining_gate
+REGULATORY_RAW_TO_RAW,5494064.165516943874708,0.108985205433436,NO,Issuer 9M result opening absent.
+AUDITED_CLOSING_LAYER,5652853.165516943874708,0.108985205433436,NO,Full closing package reconciled arithmetically; journal and issuer 9M result opening remain absent.

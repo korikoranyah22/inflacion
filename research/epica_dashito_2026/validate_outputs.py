@@ -126,8 +126,8 @@ def validate_claims() -> list[str]:
     if set(ids) != EXPECTED_CLAIM_IDS or len(ids) != 27:
         errors.append("claims_registry.csv debe contener exactamente los ids 1..27")
     for row in rows:
-        if not row["logical_verdict"] or not row["empirical_status"]:
-            errors.append(f"claim {row['claim_id']} sin veredicto lógico o estado empírico")
+        if not row["logical_reading"] or not row["evidence_status"]:
+            errors.append(f"afirmación {row['claim_id']} sin lectura lógica o estado de evidencia")
         linked = {int(value) for value in row["linked_analysis_ids"].split(";")}
         if not linked <= EXPECTED_IDS:
             errors.append(f"claim {row['claim_id']} enlaza análisis inexistentes")

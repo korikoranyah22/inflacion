@@ -1,0 +1,5 @@
+leg,fy_issuer_thousand_ars,nine_month_raw_thousand_ars,factor,q4_thousand_ars,evidence,verdict
+income_bcra,14409056,5712151,1.532908152197492,5652853.165516943874708,FY Annex Q BCRA-only 14409056; A6358/A6402 mapping; later BCRA comparator moves interest income +158.8m; Sep complete candidate set has only 511108/521108,EXACT_SAME_ENTITY_YEAR_BASIS
+expense_bcra,7844,5117,1.532908152197492,0.108985205433436,FY Annex Q BCRA-only expense 7844 equals raw; Sep 521108 only expense candidate,EXACT_SAME_ENTITY_YEAR_BASIS
+income_otherfi,0,0,1.532908152197492,0,FY Annex Q has no other-FI repo income; candidate accounts absent in Sep and FY; later BCRA other financial income unchanged,EXACT_ZERO
+expense_otherfi,0,0,1.532908152197492,0,FY Annex Q has no other-FI repo expense; candidate accounts absent in Sep and FY; later BCRA other financial expense unchanged,EXACT_ZERO

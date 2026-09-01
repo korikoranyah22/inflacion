@@ -1,0 +1,5 @@
+﻿search_id,exact_query,target,surface,result,classification,limit
+FN170_01,"""Plan SIGEN 2009.pdf""",Plan SIGEN 2009.pdf,public web exact-title search,no target body returned,SEARCH_ENGINE_NEGATIVE_SCOPED,No prueba inexistencia ni ausencia en custodia.
+FN170_02,"""Anexo G - Capacitacion 2009.pdf""",Anexo G - Capacitacion 2009.pdf,public web exact-title search,no target body returned,SEARCH_ENGINE_NEGATIVE_SCOPED,No prueba inexistencia ni ausencia en custodia.
+FN170_03,"""planred2009.pdf"" SIGEN",planred2009.pdf,public web exact-title search,no target body returned,SEARCH_ENGINE_NEGATIVE_SCOPED,No prueba inexistencia ni ausencia en custodia.
+FN170_04,"""Anexo F - Cuadro 18"" ""SIGEN"" 2009",Anexo F - Cuadro 18.pdf,public web exact-title search,no target body returned,SEARCH_ENGINE_NEGATIVE_SCOPED,"Los otros diez cuadros permanecen en el inventario de 14 enlaces, no como cuerpos recuperados."

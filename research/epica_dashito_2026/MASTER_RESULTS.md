@@ -8,7 +8,7 @@ La estabilización nominal y la mejora de algunos agregados coexistieron con se�
 
 Nada de esto, por sí solo, identifica una causa única ni permite sumar “perdedores” y “ganadores” en una cuenta distributiva cerrada.
 
-## Hallazgos que sí pasan el gate
+## Resultados con respaldo suficiente para integrar
 
 ### Hogares y crédito
 
@@ -28,11 +28,11 @@ Nada de esto, por sí solo, identifica una causa única ni permite sumar “perd
 
 7. En julio las reservas subieron **USD 2.729 M**. El BCRA compró USD 2.163 M y pagó USD 4.476 M de títulos; organismos internacionales, emisiones y depósitos de entidades aportaron USD 4.991 M. El puente cierra con un residual publicado de **USD 154 M**. Comprar divisas no equivale a acumularlas uno a uno.
 
-8. En 2026-Q1, bienes aportó **USD 6.339 M**, servicios restó **USD 4.028 M**, ingreso primario restó **USD 4.676 M** e ingreso secundario sumó **USD 714 M**. La cuenta corriente cerró en **−USD 1.651 M**. La identidad “superávit comercial = superávit de cuenta corriente” queda rechazada.
+8. En 2026-Q1, bienes aportó **USD 6.339 M**, servicios restó **USD 4.028 M**, ingreso primario restó **USD 4.676 M** e ingreso secundario sumó **USD 714 M**. La cuenta corriente cerró en **−USD 1.651 M**. Los datos muestran que “superávit comercial” y “superávit de cuenta corriente” no describen la misma magnitud contable.
 
 9. El ITCRM fue **85,77 al 28/08/2026**, percentil **24,25** de la historia diaria desde 1997. Es señal de apreciación real relativa a varios comparadores, no estimación de un dólar de equilibrio.
 
-10. Para 2018-2026, la correlación contemporánea depreciación mayorista–IPC fue **0,517** y la suma descriptiva de coeficientes 0–3 meses fue **0,610**. La estimación cambia mucho por régimen y carece de controles; sirve para rechazar una identidad mecánica, no para inferir un pass-through estructural.
+10. Para 2018-2026, la correlación contemporánea depreciación mayorista–IPC fue **0,517** y la suma descriptiva de coeficientes 0–3 meses fue **0,610**. La estimación cambia mucho por régimen y carece de controles; muestra que la relación no es mecánica, pero no permite inferir un pass-through estructural.
 
 ### Incidencia fiscal y desarrollo
 

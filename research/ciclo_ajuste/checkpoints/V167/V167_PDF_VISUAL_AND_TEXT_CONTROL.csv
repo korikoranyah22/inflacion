@@ -1,0 +1,12 @@
+control_id,artifact,page,method,target,result,observation
+PV167_01,bma_9m2023/estado_contable.pdf,54 / printed 130,Poppler render 140 dpi + original-detail visual inspection,Annex Q pass income split,PASS,"BCRA 29,151,547; Other-FI 329,255"
+PV167_02,bma_9m2023/estado_contable.pdf,55 / printed 131,Poppler render 140 dpi + original-detail visual inspection,Annex Q pass expense split,PASS,"Other-FI 874,222; BCRA blank/zero"
+PV167_03,bma_fy2023/estado_contable.pdf,65 / printed 203,Poppler render 140 dpi + original-detail visual inspection,Annex Q pass income split,PASS,"BCRA 79,896,235; Other-FI 574,991"
+PV167_04,bma_fy2023/estado_contable.pdf,66 / printed 204,Poppler render 140 dpi + original-detail visual inspection,Annex Q pass expense split,PASS,"Other-FI 7,081,885; BCRA blank/zero"
+PV167_05,mariva_fy2023/estado_contable.pdf,77 / printed 189,Poppler render 140 dpi + original-detail visual inspection,Annex Q opening identity,PASS,Separated annual Annex Q confirmed
+PV167_06,mariva_fy2023/estado_contable.pdf,78 / printed 190,Poppler render 140 dpi + original-detail visual inspection,Pass income/expense counterparty split,PASS,"Other-FI 27,573,387 income and 13,992 expense; BCRA blank/zero"
+PV167_07,hsbc_fy2023/estado_contable.pdf,36,Poppler render 140 dpi + original-detail visual inspection,Pass result disclosure,PASS_LIMIT,"204,724,664 income and 542,204 expense, both sector financiero unsplit"
+PV167_08,banco_corrientes_eeff_fy2023.pdf,130,Poppler render 140 dpi + original-detail visual inspection,Annex Q pass four-leg split,PASS,"BCRA income 40,870,153; remaining legs zero"
+PV167_09,banco_corrientes_eeff_fy2023.pdf,131,Poppler render 140 dpi + original-detail visual inspection,Annex Q continuation/control,PASS,Document continuity confirmed
+TX161_10,mariva_9m2023/estado_contable.pdf,all 44 physical pages,pdfplumber full-document term search,Annex Q/pass result opening,ABSENT_CONFIRMED,Separated basis confirmed; no Annex Q or pass result opening
+TX161_11,hsbc_9m2023/estado_contable.pdf,full document,pdfplumber full-document term search,Pass result counterparty opening,ABSENT_CONFIRMED,No compatible result split; stock disclosure not used as flow

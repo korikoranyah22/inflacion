@@ -1,0 +1,2 @@
+﻿role,relative_path,source_url,size_bytes,sha256,format_verification
+V170_PUBLIC_SOURCE,/research/ciclo_ajuste/inputs/historical_retrieval/v170/binaries/commoncrawl_collection_catalog_2026_08_31.json,https://index.commoncrawl.org/collinfo.json,34947,c82b50cd071b1491081c794b63f4399782a9dd909c0f24510951c98552dcb3a7,PARSED_JSON_UNIQUE_COLLECTION_IDS

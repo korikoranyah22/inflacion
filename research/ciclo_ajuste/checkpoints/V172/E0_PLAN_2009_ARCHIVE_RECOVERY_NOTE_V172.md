@@ -1,0 +1,5 @@
+# Recuperación archivística · V172
+
+Common Crawl volvió a responder: control 2/2, resto 2016 14/14 y 2017-2020 90/90, total V172 106 negativos válidos acotados, 0 errores y 0 capturas. Se cierra esa superficie pública, no la custodia institucional.
+
+SIGEN documentó en 2007 un sistema informático de Mesa y bases regladas del Archivo Digital; su Memoria 2009 confirma continuidad de clasificación/registro/reordenamiento. CGN exigía desde 2005 asunto/referencia y permitía vincular trámite previo. Su Disposición 32/2009 prueba una cadena híbrida con original foliado, medio óptico, nota, índice, control de integridad y responsabilidad por respaldo. Se corrige que COMDOC no comenzó en 2010: ya existía en 2008 para ciertos circuitos; la regla 2010 sólo fija alcance CGN y continuidad de Nota. Cuerpo/asiento 3672, acto 41/07, IDs receptor/SISIO y Plan 2009 siguen abiertos. Archivo 602/602; panel 34 y 63.4406041403540997520463142785031521252747951992299547614348265414453439585848248058817492708499966268585997481191265825%; seis borradores DRAFT_NOT_SENT, solicitudes 0, SAF355 0/5 y ejecución 0/10.

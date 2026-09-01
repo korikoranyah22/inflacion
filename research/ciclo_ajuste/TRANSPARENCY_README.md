@@ -163,3 +163,53 @@ All 30 CNV attachments pass format validation, but the CNV-declared base64 `hash
 ## V162 · Banco Rioja y control negativo HSBC
 
 Se preservó la Disciplina de Mercado de Banco Rioja al 30/09/2023 y se obtuvo una conciliación exacta del stock con capital más interés devengado en el raw BCRA. La apertura de resultados 9M no aparece y el cierre anual difiere del raw en stock e ingreso; por eso no hay promoción. Los ocho adjuntos complementarios HSBC tampoco separan BCRA de otras entidades. El archivo catalogado queda 578/578; dos comunicaciones BCRA verificadas públicamente permanecen en cola binaria por reinicios del servidor.
+
+
+## V163 · Fe de erratas Banco Rioja
+
+V162 omitió por error la cuenta 141222 de diciembre. V163 conserva el error histórico y lo corrige explícitamente: 141222 = 79.394k, stock raw completo = 29.058.359k y diferencia contra el auditado = 158.789k. El mismo residuo aparece en ingreso. Se documenta una hipótesis de asiento balanceado, pero no se la trata como hecho ni se promueve la entidad sin conciliación autenticada. Se preservó además la Disciplina de Mercado 9M-2024; el archivo catalogado queda 579/579.
+
+
+## V164 · Capa de cierre Banco Rioja
+
+Se preservaron las divulgaciones Q1, Q2 y FY 2023 de Banco Rioja y las comunicaciones A6358/A6402. Las cuatro divulgaciones trimestrales muestran saldos idénticos en publicación y supervisión. El cierre usa 29.217.148k, frente a 29.058.359k en el detalle raw: diferencia 158.789k. Las normas resuelven el mapeo de cuentas; no autentican el asiento ni el ajuste de resultado. El archivo queda 584/584 y la cola binaria A6358/A6402 baja a cero.
+
+
+## V165 · Paquete de cierre Banco Rioja
+
+El activo y el resultado corriente pasan del raw al auditado con el mismo delta de +62.306k; pasivos y patrimonio previo al resultado quedan invariantes. Pases aporta +158.789k y el resto compensa -96.483k. La identidad prueba un paquete de cierre equilibrado, pero no autentica diario, comprobante, número de asientos ni apertura 9M. El panel permanece en 33 entidades.
+
+
+## V166 · Promoción Banco Rioja
+
+Un IEF BCRA posterior vuelve a publicar diciembre de 2023 en la capa auditada y ubica el residuo de 158.789k dentro de ingresos por intereses, con las otras aperturas financieras invariantes. Anexo Q, A6358/A6402 y el censo raw completo cierran las cuatro patas bajo una regla restringida a Banco Rioja, 2023 y la misma base. El panel pasa a 34 entidades y 63.4406041403540997520463142785031521252747951992299547614348265414453439585848248058817492708499966268585997481191265825% de activos; archivo 585/585.
+
+
+## V167 · Ruta histórica Plan SIGEN 2009
+
+Dos registros Common Crawl preservan páginas oficiales SIGEN y prueban que la URL genérica estaba rezagada en Plan 2007, mientras la página 2008 ya usaba `documentacion/plananualpdfs` y nombres con espacios. El control 2010 confirma la carpeta pero también otra evolución de nombres. El candidato 2009 correcto no fue capturado en las colecciones consultadas y hoy devuelve 404: negativos acotados, no inexistencia. Plan 2009, Nota 3672/09 y crosswalk continúan abiertos. Archivo 587/587; panel 34 sin cambio.
+
+
+## V168 · Página oficial Plan SIGEN 2009
+
+Internet Archive conserva cinco capturas de `plananual2009.asp`; la primera fue preservada y enumera catorce documentos: plan, Anexo F 8-18, Anexo G capacitación y Plan Red. Los PDFs no aparecen en los archivos consultados. Common Crawl conserva el formulario histórico de resoluciones, pero no sus respuestas POST. La Memoria confirma aprobación el 15-12-2008; el BO del día no publica resolución SIGEN, negativo fechado que no descarta acto interno. Nota 3672/09 e ids SISIO siguen abiertos. Archivo 591/591; panel 34 sin cambio.
+
+
+## V169 · Hueco editorial y doble identificador
+
+El índice oficial de 78 suplementos Actos de Gobierno entre septiembre de 2008 y marzo de 2010 enumera Plan SIGEN 2008 y Plan SIGEN 2010, pero no el Plan 2009: negativo de esa superficie, no de existencia o publicación universal. Wayback conserva 25 PDFs tardíos de la misma carpeta para planes 2013-2015, ninguno target. El Informe ENARGAS 2009 prueba con seis ejemplos que una Nota SIGEN podía adquirir otro número de actuación al ingresar al receptor; por eso Nota 3672/09 se buscará por salida e ingreso correlacionados. Cuerpos, acto, nota e ids SISIO siguen abiertos. Archivo 596/596; panel 34 sin cambio.
+
+
+## V170 · Corrección Common Crawl y receptor contextual CGN
+
+El lote Common Crawl con patrón ancho no se usa como evidencia: seis páginas HTML 503 y dos grupos de capturas generales del dominio fueron falsos positivos, y el negativo V169 asociado queda superado. El catálogo oficial conserva 74 colecciones 2013-2020; cuatro consultas válidas exact-prefix de 2013 fallaron por servicio y no cuentan como ausencia. La Cuenta 2009 identifica contextualmente a CGN como receptora de Nota 3672/09, pero el destinatario formal, número de entrada, cuerpo e IDs SISIO permanecen abiertos. Archivo 597/597; panel 34 sin cambio.
+
+
+## V171 · Ruta registral CGN y corte COMDOC
+
+La Disposición CGN 41/1996 obliga a ingresar documentación por Mesa y registrar los pases internos; la Circular CGN 04/2010 fecha COMDOC III y confirma continuidad de actuaciones por Nota. Para la Nota 3672/09, CGN pasa de receptor contextual a productor registral primario testable, sin que aparezcan aún asiento, cuerpo o IDs SISIO. Common Crawl: 40 consultas nuevas, 4 negativos acotados, 36 errores y 0 capturas; los catorce títulos exactos no devolvieron cuerpos. Las copias históricas oficiales se preservaron declarando certificado TLS vencido. Archivo 599/599; panel 34 sin cambio.
+
+
+## V172 · Mesa SIGEN y custodia híbrida CGN
+
+La Memoria SIGEN 2007 documenta Mesa informatizada y bases del Archivo Digital; la Circular CGN 17/2005 agrega asunto/referencia y trámite previo; la Disposición CGN 32/2009 prueba un circuito híbrido, foliado e indexado con controles de recepción. Se corrige la cronología: COMDOC III ya existía en 2008 para ciertos circuitos y la Circular 04/2010 fija un alcance CGN posterior, no su creación. Common Crawl agregó 106 negativos válidos acotados sin capturas. Ruta y capacidad no se convierten en cuerpo/asiento. Archivo 602/602; panel 34 sin cambio; solicitudes 0.

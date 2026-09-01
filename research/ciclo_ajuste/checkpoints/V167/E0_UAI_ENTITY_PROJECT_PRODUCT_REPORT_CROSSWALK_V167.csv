@@ -1,0 +1,10 @@
+﻿layer,known_target_value,evidence,exact_link_to_2009_target,missing_identifier,status
+UAI,UAI Ministerio de Economía y Finanzas Públicas,"Plan 2010 Anexo H, crosswalk cercano al período objetivo",NO,encabezado y versión UAI del Plan 2009,NEAR_TARGET_ONLY
+entidad,MEyFP; ONCCA; MAGyP; MIyT; YCRT bajo una UAI en 2010,Plan 2010 Anexo H y competencia transitoria del Decreto 1366/2009,PARCIAL,crosswalk 2009 fila a fila con vigencia efectiva,LEGAL_AND_PLAN_BRIDGE
+proyecto,Cuenta de Inversión como programa horizontal en 2008 y 2010,Plan SIGEN 2008 y Plan SIGEN 2010,NO,"id, título, horas y área responsable del proyecto 2009",ANNUAL_CONTINUITY_NOT_IDENTITY
+producto,Informe global Cuenta de Inversión 2008 emitido en 2009,referencia en Memoria SIGEN 2009,PARCIAL,"id de producto, número de informe y UAI contribuyentes",PRODUCT_REFERENCED_BODY_ABSENT
+supervision_planeamiento,aproximadamente 120/160 informes de supervisión alrededor del período,agregados de Cuenta 2009 y Memoria 2009,NO,"número, fecha y versión del plan en el informe UAI Economía",DENOMINATOR_OPEN
+informe_sustantivo,objeto global de control Cuenta de Inversión 2008,inventario Libro Blanco SIGEN y memoria anual,PARCIAL,"cuerpo, anexos, contribuyentes, distribución y papeles de trabajo",REPORT_BODY_OPEN
+nota_3672,Nota SIGEN 3672/09 GSEyP ordena seguimiento SISIO,referencia contemporánea en Cuenta CGN 2009 UEPEX,SOLO_REFERENCIA,"fecha completa, cuerpo firmado, destinatarios, adjuntos y registro de salida",NOTE_BODY_OPEN
+observacion_SISIO,los hallazgos debían incorporarse a SISIO para seguimiento UAI,referencia contemporánea a Nota 3672/09 y esquema Resolución 15/2006,NO,"id, organismo, observación, estado, historial y documentos vinculados",SYSTEM_ENTRY_OPEN
+ejecucion_bancaria,ninguna capa de planeamiento prueba pago o reversa,registro de quiebres metodológicos,NO,10 filas objetivo de ejecución y respaldo bancario,BANK_GATE_0_OF_10

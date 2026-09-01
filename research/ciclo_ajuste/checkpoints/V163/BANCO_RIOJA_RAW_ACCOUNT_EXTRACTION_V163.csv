@@ -1,0 +1,9 @@
+﻿period,entity_code,account,side,value_thousand_ars,description,source_member
+2023-09,00309,141144,DEBIT,14148116,Deudores financieros por pases activos con el BCRA - capital,Entfin/Tec_Cont/baldet/00309.txt
+2023-09,00309,141222,DEBIT,43026,Intereses devengados a cobrar por pases activos con el BCRA,Entfin/Tec_Cont/baldet/00309.txt
+2023-09,00309,511108,CREDIT,5712151,Intereses por pases activos con el BCRA,Entfin/Tec_Cont/baldet/00309.txt
+2023-09,00309,521108,DEBIT,5117,Intereses por pases pasivos con el BCRA,Entfin/Tec_Cont/baldet/00309.txt
+2023-12,00309,141144,DEBIT,28978965,Deudores financieros por pases activos con el BCRA - capital,Entfin/Tec_Cont/baldet/00309.txt
+2023-12,00309,141222,DEBIT,79394,Intereses devengados a cobrar por pases activos con el BCRA,Entfin/Tec_Cont/baldet/00309.txt
+2023-12,00309,511108,CREDIT,14250267,Intereses por pases activos con el BCRA,Entfin/Tec_Cont/baldet/00309.txt
+2023-12,00309,521108,DEBIT,7844,Intereses por pases pasivos con el BCRA,Entfin/Tec_Cont/baldet/00309.txt

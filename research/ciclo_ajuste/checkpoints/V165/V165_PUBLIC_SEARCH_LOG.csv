@@ -1,0 +1,5 @@
+﻿control_id,institution,url,result,decision
+WEB165_01,BCRA,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202309e.pdf,OFFICIAL_9M_IEF_PUBLIC_TOTALS_LOCALLY_PRESERVED,USE_AS_ROUNDED_PUBLIC_CONTROL_NOT_REPO_OPENING
+WEB165_02,BCRA,https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/Entidades/202312e.pdf,OFFICIAL_FY_IEF_PUBLIC_TOTALS_LOCALLY_PRESERVED,USE_AS_PUBLIC_RAW_LAYER_CONTROL
+WEB165_03,Banco Rioja,https://bancorioja.com.ar/pdf/EEFF-BR-2023.pdf,OFFICIAL_AUDITED_CLOSING_PACKAGE_LOCALLY_PRESERVED,USE_AS_SIGNED_CLOSING_LAYER
+WEB165_04,Banco Rioja,https://bancorioja.com.ar/institucional/disciplina-de-mercado,NO_ISSUER_9M_REPO_RESULT_OPENING_IN_PUBLIC_DISCIPLINE_FILES,HOLD_RESULT_FLOW_GATE

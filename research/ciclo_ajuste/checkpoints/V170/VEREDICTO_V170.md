@@ -1,0 +1,3 @@
+# Veredicto V170
+
+Avance metodológico y archivístico sin cierre indebido. Se retira del balance probatorio un supuesto negativo Common Crawl: el patrón ancho no restringía de manera confiable la carpeta y seis respuestas HTML 503 habían sido mal clasificadas. El catálogo permite definir 74 colecciones 2013-2020, pero el reintento exacto de 2013 sólo produjo errores de servicio. En la Nota 3672/09, la redacción contemporánea permite priorizar a la CGN como receptora contextual; no habilita inventar el destinatario nominal ni el identificador receptor. Sin promoción bancaria ni solicitud enviada.

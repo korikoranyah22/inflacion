@@ -1,0 +1,10 @@
+row_id,date_or_period,rule,target_fit,source_id,status
+PO137_01,1995-04-20,C-41 alcanzada se presenta primer día hábil tras confirmación TRANSAF; incumplimiento baja transmisión,entorno TRANSAF compatible; alcance material por orden abierto,e0_cgn_circular_19_1995_transaf_paper_timing,HISTORIC_RULE_EXACT_TARGET_SCOPE_OPEN
+PO137_02,1995-08-16,"FF11: papel si >=50.000, clases especiales o exterior BNA/BCRA","agregado ARS32.270,30 no supera umbral; fuente y clase individual abiertas",e0_cgn_circular_33_1995_paper_form_scope,CONDITIONAL
+PO137_03,1995-2009,frase final SAF355/356: formularios para toda fuente y monto,"productor SAF355 exacto, pero frase ubicada tras apartado C-43",e0_cgn_circular_33_1995_paper_form_scope;e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,TEXT_EXACT_SCOPE_PLACEMENT_AMBIGUOUS
+PO137_04,2007-10-04,toda salida Tesoro requiere orden formal; deuda pública menor al umbral sigue por TGN bajo fuentes enumeradas,SAF355/J90 exacto; tipo/fuente de los tres registros abierta,e0_argentina_decree_1344_2007_original_finance_rule,CONTEMPORANEOUS_PAYER_RULE_STRONG
+PO137_05,2007-10-12 interpreted 2013,deuda pública = PAGADOR TGN cualquiera sea el monto,"evita excluir por ARS32.270,30; clasificación individual aún debe recuperarse",e0_tgn_manual_system_treasury_v1,OFFICIAL_LATER_INTERPRETATION
+PO137_06,2009-03-12,papel para Administración Central cuando PAGADOR TGN; deroga Circular 33/95,sucesor inmediato; no prueba presentación target 2008,e0_cgn_tgn_joint_disposition_13_16_2009_payment_records,POST_TARGET_COMPARATOR
+PO137_07,2013-04-11,C-41 papel ordenada por tipo/número y enviada CGN→TGN,práctica posterior de localización,e0_cgn_circular_05_2013_c41_paper_ordering,LATER_CONTROL_ONLY
+PO137_08,V138 conclusion,"probabilidad alta de rastro papel, prueba estricta target no cerrada","pedir planilla/índice, tipo documental, caja y copia",multiple_primary_sources,PAPER_ROUTE_PRIORITIZED_NOT_ASSERTED
+

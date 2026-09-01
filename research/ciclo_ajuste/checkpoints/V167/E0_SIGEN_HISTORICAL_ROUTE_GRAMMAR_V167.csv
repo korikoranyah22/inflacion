@@ -1,0 +1,5 @@
+﻿control_id,capture_or_period,page,document_route,annex_route,result,probative_use,limit
+RG167_01,2008-10-06,plananual.asp,documentos_pdf/Plan_SIGEN_2007.pdf,documentos_pdf/plannual2007/cuadro5..15.pdf,GENERIC_PAGE_STALE_STILL_PLAN_2007,No equiparar URL genérica con año publicado,No corresponde al Plan 2009
+RG167_02,2008-07-05,plananual2008.asp,documentacion/plananualpdfs/Plan SIGEN 2008.pdf,documentacion/plananualpdfs/Anexo D - Cuadro 5..15.pdf,SPECIFIC_PAGE_AND_NEW_NAMING_GRAMMAR_CONFIRMED,Fija carpeta histórica y uso de espacios,No determina los nombres usados en 2009
+RG167_03,2010-09,plananual2010.asp referido por Infoleg,documentacion/plananualpdfs/Plan SIGEN 2010.pdf,Plan SIGEN 2010 - Anexo D Cuadro 4..14.pdf; Anexo E,COMMON_CRAWL_2010_CONTROL_CAPTURED,Confirma continuidad de carpeta y evolución de nombres,Sólo comparador cercano al período objetivo
+RG167_04,hipótesis 2009,plananual2009.asp,documentacion/plananualpdfs/Plan SIGEN 2009.pdf,UNKNOWN_BETWEEN_2008_AND_2010_PATTERNS,HIGH_PRECISION_CANDIDATE_NOT_CAPTURED,Localizador archivístico y clave para pedido de acceso,La inferencia no sustituye evidencia documental

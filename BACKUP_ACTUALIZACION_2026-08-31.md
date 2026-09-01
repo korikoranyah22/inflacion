@@ -1,8 +1,9 @@
 # Backup de actualización · 2026-08-31
 
-- Checkpoint: V162.
-- Fuentes catalogadas: 578/578 local y SHA-válido.
-- Banco Rioja: stock 9M exacto; diferencias FY raw/issuer preservadas; sin promoción.
-- HSBC: adjuntos complementarios agotados; sin promoción.
-- Panel: 33 entidades, 63.3404130639287055191506606276878645985932518939916205138518528603403997357930830936917209159343409585184995437662731063% de activos.
-- Solicitudes: 0 enviadas; seis borradores DRAFT_NOT_SENT.
+- Checkpoint: V172.
+- Fuentes: 602/602; +3 oficiales y 106 consultas Common Crawl preservadas.
+- SIGEN: Mesa informatizada y Archivo Digital pre-target documentados; acto 41/07/cuerpo 3672 abiertos.
+- CGN: asunto/referencia, trámite previo y custodia híbrida 2009 documentados.
+- Common Crawl: 106 negativos acotados, 0 errores, 0 capturas.
+- Panel: 34; 63.4406041403540997520463142785031521252747951992299547614348265414453439585848248058817492708499966268585997481191265825% de activos; promociones 0.
+- Solicitudes: 0 enviadas; seis DRAFT_NOT_SENT; SAF355 0/5; ejecución 0/10.

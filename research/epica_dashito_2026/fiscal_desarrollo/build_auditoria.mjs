@@ -515,7 +515,7 @@ await writeCsv("matriz_brechas_epica.csv", gaps, [
   "item_epica", "estado", "disponible", "faltante", "regla_no_inferencia", "prioridad_siguiente", "fecha_corte",
 ]);
 
-const report = `# Auditoría empírica — fiscal, balances sectoriales, inversión-empleo e infraestructura
+const report = `# Análisis empírico — fiscal, balances sectoriales, inversión-empleo e infraestructura
 
 **Fecha de corte:** ${cutoff}  
 **Ítems de la épica:** 3–4, 17–25 y 36–40  
@@ -523,7 +523,7 @@ const report = `# Auditoría empírica — fiscal, balances sectoriales, inversi
 
 ## Resultado ejecutivo
 
-1. **La incidencia salarial fue desigual.** Con IPC nacional e índices INDEC, desde noviembre de 2023 el salario real privado registrado tocó un mínimo de ${wagePrivate.trough_index.toFixed(2)} en ${wagePrivate.trough_period} y a junio de 2026 seguía ${pct(wagePrivate.saldo_vs_baseline_pct)} respecto de la base. El público tocó ${wagePublic.trough_index.toFixed(2)} y seguía ${pct(wagePublic.saldo_vs_baseline_pct)}. El no registrado arroja un salto extremo y queda marcado para auditoría metodológica, no como mejora consolidada.
+1. **La incidencia salarial fue desigual.** Con IPC nacional e índices INDEC, desde noviembre de 2023 el salario real privado registrado tocó un mínimo de ${wagePrivate.trough_index.toFixed(2)} en ${wagePrivate.trough_period} y a junio de 2026 seguía ${pct(wagePrivate.saldo_vs_baseline_pct)} respecto de la base. El público tocó ${wagePublic.trough_index.toFixed(2)} y seguía ${pct(wagePublic.saldo_vs_baseline_pct)}. El no registrado arroja un salto extremo y queda marcado para revisión metodológica, no como mejora consolidada.
 
 2. **Hubo desahorro/fragilidad observada, pero no una cuenta sectorial completa de hogares.** El uso declarado de ahorros subió de ${householdUseSavings1h2018}% a ${householdUseSavings1h2024}% entre 1S-2018 y 1S-2024 (+${(householdUseSavings1h2024-householdUseSavings1h2018).toFixed(1)} pp). El stock BCRA cayó 20,6% real en 1S-2024 y luego se informó +21,7% semestral; empalmados mecánicamente darían ${stockMechanicalEnd2024.toFixed(2)} (base dic-2023=100), no 105,5 como la variación interanual reportada. La brecha de ${stockSpliceGapPp.toFixed(2)} pp impide unir ambas publicaciones sin revisar revisiones/perímetros.
 

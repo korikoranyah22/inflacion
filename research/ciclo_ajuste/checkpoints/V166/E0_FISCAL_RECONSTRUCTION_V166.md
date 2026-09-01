@@ -1,0 +1,3 @@
+# Reconstrucción fiscal E0 V166
+
+La reconstrucción incorpora el glosario oficial GSEyP/GSPF, el crosswalk UAI-entidades del Plan 2010 y el puente jurídico del Decreto 1366/2009. Se piden por separado: acto exacto de vigencia, Nota 3672/09, Plan 2009 y Anexo G, crosswalk UAI-entidad-proyecto-producto-informe, aplicación concreta de la competencia transitoria, y cruce OT/SDP con los registros target. La UAI Banco Nación queda separada del asiento bancario; consolidación del pasivo queda separada de recompra. Documento, sistema, banco y reversas continúan siendo necesarios para ejecución. Estado 0/10.

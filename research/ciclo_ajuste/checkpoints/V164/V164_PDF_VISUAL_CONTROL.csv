@@ -1,0 +1,14 @@
+﻿control_id,artifact,page,result,observation,method
+PV164_01,DM-31-03-23.pdf,7,PASS,"Pases 4,445,150 in publication and supervision.",Poppler render + original-detail visual inspection
+PV164_02,DM-30-06-23.pdf,7,PASS,"Pases 8,231,958 in publication and supervision.",Poppler render + original-detail visual inspection
+PV164_03,DM-31-12-23.pdf,7,PASS,"Pases 29,217,148 in publication and supervision.",Poppler render + original-detail visual inspection
+PV164_04,A6358.pdf,3,PASS,Plan definitions for 141144 and 141222.,Poppler render + original-detail visual inspection
+PV164_05,A6358.pdf,12,PASS,Plan definition for 511108.,Poppler render + original-detail visual inspection
+PV164_06,A6358.pdf,15,PASS,Plan definition for 521108.,Poppler render + original-detail visual inspection
+PV164_07,A6358.pdf,32,PASS,141144/141222 mapped to public repo operations.,Poppler render + original-detail visual inspection
+PV164_08,A6358.pdf,38,PASS,511108/521108 mapped into public interest income/expense.,Poppler render + original-detail visual inspection
+PV164_09,A6402.pdf,19,PASS,141144/141222 mapped to supervisory BCRA OCIF subrubric.,Poppler render + original-detail visual inspection
+PV164_10,A6402.pdf,24,PASS,511108 appears in supervisory other financial income.,Poppler render + original-detail visual inspection
+PV164_11,A6402.pdf,25,PASS,521108 appears in supervisory other financial expense.,Poppler render + original-detail visual inspection
+PV164_12,A6402.pdf,29,PASS,Public repo-operation mapping includes 141144/141222.,Poppler render + original-detail visual inspection
+PV164_13,A6402.pdf,31,PASS,Public interest mapping includes 511108/521108.,Poppler render + original-detail visual inspection

@@ -1,0 +1,10 @@
+rule_id,query,zero_permits,zero_forbids,required_metadata,status
+CZ141_01,Entidades Básicas,ninguna cuenta bajo filtros,inexistencia de cuenta en 2008,vigencia;SAF;dataset;cobertura,FROZEN
+CZ141_02,Saldos por Apertura,sin saldo para tipo consultado,ausencia de movimientos,tipos incluidos;fechas;cuentas,FROZEN
+CZ141_03,Extractos,sin fila en cuenta/ventana,no hubo débito o el extracto está completo,cuenta histórica;ventana;signos;archivo cargado,FROZEN
+CZ141_04,Logs de Impacto,sin evento bajo clave,el formulario no impactó,modelo de log;claves;retención;cobertura,FROZEN
+CZ141_05,"Cruce 32.270,30",sin importe exacto,no existieron componentes o neteos,variantes;partes;signos;moneda,FROZEN
+CZ141_06,Conciliación,sin pendiente,pago correcto o inexistencia,conciliados;regularizados;fecha de proceso,FROZEN
+CZ141_07,Auditor,grilla vacía,ausencia/pago del target,filtros;versión;fechas hasta;datasets,FROZEN
+CZ141_08,Cadena completa,ninguna coincidencia reproducible,0/10 ejecutado,respuesta institucional;exportaciones;diccionarios;derivaciones,FROZEN
+

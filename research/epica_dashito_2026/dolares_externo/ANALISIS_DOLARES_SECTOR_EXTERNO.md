@@ -1,4 +1,4 @@
-# Dólares, reservas y sector externo — ejecución empírica
+# Dólares, reservas y sector externo — análisis empírico
 
 **Fecha de corte:** 31 de agosto de 2026  
 **Últimos datos efectivos:** reservas, 26/08/2026; ITCRM y tipo de cambio mayorista, 28/08/2026; inflación, julio de 2026; balanza de pagos, I trimestre de 2026; comercio de bienes, enero-julio de 2026.  
@@ -18,7 +18,7 @@
 
 ## 1. Reservas: bruto observado y claims identificables
 
-La API del BCRA informa **reservas internacionales brutas por USD 50.784 millones al 26/08/2026**. El siguiente puente es una auditoría de stocks identificables, no una metodología oficial de neteo:
+La API del BCRA informa **reservas internacionales brutas por USD 50.784 millones al 26/08/2026**. El siguiente puente organiza stocks identificables, no una metodología oficial de neteo:
 
 | Stock / claim | USD millones | Fecha | Tratamiento |
 |---|---:|---|---|
@@ -31,7 +31,7 @@ La API del BCRA informa **reservas internacionales brutas por USD 50.784 millone
 
 Los tres rubros diarios publicados en pesos se convirtieron al tipo de cambio mayorista del 26/08/2026. Esa conversión es una aproximación de comparabilidad, no la cotización contable oficial de cada contrato. El REPO y el swap se toman de comunicados del BCRA y se mantienen como memo items.
 
-### Las cuatro etiquetas pedidas, sin falsa precisión
+### Las cuatro etiquetas pedidas, con precisión compatible con las fuentes
 
 | Concepto | Resultado al corte | Por qué |
 |---|---|---|
@@ -44,7 +44,7 @@ Como cobertura mecánica, las brutas equivalen a **8,4 meses** del promedio mens
 
 **Qué muestran los datos:** el titular bruto convive con pasivos y saldos afectados de magnitud material.  
 **Qué no muestran:** cuánto puede vender inmediatamente el BCRA sin afectar encajes, garantías, swaps o vencimientos.  
-**Hipótesis que sobrevive:** el poder de fuego propio es menor que el bruto.  
+**Lectura compatible con los datos:** el poder de fuego disponible bajo condiciones específicas es menor que el stock bruto.
 **Dato necesario:** planilla oficial de reservas y liquidez en moneda extranjera, con todos los componentes a igual fecha.
 
 ## 2. Anatomía de julio: stock versus flujo
@@ -92,7 +92,7 @@ La identidad MBP6 cierra exactamente:
 | Ingreso secundario | +714 |
 | **Cuenta corriente** | **-1.651** |
 
-Esto refuta la identidad informal “superávit comercial = superávit externo”. Los intereses, utilidades/dividendos y otras rentas están en ingreso primario; turismo y otros servicios, en servicios. El informe de INDEC no permite aislar aquí dividendos de intereses sólo con el resumen, por lo que no se inventa esa separación.
+Los datos muestran los límites de equiparar “superávit comercial” con “superávit externo”. Los intereses, utilidades/dividendos y otras rentas están en ingreso primario; turismo y otros servicios, en servicios. El informe de INDEC no permite aislar aquí dividendos de intereses sólo con el resumen, por lo que no se inventa esa separación.
 
 ### Comercio enero-julio de 2026
 
@@ -156,7 +156,7 @@ Las correlaciones simples máximas con IPC fueron 0,517 para el TC contemporáne
 
 **Qué muestran:** co-movimiento, rezago e inestabilidad entre ventanas.  
 **Qué no muestran:** causalidad ni un coeficiente estructural para simular política.  
-**Hipótesis que sobrevive:** el pass-through depende del régimen, expectativas, actividad y composición del IPC.  
+**Lectura compatible con los datos:** el pass-through varía con el régimen, las expectativas, la actividad y la composición del IPC.
 **Dato/método necesario:** núcleo, regulados, alimentos, REM, actividad y salarios; local projections/VAR con identificación y errores robustos.
 
 ## 6. Deuda y apoyo externo: piezas verificables, no auditor completo
@@ -179,7 +179,7 @@ La matriz completa está en `gaps_matrix.csv`. Las tres brechas críticas son:
 2. Balanza de pagos del II trimestre de 2026 para comparar ventanas homogéneas con comercio.
 3. Base contractual consolidada Tesoro+BCRA para vencimientos 2027-2031.
 
-Los ítems 8, 30-33 y 35 permanecen parciales o abiertos. Eso es un resultado de auditoría, no un cero: la evidencia pública obtenida no permite cerrarlos sin falsa precisión.
+Los ítems 8, 30-33 y 35 permanecen parciales o abiertos. Eso es un resultado del análisis, no un cero: la evidencia pública obtenida no permite cerrarlos sin una precisión que las fuentes no respaldan.
 
 ## Reproducción y controles
 

@@ -1,0 +1,14 @@
+test_id,observable,target_or_expected,c55_prediction,discriminator,target_status,source_id
+C55T138_01,concepto,COMISIONES - BANCO NACION,coincide con ejemplo de comisión debitada,tipo/subtipo,MATCH_NON_CONCLUSIVE,e0_cgn_cuenta_inversion_2008_sdp;e0_dgsiaf_slu_global_regularization_2004
+C55T138_02,tipo formulario,C55,C55-REG,campo tipo,OPEN_CRITICAL,e0_dgsiaf_slu_sidif_number_input_2003
+C55T138_03,subtipo,Débito Directo,sin formulario original obligatorio,campo subtipo,OPEN_CRITICAL,e0_dgsiaf_slu_global_regularization_2004
+C55T138_04,cuenta débito,BNA; cuenta SAF 355/fondo rotatorio,obligatoria,banco/sucursal/cuenta,OPEN,e0_dgsiaf_slu_global_regularization_2004;e0_cgn_circular_13_2002_foreign_payments
+C55T138_05,beneficiario,BNA o ente definido en registro,obligatorio,código/denominación/CUIT,OPEN,e0_dgsiaf_slu_global_regularization_2004
+C55T138_06,fuente y clase,valores existentes,obligatorios,FF; clase de gasto,OPEN,e0_dgsiaf_slu_global_regularization_2004
+C55T138_07,imputación,partida 7.2.8,detalle presupuestario,inciso/principal/parcial/subparcial,AGGREGATE_ONLY,e0_cgn_cuenta_inversion_2008_sdp;e0_dgsiaf_slu_global_regularization_2004
+C55T138_08,impactos,compromiso/devengado/pagado o devengado/pagado,al autorizar,importes por etapa,OPEN,e0_dgsiaf_slu_global_regularization_2004
+C55T138_09,aceptación central,aceptado/no rechazado,impacto Libro Banco sólo tras aceptación,historia envío/respuesta SC,OPEN_CRITICAL,e0_dgsiaf_slu_global_regularization_2004
+C55T138_10,Libro Banco,débito y N° C55,impacto +débito,conc_02.rep,OPEN_CRITICAL,e0_dgsiaf_slu_global_regularization_2004;e0_dgsiaf_slu_bank_reconciliation_reports_2002
+C55T138_11,extracto,movimiento BNA conciliado,fecha/importe/estado,conc_01.rep,OPEN_CRITICAL,e0_dgsiaf_slu_bank_reconciliation_reports_2002
+C55T138_12,suma,"tres filas = 32.270,30",agregado exacto,suma sin duplicar regularizaciones/desafectaciones,OPEN_CRITICAL,e0_cgn_cuenta_inversion_2008_sdp
+

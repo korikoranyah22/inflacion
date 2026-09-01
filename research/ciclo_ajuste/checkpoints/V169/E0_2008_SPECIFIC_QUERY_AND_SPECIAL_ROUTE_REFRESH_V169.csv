@@ -1,0 +1,16 @@
+row_id,object,finding_or_rule,locator,source_id,status
+RF151_01,2008_ANALYSIS,CGN contrastó movimientos informados por SAF y DADP en SIDIF.,Cuenta 2008 p.72,e0_cgn_account_2008_uepex_closing_exception,CONTEMPORANEOUS_CONTROL
+RF151_02,2008_COMMUNICATIONS,"Las diferencias se verificaban mediante comunicaciones con programas, áreas y DADP.",Cuenta 2008 p.72,e0_cgn_account_2008_uepex_closing_exception,CONTACT_ROUTE
+RF151_03,2008_LISTS,Se elaboraban listados detallados y parametrizados.,Cuenta 2008 p.73,e0_cgn_account_2008_uepex_closing_exception,QUERY_CAPABILITY
+RF151_04,2008_SPECIFIC,También se efectuaban consultas específicas de movimientos del sistema.,Cuenta 2008 p.73,e0_cgn_account_2008_uepex_closing_exception,QUERY_CAPABILITY
+RF151_05,2008_REPLACEMENT,Información corregida podía reemplazar cuadros.,Cuenta 2008 p.73,e0_cgn_account_2008_uepex_closing_exception,CORRECTION_ROUTE
+RF151_06,2008_UAI,Ejecución podía regularizarse con formularios certificados por UAI.,Cuenta 2008 p.73,e0_cgn_account_2008_uepex_closing_exception,REGULARIZATION_ROUTE
+RF151_07,2008_EXTRA,Movimientos extrapresupuestarios requerían explicaciones claras.,Cuenta 2008 p.73,e0_cgn_account_2008_uepex_closing_exception,EXPLANATION_ROUTE
+RF151_08,SAF355_EXCEPTION,SAF355 y SAF356 no estaban obligados a cuadros ordinarios de cierre.,Cuenta 2008 p.76,e0_cgn_account_2008_uepex_closing_exception,SPECIAL_ROUTE
+RF151_09,UNILATERAL_ADJUST,CGN podía efectuar ajustes si no obtenía reemplazo adecuado en el universo descrito.,Cuenta 2008 p.76,e0_cgn_account_2008_uepex_closing_exception,ADJUSTMENT_ROUTE
+RF151_10,LOCAL_PARAM,Disposición 31/2006 habilitó listado parametrizado del sistema local.,Disp.31/2006,e0_cgn_disposition_31_2006_parameterized_reports,LOCAL_QUERY_OUTPUT
+RF151_11,CENTRAL_PARAM,El comparador 2009 nombra listado parametrizado SIDIF Central remitido por CGN.,Instructivo 2/2009 Anexo IV,e0_cgn_sigen_instruction_account_2009,CENTRAL_QUERY_OUTPUT
+RF151_12,AGGREGATE_LIMIT,Circular 2/1999 incluye pagado agregado por clasificadores.,Circular 2/1999,e0_cgn_circular_2_1999_parameterized_text_file,NOT_FORM_BODY
+RF151_13,SCOPE_LIMIT,Las consultas específicas 2008 están documentadas en contexto UEPEX.,Cuenta 2008 pp.72-76,e0_cgn_account_2008_uepex_closing_exception,DO_NOT_GENERALIZE_TARGET
+RF151_14,REQUEST,"Pedir salida local, salida central, consulta específica, respuesta y ajuste por cada ID.",Regla V169,e0_cgn_account_2008_uepex_closing_exception,DRAFT_NOT_SENT
+

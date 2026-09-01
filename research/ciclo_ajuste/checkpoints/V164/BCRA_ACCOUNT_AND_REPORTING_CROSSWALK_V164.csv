@@ -1,0 +1,5 @@
+﻿account,account_meaning,publication_mapping,supervision_mapping,primary_support,decision
+141144,Active repos of monetary-regulation instruments with BCRA - capital,Operaciones de pase,OCIF / BCRA / Deudores por venta contado a liquidar y pases activos,"A6358 pp3,32; A6402 pp19,29",INCLUDE_IN_ACTIVE_REPO_STOCK
+141222,Accrued interest receivable on active repos with BCRA,Operaciones de pase,OCIF / BCRA / Deudores por venta contado a liquidar y pases activos,"A6358 pp3,32; A6402 pp19,29",INCLUDE_IN_ACTIVE_REPO_STOCK
+511108,Interest on active repos with BCRA,Ingresos por intereses,Otros ingresos financieros,"A6358 pp12,38; A6402 pp24,31",ENTITY_SPECIFIC_BCRA_INCOME_LEG
+521108,Interest on passive repos with BCRA,Egresos por intereses,Otros egresos financieros,"A6358 pp15,38; A6402 pp25,31",ENTITY_SPECIFIC_BCRA_EXPENSE_LEG

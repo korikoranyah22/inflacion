@@ -1,0 +1,5 @@
+﻿control_id,capture_or_period,page,document_route,annex_route,result,probative_use,limit
+RG168_01,2008-10-06,plananual.asp,documentos_pdf/Plan_SIGEN_2007.pdf,documentos_pdf/plannual2007/cuadro5..15.pdf,GENERIC_PAGE_STALE_STILL_PLAN_2007,Control heredado V167,No corresponde al Plan 2009
+RG168_02,2008-07-05,plananual2008.asp,documentacion/plananualpdfs/Plan SIGEN 2008.pdf,Anexo D - Cuadro 5..15.pdf,SPECIFIC_2008_ROUTE_CONFIRMED,Control heredado V167,No determina contenido 2009
+RG168_03,2009-02-21,plananual2009.asp,documentacion/plananualpdfs/Plan SIGEN 2009.pdf,Anexo F - Cuadro 8..18.pdf; Anexo G - Capacitacion 2009.pdf,TARGET_YEAR_PAGE_AND_EXACT_LINK_INVENTORY_RECOVERED,Cierra URL y nombres exactos del inventario 2009,La página no contiene los cuerpos PDF
+RG168_04,2010,plananual2010.asp,documentacion/plananualpdfs/Plan SIGEN 2010.pdf,Anexo D Cuadro 4..14.pdf; Anexo E,NEAR_TARGET_CONTROL,Confirma continuidad de carpeta,No sustituye 2009

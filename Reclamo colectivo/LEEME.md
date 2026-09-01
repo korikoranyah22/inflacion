@@ -2,13 +2,14 @@
 
 **Fecha de armado:** 30 de agosto de 2026  
 **Período investigado:** enero de 2023–agosto de 2026  
-**Contenido:** 52 documentos indexados, aproximadamente 203 MB.
+**Contenido:** 54 documentos indexados, aproximadamente 203 MB.
 
 ## Por dónde empezar
 
 1. Abrir `00_MANUSCRITO/MANUSCRITO_ACCION_COLECTIVA_CREDITO_BANCARIO_V0.7.md`. Es la copia portable: sus enlaces internos apuntan a los anexos incluidos en esta carpeta.
 2. Conservar `00_MANUSCRITO/MANUSCRITO_ACCION_COLECTIVA_CREDITO_BANCARIO_V0.7_ORIGINAL.md` sin modificar. Es la copia idéntica al archivo de trabajo del repositorio al momento de armar el expediente.
 3. Consultar `INDICE_DOCUMENTAL.csv` para identificar cada anexo, su descripción, procedencia, tamaño y huella SHA-256.
+4. Abrir `00_MANUSCRITO/HOJA_DE_RUTA_PROBATORIA_DEMANDA_COLECTIVA.md` para distinguir qué está documentado, qué falta obtener y qué prueba corresponde a cada pretensión.
 
 ## Organización
 

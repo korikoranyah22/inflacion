@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
 MARKER = '<script src="assets/epica-super-tabs.js"></script>'
+STAGE2_MARKER = '<script src="assets/epica-stage2-tabs.js"></script>'
 
 text = INDEX.read_text(encoding="utf-8")
 
@@ -14,6 +15,10 @@ if MARKER not in text:
     replacement = f"\n{MARKER}\n\n<script>\nconst DASHBOARD_SNAPSHOT_CUTOFF = '2026-08-21';"
     assert text.count(anchor) == 1, "No se encontró el inicio del script principal"
     text = text.replace(anchor, replacement, 1)
+
+if STAGE2_MARKER not in text:
+    assert text.count(MARKER) == 1, "No se encontró el asset base de la épica"
+    text = text.replace(MARKER, f"{MARKER}\n{STAGE2_MARKER}", 1)
 
 old_badge = "📌 cierre editorial · 25 ago 2026 · sin actualización automática"
 new_badge = "📌 base histórica · 25 ago 2026 · super-tabs auditados al 31 ago"
@@ -42,10 +47,32 @@ replacements = {
     "prices:['tab-epica-dollars',": "prices:['tab-epica-dollars','tab-epica-caputo-colchon',",
     "state:['tab-epica-dollars',": "state:['tab-epica-dollars','tab-epica-caputo-colchon',",
 }
-for old, new in replacements.items():
+if "'tab-epica-incidence'" not in text:
+    for old, new in replacements.items():
+        if new not in text:
+            assert text.count(old) == 1, f"No se encontró ancla única: {old}"
+            text = text.replace(old, new, 1)
+
+stage2_replacements = {
+    "featured:['tab-story','tab-epica-households','tab-epica-dollars','tab-epica-caputo-colchon',": "featured:['tab-story','tab-epica-households','tab-epica-dollars','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon',",
+    "households:['tab-epica-households','tab-epica-caputo-colchon',": "households:['tab-epica-households','tab-epica-incidence','tab-epica-narratives','tab-epica-caputo-colchon',",
+    "prices:['tab-epica-dollars','tab-epica-caputo-colchon',": "prices:['tab-epica-dollars','tab-epica-narratives','tab-epica-caputo-colchon',",
+    "activity:['tab-consumption',": "activity:['tab-epica-development','tab-epica-narratives','tab-consumption',",
+    "state:['tab-epica-dollars','tab-epica-caputo-colchon',": "state:['tab-epica-dollars','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon',",
+    "power:['tab-pendulo',": "power:['tab-epica-incidence','tab-epica-narratives','tab-pendulo',",
+}
+for old, new in stage2_replacements.items():
     if new not in text:
-        assert text.count(old) == 1, f"No se encontró ancla única: {old}"
+        assert text.count(old) == 1, f"No se encontró ancla de etapa 2: {old}"
         text = text.replace(old, new, 1)
+
+duplicate_sequences = {
+    "'tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon'": "'tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon'",
+    "'tab-epica-incidence','tab-epica-narratives','tab-epica-caputo-colchon','tab-epica-incidence','tab-epica-narratives','tab-epica-caputo-colchon'": "'tab-epica-incidence','tab-epica-narratives','tab-epica-caputo-colchon'",
+    "'tab-epica-narratives','tab-epica-caputo-colchon','tab-epica-narratives','tab-epica-caputo-colchon'": "'tab-epica-narratives','tab-epica-caputo-colchon'",
+}
+for duplicate, normalized in duplicate_sequences.items():
+    text = text.replace(duplicate, normalized)
 
 INDEX.write_text(text, encoding="utf-8", newline="\n")
 print("OK: super-tabs inyectados en index.html")

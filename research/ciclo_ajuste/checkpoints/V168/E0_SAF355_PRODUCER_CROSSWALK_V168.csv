@@ -1,0 +1,7 @@
+row_id,evidence,value,target_effect,source_id,status
+SF137_01,Cuenta de Inversión 2008 Cuadro 1-A,SAF N°355 · Dirección de Administración de la Deuda Pública,cierra productor del Anexo K,e0_cgn_cuenta_inversion_2008_sdp,EXACT
+SF137_02,Cuenta de Inversión 2008 UEPEX,SAF355 Dirección de Administración de la Deuda Pública; SAF356 Obligaciones a cargo del Tesoro,control independiente del cruce,e0_cgn_account_2008_saf355_356_crosswalk,EXACT_CORROBORATION
+SF137_03,Decreto 1344/2007 art.9,Jurisdicción90 Servicio de la Deuda Pública,contexto presupuestario exacto,e0_argentina_decree_1344_2007_original_finance_rule,EXACT
+SF137_04,Anexo K,83106000;COMISIONES-BANCO NACION;ARS32270.30;71597;152677;2876;7.2.8,renglón y claves exactas,e0_cgn_cuenta_inversion_2008_sdp,EXACT_ROW
+SF137_05,Conclusión,SAF355;2008;Otros Gastos;tres SIDIF,reduce búsqueda sin inventar caja ni especie,multiple_primary_sources,RETRIEVAL_KEY_CLOSED_EXCEPT_BOX_AND_TYPE
+

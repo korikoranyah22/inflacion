@@ -1,0 +1,4 @@
+﻿control_id,artifact,page,method,target,result,observation
+PV169_01,enargas_informe_anual_2009_capitulo1_official.pdf,PDF 42 / impresa 52,Poppler 160 dpi + pypdf text,Cuadro I-11,TEXT_CONFIRMED_VISUAL_CLIPPING,Seis pares extraíbles; copia oficial seccionada recorta visualmente parte de la columna izquierda.
+PV169_02,enargas_informe_anual_2009.pdf,PDF/impresa 52,Poppler 160 dpi original-detail + pypdf text,Cuadro I-11,PASS,Tabla íntegra y legible; seis Notas SIGEN y seis Actuaciones ENARGAS.
+PV169_03,official chapter vs full mirror,42 vs 52,cotejo visual y textual,seis pares y objetos,CONTENT_MATCH,Mismos números y objetos; el espejo resuelve legibilidad pero no reemplaza autenticación oficial.

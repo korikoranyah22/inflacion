@@ -1,0 +1,15 @@
+row_id,year_or_period,official_source,published_value,unit_of_count,controlled_interpretation,comparison_limit,required_record,status
+DC159_01,2006; plan 2007,Memoria SIGEN 2006 p.3,145,Unidades de Auditoría Interna supervisadas,Censo operativo de UAI en esa memoria,No es universo 2009,Inventario anual de UAI 2009,UNIT_COUNT_COMPARATOR
+DC159_02,plan 2007,Memoria SIGEN 2006 p.3,143,Proyectos de auditoría de la Red Federal previstos,Proyectos no equivalen a UAI ni informes,Subuniverso Red Federal,Inventario de proyectos y programa,PROJECT_COUNT_COMPARATOR
+DC159_03,2006,Memoria SIGEN 2006 p.3,318,Proyectos de auditoría concluidos,Flujo de proyectos anual,Puede haber varios por UAI,Registro de proyectos,PROJECT_COUNT_COMPARATOR
+DC159_04,2006,Memoria SIGEN 2006 p.3,119,Informes de Evaluación del Sistema de Control Interno,Clase específica de informe,No son Informes de Supervisión del Planeamiento,Inventario por clase,REPORT_CLASS_COMPARATOR
+DC159_05,2008,Memoria SIGEN 2008,cerca de 120,Informes de Supervisión del Planeamiento,Flujo aproximado de una clase documental,No dividir por UAI sin inventario,Inventario 2008,PLANNING_REPORT_COUNT
+DC159_06,2009,Cuenta de Inversión 2009,aproximadamente 120,Informes de Supervisión del Planeamiento,Primer agregado oficial del año target,Redondeado y sin universo,Inventario y ficha del indicador,OFFICIAL_COUNT_A
+DC159_07,2009,Memoria SIGEN 2009,cerca de 160,Informes de Supervisión del Planeamiento,Segundo agregado oficial del año target,Redondeado y discordante,Inventario y metodología,OFFICIAL_COUNT_B
+DC159_08,2010,Cuenta de Inversión 2010,aproximadamente 140,Informes de Supervisión del Planeamiento,Continuidad posterior de la clase,No resuelve 2009,Inventario 2010 sólo comparador,PLANNING_REPORT_COUNT
+DC159_09,Cruce 2006,"Una fuente, misma página",145; 143; 318; 119,Cuatro denominadores distintos,"Prueba que SIGEN publicaba unidades, proyectos e informes por separado",No define la metodología 2009,Diccionario de indicadores,DENOMINATOR_SEPARATION
+DC159_10,Cruce 2009,Dos fuentes oficiales,120; 160,Informes aproximados,La brecha nominal es 40 y no una diferencia de UAI,Extremos no exactos,Cifras sin redondeo,CONFLICT_FROZEN
+DC159_11,Hipótesis abierta,Método V163,N/A,Fecha de corte o estado del informe,"Emitido, aprobado, remitido o cerrado podrían contar distinto",No elegir hipótesis,Regla de estado y corte,HYPOTHESIS_ONLY
+DC159_12,Hipótesis abierta,Método V163,N/A,Cobertura institucional,Una serie podría cubrir subconjunto o revisión,No elegir hipótesis,Lista de organismos y exclusiones,HYPOTHESIS_ONLY
+DC159_13,Target Economía,2009,"1 fila esperada, no localizada",Informe de Supervisión UAI Economía,"Debe identificarse por metadatos, no por prorrateo",Ningún agregado prueba inclusión,Fila del inventario y cuerpo,TARGET_OPEN
+DC159_14,Regla final,Método V163,N/A,Unidad de observación,"No comparar UAI, proyecto e informe como magnitudes homogéneas",No altera 0/10,"Inventario, diccionario y corte",METHOD_LIMIT

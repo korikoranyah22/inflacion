@@ -1,0 +1,3 @@
+script,pre_v160_result,post_v160_result,interpretation
+qa_v159.py,PASS,PASS_BASELINE,V159 íntegra; V164 agrega glosario oficial y competencia UAI multi-entidad sin alterar 0/10.
+qa_v160.py,N/A,PASS,"Verifica cinco fuentes, cuatro matrices nuevas, cuatro controles de imagen y límites V164."

@@ -1,0 +1,8 @@
+control_id,artifact,visual_finding,scope_limit,result
+IV154_01,cgn_disposition_52_1996_c42_form_page1.jpg,"Número SIDIF, beneficiario, banco/cuenta, SIGADE, respaldo, AXT, importe, concepto y firmas.",Formulario modelo; no cuerpo target.,PASS
+IV154_02,cgn_disposition_52_1996_c42_form_page2.jpg,"Recibo, identidad, firma y fecha.",Segunda página modelo; no recibo target.,PASS
+IV154_03,cgn_disposition_52_1996_c42_procedure_flow.jpg,Flujo SAF–procesamiento CGN–aprobación–TGN.,Diagrama normativo; no ejecución target.,PASS
+IV166_01,infoleg_plan_sigen_2010_annex_g_debt_consolidation_acronyms_image15.jpg,"CASCPP, CAIPCP y siglas de entidades financieras legibles.",Glosario y claves de búsqueda; consolidación no es recompra ni ejecución bancaria.,PASS
+IV166_02,infoleg_plan_sigen_2010_annex_g_supervision_area_acronyms_image16.jpg,GSEyP = Gerencia de Supervisión Economía y Producción; GSPF = Gerencia de Supervisión Planificación Federal.,Expansión Plan 2010 cercana; falta acto vigente al día de Nota 3672/09.,PASS
+IV166_03,infoleg_plan_sigen_2010_annex_g_treasury_debt_service_acronyms_image17.jpg,"OT, SDP y SJ aparecen con expansiones separadas.",Clave institucional; no acredita asiento target.,PASS
+IV166_04,infoleg_plan_sigen_2010_annex_h_multi_entity_uai_image19.jpg,"UAI Economía lista MEyFP, ONCCA, MAGyP, MIyT y YCRT; UAI BNA lista ocho entidades.",Prueba multiplicidad de entidades por UAI; no número de informes ni banco.,PASS

@@ -1,0 +1,12 @@
+﻿measure,original_202312e_million_ars,later_202406e_dic2023_million_ars,displayed_delta_million_ars,interpretation
+total_assets,96882.5,96944.8,62.3,MIGRATES_TO_AUDITED_TOTAL
+other_credits_financial_intermediation,33595.6,33754.4,158.8,REPO_STOCK_COMPONENT_MIGRATES
+total_liabilities,62510.2,62510.2,0.0,UNCHANGED
+net_equity,34372.3,34434.6,62.3,MIGRATES_TO_AUDITED_TOTAL
+current_result,-1217.0,-1154.7,62.3,MIGRATES_TO_AUDITED_TOTAL
+financial_income,62071.9,62230.7,158.8,REPO_INCOME_COMPONENT_MIGRATES
+interest_income,44805.5,44964.3,158.8,CORRECTED_INSIDE_INTEREST_INCOME
+other_financial_income,17266.4,17266.4,0.0,UNCHANGED_ZERO_OTHERFI_REPO_LEG_SUPPORTED
+financial_expense,-18489.7,-18489.7,0.0,UNCHANGED
+interest_expense,-17112.3,-17112.3,0.0,UNCHANGED
+other_financial_expense,-1377.4,-1377.4,0.0,UNCHANGED_ZERO_OTHERFI_REPO_LEG_SUPPORTED

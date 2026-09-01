@@ -1,0 +1,10 @@
+﻿search_id,surface,query_or_url,result,classification,next_step
+PS167_01,web search,site:argentina.gob.ar/sites/default/files Plan SIGEN 2009,Memoria SIGEN 2008 only; approval date 2008-12-15,REFERENCE_ONLY,seek complete plan and approval act
+PS167_02,Common Crawl CC-MAIN-2008-2009,www.sigen.gov.ar/plananual.asp,capture 20081006152047 recovered; content is Plan 2007,CAPTURE_RECOVERED_STALE_GENERIC,do not map generic URL to 2009
+PS167_03,Common Crawl CC-MAIN-2008-2009,www.sigen.gov.ar/plananual2008.asp,capture 20080705175930 recovered; exact 2008 route grammar,CAPTURE_RECOVERED_ROUTE_GRAMMAR,use directory and spacing as candidate family
+PS167_04,Common Crawl CC-MAIN-2009-2010,.../documentacion/plananualpdfs/Plan%20SIGEN%202009.pdf,No Captures found,INDEX_NEGATIVE_SCOPED,archive custody request; not nonexistence
+PS167_05,Common Crawl CC-MAIN-2009-2010,www.sigen.gov.ar/plananual2009.asp,No Captures found,INDEX_NEGATIVE_SCOPED,archive custody request; test registry and backups
+PS167_06,Common Crawl CC-MAIN-2012,"2009 page, PDF and inferred annex directory",No Captures found for all three candidates,LATE_INDEX_NEGATIVE_SCOPED,do not overstate public exhaustion
+PS167_07,Common Crawl CC-MAIN-2009-2010,.../documentacion/plananualpdfs/Plan%20SIGEN%202010.pdf and directory prefix,"main PDF plus 11 Annex-D tables, Annex E and planred2010 captured",NAMING_CONTROL_CONFIRMED,preserve as comparator only
+PS167_08,live SIGEN domain,https://www.sigen.gob.ar/documentacion/plananualpdfs/Plan%20SIGEN%202009.pdf,HTTP 404 on 2026-08-31,LIVE_ROUTE_NEGATIVE,"historical archive, not current web"
+PS167_09,Internet Archive CDX,plananual2009 candidates,service inaccessible from both semantic open and direct query,SERVICE_UNAVAILABLE_NOT_NEGATIVE,retry later or request institutional copy

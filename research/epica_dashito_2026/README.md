@@ -30,8 +30,8 @@ La matriz inicial cruza las 40 preguntas de la épica contra el tablero existent
 
 | Estado inicial | Preguntas | Lectura |
 |---|---:|---|
-| `strong_partial` | 4 | Hay evidencia sustantiva, pero falta algún corte o cierre metodológico. |
-| `partial` | 26 | Hay piezas relevantes; todavía no identifican por completo la pregunta. |
+| `strong_partial` | 8 | Hay evidencia sustantiva, pero falta algún corte o cierre metodológico. |
+| `partial` | 22 | Hay piezas relevantes; todavía no identifican por completo la pregunta. |
 | `scenario_ready` | 4 | Se puede simular, siempre que los supuestos queden visibles. |
 | `gap` | 5 | Falta una fuente o desagregación decisiva. |
 | `out_of_core` | 1 | Conviene mantenerlo como módulo institucional separado. |
@@ -42,7 +42,7 @@ Esto evita convertir la épica en 40 pestañas redundantes: primero se reutiliza
 
 - `MASTER_RESULTS.md`: síntesis consolidada de hallazgos y brechas.
 - `execution_matrix.csv`: mapa completo de las 40 preguntas, pestañas existentes y gate de decisión.
-- `claims_registry.csv`: 27 afirmaciones de X separadas en validez lógica y verificación empírica.
+- `claims_registry.csv`: 27 afirmaciones de X con lectura lógica y estado de la evidencia.
 - `hogares_credito/`: informe, evidencia y cálculos del frente de hogares.
 - `dolares_externo/`: informe, evidencia y cálculos del frente externo.
 - `fiscal_desarrollo/`: informe, evidencia y cálculos de incidencia y desarrollo.
@@ -77,4 +77,4 @@ La validación final exige:
 
 ## Decisión de integración
 
-Esta corrida no modifica `index.html`. El repositorio tiene trabajo previo y cambios activos; integrar visualizaciones antes de cerrar universos y fórmulas aumentaría el riesgo de publicar dobles conteos o falsas identidades. Los paquetes de evidencia quedan listos para una segunda etapa de integración por super-tabs.
+La evidencia auditada ya alimenta los super-tabs de la épica. La integración conserva universos, fórmulas, estados `N/D` y escenarios visibles para evitar dobles conteos o equivalencias mecánicas.

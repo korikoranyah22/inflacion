@@ -1,0 +1,17 @@
+row_id,route_or_field,official_fact,request_use,limit,status
+DR155_01,MECON_PAGE,"Economía publica informes UAI, SIGEN y planes",Punto de entrada institucional,No prueba exhaustividad,CURRENT_PAGE
+DR155_02,MECON_WINDOW,Enlace rotulado Informes de auditorías Años 2022-2026,Delimitar ventana visible,No cubre 2009,CURRENT_WINDOW_ONLY
+DR155_03,MECON_2026,Plan anual 2026 visible,Control de actualidad,No prueba archivo histórico,CURRENT_WINDOW_ONLY
+DR155_04,MECON_2022,Plan anual 2022 visible,Extremo inferior declarado,No prueba que 2021 sea inexistente,CURRENT_WINDOW_ONLY
+DR155_05,MECON_UPDATE,Fecha de actualización junio 2026,Congelar vigencia de captura,Puede cambiar luego,CAPTURE_DATE
+DR155_06,SIGEN_PUBLIC,Economía afirma que SIGEN publica informes,Ruta secundaria oficial,No garantiza cobertura 2009,OFFICIAL_REFERRAL
+DR155_07,SIGEN_SEARCH,Enlace al buscador ArchivoWeb,Buscar metadatos públicos,Resultado negativo no prueba inexistencia,OFFICIAL_REFERRAL
+DR155_08,SIGEN_FORM,Enlace al formulario AIP SIGEN,Pedir cuerpos históricos,Disponible no significa enviado,OFFICIAL_REFERRAL
+DR155_09,SIGEN_PHYSICAL,Economía informa presentación escrita en SIGEN,Ruta alternativa,Dirección vigente a fecha de página,OFFICIAL_REFERRAL
+DR155_10,AIP_SURNAME,Formulario exige apellido,Preparar borrador,Dato personal no completado,FORM_FIELD
+DR155_11,AIP_NAME,Formulario exige nombre,Preparar borrador,Dato personal no completado,FORM_FIELD
+DR155_12,AIP_DOMICILE,Formulario exige domicilio,Checklist previo,No incluir hasta autorización,FORM_FIELD
+DR155_13,AIP_DOCUMENT,Formulario exige tipo y número de documento,Checklist previo,No incluir hasta autorización,FORM_FIELD
+DR155_14,AIP_EMAIL,Formulario exige correo electrónico,Canal de respuesta,No incluir hasta autorización,FORM_FIELD
+DR155_15,AIP_DETAIL,Formulario exige detalle de información solicitada,Insertar objetos V165,No adjunta automáticamente evidencia,FORM_FIELD
+DR155_16,REQUEST_STATE,Ningún dato cargado ni enviado,Mantener seis borradores,Sin acuse ni plazo corriendo,DRAFT_NOT_SENT

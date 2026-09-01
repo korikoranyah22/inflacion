@@ -1,4 +1,4 @@
-# Auditoría empírica — Hogares, crédito, transferencias y costo de vida
+# Análisis empírico — Hogares, crédito, transferencias y costo de vida
 
 **Fecha de corte:** 2026-08-31  
 **Ítems ejecutados:** 1, 2, 5, 12–16 y 26–29 de la épica.  
@@ -45,7 +45,7 @@ El mínimo matemático para la unión de esos tres grandes bloques publicados �
 
 **Qué muestran:** una extensión alta de estrategias de deuda/descapitalización y un gradiente de préstamos más intenso en el estrato bajo.  
 **Qué no muestran:** pobreza, pesos de ahorro consumidos, servicio deuda/ingreso, exclusividad ni transición a mora.  
-**Hipótesis que sobrevive:** la fragilidad financiera puede alcanzar hogares no pobres y coexistir con ingresos laborales.  
+**Lectura compatible con los datos:** la fragilidad financiera puede alcanzar hogares no pobres y coexistir con ingresos laborales.
 **Dato faltante para causalidad:** panel hogar–ingreso–gasto–estrategia–deuda–mora.
 
 ### 2. Runway de clase media
@@ -70,7 +70,7 @@ mora bancaria personales + tarjetas, media semestral:
 2,602% → 8,541% = +5,939 pp = 3,28 veces
 ```
 
-Los denominadores son distintos. El resultado falsifica la equivalencia “bajó pobreza = se consolidó el bienestar financiero”, pero no identifica quién salió de pobreza, quién se endeudó ni quién cayó en mora. Sin panel no pueden construirse las transiciones pobre→vulnerable→media frágil→estable pedidas por la épica.
+Los denominadores son distintos. El resultado muestra que “bajó pobreza” y “se consolidó el bienestar financiero” no son equivalentes, pero no identifica quién salió de pobreza, quién se endeudó ni quién cayó en mora. Sin panel no pueden construirse las transiciones pobre→vulnerable→media frágil→estable pedidas por la épica.
 
 ## Ítems 12–16 — crédito, mora, inclusión y bancos
 
@@ -88,7 +88,7 @@ El 50,9% que compró en cuotas o fiado es un **proxy de financiación de gastos 
 
 ### 14. Inclusión o monetización de exclusión
 
-La cobertura de personales creció 9,09 puntos dentro de un tramo comparable, y después se observan niveles de mora muy superiores. Eso mantiene viva la hipótesis de expansión con selección/precio/capacidad de pago interactuando. No permite decidir si el acceso mejoró bienestar o incorporó prestatarios caros, porque faltan cohortes con tasa, ingreso, informalidad, score y resultado a 3/6/12 meses.
+La cobertura de personales creció 9,09 puntos dentro de un tramo comparable, y después se observan niveles de mora muy superiores. La secuencia es compatible con una interacción entre expansión, selección, precio y capacidad de pago. No permite decidir si el acceso mejoró bienestar o incorporó prestatarios caros, porque faltan cohortes con tasa, ingreso, informalidad, score y resultado a 3/6/12 meses.
 
 ### 15. Bancos
 

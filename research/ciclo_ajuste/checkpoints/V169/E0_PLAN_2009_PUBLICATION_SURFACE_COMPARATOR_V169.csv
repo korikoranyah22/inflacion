@@ -1,0 +1,7 @@
+﻿control_id,date_or_span,surface,observed,meaning,limit,status
+PC169_01,2008-09-15,InfoLEG Actos de Gobierno,PLAN 2008 SINDICATURA GENERAL DE LA NACION,La superficie publicó el plan precedente,No prueba regla anual obligatoria,PRECEDING_PUBLICATION_CONTROL
+PC169_02,2008-12-15,SIGEN Memoria 2008,Plan SIGEN 2009 aprobado,Existencia y fecha confirmadas,No identifica instrumento,TARGET_EXISTENCE_CONFIRMED
+PC169_03,2008-12-15,Boletín Oficial Primera Sección,sin resolución SIGEN aprobatoria en lista diaria,No publicación ese día en esa sección,No excluye acto interno u otra fecha,DATE_SCOPED_PUBLICATION_NEGATIVE
+PC169_04,2008-09-15/2010-03-08,InfoLEG Actos de Gobierno · 78 ediciones,sin título Plan SIGEN 2009,Discontinuidad en esa superficie editorial,No equivale a inexistencia ni no publicación universal,EDITORIAL_SURFACE_GAP
+PC169_05,2010-02-22/2010-03-01,InfoLEG Actos de Gobierno,Plan 2010 primera y segunda parte,La superficie retomó difusión del plan siguiente,No determina causa del hueco 2009,FOLLOWING_PUBLICATION_CONTROL
+PC169_06,2014-2016 captures,Wayback carpeta plananualpdfs,planes 2013-2015; ningún cuerpo 2009,La carpeta y convención persistieron,No fija cuándo ni por qué faltan cuerpos 2009,LATE_DIRECTORY_CONTINUITY_TARGET_ABSENT

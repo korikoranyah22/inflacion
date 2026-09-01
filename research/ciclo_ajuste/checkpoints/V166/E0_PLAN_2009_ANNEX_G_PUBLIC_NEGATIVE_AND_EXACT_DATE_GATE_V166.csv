@@ -1,0 +1,11 @@
+row_id,question,public_result,proved_fact,remaining_gap,required_record,status
+DG160_01,¿Existe expansión oficial de GSEyP?,"Sí, Plan SIGEN 2010 Anexo G",GSEyP significa Gerencia de Supervisión Economía y Producción,Fuente cercana pero publicada en 2010,Acto orgánico vigente a fecha exacta Nota 3672/09,PARTIAL_GAP_CLOSED
+DG160_02,¿GSEyP incluye Planificación Federal?,No en el glosario oficial recuperado,GSPF es una gerencia separada,Puede existir sucesión histórica no reconstruida,Actos y organigramas 2008-2009,DISAMBIGUATED
+DG160_03,¿Se halló Plan SIGEN 2009 completo?,No en búsqueda pública oficial,Sólo fecha de aprobación y referencias institucionales,Faltan cuerpo y anexos,"Plan, acto aprobatorio e índice",PUBLIC_NEGATIVE
+DG160_04,¿Se halló Anexo G del Plan 2009?,No,No puede trasladarse automáticamente el glosario 2010,Falta foto exacta de estructura 2009,Anexo G 2009 o glosario coetáneo,PUBLIC_NEGATIVE
+DG160_05,¿Se halló cuerpo Nota 3672/09?,No,Sólo referencia y sufijo target,"Faltan fecha completa, firma, destinatario y adjuntos",Nota completa y registro de salida,TARGET_OPEN
+DG160_06,¿El Plan 2010 es cercano al target?,Sí,Fue aprobado 22-12-2009 y usa corte SISIO 16-12-2009,Cercanía no equivale a identidad diaria,Control de versiones y acto orgánico,NEAR_CONTEMPORARY
+DG160_07,¿Una UAI podía cubrir varias entidades en 2009-2010?,Sí,Decreto 1366 art.7 y Anexo H convergen,No fijan proyecto o informe individual,Inventario UAI-entidad-proyecto,LEGAL_AND_PLAN_BRIDGE
+DG160_08,¿154 UAI resuelve 120 versus 160 informes?,No,Los denominadores son distintos,"Faltan estados, corte y deduplicación",Inventario de informes y diccionario,COUNT_GAP_OPEN
+DG160_09,¿La nueva evidencia prueba banco?,No,Sólo mejora identidad y ámbito de control,"Faltan documento, sistema, banco y reversas",Diez filas de ejecución,BANK_GATE_OPEN
+DG160_10,Regla V166,Cerrar sólo el subgap probado,Expansión GSEyP y multiplicidad UAI quedan documentadas,Identidad exacta de fecha y cuerpos permanecen abiertos,Solicitudes testadas aún no enviadas,METHOD_RULE

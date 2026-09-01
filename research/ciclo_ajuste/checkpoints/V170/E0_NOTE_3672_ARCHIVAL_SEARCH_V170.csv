@@ -1,0 +1,11 @@
+﻿route_id,surface,target,result,status,required_record
+N168_01,CGN Cuenta 2009 UEPEX,Nota SIGEN 3672/09 GSEyP,"referencia, firmante e instrucción SISIO",REFERENCE_LOCATED_BODY_OPEN,"nota, anexos, distribución, acuses"
+N168_02,Internet Archive CDX,URLs SIGEN *3672*,0 captures,URL_INDEX_NEGATIVE_SCOPED,salida/Mesa/COMDOC
+N168_03,Common Crawl 2009-2010,URLs SIGEN *3672*,No Captures found,URL_INDEX_NEGATIVE_SCOPED,salida/Mesa/COMDOC
+N168_04,Common Crawl 2012,URLs SIGEN *3672*,No Captures found,LATE_URL_INDEX_NEGATIVE_SCOPED,salida/Mesa/COMDOC
+N168_05,SISIO,hallazgos 0120/09 y 3672/09,sin id público,SYSTEM_ENTRY_NOT_LOCATED,"exportación, historial, vínculos"
+N169_06,ENARGAS Informe 2009 Cuadro I-11,seis Notas SIGEN 2009,cada nota está emparejada con Actuación ENARGAS,RECIPIENT_DUAL_IDENTIFIER_PATTERN_PROVED,buscar asiento receptor target sin asumir numeración
+N169_07,CGN/Economía Mesa o COMDOC,Nota SIGEN 3672/09 GSEyP,número de entrada receptor no localizado,RECIPIENT_IDENTIFIER_OPEN,asiento de ingreso; fecha; remitente; asunto; pase; contenedor
+N170_08,CGN Cuenta 2009 UEPEX · cadena narrativa,receptor institucional de Nota SIGEN 3672/09,CGN es el referente de 'esta repartición' en el intercambio Nota 0120/09 → Nota 3672/09,RECIPIENT_IDENTIFIED_BY_CONTEXT_CGN,cuerpo para confirmar destinatario formal
+N170_09,CGN Mesa/registro de entradas 2009,Nota SIGEN 3672/09 GSEyP,"número de entrada, fecha y pases no localizados",FORMAL_ADDRESSEE_AND_INCOMING_ID_OPEN,asiento; fecha; destinatario; remitente; asunto; pases; contenedor; adjuntos
+N170_10,Ministerio de Economía COMDOC 2009,ruta subsidiaria de Nota SIGEN 3672/09,mantener sólo si CGN no conserva registro propio o hubo pase ministerial,SECONDARY_ROUTING_HYPOTHESIS,"registro por número SIGEN, fecha, remitente y asunto"

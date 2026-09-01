@@ -1,0 +1,12 @@
+search_id,exact_query,official_result,status,result_url,searched_on,negative_inference_limit,next_action
+XS149_01,83106000,fila Anexo K,EXACT_PUBLIC_REFERENCE_ROW_ONLY,https://www.economia.gob.ar/hacienda/cgn/cuenta/2008/archivos/sdp.pdf,2026-08-31,No prueba cuerpo/pago.,pedido por archivo
+XS149_02,71597,sólo fila Anexo K,EXACT_PUBLIC_REFERENCE_ROW_ONLY,https://www.economia.gob.ar/hacienda/cgn/cuenta/2008/archivos/sdp.pdf,2026-08-31,No prueba tipo.,buscar H1/H2
+XS149_03,152677,sólo fila Anexo K,EXACT_PUBLIC_REFERENCE_ROW_ONLY,https://www.economia.gob.ar/hacienda/cgn/cuenta/2008/archivos/sdp.pdf,2026-08-31,No prueba tipo.,buscar H1/H2
+XS149_04,2876,sólo fila Anexo K,EXACT_PUBLIC_REFERENCE_ROW_ONLY,https://www.economia.gob.ar/hacienda/cgn/cuenta/2008/archivos/sdp.pdf,2026-08-31,No prueba tipo.,buscar H1/H2
+XS149_05,"32.270,30",agregado publicado,EXACT_PUBLIC_REFERENCE_ROW_ONLY,https://www.economia.gob.ar/hacienda/cgn/cuenta/2008/archivos/sdp.pdf,2026-08-31,No desagrega cuerpos.,pedir componentes
+XS149_06,3855/19 2008,sin fila target,PUBLIC_TARGET_LINK_NOT_LOCATED,N/A,2026-08-31,Cuenta histórica no es target.,pedir extractos
+XS149_07,acta últimos formularios 2008,sin cuerpo,PUBLIC_BODY_NOT_LOCATED,N/A,2026-08-31,No prueba inexistencia.,pedir UAI/SAF
+XS149_08,listados finales SAF355 2008,sin archivo,PUBLIC_BODY_NOT_LOCATED,N/A,2026-08-31,No prueba inexistencia.,pedir archivo oficial
+XS149_09,respaldo SIGADE 2008 UAI,sin snapshot,PUBLIC_SNAPSHOT_NOT_LOCATED,N/A,2026-08-31,2019 no retrotrae.,pedir inventario
+XS149_10,negative_limit,cuerpos no localizados,CONTROLLED_NEGATIVE,N/A,2026-08-31,Sólo no localización pública.,pedidos no enviados
+

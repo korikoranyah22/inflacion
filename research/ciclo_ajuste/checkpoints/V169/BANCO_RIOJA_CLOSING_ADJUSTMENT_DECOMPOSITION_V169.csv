@@ -1,0 +1,7 @@
+control_id,side,component,raw_thousand_ars,audited_thousand_ars,delta,identity_role
+BR165_D01,assets,repo_stock,29058359,29217148,158789,POSITIVE_REPO_COMPONENT
+BR165_D02,assets,all_nonrepo_assets,67824103,67727620,-96483,OFFSET_COMPONENT
+BR165_D03,assets,total_assets,96882462,96944768,62306,NET_CLOSING_DELTA
+BR165_D04,result,repo_income,14250267,14409056,158789,POSITIVE_REPO_COMPONENT
+BR165_D05,result,all_nonrepo_net_result,-15467223,-15563706,-96483,OFFSET_COMPONENT
+BR165_D06,result,current_result,-1216956,-1154650,62306,NET_CLOSING_DELTA

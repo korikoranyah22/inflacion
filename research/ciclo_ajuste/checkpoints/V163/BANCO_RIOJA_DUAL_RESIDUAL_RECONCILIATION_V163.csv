@@ -1,0 +1,4 @@
+﻿control_id,period,measure,issuer_value_thousand_ars,raw_account_set,raw_values_thousand_ars,raw_sum_thousand_ars,difference_issuer_minus_raw,verdict,analytic_use
+BR163_02,FY-2023,active_repo_stock,29217148,141144+141222,28978965+79394,29058359,158789,EXACT_DUAL_SIDED_RESIDUAL,"Corrects V162: 141222 exists. The 238183 figure was only the gap against capital, not against total raw stock."
+BR163_03,FY-2023,repo_income_bcra,14409056,511108,14250267,14250267,158789,EXACT_DUAL_SIDED_RESIDUAL,Same residual as the asset-side stock bridge; supports but does not authenticate a closing entry.
+BR163_04,FY-2023,repo_expense_bcra,7844,521108,7844,7844,0,EXACT_ENTITY_SPECIFIC_FY,Expense leg reconciles.

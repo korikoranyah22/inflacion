@@ -1,0 +1,15 @@
+chain_id,sequence,layer,table_or_record,required_join,proved_rule,target_status,source_id
+AC144_01,1,Cuenta,BCUENTA;ACTA_FUE;ACTABAN_CTAESC,banco;sucursal;cuenta;fuente;cuenta escritural,tablas exactas de identificación y relación,SCHEMA_PROVED_VALUE_2008_OPEN,e0_dgsiaf_slu_treasury_basic_tables_1
+AC144_02,2,Grupo,BGRUPMOVBCO,grupo APL/LIB/MAN/TRA/EXB o equivalente,grupo gobierna tratamiento de conciliación,SCHEMA_PROVED_VALUE_2008_OPEN,e0_dgsiaf_slu_treasury_basic_tables_2;e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7
+AC144_03,3,Movimiento interno,BMOVBCO,código;descripción;débito/crédito;grupo,código interno normaliza movimiento,SCHEMA_PROVED_VALUE_2008_OPEN,e0_dgsiaf_slu_treasury_basic_tables_2
+AC144_04,4,Movimiento externo BNA,BMOVEXTERNO,banco;código externo;contracódigo;movimiento interno;automático/manual,el código del banco se mapea al interno,EXACT_TABLE_PROVED_TARGET_CODE_OPEN,e0_dgsiaf_slu_treasury_basic_tables_2
+AC144_05,5,Parametrización de gasto,AMOV_FORG,banco;cuenta/subcuenta;movimiento;partida/extrapresupuestaria,cuenta+movimiento dispara aplicación automática de gasto,EXACT_TABLE_PROVED_TARGET_ROW_OPEN,e0_dgsiaf_slu_treasury_basic_tables_2
+AC144_06,6,Formulario,C55 automático,partida;SAF;fecha;importe;beneficiario/concepto,relación de gasto emite C55 y lo envía a SIDIF Central,MECHANISM_PROVED_TARGET_FORM_OPEN,e0_dgsiaf_slu_bank_reconciliation_basic_tables_2002_v7
+AC144_07,7,Aceptación/contabilidad,respuesta SIDIF Central,estado;error;fecha;asiento,conciliación automática genera gestión/documento y registro contable,MECHANISM_PROVED_TARGET_ACCEPTANCE_OPEN,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7
+AC144_08,8,Libro Banco,BCODLIBBCO;ACLB_MOB;conc_02.rep,código libro;comprobante;fecha;debe/haber;importe,movimiento externo se relaciona con código Libro Banco,SCHEMA_PROVED_TARGET_BOOK_ROW_OPEN,e0_dgsiaf_slu_treasury_basic_tables_2;e0_dgsiaf_slu_bank_reconciliation_reports_2002
+AC144_09,9,Extracto,conc_01.rep;movimiento externo,fecha;comprobante;código;importe;estado,conciliación procesa no conciliados y parciales,SCHEMA_PROVED_TARGET_EXTRACT_OPEN,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7
+AC144_10,10,Conciliación,automática/manual;N/P/T,origen;destino;fecha;usuario;estado,resultado muestra relación origen-destino; manual admite parcial por suma,MECHANISM_PROVED_TARGET_MATCH_OPEN,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7
+AC144_11,11,Corrección/reversa,historial corrección;C55-DEG/DEP/REP;contraasiento,original;corrección/reversa;motivo;importe;fecha,original puede corregirse o neutralizarse,CONTROL_PROVED_TARGET_REVERSAL_OPEN,e0_dgsiaf_slu_bank_reconciliation_manual_2003_v7;e0_dgsiaf_slu_payment_reversal_2005
+AC144_12,12,Respaldo,nota/orden/AMIDDF/archivo,expediente;concepto;autorización;folios,cierre causal exige respaldo concordante,REQUIRED_TARGET_RECORD_OPEN,E0_INFORMATION_REQUEST_TRACEABILITY_V167.csv
+
+

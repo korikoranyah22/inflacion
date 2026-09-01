@@ -1,0 +1,3 @@
+# Veredicto V166
+
+Banco Rioja supera el gate estricto. El Anexo Q auditado identifica las cuatro patas; A6358/A6402 mapean las cuentas; el censo raw completo deja sólo 511108/521108 en septiembre y diciembre; y un IEF BCRA posterior autentica la migración del comparativo anual, colocando el residuo de 158.789k dentro de ingresos por intereses mientras las restantes aperturas financieras quedan invariantes. Aplicando el puente sólo a Banco Rioja, 2023 y la misma base, Q4 queda exacto. El panel pasa a 34 entidades y 63.4406041403540997520463142785031521252747951992299547614348265414453439585848248058817492708499966268585997481191265825% de activos. Esto no prueba el diario ni autoriza a generalizar códigos.
