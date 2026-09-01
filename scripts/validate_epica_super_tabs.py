@@ -29,6 +29,12 @@ for group_fragment in (
 ):
     assert group_fragment in INDEX, f"Falta navegación: {group_fragment}"
 
+assert 'data-dash-group="featured" aria-pressed="false">Destacados</button>' in INDEX
+assert 'data-dash-group="all" aria-pressed="true">Ver todo</button>' in INDEX
+assert "let dashNavGroup='all';" in INDEX
+assert "dashNavGroup=btn.dataset.dashGroup||'all';" in INDEX
+assert "Todos los tabs aparecen al abrir el dashboard" in INDEX
+
 summary = rows("eph_strategy_summary.csv")
 exclusive = rows("eph_exclusive_profiles.csv")
 for period in ("2025-S1", "2025-S2", "2026-Q1"):

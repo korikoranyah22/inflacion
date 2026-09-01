@@ -1,0 +1,5 @@
+﻿log_id,surface,query_or_target,result,classification,limit_or_next_step
+PUB173_01,Infoleg/BO,Resolución SIGEN 41/2007,cuerpo+CIDD+SPD localizados,PRIMARY_BODY_AND_ANNEXES_LOCATED,buscar registro target
+PUB173_02,ArchivoWeb,universo/filtros,sólo informes; NOT no expuesto,PUBLIC_UNIVERSE_LIMIT_LOCATED,backend/archivo institucional
+PUB173_03,web exacta,NOT 3672 GSEyP,sin resultado,PUBLIC_SEARCH_NEGATIVE_SCOPED,no implica ausencia
+PUB173_04,Common Crawl,control CC-MAIN-2014-49 dos hosts,2 service errors,SERVICE_ERROR,40 pendientes no ejecutadas

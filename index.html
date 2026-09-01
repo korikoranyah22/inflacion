@@ -9021,15 +9021,15 @@ html,body{overflow-x:clip}
   <nav class="dash-topic-nav" aria-label="Agrupar pestañas por tema">
     <div class="topic-label">Explorar por tema</div>
     <div class="dash-topic-buttons">
-      <button class="dash-topic-btn active" type="button" data-dash-group="featured" aria-pressed="true">Destacados</button>
+      <button class="dash-topic-btn" type="button" data-dash-group="featured" aria-pressed="false">Destacados</button>
       <button class="dash-topic-btn" type="button" data-dash-group="households" aria-pressed="false">Hogares</button>
       <button class="dash-topic-btn" type="button" data-dash-group="prices" aria-pressed="false">Precios y dólar</button>
       <button class="dash-topic-btn" type="button" data-dash-group="activity" aria-pressed="false">Actividad</button>
       <button class="dash-topic-btn" type="button" data-dash-group="state" aria-pressed="false">Estado y deuda</button>
       <button class="dash-topic-btn" type="button" data-dash-group="power" aria-pressed="false">Poder económico</button>
-      <button class="dash-topic-btn" type="button" data-dash-group="all" aria-pressed="false">Ver todo</button>
+      <button class="dash-topic-btn active" type="button" data-dash-group="all" aria-pressed="true">Ver todo</button>
     </div>
-    <div class="dash-topic-caption">Mostramos menos accesos a la vez para que la portada respire. La pestaña que ya abriste queda siempre visible.</div>
+    <div class="dash-topic-caption">Todos los tabs aparecen al abrir el dashboard. Los filtros temáticos permiten reducir el menú cuando lo necesites.</div>
   </nav>
 
   <div class="tabs" id="dash-main-tabs" aria-label="Pestañas del dashboard">
@@ -15325,7 +15325,7 @@ const DASH_TAB_GROUPS={
   state:['tab-epica-dollars','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon','tab-social','tab-health-education','tab-debt-public','tab-fiscal','tab-bcra','tab-debt-spiral','tab-program'],
   power:['tab-epica-incidence','tab-epica-narratives','tab-pendulo','tab-rates','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-wealth-contribution','tab-milei-cost','tab-meli-benefits','tab-casta']
 };
-let dashNavGroup='featured';
+let dashNavGroup='all';
 function dashVisibleButtons(){return [...document.querySelectorAll('#dash-main-tabs .tab-btn:not([hidden])')];}
 function syncDashNavigation(){
   const tabs=document.getElementById('dash-main-tabs')||document.querySelector('.tabs');
@@ -15356,7 +15356,7 @@ function keepActiveDashTabInView(){
   else if(right>tabs.scrollLeft+tabs.clientWidth)tabs.scrollTo({left:Math.max(0,right-tabs.clientWidth+12),behavior:'smooth'});
 }
 document.querySelectorAll('.dash-topic-btn').forEach(btn=>btn.addEventListener('click',()=>{
-  dashNavGroup=btn.dataset.dashGroup||'featured';
+  dashNavGroup=btn.dataset.dashGroup||'all';
   syncDashNavigation();
   keepActiveDashTabInView();
 }));

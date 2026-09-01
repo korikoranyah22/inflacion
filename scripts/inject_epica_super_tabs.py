@@ -74,5 +74,21 @@ duplicate_sequences = {
 for duplicate, normalized in duplicate_sequences.items():
     text = text.replace(duplicate, normalized)
 
+# El menú completo es el estado inicial. Los grupos temáticos quedan como filtros
+# opcionales y nunca deben hacer que los tabs parezcan eliminados al abrir la página.
+menu_default_replacements = {
+    '<button class="dash-topic-btn active" type="button" data-dash-group="featured" aria-pressed="true">Destacados</button>': '<button class="dash-topic-btn" type="button" data-dash-group="featured" aria-pressed="false">Destacados</button>',
+    '<button class="dash-topic-btn" type="button" data-dash-group="all" aria-pressed="false">Ver todo</button>': '<button class="dash-topic-btn active" type="button" data-dash-group="all" aria-pressed="true">Ver todo</button>',
+    'Mostramos menos accesos a la vez para que la portada respire. La pestaña que ya abriste queda siempre visible.': 'Todos los tabs aparecen al abrir el dashboard. Los filtros temáticos permiten reducir el menú cuando lo necesites.',
+    "let dashNavGroup='featured';": "let dashNavGroup='all';",
+    "dashNavGroup=btn.dataset.dashGroup||'featured';": "dashNavGroup=btn.dataset.dashGroup||'all';",
+}
+for old, new in menu_default_replacements.items():
+    if old in text:
+        assert text.count(old) == 1, f"Ancla ambigua al restaurar el menú: {old}"
+        text = text.replace(old, new, 1)
+    else:
+        assert new in text, f"No se encontró el estado anterior ni el nuevo: {old}"
+
 INDEX.write_text(text, encoding="utf-8", newline="\n")
 print("OK: super-tabs inyectados en index.html")

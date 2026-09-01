@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><link rel="shortcut icon" href="https://www.argentina.gob.ar/profiles/argentinagobar/themes/argentinagobar/argentinagobar_theme/favicon.ico" type="image/vnd.microsoft.icon" /><title>
+	Archivo digital | Argentina.gob.ar
+</title>
+       
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+    <script src="https://www.argentina.gob.ar/profiles/argentinagobar/themes/contrib/poncho/vendor/bootstrap/js/bootstrap.min.js?sia8cd"></script>   
+    
+    <!-- estilos propios-->
+    
+    
+    
+    <style>
+        @import url("https://www.argentina.gob.ar/modules/system/system.base.css?s95zhk");
+    </style>
+    <style>
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/argentinagobar/argentinagobar_search/css/search.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/argentinagobar/argentinagobar_webform/css/custom-chosen.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/modules/field/theme/field.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/contrib/field_hidden/field_hidden.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/modules/node/node.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/contrib/user_prune/css/user_prune.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/contrib/views/css/views.css?s95zhk");
+    </style>
+    <style>
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/contrib/ctools/css/ctools.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/contrib/drupar_filtros/css/galeria.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/contrib/panels/css/panels.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/contrib/rate/rate.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/modules/argentinagobar/argentinagobar_bloques/css/menu.css?s95zhk");
+    </style>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" media="all" /><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" media="all" />
+    <style>
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/themes/contrib/poncho/vendor/bootstrap/css/bootstrap.min.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/themes/contrib/poncho/css/icono-arg.css?s95zhk");
+        @import url("https://www.argentina.gob.ar/profiles/argentinagobar/themes/contrib/poncho/css/poncho.min.css?s95zhk");
+    </style>
+
+    <!-- datatables-->
+
+
+
+
+
+    
+    <script src="Buscador.js" type="text/javascript"></script>
+    
+    <style type="text/css">
+            input[type = "checkbox"] {
+                width: 20px;
+                height: 20px;
+            }
+            input[type = "checkbox"] + label {
+                color: #232d4f!important;
+                font-size: 0.9em !important;
+                margin-left: 25px;
+            }
+    </style>
+    <style type="text/css">
+        /*estilo para mantener el tamaño de la modal - no tocar*/
+        .modal-xl {
+            width: 60%;
+        }
+        @media (max-width: 992px) { 
+        
+            .modal-xl {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+       
+   <header>
+       <nav class="navbar navbar-top navbar-default border-bottom-amarillo">
+           <div class="container">
+               <div>
+                   <div class="navbar-header">
+                       <a class="navbar-brand" href="https://www.argentina.gob.ar/" id="navbar-brand" aria-label="Argentina.gob.ar Presidencia de la Nación">
+                           <img src="https://www.argentina.gob.ar/profiles/argentinagobar/themes/argentinagobar/argentinagobar_theme/logo_argentina-azul.svg" alt="Argentina.gob.ar" height="50" width="254" />
+                       </a>
+                       <a class="btn btn-mi-argentina btn-login visible-xs bg-miarg-azul" href="https://mi.argentina.gob.ar" title="Ingresar a Mi Argentina">
+                  <i class="icono-arg-mi-argentina text-white"></i><span class="sr-only">Ir a Mi Argentina</span></a>
+
+                   </div>
+                   <div class="nav navbar-nav navbar-right hidden-xs">
+                       <a onclick="jQuery('.navbar.navbar-top').removeClass('state-search');" href="#" class="btn btn-link btn-search-reset visible-xs">
+                           <div class="fa fa-times"></div>
+                       </a>
+                       <div id="cd-login">
+
+                           <a href="https://mi.argentina.gob.ar/" id="btn-mi-argentina" class="btn hidden-xs p-l-1  btn-login bg-miarg-azul"
+                               aria-label="Ingresar a Mi Argentina">
+                              <i class=" fa-3x fa icono-arg-mi-argentina-extended text-white p-t-0"><span class="sr-only">Mi Argentina</span></i>
+                           </a>
+                       </div>
+
+                   </div>
+               </div>
+           </div>
+       </nav>
+</header>
+    <main role="main">
+        <div class="container padding-generales">
+            <div class="panel-pane pane-page-breadcrumb">
+                <div class="pane-content">
+                    <ol class="breadcrumb">
+                        <li><a href="https://www.argentina.gob.ar/SIGEN">Inicio</a></li>
+                        <li><a href="https://www.argentina.gob.ar/presidencia">Presidencia de la Nación</a></li>
+                        <li><a href="https://www.argentina.gob.ar/SIGEN">Sindicatura General de la Nación - SIGEN</a></li>
+                        <li class="active">Informes</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="row"><div class="col-sm-6"></div><div class="col-sm-6"></div></div>
+        </div>
+        <form method="post" action="./Buscador.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="cEhUL0DLQM0YVSCbdrSp5w0Jq4xT7FC4XOs1Xc7LkM2Q84jXdYhFvjDb8Q8caALEHLnXaYWzHLbxnQr6PoHS8L90+2xgua+q7K9mA5bZtil/6Ojv1BpVLiuVIBZiNzSILnLHQdwAJhfRPSzKcfsjUjzJ8n/NeKb3EUaZiaVgTDTb0AaxCsEew1CP8q3SstqtbtqhksWXxayqMsE7zBnbcnDHEXcObQFjo+aVOv+ogHuez3qFekSVzLcwgmeMKKU3LAPvOnTfmIIadh8tGLsNP+X9M3Pgi20PzapViP3ubxaMJIkjZWwo76a0ktK3zuhgMBTdIXEgKqRJcS9bBN/OG0JDcKIycZ34IHM1TkcPj8wXS/1UKAs2V8PP5bYxW+nfzXe9Hfe7HwOhwZpqcULSp8oLKKkYRC7zAKwHxDlqjg8dazpRgjG6cE0Xhv9es3n7m7tD6ZrCo/HrIHIlB0FajD+2z9XyB8msNMu+QkKyHE2XFmunAXpFSF8d1RERTqhCHdZcbYhMG7pVZE/qXjfcMcbX1JrJmIFwv7hgdivvCTAsuph/eR1cSDX77t6g/kkv1ZWNDDbRd6NKR5wXc0sfMP+d4IH53av5c2nbKcnpxQFDiO5z/ebBNYSy+3DMnO1oKd9M9otztMj709I12fv9yz9rM4JLL6YXn++3cxxygCYK28Z8L2wbsW76jZ3jvvJD1sm6710YxpQDC1mpsRLGmyXdJD8RT3ncL4WCGKK0NoQLruv+mxJ1DUIZf4zJbJfhHy0s7AwjsKbi53m2OOAIO5gCpmZTdCT/CkMV50o37po3D4wKfpGdUfXAt5M+uJeqzXWhNgj0vD8p2rHQqT13lMTOoEJcZI4sIXkgCu++yS64do/no1nhPhBVbRT5FgUc3KtCXsbbCcgDoz2a0AbKRtKwgCsiLJoJ+4pj3lKw3QMm7OyJMtuwJPEmwGqR5fciBxrXwhVYqSe4apsXLfpOgE5McOEgS0Dt9EUewN4YCJwqOz32NundgZap/dhJQqiVL5f8ZlXRD3N9uCHB6ZTpjEt5xYKb3PmjWLMjL3ma8bYNSvpmH5iKTU1+wqrVBGuPDDgXZbrGHWBDCqpSSzgEJZWjYAeDumam39jH2U/MAstZYRZ3tNnE9GQlBBRKA6hILD10mpHA8TmHvQtAvEDEj4Amm+FdSqcJFZj2JxTRcsnJ+cUXXlKje6oqCj+3rLW0e2AJUvrDAJH9rQJUIZs6pFbeho1cKrbH8qoV40I29M7HxIByBq+0rnYJFWE1xVNIK9kQdskWvzWqRkjNCT8e3SxQCioLpaJOSzsgvXt7vygJvh/XVxBxFFL6AEG3Bkvp" />
+
+
+<script src="/ArchivoWeb/ScriptResource.axd?d=dIcfSsfca-0Fz-faeLltQxJXXanJ9MtXd3F-NSKWu06pxTen-We8o59Pnxn66-tN7z9b64DOY9MsCip5_snKk-zNHHgV35Z2txTltFZKt4oyD8fXCY6sTRJpkOfWip0xBtKElndk3ng13wpAILZ3888J2HasQPVdxCKsxkdSp8eh5RKpQ8F2V_3H72ro4Qn70&amp;t=5c0e0825" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ArchivoWeb/ScriptResource.axd?d=HROsnXgjXrnYBXC7ciPoKl8N17MihSFSfGf8Zh7iSimVDZsJwZBR-TmbxdmyFryJN0hrGWHUd5SYUx-797nuv08fpqRO46yAQdL4WphhsUu-VCrNF3Ub-tu5m_5-2OMhUk-91aiPa8VVRictq8iJ5A2&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=pufJUxhWJSV5UVXudD6IxgtMP0gflR7UbkcC2JEgFMH9UrKnkqxy3L6QY87O-l0M5iH70T62dty2HAvh1UAiCLlPpodfi-fxgtgkzPpisCosK3TQXuQTzwi4cqQN7vnG0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=9XGKoBpwfZZRZT912JFxjcj_6G-2zbYFK_HICXKvSPB4qot02sc11hfGXxvQwaPeY90DUKaT88Lc5KHtcwUnEDf2Eo3bRVA_g7mYm3Iih0alYB2hJYfqoamFvwx0gjrU-IG_rUyG7vFkTHlYlafThA2&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=rFiAmkg0ffhgM5TNosyovohBXl73vF01CygKes5qrjU5mWSMfz8yZb1tbMGVPoVD_C6skXFYzOPy6ptmWAYNdtDVlpfvgI6j_WeuazdJX80pmZrZVAIR-fXTan1pk1IdAQldX9p4rygqYCiaNgwMpw2&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=ZBnsxiCovbcax8d-D3hSM6rDl7pCVA4z4UtbI4cI4HUcPlQntFLJrHuiVZwSOElAuDJg-4gkPc3vz3B5lq4Alqqq9zH2Y5hcc1sMkQna4O7sFjhP-1_NqRXSrqtYVV8rMPdwEMYIRp8FgfSC-eEq6g2&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=pLlEawMv_CH60rmD_e3uChTUc-7RrEOe-_-YIILvb4Fc3T9Pa9_mp5-G_pW7AcN4L9Nv-mSfFYeUlpA16kw7YdSIv_aPsNc4LeIhSloqYVr7gAO6Q51kr5IkfrcZxNJ6Ii4e8HEQM_6rDLs4uUM8SA2&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=NYOPiJs12cL3yH1eh6byC17AbA4vMwJ9lu-y1qvS_5kQWxNjbH6d_AoknRFl7KsTYXRStgYGDV1OSmSD7QDpAc-wZhhN6PXm3HUvmhf3JBOyBQUU-NjMCkrjo7EVttFX0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=CzruJHk0w7dz796hyDG_DrcoUdJw8cP9fqGAunE_wWfvXjT49ZJYZx07_sGeEKbS6OV-JrC8IPovUV9HC3HxbK0WYekGK4IkS8HUYsM55w_gN0bxoLluR6qA3jzXHePY0&amp;t=7d5986a" type="text/javascript"></script>
+<script src="/ArchivoWeb/ScriptResource.axd?d=1AI2vV1d7bKvuOiNi8mbR4zJ18Os_0UFdRdIeZXvoHZtxN6Ncj3X5I3KNwrjk5KVRbb_8xyGipnxwa8mMMuVTv3i9WFtVmrVYZiB3MzYOUJ0zH2ZM8e4vlXAJC_tqL0XXB_nHbfdHxFhidqAWvWTYA2&amp;t=7d5986a" type="text/javascript"></script>
+<script src="EntesActivos.asmx/jsdebug" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="18C6B927" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="7zjiVzFZ4PdDcsqUwuUU5mDaIawORTnRCEXYIuzTZ11/Wqg7bralv84MbnClSNudsawkobOvbFXXv1T+6JMjuoW8w0lS6MQmGCUc4WPPmHRHq+4ajaV4KbwkWtPHrtOmhUvj25buySW5AAAPCQB3DSzPzQ+vlarMQFgApjiGqJ/TW1r/xMBgURLPfD0DwKjsWPj3Mp81aqpECIzC825HuDv6AC2ma8/DnSiQNGss3PLIT6gX6IxfuneH1+sr6vkFoWmt8sFRNn3w5wn9PpRkG06ukJoEnbzeH6R1Oial9tNtIsw8Ijh1pqUJ7nu+Oqh9nxUznCLh6fM3sdOej+6EOpYWLmoOo2KRnHRnq843rYF3Riwohy5jTcCd2Erbzj0IMEEhZAuh5ikhbmo2BJ8tGXqPRq5FR/BCLv5MEEcCTuhyYRz9eoGnV4mORg7xDgqg+U6kSBLPeFCL7XPkgwWw4ZGBgM5N72D5+uUNetAC8oCh32bzcSQnCpoBhBNgKVcX1dHXyKhoEJwtH4VZybbt6CL0tvL4hQR2NwB3bsYJjjIwZnB6FT979hH7QqmPQVMnoz3OZc/hQnvAbrSesoiLrSuPLjCz3t8Ac6o7bqE+p7gZRaq/Z66XX+cP1d73lxemZCq/Jr9CsALnY5RyY0z0xlQ6I/9beI9wiXWtnoKGt62Oa+pVgR+JvVrHjmZMjD19LH25aBEpy+GAfghIRKMPyl351uBGtmJT1mOpELq1iCmBnXS0tqPyp+TBb/TQvYNq4rbOfkGMcEgR0796xTfPTZbWZ/YYqzsil3ShnOxzlub6hK8hlJfZ01S8XNUCXDHbVEJRqUknraIB+ySX6KndC3GR8QQ7JPV9jem9qkXS5LzUTN6tg956aZtpe6NmeGPz/Zrs3l1X8Ui1HkXoATwPiv7PaqJ7WD8q1s5NSklCC4er88tUYuKocirMMbslH1kVYydRocade9KT0Uhykf3mkQfKLKmnhkOa5a71PGkdGaffQC19pfD2+TU6MHHENaZXMDdTj/2x/CoqYhjBrwpMNWIQ/KyFt7EIXnwbaOuzI1Usy51hgdoIaUE9K6KKyIpf52zvF7hRc1/csW2TFCK7KYiag0a4jUY5oV7WLyBtNseHBugJEC0zrsQT/039kcMCEHljCfK/Ar1FPGog2kYpPZ1RM4Rn0CE5bu2p2cI5mhw57DU9kn84q4e8rNwqDCZEOBBEOEMMwlnbXoDB1BhpAyxtv6h7X3gdu7z0646ScrR5eAinT2ZXFD9TQpfhyvwVgqwfZlT3SEhMMG6nnO0r6A==" />
+            
+    
+
+    <div class="container">
+        <h1>Informes</h1>
+        <hr />
+
+        <div id="filtro" class="col-md-12 collapse in">
+            <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnAccion" id="ContentPlaceHolder1_hdnAccion" />
+            <div>
+                <div class="pane-content">
+                    <div class="row m-t-2">
+                        <div class="col-md-6 form-group item-form">
+                            <label>Año:</label>
+                            <select name="ctl00$ContentPlaceHolder1$ddlAnio" id="ContentPlaceHolder1_ddlAnio" class="form-control">
+	<option value="%">(Todos)</option>
+	<option value="2026">2026</option>
+	<option value="2025">2025</option>
+	<option value="2024">2024</option>
+	<option value="2023">2023</option>
+	<option value="2022">2022</option>
+	<option value="2021">2021</option>
+	<option value="2020">2020</option>
+	<option value="2019">2019</option>
+	<option value="2018">2018</option>
+	<option value="2017">2017</option>
+	<option value="2016">2016</option>
+	<option value="2015">2015</option>
+	<option value="2014">2014</option>
+	<option value="2013">2013</option>
+	<option value="2012">2012</option>
+	<option value="2011">2011</option>
+	<option value="2010">2010</option>
+	<option value="2009">2009</option>
+	<option value="2008">2008</option>
+	<option value="2007">2007</option>
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
+	<option value="2002">2002</option>
+	<option value="2001">2001</option>
+	<option value="2000">2000</option>
+	<option value="1999">1999</option>
+	<option value="1998">1998</option>
+	<option value="1997">1997</option>
+	<option value="1996">1996</option>
+	<option value="1995">1995</option>
+	<option value="1994">1994</option>
+	<option value="1993">1993</option>
+
+</select>
+                        </div>
+                        <div class="col-md-6 form-group item-form">
+                            <label>Tipo informe: </label>
+                            <select name="ctl00$ContentPlaceHolder1$ddlSubTipoDocumento" id="ContentPlaceHolder1_ddlSubTipoDocumento" class="form-control">
+	<option value="%">(Todos)</option>
+	<option value="5">Auditor&#237;a</option>
+	<option value="10">Control</option>
+	<option value="35">Entrega y Recepci&#243;n – Decreto 126/2023</option>
+	<option value="9">Especiales</option>
+	<option value="4">Evaluaci&#243;n Sistema Control Interno</option>
+	<option value="11">Evaluacion Sistema Gestion y Control Interno</option>
+	<option value="36">Fondos Fiduciarios – Decreto 215/2024</option>
+	<option value="7">Red Federal</option>
+	<option value="26">Reporte de Juicios</option>
+	<option value="34">Resultados</option>
+	<option value="8">Situaci&#243;n Empresarial</option>
+	<option value="33">Situaci&#243;n Institucional</option>
+
+</select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group item-form">
+                            <label>Palabras clave:</label>
+                            <textarea name="ctl00$ContentPlaceHolder1$txtPalabrasClave" rows="3" cols="20" id="ContentPlaceHolder1_txtPalabrasClave" class="form-control" Autocomplete="off">
+</textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group item-form">
+                            <label>Organismo:</label>
+                            <input name="ctl00$ContentPlaceHolder1$txtDescripcionEnte" type="text" id="ContentPlaceHolder1_txtDescripcionEnte" class="form-control" placeholder="Escriba el Organismo ..." onchange="return LimpiarHiddenEnte();" />
+                            <div id="listPlacement" style="height: auto; max-height: 300px; overflow-y: scroll;"></div>
+                            
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnIdEnte" id="ContentPlaceHolder1_hdnIdEnte" value="0" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 form-group item-form"  >
+                            <span><input id="ContentPlaceHolder1_chkAIP" type="checkbox" name="ctl00$ContentPlaceHolder1$chkAIP" /><label for="ContentPlaceHolder1_chkAIP">Filtre y acceda a los informes relevantes solicitados en el marco de la Ley de Acceso a la información Pública N° 27.275</label></span>
+                            
+                            
+                        </div>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+        <br />
+        <!-- botonera -->
+        <div class="row mt-1">
+            <div class="col-md-12 f-rigth">
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnLimpiar" value="Limpiar Filtros" onclick="return LimpiarFiltros();" id="ContentPlaceHolder1_btnLimpiar" title="Limpiar filtros y resultados" class="btn btn-primary pull-right m-r-1" />
+                <input type="submit" name="ctl00$ContentPlaceHolder1$btnBuscar" value="Buscar" onclick="return BuscarDocumentos();" id="ContentPlaceHolder1_btnBuscar" title="Buscar documento según filtros" class="btn btn-primary pull-right m-r-1" />&nbsp;&nbsp;&nbsp;&nbsp;            
+            </div>
+        </div>
+        <!-- grilla de resultados -->
+        <div id="resultado" class="row collapse in">
+            <div class="row ">
+                <div class="col-md-12">
+                    <p class="form-label lead">Total de informes:&nbsp;&nbsp;<span id="ContentPlaceHolder1_lblTotRegistros" class="h5 text-success"></span></p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <br />
+                    <div>
+
+</div>
+                </div>
+            </div>
+        </div>
+        <!--  Modals-->
+        <div class="modal  modal-tall fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header colorModalFondo">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 id="ContentPlaceHolder1_myModalLabel" class="modal-title">Mensaje de Sistema</h4>
+                    </div>
+                    <div class="modal-body">
+                        <span id="ContentPlaceHolder1_lblMessageModal"></span><br />
+                    </div>
+                    <div class="modal-footer colorModalFondo">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="mi-modal">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel1">Confirmar</h4>
+                    </div>
+                    <div class="modal-body">
+                        <span id="ContentPlaceHolder1_lblMensajePregunta"></span><br />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" id="modal-btn-si">Si</button>
+                        <button type="button" class="btn btn-default" id="modal-btn-no">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="newWindow" tabindex="-1" data-bs-keyboard="false" data-backdrop="static">
+
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content ">
+                    <div class="modal-body">
+                        <div class="close-button">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div>
+                            <iframe style="border: none; width: 100%;">asdlkjasdñsjañdk
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+
+
+        (function ($) {
+            function iframeModalOpen() {
+                // impostiamo gli attributi da aggiungere all'iframe es: data-src andrà ad impostare l'url dell'iframe
+                // btn-paraGrilla no es un CSS, solo se usa para tomar control sobre el boton
+                $('.btn-paraGrilla').on('click', function (e) {
+                    var src = $(this).attr('data-src');
+                    var width = $(this).attr('data-width') || 800;   // largo del frame, si no se establece usa 640
+                    var height = $(this).attr('data-height') || 600; // alto del frame, si no se establece usa 360
+                    $("#newWindow iframe").attr({
+                        'src': src,
+                        'height': height,
+                        'width': width,
+                        'allowfullscreen': ''
+                    });
+                });
+                // se si chiude la modale resettiamo i dati dell'iframe per impedire ad un video di continuare a riprodursi anche quando la modale è chiusa
+                $('#newWindow').on('hidden.bs.modal', function () {
+                    //debugger;
+                    $(this).find('iframe').html("");
+                    $(this).find('iframe').attr("src", "");
+                });
+            }
+            //$('#btnC').click(changeClass);
+            $(document).ready(function () {
+                iframeModalOpen();
+            });
+        })(jQuery);
+    </script>
+
+
+
+
+
+
+
+        
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AutoCompleteBehavior, {"completionInterval":0,"completionListElementID":"listPlacement","completionSetCount":300,"delimiterCharacters":"","enableCaching":false,"id":"ContentPlaceHolder1_AutoComplete","serviceMethod":"getEntesLocalTodos","servicePath":"EntesActivos.asmx"}, {"itemSelected":CargarEnteSeleccionado}, null, $get("ContentPlaceHolder1_txtDescripcionEnte"));
+});
+//]]>
+</script>
+</form>
+    </main>
+    <footer class="main-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="region region-footer1">
+                    <section id="block-menu-menu-footer-1" class="block block-menu clearfix">
+                    <h2 class="block-title h3 section-title h3 section-title">Trámites</h2>
+                    <ul class="menu nav">
+                        <li class="first leaf"><a href="https://www.argentina.gob.ar/turnos">Turnos</a></li>
+                        <li class="leaf"><a href="https://www.argentina.gob.ar/jefatura/innovacion-publica/administrativa/tramites-a-distancia">Trámites a distancia</a></li>
+                        <li class="last leaf"><a href="https://www.argentina.gob.ar/miargentina/mesadeayuda">Atención a la ciudadanía</a></li>
+                    </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="region region-footer2"> 
+                    <section id="block-menu-menu-footer-2" class="block block-menu clearfix">
+                    <h2 class="block-title h3 section-title h3 section-title">Acerca de la República Argentina</h2>
+                    <ul class="menu nav">
+                        <li class="first leaf"><a href="https://www.argentina.gob.ar/pais">Nuestro país</a></li>
+                        <li class="leaf"><a href="https://www.argentina.gob.ar/normativa">Leyes argentinas</a></li>
+                        <li class="leaf"><a href="https://www.argentina.gob.ar/organismos">Organismos</a></li>
+                        <li class="last leaf"><a href="https://www.argentina.gob.ar/jefatura/mapa-del-estado">Mapa del Estado</a></li>
+                    </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="region region-footer3">
+                    <section id="block-menu-menu-footer-3" class="block block-menu clearfix">
+                        <h2 class="block-title h3 section-title h3 section-title">Acerca de Argentina.gob.ar</h2>
+                        <ul class="menu nav">
+                            <li class="first leaf"><a href="https://www.argentina.gob.ar/acerca">Acerca de este sitio</a></li>
+                            <li class="leaf"><a href="https://www.argentina.gob.ar/terminos-y-condiciones">Términos y condiciones</a></li>
+                            <li class="last leaf"><a href="https://www.argentina.gob.ar/sugerencias">Sugerencias</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid border-top-amarillo">
+        <div class="row sub-footer">
+          <div class="container">
+            <div class="col-sm-6 m-y-1 p-x-0">
+                            
+          
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </footer>    
+</body>
+</html>

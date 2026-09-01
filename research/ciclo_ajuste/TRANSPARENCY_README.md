@@ -213,3 +213,8 @@ La Disposición CGN 41/1996 obliga a ingresar documentación por Mesa y registra
 ## V172 · Mesa SIGEN y custodia híbrida CGN
 
 La Memoria SIGEN 2007 documenta Mesa informatizada y bases del Archivo Digital; la Circular CGN 17/2005 agrega asunto/referencia y trámite previo; la Disposición CGN 32/2009 prueba un circuito híbrido, foliado e indexado con controles de recepción. Se corrige la cronología: COMDOC III ya existía en 2008 para ciertos circuitos y la Circular 04/2010 fija un alcance CGN posterior, no su creación. Common Crawl agregó 106 negativos válidos acotados sin capturas. Ruta y capacidad no se convierten en cuerpo/asiento. Archivo 602/602; panel 34 sin cambio; solicitudes 0.
+
+
+## V173 · CIDD, SPD y Notas SIGEN
+
+La Resolución 41/2007 y anexos identifican código NOT, CIDD, SPD, acceso y caja física. ArchivoWeb público sólo cubre informes; la ruta GDE/archivo digital de Notas está documentada en 2022 sin retroproyección. Common Crawl quedó detenido tras control fallido. Archivo 607/607; panel 34; solicitudes 0.
