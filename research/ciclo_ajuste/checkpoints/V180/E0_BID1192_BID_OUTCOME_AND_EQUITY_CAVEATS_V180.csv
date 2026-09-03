@@ -1,0 +1,9 @@
+﻿row_id,metric,value,source,interpretation,caveat
+OC180_01,credit component,USD 392m direct effects; USD 196m BID + USD 196m local,BID PCR,full disbursement,AGN 2008 financial table uses USD 194m + 194m; reconcile definition/cutoff
+OC180_02,credits,"1,216 investment + 2,598 local working-capital = 3,814",BID PCR,broad reach,different products; not all equivalent beneficiaries
+OC180_03,IFI reach,16 IFI in product table; 17 active in results narrative,BID PCR,national intermediation,internal inconsistency unresolved
+OC180_04,rates,TNA weighted 8.7%; CFT 10.1%; BNA CFT 7.5%,BID PCR,preferential fixed financing,averages mask dispersion and fees
+OC180_05,distribution,73.6% loans below USD100k; nearly 60% value to medium firms; 73% count to small firms,BID PCR,"small firms numerous, medium firms absorb value",equity by count differs from equity by pesos
+OC180_06,additionality,79% new bank clients or clients without prior investment finance; 15% new pure within group,BID PCR,financial additionality reported,"self/evaluation measure, not randomized causal estimate"
+OC180_07,impact model,"first year +USD65m GDP, +USD16m tax, 1,850 jobs; lifetime +USD249m GDP, +USD62m tax",BID PCR/CEPAL estimate,modeled benefit,not audited causal outcome
+OC180_08,equity classification,not equity social project and not poverty reduction project,BID proposal,development-credit operation,do not retrofit poverty mandate absent legal text

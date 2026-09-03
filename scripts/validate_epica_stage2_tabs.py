@@ -19,7 +19,11 @@ for tab_id in ("tab-epica-incidence", "tab-epica-development", "tab-epica-narrat
     assert ASSET.count(f'data-tab="{tab_id}"') >= 1
     assert tab_id in INDEX
 
-assert '<script src="assets/epica-stage2-tabs.js"></script>' in INDEX
+assert '<script src="assets/epica-stage2-tabs.js?v=20260902-1"></script>' in INDEX
+assert ".epica-actor-grid{display:grid;min-width:0;max-width:100%" in ASSET
+assert ".epica-narrative-card{display:grid;min-width:0" in ASSET
+assert "min-height:42px" in ASSET
+assert "window.addEventListener('resize'" not in ASSET
 assert "¿Qué cambió para cada actor?" in ASSET
 assert "¿Cuándo la inversión se convierte en trabajo y capacidad?" in ASSET
 assert "¿Qué pregunta abre cada frase?" in ASSET

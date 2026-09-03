@@ -1,0 +1,6 @@
+﻿row_id,dimension,trust_2005,facility_2007,why_not_transpose
+NT180_01,vehículo,patrimonio fiduciario con SIASA y dos IFI,financiación BCRA a múltiples IFI,partes y flujos distintos
+NT180_02,moneda,estructura original USD,subpréstamos en pesos,riesgo cambiario desplazado al Estado
+NT180_03,tasa,contrato/reglamento aplicable,2.9+0-6 y 3.9+0-5; máximo 8.9,banda 2007 no prueba tasa 2005
+NT180_04,garantías,Res. 747 delimita cartera propia y fiduciario,IFI asume riesgo y garantiza al BCRA mínimo 125%,acreedor y mecanismo diferentes
+NT180_05,volumen,,1121 operaciones por ARS 535.33m,universos no sumables sin diccionario

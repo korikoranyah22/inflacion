@@ -1,0 +1,6 @@
+﻿row_id,proposition,status,proof,missing
+MY182_01,existía una cuenta denominada Fondo Comisión de Compromiso,SUPPORTED_REFERENCE_2018,"MY 4002 · USD 15.182,68 · ARS 569.350,57 a tipo 37,5","extracto, titular, ledger y conciliación"
+MY182_02,el saldo MY 4002 era la liquidación Res. 1406,NOT_PROVED,coincidencia temática de denominación,asiento con expediente/acto/contraparte y cálculo
+MY182_03,Macro o Credicoop pagaron esa suma,NOT_PROVED,ninguna fuente pública localizada,"orden de pago, transferencia, recibo, extracto y asiento espejo"
+MY182_04,el saldo quedó extinguido en 2020,NOT_PROVED,BID1192 figura en cero y cierre no certificado,"acta de cierre, destino de remanentes y conciliación cuenta por cuenta"
+MY182_05,la pretensión administrativa quedó firme,NOT_PROVED,SIGEN reporta recursos pendientes,"dictámenes, decisión final y notificación"

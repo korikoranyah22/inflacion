@@ -9,20 +9,20 @@
 .epica-shell.incidence{--epica-accent:#a56531;--epica-accent-soft:#fff6e8;--epica-ink:#644727;--epica-muted:#806b50}
 .epica-shell.development{--epica-accent:#386a8c;--epica-accent-soft:#edf7ff;--epica-ink:#35576d;--epica-muted:#647a88}
 .epica-shell.narratives{--epica-accent:#7b5792;--epica-accent-soft:#f8f1fc;--epica-ink:#5e456b;--epica-muted:#796783}
-.epica-actor-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.epica-actor-grid{display:grid;min-width:0;max-width:100%;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
 .epica-actor-card{min-width:0;padding:13px;border:1px solid #e5dde5;border-radius:16px;background:#fff}
 .epica-actor-card small{display:block;color:var(--epica-muted);font-size:8px;font-weight:950;text-transform:uppercase;letter-spacing:.04em}
 .epica-actor-card b{display:block;margin:5px 0;color:var(--epica-ink);font-size:20px;line-height:1.05}
 .epica-actor-card p{margin:0;color:var(--epica-muted);font-size:9px;line-height:1.5}
-.epica-stage-lane{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
-.epica-stage-card{position:relative;padding:12px;border:1px solid #dfe3e8;border-radius:15px;background:#fbfdff}
+.epica-stage-lane{display:grid;min-width:0;max-width:100%;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.epica-stage-card{position:relative;min-width:0;padding:12px;border:1px solid #dfe3e8;border-radius:15px;background:#fbfdff}
 .epica-stage-card:not(:last-child):after{content:'→';position:absolute;right:-8px;top:50%;z-index:2;transform:translateY(-50%);color:#8ba0ae;font-weight:950}
 .epica-stage-card small{display:block;color:#718592;font-size:8px;font-weight:950;text-transform:uppercase}.epica-stage-card b{display:block;margin:5px 0;color:#35576d;font-size:14px}.epica-stage-card p{margin:0;color:#6f818c;font-size:8px;line-height:1.45}
-.epica-narrative-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
-.epica-narrative-card{display:grid;gap:7px;padding:14px;border:1px solid #e4d9e9;border-radius:16px;background:#fff}
+.epica-narrative-grid{display:grid;min-width:0;max-width:100%;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.epica-narrative-card{display:grid;min-width:0;gap:7px;padding:14px;border:1px solid #e4d9e9;border-radius:16px;background:#fff}
 .epica-narrative-card[hidden]{display:none}.epica-narrative-card small{color:#8a7195;font-size:8px;font-weight:950;text-transform:uppercase;letter-spacing:.035em}.epica-narrative-card h3{margin:0;color:#5e456b;font-size:14px;line-height:1.3}.epica-narrative-card p{margin:0;color:#77657f;font-size:9px;line-height:1.5}.epica-narrative-origin{padding:8px 9px;border-radius:10px;background:#faf7fc}.epica-narrative-status{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto}.epica-narrative-status button{border:0;background:transparent;color:#7b5792;font:inherit;font-size:9px;font-weight:950;cursor:pointer}
 @media(max-width:900px){.epica-actor-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.epica-stage-lane{grid-template-columns:repeat(2,minmax(0,1fr))}.epica-stage-card:nth-child(2):after{display:none}}
-@media(max-width:720px){.epica-actor-grid,.epica-narrative-grid,.epica-stage-lane{grid-template-columns:1fr}.epica-stage-card:not(:last-child):after{content:'↓';right:50%;top:auto;bottom:-12px;transform:translateX(50%)}.epica-stage-card:nth-child(2):after{display:block}}
+@media(max-width:720px){.epica-actor-grid,.epica-narrative-grid,.epica-stage-lane{grid-template-columns:1fr}.epica-stage-card:not(:last-child):after{content:'↓';right:50%;top:auto;bottom:-12px;transform:translateX(50%)}.epica-stage-card:nth-child(2):after{display:block}.epica-narrative-status{align-items:flex-start;flex-direction:column}.epica-narrative-status button{min-height:42px;padding:8px 0}}
 `;
   document.head.appendChild(style);
 
@@ -144,6 +144,5 @@
 
   tabs.querySelector('[data-tab="tab-epica-development"]')?.addEventListener('click',()=>window.setTimeout(renderDevelopment,190));
   tabs.querySelector('[data-tab="tab-epica-narratives"]')?.addEventListener('click',()=>window.setTimeout(renderNarratives,190));
-  window.addEventListener('resize',()=>{if(document.getElementById('tab-epica-development')?.classList.contains('active'))renderDevelopment();});
   renderNarratives();
 })();

@@ -1,0 +1,5 @@
+﻿layer,label,target,result
+official_index,Anexo 4.37 · Cuadro de Cuentas Bancarias,cuenta2020-separatai-anexo-4.37-cuentas_bancarias.xlsx,PUBLISHED_AS_BANK_TABLE
+downloaded_workbook,,,SERVER_FILE_CONTENT_DOES_NOT_MATCH_LABEL
+prior_inference,,,INVALID_AS_BANK_TABLE_ABSENCE_TEST
+verified_pdf,,,MATCH_ACTIVE_FONDYF_NARRATIVE

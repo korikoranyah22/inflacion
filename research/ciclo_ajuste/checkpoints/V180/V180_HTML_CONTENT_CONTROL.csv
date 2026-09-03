@@ -1,0 +1,10 @@
+﻿control_id,source_id,target_string,result,limit
+HTML180_01,e0_bo_res347_2004_notice_endpoint_v180,00227867,PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_02,e0_bo_res389_2005_notice_endpoint_v180,00292146,PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_03,e0_infoleg_res747_2004_guarantee_addenda_v180,Fideicomiso,PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_04,e0_agn_res129_2005_endpoint_gap_v180,html,PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_05,e0_agn_res129_2005_api_query_gap_v180,"""count"":0",PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_06,e0_wayback_agn_res129_2005_cdx_gap_v180,[],PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_07,e0_agn_api_res023_2005_metadata_v180,"""resolucion"":23",PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_08,e0_agn_api_res160_2006_metadata_v180,"""resolucion"":160",PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof
+HTML180_09,e0_agn_api_res014_2010_metadata_v180,"""resolucion"":14",PASS_EXACT_STRING,content/provenance control; negative results are not substantive absence proof

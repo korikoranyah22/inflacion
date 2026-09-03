@@ -1,0 +1,8 @@
+﻿row_id,date,event,record,state,open_item
+TL180_01,2007-08-13,BCRA suspende nuevos proyectos,Com. B 9056,FUNDS_FULLY_COMMITTED,inventario definitivo de compromisos
+TL180_02,2007-08-31,partes trabajan Carta de Intención de cierre,AGN 14/2010,CLOSURE_NEGOTIATION,Carta firmada y anexos
+TL180_03,2008-09-26,causal contractual de terminación,AGN 14/2010,TERMINATION_TRIGGERED,resolución y balance de liquidación
+TL180_04,2008,expediente de liquidación,MECON S01:0431231/08,ADMINISTRATIVE_PROCESS,expediente completo
+TL180_05,2009-09-14,UCP informa falta de resolución ministerial,Nota UCP 112/09,LIQUIDATION_PENDING,acto posterior y rendición final
+TL180_06,2012-08-03,Decreto 1273 crea FONDYF con recuperos,Decreto 1273/2012,LEGAL_SUCCESSION_FRAMEWORK,inventario/ledger de activos transferidos
+TL180_07,2013,administración BNA-FONDYF,Res. 206/2012 y 48/2013,NEW_REGIME,conciliar saldo inicial con cierre 1192

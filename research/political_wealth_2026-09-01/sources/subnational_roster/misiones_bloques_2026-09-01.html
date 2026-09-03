@@ -1,0 +1,698 @@
+<!-- ESTILOS -->
+<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap4_4_1/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap-datepicker3.css" />
+<link rel="stylesheet" type="text/css" href="css/dataTables.bootstrap4.min.css" />
+<link rel="stylesheet" href="css/tiny-slider.css" />
+<!-- FIN ESTILOS-->
+
+<!-- LIBRERIAS JS -->
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/tiny-slider.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/locales/bootstrap-datepicker.es.min.js"></script>
+<script type="text/javascript" charset="utf8" src="js/dataTables.bootstrap4.min.js"></script>
+
+<script type="text/javascript">
+const lang_dt = {
+    "sProcessing":     "Procesando...",
+    "sLengthMenu":     "Mostrar _MENU_ registros",
+    "sZeroRecords":    "No se encontraron resultados",
+    "sEmptyTable":     "Ningún dato disponible en esta tabla",
+    "sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+    "sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+    "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+    "sInfoPostFix":    "",
+    "sSearch":         "Buscar:",
+    "sUrl":            "",
+    "sInfoThousands":  ",",
+    "sLoadingRecords": "Cargando...",
+    "oPaginate": {
+        "sFirst":    "Primero",
+        "sLast":     "Último",
+        "sNext":     "Siguiente",
+        "sPrevious": "Anterior"
+    },
+    "oAria": {
+        "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+        "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+    },
+    "buttons": {
+        "copy": "Copiar",
+        "colvis": "Visibilidad"
+    }
+};
+
+</script>
+<!-- FIN LIBRERIAS JS-->
+
+
+<!-- FUNCIONES JS -->
+<script src="js/home.js"></script>
+<!-- FIN FUNCIONES JS -->
+
+<!-- CONEXION PHP-->
+<!-- FIN CONEXION PHP-->
+<div class="contenedor_home">
+	<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset=" UTF-8">
+    <!-- Animacion elementos -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>-->
+    <!-- narradora -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=fpYlbR8c"></script>
+    <!-- meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 5.3 -->
+    <link href="css/bootstrap_5_3_2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- cdn de Font Awesome -->
+    <!-- bootstrap js -->
+    <script src="css/bootstrap_5_3_2/js/bootstrap.bundle.min.js"></script>
+    <!-- estilo viejo -->
+    <link href=" css/estilos.css" rel="stylesheet" />
+    <!-- estilo nuevo -->
+    <link href="css/estilos_nuevo.css" rel="stylesheet" />
+    <link href="css/menu2025.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <title>Sitio Institucional de la Cámara de Diputados</title>
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light margenes-navbar color-navbar">
+        <div class="w-100 d-flex justify-content-center">
+            <a class="navbar-brand" href="https://www.diputadosmisiones.gov.ar/nuevo/index">
+                <img id="logo_camara" src="imagenes/logo_cam.png" alt="Logo del portal de la cámara de representantes de misiones" height="50">
+            </a>
+            <!--  <div class="ms-auto" style="font-size: 1.11rem; font-weight: bold; line-height: 3.5;">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #f5f5dd; width:5rem!important;" alt="Menu desplegable del Staff">Staff</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="diputados" alt="Ver nuestros legisladores">Legisladores</a></li>
+                                <li><a class="dropdown-item" href="autoridades" alt="Ver nuestras autoridades">Autoridades</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bloques" style="color: #f5f5dd; width:6rem!important;" alt="Enlace directo a nuestros Bloques">Bloques</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #f5f5dd;" alt="Menu desplegable de Comisiones">Comisiones</a>
+                            <ul class="dropdown-menu">
+                                <form id="comiPermanente" action="comisiones" method="POST">
+                                    <li>
+                                        <input type="hidden" name="comisiones" value="permanente">
+                                        <a class="dropdown-item" href="#" id="submitPerma" onclick="submitPerma()" alt="Comisiones Permanentes">Comisiones Permanentes</a>
+                                    </li>
+                                </form>
+
+                                <form id="comiEspecial" action="comisiones" method="POST">
+                                    <li>
+                                        <input type="hidden" name="comisiones" value="especial">
+                                        <a class="dropdown-item" href="#" id="submitEspe" onclick="submitEspe()" alt="Comisiones Especiales">Comisiones Especiales</a>
+                                    </li>
+                                </form>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #f5f5dd;" alt="Secretarías">Secretarías</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" onclick="document.getElementById('formu-1').submit(); return false;">Secretaría Parlamentaria
+                                                <form action="secretarias" id="formu-1" class="d-none" method="POST">
+                                                    <input type="hidden" name="secre" id="secre" value="2">
+                                                    <input type="hidden" name="nombre" id="nombre" value="Secretaría Parlamentaria">
+                                                </form>
+                                            </a></li><li><a class="dropdown-item" href="#" onclick="document.getElementById('formu-2').submit(); return false;">Secretaría Centro del Conocimiento Parlamentario
+                                                <form action="secretarias" id="formu-2" class="d-none" method="POST">
+                                                    <input type="hidden" name="secre" id="secre" value="3">
+                                                    <input type="hidden" name="nombre" id="nombre" value="Secretaría Centro del Conocimiento Parlamentario">
+                                                </form>
+                                            </a></li><li><a class="dropdown-item" href="#" onclick="document.getElementById('formu-3').submit(); return false;">Secretaría Administrativa
+                                                <form action="secretarias" id="formu-3" class="d-none" method="POST">
+                                                    <input type="hidden" name="secre" id="secre" value="6">
+                                                    <input type="hidden" name="nombre" id="nombre" value="Secretaría Administrativa">
+                                                </form>
+                                            </a></li><li><a class="dropdown-item" href="#" onclick="document.getElementById('formu-4').submit(); return false;">Secretaría Digesto Juridico
+                                                <form action="secretarias" id="formu-4" class="d-none" method="POST">
+                                                    <input type="hidden" name="secre" id="secre" value="4">
+                                                    <input type="hidden" name="nombre" id="nombre" value="Secretaría Digesto Juridico">
+                                                </form>
+                                            </a></li><li><a class="dropdown-item" href="#" onclick="document.getElementById('formu-5').submit(); return false;">Secretaría Inteligencia Artificial
+                                                <form action="secretarias" id="formu-5" class="d-none" method="POST">
+                                                    <input type="hidden" name="secre" id="secre" value="8">
+                                                    <input type="hidden" name="nombre" id="nombre" value="Secretaría Inteligencia Artificial">
+                                                </form>
+                                            </a></li>                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #f5f5dd;" alt="Menu desplegable de nuestras actividades Institucionales">Institucional</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="embajadores" alt="Galeria de fotos de nuestro Embajador">Galería Embajador</a></li>
+                                <li><a class="dropdown-item" href="visitas" alt="Galeria de fotos de las visitas guiadas">Galería Visitas</a></li>
+                                <li><a class="dropdown-item" href="galeria_camara" alt="Galeria de fotos de la Camara de Representantes">Galería de la Camara</a></li>
+                                <li><a class="dropdown-item" href="robotica" alt="Galeria de fotos de las visitas guiadas">Actividades secretaria IA </a></li>
+                                <li><a class="dropdown-item" href="faqs" alt="Preguntas frecuentes">Preguntas Frecuentes</a></li>
+                                <li><a class="dropdown-item" href="diccionario" alt="Diccionario">Diccionario</a></li>
+                                <li><a class="dropdown-item" href="documentos" alt="Constitución de la Nación Argentina">Normativas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.diputadosmisiones.gov.ar/nuevo/webmail/" style="color: #f5f5dd;" alt="Correo Institucional" target="_blank">Webmail</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>-->
+        </div>
+    </nav>
+ 
+    <div id="page" clase="site"> 
+        <div class="container">
+            <nav class="navHud">
+                <input type="checkbox" id="link" hidden>
+                <label for="link" class="link">
+                    <i class="menu ri-menu-3-line ri-2x latir" style="font-size: 3vw;"></i>
+                    <i class="close ri-close-line ri-2x" style="font-size: 3vw;"></i>
+                </label>
+                <ul class="submenu">
+                     <li><a href="index"><span>Inicio</span><i class="ri-home-line"></i></a></li>
+                    <li><a href="diputados"><span>Staff</span><i class="ri-team-fill"></i></a></li>
+                      <li><a href="archivos/politicas2025.pdf" target="_blank"><span>Calidad</span><i class="ri-group-2-line"></i></a></li>
+                    <li class="search-container">
+                        <a href="#" id="search-btn">
+                            <span>Búsqueda </span><i class="ri-search-eye-fill"></i>
+                        </a>
+                        <form class="container-search-input" action="buscar" method="get" role="search">
+                            <input type="search" id="search-input" name="q" placeholder="Buscar...">
+                        </form>
+                    </li>
+                    <li><a href="secretaria"><span>Autoridades</span><i class="ri-contacts-fill"></i></a></li>
+                    <li><a href="menu_comisiones_2025"><span>Comisiones</span><i class="ri-contacts-book-2-line"></i></a></li>
+                    <li><a href="https://mail.diputadosmisiones.gov.ar" target="_blank"><span>Correo</span><i class="ri-mail-line"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+
+
+<!-- Botón flotante de accesibilidad -->
+<!-- <div class="floating-access-button access">
+    <button class="btn btn-primary" id="accessibilityButton" aria-label="Botón de accesibilidad" alt='Bóton de Accesibilidad'>
+        <img src="imagenes/iconos_accesibilidad/persona.webp" alt="Boton de accesibilidad." style="max-width: 61px;filter: invert(100%);margin-left: -28%;margin-top: -8%;" />
+    </button> -->
+    <!-- menu desplegable -->
+    <!-- <div class="accessibility-menu" id="accessibilityMenu">
+        <p class="text-center text-center-acces">Herramientas de Accesibilidad</p>
+        <ul class="lista-btm">
+            <li><button id="toggleNarrator" onclick="responsiveVoice.speak('Narrador Activado','Spanish Latin American Male');" class="btn-accesibilidad" alt="Botón para Desactivar el narrador."><img src="imagenes/iconos_accesibilidad/narrador.webp" alt="Boton de accesibilidad." style="max-width: 40px; filter: invert(100%);" /> Narrador</button></li>
+            <li><button onclick="increaseTextSize()" class="btn-accesibilidad" alt="Botón para Agrandar Texto."><img src="imagenes/iconos_accesibilidad/texto.webp" style="max-width: 40px; filter: invert(100%);" />Agrandar Texto</button></li>
+            <li><button onclick="invertColors()" class="btn-accesibilidad" alt="Botón para dar contraste."><img src="imagenes/iconos_accesibilidad/contraste.webp" style="max-width: 40px; max-height: 40px; filter: invert(100%);" /> Contraste</button></li>
+            <li><button id="bigCursor" class="btn-accesibilidad" alt="Botón para agrandar cursor."><img src="imagenes/iconos_accesibilidad/cursor.webp" style="max-width: 40px;max-height: 40px; filter: invert(100%);" /> Cursor</button></li>
+            <li><button onclick="resetAccessibility()" class="btn-accesibilidad" alt="Botón para restablecer las configuraciones."><img src="imagenes/iconos_accesibilidad/restablecer.webp" style="max-width: 40px; filter: invert(100%);" />Restablecer</button></li>
+        </ul>
+    </div>
+</div> -->
+
+</html>
+<script src="js/header.js"></script>
+
+<script>
+    function reproducir_todo()
+    {
+        $("body audio").each(function() {
+            var aud = document.getElementById($(this).attr('id'));
+
+            aud.onended = function() {
+                alert("Fin de "+$('#'+$(this).attr('id')));
+            };
+
+            //Reproducir
+            $('#'+$(this).attr('id'))[0].play();
+        });
+    }
+
+    function siguiente_audio(id)
+    {
+        id++;
+        if (($("."+id).length > 0) && (get_cookie("sonido") === "true"))
+        {
+            $('.'+id)[0].play();
+        }
+    }
+
+    function limpiar_audios(){
+        $("audio").remove();
+        $(".enlace").remove();
+    }
+
+    function cargar_opciones(opc_menu) {
+        $.ajax({
+            data: {'opc_menu': JSON.stringify(opc_menu)},
+            url: "ajax_menu_accesibilidad.php",
+            method: "post",
+            success: function (data) {
+                $('#menu_accesibilidad').replaceWith(data);
+            }
+        });
+    }
+
+    function leer_opciones(array) {
+        $.ajax({
+            data: {'array': JSON.stringify(array)},
+            url: "ajax_audio.php",
+            method: "post",
+            success: function (data) {
+                $('#audios_accesibilidad').replaceWith(data);
+                if(get_cookie("sonido") === "true"){
+                    $('#audio_1')[0].play();
+                }
+            }
+        });
+    }
+</script>
+
+<link rel="stylesheet" title="normal" type="text/css" href="https://www.diputadosmisiones.gov.ar/nuevo/accesibilidad/css/overrides-color-original.css">
+<link rel="alternate stylesheet" title="alto-contraste" type="text/css" href="https://www.diputadosmisiones.gov.ar/nuevo/accesibilidad/css/overrides-alto-contraste.css">
+<link href="css/bloques2025.css" rel="stylesheet" />
+<script type="text/javascript" src="https://www.diputadosmisiones.gov.ar/nuevo//js/funciones.js"></script>
+  
+<div id="contenido" style="width:100% !important;">
+    <div id="audios_accesibilidad" class="offset-3"></div>
+    <div id="container-accesibilidad-zoom">
+        <!-- <nav class="navbar navbar-expand-xl navbar-expand-lg navbar-light nav-dos">
+  <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#nav_dos" aria-controls="nav_dos" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="nav_dos">
+    <ul class="navbar-nav mr-auto container-fluid">
+      <li class="nav-item flex-sm-fill col-lg-3">
+        <a class="flex-sm-fill text-sm-center nav-link letras active " href="bloques">BLOQUES</a>
+      </li>
+      <li class="nav-item flex-sm-fill col-lg-3">
+        <a class="flex-sm-fill text-sm-center nav-link letras  " href="comisiones">COMISIONES</a>
+      </li>
+      <li class="nav-item flex-sm-fill col-lg-3">
+        <a class="flex-sm-fill text-sm-center nav-link letras  " href="diputados">DIPUTADOS</a>
+      </li>
+      <li class="nav-item flex-sm-fill col-lg-3 ">
+        <a class="flex-sm-fill text-sm-center nav-link letras  " href="autoridades">AUTORIDADES</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<style>
+  .letras {
+    font-size: 1.09rem !important;
+  }
+</style> -->
+        <div id="datos_bloques">
+            <div id="bloques_title" class="text-black text-center">
+                <h5><strong>BLOQUES:</strong></h5>
+            </div>
+            <div class="post-it">
+                <ul class="transition-post-it">
+                    <li>
+                        <p>
+                            <a id="BAE" class="seleccion" href='index'>Volver</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="slider-container">
+                <ul class="controls" id="customize-controls" aria-label="Carousel Navigation" tabindex="0">
+                    <li class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
+                        <img src="imagenes/previous.png" style="height: 32px; width: 32px" alt="Atrás">
+                    </li>
+                    <li class="next" data-controls="next" aria-controls="customize" tabindex="-1">
+                        <img src="imagenes/next.png" style="height: 32px; width: 32px" alt="Adelante">
+                    </li>
+                </ul>
+                <div class="my-slider">
+                    <div class='slider-item'><a href='bloques&bloque=75' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque.jpg' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Algo Nuevo por los Trabajadores</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=73' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque73_peri51.jpg' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Bloque Agrario y Social</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=78' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque78_peri51.png' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Bloque Encuentro Misionero</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=80' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque.jpg' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Bloque Movimiento por lo que Viene</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=74' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque74_peri51.png' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Bloque Partido Libertario</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=81' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque.jpg' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Bloque Por Misiones y la Libertad</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=62' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque62_peri51.jpg' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Bloque PRO</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=72' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque72_peri51.png' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>La Libertad Avanza (L.L.A)</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=77' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque77_peri51.png' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Por la Vida y los Valores</h3></div></a></div><div class='slider-item'><a href='bloques&bloque=45' class='card-link'><div class='card align-items-lg-center text-lg-center'><img src='imagenes/logo_bloques/bloque45_peri51.png' class='img-thumbnail rounded-circle' style='max-width:150px; max-height:150px;'/><h3 class='h4 text-lg-center text-info'>Unión Cívica Radical (UCR)</h3></div></a></div>                </div>
+            </div>
+        </div>
+        <div id="bloque_extend" class="container-fluid">
+                    </div>
+    </div>
+</div>
+
+<div id="div-altura-variable">
+    </div>
+
+            <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_1 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_2 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_3 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_4 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_5 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_6 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_7 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_8 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_9 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_10 enlace" href="#"></a>
+                        <audio id="audio_#" class="">
+                <source src="#" type="audio/mp3">
+            </audio>
+            <a class="enlace_11 enlace" href="#"></a>
+            
+<style>
+    #datos_bloques {
+        /* background: rgba(75, 82, 90, 0.87); */
+    }
+
+    .slider-container {
+        border-bottom: solid 0.5px #DCDCDC;
+        max-width: 100%;
+        padding: 0rem 3rem;
+        margin: 0rem auto 0 auto;
+        overflow: hidden;
+        position: relative;
+
+        ::before {
+            content: '.slider-container';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: blue;
+            display: none;
+        }
+    }
+
+    .slider-item {
+        height: 15em;
+        /*border-right: 2px solid #333;*/
+        padding: 0.25rem .25rem;
+        position: relative;
+
+        ::before {
+            content: '.slider-item';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: blue;
+            display: none;
+        }
+    }
+
+    .slider-item:hover {
+        cursor: pointer;
+    }
+
+    .controls {
+        margin: 0;
+        padding: .5rem;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 50%;
+        transform: translatey(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        :focus {
+            outline: none;
+        }
+    }
+
+    .controls li:hover {
+        cursor: pointer;
+    }
+
+    .card {
+        border: 0;
+        border-right: solid 0.3px gray;
+        text-align: center;
+        height: 100%;
+        color: #333;
+        background: white;
+        border-radius: 5px;
+        padding-bottom: .75rem;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+        position: relative;
+
+        ::before {
+            content: '.card';
+            position: absolute;
+            bottom: 0;
+            color: blue;
+            display: none;
+        }
+    }
+
+    .carda img {
+        max-height: 135px;
+        padding-bottom: .25rem;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+        alignment-adjust: central;
+    }
+
+    .carda p {
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .card a {
+        text-decoration: none;
+    }
+</style>
+<script>
+    const slider = tns({
+        container: '.my-slider',
+        loop: true,
+        items: 2,
+        slideBy: 'page',
+        nav: false,
+        autoplay: false,
+        speed: 400,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        lazyload: true,
+        controlsContainer: "#customize-controls",
+        responsive: {
+            640: {
+                items: 5,
+            },
+
+            768: {
+                items: 10,
+            }
+        }
+    });
+
+
+    const slider2 = tns({
+        container: '.my-slider2',
+        loop: true,
+        items: 2,
+        slideBy: 1,
+        nav: false,
+        mode: 'gallery',
+        swipeAngle: false,
+        autoplay: false,
+        speed: 1250,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        startIndex: 0,
+        lazyload: true,
+        controlsContainer: "#customize-controls2",
+        responsive: {
+            640: {
+                items: 3,
+            },
+
+            768: {
+                items: 3,
+            }
+        }
+    });
+
+    var dips = slider2.getInfo();
+    slider2.goTo(dips.slideCount);
+
+    document.querySelector('.next2').onclick = function() {
+        // get slider info
+        var info = slider2.getInfo(),
+            indexPrev = info.indexCached,
+            indexCurrent = info.index;
+
+        // update style based on index
+        info.slideItems[indexPrev].classList.remove('active');
+        info.slideItems[indexCurrent].classList.add('active');
+        console.log(slider2.getInfo());
+    };
+</script>
+
+<style>
+    .slider-container2 {
+        max-width: 100%;
+        padding: 0rem 3rem;
+        margin: 0rem auto 0 auto;
+        overflow: hidden;
+        position: relative;
+
+        ::before {
+            content: '.slider-container2';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: blue;
+            display: none;
+        }
+    }
+
+    .slider-item2 {
+        height: 200px;
+        /*border-right: 2px solid #333;*/
+        padding: 0.25rem .25rem;
+        position: relative;
+
+        ::before {
+            content: '.slider-item2';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: blue;
+            display: none;
+        }
+    }
+
+    .slider-item2:hover {
+        cursor: pointer;
+    }
+
+    .controls2 {
+        margin: 0;
+        padding: .5rem;
+        list-style: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 50%;
+        transform: translatey(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        :focus {
+            outline: none;
+        }
+    }
+
+    .controls2 li:hover {
+        cursor: pointer;
+    }
+
+    .card2 {
+        text-align: center;
+        height: 100%;
+        color: #333;
+        background: white;
+        border-radius: 5px;
+        border: none;
+        padding-bottom: .75rem;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+        position: relative;
+
+        ::before {
+            content: '.card2';
+            position: absolute;
+            bottom: 0;
+            color: blue;
+            display: none;
+        }
+    }
+
+    .card2 img {
+        max-height: 135px;
+        padding-bottom: .25rem;
+        height: 100%;
+        display: inline-block;
+        vertical-align: top;
+        alignment-adjust: central;
+    }
+
+    .card2 p {
+        font-size: 14px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .card2 a {
+        text-decoration: none;
+    }
+</style>
+
+<script>
+    $(document).ready(() => {
+        if (window.screen.width < 768) {
+            let dbloque = document.querySelector('#datos_bloque');
+            let mail = dbloque.children[3].children[0].innerHTML.slice(0, -24);
+            if (mail.length > 15) {
+                dbloque.children[3].children[0].textContent = mail + "...";
+            }
+        }
+
+        //Accesibilidad
+        set_style_from_cookie();
+        if (check_sonido() === "true") {
+            $('#audio_1')[0].play();
+        }
+    });
+
+    $(document).resize(function() {
+        ajustar_div_variable();
+    });
+</script><!-- --- js personalizado --- -->
+<script src="js/scripts.js" defer></script>
+<script src="js/popper.min.js" defer></script>
+<script src="js/bootstrap4_4_1/bootstrap.min.js" defer></script>
+
+</div>

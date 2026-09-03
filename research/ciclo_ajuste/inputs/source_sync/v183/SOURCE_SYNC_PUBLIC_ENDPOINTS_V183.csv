@@ -1,0 +1,5 @@
+﻿id,endpoint,result,preserved,limit
+PS183_01,CGN 2005-2010,MY4002 zero/reappearance/inconsistencies/2010 tie,YES,counterparty open
+PS183_02,CGN 2011-2017,foreign balance stabilizes; peso remeasurement,YES,ledger open
+PS183_03,CGN 2018,UEPEX zero; unsupported reconstruction,YES,bank support open
+PS183_04,SIGEN Res1406/SSFP notes,only compilations indexed,PRIOR_SOURCES,act and note bodies open

@@ -1,0 +1,7 @@
+﻿proposition,status,source,missing
+MY4002 was reported active and managed by FONDYF at 2020 cutoff,SUPPORTED_AS_ADMINISTRATIVE_NARRATIVE,Cuenta 2020 Anexo 4.37,"2020 ledger, balance and full note"
+BNA 54395/36 is named as FONDYF recoveries FF13 at 2023-10-31,SUPPORTED,UAI 22/2023,"bank certificate, extracts and ledger"
+MY4002 and 54395/36 are the same or directly linked accounts,NOT_PROVED,no public crosswalk,"transfer agreement, account map and mirror entries"
+the -36.6m is composed of BID1192 recoveries,NOT_PROVED,generic recovery-account denomination only,transaction-level origin and loan identifiers
+"the -36.6m is missing cash, bank debt, loss or private gain",NOT_PROVED_AND_ACCOUNTING_SIGN_AMBIGUOUS,bank and certificate both zero; ledger negative,"account nature, entries, reconciliation and adjustment"
+later generic findings prove 54395/36 remained unreconciled through 2024,NOT_PROVED,later executive summaries omit account IDs,"full Cuadro 1, Annex A and analytical workpapers"

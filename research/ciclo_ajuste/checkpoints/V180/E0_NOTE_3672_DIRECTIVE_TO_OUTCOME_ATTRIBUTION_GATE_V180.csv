@@ -1,0 +1,7 @@
+gate_id,link,evidence,proved,not_proved,classification
+AT175_01,Cuenta 2009 / Nota 0120/09 DAIF → SIGEN,CGN informa resultados del cierre 2008 y eleva antecedentes,YES,contenido íntegro y adjuntos de 0120/09,DIRECT_REFERENCE_PROVED
+AT175_02,Nota SIGEN 3672/09-GSEyP → áreas / SISIO,referencia contemporánea conservada en Cuenta 2009,YES_REFERENCE_AND_DIRECTIVE,"cuerpo, fecha, firmante, destinatario formal y anexos",DIRECTIVE_REFERENCE_PROVED_BODY_OPEN
+AT175_03,circuito SIGEN → expediente → SISIO → acciones,"Resolución 2600/2009, Anexo II",YES_AS_CONTEMPORARY_WORKFLOW,IDs SISIO concretos de 3672,PROCEDURE_PROVED_TARGET_ROWS_OPEN
+AT175_04,correcciones CGN 2009-2013,"Cuentas UEPEX: cuadros reemplazados, regularización SIDIF, ajustes CGN y subsanaciones",YES_AGGREGATE_MECHANISM,qué corrección/importe fue causada por 3672,OUTCOMES_PROVED_ATTRIBUTION_OPEN
+AT175_05,Nota 3672 → corrección individual / importe,"requiere join por observación, organismo, cuadro, documento SIDIF, fecha y estado",NO,cadena uno-a-uno y contrafactual,CAUSAL_AND_MONETARY_ATTRIBUTION_NOT_PROVED
+AT175_06,conclusión V180,"convergencia de circuito, archivo, SISIO y continuidad correctiva",mecanismo y capacidad institucional,efecto específico imputable a Nota 3672,DO_NOT_OVERSTATE

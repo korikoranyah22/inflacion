@@ -1,0 +1,1923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDiputados xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+  <diputados>
+    <apellido>Biasi</apellido>
+    <nombre>Vanina</nombre>
+    <url_legislador>legislador/biasivanina</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Frente de Izquierda de los Trabajadores / PO</bloque>
+    <url_bloque>bloque/frentedeizquierdadelostrabajadorespo</url_bloque>
+    <id_legislador>30949</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67451</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_b9baac06-19be-42c7-9445-34aa3c1012da.JPG</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_b9baac06-19be-42c7-9445-34aa3c1012da.JPG</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_b9baac06-19be-42c7-9445-34aa3c1012da.JPG</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>107</id_bloque>
+    <bloque_color>BB0C2F</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_42642ba2-8412-45ef-bad6-aa601cca6f97.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_42642ba2-8412-45ef-bad6-aa601cca6f97.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_42642ba2-8412-45ef-bad6-aa601cca6f97.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo>4</id_bloque_cargo_tipo>
+    <cargo_bloque>PRESIDENTE</cargo_bloque>
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34069</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Lospennato</apellido>
+    <nombre>Silvia</nombre>
+    <url_legislador>legislador/lospennatosilvia</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30944</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67446</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_f0f7f55b-8ec9-4904-ba58-cdb27fa7918e.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_f0f7f55b-8ec9-4904-ba58-cdb27fa7918e.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_f0f7f55b-8ec9-4904-ba58-cdb27fa7918e.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo>4</id_bloque_cargo_tipo>
+    <cargo_bloque>PRESIDENTE</cargo_bloque>
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34064</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Casielles</apellido>
+    <nombre>Eugenio</nombre>
+    <url_legislador>legislador/casielleseugenio</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Transformación</bloque>
+    <url_bloque>bloque/transformación</url_bloque>
+    <id_legislador>30847</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66912</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_c1903702-35e3-4037-b00f-34ccda9487c9.JPG</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_c1903702-35e3-4037-b00f-34ccda9487c9.JPG</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_c1903702-35e3-4037-b00f-34ccda9487c9.JPG</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>127</id_bloque>
+    <bloque_color>365f85</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_fd46bd69-3491-4cfe-9977-9ad975534611.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_fd46bd69-3491-4cfe-9977-9ad975534611.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_fd46bd69-3491-4cfe-9977-9ad975534611.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo>4</id_bloque_cargo_tipo>
+    <cargo_bloque>PRESIDENTE</cargo_bloque>
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33518</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Ferrario</apellido>
+    <nombre>Emmanuel</nombre>
+    <url_legislador>legislador/ferrarioemmanuel</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Confianza y Desarrollo</bloque>
+    <url_bloque>bloque/confianzaydesarrollo</url_bloque>
+    <id_legislador>30880</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67044</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_6dc0d2bd-f2fc-439c-a72c-60eb875a4b26.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_6dc0d2bd-f2fc-439c-a72c-60eb875a4b26.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_6dc0d2bd-f2fc-439c-a72c-60eb875a4b26.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>126</id_bloque>
+    <bloque_color>5ab143</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo>4</id_bloque_cargo_tipo>
+    <cargo_bloque>PRESIDENTE</cargo_bloque>
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33654</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Thourte</apellido>
+    <nombre>Manuela</nombre>
+    <url_legislador>legislador/thourtemanuela</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Ciudadanos Unidos / UCR</bloque>
+    <url_bloque>bloque/ciudadanosunidosucr</url_bloque>
+    <id_legislador>30858</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66922</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_0cba420a-d5e6-4074-9e16-f2292bf0839c.JPG</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_0cba420a-d5e6-4074-9e16-f2292bf0839c.JPG</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_0cba420a-d5e6-4074-9e16-f2292bf0839c.JPG</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>125</id_bloque>
+    <bloque_color>0094c3</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo>4</id_bloque_cargo_tipo>
+    <cargo_bloque>PRESIDENTE</cargo_bloque>
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33528</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Neira</apellido>
+    <nombre>Claudia</nombre>
+    <url_legislador>legislador/neiraclaudia</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30716</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>65883</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_34a87348-9835-4d7d-a23a-7acbdd34aa59.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_34a87348-9835-4d7d-a23a-7acbdd34aa59.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_34a87348-9835-4d7d-a23a-7acbdd34aa59.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo>4</id_bloque_cargo_tipo>
+    <cargo_bloque>PRESIDENTE</cargo_bloque>
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>32479</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Ramírez</apellido>
+    <nombre>María Del Pilar</nombre>
+    <url_legislador>legislador/ramírezmaríadelpilar</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30921</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67249</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_08d1e508-2ce8-4038-8249-4ccf7c342187.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_08d1e508-2ce8-4038-8249-4ccf7c342187.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_08d1e508-2ce8-4038-8249-4ccf7c342187.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo>4</id_bloque_cargo_tipo>
+    <cargo_bloque>PRESIDENTE</cargo_bloque>
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33863</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Alifraco</apellido>
+    <nombre>Edgardo Nestor</nombre>
+    <url_legislador>legislador/alifracoedgardonestor</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Confianza y Desarrollo</bloque>
+    <url_bloque>bloque/confianzaydesarrollo</url_bloque>
+    <id_legislador>30922</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67250</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_28b971a4-e264-4ca5-b5b7-16d0b60dfe04.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_28b971a4-e264-4ca5-b5b7-16d0b60dfe04.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_28b971a4-e264-4ca5-b5b7-16d0b60dfe04.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>126</id_bloque>
+    <bloque_color>5ab143</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33864</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Alonso</apellido>
+    <nombre>Laura</nombre>
+    <url_legislador>legislador/alonsolaura</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30946</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67448</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_81ed113e-714f-40c0-a411-b8b98ecbe81d.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_81ed113e-714f-40c0-a411-b8b98ecbe81d.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_81ed113e-714f-40c0-a411-b8b98ecbe81d.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34066</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Arenaza</apellido>
+    <nombre>Juan Pablo</nombre>
+    <url_legislador>legislador/arenazajuanpablo</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30680</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>65646</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_70e977fe-8bf8-433a-afcc-712868fd2e17.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_70e977fe-8bf8-433a-afcc-712868fd2e17.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_70e977fe-8bf8-433a-afcc-712868fd2e17.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>32231</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Barroetaveña</apellido>
+    <nombre>Matías</nombre>
+    <url_legislador>legislador/barroetaveñamatías</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30841</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66906</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_7b292abb-a8c8-4935-9c34-317baec5c08c.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_7b292abb-a8c8-4935-9c34-317baec5c08c.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_7b292abb-a8c8-4935-9c34-317baec5c08c.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33512</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Bielli</apellido>
+    <nombre>María</nombre>
+    <url_legislador>legislador/biellimaría</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30844</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66909</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_7f185a6d-4074-43af-9733-28031bb9e2ea.JPG</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_7f185a6d-4074-43af-9733-28031bb9e2ea.JPG</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_7f185a6d-4074-43af-9733-28031bb9e2ea.JPG</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33515</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Caporiccio</apellido>
+    <nombre>Francisco</nombre>
+    <url_legislador>legislador/caporicciofrancisco</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30943</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67445</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_1b3324a4-78c0-4732-adf1-fd27d8682491.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_1b3324a4-78c0-4732-adf1-fd27d8682491.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_1b3324a4-78c0-4732-adf1-fd27d8682491.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34063</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Crucitta</apellido>
+    <nombre>Aldana Belén</nombre>
+    <url_legislador>legislador/crucittaaldanabelén</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Ciudadanos Unidos / UCR</bloque>
+    <url_bloque>bloque/ciudadanosunidosucr</url_bloque>
+    <id_legislador>30912</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67240</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_99642e88-f5bd-4bf6-a173-d40c1ee2414e.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_99642e88-f5bd-4bf6-a173-d40c1ee2414e.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_99642e88-f5bd-4bf6-a173-d40c1ee2414e.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>125</id_bloque>
+    <bloque_color>0094c3</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33854</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Del Gaiso</apellido>
+    <nombre>Juan Facundo</nombre>
+    <url_legislador>legislador/delgaisojuanfacundo</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30848</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66913</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_5b2b678f-39ba-4234-bce6-b60dc39d20f3.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_5b2b678f-39ba-4234-bce6-b60dc39d20f3.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_5b2b678f-39ba-4234-bce6-b60dc39d20f3.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33519</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Donati</apellido>
+    <nombre>Pablo Alejandro</nombre>
+    <url_legislador>legislador/donatipabloalejandro</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30913</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67241</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_6ded8772-7eb4-4f66-acc2-f33d7f74953e.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_6ded8772-7eb4-4f66-acc2-f33d7f74953e.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_6ded8772-7eb4-4f66-acc2-f33d7f74953e.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33855</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Ernst</apellido>
+    <nombre>Marcelo Gregorio</nombre>
+    <url_legislador>legislador/ernstmarcelogregorio</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30951</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67456</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_a80c4456-bde0-4032-9aa1-d2215b047418.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_a80c4456-bde0-4032-9aa1-d2215b047418.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_a80c4456-bde0-4032-9aa1-d2215b047418.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34074</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Fernández</apellido>
+    <nombre>Juan Ignacio</nombre>
+    <url_legislador>legislador/fernándezjuanignacio</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30935</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67437</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_ce94cd6b-5faf-448a-aad3-e0fa976e5c15.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_ce94cd6b-5faf-448a-aad3-e0fa976e5c15.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_ce94cd6b-5faf-448a-aad3-e0fa976e5c15.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34055</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Ferreño</apellido>
+    <nombre>Claudio Américo</nombre>
+    <url_legislador>legislador/ferreñoclaudioamérico</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30561</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>64652</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_36f434ac-5342-4850-826f-edc56a56b45e.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_36f434ac-5342-4850-826f-edc56a56b45e.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_36f434ac-5342-4850-826f-edc56a56b45e.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>31224</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Figueroa</apellido>
+    <nombre>Rocío</nombre>
+    <url_legislador>legislador/figueroarocío</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30947</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67449</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_07c922a6-0b62-4a9d-8866-03d4f7408cf1.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_07c922a6-0b62-4a9d-8866-03d4f7408cf1.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_07c922a6-0b62-4a9d-8866-03d4f7408cf1.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34067</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Fleitas</apellido>
+    <nombre>Rebeca</nombre>
+    <url_legislador>legislador/fleitasrebeca</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30899</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67061</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_c497d76e-202d-4ad1-8d4a-2c3eab8b273c.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_c497d76e-202d-4ad1-8d4a-2c3eab8b273c.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_c497d76e-202d-4ad1-8d4a-2c3eab8b273c.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33671</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Freguia</apellido>
+    <nombre>Andrea</nombre>
+    <url_legislador>legislador/freguiaandrea</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30933</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67435</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_dc444c95-14cb-4634-be8b-8a9f69214532.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_dc444c95-14cb-4634-be8b-8a9f69214532.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_dc444c95-14cb-4634-be8b-8a9f69214532.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34053</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Freire</apellido>
+    <nombre>Victoria</nombre>
+    <url_legislador>legislador/freirevictoria</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30916</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67244</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_99a07b92-a4e5-4cdd-97bb-85e228c091cc.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_99a07b92-a4e5-4cdd-97bb-85e228c091cc.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_99a07b92-a4e5-4cdd-97bb-85e228c091cc.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33858</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Geminiani</apellido>
+    <nombre>Noemí</nombre>
+    <url_legislador>legislador/geminianinoemí</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30940</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67442</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_c72c0e75-7bd5-44f0-90a7-94646a99888b.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_c72c0e75-7bd5-44f0-90a7-94646a99888b.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_c72c0e75-7bd5-44f0-90a7-94646a99888b.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34060</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Glize</apellido>
+    <nombre>Patricia Inés</nombre>
+    <url_legislador>legislador/glizepatriciainés</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30906</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67234</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_2f8c7f0f-1687-4367-9a78-9d29b2901ab5.jpeg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_2f8c7f0f-1687-4367-9a78-9d29b2901ab5.jpeg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_2f8c7f0f-1687-4367-9a78-9d29b2901ab5.jpeg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33848</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>González</apellido>
+    <nombre>Andrea Mariana</nombre>
+    <url_legislador>legislador/gonzálezandreamariana</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30939</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67441</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_4d940573-659d-4d00-b458-f1da8ce731fe.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_4d940573-659d-4d00-b458-f1da8ce731fe.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_4d940573-659d-4d00-b458-f1da8ce731fe.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34059</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Grillo</apellido>
+    <nombre>Alejandro Omar</nombre>
+    <url_legislador>legislador/grilloalejandroomar</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30915</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67243</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_accc1524-15aa-4c3b-9230-c66bf4bccbaf.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_accc1524-15aa-4c3b-9230-c66bf4bccbaf.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_accc1524-15aa-4c3b-9230-c66bf4bccbaf.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33857</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Iañez</apellido>
+    <nombre>Berenice</nombre>
+    <url_legislador>legislador/iañezberenice</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30896</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67058</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_a69bbc85-3335-4b7b-81fe-ee3e02c4aeff.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_a69bbc85-3335-4b7b-81fe-ee3e02c4aeff.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_a69bbc85-3335-4b7b-81fe-ee3e02c4aeff.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33668</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Imas</apellido>
+    <nombre>Silvia</nombre>
+    <url_legislador>legislador/imassilvia</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30910</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67238</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_ae214cb9-8880-4834-8218-591fecf4ed5d.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_ae214cb9-8880-4834-8218-591fecf4ed5d.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_ae214cb9-8880-4834-8218-591fecf4ed5d.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33852</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Kienast</apellido>
+    <nombre>Marina</nombre>
+    <url_legislador>legislador/kienastmarina</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30886</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67049</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_aada4c11-db5e-48b6-bd1f-9da6a242caf5.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_aada4c11-db5e-48b6-bd1f-9da6a242caf5.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_aada4c11-db5e-48b6-bd1f-9da6a242caf5.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33659</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>La Blunda</apellido>
+    <nombre>Andrés</nombre>
+    <url_legislador>legislador/lablundaandrés</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30918</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67246</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_7f37f6a0-f665-4e43-bdaf-ab2f85daa92a.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_7f37f6a0-f665-4e43-bdaf-ab2f85daa92a.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_7f37f6a0-f665-4e43-bdaf-ab2f85daa92a.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33860</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Lammens</apellido>
+    <nombre>Matías</nombre>
+    <url_legislador>legislador/lammensmatías</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30914</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67242</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_a5b54d57-2d81-42c8-8439-5ed6f76e4289.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_a5b54d57-2d81-42c8-8439-5ed6f76e4289.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_a5b54d57-2d81-42c8-8439-5ed6f76e4289.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33856</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>López</apellido>
+    <nombre>Matías Damián</nombre>
+    <url_legislador>legislador/lópezmatíasdamián</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30853</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66917</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_5e27c9dc-2d3e-48c4-9988-24197a83fbf8.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_5e27c9dc-2d3e-48c4-9988-24197a83fbf8.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_5e27c9dc-2d3e-48c4-9988-24197a83fbf8.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33523</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Loupias</apellido>
+    <nombre>Francisco</nombre>
+    <url_legislador>legislador/loupiasfrancisco</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Ciudadanos Unidos / UCR</bloque>
+    <url_bloque>bloque/ciudadanosunidosucr</url_bloque>
+    <id_legislador>30911</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67239</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_6fefefdf-1491-477e-9968-1e0b6d6a16d0.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_6fefefdf-1491-477e-9968-1e0b6d6a16d0.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_6fefefdf-1491-477e-9968-1e0b6d6a16d0.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>125</id_bloque>
+    <bloque_color>0094c3</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33853</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Martín</apellido>
+    <nombre>Amanda</nombre>
+    <url_legislador>legislador/martínamanda</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Frente de Izquierda de los Trabajadores / PO</bloque>
+    <url_bloque>bloque/frentedeizquierdadelostrabajadorespo</url_bloque>
+    <id_legislador>30878</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67015</id_autor>
+    <fecha_inicio_mandato>18/06/2026</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>18/6/2026 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_7cff0dcd-243a-4a52-aeee-e00c6a350d58.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_7cff0dcd-243a-4a52-aeee-e00c6a350d58.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_7cff0dcd-243a-4a52-aeee-e00c6a350d58.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>107</id_bloque>
+    <bloque_color>BB0C2F</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_42642ba2-8412-45ef-bad6-aa601cca6f97.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_42642ba2-8412-45ef-bad6-aa601cca6f97.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_42642ba2-8412-45ef-bad6-aa601cca6f97.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a>D´ATRI, ANDREA</reemplaza_a>
+    <id_legislador_reemplazo>30927</id_legislador_reemplazo>
+    <url_legislador_reemplazo>legislador/d´atriandrea</url_legislador_reemplazo>
+    <id_business_party>33625</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Mochi</apellido>
+    <nombre>Federico</nombre>
+    <url_legislador>legislador/mochifederico</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30938</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67440</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_daa47c56-1c76-416d-a1f2-f187aab469a8.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_daa47c56-1c76-416d-a1f2-f187aab469a8.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_daa47c56-1c76-416d-a1f2-f187aab469a8.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34058</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Modarelli</apellido>
+    <nombre>Juan Pablo</nombre>
+    <url_legislador>legislador/modarellijuanpablo</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30892</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67054</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_a82f4407-f1aa-4767-ad9b-faf3189ef7d5.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_a82f4407-f1aa-4767-ad9b-faf3189ef7d5.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_a82f4407-f1aa-4767-ad9b-faf3189ef7d5.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33664</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Mollard</apellido>
+    <nombre>María Fernanda</nombre>
+    <url_legislador>legislador/mollardmaríafernanda</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Ciudadanos Unidos / UCR</bloque>
+    <url_bloque>bloque/ciudadanosunidosucr</url_bloque>
+    <id_legislador>30908</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67236</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_38a0fcf5-b821-4be7-b42a-a12c33c4a9af.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_38a0fcf5-b821-4be7-b42a-a12c33c4a9af.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_38a0fcf5-b821-4be7-b42a-a12c33c4a9af.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>125</id_bloque>
+    <bloque_color>0094c3</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33850</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Montenegro</apellido>
+    <nombre>Lucía</nombre>
+    <url_legislador>legislador/montenegrolucía</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30898</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67060</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_d0cd6400-f9de-4e81-aa6c-c05b45774a11.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_d0cd6400-f9de-4e81-aa6c-c05b45774a11.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_d0cd6400-f9de-4e81-aa6c-c05b45774a11.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33670</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Nagata</apellido>
+    <nombre>Sebastián</nombre>
+    <url_legislador>legislador/nagatasebastián</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Confianza y Desarrollo</bloque>
+    <url_bloque>bloque/confianzaydesarrollo</url_bloque>
+    <id_legislador>30907</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67235</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_bfa67cab-1ec5-4aa5-88b4-f93f561dbb84.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_bfa67cab-1ec5-4aa5-88b4-f93f561dbb84.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_bfa67cab-1ec5-4aa5-88b4-f93f561dbb84.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>126</id_bloque>
+    <bloque_color>5ab143</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33849</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Negri</apellido>
+    <nombre>Claudia</nombre>
+    <url_legislador>legislador/negriclaudia</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30936</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67438</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_7ce45bb6-b2cb-49a9-9180-94fccc579c1d.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_7ce45bb6-b2cb-49a9-9180-94fccc579c1d.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_7ce45bb6-b2cb-49a9-9180-94fccc579c1d.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34056</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Nieto</apellido>
+    <nombre>Darío Hugo</nombre>
+    <url_legislador>legislador/nietodaríohugo</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30887</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67050</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_d7ad633e-881b-4e20-a543-a01020642d8d.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_d7ad633e-881b-4e20-a543-a01020642d8d.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_d7ad633e-881b-4e20-a543-a01020642d8d.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33660</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Ocaña</apellido>
+    <nombre>María Graciela</nombre>
+    <url_legislador>legislador/ocanamariagraciela</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Confianza y Desarrollo</bloque>
+    <url_bloque>bloque/confianzaydesarrollo</url_bloque>
+    <id_legislador>30742</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66119</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_7b92f1b3-e5a3-4d82-985a-2c9657ed48e7.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_7b92f1b3-e5a3-4d82-985a-2c9657ed48e7.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_7b92f1b3-e5a3-4d82-985a-2c9657ed48e7.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>126</id_bloque>
+    <bloque_color>5ab143</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>32719</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Pakgojz</apellido>
+    <nombre>Nicolás</nombre>
+    <url_legislador>legislador/pakgojznicolás</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30932</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67434</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_c5874610-8b5b-4ce9-9895-ea936dac9170.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_c5874610-8b5b-4ce9-9895-ea936dac9170.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_c5874610-8b5b-4ce9-9895-ea936dac9170.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34052</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Parera</apellido>
+    <nombre>Ignacio José</nombre>
+    <url_legislador>legislador/pareraignaciojosé</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30909</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67237</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_ac1a4be9-9775-46e0-948f-00d4f43af228.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_ac1a4be9-9775-46e0-948f-00d4f43af228.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_ac1a4be9-9775-46e0-948f-00d4f43af228.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33851</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Pelayo</apellido>
+    <nombre>Solana</nombre>
+    <url_legislador>legislador/pelayosolana</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30931</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67433</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_3832d997-a003-4014-89bf-e552f706765c.jpeg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_3832d997-a003-4014-89bf-e552f706765c.jpeg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_3832d997-a003-4014-89bf-e552f706765c.jpeg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34051</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Peñafort</apellido>
+    <nombre>Graciana</nombre>
+    <url_legislador>legislador/peñafortgraciana</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30917</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67245</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_97eff8ca-4dd2-4a64-8f10-5359ccaab9c2.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_97eff8ca-4dd2-4a64-8f10-5359ccaab9c2.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_97eff8ca-4dd2-4a64-8f10-5359ccaab9c2.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33859</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Rey</apellido>
+    <nombre>Sandra Mónica</nombre>
+    <url_legislador>legislador/reysandramónica</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30923</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67251</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_c37657f0-1d2d-4523-9e08-2792e717e296.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_c37657f0-1d2d-4523-9e08-2792e717e296.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_c37657f0-1d2d-4523-9e08-2792e717e296.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33865</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Rodríguez Larreta</apellido>
+    <nombre>Horacio</nombre>
+    <url_legislador>legislador/rodríguezlarretahoracio</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Confianza y Desarrollo</bloque>
+    <url_bloque>bloque/confianzaydesarrollo</url_bloque>
+    <id_legislador>30950</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67452</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_7e50b85b-bf8c-4ab4-8f79-ec3b1b00e88d.JPG</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_7e50b85b-bf8c-4ab4-8f79-ec3b1b00e88d.JPG</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_7e50b85b-bf8c-4ab4-8f79-ec3b1b00e88d.JPG</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>126</id_bloque>
+    <bloque_color>5ab143</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34070</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Rossen</apellido>
+    <nombre>Bárbara</nombre>
+    <url_legislador>legislador/rossenbárbara</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30942</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67444</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_2c3bf8ef-07da-4c71-8612-3bc5ac47f83b.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_2c3bf8ef-07da-4c71-8612-3bc5ac47f83b.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_2c3bf8ef-07da-4c71-8612-3bc5ac47f83b.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34062</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Saifert</apellido>
+    <nombre>Leonardo</nombre>
+    <url_legislador>legislador/saifertleonardo</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30900</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67062</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_b19f65d4-9219-446b-83f1-b366ebe44a20.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_b19f65d4-9219-446b-83f1-b366ebe44a20.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_b19f65d4-9219-446b-83f1-b366ebe44a20.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33672</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Salvatierra</apellido>
+    <nombre>Alejandro</nombre>
+    <url_legislador>legislador/salvatierraalejandro</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30941</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67443</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_0145dcd2-0bc1-4816-b5f0-39fa224ca0c8.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_0145dcd2-0bc1-4816-b5f0-39fa224ca0c8.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_0145dcd2-0bc1-4816-b5f0-39fa224ca0c8.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34061</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Santoro</apellido>
+    <nombre>Leandro</nombre>
+    <url_legislador>legislador/santoroleandro</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30823</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66658</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_ed99a587-f759-4a8b-90c8-979d64257150.JPG</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_ed99a587-f759-4a8b-90c8-979d64257150.JPG</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_ed99a587-f759-4a8b-90c8-979d64257150.JPG</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33270</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Siciliano</apellido>
+    <nombre>Sergio Hernán</nombre>
+    <url_legislador>legislador/sicilianosergiohernán</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30905</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67233</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_1b4edb76-9713-40d0-8393-e736c95a92eb.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_1b4edb76-9713-40d0-8393-e736c95a92eb.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_1b4edb76-9713-40d0-8393-e736c95a92eb.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33847</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Suárez</apellido>
+    <nombre>Guillermo</nombre>
+    <url_legislador>legislador/suárezguillermo</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Ciudadanos Unidos / UCR</bloque>
+    <url_bloque>bloque/ciudadanosunidosucr</url_bloque>
+    <id_legislador>30814</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66649</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_c95126ab-eca3-464a-8f76-fadd6ed17f35.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_c95126ab-eca3-464a-8f76-fadd6ed17f35.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_c95126ab-eca3-464a-8f76-fadd6ed17f35.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>125</id_bloque>
+    <bloque_color>0094c3</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_626f8dc9-379a-4700-b747-0891d8b42656.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33261</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Tagliaferri</apellido>
+    <nombre>Guadalupe</nombre>
+    <url_legislador>legislador/tagliaferriguadalupe</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Confianza y Desarrollo</bloque>
+    <url_bloque>bloque/confianzaydesarrollo</url_bloque>
+    <id_legislador>30948</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67450</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_ad4b546a-bb56-40db-a832-18c6e7aa4316.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_ad4b546a-bb56-40db-a832-18c6e7aa4316.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_ad4b546a-bb56-40db-a832-18c6e7aa4316.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>126</id_bloque>
+    <bloque_color>5ab143</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d035d36e-c2df-48ca-bfb2-7ab5c2fccf9d.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34068</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Vartabedian</apellido>
+    <nombre>Diego</nombre>
+    <url_legislador>legislador/vartabediandiego</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>La Libertad avanza</bloque>
+    <url_bloque>bloque/lalibertadavanza</url_bloque>
+    <id_legislador>30934</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67436</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_efb158e1-363d-46e9-84c5-d408513c2d73.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_efb158e1-363d-46e9-84c5-d408513c2d73.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_efb158e1-363d-46e9-84c5-d408513c2d73.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>114</id_bloque>
+    <bloque_color>909828</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_ea749663-b1a3-49fc-a2db-158154ad0492.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34054</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Velázquez</apellido>
+    <nombre>Delfina</nombre>
+    <url_legislador>legislador/velázquezdelfina</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Fuerza por Buenos Aires</bloque>
+    <url_bloque>bloque/fuerzaporbuenosaires</url_bloque>
+    <id_legislador>30919</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67247</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_981056d9-4c0b-4c56-8663-85f66693b9d4.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_981056d9-4c0b-4c56-8663-85f66693b9d4.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_981056d9-4c0b-4c56-8663-85f66693b9d4.jpg</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>124</id_bloque>
+    <bloque_color>a3d9f0</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_78f818a7-fe0e-437d-9052-69f950dfd8d9.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33861</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Villafruela</apellido>
+    <nombre>Gimena</nombre>
+    <url_legislador>legislador/villafruelagimena</url_legislador>
+    <sexo>FEMENINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30859</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>66923</id_autor>
+    <fecha_inicio_mandato>10/12/2023</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2027</fecha_fin_mandato>
+    <fch_desde>10/12/2023 00:00:00</fch_desde>
+    <fch_hasta>9/12/2027 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_238aecb9-bee0-4dee-b887-4a3bdb84b2f9.JPG</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_238aecb9-bee0-4dee-b887-4a3bdb84b2f9.JPG</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_238aecb9-bee0-4dee-b887-4a3bdb84b2f9.JPG</fotoM>
+    <id_sexo>2</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>33529</id_business_party>
+  </diputados>
+  <diputados>
+    <apellido>Wolff</apellido>
+    <nombre>Waldo</nombre>
+    <url_legislador>legislador/wolffwaldo</url_legislador>
+    <sexo>MASCULINO</sexo>
+    <bloque>Vamos por más</bloque>
+    <url_bloque>bloque/vamospormás</url_bloque>
+    <id_legislador>30952</id_legislador>
+    <prefijo />
+    <sufijo />
+    <documento>NA</documento>
+    <id_autor>67461</id_autor>
+    <fecha_inicio_mandato>10/12/2025</fecha_inicio_mandato>
+    <fecha_fin_mandato>09/12/2029</fecha_fin_mandato>
+    <fch_desde>10/12/2025 00:00:00</fch_desde>
+    <fch_hasta>9/12/2029 00:00:00</fch_hasta>
+    <foto>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/O_d89104d2-65cb-4155-86b6-316f0fca799c.jpg</foto>
+    <fotoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/S_d89104d2-65cb-4155-86b6-316f0fca799c.jpg</fotoS>
+    <fotoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/legislador/M_d89104d2-65cb-4155-86b6-316f0fca799c.jpg</fotoM>
+    <id_sexo>1</id_sexo>
+    <id_bloque>119</id_bloque>
+    <bloque_color>FFCC00</bloque_color>
+    <bloque_logo>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/O_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logo>
+    <bloque_logoS>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/S_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoS>
+    <bloque_logoM>https://parlamentaria.legislatura.gob.ar/uploads/imagenes/bloque/M_d2a9bb8b-5e6b-4d1c-b21a-c086e6389248.jpg</bloque_logoM>
+    <id_bloque_cargo_tipo />
+    <cargo_bloque />
+    <reemplaza_a />
+    <id_legislador_reemplazo />
+    <url_legislador_reemplazo />
+    <id_business_party>34079</id_business_party>
+  </diputados>
+</ArrayOfDiputados>

@@ -1,0 +1,6 @@
+﻿id,endpoint,result,preserved,limit
+PS182_01,CGN Cuenta 2020 SAF362,BID1192 all zero; closure uncertified,YES,zero is not final legal closure
+PS182_02,CGN Cuenta 2021 SAF362/banks,BID1192/MyPES identifiers absent,YES,absence is not closure act
+PS182_03,Infoleg Res1406/2014,labor resolution; identity mismatch,YES,does not locate internal MyPES act
+PS182_04,SIGEN ArchiveWeb 201921/204917/207827,metadata visible; binaries absent,YES,interface layer only
+PS182_05,Wayback CDX SIGEN,one irrelevant CNRT capture,YES,incomplete archive coverage

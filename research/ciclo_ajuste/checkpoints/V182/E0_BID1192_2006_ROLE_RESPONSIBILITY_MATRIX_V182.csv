@@ -1,0 +1,11 @@
+﻿row_id,actor,role,proved_duty_or_right,source,limit
+RR180_01,Estado Nacional / Ministerio,Fiduciante-Beneficiario y fideicomisario en el modelo,"aportar recursos, controlar e instruir por vías contractuales",Res. 967/2006 y anexo,modelo aprobado no perfeccionado al 22/02/2008; no prueba obligación operativa
+RR180_02,SSEPYMEYDR/UCP,Organismo Ejecutor en el modelo,"evaluación, control, supervisión y sanciones previstas","Res. 967/2006, cláusulas 19-20",arquitectura prevista; faltan instrumento ejecutado y expedientes
+RR180_03,SUD Inversiones y Análisis S.A.,Fiduciario en el modelo,"administración, contabilidad, custodia, cobranza y rendición previstas","Res. 967/2006, cláusulas 10-16",no acredita que asumiera estas funciones bajo el modelo 2006
+RR180_04,BCRA,Agente financiero/control en el modelo,recepción de información y archivo mensual prevista,Decreto 1118; Res. 967/2006,no acredita producción efectiva de informes bajo el modelo 2006
+RR180_05,Banco Credicoop,IFI prevista,originación/administración y garantía definidas por el modelo,Res. 967/2006 y anexos,no atribuir obligación operativa; para el régimen ejecutado aplicar Res. 747 y cartera propia
+RR180_06,Banco Macro-Bansud,IFI prevista y designante de SUD,originación/administración y garantía adicional del fiduciario previstas,Res. 967/2006 y anexos,no atribuir obligación operativa; activación no probada
+RR180_07,Nuevo Banco Suquía,IFI cuya incorporación fue autorizada,adhesión contemplada por el nuevo modelo,Res. 967/2006,incorporación ejecutada no localizada; modelo no perfeccionado
+RR180_08,IFI del modelo 2006,garantes/coobligados previstos,"Anexo III formula obligaciones, aportes y débitos definidos","Res. 967/2006, Anexo III","descripción textual del modelo, no hecho jurídico operativo ni garantía activada"
+RR180_09,Subprestatarios MiPyME,deudores finales elegibles previstos,"elegibilidad, destino, documentación y garantías","Res. 967/2006, Anexo I",sin operaciones atribuibles al modelo no perfeccionado
+RR180_10,Auditor externo,control independiente previsto,auditorías e informes especiales,"Res. 967/2006, cláusula 16 y Anexo IV",no confundir informes AGN del programa con auditoría contractual del modelo

@@ -1,0 +1,8 @@
+﻿claim,status,source
+account identity,PROVED,CGN annual tables
+2018 reference accounting amount,PROVED_AS_RECONSTRUCTION_NOT_BANK_BALANCE,Cuenta 2018/2020
+administrative continuity in 2020,PROVED_AS_REPORTED,Cuenta 2020 Anexo 4.37
+2020 monetary balance,OPEN_FIELDS_BLANK,Cuenta 2020 Anexo 4.37
+executed transfer BCRA→fiduciary/BNA,OPEN,general mechanism only
+Res1406 linkage or bank counterparty,OPEN,no join record
+firm debt/payment/damage/liability,OPEN,required legal and transactional records absent

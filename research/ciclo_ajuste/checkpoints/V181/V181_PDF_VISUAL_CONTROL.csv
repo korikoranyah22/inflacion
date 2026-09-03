@@ -1,0 +1,7 @@
+﻿control_id,source_id,pdf_pages,inspected_pdf_pages,target,method,result,limit
+PDF181_01,e0_macro_20f_2007_mypes_collateral_v181,239,143;161,garantía y activos administrados,high-resolution rendering and visual inspection,PASS_RELEVANT_PAGES_VISUALLY_INSPECTED,relevant-page integrity; absence controls retain scope limits
+PDF181_02,e0_macro_20f_2009_mypes_collateral_v181,333,236,garantía comparativa 2008-2009,high-resolution rendering and visual inspection,PASS_RELEVANT_PAGE_VISUALLY_INSPECTED,relevant-page integrity; absence controls retain scope limits
+PDF181_03,e0_macro_20f_2010_mypes_collateral_v181,233,155,garantía comparativa 2009-2010,high-resolution rendering and visual inspection,PASS_RELEVANT_PAGE_VISUALLY_INSPECTED,relevant-page integrity; absence controls retain scope limits
+PDF181_04,e0_macro_20f_2011_mypes_collateral_v181,293,207,garantía comparativa 2010-2011,high-resolution rendering and visual inspection,PASS_RELEVANT_PAGE_VISUALLY_INSPECTED,relevant-page integrity; absence controls retain scope limits
+PDF181_05,e0_bcra_nonfinancial_entities_2011s2_mypes_v181,591,582,fideicomiso 10155 y deuda,high-resolution rendering and visual inspection,PASS_RELEVANT_PAGE_VISUALLY_INSPECTED,relevant-page integrity; absence controls retain scope limits
+PDF181_06,e0_bcra_nonfinancial_entities_2012s1_registry_exit_v181,527,13,índice alfabético sin MyPES II,high-resolution rendering and visual inspection,PASS_RELEVANT_PAGE_VISUALLY_INSPECTED,relevant-page integrity; absence controls retain scope limits

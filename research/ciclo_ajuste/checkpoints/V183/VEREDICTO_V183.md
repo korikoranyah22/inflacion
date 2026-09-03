@@ -1,0 +1,3 @@
+# Veredicto V183
+
+MY4002 es una pista contable real y persistente, pero no es todavía el puente jurídico hacia la intimación de 2014. La mejor afirmación defendible es que existió una cuenta estatal destinada a “Comisión de Compromiso”, con saldos y reexpresiones publicados, y que su control documental fue defectuoso en 2008/2009, aritméticamente incompleto en 2015 y no bancariamente identificable en 2018. Para promoverlo a pago de las IFI o a liquidación Res1406 hacen falta mayor, extractos, contrapartes, comprobantes y asiento con expediente. Hasta entonces, saldo contable, reclamo, deuda firme, pago, daño y responsabilidad permanecen separados.

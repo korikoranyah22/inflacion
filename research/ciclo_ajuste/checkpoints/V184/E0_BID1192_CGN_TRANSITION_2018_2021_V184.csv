@@ -1,0 +1,6 @@
+﻿cutoff,publication,program_flow_state,bank_account_state,proved,not_proved,source
+2018-12-31,Cuenta 2018,UEPEX_DECLARED_ZERO_CGN_RECONSTRUCTION,MY4002_REFERENCE_USD_15182_68_ARS_569350_57_UNCERTIFIED,CGN reconstruye la cifra y explica que el respaldo no identificaba banco/fecha,"extracto BCRA, contraparte, pago o deuda",Cuenta 2018 PDF 249
+2019-12-31,Cuenta 2019,NO_INFORMATION_SUBMITTED,2018_REFERENCE_BALANCES_REPEATED,CGN repite saldos de referencia 2018,"saldo, movimientos, cierre o destino 2019",Cuenta 2019 Anexo bancario PDF 167-169
+2020-12-31,Cuenta 2020 · Anexo 4.21,ALL_PROGRAM_FLOW_RUBRICS_ZERO_CLOSURE_UNCERTIFIED,NOT_A_BANK_ACCOUNT_TEST,cuadro del programa en cero y nota de cierre definitivo no certificado,"cero, baja o extinción de MY4002",Cuenta 2020 Anexo 4.21 y nota 3
+2020-12-31,Cuenta 2020 · Anexo 4.37,SEPARATE_BANK_ACCOUNT_DISCLOSURE,MY4002_REPORTED_ACTIVE_UNDER_FONDYF_2020_FIELDS_BLANK,fila MY4002; referencia 2018; nota dice cuenta activa/manejada por FONDyF y describe transferencias BCRA por convenios,"saldo 2020, transferencia efectuada, destino fiduciario, extracto o cierre",Cuenta 2020 PDF 236 / IF-2021-57375822-APN-SSP#MEC
+2021-12-31,Cuenta 2021,BID1192_COLUMN_ABSENT,MY4002_NOT_FOUND_IN_PUBLISHED_TABLE,ausencia en anexos publicados 2021,"fecha/causa de transferencia, cierre o extinción",Cuenta 2021 Anexos 4.20 y 4.35

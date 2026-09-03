@@ -1,0 +1,5 @@
+﻿scenario,minimum_usd,actual_disbursement_usd,raw_shortfall_usd,annual_rate,time_fraction,illustrative_charge_usd,legal_status,missing
+trimestre fijo 90/360,8000000.00,831246.65,7168753.35,0.0075,0.25,13441.41,SENSITIVITY_NOT_DEBT,"convención discreta ilustrativa; faltan instructivo, asignación, arrastres, dispensa y acto final"
+días reales 134/360,8000000.00,831246.65,7168753.35,0.0075,0.3722222222222222222222222222,20012.77,SENSITIVITY_NOT_DEBT,"19/08 a 31/12 sin incluir día inicial; faltan instructivo, asignación, arrastres, dispensa y acto final"
+días reales 134/365,8000000.00,831246.65,7168753.35,0.0075,0.3671232876712328767123287671,19738.62,SENSITIVITY_NOT_DEBT,"alternativa Act/365; faltan instructivo, asignación, arrastres, dispensa y acto final"
+días inclusivos 135/360,8000000.00,831246.65,7168753.35,0.0075,0.375,20162.12,SENSITIVITY_NOT_DEBT,"sensibilidad inclusiva; faltan instructivo, asignación, arrastres, dispensa y acto final"

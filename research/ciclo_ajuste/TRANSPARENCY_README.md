@@ -248,3 +248,29 @@ Seis Cuentas 2011-2016 y siete normas oficiales cierran la arquitectura del fide
 ## V179 · anexo completo Resolución 967/2006
 
 El Boletín Oficial conservaba el Anexo 00345809: 99 páginas con el modelo completo y Anexos I-V. La arquitectura de garantías de Macro/Credicoop y los reportes exigibles quedan probados a nivel contractual. No se confunde modelo con contraparte ejecutada ni garantía con incumplimiento. Archivo 649/649; panel 34; solicitudes 0.
+
+
+## V180 · contratos ejecutados, auditorías y Facilidad en pesos
+
+Las fechas de ejecución 2004-2005 quedan corroboradas por fuentes oficiales, pero las contrapartes firmadas no están preservadas. Res. 747 limita la garantía de cada IFI a su cartera y reserva a Macro la garantía del fiduciario. Res. 967/2006 no estaba perfeccionada al 22/02/2008. La Facilidad 2007 tuvo TNA máxima 8,9%, CFT mayor posible y riesgo crediticio IFI. Éxito agregado, fallas de control, daño y responsabilidad se mantienen como proposiciones separadas. Archivo 673/673; solicitudes 0.
+
+
+## V181 · Resolución 1406 y cierre registral MyPES II
+
+SIGEN reporta una intimación administrativa de noviembre de 2014 contra Macro y Credicoop por comisión de compromiso, recurrida por bancos y fiduciario y todavía sin liquidación resuelta en 2017/2019. Macro y BCRA permiten seguir la cartera/garantía hasta 2012. El acto 1406, monto, cálculo, recursos, decisión y pago siguen abiertos; no se promueve deuda firme ni daño. Archivo 684/684; solicitudes 0.
+
+## V182 · MY4002 y transición de cierre BID 1192
+
+CGN individualiza MY4002 como Fondo Comisión de Compromiso dentro de saldos de referencia 2018; BID1192 figura todo en cero en 2020 pero con cierre definitivo aún no certificado y desaparece de los anexos publicados en 2021. Infoleg descarta por identidad la Resolución 1406/2014 publicada, que es laboral. No se promueven saldo, reclamo, deuda, pago, daño o responsabilidad. Archivo 697/697; solicitudes 0.
+
+## V183 · serie MY4002 2005-2018
+
+La serie CGN separa moneda extranjera, equivalente en pesos y extracto. MY4002 mantiene ME 13.584,85 entre 2012 y 2017; el crecimiento en pesos es reexpresión, no prueba de pago. En 2018 CGN reconstruye ARS 569.350,57 / ME 15.182,68, pero UEPEX declaró cero y el respaldo carecía de identificación bancaria verificable. No se promueven saldo, reclamo, deuda, pago, daño o responsabilidad. Archivo 703/703; solicitudes 0.
+
+## V184 · corrección MY4002/FONDyF
+
+La planilla publicada bajo el nombre Anexo 4.37 contiene internamente Anexo 4.36; se retrae el falso negativo de V182/V183. En la separata PDF auténtica, MY4002 conserva la referencia 2018, tiene campos 2020 vacíos y se declara activa/manejada por FONDyF. El cero del Anexo 4.21 corresponde al programa, no certifica la extinción de la cuenta. No se promueven saldo 2020, transferencia, deuda, pago, daño o responsabilidad. Archivo 708/708; solicitudes 0.
+
+## V185 · FONDYF 54395/36 y brecha de conciliación
+
+UAI 22/2023 publica para BNA 54395/36 `FOND Y F Rec. FF13` saldos BNA/e-SIDIF bancario cero y e-SIDIF escritural -ARS 36,6 millones. La serie UAI registra conciliaciones pendientes 2021-2024, pero no individualiza esa cuenta después del corte 2023. Se promueve una brecha contable dirigida, no una imputación: MY4002/BID1192, transferencia, daño y responsabilidad continúan abiertos. Archivo 718/718; solicitudes 0.

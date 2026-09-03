@@ -1,0 +1,12 @@
+search_id,surface,query_or_url,result,classification,next_step
+PS168_01,Internet Archive CDX,plananual2009.asp 2008-2012,"5 HTTP-200 captures: 20090221, 20090324, 20091116, 20091218, 20100118",TARGET_PAGE_CAPTURES_LOCATED,preserve earliest payload
+PS168_02,Internet Archive replay,20090221151746id_/plananual2009.asp,official page and 14 links recovered,OFFICIAL_PAGE_RECOVERED,request bodies by exact filenames
+PS168_03,Internet Archive CDX/replay,Plan SIGEN 2009.pdf and plananualpdfs prefix,no catalog capture; exact replays return archive 404,BODY_ARCHIVE_NEGATIVE_SCOPED,institutional custody
+PS168_04,Arquivo.pt,exact Plan SIGEN 2009.pdf,estimated results 0,SECOND_ARCHIVE_NEGATIVE_SCOPED,do not infer nonexistence
+PS168_05,Common Crawl 2009-2010/2012,Result_resoluciones.asp*,no captures; historical form used POST,DYNAMIC_RESULT_NOT_ARCHIVED,request export or registry
+PS168_06,Common Crawl 2009-2010/2012,resoluciones_sigen/*,6 and 4 PDFs; none target 2008,PARTIAL_DIRECTORY_CAPTURE_NOT_INVENTORY,do not treat crawl as register
+PS168_07,Internet Archive CDX,resoluciones_sigen/* 2008-2012,10 URLs; none Plan 2009 approval,PARTIAL_DIRECTORY_CAPTURE_NOT_INVENTORY,query register by date/subject
+PS168_08,Boletín Oficial,Primera Sección 2008-12-15,no SIGEN plan-approval resolution in daily list,PUBLICATION_NEGATIVE_DATE_SCOPED,seek internal act or other publication date
+PS168_09,SIGEN Memoria 2008,Plan SIGEN 2009 approval,approval 2008-12-15 and SIGEN/UAI scope,CONTEMPORARY_APPROVAL_REFERENCE,recover instrument
+PS168_10,Internet Archive + Common Crawl,SIGEN URL variants 3672/Nota/GSEyP 2008-2015,no public URL capture,NOTE_URL_ARCHIVE_NEGATIVE_SCOPED,"Mesa, COMDOC, archivo, SISIO"
+PS168_11,old live SIGEN host,resoluciones.asp / Result_resoluciones.asp,connection unavailable,SERVICE_UNAVAILABLE_NOT_NEGATIVE,archive and institutional channels

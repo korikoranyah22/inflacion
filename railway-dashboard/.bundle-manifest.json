@@ -1,22 +1,32 @@
 {
   "generated_from": "dashboard source tree",
-  "public_file_count": 32,
-  "public_bytes": 8281216,
+  "public_file_count": 124,
+  "public_bytes": 17285065,
   "files": [
     {
       "path": "index.html",
-      "bytes": 8049531,
-      "sha256": "2de38da9a29912c9acfa01f1258ec3fb1cc953769d42fae4601ca719b7fe47ed"
+      "bytes": 8049749,
+      "sha256": "39be19c19fba126767243a54ffdbc0e514c56e9f7fa66b1e242a9058fb66332d"
     },
     {
       "path": "assets/epica-super-tabs.js",
-      "bytes": 73642,
-      "sha256": "72432b615867e015b74cb121c6d6f1d330f92011c027e5311d5d4ee68ecc3f65"
+      "bytes": 76247,
+      "sha256": "4c6e6f82808fb7a14967c2b0deb3af2189c872fdb7169f90c0a8e0905c10da11"
     },
     {
       "path": "assets/epica-stage2-tabs.js",
-      "bytes": 28474,
-      "sha256": "1435fcc2d4c43f2fd867a085a66047d9fc98778351b8d0320f7b3015f078c45a"
+      "bytes": 28563,
+      "sha256": "015d2276cd009687574b5502819ca89c8f3a1c8c615735bfc5ec343759221d8f"
+    },
+    {
+      "path": "assets/political-wealth-data.js",
+      "bytes": 4334681,
+      "sha256": "f3d82bd7db8e1c091f2e392bcfe8af2147d04084d152a94007b0bd717f76c0eb"
+    },
+    {
+      "path": "assets/political-wealth-tab.js",
+      "bytes": 80576,
+      "sha256": "0c762f13c2bb7127e15027e076b6891e33c5778e13e004304f26f65d8d4319ba"
     },
     {
       "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
@@ -162,6 +172,456 @@
       "path": "research/epica_dashito_2026/caputo_colchon_2026-08-31/source_manifest.csv",
       "bytes": 10311,
       "sha256": "713bfd63e99c1fd1f884e3e46194f762909eb16ee507533b4a7b6e75cf316d2e"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/person_series_2017_2025.csv",
+      "bytes": 20112,
+      "sha256": "042a01b339f8ed4860698f8911c685dcf9866d3b7ff7e2cbd1898d89577a7877"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/cohort_coverage_2017_2025.csv",
+      "bytes": 1743,
+      "sha256": "a3029abe63155fbb6310e3bc47522875c424da9665c37e962c948111631a97df"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/macro_deflators_2017_2025.csv",
+      "bytes": 1085,
+      "sha256": "f6cee9cb473314ef69c89ba01034f81815b8abaa9c304fa881d1405e72e64c6a"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/benchmark_annual_returns_2017_2025.csv",
+      "bytes": 5496,
+      "sha256": "5833701fa557d717cf4fcd0b491518fe6a1ed536651ca27c9972ce3613387afd"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/person_investment_benchmarks_2017_2025.csv",
+      "bytes": 6588,
+      "sha256": "cfc9c4bdaf6545ce6794682c4bff31b6f615d2b94a6bb5cc8135717a1276fb3b"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/asset_composition_2022_2024.csv",
+      "bytes": 21080,
+      "sha256": "500baf335c19443a96ebe0c65a25253cb398b19951c737822ab1efc5ce49a1a9"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/annual_reconciliation_2017_2024.csv",
+      "bytes": 9330,
+      "sha256": "d249c5e5e9ab4a3393ed1148976d8e6ad876b29edce437747543bfafc04596e4"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/dashboard_data_2017_2025.json",
+      "bytes": 166649,
+      "sha256": "4227a6dabc8f69cae9470e1c2d45b167b04ab06cbe67f113dab4c9849aa66036"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/karina_milei_revaluation_bridge_2024_2025.csv",
+      "bytes": 1058,
+      "sha256": "936f115862d6ff9b04ca1c744e09a0f81044c965a7d163bfe65424d3d3d1941a"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/karina_milei_source_consistency_audit_2023_2025.csv",
+      "bytes": 906,
+      "sha256": "82c61b2f0f328250ae66ee70a0d0298c27c34198df384c0b6418ea4d4952317b"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/karina_milei_revaluation_audit_2023_2025.json",
+      "bytes": 8436,
+      "sha256": "2f3af5260f74ddab528222f7e438cf1907a2f968025ab50d98e44a5559ed4123"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/javier_milei_patrimonial_bridge_2023_2025.csv",
+      "bytes": 2225,
+      "sha256": "aad7343c0b56e25389ff44aa9812f878a6132a09f71d2019ab7318cbc12eddd1"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/javier_milei_revaluation_components_2025.csv",
+      "bytes": 1394,
+      "sha256": "27378ed79a23dfaba2ecee58e36bfad2ac8531b21160f820aa2daed0c4569b29"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/javier_milei_source_consistency_audit_2023_2025.csv",
+      "bytes": 1471,
+      "sha256": "e8b8cee69e6d8cdc2bdbe231b21e64ccfc08aa83dc88e7ab1d7d6d7574db2d9e"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/javier_milei_revaluation_audit_2023_2025.json",
+      "bytes": 14834,
+      "sha256": "522ed43b84aaedf71c772f4aa54bd6bca07c4509badbb276a3f4e696b44d58f3"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/asset_persistence_audit.csv",
+      "bytes": 795,
+      "sha256": "457f5349fdf5a4eb7aa632eb2234844436c70a4054ba728c664f92f14c38eda6"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/viral_claim_audit.csv",
+      "bytes": 344,
+      "sha256": "60c31ad57ab34c59a478d3160bd57b6f739e97301e15f049be8f4835396a06fe"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politicians_roster_2026-09-01.csv",
+      "bytes": 527614,
+      "sha256": "14cb12f99a6f978898a3643c112e0b63ba2d14025114e392d82cdf99944a41d8"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politicians_coverage_2026-09-01.json",
+      "bytes": 1129672,
+      "sha256": "c8225cc158e0c5e9a2be33ac54bf96cec39c844371edf3907330e93b7c536a8e"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/provincial_coverage_matrix_2026-09-01.csv",
+      "bytes": 3089,
+      "sha256": "b84982fe527fa6f95d9fa05cfc6b63b30341d4ae7c2d484e9e2c3224c4b04fed"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_research_queue_2026-09-01.csv",
+      "bytes": 421525,
+      "sha256": "88ad8d9b4a39f5010717d3a31d2cdb784466e9ff602177dd21f76d1f5c6f5bdb"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_oa_identity_review_2026-09-01.csv",
+      "bytes": 134333,
+      "sha256": "b1153fc7cda7ea522fe7ed223192249791f7237ee463aa77745d195b03106784"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_oa_candidate_series_2017_2024.csv",
+      "bytes": 518237,
+      "sha256": "2537e2e900602dbe1c4a75dd9a5634229f6c24443cf85e1b37b0caffd904efd7"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_research_summary_2026-09-01.json",
+      "bytes": 3303,
+      "sha256": "b1814c6000e015d2f03aa4fcc2bca78a02620ee71c71f91c9d2becb84160945e"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_candidate_audit_2026-09-01.csv",
+      "bytes": 54995,
+      "sha256": "383e04260920c95b3306127f1f8f60c38e257857d8e3c8c1d7622a7b3a74059a"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_resolutions_iteration_13_2026-09-01.csv",
+      "bytes": 4574,
+      "sha256": "bfa0b0ce94251084454d1c266cabeea31a7246c95934137f499479c814a235e2"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_resolutions_iteration_14_2026-09-01.csv",
+      "bytes": 3584,
+      "sha256": "f6240d665b9dd72a06dc49c76576d60d5b3189a7db2933854eafa562e06c6134"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_resolutions_iteration_15_2026-09-01.csv",
+      "bytes": 1290,
+      "sha256": "dcdb38592b1a42f26c8234f66c73338b1d554aed1ec027b1855446f73b012db0"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_resolutions_iteration_17_2026-09-01.csv",
+      "bytes": 1074,
+      "sha256": "0e329ef39bc58dc37e51604951505658679691c90684624ed3930dc58b8a435e"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_exclusions_iteration_15_2026-09-01.csv",
+      "bytes": 4648,
+      "sha256": "a0f1f8aa1ad305711e6ab5a083afb1224ff4fce28de7976f8d61257bb53fba49"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_exclusions_iteration_16_2026-09-01.csv",
+      "bytes": 3535,
+      "sha256": "5a712fca82838baf0eee9c9dd103ae9c488896374664ac364ef7e2162be8483c"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_homonymy_exclusions_iteration_17_2026-09-01.csv",
+      "bytes": 1355,
+      "sha256": "6b0b814661aa1f6545bdbdd46fd4e96967a335f41f508b2f4ad0efcc1ccd91ff"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_pen_identity_resolutions_iteration_18_2026-09-01.csv",
+      "bytes": 6855,
+      "sha256": "4c0e46d364ae8154be4708d46106062efec129f6bfa0a6b57d92fdb3de35cbb2"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_cross_institution_resolutions_iteration_19_2026-09-01.csv",
+      "bytes": 3376,
+      "sha256": "2cbedd337592a0cbe633977aa1fd2016cddd3dd5e2486e66ba7c2d9f6a2b62e3"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_1_2026-09-01.csv",
+      "bytes": 29613,
+      "sha256": "92dc515ea803fb813d38cd0903b98a6d38ceda479d39a6c7d207b35d4dd03657"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_1_2017_2024.csv",
+      "bytes": 84357,
+      "sha256": "cd23b5c85cc32e1b7343feebf7d5444c8a9037df838cedfa6c71e1579d0db168"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_1_2017_2024.csv",
+      "bytes": 20355,
+      "sha256": "f3e0bbc6659b138eb4e8068fd7b1f4ac282391a9590b56a60ee0b8e38082c106"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_2_2026-09-01.csv",
+      "bytes": 29626,
+      "sha256": "226d7a15303d8328dd946ee35bf34174ebf44c7a7497ea2fc42e80dea67b5649"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_2_2017_2024.csv",
+      "bytes": 85766,
+      "sha256": "00894544f055d2be1687563369f73938d5c9090f71eb7a1f3678698d545bdfd7"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_2_2017_2024.csv",
+      "bytes": 21867,
+      "sha256": "3511016078c912d2dec8aed0558d957fa369c1c7abb455b4a8a6fe2af9f83178"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_3_2026-09-01.csv",
+      "bytes": 29376,
+      "sha256": "9ab68a8c00a7eb8d6a3e5fef9793dc38895082b808d2691296f8a1eaa3fe00be"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_3_2017_2024.csv",
+      "bytes": 82242,
+      "sha256": "31d1ea6a7e31c9a176516c9a5b050eabca52c97c05baa229487df8eab2f0cb97"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_3_2017_2024.csv",
+      "bytes": 22583,
+      "sha256": "93604b17919dc54c8350a894745898f0b5dc60f870fe7821b068353de6cda59e"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_4_2026-09-01.csv",
+      "bytes": 29589,
+      "sha256": "a83b1f07cdadb28ed525b0e983e35d3f53ec93ef8f0a92bd1cb40f138c71f185"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_4_2017_2024.csv",
+      "bytes": 85878,
+      "sha256": "0fee0af446181916dc61b75302247f007e06cb82fd679a64111127d9a4b6be25"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_4_2017_2024.csv",
+      "bytes": 21197,
+      "sha256": "9d24bcfbe9d863eb41c50bb68e7504d6b8630bbf0b8292a2326d716c376d95c3"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_5_2026-09-01.csv",
+      "bytes": 28134,
+      "sha256": "3ec370a0822cb2d40698b1619ac2778c4e4fc21c9bf40e5478196880d9570ec0"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_5_2017_2024.csv",
+      "bytes": 82756,
+      "sha256": "80b2af66bdff63bf504f2afe6e1e34c27e12923b3b280dc798e70b4718a39629"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_5_2017_2024.csv",
+      "bytes": 24176,
+      "sha256": "860a8dd5fd3841611290db29c2102eb82cb87c055f3610edfad48f82832e2944"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_6_2026-09-01.csv",
+      "bytes": 9707,
+      "sha256": "fad7ea9d40eb3709b09e8cbb8e3dd7814270c12f8923184f3d4493675abff273"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_6_2017_2024.csv",
+      "bytes": 39450,
+      "sha256": "b7c3cfbcaaf9cc0dbd373478bde82961256831738ac353afb277ca88161e8c94"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_6_2017_2024.csv",
+      "bytes": 7936,
+      "sha256": "be6343179e7c6cd0669587bce2cadf0b65be5bacdc8ac5517abb6219ddda37d4"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_7_2026-09-01.csv",
+      "bytes": 26504,
+      "sha256": "6adab5fe86f738d9e13ed25980791c6559fd5b5c232fc43afabb508b60351b03"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_7_2017_2024.csv",
+      "bytes": 77826,
+      "sha256": "5df3d52885aeffff1ddce01c15d63731cc0ce847c9632032f9e280ea82756c7e"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_7_2017_2024.csv",
+      "bytes": 12262,
+      "sha256": "1266eaa14a10c9cd71265b8bfc1c7281e29d75568029542018022115d0a4f618"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_8_2026-09-01.csv",
+      "bytes": 45809,
+      "sha256": "f1d2a377d5841fdd7b5380dd1bae82956f13237932e21dfd08da793113d1eef8"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_8_2017_2024.csv",
+      "bytes": 161954,
+      "sha256": "0bed03de3b65a0e3531c7bf8cf9c4b00e1c75ce88405446c57479c2cc5d05984"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_8_2017_2024.csv",
+      "bytes": 21968,
+      "sha256": "54a48e67ee3ea4296761b1353b1340c234ce7633e33e5fe2e289bdaef378f447"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_9_2026-09-01.csv",
+      "bytes": 21197,
+      "sha256": "cb7b54dbdf0ffefa36e480a35125025d3a70988a677e6b808c733eb63b8aa5ae"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_9_2017_2024.csv",
+      "bytes": 57825,
+      "sha256": "300531c0054cd434e3498e74ffedf4dd7f1b70de0c586f05454628d2651af765"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_9_2017_2024.csv",
+      "bytes": 8600,
+      "sha256": "a33bae32e2d666816a73f95c1f0dcd0af26fa99343b0b6d9b5b15113ded7aeae"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_10_2026-09-01.csv",
+      "bytes": 14807,
+      "sha256": "72973658310879279c9e5d68363a9a6bfcfeb3473764a655ea79d736c18fced2"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_10_2017_2024.csv",
+      "bytes": 47546,
+      "sha256": "46fe24bf9d2a3b358503d49a80bca2bada0eccfd369ed06f6a334c43ba0ea2f4"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_10_2017_2024.csv",
+      "bytes": 5579,
+      "sha256": "84061349a2264cb203701ce12048faf22350befb2b64168e8dd683cee3937bf3"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_11_2026-09-01.csv",
+      "bytes": 8928,
+      "sha256": "112a6bbead28e39735f13d0c027fbb0c70fc611ff7a1652cc44080d8e3475279"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_11_2017_2024.csv",
+      "bytes": 25999,
+      "sha256": "0577143ac1a1e507daa0215cc1d5048388a7cb9b6c211d0fcc5e3342f398bf97"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_11_2017_2024.csv",
+      "bytes": 2897,
+      "sha256": "4a46687f8a188bc586a3b1da1859515ce4b25978bd373e070824df35011c06a9"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_12_2026-09-01.csv",
+      "bytes": 8204,
+      "sha256": "dcfa51f836e8f132a3b5b2f561a703167bd6154e729a3e520452637e1d9d56a5"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_12_2017_2024.csv",
+      "bytes": 21625,
+      "sha256": "fbd5232253adce4cbaab763b96690d1381182c4ff20bc8a085aa1f6f3da67a6c"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_12_2017_2024.csv",
+      "bytes": 1227,
+      "sha256": "f3c03cab450da4e721445c8a64fef69271346776cb1a3570b01bbd2a719f4b53"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_13_2026-09-01.csv",
+      "bytes": 8010,
+      "sha256": "243a5b140d2390d75e9c96c077dae1b8c1de5149bf6fd3bb97385a11d7331e9a"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_13_2017_2024.csv",
+      "bytes": 24830,
+      "sha256": "cc9a9632805d8c7c9ee63296659df6c465efeab921a60c8ed6ea33048875404f"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_13_2017_2024.csv",
+      "bytes": 4411,
+      "sha256": "2ff7d0e9acc3926f7b2b64047303ad0e987cead8c577e54284cead41a2da7a12"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_14_2026-09-01.csv",
+      "bytes": 5916,
+      "sha256": "4fb84dfc878394167b26b5864987b514aa9c97b60b5d295fe0ec3fbf4ae62e18"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_14_2017_2024.csv",
+      "bytes": 18029,
+      "sha256": "6b5592549828c2ed1ca588d77492e2c864c8ec5d7b8e80bfdf4ecf9af46a6679"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_14_2017_2024.csv",
+      "bytes": 4406,
+      "sha256": "3646e0fa0865097155cef81dcaf09d0652b82563f44f5861a399b2ced510ac62"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_15_2026-09-01.csv",
+      "bytes": 1803,
+      "sha256": "e58aa0f25efcea76840a41ccfa604fbb92ce24f4681a559f822ab78a9a65b845"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_15_2017_2024.csv",
+      "bytes": 3698,
+      "sha256": "c561c2dcb6b266907309a478028d680d645ce4d5c63568e16ed32778c200a00a"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_15_2017_2024.csv",
+      "bytes": 1156,
+      "sha256": "29d4b9d929fbb2d75ef9ab7ea9d8551d75f97e61131746fde6cd1fa09b20fc6b"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_17_2026-09-01.csv",
+      "bytes": 1629,
+      "sha256": "a91aa976dad8e564f07f78df8a49c5a5da25e1d0f137df4295dc8a669bcde9b8"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_17_2017_2024.csv",
+      "bytes": 3877,
+      "sha256": "e49d1b658a1967855a29ee6ce485ea541d89d50bc75a5b595ffdfa3ad545f246"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_17_2017_2024.csv",
+      "bytes": 1146,
+      "sha256": "86d1022bb8b4400bceb7019f7455f477657b6995c573db15844839d34b614d24"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_18_2026-09-01.csv",
+      "bytes": 9424,
+      "sha256": "39b9a88cd40ebeb199f99c267abc63e85876dcd1ca7f397cecadeaae82462029"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_18_2017_2024.csv",
+      "bytes": 31150,
+      "sha256": "a1dba979a8add22cb7a67a5b0c16a3b1d920e7d52ad085abd8ff9d950baa04c7"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_18_2017_2024.csv",
+      "bytes": 7255,
+      "sha256": "84ed3c4e6e633eaa808cc3252fcf3df79800e49bbafe82fc0274cea2d9fcf78c"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_identity_audit_iteration_19_2026-09-01.csv",
+      "bytes": 5968,
+      "sha256": "55bfbddfc0d8e0098f1f0fc7cbd5715ec5c5957adbd598bf64cad8b9e004f9b8"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_series_iteration_19_2017_2024.csv",
+      "bytes": 15840,
+      "sha256": "4daa3311dd8cf3d366153b460530d6366eb04c39d04f2de39adba7b0183ffe1c"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_politician_verified_benchmarks_iteration_19_2017_2024.csv",
+      "bytes": 3684,
+      "sha256": "5faa37db9a2b09ce86503bf46ec58800b4d0f44e16e3ed7c294e47b51fa7ca74"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/source_registry.csv",
+      "bytes": 19238,
+      "sha256": "ccd42669a33e6e6823a1aa7a03f34989f464f73baa76938c29c64247d971cd91"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/source_manifest.csv",
+      "bytes": 22240,
+      "sha256": "d4b21f773edf1edee925eab55c03278b6e6cbf45fc731e7122d8967786dd1589"
     }
   ]
 }

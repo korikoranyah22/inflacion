@@ -1,0 +1,6 @@
+﻿control_id,source_id,target_string,target_count,mypes_exact_count,result,limit
+HTML181_01,e0_sec_macro_20f_2012_restricted_assets_v181,RESTRICTED AND PLEDGED ASSETS,2,0,PASS_CONTENT_CONTROL,"exact-string absence is a scoped search result, not proof of substantive nonexistence"
+HTML181_02,e0_sec_macro_20f_2013_contingency_control_v181,FORM 20-F,7,0,PASS_CONTENT_CONTROL,"exact-string absence is a scoped search result, not proof of substantive nonexistence"
+HTML181_03,e0_sec_macro_20f_2014_contingency_control_v181,FORM 20-F,6,0,PASS_CONTENT_CONTROL,"exact-string absence is a scoped search result, not proof of substantive nonexistence"
+HTML181_04,e0_sec_macro_20f_2015_contingency_control_v181,FORM 20-F,6,0,PASS_CONTENT_CONTROL,"exact-string absence is a scoped search result, not proof of substantive nonexistence"
+HTML181_05,e0_sec_macro_submission_index_v181,0001347426,2,0,PASS_CONTENT_CONTROL,"exact-string absence is a scoped search result, not proof of substantive nonexistence"

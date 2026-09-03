@@ -1,0 +1,5 @@
+﻿row_id,event,evidence,status,limit
+SQ180_01,BCRA autoriza a Macro adquirir Nuevo Banco Suquía,Res. BCRA 361 citada por Res. 967,CORPORATE_CONTROL_PROVED,no prueba adhesión al fideicomiso
+SQ180_02,Macro solicita incorporar Suquía como IFI; partes/BID no objetan,considerandos Res. 967,REQUEST_AND_NO_OBJECTION_PROVED,no equivale a firma
+SQ180_03,art. 2 autoriza incorporación,Res. 967,ACCESSION_AUTHORIZED,ejecución no localizada
+SQ180_04,nuevo modelo Res. 967,AGN 14/2010,NOT_PERFECTED_BY_2008_02_22,no atribuir cartera/garantía efectiva a Suquía

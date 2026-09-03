@@ -1,0 +1,20 @@
+{
+  "checkpoint": "V185",
+  "master_catalog_entries": 718,
+  "physical_sha_valid": 718,
+  "new_sources": 10,
+  "account_54395_36_exact_disclosure": true,
+  "account_54395_36_bna_balance": 0,
+  "account_54395_36_esidif_bank_balance": 0,
+  "account_54395_36_esidif_ledger_balance": -36600000,
+  "fondyf_budget_credit_2023": 3094874,
+  "fondyf_accrued_2023": 0,
+  "fondyf_paid_2023": 0,
+  "generic_reconciliation_findings_2021_2024": true,
+  "account_54395_36_continuity_after_2023_proved": false,
+  "account_54395_36_my4002_crosswalk_proved": false,
+  "bid1192_composition_proved": false,
+  "fondyf_to_fondep_transfer_proved": false,
+  "damage_or_liability_proved": false,
+  "requests_submitted": 0
+}

@@ -1,0 +1,15 @@
+stock_id,as_of_date,scope,purpose,instrument,original_vno_million_usd,updated_vno_million_usd,updated_value_million_ars,source_id,source_locator,comparability,caveat
+K01,2007-12-31,PURPOSE,COMPENSATORY,BODEN_2012,4590.561,2869.100,9034.798,e0_cgn_cuenta_inversion_2007_sdp,PDF_p56,PURPOSE_SPECIFIC,Excludes the separate CER-CVS BODEN 2013 component.
+K02,2007-12-31,PURPOSE,COVERAGE,BODEN_2012,3572.842,2233.026,7031.799,e0_cgn_cuenta_inversion_2007_sdp,PDF_p56,PURPOSE_SPECIFIC,Subscription leg; not a free transfer.
+K03,2007-12-31,PURPOSE,DEPOSITORS,BODEN_2012,4052.399,2534.044,7979.705,e0_cgn_cuenta_inversion_2007_sdp,PDF_p56,PURPOSE_SPECIFIC,Keep outside bank compensation.
+K04,2007-12-31,PURPOSE,AUCTION,BODEN_2012,791.872,494.920,1558.503,e0_cgn_cuenta_inversion_2007_sdp,PDF_p56,PURPOSE_SPECIFIC,"Market placement, not compensation."
+K05,2007-12-31,PURPOSE,DIRECT_PLACEMENT,BODEN_2012,4427.521,2767.201,8713.915,e0_cgn_cuenta_inversion_2007_sdp,PDF_p56,PURPOSE_SPECIFIC,Other direct placements; not assignable to bank compensation.
+K06,2007-12-31,SERIES,ALL_PURPOSES,BODEN_2012,17435.195,10898.291,34318.720,e0_cgn_cuenta_inversion_2007_sdp,PDF_p56,SERIES_CONTROL,Sum of several purposes; not a beneficiary total.
+K07,2008-12-31,SERIES,ALL_PURPOSES,BODEN_2012,N/D,8708.340475,30061.19131970,e0_cgn_cuenta_inversion_2008_sdp,PDF_p5,DETAILED_CLOSING_BALANCE,Purpose split unavailable in the cited series row.
+K08,2009-12-31,SERIES,ALL_PURPOSES,BODEN_2012,17449.007,6545.070,24871.266,e0_cgn_cuenta_inversion_2009_sdp,PDF_p60,ROUNDED_INVENTORY,Rounded stock; not a flow.
+K09,2010-12-31,SERIES,ALL_PURPOSES,BODEN_2012,17581.580,4395.461,17476.351,e0_cgn_cuenta_inversion_2010_sdp,PDF_p60,ROUNDED_INVENTORY,Rounded stock; not a flow.
+K10,2011-12-31,SERIES,ALL_PURPOSES,BODEN_2012,17582.343,2197.792,9459.296,e0_cgn_cuenta_inversion_2011_sdp,PDF_p50,ROUNDED_INVENTORY,Rounded stock; not a flow.
+K11,2012-12-31,SERIES,ALL_PURPOSES,BODEN_2012,0,0,0,e0_cgn_cuenta_inversion_2012_sdp,PDF_pp5_41_42,FINAL_MATURITY_CONTROL,"Zero stock closes the series, not the holder-purpose audit."
+
+
+

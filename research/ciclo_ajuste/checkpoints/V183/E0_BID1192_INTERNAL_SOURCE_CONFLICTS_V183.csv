@@ -1,0 +1,6 @@
+﻿row_id,source,conflict,safe_treatment,severity
+IC180_01,BID PCR,16 IFI in product table vs 17 active in narrative,report both; seek annex/loan database,MEDIUM
+IC180_02,BID PCR,funds exhausted by Aug 2008 in one passage vs suspension/commitment Aug 2007,"treat 2008 as likely drafting/date issue, not silently correct",HIGH_DATE
+IC180_03,BID PCR vs AGN14,USD196m+196m vs USD194m+194m,separate approved/disbursed/direct-effect definitions,MEDIUM_VALUE
+IC180_04,Res. 967 vs AGN14,approved/incorporation authorized vs contract not perfected,authorization is not execution,HIGH_LEGAL
+IC180_05,BID PCR vs AGN160/14,favorable aggregate assessment vs documented control gaps,different questions; preserve both,HIGH_INTERPRETIVE

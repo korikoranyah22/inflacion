@@ -1,0 +1,7 @@
+candidate,analytic_role,support,contrary,first_search,decisive_record,status
+C41,LEADING_DOCUMENT_TYPE_COMPARATOR,"2010 repite cuenta y leyenda genérica y publica cuatro C41; 2011, 2013 y 2014 también exhiben C41 bajo el código reutilizado",2008 no imprime tipo; 2009 queda vacío y 2012/2015 dicen VARIOS; el concepto cambia a YPF desde 2011,SC y SLU por C41 + N°SIDIF,exportación target y cuerpo/estado,PRIOR_1A_NOT_PROVED
+C55,LEADING_MECHANISM_COMPARATOR,el diseño SLU usa comisiones bancarias como movimiento automático y el manual C55 registra débito directo por comisión,"no hay fila target, aceptación central, cuenta, extracto o Libro Banco",SC y SLU por C55/Débito Directo + N°SIDIF,"tipo/subtipo, historia SC, extracto y Libro Banco",PRIOR_1B_NOT_PROVED
+C42,SLU_FALLBACK,el antiguo SLU admitía C42 al ingresar N° SIDIF,la partida 7.2.8 es presupuestaria y la página 2025 no lo enumera entre modelos SC desafectados,SLU por C42 si C41/C55 fallan,tipo y razón extrapresupuestaria,FALLBACK_NOT_EXCLUDED
+C35,SIDIF_CENTRAL_FALLBACK,la desafectación 2025 incluye modelo C35 y transmisiones de SIDIF Central,C35 es compromiso y no hay señal pública que lo vincule a las tres referencias,SC por C35 si C41/C55 y búsqueda sin tipo fallan,comprobante y vínculo con devengado/pago,FALLBACK_NOT_EXCLUDED
+UNCLASSIFIED,DECISION,Anexo K sólo rotula SIDIF,ningún comparador sustituye la fila 2008,primero sin restricción de tipo por identificadores exactos; luego C41/C55; después C42/C35,exportación SICHE SC+SLU y respaldo AMIDDF,DUAL_PRIORITY_NO_TARGET_PROOF
+

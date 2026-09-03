@@ -1,0 +1,3 @@
+# Recuperación archivística · V180
+
+La serie 2011-2016 y los gaps contables de V178 se mantienen sin imputación de daño. V180 recupera desde el Boletín Oficial el modelo contractual aprobado completo de la Resolución 967/2006: 99 páginas digitales con contrato base y Anexos I-V. El paquete prueba a nivel contractual la distribución de funciones, la garantía/indemnidad de Macro y Credicoop y el archivo periódico que debía producirse. No es una contraparte ejecutada y no prueba activación, incumplimiento ni pago. Falta obtener firmas, reportes, cartera, auditorías, débitos y el instrumento de transición hacia FONDYF/BNA. Archivo 649/649; panel 34 y 63.440604%; solicitudes 0.

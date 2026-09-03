@@ -1,0 +1,5 @@
+﻿row_id,rule,obligor,scope,source,correction
+GL180_01,deuda vencida impaga como condición,cada IFI,cláusula 3.1.5 sólo ante deuda vencida e impaga de la IFI frente al fiduciario,Res. 747/2004,no es garantía general automática
+GL180_02,riesgo de crédito propio,cada IFI,hasta el monto de créditos descontados por esa IFI,Res. 747/2004,no responde por cartera originada por la otra IFI
+GL180_03,obligaciones específicas del fiduciario,Macro-Bansud,garantía exclusiva de Macro respecto de obligaciones del fiduciario,Res. 747/2004,no corresponde imputarlas solidariamente a Credicoop
+GL180_04,activación y pago,IFI pertinente,"requiere saldo, mora, aviso, aporte/débito o acción",instrumento + registros de desempeño pendientes,cláusula no prueba incumplimiento ni daño

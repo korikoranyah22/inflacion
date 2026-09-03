@@ -1,0 +1,7 @@
+﻿row_id,period,vehicle,ifi,operations,principal_or_volume,other_amount,source,limit
+OL180_01,2005-08-19/2005-12-31,Fideicomiso Res. 389,Macro,10,"USD 831,246.65","subprestatarios USD 121,779.34; aporte local IFI USD 3,449,403.82",AGN 160/2006,corte parcial
+OL180_02,2005,Fideicomiso Res. 389,Credicoop,0,"USD 441,150 transferidos y reintegrados 12/01/2006",sin desembolso,AGN 160/2006,inactividad al cierre
+OL180_03,hasta 2006-12-31,Fideicomiso Res. 389,Macro,35,"USD 9,220,439.92",18.44% de capacidad USD 50m,AGN 14/2010,no prueba calidad final de cartera
+OL180_04,2007,Facilidad en pesos BCRA,múltiples IFI,1121,"ARS 535,325,410.46",BID + contraparte,AGN 14/2010,vehículo distinto del fideicomiso
+OL180_05,2008,recuperos de Facilidad,múltiples IFI,95,"ARS 47,563,240.96",operaciones previamente aprobadas,AGN 14/2010,UCP declaró no tener mayor información sobre 10 operaciones del fideicomiso
+OL180_06,2007-2008,Facilidad total,múltiples IFI,1216 investment loans per BID PCR,"ARS 582,888,651.42 AGN facility total","BID PCR also reports 2,598 local working-capital credits",AGN 14/2010 + BID PCR,diferentes universos/unidades; no sumar sin diccionario

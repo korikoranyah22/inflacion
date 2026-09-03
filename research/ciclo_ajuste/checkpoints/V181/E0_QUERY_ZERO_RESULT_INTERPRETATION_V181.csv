@@ -1,0 +1,10 @@
+rule_id,query,zero_permits,zero_forbids,required_metadata,status
+ZR140_01,Formulario por Pda. y Sigade,sólo que esos filtros no devolvieron filas en ese dataset,inexistencia del formulario o falta de pago,modelo;cobertura;filtros;diccionario;filas,FROZEN
+ZR140_02,Gastos por Beneficiarios=BNA,BNA no aparece bajo esa variante,BNA no intervino,campo/código/denominaciones/rango,FROZEN
+ZR140_03,Deuda Exigible hasta 2008,no hay fila bajo definición y corte informados,fue pagado o anulado,definición;fecha de corte;estados incluidos,FROZEN
+ZR140_04,Asientos 2001-2012,no coincide importe/cuenta consultados,no existió asiento agregado o por partes,cuentas;importe exacto/partes;tipo;periodo,FROZEN
+ZR140_05,Pagos por SIGADE,no hay fila en el esquema consultado,el legacy no pagó,migración/cobertura SC-SLU-eSIDIF;tipos,FROZEN
+ZR140_06,Conciliación Bancaria,sin coincidencia bajo cuenta/fecha/importe,no hubo débito ni regularización,cuentas;extractos cargados;ventana;partes,FROZEN
+ZR140_07,AMIDDF,índice consultado no localizó caja/cuerpo,documentación expurgada o nunca remitida,fondo;serie;subserie;ejercicio;planillas;cajas consultadas,FROZEN
+ZR140_08,Paquete completo,cierre de rutas consultadas con alcance declarado,0/10 confirmado sin respuesta institucional y cadena de custodia,respuesta firmada/expediente;adjuntos;derivaciones,FROZEN
+

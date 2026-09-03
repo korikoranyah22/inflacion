@@ -1,0 +1,4 @@
+row_id,bridge,prior_final_ars,next_initial_ars,calculated_final_minus_initial_ars,reported_difference_ars,reported_explanation,status_2016,analytic_limit
+AM176_01,31/12/2011→01/01/2012,5124915.77,5185413.97,-60498.20,-60498.20,tipo de cambio informado por PNUD días después del cierre,no regularizable por cierre del proyecto y cuenta,ejemplo 2011-2013; no corresponde al target 2008 ni prueba apropiación
+AM176_02,31/12/2012→01/01/2013,2468589.94,2429294.25,39295.69,39295.69,tipo de cambio informado por PNUD días después del cierre,no regularizable por cierre del proyecto y cuenta,ejemplo 2011-2013; no corresponde al target 2008 ni prueba apropiación
+AM176_03,31/03/2013→13/05/2013,2272507.35,2262970.52,9536.83,9536.83,tipo de cambio informado por PNUD días después del cierre,no regularizable por cierre del proyecto y cuenta,ejemplo 2011-2013; no corresponde al target 2008 ni prueba apropiación

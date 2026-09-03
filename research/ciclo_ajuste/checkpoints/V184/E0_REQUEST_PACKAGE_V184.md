@@ -1,0 +1,3 @@
+# Paquete de pedidos V180 · BORRADOR_NO_ENVIADO
+
+No fue remitido. El anexo oficial recuperado permite pedir objetos ya definidos por el propio contrato: contraparte ejecutada y cadena de versiones; rendiciones e informes de la cláusula 16; archivos mensuales de deudores; informes de auditor externo; padrón de créditos, cesiones, pagarés y garantías; avisos, aportes y débitos del Anexo III; extractos, retribuciones y gastos fiduciarios; e instrumento de liquidación/novación/transferencia hacia FONDYF/BNA. Toda respuesta debe conservar identificadores, diccionario, período, responsable y conciliación; los datos personales pueden testarse o seudonimizarse sin suprimir totales y trazabilidad.

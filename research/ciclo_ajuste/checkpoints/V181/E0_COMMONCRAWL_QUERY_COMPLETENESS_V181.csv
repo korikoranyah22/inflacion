@@ -1,0 +1,3 @@
+batch,collections_targeted,queries,valid_no_capture,service_errors,captures,pending_queries,decision
+HEALTH_CONTROL_2014_49,1,2,0,2,0,40,STOP_PENDING_BATCH_CONTROL_FAILED
+PENDING_RETRY,20,0,0,0,0,40,NOT_EXECUTED_AFTER_FAILED_CONTROL

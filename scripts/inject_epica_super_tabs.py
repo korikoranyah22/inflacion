@@ -5,10 +5,81 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.html"
-MARKER = '<script src="assets/epica-super-tabs.js"></script>'
-STAGE2_MARKER = '<script src="assets/epica-stage2-tabs.js"></script>'
+MARKER = '<script src="assets/epica-super-tabs.js?v=20260902-1"></script>'
+STAGE2_MARKER = '<script src="assets/epica-stage2-tabs.js?v=20260902-1"></script>'
+POLITICAL_WEALTH_DATA_MARKER = '<script src="assets/political-wealth-data.js?v=20260902-28"></script>'
+POLITICAL_WEALTH_MARKER = '<script src="assets/political-wealth-tab.js?v=20260902-28"></script>'
+LEGACY_EPICA_MARKER = '<script src="assets/epica-super-tabs.js"></script>'
+LEGACY_STAGE2_MARKER = '<script src="assets/epica-stage2-tabs.js"></script>'
+LEGACY_POLITICAL_WEALTH_DATA_MARKER = '<script src="assets/political-wealth-data.js"></script>'
+LEGACY_POLITICAL_WEALTH_MARKER = '<script src="assets/political-wealth-tab.js"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER = '<script src="assets/political-wealth-data.js?v=20260901-3"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER = '<script src="assets/political-wealth-tab.js?v=20260901-3"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V5 = '<script src="assets/political-wealth-data.js?v=20260901-5"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V5 = '<script src="assets/political-wealth-tab.js?v=20260901-5"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V6 = '<script src="assets/political-wealth-data.js?v=20260901-6"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V6 = '<script src="assets/political-wealth-tab.js?v=20260901-6"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V7 = '<script src="assets/political-wealth-data.js?v=20260901-7"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V7 = '<script src="assets/political-wealth-tab.js?v=20260901-7"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V8 = '<script src="assets/political-wealth-data.js?v=20260901-8"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V8 = '<script src="assets/political-wealth-tab.js?v=20260901-8"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V9 = '<script src="assets/political-wealth-data.js?v=20260901-9"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V9 = '<script src="assets/political-wealth-tab.js?v=20260901-9"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V10 = '<script src="assets/political-wealth-data.js?v=20260901-10"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V10 = '<script src="assets/political-wealth-tab.js?v=20260901-10"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V11 = '<script src="assets/political-wealth-data.js?v=20260901-11"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V11 = '<script src="assets/political-wealth-tab.js?v=20260901-11"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V12 = '<script src="assets/political-wealth-data.js?v=20260901-12"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V12 = '<script src="assets/political-wealth-tab.js?v=20260901-12"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V13 = '<script src="assets/political-wealth-data.js?v=20260901-13"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V13 = '<script src="assets/political-wealth-tab.js?v=20260901-13"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V14 = '<script src="assets/political-wealth-data.js?v=20260901-14"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V14 = '<script src="assets/political-wealth-tab.js?v=20260901-14"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V15 = '<script src="assets/political-wealth-data.js?v=20260901-15"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V15 = '<script src="assets/political-wealth-tab.js?v=20260901-15"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V16 = '<script src="assets/political-wealth-data.js?v=20260901-16"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V16 = '<script src="assets/political-wealth-tab.js?v=20260901-16"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V17 = '<script src="assets/political-wealth-data.js?v=20260901-17"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V17 = '<script src="assets/political-wealth-tab.js?v=20260901-17"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V18 = '<script src="assets/political-wealth-data.js?v=20260901-18"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V18 = '<script src="assets/political-wealth-tab.js?v=20260901-18"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V19 = '<script src="assets/political-wealth-data.js?v=20260901-19"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V19 = '<script src="assets/political-wealth-tab.js?v=20260901-19"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V20 = '<script src="assets/political-wealth-data.js?v=20260901-20"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V20 = '<script src="assets/political-wealth-tab.js?v=20260901-20"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V21 = '<script src="assets/political-wealth-data.js?v=20260901-21"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V21 = '<script src="assets/political-wealth-tab.js?v=20260901-21"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V22 = '<script src="assets/political-wealth-data.js?v=20260901-22"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V22 = '<script src="assets/political-wealth-tab.js?v=20260901-22"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V23 = '<script src="assets/political-wealth-data.js?v=20260901-23"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V23 = '<script src="assets/political-wealth-tab.js?v=20260901-23"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V24 = '<script src="assets/political-wealth-data.js?v=20260901-24"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V24 = '<script src="assets/political-wealth-tab.js?v=20260901-24"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V25 = '<script src="assets/political-wealth-data.js?v=20260901-25"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V25 = '<script src="assets/political-wealth-tab.js?v=20260901-25"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V26 = '<script src="assets/political-wealth-data.js?v=20260902-26"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V26 = '<script src="assets/political-wealth-tab.js?v=20260902-26"></script>'
+PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V27 = '<script src="assets/political-wealth-data.js?v=20260902-27"></script>'
+PREVIOUS_POLITICAL_WEALTH_MARKER_V27 = '<script src="assets/political-wealth-tab.js?v=20260902-27"></script>'
 
 text = INDEX.read_text(encoding="utf-8")
+
+for old_marker, new_marker in (
+    (LEGACY_EPICA_MARKER, MARKER),
+    (LEGACY_STAGE2_MARKER, STAGE2_MARKER),
+):
+    if old_marker in text:
+        assert text.count(old_marker) == 1
+        text = text.replace(old_marker, new_marker, 1)
+
+for old_marker in (LEGACY_POLITICAL_WEALTH_DATA_MARKER, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V5, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V6, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V7, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V8, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V9, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V10, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V11, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V12, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V13, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V14, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V15, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V16, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V17, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V18, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V19, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V20, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V21, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V22, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V23, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V24, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V25, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V26, PREVIOUS_POLITICAL_WEALTH_DATA_MARKER_V27):
+    if old_marker in text:
+        assert text.count(old_marker) == 1
+        text = text.replace(old_marker, POLITICAL_WEALTH_DATA_MARKER, 1)
+for old_marker in (LEGACY_POLITICAL_WEALTH_MARKER, PREVIOUS_POLITICAL_WEALTH_MARKER, PREVIOUS_POLITICAL_WEALTH_MARKER_V5, PREVIOUS_POLITICAL_WEALTH_MARKER_V6, PREVIOUS_POLITICAL_WEALTH_MARKER_V7, PREVIOUS_POLITICAL_WEALTH_MARKER_V8, PREVIOUS_POLITICAL_WEALTH_MARKER_V9, PREVIOUS_POLITICAL_WEALTH_MARKER_V10, PREVIOUS_POLITICAL_WEALTH_MARKER_V11, PREVIOUS_POLITICAL_WEALTH_MARKER_V12, PREVIOUS_POLITICAL_WEALTH_MARKER_V13, PREVIOUS_POLITICAL_WEALTH_MARKER_V14, PREVIOUS_POLITICAL_WEALTH_MARKER_V15, PREVIOUS_POLITICAL_WEALTH_MARKER_V16, PREVIOUS_POLITICAL_WEALTH_MARKER_V17, PREVIOUS_POLITICAL_WEALTH_MARKER_V18, PREVIOUS_POLITICAL_WEALTH_MARKER_V19, PREVIOUS_POLITICAL_WEALTH_MARKER_V20, PREVIOUS_POLITICAL_WEALTH_MARKER_V21, PREVIOUS_POLITICAL_WEALTH_MARKER_V22, PREVIOUS_POLITICAL_WEALTH_MARKER_V23, PREVIOUS_POLITICAL_WEALTH_MARKER_V24, PREVIOUS_POLITICAL_WEALTH_MARKER_V25, PREVIOUS_POLITICAL_WEALTH_MARKER_V26, PREVIOUS_POLITICAL_WEALTH_MARKER_V27):
+    if old_marker in text:
+        assert text.count(old_marker) == 1
+        text = text.replace(old_marker, POLITICAL_WEALTH_MARKER, 1)
 
 if MARKER not in text:
     anchor = "\n<script>\nconst DASHBOARD_SNAPSHOT_CUTOFF = '2026-08-21';"
@@ -19,6 +90,22 @@ if MARKER not in text:
 if STAGE2_MARKER not in text:
     assert text.count(MARKER) == 1, "No se encontró el asset base de la épica"
     text = text.replace(MARKER, f"{MARKER}\n{STAGE2_MARKER}", 1)
+
+if POLITICAL_WEALTH_MARKER not in text:
+    assert text.count(STAGE2_MARKER) == 1, "No se encontró el asset de etapa 2"
+    text = text.replace(
+        STAGE2_MARKER,
+        f"{STAGE2_MARKER}\n{POLITICAL_WEALTH_MARKER}",
+        1,
+    )
+
+if POLITICAL_WEALTH_DATA_MARKER not in text:
+    assert text.count(POLITICAL_WEALTH_MARKER) == 1, "No se encontró el asset patrimonial"
+    text = text.replace(
+        POLITICAL_WEALTH_MARKER,
+        f"{POLITICAL_WEALTH_DATA_MARKER}\n{POLITICAL_WEALTH_MARKER}",
+        1,
+    )
 
 old_badge = "📌 cierre editorial · 25 ago 2026 · sin actualización automática"
 new_badge = "📌 base histórica · 25 ago 2026 · super-tabs auditados al 31 ago"
@@ -65,6 +152,12 @@ for old, new in stage2_replacements.items():
     if new not in text:
         assert text.count(old) == 1, f"No se encontró ancla de etapa 2: {old}"
         text = text.replace(old, new, 1)
+
+political_wealth_group_old = "'tab-meli-benefits','tab-casta']"
+political_wealth_group_new = "'tab-meli-benefits','tab-political-wealth','tab-casta']"
+if political_wealth_group_new not in text:
+    assert text.count(political_wealth_group_old) == 1, "No se encontró el cierre del grupo poder"
+    text = text.replace(political_wealth_group_old, political_wealth_group_new, 1)
 
 duplicate_sequences = {
     "'tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon'": "'tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon'",
@@ -145,5 +238,29 @@ if bcra_old_cutoff_note in text:
 else:
     assert bcra_new_cutoff_note in text, "No se encontró la nota de corte BCRA"
 
-INDEX.write_text(text, encoding="utf-8", newline="\n")
+# Los selectores internos nuevos reutilizan el desplazamiento horizontal con
+# rueda/trackpad que ya usan la navegación principal y los controles históricos.
+horizontal_wheel_old = "const HORIZONTAL_WHEEL_MENU_SELECTOR='.dash-topic-buttons, .tabs, .story-nav, .pend-layer-nav, .pend-controls-near-chart .pend-control, .milei-cost-table-wrap';"
+horizontal_wheel_new = "const HORIZONTAL_WHEEL_MENU_SELECTOR='.dash-topic-buttons, .tabs, .story-nav, .pend-layer-nav, .pend-controls-near-chart .pend-control, .milei-cost-table-wrap, .epica-toolbar, .pw-controls';"
+if horizontal_wheel_old in text:
+    assert text.count(horizontal_wheel_old) == 1, "Selector de desplazamiento horizontal ambiguo"
+    text = text.replace(horizontal_wheel_old, horizontal_wheel_new, 1)
+else:
+    assert horizontal_wheel_new in text, "No se encontró el selector responsive del menú"
+
+temporary = INDEX.with_name(f".{INDEX.name}.inject-tmp")
+try:
+    payload = text.encode("utf-8")
+    temporary.write_bytes(payload)
+    try:
+        temporary.replace(INDEX)
+    except PermissionError:
+        # El servidor local de Windows puede permitir escritura pero bloquear el reemplazo del archivo abierto.
+        with INDEX.open("r+b") as handle:
+            handle.seek(0)
+            handle.write(payload)
+            handle.truncate()
+finally:
+    if temporary.exists():
+        temporary.unlink()
 print("OK: super-tabs inyectados en index.html")

@@ -1,0 +1,3 @@
+# Veredicto V181
+
+La afirmación defendible sube un escalón: existió una pretensión administrativa concreta por comisión de compromiso contra Macro y Credicoop y fue recurrida; además, la cartera/garantía MyPES II puede seguirse hasta su extinción contable y salida registral en 2012. La pretensión parece referirse a incumplimientos históricos, no a una garantía aún vigente en 2014. Sin Resolución 1406, instructivo, liquidaciones, recursos y decisión final no puede calificarse el monto como deuda firme ni daño. El expediente correcto ya no es una búsqueda genérica: son ocho paquetes documentales exactos y conciliables.

@@ -1,0 +1,7 @@
+crosswalk_id,layer,identifier,date_or_period,public_fact,source_id,match_basis,status,remaining_gap
+CX133_01,PROJECT_TRACKER,48 0237/09,2009-06-30,CUENTA DE INVERSIÓN 2008 - DEUDA PÚBLICA MONEDA EXTRANJERA Y PESOS - 2008; avance 27%,e0_agn_informe_segundo_trimestre_2009_act_48_0237_09,EXACT_PROJECT_CODE,EXACT_PROJECT_LOCATOR,No imprime actuación o resolución final.
+CX133_02,FINAL_METADATA,UUID b52e2e9c-90b5-4af1-bf5d-0bab8596606e,2008/2009,Actuación 41/2009; Resolución 202; período auditado 01/01-31/12/2008; título exacto,e0_agn_api_informe_res202_act41_2009,UNIQUE_ACTUACION_AND_RESOLUTION_FILTER,EXACT_FINAL_IDENTITY,El nodo no contiene 48 0237/09.
+CX133_03,APPROVAL_RESOLUTION,Res.202/2009; Act.41/2009,2009-11-23,Aprueba el estudio; tareas de campo hasta abril; Nota 203/09 GCDP 29/06; sin respuesta formal al vencer el plazo,e0_agn_res_202_2009_act_41_2009_resolution,EXACT_RESOLUTION_TEXT,EXACT_PROCEDURAL_CHAIN,No imprime el código de proyecto.
+CX133_04,REPORT_SELF_DESCRIPTION,Informe final 2008,2008,Dice que el informe anual de deuda se incorporó en el contexto del proyecto destinado a evaluar la Cuenta de Inversión 2008,e0_agn_res_202_2009_act_41_2009_deuda,SAME_CONTEXT_AND_PERIOD,STRONG_CONTEXTUAL_BRIDGE,La frase no nombra 48 0237/09.
+CX133_05,VERDICT,48 0237/09 ↔ Act.41/2009/Res.202,2008-2009,Final report identity is exact; project lineage is single-candidate and strongly contextual,multiple_primary_sources,TRIANGULATION,FINAL_IDENTITY_CLOSED_PROJECT_CODE_NOT_LITERAL,Tabla interna de equivalencias o carátula del expediente AGN.
+

@@ -1,0 +1,11 @@
+stage,closed_rows,total_rows,status,meaning
+PUBLISHED_AWARD,10,10,CLOSED,Ten participant-instrument award rows are exact.
+PUBLISHED_PARTICIPANT,10,10,CLOSED,"Named participant, not ultimate holder."
+BCRA_ACCOUNT_CANDIDATE,9,10,PARTIAL,Nine rows map to bank accounts; MERVAL routing open; candidate is not credit.
+ONCP_PREADJUDICATION_BODY,0,10,OPEN,Exact target exists; body not located publicly.
+CAJA_T2_TRANSFER,0,10,OPEN,No executed transfer record recovered.
+CAJA_T3_REPORT,0,10,OPEN,No post-settlement report recovered.
+FINANCE_ORDER_BCRA_CREDIT,0,10,OPEN,"No order, debit or credit recovered."
+CRYL_CANCELLATION,0,10,OPEN,No target cancellation record recovered.
+ULTIMATE_HOLDER,0,10,OPEN,Participant may be intermediary.
+

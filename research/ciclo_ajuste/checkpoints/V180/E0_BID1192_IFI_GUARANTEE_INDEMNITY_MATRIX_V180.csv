@@ -1,0 +1,6 @@
+﻿row_id,mechanism,obligor,scope,trigger_or_term,source,proof_limit
+GI180_01,garantía por riesgo de crédito,cada IFI,"créditos que esa IFI descontó, con límite a su monto",deuda vencida e impaga según addenda,Res. 747/2004,falta padrón y mora
+GI180_02,garantía de obligaciones del fiduciario,Macro-Bansud exclusivamente,obligaciones específicas de SIASA/fiduciario,incumplimiento contractual probado,Res. 747/2004,falta activación
+GI180_03,aporte/débito,IFI pertinente,fondos por obligaciones garantizadas dentro de su alcance,aviso y plazos contractuales,modelos 2004-2005,faltan avisos y movimientos
+GI180_04,mora e intereses,IFI incumplidora,obligación exigible bajo instrumento ejecutado,vencimiento y falta de pago,anexos de garantía,sin ledger no se cuantifica
+GI180_05,no transposición Res. 967,ninguno por inferencia,modelo 2006 no perfeccionado al 22/02/2008,requerir contraparte ejecutada posterior,AGN 14/2010,no usar cláusulas 2006 como hechos

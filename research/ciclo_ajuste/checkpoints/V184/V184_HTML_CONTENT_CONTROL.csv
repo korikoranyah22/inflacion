@@ -1,0 +1,4 @@
+﻿file,needle,result
+argentina_cgn_cuenta2020_movimientosfinancieros_index.html,Anexo 4.37; Cuadro de Cuentas Bancarias; cuenta2020-separatai-anexo-4.37-cuentas_bancarias.xlsx,MATCH_PUBLISHED_LABEL_AND_TARGET
+boletin_oficial_bcra_com_b11368_dt1_fideicomiso_pymes.html,DT1; Fiduciario Fideicomiso PyMEs,MATCH_POSSIBLE_LEDGER_CODE_NOT_EXECUTION_PROOF
+argentina_tgn_sireco_cierre_cuentas_oficiales.html,extracto bancario y/o constancia bancaria; SIRECO,MATCH_CURRENT_CLOSURE_EVIDENCE_ROUTE

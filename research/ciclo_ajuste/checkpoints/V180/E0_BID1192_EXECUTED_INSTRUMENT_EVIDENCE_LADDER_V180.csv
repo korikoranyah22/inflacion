@@ -1,0 +1,5 @@
+﻿row_id,instrument,approved_model,official_execution_reference,signed_counterpart,evidence_level,safe_conclusion
+EL180_01,Contrato 26/05/2004,YES_87P,YES_RES747_AND_AGN023,NO,DATE_AND_PARTIES_CORROBORATED_NOT_FULL_COUNTERPART,existió instrumento celebrado; faltan firmas/fojas ejecutadas
+EL180_02,Addenda 22/03/2005,YES_RES148,YES_AGN160,NO,DATE_AND_PARTIES_CORROBORATED_NOT_FULL_COUNTERPART,ejecución referenciada oficialmente
+EL180_03,Contrato 19/08/2005,YES_89P,YES_AGN160,NO,DATE_AND_PARTIES_CORROBORATED_NOT_FULL_COUNTERPART,ejecución y comienzo operativo acreditados indirectamente
+EL180_04,Modelo Res. 967/2006,YES_99P,NO; AGN says not perfected,NO,APPROVED_MODEL_NONOPERATIVE_AS_OF_2008_02_22,no usar para imputar obligaciones efectivas del período

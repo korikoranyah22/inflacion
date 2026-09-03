@@ -1,0 +1,8 @@
+﻿year,restricted_loans_thousand_ars,source,status,limit
+2006,19241,Macro 20-F 2007 PDF 143,REPORTED_COMPARATIVE,garantía contable; no deuda por comisión
+2007,12801,Macro 20-F 2007 PDF 143,REPORTED,garantía contable; no activos administrados
+2008,20367,Macro 20-F 2009 PDF 236,REPORTED_COMPARATIVE,salto interanual requiere ledger
+2009,9876,Macro 20-F 2009 PDF 236 / 2010 PDF 155,CROSS_REPORTED,métrica de préstamos afectados
+2010,2599,Macro 20-F 2010 PDF 155 / 2011 PDF 207,CROSS_REPORTED,métrica de préstamos afectados
+2011,163,Macro 20-F 2011 PDF 207 / 2012 Note 7,CROSS_REPORTED,20-F 2012 lo reclasifica como Other comparativo
+2012,0,Macro 20-F 2012 Note 7,REPORTED_ZERO,cero garantía no extingue reclamo histórico

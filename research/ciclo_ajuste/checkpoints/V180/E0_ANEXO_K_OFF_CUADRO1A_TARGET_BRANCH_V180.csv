@@ -1,0 +1,13 @@
+branch_id,field_or_rule,value,controlled_interpretation,evidence_status,source_id,pdf_page,target_payment_confirmed,next_evidence
+AK147_01,annex,Anexo K,Otras operaciones presupuestarias no incluidas en Cuadro 1A,EXACT,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_02,sigade_code,83106000,Identificador impreso de la fila,EXACT,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_03,description,COMISIONES - BANCO NACION,Descripción impresa,EXACT,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_04,amount_ars,32270.30,Importe alineado visualmente,EXACT_NOT_PAYMENT_PROOF,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_05,budget_item,7.2.8.,Partida presupuestaria impresa,EXACT,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_06,sidif_form_1,71597,Primer identificador SIDIF de la fila,EXACT,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_07,sidif_form_2,152677,Segundo identificador SIDIF de la fila,EXACT,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_08,sidif_form_3,2876,Tercer identificador SIDIF de la fila,EXACT,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_09,cuadro1a_rule,OUTSIDE_CUADRO_1A,No exigir que la ruta comience o termine en Cuadro 1A,METHOD_BRANCH,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_10,accounting_route,MAYORIZADO_POR_SIGADE_PLUS_FORMS,Mayorizado y apertura individual de los tres formularios,REQUEST_TARGET,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+AK147_11,cash_route,TGN_MOVEMENT_PLUS_BANK_STATEMENT,Movimiento TGN/CUT y extracto BNA con conciliación,REQUEST_TARGET,e0_cgn_cuenta_inversion_2008_sdp,67,FALSE,Formulario completo; mayor; orden; movimiento TGN/CUT; extracto y conciliación.
+

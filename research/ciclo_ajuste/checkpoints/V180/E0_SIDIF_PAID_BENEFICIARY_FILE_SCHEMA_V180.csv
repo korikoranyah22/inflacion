@@ -1,0 +1,10 @@
+row_id,record,field_or_code,meaning,target_query,source_id,status
+PS135_01,SDPGBXXX.CON,OB SIDIF; SAF; ejercicio; tipo y número de formulario,Identidad de la orden,71597;152677;2876,e0_cgn_circular_34_1997_sdpgb_paid_beneficiary_schema,EXACT_HISTORIC_SCHEMA_SUCCESSOR_2008_OPEN
+PS135_02,SDPGBXXX.CON,beneficiario; descripción; deducción; importe,Sujeto y cuantía,beneficiario y monto por cada OB,e0_cgn_circular_34_1997_sdpgb_paid_beneficiary_schema,EXACT_HISTORIC_SCHEMA_SUCCESSOR_2008_OPEN
+PS135_03,SDPGBXXX.CON,P;R;A,Pagado; rechazado; anulado,estado final por cada OB,e0_cgn_circular_34_1997_sdpgb_paid_beneficiary_schema,EXACT_STATE_CODES_PROVED_TARGET_VALUE_OPEN
+PS135_04,SDPGBXXX.CON,fecha; banco; sucursal; tipo de cuenta; cuenta bancaria,Fecha y rastro bancario,fecha valor y cuenta por cada OB,e0_cgn_circular_34_1997_sdpgb_paid_beneficiary_schema,EXACT_HISTORIC_FIELDS_PROVED_TARGET_VALUE_OPEN
+PS135_05,SDPGBXXX.CON,RN;CH;TR;TI;NS,Red bancaria; cheque; transferencia CUT; títulos; nota,medio de pago por cada OB,e0_cgn_circular_34_1997_sdpgb_paid_beneficiary_schema,EXACT_PAYMENT_MEDIA_CODES_PROVED_TARGET_VALUE_OPEN
+PS135_06,SDPAG,pagado por ítem,Desagregación presupuestaria diaria,cruce por ítem de cada OB,e0_tgn_circular_7_1997_daily_paid_files,DAILY_OUTPUT_AUTHORITY_PROVED_TARGET_VALUE_OPEN
+PS135_07,SDPGB,pagado por beneficiario,Desagregación diaria por sujeto,cruce por beneficiario de cada OB,e0_tgn_circular_7_1997_daily_paid_files,DAILY_OUTPUT_AUTHORITY_PROVED_TARGET_VALUE_OPEN
+PS135_08,TRANSAF/SIDIF,"procesamiento diario 19:30; pagos, anulaciones y rechazos",Corte operativo diario,archivo de la fecha de cada C-41 o sucesor equivalente,e0_tgn_circular_7_1997_daily_paid_files,HISTORIC_DAILY_PROCESS_PROVED_2008_CONTINUITY_OPEN
+

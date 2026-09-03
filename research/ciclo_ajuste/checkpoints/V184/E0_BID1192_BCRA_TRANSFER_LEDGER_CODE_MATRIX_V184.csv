@@ -1,0 +1,4 @@
+﻿code_or_key,official_description,official_use,relevance,status_for_my4002,request_fields
+DT1,Operaciones propias - Fiduciario Fideicomiso PyMEs,"cancelación de deuda por fiduciario en garantía; gastos, comisiones, impuestos, remuneraciones e inversiones transitorias/resultados",possible ledger filter for fiduciary transfers,NOT_PROVED_USED,date; amount; currency; debit account; credit account; originator; beneficiary; concept; message/reference; linked agreement
+MY 4002,Fondo Comisión de Compromiso,account identifier in CGN tables,primary account key,PROVED_IDENTIFIER_NOT_TRANSACTION_CODE,full account number/CBU; ledger; extracts; authorization; transfer and closure records
+NO-2021-16359825-APN-DNFP#MDP,note quoted by CGN,explains FONDyF liquidation/account transition,document join key,QUOTED_BODY_NOT_LOCATED,signed body; attachments; recipients; linked EE/EX; transfer agreements

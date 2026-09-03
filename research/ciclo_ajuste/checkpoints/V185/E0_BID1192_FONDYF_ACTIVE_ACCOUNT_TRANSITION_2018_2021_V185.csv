@@ -1,0 +1,3 @@
+﻿record,denomination,bank,branch,funding_source,2018_reference_foreign,2018_reference_ars,2020_numeric_fields,2020_narrative_state,transfer_statement,destination_identified,executed_agreement_located,legal_limit,source
+MY 4002,Fondo Comisión de Compromiso,BCRA,Casa Central,13,15182.68,569350.57,BLANK,CONTINUES_ACTIVE_AND_MANAGED_BY_FONDYF,BCRA balances are transferred through loan-transfer agreements to fiduciary funds,NO,NO,"continuidad administrativa declarada; no saldo 2020, pago, deuda ni responsabilidad",Cuenta 2020 Anexo 4.37 PDF 236
+MY 4003,Fondo para Cobertura Incobrab. IFIs,BCRA,Casa Central,13,12838.50,481443.72,BLANK,CONTINUES_ACTIVE_AND_MANAGED_BY_FONDYF,same standardized narrative,NO,NO,comparator only,Cuenta 2020 Anexo 4.37 PDF 236

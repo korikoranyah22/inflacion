@@ -1,0 +1,7 @@
+﻿query_id,query,result,artifact,limit
+PS181_01,SIGEN Res. 1406 Banco Macro Credicoop comisión de compromiso,dos reportes oficiales localizados,SIGEN octubre 2017 y febrero 2019,acto no publicado/localizado
+PS181_02,Boletín Oficial Res. 1406 noviembre 2014 + comisión,sin resultado correspondiente,control de búsqueda,posible acto interno/no publicado
+PS181_03,SAIJ/PJN/CSJN MyPES II Macro Credicoop,sin decisión pública localizada,control de búsqueda,no prueba ausencia de expediente
+PS181_04,Banco Macro 20-F 2007/2009/2010/2011,serie de garantías localizada,cuatro PDF corporativos,"contabilidad del banco, no acto administrativo"
+PS181_05,SEC Banco Macro CIK 1347426 20-F 2012-2015,serie oficial y accessions localizadas,cuatro HTML + índice JSON,criterio de materialidad
+PS181_06,BCRA Entidades no Financieras MyPES II 2011/2012,fideicomiso 10155 presente a dic-2011 y ausente en índice 2012S1,dos PDF oficiales,falta acto de baja/liquidación

@@ -1,0 +1,6 @@
+﻿row_id,effective_period,transfer_tna_pct,allowed_spread_pp,max_tna_pct,volume_or_state,source,cft_rule
+RV180_01,2007-02/2007-05,2.9,0-6,8.9,ventanilla abierta,B 8920,informado; comisiones/seguros pueden elevarlo
+RV180_02,2007-05/2007-08,2.9,0-6,8.9,continuidad,B 8995,no confundir TNA con CFT
+RV180_03,desde 2007-08-13,3.9,0-5,8.9,nuevos proyectos suspendidos; fondos comprometidos,B 9055/B 9056,margen máximo se reduce 1 pp
+RV180_04,desde 2007-11-13,3.9,0-5,8.9,banda mantenida,B 9123,CFT no topado por igual regla
+RV180_05,2007 total,,,8.9,"1121 operaciones; ARS 535,325,410.46",AGN 14/2010,"BID PCR: TNA media 8.7%, CFT medio 10.1%, BNA CFT 7.5%"

@@ -1,0 +1,3 @@
+﻿program,activity,name,credit_ars,accrued_ars,paid_ars,execution_pct,classification,limit
+67,4,FONDYF,3094874,0,0,0,RESIDUAL_BUDGET_ACTIVITY_PRESENT_ZERO_EXECUTION,budget presence is not proof of new lending or positive bank balance
+67,10,FONDEP,40848479101,19731916396,0,48.31,ACTIVE_BUDGET_EXECUTION_COMPARATOR,does not prove FONDYF assets were transferred to FONDEP

@@ -1,0 +1,621 @@
+﻿key_id,request_id,key_group,exact_key,search_purpose,source_or_basis,caveat
+SK133_01,REQ133_ECON,date,2008-09-02;2008-09-09;2008-09-16;2008-10-07,fechas previstas de liquidación,E0_FISCAL_PUBLIC_BUYBACK_CALLS_2008_V152.csv,Previstas; no confirman pago.
+SK133_02,REQ133_ECON,date,2009-06-17;2009-06-18,entrega y liquidación strip,E0_FISCAL_STRIP_BUYBACK_SUMMARY_2009_V152.csv,Previstas; no confirman pago.
+SK133_03,REQ133_ECON,account,depositante 0306 / comitente 40000,cuenta receptora publicada,E0_FISCAL_BUYBACK_SETTLEMENT_CHAIN_V152.csv,Cuenta fiduciaria; no beneficiario final.
+SK133_04,REQ133_ECON,security,ARARGE034678;ARARGE035709;ARARGE03E147;ARARGE03E154;ARARGE03G415,especies exactas,llamados oficiales V115-V116,No sustituye el identificador interno.
+SK133_05,REQ133_ECON,system,COMDOC III;SIGADE;Sistema de Regularización de la Deuda Pública,buscar traza contemporánea,e0_argentina_rc_26_216_2008_tsa_sigade,Comprobar aplicabilidad a recompra.
+SK133_06,REQ133_ECON,system,TSA;Transmisión Segura de Archivos;Red Privada Virtual,buscar intercambios DADP-Caja,e0_argentina_rc_26_216_2008_tsa_sigade,Sistema probado para procedimiento BOCON vecino.
+SK133_07,REQ133_ECON,producer,ONCP;DADP;Unidad de Registro de la Deuda Pública;TGN,derivación interna focalizada,e0_argentina_rc_26_216_2008_tsa_sigade,Nombres contemporáneos; verificar sucesores.
+SK133_08,REQ133_BCRA,date,2008-09-02;2008-09-09;2008-09-16;2008-10-07;2009-06-18,cortes CRyL objetivo,llamados oficiales V115-V116,Fechas de liquidación prevista.
+SK133_09,REQ133_BCRA,account,0306;40000,cuenta Caja publicada,llamados oficiales V115-V116,Puede requerir código de cuenta CRyL adicional.
+SK133_10,REQ133_BCRA,security,ARARGE034678;ARARGE035709;ARARGE03E147;ARARGE03E154;ARARGE03G415,especies exactas,llamados oficiales V115-V116,Verificar códigos internos CRyL.
+SK133_11,REQ133_BCRA,file_code,CG1,errores de prematching,e0_bcra_b7971_cryl_operational_files_2003,Diseño; no prueba archivo objetivo.
+SK133_12,REQ133_BCRA,file_code,CG2,operaciones rechazadas,e0_bcra_b7971_cryl_operational_files_2003,Diseño; no prueba archivo objetivo.
+SK133_13,REQ133_BCRA,file_code,CG3,operaciones liquidadas,e0_bcra_b7971_cryl_operational_files_2003,Diseño; no prueba archivo objetivo.
+SK133_14,REQ133_BCRA,file_code,CG4,operaciones para liquidar,e0_bcra_b7971_cryl_operational_files_2003,Pendiente no es liquidado.
+SK133_15,REQ133_BCRA,file_code,CG5;CG6;CG7,saldos y extracto diario,e0_bcra_b7971_cryl_operational_files_2003,Debe cruzarse por cuenta/especie.
+SK133_16,REQ133_BCRA,form,4359 DVP/FD&P;4359B FTC;4359C FT,instrucciones y transferencias,e0_bcra_a3191_cryl_dvp_regime_2000,Verificar modalidad y versión 2008.
+SK133_17,REQ133_BCRA,field,número de instrucción;número de operación;concertación;liquidación;nominal;importe,campos mínimos de búsqueda,e0_bcra_a3191_cryl_dvp_regime_2000,No pedir sólo por texto libre.
+SK133_18,REQ133_BNA,date,2008-08-11/2008-08-22,ventana de ejecución,E0_FISCAL_BUYBACK_PROGRAM_EVENTS_2005_2009_V152.csv,No incluye segunda etapa.
+SK133_19,REQ133_BNA,phrase,programa de recompra de deuda pública;primera etapa;USD 380 millones,búsqueda en mandato y mesa,comunicados oficiales V114,Monto aproximado.
+SK133_20,REQ133_BNA,security,BODEN 2012;BODEN 2013;BONAR V;PRE8;BODEN 2008;unidades PBI,universo narrativo,comunicado 22/08/2008,Lista no prueba ejecución por especie.
+SK133_21,REQ133_BNA,record,blotter;libro de órdenes;ticket;confirmación;liquidación;rendición,clases de mesa y mandato,REQUEST_BNA_FIRST_STAGE_BLOTTER_V152.md,Usar también sinónimos internos.
+SK133_22,REQ133_AGN,identifier,2074c3d9-a535-497e-a97d-d74340ff49fb,UUID exacto,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V152.csv,No es expediente.
+SK133_23,REQ133_AGN,identifier,nid 18814;vid 18821,nodo y versión,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V152.csv,Metadatos de portal.
+SK133_24,REQ133_AGN,date,2018-08-14;2018-09-11,ingreso y respuesta,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V152.csv,Fechas públicas exactas.
+SK133_25,REQ133_AGN,phrase,BODEN 2006;BODEN 2012;BODEN 2013,tema público,E0_AGN_BODEN_REQUEST_PUBLIC_SCHEMA_V152.csv,Buscar también sin acento y variantes.
+SK133_26,REQ133_AGN,repository,Drupal;webform;adjuntos;correo saliente;backup,objetos fuera del nodo público,REQUEST_AGN_2018_REPLY_V152.md,No presupone tecnología interna adicional.
+SK133_27,REQ133_CNV,date,2014-11-19,nota Caja citada por AGN,E0_FISCAL_CUSTODIAN_INFORMATION_GAPS_V152.csv,Nota sin número.
+SK133_28,REQ133_CNV,identifier,Resolución AGN 41/2016;pedido AGN;Caja de Valores,actuación supervisora,E0_FISCAL_CUSTODIAN_INFORMATION_GAPS_V152.csv,No identifica por sí solo expediente CNV.
+SK133_29,REQ133_CNV,account,0306/40000,liquidaciones de recompra,llamados oficiales V115-V116,Solicitar agregado/testado.
+SK133_30,REQ133_CNV,security,cinco ISIN de las rondas y strip,acotar búsqueda,REQUEST_CNV_CUSTODY_RECORDS_V152.md,No pedir padrón privado nominativo.
+SK133_31,REQ133_CAJA,account,depositante 0306 / comitente 40000,cuenta objetivo,llamados oficiales V115-V116,No equivale a beneficiario final.
+SK133_32,REQ133_CAJA,date,cuatro entregas 2008;2009-06-17,recepción de títulos,llamados oficiales V115-V116,Fechas previstas.
+SK133_33,REQ133_CAJA,system,TSA;Red Privada Virtual;acuse de aceptación,buscar transmisión DADP-Caja,e0_argentina_rc_26_216_2008_tsa_sigade,Comprobar uso para recompra.
+SK133_34,REQ133_CAJA,form,4359B FTC;copia certificada;aceptación;rechazo,buscar constancia bilateral,e0_bcra_a3191_cryl_dvp_regime_2000,Sólo si la modalidad fue FTC.
+SK133_35,REQ133_CAJA,security,ARARGE034678;ARARGE035709;ARARGE03E147;ARARGE03E154;ARARGE03G415,acotar por especie,llamados oficiales V115-V116,Una especie puede tener múltiples movimientos.
+SK133_36,REQ133_BCRA,file_code,CGA;CGAEEEEE.NN;CGAEEEEE.INN,instrucción y acuse FT/FTC,e0_bcra_b9173_cryl_cga_x400_2008,El acuse satisfactorio es condicional; pedir segunda etapa y CG3.
+SK133_37,REQ133_BCRA,system,X-400;MCT;correo institucional CRyL,buscar mensajería vigente desde 2008-01-21,e0_bcra_b9173_cryl_cga_x400_2008,No excluir contingencias en papel.
+SK133_38,REQ133_BCRA,message,Validación satisfactoria; operación CONDICIONAL a futura liquidación,distinguir primera etapa,e0_bcra_b9173_cryl_cga_x400_2008,No equivale a liquidación.
+SK133_39,REQ133_BCRA,field,código entidad 1001; cuenta 04; número de lote; registro; fecha/hora,cruzar lado Caja y respuesta,e0_bcra_b9173_cryl_cga_x400_2008,1001/04 no equivale a 0306/40000.
+SK133_40,REQ133_BCRA,migration,IDEAR;Esquema Institucional de Mensajería y Transferencia de Archivos;CG1-CG7;CGA,localizar repositorio sucesor,e0_bcra_b10469_cryl_code_continuity_2012,Continuidad de código no prueba preservación histórica.
+SK133_41,REQ133_ECON,phrase,modalidad diferida;confirmaciones Caja;pagos T+3,buscar instrucción equivalente de la recompra,e0_argentina_rc_212_24_2008_recompra,Descriptor publicado; falta equivalencia técnica.
+SK133_42,REQ133_CAJA,file_code,CGA;CGAEEEEE.NN;CGAEEEEE.INN,buscar archivo o acuse del lado Caja,e0_bcra_b9173_cryl_cga_x400_2008,Sólo si se usó FT/FTC.
+SK133_43,REQ133_CAJA,field,entidad 1001; cuenta 04; subcuenta receptora; número de comitente,acotar mensaje CRyL/Caja,e0_bcra_b9173_cryl_cga_x400_2008,Códigos de diseño; no beneficiario final.
+SK133_44,REQ133_ECON,historical_code,5426;5427;45698;45701;5326,"cruzar resultados, especie recibida y registración de deuda",llamados oficiales + tablas AFIP + Banco Columbia/Patagonia,Los cinco códigos identifican especies; no son por sí solos asientos liquidados.
+SK133_45,REQ133_BCRA,security_bridge,ARARGE034678=5426;ARARGE035709=5427;ARARGE03E147=45698;ARARGE03E154=45701;ARARGE03G415=5326,pedir corroboración histórica ISIN-código de custodia/CRyL,llamados oficiales + Banco Columbia/Patagonia,Puente público cerrado por denominación y fecha; sigue abierta la etiqueta CRyL y la liquidación.
+SK133_46,REQ133_CAJA,security_bridge,ARARGE034678=5426;ARARGE035709=5427;ARARGE03E147=45698;ARARGE03E154=45701;ARARGE03G415=5326,confirmar vigencia y localizar asientos por Código Caja,llamados oficiales + Anexo A Banco Columbia,"La tabla rotula Identificación Caja de Valores, pero no contiene los asientos objetivo."
+SK133_47,REQ133_CAJA,form,Recepción Diferida 0102704;Recepción Diferida 0102705;F-33914.01;F-33915.01,obtener revisión vigente en 2008 o equivalencia,manual SLIQ marzo 2000 + CNV Res. 16.189/2009 + formularios CVSA 2017,La edición del manual está fechada en 2000 y la práctica está probada en 2009; la revisión exacta de 2008 sigue abierta.
+SK133_48,REQ133_CAJA,matching,proceso batch nocturno;almacenamiento provisorio;matching;fecha de ejecución;fecha límite de validez;SCG,"buscar instrucción emparejada, procesada y conciliada",Manual Sistema de Transferencias marzo 2000 + página Merval 2004 + formularios CVSA,"La definición operativa, la disponibilidad del sistema y los campos no prueban el registro objetivo."
+SK133_49,REQ133_ECON,strip_code,ARARGE03G415=5326;BODEN 2012 cupón 15;vto.03/08/2009,"cruzar la subespecie con recepción, pago y baja de deuda",llamado oficial 2009 + Banco Columbia/Patagonia,5326 no debe confundirse con 5426 del título principal.
+SK133_50,REQ133_BCRA,channel_modality,SLIQ;SCG;TSA;modalidad diferida;batch nocturno;CGA;FT;FTC;Código CVSA;Código CRyL,"pedir equivalencias históricas sin confundir canal, modalidad y estado",manual Caja marzo 2000; página Merval 2004; B9173; CVSA 10290; BYMA NSC 2023,"La edición está fechada en 2000, pero no acredita la revisión efectiva ni el uso en las rondas objetivo."
+SK133_51,REQ133_CAJA,document_control,"Sistema de Transferencias Electrónicas;SLIQ;SCG;Impreso en Buenos Aires, Marzo de 2000;sba_sistemas.asp",localizar el registro maestro y las revisiones del manual entre 2000 y 2009,manual SLIQ página 2 + página institucional Merval archivada 2004,Fecha de impresión y disponibilidad pública no equivalen a vigencia ininterrumpida.
+SK133_52,REQ133_CAJA,revision_control,MU-32002.00;MU-32002.01;MU-32002.02;MU-32002.03;Febrero 2006;Septiembre 2007;Mayo 2009;CONTROL DE CAMBIOS,pedir el control de cambios equivalente del manual SLIQ/SCG,Caja MU-32002.03 página 22,El manual DTC sólo aporta el esquema documental; sus revisiones no rigen SLIQ.
+SK133_53,REQ133_ECON,settlement_dates,2008-09-02;2008-09-09;2008-09-16;2008-10-07;0306/40000;informe Caja 10 hs;orden de pago BCRA,"localizar informe T+3, orden de pago, conciliación y baja por cada ronda",Resolución Conjunta 24/212 y llamados/resultados oficiales,El cronograma normativo y las fechas programadas no acreditan ejecución ni pago.
+SK133_54,REQ133_CAJA,communication,Comunicado 4857;Comunicado 4861;Comunicado 4873;Comunicado 5152;OYM F.89023.00,"localizar expedientes, instrucciones y documentos asociados a cada comunicación",comunicaciones directas de Caja preservadas,El código de pie no equivale a una revisión SLIQ.
+SK133_55,REQ133_ECON,t3_report,02/09/2008;09/09/2008;16/09/2008;18/06/2009;detalle de transferencias efectuadas;detalle de transferencias pendientes de ejecución,localizar los informes T+3 prometidos y su recepción por Secretaría de Finanzas,comunicaciones directas de Caja preservadas,Una fecha y contenido anunciados no acreditan entrega del informe.
+SK133_56,REQ133_CAJA,account_route,Cuenta Depositante 306;Subcuenta Comitente 40000;Subcuenta Comitente 3;matching;modalidad diferidas;cantidades parciales,recuperar instrucciones y asientos por la ruta exacta de cuentas y modalidad,comunicaciones directas de Caja preservadas,La ruta ordenada no prueba un asiento ejecutado.
+SK133_57,REQ133_CAJA,missing_round,licitación 02/10/2008;recepción 03/10/2008-06/10/2008;informe 07/10/2008;comunicación equivalente,localizar la comunicación o certificación equivalente de la cuarta ronda de 2008,cronograma oficial de la cuarta ronda y patrón de las tres comunicaciones preservadas,La ausencia en una consulta de archivo no prueba inexistencia.
+SK133_58,REQ133_ECON,,Boden - Recompras;16814;50862.35;30/09/2008;A.5.1,,,La identidad agregada no identifica por sí sola asientos o pago.
+SK133_59,REQ133_ECON,,Recompra Bonos del Canje -Dto. 1735/04;1506710.11;1523524.11;GDP Units,,,No asignar el agregado Q4 al programa objetivo sin puente documental.
+SK133_60,REQ133_ECON,discount_pesos_accounting,ARARGE03E121;Discount en Pesos;2748.50;1415.50;4723536.19;1506710.11,"localizar el papel de trabajo que une VNO, valor efectivo y baja actualizada",informe Decreto 1735/04 y planillas Q3/Q4,Las tres magnitudes no son aditivas.
+SK133_61,REQ133_CAJA,discount_pesos_custody,ARARGE03E121;2008Q4;VNO 2748.50m;recompra por exceso de crecimiento referencia 2006,localizar movimientos/bajas por especie,puente de stock V138,La caída agregada no prueba un evento Caja individual.
+SK133_62,REQ133_BCRA,discount_pesos_payment,ARARGE03E121;valor efectivo ARS 1415.50m;referencia 2006;2008Q4,"localizar orden, débito o conciliación de pago",informe oficial de recompras p.2,Valor efectivo reportado no identifica por sí solo el riel de pago.
+SK133_63,REQ133_ECON,gdp_contractual_window,reference year 2006;calculation date 2007-11-01;calendar year 2008;five percent Excess GDP,localizar cálculo y expediente que convirtió la referencia 2006 en compras 2008,Prospectus Supplement S-19/S-69,La ventana no identifica día ni modalidad.
+SK133_64,REQ133_ECON,gdp_scope_amounts,ARARGE03E147;43824.10;1858.10;ARARGE03E154;260.90;28.00;ARARGE03E121;2748.50;1415.50;3301.60,"localizar ledger, orden y baja por cantidades exactas",informe recompras Decreto 1735/04 p.2,VNOs en monedas mixtas; efectivo en ARS.
+SK133_65,REQ133_BCRA,cryl_cancellation,CRYL;Caja de Valores account;ARARGE03E147;ARARGE03E154;ARARGE03E121;cancellation;2008,localizar asientos de movimiento y cancelación,Prospectus Supplement S-21/S-69,"Ruta contractual, no constancia de un asiento concreto."
+SK133_66,REQ133_ECON,procedure_schema_only,S01:0385745/2005;ONCP;MAE;T+2;T+3;Caja;BCRA;T+6,identificar productores y campos y preguntar qué procedimiento se aplicó,Resolución Conjunta 115/2005 y 323/2005,Mecanismo de excedente de capacidad de pago; no atribuirlo automáticamente a Excess GDP.
+SK133_67,REQ133_BCRA,coupon_repurchase_separation,third GDP Unit payment;reference year 2007;calculation date 2008-11-01;ARARGE03E147;ARARGE03E154,evitar confundir asientos del tercer cupón con recompra/cancelación referencia 2006,comunicado tercer cupón 2008,Control negativo; el cupón es un evento distinto.
+SK133_68,REQ133_ECON,modality_allocation,reference 2006;ARS3301.60m;direct purchases;tenders;ARARGE03E147;ARARGE03E154;ARARGE03E121,hallar actuación que distribuya el total por modalidad,retrospective report p2;CGN 2008 pp63-64,La clase modal está probada; falta la asignación completa.
+SK133_69,REQ133_CAJA,six_gdp_awards,2008-09-02;2008-09-09;2008-09-16;2008-10-07;0306;40000;ARARGE03E147;ARARGE03E154,buscar transferencias previstas de las seis adjudicaciones,four official tender calls/results,"Fechas programadas, no confirmación."
+SK133_70,REQ133_BNA,gdp_ars_other_channel,ARARGE03E147;VNO42778.75795m;effectiveARS1769.09431490m;rounding±0.005m,acotar el residual de compras no identificado en licitaciones públicas,MA133_GDP_ARS,"Residual aritmético, no monto exacto de un único blotter."
+SK133_71,REQ133_ECON,discount_non_tender,ARARGE03E121;VNO2748.50m;effectiveARS1415.50m;no row in four public tenders,localizar expediente de compra directa u otro canal no licitado,retrospective report p2;complete recovered four-round public series,No inferir institución o fecha sin registro.
+SK133_72,REQ133_ECON,participant_preaward,S01:0342455/2008;Citibank;HSBC Bank;Standard Bank;MERVAL;96685934.350900,localizar listado ONCP de preadjudicación y documentos DADP,RC 212/2008-24/2008;ten GDP result rows,Participante no equivale a titular final.
+SK133_73,REQ133_BCRA,candidate_accounts,ARS 016;150;015;USD 80016;80150;80015;2008-09-02;2008-09-09;2008-09-16;2008-10-07,acotar débitos/créditos del pago por fecha y participante,"B9322 pp2,6;four tender results",Cuentas candidatas; la orden define moneda y destino realmente usados.
+SK133_74,REQ133_CAJA,participant_transfer_totals,Citibank 68965780.936900;HSBC 21589872.974;Standard 5715280.440000;MERVAL 415000.00,reconciliar informe T+3 y transferencias con adjudicaciones,participant distribution V138,Importes efectivos ARS; conciliar además nominal por moneda.
+SK133_75,REQ133_CNV,merval_routing,MERVAL;2008-10-02;2008-10-07;ARARGE03E147;VNO5000000;ARS415000,identificar agente y cuenta de liquidación detrás de la etiqueta publicada,resultado oficial 02/10/2008;B9322 negative account match,No sustituir por cuentas MAE o Interbanking sin evidencia.
+SK133_76,REQ133_AGN,project_to_final_crosswalk,48 0237/09;Resolución 202/2009;Actuación 41/2009;Nota 203/09 GCDP,"vincular proyecto, actuación, informe final, vista y papeles de trabajo","AGN Q2 2009 p21;AGN Res.202/2009 pp1,31",Coincidencia de período/tema no basta para afirmar identidad.
+SK133_77,REQ133_ECON,producer_file,S01:0342455/2008;ONCP;DADP;preadjudicación por participante,"localizar índice, cuerpo y listado productor",RC 212/2008-24/2008,La resolución sólo prueba que el expediente existía al dictarse.
+SK133_78,REQ133_ECON,caja_fee_accounts,SIGADE 83006000;83008000;83095000;ARS 183556.00;8245946.42;1786212.32,obtener submayor anual de Caja y vínculo con expedientes,CGN 2008 Anexo K p67,"Servicios anuales, no recompra específica."
+SK133_79,REQ133_ECON,bank_commission_accounts,Citibank SIGADE83020000 ARS122940.67;Banco Nación SIGADE83106000 SIDIF71597-152677-2876 ARS32270.30,obtener comprobantes y concepto de comisiones,CGN 2008 Anexo K p67,Coincidencia de entidad no prueba vínculo con licitaciones o mandato.
+SK133_80,REQ133_AGN,aggregate_flow_workpaper,USD21830m aumentos;USD20200m disminuciones;USD2399m neto;brecha literal USD769m,pedir conciliación y papel de trabajo del flujo agregado,"AGN Res.202/2009 pp9,11","No asignar la brecha a recompra, error o irregularidad sin respaldo."
+SK133_81,REQ133_AGN,final_api_uuid,b52e2e9c-90b5-4af1-bf5d-0bab8596606e,identificar ficha final única,AGN JSON:API,No contiene código de proyecto.
+SK133_82,REQ133_AGN,q3_activity_annex,Res211/2009;Act426/09-AGN;UUID7c01261c-10a0-40f6-94f6-ae7a02be8b63,recuperar informe/anexo T3,AGN resolution and API,Resolución no contiene anexo.
+SK133_83,REQ133_AGN,q4_activity_annex,Res44/2010;Act466/09-AGN;UUID616f80c7-65f2-4b5c-a4e9-b8bf4954600e,recuperar informe/anexo T4,AGN resolution and API,Resolución no contiene anexo.
+SK133_84,REQ133_ECON,dadp_repurchase_subprocess,"I.f.2 Recompra de títulos;puntos14,16",localizar planilla de carga y control,AGN 124/2022 p75,Manual 2015 posterior a 2008.
+SK133_85,REQ133_ECON,sigade_integrity_review,"I.b.4 Revisión de una recompra;puntos3,4,6,6.2,7","localizar revisión, comparación y correcciones",AGN 124/2022 pp78-79,Proceso posterior no prueba revisión target.
+SK133_86,REQ133_ECON,document_systems,COMDOC;SIGADE;e-SIDIF;Unidad Compartida/TITULOS/CONTABLE,buscar expediente y respaldos sin limitar a GDE,AGN 124/2022 pp25-26,Migración/retención 2008 no demostrada.
+SK133_87,REQ133_ECON,cgn_2004_itemization,83006000;83008000;83095000;83020000;SIDIF itemizados,demostrar formato de salida históricamente publicado,CGN 2004 Anexo K p72,No son comprobantes 2008.
+SK133_88,REQ133_ECON,cgn_2010_itemization,83020000 C41 21657/157867/242998/343494/343495;83106000 C41 5310/74291/156087/285224,demostrar desagregación C-41 por mismas claves,CGN 2010 Anexo K p74,No son comprobantes 2008.
+SK133_89,REQ133_AGN,auditee_notice,Nota203/09GCDP 29/06/2009;Act41/2009,recuperar remisión y respuesta tardía eventual,Res202/2009 p1-2,Sin respuesta al vencimiento no significa aceptación.
+SK133_90,REQ133_ECON,expedient_exact,S01:0342455/2008;ONCP;DADP;COMDOC;archivo físico,localizar índice y cuerpo por todas las rutas documentales,RC212/2008-24/2008;AGN124/2022,El cuerpo no está localizado públicamente.
+SK133_91,REQ133_AGN,senate_q3_archive,OV366/09;Res211/2009;Act426/09-AGN;archivo28/05/2012,recuperar texto original e informe/anexo T3,Senado expediente OV 366/09,La ficha no expone el texto original.
+SK133_92,REQ133_AGN,senate_q4_archive,OV44/10;Res44/2010;Act466/09-AGN;archivo28/05/2012,recuperar texto original e informe/anexo T4,Senado expediente OV 44/10,La ficha no expone el texto original.
+SK133_93,REQ133_AGN,parliamentary_custodian,Bicameral Permanente Mixta Revisora de Cuentas;nota18/05/2012,"localizar remito, inventario y depósito archivístico",Senado OV 366/09 y 44/10,La nota de giro no fue recuperada.
+SK133_94,REQ133_ECON,legacy_query_endpoint,S01:0342455/2008;http://expedientes.mecon.gov.ar/finddoc2/finddoc/Inicio,consultar índice COMDOC por vía histórica exacta,Economía Consulta de expedientes,Endpoint no operativo al 30/08/2026.
+SK133_95,REQ133_ECON,cgn_2007_itemization,83020000 SIDIF165233/172217;83106000 SIDIF83318/151752/240417,demostrar individualización en año inmediato anterior,CGN 2007 Anexo K p68,No son comprobantes 2008.
+SK133_96,REQ133_ECON,cgn_2009_blank,83006000;83008000;83095000;83020000;83106000;SIDIF columna vacía,demostrar cambio de publicación en año inmediato posterior,CGN 2009 Anexo K p74,Columna vacía no significa inexistencia de submayor.
+SK133_97,REQ133_ECON,disclosure_transition,2007→2008→2009→2010;ITEMIZED/AGGREGATED/BLANK,fundar pedido de salida subyacente homogénea,E0_SIGADE_SIDIF_TARGET_DISCLOSURE_TRANSITIONS_V152.csv,"Variación de exposición, no atribución a recompra."
+SK133_98,REQ133_ECON,migration_crosswalk,COMDOC origen;GDE/GEDO/RUDO destino;S01:0342455/2008,recuperar referencias cruzadas de migración o transferencia,corte oficial COMDOC/GDE,No se presume que la migración haya ocurrido.
+SK134_99,REQ134_ECON,finddoc_output_schema,origen;destino;fecha envío;fecha recepción;ubicación,pedir exportación COMDOC homogénea,Agenda Digital pp.206-207,No es cuerpo documental.
+SK134_100,REQ134_ECON,finddoc_endpoint,http://expedientes.mecon.gov.ar/finddoc2/finddoc/VerExpediente,identificar servicio histórico exacto,AGN 254/2013,Endpoint no operativo en 2026.
+SK134_101,REQ134_ECON,historic_control,S01:0130656/2008;consulta05/03/2013;último pase11/06/2012,probar salida histórica y precedente de S01/2008,"AGN 254/2013 pp.93,133",No es el expediente target.
+SK134_102,REQ134_ECON,target_comdoc,S01:0342455/2008,obtener hoja de ruta target,Resolución conjunta 212/2008-24/2008,Consulta aún no ejecutada.
+SK134_103,REQ134_ECON,official_channel,ciudadano@mecon.gov.ar;0810-333-6326;Balcarce186 piso1 oficina140,consulta administrativa sustitutiva,Economía Consulta de expedientes,No contactado.
+SK134_104,REQ134_ECON,sidif_target_ids,SIDIF71597;SIDIF152677;SIDIF2876;SIGADE83106000,recuperar y clasificar tres registros SIDIF 2008,CGN 2008 Anexo K,No prueban vínculo con recompra.
+SK134_105,REQ134_ECON,c41_external_fields,beneficiario;banco destino;cuenta;SIDIF;moneda;cotización;divisas,pedir nota/instrucción asociada si aplica,CGN Circular 13/02,Aplicabilidad target abierta.
+SK134_106,REQ134_ECON,c55_reconciliation,C-55;regularización;desafectación;débito BNA;documento original,cerrar diferencia orden-débito,CGN Circular 22/04,No todo pago genera C-55.
+SK134_107,REQ134_AGN,bicameral_contact,REVISORA@SENADO.GOB.AR;2822-3000;internos2310-2315,solicitar nota e inventario 2012,Senado Comisión 100,No contactado.
+SK134_108,REQ134_AGN,mass_archive_control,HCDN período130 reunión8 punto13;23/05/2012,controlar contexto de archivo masivo,Sumario HCDN,No individualiza los dos OV target.
+SK135_109,REQ134_ECON,sidif_paid_file,SDPGBXXX.CON;Pago a Beneficiarios/Deducciones,localizar salida por beneficiario,Anexo Circular CGN 34/97,Pedir sucesor equivalente si el nombre cambió en 2008.
+SK135_110,REQ134_ECON,sidif_item_file,SDPAG;pagado por ítem,localizar salida diaria por ítem,Circular TGN 7/97,Continuidad literal a 2008 abierta.
+SK135_111,REQ134_ECON,sidif_state_codes,P=Pagado;R=Rechazado;A=Anulado,distinguir estado efectivo,Anexo Circular CGN 34/97,Código target no recuperado.
+SK135_112,REQ134_ECON,sidif_payment_media,RN=Red bancaria;CH=Cheque;TR=Transferencia CUT;TI=Títulos;NS=Nota,identificar medio de pago,Anexo Circular CGN 34/97,Medio target abierto.
+SK135_113,REQ134_ECON,sidif_order_numbers,OB71597;OB152677;OB2876,consultar tres filas exactas,"CGN 2008 Anexo K, alineación visual","Son comisiones BNA, no pago confirmado."
+SK135_114,REQ134_ECON,anexo_k_account,SIGADE83106000;COMISIONES-BANCO NACION;ARS32270.30,evitar corrimiento de renglón,CGN 2008 Anexo K renderizado,No atribuye recompra.
+SK135_115,REQ134_ECON,tgn_bcra_system_file,archivo de instrucciones de pago TGN-BCRA,localizar instrucción electrónica 2008,Cuenta de Inversión 2008 Tomo II,"Clase general, vínculo target abierto."
+SK135_116,REQ134_ECON,tgn_bcra_return_files,archivo de movimientos;archivo de saldos;cuentas bancarias,cerrar huella bancaria,Cuenta de Inversión 2008 Tomo II,"Clases generales, registros target abiertos."
+SK135_117,REQ134_ECON,external_payment_2008,Transferencia al exterior;Apertura de Carta de Crédito;SAF355;SAF356,probar o descartar aplicabilidad,Disposición Conjunta CGN47/TGN10 de 2008,No asumir que las tres órdenes fueron exteriores.
+SK135_118,REQ134_ECON,external_payment_note,beneficiario;banco destino;cuenta;SIDIF;moneda;cotización;divisas;Boleto de Venta de Cambio,recuperar paquete exterior si aplica,Disposición Conjunta CGN47/TGN10 de 2008,Condicional.
+SK135_119,REQ134_ECON,comdoc_custody,dos remitos;cuerpos;anexos;último folio;área depositaria,probar custodia e integridad,Resolución MINPLAN 1522/2006 actualizada,"Comparador contemporáneo, no regla target automática."
+SK135_120,REQ134_ECON,comdoc_loss_reconstruction,búsqueda intensiva;circular COMDOC;copias certificadas;informe explicativo;reconstrucción,controlar alegación de pérdida,Resolución MINPLAN 1522/2006 actualizada,Comparador de clases documentales.
+SK135_121,REQ134_ECON,debt_instruction_comparator,nota conjunta ONCP-TGN;archivo de datos;validación;aceptación Caja;registro SIGADE,buscar clases análogas de instrucción/aceptación,Resolución Conjunta 216/2008 y 26/2008,"Operatoria de consolidación, no recompra target."
+SK135_122,REQ134_AGN,hcdn_index_negative_control,0366-OV-2009;366-OV-2009;0044-OV-2010;44-OV-2010;366/09;44/10,repetir búsqueda archivística con variantes exactas,Índice histórico HCDN,Sin coincidencias sólo en el índice público.
+SK136_123,REQ134_ECON,financial_archive,Archivo General de Administración Nacional;AGAN;AMIDDF,dirigir búsqueda al custodio financiero,páginas oficiales AGAN/AMIDDF,Ruta probada; holdings target abiertos.
+SK136_124,REQ134_ECON,agan_target_bundle,SIDIF71597;SIDIF152677;SIDIF2876;SAF355;SAF356;83106000;ARS32270.30,"recuperar originales, imágenes e índice",Anexo K + AGAN/AMIDDF,El importe es agregado del renglón.
+SK136_125,REQ134_ECON,agan_index_fields,signatura;caja;cuerpo;folio;tipo documental;imagen;expediente;SAF;OB,pedir salida archivística verificable,AMIDDF,No presupone digitalización target.
+SK136_126,REQ134_ECON,daily_selected_order_list,lista diaria impresa;órdenes seleccionadas;CUT;PAGADOR TGN;firma responsable,localizar selección previa al pago,Disposición Conjunta CGN13/TGN16 de 2009,Sucesor/comparador; aplicabilidad 2008 abierta.
+SK136_127,REQ134_ECON,payment_authorization_fields,ejercicio;SAF;fecha;autorización;beneficiario;CUIT;fuente;banco;sucursal;R/B;importe;cuenta,recuperar autorización o certificar no aplicabilidad,Disposición Conjunta CGN13/TGN16 de 2009,Depende de la clase del organismo.
+SK136_128,REQ134_ECON,partial_payment_state,importe original;conformidad;pagos parciales;Σpagado;saldo;caducidad;anulación,"distinguir pago total, parcial y no pago",Disposición CGN 54/2008,P/R/A aislado puede ser insuficiente.
+SK136_129,REQ134_ECON,legacy_sidif_environment,SIDIF Central;TRANSAF;e-SIDIF Gastos;Pagos Etapa 1;Pagos Etapa 2,identificar sistema productor correcto,Circular 07/08 + Cuentas 2008-2011,No prueba nombre literal de archivo 2008.
+SK136_130,REQ134_ECON,external_classification,clasificación exterior/no exterior;observaciones C-41;nota TGN;Boleto de Venta de Cambio,aplicar o descartar paquete exterior por OB,Disposición Conjunta 47/10 de 2008,No inferir desde 'Comisiones Banco Nación'.
+SK136_131,REQ134_BCRA,cryl_temporal_control,recepción movimientos CRYL;incorporación 2009;archivo específico 2008,separar retorno bancario general de CRYL,Cuenta de Inversión 2009,Ruta 2008 no probada.
+SK136_132,REQ134_ECON,agan_published_contact,mherri@mecon.gov.ar;54-11-4349-7824,verificar canal antes de presentación,página oficial Coordinación Archivo General,Página posiblemente legada; no contactado.
+SK137_133,REQ134_ECON,producer_exact,SAF355;Dirección de Administración de la Deuda Pública,cerrar organismo productor,Cuenta de Inversión 2008 Cuadro1A,Custodio actual abierto.
+SK137_134,REQ134_ECON,archive_series,Rendiciones de Cuentas;Otros Gastos;Ejercicio2008,filtrar planillas AMIDDF,Disposición46/98,Caja desconocida.
+SK137_135,REQ134_ECON,remittance_document_numbers,71597;152677;2876,buscar N° documento,AnexoK 2008,Tipo documental abierto.
+SK137_136,REQ134_ECON,remittance_fields,remitente;productor;serie;subserie;ejercicio;caja;tipo;número;desafectación;observaciones,pedir índice preexistente,Planilla AMIDDF,No pedir crear cuadro.
+SK137_137,REQ134_ECON,box_label,SAF355;2008;periodo;Otros Gastos;número de orden,localizar tejuelo,Disposición46/98,Orden/caja abiertos.
+SK137_138,REQ134_ECON,document_type,SIDIF;C-41;C-55;regularización;débito automático,clasificar la especie antes de seguir circuito,AnexoK + ManualTGN,No asumir C-41.
+SK137_139,REQ134_ECON,payer_rule,PAGADOR TGN;Pago de Deuda Pública;cualquier monto,identificar pagador,Decreto1344/07 + ManualTGN,Fuente/clase individual abiertas.
+SK137_140,REQ134_ECON,distribution_report,Reporte de Distribución Diaria de Pagos;Total;Parcial;Monto Distribuido,separar pago total/parcial,ManualTGN,Reporte target abierto.
+SK137_141,REQ134_ECON,automatic_debit,Débito Automático;gastos bancarios;código de movimiento;extracto CUT;regularización,seguir rama comisiones BNA,ManualTGN p112,Aplicabilidad target abierta.
+SK137_142,REQ134_BNA,bna_return,rendición bancaria;acreditado;rechazado;fecha compensación;monto procesado,cerrar resultado bancario,ManualTGN pp117-118,Rama RedCUT/débito a clasificar.
+SK137_143,REQ134_BCRA,bcra_note,Lote de Notas;Archivo de Notas;confirmación de recepción;Libro Banco,seguir rama deuda BCRA,ManualTGN pp116-118,Acuse no equivale a cancelación.
+SK137_144,REQ134_ECON,law_existing_records,Ley27275 art5;estado en que se encuentre;formato digital abierto,evitar pedido de elaboración nueva,Ley27275,Sólo registros existentes.
+SK137_145,REQ134_ECON,law_transfer_partial,art10 transferencia5d;art12 tachas;art13 acto fundado,prever derivación y respuesta parcial,Ley27275,Sólo tras presentación.
+SK137_146,REQ134_ECON,current_channel,TAD;ciudadano@mecon.gov.ar;Balcarce186 piso1 oficina148;4349-8705,canal actual Ministerio,Economía actualizado junio2026,No contactado.
+SK138_147,REQ133_ECON,system,SICHE;SIDIF Central;SLU,seleccionar repositorios heredados,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_148,REQ133_ECON,producer,SAF 355;Dirección de Administración de la Deuda Pública,entidad emisora/productora,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_149,REQ133_ECON,exercise,2008,ejercicio target,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_150,REQ133_ECON,sidif,71597;152677;2876,identificadores exactos,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_151,REQ133_ECON,sigade,83106000,cuenta/identificador asociado,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_152,REQ133_ECON,concept,COMISIONES - BANCO NACION,leyenda exacta,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_153,REQ133_ECON,amount,"32270.30;32.270,30",importe agregado en ambas notaciones,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_154,REQ133_ECON,budget,7.2.8,partida exacta,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_155,REQ133_ECON,types,C41;C42;C55,primera búsqueda de tipo,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_156,REQ133_ECON,subtype,Débito Directo;C55-REG,"comparador principal de mecanismo, en paralelo con C41 documental",E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_157,REQ133_ECON,report,gastos_01.rep;pagos_04.rep,tipo/etapas/F80,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_158,REQ133_ECON,report,conc_01.rep;conc_02.rep,extracto/Libro Banco,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_159,REQ133_ECON,medium,Nota de Pago;transferencia al exterior,rama C41/Nota,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK138_160,REQ133_ECON,archive,Rendiciones de Cuentas;Otros Gastos,rama AMIDDF,E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_161,REQ133_ECON,query_order,sin_tipo;C41;C55;C42;C35,secuencia que evita una exclusión prematura,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_162,REQ133_ECON,siche_domain,Gastos;Pagos;Conciliación Bancaria,módulos SICHE desplegados,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_163,REQ133_ECON,header,SAF355;ejercicio2008;SIDIF71597;SIDIF152677;SIDIF2876,filtros de cabecera,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_164,REQ133_ECON,detail,83106000;COMISIONES - BANCO NACION;7.2.8,filtros de detalle,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_165,REQ133_ECON,numeric_expression,"32270.30;32270,30;partes_que_sumen_32270.30",expresiones numéricas,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_166,REQ133_ECON,type_first,C41;C55,doble prioridad documental y de mecanismo,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_167,REQ133_ECON,type_fallback,C42;C35,búsqueda alternativa no excluida,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_168,REQ133_ECON,mechanism,comisión bancaria;débito automático;Débito Directo,rama de movimiento bancario,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_169,REQ133_ECON,reconciliation,extracto bancario;extracto interno;Libro Banco;aplicación,firma bancaria-contable completa,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK139_170,REQ133_ECON,negative_metadata,sistema;modelo;dataset;filtros;fecha;filas;cobertura;exclusiones,auditar resultado cero,E0_SICHE_DEPLOYMENT_CAPABILITY_TIMELINE_V152.csv;E0_SICHE_TARGET_QUERY_PLAN_V152.csv,Clave de búsqueda; no confirma resultado.
+SK140_171,REQ133_ECON,named_query,Formulario por Pda. Presupuestaria y Sigade,consulta target principal,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_172,REQ133_ECON,named_query,Gastos por Beneficiarios,control por beneficiario,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_173,REQ133_ECON,named_query,Deuda Exigible hasta 2008,control de estado al corte,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_174,REQ133_ECON,named_query,Consulta detallada de asientos 2001 a 2012,control contable,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_175,REQ133_ECON,base_filters,SAF355;ejercicio2008;Pda7.2.8;SIGADE83106000,universo base,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_176,REQ133_ECON,sidif,71597;152677;2876,localizadores individuales,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_177,REQ133_ECON,beneficiary,sin_restriccion;BNA;Banco Nación,evitar falso negativo,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_178,REQ133_ECON,observations,comisión;Banco Nación;83106000,texto OP,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_179,REQ133_ECON,journal,32270.30;partes;Debe;Haber;Normal,asiento y signo,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_180,REQ133_ECON,payment_records,EPP;PG;NPG;CMR-DP;TCE;RTCE,crosswalk SIGADE,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_181,REQ133_ECON,expedient,S01:0342455/2008;identificador migrado,expediente→OP→pago,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK140_182,REQ133_ECON,negative_metadata,consulta;modelo;diccionario;filtros;fecha;filas;cobertura;exclusiones,resultado cero reproducible,E0_SICHE_NAMED_QUERY_TARGET_MAP_V152.csv;E0_EXACT_SICHE_QUERY_RUNBOOK_V152.csv,Clave o nombre probado; no confirma resultado.
+SK141_183,REQ133_ECON,cut_module,CUT - SIDIF Central 2007-2014,repositorio exacto,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_184,REQ133_ECON,cut_dataset,Entidades Básicas,cuenta histórica,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_185,REQ133_ECON,cut_dataset,Saldos por Tipo de Apertura de Cuenta de Operación,mapa de cuentas,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_186,REQ133_ECON,cut_dataset,Extractos,movimiento externo,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_187,REQ133_ECON,cut_dataset,Logs de Impacto,evento interno,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_188,REQ133_ECON,target,SAF355;2008;7.2.8;83106000,formulario base,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_189,REQ133_ECON,sidif,71597;152677;2876,localizadores,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_190,REQ133_ECON,amount,"32270.30;32.270,30;componentes;debe;haber",importe y partes,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_191,REQ133_ECON,extract,fecha;secuencia;mov externo;mov interno;cpte bancario,referencia BNA,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_192,REQ133_ECON,voucher,respaldo;origen;relacionado;Libro Banco/Extracto,vínculo formulario,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_193,REQ133_ECON,state,conciliado;pendiente;regularizado;rechazado;anulado,estado,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK141_194,REQ133_ECON,negative,dataset;modelo;filtros;cobertura;fecha;filas;exclusiones;diccionario,cero reproducible,E0_SICHE_CUT_HISTORICAL_REPOSITORY_V152.csv;E0_CUT_TARGET_QUERY_RUNBOOK_V152.csv,Clave o clase probada; no confirma fila.
+SK142_195,REQ133_ECON,operation_account,230,débitos de extracto ajenos a pago CUT,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_196,REQ133_ECON,operation_account,Débitos Automáticos;Débitos extracto bancario,descripción de cuenta,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_197,REQ133_ECON,movement,AUTO;DBAUTO;CRAUTO,códigos automáticos y control de signo,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_198,REQ133_ECON,payment_control,PAGO;PGTR,rutas alternativas de pago,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_199,REQ133_ECON,rejection,RECH;DCRB;DCHR,rechazo y devolución,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_200,REQ133_ECON,reversal,ANPG;ANPE;ATRB;DLOT;RRDDF,anulación o desarme,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_201,REQ133_ECON,reconciliation,LIB;APL;EXB;MAN,grupo de conciliación,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_202,REQ133_ECON,reference,referencia unívoca;número de comprobante;contracódigo,clave de unión,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_203,REQ133_ECON,accounting_form,C55;C55-REG;Débito Directo;CRG-DB,regularización de comisión,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_204,REQ133_ECON,account_equation,710=530+810,control global CUT,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_205,REQ133_ECON,account_equation,530=511+320+321,control de cuenta escritural,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK142_206,REQ133_ECON,dictionary,catálogo CUT-SIDIF Central vigente 2008,evitar retroactividad,E0_CUT_EVENT_CODE_DICTIONARY_V152.csv;E0_CUT_OPERATION_ACCOUNT_EQUATIONS_V152.csv,Crosswalk probado; uso exacto en 2008 pendiente.
+SK143_207,REQ133_ECON,report,conc_01.rep;Movimientos del Extracto,reporte externo contemporáneo,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_208,REQ133_ECON,report,conc_02.rep;Movimientos del Libro Banco,reporte interno contemporáneo,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_209,REQ133_ECON,reconciliation_state,N;P;T;No conciliado;Parcialmente conciliado;Totalmente conciliado,estado de ambos reportes,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_210,REQ133_ECON,account_type,E;P;R;Escritural;Pagadora;Recaudadora,tipo de cuenta,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_211,REQ133_ECON,form,C55-REG;Débito Directo,firma de comisión debitada,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_212,REQ133_ECON,form_state,I;X;E;C;R;Ingresado;Anulado;Enviado;Confirmado;Rechazado,ciclo de vida C55,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_213,REQ133_ECON,reversal,C55-DEG;Desafectación Global;contraasiento,reversa del C55,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_214,REQ133_ECON,form_signature,sin Orden de Pago original;cuenta de débito obligatoria;+débito,discriminador directo,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_215,REQ133_ECON,form_history,ingreso;autorización;envío a SC;recepción de respuesta,traza temporal,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_216,REQ133_ECON,payment_medium,Servicio de la Deuda Pública;No cobra gastos y comisiones,control negativo,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_217,REQ133_ECON,payment_medium,Carta de crédito;gastos y comisiones asociados,control positivo,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_218,REQ133_ECON,payment_medium,Transferencias al Exterior;gastos y comisiones asociados,control positivo,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_219,REQ133_ECON,expense_account,cuenta de gastos;banco;sucursal;cuenta,cuenta donde se debita comisión,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK143_220,REQ133_ECON,metadata,CreationDate D:20050816105200;versión 3,fecha contemporánea del manual,E0_2001_2005_2013_2022_TEMPORAL_CONTINUITY_V152.csv;E0_C55_DIRECT_DEBIT_TARGET_SIGNATURE_V152.csv,Clave contemporánea probada; fila individual de 2008 pendiente.
+SK144_221,REQ133_ECON,table,BCUENTA,cuenta bancaria/escritural histórica,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_222,REQ133_ECON,table,ACTA_FUE,relación cuenta-fuente,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_223,REQ133_ECON,table,ACTABAN_CTAESC,relación cuenta bancaria-escritural,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_224,REQ133_ECON,table,BGRUPMOVBCO,grupo de movimiento bancario,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_225,REQ133_ECON,table,BMOVBCO,código interno de extracto,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_226,REQ133_ECON,table,BMOVEXTERNO,código externo BNA y contracódigo,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_227,REQ133_ECON,table,AMOV_FORG,aplicación automática de gasto por cuenta/movimiento,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_228,REQ133_ECON,table,ACLB_MOB,relación extracto-Libro Banco,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_229,REQ133_ECON,table,BCODLIBBCO,código Libro Banco y signo,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_230,REQ133_ECON,table,BEMPRESA,grupo de cuentas del archivo bancario,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_231,REQ133_ECON,table,BERROR_AUD;BPROCESO,errores y procesos del auditor,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_232,REQ133_ECON,retention,sin historia,detectar limitación estructural de tabla,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_233,REQ133_ECON,retention,Consulta de Bajas,recuperar filas inactivas,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_234,REQ133_ECON,retention,Rehabilitar;fecha de baja;fecha de rehabilitación,reconstruir secuencia,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_235,REQ133_ECON,backup,RMAN;expdp;export Oracle;dump;snapshot;cinta;imagen de servidor,localizar soporte histórico,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_236,REQ133_ECON,version,SLU v9.0;26/11/2008 11:30:04,control de versión visual,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_237,REQ133_ECON,version,SLU v7→v9.0;DDL;DML;script migración,mapear cambios de tabla/código,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_238,REQ133_ECON,negative_example,CUM023;CR.VARIOS TRIBUT,excluir ejemplo de recurso como target,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_239,REQ133_ECON,c10,A;M;Automático;Manual,marca de generación,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_240,REQ133_ECON,c10,REC;REG;COR;DES;CMP,tipo de C10 y modificaciones,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_241,REQ133_ECON,c10,Código SIGADE;83106000,rama de recurso asociada a deuda,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_242,REQ133_ECON,reversal,C55-DEP;C55-REP;C55-DEG,desafectación y reversión,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_243,REQ133_ECON,cheque,C;R;E;F;Detalle Conciliación,medio alternativo y devolución,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_244,REQ133_ECON,correction,grupo externo;movimiento externo;movimiento interno;comprobante;importe;débito/crédito,historial de correcciones,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_245,REQ133_ECON,mapping,banco;cuenta/subcuenta;movimiento;partida;P/E;Axt,campos AMOV_FORG,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_246,REQ133_ECON,mapping,contracódigo;automático/manual;grupo;movimiento interno,campos BMOVEXTERNO,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_247,REQ133_ECON,preservation,servidor;instancia;esquema;fecha;retención;custodio;hash,inventario probatorio de backup,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK144_248,REQ133_ECON,zero_control,tabla;versión;parámetros;cobertura;filas activas+bajas+rehabilitadas,respuesta cero reproducible,E0_SLU_BASE_TABLE_DICTIONARY_V152.csv;E0_SLU_TABLE_REQUEST_FIELD_MATRIX_V152.csv,Clave exacta de esquema o recuperación; no confirma fila ejecutada.
+SK145_01,REQ133_ECON,backup_migration_siche,Disposición Conjunta 4/03 CGN · 1/03 UI,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_02,REQ133_ECON,backup_migration_siche,fuentes y base de datos: perpetuo,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_03,REQ133_ECON,backup_migration_siche,formulario prueba recuperación de backups,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_04,REQ133_ECON,backup_migration_siche,planilla registro de back-up soportes,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_05,REQ133_ECON,backup_migration_siche,Acta Acuerdo,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_06,REQ133_ECON,backup_migration_siche,backup previo a la migración,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_07,REQ133_ECON,backup_migration_siche,testeo y control entre las bases de datos,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_08,REQ133_ECON,backup_migration_siche,documentación de diferencias detectadas,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_09,REQ133_ECON,backup_migration_siche,informe de avance firmado conjuntamente,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_10,REQ133_ECON,backup_migration_siche,Resolución 115/2005,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_11,REQ133_ECON,backup_migration_siche,Resolución 53/2024,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_12,REQ133_ECON,backup_migration_siche,SICHE SLU,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_13,REQ133_ECON,backup_migration_siche,BMOVEXTERNO,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_14,REQ133_ECON,backup_migration_siche,AMOV_FORG,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_15,REQ133_ECON,backup_migration_siche,conc_01.rep,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_16,REQ133_ECON,backup_migration_siche,conc_02.rep,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_17,REQ133_ECON,backup_migration_siche,C55 Regularización Pura Débito Directo,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_18,REQ133_ECON,backup_migration_siche,C55 Diferencia de Cambios,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK145_19,REQ133_ECON,backup_migration_siche,C55 Corrección Global,localizar registro exacto,V152 normas/manual,"clave, no fila objetivo"
+SK146_01,REQ133_ECON,sidif_link_siche_repo,SIDIF-LINK,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_02,REQ133_ECON,sidif_link_siche_repo,SAF 355,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_03,REQ133_ECON,sidif_link_siche_repo,Formulario por Pda. Presupuestaria y Sigade,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_04,REQ133_ECON,sidif_link_siche_repo,Gastos por Beneficiarios,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_05,REQ133_ECON,sidif_link_siche_repo,Deuda Exigible hasta 2008,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_06,REQ133_ECON,sidif_link_siche_repo,71597,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_07,REQ133_ECON,sidif_link_siche_repo,152677,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_08,REQ133_ECON,sidif_link_siche_repo,2876,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_09,REQ133_ECON,sidif_link_siche_repo,83106000,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_10,REQ133_ECON,sidif_link_siche_repo,2.1.2.01.02.99.00,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_11,REQ133_ECON,sidif_link_siche_repo,regularización comisiones operaciones REPO,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_12,REQ133_ECON,sidif_link_siche_repo,"0,61 millones","localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_13,REQ133_ECON,sidif_link_siche_repo,"563,16","localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_14,REQ133_ECON,sidif_link_siche_repo,"563,61","localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_15,REQ133_ECON,sidif_link_siche_repo,SIGADE,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_16,REQ133_ECON,sidif_link_siche_repo,Conciliación Bancaria,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_17,REQ133_ECON,sidif_link_siche_repo,Logs de Impacto,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK146_18,REQ133_ECON,sidif_link_siche_repo,Transmisiones,"localizar registro, consulta o puente exacto",V152 fuentes oficiales,Clave de búsqueda; no confirma identidad ni pago.
+SK147_01,REQ133_ECON,agn_audit_ladder_anexo_k,mayorizados por SIGADE,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_02,REQ133_ECON,agn_audit_ladder_anexo_k,Estado de Cuenta SIGADE,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_03,REQ133_ECON,agn_audit_ladder_anexo_k,Tabla de Amortización SIGADE,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_04,REQ133_ECON,agn_audit_ladder_anexo_k,Ficha SIGADE,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_05,REQ133_ECON,agn_audit_ladder_anexo_k,83106000,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_06,REQ133_ECON,agn_audit_ladder_anexo_k,71597,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_07,REQ133_ECON,agn_audit_ladder_anexo_k,152677,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_08,REQ133_ECON,agn_audit_ladder_anexo_k,2876,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_09,REQ133_ECON,agn_audit_ladder_anexo_k,COMISIONES - BANCO NACION,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_10,REQ133_ECON,agn_audit_ladder_anexo_k,Anexo K,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_11,REQ133_ECON,agn_audit_ladder_anexo_k,otras operaciones presupuestarias no incluidas en el Cuadro 1A,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_12,REQ133_ECON,agn_audit_ladder_anexo_k,IF-2019-14144802-APN-ONCP#MHA,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_13,REQ133_ECON,agn_audit_ladder_anexo_k,IF-2023-137577619-APN-ONCP#MEC,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_14,REQ133_ECON,agn_audit_ladder_anexo_k,EX-2023-137514569-APN-DGDAM#MEC,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_15,REQ133_ECON,agn_audit_ladder_anexo_k,IF-2023-147866862-APN-UAI#MEC,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_16,REQ133_ECON,agn_audit_ladder_anexo_k,IF-2023-148676623-APN-UAI#MEC,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_17,REQ133_ECON,agn_audit_ladder_anexo_k,Coordinación de Cuentas Bancarias,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK147_18,REQ133_ECON,agn_audit_ladder_anexo_k,componentes no redondeados OTROS,"localizar registro, formulario, acto, papel o movimiento exacto",V152 official audit and closing records,"Clave de búsqueda; no confirma identidad, pago ni cobertura."
+SK148_01,REQ148_ECON,legal,Disposición CGN 49/2002,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_02,REQ148_ECON,institution,SAF 355,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_03,REQ148_ECON,record_class,listados detallados parametrizados,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_04,REQ148_ECON,record_class,consultas específicas de movimientos,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_05,REQ148_ECON,account,83106000,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_06,REQ148_ECON,form,71597,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_07,REQ148_ECON,form,152677,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_08,REQ148_ECON,form,2876,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_09,REQ148_ECON,amount,"32.270,30",Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_10,REQ148_ECON,custody,TGN hasta cancelación,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_11,REQ148_ECON,custody,CGN después de cancelación,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_12,REQ148_ECON,bank_route,artículo 78.7.4 Decreto 1344/2007,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_13,REQ148_ECON,audit,Informe Analítico UAI 03/2022,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_14,REQ148_ECON,audit,Informe Analítico UAI 51/2022,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK148_15,REQ148_ECON,repo,2.1.2.01.02.99.00,Localizar objeto exacto o documentar cero reproducible.,E0_SAF355_CLOSING_EXCEPTION_AND_SPECIAL_ROUTE_V152.csv;E0_TGN_BNA_LEGAL_CUSTODY_AND_MOVEMENT_ROUTE_V152.csv,Clave de recuperación; no prueba pago ni tipo.
+SK149_01,REQ149_ECON,legal,Resolución SH 6/2008 artículo 8,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_02,REQ149_ECON,archive,archivo oficial de la entidad,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_03,REQ149_ECON,record_class,listados finales de ejecución,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_04,REQ149_ECON,record_class,devolución conformada dentro de diez días,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_05,REQ149_ECON,record_class,nota explicativa firmada,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_06,REQ149_ECON,cut,30 de junio de 2008,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_07,REQ149_ECON,cut,31 de diciembre de 2008,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_08,REQ149_ECON,form,C-41 7 de enero de 2009,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_09,REQ149_ECON,form,C-55 31 de enero de 2009,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_10,REQ149_ECON,act,IF-2019-109041824-APN-UAI#MHA,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_11,REQ149_ECON,act,IF-2019-109242536-APN-UAI#MHA,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_12,REQ149_ECON,note,NO-2019-109266599-APN-TGN#MHA,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_13,REQ149_ECON,output,Listado Reporte Resumen de Pagos,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_14,REQ149_ECON,account,3855/19,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_15,REQ149_ECON,custodian,Dirección de Administración de la Deuda Pública,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_16,REQ149_ECON,custodian,Unidad de Auditoría Interna reserva para consulta,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_17,REQ149_ECON,system,Conciliación Bancaria SIDIF Central,Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK149_18,REQ149_ECON,target,"83106000;71597;152677;2876;32.270,30",Localizar objeto exacto o documentar cero.,E0_2008_CLOSING_FORM_AND_ARCHIVE_ROUTE_V152.csv;E0_CUT_3855_HISTORICAL_CUSTODY_ROUTE_V152.csv,"Clave de recuperación; no prueba pago, tipo ni cuenta target."
+SK150_01,REQ133_ECON,sidif,0071597,C42 padded key,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_02,REQ133_ECON,sidif,0152677,C42 padded key,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_03,REQ133_ECON,sidif,0002876,C42 padded key,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_04,REQ133_ECON,form,C-42,document universe,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_05,REQ133_ECON,form,C-41,alternative branch,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_06,REQ133_ECON,form,C-55,regularization branch,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_07,REQ133_ECON,system,TRANSAF,legacy transmission,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_08,REQ133_ECON,system,CONPRE,legacy origin,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_09,REQ133_ECON,system,SIDIF LOCAL,legacy origin,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_10,REQ133_ECON,field,SIGADE,debt link,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_11,REQ133_ECON,field,AXT,treasury auxiliary,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_12,REQ133_ECON,concept,COMISIONES - BANCO NACION,exact concept,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_13,REQ133_ECON,amount,"32.270,30",display amount,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_14,REQ133_ECON,date,31/12/2008,C42 expiry/cut,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK150_15,REQ133_ECON,phrase,obligaciones correspondientes a la deuda pública,official scope phrase,E0_C42_1996_2008_TARGET_BRANCH_V152.csv,"Clave de búsqueda; no prueba tipo, identidad ni pago."
+SK151_01,REQ133_ECON,output,Listado Parametrizado del SIDIF Central,nombre documental exacto,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_02,REQ133_ECON,output,Listado parametrizado generado en sistema local,salida local,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_03,REQ133_ECON,query,consulta específica de movimientos,capacidad 2008,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_04,REQ133_ECON,system,SIDIF Central,repositorio central,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_05,REQ133_ECON,system,SIDIF Local,repositorio local,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_06,REQ133_ECON,system,CONPRE,origen legado,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_07,REQ133_ECON,system,TRANSAF,transmisión legada,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_08,REQ133_ECON,record,lote,metadato de transmisión,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_09,REQ133_ECON,record,nodo,metadato de transmisión,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_10,REQ133_ECON,record,número de transacción,metadato de transmisión,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_11,REQ133_ECON,audit,Certificación UAI,control de cierre,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_12,REQ133_ECON,bank,Extractos Bancarios,fuente externa,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_13,REQ133_ECON,treasury,transferencias a la Tesorería General de la Nación,puente TGN,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_14,REQ133_ECON,custody,Acta de Arqueo de Fondos y Valores,control de cierre,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK151_15,REQ133_ECON,period,2008-2009,corte y regularización,E0_SIDIF_DUAL_DATABASE_AND_TRANSAF_CHAIN_V152.csv,"Clave de recuperación; no prueba identidad, conservación ni pago."
+SK152_01,REQ133_ECON,document,Instructivo de Trabajo SGN N° 02/2008,localizar cuerpo/anexos,ENRE p.163,Existencia probada; cuerpo abierto.
+SK152_02,REQ133_ECON,document,Certificaciones a la Cuenta de Inversión 2008,localizar certificados,ENRE p.163,No trasponer IDs.
+SK152_03,REQ133_ECON,annex,Anexo II; Anexo IV; Anexo V,localizar versión,ENRE p.163,Exigir target.
+SK152_04,REQ133_ECON,document,Instructivo N° 1/2009 GNyPE,localizar auditoría,ENRE p.162,Separar de certificación.
+SK152_05,REQ133_ECON,document,Informe de la Cuenta de Inversión del año 2008,localizar SIGEN,SIGEN p.6,Global; pedir anexos.
+SK152_06,REQ133_ECON,record,Listado definitivo SIDIF art. 8,localizar salida final,Res.6,No prueba pago.
+SK152_07,REQ133_ECON,record,conformidad; discrepancia; nota explicativa,localizar control cierre,Res.6 art.8,Firma no prueba pago.
+SK152_08,REQ133_ECON,record,detalle AXT de saldos al 30/06/2008,localizar ONCP,Disp.28 art.11,Saldo no es flujo.
+SK152_09,REQ133_ECON,field,razón por la cual permanecen como extrapresupuestarias,localizar explicación,Disp.28 art.11,No inferir contenido.
+SK152_10,REQ133_ECON,mailbox,param355,localizar listados/backups,Disp.35 art.7,Validar dominio.
+SK152_11,REQ133_ECON,mailbox,inconsis355,localizar anexos/backups,Disp.35 art.7,Validar dominio.
+SK152_12,REQ133_ECON,form_field,N° SIDIF; N° SAF,localizar IDs duales,Disp.35 Anexo I,No asumir igualdad.
+SK152_13,REQ133_ECON,form_field,Aclaraciones u observaciones; Firma Responsable del SAF,localizar autoría,Disp.35 Anexo I,Firma no es ejecución.
+SK152_14,REQ133_ECON,identifier,71597;0071597;152677;0152677;2876;0002876,filtrar planillas,Targets,Variantes no prueban tipo.
+SK152_15,REQ133_ECON,account,83106000,filtrar AXT/listados,Anexo K,Cuenta agregada.
+SK152_16,REQ133_ECON,date,2008-06-30;2008-12-31;2009-01-07,cruzar cortes,Disp.28;Res.6,Cortes no son pagos.
+SK153_01,REQ133_ECON,instruction,Instructivo de Trabajo N° 2/2008 GNyPE,cuerpo y ejecución,acir01.pdf,Modelo localizado; certificado target abierto.
+SK153_02,REQ133_ECON,circular,Circular CGN N° 01/09,ingreso/rechazo,CGN 20/01/2009,Regla no prueba recepción target.
+SK153_03,REQ133_ECON,annex,Certificación Anexo I Instructivo 2/2008,certificado SAF355,Instructivo pp.2-3,Pedir no aplicabilidad.
+SK153_04,REQ133_ECON,annex,Certificación Anexo II Instructivo 2/2008,certificado SAF355,Instructivo pp.4-5,Fondo rotatorio.
+SK153_05,REQ133_ECON,annex,Certificación Anexo III Instructivo 2/2008,certificado UEPEX,Instructivo pp.6-7,No trasponer a SAF355.
+SK153_06,REQ133_ECON,annex,Certificación Anexo IV Instructivo 2/2008,formularios tardíos,Instructivo pp.8-9,Rama C41/C42/C55.
+SK153_07,REQ133_ECON,annex,Certificación Anexo V Instructivo 2/2008,remanente,Instructivo pp.10-11,No es pago individual.
+SK153_08,REQ133_ECON,forms,C35 C41 C42 C43 C55 C75 C10,universo Anexo IV,Instructivo p.8,Pedir fechas tope/efectiva.
+SK153_09,REQ133_ECON,report,Ministerio de Economía y Finanzas Públicas 2009 GSEPyPF,informe Cuenta 2008,Libro Blanco p.54,Clave archivística combinada.
+SK153_10,REQ133_ECON,report,calidad de la información y documentación Cuenta de Inversión 2008,objetivo exacto,Libro Blanco p.54,"Inventario, no cuerpo."
+SK153_11,REQ133_ECON,area,GSEPyPF,área productora SIGEN,Libro Blanco p.54,Pedir expansión de sigla.
+SK153_12,REQ133_ECON,archive,Archivo General de Documentación Financiera de la Administración Nacional,índice/custodia,Circular 08/09,Capacidad no implica ingreso.
+SK153_13,REQ133_ECON,archive,Disposición CGN N° 46/1998,recepción/guarda,Circular 08/09,Pedir inventario y transferencia.
+SK153_14,REQ133_ECON,archive,Archivo Informático Histórico SIDIF,resguardo de imágenes,Circular 06/09,Contexto de proyecto.
+SK153_15,REQ133_ECON,source,Listado Parametrizado del SIDIF Central remitido por la CGN,fuente Anexos III-V,"Instructivo pp.6,8,10",Pedir archivo exacto.
+SK153_16,REQ133_ECON,source,Acta de Arqueo de Fondos y Valores,fuente Anexos I/III/IV,"Instructivo pp.2,6,8",No sustituye banco.
+SK153_17,REQ133_ECON,source,formularios que respaldan transferencias a la TGN,fuente Anexos III/IV,"Instructivo pp.6,8",Pedir número y fecha.
+SK153_18,REQ133_ECON,receipt,documentación de cierre 2008 certificación UAI SAF 355,mesa de entradas,Circular 01/09,Pedir ingreso o rechazo.
+SK153_19,REQ133_ECON,public_archive,ArchivoWeb Informes SIGEN 2009 Cuenta de Inversión,cobertura histórica,SIGEN 2026,Ventana visible 2020-2026.
+SK153_20,REQ133_ECON,target,SAF 355 Anexo IV 71597 152677 2876,filas target,Método V153,Cero reproducible requerido.
+SK154_01,REQ133_ECON,public_report,00398/2020,comparador número público,SIGEN ArchivoWeb,No usar como target.
+SK154_02,REQ133_ECON,internal_report,INFORME N° 007/2020-UAI,comparador número interno,IF-2020-09433026,Distinto del público.
+SK154_03,REQ133_ECON,detail_id,IdDocumento=205855,comparador ficha,SIGEN ArchivoWeb,Capa de portal.
+SK154_04,REQ133_ECON,attachment_id,IdA=80644620,comparador adjunto,SIGEN ArchivoWeb,Capa de descarga.
+SK154_05,REQ133_ECON,document_id,IF-2020-09433026-APN-UAI#SIGEN,comparador documento,Anexo A 2019,No exigir IF 2009.
+SK154_06,REQ133_ECON,expediente,EX-2019-113610848-APN-SIGEN,comparador contenedor,Anexo A/C,Pedir equivalente.
+SK154_07,REQ133_ECON,remittance,IF-2020-08168211-APN-GCA#SIGEN,comparador productor,Anexo A/C,Pedir nota SAF355.
+SK154_08,REQ133_ECON,cross_reference,IF-2020-26720406-APN-DAIF#MHA,cálculo referido,Remanente 2019,Pedir cuerpo.
+SK154_09,REQ133_ECON,archive,libro de informes UAI 2009,número interno target,Método V154,Aceptar asiento.
+SK154_10,REQ133_ECON,archive,inventario de adjuntos embebidos Cuenta 2008,cuerpos target,Método V154,Pedir disposición.
+SK154_11,REQ133_ECON,container,expediente COMDOC legajo Cuenta 2008 SAF 355,contenedor pre-GDE,Método V154,No limitar a GDE.
+SK154_12,REQ133_ECON,source,extractos bancarios certificaciones de saldo SAF 355 2008,fuentes Anexo I,Comparador 2019,Mención no es movimiento.
+SK154_13,REQ133_ECON,source,extractos Ministerio Economía SAF 355,fuente administrativa,Comparador 2019,Pedir archivo.
+SK154_14,REQ133_ECON,audit,cotejo transacciones contables con respaldo,papeles de trabajo,Comparador 2019,Selectivo.
+SK154_15,REQ133_ECON,receipt,comprobación envío oportuno a CGN,acuse target,Comparador 2019,Conclusión no es acuse.
+SK154_16,REQ133_ECON,attachment,Anexos A B C archivos embebidos,índice adjuntos,Comparador 2019,Referencia no es binario.
+SK154_17,REQ133_ECON,target,SAF 355 71597 152677 2876 C41 C42 C55,filas target,Método V154,Cero reproducible.
+SK154_18,REQ133_ECON,reversal,SAF 355 anulación rechazo reemplazo reversa 2008,estado final,Método V154,Vincular original-final.
+SK154_19,REQ133_ECON,area,Ministerio Economía 2009 GSEPyPF Cuenta 2008,informe global,Libro Blanco SIGEN,Número/cuerpo abiertos.
+SK154_20,REQ133_ECON,archive_scope,ArchivoWeb SIGEN cobertura histórica 2009,inventario público,SIGEN ArchivoWeb,Ventana no es inexistencia.
+SK155_01,REQ155_ECON,exact_identifier,Nota N° 0120/09 DAIF,recuperar informe CGN a SIGEN,Cuenta 2009 UEPEX pág. 77,Referencia; falta cuerpo.
+SK155_02,REQ155_SIGEN,exact_identifier,Nota SIGEN N° 3672/09 GSEyP,recuperar respuesta firmada,Cuenta 2009 UEPEX pág. 77,Referencia; falta cuerpo.
+SK155_03,REQ155_SIGEN,system,Sistema Informático SISIO,recuperar alta e historial,Cuenta 2009 UEPEX págs. 77-78,Sistema; no cuerpo documental.
+SK155_04,REQ155_SIGEN,topic,Cuenta de Inversión 2008 UEPEX,filtrar SISIO y registro de notas,Nota 0120/09,UEPEX no SAF355 general.
+SK155_05,REQ155_ECON,area,Dirección de Análisis e Información Financiera DAIF,ubicar libro de salida,Nota 0120/09 DAIF,Confirmar denominación vigente.
+SK155_06,REQ155_SIGEN,area,GSEyP,buscar literal de unidad,Nota 3672/09,No equiparar a GSEPyPF.
+SK155_07,REQ155_SIGEN,area,GSEPyPF,buscar variante separada,Fuentes previas del proyecto,Hipótesis solamente.
+SK155_08,REQ155_ECON,system,SIDIF DADP Cuenta 2008,recuperar comparación de movimientos,Cuenta 2009 UEPEX pág. 78,No banco.
+SK155_09,REQ155_ECON,record_type,listados detallados parametrizados,recuperar salida de conciliación,Cuenta 2009 UEPEX pág. 78,Capacidad no resultado.
+SK155_10,REQ155_ECON,record_type,consultas específicas de movimientos registrados,recuperar consulta puntual,Cuenta 2009 UEPEX pág. 78,Pedir parámetros y corte.
+SK155_11,REQ155_ECON,record_type,reemplazo de cuadros anexos cierre 2008,recuperar control de versiones,Cuenta 2009 UEPEX pág. 78,No necesariamente SAF355.
+SK155_12,REQ155_ECON,record_type,formularios pertinentes certificación UAI ejercicio que se cierra,recuperar regularización,Cuenta 2009 UEPEX pág. 78,Certificación no banco.
+SK155_13,REQ155_ECON,legal,Resolución SH 6/2008 artículo 22,ubicar responsables y respaldos,Texto oficial preservado,Responsabilidad no recuperación.
+SK155_14,REQ155_ECON,record_type,Plan Anual Auditoría Interna 2009,recuperar proyecto Cuenta 2008,Decreto 1025/2010 comparador,Estructura posterior.
+SK155_15,REQ155_ECON,record_type,libro de informes UAI 2009,recuperar numeración interna,Decreto 1025/2010 comparador,Estructura posterior.
+SK155_16,REQ155_ECON,record_type,papeles de trabajo Cuenta de Inversión 2008,recuperar evidencia y anexos,Decreto 1025/2010 comparador,Estructura posterior.
+SK155_17,REQ155_SIGEN,request_route,https://www.sigen.gob.ar/AIP/Default.aspx,canal directo AIP,Página oficial vigente,No enviado.
+SK155_18,REQ155_ECON,disclosure,auditorías años 2022-2026,delimitar ventana actual,Página Economía junio 2026,No prueba inexistencia 2009.
+SK155_19,REQ155_ECON,legacy_system,COMDOC libro caja soporte óptico 2009,búsqueda pre-GDE,Comparadores V154 y resolución 6,No exigir IF/EX.
+SK155_20,REQ155_ECON,target_ids,71597 152677 2876 C41 C42 C55 banco reversa,cierre final de ejecución,Matriz target acumulada,0 filas confirmadas.
+SK156_01,REQ156_ECON,legal,Decreto 1359/2004 Unidad de Auditoría Interna,autoridad exacta,Texto oficial,Deber no actuación.
+SK156_02,REQ156_ECON,record_type,Cronograma de Emisión de Informes SISIO 2009,constancia de plan,Res SIGEN 15/2006,No localizado.
+SK156_03,REQ156_ECON,record_type,Plan Anual Auditoría Interna 2009 constancia SISIO,plan y aprobación,Res SIGEN 15/2006,No localizado.
+SK156_04,REQ156_ECON,classification,No Planificado Cuenta de Inversión 2008,proyecto agregado,Res SIGEN 15/2006,No prueba alta.
+SK156_05,REQ156_SIGEN,record_type,constancia de carga SISIO 0120/09,recibo exacto,Res SIGEN 15/2006,No sustituye cuerpo.
+SK156_06,REQ156_SIGEN,record_type,constancia de carga SISIO 3672/09,recibo exacto,Res SIGEN 15/2006,No sustituye cuerpo.
+SK156_07,REQ156_SIGEN,field,impacta Cuenta de Inversión SISIO,campo impacto,Res SIGEN 15/2006,No valida cifra.
+SK156_08,REQ156_SIGEN,field,observación recomendación conclusión SISIO Cuenta 2008,hallazgos,Res SIGEN 15/2006,Puede ser síntesis.
+SK156_09,REQ156_SIGEN,status,Sin acción correctiva No compartida Sin conocimiento UAI En trámite Regularizada,historia estados,Res SIGEN 15/2006,Estado no banco.
+SK156_10,REQ156_ECON,record_type,instrumento de regularización SISIO Cuenta 2008,documento cierre,Res SIGEN 15/2006,Puede ser administrativo.
+SK156_11,REQ156_ECON,record_type,Anexo II observaciones pendientes 2009,informe anual,Res SIGEN 15/2006,Modelo no presentación.
+SK156_12,REQ156_ECON,record_type,Anexo III observaciones regularizadas 2009,informe anual,Res SIGEN 15/2006,Modelo no presentación.
+SK156_13,REQ156_ECON,legal,Resolución SIGEN 152/2002 papeles de trabajo,propiedad y depósito,Texto oficial,Propiedad no localización.
+SK156_14,REQ156_ECON,custody,organismo propietario UAI depositaria papeles de trabajo,custodio exacto,Res SIGEN 152/2002,Sujeto a disposición.
+SK156_15,REQ156_SIGEN,access,acceso libre e irrestricto SIGEN registros documentos papeles archivos informes,vía búsqueda,Res SIGEN 152/2002,Acceso no propiedad.
+SK156_16,REQ156_ECON,record_type,índice papeles de trabajo Cuenta de Inversión 2008,universo evidencia,Res 152/2002 y 15/2006,No cuerpo.
+SK156_17,REQ156_ECON,record_type,evidencia clasificación estado SISIO,fundamento seguimiento,Res SIGEN 15/2006,No banco.
+SK156_18,REQ156_SIGEN,acronym,Gerencia de Supervisión de Economía Producción y Planificación Federal,expandir GSEPyPF,Res SIGEN 93/2013,Posterior.
+SK156_19,REQ156_SIGEN,acronym,GSEyP GSEPyPF 3672/09,probar equivalencia,Cadena V155 y Res 93/2013,No fusionar.
+SK156_20,REQ156_ECON,comparator,Legajo Transitorio constancia SISIO informe definitivo,comparar archivo,Res CNRT 1002/2011,Otro organismo.
+SK156_21,REQ156_ECON,deadline,72 horas informe UAI SISIO,contrastar fechas,Res SIGEN 15/2006,No prueba fecha.
+SK156_22,REQ156_ECON,deadline,144 horas otro órgano de control SISIO,contrastar carga,Res SIGEN 15/2006,Exceptúa SIGEN.
+SK156_23,REQ156_ECON,signature,hojas firmadas inicialadas fecha firma sello Anexo II III,autenticidad,Res SIGEN 15/2006,No localizado.
+SK156_24,REQ156_ECON,target_ids,71597 152677 2876 C41 C42 C55 banco reversa,cierre final,Matriz acumulada,0 filas.
+SK157_01,REQ157_SIGEN,record_type,Plan SIGEN 2009 aprobado 15/12/2008,recuperar consolidado,Memoria SIGEN 2008,Fecha sin acto.
+SK157_02,REQ157_SIGEN,record_type,acto aprobación Plan SIGEN 2009,recuperar firma y número,Memoria SIGEN 2008,No localizado.
+SK157_03,REQ157_ECON,record_type,Plan UAI Ministerio de Economía 2009,subplan exacto,Plan consolidado,No localizado.
+SK157_04,REQ157_SIGEN,record_type,Informe de Supervisión del Planeamiento UAI Economía 2009,evaluación del subplan,Memoria SIGEN 2009,No es auditoría.
+SK157_05,REQ157_SIGEN,system,SISIO WEB planeamiento UAI Economía 2009,snapshot plan,Memorias 2008-2009,No entrada observación.
+SK157_06,REQ157_SIGEN,system,SISIO WEB II corte 16-12-2009,exportación exacta,Plan SIGEN 2010,Plan 2010.
+SK157_07,REQ157_SIGEN,record_type,Lineamientos para el Planeamiento 2009 SIGEN UAI,pautas generales,Memoria SIGEN 2008,No localizados.
+SK157_08,REQ157_SIGEN,record_type,pautas particulares gerencia supervisión Economía 2009,pautas gerenciales,Plan SIGEN 2008,GSEyP abierto.
+SK157_09,REQ157_SIGEN,record_type,auditoría horizontal Cuenta de Inversión 2008,proyecto target,Plan SIGEN 2008,Plan no ejecución.
+SK157_10,REQ157_SIGEN,record_type,informe global Cuenta de Inversión año 2008 SIGEN,cuerpo target,Memoria SIGEN 2009,No localizado.
+SK157_11,REQ157_SIGEN,record_type,Cuadro 10 11 12 13 Anexo D Plan SIGEN 2010,detalle planes,Plan SIGEN 2010,Anexo referido.
+SK157_12,REQ157_SIGEN,system,SISPE Plan SIGEN 2009 Cuenta de Inversión,plan SIGEN interno,Memoria SIGEN 2008,No SISIO.
+SK157_13,REQ157_SIGEN,system,Archivo Digital SIGEN 0120/09 3672/09,imagen y metadatos,Memoria SIGEN 2008,No prueba ingreso.
+SK157_14,REQ157_SIGEN,archive,Mesa de Entradas Salidas y Archivo 2009,unidad custodia,Memoria SIGEN 2009,No cuerpo.
+SK157_15,REQ157_SIGEN,archive,revisión clasificación registro documentación archivo general 2009,inventario,Memoria SIGEN 2009,No retención.
+SK157_16,REQ157_SIGEN,archive,depuración archivo general SIGEN 2010,disposición,Memoria SIGEN 2009,Proyecto no destrucción.
+SK157_17,REQ157_SIGEN,crosswalk,SISIO SISPE Archivo Digital plan proyecto informe,vincular sistemas,V157,No asumir mismo id.
+SK157_18,REQ157_ECON,record_type,certificaciones Cuenta de Inversión SAF 355 Plan UAI 2009,cerrar 0/5,Memorias y Res 10/2006,No banco.
+SK157_19,REQ157_SIGEN,counts,120 160 140 Informes Supervisión Planeamiento,inventario por año,Fuentes 2008-2010,Conteos aproximados.
+SK157_20,REQ157_ECON,target_ids,71597 152677 2876 C41 C42 C55 banco reversa,cierre final,Matriz acumulada,0 filas.
+SK158_01,REQ158_SIGEN,record_type,legajo plan auditoría UAI Ministerio de Economía 2009,contenedor reglamentario,Resolución SIGEN 7/2003,No localizado.
+SK158_02,REQ158_SIGEN,record_type,presentación plan UAI Economía antes 30 octubre 2008,versión inicial,Resolución SIGEN 7/2003,Regla no acredita cumplimiento.
+SK158_03,REQ158_SIGEN,record_type,opinión fundada Síndico plan UAI Economía 2009,dictamen,Resolución SIGEN 7/2003,No acto final.
+SK158_04,REQ158_SIGEN,record_type,evaluación Subgerencia plan UAI Economía 2009,control técnico,Resolución SIGEN 7/2003,No localizada.
+SK158_05,REQ158_SIGEN,record_type,aprobación preliminar Gerencia plan UAI Economía 2009,acto intermedio,Resolución SIGEN 7/2003,No aprobación final.
+SK158_06,REQ158_ECON,record_type,conformidad autoridad superior plan UAI Economía 2009,firma jurisdiccional,Resolución SIGEN 7/2003,No acto SIGEN.
+SK158_07,REQ158_SIGEN,record_type,Mesa de Entradas plan UAI Economía papel 15 diciembre 2008,recepción papel,Resolución SIGEN 7/2003,No copia magnética.
+SK158_08,REQ158_SIGEN,record_type,copia magnética plan UAI Economía 2009,recepción digital,Resolución SIGEN 7/2003,No asumir identidad.
+SK158_09,REQ158_SIGEN,record_type,proyecto aprobación final Plan SIGEN 2009,acto previo,Resolución SIGEN 7/2003,No localizado.
+SK158_10,REQ158_SIGEN,record_type,versión definitiva Plan UAI Economía custodia Gerencia,cuerpo final,Resolución SIGEN 7/2003,No localizada.
+SK158_11,REQ158_SIGEN,identifier,Nota 4622/2008 SJER plan UAI,comparador de aprobación preliminar,Acta ORSNA 16/2008,No target Economía.
+SK158_12,REQ158_SIGEN,phrase,plan auditoría UAI aprobación preliminar conformidad,búsqueda funcional,Resolución 7/2003 y ORSNA,Evitar depender de título exacto.
+SK158_13,REQ158_ECON,organization,Ministerio de Economía y Producción Plan UAI 2009,versión pre-reforma,DNU 2025/2008,Nombre puede variar.
+SK158_14,REQ158_ECON,organization,Ministerio de Economía y Finanzas Públicas Plan UAI 2009,versión post-reforma,DNU 2025/2008,No prueba cambio de contenido.
+SK158_15,REQ158_ECON,record_type,adecuación Plan UAI Decreto 2025 2008 Ministerio Producción,crosswalk reforma,DNU 2025 y Dto 2102,No traslado automático.
+SK158_16,REQ158_ECON,scope,deuda pública crédito finanzas entidades financieras oficiales BCRA 2008,permanencia competencial,DNU 2025/2008,Competencia no custodia.
+SK158_17,REQ158_SIGEN,counts,aproximadamente 120 informes Supervisión Planeamiento 2009,universo Cuenta Inversión,Cuenta de Inversión 2009,Contradice 160.
+SK158_18,REQ158_SIGEN,counts,cerca de 160 informes Supervisión Planeamiento 2009,universo Memoria,Memoria SIGEN 2009,Contradice 120.
+SK158_19,REQ158_SIGEN,record_type,inventario informes Supervisión Planeamiento 2009 UAI número fecha,resolver contradicción,Fuentes oficiales,No localizado.
+SK158_20,REQ158_SIGEN,method,metodología conteo informes supervisión emitidos aprobados remitidos,regla de conteo,V158,No localizada.
+SK158_21,REQ158_SIGEN,identifier,Nota 5095/2009 GSPF Informe Supervisión UAI,modelo de remisión,ERAS orden del día,Comparador no target.
+SK158_22,REQ158_ECON,record_type,expediente recepción Informe Supervisión UAI Economía 2009,copia destinatario,Modelo ERAS 878-09,Número local desconocido.
+SK158_23,REQ158_SIGEN,crosswalk,nota adjunto informe expediente receptor legajo plan SISIO,cadena documental,V158,Objetos separados.
+SK158_24,REQ158_ECON,target_ids,71597 152677 2876 C41 C42 C55 banco reversa,cierre final,Matriz acumulada,0 filas.
+SK159_01,REQ159_SIGEN,acronym,GSEPFyE Gerencia Supervisión Economía Planificación Federal Entidades,expansión 2003-2004,Memorias SIGEN 2003-2004,No trasladar a 2009.
+SK159_02,REQ159_SIGEN,acronym,GSEyP Nota SIGEN 3672/09,token target literal,Cuenta de Inversión 2009 UEPEX,Expansión abierta.
+SK159_03,REQ159_SIGEN,acronym,GSEPyPF Cuenta 2008 Ministerio Economía 2009,token de inventario,Libro Blanco SIGEN 2012,Buscar separado.
+SK159_04,REQ159_SIGEN,acronym,GSEPYPF Nota 4712/2010,token de nota,Acta ERAS 09/2010,No equivale a GSEyP.
+SK159_05,REQ159_SIGEN,organization,Gerencia Supervisión Economía Planificación Federal Entes Reguladores,nombre largo contemporáneo,Plan SIGEN 2008,Sigla no indicada.
+SK159_06,REQ159_SIGEN,legal_act,Resolución SGN 87/03 58/04 91/04 estructura supervisión,sucesión organizacional,Memorias SIGEN,Pedir actos completos.
+SK159_07,REQ159_SIGEN,record_type,organigrama responsabilidades primarias acciones SIGEN 2008 2009,unidad competente target,Método V180,No localizado.
+SK159_08,REQ159_SIGEN,counts,145 Unidades Auditoría Interna planeamientos 2007,comparador de unidades,Memoria SIGEN 2006 p.3,No universo 2009.
+SK159_09,REQ159_SIGEN,counts,143 proyectos 318 proyectos 119 informes 145 UAI,separación denominadores,Memoria SIGEN 2006 p.3,No mezclar magnitudes.
+SK159_10,REQ159_SIGEN,counts,aproximadamente 120 cerca de 160 Supervisión Planeamiento 2009,conflicto target,Cuenta y Memoria SIGEN 2009,Inventario abierto.
+SK159_11,REQ159_SIGEN,method,unidad observación estado corte redondeo cobertura Informes Supervisión 2009,diccionario del indicador,Método V180,No localizado.
+SK159_12,REQ159_SIGEN,record_type,inventario UAI supervisadas 2009 jurisdicción gerencia,censo target,Método V180,No localizado.
+SK159_13,REQ159_SIGEN,record_type,inventario Informes Supervisión Planeamiento 2009 número UAI fecha estado,resolver 120/160,Método V180,No localizado.
+SK159_14,REQ159_SIGEN,identifier,Nota 4712/2010 GSEPYPF Expediente 1085-10,modelo nota-informe-expediente,Acta ERAS 09/2010,Comparador no target.
+SK159_15,REQ159_ECON,record_type,expediente receptor informe SIGEN UAI Economía 2009 pases respuestas acta,lifecycle target,Comparadores ERAS,Número local abierto.
+SK159_16,REQ159_CGN,scope,SAF355 356 exceptuados cuadros estándar Disposición 49/02,alcance excepción,Cuenta 2008 UEPEX,No exención registral.
+SK159_17,REQ159_ECON,record_type,SAF355 Anexo I Caja Bancos certificado no aplicabilidad 2008,certificación UAI,Instructivo 2/2008,0/5.
+SK159_18,REQ159_ECON,record_type,SAF355 Anexo IV C41 C42 C55 71597 152677 2876,comprobantes fuera de fecha,Instructivo 2/2008,0 filas.
+SK159_19,REQ159_SIGEN,crosswalk,nota informe expediente receptor pases respuesta SISIO,cadena documental,V180,Objetos separados.
+SK159_20,REQ159_ECON,target_ids,71597 152677 2876 C41 C42 C55 banco reversa,cierre final,Matriz acumulada,0/10.
+SK159_21,REQ160_SIGEN,acronym,GSEyP Gerencia de Supervisión Economía y Producción,expansión oficial exacta cercana,Plan SIGEN 2010 Anexo G imagen 16,Falta vigencia exacta Nota 3672/09.
+SK159_22,REQ160_SIGEN,acronym,GSPF Gerencia de Supervisión Planificación Federal,control de desambiguación,Plan SIGEN 2010 Anexo G imagen 16,Token distinto de GSEyP.
+SK159_23,REQ160_SIGEN,record_type,Nota 3672/09 GSEyP Gerencia Supervisión Economía Producción,cuerpo target,Cuenta 2009 y glosario 2010,Pedir firma y adjuntos.
+SK159_24,REQ160_SIGEN,record_type,Plan SIGEN 2009 Anexo G siglas áreas,foto orgánica exacta,Búsqueda pública oficial,No localizado.
+SK159_25,REQ160_SIGEN,record_type,Plan SIGEN 2010 Anexo H UAI más de una entidad,crosswalk de denominador,Imagen oficial 19,No informe por entidad.
+SK159_26,REQ160_SIGEN,counts,154 UAI más de 4550 productos SISIO 16/12/2009,separación unidades-productos,Plan 2010 segunda parte,No resuelve 120/160.
+SK159_27,REQ160_ECON,entity,UAI Ministerio Economía MEyFP ONCCA MAGyP MIyT YCRT,ámbito multi-entidad,Anexo H imagen 19,Pedir vigencias.
+SK159_28,REQ160_BNA,entity,UAI Banco Nación BNA NBSA NFSA NFIDSA NLSA NSRSA NSERVSA PGFCI,grupo multi-entidad,Anexo H imagen 19,No ejecución bancaria.
+SK159_29,REQ160_ECON,legal_act,Decreto 1366/2009 artículo 7 UAI Economía control interno Industria Agricultura,competencia transitoria,Argentina.gob.ar,No proyecto individual.
+SK159_30,REQ160_ECON,program,OT Obligaciones a cargo del Tesoro,ruta presupuestaria,Anexo G imagen 17,No SDP.
+SK159_31,REQ160_ECON,program,SDP Servicio de la Deuda Pública,ruta deuda,Anexo G imagen 17,No recompra automática.
+SK159_32,REQ160_SIGEN,organization,SJ Sindicatura Jurisdiccional,nivel de planeamiento,Anexo G imagen 17,Identificar SJ Economía.
+SK159_33,REQ160_SIGEN,negative_control,CASCPP Comisión Análisis Supervisión Consolidación Pasivo Público,ruta condicional,Anexo G imagen 15,Consolidación no recompra.
+SK159_34,REQ160_SIGEN,negative_control,CAIPCP INSSJyP pasivo consolidado,exclusión temática,Anexo G imagen 15,No target sin vínculo.
+SK159_35,REQ160_SIGEN,method,UAI entidad proyecto producto informe estado corte,diccionario relacional,Método V180,Pedir una fila por vínculo.
+SK169_01,REQ160_SIGEN,dual_identifier,Nota SIGEN 3672/09 GSEyP + actuación/asiento receptor,vincular salida SIGEN con ingreso del destinatario,ENARGAS Informe 2009 Cuadro I-11,comparador ENARGAS; no trasladar su numeración
+SK169_02,REQ157_SIGEN,exact_filename,Plan SIGEN 2009.pdf; Anexo F Cuadros 8-18; Anexo G - Capacitacion 2009.pdf; planred2009.pdf,localizar 14 cuerpos por título/ruta exactos,plananual2009.asp,enlace no equivale a cuerpo
+SK169_03,REQ160_SIGEN,recipient_registry,Nota 0120/09 DAIF; Nota 3672/09; SISIO; hallazgos Cuenta 2008,recuperar cadena remisión-respuesta-carga,CGN Cuenta 2009 + comparador ENARGAS,"pedir vínculos, no inferirlos"
+SK170_01,REQ133_ECON,primary_recipient_registry,CGN Mesa/registro de entradas 2009 · Nota SIGEN 3672/09 GSEyP,recuperar asiento receptor contextual,Cuenta de Inversión 2009 UEPEX · 'esta repartición',CGN contextual; confirmar destinatario formal.
+SK170_02,REQ155_SIGEN,sender_outgoing_registry,salida SIGEN 3672/09 GSEyP · respuesta a Nota 0120/09 DAIF,vincular salida con ingreso CGN,Cuenta 2009 + comparadores ENARGAS,No asumir número receptor.
+SK170_03,REQ133_ECON,secondary_registry,COMDOC Economía 2009 · 3672/09 · SIGEN · 0120/09 DAIF,ruta subsidiaria por pase o registro central,estructura documental contemporánea,No sustituye búsqueda primaria CGN.
+SK170_04,REQ155_SIGEN,followup_system,SISIO hallazgos derivados de Nota 0120/09 DAIF y Nota SIGEN 3672/09,"recuperar ids, altas, responsables y regularizaciones",Cuenta de Inversión 2009 UEPEX,Seguimiento no equivale a ejecución bancaria.
+SK171_20,REQ133_ECON,mandatory_cgn_entry_registry,Mesa CGN 2009 · ingreso Nota SIGEN 3672/09 GSEyP · antecedente Nota 0120/09 DAIF,recuperar identificador receptor y cuerpo,Disposición CGN 41/1996 arts. 1-2,pedir negativo fundado si no aparece
+SK171_21,REQ133_ECON,legacy_internal_pass_log,sistema de seguimiento CGN · pases de Nota 3672/09 · 2009-2010,reconstruir destinatario y lifecycle,Disposición CGN 41/1996 art. 4,nombre del sistema abierto
+SK171_22,REQ133_ECON,nonexclusive_comdoc_secondary,COMDOC III · 3672/09 · SIGEN · 0120/09 DAIF,detectar pase o migración posterior,Circular CGN 04/2010,no usar como única base para negativo 2009
+SK171_23,REQ155_SIGEN,sender_recipient_correlation,salida SIGEN 3672/09 + ingreso Mesa CGN + alta SISIO,correlacionar tres identificadores,Cuenta 2009 + reglas CGN + Resolución SIGEN 15/2006,ninguna capa sustituye a las otras
+SK172_20,REQ155_SIGEN,computerized_mesa_outgoing,sistema informático de Mesa de Entradas SIGEN · Nota 3672/09 · GSEyP · 2009,recuperar asiento de salida y producto/sistema,Memoria SIGEN 2007 p.21 impresa,capacidad no prueba registro target
+SK172_21,REQ155_SIGEN,digital_archive_resolution,Resolución SGN 41/07 · digitalización · publicación · clasificación · Archivo General,"recuperar procedimiento, índice y cobertura de la serie",Memoria SIGEN 2007,acto/body no localizado públicamente
+SK172_22,REQ133_ECON,note_subject_prior_reference,3672/09; 0120/09 DAIF; respuesta; cierre Cuenta 2008; UEPEX; GSEyP,buscar en asunto/referencia y número de tramitación previa,Circular CGN 17/2005,consultar variantes y campos separados
+SK172_23,REQ133_ECON,hybrid_container_index,original foliado; CD/disquete; nota de elevación; índice; constancia de recepción; devolución 72 horas,localizar contenedor y relaciones del paquete 2009,Disposición CGN 32/2009 arts.15-17,"comparador contemporáneo, no aplicación automática"
+SK172_24,REQ155_SIGEN/REQ133_ECON,cross_system_correlation,salida SIGEN 3672/09 ↔ entrada CGN ↔ trámite previo 0120/09 ↔ SISIO ↔ COMDOC/migración,producir tabla de equivalencias con fechas y custodios,cadena V170-V180,no aceptar equivalencia inferida sin identificadores
+SK173_20,REQ155_SIGEN,cidd_document_type,Tipo NOT; número 3672; fecha 2009; GSEyP,localizar registro Archivo Digital,Resolución SIGEN 41/2007 CIDD,probar variantes y no exigir publicación
+SK173_21,REQ155_SIGEN,cidd_office_key,número de expediente u oficio alfanumérico · método Mesa de Entradas,"correlacionar salida, 0120/09 y receptor",CIDD,valor concreto abierto
+SK173_22,REQ155_SIGEN,spd_form,SPD · Nombre Archivo CIDD · Expte · folios · anexos · acceso · conformidades,recuperar solicitud/resultados de digitalización,SPD oficial,puede no haberse digitalizado
+SK173_23,REQ155_SIGEN,physical_box,NOT 3672/09 · número de caja · Archivo General,localizar original físico,Res.41/07 I.9.8/CIDD,"pedir fondo, serie y transferencia"
+SK173_24,REQ155_SIGEN,access_level,público | reservado | confidencial,explicar no publicación,CIDD/SPD,acceso restringido no equivale a inexistencia
+SK173_25,REQ155_SIGEN,migration_crosswalk,Archivo Digital 2007/2009 ↔ GDE 2022 ↔ archivo digital Notas SIGEN,recuperar tabla de equivalencias/migración,Res.41/07 + Res.223/2022 Anexo II,no exigir ID GDE originario
+SK174_20,REQ155_SIGEN,annual_note_register,"exportación 2009 tipo NOT, rango 2500-4200, con fila 3672",resolver fecha y clave CIDD de 3672/09,comparadores 2518/3059/3832/4169,rango auxiliar; buscar también todo 2009
+SK174_21,REQ155_SIGEN,note_numbering_rules,regla de numeración anual de Notas SIGEN 2009; secuencia común o por área,validar o descartar interpolación serial,comparadores multiárea,no presumir monotonicidad global
+SK174_22,REQ133_ECON,recipient_local_file,Nota SIGEN 3672/09-GSEyP ↔ expediente/actuación CGN 2009,obtener identificador receptor,patrón ERAS 3832→828-09 y 5095→878-09,no trasladar serie ERAS a CGN
+SK174_23,REQ133_ECON,subject_search,0120/09 DAIF; UEPEX; cierre 2008; hallazgos SISIO; GSEyP,hallar asiento cuando el número emisor no esté indexado,Cuenta 2009 + campos CIDD,devolver coincidencias y criterios
+SK174_24,REQ155_SIGEN/REQ133_ECON,search_window,todo 2009; secundariamente julio-diciembre 2009,evitar negativo por ventana estrecha,cronología serial V180,ventana secundaria es inferencia
+SK174_25,REQ155_SIGEN/REQ133_ECON,negative_certificate,"sistemas, tablas, serie, campos, variantes, período, acceso, transferencia/baja",hacer auditable una respuesta negativa,Res.41/07 + comparadores receptores,cero de ArchivoWeb no satisface cierre
+SK175_30,REQ155_SIGEN,sisio_history,observaciones dadas de alta por Nota 3672/09-GSEyP; historial completo de estados y acciones,cerrar vínculo instrucción→observación→resultado,Cuenta 2009 + Res.2600/2009,entregar IDs y marcas temporales; agregado no basta
+SK175_31,REQ155_SIGEN,remit_receipt,"remito, hoja de ruta y aviso de recibo de Nota 3672/09; libro/bibliorato 2009","probar fecha, entrega y destinatario",inventario judicial contemporáneo de rangos y originales,host vLex es reproducción; pedir original SIGEN
+SK175_32,REQ133_ECON,annual_cgn_sigen_followup,"Notas DAIF 112/10, 93/11 y 145/12, anexos y respuestas SIGEN",trazar continuidad del ciclo correctivo 2009-2012,Cuentas UEPEX 2010-2012,continuidad no equivale a causalidad de 3672
+SK175_33,REQ133_ECON,correction_ledger,"ledger antes/después de cuadros reemplazados, regularizaciones SIDIF y ajustes CGN 2008-2013","cuantificar correcciones por organismo, documento e importe",Cuentas UEPEX 2009-2013,exigir claves de unión y autoridad certificante
+SK175_34,REQ155_SIGEN/REQ133_ECON,signatory_and_custody,"fecha, firmante, delegación, destinatario, CIDD, SPD, caja, remito, acuse, expediente receptor",cerrar identidad y custodia de 3672/09,Decretos 1795/1796 + Memoria 2009 + Decreto 759,no atribuir firma por interpolación serial
+SK176_40,REQ155_SIGEN,sisio_composite_key,entidad+UAI+informe número/fecha+observación+título+sector para cada alta derivada de 3672/09,evitar colisiones de observaciones numeradas localmente,exportaciones SISIO SSS 2014-2017,número de observación aislado no identifica fila
+SK176_41,REQ155_SIGEN,full_status_history,"historial no sobrescrito de estado, motivo, comentario, acción, fecha, usuario y soporte","distinguir en trámite, regularizada y no regularizable",trayectorias públicas V180,último estado solo no cierra
+SK176_42,REQ155_SIGEN,all_dispositions,"incluir filas regularizadas, pendientes, no regularizables, no compartidas y seguimiento no asociado",evitar sesgo por filtro de exportación,SISIO4 Anexos_RESULT,ausencia en un listado anual no prueba eliminación
+SK176_43,REQ133_ECON,financial_join,"SAF, UEPEX, préstamo, cuadro, cuenta, moneda, importes, período, SIDIF y documento correctivo",unir observación con diferencia y corrección,ejemplo UEPEX cuantificado V180,diferencia no equivale a daño
+SK176_44,REQ155_SIGEN,signatory_person,fecha exacta y persona firmante de Nota 3672/09; cargo Síndico General ya probado,resolver relevo Pacios/Reposo,Cuenta 2009 + Decretos 1795/1796,no interpolar persona
+SK177_45,REQ155_SIGEN,program_contract,Programa Global de Crédito MiPyME + BID 1192/OC-AR + Decreto 1273/2012 FONDYF,identificar filas del mismo programa pese a cambio SAF 357→362,Cuenta 2008/2009; SIGEN 2017/2019; Cuenta 2019,programa común no prueba misma observación
+SK177_46,REQ155_SIGEN,account_ids,2119/45;210010000;MI4285;MS4285;MY4002-4006;MYUEC1;MYUEC;COBCAP;COBINT;FP1192;FDOGTOS,buscar alta SISIO y expedientes por cuenta exacta,14 cuentas comunes 2008/2009/2018,"normalizar espacios, guiones y ceros"
+SK177_47,REQ133_ECON,2017_notes,04854651SSFP#MP/2017;7813292/SSFP#MP/2017,recuperar explicación préstamo finalizado y anexos,SIGEN Cuenta 2016 PDF 92,texto citado no sustituye notas
+SK177_48,REQ133_ECON,meeting,reunión DAIF 29/08/2019 BID 1192 CGN SAF362 UAI,"recuperar minuta, convocatoria, asistentes y compromisos",Cuenta 2019 PDF 76-77,mención narrativa no prueba resultado
+SK177_49,REQ155_SIGEN,observation_text,MP0191 cierre sin respaldo; estados 2015 no emitidos; contabilidad desactualizada agosto 2014; saldo 489607291.57→685073367.12,localizar informes UAI fuente y filas SISIO,SIGEN 2017/2019,buscar importes con variantes de separador
+SK178_50,REQ133_ECON/BCRA,legacy_notes,466/1796/08; Nota 88/14; MP0191,cerrar atribución y estado de MP0191,Cuentas 2011-2013,cita no sustituye cuerpo
+SK178_51,DNR/BO/REQ133_ECON,contract,Resolución 967/2006; idAnexo 00345809; contrato 26/05/2004,recuperar contraparte ejecutada,modelo BO recuperado,modelo no es original firmado
+SK178_52,BNA/Secretaría PyME/Hacienda/BICE,agreement,Resolución 206/2012; convenio 28/12/2012,recuperar convenio firmado,Res. 4/2016,recital no reemplaza ejemplar
+SK178_53,BNA/Secretaría PyME,admin_reports,Resolución 48/2013; informes mensuales; comisión 2%,recuperar ejecución y reportes,Res. 48/2013,datos personales pueden testarse
+SK178_54,Secretaría PyME/Comité,handoff,Acta 398 08/08/2014; Resolución 1417/2014,cerrar transferencia,Res. 4/2016,estructura no prueba cumplimiento
+SK178_55,CGN/UAI/SAF362,crosswalk,482435943.60; 489607291.57; 676322549.15; 685073367.12,reconciliar Cuadro 13.3,Cuentas/SIGEN,gap no equivale a daño
+SK179_56,REQ179_ECON_BO,executed_contract,S01:0076739/2005; Resolución 967/2006; 00345809; contrato 26/05/2004,contraparte firmada y versiones,BO anexo completo,modelo aprobado no prueba firma
+SK179_57,REQ179_BCRA,clause16_reports,rendición trimestral; Deudores del Sistema Financiero; Estado de Situación de Deudores,serie de reportes y cartera,Contrato cláusula 16,admitir testado de datos personales
+SK179_58,REQ179_IFI,guarantee,Anexo III; garantía bancaria; indemnidad; débito automático; insuficiencia 48 horas,ejecución de garantías,Anexo III cláusulas 3-9,cláusula no prueba activación
+SK179_59,REQ179_IFI,credit_ledger,cesión en garantía; pagarés; contraparte IFI; cartera MyPES II(a),padrón conciliable,Contrato y Anexos I-II,testar CUIT/nombres cuando corresponda
+SK179_60,REQ179_ECON_BCRA,fiduciary_accounts,cuentas fideicomiso; retribución fiduciaria; comisión compromiso; extractos,reconstruir flujos y costos,Contrato cláusulas 10-16,no inferir ganancia sin ledger
+SK179_61,REQ179_TRANSITION,novation_transfer,Decreto 1273/2012; FONDYF; liquidación MyPES II(a); cesión; novación; BNA,separar obligaciones 2006 y 2013,cadena normativa V178/V180,prohibida la transposición sin instrumento
+SK180_62,REQ180_MYPESII,date,26/05/2004;22/03/2005;19/08/2005,contrapartes ejecutadas,Res747; AGN160,fecha oficial no sustituye documento
+SK180_63,REQ180_MYPESII,expedient,S01:0264727/2004,addendas/garantías,Res747,pedir cuerpo y anexos
+SK180_64,REQ180_MYPESII,expedient,S01:0431231/08,liquidación,AGN14,pedir resolución y balance
+SK180_65,REQ180_MYPESII,note,UCP 112/09 de 14/09/2009,estado de liquidación,AGN14,pedir adjuntos/respuesta
+SK180_66,REQ180_MYPESII,record_family,Carta de Intención de cierre al 31/08/2007,cierre contractual,AGN14,pedir versión firmada
+SK180_67,REQ180_MYPESII,record_family,cláusula 16; archivos mensuales de deudores,desempeño y control,modelos 2004-2005,pedir diccionario y serie
+SK180_68,REQ180_MYPESII,communication,A4620;B8920;B8995;B9055;B9056;B9123,facility ledger/rates,BCRA,norma no sustituye contratos
+SK180_69,REQ180_MYPESII,account,recuperos 643/867/1192; FONDYF,transición patrimonial,Decreto1273,pedir puente de saldos
+SK181_70,REQ181_RES1406,resolution,Resolución 1406; noviembre 2014; MyPES II,"acto, anexos y notificación",SIGEN 2017/2019,no confundir con otras resoluciones 1406
+SK181_71,REQ181_RES1406,party,Banco Macro; Banco Credicoop; Macro Fiducia; SIASA,recursos y cálculo por sujeto,SIGEN + BCRA,normalizar cambios de razón social
+SK181_72,REQ181_RES1406,trust_id,10155 - FIDEICOMISO MYPES II (A),baja registral y balance,BCRA 2011S2,buscar por código además de nombre
+SK181_73,REQ181_RES1406,date,27/12/2005,instructivo comisión,AGN 160/2006 p.81,pedir adjuntos y acuse
+SK181_74,REQ181_RES1406,formula,"0,75% anual; USD 8.000.000 trimestral; saldo no desembolsado",liquidaciones y sensibilidades,AGN 160/2006,no convertir sensibilidad en deuda
+SK181_75,REQ181_RES1406,record_family,reconsideración con jerárquico en subsidio,decisión final,SIGEN,pedir dictámenes y notificaciones
+SK182_76,RO182_77,bank_account,MY 4002; Fondo Comisión de Compromiso; BID 1192/OC-AR,"conciliar saldo 2018 con acto, contraparte y destino",Cuenta 2019 Anexo 4.35 PDF 168,rótulo contable no equivale a deuda ni pago
+SK182_77,RO182_78,closure,nota (3) Cuenta 2020; no se había certificado su cierre definitivo; BID 1192 FONDIF,recuperar certificado y anexos de cierre,Cuenta 2020 Anexo 4.21 y notas,cero financiero no certifica extinción
+SK182_78,RO182_79,archive_id,IdDocumento 201921; 204917; 207827,recuperar binarios SIGEN faltantes,ArchivoWeb SIGEN,metadatos públicos sin adjunto visible
+SK183_79,RO183_80,account,MY 4002; Fondo Comisión de Compromiso; 13584.85; 15182.68,recuperar mayor y asientos,Cuentas 2008-2018,saldo no identifica contraparte
+SK183_80,RO183_81,bank_support,569350.57; 15182.68; 31/12/18; BCRA; UEPEX,certificar saldo 2018,Cuenta 2018 PDF 249,resumen sin referencia bancaria
+SK183_81,RO183_82,administrative_file,Resolución 1406; noviembre 2014; comisión de compromiso; Macro; Credicoop; reconsideración; jerárquico,recuperar expediente integral,SIGEN 2017/2019,no confundir con Res ST 1406/2014 laboral

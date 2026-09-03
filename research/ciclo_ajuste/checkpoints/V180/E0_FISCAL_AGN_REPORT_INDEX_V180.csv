@@ -1,0 +1,9 @@
+record_id,resolution,actuacion,period_coverage,requested_or_report_scope,retrieved_scope,match_status,source_id,caveat
+AGN_REQUEST_2018_08_14,NOT_PUBLISHED_IN_EXACT_API_RECORD,NOT_PUBLISHED_IN_EXACT_API_RECORD,2006-2011,Evolution and distribution of foreign-currency debt held by private sector; BODEN 2006/2012/2013,"Exact JSON node with request/response dates, topic and generic response text; no file relationship",EXACT_PUBLIC_API_RECORD_NO_FILE_RELATIONSHIP,e0_agn_transparencia_boden_2018;e0_agn_api_boden_request_2018_record,The public API omits identifiers and attachment; an offline individualized answer is not excluded.
+AGN_RES202_2009,202/2009,41/2009,2008,Evolution of public debt,All public debt by broad creditor sector,PERIOD_AND_THEME_MATCH_NOT_PROVEN_AS_2018_REPLY,e0_agn_res_202_2009_act_41_2009_deuda,Not instrument-specific.
+AGN_RES084_2015,84/2015,158/2010,2009-2012,Evolution and distribution of public debt,All public debt by broad creditor sector and public agencies,PERIOD_AND_THEME_MATCH_NOT_PROVEN_AS_2018_REPLY,e0_agn_res_084_2015_act_158_2010_deuda,Not BODEN-specific; no beneficial-holder register.
+AGN_RES102_2011,102/2011,366/2009,2009H1,FGS management,Specific duplicated PF BODEN 2012 inventory control,ADJACENT_SPECIFIC_CONTROL_NOT_DISTRIBUTION_REPORT,e0_agn_res_102_2011_act_366_2009_fgs,Public-holder accounting exception; not Treasury payment or private-holder distribution.
+AGN_RES041_2016,41/2016,N/D,2009-2013; custody request 2014,Intra-public-sector debt and custodian transparency,"Primary audit findings on missing custody holdings, Caja/CNV non-production and Caja referral note",PRIMARY_CUSTODIAN_DISCLOSURE_GAP_CONTROL,e0_agn_res_041_2016_deuda_custodian_gap,Public-sector agency holdings and later audit period; not a BODEN-specific beneficial-holder register or 2008 settlement record.
+
+
+

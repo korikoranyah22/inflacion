@@ -1,0 +1,16 @@
+row_id,year,documented_count,record_class,request_target,minimum_fields,probative_value,limit,status
+SP157_01,2008,cerca de 120,Informe de Supervisión del Planeamiento,Informe UAI Economía 2008,número; fecha; UAI; plan; observaciones; aprobación,Prueba clase contemporánea,Agregado aproximado,COUNT_DOCUMENTED
+SP157_02,2009,cerca de 160,Informe de Supervisión del Planeamiento,Informe UAI Economía 2009,número; fecha; UAI; plan; observaciones; aprobación,Prueba clase target,Agregado aproximado,COUNT_DOCUMENTED
+SP157_03,2010,aproximadamente 140,Informe de Supervisión del Planeamiento,Comparador UAI Economía 2010,número; fecha; UAI; plan; observaciones; aprobación,Prueba continuidad,Posterior,COUNT_DOCUMENTED
+SP157_04,2008,N/A,Plan anual UAI,Subplan Economía 2008,proyectos; período; horas; productos,Antecedente Cuenta 2008,No plan 2009,PLAN_RECORD
+SP157_05,2009,N/A,Plan anual UAI,Subplan Economía 2009,proyectos; período; horas; productos,Puede contener seguimiento Cuenta 2008,No localizado,PLAN_RECORD
+SP157_06,2009,N/A,Plan SIGEN 2009,Consolidación completa,UAI; actividad; producto; horas,Ubica subplan,No cuerpo individual,CONSOLIDATED_PLAN
+SP157_07,2009,N/A,Lineamientos generales,Planeamiento 2009,fecha; emisor; pautas; destinatarios,Define requisitos,No plan,GUIDANCE_RECORD
+SP157_08,2009,N/A,Pautas particulares gerenciales,Gerencia competente Economía,gerencia; fecha; temas; requerimientos,Puede nombrar Cuenta y deuda,GSEyP aún no expandido,GUIDANCE_RECORD
+SP157_09,2009,N/A,Comunicación de aprobación,UAI Economía,fecha; plan; observaciones; firma,Cierra aprobación individual,No ejecución,APPROVAL_RECORD
+SP157_10,2009,N/A,Modificación de plan,UAI Economía,versión; motivo; alta; baja; aprobación,Detecta No Planificado,No localizada,VERSION_RECORD
+SP157_11,2009,N/A,Ejecución del plan,UAI Economía,proyecto; avance; informe; horas,Vincula plan-producto,No banco,EXECUTION_RECORD
+SP157_12,2009,N/A,Registro de producto,SISIO,id; actividad; informe; fecha; estado,Vincula sistema-cuerpo,No constancia hallada,SYSTEM_RECORD
+SP157_13,2009,N/A,Informe de auditoría,Cuenta de Inversión 2008,número; cuerpo; anexos; destino,Producto sustantivo,No confundir supervisión,AUDIT_RECORD
+SP157_14,2009,N/A,Papeles de trabajo,Cuenta de Inversión 2008,índice; cédulas; evidencia; ubicación,Soporte del producto,No banco,WORKPAPER_RECORD
+SP157_15,Regla final,N/A,Separación de clases,"Plan, supervisión, auditoría y papeles",ids y vínculos entre cuatro cuerpos,Evita respuesta parcial,Ninguno prueba pago,METHOD_LIMIT

@@ -1,0 +1,10 @@
+﻿exercise,report,finding,account_named,continuity_for_54395_36,caveat
+2021,UAI 3/2022 cierre,current-account items pending reconciliation older than one year,NO,NOT_TESTABLE,source-internal fieldwork date inconsistency
+2021,UAI 9/2022 Cuenta de Inversión,Cuadro 1 accounts with pending reconciliation items,NO,NOT_TESTABLE,executive summary only
+2022,UAI 2/2023 cierre,balances inconsistent and items older than one year pending reconciliation,NO,NOT_TESTABLE,general SAF observation
+2022,UAI 3/2023 Cuenta de Inversión,Cuadro 1 bank accounts with pending reconciliation items,NO,NOT_TESTABLE,BID2923 issue is not BID1192
+2023-10-31,UAI 22/2023 change of administration,54395/36: BNA 0; e-SIDIF bank 0; e-SIDIF ledger -36.6m,YES,EXACT_AT_CUTOFF,origin and reconciliation not public
+2023,UAI 1/2024 cierre,"unreconciled items in several accounts, all from prior exercises; detail at fs. 16",NO,NOT_TESTABLE,fs. 16 not in public summary
+2023,UAI 4/2024 Cuenta de Inversión,Cuadro 1 items pending reconciliation and one balance misstated,NO,NOT_TESTABLE,executive summary only
+2024,UAI 2/2025 cierre,"unreconciled items in several accounts, all from prior exercises",NO,NOT_TESTABLE,executive summary only
+2024,UAI 2025 Cuenta de Inversión,Cuadro 1 accounts with pending reconciliation items,NO,NOT_TESTABLE,executive summary only

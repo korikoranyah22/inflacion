@@ -1,0 +1,5 @@
+﻿file,sheet,range,result
+cgn_account_2020_annex_4_21_mdp.xlsx,362,A1:P52,PASS_BID1192_COLUMN_ALL_ZERO
+cgn_account_2020_annex_4_37_bank_accounts.xlsx,F21,A1:BJ51,PASS_NO_MYPES_IDENTIFIER_MATCH
+cgn_account_2021_annex_4_20_mdp.xlsx,362,A1:O52,PASS_BID1192_COLUMN_ABSENT
+cgn_account_2021_annex_4_35_bank_accounts.xlsx,ctas,A1:P1041,PASS_NO_MYPES_IDENTIFIER_MATCH

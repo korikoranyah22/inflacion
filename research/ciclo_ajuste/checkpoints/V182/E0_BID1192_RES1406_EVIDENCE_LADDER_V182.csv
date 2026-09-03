@@ -1,0 +1,7 @@
+﻿row_id,proposition,status,proof,not_proved
+EL181_01,existió una Resolución 1406 en noviembre de 2014,SUPPORTED_BY_REPEATED_SIGEN_REPORT,"dos compilaciones oficiales reproducen número, mes y objeto","texto íntegro, emisor, expediente"
+EL181_02,Macro y Credicoop fueron intimados,SUPPORTED_BY_REPEATED_SIGEN_REPORT,contrapartes nominadas,recepción válida y monto individual
+EL181_03,existió una obligación contractual de comisión,SUPPORTED_BY_AGN_QUOTED_CLAUSE,"0,75% anual sobre saldo no desembolsado; semestral",fórmula ejecutada y obligación final por IFI
+EL181_04,la pretensión quedó firme,NOT_PROVED_CONTRADICTED_BY_PENDING_APPEALS,recursos reportados pendientes,decisión final y notificación
+EL181_05,hubo pago o cobro,NOT_PROVED,ninguna fuente pública localizada,"tesorería, banco, fiduciario y contabilidad"
+EL181_06,el Estado sufrió daño cuantificado,NOT_PROVED,"hay brecha de ejecución y reclamo, no nexo/importe firme","cálculo, compensaciones, prescripción, decisión y cobro"

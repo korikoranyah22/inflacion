@@ -14724,8 +14724,10 @@ html,body{overflow-x:clip}
 <div class="dashboard-credit">♡ ✦ hecho por <a href="https://x.com/miyurory" target="_blank" rel="noopener">@MiyuRory</a> y <span class="naira">Naira</span> 🐾 ✦ 🐾 ♡</div>
 </div>
 
-<script src="assets/epica-super-tabs.js"></script>
-<script src="assets/epica-stage2-tabs.js"></script>
+<script src="assets/epica-super-tabs.js?v=20260902-1"></script>
+<script src="assets/epica-stage2-tabs.js?v=20260902-1"></script>
+<script src="assets/political-wealth-data.js?v=20260902-28"></script>
+<script src="assets/political-wealth-tab.js?v=20260902-28"></script>
 
 <script>
 const DASHBOARD_SNAPSHOT_CUTOFF = '2026-08-21';
@@ -15345,7 +15347,7 @@ const DASH_TAB_GROUPS={
   prices:['tab-epica-dollars','tab-epica-narratives','tab-epica-caputo-colchon','tab-rates','tab-pres','tab-risk','tab-bigmac','tab-wholesale','tab-bcra'],
   activity:['tab-epica-development','tab-epica-narratives','tab-consumption','tab-work','tab-investment','tab-housing','tab-growth','tab-emae','tab-roads','tab-tourism','tab-trade'],
   state:['tab-epica-dollars','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon','tab-social','tab-health-education','tab-debt-public','tab-fiscal','tab-bcra','tab-debt-spiral','tab-program'],
-  power:['tab-epica-incidence','tab-epica-narratives','tab-pendulo','tab-rates','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-wealth-contribution','tab-milei-cost','tab-meli-benefits','tab-casta']
+  power:['tab-epica-incidence','tab-epica-narratives','tab-pendulo','tab-rates','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-wealth-contribution','tab-milei-cost','tab-meli-benefits','tab-political-wealth','tab-casta']
 };
 let dashNavGroup='all';
 function dashVisibleButtons(){return [...document.querySelectorAll('#dash-main-tabs .tab-btn:not([hidden])')];}
@@ -15407,7 +15409,7 @@ function moveHorizontalMenuWithWheel(menu,event){
   menu._horizontalWheelSnapTimer=setTimeout(()=>menu.style.removeProperty('scroll-snap-type'),170);
   return true;
 }
-const HORIZONTAL_WHEEL_MENU_SELECTOR='.dash-topic-buttons, .tabs, .story-nav, .pend-layer-nav, .pend-controls-near-chart .pend-control, .milei-cost-table-wrap';
+const HORIZONTAL_WHEEL_MENU_SELECTOR='.dash-topic-buttons, .tabs, .story-nav, .pend-layer-nav, .pend-controls-near-chart .pend-control, .milei-cost-table-wrap, .epica-toolbar, .pw-controls';
 function bindHorizontalWheelMenus(){
   const root=document.documentElement;
   if(root.dataset.horizontalWheelMenusBound)return;

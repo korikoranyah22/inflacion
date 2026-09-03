@@ -1,0 +1,5 @@
+﻿row_id,cutoff,publication,status,proved,not_proved,source
+CT182_01,2018-12-31,Cuenta 2019,REFERENCE_BALANCES_ONLY,"16 cuentas y ARS 824.861.366,21 equivalentes informados por referentes","extractos, conciliación, titularidad actual o disponibilidad 2019",Cuenta 2019 Anexo 4.35 PDF 167-169
+CT182_02,2019-12-31,Cuenta 2019,NO_INFORMATION_SUBMITTED,CGN declara que no se presentó información del programa,"cero, cierre, extinción, pago o destino",Cuenta 2019 Anexo 4.35 PDF 167-169
+CT182_03,2020-12-31,Cuenta 2020,ZERO_FINANCIAL_MOVEMENTS_CLOSURE_UNCERTIFIED,BID 1192 con todos los rubros en cero; nota 3 sin cierre definitivo certificado,acto de cierre y conciliación con cuentas históricas,Cuenta 2020 Anexo 4.21 C9/C13:C51 y nota 3
+CT182_04,2021-12-31,Cuenta 2021,ABSENT_FROM_SAF362_AND_BANK_TABLE,sin columna BID1192 y sin coincidencias de identificadores MyPES en cuadro bancario,"fecha, causa y efectos jurídicos de baja",Cuenta 2021 Anexos 4.20 y 4.35

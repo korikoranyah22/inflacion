@@ -1,0 +1,5 @@
+﻿id,endpoint,result,preserved,limit
+PS184_01,CGN Cuenta 2020 separata,MY4002 active under FONDyF; 2020 fields blank,YES,balance/transfer open
+PS184_02,HCDN JGM 0032-JGM-2021,legislative copy and IF identifier,YES,"duplicate content, no ledger"
+PS184_03,CGN movement-financial index,4.37 link label versus 4.36 internal content mismatch,YES,server publication defect
+PS184_04,BCRA B11368 / TGN SIRECO,ledger-code and closure-evidence routes,YES,not execution proof

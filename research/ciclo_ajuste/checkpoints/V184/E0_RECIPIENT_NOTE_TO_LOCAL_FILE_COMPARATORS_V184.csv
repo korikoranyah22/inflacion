@@ -1,0 +1,4 @@
+row_id,sender_note,recipient,subject,recipient_identifier,recorded_actions,status
+RC174_01,3832/2009-GSPF,ERAS,Informe de Evaluación del Sistema de Control Interno 2008 - ERAS - Junio 2009,Expte. 828-09,informes internos; dictamen jurídico; respuesta a SIGEN con copia JGM,COMPARATOR_PROVED
+RC174_02,5095/2009-GSPF,ERAS,Supervisión UAI ERAS - Plan enero-junio 2009,Expte. 878-09,pases a áreas; retorno UAI; instrucción jurídica urgente,COMPARATOR_PROVED
+RC174_03,3672/09-GSEyP,CGN según contexto; confirmar destinatario formal,respuesta a 0120/09 DAIF; seguimiento de hallazgos UEPEX/cierre 2008,ABIERTO,alta SISIO e instrucciones referidas; metadatos y cuerpo abiertos,TARGET_RECIPIENT_FILE_OPEN

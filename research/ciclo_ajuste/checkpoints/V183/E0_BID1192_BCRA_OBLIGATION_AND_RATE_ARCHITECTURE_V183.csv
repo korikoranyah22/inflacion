@@ -1,0 +1,7 @@
+﻿row_id,component,responsible,rule,economic_incidence,source,evidence_limit
+BA180_01,tasa de transferencia,BCRA/programa,costo de fondeo BID + administración,Estado absorbe riesgo cambiario tras pesificación,A 4620 + BID PCR,no determina por sí sola ganancia bancaria
+BA180_02,spread,IFI dentro de banda,0-6 pp y luego 0-5 pp,margen bruto regulado,B 8920/B8995/B9055/B9123,no equivale a utilidad neta
+BA180_03,comisiones/seguros,IFI,fijación no idénticamente topada; informar CFT; sin paquete forzoso,eleva costo total del deudor,A 4620/B8920/AGN14,requiere contrato individual para cuantificar
+BA180_04,riesgo crediticio,IFI,asume todo el riesgo y paga aun si subprestatario incumple,justifica parte del spread,A 4620,pérdidas efectivas requieren cartera/mora
+BA180_05,garantía al BCRA,IFI,cobertura mínima 125%,mitiga exposición del programa,B 8920,tipo/valor de garantía por operación pendiente
+BA180_06,legajo/destino,IFI,"elegibilidad, solvencia, destino, garantías, archivo y supervisión",costo operativo y deber de diligencia,A 4620,cumplimiento debe probarse por legajos

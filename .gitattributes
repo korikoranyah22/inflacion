@@ -1,0 +1,4 @@
+research/political_wealth_2026-09-01/sources/datos_justicia/declaraciones-juradas-2012-2024.zip filter=lfs diff=lfs merge=lfs -text
+tmp/political_wealth_2012_2024/declaraciones-juradas-bienes-2022-consolidado-al-20251222.csv filter=lfs diff=lfs merge=lfs -text
+tmp/political_wealth_2012_2024/declaraciones-juradas-bienes-2023-consolidado-al-20251222.csv filter=lfs diff=lfs merge=lfs -text
+tmp/political_wealth_2012_2024/declaraciones-juradas-bienes-2024-consolidado-al-20251222.csv filter=lfs diff=lfs merge=lfs -text

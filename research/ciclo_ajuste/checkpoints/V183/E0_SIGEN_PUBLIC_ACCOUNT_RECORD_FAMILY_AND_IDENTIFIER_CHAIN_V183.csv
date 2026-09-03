@@ -1,0 +1,31 @@
+row_id,public_report_no,detail_id,internal_report_no,if_or_document_id,attachment_id,expediente,object,finding,status
+PF154_01,ARCHIVE,2020-2026,N/A,N/A,N/A,N/A,Ventana pública actual,121 entradas visibles; no expone 2009,CURRENT_WINDOW_ONLY
+PF154_02,00394/2020,205646,No extraído,IF-2020-02708805,80598462,,Tareas de cierre 2019,Corte de documentación y registros,FAMILY_MEMBER
+PF154_03,00395/2020,205658,04/2020-UAI,IF-2020-09438552-APN-UAI#SIGEN,80591554,EX-2019-113610848-APN-SIGEN,Anexo C FF11,Certificación ejecutada,EXECUTED_CERTIFICATE
+PF154_04,00396/2020,No preservado,No extraído,No extraído,No extraído,No extraído,Anexo C FF12,Visible sólo en lista,LISTING_ONLY
+PF154_05,00397/2020,No preservado,No extraído,No extraído,No extraído,No extraído,Anexo C FF15,Visible sólo en lista,LISTING_ONLY
+PF154_06,00398/2020,205855,007/2020-UAI,IF-2020-09433026-APN-UAI#SIGEN,80644620,EX-2019-113610848-APN-SIGEN,Anexo A Caja y Bancos,Certificación ejecutada,EXECUTED_CERTIFICATE
+PF154_07,00399/2020,205858,15/2020-UAI,IF-2020-30081841-APN-UAI#SIGEN,80645562,EX-2020-29170634-APN-SIGEN,Remanente FF11,Certificación con referencias,EXECUTED_CERTIFICATE
+PF154_08,00400/2020,No preservado,No extraído,No extraído,No extraído,No extraído,Remanente FF12,Visible sólo en lista,LISTING_ONLY
+PF154_09,00401/2020,No preservado,No extraído,No extraído,No extraído,No extraído,Remanente FF15,Visible sólo en lista,LISTING_ONLY
+PF154_10,00402/2020,205865,019/2020-UAI,IF-2020-34855376-APN-UAI#SIGEN,80646818,No consignado,Auditoría integral Cuenta 2019,Anexos A-C embebidos,LATER_ACCOUNT_AUDIT
+PF154_11,PUBLIC_NO,00398/2020,007/2020-UAI,IF-2020-09433026,80644620,,Tres numeraciones,No fundir claves,IDENTIFIER_SEPARATION
+PF154_12,DETAIL_ID,205855,,,,,Ficha pública,Identifica metadatos,IDENTIFIER_LAYER
+PF154_13,ATTACHMENT_ID,80644620,,,,,IdA de descarga,Identifica binario,IDENTIFIER_LAYER
+PF154_14,IF_ID,IF-2020-09433026,,,,,Identificador GDE,No extrapolar a 2009,IDENTIFIER_LAYER
+PF154_15,EXPEDIENTE,EX-2019-113610848,,,,,Contenedor,Pedir equivalente 2009,CONTAINER_LAYER
+PF154_16,REMITTANCE,IF-2020-08168211,,,,,Documento productor,Pedir nota SAF355-UAI,ROUTING_LAYER
+PF154_17,ORDER,Orden 4,,,,,Ubicación en expediente,Pedir folio/asiento,CONTAINER_LAYER
+PF154_18,SOURCE_ACCOUNTING,Registros contables,,,,,Fuente declarada,Pedir archivo/consulta,SOURCE_LAYER
+PF154_19,SOURCE_BANK,Extractos bancarios,,,,,Fuente declarada,Pedir cuenta y movimiento,SOURCE_LAYER
+PF154_20,SOURCE_BANK_CERT,Certificaciones de saldo,,,,,Fuente declarada,Saldo no es transacción,SOURCE_LAYER
+PF154_21,SOURCE_MINISTRY,Extractos ministeriales,,,,,Fuente declarada,Pedir versión exacta,SOURCE_LAYER
+PF154_22,CROSSREF_CERT,IF-2020-09438552,,,,,Certificado previo citado,Pedir cuerpo referido,CROSS_REFERENCE
+PF154_23,CROSSREF_MHA,IF-2020-26720406,,,,,Cálculo ministerial citado,Pedir cuerpo referido,CROSS_REFERENCE
+PF154_24,AUDIT_TEST,Cotejo selectivo,,,,,Transacciones contra respaldo,Selectivo no es exhaustivo,AUDIT_LAYER
+PF154_25,AUDIT_SEND,Envío oportuno CGN,,,,,Procedimiento declarado,No sustituye acuse,AUDIT_LAYER
+PF154_26,EMBEDDED,Anexos A B C,,,,,Adjuntos declarados,Referencia no es cuerpo,ATTACHMENT_LAYER
+PF154_27,TARGET_2009,Número público/interno/registro,,,,,Campos históricos,No exigir GDE,REQUEST_UPGRADE
+PF154_28,TARGET_SAF355,Anexos I-V ejecutados,,,,,Objeto pendiente,Comparador no cierra brecha,TARGET_OPEN
+PF154_29,TARGET_BANK,Movimiento y reversas,,,,,Objeto pendiente,Tres IDs siguen abiertos,TARGET_OPEN
+

@@ -20,7 +20,7 @@ def digest(path: Path) -> str:
 
 
 manifest = json.loads((BUNDLE / ".bundle-manifest.json").read_text(encoding="utf-8"))
-assert manifest["public_file_count"] == 32
+assert manifest["public_file_count"] == 124
 assert manifest["public_bytes"] < MAX_BUNDLE_BYTES
 
 for row in manifest["files"]:
@@ -44,6 +44,15 @@ assert not (BUNDLE / "Mora").exists()
 assert not (BUNDLE / "Reclamo colectivo").exists()
 assert not (BUNDLE / "research" / "ciclo_ajuste").exists()
 assert not (
+    BUNDLE / "research" / "political_wealth_2026-09-01" / "sources"
+).exists()
+assert not (
+    BUNDLE / "research" / "political_wealth_2026-09-01" / "derived" / "person_series.csv"
+).exists()
+assert not (
+    BUNDLE / "research" / "political_wealth_2026-09-01" / "derived" / "political_group_coverage.csv"
+).exists()
+assert not (
     BUNDLE
     / "research"
     / "epica_dashito_2026"
@@ -55,9 +64,10 @@ assert not (
 asset = (BUNDLE / "index.html").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "epica-super-tabs.js").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "epica-stage2-tabs.js").read_text(encoding="utf-8")
+asset += (BUNDLE / "assets" / "political-wealth-tab.js").read_text(encoding="utf-8")
 for row in manifest["files"]:
     relative = str(row["path"])
     if relative.startswith("research/"):
-        assert f'href="{relative}"' in asset, f"Descarga no enlazada: {relative}"
+        assert f'href="{relative}"' in asset or f"'{relative}'" in asset, f"Descarga no enlazada: {relative}"
 
 print(f"OK: paquete Railway autocontenido · {manifest['public_bytes'] / 1024 / 1024:.2f} MiB")

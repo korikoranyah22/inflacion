@@ -1,0 +1,10 @@
+﻿row_id,dimension,mypes_2006,fondyf_bna_2013,safe_conclusion
+NT180R_01,instrumento,modelo de fideicomiso Res. 967 no perfeccionado al 22/02/2008,convenio de administración BNA-FONDYF,regímenes jurídicos distintos; el primero no se presume operativo
+NT180R_02,función bancaria,IFI originaría/administraría créditos y aportaría contraparte según modelo,BNA administra fondos y operaciones por cuenta del FONDYF,no homologar funciones
+NT180R_03,riesgo crediticio,modelo formula garantías IFI; régimen ejecutado previo se limita por Res. 747,modelo dice que BNA no asume riesgo de crédito,no trasladar riesgo ni solidaridad
+NT180R_04,garantía/indemnidad,"Anexo III aprobado, no perfeccionado",sin garantía equivalente localizada,ninguna cláusula 2006 se imputa a BNA ni se toma como hecho
+NT180R_05,débito automático,autorización prevista sobre cuentas IFI,sin obligación equivalente localizada,exige instrumento ejecutado específico
+NT180R_06,remuneración,retribución fiduciaria/spread/costos previstos,2% de créditos efectivamente otorgados más gastos taxativos,precios y bases diferentes
+NT180R_07,información,régimen trimestral/auditoría/archivo BCRA previsto,informes mensuales de operación/cobranza/mora/saldos,pedir archivos por separado
+NT180R_08,transición,no se perfeccionó; el régimen 2005 terminó,recuperos integrados por Decreto 1273/2012,falta balance/inventario contable de transferencia
+NT180R_09,atribución,roles sólo aprobados en modelo,obligaciones aprobadas para BNA/Programa,ninguna imputación cruza períodos sin instrumento y ledger

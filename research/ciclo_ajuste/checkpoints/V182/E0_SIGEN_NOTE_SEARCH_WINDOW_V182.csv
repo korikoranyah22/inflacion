@@ -1,0 +1,4 @@
+priority,scope,keys,reason,closure
+1,todo 2009,NOT; 3672; 03672; 3672/09; 3672/2009; GSEyP; 0120/09 DAIF,evita falsa precisión temporal,registro/cuerpo o negativo fundado por campos y sistemas
+2,serie 2500-4200/2009,exportación de libro/asientos de Notas y tabla de numeración,"comparadores públicos 2518, 3059, 3832 y 4169",regla de numeración y fila 3672 con campos CIDD
+3,aproximación julio-diciembre 2009,"fecha, destinatario CGN, asunto UEPEX/cierre 2008","ventana operativa inferida, no hecho probado",usar sólo como ayuda secundaria

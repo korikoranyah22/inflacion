@@ -1,0 +1,5 @@
+﻿step,document,status,proved_by_secondary_official_reproduction,missing
+1,NO-2021-16359825-APN-DNFP#MDP,BODY_NOT_LOCATED_PUBLICLY,CGN quotes its content in Anexo 4.37,"full signed note, attachments, recipients and metadata"
+2,IF-2021-57375822-APN-SSP#MEC,LOCATED_AS_FOOTER_OF_ACCOUNT_ANNEX,identifies compiled official annex containing MY4002 row,GDE package and remittance metadata
+3,Convenios de Transferencias de préstamos,REPORTED_NOT_LOCATED,CGN says BCRA balances are transferred by these agreements,"executed agreement, date, parties, account map, amount, destination fund and receipts"
+4,MY4002 BCRA/BNA migration ledger,NOT_LOCATED,account reported active under FONDyF,"BCRA extract, transfer order, BNA credit, e-SIDIF/SIGADE/SIRECO identifiers and reconciliations"

@@ -1,0 +1,5 @@
+﻿date,bcra_trust_debt_thousand_ars,records,risk_status,macro_restricted_loans_thousand_ars,source,safe_reading
+2010-12,3331.10,,100% normal,2599,BCRA 2011S2 p.582; Macro 20-F 2011 p.207,dos métricas cercanas pero no idénticas; no restar
+2011-06,630.30,,100% normal,,BCRA 2011S2 p.582,amortización registral intermedia
+2011-12,39.60,1,100% normal,163,BCRA 2011S2 p.582; Macro 20-F 2011 p.207,remanentes en bases distintas
+2012-06,,,no listado,0 at 2012-12,BCRA 2012S1 index p.13; Macro 20-F 2012 Note 7,cierre registral/contable convergente; falta acto jurídico

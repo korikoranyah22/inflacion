@@ -1,0 +1,9 @@
+﻿level,proposition,status,proof,missing
+1,existió MY4002 denominada Fondo Comisión de Compromiso,SUPPORTED,serie CGN 2006-2020,none for accounting identity
+2,el saldo de referencia 2018 fue USD 15182.68 / ARS 569350.57,SUPPORTED_AS_CGN_RECONSTRUCTION,Cuenta 2018 y Cuenta 2020 Anexo 4.37,bank-identifiable 2018 extract
+3,MY4002 continuaba activa y manejada por FONDyF al cierre 2020,SUPPORTED_ADMINISTRATIVE_NARRATIVE,Cuenta 2020 PDF 236 quoting NO-2021-16359825,full note and account register
+4,MY4002 tenía saldo 2020 distinto de cero,NOT_PROVED,"2020 numeric fields are blank, not zero","2020 extract, ledger and reconciliation"
+5,MY4002 fue efectivamente transferida a un fondo/BNA,NOT_PROVED,CGN reports a general transfer mechanism,"executed agreement, BCRA debit, BNA/fund credit and account map"
+6,Macro o Credicoop originaron los importes,NOT_PROVED,no counterparty in public rows,transfer/receipt/asiento espejo
+7,MY4002 correspondía a la liquidación Res1406,NOT_PROVED,nominal thematic coincidence only,"act, calculation, expediente and accounting linkage"
+8,"existió deuda firme, pago, daño or responsabilidad",NOT_PROVED,administrative account continuity is insufficient,"final decision, payment evidence, causation and damage quantification"

@@ -1,0 +1,4 @@
+﻿id,endpoint,result,preserved,limit
+PS185_01,UAI SAF 362 change of administration 22/2023,exact FONDYF 54395/36 disclosure,YES,ledger/reconciliation absent
+PS185_02,UAI closure/account series 2021-2024,generic repeated reconciliation findings,YES,later account IDs absent
+PS185_03,UAI FONDEP 17/2023,successor control comparator,YES,no FONDYF transfer proof

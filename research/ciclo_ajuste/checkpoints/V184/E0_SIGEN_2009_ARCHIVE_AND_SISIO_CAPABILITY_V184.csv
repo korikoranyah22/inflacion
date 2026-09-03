@@ -1,0 +1,5 @@
+row_id,source,page,capability,evidentiary_effect,target_gap
+AC175_01,Memoria SIGEN 2009,PDF 6,instrucciones de trabajo para certificaciones UAI de Cuenta de Inversión e Informe Cuenta 2008,capacidad y actividad contemporánea probadas,no enumera Nota 3672
+AC175_02,Memoria SIGEN 2009,PDF 7,mejoras a SISIO WEB para supervisión y seguimiento de planificación UAI; hallazgos y acciones,SISIO operativo y usado para seguimiento,faltan exportación e IDs de observaciones
+AC175_03,Memoria SIGEN 2009,PDF 13,"continuidad del archivo digital de Mesa de Entradas e inicio de reordenamiento, revisión, clasificación y registro del Archivo General",capacidad de custodia contemporánea probada,falta ubicación digital/física individual
+AC175_04,Resolución 2600/2009,Anexo II,SIGEN carga observaciones y estados en SISIO; UAI/áreas registran acciones y seguimiento,campos y transiciones reclamables definidos,no contiene las filas del caso CGN

@@ -1,0 +1,8 @@
+persona,perimetro,anio,valor_nominal_ars,indice_nominal_base,ipc_factor_desde_base,valor_real_ars_base,indice_real_base,estado_fuente,nota
+Máximo Kirchner,patrimonio_total,2022,1099930211.99,100.00,1.000000,1099930211.99,100.00,valor_publicado_pdf_oa_pendiente,Base del auditor de período
+Máximo Kirchner,patrimonio_total,2023,4719066772.97,429.03,3.114000,1515435701.02,137.78,valor_publicado_pdf_oa_pendiente,Deflación total simplificada
+Máximo Kirchner,patrimonio_total,2024,8311567011.23,755.64,6.781092,1225480561.91,111.41,valor_publicado_pdf_oa_pendiente,Deflación total simplificada
+Máximo Kirchner,patrimonio_total,2025,11085027375.28,1007.79,8.918714,1242895264.96,113.00,valor_publicado_pdf_oa_pendiente,IPC compuesto 2023 2024 2025
+Karina Milei,inmueble_departamento_cochera,2023,1833559.24,100.00,1.000000,1833559.24,100.00,valor_publicado_pdf_oa_pendiente,Activo persistente no patrimonio total
+Karina Milei,inmueble_departamento_cochera,2024,3992825.14,217.76,2.178000,1833253.05,99.98,valor_publicado_pdf_oa_pendiente,Cambio prácticamente igual al IPC 2024
+Karina Milei,inmueble_departamento_cochera,2025,28162493.00,1535.95,2.864070,9833032.36,536.28,valor_publicado_pdf_oa_pendiente,Requiere explicación metodológica o documental

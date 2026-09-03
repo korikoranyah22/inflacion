@@ -15,7 +15,13 @@ def rows(name: str) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
-assert INDEX.count('<script src="assets/epica-super-tabs.js"></script>') == 1
+assert INDEX.count('<script src="assets/epica-super-tabs.js?v=20260902-1"></script>') == 1
+assert "touch-action:pan-y pinch-zoom!important" in ASSET
+assert "scroll-snap-type:x proximity" in ASSET
+assert "scheduleEpicaResponsiveRefresh" in ASSET
+assert "orientationchange" in ASSET
+assert "Plotly.Plots.resize(chart)" in ASSET
+assert ".epica-toolbar, .pw-controls" in INDEX
 for tab in ("tab-epica-households", "tab-epica-dollars"):
     assert tab in INDEX, f"{tab} no está conectado a la navegación temática"
     assert ASSET.count(f'id="{tab}"') == 1, f"{tab} debe tener un único panel"

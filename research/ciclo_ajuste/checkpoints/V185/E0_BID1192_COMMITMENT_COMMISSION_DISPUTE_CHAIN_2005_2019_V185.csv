@@ -1,0 +1,9 @@
+﻿row_id,date,event,proved,source,legal_state,open
+CC181_01,2005-08-19,nuevo contrato ejecutado,"mínimo USD 8m cada tres meses; 0,75% anual sobre saldo no desembolsado; pago semestral","AGN 160/2006 pp.13,80",OPERATIVE_CLAUSE_CORROBORATED,contraparte firmada
+CC181_02,2005-12-27,UCP remite instructivo al administrador fiduciario,existieron metodología y fórmula complementarias,AGN 160/2006 p.81,INSTRUCTIVE_EXISTENCE_CORROBORATED,"instructivo, anexos y constancia de recepción"
+CC181_03,2005-12-31,primer período incompleto,"USD 831.246,65 ejecutados frente a mínimo USD 8m; brecha bruta USD 7.168.753,35","AGN 160/2006 pp.13,80",RAW_SHORTFALL_PROVED,"base temporal, imputación por banco, excesos y ajustes"
+CC181_04,2006,propuesta UCP de implementación,imputación a cada banco; percepción diferida; arrastre de defectos/excesos hasta cierre 2006,AGN 160/2006 pp.81-82,PROPOSED_METHOD_REPORTED,"acto de aprobación, liquidaciones y notificaciones"
+CC181_05,2006,auditoría de registros 2005,los registros/estados no reflejaban aplicación de penalidad,"AGN 160/2006 pp.13,80",NO_2005_LEDGER_APPLICATION_VERIFIED,devengamiento/pago posterior
+CC181_06,2014-11,Resolución 1406,SIGEN informa intimación a Macro y Credicoop al pago de comisión de compromiso,SIGEN Cuenta 2016/2017 · PDF 89/88,ADMINISTRATIVE_INTIMATION_REPORTED,"acto, monto, autoridad, cálculo y notificación"
+CC181_07,2014-2017,impugnación administrativa,bancos y fiduciario interpusieron reconsideración con jerárquico en subsidio,SIGEN Cuenta 2016/2017,CONTESTED_CLAIM_REPORTED,"recursos, dictámenes y decisión"
+CC181_08,2017-2019,liquidación no resuelta,observación recurrente/sin acción correctiva; estados 2015 faltantes,SIGEN octubre 2017 y febrero 2019,UNRESOLVED_AT_LAST_PUBLIC_AUDIT,"firmeza, pago, baja, balance final y destino"

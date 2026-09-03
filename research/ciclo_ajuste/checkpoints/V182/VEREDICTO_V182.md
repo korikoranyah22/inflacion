@@ -1,0 +1,3 @@
+# Veredicto V182
+
+La evidencia sube otro escalón, pero no autoriza el salto final. `MY 4002 – Fondo Comisión de Compromiso` demuestra que existía una cuenta específica asociada a ese concepto y que al cierre 2018 se informó un saldo de referencia. El BID 1192 aparece completamente en cero en 2020 mientras CGN declara que su cierre definitivo todavía no estaba certificado, y desaparece de los anexos publicados en 2021. Esta combinación obliga a pedir el mayor y extractos de MY 4002, el certificado de cierre y la conciliación de las 16 cuentas. Hasta obtenerlos, no corresponde identificar el saldo con la liquidación Res. 1406 ni afirmar pago, condonación, apropiación o daño.

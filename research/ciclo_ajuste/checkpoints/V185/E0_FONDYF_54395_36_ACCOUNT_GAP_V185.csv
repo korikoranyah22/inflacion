@@ -1,0 +1,9 @@
+﻿field,value,source_state,interpretation,limit
+account,54395/36,PUBLISHED,BNA account within non-Fondo Rotatorio accounts,not crosswalked to MY4002
+name,SEPYMEYDR - FOND Y F Rec. FF13,PUBLISHED,FONDYF recovery account funded with FF13,does not identify each recovery or loan
+BNA_certification,0,PUBLISHED,bank-certified balance at cutoff,certificate/extract itself not included in public report
+eSIDIF_bank_balance,0,PUBLISHED,bank-side balance in e-SIDIF,does not resolve ledger-side discrepancy
+eSIDIF_ledger_balance,-36600000,PUBLISHED,negative escritural balance requiring ledger/accounting explanation,"not cash missing, bank debt, damage or private gain by itself"
+difference,-36600000,DERIVED_FROM_PUBLISHED_FIELDS,ledger minus bank/certificate,sign and economic nature depend on account design and entries
+opening_entry_and_movements,NOT_PUBLIC,OPEN,essential to identify origin and age,cannot assign BID1192/MY4002 provenance
+reconciliation_and_adjustment,NOT_PUBLIC,OPEN,"essential to determine whether corrected, reclassified or outstanding",later summaries do not identify this account

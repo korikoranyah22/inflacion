@@ -1,0 +1,8 @@
+﻿phase,proved,calculation,interpretation,not_proved
+2005-2007,Cuentas 2006/2007 arrastran saldo MY4002 cero de 2005 por falta de información corriente,0,límite retrospectivo,estado bancario efectivo 2006/2007
+2008-2009,"la cuenta reaparece con valores, pero CGN documenta falta de extracto, tipo de cambio e inconsistencias",extracto-contable ME: 854.40 en 2008; 110.27 en 2009,actividad no conciliada,contraparte y naturaleza de cada ingreso
+2010-2012,"saldo contable en ME coincide con columna extracto y sube 13,358.83→13,584.85",+226.02 ME,acumulación pequeña con contraparte abierta,Macro/Credicoop como pagadores
+2012-2017,"ME queda exactamente en 13,584.85 mientras ARS sube",ARS +185718.48; factor 3.802583,"crecimiento nominal compatible con reexpresión cambiaria, no con nuevo principal en ME",mayor contable y norma de valuación
+2015,"debe/haber publicados son cero pero ARS final sube 60,982.39",175787.96-114805.57=60982.39,movimiento de valuación omitido o inconsistencia del cuadro,asiento subyacente
+2018,"CGN reconstruye ARS 569,350.57 / ME 15,182.68; UEPEX declaró cero; respaldo no identificable como BCRA",251985.38+330950.04-13584.85=569350.57,"aritmética reproducible, existencia bancaria no certificada","extracto, pago, contraparte o vínculo Res1406"
+2019-2021,Cuenta 2019 repite referencia 2018; 2020 todo cero sin cierre certificado; 2021 ausencia publicada,transición documental,"cierre operativo compatible, cierre jurídico abierto","acto, destino y extinción"

@@ -1,0 +1,7 @@
+metric,value,denominator,interpretation,prohibited_inference
+TOP1_SHARE_PCT,71.32969381730759760263332618,raw_public_GDP_awards,Largest named participant share,ultimate holder or beneficiary share
+TOP2_SHARE_PCT,93.65959435448850647716743448,raw_public_GDP_awards,Two largest named participant shares,ownership or collusion
+CR4_SHARE_PCT,100,raw_public_GDP_awards,All four published participant labels,market completeness outside the recovered tenders
+PARTICIPANT_HHI_0_1,0.5621675971083157783991627445,raw_public_GDP_awards,Descriptive concentration of published participant labels,competition-law HHI or ultimate-beneficiary concentration
+PARTICIPANT_HHI_0_10000,5621.675971083157783991627445,raw_public_GDP_awards,Same descriptive HHI on conventional scale,market-power finding
+

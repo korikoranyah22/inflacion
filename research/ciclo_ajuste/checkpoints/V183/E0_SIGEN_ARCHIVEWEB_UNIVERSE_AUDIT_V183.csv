@@ -1,0 +1,5 @@
+test_id,surface,observed,classification,effect,limit
+AW173_01,ArchivoWeb Buscador,años 1993-2026; 12 subtipos; palabra clave; organismo,PUBLIC_REPORTS_INTERFACE,"apta para informes, no para tipo NOT",cero no cierra Nota 3672/09
+AW173_02,selector tipo,"Auditoría, Control, Entrega/Recepción, Especiales, evaluaciones, fondos, Red Federal, juicios, resultados, situaciones",NOTES_NOT_EXPOSED,exclusión de universo testable,no prueba ausencia en backend Archivo Digital
+AW173_03,IdDocumento=145,"registro de informe año 2006 con organismo, extracto, año y tipo",PRE_TARGET_METADATA_CONTINUITY,prueba IDs públicos anteriores a 2009,"registro de informe, no Nota"
+AW173_04,búsqueda web exacta,NOT+3672/GSEyP sin resultado,PUBLIC_SEARCH_NEGATIVE_SCOPED,ninguno sobre backend/archivo físico,acceso/selección/indexación desconocidos

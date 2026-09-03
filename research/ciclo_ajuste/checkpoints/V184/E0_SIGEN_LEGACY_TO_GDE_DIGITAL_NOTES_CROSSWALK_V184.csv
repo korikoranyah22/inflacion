@@ -1,0 +1,4 @@
+period,system_or_area,documented_function,target_request,status,limit
+2007,sistema de Mesa + Archivo Digital,clave Mesa; CIDD/SPD; archivo electrónico y caja física,exportación legado y diccionario,EXACT_CAPABILITY,no body target
+2009,Secretaría General/Mesa/Archivo,Notas se indexan bajo código NOT luego de comunicarse si se digitalizan,"registro 3672/09, SPD, archivo y caja",TARGET_TESTABLE,carga/digitalización no confirmadas
+2022,Mesa de Entradas y Gestión Documental,GDE registra ingresos/egresos; área administra archivo digital de Notas,crosswalk/migración legado→GDE y Archivo Digital,LATER_ROUTE,no retroproyectar ID GDE

@@ -1,0 +1,3 @@
+﻿file,result,limit
+wayback_cdx_sigen_attachment_query_2026-09-01.json,PASS_ONE_CAPTURE_78595142,coverage negative only
+wayback_cdx_sigen_detail_query_2026-09-01.json,PASS_EMPTY_ARRAY,coverage negative only

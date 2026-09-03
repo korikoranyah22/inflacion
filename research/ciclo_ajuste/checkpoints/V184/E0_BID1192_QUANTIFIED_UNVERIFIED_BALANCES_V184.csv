@@ -1,0 +1,6 @@
+row_id,period,amount_ars,meaning,verification,calculation,limit
+QB177_01,2016 opening,489607291.57,saldo total declarado al inicio; hubo movimientos,no verificable por ausencia de estados patrimoniales,source value,no es daño ni saldo bancario certificado
+QB177_02,2016 closing,685073367.12,saldo total declarado al cierre,Cuadro 13.3 no pudo verificarse,source value,no es daño ni saldo bancario certificado
+QB177_03,2016 movement in reported total,195466075.55,cierre menos apertura,aritmética reproducida; sustancia no verificada,685073367.12-489607291.57,variación nominal; no apropiación
+QB177_04,2018 references printed in Cuenta 2019,824861366.21,suma de 16 saldos por cuenta informados por referentes para 2018,suma reproducida; información 2019 ausente,sumatorio 16 cuentas,no tratar como cierre 2019 ni comparar causalmente sin homogeneizar alcance
+QB177_05,2018 reference minus 2016 closing,139787999.09,diferencia nominal descriptiva entre agregados publicados,aritmética reproducida,824861366.21-685073367.12,"comparabilidad de alcance, valuación y corte no probada"
