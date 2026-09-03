@@ -20,7 +20,7 @@ def digest(path: Path) -> str:
 
 
 manifest = json.loads((BUNDLE / ".bundle-manifest.json").read_text(encoding="utf-8"))
-assert manifest["public_file_count"] == 124
+assert manifest["public_file_count"] == 140
 assert manifest["public_bytes"] < MAX_BUNDLE_BYTES
 
 for row in manifest["files"]:

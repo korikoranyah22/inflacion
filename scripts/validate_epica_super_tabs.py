@@ -21,7 +21,8 @@ assert "scroll-snap-type:x proximity" in ASSET
 assert "scheduleEpicaResponsiveRefresh" in ASSET
 assert "orientationchange" in ASSET
 assert "Plotly.Plots.resize(chart)" in ASSET
-assert ".epica-toolbar, .pw-controls" in INDEX
+assert ".milei-cost-table-wrap, .epica-toolbar'" in INDEX
+assert ".epica-toolbar, .pw-controls" not in INDEX
 for tab in ("tab-epica-households", "tab-epica-dollars"):
     assert tab in INDEX, f"{tab} no está conectado a la navegación temática"
     assert ASSET.count(f'id="{tab}"') == 1, f"{tab} debe tener un único panel"

@@ -19,16 +19,37 @@ def build_bootstrap(*, quiet: bool = False) -> Path:
     dashboard_data = json.loads(
         (DERIVED / "dashboard_data_2017_2025.json").read_text(encoding="utf-8")
     )
-    dashboard_data.setdefault("case_audits", {})["karina"] = json.loads(
-        (DERIVED / "karina_milei_revaluation_audit_2023_2025.json").read_text(
+    source_consistency = json.loads(
+        (DERIVED / "active_series_source_consistency_summary_2022_2024.json").read_text(
             encoding="utf-8"
         )
     )
-    dashboard_data.setdefault("case_audits", {})["javier"] = json.loads(
-        (DERIVED / "javier_milei_revaluation_audit_2023_2025.json").read_text(
-            encoding="utf-8"
+    dashboard_data["source_consistency"] = source_consistency["filas"]
+    dashboard_data["source_consistency_summary"] = source_consistency["resumen"]
+    audit_files = {
+        "karina": "karina_milei_revaluation_audit_2023_2025.json",
+        "javier": "javier_milei_revaluation_audit_2023_2025.json",
+        "dip-del-pla-romina": "romina_del_pla_patrimonial_audit_2023_2024.json",
+        "dip-estevez-gabriela-beatriz": "gabriela_estevez_patrimonial_audit_2022_2024.json",
+        "sen-gadano-natalia-elena": "natalia_gadano_patrimonial_audit_2023_2024.json",
+        "dip-vega-yolanda": "yolanda_vega_patrimonial_audit_2023_2024.json",
+        "dip-bongiovanni-alejandro": "alejandro_bongiovanni_patrimonial_audit_2023_2024.json",
+        "dip-correa-llano-facundo": "facundo_correa_llano_patrimonial_audit_2023_2024.json",
+        "dip-vasquez-patricia": "patricia_vasquez_patrimonial_audit_2023_2024.json",
+    }
+    for person_id, filename in audit_files.items():
+        audit = json.loads((DERIVED / filename).read_text(encoding="utf-8"))
+        dashboard_data.setdefault("case_audits", {})[person_id] = audit
+        existing_composition = {
+            (row["persona_id"], int(row["anio"]), row["categoria"])
+            for row in dashboard_data["composition"]
+        }
+        dashboard_data["composition"].extend(
+            row
+            for row in audit.get("composition", [])
+            if (row["persona_id"], int(row["anio"]), row["categoria"])
+            not in existing_composition
         )
-    )
     verified_batches = [
         json.loads(path.read_text(encoding="utf-8"))
         for path in DERIVED.glob("active_politician_verified_dashboard_iteration_*.json")

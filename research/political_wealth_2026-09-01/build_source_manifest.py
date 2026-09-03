@@ -95,6 +95,8 @@ SOURCE_FILES = {
     "lanacion_milei_karina_2025": "sources/descubrimiento/lanacion_milei_karina_2025_2026-09-02.html",
     "oa_javier_milei_ddjj_2024_mirror": "sources/oa/javier_milei_ddjj_anual_2024_copia_espejo_2026-09-02.pdf",
     "oa_javier_milei_ddjj_2023_mirror": "sources/oa/javier_milei_ddjj_anual_2023_copia_espejo_2026-09-02.pdf",
+    "hcdn_ddjj_2024": "sources/active_roster/hcdn_ddjj_ejercicio_2024_2026-09-03.html",
+    "decreto_127_1996_nuda_propiedad": "sources/legal/decreto_127_1996_bienes_personales_usufructo_2026-09-03.html",
 }
 
 RETRIEVED_AT = {
@@ -104,6 +106,8 @@ RETRIEVED_AT = {
     "lanacion_milei_karina_2025": "2026-09-02",
     "oa_javier_milei_ddjj_2024_mirror": "2026-09-02",
     "oa_javier_milei_ddjj_2023_mirror": "2026-09-02",
+    "hcdn_ddjj_2024": "2026-09-03",
+    "decreto_127_1996_nuda_propiedad": "2026-09-03",
 }
 
 

@@ -1,32 +1,32 @@
 {
   "generated_from": "dashboard source tree",
-  "public_file_count": 124,
-  "public_bytes": 17285065,
+  "public_file_count": 140,
+  "public_bytes": 18287803,
   "files": [
     {
       "path": "index.html",
-      "bytes": 8049749,
-      "sha256": "39be19c19fba126767243a54ffdbc0e514c56e9f7fa66b1e242a9058fb66332d"
+      "bytes": 8049735,
+      "sha256": "ca5c492026079ad3472f2bb631d186948665e5484203a5d6277314d36534577e"
     },
     {
       "path": "assets/epica-super-tabs.js",
-      "bytes": 76247,
-      "sha256": "4c6e6f82808fb7a14967c2b0deb3af2189c872fdb7169f90c0a8e0905c10da11"
+      "bytes": 76606,
+      "sha256": "2ad71c0dbfd88f1963d87c16392880613ec2243352890a140e9e3c81514b5265"
     },
     {
       "path": "assets/epica-stage2-tabs.js",
-      "bytes": 28563,
-      "sha256": "015d2276cd009687574b5502819ca89c8f3a1c8c615735bfc5ec343759221d8f"
+      "bytes": 28711,
+      "sha256": "ba8ada73b961e8ac9594ce878e0a043dd21a0e415cc2467217ecc076cee1bcc5"
     },
     {
       "path": "assets/political-wealth-data.js",
-      "bytes": 4334681,
-      "sha256": "f3d82bd7db8e1c091f2e392bcfe8af2147d04084d152a94007b0bd717f76c0eb"
+      "bytes": 4707886,
+      "sha256": "069020dfaf3c8cc6a6ebe81479786cb61bd47cb9b82256275ab3eef9891c9713"
     },
     {
       "path": "assets/political-wealth-tab.js",
-      "bytes": 80576,
-      "sha256": "0c762f13c2bb7127e15027e076b6891e33c5778e13e004304f26f65d8d4319ba"
+      "bytes": 106788,
+      "sha256": "447b3289f13224c324cfdbac335bb5d688f842428b9c15f0b5c268b526198f9e"
     },
     {
       "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
@@ -247,6 +247,86 @@
       "path": "research/political_wealth_2026-09-01/derived/javier_milei_revaluation_audit_2023_2025.json",
       "bytes": 14834,
       "sha256": "522ed43b84aaedf71c772f4aa54bd6bca07c4509badbb276a3f4e696b44d58f3"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/romina_del_pla_source_consistency_audit_2023_2024.csv",
+      "bytes": 1209,
+      "sha256": "672c34f892d412b0f932558484b586fafdc1d22914960e9ea54d1c3785758cea"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/romina_del_pla_patrimonial_audit_2023_2024.json",
+      "bytes": 6241,
+      "sha256": "28b3a1966ba7967635c11a740d7c845013f7e0bd2f36a69e52b9f3889f227404"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/gabriela_estevez_source_consistency_audit_2022_2024.csv",
+      "bytes": 3237,
+      "sha256": "d894797cae72ffc0ddbcf2c67680e1bec438b0fb1ebe8845358c6a60c031ae1d"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/gabriela_estevez_patrimonial_audit_2022_2024.json",
+      "bytes": 10496,
+      "sha256": "8be6e7a3f59c4c77f696ef8b6b567374d68c9386464db19329f505ccb8a0be1a"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/natalia_gadano_source_consistency_audit_2023_2024.csv",
+      "bytes": 1010,
+      "sha256": "d834289ae513ab1056938227aaf80dc91106614dba318b3a7a1b6110964ef99c"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/natalia_gadano_patrimonial_audit_2023_2024.json",
+      "bytes": 8659,
+      "sha256": "cc0c86c70b32b8f72c07ba74600f964244e612bd22dbb75a713fcf9c73af949f"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/yolanda_vega_source_consistency_audit_2023_2024.csv",
+      "bytes": 1128,
+      "sha256": "5304013b276f1d715fb2429e5cbd38e4c263499622c2c8633f12adbdef1efb39"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/yolanda_vega_patrimonial_audit_2023_2024.json",
+      "bytes": 10862,
+      "sha256": "01bba34c9368dc0695b726b5ace3760c4335a76b8bcdb5e71a5baed6ccafcd4f"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/alejandro_bongiovanni_source_consistency_audit_2023_2024.csv",
+      "bytes": 1219,
+      "sha256": "0164b68b6277ebb4755f835e54bdb0a518ed3ea9c927e374726a1bdeac25fd32"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/alejandro_bongiovanni_patrimonial_audit_2023_2024.json",
+      "bytes": 9843,
+      "sha256": "cfd7d2ab22604a57af9deb6746359c578450ff89bd9ac488512c37ef76ef5ca3"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/facundo_correa_llano_source_consistency_audit_2023_2024.csv",
+      "bytes": 1460,
+      "sha256": "efdc47e5fa4379797ca034373fb69b88695fcd4c52f3351bec56467180dc13fc"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/facundo_correa_llano_patrimonial_audit_2023_2024.json",
+      "bytes": 11834,
+      "sha256": "dc01f0c2a97d91ad6379c35bcd64ee8e403f8b0d8b318561a063adca78748db7"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/patricia_vasquez_source_consistency_audit_2023_2024.csv",
+      "bytes": 1161,
+      "sha256": "577f8c2bdf9228033f761becb2a6153ca04a1ed590360d03d54d83894b7f5bb5"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/patricia_vasquez_patrimonial_audit_2023_2024.json",
+      "bytes": 12079,
+      "sha256": "dfca9bb333106345c59cc53237e773e9973ffd519a94e9f3a9e9d4f51808a370"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_series_source_consistency_audit_2022_2024.csv",
+      "bytes": 128246,
+      "sha256": "f6b544b6b233ae60478f010c04374fb50ecf63ead5879be71462a33cbac34995"
+    },
+    {
+      "path": "research/political_wealth_2026-09-01/derived/active_series_source_consistency_summary_2022_2024.json",
+      "bytes": 392917,
+      "sha256": "d2a4325696e4dae47c8a781354b5eeb511096f7fd053a2bceeaa6aff5a911b43"
     },
     {
       "path": "research/political_wealth_2026-09-01/derived/asset_persistence_audit.csv",
@@ -615,13 +695,13 @@
     },
     {
       "path": "research/political_wealth_2026-09-01/source_registry.csv",
-      "bytes": 19238,
-      "sha256": "ccd42669a33e6e6823a1aa7a03f34989f464f73baa76938c29c64247d971cd91"
+      "bytes": 19892,
+      "sha256": "468f994286ec00af0ac783c373a46fd0d149210a26074843fcba6edbbf0fb1c8"
     },
     {
       "path": "research/political_wealth_2026-09-01/source_manifest.csv",
-      "bytes": 22240,
-      "sha256": "d4b21f773edf1edee925eab55c03278b6e6cbf45fc731e7122d8967786dd1589"
+      "bytes": 22813,
+      "sha256": "c366202653b1875ea6d7f12c03f2cc36d0e41a7e8af4a609b895151e8498319e"
     }
   ]
 }

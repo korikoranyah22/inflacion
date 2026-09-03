@@ -29,8 +29,8 @@ index = (ROOT / "index.html").read_text(encoding="utf-8")
 asset = (ROOT / "assets" / "political-wealth-tab.js").read_text(encoding="utf-8")
 bootstrap_asset = (ROOT / "assets" / "political-wealth-data.js").read_text(encoding="utf-8")
 
-assert index.count('<script src="assets/political-wealth-tab.js?v=20260902-28"></script>') == 1
-assert index.count('<script src="assets/political-wealth-data.js?v=20260902-28"></script>') == 1
+assert index.count('<script src="assets/political-wealth-tab.js?v=20260903-38"></script>') == 1
+assert index.count('<script src="assets/political-wealth-data.js?v=20260903-38"></script>') == 1
 assert index.index('assets/political-wealth-data.js') < index.index('assets/political-wealth-tab.js')
 assert "'tab-meli-benefits','tab-political-wealth','tab-casta']" in index
 assert asset.count('<button class="tab-btn" type="button" data-tab="tab-political-wealth">') == 1
@@ -83,8 +83,13 @@ assert "active_politician_cross_institution_resolutions_iteration_19_2026-09-01.
 assert "active_politician_identity_audit_iteration_19_2026-09-01.csv" in asset
 assert "sin_registro_oa_2017_2024_identidad_desambiguada" in asset
 assert "no representan una DDJJ del mandato provincial actual" in asset
-assert "scroll-snap-type:x proximity" in asset
-assert "overscroll-behavior-inline:contain" in asset
+assert 'id="pwPersonSearch"' in asset and 'id="pwPersonSelect"' in asset
+assert 'id="pwPersonSearchStatus"' in asset and 'aria-live="polite"' in asset
+assert "function renderPersonDirectory" in asset and "function choosePerson" in asset
+assert ".pw-person-directory" in asset and "max-height:min(52svh,460px)" in asset
+assert ".pw-controls{grid-template-columns:1fr;max-height:min(52svh,460px)" in asset
+assert "scroll-snap-type:x proximity" not in asset
+assert "overscroll-behavior:contain" in asset
 assert "-webkit-overflow-scrolling:touch" in asset
 assert ".pw-roster-wrap{max-height:min(65svh,540px)}" in asset
 assert "window.addEventListener('resize'" not in asset
@@ -97,6 +102,29 @@ assert "Valuación ≠ absolución" in asset
 assert "Investigación freezada" in asset
 assert "karina_milei_revaluation_audit_2023_2025.json" in asset
 assert "javier_milei_revaluation_audit_2023_2025.json" in asset
+assert "romina_del_pla_patrimonial_audit_2023_2024.json" in asset
+assert "gabriela_estevez_patrimonial_audit_2022_2024.json" in asset
+assert "natalia_gadano_patrimonial_audit_2023_2024.json" in asset
+assert "yolanda_vega_patrimonial_audit_2023_2024.json" in asset
+assert "alejandro_bongiovanni_patrimonial_audit_2023_2024.json" in asset
+assert "facundo_correa_llano_patrimonial_audit_2023_2024.json" in asset
+assert "patricia_vasquez_patrimonial_audit_2023_2024.json" in asset
+assert "decreto-127-1996-33500/actualizacion" in asset
+assert "override.subtitulo" in asset
+assert "benchmark_suspension_note" in asset
+assert "benchmark_nota" in asset
+assert 'id="pwCaseMetricLabel0"' in asset and 'id="pwCaseMetricValue4"' in asset
+assert "audit.metricas_destacadas?.length === 5" in asset
+assert "audit.columnas_puente?.length === 5" in asset
+assert "active_series_source_consistency_summary_2022_2024.json" in asset
+assert "function sourceConsistencyIssue" in asset
+assert 'id="pwQualitySourceConsistency"' in asset
+assert 'id="pwSourceControlled"' in asset and 'id="pwSourceReconciled"' in asset
+assert 'id="pwSourceAssetScale"' in asset and 'id="pwSourceDebtReview"' in asset
+assert 'id="pwSourceQualityCallout"' in asset
+assert "sourceCheck.assetIssues.length" in asset and "sourceCheck.anyIssues" in asset
+assert "function analyzeSeriesQuality" in asset
+assert "benchmark_estado?.startsWith('suspendido')" in asset
 
 series = rows("person_series_2017_2025.csv")
 assert len(series) == 72
@@ -751,10 +779,31 @@ assert len(bootstrap_payload["data"]["benchmark_comparisons"]) == 690
 assert bootstrap_payload["data"]["metadata"]["ultima_iteracion_integrada"] == 19
 assert bootstrap_payload["data"]["case_audits"]["karina"]["hallazgos"]["valuacion_total_sobre_aumento_bienes_2025_pct"] == 102.02
 assert bootstrap_payload["data"]["case_audits"]["javier"]["hallazgos"]["valuacion_sobre_aumento_bienes_2025_pct"] == 81.9
+assert bootstrap_payload["data"]["case_audits"]["dip-del-pla-romina"]["controles"]["factor_resumen_sobre_detalle_2024"] == 10.0
+assert bootstrap_payload["data"]["case_audits"]["dip-estevez-gabriela-beatriz"]["controles"]["factor_resumen_sobre_detalle_cierre_2023"] == 10.0
+assert bootstrap_payload["data"]["case_audits"]["dip-estevez-gabriela-beatriz"]["controles"]["cambio_nominal_detalle_2022_2023_pct"] == 646.84
+assert bootstrap_payload["data"]["case_audits"]["sen-gadano-natalia-elena"]["controles"]["factor_resumen_sobre_detalle_cierre_2024"] == 10.0
+assert bootstrap_payload["data"]["case_audits"]["sen-gadano-natalia-elena"]["periodos"][0]["ingreso_sobre_aumento_pct"] == 116.74
+assert bootstrap_payload["data"]["case_audits"]["dip-vega-yolanda"]["controles"]["factor_resumen_sobre_detalle_inicio_2024"] == 10.0
+assert bootstrap_payload["data"]["case_audits"]["dip-vega-yolanda"]["periodos"][0]["deuda_sobre_aumento_bienes_pct"] == 248.21
+assert bootstrap_payload["data"]["case_audits"]["dip-bongiovanni-alejandro"]["controles"]["continuidad_cierre_inicio_brecha_ars"] == 0.0
+assert bootstrap_payload["data"]["case_audits"]["dip-bongiovanni-alejandro"]["controles"]["cambio_real_2024_pct"] == 573.79
+assert bootstrap_payload["data"]["case_audits"]["dip-bongiovanni-alejandro"]["periodos"][0]["ingreso_neto_sobre_aumento_pct"] == 229.49
+assert bootstrap_payload["data"]["case_audits"]["dip-correa-llano-facundo"]["controles"]["valuacion_sobre_aumento_bienes_pct"] == 84.89
+assert bootstrap_payload["data"]["case_audits"]["dip-correa-llano-facundo"]["controles"]["residual_puente_patrimonio_ars"] == 0.0
+assert bootstrap_payload["data"]["case_audits"]["dip-correa-llano-facundo"]["reconciliation_override"]["residual_ajustado_ars"] == 0.0
+assert bootstrap_payload["data"]["case_audits"]["dip-vasquez-patricia"]["controles"]["inmueble_sobre_aumento_bienes_pct"] == 87.94
+assert bootstrap_payload["data"]["case_audits"]["dip-vasquez-patricia"]["controles"]["residual_valuacion_ingreso_ars"] == 0.0
+assert len(bootstrap_payload["data"]["composition"]) == 133
+assert len(bootstrap_payload["data"]["source_consistency"]) == 545
+assert bootstrap_payload["data"]["source_consistency_summary"]["personas_controladas"] == 248
+assert bootstrap_payload["data"]["source_consistency_summary"]["declaraciones_que_concilian"] == 340
+assert bootstrap_payload["data"]["source_consistency_summary"]["declaraciones_bienes_con_quiebre_escala"] == 91
+assert bootstrap_payload["data"]["source_consistency_summary"]["personas_bienes_con_quiebre_escala"] == 64
 
 with (RESEARCH / "source_manifest.csv").open(encoding="utf-8", newline="") as handle:
     manifest = list(csv.DictReader(handle))
-assert len(manifest) == 86
+assert len(manifest) == 88
 for row in manifest:
     source = RESEARCH / row["local_path"]
     assert source.stat().st_size == int(row["bytes"])
@@ -764,6 +813,18 @@ assert any(
     row["id"] == "oa_javier_milei_ddjj_2024_mirror"
     and row["local_path"] == "sources/oa/javier_milei_ddjj_anual_2024_copia_espejo_2026-09-02.pdf"
     and int(row["bytes"]) > 100_000
+    for row in manifest
+)
+assert any(
+    row["id"] == "hcdn_ddjj_2024"
+    and row["local_path"] == "sources/active_roster/hcdn_ddjj_ejercicio_2024_2026-09-03.html"
+    and int(row["bytes"]) > 50_000
+    for row in manifest
+)
+assert any(
+    row["id"] == "decreto_127_1996_nuda_propiedad"
+    and row["local_path"] == "sources/legal/decreto_127_1996_bienes_personales_usufructo_2026-09-03.html"
+    and int(row["bytes"]) > 70_000
     for row in manifest
 )
 assert any(
@@ -798,6 +859,22 @@ for download in (
     "javier_milei_revaluation_components_2025.csv",
     "javier_milei_source_consistency_audit_2023_2025.csv",
     "javier_milei_revaluation_audit_2023_2025.json",
+    "romina_del_pla_source_consistency_audit_2023_2024.csv",
+    "romina_del_pla_patrimonial_audit_2023_2024.json",
+    "gabriela_estevez_source_consistency_audit_2022_2024.csv",
+    "gabriela_estevez_patrimonial_audit_2022_2024.json",
+    "natalia_gadano_source_consistency_audit_2023_2024.csv",
+    "natalia_gadano_patrimonial_audit_2023_2024.json",
+    "yolanda_vega_source_consistency_audit_2023_2024.csv",
+    "yolanda_vega_patrimonial_audit_2023_2024.json",
+    "alejandro_bongiovanni_source_consistency_audit_2023_2024.csv",
+    "alejandro_bongiovanni_patrimonial_audit_2023_2024.json",
+    "facundo_correa_llano_source_consistency_audit_2023_2024.csv",
+    "facundo_correa_llano_patrimonial_audit_2023_2024.json",
+    "patricia_vasquez_source_consistency_audit_2023_2024.csv",
+    "patricia_vasquez_patrimonial_audit_2023_2024.json",
+    "active_series_source_consistency_audit_2022_2024.csv",
+    "active_series_source_consistency_summary_2022_2024.json",
     "active_politician_identity_audit_iteration_1_2026-09-01.csv",
     "active_politician_verified_series_iteration_1_2017_2024.csv",
     "active_politician_verified_benchmarks_iteration_1_2017_2024.csv",
