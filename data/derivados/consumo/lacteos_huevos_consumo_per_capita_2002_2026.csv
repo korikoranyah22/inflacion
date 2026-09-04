@@ -1,0 +1,26 @@
+year,dairy_lle_litres_per_capita,eggs_units_per_capita,period_status
+2002,195,,annual
+2003,179,,annual
+2004,188,,annual
+2005,184,,annual
+2006,190,,annual
+2007,195,195,annual; egg historical anchor
+2008,203,,annual
+2009,204,,annual
+2010,203,,annual
+2011,204,,annual
+2012,214,236,annual; egg historical anchor
+2013,197,,annual
+2014,193,,annual
+2015,217,,annual
+2016,200,,annual
+2017,195,,annual
+2018,190,,annual
+2019,182,,annual
+2020,184.5,,annual
+2021,188.8,,annual
+2022,188,,annual; revised population series
+2023,191,,annual; revised population series
+2024,174,363,annual; revised population series
+2025,185.3,398,annual; revised population series
+2026,188,398,dairy estimate and April egg reference; not calendar-year closes

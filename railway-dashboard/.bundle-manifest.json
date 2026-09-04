@@ -1,12 +1,12 @@
 {
   "generated_from": "dashboard source tree",
   "public_file_count": 140,
-  "public_bytes": 18291709,
+  "public_bytes": 18315378,
   "files": [
     {
       "path": "index.html",
-      "bytes": 8053641,
-      "sha256": "5d98216d0da2fefdd58f37f0670ce0cf7c33b28aff4ef26a7694ae324f9f89cd"
+      "bytes": 8077310,
+      "sha256": "eaf3724ed73aef61a8f35656c86f7c0f7c6b8d87d5ecb8f5b321933f7882927d"
     },
     {
       "path": "assets/epica-super-tabs.js",

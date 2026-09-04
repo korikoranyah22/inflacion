@@ -8981,12 +8981,23 @@ html,body{overflow-x:clip}
 .super-history-title{display:flex;gap:10px;align-items:flex-start;margin:0 20px 12px}.super-history-title>span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#f3e8f7;color:#674475;font-weight:950}.super-history-title h3{margin:1px 0 3px;color:#5f3d70;font-size:18px}.super-history-title p{margin:0;color:#806b84;font-size:10.5px;line-height:1.45}
 .super-wide-panel{margin:10px 20px 14px;padding:14px;border:1px solid #e4d8e8;border-radius:18px;background:#fffdfd}.super-wide-panel h4{margin:0 0 4px;color:#60426f}.super-wide-panel>p{margin:0 0 8px;font-size:10px;color:#7a687f}.super-wide-panel>[id$="Chart"]{min-height:350px}
 .super-method-note{margin-top:9px;padding:10px 12px;border-left:4px solid #a879bd;border-radius:11px;background:#fbf7fd;color:#735f79;font-size:9.5px;line-height:1.5}
+.super-wage-panel{background:linear-gradient(145deg,#fffafd,#f9fcff)}
+.super-wage-compare{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:12px}
+.super-wage-facet{min-width:0}.super-wage-facet h5{margin:0;color:#60426f;font-size:12px}.super-wage-facet>p{margin:3px 0 0;color:#806b84;font-size:9.5px;line-height:1.4}
+#supermarketWageSalesChart,#supermarketConsumptionSalesChart{height:410px;min-height:410px}
+.super-wage-flow{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:stretch;margin:8px 0 2px}
+.super-wage-node{min-width:0;padding:11px;border:1px solid #e4d8e9;border-radius:14px;background:rgba(255,255,255,.86);color:#725f79;font-size:9.5px;line-height:1.42}
+.super-wage-node small{display:block;margin-bottom:4px;color:#92759e;font-size:8px;font-weight:950;text-transform:uppercase;letter-spacing:.035em}
+.super-wage-node b{display:block;margin-bottom:3px;color:#5f3f70;font-size:11px}
+.super-wage-arrow{align-self:center;color:#aa8bb8;font-weight:950}
+.super-wage-reading{margin-top:10px;padding:11px 13px;border:1px solid #e5d9e9;border-radius:13px;background:#fff;color:#6e5975;font-size:10px;line-height:1.5}
+.super-wage-reading b{color:#5d3f6c}
 .super-bridge-links{display:flex;gap:8px;flex-wrap:wrap;margin:10px 20px}.super-bridge-links button{border:1px solid #d9c9e2;border-radius:999px;background:#fff;padding:8px 11px;color:#654574;font:inherit;font-size:9px;font-weight:900;cursor:pointer}
 .super-era-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:10px 20px 14px}.super-era-grid article{padding:14px;border:1px solid #e3d7e7;border-radius:16px;background:#fff}.super-era-grid article.active{border-color:#b9decf;background:#f7fffb}.super-era-grid small{display:block;font-weight:950;color:#907391}.super-era-grid b{display:block;margin:5px 0;color:#60426f;font-size:17px}.super-era-grid p{margin:0;color:#76637a;font-size:10px;line-height:1.5}
 .super-nd-panel{display:flex;flex-direction:column}.super-nd{min-height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:20px;border:1px dashed #d9cce0;border-radius:14px;background:#fbf9fc;color:#77647d}.super-nd b{font-size:24px;color:#6b5574}.super-nd span{max-width:440px;margin-top:8px;font-size:10px;line-height:1.5}
 #supermarketModernHistoryChart{height:430px}#supermarketLongHistoryChart,#supermarketH1HistoryChart,#supermarketOperationsChart,#supermarketPaymentChart,#supermarketBasketCompositionChart,#supermarketStructureChart{height:380px}
-@media(max-width:900px){.super-era-grid{grid-template-columns:1fr}.super-history-v2 .co-super-chart-grid{grid-template-columns:1fr}}
-@media(max-width:720px){.super-history-title,.super-wide-panel,.super-era-grid,.super-bridge-links{margin-left:12px;margin-right:12px}.super-history-title h3{font-size:16px}#supermarketModernHistoryChart{height:500px}#supermarketLongHistoryChart,#supermarketH1HistoryChart,#supermarketOperationsChart,#supermarketPaymentChart,#supermarketBasketCompositionChart,#supermarketStructureChart{height:430px}.super-history-v2 .super-inner-nav{top:auto}}
+@media(max-width:900px){.super-era-grid{grid-template-columns:1fr}.super-history-v2 .co-super-chart-grid,.super-wage-compare{grid-template-columns:1fr}.super-wage-flow{grid-template-columns:1fr}.super-wage-arrow{justify-self:center;transform:rotate(90deg)}}
+@media(max-width:720px){.super-history-title,.super-wide-panel,.super-era-grid,.super-bridge-links{margin-left:12px;margin-right:12px}.super-history-title h3{font-size:16px}#supermarketModernHistoryChart{height:500px}#supermarketWageSalesChart,#supermarketConsumptionSalesChart,#supermarketLongHistoryChart,#supermarketH1HistoryChart,#supermarketOperationsChart,#supermarketPaymentChart,#supermarketBasketCompositionChart,#supermarketStructureChart{height:430px}.super-history-v2 .super-inner-nav{top:auto}}
 </style>
 
 <style id="dashboard-menu-repair-v1">
@@ -9014,7 +9025,7 @@ html,body{overflow-x:clip}
     <h1>Gráficos exactos kawaii ✨</h1>
     <div class="sub">Argentina · poder adquisitivo, tasas, inflación, pobreza, asistencia social, desigualdad, vulnerabilidad, canastas, salud, educación, consumo, balanza comercial, BCRA y deuda familiar · todo en un dashboard auditable</div><br>
     <span class="badge">♡ datos, fuentes y metodología a la vista ♡</span>
-    <span class="badge" style="margin-left:6px;background:#fff7df;border-color:#ead39b;color:#7a6131">📌 base histórica · 25 ago 2026 · super-tabs auditados al 31 ago · súper ampliado 4 sep</span>
+    <span class="badge" style="margin-left:6px;background:#fff7df;border-color:#ead39b;color:#7a6131">📌 base histórica · 25 ago 2026 · super-tabs auditados al 31 ago · consumo y súper ampliados 4 sep</span>
     <a class="badge repo-link" href="https://github.com/korikoranyah22/inflacion" target="_blank" rel="noopener noreferrer" aria-label="Abrir el repositorio del Dashito Argento en GitHub">↗ GitHub · código, datos y auditorías</a>
   </div>
 
@@ -11572,21 +11583,40 @@ html,body{overflow-x:clip}
       <section id="super-history-a" class="super-history-block">
         <div class="super-history-title"><span>A</span><div><h3>La caja vs el changuito · 2017 → 2026</h3><p>Índices base 2017=100. Nominal y real comparten fecha, pero no significado: el real descuenta precios.</p></div></div>
         <div class="super-wide-panel"><div id="supermarketModernHistoryChart"></div><div class="super-method-note"><b>Lectura:</b> el eje real pregunta cuánto se vendió en términos constantes; el nominal muestra cuánto crecieron los pesos facturados. El salto nominal no es recuperación del volumen.</div></div>
+        <div class="super-wide-panel super-wage-panel" id="supermarketWageExplainer">
+          <h4>Por qué el poder adquisitivo real no llega uno-a-uno a las ventas</h4>
+          <p>Dos puentes coordinados con años completos 2017–2025 e índices reales base 2017=100. El parcial 2026 queda fuera para no mezclar períodos.</p>
+          <div class="super-wage-compare">
+            <section class="super-wage-facet"><h5>A · Del puesto a la masa salarial</h5><p>¿Cuánto compra un salario y cuánto trabajo asalariado se remunera en total?</p><div id="supermarketWageSalesChart" role="img" aria-label="Comparación anual del salario real por puesto y la masa salarial real entre 2017 y 2025"></div></section>
+            <section class="super-wage-facet"><h5>B · Del gasto total al supermercado</h5><p>¿Cuánto consumen los hogares en toda la economía y cuánto pasa por este canal?</p><div id="supermarketConsumptionSalesChart" role="img" aria-label="Comparación anual del consumo privado real total y las ventas reales de supermercados entre 2017 y 2025"></div></section>
+          </div>
+          <div class="super-wage-flow" aria-label="Del salario real por puesto a las ventas del supermercado intervienen la cantidad de trabajo, otros ingresos, ahorro, crédito y la elección del canal de compra">
+            <article class="super-wage-node"><small>1 · Precio del trabajo</small><b>Salario real por puesto</b>Mide cuánto compra un salario de composición fija; no cuántos puestos ni horas hay.</article>
+            <div class="super-wage-arrow" aria-hidden="true">→</div>
+            <article class="super-wage-node"><small>2 · Cantidad de trabajo</small><b>Masa salarial real · RTA</b>Suma la remuneración asalariada de toda la economía; incluye contribuciones patronales.</article>
+            <div class="super-wage-arrow" aria-hidden="true">→</div>
+            <article class="super-wage-node"><small>3 · Gasto agregado</small><b>Consumo privado real total</b>Incorpora otros ingresos y decisiones de ahorro o crédito; abarca bienes y servicios.</article>
+            <div class="super-wage-arrow" aria-hidden="true">→</div>
+            <article class="super-wage-node"><small>4 · Un canal</small><b>Ventas reales del súper</b>Capturan sólo supermercados: el gasto puede migrar a otros comercios, servicios o bienes.</article>
+          </div>
+          <div class="super-wage-reading" id="supermarketWageSalesReading"><b>Lectura:</b> cada panel separa una transmisión distinta: precio → ingreso laboral agregado → gasto total → canal supermercado.</div>
+          <div class="super-method-note"><b>Método:</b> la masa salarial usa la RTA nominal de toda la economía (CGI), deflactada trimestre a trimestre con IPC nacional medio y sumada por año; incluye contribuciones patronales. El consumo privado es el agregado real de Cuentas Nacionales. El salario se deflacta con IPC general y las ventas reales usan el deflactor de la encuesta. Son índices comparativos: no se suman ni prueban causalidad.</div>
+        </div>
         <div class="co-super-chart-grid">
           <div class="co-super-chart-panel"><h4>¿Qué tan malo fue cada primer semestre?</h4><p>Nivel real medio de enero–junio. La línea punteada es el promedio 2017–2025.</p><div id="supermarketH1HistoryChart"></div></div>
           <div class="co-super-chart-panel"><h4>2026 mes a mes: caja nominal vs ventas reales</h4><p>Barras: facturación corriente. Línea: variación real interanual.</p><div id="supermarketPulseChart"></div></div>
         </div>
-        <div class="super-wide-panel"><h4>¿Compramos menos veces o menos en cada compra?</h4><p>Snapshots comparables de operaciones y ticket real aproximado. <b>Operaciones no son personas únicas.</b></p><div id="supermarketOperationsChart"></div><div class="super-method-note"><b>Ticket real aproximado:</b> ticket nominal dividido por el índice de precios implícito de la propia encuesta (nominal/real), normalizado a dic-2020=100. Es un proxy de valor real por operación, no cantidad física de productos.</div></div>
+        <div class="super-wide-panel"><h4>¿Compramos menos veces o menos en cada compra?</h4><p>Snapshots comparables de operaciones y ticket real aproximado. <b>Operaciones no son personas únicas.</b></p><div id="supermarketOperationsChart"></div><div class="super-method-note"><b>Ticket real aproximado:</b> ticket nominal dividido por el índice de precios implícito de la propia encuesta (nominal/real), normalizado a dic-2017=100. Es un proxy de valor real por operación, no cantidad física de productos.</div></div>
       </section>
 
       <section id="super-history-b" class="super-history-block">
-        <div class="super-history-title"><span>B</span><div><h3>¿Con qué pagamos el súper?</h3><p>Snapshots de cierre anual desde 2020 y junio de 2026. La tarjeta es medio de pago; no prueba saldo revolvente.</p></div></div>
+        <div class="super-history-title"><span>B</span><div><h3>¿Con qué pagamos el súper?</h3><p>Cierres anuales desde 2017 y junio de 2026. La tarjeta es medio de pago; no prueba saldo revolvente.</p></div></div>
         <div class="super-wide-panel"><div id="supermarketPaymentChart"></div><div class="super-method-note"><b>Precaución:</b> “tarjeta de crédito” significa compras canalizadas por crédito. Una compra puede cancelarse íntegramente al vencimiento; esta serie no mide deuda ni mora.</div></div>
         <div class="super-bridge-links"><button onclick="activateTab('tab-power')">Ver Poder adquisitivo →</button><button onclick="activateTab('tab-rates')">Ver Tasas y crédito →</button><button onclick="activateTab('tab-morosidad')">Ver Mora →</button><button onclick="activateTab('tab-mora-causal')">Ver ¿Qué explica la mora? →</button></div>
       </section>
 
       <section id="super-history-c" class="super-history-block">
-        <div class="super-history-title"><span>C</span><div><h3>¿Qué parte de la caja ocupa cada rubro?</h3><p>Composición nominal oficial en snapshots seleccionados. No confundir participación del gasto con cantidad física consumida.</p></div></div>
+        <div class="super-history-title"><span>C</span><div><h3>¿Qué parte de la caja ocupa cada rubro?</h3><p>Composición nominal oficial en cierres 2017–2025 y junio de 2026. No confundir participación del gasto con cantidad física consumida.</p></div></div>
         <div class="super-wide-panel"><div id="supermarketBasketCompositionChart"></div><div class="super-method-note"><b>N/D visible:</b> no construimos una serie real larga por rubro sin un deflactor compatible por categoría. Esta vista es composición nominal; la historia real por rubro queda pendiente.</div></div>
       </section>
 
@@ -11599,7 +11629,7 @@ html,body{overflow-x:clip}
         <div class="super-history-title"><span>E</span><div><h3>30 años haciendo las compras · contexto por eras</h3><p>La encuesta existe desde los 90, pero la comparación larga exige mostrar las rupturas en lugar de esconderlas.</p></div></div>
         <div class="super-era-grid"><article><small>ERA A · 1996–2013</small><b>Archivo histórico</b><p>Serie oficial antigua. INDEC documenta deflactores/ponderadores previos y advierte que no puede empalmarse con 2014.</p></article><article><small>ERA B · 2014–2016</small><b>Transición</b><p>Cambio a IPCNU y período metodológicamente distinto. Se conserva como contexto, no como puente artificial.</p></article><article class="active"><small>ERA C · 2017–2026</small><b>Núcleo comparable</b><p>Base 2017=100, panel/cobertura ampliados y variables modernas. Éste es el período usado para comparaciones cuantitativas principales.</p></article></div>
         <div class="super-wide-panel"><h4>Ventas reales a largo plazo: dos tramos, no un empalme</h4><p>Promedios anuales. Cada tramo vale 100 en su propio año inicial; 2026 contiene enero–junio.</p><div id="supermarketLongHistoryChart"></div><div class="super-method-note"><b>Cómo leerlo:</b> la línea verde compara 1996–2013 contra 1996 y la rosa compara 2017–2026 contra 2017. No corresponde comparar el nivel de una línea con el de la otra. El hueco 2014–2016 hace visibles el cambio de deflactor y la posterior ampliación del panel.</div></div>
-        <div class="super-wide-panel"><h4>Detrás de la caja: operaciones, bocas y empleo</h4><div id="supermarketStructureChart"></div><div class="super-method-note">Snapshots de diciembre 2020–2025 y junio 2026. Sirven para ver estructura y dirección; no se interpretan como promedio anual.</div></div>
+        <div class="super-wide-panel"><h4>Detrás de la caja: operaciones, bocas y superficie</h4><div id="supermarketStructureChart"></div><div class="super-method-note">Snapshots de diciembre 2017–2025 y junio 2026. Sirven para ver estructura y dirección; no se interpretan como promedio anual.</div></div>
       </section>
 
       <div class="co-apb co-super-apb">
@@ -11611,22 +11641,26 @@ html,body{overflow-x:clip}
 
       <div class="co-super-actions">
         <button class="download-link" type="button" onclick="downloadSupermarketHistoryCsv('modern')">⬇ CSV · moderno 2017–2026</button>
+        <button class="download-link" type="button" onclick="downloadSupermarketHistoryCsv('wagesales')">⬇ CSV · salario, masa, consumo y ventas</button>
         <button class="download-link" type="button" onclick="downloadSupermarketHistoryCsv('long')">⬇ CSV · historia larga</button>
         <button class="download-link" type="button" onclick="downloadSupermarketHistoryCsv('payments')">⬇ CSV · medios de pago</button>
         <button class="download-link" type="button" onclick="downloadSupermarketHistoryCsv('structure')">⬇ CSV · operaciones y estructura</button>
         <button class="download-link" type="button" onclick="downloadSupermarketHistoryCsv('basket')">⬇ CSV · rubros</button>
         <button class="download-link" type="button" onclick="downloadSupermarketHistoryCsv('territory')">⬇ CSV · territorio</button>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-1-34">🛒 INDEC · Encuesta de supermercados</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/ftp/cuadros/sociedad/cvs_metodologia.pdf">💵 INDEC · metodología del Índice de Salarios</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-49">👷 INDEC · Cuenta de Generación del Ingreso</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-47">📊 INDEC · Cuentas Nacionales / consumo privado</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Institucional-Indec-InformacionDeArchivo-1">🗃️ INDEC · archivo histórico y discontinuidad</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/ftp/nuevaweb/cuadros/14/sh_ventas-super.xls">📊 INDEC · XLS 1996–2013</a>
       </div>
-      <div class="rates-files-audit"><b>Estado de integración:</b> núcleo mensual real/nominal 2017–abr-2026 observado/reconstruido desde publicaciones INDEC; may–jun 2026 incluyen derivaciones identificadas desde variaciones/montos oficiales. La vista larga integra los 216 meses oficiales de 1996–2013 como promedios anuales y los mantiene separados del tramo moderno. La transición 2014–2016 y el heatmap provincial largo siguen como contexto/N/D: no se fabrican empalmes.</div>
+      <div class="rates-files-audit"><b>Estado de integración:</b> núcleo mensual real/nominal 2017–abr-2026 observado/reconstruido desde publicaciones INDEC; may–jun 2026 incluyen derivaciones identificadas desde variaciones/montos oficiales. Medios de pago, rubros, operaciones, bocas y superficie se ampliaron a cierres desde 2017 con el XLSX oficial. La vista larga mantiene separados 1996–2013 y 2017–2026; la transición 2014–2016 y el heatmap provincial largo siguen como contexto/N/D.</div>
     </section>
 
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">¿Qué consume la gente? Proteínas animales, categoría por categoría <span>♡</span></div>
-        <div class="kicker">2020–2025 anual · may-2026 promedio móvil 12 meses · kg por habitante</div>
+        <div class="kicker">2015–2025 anual · may-2026 promedio móvil 12 meses · kg por habitante</div>
       </div>
 
       <div class="co-cat-kpi-grid">
@@ -11640,14 +11674,14 @@ html,body{overflow-x:clip}
 
       <div class="co-category-explain">
         <div><b>Qué muestra:</b> el área apilada permite ver simultáneamente <b>cuánto se consume en total</b> y cómo cambia la composición entre vacuna, pollo y cerdo. Por ejemplo, una baja de carne vacuna puede convivir con consumo total estable si se sustituye por otras proteínas.</div>
-        <div><b>Ojo metodológico:</b> 2020–2025 son años cerrados; el rombo 2026 usa <b>promedio móvil de 12 meses a mayo</b>. La página oficial ya informa actualización del tablero a junio, pero el último cuadro descargable con cifras exactas que incorporamos es mayo. No empalmamos un PM12 como si fuera un año calendario.</div>
+        <div><b>Ojo metodológico:</b> 2015–2025 son años cerrados; el rombo 2026 usa <b>promedio móvil de 12 meses a mayo</b>. La página oficial ya informa actualización del tablero a junio, pero el último cuadro descargable con cifras exactas que incorporamos es mayo. No empalmamos un PM12 como si fuera un año calendario.</div>
       </div>
     </section>
 
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">Carne vacuna: exportar más ≠ automáticamente consumir menos <span>♡</span></div>
-        <div class="kicker">exportaciones vs consumo interno aparente · misma película, dos ejes</div>
+        <div class="kicker">2017–2025 · exportaciones vs consumo interno aparente · misma película, dos ejes</div>
       </div>
 
       <div id="beefTradeoffChart"></div>
@@ -11692,7 +11726,7 @@ html,body{overflow-x:clip}
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">Lácteos y huevos: proteínas baratas que cuentan otra parte de la historia <span>♡</span></div>
-        <div class="kicker">lácteos 2022–2025 revisados por nueva población · 2026 estimado · huevos 2024–2026</div>
+        <div class="kicker">lácteos 2002–2025 · 2026 estimado · huevos: anclas 2007, 2012, 2024–2026</div>
       </div>
       <div id="dairyEggChart"></div>
       <div class="co-cat-kpi-grid">
@@ -11711,7 +11745,7 @@ html,body{overflow-x:clip}
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">Movilidad cotidiana: combustibles vendidos <span>♡</span></div>
-        <div class="kicker">Secretaría de Energía · 2T y 3T 2025 vs mismos trimestres de 2024</div>
+        <div class="kicker">Secretaría de Energía · ventas anuales 2002–2024 · 2025 trimestral como coyuntura</div>
       </div>
       <div id="fuelCategoryChart"></div>
       <div class="co-cat-kpi-grid">
@@ -11729,7 +11763,7 @@ html,body{overflow-x:clip}
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">Consumo durable: autos y motos 0 km <span>♡</span></div>
-        <div class="kicker">años cerrados 2024–2025 · ene–jul 2026 parcial</div>
+        <div class="kicker">años cerrados 2019–2025 · ene–jul 2026 parcial</div>
       </div>
       <div id="vehicleConsumptionChart"></div>
       <div class="co-cat-kpi-grid">
@@ -11748,11 +11782,11 @@ html,body{overflow-x:clip}
     <section class="card" style="margin-top:16px">
       <div class="card-head">
         <div class="card-title">Duhalde → hoy: cantidades físicas cuando la serie realmente permite ir hacia atrás <span>♡</span></div>
-        <div class="kicker">2002–2026 · sin unir metodologías incompatibles ni rellenar huecos</div>
+        <div class="kicker">1963–2026 según categoría · parciales y estimaciones siempre separados</div>
       </div>
 
       <div class="co-history-legend">
-        <b>Regla editorial:</b> preferimos un hueco visible antes que inventar continuidad. En carnes, cerdo tiene una serie anual larga; vacuna y pollo tienen tramos históricos y recientes que no conectamos sobre años no verificados. En 2026 el rombo abierto es <b>PM12 a mayo</b>, no un año cerrado.
+        <b>Regla editorial:</b> ampliamos sólo con definiciones compatibles. Las tres carnes ahora cubren 2002–2025; en 2026 el rombo abierto sigue siendo <b>PM12 a mayo</b>, no un año cerrado.
       </div>
 
       <div id="meatLongHistoryChart"></div>
@@ -11760,18 +11794,18 @@ html,body{overflow-x:clip}
       <div class="co-history-grid">
         <div class="co-history-panel">
           <h4>🍷 Vino · consumo per cápita</h4>
-          <p>Serie oficial INV 2002–2024. El 1S-2026 se informa aparte como volumen (+0,8% ia), porque seis meses no son un año per cápita comparable.</p>
+          <p>Serie oficial INV 1963–2024. El 1S-2026 se informa aparte como volumen (+0,8% ia), porque seis meses no son un año per cápita comparable.</p>
           <div id="wineHistoryChart"></div>
         </div>
         <div class="co-history-panel">
-          <h4>🚗 Autos 0 km · anclas verificadas</h4>
-          <p>Tramo histórico 2002–2007 + cierres 2024–2025. El rombo 2026 es ene–jul: no se conecta como si fuera un año completo.</p>
+          <h4>🚗 Autos y motos 0 km · historia anual</h4>
+          <p>Autos 2002–2025 y motos 2019–2025. Los rombos 2026 son ene–jul: no se conectan como si fueran años completos.</p>
           <div id="vehicleHistoryChart"></div>
         </div>
       </div>
 
       <div class="co-history-legend">
-        <b>Qué no empalmamos:</b> la estadística láctea de comienzos de los 2000 publica productos específicos (leche pasteurizada, esterilizada, polvo, etc.), mientras la serie OCLA moderna es <b>litros de leche equivalentes totales</b>; juntarlas sería engañoso. Para huevos hay referencias históricas comparables desde 2007, pero 2002 está publicado en kg/hab y no lo convertimos suponiendo un peso por huevo. Yerba tiene archivo reciente, pero no una serie Duhalde→hoy homogénea en la misma definición accesible, así que tampoco la fabricamos.
+        <b>Qué no empalmamos:</b> lácteos sí usa una serie histórica común en litros de leche equivalentes desde 2002, pero huevos conserva sólo anclas publicadas —no interpolamos los años faltantes—. Yerba todavía no tiene una serie Duhalde→hoy homogénea en la misma definición accesible, así que no la fabricamos.
       </div>
     </section>
 
@@ -11802,6 +11836,12 @@ html,body{overflow-x:clip}
       <h3>Fuentes y descargas</h3>
       <div class="source-links">
         <button class="download-link" onclick="downloadConsumptionCsv('annual')">⬇ CSV · serie anual enlazada 2002–2025</button>
+        <button class="download-link" onclick="downloadConsumptionCategoryCsv('meats')">⬇ CSV · carnes 2002–2026</button>
+        <button class="download-link" onclick="downloadConsumptionCategoryCsv('beefTrade')">⬇ CSV · vacuna y exportaciones 2017–2025</button>
+        <button class="download-link" onclick="downloadConsumptionCategoryCsv('dairyEgg')">⬇ CSV · lácteos y huevos 2002–2026</button>
+        <button class="download-link" onclick="downloadConsumptionCategoryCsv('fuels')">⬇ CSV · combustibles 2002–2024</button>
+        <button class="download-link" onclick="downloadConsumptionCategoryCsv('vehicles')">⬇ CSV · vehículos 2002–2026</button>
+        <button class="download-link" onclick="downloadConsumptionCategoryCsv('wine')">⬇ CSV · vino 1963–2024</button>
         <button class="download-link" onclick="downloadConsumptionCsv('recent')">⬇ CSV · coyuntura 2024–2026</button>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-9-47">📊 INDEC · Cuentas Nacionales / PIB</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/indec/web/Institucional-Indec-InformacionDeArchivo-1">🗃️ INDEC · Cuentas Nacionales históricas base 1993</a>
@@ -11827,19 +11867,23 @@ html,body{overflow-x:clip}
         <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/node/508527">🍷 INV · mercado interno · 1S-2026</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.indec.gob.ar/uploads/informesdeprensa/super_06_26AE8B8D5076.pdf">🛒 INDEC · supermercados abril 2026 · rubros nominales vs total real</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://biblioteca.indec.gob.ar/bases/minde/super_07_26.pdf">🛒 INDEC · supermercados mayo 2026 · −0,7% ia real / −2,8% acumulado</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://ocla.org.ar/noticias/13373360-informe-de-coyuntura-n009-marzo-2019">🥛 OCLA · historia de consumo lácteo 1981–2018</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://ocla.org.ar/noticias/25621600-informes-de-cadena-de-valor-lacteos-dic-2022">🥛 OCLA · cadena láctea 2016–2021</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.ocla.org.ar/noticias/35415383-balance-lacteo-a-diciembre-de-2025">🥛 OCLA · balance lácteo diciembre 2025</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.ocla.org.ar/noticias/35452417-poblacion-y-consumo-domestico">🥛 OCLA · revisión poblacional de consumo 2022–2025</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.ocla.org.ar/noticias/36719685-balance-lacteo-a-mayo-de-2026">🥛 OCLA · balance lácteo mayo 2026 / estimación anual</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/node/495085">🥚 INTA / CAPIA · consumo de huevos</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/datos-abiertos/api-series-de-tiempo">⛽ Argentina Datos · API histórica de combustibles</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/sites/default/files/trimestral-2q2025.pdf">⛽ Energía · coyuntura 2T-2025</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.argentina.gob.ar/sites/default/files/trimestral-3q2025.pdf.pdf">⛽ Energía · coyuntura 3T-2025</a>
+        <a class="source-link" target="_blank" rel="noopener" href="https://datos.produccion.gob.ar/dataset/archivo-2003-2019-indicadores-sectoriales-de-automotores">🚗 Producción · archivo de patentamientos 2005–2019</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://api.acara.org.ar/storage/documents/bd41e97b-7974-4ae1-a35f-badf79dceeb3.pdf">🚗 ACARA/SIOMAA · cierre automotor 2025</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://cdi.mecon.gob.ar/bases/doc/cedem/coyecon/12.pdf">🚗 CEDEM · patentamientos nacionales 1997–2004 · DNRPA/ACARA</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://minutomotor.com.ar/wp-content/uploads/2026/08/2026.07-ACARA.-Informe-de-Mercado-4W_Instit.pdf">🚗 SIOMAA/ACARA · patentamientos julio 2026</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://es.linkedin.com/posts/siomaa_motoveh%C3%ADculos-patentamientos-mercadodemotos-activity-7489111624142864384-fZWR">🏍️ SIOMAA · motos julio 2026</a>
         <a class="source-link" target="_blank" rel="noopener" href="https://www.infobae.com/economia/2026/01/06/las-ventas-de-motos-0-km-crecieron-mas-de-33-en-2025-que-modelo-se-quedo-con-el-primer-puesto/">🏍️ SIOMAA/ACARA · cierre motos 2025</a>
       </div>
-      <div class="sources-note"><b>Metodología:</b> este tab no presenta los niveles enlazados como una única serie oficial homogénea. Las tasas históricas y recientes provienen de INDEC, pero el enlace entre bases, la normalización 2023=100 y el cálculo per cápita son <b>reconstrucciones/cálculos derivados identificados</b>. Los últimos años de Cuentas Nacionales están sujetos a revisión; por eso este tab usa para 2024–2025 el mismo vintage publicado en marzo de 2026 y no mezcla la estimación anterior de 2024 con el cierre 2025.<br><br><b>Categorías físicas:</b> las carnes son consumo aparente per cápita de SAGyP; yerba y vino son volúmenes comercializados en mercado interno de INYM/INV. <b>2026 nunca se convierte en año cerrado:</b> según la fuente se muestra como PM12, acumulado ene–jun/ene–jul, referencia vigente o estimación y se rotula con rombo abierto. La historia hasta Duhalde sólo se extiende donde encontramos definición comparable; los huecos quedan visibles. Las ventas por rubro de supermercados a precios corrientes se muestran sólo como ejemplo de por qué <b>facturación nominal ≠ cantidad consumida</b>.</div>
+      <div class="sources-note"><b>Metodología:</b> la comparación salario–ventas usa promedios por año —y enero–junio para 2026— y normaliza cada serie a su promedio de 2017=100. El salario real es el Total Índice de Salarios INDEC deflactado por IPC general: mide el precio del trabajo por puesto con composición fija, no la masa salarial. Las ventas reales de supermercados usan el índice implícito de su propia encuesta; la comparación es descriptiva y no causal.<br><br>Este tab no presenta los niveles enlazados como una única serie oficial homogénea. Las tasas históricas y recientes provienen de INDEC, pero el enlace entre bases, la normalización 2023=100 y el cálculo per cápita son <b>reconstrucciones/cálculos derivados identificados</b>. Los últimos años de Cuentas Nacionales están sujetos a revisión; por eso este tab usa para 2024–2025 el mismo vintage publicado en marzo de 2026 y no mezcla la estimación anterior de 2024 con el cierre 2025.<br><br><b>Categorías físicas:</b> las carnes son consumo aparente per cápita de SAGyP; yerba y vino son volúmenes comercializados en mercado interno de INYM/INV. <b>2026 nunca se convierte en año cerrado:</b> según la fuente se muestra como PM12, acumulado ene–jun/ene–jul, referencia vigente o estimación y se rotula con rombo abierto. La historia hasta Duhalde sólo se extiende donde encontramos definición comparable; los huecos quedan visibles. Las ventas por rubro de supermercados a precios corrientes se muestran sólo como ejemplo de por qué <b>facturación nominal ≠ cantidad consumida</b>.</div>
     </section>
     <footer>
       <b>Cálculos:</b> variación = (dato actual / dato comparable − 1) × 100; total de carnes = bovina + aviar + porcina; per cápita = cantidad / población.
@@ -14723,7 +14767,7 @@ html,body{overflow-x:clip}
     </section>
   </section>
 
-<div class="family-mini-note" style="margin:18px 0 8px;text-align:center"><b>📌 Cortes visibles:</b> núcleo histórico al <b>21/08/2026</b>, super-tabs auditados al <b>31/08/2026</b> y supermercados ampliado al <b>04/09/2026</b>. Las fuentes remotas del núcleo histórico están limitadas por fecha y <b>no incorporarán publicaciones posteriores al 21/08/2026</b>; los demás super-tabs conservan sus copias locales cerradas al 31/08/2026.</div>
+<div class="family-mini-note" style="margin:18px 0 8px;text-align:center"><b>📌 Cortes visibles:</b> núcleo histórico al <b>21/08/2026</b>, super-tabs auditados al <b>31/08/2026</b> y Consumo/Supermercados ampliados al <b>04/09/2026</b>. Las fuentes remotas del núcleo histórico están limitadas por fecha y <b>no incorporarán publicaciones posteriores al 21/08/2026</b>; los demás super-tabs conservan sus copias locales cerradas al 31/08/2026.</div>
 <div class="dashboard-credit">♡ ✦ hecho por <a href="https://x.com/miyurory" target="_blank" rel="noopener">@MiyuRory</a> y <span class="naira">Naira</span> 🐾 ✦ 🐾 ♡</div>
 </div>
 
@@ -15858,27 +15902,39 @@ const consumptionCsvRecent = "periodo,indicador,variacion_pct,comparacion,estado
 
 const consumptionMoreCategoryData={
   dairyEgg:{
-    years:[2022,2023,2024,2025,2026],
-    dairy:[188,191,174,185.3,188],
-    eggs:[null,null,363,398,398]
+    years:Array.from({length:24},(_,i)=>2002+i),
+    dairy:[195,179,188,184,190,195,203,204,203,204,214,197,193,217,200,195,190,182,184.5,188.8,188,191,174,185.3],
+    eggs:[null,null,null,null,null,195,null,null,null,null,236,null,null,null,null,null,null,null,null,null,null,null,363,398],
+    latest2026:{dairy:188,eggs:398}
   },
-  fuels:{labels:['Nafta súper','Nafta premium','Gasoil 2+3'],q2:[2.2,18.8,3.2],q3:[1.9,15.3,5.0]},
-  vehicles:{labels:['Autos 2024','Autos 2025','Motos 2024','Motos 2025'],values:[414211,612178,485221,650325]}
+  fuels:{
+    years:Array.from({length:23},(_,i)=>2002+i),
+    super:[2259.442930,2041.160442,2092.186230,2225.206890,2487.890340,3049.093740,3837.217250,4316.448114,4696.159248,5027.853908,5544.871267,6089.915608,6161.141597,6159.178550,6198.138816,6387.761374,6668.266437,6877.807405,5046.481817,6377.333528,7117.538469,7544.967834,7411.602483],
+    premium:[435.997500,521.317030,693.711010,924.864240,1316.058060,1558.284600,1291.511160,1054.247480,1261.537366,1732.813939,1826.768822,1953.811273,1892.477957,2355.671984,2432.423580,2894.205385,2669.119481,2293.600166,1653.612251,2352.760427,2802.304051,2809.698923,2295.388350],
+    diesel:[10029.016740,10359.051194,11124.721000,11974.266710,12647.914630,13513.804200,13562.009010,12482.940342,13775.443888,14210.673743,13491.827239,13749.914261,13716.681944,13415.023332,13674.927068,13717.553071,13490.955939,13396.212614,11927.656250,13715.446591,14779.419729,14667.898990,13966.960954],
+    quarterly2025:{labels:['Nafta súper','Nafta premium','Gasoil 2+3'],q2:[2.2,18.8,3.2],q3:[1.9,15.3,5.0]}
+  },
+  vehicles:{
+    years:[2019,2020,2021,2022,2023,2024,2025],
+    autos:[459753,342474,381777,407532,449438,414211,612178],
+    motos:[320671,265260,383767,411241,470691,485221,650325],
+    latest2026:{autos:339359,motos:511986,label:'ene–jul'}
+  }
 };
 
 const consumptionCategoryData={
   meats:{
-    years:[2020,2021,2022,2023,2024,2025],
-    beef:[50.68,49.40,50.98,52.72,48.49,49.92],
-    pork:[14.34,15.86,16.80,16.82,17.42,18.89],
-    poultry:[46.79,46.32,46.35,46.46,46.25,47.68],
-    total:[111.81,111.58,114.12,115.99,112.16,116.48],
+    years:[2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],
+    beef:[58.60,55.40,57.30,56.50,51.10,50.68,49.40,50.98,52.72,48.49,49.92],
+    pork:[11.40,12.30,13.70,14.10,14.10,14.34,15.86,16.80,16.82,17.42,18.89],
+    poultry:[45.80,43.10,44.50,44.10,45.40,46.79,46.32,46.35,46.46,46.25,47.68],
+    total:[115.80,110.80,115.50,114.70,110.70,111.81,111.58,114.12,115.99,112.16,116.48],
     latest2026:{year:2026,label:'may-2026 · PM12',beef:47.4,poultry:46.7,pork:19.6,total:113.7}
   },
   beefTrade:{
-    years:[2023,2024,2025],
-    exportsK:[852.818,934.866,853.183],
-    beefKg:[52.72,48.49,49.92]
+    years:[2017,2018,2019,2020,2021,2022,2023,2024,2025],
+    exportsK:[313,562,844,885,726,804,852.818,934.866,853.183],
+    beefKg:[57.33,56.46,51.15,50.68,49.40,50.98,52.72,48.49,49.92]
   },
   physicalChange:{
     labels:['Carne bovina','Carne aviar','Carne porcina','Yerba · interno','Vino · interno'],
@@ -15886,21 +15942,21 @@ const consumptionCategoryData={
   },
   meatHistory:{
     years:Array.from({length:25},(_,i)=>2002+i),
-    beef:[59.6,60.82,63.49,62.26,64.15,68.97,68.76,68.36,57.78,55.38,58.75,63.08,58.81,null,null,null,null,null,50.68,49.40,50.98,52.72,48.49,49.92,null],
-    poultry:[17.6,18.4,21.6,24.2,27.8,28.9,31.5,33.4,34.9,39.0,40.2,39.6,40.4,45.8,null,null,null,null,46.79,46.32,46.35,46.46,46.25,47.68,null],
-    pork:[4.98,5.33,5.75,6.22,7.37,7.94,7.62,7.96,8.06,8.64,8.56,10.40,10.65,11.43,12.33,13.73,14.11,14.15,14.34,15.86,16.80,16.82,17.42,18.89,null],
+    beef:[59.60,60.82,63.49,62.26,64.15,68.97,68.76,68.36,57.78,55.38,58.75,63.08,58.81,58.60,55.40,57.30,56.50,51.10,50.68,49.40,50.98,52.72,48.49,49.92,null],
+    poultry:[17.60,18.40,21.60,24.20,27.80,28.90,31.50,33.40,34.90,39.00,40.20,39.60,40.40,45.80,43.10,44.50,44.10,45.40,46.79,46.32,46.35,46.46,46.25,47.68,null],
+    pork:[4.98,5.33,5.75,6.22,7.37,7.94,7.62,7.96,8.06,8.64,8.56,10.40,10.65,11.40,12.30,13.70,14.10,14.10,14.34,15.86,16.80,16.82,17.42,18.89,null],
     latest2026:{beef:47.4,poultry:46.7,pork:19.6}
   },
   wineHistory:{
-    years:[2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024],
-    values:[32.9,33.7,29.9,29.2,29.2,29.1,27.8,26.7,24.9,25.0,25.1,25.6,23.3,23.8,21.6,20.2,18.9,19.7,20.8,18.3,18.0,16.7,16.3]
+    years:Array.from({length:62},(_,i)=>1963+i),
+    values:[82.9,86.8,85.8,80.2,82.8,87.5,88.5,91.8,85.3,79.7,72.5,77.2,83.7,84.8,88.5,81.6,76.3,76.3,74.7,73.6,71.1,66.3,60.1,59.2,58.1,55.9,53.7,54.2,52.4,49.5,44.4,43.2,41.1,41.1,40.3,38.8,38.7,37.8,36.3,32.9,33.7,29.9,29.2,29.2,29.1,27.8,26.7,24.9,25.0,25.1,25.6,23.3,23.8,21.6,20.2,18.9,19.7,20.8,18.3,18.0,16.7,16.3]
   },
   vehicleHistory:{
-    earlyYears:[2002,2003,2004,2005,2006,2007],
-    early:[96951,143273,280271,389823,453152,572744],
-    recentYears:[2024,2025],
-    recent:[414211,612178],
-    ytd2026:339359
+    years:Array.from({length:24},(_,i)=>2002+i),
+    autos:[96951,143273,280271,389823,453152,572744,610769,514903,662738,858022,840992,956721,687186,644019,710014,901019,803048,459753,342474,381777,407532,449438,414211,612178],
+    motoYears:[2019,2020,2021,2022,2023,2024,2025],
+    motos:[320671,265260,383767,411241,470691,485221,650325],
+    latest2026:{autos:339359,motos:511986,label:'ene–jul'}
   }
 };
 
@@ -15933,7 +15989,7 @@ function renderConsumptionCategories(){
       ...common,
       barmode:'stack',
       margin:{l:mobile?48:66,r:mobile?12:24,t:mobile?120:90,b:mobile?40:48},
-      xaxis:{...common.xaxis,type:'linear',range:[2019.55,2026.45],tickmode:'array',tickvals:[...md.years,2026],ticktext:[...md.years.map(String),'2026*'],fixedrange:true},
+      xaxis:{...common.xaxis,type:'linear',range:[2014.5,2026.5],tickmode:'linear',dtick:mobile?2:1,tickangle:mobile?-30:0,fixedrange:true},
       yaxis:{...common.yaxis,title:'kg por habitante / año',range:[0,130],fixedrange:true},
       legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.5:10.5},x:0},
       hovermode:mobile?'closest':'x unified',
@@ -16000,42 +16056,39 @@ function renderConsumptionMoreCategories(){
   const mobile=window.innerWidth<=720,de=consumptionMoreCategoryData.dairyEgg;
   const deEl=document.getElementById('dairyEggChart');
   if(deEl)Plotly.react(deEl,[
-    {type:'scatter',x:de.years.slice(0,4),y:de.dairy.slice(0,4),name:'Lácteos · LLE/hab',mode:'lines+markers+text',text:de.dairy.slice(0,4).map(v=>coFmt(v,0)),textposition:'top center',line:{color:'#5aa985',width:3},marker:{size:7},hovertemplate:'<b>%{x}</b><br>Lácteos: <b>%{y:.1f} L/hab</b><extra></extra>'},
-    {type:'scatter',x:[2026],y:[de.dairy[4]],name:'Lácteos 2026 · estimación',mode:'markers+text',text:['≈188'],textposition:'top center',marker:{size:11,symbol:'diamond-open',color:'#5aa985',line:{width:2}},hovertemplate:'<b>2026 · estimación OCLA</b><br>≈%{y:.0f} L/hab<extra></extra>'},
-    {type:'scatter',x:[2024,2025],y:[363,398],name:'Huevos · u/hab',mode:'lines+markers+text',yaxis:'y2',text:['363','398'],textposition:'bottom center',line:{color:'#bf9141',width:3},marker:{size:7},hovertemplate:'<b>%{x}</b><br>Huevos: <b>%{y:.0f} u/hab</b><extra></extra>'},
-    {type:'scatter',x:[2026],y:[398],name:'Huevos · referencia abr-2026',mode:'markers',yaxis:'y2',marker:{size:11,symbol:'diamond-open',color:'#bf9141',line:{width:2}},hovertemplate:'<b>abr-2026</b><br>Referencia vigente: <b>398 u/hab</b><extra></extra>'}
+    {type:'scatter',x:de.years,y:de.dairy,name:'Lácteos · LLE/hab',mode:'lines+markers',line:{color:'#5aa985',width:3},marker:{size:5},hovertemplate:'<b>%{x}</b><br>Lácteos: <b>%{y:.1f} L/hab</b><extra></extra>'},
+    {type:'scatter',x:de.years,y:de.eggs,name:'Huevos · anclas publicadas',mode:'markers+text',yaxis:'y2',text:de.eggs.map(v=>v==null?'':coFmt(v,0)),textposition:'top center',marker:{size:8,color:'#bf9141'},connectgaps:false,hovertemplate:'<b>%{x}</b><br>Huevos: <b>%{y:.0f} u/hab</b><extra></extra>'},
+    {type:'scatter',x:[2026],y:[de.latest2026.dairy],name:'Lácteos 2026 · estimación',mode:'markers+text',text:['≈188'],textposition:'top center',marker:{size:11,symbol:'diamond-open',color:'#5aa985',line:{width:2}},hovertemplate:'<b>2026 · estimación OCLA</b><br>≈%{y:.0f} L/hab<extra></extra>'},
+    {type:'scatter',x:[2026],y:[de.latest2026.eggs],name:'Huevos · referencia abr-2026',mode:'markers',yaxis:'y2',marker:{size:11,symbol:'diamond-open',color:'#bf9141',line:{width:2}},hovertemplate:'<b>abr-2026</b><br>Referencia vigente: <b>%{y:.0f} u/hab</b><extra></extra>'}
   ],{
     ...common,
-    margin:{l:mobile?54:68,r:mobile?58:72,t:mobile?110:55,b:mobile?36:42},
-    xaxis:{...common.xaxis,type:'linear',range:[2021.65,2026.35],tickmode:'array',tickvals:de.years,ticktext:['2022','2023','2024','2025','2026*'],fixedrange:true},
-    yaxis:{...common.yaxis,title:'Lácteos · LLE por habitante',range:[160,205],fixedrange:true},
-    yaxis2:{title:'Huevos · unidades por habitante',overlaying:'y',side:'right',range:[330,420],showgrid:false,fixedrange:true},
-    legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.05:1.06,font:{size:mobile?8.5:10.5},x:0},
+    margin:{l:mobile?54:68,r:mobile?58:72,t:mobile?110:72,b:mobile?42:48},
+    xaxis:{...common.xaxis,type:'linear',range:[2001.5,2026.5],dtick:mobile?4:2,tickformat:'d',tickangle:mobile?-30:0,fixedrange:true},
+    yaxis:{...common.yaxis,title:'Lácteos · LLE por habitante',range:[160,225],fixedrange:true},
+    yaxis2:{title:'Huevos · unidades por habitante',overlaying:'y',side:'right',range:[170,420],showgrid:false,fixedrange:true},
+    legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.05:1.10,font:{size:mobile?8.5:10.5},x:0},
     annotations:[dairyEggAnnotation(mobile)]
   },{responsive:true,displaylogo:false,displayModeBar:false});
 
   const f=consumptionMoreCategoryData.fuels,fEl=document.getElementById('fuelCategoryChart');
-  if(fEl)Plotly.react(fEl,[{type:'bar',x:f.labels,y:f.q2,name:'2T-2025 vs 2T-2024',marker:{color:'#9b7bd3'},text:f.q2.map(v=>'+'+coFmt(v,1)+'%'),textposition:'outside',cliponaxis:false},{type:'bar',x:f.labels,y:f.q3,name:'3T-2025 vs 3T-2024',marker:{color:'#5f9f87'},text:f.q3.map(v=>'+'+coFmt(v,1)+'%'),textposition:'outside',cliponaxis:false}],{...common,barmode:'group',margin:{l:mobile?50:66,r:12,t:mobile?65:58,b:mobile?40:44},xaxis:{...common.xaxis,tickangle:0,fixedrange:true},yaxis:{...common.yaxis,title:'Variación interanual de volumen',ticksuffix:'%',range:[0,22],fixedrange:true},legend:{...common.legend,orientation:'h',y:mobile?1.08:1.10,font:{size:mobile?8.5:10.5},x:0}},{responsive:true,displaylogo:false,displayModeBar:false});
+  if(fEl)Plotly.react(fEl,[
+    {type:'scatter',x:f.years,y:f.super,name:'Nafta súper',mode:'lines+markers',line:{color:'#9b7bd3',width:2.7},marker:{size:4},hovertemplate:'<b>%{x}</b><br>Nafta súper: <b>%{y:,.0f} mil m³</b><extra></extra>'},
+    {type:'scatter',x:f.years,y:f.premium,name:'Nafta premium',mode:'lines+markers',line:{color:'#c886a6',width:2.7},marker:{size:4},hovertemplate:'<b>%{x}</b><br>Nafta premium: <b>%{y:,.0f} mil m³</b><extra></extra>'},
+    {type:'scatter',x:f.years,y:f.diesel,name:'Gasoil',mode:'lines+markers',line:{color:'#5f9f87',width:2.7},marker:{size:4},hovertemplate:'<b>%{x}</b><br>Gasoil: <b>%{y:,.0f} mil m³</b><extra></extra>'}
+  ],{...common,margin:{l:mobile?58:74,r:14,t:mobile?94:72,b:mobile?42:48},xaxis:{...common.xaxis,type:'linear',range:[2001.5,2024.5],dtick:mobile?4:2,tickformat:'d',tickangle:mobile?-30:0,fixedrange:true},yaxis:{...common.yaxis,title:'Ventas anuales · miles de m³',rangemode:'tozero',fixedrange:true},legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.5:10.5},x:0},hovermode:mobile?'closest':'x unified',shapes:consumptionMandateShapesNumeric(2024.5),annotations:consumptionMandateAnnotationsNumeric(mobile,2024.5)},{responsive:true,displaylogo:false,displayModeBar:false});
 
   const v=consumptionMoreCategoryData.vehicles,vEl=document.getElementById('vehicleConsumptionChart');
-  if(vEl)Plotly.react(vEl,[{type:'bar',x:v.labels,y:v.values,marker:{color:['#c9bdd4','#8d72d5','#c7b38b','#c28d45']},text:v.values.map(n=>Math.round(n).toLocaleString('es-AR')),textposition:'outside',cliponaxis:false}],{...common,margin:{l:mobile?50:66,r:12,t:mobile?36:48,b:mobile?40:44},xaxis:{...common.xaxis,tickangle:0,fixedrange:true},yaxis:{...common.yaxis,title:'Patentamientos 0 km · unidades',rangemode:'tozero',fixedrange:true},showlegend:false},{responsive:true,displaylogo:false,displayModeBar:false});
+  if(vEl)Plotly.react(vEl,[
+    {type:'scatter',x:v.years,y:v.autos,name:'Autos · años cerrados',mode:'lines+markers',line:{color:'#8d72d5',width:3},marker:{size:6},hovertemplate:'<b>%{x}</b><br>Autos: <b>%{y:,.0f}</b><extra></extra>'},
+    {type:'scatter',x:v.years,y:v.motos,name:'Motos · años cerrados',mode:'lines+markers',line:{color:'#c28d45',width:3},marker:{size:6},hovertemplate:'<b>%{x}</b><br>Motos: <b>%{y:,.0f}</b><extra></extra>'},
+    {type:'scatter',x:[2026],y:[v.latest2026.autos],name:'Autos 2026 · ene–jul',mode:'markers',marker:{size:11,symbol:'diamond-open',color:'#8d72d5',line:{width:2}},hovertemplate:'<b>ene–jul 2026</b><br>Autos: <b>%{y:,.0f}</b><extra></extra>'},
+    {type:'scatter',x:[2026],y:[v.latest2026.motos],name:'Motos 2026 · ene–jul',mode:'markers',marker:{size:11,symbol:'diamond-open',color:'#c28d45',line:{width:2}},hovertemplate:'<b>ene–jul 2026</b><br>Motos: <b>%{y:,.0f}</b><extra></extra>'}
+  ],{...common,margin:{l:mobile?54:70,r:14,t:mobile?108:74,b:mobile?42:48},xaxis:{...common.xaxis,type:'linear',range:[2018.6,2026.4],dtick:1,tickformat:'d',tickangle:mobile?-30:0,fixedrange:true},yaxis:{...common.yaxis,title:'Patentamientos 0 km · unidades',rangemode:'tozero',fixedrange:true},legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.5:10.5},x:0},annotations:[{xref:'paper',yref:'paper',x:.99,y:.04,text:'Rombos 2026 = ene–jul<br>no comparables con año cerrado',showarrow:false,xanchor:'right',yanchor:'bottom',align:'right',font:{size:mobile?8:9,color:'#806c89'},bgcolor:'rgba(255,255,255,.9)'}]},{responsive:true,displaylogo:false,displayModeBar:false});
 }
 
 
-function vehicleHistoryTicks(mobile){
-  return mobile
-    ? {tickvals:[0,2,5,6,7,8,9],ticktext:['2002','2004','2007','⋯','2024','’25','’26*']}
-    : {tickvals:[0,1,2,3,4,5,6,7,8,9],ticktext:['2002','2003','2004','2005','2006','2007','⋯','2024','2025','2026*']};
-}
-function vehicleHistoryAnnotation(mobile){
-  return {
-    xref:'x',yref:'paper',x:6,y:.1,
-    text:mobile?'<b>sin datos</b><br>2008–2023':'<b>hueco 2008–2023</b><br>sin años verificados',
-    showarrow:false,xanchor:'center',yanchor:'bottom',align:'center',
-    font:{size:mobile?8.5:9.5,color:'#806c89'},
-    bgcolor:'rgba(255,255,255,.92)',bordercolor:'rgba(223,207,232,.9)',borderwidth:1,borderpad:3
-  };
-}
+function vehicleHistoryTicks(mobile){return {dtick:mobile?4:2};}
+function vehicleHistoryAnnotation(mobile){return {xref:'paper',yref:'paper',x:.99,y:.04,text:'Rombos 2026 = ene–jul · no año cerrado',showarrow:false,xanchor:'right',font:{size:mobile?8:9,color:'#806c89'},bgcolor:'rgba(255,255,255,.9)'};}
 
 function consumptionMandateShapesNumeric(endYear=2026.5){
   const bands=[
@@ -16066,7 +16119,6 @@ function renderConsumptionHistory(){
   const mh=consumptionCategoryData.meatHistory;
   const meatEl=document.getElementById('meatLongHistoryChart');
   if(meatEl){
-    const shapes=consumptionMandateShapesNumeric(2026.5);
     Plotly.react(meatEl,[
       {x:mh.years,y:mh.beef,name:'Bovina · anual',mode:'lines+markers',connectgaps:false,line:{color:'#a97586',width:2.5},marker:{size:4.5},hovertemplate:'<b>%{x}</b><br>Bovina: <b>%{y:.2f} kg/hab</b><extra></extra>'},
       {x:mh.years,y:mh.poultry,name:'Aviar · anual',mode:'lines+markers',connectgaps:false,line:{color:'#d5a85d',width:2.5},marker:{size:4.5},hovertemplate:'<b>%{x}</b><br>Aviar: <b>%{y:.2f} kg/hab</b><extra></extra>'},
@@ -16074,143 +16126,40 @@ function renderConsumptionHistory(){
       {x:[2026],y:[mh.latest2026.beef],name:'Bovina · may-26 PM12',mode:'markers',marker:{size:11,symbol:'diamond-open',color:'#a97586',line:{width:2}},hovertemplate:'<b>may-2026 PM12</b><br>Bovina: <b>%{y:.1f}</b><extra></extra>'},
       {x:[2026],y:[mh.latest2026.poultry],name:'Aviar · may-26 PM12',mode:'markers',marker:{size:11,symbol:'diamond-open',color:'#d5a85d',line:{width:2}},hovertemplate:'<b>may-2026 PM12</b><br>Aviar: <b>%{y:.1f}</b><extra></extra>'},
       {x:[2026],y:[mh.latest2026.pork],name:'Porcina · may-26 PM12',mode:'markers',marker:{size:11,symbol:'diamond-open',color:'#8c72d8',line:{width:2}},hovertemplate:'<b>may-2026 PM12</b><br>Porcina: <b>%{y:.1f}</b><extra></extra>'}
-    ],{
-      ...common,
-      margin:{l:mobile?50:68,r:mobile?12:24,t:mobile?110:88,b:mobile?40:48},
-      xaxis:{...common.xaxis,type:'linear',range:[2001.5,2026.5],dtick:mobile?4:2,tickformat:'d',tickangle:mobile?-35:0,fixedrange:true},
-      yaxis:{...common.yaxis,title:'Consumo aparente · kg/hab/año',range:[0,80],fixedrange:true},
-      legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.2:10},x:0},
-      hovermode:mobile?'closest':'x unified',
-      shapes,
-      annotations:consumptionMandateAnnotationsNumeric(mobile,2026.5)
-    },{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
+    ],{...common,margin:{l:mobile?50:68,r:mobile?12:24,t:mobile?110:88,b:mobile?40:48},xaxis:{...common.xaxis,type:'linear',range:[2001.5,2026.5],dtick:mobile?4:2,tickformat:'d',tickangle:mobile?-35:0,fixedrange:true},yaxis:{...common.yaxis,title:'Consumo aparente · kg/hab/año',range:[0,80],fixedrange:true},legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.2:10},x:0},hovermode:mobile?'closest':'x unified',shapes:consumptionMandateShapesNumeric(2026.5),annotations:consumptionMandateAnnotationsNumeric(mobile,2026.5)},{responsive:true,displaylogo:false,displayModeBar:false,scrollZoom:false,doubleClick:false});
   }
 
   const wh=consumptionCategoryData.wineHistory;
   const wineEl=document.getElementById('wineHistoryChart');
   if(wineEl){
-    Plotly.react(wineEl,[{
-      x:wh.years,y:wh.values,name:'Vino · L/hab',mode:'lines+markers',
-      line:{color:'#8f688d',width:2.7},marker:{size:4.5},
-      hovertemplate:'<b>%{x}</b><br><b>%{y:.1f} L/hab/año</b><extra></extra>'
-    }],{
-      ...common,
-      margin:{l:mobile?46:58,r:mobile?10:12,t:mobile?42:44,b:mobile?34:40},
-      xaxis:{...common.xaxis,type:'linear',range:[2001.5,2024.5],dtick:mobile?5:4,tickformat:'d',tickangle:mobile?-30:0,fixedrange:true},
-      yaxis:{...common.yaxis,title:'Litros por habitante/año',range:[0,37],fixedrange:true},
-      showlegend:false,
-      shapes:consumptionMandateShapesNumeric(2024.5),
-      annotations:consumptionMandateAnnotationsNumeric(mobile,2024.5)
-    },{responsive:true,displaylogo:false,displayModeBar:false});
+    Plotly.react(wineEl,[{x:wh.years,y:wh.values,name:'Vino · L/hab',mode:'lines+markers',line:{color:'#8f688d',width:2.7},marker:{size:3.5},hovertemplate:'<b>%{x}</b><br><b>%{y:.1f} L/hab/año</b><extra></extra>'}],{...common,margin:{l:mobile?46:58,r:mobile?10:12,t:mobile?42:44,b:mobile?38:44},xaxis:{...common.xaxis,type:'linear',range:[1962.5,2024.5],dtick:mobile?10:5,tickformat:'d',tickangle:mobile?-30:0,fixedrange:true},yaxis:{...common.yaxis,title:'Litros por habitante/año',range:[0,100],fixedrange:true},showlegend:false,shapes:consumptionMandateShapesNumeric(2024.5),annotations:consumptionMandateAnnotationsNumeric(mobile,2024.5)},{responsive:true,displaylogo:false,displayModeBar:false});
   }
 
   const vh=consumptionCategoryData.vehicleHistory;
   const vehicleEl=document.getElementById('vehicleHistoryChart');
   if(vehicleEl){
-    const earlyX=vh.earlyYears.map((_,i)=>i),recentX=vh.recentYears.map((_,i)=>7+i),vehicleTicks=vehicleHistoryTicks(mobile);
     Plotly.react(vehicleEl,[
-      {x:earlyX,y:vh.early,name:'0 km · tramo histórico',mode:'lines+markers+text',text:vh.early.map(v=>Math.round(v/1000)+'k'),textposition:['top center','bottom center','top center','middle right','top center','top center'],customdata:vh.earlyYears,line:{color:'#7b67c7',width:2.5},marker:{size:6},hovertemplate:'<b>%{customdata}</b><br>%{y:,.0f} patentamientos<extra></extra>'},
-      {x:recentX,y:vh.recent,name:'0 km · cierres recientes',mode:'lines+markers+text',text:vh.recent.map(v=>Math.round(v/1000)+'k'),textposition:['middle right','top center'],customdata:vh.recentYears,line:{color:'#7b67c7',width:2.5},marker:{size:7},hovertemplate:'<b>%{customdata}</b><br>%{y:,.0f} patentamientos<extra></extra>'},
-      {x:[9],y:[vh.ytd2026],name:'ene–jul 2026 · parcial',mode:'markers+text',text:['339k YTD'],textposition:'middle left',customdata:[2026],marker:{size:11,symbol:'diamond-open',color:'#c06983',line:{width:2}},hovertemplate:'<b>ene–jul %{customdata}</b><br>%{y:,.0f} patentamientos<extra></extra>'}
-    ],{
-      ...common,
-      margin:{l:mobile?44:60,r:mobile?20:18,t:mobile?88:58,b:mobile?32:36},
-      xaxis:{...common.xaxis,type:'linear',range:[-.55,9.55],tickmode:'array',...vehicleTicks,tickangle:mobile?-25:0,fixedrange:true},
-      yaxis:{...common.yaxis,title:mobile?'':'Patentamientos 0 km · unidades',rangemode:'tozero',fixedrange:true},
-      legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.05:1.08,font:{size:mobile?8.5:10},x:0},
-      shapes:[{type:'rect',xref:'x',x0:-.35,x1:1.4,yref:'paper',y0:0,y1:1,fillcolor:'rgba(129,103,156,.045)',line:{width:0},layer:'below'}],
-      annotations:[vehicleHistoryAnnotation(mobile)]
-    },{responsive:true,displaylogo:false,displayModeBar:false});
+      {x:vh.years,y:vh.autos,name:'Autos · años cerrados',mode:'lines+markers',line:{color:'#7b67c7',width:2.7},marker:{size:4.5},hovertemplate:'<b>%{x}</b><br>Autos: <b>%{y:,.0f}</b><extra></extra>'},
+      {x:vh.motoYears,y:vh.motos,name:'Motos · años cerrados',mode:'lines+markers',line:{color:'#c28d45',width:2.7},marker:{size:5},hovertemplate:'<b>%{x}</b><br>Motos: <b>%{y:,.0f}</b><extra></extra>'},
+      {x:[2026],y:[vh.latest2026.autos],name:'Autos · ene–jul 2026',mode:'markers',marker:{size:11,symbol:'diamond-open',color:'#7b67c7',line:{width:2}},hovertemplate:'<b>ene–jul 2026</b><br>Autos: <b>%{y:,.0f}</b><extra></extra>'},
+      {x:[2026],y:[vh.latest2026.motos],name:'Motos · ene–jul 2026',mode:'markers',marker:{size:11,symbol:'diamond-open',color:'#c28d45',line:{width:2}},hovertemplate:'<b>ene–jul 2026</b><br>Motos: <b>%{y:,.0f}</b><extra></extra>'}
+    ],{...common,margin:{l:mobile?48:62,r:mobile?14:18,t:mobile?98:68,b:mobile?38:44},xaxis:{...common.xaxis,type:'linear',range:[2001.5,2026.5],dtick:mobile?4:2,tickformat:'d',tickangle:mobile?-30:0,fixedrange:true},yaxis:{...common.yaxis,title:mobile?'':'Patentamientos 0 km · unidades',rangemode:'tozero',fixedrange:true},legend:{...common.legend,orientation:mobile?'v':'h',y:mobile?1.04:1.10,font:{size:mobile?8.5:10},x:0},hovermode:mobile?'closest':'x unified',shapes:consumptionMandateShapesNumeric(2026.5),annotations:[...consumptionMandateAnnotationsNumeric(mobile,2026.5),vehicleHistoryAnnotation(mobile)]},{responsive:true,displaylogo:false,displayModeBar:false});
   }
 }
 
 function resizeConsumptionCategoryCharts(mobile){
   ['meatConsumptionChart','beefTradeoffChart','physicalCategoryChangeChart','dairyEggChart','fuelCategoryChart','vehicleConsumptionChart','meatLongHistoryChart','wineHistoryChart','vehicleHistoryChart'].forEach(id=>{
-    const el=document.getElementById(id);
-    if(el?.data){
-      if(id==='physicalCategoryChangeChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?118:150,'margin.r':mobile?42:58,
-          'margin.t':mobile?40:44,'margin.b':mobile?36:40,
-          'annotations':[physicalCategoryAnnotation(mobile)]
-        });
-      }
-      if(id==='meatConsumptionChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?48:66,'margin.r':mobile?12:24,
-          'margin.t':mobile?120:90,'margin.b':mobile?40:48,
-          'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,
-          'legend.font.size':mobile?8.5:10.5,
-          'annotations':[{xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
-        });
-      }
-      if(id==='beefTradeoffChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?52:70,'margin.r':mobile?52:68,
-          'margin.t':mobile?72:65,'margin.b':mobile?40:48,
-          'legend.orientation':'h','legend.y':mobile?1.10:1.12,
-          'legend.font.size':mobile?8.5:10.5,
-          'annotations':[{xref:'paper',yref:'paper',x:.5,y:.985,text:'Dos ejes distintos: volumen exportado vs consumo per cápita',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}]
-        });
-      }
-      if(id==='dairyEggChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?54:68,'margin.r':mobile?58:72,
-          'margin.t':mobile?110:55,'margin.b':mobile?36:42,
-          'legend.orientation':mobile?'v':'h','legend.y':mobile?1.05:1.06,
-          'legend.font.size':mobile?8.5:10.5,
-          'annotations':[dairyEggAnnotation(mobile)]
-        });
-      }
-      if(id==='fuelCategoryChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?50:66,'margin.r':12,
-          'margin.t':mobile?65:58,'margin.b':mobile?40:44,
-          'xaxis.tickangle':0,
-          'legend.orientation':'h','legend.y':mobile?1.08:1.10,
-          'legend.font.size':mobile?8.5:10.5
-        });
-      }
-      if(id==='vehicleConsumptionChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?50:66,'margin.r':12,
-          'margin.t':mobile?36:48,'margin.b':mobile?40:44,
-          'xaxis.tickangle':0
-        });
-      }
-      if(id==='meatLongHistoryChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?50:68,'margin.r':mobile?12:24,
-          'margin.t':mobile?110:88,'margin.b':mobile?40:48,
-          'xaxis.dtick':mobile?4:2,'xaxis.tickangle':mobile?-35:0,
-          'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,
-          'legend.font.size':mobile?8.2:10,
-          'annotations':consumptionMandateAnnotationsNumeric(mobile,2026.5)
-        });
-      }
-      if(id==='wineHistoryChart'){
-        Plotly.relayout(el,{
-          'margin.l':mobile?46:58,'margin.r':mobile?10:12,
-          'margin.t':mobile?42:44,'margin.b':mobile?34:40,
-          'xaxis.dtick':mobile?5:4,'xaxis.tickangle':mobile?-30:0,
-          'annotations':consumptionMandateAnnotationsNumeric(mobile,2024.5)
-        });
-      }
-      if(id==='vehicleHistoryChart'){
-        const ticks=vehicleHistoryTicks(mobile);
-        Plotly.relayout(el,{
-          'margin.l':mobile?44:60,'margin.r':mobile?20:18,
-          'margin.t':mobile?88:58,'margin.b':mobile?32:36,
-          'xaxis.tickvals':ticks.tickvals,'xaxis.ticktext':ticks.ticktext,
-          'xaxis.tickangle':mobile?-25:0,
-          'yaxis.title.text':mobile?'':'Patentamientos 0 km · unidades',
-          'legend.orientation':mobile?'v':'h','legend.y':mobile?1.05:1.08,
-          'legend.font.size':mobile?8.5:10,
-          'annotations':[vehicleHistoryAnnotation(mobile)]
-        });
-      }
-      Plotly.Plots.resize(el);
-    }
+    const el=document.getElementById(id); if(!el?.data)return;
+    if(id==='physicalCategoryChangeChart') Plotly.relayout(el,{'margin.l':mobile?118:150,'margin.r':mobile?42:58,'margin.t':mobile?40:44,'margin.b':mobile?36:40,'annotations':[physicalCategoryAnnotation(mobile)]});
+    if(id==='meatConsumptionChart') Plotly.relayout(el,{'margin.l':mobile?48:66,'margin.r':mobile?12:24,'margin.t':mobile?120:90,'margin.b':mobile?40:48,'xaxis.dtick':mobile?2:1,'xaxis.tickangle':mobile?-30:0,'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,'legend.font.size':mobile?8.5:10.5,'annotations':[{xref:'paper',yref:'paper',x:.5,y:1.015,text:'Barras = años cerrados · rombos 2026 = PM12 a mayo',showarrow:false,xanchor:'center',yanchor:'bottom',font:{size:mobile?8.5:9.5,color:'#806c89'}}]});
+    if(id==='beefTradeoffChart') Plotly.relayout(el,{'margin.l':mobile?52:70,'margin.r':mobile?52:68,'margin.t':mobile?72:65,'margin.b':mobile?40:48,'legend.orientation':'h','legend.y':mobile?1.10:1.12,'legend.font.size':mobile?8.5:10.5,'annotations':[{xref:'paper',yref:'paper',x:.5,y:.985,text:'Dos ejes distintos: volumen exportado vs consumo per cápita',showarrow:false,xanchor:'center',yanchor:'top',font:{size:mobile?8.5:9.5,color:'#806c89'}}]});
+    if(id==='dairyEggChart') Plotly.relayout(el,{'margin.l':mobile?54:68,'margin.r':mobile?58:72,'margin.t':mobile?110:72,'margin.b':mobile?42:48,'xaxis.dtick':mobile?4:2,'xaxis.tickangle':mobile?-30:0,'legend.orientation':mobile?'v':'h','legend.y':mobile?1.05:1.10,'legend.font.size':mobile?8.5:10.5,'annotations':[dairyEggAnnotation(mobile)]});
+    if(id==='fuelCategoryChart') Plotly.relayout(el,{'margin.l':mobile?58:74,'margin.r':14,'margin.t':mobile?94:72,'margin.b':mobile?42:48,'xaxis.dtick':mobile?4:2,'xaxis.tickangle':mobile?-30:0,'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,'legend.font.size':mobile?8.5:10.5,'annotations':consumptionMandateAnnotationsNumeric(mobile,2024.5)});
+    if(id==='vehicleConsumptionChart') Plotly.relayout(el,{'margin.l':mobile?54:70,'margin.r':14,'margin.t':mobile?108:74,'margin.b':mobile?42:48,'xaxis.tickangle':mobile?-30:0,'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,'legend.font.size':mobile?8.5:10.5});
+    if(id==='meatLongHistoryChart') Plotly.relayout(el,{'margin.l':mobile?50:68,'margin.r':mobile?12:24,'margin.t':mobile?110:88,'margin.b':mobile?40:48,'xaxis.dtick':mobile?4:2,'xaxis.tickangle':mobile?-35:0,'legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,'legend.font.size':mobile?8.2:10,'annotations':consumptionMandateAnnotationsNumeric(mobile,2026.5)});
+    if(id==='wineHistoryChart') Plotly.relayout(el,{'margin.l':mobile?46:58,'margin.r':mobile?10:12,'margin.t':mobile?42:44,'margin.b':mobile?38:44,'xaxis.dtick':mobile?10:5,'xaxis.tickangle':mobile?-30:0,'annotations':consumptionMandateAnnotationsNumeric(mobile,2024.5)});
+    if(id==='vehicleHistoryChart') Plotly.relayout(el,{'margin.l':mobile?48:62,'margin.r':mobile?14:18,'margin.t':mobile?98:68,'margin.b':mobile?38:44,'xaxis.dtick':mobile?4:2,'xaxis.tickangle':mobile?-30:0,'yaxis.title.text':mobile?'':'Patentamientos 0 km · unidades','legend.orientation':mobile?'v':'h','legend.y':mobile?1.04:1.10,'legend.font.size':mobile?8.5:10,'annotations':[...consumptionMandateAnnotationsNumeric(mobile,2026.5),vehicleHistoryAnnotation(mobile)]});
+    Plotly.Plots.resize(el);
   });
 }
 
@@ -16334,6 +16283,25 @@ function downloadConsumptionCsv(kind) {
   const content=kind==='recent'?consumptionCsvRecent:consumptionCsvAnnual;
   const filename=kind==='recent'?'consumo_coyuntura_2024_2026.csv':'consumo_privado_real_enlazado_2002_2025.csv';
   const blob=new Blob(['\uFEFF'+content],{type:'text/csv;charset=utf-8'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download=filename; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),800);
+}
+function downloadConsumptionCategoryCsv(kind){
+  let headers=[],rows=[],filename='consumo.csv';
+  if(kind==='meats'){
+    const d=consumptionCategoryData.meatHistory;headers=['year','beef_kg_per_capita','poultry_kg_per_capita','pork_kg_per_capita','period_status'];rows=d.years.map((y,i)=>[y,d.beef[i],d.poultry[i],d.pork[i],y===2026?'PM12 through May; not calendar year':'annual']);filename='consumo_carnes_per_capita_2002_2026.csv';
+  }else if(kind==='beefTrade'){
+    const d=consumptionCategoryData.beefTrade;headers=['year','exports_thousand_tonnes_bone_equivalent','beef_kg_per_capita'];rows=d.years.map((y,i)=>[y,d.exportsK[i],d.beefKg[i]]);filename='carne_vacuna_exportaciones_consumo_2017_2025.csv';
+  }else if(kind==='dairyEgg'){
+    const d=consumptionMoreCategoryData.dairyEgg;headers=['year','dairy_lle_litres_per_capita','eggs_units_per_capita','period_status'];rows=[...d.years.map((y,i)=>[y,d.dairy[i],d.eggs[i],'annual']),[2026,d.latest2026.dairy,d.latest2026.eggs,'dairy estimate and April egg reference; not calendar-year closes']];filename='lacteos_huevos_consumo_per_capita_2002_2026.csv';
+  }else if(kind==='fuels'){
+    const d=consumptionMoreCategoryData.fuels;headers=['year','grade_2_gasoline_thousand_m3','grade_3_gasoline_thousand_m3','diesel_thousand_m3'];rows=d.years.map((y,i)=>[y,d.super[i],d.premium[i],d.diesel[i]]);filename='combustibles_ventas_anuales_2002_2024.csv';
+  }else if(kind==='vehicles'){
+    const d=consumptionCategoryData.vehicleHistory,m=new Map(d.motoYears.map((y,i)=>[y,d.motos[i]]));headers=['year','autos_units','motos_units','period_status'];rows=[...d.years.map((y,i)=>[y,d.autos[i],m.get(y)??'', 'annual']),[2026,d.latest2026.autos,d.latest2026.motos,'January-July only']];filename='patentamientos_vehiculos_2002_2026.csv';
+  }else if(kind==='wine'){
+    const d=consumptionCategoryData.wineHistory;headers=['year','litres_per_capita'];rows=d.years.map((y,i)=>[y,d.values[i]]);filename='vino_consumo_per_capita_1963_2024.csv';
+  }
+  const esc=v=>{if(v==null)return '';const s=String(v);return /[,"\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s};
+  const content=[headers.join(','),...rows.map(r=>r.map(esc).join(','))].join('\n');
+  const blob=new Blob(['\uFEFF'+content],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),800);
 }
 document.getElementById('coMetricTotal')?.addEventListener('click',()=>setConsumptionMetric('total'));
 document.getElementById('coMetricPerCap')?.addEventListener('click',()=>setConsumptionMetric('percap'));
@@ -23161,8 +23129,20 @@ normalizeSourceRegisters();
 <script id="consumo-supermercados-historico-v2-script">
 const SUPER_HISTORY={"modern":[{"date":"2017-01","year":2017,"month":1,"real_index":99.9,"nominal_index":90.9507,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-02","year":2017,"month":2,"real_index":91.7,"nominal_index":84.8631,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-03","year":2017,"month":3,"real_index":95.8,"nominal_index":90.6932,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-04","year":2017,"month":4,"real_index":98.4,"nominal_index":95.1145,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-05","year":2017,"month":5,"real_index":93.2,"nominal_index":91.3102,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-06","year":2017,"month":6,"real_index":95.9,"nominal_index":95.1093,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-07","year":2017,"month":7,"real_index":101.2,"nominal_index":101.8006,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-08","year":2017,"month":8,"real_index":99.6,"nominal_index":101.7112,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-09","year":2017,"month":9,"real_index":96.0,"nominal_index":99.6433,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-10","year":2017,"month":10,"real_index":101.0,"nominal_index":105.9262,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-11","year":2017,"month":11,"real_index":103.4,"nominal_index":109.7883,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2017-12","year":2017,"month":12,"real_index":124.0,"nominal_index":133.0894,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-01","year":2018,"month":1,"real_index":97.2,"nominal_index":106.0346,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-02","year":2018,"month":2,"real_index":93.3,"nominal_index":103.6109,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-03","year":2018,"month":3,"real_index":104.9,"nominal_index":119.2635,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-04","year":2018,"month":4,"real_index":96.1,"nominal_index":111.3707,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-05","year":2018,"month":5,"real_index":96.1,"nominal_index":114.6988,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-06","year":2018,"month":6,"real_index":99.9,"nominal_index":125.1624,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-07","year":2018,"month":7,"real_index":98.3,"nominal_index":128.2319,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-08","year":2018,"month":8,"real_index":95.5,"nominal_index":128.9289,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-09","year":2018,"month":9,"real_index":88.4,"nominal_index":130.3445,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-10","year":2018,"month":10,"real_index":90.9,"nominal_index":141.7539,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-11","year":2018,"month":11,"real_index":90.5,"nominal_index":146.4195,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2018-12","year":2018,"month":12,"real_index":113.2,"nominal_index":186.7535,"status":"derivado desde ventas oficiales; base promedio 2017=100"},{"date":"2019-01","year":2019,"month":1,"real_index":86.9,"nominal_index":148.3,"status":"observado INDEC"},{"date":"2019-02","year":2019,"month":2,"real_index":82.0,"nominal_index":145.6,"status":"observado INDEC"},{"date":"2019-03","year":2019,"month":3,"real_index":89.7,"nominal_index":166.9,"status":"observado INDEC"},{"date":"2019-04","year":2019,"month":4,"real_index":84.0,"nominal_index":162.2,"status":"observado INDEC"},{"date":"2019-05","year":2019,"month":5,"real_index":83.2,"nominal_index":165.9,"status":"observado INDEC"},{"date":"2019-06","year":2019,"month":6,"real_index":86.7,"nominal_index":177.8,"status":"observado INDEC"},{"date":"2019-07","year":2019,"month":7,"real_index":85.8,"nominal_index":179.8,"status":"observado INDEC"},{"date":"2019-08","year":2019,"month":8,"real_index":88.6,"nominal_index":195.0,"status":"observado INDEC"},{"date":"2019-09","year":2019,"month":9,"real_index":80.6,"nominal_index":189.2,"status":"observado INDEC"},{"date":"2019-10","year":2019,"month":10,"real_index":89.7,"nominal_index":216.7,"status":"observado INDEC"},{"date":"2019-11","year":2019,"month":11,"real_index":88.3,"nominal_index":222.0,"status":"observado INDEC"},{"date":"2019-12","year":2019,"month":12,"real_index":106.1,"nominal_index":272.9,"status":"observado INDEC"},{"date":"2020-01","year":2020,"month":1,"real_index":85.4,"nominal_index":229.0,"status":"observado INDEC"},{"date":"2020-02","year":2020,"month":2,"real_index":86.2,"nominal_index":236.7,"status":"observado INDEC"},{"date":"2020-03","year":2020,"month":3,"real_index":98.2,"nominal_index":280.0,"status":"observado INDEC"},{"date":"2020-04","year":2020,"month":4,"real_index":84.2,"nominal_index":244.9,"status":"observado INDEC"},{"date":"2020-05","year":2020,"month":5,"real_index":87.3,"nominal_index":256.6,"status":"observado INDEC"},{"date":"2020-06","year":2020,"month":6,"real_index":85.3,"nominal_index":255.4,"status":"observado INDEC"},{"date":"2020-07","year":2020,"month":7,"real_index":86.5,"nominal_index":264.9,"status":"observado INDEC"},{"date":"2020-08","year":2020,"month":8,"real_index":83.5,"nominal_index":262.5,"status":"observado INDEC"},{"date":"2020-09","year":2020,"month":9,"real_index":78.7,"nominal_index":251.6,"status":"observado INDEC"},{"date":"2020-10","year":2020,"month":10,"real_index":87.7,"nominal_index":291.3,"status":"observado INDEC"},{"date":"2020-11","year":2020,"month":11,"real_index":87.3,"nominal_index":297.4,"status":"observado INDEC"},{"date":"2020-12","year":2020,"month":12,"real_index":108.8,"nominal_index":378.1,"status":"observado INDEC"},{"date":"2021-01","year":2021,"month":1,"real_index":88.8,"nominal_index":320.0,"status":"observado INDEC"},{"date":"2021-02","year":2021,"month":2,"real_index":81.2,"nominal_index":303.5,"status":"observado INDEC"},{"date":"2021-03","year":2021,"month":3,"real_index":89.6,"nominal_index":350.1,"status":"observado INDEC"},{"date":"2021-04","year":2021,"month":4,"real_index":85.1,"nominal_index":348.9,"status":"observado INDEC"},{"date":"2021-05","year":2021,"month":5,"real_index":85.0,"nominal_index":361.1,"status":"observado INDEC"},{"date":"2021-06","year":2021,"month":6,"real_index":86.1,"nominal_index":379.6,"status":"observado INDEC"},{"date":"2021-07","year":2021,"month":7,"real_index":90.1,"nominal_index":410.2,"status":"observado INDEC"},{"date":"2021-08","year":2021,"month":8,"real_index":87.2,"nominal_index":407.6,"status":"observado INDEC"},{"date":"2021-09","year":2021,"month":9,"real_index":83.5,"nominal_index":401.5,"status":"observado INDEC"},{"date":"2021-10","year":2021,"month":10,"real_index":92.3,"nominal_index":458.7,"status":"observado INDEC"},{"date":"2021-11","year":2021,"month":11,"real_index":91.0,"nominal_index":462.6,"status":"observado INDEC"},{"date":"2021-12","year":2021,"month":12,"real_index":114.7,"nominal_index":599.4,"status":"observado INDEC"},{"date":"2022-01","year":2022,"month":1,"real_index":92.6,"nominal_index":504.5,"status":"observado INDEC"},{"date":"2022-02","year":2022,"month":2,"real_index":86.6,"nominal_index":496.9,"status":"observado INDEC"},{"date":"2022-03","year":2022,"month":3,"real_index":89.5,"nominal_index":551.7,"status":"observado INDEC"},{"date":"2022-04","year":2022,"month":4,"real_index":87.8,"nominal_index":578.5,"status":"observado INDEC"},{"date":"2022-05","year":2022,"month":5,"real_index":84.5,"nominal_index":586.5,"status":"observado INDEC"},{"date":"2022-06","year":2022,"month":6,"real_index":87.8,"nominal_index":640.3,"status":"observado INDEC"},{"date":"2022-07","year":2022,"month":7,"real_index":94.9,"nominal_index":745.1,"status":"observado INDEC"},{"date":"2022-08","year":2022,"month":8,"real_index":87.0,"nominal_index":736.2,"status":"observado INDEC"},{"date":"2022-09","year":2022,"month":9,"real_index":84.1,"nominal_index":757.9,"status":"observado INDEC"},{"date":"2022-10","year":2022,"month":10,"real_index":90.9,"nominal_index":867.3,"status":"observado INDEC"},{"date":"2022-11","year":2022,"month":11,"real_index":93.2,"nominal_index":929.7,"status":"observado INDEC"},{"date":"2022-12","year":2022,"month":12,"real_index":112.6,"nominal_index":1174.2,"status":"observado INDEC"},{"date":"2023-01","year":2023,"month":1,"real_index":93.3,"nominal_index":1033.5,"status":"observado INDEC"},{"date":"2023-02","year":2023,"month":2,"real_index":87.4,"nominal_index":1039.5,"status":"observado INDEC"},{"date":"2023-03","year":2023,"month":3,"real_index":92.9,"nominal_index":1185.6,"status":"observado INDEC"},{"date":"2023-04","year":2023,"month":4,"real_index":90.8,"nominal_index":1259.6,"status":"observado INDEC"},{"date":"2023-05","year":2023,"month":5,"real_index":84.7,"nominal_index":1269.6,"status":"observado INDEC"},{"date":"2023-06","year":2023,"month":6,"real_index":87.0,"nominal_index":1390.1,"status":"observado INDEC"},{"date":"2023-07","year":2023,"month":7,"real_index":92.5,"nominal_index":1575.8,"status":"observado INDEC"},{"date":"2023-08","year":2023,"month":8,"real_index":91.5,"nominal_index":1754.5,"status":"observado INDEC"},{"date":"2023-09","year":2023,"month":9,"real_index":87.3,"nominal_index":1893.9,"status":"observado INDEC"},{"date":"2023-10","year":2023,"month":10,"real_index":97.4,"nominal_index":2312.7,"status":"observado INDEC"},{"date":"2023-11","year":2023,"month":11,"real_index":91.7,"nominal_index":2495.2,"status":"observado INDEC"},{"date":"2023-12","year":2023,"month":12,"real_index":105.2,"nominal_index":3744.8,"status":"observado INDEC"},{"date":"2024-01","year":2024,"month":1,"real_index":80.4,"nominal_index":3596.8,"status":"observado INDEC"},{"date":"2024-02","year":2024,"month":2,"real_index":77.5,"nominal_index":3894.8,"status":"observado INDEC"},{"date":"2024-03","year":2024,"month":3,"real_index":84.3,"nominal_index":4645.4,"status":"observado INDEC"},{"date":"2024-04","year":2024,"month":4,"real_index":74.9,"nominal_index":4358.8,"status":"observado INDEC"},{"date":"2024-05","year":2024,"month":5,"real_index":76.4,"nominal_index":4612.6,"status":"observado INDEC"},{"date":"2024-06","year":2024,"month":6,"real_index":80.6,"nominal_index":5004.5,"status":"observado INDEC"},{"date":"2024-07","year":2024,"month":7,"real_index":81.2,"nominal_index":5185.6,"status":"observado INDEC"},{"date":"2024-08","year":2024,"month":8,"real_index":82.3,"nominal_index":5447.0,"status":"observado INDEC"},{"date":"2024-09","year":2024,"month":9,"real_index":76.1,"nominal_index":5174.9,"status":"observado INDEC"},{"date":"2024-10","year":2024,"month":10,"real_index":80.0,"nominal_index":5544.7,"status":"observado INDEC"},{"date":"2024-11","year":2024,"month":11,"real_index":84.7,"nominal_index":5957.0,"status":"observado INDEC"},{"date":"2024-12","year":2024,"month":12,"real_index":101.8,"nominal_index":7274.2,"status":"observado INDEC"},{"date":"2025-01","year":2025,"month":1,"real_index":83.8,"nominal_index":6105.1,"status":"observado INDEC"},{"date":"2025-02","year":2025,"month":2,"real_index":78.5,"nominal_index":5851.5,"status":"observado INDEC"},{"date":"2025-03","year":2025,"month":3,"real_index":86.8,"nominal_index":6677.6,"status":"observado INDEC"},{"date":"2025-04","year":2025,"month":4,"real_index":81.5,"nominal_index":6449.0,"status":"observado INDEC"},{"date":"2025-05","year":2025,"month":5,"real_index":81.1,"nominal_index":6488.3,"status":"observado INDEC"},{"date":"2025-06","year":2025,"month":6,"real_index":81.2,"nominal_index":6560.4,"status":"observado INDEC"},{"date":"2025-07","year":2025,"month":7,"real_index":82.0,"nominal_index":6722.1,"status":"observado INDEC"},{"date":"2025-08","year":2025,"month":8,"real_index":82.6,"nominal_index":6878.4,"status":"observado INDEC"},{"date":"2025-09","year":2025,"month":9,"real_index":75.5,"nominal_index":6406.5,"status":"observado INDEC"},{"date":"2025-10","year":2025,"month":10,"real_index":82.2,"nominal_index":7087.5,"status":"observado INDEC"},{"date":"2025-11","year":2025,"month":11,"real_index":82.3,"nominal_index":7219.3,"status":"observado INDEC"},{"date":"2025-12","year":2025,"month":12,"real_index":102.3,"nominal_index":9128.4,"status":"observado INDEC"},{"date":"2026-01","year":2026,"month":1,"real_index":82.8,"nominal_index":7636.9,"status":"observado INDEC"},{"date":"2026-02","year":2026,"month":2,"real_index":76.1,"nominal_index":7228.5,"status":"observado INDEC"},{"date":"2026-03","year":2026,"month":3,"real_index":82.4,"nominal_index":8044.1,"status":"observado INDEC"},{"date":"2026-04","year":2026,"month":4,"real_index":78.5,"nominal_index":7835.0,"status":"observado INDEC"},{"date":"2026-05","year":2026,"month":5,"real_index":80.5323,"nominal_index":8170.8382,"status":"derivado desde variación ia oficial y/o monto corriente oficial"},{"date":"2026-06","year":2026,"month":6,"real_index":78.6828,"nominal_index":8112.6803,"status":"derivado desde variación ia oficial y/o monto corriente oficial"}],"h1":[{"year":2017,"h1_real_index":95.81666666666666,"vs_avg_2017_2025_pct":8.946769982312809,"yoy_pct":null},{"year":2018,"h1_real_index":97.91666666666667,"vs_avg_2017_2025_pct":11.334540554198602,"yoy_pct":2.1916855105235777},{"year":2019,"h1_real_index":85.41666666666667,"vs_avg_2017_2025_pct":-2.878379516550156,"yoy_pct":-12.765957446808507},{"year":2020,"h1_real_index":87.76666666666667,"vs_avg_2017_2025_pct":-0.2063505432493895,"yoy_pct":2.7512195121951244},{"year":2021,"h1_real_index":85.96666666666667,"vs_avg_2017_2025_pct":-2.2530110334372133,"yoy_pct":-2.0508925180402593},{"year":2022,"h1_real_index":88.13333333333333,"vs_avg_2017_2025_pct":0.21056177882590177,"yoy_pct":2.5203567274137084},{"year":2023,"h1_real_index":89.35,"vs_avg_2017_2025_pct":1.5939526657121172,"yoy_pct":1.3804841149773095},{"year":2024,"h1_real_index":79.01666666666667,"vs_avg_2017_2025_pct":-10.155394592773526,"yoy_pct":-11.565006528632715},{"year":2025,"h1_real_index":82.15,"vs_avg_2017_2025_pct":-6.592689295039156,"yoy_pct":3.965408141742266},{"year":2026,"h1_real_index":79.83585,"vs_avg_2017_2025_pct":-9.22395561357703,"yoy_pct":-2.816981132075491}],"payments":[{"period":"2020-12","cash":31.3,"debit":26.8,"credit":36.4,"other":5.5,"status":"observado INDEC"},{"period":"2021-12","cash":30.8,"debit":30.2,"credit":34.0,"other":5.0,"status":"observado INDEC"},{"period":"2022-12","cash":27.9,"debit":32.0,"credit":36.5,"other":3.6,"status":"observado INDEC"},{"period":"2023-12","cash":19.9,"debit":34.3,"credit":39.3,"other":6.5,"status":"observado INDEC"},{"period":"2024-12","cash":15.5,"debit":29.7,"credit":43.8,"other":11.0,"status":"observado INDEC"},{"period":"2025-12","cash":16.3,"debit":26.1,"credit":43.6,"other":14.0,"status":"observado INDEC"},{"period":"2026-06","cash":16.9,"debit":24.9,"credit":42.8,"other":15.4,"status":"observado/reproducido desde informe INDEC junio 2026"}],"structure":[{"period":"2020-12","operations":67713571,"ticket_nominal":1710,"stores":2926,"workers":94736,"real_index":108.8,"nominal_index":378.1,"ticket_real_proxy":492.06030150753764,"ticket_real_index_2020dec_100":100.0,"operations_index_2020dec_100":100.0},{"period":"2021-12","operations":72092370,"ticket_nominal":2547,"stores":2948,"workers":92460,"real_index":114.7,"nominal_index":599.4,"ticket_real_proxy":487.3888888888889,"ticket_real_index_2020dec_100":99.05064224763981,"operations_index_2020dec_100":106.46664905621357},{"period":"2022-12","operations":78669364,"ticket_nominal":4573,"stores":2998,"workers":94588,"real_index":112.6,"nominal_index":1174.2,"ticket_real_proxy":438.52818940555267,"ticket_real_index_2020dec_100":89.12082280607127,"operations_index_2020dec_100":116.17961191265485},{"period":"2023-12","operations":88923262,"ticket_nominal":12900,"stores":3130,"workers":100303,"real_index":105.2,"nominal_index":3744.8,"ticket_real_proxy":362.3905148472549,"ticket_real_index_2020dec_100":73.64758216360676,"operations_index_2020dec_100":131.3226590870536},{"period":"2024-12","operations":77529153,"ticket_nominal":28739,"stores":3175,"workers":100707,"real_index":101.8,"nominal_index":7274.2,"ticket_real_proxy":402.1927084765335,"ticket_real_index_2020dec_100":81.73646751106021,"operations_index_2020dec_100":114.49573823244383},{"period":"2025-12","operations":75074970,"ticket_nominal":37244,"stores":3151,"workers":99324,"real_index":102.3,"nominal_index":9128.4,"ticket_real_proxy":417.3854344682529,"ticket_real_index_2020dec_100":84.82404152285778,"operations_index_2020dec_100":110.87137909179239},{"period":"2026-06","operations":65548779,"ticket_nominal":37910,"stores":3128,"workers":95816,"real_index":78.6828,"nominal_index":8112.6803096342965,"ticket_real_proxy":367.6793407547033,"ticket_real_index_2020dec_100":74.72241504308207,"operations_index_2020dec_100":96.80301604533602}],"basket":[{"period":"2023-12","Bebidas":17.5,"Almacen":26.8,"Panaderia":3.7,"Lacteos":8.7,"Carnes":12.2,"Verduleria":3.9,"Preparados":1.0,"Limpieza":12.3,"Indumentaria":2.0,"Electronicos":4.3,"Otros":7.7},{"period":"2024-12","Bebidas":16.6,"Almacen":25.7,"Panaderia":4.0,"Lacteos":9.8,"Carnes":11.0,"Verduleria":4.1,"Preparados":1.1,"Limpieza":12.7,"Indumentaria":2.3,"Electronicos":4.4,"Otros":8.2},{"period":"2026-04","Bebidas":10.2,"Almacen":27.6,"Panaderia":4.3,"Lacteos":11.3,"Carnes":15.2,"Verduleria":4.4,"Preparados":1.2,"Limpieza":13.2,"Indumentaria":2.0,"Electronicos":4.0,"Otros":6.5}],"district":[["Neuquén",12.8],["Río Negro",5.1],["Santa Fe",-0.4],["Córdoba",-3.2],["CABA",-3.8],["Tierra del Fuego",-4.2],["Resto PBA",-6.3],["La Pampa",-8.8],["San Luis",-12.9],["Chaco",-21.1],["Jujuy",-22.1],["San Juan",-22.1],["La Rioja",-25.0],["Santiago del Estero",-25.1],["Misiones",-29.0],["Corrientes",-32.8],["Tucumán",-33.0],["Formosa",-35.9]]};
 const SUPER_HISTORY_LONG={legacy:[[1996,100.0],[1997,106.8],[1998,114.6],[1999,117.1],[2000,119.4],[2001,113.5],[2002,83.9],[2003,76.3],[2004,82.9],[2005,87.8],[2006,95.9],[2007,112.3],[2008,142.2],[2009,157.6],[2010,183.4],[2011,214.7],[2012,246.3],[2013,292.7]],modern:[[2017,100.0,12],[2018,97.0,12],[2019,87.6,12],[2020,88.3,12],[2021,89.5,12],[2022,91.0,12],[2023,91.8,12],[2024,81.7,12],[2025,83.3,12],[2026,79.8,6]]};
+const SUPER_WAGE_MASS_TOTAL=[[2017,100.0000],[2018,95.0743],[2019,87.1897],[2020,80.2034],[2021,82.4694],[2022,87.2823],[2023,90.4624],[2024,82.1638],[2025,88.9607]];
 const SUPERMARKET_PULSE_2026={months:['Ene','Feb','Mar','Abr','May','Jun'],nominal_millions:[2339233.3,2214141.6,2464000.0,2399923.1,2502789.7,2484975.5],nominal_yoy:[25.1,23.5,20.5,21.5,25.9,23.7],real_yoy:[-1.2,-3.1,-5.1,-3.7,-0.7,-3.1],real_accum:[-1.2,-2.1,-3.1,-3.3,-2.8,-2.8],june:{sa_mom:-1.0,operations:65548779,ticket:37910,companies:93,stores:3128,workers:95816,workers_yoy:-4.1,credit_share:42.8},historical:{national:-9.2,period:'1S-2026 vs promedio 1S 2017–2025'}};
 function superLayout(title){const mobile=innerWidth<=720;const out={paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'#fff',font:{family:'Inter,system-ui,sans-serif',size:mobile?8:9,color:'#67536f'},margin:{l:mobile?52:65,r:mobile?48:70,t:mobile?82:72,b:55},xaxis:{gridcolor:'#f0e8f2',automargin:true,fixedrange:true},yaxis:{gridcolor:'#f0e8f2',automargin:true,fixedrange:true},legend:{orientation:mobile?'v':'h',y:mobile?1.04:1.09,x:0,xanchor:'left',bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?9:10}},hovermode:'x unified'};if(title){out.title={text:title,x:.02,xanchor:'left',font:{size:mobile?11:13,color:'#5d3f6c'}};out.margin.t=mobile?92:96;}return out;}
+SUPER_HISTORY.payments=[{"period":"2017-12","cash":33.6,"debit":27.2,"credit":35.8,"other":3.5,"status":"observado INDEC"},{"period":"2018-12","cash":33.9,"debit":28.4,"credit":34.3,"other":3.5,"status":"observado INDEC"},{"period":"2019-12","cash":33.5,"debit":25.3,"credit":37.8,"other":3.4,"status":"observado INDEC"},{"period":"2020-12","cash":31.3,"debit":27,"credit":35.9,"other":5.8,"status":"observado INDEC"},{"period":"2021-12","cash":30.8,"debit":30.1,"credit":34.2,"other":4.8,"status":"observado INDEC"},{"period":"2022-12","cash":27.9,"debit":32,"credit":36.5,"other":3.6,"status":"observado INDEC"},{"period":"2023-12","cash":19.9,"debit":34.3,"credit":39.3,"other":6.5,"status":"observado INDEC"},{"period":"2024-12","cash":15.5,"debit":29.7,"credit":43.8,"other":11,"status":"observado INDEC"},{"period":"2025-12","cash":16.3,"debit":26.2,"credit":43.6,"other":14,"status":"observado INDEC"},{"period":"2026-06","cash":16.9,"debit":24.9,"credit":42.8,"other":15.4,"status":"observado INDEC"}];
+SUPER_HISTORY.basket=[{"period":"2017-12","Bebidas":16.3,"Almacen":23.7,"Panaderia":3.3,"Lacteos":9,"Carnes":9,"Verduleria":3.4,"Preparados":1.2,"Limpieza":12.9,"Indumentaria":3.1,"Electronicos":7,"Otros":11},{"period":"2018-12","Bebidas":16.8,"Almacen":25,"Panaderia":3.5,"Lacteos":9.1,"Carnes":9.5,"Verduleria":3.1,"Preparados":1.1,"Limpieza":13.5,"Indumentaria":3,"Electronicos":5,"Otros":10.5},{"period":"2019-12","Bebidas":15.9,"Almacen":24.9,"Panaderia":3.6,"Lacteos":9.6,"Carnes":10.6,"Verduleria":3.4,"Preparados":1.1,"Limpieza":13.5,"Indumentaria":2.6,"Electronicos":5.6,"Otros":9.3},{"period":"2020-12","Bebidas":16.4,"Almacen":25.1,"Panaderia":3.1,"Lacteos":9,"Carnes":11.7,"Verduleria":3.7,"Preparados":0.8,"Limpieza":12.3,"Indumentaria":2.6,"Electronicos":6.7,"Otros":8.8},{"period":"2021-12","Bebidas":17.4,"Almacen":24.6,"Panaderia":3.2,"Lacteos":8.8,"Carnes":11.6,"Verduleria":3.2,"Preparados":0.9,"Limpieza":11.8,"Indumentaria":2.6,"Electronicos":6.9,"Otros":9.1},{"period":"2022-12","Bebidas":18.8,"Almacen":25.2,"Panaderia":3.4,"Lacteos":8.8,"Carnes":9.9,"Verduleria":4,"Preparados":1,"Limpieza":11.8,"Indumentaria":2.2,"Electronicos":6.7,"Otros":8.2},{"period":"2023-12","Bebidas":17.5,"Almacen":26.8,"Panaderia":3.7,"Lacteos":8.7,"Carnes":12.2,"Verduleria":3.9,"Preparados":1,"Limpieza":12.3,"Indumentaria":2,"Electronicos":4.3,"Otros":7.7},{"period":"2024-12","Bebidas":16.6,"Almacen":25.7,"Panaderia":4,"Lacteos":9.8,"Carnes":11,"Verduleria":4.1,"Preparados":1.1,"Limpieza":12.7,"Indumentaria":2.3,"Electronicos":4.4,"Otros":8.2},{"period":"2025-12","Bebidas":15.7,"Almacen":24.9,"Panaderia":4,"Lacteos":9.2,"Carnes":13,"Verduleria":4.4,"Preparados":1.2,"Limpieza":12.1,"Indumentaria":2.4,"Electronicos":4.6,"Otros":8.5},{"period":"2026-06","Bebidas":9.9,"Almacen":27.7,"Panaderia":4.2,"Lacteos":11.4,"Carnes":14.5,"Verduleria":4.2,"Preparados":1.1,"Limpieza":12.7,"Indumentaria":2.6,"Electronicos":5.3,"Otros":6.4}];
+SUPER_HISTORY.structure=[{"period":"2017-12","operations":77321338,"ticket_nominal":527,"stores":2975,"sales_area_m2":3277409,"real_index":123.9541,"nominal_index":133.0895,"ticket_real_proxy":491.0427,"ticket_real_index_2017dec_100":100,"operations_index_2017dec_100":100},{"period":"2018-12","operations":79283350,"ticket_nominal":722,"stores":2973,"sales_area_m2":3268872,"real_index":113.2318,"nominal_index":186.7533,"ticket_real_proxy":437.4658,"ticket_real_index_2017dec_100":89.0892,"operations_index_2017dec_100":102.5375},{"period":"2019-12","operations":80571561,"ticket_nominal":1037,"stores":2953,"sales_area_m2":3248090,"real_index":106.0011,"nominal_index":272.6823,"ticket_real_proxy":402.9825,"ticket_real_index_2017dec_100":82.0667,"operations_index_2017dec_100":104.2035},{"period":"2020-12","operations":63835153,"ticket_nominal":1814,"stores":2947,"sales_area_m2":3274249,"real_index":108.8495,"nominal_index":378.0714,"ticket_real_proxy":522.3051,"ticket_real_index_2017dec_100":106.3665,"operations_index_2017dec_100":82.5583},{"period":"2021-12","operations":72147569,"ticket_nominal":2550,"stores":2947,"sales_area_m2":3287740,"real_index":114.9065,"nominal_index":600.6485,"ticket_real_proxy":487.8435,"ticket_real_index_2017dec_100":99.3485,"operations_index_2017dec_100":93.3087},{"period":"2022-12","operations":78662252,"ticket_nominal":4572,"stores":3050,"sales_area_m2":3286547,"real_index":112.6428,"nominal_index":1174.2042,"ticket_real_proxy":438.6265,"ticket_real_index_2017dec_100":89.3255,"operations_index_2017dec_100":101.7342},{"period":"2023-12","operations":88904340,"ticket_nominal":12902,"stores":3156,"sales_area_m2":3353877,"real_index":105.2028,"nominal_index":3744.7911,"ticket_real_proxy":362.4617,"ticket_real_index_2017dec_100":73.8147,"operations_index_2017dec_100":114.9803},{"period":"2024-12","operations":77292710,"ticket_nominal":28828,"stores":3182,"sales_area_m2":3401971,"real_index":101.779,"nominal_index":7274.4299,"ticket_real_proxy":403.3454,"ticket_real_index_2017dec_100":82.1406,"operations_index_2017dec_100":99.963},{"period":"2025-12","operations":75074970,"ticket_nominal":37244,"stores":3150,"sales_area_m2":3384899,"real_index":102.3137,"nominal_index":9128.4412,"ticket_real_proxy":417.4422,"ticket_real_index_2017dec_100":85.0114,"operations_index_2017dec_100":97.0948},{"period":"2026-06","operations":65548779,"ticket_nominal":37910,"stores":3128,"sales_area_m2":3336976,"real_index":78.6796,"nominal_index":8112.6814,"ticket_real_proxy":367.6676,"ticket_real_index_2017dec_100":74.8749,"operations_index_2017dec_100":84.7745}];
+function supermarketWageSalesRows(){
+ if(typeof powerTotalAllOfficial==='undefined'||typeof consumptionData==='undefined')return[];
+ const aggregate=(dates,values)=>{const buckets=new Map();dates.forEach((date,i)=>{const year=Number(String(date).slice(0,4)),value=Number(values[i]);if(year<2017||year>2026||!Number.isFinite(value))return;const bucket=buckets.get(year)||{year,sum:0,months:0};bucket.sum+=value;bucket.months+=1;buckets.set(year,bucket);});return[...buckets.values()].map(r=>({...r,average:r.sum/r.months})).sort((a,b)=>a.year-b.year);};
+ const wages=aggregate(powerTotalAllOfficial.dates,powerTotalAllOfficial.yNov),sales=aggregate(SUPER_HISTORY.modern.map(r=>r.date),SUPER_HISTORY.modern.map(r=>r.real_index)),massByYear=new Map(SUPER_WAGE_MASS_TOTAL),consumptionBaseIndex=consumptionData.years.indexOf(2017);
+ const wageBase=wages.find(r=>r.year===2017)?.average,salesBase=sales.find(r=>r.year===2017)?.average,consumptionBase=consumptionData.totalIndex[consumptionBaseIndex];if(!wageBase||!salesBase||!consumptionBase)return[];
+ const consumptionByYear=new Map(consumptionData.years.map((year,i)=>[year,consumptionData.totalIndex[i]/consumptionBase*100]));
+ return wages.map(w=>{const s=sales.find(r=>r.year===w.year);if(!s)return null;const months=Math.min(w.months,s.months);return{year:w.year,months,period:months===12?'año completo':'enero–junio',wage:w.average/wageBase*100,wageMass:massByYear.get(w.year)??null,consumption:consumptionByYear.get(w.year)??null,sales:s.average/salesBase*100};}).filter(Boolean);
+}
 function renderSupermarketHistory(){if(!window.Plotly)return;const d=SUPER_HISTORY,mobile=innerWidth<=720;
  const modern=document.getElementById('supermarketModernHistoryChart');if(modern){const mandateBands=[
   {name:'Mauricio Macri',x0:'2017-01',x1:'2019-11',fill:'rgba(240,190,78,0.10)',labelX:'2018-06'},
@@ -23180,9 +23160,20 @@ function renderSupermarketHistory(){if(!window.Plotly)return;const d=SUPER_HISTO
   {x:d.modern.map(r=>r.date),y:d.modern.map(r=>r.real_index),name:'Ventas reales · índice 2017=100',mode:'lines',line:{color:'#bd5578',width:3},customdata:d.modern.map(r=>r.status),hovertemplate:'<b>%{x}</b><br>Real: <b>%{y:.1f}</b><br>%{customdata}<extra></extra>'},
   {x:d.modern.map(r=>r.date),y:d.modern.map(r=>r.nominal_index),name:'Facturación nominal · índice 2017=100',mode:'lines',yaxis:'y2',line:{color:'#8064b0',width:2.3,dash:'dot'},customdata:d.modern.map(r=>r.status),hovertemplate:'<b>%{x}</b><br>Nominal: <b>%{y:.1f}</b><br>%{customdata}<extra></extra>'}
  ],{...superLayout(''),margin:{l:mobile?55:68,r:mobile?52:72,t:mobile?70:64,b:55},legend:{orientation:'h',y:1.08,x:0,bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'ventas reales · 2017=100',gridcolor:'#f0e8f2',range:[65,135],fixedrange:true},yaxis2:{title:'facturación nominal · índice 2017=100',overlaying:'y',side:'right',type:'log',showgrid:false,fixedrange:true},shapes:modernShapes,annotations:modernAnnotations},{responsive:true,displaylogo:false,displayModeBar:false});}
+ const wageSales=document.getElementById('supermarketWageSalesChart'),consumptionSales=document.getElementById('supermarketConsumptionSalesChart');if(wageSales&&consumptionSales){const rows=supermarketWageSalesRows().filter(r=>r.months===12&&r.year<=2025&&Number.isFinite(r.wageMass)&&Number.isFinite(r.consumption)),years=rows.map(r=>r.year),wage=rows.map(r=>r.wage),mass=rows.map(r=>r.wageMass),consumption=rows.map(r=>r.consumption),sales=rows.map(r=>r.sales),tickvals=mobile?years.filter(y=>[2017,2020,2023,2025].includes(y)):years,bridgeLayout=()=>({...superLayout(''),margin:{l:mobile?55:62,r:mobile?16:20,t:mobile?92:68,b:58},legend:{orientation:mobile?'v':'h',y:mobile?1.04:1.09,x:0,bgcolor:'rgba(255,255,255,0.84)',font:{size:mobile?8:9}},xaxis:{tickmode:'array',tickvals,gridcolor:'#f0e8f2',fixedrange:true},yaxis:{title:'índice real · 2017=100',range:[60,108],dtick:10,gridcolor:'#f0e8f2',fixedrange:true},shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:100,y1:100,line:{color:'#b9aabd',dash:'dash'}}]});
+  Plotly.react(wageSales,[
+   {x:years,y:wage,name:'Salario por puesto',mode:'lines+markers',line:{color:'#8064b0',width:2.8},marker:{size:7,symbol:'circle'},hovertemplate:'<b>%{x}</b><br>Salario real por puesto: <b>%{y:.1f}</b><br>Total Índice de Salarios INDEC / IPC<extra></extra>'},
+   {x:years,y:mass,name:'Masa salarial · RTA',mode:'lines+markers',line:{color:'#4f927a',width:3.2},marker:{size:8,symbol:'square'},hovertemplate:'<b>%{x}</b><br>Masa salarial real: <b>%{y:.1f}</b><br>RTA total economía / IPC · suma anual<extra></extra>'}
+  ],{...bridgeLayout(),annotations:[{xref:'paper',yref:'paper',x:.01,y:-.18,text:'precio por puesto ≠ remuneración agregada',showarrow:false,xanchor:'left',font:{size:8,color:'#806c89'}}]},{responsive:true,displaylogo:false,displayModeBar:false});
+  Plotly.react(consumptionSales,[
+   {x:years,y:consumption,name:'Consumo privado total',mode:'lines+markers',line:{color:'#c4863f',width:3.2},marker:{size:8,symbol:'diamond'},hovertemplate:'<b>%{x}</b><br>Consumo privado real total: <b>%{y:.1f}</b><br>Cuentas Nacionales INDEC<extra></extra>'},
+   {x:years,y:sales,name:'Ventas de supermercados',mode:'lines+markers',line:{color:'#bd5578',width:3},marker:{size:7,symbol:'circle'},hovertemplate:'<b>%{x}</b><br>Ventas reales de supermercados: <b>%{y:.1f}</b><br>Promedio anual de la serie mensual<extra></extra>'}
+  ],{...bridgeLayout(),annotations:[{xref:'paper',yref:'paper',x:.01,y:-.18,text:'gasto agregado ≠ un canal de compra',showarrow:false,xanchor:'left',font:{size:8,color:'#806c89'}}]},{responsive:true,displaylogo:false,displayModeBar:false});
+  const byYear=year=>rows.find(r=>r.year===year),pct=(a,b)=>(a/b-1)*100,fmt=v=>(v>=0?'+':'−')+Math.abs(v).toFixed(1).replace('.',',')+'%',r2017=byYear(2017),r2023=byYear(2023),r2024=byYear(2024),r2025=byYear(2025),reading=document.getElementById('supermarketWageSalesReading');if(reading&&r2017&&r2023&&r2024&&r2025)reading.innerHTML='<b>Qué pasa en cada puente:</b> de 2017 a 2023, salario por puesto <b>'+fmt(pct(r2023.wage,r2017.wage))+'</b> → masa salarial <b>'+fmt(pct(r2023.wageMass,r2017.wageMass))+'</b> → consumo privado <b>'+fmt(pct(r2023.consumption,r2017.consumption))+'</b> → supermercados <b>'+fmt(pct(r2023.sales,r2017.sales))+'</b>. En 2025, masa y consumo rebotaron casi juntos (<b>'+fmt(pct(r2025.wageMass,r2024.wageMass))+'</b> y <b>'+fmt(pct(r2025.consumption,r2024.consumption))+'</b>), pero el súper sólo <b>'+fmt(pct(r2025.sales,r2024.sales))+'</b>: la brecha aparece sobre todo entre gasto total y canal, compatible con cambios de composición o lugar de compra.';
+ }
  const h1=document.getElementById('supermarketH1HistoryChart');if(h1){const avg=d.h1.filter(r=>r.year<=2025).reduce((a,r)=>a+r.h1_real_index,0)/9;Plotly.react(h1,[{type:'bar',x:d.h1.map(r=>String(r.year)),y:d.h1.map(r=>r.h1_real_index),marker:{color:d.h1.map(r=>r.year===2026?'#c95578':'#9876c2')},text:d.h1.map(r=>r.h1_real_index.toFixed(1)),textposition:'outside',customdata:d.h1.map(r=>[r.yoy_pct,r.vs_avg_2017_2025_pct]),hovertemplate:'<b>1S-%{x}</b><br>Nivel real medio: <b>%{y:.1f}</b><br>vs 1S previo: %{customdata[0]:.1f}%<br>vs prom. 2017–2025: %{customdata[1]:.1f}%<extra></extra>'}],{...superLayout(''),yaxis:{title:'índice real · 2017=100',range:[70,105],gridcolor:'#f0e8f2'},shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:avg,y1:avg,line:{color:'#6f987f',dash:'dash',width:2}}],annotations:[{xref:'paper',x:.98,yref:'y',y:avg,text:'prom. 2017–2025',showarrow:false,xanchor:'right',font:{size:8,color:'#567765'}}]},{responsive:true,displaylogo:false,displayModeBar:false});}
  const pulse=document.getElementById('supermarketPulseChart');if(pulse){const p=SUPERMARKET_PULSE_2026,nom=p.nominal_millions.map(v=>v/1e6);Plotly.react(pulse,[{type:'bar',x:p.months,y:nom,name:'Facturación nominal',marker:{color:'#9c78c6'},text:nom.map(v=>'$ '+v.toFixed(2)+' B'),textposition:'outside',customdata:p.real_yoy,hovertemplate:'%{x} 2026<br>Facturación: <b>$%{y:.2f} B</b><br>Real ia: <b>%{customdata:.1f}%</b><extra></extra>'},{x:p.months,y:p.real_yoy,name:'Ventas reales · ia',type:'scatter',mode:'lines+markers',yaxis:'y2',line:{color:'#c45778',width:3}}],{...superLayout(''),margin:{l:mobile?55:68,r:mobile?48:64,t:mobile?68:60,b:55},legend:{orientation:'h',y:1.08,x:0,bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'$ billones corrientes'},yaxis2:{title:'real ia',ticksuffix:'%',overlaying:'y',side:'right',range:[-7,2],showgrid:false}},{responsive:true,displaylogo:false,displayModeBar:false});}
- const ops=document.getElementById('supermarketOperationsChart');if(ops)Plotly.react(ops,[{x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.operations_index_2020dec_100),name:'Operaciones · dic-2020=100',mode:'lines+markers',line:{color:'#6d5aa5',width:3},hovertemplate:'%{x}<br>Operaciones índice: <b>%{y:.1f}</b><extra></extra>'},{x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.ticket_real_index_2020dec_100),name:'Ticket real proxy · dic-2020=100',mode:'lines+markers',line:{color:'#c25a7b',width:3},hovertemplate:'%{x}<br>Ticket real proxy: <b>%{y:.1f}</b><extra></extra>'}],{...superLayout(''),margin:{l:mobile?55:68,r:mobile?20:24,t:mobile?68:60,b:55},legend:{orientation:'h',y:1.08,x:0,bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'índice · dic-2020=100',gridcolor:'#f0e8f2'},shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:100,y1:100,line:{color:'#aaa',dash:'dash'}}]},{responsive:true,displaylogo:false,displayModeBar:false});
+ const ops=document.getElementById('supermarketOperationsChart');if(ops)Plotly.react(ops,[{x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.operations_index_2017dec_100),name:'Operaciones · dic-2017=100',mode:'lines+markers',line:{color:'#6d5aa5',width:3},hovertemplate:'%{x}<br>Operaciones índice: <b>%{y:.1f}</b><extra></extra>'},{x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.ticket_real_index_2017dec_100),name:'Ticket real proxy · dic-2017=100',mode:'lines+markers',line:{color:'#c25a7b',width:3},hovertemplate:'%{x}<br>Ticket real proxy: <b>%{y:.1f}</b><extra></extra>'}],{...superLayout(''),margin:{l:mobile?55:68,r:mobile?20:24,t:mobile?68:60,b:55},legend:{orientation:'h',y:1.08,x:0,bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'índice · dic-2017=100',gridcolor:'#f0e8f2'},shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:100,y1:100,line:{color:'#aaa',dash:'dash'}}]},{responsive:true,displaylogo:false,displayModeBar:false});
  const pay=document.getElementById('supermarketPaymentChart');if(pay){const cats=[['cash','Efectivo'],['debit','Débito'],['credit','Crédito'],['other','Otros']];Plotly.react(pay,cats.map(([k,n])=>({type:'bar',x:d.payments.map(r=>r.period),y:d.payments.map(r=>r[k]),name:n,hovertemplate:'%{x}<br>'+n+': <b>%{y:.1f}%</b><extra></extra>'})),{...superLayout(''),margin:{l:mobile?55:68,r:mobile?20:22,t:mobile?70:62,b:55},barmode:'stack',legend:{orientation:'h',y:1.08,x:0,bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'% de ventas',range:[0,100],ticksuffix:'%',gridcolor:'#f0e8f2'}},{responsive:true,displaylogo:false,displayModeBar:false});}
  const basket=document.getElementById('supermarketBasketCompositionChart');if(basket){const keys=['Bebidas','Almacen','Panaderia','Lacteos','Carnes','Verduleria','Preparados','Limpieza','Indumentaria','Electronicos','Otros'];Plotly.react(basket,keys.map(k=>({type:'bar',x:d.basket.map(r=>r.period),y:d.basket.map(r=>r[k]),name:k.replace('Almacen','Almacén').replace('Panaderia','Panadería').replace('Lacteos','Lácteos').replace('Verduleria','Verdulería').replace('Electronicos','Electrónicos'),hovertemplate:'%{x}<br>'+k+': <b>%{y:.1f}%</b><extra></extra>'})),{...superLayout(''),margin:{l:mobile?55:68,r:mobile?130:170,t:mobile?35:22,b:55},barmode:'stack',legend:{orientation:'v',x:1.02,y:1,xanchor:'left',yanchor:'top',bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'% de facturación',range:[0,100],ticksuffix:'%',gridcolor:'#f0e8f2'}},{responsive:true,displaylogo:false,displayModeBar:false});}
  const district=document.getElementById('supermarketHistoryDistrictChart');if(district){const rows=[...d.district].sort((a,b)=>a[1]-b[1]);Plotly.react(district,[{type:'bar',orientation:'h',y:rows.map(r=>r[0]),x:rows.map(r=>r[1]),marker:{color:rows.map(r=>r[1]>=0?'#5ba27e':'#ce6686')},text:rows.map(r=>(r[1]>=0?'+':'')+r[1].toFixed(1)+'%'),textposition:'outside',cliponaxis:false}],{...superLayout(''),margin:{l:mobile?125:145,r:42,t:50,b:45},xaxis:{title:'% vs promedio',range:[-40,16],ticksuffix:'%',gridcolor:'#eee5f2',zeroline:true},yaxis:{autorange:'reversed',automargin:true},showlegend:false},{responsive:true,displaylogo:false,displayModeBar:false});}
@@ -23190,12 +23181,12 @@ function renderSupermarketHistory(){if(!window.Plotly)return;const d=SUPER_HISTO
   {x:old.map(r=>r[0]),y:old.map(r=>r[1]),name:'Archivo 1996–2013 · base 1996=100',mode:'lines+markers',line:{color:'#527e72',width:3},marker:{size:6},hovertemplate:'<b>%{x}</b><br>Índice real anual: <b>%{y:.1f}</b><br>base promedio 1996=100<extra></extra>'},
   {x:recent.map(r=>r[0]),y:recent.map(r=>r[1]),name:'Serie 2017–2026 · base 2017=100',mode:'lines+markers',line:{color:'#bd5578',width:3},marker:{size:recent.map(r=>r[0]===2026?9:6),symbol:recent.map(r=>r[0]===2026?'diamond-open':'circle')},customdata:recent.map(r=>r[2]===12?'año completo':'enero–junio'),hovertemplate:'<b>%{x}</b><br>Índice real anual: <b>%{y:.1f}</b><br>%{customdata} · base promedio 2017=100<extra></extra>'}
  ],{...superLayout(''),margin:{l:mobile?55:68,r:mobile?18:24,t:mobile?82:70,b:58},legend:{orientation:mobile?'v':'h',y:mobile?1.04:1.10,x:0,bgcolor:'rgba(255,255,255,0.86)',font:{size:mobile?8:9}},xaxis:{tickmode:'linear',dtick:mobile?4:2,range:[1995.5,2026.7],gridcolor:'#f0e8f2',fixedrange:true},yaxis:{title:'índice real anual · base propia=100',range:[60,310],gridcolor:'#f0e8f2',fixedrange:true},shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:100,y1:100,line:{color:'#b9aabd',dash:'dash'}},{type:'rect',xref:'x',yref:'paper',x0:2013.5,x1:2016.5,y0:0,y1:1,fillcolor:'rgba(155,139,165,.12)',line:{width:0},layer:'below'}],annotations:[{xref:'x',yref:'paper',x:2015,y:.94,text:'2014–2016<br>sin empalme',showarrow:false,font:{size:mobile?8:9,color:'#76647e'},bgcolor:'rgba(255,255,255,.78)'},{xref:'paper',yref:'paper',x:.01,y:-.17,text:'Los niveles sólo se comparan dentro de cada tramo · rombo 2026 = enero–junio',showarrow:false,xanchor:'left',font:{size:8,color:'#806c89'}}]},{responsive:true,displaylogo:false,displayModeBar:false});}
- const structure=document.getElementById('supermarketStructureChart');if(structure)Plotly.react(structure,[{type:'bar',x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.stores),name:'Bocas',marker:{color:'#9a78c2'},yaxis:'y2',hovertemplate:'%{x}<br>Bocas: <b>%{y:,.0f}</b><extra></extra>'},{x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.workers),name:'Empleo',mode:'lines+markers',line:{color:'#c95779',width:3},hovertemplate:'%{x}<br>Empleo: <b>%{y:,.0f}</b><extra></extra>'}],{...superLayout(''),margin:{l:mobile?55:68,r:mobile?55:75,t:mobile?68:60,b:55},legend:{orientation:'h',y:1.08,x:0,bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'asalariados',gridcolor:'#f0e8f2'},yaxis2:{title:'bocas',overlaying:'y',side:'right',showgrid:false}},{responsive:true,displaylogo:false,displayModeBar:false});
+ const structure=document.getElementById('supermarketStructureChart');if(structure)Plotly.react(structure,[{type:'bar',x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.stores),name:'Bocas',marker:{color:'#9a78c2'},yaxis:'y2',hovertemplate:'%{x}<br>Bocas: <b>%{y:,.0f}</b><extra></extra>'},{x:d.structure.map(r=>r.period),y:d.structure.map(r=>r.sales_area_m2/1e6),name:'Superficie de ventas',mode:'lines+markers',line:{color:'#c95779',width:3},hovertemplate:'%{x}<br>Superficie: <b>%{y:.2f} M m²</b><extra></extra>'}],{...superLayout(''),margin:{l:mobile?55:68,r:mobile?55:75,t:mobile?68:60,b:55},legend:{orientation:'h',y:1.08,x:0,bgcolor:'rgba(255,255,255,0.82)',font:{size:mobile?8:9}},yaxis:{title:'superficie · millones de m²',gridcolor:'#f0e8f2'},yaxis2:{title:'bocas',overlaying:'y',side:'right',showgrid:false}},{responsive:true,displaylogo:false,displayModeBar:false});
 }
 function superCsvEscape(v){if(v==null)return '';const s=String(v);return (s.includes(',')||s.includes('\n')||s.includes('\"'))?'\"'+s.replace(/\"/g,'\"\"')+'\"':s;}
 function superDownload(name,lines){const blob=new Blob(['\uFEFF'+lines.join('\n')],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),600);}
-function downloadSupermarketHistoryCsv(kind){const d=SUPER_HISTORY;let rows=[],headers=[];if(kind==='modern'){headers=['date','real_index','nominal_index','status'];rows=d.modern.map(r=>headers.map(h=>r[h]));}else if(kind==='long'){headers=['era','year','months','real_index_era_base100','base_definition','status'];rows=[...SUPER_HISTORY_LONG.legacy.map(r=>['1996-2013',r[0],12,r[1],'promedio 1996=100','observado INDEC; promedio anual derivado']),...SUPER_HISTORY_LONG.modern.map(r=>['2017-2026',r[0],r[2],r[1],'promedio 2017=100',r[2]===12?'observado/derivado identificado; promedio anual derivado':'parcial enero-junio; promedio anual derivado'])];}else if(kind==='payments'){headers=['period','cash','debit','credit','other','status'];rows=d.payments.map(r=>headers.map(h=>r[h]));}else if(kind==='structure'){headers=['period','operations','ticket_nominal','stores','workers','ticket_real_index_2020dec_100','operations_index_2020dec_100'];rows=d.structure.map(r=>headers.map(h=>r[h]));}else if(kind==='basket'){headers=['period','Bebidas','Almacen','Panaderia','Lacteos','Carnes','Verduleria','Preparados','Limpieza','Indumentaria','Electronicos','Otros'];rows=d.basket.map(r=>headers.map(h=>r[h]));}else{headers=['jurisdiccion','vs_promedio_1S_2017_2025_pct'];rows=d.district;}superDownload('supermercados_'+kind+'.csv',[headers.join(','),...rows.map(r=>r.map(superCsvEscape).join(','))]);}
-document.querySelector('.tab-btn[data-tab="tab-consumption"]')?.addEventListener('click',()=>setTimeout(renderSupermarketHistory,150));if(document.getElementById('tab-consumption')?.classList.contains('active'))setTimeout(renderSupermarketHistory,120);window.addEventListener('resize',()=>['supermarketModernHistoryChart','supermarketLongHistoryChart','supermarketH1HistoryChart','supermarketPulseChart','supermarketOperationsChart','supermarketPaymentChart','supermarketBasketCompositionChart','supermarketHistoryDistrictChart','supermarketStructureChart'].forEach(id=>{const el=document.getElementById(id);if(el?.data)Plotly.Plots.resize(el)}));
+function downloadSupermarketHistoryCsv(kind){const d=SUPER_HISTORY;let rows=[],headers=[];if(kind==='modern'){headers=['date','real_index','nominal_index','status'];rows=d.modern.map(r=>headers.map(h=>r[h]));}else if(kind==='wagesales'){headers=['year','period','months','real_wage_index_2017_100','real_wage_mass_rta_index_2017_100','private_consumption_real_index_2017_100','supermarket_real_sales_index_2017_100','salary_definition','wage_mass_definition','consumption_definition','sales_definition'];rows=supermarketWageSalesRows().filter(r=>r.months===12&&r.year<=2025).map(r=>[r.year,r.period,r.months,r.wage.toFixed(4),Number.isFinite(r.wageMass)?r.wageMass.toFixed(4):'',Number.isFinite(r.consumption)?r.consumption.toFixed(4):'',r.sales.toFixed(4),'Total Índice de Salarios INDEC deflactado por IPC general; precio por puesto de composición fija','RTA nominal total economía CGI deflactada por IPC nacional trimestral medio y sumada por año; incluye contribuciones patronales','Consumo privado real total de Cuentas Nacionales INDEC; serie anual enlazada y normalizada a 2017=100','Ventas reales de supermercados; promedio de serie mensual original']);}else if(kind==='long'){headers=['era','year','months','real_index_era_base100','base_definition','status'];rows=[...SUPER_HISTORY_LONG.legacy.map(r=>['1996-2013',r[0],12,r[1],'promedio 1996=100','observado INDEC; promedio anual derivado']),...SUPER_HISTORY_LONG.modern.map(r=>['2017-2026',r[0],r[2],r[1],'promedio 2017=100',r[2]===12?'observado/derivado identificado; promedio anual derivado':'parcial enero-junio; promedio anual derivado'])];}else if(kind==='payments'){headers=['period','cash','debit','credit','other','status'];rows=d.payments.map(r=>headers.map(h=>r[h]));}else if(kind==='structure'){headers=['period','operations','ticket_nominal','stores','sales_area_m2','ticket_real_index_2017dec_100','operations_index_2017dec_100'];rows=d.structure.map(r=>headers.map(h=>r[h]));}else if(kind==='basket'){headers=['period','Bebidas','Almacen','Panaderia','Lacteos','Carnes','Verduleria','Preparados','Limpieza','Indumentaria','Electronicos','Otros'];rows=d.basket.map(r=>headers.map(h=>r[h]));}else{headers=['jurisdiccion','vs_promedio_1S_2017_2025_pct'];rows=d.district;}superDownload('supermercados_'+kind+'.csv',[headers.join(','),...rows.map(r=>r.map(superCsvEscape).join(','))]);}
+document.querySelector('.tab-btn[data-tab="tab-consumption"]')?.addEventListener('click',()=>setTimeout(renderSupermarketHistory,150));if(document.getElementById('tab-consumption')?.classList.contains('active'))setTimeout(renderSupermarketHistory,120);window.addEventListener('resize',()=>['supermarketModernHistoryChart','supermarketWageSalesChart','supermarketConsumptionSalesChart','supermarketLongHistoryChart','supermarketH1HistoryChart','supermarketPulseChart','supermarketOperationsChart','supermarketPaymentChart','supermarketBasketCompositionChart','supermarketHistoryDistrictChart','supermarketStructureChart'].forEach(id=>{const el=document.getElementById(id);if(el?.data)Plotly.Plots.resize(el)}));
 </script>
 
 <script id="credit-mora-matchup-script-v1">
