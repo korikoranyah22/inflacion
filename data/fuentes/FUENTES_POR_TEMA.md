@@ -1,6 +1,6 @@
 # Índice de fuentes por tema
 
-Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V97.
+Generado desde `FUENTES.csv` · corte 2026-09-04 · estado Ciclo del Ajuste V97.
 
 ## ahorro_hogares (4)
 
@@ -764,13 +764,16 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V97.
   `https://www.bcra.gob.ar/Pdfs/Informacion_usuario/pta_27_201512.pdf`
   local: `/data/fuentes/regulacion_credito/bcra/bcra_proteccion_usuarios_2015_resumen.pdf`
 
-## supermercados (9)
+## supermercados (11)
 
-- **audit_supermercados_hist** — Elaboración propia · Auditoría supermercados histórico 2017-2026 · local  
+- **audit_supermercados_hist** — Elaboración propia · Auditoría supermercados histórico 1996-2026 por eras · local
   local: `/data/fuentes/supermercados/metodologia/AUDITORIA_SUPERMERCADOS_HISTORICO_2017_2026.md`
 
 - **deriv_supermercados_estructura** — Elaboración propia · Estructura supermercados · local  
   local: `/data/derivados/supermercados/supermercados_estructura_2020_2026.csv`
+
+- **deriv_supermercados_historia_larga** — Elaboración propia · Historia larga de ventas reales de supermercados · local
+  local: `/data/derivados/supermercados/supermercados_historia_larga_1996_2026.csv`
 
 - **deriv_supermercados_moderno** — Elaboración propia · Serie moderna supermercados · local  
   local: `/data/derivados/supermercados/supermercados_moderno_2017_2026.csv`
@@ -787,6 +790,10 @@ Generado desde `FUENTES.csv` · corte 2026-08-28 · estado Ciclo del Ajuste V97.
 - **indec_supermercados_archivo** — INDEC · Archivo histórico y discontinuidades · local  
   `https://www.indec.gob.ar/indec/web/Institucional-Indec-InformacionDeArchivo-1`
   local: `/data/fuentes/manual_recovery_v96_final/indec_archivo_historico_y_discontinuidades_bundle.zip`
+
+- **indec_supermercados_historico** — INDEC · Serie histórica de ventas de supermercados 1996-2013 · local
+  `https://www.indec.gob.ar/ftp/nuevaweb/cuadros/14/sh_ventas-super.xls`
+  local: `/data/fuentes/supermercados/indec/indec_supermercados_historico_1996_2013.xls`
 
 - **indec_supermercados_serie** — INDEC · Serie de supermercados desde 2017 · local  
   `https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx`
