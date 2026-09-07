@@ -682,8 +682,8 @@
       "date": "Estimación: 2.º trimestre 2026 · publicación 07/09/2026",
       "type": "Estimación privada; reproducción periodística, cotejada con la placa aportada",
       "locator": "Sección «Cuánto hay que ganar para ser de clase media»",
-      "values": "Medias por hogar: alta $14.000.000; media alta $6.500.000; media baja $3.000.000; baja no pobre $2.200.000; baja pobre $1.000.000.",
-      "caveat": "No son sólo salarios, ni una clasificación oficial del INDEC. No se obtuvo el informe metodológico íntegro de Consultora W. En esta torta NO se usan sus porcentajes de hogares."
+      "values": "Hogares por nivel: 5%; 17%; 26%; 30%; 22%. Medias por hogar: alta $14.000.000; media alta $6.500.000; media baja $3.000.000; baja no pobre $2.200.000; baja pobre $1.000.000.",
+      "caveat": "No son sólo salarios, ni una clasificación oficial del INDEC. No se obtuvo el informe metodológico íntegro de Consultora W. Los porcentajes se reproducen en la pirámide social, pero NO ponderan la torta monetaria."
     },
     {
       "id": "W26",
@@ -772,6 +772,8 @@
       "label": "Clase alta",
       "code": "ABC1",
       "monthly_ars": 14000000,
+      "household_share_percent": 5,
+      "floor_ars": 9000000,
       "basis": "Ingreso neto medio por hogar",
       "period": "2.º trimestre 2026",
       "source_id": "HOGARES"
@@ -781,6 +783,8 @@
       "label": "Media alta",
       "code": "C2",
       "monthly_ars": 6500000,
+      "household_share_percent": 17,
+      "floor_ars": 4500000,
       "basis": "Ingreso neto medio por hogar",
       "period": "2.º trimestre 2026",
       "source_id": "HOGARES"
@@ -790,6 +794,8 @@
       "label": "Media baja",
       "code": "C3",
       "monthly_ars": 3000000,
+      "household_share_percent": 26,
+      "floor_ars": 2500000,
       "basis": "Ingreso neto medio por hogar",
       "period": "2.º trimestre 2026",
       "source_id": "HOGARES"
@@ -799,6 +805,8 @@
       "label": "Baja no pobre",
       "code": "D1",
       "monthly_ars": 2200000,
+      "household_share_percent": 30,
+      "floor_ars": 1500000,
       "basis": "Ingreso neto medio por hogar",
       "period": "2.º trimestre 2026",
       "source_id": "HOGARES"
@@ -808,11 +816,20 @@
       "label": "Baja en pobreza",
       "code": "D2/E",
       "monthly_ars": 1000000,
+      "household_share_percent": 22,
+      "floor_ars": null,
       "basis": "Ingreso neto medio por hogar",
       "period": "2.º trimestre 2026",
       "source_id": "HOGARES"
     }
   ],
+  "household_pyramid": {
+    "period": "2.º trimestre 2026",
+    "average_household_ars": 3500000,
+    "lowpoor_population_percent": 30,
+    "source_id": "HOGARES",
+    "note": "Los porcentajes corresponden a hogares en la placa de Consultora W. Para D2/E, la misma placa informa 22% de hogares y 30% de la población."
+  },
   "pie_methodology": {
     "numerator": "Un monto mensual por categoría: ingreso medio del hogar de cada nivel y media o mediana de la renta hipotética por registro patrimonial seleccionado.",
     "denominator": "Suma de esas referencias; NO masa nacional de ingresos, NO proporción de habitantes, NO distribución estadística de clases mutuamente excluyentes.",

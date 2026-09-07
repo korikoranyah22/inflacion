@@ -1,7 +1,7 @@
 {
   "generated_from": "dashboard source tree",
   "public_file_count": 142,
-  "public_bytes": 18421020,
+  "public_bytes": 18430280,
   "files": [
     {
       "path": "index.html",
@@ -30,13 +30,13 @@
     },
     {
       "path": "assets/fortune-income-tab.js",
-      "bytes": 51447,
-      "sha256": "d3ea9f77ca7092ff412f0522aad075e0e612469d909ff1dd9efcc46238b9bda9"
+      "bytes": 59978,
+      "sha256": "f1b98592b7a33567a171506585bd8d39c2e80317dc85a253c5aa48b2318552f6"
     },
     {
       "path": "assets/fortune-income-data.json",
-      "bytes": 34787,
-      "sha256": "878cebc163f70cbd8351ad8856ba27768d2cf80457701d767df21832222c5038"
+      "bytes": 35516,
+      "sha256": "8cc28c10056c600353f745048cf7f4577a87f601da2d3617b8d007e529fc4a0b"
     },
     {
       "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
