@@ -1,12 +1,12 @@
 {
   "generated_from": "dashboard source tree",
-  "public_file_count": 140,
-  "public_bytes": 18315378,
+  "public_file_count": 142,
+  "public_bytes": 18421020,
   "files": [
     {
       "path": "index.html",
-      "bytes": 8077310,
-      "sha256": "eaf3724ed73aef61a8f35656c86f7c0f7c6b8d87d5ecb8f5b321933f7882927d"
+      "bytes": 8096718,
+      "sha256": "c4904b3a608670a11c8a3a80991a1558f3cef21d98c650ff60e5025469adedd5"
     },
     {
       "path": "assets/epica-super-tabs.js",
@@ -27,6 +27,16 @@
       "path": "assets/political-wealth-tab.js",
       "bytes": 106788,
       "sha256": "447b3289f13224c324cfdbac335bb5d688f842428b9c15f0b5c268b526198f9e"
+    },
+    {
+      "path": "assets/fortune-income-tab.js",
+      "bytes": 51447,
+      "sha256": "d3ea9f77ca7092ff412f0522aad075e0e612469d909ff1dd9efcc46238b9bda9"
+    },
+    {
+      "path": "assets/fortune-income-data.json",
+      "bytes": 34787,
+      "sha256": "878cebc163f70cbd8351ad8856ba27768d2cf80457701d767df21832222c5038"
     },
     {
       "path": "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",

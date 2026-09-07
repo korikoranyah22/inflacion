@@ -1,0 +1,823 @@
+{
+  "version": "2.0.0",
+  "compiled_on": "2026-09-07",
+  "title": "Ingresos y grandes fortunas · pesos por mes",
+  "catalogs": {
+    "annual2026": {
+      "label": "6 estimaciones · publicación 2026",
+      "period": "Publicadas el 10/03/2026",
+      "source_id": "W26",
+      "scope": "Seis casos reunidos por Forbes Argentina a partir del ranking mundial 2026. No es un censo de grandes fortunas. Incluye a Paolo Rocca, clasificado por Forbes US en Italia.",
+      "comparability": "La fecha de publicación no equivale a una tasación al 7/9/2026. No actualizar por IPC ni mezclar con el catálogo 2024.",
+      "rows": [
+        {
+          "id": "annual2026-01",
+          "name": "Paolo Rocca",
+          "wealth_usd": 7300000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W26",
+          "source_url": "https://www.forbesargentina.com/millonarios/quienes-son-seis-argentinos-mas-ricos-mundo-ranking-global-forbes-2026-n87513",
+          "source_order": 1,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "annual2026-02",
+          "name": "Marcos Galperin",
+          "wealth_usd": 7200000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W26",
+          "source_url": "https://www.forbesargentina.com/millonarios/quienes-son-seis-argentinos-mas-ricos-mundo-ranking-global-forbes-2026-n87513",
+          "source_order": 2,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "annual2026-03",
+          "name": "Alejandro Bulgheroni",
+          "wealth_usd": 5100000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W26",
+          "source_url": "https://www.forbesargentina.com/millonarios/quienes-son-seis-argentinos-mas-ricos-mundo-ranking-global-forbes-2026-n87513",
+          "source_order": 3,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "annual2026-04",
+          "name": "Eduardo Eurnekian",
+          "wealth_usd": 4800000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W26",
+          "source_url": "https://www.forbesargentina.com/millonarios/quienes-son-seis-argentinos-mas-ricos-mundo-ranking-global-forbes-2026-n87513",
+          "source_order": 4,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "annual2026-05",
+          "name": "Eduardo Costantini",
+          "wealth_usd": 1300000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W26",
+          "source_url": "https://www.forbesargentina.com/millonarios/quienes-son-seis-argentinos-mas-ricos-mundo-ranking-global-forbes-2026-n87513",
+          "source_order": 5,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "annual2026-06",
+          "name": "Delfín Jorge Ezequiel Carballo",
+          "wealth_usd": 1000000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W26",
+          "source_url": "https://www.forbesargentina.com/millonarios/quienes-son-seis-argentinos-mas-ricos-mundo-ranking-global-forbes-2026-n87513",
+          "source_order": 6,
+          "estimate_not_audit": true
+        }
+      ]
+    },
+    "archive2024": {
+      "label": "50 patrimonios · archivo 2024",
+      "period": "Valuaciones ago–nov de 2024",
+      "source_id": "W24",
+      "scope": "Los 50 registros del ranking local: mezcla personas y grupos familiares. Se preserva la unidad y el nombre históricos de la fuente; no afirma titularidad vigente en 2026.",
+      "comparability": "Es un escenario aplicado a valores históricos, NO una estimación de las fortunas actuales. No sumar con la selección 2026: hay duplicaciones y cambios de perímetro.",
+      "rows": [
+        {
+          "id": "archive2024-01",
+          "name": "Marcos Galperin",
+          "wealth_usd": 8500000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 1,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-02",
+          "name": "Hugo Sigman, Silvia Gold & hijos",
+          "wealth_usd": 6300000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 2,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-03",
+          "name": "Alejandro Pedro Bulgheroni",
+          "wealth_usd": 5100000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 3,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-04",
+          "name": "Luis Perez Companc & hermanas",
+          "wealth_usd": 4200000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 4,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-05",
+          "name": "Paolo Rocca",
+          "wealth_usd": 4100000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 5,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-06",
+          "name": "Eduardo Eurnekian",
+          "wealth_usd": 3500000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 6,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-07",
+          "name": "Ricardo Luis Rey Rodríguez & hermanos",
+          "wealth_usd": 3100000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 7,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-08",
+          "name": "Lodovico Andrea Palú Rocca & hermanos",
+          "wealth_usd": 2700000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 8,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-09",
+          "name": "Alberto & Pablo Roemmers",
+          "wealth_usd": 2400000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 9,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-10",
+          "name": "Roberto Daniel Urquía",
+          "wealth_usd": 1800000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 10,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-11",
+          "name": "Eduardo Francisco Costantini",
+          "wealth_usd": 1600000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 11,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-12",
+          "name": "Javier Santiago Madanes Quintanilla & hijos",
+          "wealth_usd": 1500000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 12,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-13",
+          "name": "Jorge Brito & hermanos",
+          "wealth_usd": 1450000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 13,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-14",
+          "name": "Jorge Ezequiel Delfín Carballo",
+          "wealth_usd": 1450000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 14,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-15",
+          "name": "Juan Carlos & Sebastián Bagó",
+          "wealth_usd": 1380000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 15,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-16",
+          "name": "Alfredo Poli & hermanos",
+          "wealth_usd": 1350000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 16,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-17",
+          "name": "Manuel Fernando Antelo Daneri",
+          "wealth_usd": 1300000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 17,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-18",
+          "name": "Carlos Sielecki & hermanos",
+          "wealth_usd": 1250000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 18,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-19",
+          "name": "Luis Alejandro Pagani & hermanos",
+          "wealth_usd": 1200000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 19,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-20",
+          "name": "Guillermo Liberman & hermanos",
+          "wealth_usd": 1150000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 20,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-21",
+          "name": "Enrique Eskenazi & hijos",
+          "wealth_usd": 1150000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 21,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-22",
+          "name": "Eduardo & Adriana Cohen Watkins",
+          "wealth_usd": 1100000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 22,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-23",
+          "name": "Alejandro Gotz & hermanos",
+          "wealth_usd": 1050000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 23,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-24",
+          "name": "Carlos Blaquier Arrieta & hermanos",
+          "wealth_usd": 1000000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 24,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-25",
+          "name": "Francisco De Narváez Steuer",
+          "wealth_usd": 1000000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 25,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-26",
+          "name": "Jorge Guillermo & Ricardo Alberto Stuart Milne",
+          "wealth_usd": 1000000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 26,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-27",
+          "name": "Alfredo Coto",
+          "wealth_usd": 1000000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 27,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-28",
+          "name": "Ignacio De Marco",
+          "wealth_usd": 1000000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 28,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-29",
+          "name": "Gastón Taratuta",
+          "wealth_usd": 960000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 29,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-30",
+          "name": "Lionel Andrés Messi",
+          "wealth_usd": 950000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 30,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-31",
+          "name": "Marcelo Mindlin",
+          "wealth_usd": 900000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 31,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-32",
+          "name": "Bárbara Bengolea de Lafuente de Ferrari",
+          "wealth_usd": 850000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 32,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-33",
+          "name": "Alejandro & Sofía Bengolea Peralta Ramos",
+          "wealth_usd": 850000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 33,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-34",
+          "name": "Amalia Amoedo de Lafuente",
+          "wealth_usd": 850000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 34,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-35",
+          "name": "Alfredo Alberto Román & Karina Román",
+          "wealth_usd": 800000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 35,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-36",
+          "name": "Adrián & Daniel Werthein",
+          "wealth_usd": 650000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 36,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-37",
+          "name": "Rubén Lucio Cherñajovsky",
+          "wealth_usd": 640000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 37,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-38",
+          "name": "Gerardo Luis Bartolomé",
+          "wealth_usd": 620000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 38,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-39",
+          "name": "Felipe & Marcela Noble Herrera",
+          "wealth_usd": 610000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 39,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-40",
+          "name": "Benjamín Gabriel Romero",
+          "wealth_usd": 600000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 40,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-41",
+          "name": "Elena Khafif & hermanos",
+          "wealth_usd": 590000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 41,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-42",
+          "name": "Manuel Santos Uribelarrea & hermanos",
+          "wealth_usd": 550000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 42,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-43",
+          "name": "Alberto Reinaldo Pierri",
+          "wealth_usd": 540000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 43,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-44",
+          "name": "Julio Alfredo Fraomeni",
+          "wealth_usd": 520000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 44,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-45",
+          "name": "Mauricio Filiberti",
+          "wealth_usd": 500000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 45,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-46",
+          "name": "Juan Carlos Villa Larroudet & hermanos",
+          "wealth_usd": 500000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 46,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-47",
+          "name": "Héctor Fernando Colella Moix",
+          "wealth_usd": 480000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 47,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-48",
+          "name": "Martín Fernando Brandi & hermanos",
+          "wealth_usd": 470000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 48,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-49",
+          "name": "Miguel Galuccio",
+          "wealth_usd": 450000000,
+          "unit": "Unidad patrimonial reportada por Forbes; no necesariamente per cápita",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 49,
+          "estimate_not_audit": true
+        },
+        {
+          "id": "archive2024-50",
+          "name": "Enrique Piñeyro & familia",
+          "wealth_usd": 420000000,
+          "unit": "Grupo familiar explícito en la fuente",
+          "source_id": "W24",
+          "source_url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+          "source_order": 50,
+          "estimate_not_audit": true
+        }
+      ]
+    }
+  },
+  "salary_references": [
+    {
+      "id": "sipa_mean",
+      "label": "SIPA · promedio privado registrado",
+      "value_ars": 2121005,
+      "period": "Mayo 2026",
+      "basis": "Remuneración nominal bruta media. Sector privado registrado; no ingreso del hogar ni salario neto.",
+      "source_id": "SIPA",
+      "source_url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2605_informe.pdf#page=8"
+    },
+    {
+      "id": "sipa_median",
+      "label": "SIPA · mediana privado registrado",
+      "value_ars": 1606773,
+      "period": "Mayo 2026",
+      "basis": "Remuneración nominal bruta mediana del sector privado registrado. No se usa para estimar una masa salarial observada.",
+      "source_id": "SIPA",
+      "source_url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2605_informe.pdf#page=8"
+    },
+    {
+      "id": "ripte",
+      "label": "RIPTE · trabajadores estables",
+      "value_ars": 1915878.76,
+      "period": "Junio 2026",
+      "basis": "Remuneración imponible de puestos con al menos 13 meses de continuidad, con topes y cobertura previsional específicos; público y privado cubiertos por SIPA. No representa a todo el empleo formal.",
+      "source_id": "RIPTE",
+      "source_url": "https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte"
+    }
+  ],
+  "rates": [
+    {
+      "id": "ust3m",
+      "label": "Treasury EE.UU. · 3 meses",
+      "annual_percent": 3.91
+    },
+    {
+      "id": "ust6m",
+      "label": "Treasury EE.UU. · 6 meses",
+      "annual_percent": 3.98
+    },
+    {
+      "id": "ust1y",
+      "label": "Treasury EE.UU. · 1 año",
+      "annual_percent": 4.13
+    },
+    {
+      "id": "scenario2",
+      "label": "Escenario prudente ilustrativo · no cotización",
+      "annual_percent": 2.0
+    },
+    {
+      "id": "scenario5",
+      "label": "Escenario moderado ilustrativo · no garantizado",
+      "annual_percent": 5.0
+    }
+  ],
+  "rate_metadata": {
+    "source_id": "UST",
+    "date": "2026-09-04",
+    "basis": "Curva nominal par/CMT anualizada en USD. Referencia interpolada, no cupón mensual ni tasa de ejecución garantizada. Modelo usa prorrateo lineal r/12, sin capitalización."
+  },
+  "fx": {
+    "ars_per_usd": 1480,
+    "date": "2026-09-07",
+    "time_local": "09:53",
+    "label": "BNA billete · compra USD",
+    "source_id": "BNA",
+    "basis": "Compra porque el ejercicio expresa en pesos un rendimiento originado en USD. Referencia minorista, no precio garantizado para grandes volúmenes."
+  },
+  "payroll_reference": {
+    "people": 6106500,
+    "period": "Mayo 2026",
+    "source_id": "SIPA",
+    "locator": "Tabla 1, p. 6; 6.106,5 miles de personas (serie original).",
+    "basis": "N × salario de referencia = nómina sintética, no masa salarial oficial. La mediana no permite calcular masa salarial real."
+  },
+  "defaults": {
+    "catalog": "annual2026",
+    "rateId": "ust3m",
+    "rate": 3.91,
+    "fx": 1480,
+    "fraction": 100,
+    "haircut": 0,
+    "fee": 0,
+    "tax": 0,
+    "salaryId": "sipa_mean",
+    "salary": 2121005,
+    "workers": 1,
+    "aggregation": "mean",
+    "pieMode": "households",
+    "includeFortunes": true
+  },
+  "sources": [
+    {
+      "id": "HOGARES",
+      "label": "Consultora W · ingresos de hogares, reproducidos por El Cronista",
+      "url": "https://www.cronista.com/economia-politica/la-perdida-de-poder-adquisitivo-de-la-clase-media-complica-la-recuperacion-del-consumo/",
+      "date": "Estimación: 2.º trimestre 2026 · publicación 07/09/2026",
+      "type": "Estimación privada; reproducción periodística, cotejada con la placa aportada",
+      "locator": "Sección «Cuánto hay que ganar para ser de clase media»",
+      "values": "Medias por hogar: alta $14.000.000; media alta $6.500.000; media baja $3.000.000; baja no pobre $2.200.000; baja pobre $1.000.000.",
+      "caveat": "No son sólo salarios, ni una clasificación oficial del INDEC. No se obtuvo el informe metodológico íntegro de Consultora W. En esta torta NO se usan sus porcentajes de hogares."
+    },
+    {
+      "id": "W26",
+      "label": "Forbes Argentina · selección del ranking mundial 2026",
+      "url": "https://www.forbesargentina.com/millonarios/quienes-son-seis-argentinos-mas-ricos-mundo-ranking-global-forbes-2026-n87513",
+      "date": "Publicación: 10/03/2026",
+      "type": "Estimación patrimonial de la fuente original",
+      "locator": "Encabezados de los seis perfiles",
+      "values": "7.300; 7.200; 5.100; 4.800; 1.300; 1.000 millones de USD. Suma calculada: 26.700 millones.",
+      "caveat": "No son DDJJ ni patrimonio líquido. La nota no identifica aquí un día exacto de tasación común."
+    },
+    {
+      "id": "W24",
+      "label": "Forbes Argentina · ranking local de 50 patrimonios",
+      "url": "https://www.forbesargentina.com/rankings/50-mas-ricos-argentina",
+      "date": "Valuaciones: agosto–noviembre 2024",
+      "type": "Estimación patrimonial histórica de la fuente original",
+      "locator": "Encabezados 2024 y sección Metodología",
+      "values": "50 registros. Suma de los valores publicados: USD 77.930 millones.",
+      "caveat": "No son 50 hogares estadísticos ni 50 personas necesariamente. No es una serie comparable con los seis de 2026."
+    },
+    {
+      "id": "SIPA",
+      "label": "Secretaría de Trabajo · trabajo registrado, mayo 2026",
+      "url": "https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2605_informe.pdf",
+      "date": "Período: mayo 2026",
+      "type": "Registro administrativo oficial; cifras provisorias",
+      "locator": "Salarios: p. 5 y tabla 3, p. 8. Cantidad de asalariados privados: tabla 1, p. 6.",
+      "values": "Media bruta: $2.121.005; mediana bruta: $1.606.773; privados registrados: 6.106.500.",
+      "caveat": "No incluye como universo salarial al empleo público, informal ni autónomo. Hay estacionalidad (por ejemplo, SAC)."
+    },
+    {
+      "id": "RIPTE",
+      "label": "Secretaría de Seguridad Social · RIPTE",
+      "url": "https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte",
+      "date": "Período: junio 2026",
+      "type": "Indicador previsional oficial",
+      "locator": "Publicación Junio 2026 y definiciones metodológicas",
+      "values": "$1.915.878,76.",
+      "caveat": "Salario imponible y topado de puestos estables; no salario neto ni promedio general de todos los trabajadores."
+    },
+    {
+      "id": "UST",
+      "label": "U.S. Treasury · Daily Treasury Par Yield Curve Rates",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "date": "Observación: 04/09/2026",
+      "type": "Referencia de mercado oficial",
+      "locator": "Fila 09/04/2026; columnas 3 Mo, 6 Mo, 1 Yr",
+      "values": "3 meses: 3,91%; 6 meses: 3,98%; 1 año: 4,13%, anualizadas nominales en USD.",
+      "caveat": "Rendimientos interpolados de una curva, no una oferta firme. Plazos cortos implican reinversión a tasas futuras desconocidas."
+    },
+    {
+      "id": "BNA",
+      "label": "Banco Nación · cotización de billetes",
+      "url": "https://www.bna.com.ar/Personas",
+      "date": "Observación: 07/09/2026 · 09:53",
+      "type": "Cotización oficial del banco",
+      "locator": "Cotización Billetes · Dólar U.S.A · Compra",
+      "values": "$1.480 por USD (venta: $1.530; no usada por defecto).",
+      "caveat": "La página cambia. La cifra embebida permanece fechada. Conversión de referencia, no arbitraje ni precio de ejecución institucional."
+    },
+    {
+      "id": "BILLS",
+      "label": "TreasuryDirect · funcionamiento de Treasury Bills",
+      "url": "https://www.treasurydirect.gov/marketable-securities/treasury-bills/",
+      "date": "Consulta: 07/09/2026",
+      "type": "Documentación oficial del emisor",
+      "locator": "Bills at a Glance · Interest paid",
+      "values": "Los intereses se realizan al vencimiento; plazos de 4 a 52 semanas.",
+      "caveat": "Un equivalente mensual no implica un depósito de intereses todos los meses."
+    },
+    {
+      "id": "ESTILO",
+      "label": "Myuvra/Dashito · referencia visual del proyecto",
+      "url": "https://github.com/Myuvra/Dashito/blob/main/data/legacy-archive/dashito-legacy.css",
+      "date": "Código consultado: 07/09/2026",
+      "type": "Repositorio del dashboard",
+      "locator": "Tokens de los temas rose-light, rose-dark y blue-dark",
+      "values": "Se mantienen las tres paletas, las tarjetas, navegación por secciones y jerarquía visual.",
+      "caveat": "Este HTML es autónomo; no se desplegó ni modificó el sitio publicado. La página Netlify no fue accesible en esta consulta; se utilizó el código conectado."
+    }
+  ],
+  "income_groups": [
+    {
+      "id": "high",
+      "label": "Clase alta",
+      "code": "ABC1",
+      "monthly_ars": 14000000,
+      "basis": "Ingreso neto medio por hogar",
+      "period": "2.º trimestre 2026",
+      "source_id": "HOGARES"
+    },
+    {
+      "id": "uppermiddle",
+      "label": "Media alta",
+      "code": "C2",
+      "monthly_ars": 6500000,
+      "basis": "Ingreso neto medio por hogar",
+      "period": "2.º trimestre 2026",
+      "source_id": "HOGARES"
+    },
+    {
+      "id": "lowermiddle",
+      "label": "Media baja",
+      "code": "C3",
+      "monthly_ars": 3000000,
+      "basis": "Ingreso neto medio por hogar",
+      "period": "2.º trimestre 2026",
+      "source_id": "HOGARES"
+    },
+    {
+      "id": "lownonpoor",
+      "label": "Baja no pobre",
+      "code": "D1",
+      "monthly_ars": 2200000,
+      "basis": "Ingreso neto medio por hogar",
+      "period": "2.º trimestre 2026",
+      "source_id": "HOGARES"
+    },
+    {
+      "id": "lowpoor",
+      "label": "Baja en pobreza",
+      "code": "D2/E",
+      "monthly_ars": 1000000,
+      "basis": "Ingreso neto medio por hogar",
+      "period": "2.º trimestre 2026",
+      "source_id": "HOGARES"
+    }
+  ],
+  "pie_methodology": {
+    "numerator": "Un monto mensual por categoría: ingreso medio del hogar de cada nivel y media o mediana de la renta hipotética por registro patrimonial seleccionado.",
+    "denominator": "Suma de esas referencias; NO masa nacional de ingresos, NO proporción de habitantes, NO distribución estadística de clases mutuamente excluyentes.",
+    "population_weights_used": false,
+    "wealth_stock_included_in_pie": false,
+    "fortune_group": "Categoría analítica agregada al comparador. No es un sexto estrato oficial de Consultora W. El universo Forbes no es representativo de todas las grandes fortunas y puede contener familias."
+  }
+}

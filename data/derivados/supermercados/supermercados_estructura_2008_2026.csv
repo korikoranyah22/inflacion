@@ -1,0 +1,20 @@
+period,plot_year,panel,stores,sales_area_m2,operations,operations_period,status,source_url
+2008,2008,anterior,1552,2333128,737671873,año,tabla anual INDEC,https://biblioteca.indec.gob.ar/bases/minde/63ae2012.pdf
+2009,2009,anterior,1609,2459125,689952468,año,tabla anual INDEC,https://biblioteca.indec.gob.ar/bases/minde/63ae2012.pdf
+2010,2010,anterior,1648,2555161,712631223,año,tabla anual INDEC,https://biblioteca.indec.gob.ar/bases/minde/63ae2012.pdf
+2011,2011,anterior,1714,2707554,713787769,año,tabla anual INDEC,https://biblioteca.indec.gob.ar/bases/minde/63ae2012.pdf
+2012,2012,anterior,1792,2861403,741439233,año,tabla anual INDEC,https://biblioteca.indec.gob.ar/bases/minde/63ae2012.pdf
+1S 2013,2013.50,anterior,1943,2967633,379615281,enero–junio,tabla semestral INDEC,https://biblioteca.indec.gob.ar/bases/minde/63ae2012.pdf
+nov-2013,2013.92,anterior,2037,3013015,66371118,mes,"cuadro de noviembre en informe diciembre 2013",https://sitioanterior.indec.gob.ar/uploads/informesdeprensa/super_01_14.pdf
+nov-2014,2014.92,anterior,2159,3091218,67545405,mes,"cuadro de noviembre en informe diciembre 2014",https://sitioanterior.indec.gob.ar/uploads/informesdeprensa/super_01_15.pdf
+dic-2016,2016.98,anterior,2365,3213721,,N/D,"informe diciembre 2016 · panel de 61 empresas",https://sitioanterior.indec.gob.ar/uploads/informesdeprensa/super_02_17.pdf
+dic-2017,2017.98,ampliado,2975,3277409,77321338,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2018,2018.98,ampliado,2973,3268872,79283350,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2019,2019.98,ampliado,2953,3248090,80571561,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2020,2020.98,ampliado,2947,3274249,63835153,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2021,2021.98,ampliado,2947,3287740,72147569,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2022,2022.98,ampliado,3050,3286547,78662252,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2023,2023.98,ampliado,3156,3353877,88904340,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2024,2024.98,ampliado,3182,3401971,77292710,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+dic-2025,2025.98,ampliado,3150,3384899,75074970,mes,XLSX moderno INDEC,https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx
+jun-2026,2026.50,ampliado,3128,3336976,65548779,mes,"XLSX moderno INDEC · período parcial",https://www.indec.gob.ar/ftp/cuadros/economia/serie_supermercados.xlsx

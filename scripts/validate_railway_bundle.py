@@ -20,7 +20,7 @@ def digest(path: Path) -> str:
 
 
 manifest = json.loads((BUNDLE / ".bundle-manifest.json").read_text(encoding="utf-8"))
-assert manifest["public_file_count"] == 140
+assert manifest["public_file_count"] == 142
 assert manifest["public_bytes"] < MAX_BUNDLE_BYTES
 
 for row in manifest["files"]:
@@ -65,9 +65,27 @@ asset = (BUNDLE / "index.html").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "epica-super-tabs.js").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "epica-stage2-tabs.js").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "political-wealth-tab.js").read_text(encoding="utf-8")
+asset += (BUNDLE / "assets" / "fortune-income-tab.js").read_text(encoding="utf-8")
 for row in manifest["files"]:
     relative = str(row["path"])
     if relative.startswith("research/"):
         assert f'href="{relative}"' in asset or f"'{relative}'" in asset, f"Descarga no enlazada: {relative}"
+
+fortune_data = json.loads(
+    (BUNDLE / "assets" / "fortune-income-data.json").read_text(encoding="utf-8")
+)
+assert fortune_data["version"] == "2.0.0"
+assert len(fortune_data["catalogs"]["annual2026"]["rows"]) == 6
+assert len(fortune_data["catalogs"]["archive2024"]["rows"]) == 50
+fortune_rows = [
+    *fortune_data["catalogs"]["annual2026"]["rows"],
+    *fortune_data["catalogs"]["archive2024"]["rows"],
+]
+assert len({row["id"] for row in fortune_rows}) == 56
+assert all(row["wealth_usd"] > 0 for row in fortune_rows)
+source_ids = {source["id"] for source in fortune_data["sources"]}
+assert all(row["source_id"] in source_ids for row in fortune_rows)
+assert 'data-tab="tab-fortune-income"' in asset
+assert '<fortune-income-dashboard>' in asset
 
 print(f"OK: paquete Railway autocontenido · {manifest['public_bytes'] / 1024 / 1024:.2f} MiB")

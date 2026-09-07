@@ -9,5 +9,19 @@ node_modules/
 
 # Laboratorio local de responsive.
 /responsive-lab/dist/
+
+# Laboratorio cultural local Vera-Lyra; contiene corpus y análisis no publicables.
+/proyecto_lyra/
+
 /data/fuentes/ciclo_ajuste/backfill_v96_round2/hist_bcra_din4_ser.txt
 /research/ciclo_ajuste/inputs/issuer_retrieval/v95/binaries/007_118254.pdf
+
+# Microdatos EPH extraídos y regenerables para la épica “La fractura de abajo”.
+/research/epica_dashito_2026/fractura_de_abajo_2026-09-04/derived/eph_raw/
+/research/epica_dashito_2026/fractura_de_abajo_2026-09-04/derived/eph_cfk_raw/
+/research/epica_dashito_2026/fractura_de_abajo_2026-09-04/derived/eph_menem_raw/
+/research/epica_dashito_2026/fractura_de_abajo_2026-09-04/derived/eph_early_continuous_raw/
+/research/epica_dashito_2026/fractura_de_abajo_2026-09-04/__pycache__/
+
+# Cartas y correspondencia personal de trabajo.
+/cartas/
