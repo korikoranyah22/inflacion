@@ -1,12 +1,12 @@
 {
   "generated_from": "dashboard source tree",
   "public_file_count": 142,
-  "public_bytes": 18431051,
+  "public_bytes": 18432755,
   "files": [
     {
       "path": "index.html",
       "bytes": 8096718,
-      "sha256": "c4904b3a608670a11c8a3a80991a1558f3cef21d98c650ff60e5025469adedd5"
+      "sha256": "425a8584df1cc55b7a83d2e9a36c47bfdf80f7e42f8a681209c87347873a454b"
     },
     {
       "path": "assets/epica-super-tabs.js",
@@ -30,8 +30,8 @@
     },
     {
       "path": "assets/fortune-income-tab.js",
-      "bytes": 60749,
-      "sha256": "b59ddc27a9064a7ea657cfcb9de7a8e5384b208ecd57f733e7c7a7518cfaf1c0"
+      "bytes": 62453,
+      "sha256": "2c50678d172b9bb326f1f73b5c9461fe2d99779d7a1dc230be4fa6d280d518e5"
     },
     {
       "path": "assets/fortune-income-data.json",

@@ -127,20 +127,20 @@
                   <div><small>PIRÁMIDE SOCIAL ORIGINAL</small><h3>Cómo se reparten los hogares</h3></div>
                   <b>% DE HOGARES</b>
                 </div>
-                <svg id="fiSocialPyramid" viewBox="0 0 760 455" role="img" aria-label="Pirámide social por porcentaje de hogares"></svg>
+                <svg id="fiSocialPyramid" viewBox="0 0 880 455" role="img" aria-label="Pirámide social por porcentaje de hogares"></svg>
                 <p id="fiSocialPyramidFoot" class="fi-pyramid-foot"></p>
               </article>
               <article class="fi-card fi-pyramid-card fi-pyramid-capital-card">
                 <div class="fi-pyramid-title">
                   <div><small>PIRÁMIDE INVERTIDA COMPLETA</small><h3>Del capital a las clases sociales</h3></div>
-                  <b>ARS / MES · LOG</b>
+                  <b>ARS / MES · ESCALA PARTIDA</b>
                 </div>
-                <svg id="fiCapitalPyramid" viewBox="0 0 760 455" role="img" aria-label="Pirámide invertida de grandes fortunas y clases sociales por monto mensual"></svg>
+                <svg id="fiCapitalPyramid" viewBox="0 0 880 500" role="img" aria-label="Pirámide invertida de grandes fortunas y clases sociales por monto mensual, con corte de escala explícito"></svg>
                 <p id="fiCapitalPyramidFoot" class="fi-pyramid-foot"></p>
               </article>
             </div>
             <div class="fi-unit-note">
-              <strong>La unidad cambia entre gráficos.</strong> La pirámide social usa participación de hogares. La invertida usa referencias mensuales en ARS: primero convierte el patrimonio en renta hipotética y recién entonces lo ubica sobre los ingresos familiares.
+              <strong>La unidad cambia entre gráficos.</strong> La pirámide social usa participación de hogares. La invertida usa referencias mensuales en ARS y una escala partida explícita: arriba muestra la distancia exacta; debajo amplía linealmente las cinco clases.
             </div>
           </section>
 
@@ -549,7 +549,7 @@ Renta mensual ARS = renta anual ÷ 12 × ARS/USD</pre><p>La tasa es anualizada y
       if (!svg) return;
       const colors = ['#268447', '#eaa42d', '#f1cf38', '#e76f79', '#d9232e'];
       const boundaries = [30, 62, 100, 142, 184, 224];
-      const center = 300;
+      const center = 390;
       const startY = 67;
       const step = 62;
       const height = 50;
@@ -566,14 +566,14 @@ Renta mensual ARS = renta anual ÷ 12 × ARS/USD</pre><p>La tasa es anualizada y
             <polygon points="${center - top},${y} ${center + top},${y} ${center + bottom},${y + height} ${center - bottom},${y + height}" fill="${colors[index]}" stroke="#fff" stroke-width="3"></polygon>
             <text x="${center}" y="${y + 32}" text-anchor="middle" fill="${index === 2 ? '#4d3157' : '#fff'}" font-size="20" font-weight="900">${this.dec(share, 0)}%</text>
             <text x="18" y="${y + 22}" fill="#765f7e" font-size="13" font-weight="800">${this.escape(floorLabel)}</text>
-            <text x="548" y="${y + 19}" fill="#4d3157" font-size="14" font-weight="900">${this.escape(item.label)}</text>
-            <text x="548" y="${y + 39}" fill="#765f7e" font-size="13">${this.escape(item.code)} · ${this.shortMoney(item.monthly_ars)} / mes</text>
+            <text x="650" y="${y + 19}" fill="#4d3157" font-size="14" font-weight="900">${this.escape(item.label)}</text>
+            <text x="650" y="${y + 39}" fill="#765f7e" font-size="13">${this.escape(item.code)} · ${this.shortMoney(item.monthly_ars)} / mes</text>
           </g>`;
       }).join('');
       svg.innerHTML = `
         <text x="18" y="28" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">PISO DEL NIVEL</text>
-        <text x="300" y="28" text-anchor="middle" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">% DE HOGARES</text>
-        <text x="548" y="28" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">INGRESO PROMEDIO</text>
+        <text x="390" y="28" text-anchor="middle" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">% DE HOGARES</text>
+        <text x="650" y="28" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">INGRESO PROMEDIO</text>
         ${layers}`;
       const pyramid = this.data.household_pyramid || {};
       this.$('fiSocialPyramidFoot').innerHTML = `<strong>${this.escape(pyramid.period || '2.º trimestre 2026')}.</strong> Ingreso promedio del hogar total país: ${this.shortMoney(pyramid.average_household_ars || 3500000)}. En D2/E la placa informa 22% de hogares y 30% de la población.`;
@@ -583,45 +583,58 @@ Renta mensual ARS = renta anual ÷ 12 × ARS/USD</pre><p>La tasa es anualizada y
       const svg = this.$('fiCapitalPyramid');
       if (!svg) return;
       const palette = ['#694094', '#d79a33', '#32a795', '#5c9fda', '#d97593', '#a788b4'];
-      const items = [{
+      const fortune = {
         id: 'fortune', label: 'Grandes fortunas', code: 'CAPITAL → RENTA',
         value: Math.max(0, this.current.result.monthlyArs), color: palette[0]
-      }, ...this.data.income_groups.map((item, index) => ({
+      };
+      const classes = this.data.income_groups.map((item, index) => ({
         id: item.id, label: item.label, code: item.code,
         value: Math.max(0, Number(item.monthly_ars)), color: palette[index + 1]
-      }))];
-      const positives = items.map(item => item.value).filter(value => value > 0);
-      const min = positives.length ? Math.min(...positives) : 1;
-      const max = positives.length ? Math.max(...positives) : 1;
-      const logMin = Math.log(min);
-      const logRange = Math.max(Math.log(max) - logMin, 1);
-      const center = 300;
-      const startY = 66;
-      const step = 57;
-      const height = 47;
-      const halfWidths = items.map(item => 54 + 200 * ((Math.log(Math.max(item.value, min)) - logMin) / logRange));
-      const layers = items.map((item, index) => {
-        const y = startY + index * step;
-        const top = halfWidths[index];
-        const bottom = index < items.length - 1 ? halfWidths[index + 1] : 42;
-        const inside = item.id === 'fortune' ? 'GRANDES FORTUNAS' : item.code;
-        const valueLabel = item.value > 0 ? this.shortMoney(item.value) : 'Sin renta positiva';
+      }));
+      const familyTotal = classes.reduce((sum, item) => sum + item.value, 0);
+      const total = fortune.value + familyTotal;
+      const share = value => total > 0 ? value / total * 100 : 0;
+      const center = 330;
+      const topHalf = fortune.value > 0 ? 280 : 0;
+      const topValue = fortune.value > 0 ? this.shortMoney(fortune.value) : 'Sin renta positiva';
+      const topShare = this.dec(share(fortune.value), 4);
+      const exactFamilyWidth = fortune.value > 0 ? 560 * familyTotal / fortune.value : 560;
+      const high = classes[0];
+      const classLayers = classes.map((item, index) => {
+        const y = 205 + index * 55;
+        const half = high.value > 0 ? 185 * item.value / high.value : 0;
+        const bottomHalf = half * .9;
+        const valueLabel = this.shortMoney(item.value);
+        const showInside = half >= 25;
         return `
           <g><title>${this.escape(item.label)}: ${this.money(item.value)} por mes</title>
-            <polygon points="${center - top},${y} ${center + top},${y} ${center + bottom},${y + height} ${center - bottom},${y + height}" fill="${item.color}" stroke="${item.id === 'fortune' ? '#4d3157' : '#fff'}" stroke-width="${item.id === 'fortune' ? 5 : 3}"></polygon>
-            <text x="${center}" y="${y + 21}" text-anchor="middle" fill="${item.id === 'lowermiddle' ? '#4d3157' : '#fff'}" font-size="13" font-weight="900">${this.escape(inside)}</text>
-            <text x="${center}" y="${y + 39}" text-anchor="middle" fill="${item.id === 'lowermiddle' ? '#4d3157' : '#fff'}" font-size="12">${this.escape(valueLabel)} / mes</text>
-            <text x="578" y="${y + 19}" fill="#4d3157" font-size="13" font-weight="900">${this.escape(item.label)}</text>
-            <text x="578" y="${y + 38}" fill="#765f7e" font-size="12">${this.escape(valueLabel)} / mes</text>
+            <polygon points="${center - half},${y} ${center + half},${y} ${center + bottomHalf},${y + 42} ${center - bottomHalf},${y + 42}" fill="${item.color}" stroke="#fff" stroke-width="3"></polygon>
+            ${showInside ? `<text x="${center}" y="${y + 26}" text-anchor="middle" fill="${item.id === 'lowermiddle' ? '#4d3157' : '#fff'}" font-size="12" font-weight="900">${this.escape(item.code)}</text>` : ''}
+            <text x="640" y="${y + 15}" fill="#4d3157" font-size="13" font-weight="900">${this.escape(item.label)}</text>
+            <text x="640" y="${y + 34}" fill="#765f7e" font-size="12">${this.escape(valueLabel)} / mes · ${this.dec(share(item.value), 4)}%</text>
           </g>`;
       }).join('');
       svg.innerHTML = `
-        <text x="300" y="28" text-anchor="middle" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">ANCHO LOGARÍTMICO · ARS POR MES</text>
-        <text x="578" y="28" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">REFERENCIA MONETARIA</text>
-        ${layers}`;
-      const high = this.data.income_groups.find(item => item.id === 'high') || this.data.income_groups[0];
-      const ratio = this.current.result.monthlyArs > 0 ? this.dec(this.current.result.monthlyArs / high.monthly_ars, 1) : '0';
-      this.$('fiCapitalPyramidFoot').innerHTML = `<strong>${this.escape(this.current.representative.label)}.</strong> La renta mensual simulada equivale a ${ratio} ingresos medios de clase alta. El ancho es logarítmico para mantener visibles las seis capas; la torta conserva la proporción monetaria exacta.`;
+        <text x="330" y="24" text-anchor="middle" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">DISTANCIA TOTAL · PROPORCIÓN EXACTA</text>
+        <text x="640" y="24" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">MONTO · % DE LA SUMA</text>
+        <g><title>Grandes fortunas: ${this.money(fortune.value)} por mes; ${topShare}% de la suma construida</title>
+          <polygon points="${center - topHalf},48 ${center + topHalf},48 ${center + topHalf * .64},122 ${center - topHalf * .64},122" fill="${fortune.color}" stroke="#4d3157" stroke-width="5"></polygon>
+          <text x="${center}" y="75" text-anchor="middle" fill="#fff" font-size="14" font-weight="900">GRANDES FORTUNAS</text>
+          <text x="${center}" y="96" text-anchor="middle" fill="#fff" font-size="13">${this.escape(topValue)} / mes</text>
+          <text x="${center}" y="115" text-anchor="middle" fill="#eadff0" font-size="11">${topShare}% de la suma</text>
+          <text x="640" y="72" fill="#4d3157" font-size="13" font-weight="900">Grandes fortunas</text>
+          <text x="640" y="93" fill="#765f7e" font-size="12">${this.escape(topValue)} / mes · ${topShare}%</text>
+        </g>
+        <text x="${center}" y="142" text-anchor="middle" fill="#765f7e" font-size="10">CINCO REFERENCIAS FAMILIARES: ${this.dec(share(familyTotal), 4)}% · ${this.dec(exactFamilyWidth, 2)} PX SI LA FRANJA VIOLETA MIDE 560 PX</text>
+        <rect x="${center - Math.max(exactFamilyWidth, .5) / 2}" y="151" width="${Math.max(exactFamilyWidth, .5)}" height="9" fill="#c85f86"><title>Ancho proporcional exacto de las cinco referencias familiares sumadas</title></rect>
+        <line x1="90" y1="181" x2="570" y2="181" stroke="#d9c8e1" stroke-width="2"></line>
+        <rect x="180" y="167" width="300" height="27" rx="13.5" fill="#fff"></rect>
+        <path d="M157 188 l12 -14 M173 188 l12 -14" stroke="#8052aa" stroke-width="3"></path>
+        <text x="330" y="185" text-anchor="middle" fill="#8b5076" font-size="10" font-weight="900" letter-spacing=".7">CORTE DE ESCALA · ABAJO: CLASE ALTA = 100</text>
+        <path d="M475 188 l12 -14 M491 188 l12 -14" stroke="#8052aa" stroke-width="3"></path>
+        ${classLayers}`;
+      const ratio = this.current.result.monthlyArs > 0 ? this.dec(this.current.result.monthlyArs / high.value, 1) : '0';
+      this.$('fiCapitalPyramidFoot').innerHTML = `<strong>${this.escape(this.current.representative.label)}.</strong> La renta simulada equivale a ${ratio} ingresos medios de clase alta. Arriba se informa la proporción total exacta; debajo, los anchos son lineales entre clases (alta = 100). No se comparan anchos a través del corte. La torta conserva la proporción exacta sin ampliar.`;
     }
 
     chartData() {
@@ -882,7 +895,7 @@ Renta mensual ARS = renta anual ÷ 12 × ARS/USD</pre><p>La tasa es anualizada y
         .fi-shield{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:15px 18px;border:1px solid #dfcae8;border-radius:20px;background:#f8effc;box-shadow:var(--fi-shadow)}.fi-shield>span{font-size:11px;font-weight:900;letter-spacing:.045em;text-transform:uppercase;color:#765080}.fi-shield>strong{flex:1 1 480px;font-size:13px}.fi-badges{display:flex;gap:6px;flex-wrap:wrap}.fi-badges b{padding:5px 8px;border:1px solid #ddcce6;border-radius:8px;background:#fff;font-size:10px;letter-spacing:.02em}
         .fi-hero{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.75fr);gap:28px;align-items:end;padding:42px 12px 30px}.fi-eyebrow{margin-bottom:7px;color:#8b5076;font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.fi-hero h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(34px,5vw,60px);line-height:.98;letter-spacing:-2px}.fi-hero h1 span{color:var(--fi-pink)}.fi-lead{max-width:760px;margin-top:20px;color:#695270;font-size:16px}.fi-hero-note{padding:22px;border-left:4px solid var(--fi-purple);border-radius:8px 18px 18px 8px;background:#f5ecfa}.fi-hero-note small,.fi-insight small,.fi-detail>small,.fi-capital-needed small{display:block;color:#86688f;font-size:10px;font-weight:900;letter-spacing:.07em}.fi-hero-note>strong{display:block;margin:7px 0 10px;font:700 21px/1.18 Georgia,serif}.fi-hero-note p{color:var(--fi-muted);font-size:12px}.fi-notice{padding:14px 17px;border:1px solid #ecd8df;border-left:4px solid var(--fi-pink);border-radius:14px;background:#fff8fa;color:#6e5361}
         .fi-section{margin-top:38px}.fi-card{border:1px solid var(--fi-line);border-radius:20px;background:var(--fi-panel);box-shadow:var(--fi-shadow)}.fi-pad{padding:20px}.fi-controls{margin-top:20px;padding:22px}.fi-section-head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:17px}.fi-section-head h2{font:800 25px/1.1 Georgia,serif}.fi-section-head p:not(.fi-eyebrow){margin-top:6px;color:var(--fi-muted)}.fi-section-head-wrap{flex-wrap:wrap}.fi-control-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}.fi-control-grid label,.fi-search{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:850}.fi-control-grid small{min-height:33px;color:var(--fi-muted);font-size:10px;font-weight:500;line-height:1.35}.fi-control-grid input,.fi-control-grid select,.fi-search input{width:100%;min-height:42px;padding:9px 10px}.fi-extra{margin-top:14px;border-top:1px solid var(--fi-line);padding-top:13px}.fi-extra summary{cursor:pointer;font-weight:850}.fi-control-grid-small{margin-top:14px;grid-template-columns:repeat(3,minmax(0,1fr))}.fi-param-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:15px;padding-top:12px;border-top:1px solid var(--fi-line);color:var(--fi-muted);font-size:11px}.fi-param-foot>div{display:flex;gap:7px}.fi-input-error{margin-top:12px;padding:10px;border-radius:9px;background:#fff0f2;color:#9d2349;font-weight:750}
-        .fi-pyramid-section{margin-top:30px}.fi-pyramid-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.fi-pyramid-card{padding:19px;overflow:hidden}.fi-pyramid-title{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}.fi-pyramid-title small{display:block;color:#8b5076;font-size:9px;font-weight:900;letter-spacing:.08em}.fi-pyramid-title h3{margin-top:4px;font:800 20px/1.1 Georgia,serif}.fi-pyramid-title>b{flex:none;padding:5px 7px;border:1px solid #dfcde7;border-radius:7px;background:#faf5fc;color:#765080;font-size:9px;letter-spacing:.04em}.fi-pyramid-card svg{display:block;width:100%;height:auto;margin:10px auto 0}.fi-pyramid-foot{min-height:48px;margin-top:4px;padding-top:11px;border-top:1px solid #eee5f1;color:var(--fi-muted);font-size:10px}.fi-unit-note{margin-top:13px;padding:13px 15px;border:1px solid #e1d3e7;border-left:4px solid var(--fi-purple);border-radius:12px;background:#f9f4fb;color:var(--fi-muted);font-size:11px}.fi-unit-note strong{color:var(--fi-ink)}
+        .fi-pyramid-section{margin-top:30px}.fi-pyramid-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}.fi-pyramid-card{padding:19px;overflow:hidden}.fi-pyramid-title{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}.fi-pyramid-title small{display:block;color:#8b5076;font-size:9px;font-weight:900;letter-spacing:.08em}.fi-pyramid-title h3{margin-top:4px;font:800 20px/1.1 Georgia,serif}.fi-pyramid-title>b{flex:none;padding:5px 7px;border:1px solid #dfcde7;border-radius:7px;background:#faf5fc;color:#765080;font-size:9px;letter-spacing:.04em}.fi-pyramid-card svg{display:block;width:100%;height:auto;margin:10px auto 0}.fi-pyramid-foot{min-height:48px;margin-top:4px;padding-top:11px;border-top:1px solid #eee5f1;color:var(--fi-muted);font-size:10px}.fi-unit-note{margin-top:13px;padding:13px 15px;border:1px solid #e1d3e7;border-left:4px solid var(--fi-purple);border-radius:12px;background:#f9f4fb;color:var(--fi-muted);font-size:11px}.fi-unit-note strong{color:var(--fi-ink)}
         .fi-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}.fi-kpis article{min-height:145px;padding:18px;border:1px solid var(--fi-line);border-top:4px solid var(--fi-pink);border-radius:18px;background:#fff;box-shadow:var(--fi-shadow)}.fi-kpis article.fi-kpi-purple{border-top-color:var(--fi-purple)}.fi-kpis article.fi-kpi-mint{border-top-color:var(--fi-mint)}.fi-kpis small{display:block;color:#836b8a;font-size:10px;font-weight:900;letter-spacing:.055em}.fi-kpis strong{display:block;margin:10px 0 5px;font:850 clamp(21px,2.5vw,31px)/1.05 Georgia,serif}.fi-kpis span{color:var(--fi-muted);font-size:11px}
         .fi-switches{display:flex;gap:7px;flex-wrap:wrap}.fi-switches button.active{border-color:var(--fi-purple);background:var(--fi-purple);color:#fff}.fi-chart-card{padding:20px}.fi-pie-grid{display:grid;grid-template-columns:minmax(300px,.9fr) minmax(320px,1.1fr);gap:24px;align-items:center}.fi-donut-wrap{max-width:520px;margin:auto;text-align:center}.fi-donut-wrap svg{display:block;width:100%;height:auto;max-height:430px}.fi-donut-wrap p{color:var(--fi-muted);font-size:11px}.fi-legend{display:grid;gap:2px}.fi-legend-row{display:grid;grid-template-columns:11px minmax(0,1fr) auto;gap:11px;align-items:center;padding:12px 4px;border-bottom:1px solid #eee5f1}.fi-legend-row i{width:11px;height:36px;border-radius:5px}.fi-legend-row div>strong,.fi-legend-row div>small{display:block}.fi-legend-row small{color:var(--fi-muted);font-size:10px}.fi-legend-value{text-align:right}.fi-legend-value>strong{font-size:16px}.fi-chart-foot{margin-top:15px;padding:12px;border-radius:11px;background:#f7f1fa;color:var(--fi-muted);font-size:11px}.fi-chart-bottom{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(240px,.65fr);gap:13px;margin-top:13px}.fi-mini-title{display:flex;justify-content:space-between;gap:12px;font-weight:850}.fi-mini-title b{font-size:9px;color:#8c6b95}.fi-household-bars{display:grid;gap:11px;margin-top:17px}.fi-household-row{display:grid;grid-template-columns:110px minmax(80px,1fr) 82px;gap:10px;align-items:center;font-size:11px}.fi-household-row>div{height:9px;border-radius:5px;background:#f0e8f3;overflow:hidden}.fi-household-row i{display:block;height:100%;border-radius:5px}.fi-household-row strong{text-align:right}.fi-insight{display:flex;flex-direction:column;justify-content:center;padding:24px;background:#f7effb}.fi-insight>strong{display:block;margin:8px 0;font:850 36px Georgia,serif;color:var(--fi-purple)}.fi-insight p{color:var(--fi-muted)}
         .fi-map-layout{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.55fr);gap:13px}.fi-wealth-map{display:grid;gap:5px}.fi-wealth-map button{display:grid;grid-template-columns:minmax(170px,.8fr) minmax(100px,1fr) 125px;gap:12px;align-items:center;width:100%;padding:10px;border-color:transparent;text-align:left}.fi-wealth-map button.selected{border-color:#9f73b7;background:#f8f1fb}.fi-wealth-map span strong,.fi-wealth-map span small{display:block}.fi-wealth-map span small{color:var(--fi-muted);font-size:10px}.fi-wealth-map i{height:9px;border-radius:5px;background:#eee5f2;overflow:hidden}.fi-wealth-map i b{display:block;height:100%;border-radius:5px;background:var(--fi-purple)}.fi-wealth-map em{font-style:normal;font-weight:850;text-align:right}.fi-wealth-map>p{margin-top:8px;color:var(--fi-muted);font-size:11px}.fi-detail{padding:22px;background:#f7f0fa}.fi-detail h3{margin:7px 0 15px;font:800 24px/1.08 Georgia,serif}.fi-detail dl{margin:0}.fi-detail dl>div{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid #e7d9eb}.fi-detail dt{color:var(--fi-muted);font-size:11px}.fi-detail dd{margin:0;font-weight:850;text-align:right}.fi-detail .fi-detail-main dd{color:var(--fi-purple);font-size:17px}.fi-detail p{margin:15px 0 8px;color:var(--fi-muted);font-size:11px}
