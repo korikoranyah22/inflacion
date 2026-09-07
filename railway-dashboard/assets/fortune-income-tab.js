@@ -117,8 +117,8 @@
             <div class="fi-section-head">
               <div>
                 <p class="fi-eyebrow">Lectura de apertura · dos pirámides, dos unidades</p>
-                <h2>La sociedad por hogares. El capital por patrimonio.</h2>
-                <p>La primera reconstruye la placa original de Consultora W. La segunda invierte la forma y ordena las fortunas del catálogo elegido.</p>
+                <h2>La sociedad por hogares. El capital convertido en ingreso.</h2>
+                <p>La primera reconstruye la placa original de Consultora W. La segunda coloca la renta de las grandes fortunas sobre los cinco niveles sociales.</p>
               </div>
             </div>
             <div class="fi-pyramid-grid">
@@ -132,15 +132,15 @@
               </article>
               <article class="fi-card fi-pyramid-card fi-pyramid-capital-card">
                 <div class="fi-pyramid-title">
-                  <div><small>PIRÁMIDE INVERTIDA DEL CAPITAL</small><h3>Quién concentra más patrimonio</h3></div>
-                  <b>USD DE STOCK</b>
+                  <div><small>PIRÁMIDE INVERTIDA COMPLETA</small><h3>Del capital a las clases sociales</h3></div>
+                  <b>ARS / MES · LOG</b>
                 </div>
-                <svg id="fiCapitalPyramid" viewBox="0 0 760 455" role="img" aria-label="Pirámide invertida por patrimonio en dólares"></svg>
+                <svg id="fiCapitalPyramid" viewBox="0 0 760 455" role="img" aria-label="Pirámide invertida de grandes fortunas y clases sociales por monto mensual"></svg>
                 <p id="fiCapitalPyramidFoot" class="fi-pyramid-foot"></p>
               </article>
             </div>
             <div class="fi-unit-note">
-              <strong>No se superponen.</strong> La pirámide social usa participación de hogares e ingresos mensuales en ARS; la invertida compara stocks patrimoniales estimados en USD. La conversión a renta recién aparece en la torta monetaria.
+              <strong>La unidad cambia entre gráficos.</strong> La pirámide social usa participación de hogares. La invertida usa referencias mensuales en ARS: primero convierte el patrimonio en renta hipotética y recién entonces lo ubica sobre los ingresos familiares.
             </div>
           </section>
 
@@ -582,38 +582,46 @@ Renta mensual ARS = renta anual ÷ 12 × ARS/USD</pre><p>La tasa es anualizada y
     renderCapitalPyramid() {
       const svg = this.$('fiCapitalPyramid');
       if (!svg) return;
-      const sorted = [...this.catalog.rows].sort((a, b) => b.wealth_usd - a.wealth_usd);
-      const selected = sorted.find(row => row.id === this.selectedId);
-      const visible = sorted.slice(0, 6);
-      if (selected && !visible.some(row => row.id === selected.id)) visible[5] = selected;
-      visible.sort((a, b) => b.wealth_usd - a.wealth_usd);
-      const max = Math.max(...visible.map(row => row.wealth_usd), 1);
+      const palette = ['#694094', '#d79a33', '#32a795', '#5c9fda', '#d97593', '#a788b4'];
+      const items = [{
+        id: 'fortune', label: 'Grandes fortunas', code: 'CAPITAL → RENTA',
+        value: Math.max(0, this.current.result.monthlyArs), color: palette[0]
+      }, ...this.data.income_groups.map((item, index) => ({
+        id: item.id, label: item.label, code: item.code,
+        value: Math.max(0, Number(item.monthly_ars)), color: palette[index + 1]
+      }))];
+      const positives = items.map(item => item.value).filter(value => value > 0);
+      const min = positives.length ? Math.min(...positives) : 1;
+      const max = positives.length ? Math.max(...positives) : 1;
+      const logMin = Math.log(min);
+      const logRange = Math.max(Math.log(max) - logMin, 1);
       const center = 300;
       const startY = 66;
       const step = 57;
       const height = 47;
-      const colors = ['#694094', '#7850a5', '#8761b5', '#9673c2', '#a788cf', '#baa0db'];
-      const halfWidths = visible.map(row => 66 + 188 * (row.wealth_usd / max));
-      const layers = visible.map((row, index) => {
+      const halfWidths = items.map(item => 54 + 200 * ((Math.log(Math.max(item.value, min)) - logMin) / logRange));
+      const layers = items.map((item, index) => {
         const y = startY + index * step;
         const top = halfWidths[index];
-        const bottom = index < visible.length - 1 ? halfWidths[index + 1] : Math.max(48, top * .72);
-        const selectedClass = row.id === this.selectedId;
-        const shortName = row.name.length > 31 ? `${row.name.slice(0, 28)}…` : row.name;
+        const bottom = index < items.length - 1 ? halfWidths[index + 1] : 42;
+        const inside = item.id === 'fortune' ? 'GRANDES FORTUNAS' : item.code;
+        const valueLabel = item.value > 0 ? this.shortMoney(item.value) : 'Sin renta positiva';
         return `
-          <g><title>${this.escape(row.name)}: ${this.shortUsd(row.wealth_usd)}</title>
-            <polygon points="${center - top},${y} ${center + top},${y} ${center + bottom},${y + height} ${center - bottom},${y + height}" fill="${colors[index]}" stroke="${selectedClass ? '#4d3157' : '#fff'}" stroke-width="${selectedClass ? 5 : 3}"></polygon>
-            <text x="${center}" y="${y + 21}" text-anchor="middle" fill="#fff" font-size="13" font-weight="900">${this.escape(shortName)}</text>
-            <text x="${center}" y="${y + 39}" text-anchor="middle" fill="#fff" font-size="12">${this.shortUsd(row.wealth_usd)}</text>
-            <text x="578" y="${y + 29}" fill="#765f7e" font-size="12">${index + 1}. ${this.escape(shortName)}</text>
+          <g><title>${this.escape(item.label)}: ${this.money(item.value)} por mes</title>
+            <polygon points="${center - top},${y} ${center + top},${y} ${center + bottom},${y + height} ${center - bottom},${y + height}" fill="${item.color}" stroke="${item.id === 'fortune' ? '#4d3157' : '#fff'}" stroke-width="${item.id === 'fortune' ? 5 : 3}"></polygon>
+            <text x="${center}" y="${y + 21}" text-anchor="middle" fill="${item.id === 'lowermiddle' ? '#4d3157' : '#fff'}" font-size="13" font-weight="900">${this.escape(inside)}</text>
+            <text x="${center}" y="${y + 39}" text-anchor="middle" fill="${item.id === 'lowermiddle' ? '#4d3157' : '#fff'}" font-size="12">${this.escape(valueLabel)} / mes</text>
+            <text x="578" y="${y + 19}" fill="#4d3157" font-size="13" font-weight="900">${this.escape(item.label)}</text>
+            <text x="578" y="${y + 38}" fill="#765f7e" font-size="12">${this.escape(valueLabel)} / mes</text>
           </g>`;
       }).join('');
       svg.innerHTML = `
-        <text x="300" y="28" text-anchor="middle" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">ANCHO PROPORCIONAL AL PATRIMONIO</text>
-        <text x="578" y="28" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">ORDEN DEL CATÁLOGO</text>
+        <text x="300" y="28" text-anchor="middle" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">ANCHO LOGARÍTMICO · ARS POR MES</text>
+        <text x="578" y="28" fill="#8b5076" font-size="11" font-weight="900" letter-spacing="1">REFERENCIA MONETARIA</text>
         ${layers}`;
-      const includesExtra = selected && sorted.indexOf(selected) >= 6;
-      this.$('fiCapitalPyramidFoot').innerHTML = `<strong>${this.escape(this.catalog.label)}.</strong> ${includesExtra ? 'Cinco patrimonios mayores más el caso seleccionado.' : `Se muestran los ${visible.length} patrimonios mayores.`} El ancho representa stock estimado, no ingreso ni cantidad de personas.`;
+      const high = this.data.income_groups.find(item => item.id === 'high') || this.data.income_groups[0];
+      const ratio = this.current.result.monthlyArs > 0 ? this.dec(this.current.result.monthlyArs / high.monthly_ars, 1) : '0';
+      this.$('fiCapitalPyramidFoot').innerHTML = `<strong>${this.escape(this.current.representative.label)}.</strong> La renta mensual simulada equivale a ${ratio} ingresos medios de clase alta. El ancho es logarítmico para mantener visibles las seis capas; la torta conserva la proporción monetaria exacta.`;
     }
 
     chartData() {
