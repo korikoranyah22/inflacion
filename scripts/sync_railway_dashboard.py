@@ -21,6 +21,8 @@ PUBLIC_FILES = (
     "assets/political-wealth-tab.js",
     "assets/fortune-income-tab.js",
     "assets/fortune-income-data.json",
+    "assets/productive-audit-tab.js",
+    "assets/productive-audit-data.json",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_exclusive_profiles.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/eph_strategy_summary.csv",
     "research/epica_dashito_2026/deep_dive_2026-08-31/derived/bcra_reserve_liquidity_bridge.csv",

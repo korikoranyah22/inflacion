@@ -1,0 +1,3743 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-09-10",
+  "scope": "Auditoría del comunicado oficial sobre construcción, industria, turismo, economías regionales y energía.",
+  "activity": {
+    "industry": {
+      "series": [
+        {
+          "date": "2016-01",
+          "original": 117.051194,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 134.743259,
+          "mom_pct": null,
+          "trend_cycle": 132.209346,
+          "trend_mom_pct": null
+        },
+        {
+          "date": "2016-02",
+          "original": 118.900294,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 131.937216,
+          "mom_pct": -2.082511,
+          "trend_cycle": 131.502164,
+          "trend_mom_pct": -0.534895
+        },
+        {
+          "date": "2016-03",
+          "original": 136.80623,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 130.539114,
+          "mom_pct": -1.059672,
+          "trend_cycle": 130.672327,
+          "trend_mom_pct": -0.631045
+        },
+        {
+          "date": "2016-04",
+          "original": 132.069649,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 130.851634,
+          "mom_pct": 0.239407,
+          "trend_cycle": 129.778313,
+          "trend_mom_pct": -0.684165
+        },
+        {
+          "date": "2016-05",
+          "original": 132.12673,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 128.758996,
+          "mom_pct": -1.599245,
+          "trend_cycle": 128.881698,
+          "trend_mom_pct": -0.690882
+        },
+        {
+          "date": "2016-06",
+          "original": 124.991651,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 124.461645,
+          "mom_pct": -3.337515,
+          "trend_cycle": 128.093678,
+          "trend_mom_pct": -0.611429
+        },
+        {
+          "date": "2016-07",
+          "original": 126.761474,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 126.909901,
+          "mom_pct": 1.967076,
+          "trend_cycle": 127.574159,
+          "trend_mom_pct": -0.405577
+        },
+        {
+          "date": "2016-08",
+          "original": 133.732983,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 124.440205,
+          "mom_pct": -1.946023,
+          "trend_cycle": 127.379296,
+          "trend_mom_pct": -0.152744
+        },
+        {
+          "date": "2016-09",
+          "original": 135.517892,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 128.216655,
+          "mom_pct": 3.034751,
+          "trend_cycle": 127.434868,
+          "trend_mom_pct": 0.043627
+        },
+        {
+          "date": "2016-10",
+          "original": 133.341141,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 127.758515,
+          "mom_pct": -0.357317,
+          "trend_cycle": 127.663037,
+          "trend_mom_pct": 0.179047
+        },
+        {
+          "date": "2016-11",
+          "original": 134.737032,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 131.023588,
+          "mom_pct": 2.555659,
+          "trend_cycle": 127.954386,
+          "trend_mom_pct": 0.228218
+        },
+        {
+          "date": "2016-12",
+          "original": 124.082301,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 130.26304,
+          "mom_pct": -0.580466,
+          "trend_cycle": 128.269953,
+          "trend_mom_pct": 0.246624
+        },
+        {
+          "date": "2017-01",
+          "original": 115.72788,
+          "yoy_pct": -1.130543,
+          "cumulative_yoy_pct": -1.130543,
+          "seasonally_adjusted": 129.313301,
+          "mom_pct": -0.729093,
+          "trend_cycle": 128.638574,
+          "trend_mom_pct": 0.287379
+        },
+        {
+          "date": "2017-02",
+          "original": 109.438401,
+          "yoy_pct": -7.957838,
+          "cumulative_yoy_pct": -4.570942,
+          "seasonally_adjusted": 125.480614,
+          "mom_pct": -2.963877,
+          "trend_cycle": 129.144006,
+          "trend_mom_pct": 0.392909
+        },
+        {
+          "date": "2017-03",
+          "original": 135.739756,
+          "yoy_pct": -0.779551,
+          "cumulative_yoy_pct": -3.17946,
+          "seasonally_adjusted": 129.302448,
+          "mom_pct": 3.045757,
+          "trend_cycle": 129.862009,
+          "trend_mom_pct": 0.55597
+        },
+        {
+          "date": "2017-04",
+          "original": 127.062293,
+          "yoy_pct": -3.791451,
+          "cumulative_yoy_pct": -3.339565,
+          "seasonally_adjusted": 129.744381,
+          "mom_pct": 0.341782,
+          "trend_cycle": 130.79876,
+          "trend_mom_pct": 0.721343
+        },
+        {
+          "date": "2017-05",
+          "original": 137.326292,
+          "yoy_pct": 3.935284,
+          "cumulative_yoy_pct": -1.830505,
+          "seasonally_adjusted": 131.551734,
+          "mom_pct": 1.393011,
+          "trend_cycle": 131.916783,
+          "trend_mom_pct": 0.854766
+        },
+        {
+          "date": "2017-06",
+          "original": 134.509556,
+          "yoy_pct": 7.614833,
+          "cumulative_yoy_pct": -0.281066,
+          "seasonally_adjusted": 132.800815,
+          "mom_pct": 0.949498,
+          "trend_cycle": 133.097081,
+          "trend_mom_pct": 0.894729
+        },
+        {
+          "date": "2017-07",
+          "original": 135.524414,
+          "yoy_pct": 6.912936,
+          "cumulative_yoy_pct": 0.745056,
+          "seasonally_adjusted": 135.05276,
+          "mom_pct": 1.695731,
+          "trend_cycle": 134.163305,
+          "trend_mom_pct": 0.801087
+        },
+        {
+          "date": "2017-08",
+          "original": 143.012202,
+          "yoy_pct": 6.938617,
+          "cumulative_yoy_pct": 1.555161,
+          "seasonally_adjusted": 133.199369,
+          "mom_pct": -1.372345,
+          "trend_cycle": 134.998382,
+          "trend_mom_pct": 0.622434
+        },
+        {
+          "date": "2017-09",
+          "original": 140.475372,
+          "yoy_pct": 3.658174,
+          "cumulative_yoy_pct": 1.80128,
+          "seasonally_adjusted": 136.08278,
+          "mom_pct": 2.164733,
+          "trend_cycle": 135.524383,
+          "trend_mom_pct": 0.389634
+        },
+        {
+          "date": "2017-10",
+          "original": 142.912481,
+          "yoy_pct": 7.178085,
+          "cumulative_yoy_pct": 2.356496,
+          "seasonally_adjusted": 134.271204,
+          "mom_pct": -1.331231,
+          "trend_cycle": 135.715587,
+          "trend_mom_pct": 0.141085
+        },
+        {
+          "date": "2017-11",
+          "original": 141.471929,
+          "yoy_pct": 4.998549,
+          "cumulative_yoy_pct": 2.606126,
+          "seasonally_adjusted": 138.085978,
+          "mom_pct": 2.841096,
+          "trend_cycle": 135.601241,
+          "trend_mom_pct": -0.084254
+        },
+        {
+          "date": "2017-12",
+          "original": 126.404122,
+          "yoy_pct": 1.871194,
+          "cumulative_yoy_pct": 2.547297,
+          "seasonally_adjusted": 136.511865,
+          "mom_pct": -1.139951,
+          "trend_cycle": 135.225414,
+          "trend_mom_pct": -0.277156
+        },
+        {
+          "date": "2018-01",
+          "original": 120.49879,
+          "yoy_pct": 4.122525,
+          "cumulative_yoy_pct": 4.122525,
+          "seasonally_adjusted": 131.756217,
+          "mom_pct": -3.483689,
+          "trend_cycle": 134.619238,
+          "trend_mom_pct": -0.448271
+        },
+        {
+          "date": "2018-02",
+          "original": 116.470326,
+          "yoy_pct": 6.425464,
+          "cumulative_yoy_pct": 5.241831,
+          "seasonally_adjusted": 132.240099,
+          "mom_pct": 0.367256,
+          "trend_cycle": 133.77351,
+          "trend_mom_pct": -0.628237
+        },
+        {
+          "date": "2018-03",
+          "original": 137.873845,
+          "yoy_pct": 1.572192,
+          "cumulative_yoy_pct": 3.861649,
+          "seasonally_adjusted": 134.0138,
+          "mom_pct": 1.341273,
+          "trend_cycle": 132.659965,
+          "trend_mom_pct": -0.83241
+        },
+        {
+          "date": "2018-04",
+          "original": 132.091786,
+          "yoy_pct": 3.958289,
+          "cumulative_yoy_pct": 3.886813,
+          "seasonally_adjusted": 133.088964,
+          "mom_pct": -0.690105,
+          "trend_cycle": 131.263919,
+          "trend_mom_pct": -1.052349
+        },
+        {
+          "date": "2018-05",
+          "original": 135.865467,
+          "yoy_pct": -1.063762,
+          "cumulative_yoy_pct": 2.799575,
+          "seasonally_adjusted": 130.521331,
+          "mom_pct": -1.92926,
+          "trend_cycle": 129.572712,
+          "trend_mom_pct": -1.288402
+        },
+        {
+          "date": "2018-06",
+          "original": 123.728541,
+          "yoy_pct": -8.015055,
+          "cumulative_yoy_pct": 0.885041,
+          "seasonally_adjusted": 124.643956,
+          "mom_pct": -4.503,
+          "trend_cycle": 127.616251,
+          "trend_mom_pct": -1.509933
+        },
+        {
+          "date": "2018-07",
+          "original": 126.780555,
+          "yoy_pct": -6.45187,
+          "cumulative_yoy_pct": -0.225535,
+          "seasonally_adjusted": 123.070502,
+          "mom_pct": -1.262359,
+          "trend_cycle": 125.487484,
+          "trend_mom_pct": -1.6681
+        },
+        {
+          "date": "2018-08",
+          "original": 134.230176,
+          "yoy_pct": -6.140753,
+          "cumulative_yoy_pct": -1.040247,
+          "seasonally_adjusted": 124.064004,
+          "mom_pct": 0.807262,
+          "trend_cycle": 123.298342,
+          "trend_mom_pct": -1.744511
+        },
+        {
+          "date": "2018-09",
+          "original": 122.79086,
+          "yoy_pct": -12.589048,
+          "cumulative_yoy_pct": -2.416477,
+          "seasonally_adjusted": 122.338482,
+          "mom_pct": -1.390832,
+          "trend_cycle": 121.261638,
+          "trend_mom_pct": -1.65185
+        },
+        {
+          "date": "2018-10",
+          "original": 130.950875,
+          "yoy_pct": -8.369882,
+          "cumulative_yoy_pct": -3.060191,
+          "seasonally_adjusted": 120.15812,
+          "mom_pct": -1.782237,
+          "trend_cycle": 119.59383,
+          "trend_mom_pct": -1.375379
+        },
+        {
+          "date": "2018-11",
+          "original": 121.720649,
+          "yoy_pct": -13.961272,
+          "cumulative_yoy_pct": -4.11418,
+          "seasonally_adjusted": 117.528288,
+          "mom_pct": -2.188643,
+          "trend_cycle": 118.471534,
+          "trend_mom_pct": -0.938424
+        },
+        {
+          "date": "2018-12",
+          "original": 107.650508,
+          "yoy_pct": -14.836236,
+          "cumulative_yoy_pct": -4.96679,
+          "seasonally_adjusted": 117.031574,
+          "mom_pct": -0.422634,
+          "trend_cycle": 117.967525,
+          "trend_mom_pct": -0.425426
+        },
+        {
+          "date": "2019-01",
+          "original": 107.03848,
+          "yoy_pct": -11.170494,
+          "cumulative_yoy_pct": -11.170494,
+          "seasonally_adjusted": 118.000026,
+          "mom_pct": 0.827514,
+          "trend_cycle": 118.034053,
+          "trend_mom_pct": 0.056395
+        },
+        {
+          "date": "2019-02",
+          "original": 106.673936,
+          "yoy_pct": -8.411061,
+          "cumulative_yoy_pct": -9.814233,
+          "seasonally_adjusted": 121.227429,
+          "mom_pct": 2.735087,
+          "trend_cycle": 118.497861,
+          "trend_mom_pct": 0.392944
+        },
+        {
+          "date": "2019-03",
+          "original": 118.418025,
+          "yoy_pct": -14.11132,
+          "cumulative_yoy_pct": -11.394777,
+          "seasonally_adjusted": 118.459102,
+          "mom_pct": -2.283582,
+          "trend_cycle": 119.109379,
+          "trend_mom_pct": 0.516058
+        },
+        {
+          "date": "2019-04",
+          "original": 120.372573,
+          "yoy_pct": -8.872023,
+          "cumulative_yoy_pct": -10.737424,
+          "seasonally_adjusted": 117.964949,
+          "mom_pct": -0.417151,
+          "trend_cycle": 119.592489,
+          "trend_mom_pct": 0.405603
+        },
+        {
+          "date": "2019-05",
+          "original": 126.479613,
+          "yoy_pct": -6.908197,
+          "cumulative_yoy_pct": -9.928059,
+          "seasonally_adjusted": 121.013848,
+          "mom_pct": 2.584581,
+          "trend_cycle": 119.795436,
+          "trend_mom_pct": 0.169699
+        },
+        {
+          "date": "2019-06",
+          "original": 114.851873,
+          "yoy_pct": -7.174309,
+          "cumulative_yoy_pct": -9.483565,
+          "seasonally_adjusted": 119.291373,
+          "mom_pct": -1.42337,
+          "trend_cycle": 119.680076,
+          "trend_mom_pct": -0.096298
+        },
+        {
+          "date": "2019-07",
+          "original": 124.598257,
+          "yoy_pct": -1.721319,
+          "cumulative_yoy_pct": -8.381929,
+          "seasonally_adjusted": 118.115983,
+          "mom_pct": -0.98531,
+          "trend_cycle": 119.262909,
+          "trend_mom_pct": -0.348569
+        },
+        {
+          "date": "2019-08",
+          "original": 125.656533,
+          "yoy_pct": -6.387269,
+          "cumulative_yoy_pct": -8.121361,
+          "seasonally_adjusted": 118.140953,
+          "mom_pct": 0.02114,
+          "trend_cycle": 118.586648,
+          "trend_mom_pct": -0.567034
+        },
+        {
+          "date": "2019-09",
+          "original": 116.667658,
+          "yoy_pct": -4.986692,
+          "cumulative_yoy_pct": -7.786754,
+          "seasonally_adjusted": 113.969126,
+          "mom_pct": -3.531228,
+          "trend_cycle": 117.65357,
+          "trend_mom_pct": -0.786832
+        },
+        {
+          "date": "2019-10",
+          "original": 128.577818,
+          "yoy_pct": -1.812174,
+          "cumulative_yoy_pct": -7.176134,
+          "seasonally_adjusted": 118.23191,
+          "mom_pct": 3.740297,
+          "trend_cycle": 116.420469,
+          "trend_mom_pct": -1.048078
+        },
+        {
+          "date": "2019-11",
+          "original": 116.450446,
+          "yoy_pct": -4.329753,
+          "cumulative_yoy_pct": -6.929189,
+          "seasonally_adjusted": 114.934206,
+          "mom_pct": -2.789183,
+          "trend_cycle": 114.847416,
+          "trend_mom_pct": -1.351182
+        },
+        {
+          "date": "2019-12",
+          "original": 109.197221,
+          "yoy_pct": 1.436791,
+          "cumulative_yoy_pct": -6.333022,
+          "seasonally_adjusted": 115.808431,
+          "mom_pct": 0.760631,
+          "trend_cycle": 112.917836,
+          "trend_mom_pct": -1.680125
+        },
+        {
+          "date": "2020-01",
+          "original": 106.966766,
+          "yoy_pct": -0.066999,
+          "cumulative_yoy_pct": -0.066999,
+          "seasonally_adjusted": 117.384832,
+          "mom_pct": 1.361214,
+          "trend_cycle": 110.713297,
+          "trend_mom_pct": -1.952339
+        },
+        {
+          "date": "2020-02",
+          "original": 105.966153,
+          "yoy_pct": -0.663501,
+          "cumulative_yoy_pct": -0.364741,
+          "seasonally_adjusted": 118.098135,
+          "mom_pct": 0.607662,
+          "trend_cycle": 108.46579,
+          "trend_mom_pct": -2.030025
+        },
+        {
+          "date": "2020-03",
+          "original": 98.850802,
+          "yoy_pct": -16.523855,
+          "cumulative_yoy_pct": -6.126123,
+          "seasonally_adjusted": 95.70048,
+          "mom_pct": -18.965291,
+          "trend_cycle": 106.552146,
+          "trend_mom_pct": -1.764283
+        },
+        {
+          "date": "2020-04",
+          "original": 80.369583,
+          "yoy_pct": -33.232645,
+          "cumulative_yoy_pct": -13.336864,
+          "seasonally_adjusted": 78.532577,
+          "mom_pct": -17.939203,
+          "trend_cycle": 105.381252,
+          "trend_mom_pct": -1.098893
+        },
+        {
+          "date": "2020-05",
+          "original": 93.397271,
+          "yoy_pct": -26.156265,
+          "cumulative_yoy_pct": -16.137281,
+          "seasonally_adjusted": 94.502731,
+          "mom_pct": 20.335707,
+          "trend_cycle": 105.230011,
+          "trend_mom_pct": -0.143518
+        },
+        {
+          "date": "2020-06",
+          "original": 107.685525,
+          "yoy_pct": -6.239644,
+          "cumulative_yoy_pct": -14.498904,
+          "seasonally_adjusted": 106.220716,
+          "mom_pct": 12.399625,
+          "trend_cycle": 106.163691,
+          "trend_mom_pct": 0.887276
+        },
+        {
+          "date": "2020-07",
+          "original": 116.439678,
+          "yoy_pct": -6.547907,
+          "cumulative_yoy_pct": -13.288444,
+          "seasonally_adjusted": 109.538829,
+          "mom_pct": 3.123791,
+          "trend_cycle": 108.091031,
+          "trend_mom_pct": 1.815442
+        },
+        {
+          "date": "2020-08",
+          "original": 116.628655,
+          "yoy_pct": -7.184567,
+          "cumulative_yoy_pct": -12.476029,
+          "seasonally_adjusted": 112.297378,
+          "mom_pct": 2.51833,
+          "trend_cycle": 110.741419,
+          "trend_mom_pct": 2.451996
+        },
+        {
+          "date": "2020-09",
+          "original": 120.982712,
+          "yoy_pct": 3.698586,
+          "cumulative_yoy_pct": -10.697059,
+          "seasonally_adjusted": 114.598145,
+          "mom_pct": 2.048817,
+          "trend_cycle": 113.722973,
+          "trend_mom_pct": 2.692356
+        },
+        {
+          "date": "2020-10",
+          "original": 124.933168,
+          "yoy_pct": -2.834587,
+          "cumulative_yoy_pct": -9.847055,
+          "seasonally_adjusted": 117.268797,
+          "mom_pct": 2.330449,
+          "trend_cycle": 116.676611,
+          "trend_mom_pct": 2.597223
+        },
+        {
+          "date": "2020-11",
+          "original": 121.637467,
+          "yoy_pct": 4.454274,
+          "cumulative_yoy_pct": -8.571657,
+          "seasonally_adjusted": 121.417091,
+          "mom_pct": 3.537423,
+          "trend_cycle": 119.325124,
+          "trend_mom_pct": 2.269961
+        },
+        {
+          "date": "2020-12",
+          "original": 115.304565,
+          "yoy_pct": 5.592949,
+          "cumulative_yoy_pct": -7.478544,
+          "seasonally_adjusted": 119.840217,
+          "mom_pct": -1.298725,
+          "trend_cycle": 121.497979,
+          "trend_mom_pct": 1.820953
+        },
+        {
+          "date": "2021-01",
+          "original": 111.772719,
+          "yoy_pct": 4.49294,
+          "cumulative_yoy_pct": 4.49294,
+          "seasonally_adjusted": 128.6255,
+          "mom_pct": 7.330831,
+          "trend_cycle": 123.163356,
+          "trend_mom_pct": 1.370704
+        },
+        {
+          "date": "2021-02",
+          "original": 107.753785,
+          "yoy_pct": 1.686984,
+          "cumulative_yoy_pct": 3.096555,
+          "seasonally_adjusted": 124.366812,
+          "mom_pct": -3.310921,
+          "trend_cycle": 124.373911,
+          "trend_mom_pct": 0.982886
+        },
+        {
+          "date": "2021-03",
+          "original": 131.647207,
+          "yoy_pct": 33.177682,
+          "cumulative_yoy_pct": 12.633754,
+          "seasonally_adjusted": 125.650629,
+          "mom_pct": 1.032283,
+          "trend_cycle": 125.193351,
+          "trend_mom_pct": 0.658852
+        },
+        {
+          "date": "2021-04",
+          "original": 125.52086,
+          "yoy_pct": 56.179558,
+          "cumulative_yoy_pct": 21.558218,
+          "seasonally_adjusted": 122.792158,
+          "mom_pct": -2.274936,
+          "trend_cycle": 125.688002,
+          "trend_mom_pct": 0.395109
+        },
+        {
+          "date": "2021-05",
+          "original": 121.684059,
+          "yoy_pct": 30.286525,
+          "cumulative_yoy_pct": 23.237137,
+          "seasonally_adjusted": 122.705691,
+          "mom_pct": -0.070417,
+          "trend_cycle": 125.936498,
+          "trend_mom_pct": 0.197709
+        },
+        {
+          "date": "2021-06",
+          "original": 128.598373,
+          "yoy_pct": 19.420296,
+          "cumulative_yoy_pct": 22.544296,
+          "seasonally_adjusted": 126.652944,
+          "mom_pct": 3.216846,
+          "trend_cycle": 126.05704,
+          "trend_mom_pct": 0.095717
+        },
+        {
+          "date": "2021-07",
+          "original": 131.050267,
+          "yoy_pct": 12.547774,
+          "cumulative_yoy_pct": 20.904122,
+          "seasonally_adjusted": 126.466026,
+          "mom_pct": -0.147583,
+          "trend_cycle": 126.144657,
+          "trend_mom_pct": 0.069506
+        },
+        {
+          "date": "2021-08",
+          "original": 132.998793,
+          "yoy_pct": 14.03612,
+          "cumulative_yoy_pct": 19.934738,
+          "seasonally_adjusted": 125.206709,
+          "mom_pct": -0.995775,
+          "trend_cycle": 126.297928,
+          "trend_mom_pct": 0.121504
+        },
+        {
+          "date": "2021-09",
+          "original": 132.804077,
+          "yoy_pct": 9.771119,
+          "cumulative_yoy_pct": 18.636692,
+          "seasonally_adjusted": 126.612673,
+          "mom_pct": 1.122914,
+          "trend_cycle": 126.63855,
+          "trend_mom_pct": 0.269698
+        },
+        {
+          "date": "2021-10",
+          "original": 130.031637,
+          "yoy_pct": 4.080957,
+          "cumulative_yoy_pct": 16.940685,
+          "seasonally_adjusted": 126.261346,
+          "mom_pct": -0.277481,
+          "trend_cycle": 127.245992,
+          "trend_mom_pct": 0.479666
+        },
+        {
+          "date": "2021-11",
+          "original": 133.595597,
+          "yoy_pct": 9.830959,
+          "cumulative_yoy_pct": 16.216303,
+          "seasonally_adjusted": 129.683204,
+          "mom_pct": 2.710139,
+          "trend_cycle": 128.122797,
+          "trend_mom_pct": 0.689063
+        },
+        {
+          "date": "2021-12",
+          "original": 127.322589,
+          "yoy_pct": 10.422851,
+          "cumulative_yoy_pct": 15.706044,
+          "seasonally_adjusted": 131.444099,
+          "mom_pct": 1.357843,
+          "trend_cycle": 129.246062,
+          "trend_mom_pct": 0.876709
+        },
+        {
+          "date": "2022-01",
+          "original": 110.452239,
+          "yoy_pct": -1.181397,
+          "cumulative_yoy_pct": -1.181397,
+          "seasonally_adjusted": 126.809967,
+          "mom_pct": -3.525553,
+          "trend_cycle": 130.506969,
+          "trend_mom_pct": 0.975586
+        },
+        {
+          "date": "2022-02",
+          "original": 116.865537,
+          "yoy_pct": 8.456085,
+          "cumulative_yoy_pct": 3.549126,
+          "seasonally_adjusted": 133.045924,
+          "mom_pct": 4.91756,
+          "trend_cycle": 131.754774,
+          "trend_mom_pct": 0.956121
+        },
+        {
+          "date": "2022-03",
+          "original": 136.06418,
+          "yoy_pct": 3.355159,
+          "cumulative_yoy_pct": 3.476412,
+          "seasonally_adjusted": 130.480627,
+          "mom_pct": -1.928129,
+          "trend_cycle": 132.837187,
+          "trend_mom_pct": 0.821537
+        },
+        {
+          "date": "2022-04",
+          "original": 131.110577,
+          "yoy_pct": 4.453218,
+          "cumulative_yoy_pct": 3.73362,
+          "seasonally_adjusted": 131.202506,
+          "mom_pct": 0.553246,
+          "trend_cycle": 133.610134,
+          "trend_mom_pct": 0.581875
+        },
+        {
+          "date": "2022-05",
+          "original": 135.956234,
+          "yoy_pct": 11.728878,
+          "cumulative_yoy_pct": 5.359506,
+          "seasonally_adjusted": 133.965092,
+          "mom_pct": 2.105589,
+          "trend_cycle": 133.960149,
+          "trend_mom_pct": 0.261967
+        },
+        {
+          "date": "2022-06",
+          "original": 137.741724,
+          "yoy_pct": 7.110005,
+          "cumulative_yoy_pct": 5.66916,
+          "seasonally_adjusted": 136.058282,
+          "mom_pct": 1.562489,
+          "trend_cycle": 133.810428,
+          "trend_mom_pct": -0.111765
+        },
+        {
+          "date": "2022-07",
+          "original": 137.832368,
+          "yoy_pct": 5.175191,
+          "cumulative_yoy_pct": 5.593714,
+          "seasonally_adjusted": 136.806301,
+          "mom_pct": 0.549778,
+          "trend_cycle": 133.21897,
+          "trend_mom_pct": -0.442012
+        },
+        {
+          "date": "2022-08",
+          "original": 142.695395,
+          "yoy_pct": 7.290744,
+          "cumulative_yoy_pct": 5.821461,
+          "seasonally_adjusted": 132.234144,
+          "mom_pct": -3.342066,
+          "trend_cycle": 132.394571,
+          "trend_mom_pct": -0.61883
+        },
+        {
+          "date": "2022-09",
+          "original": 137.898503,
+          "yoy_pct": 3.836046,
+          "cumulative_yoy_pct": 5.586842,
+          "seasonally_adjusted": 130.629403,
+          "mom_pct": -1.21356,
+          "trend_cycle": 131.601956,
+          "trend_mom_pct": -0.598677
+        },
+        {
+          "date": "2022-10",
+          "original": 133.921799,
+          "yoy_pct": 2.991705,
+          "cumulative_yoy_pct": 5.317714,
+          "seasonally_adjusted": 130.030712,
+          "mom_pct": -0.458313,
+          "trend_cycle": 131.085209,
+          "trend_mom_pct": -0.392659
+        },
+        {
+          "date": "2022-11",
+          "original": 134.148102,
+          "yoy_pct": 0.413566,
+          "cumulative_yoy_pct": 4.845503,
+          "seasonally_adjusted": 129.600562,
+          "mom_pct": -0.330807,
+          "trend_cycle": 130.998713,
+          "trend_mom_pct": -0.065984
+        },
+        {
+          "date": "2022-12",
+          "original": 123.355513,
+          "yoy_pct": -3.115767,
+          "cumulative_yoy_pct": 4.17633,
+          "seasonally_adjusted": 130.292348,
+          "mom_pct": 0.533783,
+          "trend_cycle": 131.349795,
+          "trend_mom_pct": 0.268004
+        },
+        {
+          "date": "2023-01",
+          "original": 117.359598,
+          "yoy_pct": 6.253707,
+          "cumulative_yoy_pct": 6.253707,
+          "seasonally_adjusted": 130.62719,
+          "mom_pct": 0.256992,
+          "trend_cycle": 131.994215,
+          "trend_mom_pct": 0.490614
+        },
+        {
+          "date": "2023-02",
+          "original": 114.979618,
+          "yoy_pct": -1.613751,
+          "cumulative_yoy_pct": 2.208996,
+          "seasonally_adjusted": 130.313278,
+          "mom_pct": -0.240311,
+          "trend_cycle": 132.710253,
+          "trend_mom_pct": 0.542477
+        },
+        {
+          "date": "2023-03",
+          "original": 140.602843,
+          "yoy_pct": 3.335678,
+          "cumulative_yoy_pct": 2.630869,
+          "seasonally_adjusted": 134.655178,
+          "mom_pct": 3.331894,
+          "trend_cycle": 133.228026,
+          "trend_mom_pct": 0.390153
+        },
+        {
+          "date": "2023-04",
+          "original": 133.353504,
+          "yoy_pct": 1.710714,
+          "cumulative_yoy_pct": 2.386898,
+          "seasonally_adjusted": 137.21331,
+          "mom_pct": 1.899765,
+          "trend_cycle": 133.334086,
+          "trend_mom_pct": 0.079608
+        },
+        {
+          "date": "2023-05",
+          "original": 137.337038,
+          "yoy_pct": 1.015624,
+          "cumulative_yoy_pct": 2.091183,
+          "seasonally_adjusted": 132.630897,
+          "mom_pct": -3.339627,
+          "trend_cycle": 132.923156,
+          "trend_mom_pct": -0.308196
+        },
+        {
+          "date": "2023-06",
+          "original": 134.273185,
+          "yoy_pct": -2.518147,
+          "cumulative_yoy_pct": 1.264699,
+          "seasonally_adjusted": 131.759328,
+          "mom_pct": -0.657139,
+          "trend_cycle": 132.006684,
+          "trend_mom_pct": -0.689475
+        },
+        {
+          "date": "2023-07",
+          "original": 132.371648,
+          "yoy_pct": -3.961856,
+          "cumulative_yoy_pct": 0.469588,
+          "seasonally_adjusted": 131.110347,
+          "mom_pct": -0.49255,
+          "trend_cycle": 130.653652,
+          "trend_mom_pct": -1.024972
+        },
+        {
+          "date": "2023-08",
+          "original": 138.363007,
+          "yoy_pct": -3.036109,
+          "cumulative_yoy_pct": -0.00742,
+          "seasonally_adjusted": 127.881933,
+          "mom_pct": -2.462364,
+          "trend_cycle": 128.892911,
+          "trend_mom_pct": -1.34764
+        },
+        {
+          "date": "2023-09",
+          "original": 133.619889,
+          "yoy_pct": -3.102727,
+          "cumulative_yoy_pct": -0.36713,
+          "seasonally_adjusted": 128.946276,
+          "mom_pct": 0.832286,
+          "trend_cycle": 126.761103,
+          "trend_mom_pct": -1.653938
+        },
+        {
+          "date": "2023-10",
+          "original": 133.00919,
+          "yoy_pct": -0.681449,
+          "cumulative_yoy_pct": -0.399006,
+          "seasonally_adjusted": 126.305635,
+          "mom_pct": -2.047862,
+          "trend_cycle": 124.322019,
+          "trend_mom_pct": -1.924158
+        },
+        {
+          "date": "2023-11",
+          "original": 127.578151,
+          "yoy_pct": -4.897535,
+          "cumulative_yoy_pct": -0.813851,
+          "seasonally_adjusted": 123.454539,
+          "mom_pct": -2.257299,
+          "trend_cycle": 121.679349,
+          "trend_mom_pct": -2.125666
+        },
+        {
+          "date": "2023-12",
+          "original": 107.403827,
+          "yoy_pct": -12.931474,
+          "cumulative_yoy_pct": -1.761085,
+          "seasonally_adjusted": 117.462927,
+          "mom_pct": -4.853294,
+          "trend_cycle": 118.974171,
+          "trend_mom_pct": -2.223202
+        },
+        {
+          "date": "2024-01",
+          "original": 102.983231,
+          "yoy_pct": -12.249844,
+          "cumulative_yoy_pct": -12.249844,
+          "seasonally_adjusted": 113.221377,
+          "mom_pct": -3.61097,
+          "trend_cycle": 116.432396,
+          "trend_mom_pct": -2.136408
+        },
+        {
+          "date": "2024-02",
+          "original": 103.75102,
+          "yoy_pct": -9.765729,
+          "cumulative_yoy_pct": -11.020509,
+          "seasonally_adjusted": 113.755438,
+          "mom_pct": 0.471697,
+          "trend_cycle": 114.345335,
+          "trend_mom_pct": -1.79251
+        },
+        {
+          "date": "2024-03",
+          "original": 110.465725,
+          "yoy_pct": -21.434217,
+          "cumulative_yoy_pct": -14.94658,
+          "seasonally_adjusted": 110.69106,
+          "mom_pct": -2.693831,
+          "trend_cycle": 112.983776,
+          "trend_mom_pct": -1.190742
+        },
+        {
+          "date": "2024-04",
+          "original": 111.296522,
+          "yoy_pct": -16.540234,
+          "cumulative_yoy_pct": -15.366334,
+          "seasonally_adjusted": 109.747471,
+          "mom_pct": -0.852452,
+          "trend_cycle": 112.522485,
+          "trend_mom_pct": -0.408281
+        },
+        {
+          "date": "2024-05",
+          "original": 116.719769,
+          "yoy_pct": -15.01217,
+          "cumulative_yoy_pct": -15.290763,
+          "seasonally_adjusted": 111.55253,
+          "mom_pct": 1.644739,
+          "trend_cycle": 112.947885,
+          "trend_mom_pct": 0.378057
+        },
+        {
+          "date": "2024-06",
+          "original": 107.099032,
+          "yoy_pct": -20.23796,
+          "cumulative_yoy_pct": -16.144691,
+          "seasonally_adjusted": 111.06618,
+          "mom_pct": -0.435983,
+          "trend_cycle": 114.110404,
+          "trend_mom_pct": 1.029253
+        },
+        {
+          "date": "2024-07",
+          "original": 125.079669,
+          "yoy_pct": -5.508716,
+          "cumulative_yoy_pct": -14.598018,
+          "seasonally_adjusted": 118.693625,
+          "mom_pct": 6.867478,
+          "trend_cycle": 115.75651,
+          "trend_mom_pct": 1.442556
+        },
+        {
+          "date": "2024-08",
+          "original": 128.733086,
+          "yoy_pct": -6.959896,
+          "cumulative_yoy_pct": -13.590205,
+          "seasonally_adjusted": 120.590835,
+          "mom_pct": 1.598409,
+          "trend_cycle": 117.572961,
+          "trend_mom_pct": 1.5692
+        },
+        {
+          "date": "2024-09",
+          "original": 125.236736,
+          "yoy_pct": -6.273881,
+          "cumulative_yoy_pct": -12.763309,
+          "seasonally_adjusted": 122.010621,
+          "mom_pct": 1.177358,
+          "trend_cycle": 119.252752,
+          "trend_mom_pct": 1.428722
+        },
+        {
+          "date": "2024-10",
+          "original": 130.310685,
+          "yoy_pct": -2.028811,
+          "cumulative_yoy_pct": -11.677762,
+          "seasonally_adjusted": 121.40694,
+          "mom_pct": -0.494777,
+          "trend_cycle": 120.554634,
+          "trend_mom_pct": 1.0917
+        },
+        {
+          "date": "2024-11",
+          "original": 125.39542,
+          "yoy_pct": -1.710898,
+          "cumulative_yoy_pct": -10.796481,
+          "seasonally_adjusted": 123.250204,
+          "mom_pct": 1.518253,
+          "trend_cycle": 121.373783,
+          "trend_mom_pct": 0.679484
+        },
+        {
+          "date": "2024-12",
+          "original": 116.726311,
+          "yoy_pct": 8.679844,
+          "cumulative_yoy_pct": -9.447131,
+          "seasonally_adjusted": 123.490554,
+          "mom_pct": 0.19501,
+          "trend_cycle": 121.736291,
+          "trend_mom_pct": 0.298671
+        },
+        {
+          "date": "2025-01",
+          "original": 110.698348,
+          "yoy_pct": 7.491625,
+          "cumulative_yoy_pct": 7.491625,
+          "seasonally_adjusted": 120.725812,
+          "mom_pct": -2.238828,
+          "trend_cycle": 121.736907,
+          "trend_mom_pct": 0.000506
+        },
+        {
+          "date": "2025-02",
+          "original": 109.987967,
+          "yoy_pct": 6.011456,
+          "cumulative_yoy_pct": 6.748792,
+          "seasonally_adjusted": 123.758739,
+          "mom_pct": 2.512244,
+          "trend_cycle": 121.448847,
+          "trend_mom_pct": -0.236625
+        },
+        {
+          "date": "2025-03",
+          "original": 116.263022,
+          "yoy_pct": 5.24805,
+          "cumulative_yoy_pct": 6.226155,
+          "seasonally_adjusted": 116.533215,
+          "mom_pct": -5.838395,
+          "trend_cycle": 120.965776,
+          "trend_mom_pct": -0.397757
+        },
+        {
+          "date": "2025-04",
+          "original": 121.50579,
+          "yoy_pct": 9.173035,
+          "cumulative_yoy_pct": 6.991569,
+          "seasonally_adjusted": 119.47019,
+          "mom_pct": 2.520291,
+          "trend_cycle": 120.378137,
+          "trend_mom_pct": -0.48579
+        },
+        {
+          "date": "2025-05",
+          "original": 124.034781,
+          "yoy_pct": 6.267158,
+          "cumulative_yoy_pct": 6.836487,
+          "seasonally_adjusted": 121.222441,
+          "mom_pct": 1.466685,
+          "trend_cycle": 119.741464,
+          "trend_mom_pct": -0.528894
+        },
+        {
+          "date": "2025-06",
+          "original": 117.481172,
+          "yoy_pct": 9.693963,
+          "cumulative_yoy_pct": 7.305636,
+          "seasonally_adjusted": 119.157636,
+          "mom_pct": -1.703319,
+          "trend_cycle": 119.08695,
+          "trend_mom_pct": -0.546605
+        },
+        {
+          "date": "2025-07",
+          "original": 124.223006,
+          "yoy_pct": -0.684894,
+          "cumulative_yoy_pct": 6.019992,
+          "seasonally_adjusted": 118.325111,
+          "mom_pct": -0.698675,
+          "trend_cycle": 118.41411,
+          "trend_mom_pct": -0.564999
+        },
+        {
+          "date": "2025-08",
+          "original": 123.321317,
+          "yoy_pct": -4.203868,
+          "cumulative_yoy_pct": 4.567495,
+          "seasonally_adjusted": 118.702695,
+          "mom_pct": 0.319107,
+          "trend_cycle": 117.767137,
+          "trend_mom_pct": -0.546365
+        },
+        {
+          "date": "2025-09",
+          "original": 124.899847,
+          "yoy_pct": -0.269002,
+          "cumulative_yoy_pct": 3.980208,
+          "seasonally_adjusted": 118.175733,
+          "mom_pct": -0.443935,
+          "trend_cycle": 117.216473,
+          "trend_mom_pct": -0.467587
+        },
+        {
+          "date": "2025-10",
+          "original": 126.710793,
+          "yoy_pct": -2.762545,
+          "cumulative_yoy_pct": 3.223841,
+          "seasonally_adjusted": 117.301418,
+          "mom_pct": -0.739842,
+          "trend_cycle": 116.829455,
+          "trend_mom_pct": -0.330174
+        },
+        {
+          "date": "2025-11",
+          "original": 114.412164,
+          "yoy_pct": -8.758897,
+          "cumulative_yoy_pct": 2.056399,
+          "seasonally_adjusted": 116.092376,
+          "mom_pct": -1.030714,
+          "trend_cycle": 116.660717,
+          "trend_mom_pct": -0.144431
+        },
+        {
+          "date": "2025-12",
+          "original": 112.016479,
+          "yoy_pct": -4.034936,
+          "cumulative_yoy_pct": 1.549902,
+          "seasonally_adjusted": 116.169328,
+          "mom_pct": 0.066285,
+          "trend_cycle": 116.726216,
+          "trend_mom_pct": 0.056144
+        },
+        {
+          "date": "2026-01",
+          "original": 106.509751,
+          "yoy_pct": -3.783793,
+          "cumulative_yoy_pct": -3.783793,
+          "seasonally_adjusted": 118.792222,
+          "mom_pct": 2.25782,
+          "trend_cycle": 116.961777,
+          "trend_mom_pct": 0.201807
+        },
+        {
+          "date": "2026-02",
+          "original": 100.296932,
+          "yoy_pct": -8.810996,
+          "cumulative_yoy_pct": -6.289303,
+          "seasonally_adjusted": 114.911931,
+          "mom_pct": -3.266453,
+          "trend_cycle": 117.243875,
+          "trend_mom_pct": 0.241188
+        },
+        {
+          "date": "2026-03",
+          "original": 122.14879,
+          "yoy_pct": 5.062459,
+          "cumulative_yoy_pct": -2.372423,
+          "seasonally_adjusted": 119.419827,
+          "mom_pct": 3.922914,
+          "trend_cycle": 117.397478,
+          "trend_mom_pct": 0.131012
+        },
+        {
+          "date": "2026-04",
+          "original": 118.609727,
+          "yoy_pct": -2.383478,
+          "cumulative_yoy_pct": -2.375353,
+          "seasonally_adjusted": 117.228171,
+          "mom_pct": -1.835253,
+          "trend_cycle": 117.250854,
+          "trend_mom_pct": -0.124896
+        },
+        {
+          "date": "2026-05",
+          "original": 116.979547,
+          "yoy_pct": -5.688109,
+          "cumulative_yoy_pct": -3.080768,
+          "seasonally_adjusted": 117.422861,
+          "mom_pct": 0.166078,
+          "trend_cycle": 116.744254,
+          "trend_mom_pct": -0.432065
+        },
+        {
+          "date": "2026-06",
+          "original": 119.952092,
+          "yoy_pct": 2.103248,
+          "cumulative_yoy_pct": -2.210697,
+          "seasonally_adjusted": 118.201991,
+          "mom_pct": 0.663525,
+          "trend_cycle": 115.909363,
+          "trend_mom_pct": -0.715146
+        },
+        {
+          "date": "2026-07",
+          "original": 118.164687,
+          "yoy_pct": -4.87697,
+          "cumulative_yoy_pct": -2.612559,
+          "seasonally_adjusted": 112.306189,
+          "mom_pct": -4.987904,
+          "trend_cycle": 114.886104,
+          "trend_mom_pct": -0.882809,
+          "percentile_in_available_series": 8.7,
+          "available_min": 78.533,
+          "available_max": 138.086
+        }
+      ],
+      "latest": {
+        "date": "2026-07",
+        "original": 118.164687,
+        "yoy_pct": -4.87697,
+        "cumulative_yoy_pct": -2.612559,
+        "seasonally_adjusted": 112.306189,
+        "mom_pct": -4.987904,
+        "trend_cycle": 114.886104,
+        "trend_mom_pct": -0.882809,
+        "percentile_in_available_series": 8.7,
+        "available_min": 78.533,
+        "available_max": 138.086
+      }
+    },
+    "construction": {
+      "series": [
+        {
+          "date": "2012-01",
+          "original": 169.90712,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 182.145262,
+          "mom_pct": null,
+          "trend_cycle": 175.618961,
+          "trend_mom_pct": null
+        },
+        {
+          "date": "2012-02",
+          "original": 151.766779,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 171.470773,
+          "mom_pct": -5.860426,
+          "trend_cycle": 174.979503,
+          "trend_mom_pct": -0.364117
+        },
+        {
+          "date": "2012-03",
+          "original": 188.20224,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 182.164087,
+          "mom_pct": 6.236231,
+          "trend_cycle": 174.251047,
+          "trend_mom_pct": -0.41631
+        },
+        {
+          "date": "2012-04",
+          "original": 164.243978,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 172.381888,
+          "mom_pct": -5.369993,
+          "trend_cycle": 173.486932,
+          "trend_mom_pct": -0.438514
+        },
+        {
+          "date": "2012-05",
+          "original": 175.19157,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 174.406098,
+          "mom_pct": 1.174259,
+          "trend_cycle": 172.735518,
+          "trend_mom_pct": -0.433124
+        },
+        {
+          "date": "2012-06",
+          "original": 173.629198,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 176.680799,
+          "mom_pct": 1.304255,
+          "trend_cycle": 172.107672,
+          "trend_mom_pct": -0.363472
+        },
+        {
+          "date": "2012-07",
+          "original": 169.586613,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 170.566957,
+          "mom_pct": -3.460389,
+          "trend_cycle": 171.745517,
+          "trend_mom_pct": -0.210424
+        },
+        {
+          "date": "2012-08",
+          "original": 173.599815,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 161.938147,
+          "mom_pct": -5.058899,
+          "trend_cycle": 171.765942,
+          "trend_mom_pct": 0.011893
+        },
+        {
+          "date": "2012-09",
+          "original": 172.577313,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 167.113378,
+          "mom_pct": 3.195807,
+          "trend_cycle": 172.227656,
+          "trend_mom_pct": 0.268804
+        },
+        {
+          "date": "2012-10",
+          "original": 184.770297,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 163.326732,
+          "mom_pct": -2.265914,
+          "trend_cycle": 173.245337,
+          "trend_mom_pct": 0.590893
+        },
+        {
+          "date": "2012-11",
+          "original": 187.285593,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 172.23913,
+          "mom_pct": 5.45679,
+          "trend_cycle": 174.890174,
+          "trend_mom_pct": 0.949426
+        },
+        {
+          "date": "2012-12",
+          "original": 164.211259,
+          "yoy_pct": null,
+          "cumulative_yoy_pct": null,
+          "seasonally_adjusted": 179.996099,
+          "mom_pct": 4.503604,
+          "trend_cycle": 177.135556,
+          "trend_mom_pct": 1.283881
+        },
+        {
+          "date": "2013-01",
+          "original": 171.402514,
+          "yoy_pct": 0.880125,
+          "cumulative_yoy_pct": 0.880125,
+          "seasonally_adjusted": 180.213496,
+          "mom_pct": 0.120779,
+          "trend_cycle": 179.793316,
+          "trend_mom_pct": 1.50041
+        },
+        {
+          "date": "2013-02",
+          "original": 161.245978,
+          "yoy_pct": 6.245899,
+          "cumulative_yoy_pct": 3.411714,
+          "seasonally_adjusted": 184.366611,
+          "mom_pct": 2.304553,
+          "trend_cycle": 182.577161,
+          "trend_mom_pct": 1.548359
+        },
+        {
+          "date": "2013-03",
+          "original": 187.568684,
+          "yoy_pct": -0.336636,
+          "cumulative_yoy_pct": 2.028147,
+          "seasonally_adjusted": 187.020074,
+          "mom_pct": 1.439232,
+          "trend_cycle": 185.153798,
+          "trend_mom_pct": 1.411259
+        },
+        {
+          "date": "2013-04",
+          "original": 187.139473,
+          "yoy_pct": 13.93993,
+          "cumulative_yoy_pct": 4.930358,
+          "seasonally_adjusted": 190.288322,
+          "mom_pct": 1.747539,
+          "trend_cycle": 187.246126,
+          "trend_mom_pct": 1.130049
+        },
+        {
+          "date": "2013-05",
+          "original": 198.657659,
+          "yoy_pct": 13.39453,
+          "cumulative_yoy_pct": 6.676303,
+          "seasonally_adjusted": 196.57924,
+          "mom_pct": 3.305993,
+          "trend_cycle": 188.694985,
+          "trend_mom_pct": 0.773772
+        },
+        {
+          "date": "2013-06",
+          "original": 180.241413,
+          "yoy_pct": 3.808239,
+          "cumulative_yoy_pct": 6.189491,
+          "seasonally_adjusted": 189.798915,
+          "mom_pct": -3.449156,
+          "trend_cycle": 189.506328,
+          "trend_mom_pct": 0.429976
+        },
+        {
+          "date": "2013-07",
+          "original": 190.525272,
+          "yoy_pct": 12.346882,
+          "cumulative_yoy_pct": 7.06512,
+          "seasonally_adjusted": 187.844937,
+          "mom_pct": -1.029499,
+          "trend_cycle": 189.859251,
+          "trend_mom_pct": 0.186233
+        },
+        {
+          "date": "2013-08",
+          "original": 200.380049,
+          "yoy_pct": 15.426418,
+          "cumulative_yoy_pct": 8.127627,
+          "seasonally_adjusted": 191.553773,
+          "mom_pct": 1.974413,
+          "trend_cycle": 189.965061,
+          "trend_mom_pct": 0.055731
+        },
+        {
+          "date": "2013-09",
+          "original": 196.996879,
+          "yoy_pct": 14.149928,
+          "cumulative_yoy_pct": 8.803073,
+          "seasonally_adjusted": 187.195036,
+          "mom_pct": -2.275464,
+          "trend_cycle": 189.972699,
+          "trend_mom_pct": 0.004021
+        },
+        {
+          "date": "2013-10",
+          "original": 207.796653,
+          "yoy_pct": 12.462153,
+          "cumulative_yoy_pct": 9.195356,
+          "seasonally_adjusted": 185.539468,
+          "mom_pct": -0.884408,
+          "trend_cycle": 189.934526,
+          "trend_mom_pct": -0.020094
+        },
+        {
+          "date": "2013-11",
+          "original": 197.526748,
+          "yoy_pct": 5.468202,
+          "cumulative_yoy_pct": 8.830034,
+          "seasonally_adjusted": 186.703777,
+          "mom_pct": 0.627526,
+          "trend_cycle": 189.791086,
+          "trend_mom_pct": -0.075521
+        },
+        {
+          "date": "2013-12",
+          "original": 185.247979,
+          "yoy_pct": 12.810766,
+          "cumulative_yoy_pct": 9.145065,
+          "seasonally_adjusted": 195.760837,
+          "mom_pct": 4.851032,
+          "trend_cycle": 189.427608,
+          "trend_mom_pct": -0.191515
+        },
+        {
+          "date": "2014-01",
+          "original": 180.958589,
+          "yoy_pct": 5.575224,
+          "cumulative_yoy_pct": 5.575224,
+          "seasonally_adjusted": 189.241165,
+          "mom_pct": -3.330427,
+          "trend_cycle": 188.777846,
+          "trend_mom_pct": -0.343013
+        },
+        {
+          "date": "2014-02",
+          "original": 166.907583,
+          "yoy_pct": 3.51116,
+          "cumulative_yoy_pct": 4.574702,
+          "seasonally_adjusted": 189.28245,
+          "mom_pct": 0.021816,
+          "trend_cycle": 187.841968,
+          "trend_mom_pct": -0.495757
+        },
+        {
+          "date": "2014-03",
+          "original": 181.739058,
+          "yoy_pct": -3.107995,
+          "cumulative_yoy_pct": 1.804641,
+          "seasonally_adjusted": 183.410186,
+          "mom_pct": -3.102382,
+          "trend_cycle": 186.737762,
+          "trend_mom_pct": -0.587838
+        },
+        {
+          "date": "2014-04",
+          "original": 181.540266,
+          "yoy_pct": -2.991997,
+          "cumulative_yoy_pct": 0.535634,
+          "seasonally_adjusted": 184.183312,
+          "mom_pct": 0.421528,
+          "trend_cycle": 185.708487,
+          "trend_mom_pct": -0.551187
+        },
+        {
+          "date": "2014-05",
+          "original": 182.075925,
+          "yoy_pct": -8.346889,
+          "cumulative_yoy_pct": -1.411996,
+          "seasonally_adjusted": 184.712525,
+          "mom_pct": 0.287329,
+          "trend_cycle": 185.001146,
+          "trend_mom_pct": -0.380888
+        },
+        {
+          "date": "2014-06",
+          "original": 178.172163,
+          "yoy_pct": -1.148043,
+          "cumulative_yoy_pct": -1.368199,
+          "seasonally_adjusted": 184.569734,
+          "mom_pct": -0.077304,
+          "trend_cycle": 184.749566,
+          "trend_mom_pct": -0.135988
+        },
+        {
+          "date": "2014-07",
+          "original": 184.287197,
+          "yoy_pct": -3.274146,
+          "cumulative_yoy_pct": -1.65261,
+          "seasonally_adjusted": 181.414802,
+          "mom_pct": -1.709344,
+          "trend_cycle": 184.946218,
+          "trend_mom_pct": 0.106443
+        },
+        {
+          "date": "2014-08",
+          "original": 185.345586,
+          "yoy_pct": -7.502974,
+          "cumulative_yoy_pct": -2.446225,
+          "seasonally_adjusted": 181.069902,
+          "mom_pct": -0.190117,
+          "trend_cycle": 185.491656,
+          "trend_mom_pct": 0.294917
+        },
+        {
+          "date": "2014-09",
+          "original": 204.45468,
+          "yoy_pct": 3.785746,
+          "cumulative_yoy_pct": -1.712913,
+          "seasonally_adjusted": 188.444989,
+          "mom_pct": 4.073061,
+          "trend_cycle": 186.274026,
+          "trend_mom_pct": 0.421782
+        },
+        {
+          "date": "2014-10",
+          "original": 215.266147,
+          "yoy_pct": 3.594617,
+          "cumulative_yoy_pct": -1.126881,
+          "seasonally_adjusted": 191.550022,
+          "mom_pct": 1.647713,
+          "trend_cycle": 187.232996,
+          "trend_mom_pct": 0.514817
+        },
+        {
+          "date": "2014-11",
+          "original": 193.106603,
+          "yoy_pct": -2.237745,
+          "cumulative_yoy_pct": -1.2324,
+          "seasonally_adjusted": 188.351472,
+          "mom_pct": -1.669824,
+          "trend_cycle": 188.430904,
+          "trend_mom_pct": 0.639796
+        },
+        {
+          "date": "2014-12",
+          "original": 176.045924,
+          "yoy_pct": -4.967426,
+          "cumulative_yoy_pct": -1.537914,
+          "seasonally_adjusted": 182.822303,
+          "mom_pct": -2.935559,
+          "trend_cycle": 189.995451,
+          "trend_mom_pct": 0.830303
+        },
+        {
+          "date": "2015-01",
+          "original": 175.159041,
+          "yoy_pct": -3.204903,
+          "cumulative_yoy_pct": -3.204903,
+          "seasonally_adjusted": 188.423156,
+          "mom_pct": 3.06355,
+          "trend_cycle": 192.028668,
+          "trend_mom_pct": 1.07014
+        },
+        {
+          "date": "2015-02",
+          "original": 173.093498,
+          "yoy_pct": 3.706192,
+          "cumulative_yoy_pct": 0.111068,
+          "seasonally_adjusted": 196.571142,
+          "mom_pct": 4.324302,
+          "trend_cycle": 194.528933,
+          "trend_mom_pct": 1.302027
+        },
+        {
+          "date": "2015-03",
+          "original": 190.944247,
+          "yoy_pct": 5.065058,
+          "cumulative_yoy_pct": 1.811077,
+          "seasonally_adjusted": 187.131008,
+          "mom_pct": -4.802401,
+          "trend_cycle": 197.301613,
+          "trend_mom_pct": 1.42533
+        },
+        {
+          "date": "2015-04",
+          "original": 201.917677,
+          "yoy_pct": 11.224734,
+          "cumulative_yoy_pct": 4.214182,
+          "seasonally_adjusted": 205.338615,
+          "mom_pct": 9.729872,
+          "trend_cycle": 199.961587,
+          "trend_mom_pct": 1.348177
+        },
+        {
+          "date": "2015-05",
+          "original": 192.366099,
+          "yoy_pct": 5.651584,
+          "cumulative_yoy_pct": 4.507185,
+          "seasonally_adjusted": 200.260825,
+          "mom_pct": -2.472886,
+          "trend_cycle": 202.065262,
+          "trend_mom_pct": 1.052039
+        },
+        {
+          "date": "2015-06",
+          "original": 203.070553,
+          "yoy_pct": 13.974343,
+          "cumulative_yoy_pct": 6.081568,
+          "seasonally_adjusted": 204.431571,
+          "mom_pct": 2.082657,
+          "trend_cycle": 203.271966,
+          "trend_mom_pct": 0.597185
+        },
+        {
+          "date": "2015-07",
+          "original": 207.289324,
+          "yoy_pct": 12.481674,
+          "cumulative_yoy_pct": 7.020866,
+          "seasonally_adjusted": 202.917114,
+          "mom_pct": -0.740813,
+          "trend_cycle": 203.353815,
+          "trend_mom_pct": 0.040266
+        },
+        {
+          "date": "2015-08",
+          "original": 195.760021,
+          "yoy_pct": 5.618928,
+          "cumulative_yoy_pct": 6.840548,
+          "seasonally_adjusted": 192.276279,
+          "mom_pct": -5.243932,
+          "trend_cycle": 202.2161,
+          "trend_mom_pct": -0.559476
+        },
+        {
+          "date": "2015-09",
+          "original": 218.617773,
+          "yoy_pct": 6.927253,
+          "cumulative_yoy_pct": 6.851321,
+          "seasonally_adjusted": 201.051229,
+          "mom_pct": 4.563719,
+          "trend_cycle": 199.919764,
+          "trend_mom_pct": -1.135585
+        },
+        {
+          "date": "2015-10",
+          "original": 221.1014,
+          "yoy_pct": 2.710715,
+          "cumulative_yoy_pct": 6.372302,
+          "seasonally_adjusted": 201.684816,
+          "mom_pct": 0.315137,
+          "trend_cycle": 196.623758,
+          "trend_mom_pct": -1.648665
+        },
+        {
+          "date": "2015-11",
+          "original": 204.410541,
+          "yoy_pct": 5.853729,
+          "cumulative_yoy_pct": 6.323545,
+          "seasonally_adjusted": 195.596966,
+          "mom_pct": -3.018497,
+          "trend_cycle": 192.553891,
+          "trend_mom_pct": -2.069875
+        },
+        {
+          "date": "2015-12",
+          "original": 179.417464,
+          "yoy_pct": 1.915148,
+          "cumulative_yoy_pct": 5.975512,
+          "seasonally_adjusted": 186.974119,
+          "mom_pct": -4.408477,
+          "trend_cycle": 187.973629,
+          "trend_mom_pct": -2.378691
+        },
+        {
+          "date": "2016-01",
+          "original": 167.377898,
+          "yoy_pct": -4.44233,
+          "cumulative_yoy_pct": -4.44233,
+          "seasonally_adjusted": 186.001636,
+          "mom_pct": -0.520116,
+          "trend_cycle": 183.159147,
+          "trend_mom_pct": -2.561254
+        },
+        {
+          "date": "2016-02",
+          "original": 159.095373,
+          "yoy_pct": -8.087031,
+          "cumulative_yoy_pct": -6.253872,
+          "seasonally_adjusted": 180.833318,
+          "mom_pct": -2.778641,
+          "trend_cycle": 178.39018,
+          "trend_mom_pct": -2.603728
+        },
+        {
+          "date": "2016-03",
+          "original": 173.484768,
+          "yoy_pct": -9.143757,
+          "cumulative_yoy_pct": -7.277259,
+          "seasonally_adjusted": 166.453038,
+          "mom_pct": -7.952229,
+          "trend_cycle": 173.951493,
+          "trend_mom_pct": -2.48819
+        },
+        {
+          "date": "2016-04",
+          "original": 152.157467,
+          "yoy_pct": -24.643811,
+          "cumulative_yoy_pct": -12.008801,
+          "seasonally_adjusted": 159.070604,
+          "mom_pct": -4.435145,
+          "trend_cycle": 170.087515,
+          "trend_mom_pct": -2.221296
+        },
+        {
+          "date": "2016-05",
+          "original": 163.985533,
+          "yoy_pct": -14.753414,
+          "cumulative_yoy_pct": -12.574394,
+          "seasonally_adjusted": 166.684184,
+          "mom_pct": 4.78629,
+          "trend_cycle": 167.005337,
+          "trend_mom_pct": -1.812113
+        },
+        {
+          "date": "2016-06",
+          "original": 157.541646,
+          "yoy_pct": -22.420241,
+          "cumulative_yoy_pct": -14.333577,
+          "seasonally_adjusted": 159.587451,
+          "mom_pct": -4.257592,
+          "trend_cycle": 164.838846,
+          "trend_mom_pct": -1.297259
+        },
+        {
+          "date": "2016-07",
+          "original": 156.230185,
+          "yoy_pct": -24.631823,
+          "cumulative_yoy_pct": -15.922096,
+          "seasonally_adjusted": 161.009259,
+          "mom_pct": 0.890927,
+          "trend_cycle": 163.646479,
+          "trend_mom_pct": -0.723353
+        },
+        {
+          "date": "2016-08",
+          "original": 185.651867,
+          "yoy_pct": -5.163544,
+          "cumulative_yoy_pct": -14.554148,
+          "seasonally_adjusted": 170.214157,
+          "mom_pct": 5.716999,
+          "trend_cycle": 163.494488,
+          "trend_mom_pct": -0.092878
+        },
+        {
+          "date": "2016-09",
+          "original": 189.069139,
+          "yoy_pct": -13.516117,
+          "cumulative_yoy_pct": -14.425078,
+          "seasonally_adjusted": 171.433674,
+          "mom_pct": 0.71646,
+          "trend_cycle": 164.363876,
+          "trend_mom_pct": 0.531754
+        },
+        {
+          "date": "2016-10",
+          "original": 175.240236,
+          "yoy_pct": -20.742141,
+          "cumulative_yoy_pct": -15.130731,
+          "seasonally_adjusted": 163.654437,
+          "mom_pct": -4.537753,
+          "trend_cycle": 166.129943,
+          "trend_mom_pct": 1.074486
+        },
+        {
+          "date": "2016-11",
+          "original": 182.796126,
+          "yoy_pct": -10.574022,
+          "cumulative_yoy_pct": -14.704195,
+          "seasonally_adjusted": 167.762944,
+          "mom_pct": 2.510477,
+          "trend_cycle": 168.59837,
+          "trend_mom_pct": 1.485841
+        },
+        {
+          "date": "2016-12",
+          "original": 165.437845,
+          "yoy_pct": -7.791672,
+          "cumulative_yoy_pct": -14.179375,
+          "seasonally_adjusted": 176.595102,
+          "mom_pct": 5.264665,
+          "trend_cycle": 171.509536,
+          "trend_mom_pct": 1.726687
+        },
+        {
+          "date": "2017-01",
+          "original": 164.347767,
+          "yoy_pct": -1.810353,
+          "cumulative_yoy_pct": -1.810353,
+          "seasonally_adjusted": 178.233027,
+          "mom_pct": 0.927503,
+          "trend_cycle": 174.626869,
+          "trend_mom_pct": 1.817586
+        },
+        {
+          "date": "2017-02",
+          "original": 150.108875,
+          "yoy_pct": -5.648497,
+          "cumulative_yoy_pct": -3.680739,
+          "seasonally_adjusted": 172.151077,
+          "mom_pct": -3.412358,
+          "trend_cycle": 177.816169,
+          "trend_mom_pct": 1.826351
+        },
+        {
+          "date": "2017-03",
+          "original": 191.906333,
+          "yoy_pct": 10.618549,
+          "cumulative_yoy_pct": 1.281095,
+          "seasonally_adjusted": 184.164532,
+          "mom_pct": 6.978437,
+          "trend_cycle": 180.965763,
+          "trend_mom_pct": 1.771264
+        },
+        {
+          "date": "2017-04",
+          "original": 167.874619,
+          "yoy_pct": 10.329531,
+          "cumulative_yoy_pct": 3.392357,
+          "seasonally_adjusted": 181.555989,
+          "mom_pct": -1.416419,
+          "trend_cycle": 184.059113,
+          "trend_mom_pct": 1.709356
+        },
+        {
+          "date": "2017-05",
+          "original": 183.819857,
+          "yoy_pct": 12.095168,
+          "cumulative_yoy_pct": 5.141081,
+          "seasonally_adjusted": 183.071715,
+          "mom_pct": 0.834853,
+          "trend_cycle": 187.134618,
+          "trend_mom_pct": 1.670933
+        },
+        {
+          "date": "2017-06",
+          "original": 191.407033,
+          "yoy_pct": 21.496149,
+          "cumulative_yoy_pct": 7.787436,
+          "seasonally_adjusted": 191.909505,
+          "mom_pct": 4.827501,
+          "trend_cycle": 190.243266,
+          "trend_mom_pct": 1.661183
+        },
+        {
+          "date": "2017-07",
+          "original": 189.48116,
+          "yoy_pct": 21.283323,
+          "cumulative_yoy_pct": 9.653544,
+          "seasonally_adjusted": 195.582101,
+          "mom_pct": 1.913712,
+          "trend_cycle": 193.444924,
+          "trend_mom_pct": 1.682928
+        },
+        {
+          "date": "2017-08",
+          "original": 212.871051,
+          "yoy_pct": 14.661411,
+          "cumulative_yoy_pct": 10.360273,
+          "seasonally_adjusted": 195.70809,
+          "mom_pct": 0.064417,
+          "trend_cycle": 196.705227,
+          "trend_mom_pct": 1.685391
+        },
+        {
+          "date": "2017-09",
+          "original": 212.803739,
+          "yoy_pct": 12.553397,
+          "cumulative_yoy_pct": 10.635864,
+          "seasonally_adjusted": 198.926139,
+          "mom_pct": 1.644311,
+          "trend_cycle": 199.858697,
+          "trend_mom_pct": 1.603145
+        },
+        {
+          "date": "2017-10",
+          "original": 223.904643,
+          "yoy_pct": 27.77011,
+          "cumulative_yoy_pct": 12.423308,
+          "seasonally_adjusted": 204.000634,
+          "mom_pct": 2.550944,
+          "trend_cycle": 202.702018,
+          "trend_mom_pct": 1.422666
+        },
+        {
+          "date": "2017-11",
+          "original": 224.436231,
+          "yoy_pct": 22.779534,
+          "cumulative_yoy_pct": 13.439655,
+          "seasonally_adjusted": 208.855004,
+          "mom_pct": 2.379586,
+          "trend_cycle": 204.979769,
+          "trend_mom_pct": 1.123694
+        },
+        {
+          "date": "2017-12",
+          "original": 191.001662,
+          "yoy_pct": 15.452219,
+          "cumulative_yoy_pct": 13.603828,
+          "seasonally_adjusted": 208.919637,
+          "mom_pct": 0.030946,
+          "trend_cycle": 206.442194,
+          "trend_mom_pct": 0.713448
+        },
+        {
+          "date": "2018-01",
+          "original": 196.365069,
+          "yoy_pct": 19.481434,
+          "cumulative_yoy_pct": 19.481434,
+          "seasonally_adjusted": 207.437139,
+          "mom_pct": -0.709602,
+          "trend_cycle": 206.954211,
+          "trend_mom_pct": 0.24802
+        },
+        {
+          "date": "2018-02",
+          "original": 179.092384,
+          "yoy_pct": 19.308324,
+          "cumulative_yoy_pct": 19.398798,
+          "seasonally_adjusted": 202.149764,
+          "mom_pct": -2.548905,
+          "trend_cycle": 206.454593,
+          "trend_mom_pct": -0.241415
+        },
+        {
+          "date": "2018-03",
+          "original": 207.938565,
+          "yoy_pct": 8.354196,
+          "cumulative_yoy_pct": 15.213008,
+          "seasonally_adjusted": 204.968646,
+          "mom_pct": 1.394452,
+          "trend_cycle": 205.041485,
+          "trend_mom_pct": -0.684465
+        },
+        {
+          "date": "2018-04",
+          "original": 192.036306,
+          "yoy_pct": 14.392698,
+          "cumulative_yoy_pct": 15.008764,
+          "seasonally_adjusted": 203.111139,
+          "mom_pct": -0.906239,
+          "trend_cycle": 202.869338,
+          "trend_mom_pct": -1.059369
+        },
+        {
+          "date": "2018-05",
+          "original": 196.35069,
+          "yoy_pct": 6.816909,
+          "cumulative_yoy_pct": 13.25384,
+          "seasonally_adjusted": 195.942455,
+          "mom_pct": -3.529439,
+          "trend_cycle": 200.090111,
+          "trend_mom_pct": -1.369959
+        },
+        {
+          "date": "2018-06",
+          "original": 191.256248,
+          "yoy_pct": -0.078777,
+          "cumulative_yoy_pct": 10.822165,
+          "seasonally_adjusted": 196.737516,
+          "mom_pct": 0.405762,
+          "trend_cycle": 196.850152,
+          "trend_mom_pct": -1.61925
+        },
+        {
+          "date": "2018-07",
+          "original": 191.064241,
+          "yoy_pct": 0.835482,
+          "cumulative_yoy_pct": 9.294827,
+          "seasonally_adjusted": 189.592476,
+          "mom_pct": -3.631763,
+          "trend_cycle": 193.259411,
+          "trend_mom_pct": -1.824099
+        },
+        {
+          "date": "2018-08",
+          "original": 212.896539,
+          "yoy_pct": 0.011973,
+          "cumulative_yoy_pct": 7.933739,
+          "seasonally_adjusted": 194.179757,
+          "mom_pct": 2.419548,
+          "trend_cycle": 189.503332,
+          "trend_mom_pct": -1.943543
+        },
+        {
+          "date": "2018-09",
+          "original": 204.639676,
+          "yoy_pct": -3.836428,
+          "cumulative_yoy_pct": 6.42905,
+          "seasonally_adjusted": 197.862797,
+          "mom_pct": 1.896717,
+          "trend_cycle": 185.862716,
+          "trend_mom_pct": -1.921136
+        },
+        {
+          "date": "2018-10",
+          "original": 209.543852,
+          "yoy_pct": -6.413797,
+          "cumulative_yoy_pct": 4.906395,
+          "seasonally_adjusted": 186.818642,
+          "mom_pct": -5.581724,
+          "trend_cycle": 182.729793,
+          "trend_mom_pct": -1.685611
+        },
+        {
+          "date": "2018-11",
+          "original": 188.649705,
+          "yoy_pct": -15.945075,
+          "cumulative_yoy_pct": 2.691576,
+          "seasonally_adjusted": 173.437174,
+          "mom_pct": -7.162812,
+          "trend_cycle": 180.536493,
+          "trend_mom_pct": -1.200297
+        },
+        {
+          "date": "2018-12",
+          "original": 151.570704,
+          "yoy_pct": -20.644301,
+          "cumulative_yoy_pct": 0.757,
+          "seasonally_adjusted": 168.452051,
+          "mom_pct": -2.874311,
+          "trend_cycle": 179.640975,
+          "trend_mom_pct": -0.496031
+        },
+        {
+          "date": "2019-01",
+          "original": 165.577984,
+          "yoy_pct": -15.678494,
+          "cumulative_yoy_pct": -15.678494,
+          "seasonally_adjusted": 175.724735,
+          "mom_pct": 4.317362,
+          "trend_cycle": 180.094009,
+          "trend_mom_pct": 0.252188
+        },
+        {
+          "date": "2019-02",
+          "original": 169.555428,
+          "yoy_pct": -5.32516,
+          "cumulative_yoy_pct": -10.739976,
+          "seasonally_adjusted": 191.587136,
+          "mom_pct": 9.026846,
+          "trend_cycle": 181.596191,
+          "trend_mom_pct": 0.83411
+        },
+        {
+          "date": "2019-03",
+          "original": 182.459591,
+          "yoy_pct": -12.253126,
+          "cumulative_yoy_pct": -11.279305,
+          "seasonally_adjusted": 184.852557,
+          "mom_pct": -3.515152,
+          "trend_cycle": 183.553576,
+          "trend_mom_pct": 1.077878
+        },
+        {
+          "date": "2019-04",
+          "original": 177.504779,
+          "yoy_pct": -7.567073,
+          "cumulative_yoy_pct": -10.359968,
+          "seasonally_adjusted": 182.609701,
+          "mom_pct": -1.213322,
+          "trend_cycle": 185.238753,
+          "trend_mom_pct": 0.918085
+        },
+        {
+          "date": "2019-05",
+          "original": 189.611383,
+          "yoy_pct": -3.432281,
+          "cumulative_yoy_pct": -8.960215,
+          "seasonally_adjusted": 188.879309,
+          "mom_pct": 3.433338,
+          "trend_cycle": 185.929887,
+          "trend_mom_pct": 0.373105
+        },
+        {
+          "date": "2019-06",
+          "original": 168.593872,
+          "yoy_pct": -11.849221,
+          "cumulative_yoy_pct": -9.435298,
+          "seasonally_adjusted": 180.197414,
+          "mom_pct": -4.59653,
+          "trend_cycle": 185.119923,
+          "trend_mom_pct": -0.435629
+        },
+        {
+          "date": "2019-07",
+          "original": 187.52819,
+          "yoy_pct": -1.850713,
+          "cumulative_yoy_pct": -8.365112,
+          "seasonally_adjusted": 181.455632,
+          "mom_pct": 0.698244,
+          "trend_cycle": 182.675039,
+          "trend_mom_pct": -1.320703
+        },
+        {
+          "date": "2019-08",
+          "original": 200.020581,
+          "yoy_pct": -6.047988,
+          "cumulative_yoy_pct": -8.050302,
+          "seasonally_adjusted": 185.628134,
+          "mom_pct": 2.299461,
+          "trend_cycle": 178.691393,
+          "trend_mom_pct": -2.180728
+        },
+        {
+          "date": "2019-09",
+          "original": 186.854827,
+          "yoy_pct": -8.690812,
+          "cumulative_yoy_pct": -8.124286,
+          "seasonally_adjusted": 176.562664,
+          "mom_pct": -4.883672,
+          "trend_cycle": 173.430686,
+          "trend_mom_pct": -2.944018
+        },
+        {
+          "date": "2019-10",
+          "original": 189.73965,
+          "yoy_pct": -9.451101,
+          "cumulative_yoy_pct": -8.26462,
+          "seasonally_adjusted": 167.499014,
+          "mom_pct": -5.13339,
+          "trend_cycle": 167.188806,
+          "trend_mom_pct": -3.599063
+        },
+        {
+          "date": "2019-11",
+          "original": 178.875724,
+          "yoy_pct": -5.181021,
+          "cumulative_yoy_pct": -7.996525,
+          "seasonally_adjusted": 168.589654,
+          "mom_pct": 0.651132,
+          "trend_cycle": 160.22884,
+          "trend_mom_pct": -4.162938
+        },
+        {
+          "date": "2019-12",
+          "original": 141.934794,
+          "yoy_pct": -6.357369,
+          "cumulative_yoy_pct": -7.8895,
+          "seasonally_adjusted": 153.163077,
+          "mom_pct": -9.15037,
+          "trend_cycle": 152.927208,
+          "trend_mom_pct": -4.557002
+        },
+        {
+          "date": "2020-01",
+          "original": 143.251253,
+          "yoy_pct": -13.484118,
+          "cumulative_yoy_pct": -13.484118,
+          "seasonally_adjusted": 151.892272,
+          "mom_pct": -0.829707,
+          "trend_cycle": 145.844809,
+          "trend_mom_pct": -4.631222
+        },
+        {
+          "date": "2020-02",
+          "original": 132.075277,
+          "yoy_pct": -22.104955,
+          "cumulative_yoy_pct": -17.845694,
+          "seasonally_adjusted": 153.565939,
+          "mom_pct": 1.101877,
+          "trend_cycle": 139.70088,
+          "trend_mom_pct": -4.212648
+        },
+        {
+          "date": "2020-03",
+          "original": 96.476567,
+          "yoy_pct": -47.12442,
+          "cumulative_yoy_pct": -28.166901,
+          "seasonally_adjusted": 94.562892,
+          "mom_pct": -38.421962,
+          "trend_cycle": 135.366283,
+          "trend_mom_pct": -3.10277
+        },
+        {
+          "date": "2020-04",
+          "original": 42.207677,
+          "yoy_pct": -76.221667,
+          "cumulative_yoy_pct": -40.438484,
+          "seasonally_adjusted": 46.790431,
+          "mom_pct": -50.519247,
+          "trend_cycle": 133.552891,
+          "trend_mom_pct": -1.339619
+        },
+        {
+          "date": "2020-05",
+          "original": 97.319431,
+          "yoy_pct": -48.674267,
+          "cumulative_yoy_pct": -42.203582,
+          "seasonally_adjusted": 104.774639,
+          "mom_pct": 123.923219,
+          "trend_cycle": 134.712437,
+          "trend_mom_pct": 0.86823
+        },
+        {
+          "date": "2020-06",
+          "original": 143.802092,
+          "yoy_pct": -14.70503,
+          "cumulative_yoy_pct": -37.802107,
+          "seasonally_adjusted": 146.00235,
+          "mom_pct": 39.348941,
+          "trend_cycle": 138.857104,
+          "trend_mom_pct": 3.076677
+        },
+        {
+          "date": "2020-07",
+          "original": 163.336081,
+          "yoy_pct": -12.900518,
+          "cumulative_yoy_pct": -34.038702,
+          "seasonally_adjusted": 155.161048,
+          "mom_pct": 6.27298,
+          "trend_cycle": 145.411433,
+          "trend_mom_pct": 4.720197
+        },
+        {
+          "date": "2020-08",
+          "original": 164.76389,
+          "yoy_pct": -17.626532,
+          "cumulative_yoy_pct": -31.760347,
+          "seasonally_adjusted": 157.076479,
+          "mom_pct": 1.234479,
+          "trend_cycle": 153.429562,
+          "trend_mom_pct": 5.514098
+        },
+        {
+          "date": "2020-09",
+          "original": 179.662539,
+          "yoy_pct": -3.849131,
+          "cumulative_yoy_pct": -28.556241,
+          "seasonally_adjusted": 162.649255,
+          "mom_pct": 3.547811,
+          "trend_cycle": 161.867545,
+          "trend_mom_pct": 5.499581
+        },
+        {
+          "date": "2020-10",
+          "original": 187.948874,
+          "yoy_pct": -0.943807,
+          "cumulative_yoy_pct": -25.673529,
+          "seasonally_adjusted": 168.149128,
+          "mom_pct": 3.381431,
+          "trend_cycle": 169.788891,
+          "trend_mom_pct": 4.893721
+        },
+        {
+          "date": "2020-11",
+          "original": 190.044348,
+          "yoy_pct": 6.243789,
+          "cumulative_yoy_pct": -22.813653,
+          "seasonally_adjusted": 182.220631,
+          "mom_pct": 8.368467,
+          "trend_cycle": 176.557548,
+          "trend_mom_pct": 3.986513
+        },
+        {
+          "date": "2020-12",
+          "original": 180.845396,
+          "yoy_pct": 27.414421,
+          "cumulative_yoy_pct": -19.479577,
+          "seasonally_adjusted": 190.427133,
+          "mom_pct": 4.503608,
+          "trend_cycle": 181.778289,
+          "trend_mom_pct": 2.956963
+        },
+        {
+          "date": "2021-01",
+          "original": 176.613004,
+          "yoy_pct": 23.288977,
+          "cumulative_yoy_pct": 23.288977,
+          "seasonally_adjusted": 196.834845,
+          "mom_pct": 3.364915,
+          "trend_cycle": 185.339738,
+          "trend_mom_pct": 1.959227
+        },
+        {
+          "date": "2021-02",
+          "original": 162.01092,
+          "yoy_pct": 22.665591,
+          "cumulative_yoy_pct": 22.989936,
+          "seasonally_adjusted": 186.857922,
+          "mom_pct": -5.068677,
+          "trend_cycle": 187.414161,
+          "trend_mom_pct": 1.119254
+        },
+        {
+          "date": "2021-03",
+          "original": 192.774985,
+          "yoy_pct": 99.815345,
+          "cumulative_yoy_pct": 42.92482,
+          "seasonally_adjusted": 189.027089,
+          "mom_pct": 1.160865,
+          "trend_cycle": 188.24247,
+          "trend_mom_pct": 0.441967
+        },
+        {
+          "date": "2021-04",
+          "original": 178.099137,
+          "yoy_pct": 321.95911,
+          "cumulative_yoy_pct": 71.37188,
+          "seasonally_adjusted": 180.919781,
+          "mom_pct": -4.288966,
+          "trend_cycle": 188.152779,
+          "trend_mom_pct": -0.047646
+        },
+        {
+          "date": "2021-05",
+          "original": 165.854568,
+          "yoy_pct": 70.422871,
+          "cumulative_yoy_pct": 71.191259,
+          "seasonally_adjusted": 176.678413,
+          "mom_pct": -2.344337,
+          "trend_cycle": 187.498022,
+          "trend_mom_pct": -0.347992
+        },
+        {
+          "date": "2021-06",
+          "original": 184.687984,
+          "yoy_pct": 28.432056,
+          "cumulative_yoy_pct": 61.805578,
+          "seasonally_adjusted": 186.194246,
+          "mom_pct": 5.385962,
+          "trend_cycle": 186.538114,
+          "trend_mom_pct": -0.511956
+        },
+        {
+          "date": "2021-07",
+          "original": 193.708639,
+          "yoy_pct": 18.595131,
+          "cumulative_yoy_pct": 53.182367,
+          "seasonally_adjusted": 188.883506,
+          "mom_pct": 1.44433,
+          "trend_cycle": 185.657943,
+          "trend_mom_pct": -0.471845
+        },
+        {
+          "date": "2021-08",
+          "original": 202.142162,
+          "yoy_pct": 22.685961,
+          "cumulative_yoy_pct": 48.071971,
+          "seasonally_adjusted": 186.573304,
+          "mom_pct": -1.223083,
+          "trend_cycle": 185.25692,
+          "trend_mom_pct": -0.216001
+        },
+        {
+          "date": "2021-09",
+          "original": 201.927226,
+          "yoy_pct": 12.392503,
+          "cumulative_yoy_pct": 42.559638,
+          "seasonally_adjusted": 185.311248,
+          "mom_pct": -0.67644,
+          "trend_cycle": 185.625215,
+          "trend_mom_pct": 0.198802
+        },
+        {
+          "date": "2021-10",
+          "original": 202.652713,
+          "yoy_pct": 7.823319,
+          "cumulative_yoy_pct": 37.72662,
+          "seasonally_adjusted": 187.80426,
+          "mom_pct": 1.345311,
+          "trend_cycle": 186.929496,
+          "trend_mom_pct": 0.702642
+        },
+        {
+          "date": "2021-11",
+          "original": 204.593404,
+          "yoy_pct": 7.655611,
+          "cumulative_yoy_pct": 34.017833,
+          "seasonally_adjusted": 191.044683,
+          "mom_pct": 1.725426,
+          "trend_cycle": 189.211586,
+          "trend_mom_pct": 1.22083
+        },
+        {
+          "date": "2021-12",
+          "original": 189.059606,
+          "yoy_pct": 4.542117,
+          "cumulative_yoy_pct": 30.921797,
+          "seasonally_adjusted": 198.971791,
+          "mom_pct": 4.149348,
+          "trend_cycle": 192.242871,
+          "trend_mom_pct": 1.602061
+        },
+        {
+          "date": "2022-01",
+          "original": 167.882784,
+          "yoy_pct": -4.943135,
+          "cumulative_yoy_pct": -4.943135,
+          "seasonally_adjusted": 188.886208,
+          "mom_pct": -5.06885,
+          "trend_cycle": 195.575142,
+          "trend_mom_pct": 1.733365
+        },
+        {
+          "date": "2022-02",
+          "original": 173.753885,
+          "yoy_pct": 7.248256,
+          "cumulative_yoy_pct": 0.889703,
+          "seasonally_adjusted": 199.587526,
+          "mom_pct": 5.665484,
+          "trend_cycle": 198.585962,
+          "trend_mom_pct": 1.539469
+        },
+        {
+          "date": "2022-03",
+          "original": 196.667142,
+          "yoy_pct": 2.019016,
+          "cumulative_yoy_pct": 1.299382,
+          "seasonally_adjusted": 193.869801,
+          "mom_pct": -2.864771,
+          "trend_cycle": 200.738663,
+          "trend_mom_pct": 1.084015
+        },
+        {
+          "date": "2022-04",
+          "original": 192.616446,
+          "yoy_pct": 8.151252,
+          "cumulative_yoy_pct": 3.019348,
+          "seasonally_adjusted": 200.209206,
+          "mom_pct": 3.269929,
+          "trend_cycle": 201.648251,
+          "trend_mom_pct": 0.453121
+        },
+        {
+          "date": "2022-05",
+          "original": 197.877774,
+          "yoy_pct": 19.308003,
+          "cumulative_yoy_pct": 6.105587,
+          "seasonally_adjusted": 201.871735,
+          "mom_pct": 0.830396,
+          "trend_cycle": 201.11544,
+          "trend_mom_pct": -0.264228
+        },
+        {
+          "date": "2022-06",
+          "original": 196.977094,
+          "yoy_pct": 6.653985,
+          "cumulative_yoy_pct": 6.201133,
+          "seasonally_adjusted": 199.026672,
+          "mom_pct": -1.409342,
+          "trend_cycle": 199.253795,
+          "trend_mom_pct": -0.92566
+        },
+        {
+          "date": "2022-07",
+          "original": 202.596182,
+          "yoy_pct": 4.588098,
+          "cumulative_yoy_pct": 5.951914,
+          "seasonally_adjusted": 202.67512,
+          "mom_pct": 1.833145,
+          "trend_cycle": 196.425705,
+          "trend_mom_pct": -1.419341
+        },
+        {
+          "date": "2022-08",
+          "original": 215.791097,
+          "yoy_pct": 6.752146,
+          "cumulative_yoy_pct": 6.063021,
+          "seasonally_adjusted": 195.844807,
+          "mom_pct": -3.37008,
+          "trend_cycle": 193.21195,
+          "trend_mom_pct": -1.636117
+        },
+        {
+          "date": "2022-09",
+          "original": 210.933758,
+          "yoy_pct": 4.460286,
+          "cumulative_yoy_pct": 5.867803,
+          "seasonally_adjusted": 192.456431,
+          "mom_pct": -1.730133,
+          "trend_cycle": 190.281761,
+          "trend_mom_pct": -1.516567
+        },
+        {
+          "date": "2022-10",
+          "original": 201.877109,
+          "yoy_pct": -0.382726,
+          "cumulative_yoy_pct": 5.186962,
+          "seasonally_adjusted": 188.614794,
+          "mom_pct": -1.996107,
+          "trend_cycle": 188.22059,
+          "trend_mom_pct": -1.083221
+        },
+        {
+          "date": "2022-11",
+          "original": 201.630062,
+          "yoy_pct": -1.448405,
+          "cumulative_yoy_pct": 4.529572,
+          "seasonally_adjusted": 188.121226,
+          "mom_pct": -0.26168,
+          "trend_cycle": 187.309619,
+          "trend_mom_pct": -0.483991
+        },
+        {
+          "date": "2022-12",
+          "original": 169.216803,
+          "yoy_pct": -10.495528,
+          "cumulative_yoy_pct": 3.269375,
+          "seasonally_adjusted": 182.918718,
+          "mom_pct": -2.765509,
+          "trend_cycle": 187.62925,
+          "trend_mom_pct": 0.170643
+        },
+        {
+          "date": "2023-01",
+          "original": 172.339349,
+          "yoy_pct": 2.654569,
+          "cumulative_yoy_pct": 2.654569,
+          "seasonally_adjusted": 186.102466,
+          "mom_pct": 1.740526,
+          "trend_cycle": 188.904479,
+          "trend_mom_pct": 0.679653
+        },
+        {
+          "date": "2023-02",
+          "original": 162.226955,
+          "yoy_pct": -6.634056,
+          "cumulative_yoy_pct": -2.069557,
+          "seasonally_adjusted": 184.071821,
+          "mom_pct": -1.091143,
+          "trend_cycle": 190.62688,
+          "trend_mom_pct": 0.911784
+        },
+        {
+          "date": "2023-03",
+          "original": 199.48745,
+          "yoy_pct": 1.434051,
+          "cumulative_yoy_pct": -0.789527,
+          "seasonally_adjusted": 196.801721,
+          "mom_pct": 6.915724,
+          "trend_cycle": 192.257814,
+          "trend_mom_pct": 0.855563
+        },
+        {
+          "date": "2023-04",
+          "original": 184.834222,
+          "yoy_pct": -4.04027,
+          "cumulative_yoy_pct": -1.646182,
+          "seasonally_adjusted": 197.665861,
+          "mom_pct": 0.439092,
+          "trend_cycle": 193.37549,
+          "trend_mom_pct": 0.581343
+        },
+        {
+          "date": "2023-05",
+          "original": 192.23161,
+          "yoy_pct": -2.853359,
+          "cumulative_yoy_pct": -1.903368,
+          "seasonally_adjusted": 191.968588,
+          "mom_pct": -2.882275,
+          "trend_cycle": 193.727033,
+          "trend_mom_pct": 0.181793
+        },
+        {
+          "date": "2023-06",
+          "original": 191.439728,
+          "yoy_pct": -2.811172,
+          "cumulative_yoy_pct": -2.062207,
+          "seasonally_adjusted": 191.188784,
+          "mom_pct": -0.406214,
+          "trend_cycle": 193.185592,
+          "trend_mom_pct": -0.279486
+        },
+        {
+          "date": "2023-07",
+          "original": 190.810407,
+          "yoy_pct": -5.817373,
+          "cumulative_yoy_pct": -2.634925,
+          "seasonally_adjusted": 192.356669,
+          "mom_pct": 0.610854,
+          "trend_cycle": 191.638871,
+          "trend_mom_pct": -0.80064
+        },
+        {
+          "date": "2023-08",
+          "original": 209.252559,
+          "yoy_pct": -3.030031,
+          "cumulative_yoy_pct": -2.690139,
+          "seasonally_adjusted": 189.485803,
+          "mom_pct": -1.492471,
+          "trend_cycle": 188.869703,
+          "trend_mom_pct": -1.444993
+        },
+        {
+          "date": "2023-09",
+          "original": 201.384568,
+          "yoy_pct": -4.527104,
+          "cumulative_yoy_pct": -2.910912,
+          "seasonally_adjusted": 188.262739,
+          "mom_pct": -0.645464,
+          "trend_cycle": 184.596809,
+          "trend_mom_pct": -2.26235
+        },
+        {
+          "date": "2023-10",
+          "original": 207.899293,
+          "yoy_pct": 2.983094,
+          "cumulative_yoy_pct": -2.3029,
+          "seasonally_adjusted": 187.713172,
+          "mom_pct": -0.291915,
+          "trend_cycle": 178.593526,
+          "trend_mom_pct": -3.252106
+        },
+        {
+          "date": "2023-11",
+          "original": 197.434728,
+          "yoy_pct": -2.080709,
+          "cumulative_yoy_pct": -2.282145,
+          "seasonally_adjusted": 185.543879,
+          "mom_pct": -1.155642,
+          "trend_cycle": 170.869591,
+          "trend_mom_pct": -4.324869
+        },
+        {
+          "date": "2023-12",
+          "original": 148.621055,
+          "yoy_pct": -12.171219,
+          "cumulative_yoy_pct": -3.001014,
+          "seasonally_adjusted": 166.950476,
+          "mom_pct": -10.021027,
+          "trend_cycle": 161.856026,
+          "trend_mom_pct": -5.275113
+        },
+        {
+          "date": "2024-01",
+          "original": 134.442197,
+          "yoy_pct": -21.989843,
+          "cumulative_yoy_pct": -21.989843,
+          "seasonally_adjusted": 143.550466,
+          "mom_pct": -14.016139,
+          "trend_cycle": 152.424443,
+          "trend_mom_pct": -5.827144
+        },
+        {
+          "date": "2024-02",
+          "original": 120.971913,
+          "yoy_pct": -25.430448,
+          "cumulative_yoy_pct": -23.658149,
+          "seasonally_adjusted": 137.281644,
+          "mom_pct": -4.366981,
+          "trend_cycle": 143.746382,
+          "trend_mom_pct": -5.693353
+        },
+        {
+          "date": "2024-03",
+          "original": 114.948697,
+          "yoy_pct": -42.377981,
+          "cumulative_yoy_pct": -30.65065,
+          "seasonally_adjusted": 119.639078,
+          "mom_pct": -12.851366,
+          "trend_cycle": 136.810445,
+          "trend_mom_pct": -4.825121
+        },
+        {
+          "date": "2024-04",
+          "original": 115.666565,
+          "yoy_pct": -37.421456,
+          "cumulative_yoy_pct": -32.391501,
+          "seasonally_adjusted": 118.30538,
+          "mom_pct": -1.114768,
+          "trend_cycle": 132.259235,
+          "trend_mom_pct": -3.326654
+        },
+        {
+          "date": "2024-05",
+          "original": 129.369569,
+          "yoy_pct": -32.701199,
+          "cumulative_yoy_pct": -32.456842,
+          "seasonally_adjusted": 128.252845,
+          "mom_pct": 8.408295,
+          "trend_cycle": 130.189925,
+          "trend_mom_pct": -1.564586
+        },
+        {
+          "date": "2024-06",
+          "original": 123.124205,
+          "yoy_pct": -35.685134,
+          "cumulative_yoy_pct": -33.017377,
+          "seasonally_adjusted": 132.03401,
+          "mom_pct": 2.948212,
+          "trend_cycle": 130.191391,
+          "trend_mom_pct": 0.001126
+        },
+        {
+          "date": "2024-07",
+          "original": 151.515538,
+          "yoy_pct": -20.593672,
+          "cumulative_yoy_pct": -31.184512,
+          "seasonally_adjusted": 143.706181,
+          "mom_pct": 8.840276,
+          "trend_cycle": 131.54531,
+          "trend_mom_pct": 1.039945
+        },
+        {
+          "date": "2024-08",
+          "original": 153.533721,
+          "yoy_pct": -26.627554,
+          "cumulative_yoy_pct": -30.549918,
+          "seasonally_adjusted": 139.987913,
+          "mom_pct": -2.587409,
+          "trend_cycle": 133.580671,
+          "trend_mom_pct": 1.547271
+        },
+        {
+          "date": "2024-09",
+          "original": 150.495415,
+          "yoy_pct": -25.269639,
+          "cumulative_yoy_pct": -29.925879,
+          "seasonally_adjusted": 141.71679,
+          "mom_pct": 1.235019,
+          "trend_cycle": 135.902797,
+          "trend_mom_pct": 1.738369
+        },
+        {
+          "date": "2024-10",
+          "original": 155.695238,
+          "yoy_pct": -25.110261,
+          "cumulative_yoy_pct": -29.402232,
+          "seasonally_adjusted": 134.608043,
+          "mom_pct": -5.016165,
+          "trend_cycle": 138.287658,
+          "trend_mom_pct": 1.754829
+        },
+        {
+          "date": "2024-11",
+          "original": 149.25967,
+          "yoy_pct": -24.400498,
+          "cumulative_yoy_pct": -28.934069,
+          "seasonally_adjusted": 141.610585,
+          "mom_pct": 5.202173,
+          "trend_cycle": 140.675735,
+          "trend_mom_pct": 1.726891
+        },
+        {
+          "date": "2024-12",
+          "original": 132.536901,
+          "yoy_pct": -10.822258,
+          "cumulative_yoy_pct": -27.741934,
+          "seasonally_adjusted": 145.115643,
+          "mom_pct": 2.475139,
+          "trend_cycle": 143.008664,
+          "trend_mom_pct": 1.658373
+        },
+        {
+          "date": "2025-01",
+          "original": 132.504223,
+          "yoy_pct": -1.441493,
+          "cumulative_yoy_pct": -1.441493,
+          "seasonally_adjusted": 141.181667,
+          "mom_pct": -2.710925,
+          "trend_cycle": 145.119559,
+          "trend_mom_pct": 1.47606
+        },
+        {
+          "date": "2025-02",
+          "original": 125.769891,
+          "yoy_pct": 3.966191,
+          "cumulative_yoy_pct": 1.119751,
+          "seasonally_adjusted": 145.110655,
+          "mom_pct": 2.782931,
+          "trend_cycle": 146.748697,
+          "trend_mom_pct": 1.122618
+        },
+        {
+          "date": "2025-03",
+          "original": 132.69084,
+          "yoy_pct": 15.434836,
+          "cumulative_yoy_pct": 5.562693,
+          "seasonally_adjusted": 139.672607,
+          "mom_pct": -3.747519,
+          "trend_cycle": 147.644817,
+          "trend_mom_pct": 0.610649
+        },
+        {
+          "date": "2025-04",
+          "original": 146.283614,
+          "yoy_pct": 26.470094,
+          "cumulative_yoy_pct": 10.538292,
+          "seasonally_adjusted": 147.915993,
+          "mom_pct": 5.901935,
+          "trend_cycle": 147.679071,
+          "trend_mom_pct": 0.0232
+        },
+        {
+          "date": "2025-05",
+          "original": 141.346614,
+          "yoy_pct": 9.258008,
+          "cumulative_yoy_pct": 10.26915,
+          "seasonally_adjusted": 143.512297,
+          "mom_pct": -2.97716,
+          "trend_cycle": 146.96394,
+          "trend_mom_pct": -0.484247
+        },
+        {
+          "date": "2025-06",
+          "original": 140.188027,
+          "yoy_pct": 13.859031,
+          "cumulative_yoy_pct": 10.867643,
+          "seasonally_adjusted": 146.026413,
+          "mom_pct": 1.751847,
+          "trend_cycle": 145.848724,
+          "trend_mom_pct": -0.758836
+        },
+        {
+          "date": "2025-07",
+          "original": 154.384745,
+          "yoy_pct": 1.893672,
+          "cumulative_yoy_pct": 9.339961,
+          "seasonally_adjusted": 147.087844,
+          "mom_pct": 0.726876,
+          "trend_cycle": 144.734696,
+          "trend_mom_pct": -0.763825
+        },
+        {
+          "date": "2025-08",
+          "original": 153.555343,
+          "yoy_pct": 0.014083,
+          "cumulative_yoy_pct": 7.967908,
+          "seasonally_adjusted": 144.839237,
+          "mom_pct": -1.528751,
+          "trend_cycle": 143.913364,
+          "trend_mom_pct": -0.567474
+        },
+        {
+          "date": "2025-09",
+          "original": 160.51597,
+          "yoy_pct": 6.658378,
+          "cumulative_yoy_pct": 7.80286,
+          "seasonally_adjusted": 146.756031,
+          "mom_pct": 1.323394,
+          "trend_cycle": 143.490554,
+          "trend_mom_pct": -0.293795
+        },
+        {
+          "date": "2025-10",
+          "original": 168.394752,
+          "yoy_pct": 8.156649,
+          "cumulative_yoy_pct": 7.84367,
+          "seasonally_adjusted": 146.544968,
+          "mom_pct": -0.143819,
+          "trend_cycle": 143.508989,
+          "trend_mom_pct": 0.012848
+        },
+        {
+          "date": "2025-11",
+          "original": 142.390547,
+          "yoy_pct": -4.60213,
+          "cumulative_yoy_pct": 6.604425,
+          "seasonally_adjusted": 140.620376,
+          "mom_pct": -4.042849,
+          "trend_cycle": 143.9399,
+          "trend_mom_pct": 0.300268
+        },
+        {
+          "date": "2025-12",
+          "original": 136.415136,
+          "yoy_pct": 2.926155,
+          "cumulative_yoy_pct": 6.305627,
+          "seasonally_adjusted": 145.41112,
+          "mom_pct": 3.406863,
+          "trend_cycle": 144.614694,
+          "trend_mom_pct": 0.468802
+        },
+        {
+          "date": "2026-01",
+          "original": 133.019794,
+          "yoy_pct": 0.389098,
+          "cumulative_yoy_pct": 0.389098,
+          "seasonally_adjusted": 145.148866,
+          "mom_pct": -0.180353,
+          "trend_cycle": 145.394297,
+          "trend_mom_pct": 0.53909
+        },
+        {
+          "date": "2026-02",
+          "original": 123.828196,
+          "yoy_pct": -1.543847,
+          "cumulative_yoy_pct": -0.552174,
+          "seasonally_adjusted": 142.951437,
+          "mom_pct": -1.513914,
+          "trend_cycle": 146.113451,
+          "trend_mom_pct": 0.494623
+        },
+        {
+          "date": "2026-03",
+          "original": 149.608191,
+          "yoy_pct": 12.749449,
+          "cumulative_yoy_pct": 3.962306,
+          "seasonally_adjusted": 151.436351,
+          "mom_pct": 5.935522,
+          "trend_cycle": 146.593964,
+          "trend_mom_pct": 0.328863
+        },
+        {
+          "date": "2026-04",
+          "original": 142.178015,
+          "yoy_pct": -2.806602,
+          "cumulative_yoy_pct": 2.119248,
+          "seasonally_adjusted": 144.065415,
+          "mom_pct": -4.867349,
+          "trend_cycle": 146.610602,
+          "trend_mom_pct": 0.011349
+        },
+        {
+          "date": "2026-05",
+          "original": 147.182143,
+          "yoy_pct": 4.128524,
+          "cumulative_yoy_pct": 2.537766,
+          "seasonally_adjusted": 153.388137,
+          "mom_pct": 6.471173,
+          "trend_cycle": 146.010166,
+          "trend_mom_pct": -0.409545
+        },
+        {
+          "date": "2026-06",
+          "original": 146.111955,
+          "yoy_pct": 4.225702,
+          "cumulative_yoy_pct": 2.826766,
+          "seasonally_adjusted": 146.849176,
+          "mom_pct": -4.263016,
+          "trend_cycle": 144.794349,
+          "trend_mom_pct": -0.832694
+        },
+        {
+          "date": "2026-07",
+          "original": 147.375947,
+          "yoy_pct": -4.539826,
+          "cumulative_yoy_pct": 1.65812,
+          "seasonally_adjusted": 140.163348,
+          "mom_pct": -4.552854,
+          "trend_cycle": 143.185973,
+          "trend_mom_pct": -1.1108,
+          "percentile_in_available_series": 6.9,
+          "available_min": 46.79,
+          "available_max": 208.92
+        }
+      ],
+      "latest": {
+        "date": "2026-07",
+        "original": 147.375947,
+        "yoy_pct": -4.539826,
+        "cumulative_yoy_pct": 1.65812,
+        "seasonally_adjusted": 140.163348,
+        "mom_pct": -4.552854,
+        "trend_cycle": 143.185973,
+        "trend_mom_pct": -1.1108,
+        "percentile_in_available_series": 6.9,
+        "available_min": 46.79,
+        "available_max": 208.92
+      }
+    }
+  },
+  "tourism": {
+    "series": [
+      {
+        "date": "2022-01",
+        "inbound_tourists_thousands": 170.894,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 417.974,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -247.08
+      },
+      {
+        "date": "2022-02",
+        "inbound_tourists_thousands": 143.657,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 468.235,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -324.578
+      },
+      {
+        "date": "2022-03",
+        "inbound_tourists_thousands": 200.86,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 381.952,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -181.092
+      },
+      {
+        "date": "2022-04",
+        "inbound_tourists_thousands": 287.459,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 371.446,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -83.987
+      },
+      {
+        "date": "2022-05",
+        "inbound_tourists_thousands": 264.623,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 362.647,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -98.024
+      },
+      {
+        "date": "2022-06",
+        "inbound_tourists_thousands": 238.15,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 360.22,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -122.07
+      },
+      {
+        "date": "2022-07",
+        "inbound_tourists_thousands": 373.088,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 469.07,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -95.982
+      },
+      {
+        "date": "2022-08",
+        "inbound_tourists_thousands": 339.137,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 424.819,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -85.682
+      },
+      {
+        "date": "2022-09",
+        "inbound_tourists_thousands": 363.987,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 441.002,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -77.015
+      },
+      {
+        "date": "2022-10",
+        "inbound_tourists_thousands": 394.256,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 536.811,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -142.555
+      },
+      {
+        "date": "2022-11",
+        "inbound_tourists_thousands": 438.028,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 450.308,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -12.28
+      },
+      {
+        "date": "2022-12",
+        "inbound_tourists_thousands": 431.105,
+        "inbound_yoy_pct": null,
+        "outbound_tourists_thousands": 457.8,
+        "outbound_yoy_pct": null,
+        "tourist_balance_thousands": -26.695
+      },
+      {
+        "date": "2023-01",
+        "inbound_tourists_thousands": 646.214,
+        "inbound_yoy_pct": 278.137325,
+        "outbound_tourists_thousands": 1288.31,
+        "outbound_yoy_pct": 208.227306,
+        "tourist_balance_thousands": -642.096
+      },
+      {
+        "date": "2023-02",
+        "inbound_tourists_thousands": 611.167,
+        "inbound_yoy_pct": 325.43489,
+        "outbound_tourists_thousands": 1151.545,
+        "outbound_yoy_pct": 145.933132,
+        "tourist_balance_thousands": -540.378
+      },
+      {
+        "date": "2023-03",
+        "inbound_tourists_thousands": 498.319,
+        "inbound_yoy_pct": 148.092701,
+        "outbound_tourists_thousands": 677.833,
+        "outbound_yoy_pct": 77.465493,
+        "tourist_balance_thousands": -179.514
+      },
+      {
+        "date": "2023-04",
+        "inbound_tourists_thousands": 574.793,
+        "inbound_yoy_pct": 99.956516,
+        "outbound_tourists_thousands": 531.761,
+        "outbound_yoy_pct": 43.159706,
+        "tourist_balance_thousands": 43.032
+      },
+      {
+        "date": "2023-05",
+        "inbound_tourists_thousands": 483.575,
+        "inbound_yoy_pct": 82.741107,
+        "outbound_tourists_thousands": 490.526,
+        "outbound_yoy_pct": 35.262666,
+        "tourist_balance_thousands": -6.951
+      },
+      {
+        "date": "2023-06",
+        "inbound_tourists_thousands": 419.434,
+        "inbound_yoy_pct": 76.121772,
+        "outbound_tourists_thousands": 411.679,
+        "outbound_yoy_pct": 14.285437,
+        "tourist_balance_thousands": 7.755
+      },
+      {
+        "date": "2023-07",
+        "inbound_tourists_thousands": 618.344,
+        "inbound_yoy_pct": 65.73677,
+        "outbound_tourists_thousands": 535.849,
+        "outbound_yoy_pct": 14.236468,
+        "tourist_balance_thousands": 82.495
+      },
+      {
+        "date": "2023-08",
+        "inbound_tourists_thousands": 507.318,
+        "inbound_yoy_pct": 49.590873,
+        "outbound_tourists_thousands": 457.579,
+        "outbound_yoy_pct": 7.711519,
+        "tourist_balance_thousands": 49.739
+      },
+      {
+        "date": "2023-09",
+        "inbound_tourists_thousands": 548.982,
+        "inbound_yoy_pct": 50.824617,
+        "outbound_tourists_thousands": 444.775,
+        "outbound_yoy_pct": 0.855552,
+        "tourist_balance_thousands": 104.207
+      },
+      {
+        "date": "2023-10",
+        "inbound_tourists_thousands": 593.668,
+        "inbound_yoy_pct": 50.579319,
+        "outbound_tourists_thousands": 524.433,
+        "outbound_yoy_pct": -2.305839,
+        "tourist_balance_thousands": 69.235
+      },
+      {
+        "date": "2023-11",
+        "inbound_tourists_thousands": 624.907,
+        "inbound_yoy_pct": 42.663711,
+        "outbound_tourists_thousands": 462.393,
+        "outbound_yoy_pct": 2.683719,
+        "tourist_balance_thousands": 162.514
+      },
+      {
+        "date": "2023-12",
+        "inbound_tourists_thousands": 643.169,
+        "inbound_yoy_pct": 49.1908,
+        "outbound_tourists_thousands": 460.547,
+        "outbound_yoy_pct": 0.600044,
+        "tourist_balance_thousands": 182.622
+      },
+      {
+        "date": "2024-01",
+        "inbound_tourists_thousands": 841.926,
+        "inbound_yoy_pct": 30.285942,
+        "outbound_tourists_thousands": 1112.608,
+        "outbound_yoy_pct": -13.638177,
+        "tourist_balance_thousands": -270.682
+      },
+      {
+        "date": "2024-02",
+        "inbound_tourists_thousands": 713.388,
+        "inbound_yoy_pct": 16.725543,
+        "outbound_tourists_thousands": 1047.11,
+        "outbound_yoy_pct": -9.06912,
+        "tourist_balance_thousands": -333.722
+      },
+      {
+        "date": "2024-03",
+        "inbound_tourists_thousands": 631.142,
+        "inbound_yoy_pct": 26.654211,
+        "outbound_tourists_thousands": 666.815,
+        "outbound_yoy_pct": -1.625474,
+        "tourist_balance_thousands": -35.673
+      },
+      {
+        "date": "2024-04",
+        "inbound_tourists_thousands": 440.074,
+        "inbound_yoy_pct": -23.437829,
+        "outbound_tourists_thousands": 710.556,
+        "outbound_yoy_pct": 33.623188,
+        "tourist_balance_thousands": -270.482
+      },
+      {
+        "date": "2024-05",
+        "inbound_tourists_thousands": 350.676,
+        "inbound_yoy_pct": -27.482604,
+        "outbound_tourists_thousands": 505.657,
+        "outbound_yoy_pct": 3.084648,
+        "tourist_balance_thousands": -154.981
+      },
+      {
+        "date": "2024-06",
+        "inbound_tourists_thousands": 333.154,
+        "inbound_yoy_pct": -20.570578,
+        "outbound_tourists_thousands": 500.721,
+        "outbound_yoy_pct": 21.628988,
+        "tourist_balance_thousands": -167.567
+      },
+      {
+        "date": "2024-07",
+        "inbound_tourists_thousands": 508.751,
+        "inbound_yoy_pct": -17.72363,
+        "outbound_tourists_thousands": 666.618,
+        "outbound_yoy_pct": 24.404077,
+        "tourist_balance_thousands": -157.867
+      },
+      {
+        "date": "2024-08",
+        "inbound_tourists_thousands": 418.45,
+        "inbound_yoy_pct": -17.517218,
+        "outbound_tourists_thousands": 513.691,
+        "outbound_yoy_pct": 12.262801,
+        "tourist_balance_thousands": -95.241
+      },
+      {
+        "date": "2024-09",
+        "inbound_tourists_thousands": 461.871,
+        "inbound_yoy_pct": -15.867733,
+        "outbound_tourists_thousands": 579.972,
+        "outbound_yoy_pct": 30.396717,
+        "tourist_balance_thousands": -118.101
+      },
+      {
+        "date": "2024-10",
+        "inbound_tourists_thousands": 414.065,
+        "inbound_yoy_pct": -30.253104,
+        "outbound_tourists_thousands": 654.109,
+        "outbound_yoy_pct": 24.726896,
+        "tourist_balance_thousands": -240.044
+      },
+      {
+        "date": "2024-11",
+        "inbound_tourists_thousands": 505.106,
+        "inbound_yoy_pct": -19.171013,
+        "outbound_tourists_thousands": 662.319,
+        "outbound_yoy_pct": 43.237246,
+        "tourist_balance_thousands": -157.213
+      },
+      {
+        "date": "2024-12",
+        "inbound_tourists_thousands": 581.607,
+        "inbound_yoy_pct": -9.571668,
+        "outbound_tourists_thousands": 693.64,
+        "outbound_yoy_pct": 50.612207,
+        "tourist_balance_thousands": -112.033
+      },
+      {
+        "date": "2025-01",
+        "inbound_tourists_thousands": 672.432,
+        "inbound_yoy_pct": -20.131698,
+        "outbound_tourists_thousands": 1927.26,
+        "outbound_yoy_pct": 73.220038,
+        "tourist_balance_thousands": -1254.828
+      },
+      {
+        "date": "2025-02",
+        "inbound_tourists_thousands": 494.441,
+        "inbound_yoy_pct": -30.691153,
+        "outbound_tourists_thousands": 1823.802,
+        "outbound_yoy_pct": 74.174824,
+        "tourist_balance_thousands": -1329.361
+      },
+      {
+        "date": "2025-03",
+        "inbound_tourists_thousands": 479.606,
+        "inbound_yoy_pct": -24.009811,
+        "outbound_tourists_thousands": 1325.61,
+        "outbound_yoy_pct": 98.797268,
+        "tourist_balance_thousands": -846.004
+      },
+      {
+        "date": "2025-04",
+        "inbound_tourists_thousands": 418.771,
+        "inbound_yoy_pct": -4.840777,
+        "outbound_tourists_thousands": 881.161,
+        "outbound_yoy_pct": 24.010071,
+        "tourist_balance_thousands": -462.39
+      },
+      {
+        "date": "2025-05",
+        "inbound_tourists_thousands": 315.39,
+        "inbound_yoy_pct": -10.06228,
+        "outbound_tourists_thousands": 752.834,
+        "outbound_yoy_pct": 48.882345,
+        "tourist_balance_thousands": -437.444
+      },
+      {
+        "date": "2025-06",
+        "inbound_tourists_thousands": 318.753,
+        "inbound_yoy_pct": -4.322626,
+        "outbound_tourists_thousands": 643.768,
+        "outbound_yoy_pct": 28.568205,
+        "tourist_balance_thousands": -325.015
+      },
+      {
+        "date": "2025-07",
+        "inbound_tourists_thousands": 427.202,
+        "inbound_yoy_pct": -16.029256,
+        "outbound_tourists_thousands": 843.066,
+        "outbound_yoy_pct": 26.469132,
+        "tourist_balance_thousands": -415.864
+      },
+      {
+        "date": "2025-08",
+        "inbound_tourists_thousands": 397.528,
+        "inbound_yoy_pct": -4.999881,
+        "outbound_tourists_thousands": 798.429,
+        "outbound_yoy_pct": 55.429821,
+        "tourist_balance_thousands": -400.901
+      },
+      {
+        "date": "2025-09",
+        "inbound_tourists_thousands": 374.768,
+        "inbound_yoy_pct": -18.858729,
+        "outbound_tourists_thousands": 706.44,
+        "outbound_yoy_pct": 21.80588,
+        "tourist_balance_thousands": -331.672
+      },
+      {
+        "date": "2025-10",
+        "inbound_tourists_thousands": 389.765,
+        "inbound_yoy_pct": -5.868644,
+        "outbound_tourists_thousands": 724.953,
+        "outbound_yoy_pct": 10.830611,
+        "tourist_balance_thousands": -335.188
+      },
+      {
+        "date": "2025-11",
+        "inbound_tourists_thousands": 491.371,
+        "inbound_yoy_pct": -2.719231,
+        "outbound_tourists_thousands": 763.789,
+        "outbound_yoy_pct": 15.320412,
+        "tourist_balance_thousands": -272.418
+      },
+      {
+        "date": "2025-12",
+        "inbound_tourists_thousands": 535.845,
+        "inbound_yoy_pct": -7.8682,
+        "outbound_tourists_thousands": 705.141,
+        "outbound_yoy_pct": 1.658065,
+        "tourist_balance_thousands": -169.296
+      },
+      {
+        "date": "2026-01",
+        "inbound_tourists_thousands": 681.956,
+        "inbound_yoy_pct": 1.416351,
+        "outbound_tourists_thousands": 1764.091,
+        "outbound_yoy_pct": -8.466372,
+        "tourist_balance_thousands": -1082.135
+      },
+      {
+        "date": "2026-02",
+        "inbound_tourists_thousands": 534.223,
+        "inbound_yoy_pct": 8.045854,
+        "outbound_tourists_thousands": 1629.18,
+        "outbound_yoy_pct": -10.671224,
+        "tourist_balance_thousands": -1094.957
+      },
+      {
+        "date": "2026-03",
+        "inbound_tourists_thousands": 509.625,
+        "inbound_yoy_pct": 6.259096,
+        "outbound_tourists_thousands": 1061.777,
+        "outbound_yoy_pct": -19.902762,
+        "tourist_balance_thousands": -552.152
+      },
+      {
+        "date": "2026-04",
+        "inbound_tourists_thousands": 463.072,
+        "inbound_yoy_pct": 10.578813,
+        "outbound_tourists_thousands": 764.757,
+        "outbound_yoy_pct": -13.210299,
+        "tourist_balance_thousands": -301.685
+      },
+      {
+        "date": "2026-05",
+        "inbound_tourists_thousands": 379.86,
+        "inbound_yoy_pct": 20.441358,
+        "outbound_tourists_thousands": 661.853,
+        "outbound_yoy_pct": -12.085134,
+        "tourist_balance_thousands": -281.993
+      },
+      {
+        "date": "2026-06",
+        "inbound_tourists_thousands": 329.177,
+        "inbound_yoy_pct": 3.270244,
+        "outbound_tourists_thousands": 501.918,
+        "outbound_yoy_pct": -22.034335,
+        "tourist_balance_thousands": -172.741
+      },
+      {
+        "date": "2026-07",
+        "inbound_tourists_thousands": 466.234,
+        "inbound_yoy_pct": 9.136661,
+        "outbound_tourists_thousands": 697.15,
+        "outbound_yoy_pct": -17.307779,
+        "tourist_balance_thousands": -230.916
+      }
+    ],
+    "latest": {
+      "date": "2026-07",
+      "inbound_tourists_thousands": 466.234,
+      "inbound_yoy_pct": 9.136661,
+      "outbound_tourists_thousands": 697.15,
+      "outbound_yoy_pct": -17.307779,
+      "tourist_balance_thousands": -230.916
+    }
+  },
+  "trade": {
+    "period": "enero-julio de 2026",
+    "categories": [
+      {
+        "id": "pp",
+        "label": "Productos primarios",
+        "short": "PP",
+        "current_usd_millions": 14749.467631,
+        "previous_usd_millions": 12278.155467,
+        "value_yoy_pct": 20.127715
+      },
+      {
+        "id": "moa",
+        "label": "Manufacturas de origen agropecuario",
+        "short": "MOA",
+        "current_usd_millions": 18910.693595,
+        "previous_usd_millions": 16672.72641,
+        "value_yoy_pct": 13.422923
+      },
+      {
+        "id": "moi",
+        "label": "Manufacturas de origen industrial",
+        "short": "MOI",
+        "current_usd_millions": 15553.555421,
+        "previous_usd_millions": 12445.008444,
+        "value_yoy_pct": 24.978263
+      },
+      {
+        "id": "cye",
+        "label": "Combustibles y energía",
+        "short": "CyE",
+        "current_usd_millions": 9151.469639,
+        "previous_usd_millions": 6106.338728,
+        "value_yoy_pct": 49.868359
+      }
+    ],
+    "moi_decomposition": {
+      "value_yoy_pct": 24.978263,
+      "price_yoy_pct": 16.97668,
+      "quantity_yoy_pct": 6.840323
+    },
+    "exports_latest": {
+      "seasonally_adjusted_mom_pct": 4.880157,
+      "trend_mom_pct": 2.554307
+    },
+    "energy": {
+      "broad_classification": {
+        "label": "Grandes rubros del ICA: CyE menos CyL",
+        "exports_usd_millions": 9151.469639,
+        "imports_usd_millions": 2298.255863,
+        "balance_usd_millions": 6853.213776
+      },
+      "chapter_27": {
+        "label": "Capítulo 27 de la NCM",
+        "exports_usd_millions": 7927.06008,
+        "imports_usd_millions": 2121.283674,
+        "balance_usd_millions": 5805.776406
+      }
+    }
+  },
+  "regional_exports": {
+    "period": "enero-mayo de 2026",
+    "complexes": 37,
+    "value_usd_millions": 4032,
+    "value_yoy_pct": 13.3,
+    "volume_tonnes": 3124835,
+    "volume_yoy_pct": 8.5,
+    "average_price_usd_per_tonne": 1290.2,
+    "average_price_yoy_pct": 4.4,
+    "record_value_since": 2004,
+    "record_volume_since": 2013
+  },
+  "oil": {
+    "period": "julio de 2026",
+    "barrels_per_day": 916200,
+    "yoy_pct": 17.2,
+    "vaca_muerta_barrels_per_day": 643100,
+    "vaca_muerta_yoy_pct": 26.4
+  },
+  "claims": [
+    {
+      "id": "construction",
+      "topic": "Construcción",
+      "claim": "Un primer semestre positivo descarta un derrumbe histórico.",
+      "status": "partial",
+      "verdict": "Recorte temporal",
+      "finding": "El +2,8% acumulado a junio era correcto, pero julio ya estaba publicado: el acumulado bajó a +1,7%, mientras el mes cayó 4,5% interanual y 4,6% desestacionalizado.",
+      "tests": {
+        "phenomenon": true,
+        "period": false,
+        "unit": true,
+        "inference": false
+      }
+    },
+    {
+      "id": "industry",
+      "topic": "Industria",
+      "claim": "Más exportaciones MOI prueban que la industria no está cayendo.",
+      "status": "mismatch",
+      "verdict": "Indicador cambiado",
+      "finding": "MOI son exportaciones clasificadas por origen y medidas en dólares. El IPI mide producción fabril: en julio cayó 4,9% interanual y 5,0% mensual desestacionalizado; el acumulado cedió 2,6%.",
+      "tests": {
+        "phenomenon": false,
+        "period": true,
+        "unit": false,
+        "inference": false
+      }
+    },
+    {
+      "id": "tourism",
+      "topic": "Turismo",
+      "claim": "Más turistas extranjeros prueban que el turismo no cae.",
+      "status": "partial",
+      "verdict": "Universo recortado",
+      "finding": "En julio entraron 466,2 mil turistas no residentes (+9,1%), pero salieron 697,1 mil residentes y el saldo fue -230,9 mil. Además, turismo receptivo internacional no mide turismo interno.",
+      "tests": {
+        "phenomenon": false,
+        "period": true,
+        "unit": true,
+        "inference": false
+      }
+    },
+    {
+      "id": "regional",
+      "topic": "Economías regionales",
+      "claim": "El récord exportador descarta la caída de las economías regionales.",
+      "status": "partial",
+      "verdict": "Alcance limitado",
+      "finding": "El récord es real para una canasta oficial de 37 complejos exportadores: +13,3% en valor y +8,5% en volumen. No mide por sí solo actividad, empleo, márgenes ni todas las economías regionales.",
+      "tests": {
+        "phenomenon": false,
+        "period": true,
+        "unit": true,
+        "inference": false
+      }
+    },
+    {
+      "id": "energy",
+      "topic": "Energía",
+      "claim": "Producción récord y superávit prueban que Argentina no es dependiente.",
+      "status": "unsupported",
+      "verdict": "Salto de conclusión",
+      "finding": "La producción petrolera récord y el superávit comercial son datos confirmados. No alcanzan para demostrar independencia energética: eso exige definir autoabastecimiento, estacionalidad, productos e infraestructura.",
+      "tests": {
+        "phenomenon": true,
+        "period": true,
+        "unit": true,
+        "inference": false
+      }
+    },
+    {
+      "id": "comparison_2013",
+      "topic": "Comparación con 2013",
+      "claim": "La diferencia con 2013 demuestra la responsabilidad de una gestión individual.",
+      "status": "mismatch",
+      "verdict": "Período y causalidad",
+      "finding": "El comunicado compara el año completo 2013 con enero-julio de 2026 y atribuye el cambio a una persona. Períodos distintos no prueban magnitud comparable, y una comparación antes-después no identifica causalidad.",
+      "tests": {
+        "phenomenon": true,
+        "period": false,
+        "unit": true,
+        "inference": false
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ipi",
+      "institution": "INDEC",
+      "title": "IPI manufacturero · julio de 2026",
+      "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipi_manufacturero_09_26B810401E77.pdf",
+      "data_url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_ipi_manufacturero_2026.xls",
+      "file": "sh_ipi_manufacturero_2026.xls",
+      "sha256": "aec17aa46fced8d9ca905a56c0a24b2552539f143e498313aa13714264bfc48b"
+    },
+    {
+      "id": "isac",
+      "institution": "INDEC",
+      "title": "ISAC · julio de 2026",
+      "url": "https://www.indec.gob.ar/uploads/informesdeprensa/isac_09_263EF0E9CDDD.pdf",
+      "data_url": "https://www.indec.gob.ar/ftp/cuadros/economia/sh_isac_2026.xls",
+      "file": "sh_isac_2026.xls",
+      "sha256": "d72a1f6720330f83b1012bad079b4eb0a66970d20ed02052f20d2151570596d8"
+    },
+    {
+      "id": "tourism_in",
+      "institution": "INDEC",
+      "title": "Turismo receptivo · total de vías",
+      "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-13-55",
+      "data_url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_turismo_receptivo_total_vias.xlsx",
+      "file": "serie_turismo_receptivo_total_vias.xlsx",
+      "sha256": "482d264663f8588a77d9ee066962443e7eab9befa649a9d02e8591bb06f09688"
+    },
+    {
+      "id": "tourism_out",
+      "institution": "INDEC",
+      "title": "Turismo emisivo · total de vías",
+      "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-13-55",
+      "data_url": "https://www.indec.gob.ar/ftp/cuadros/economia/serie_turismo_emisivo_total_vias.xlsx",
+      "file": "serie_turismo_emisivo_total_vias.xlsx",
+      "sha256": "45f54e85559949b9762f6c0e8d88c5e26338e0ce955134b89165876874c9898e"
+    },
+    {
+      "id": "trade",
+      "institution": "INDEC",
+      "title": "Intercambio comercial argentino · julio de 2026",
+      "url": "https://www.indec.gob.ar/ftp/ica_digital/ica_d_08_26E158B1D119/",
+      "data_url": "https://www.indec.gob.ar/ftp/cuadros/economia/ica_cuadros_20_08_26.xls",
+      "file": "ica_cuadros_20_08_26.xls",
+      "sha256": "7ec6d1426f1e67d4cd6d8608e277390286bd1ea950a1e2047ec9830f99d8d6eb"
+    },
+    {
+      "id": "regional_exports",
+      "institution": "Secretaría de Agricultura",
+      "title": "Exportaciones de 37 producciones regionales · enero-mayo de 2026",
+      "url": "https://www.argentina.gob.ar/noticias/las-exportaciones-del-conjunto-de-producciones-regionales-alcanzaron-un-record-en-valor-de"
+    },
+    {
+      "id": "oil_july",
+      "institution": "Secretaría de Energía",
+      "title": "Producción de petróleo y gas · julio de 2026",
+      "url": "https://www.argentina.gob.ar/noticias/la-produccion-de-petroleo-registro-otro-mes-de-crecimiento-en-julio"
+    }
+  ]
+}

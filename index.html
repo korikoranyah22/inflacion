@@ -9072,6 +9072,7 @@ html,body{overflow-x:clip}
     <button class="tab-btn" type="button" data-tab="tab-housing">Vivienda</button>
     <button class="tab-btn" type="button" data-tab="tab-growth">Crecimiento</button>
     <button class="tab-btn" type="button" data-tab="tab-emae">Actividad real · ¿crecimiento o rebote?</button>
+    <button class="tab-btn" type="button" data-tab="tab-productive-audit">Chequeo productivo</button>
     <button class="tab-btn" type="button" data-tab="tab-morosidad">Morosidad · ¿la gente puede pagar sus deudas?</button>
     <button class="tab-btn" type="button" data-tab="tab-credit-mora">Del shock a la mora</button>
     <button class="tab-btn" type="button" data-tab="tab-mora-causal">¿Qué explica la mora?</button>
@@ -12524,6 +12525,11 @@ html,body{overflow-x:clip}
   </section>
 
 
+  <!-- PRODUCTIVE_AUDIT_TAB_VERSION:1 -->
+  <section id="tab-productive-audit" class="tab-panel">
+    <productive-audit-dashboard></productive-audit-dashboard>
+  </section>
+
   <!-- MOROSIDAD_TAB_VERSION:1 -->
   <section id="tab-morosidad" class="tab-panel">
     <div class="mor-shell">
@@ -14808,6 +14814,7 @@ html,body{overflow-x:clip}
 <script src="assets/political-wealth-data.js?v=20260903-38"></script>
 <script src="assets/political-wealth-tab.js?v=20260903-38"></script>
 <script src="assets/fortune-income-tab.js?v=20260907-4"></script>
+<script src="assets/productive-audit-tab.js?v=20260910-1"></script>
 
 <script>
 const DASHBOARD_SNAPSHOT_CUTOFF = '2026-08-21';
@@ -15422,10 +15429,10 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 
 // ---------------- Navegación temática + escalas Y auditadas ----------------
 const DASH_TAB_GROUPS={
-  featured:['tab-story','tab-epica-households','tab-epica-dollars','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon','tab-power','tab-rates','tab-poverty','tab-emae','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-pendulo','tab-debt-public','tab-milei-cost'],
+  featured:['tab-story','tab-epica-households','tab-epica-dollars','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon','tab-power','tab-rates','tab-poverty','tab-emae','tab-productive-audit','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-pendulo','tab-debt-public','tab-milei-cost'],
   households:['tab-epica-households','tab-epica-incidence','tab-epica-narratives','tab-epica-caputo-colchon','tab-power','tab-poverty','tab-social','tab-gini','tab-structure','tab-family','tab-health-education','tab-consumption','tab-work','tab-housing','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-youth-credit'],
   prices:['tab-epica-dollars','tab-epica-narratives','tab-epica-caputo-colchon','tab-rates','tab-pres','tab-risk','tab-bigmac','tab-wholesale','tab-bcra'],
-  activity:['tab-epica-development','tab-epica-narratives','tab-consumption','tab-work','tab-investment','tab-housing','tab-growth','tab-emae','tab-roads','tab-tourism','tab-trade'],
+  activity:['tab-epica-development','tab-epica-narratives','tab-consumption','tab-work','tab-investment','tab-housing','tab-growth','tab-emae','tab-productive-audit','tab-roads','tab-tourism','tab-trade'],
   state:['tab-epica-dollars','tab-epica-incidence','tab-epica-development','tab-epica-narratives','tab-epica-caputo-colchon','tab-social','tab-health-education','tab-debt-public','tab-fiscal','tab-bcra','tab-debt-spiral','tab-program'],
   power:['tab-epica-incidence','tab-epica-narratives','tab-pendulo','tab-rates','tab-morosidad','tab-credit-mora','tab-mora-causal','tab-mora-anatomy','tab-wealth-contribution','tab-fortune-income','tab-milei-cost','tab-meli-benefits','tab-political-wealth','tab-casta']
 };

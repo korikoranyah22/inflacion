@@ -20,7 +20,7 @@ def digest(path: Path) -> str:
 
 
 manifest = json.loads((BUNDLE / ".bundle-manifest.json").read_text(encoding="utf-8"))
-assert manifest["public_file_count"] == 142
+assert manifest["public_file_count"] == 144
 assert manifest["public_bytes"] < MAX_BUNDLE_BYTES
 
 for row in manifest["files"]:
@@ -66,6 +66,7 @@ asset += (BUNDLE / "assets" / "epica-super-tabs.js").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "epica-stage2-tabs.js").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "political-wealth-tab.js").read_text(encoding="utf-8")
 asset += (BUNDLE / "assets" / "fortune-income-tab.js").read_text(encoding="utf-8")
+asset += (BUNDLE / "assets" / "productive-audit-tab.js").read_text(encoding="utf-8")
 for row in manifest["files"]:
     relative = str(row["path"])
     if relative.startswith("research/"):
@@ -87,5 +88,17 @@ source_ids = {source["id"] for source in fortune_data["sources"]}
 assert all(row["source_id"] in source_ids for row in fortune_rows)
 assert 'data-tab="tab-fortune-income"' in asset
 assert '<fortune-income-dashboard>' in asset
+
+productive_data = json.loads(
+    (BUNDLE / "assets" / "productive-audit-data.json").read_text(encoding="utf-8")
+)
+assert productive_data["version"] == "1.0.0"
+assert productive_data["updated"] == "2026-09-10"
+assert len(productive_data["claims"]) == 6
+assert len(productive_data["activity"]["industry"]["series"]) == 127
+assert len(productive_data["activity"]["construction"]["series"]) == 175
+assert productive_data["tourism"]["latest"]["date"] == "2026-07"
+assert 'data-tab="tab-productive-audit"' in asset
+assert '<productive-audit-dashboard>' in asset
 
 print(f"OK: paquete Railway autocontenido · {manifest['public_bytes'] / 1024 / 1024:.2f} MiB")
